@@ -1,0 +1,945 @@
+HEDGING UNDER
+COUNTERPARTY CREDIT
+UNCERTAINTY
+OLIVIER MAHUL*
+J. DAVID CUMMINS
+
+This study investigates optimal production and hedging decisions for firms facing
+price risk that can be hedged with vulnerable contracts, i.e., exposed to nonhedgeable endogenous counterparty credit risk. When vulnerable forward contracts are
+the only hedging instruments available, the firm’s optimal level of production is
+lower than without credit risk. Under plausible conditions on the stochastic
+dependence between the commodity price and the counterparty’s assets, the firm
+does not sell its entire production on the vulnerable forward market. When
+options on forward contracts are also available, the optimal hedging strategy
+requires a long put position. This provides a new rationale for the hedging role of
+options in the over-the-counter markets exposed to counterparty credit risk.
+© 2008 Wiley Periodicals, Inc. Jrl Fut Mark 28: 248–263, 2008
+
+INTRODUCTION
+Recent models on optimal hedging in incomplete markets investigate the
+behavior for firms in the presence of non-hedgeable background risks. Briys,
+
+We thank an anonymous referee for helpful suggestions. Any remaining errors are our own responsibility.
+*Correspondence author, The World Bank 2121 Pennsylvania Avenue, NW Washington, DC 20433, USA;
+e-mail: omahul@worldbank.org
+Received September 2006; Accepted May 2007
+
+■
+
+Olivier Mahul is a Senior Insurance Specialist in the World Bank, USA.
+
+■
+
+J. David Cummins is in the Department of Risk, Insurance, and Health Care Management at
+Temple University, UK.
+
+The Journal of Futures Markets, Vol. 28, No. 3, 248–263 (2008)
+© 2008 Wiley Periodicals, Inc.
+Published online in Wiley InterScience (www.interscience.wiley.com).
+DOI: 10.1002/fut.20287
+
+Hedging under Counterparty Credit Uncertainty
+
+249
+
+Crouhy, and Schlesinger (1993) and Mahul (2002) examine how the presence
+of basis risk alters the optimal hedging strategy on financial markets. Moschini
+and Lapan (1995) analyze the optimal hedging decisions for firms facing price,
+basis, and production risk, assuming that hedging instruments are only available for price risk. Wong (2003a) investigates the optimal hedging decision of
+a competitive exporting firm that faces hedgeable exchange rate risk and nonhedgeable price risk.
+These models assume that financial contracts are not exposed to counterparty’s credit risk: the counterparty is always assumed to make the promised
+payment in full. However, many financial assets are sold by market participants
+who have limited assets and therefore default is often a possibility that must be
+taken seriously, particularly if it follows a very sudden and strong movement in
+prices (Johnson & Stulz, 1987). These financial contracts, exposed to counterparty credit risk, are labeled “vulnerable contracts.” This source of risk is particularly relevant on the over-the-counter markets, where no clearance board
+guarantees the full payment should the counterparty become insolvent. Several
+methods for pricing derivatives involving credit risk have been provided (see, e.g.,
+Jarrow & Turnbull, 1995; Johnson & Stulz, 1987), but, to the best of our knowledge, the question concerning their proper application as hedging instruments
+remains largely unexplored. The only exceptions are in the insurance economics
+literature, where Doherty and Schlesinger (1990) and Mahul and Wright (2004)
+examine the demand for non-performing insurance. They show that, in the
+presence of an exogenous risk of default, i.e., the default risk is independent of
+the insurance decisions, partial insurance coverage is always purchased at an
+actuarial fair price.
+This study examines the problem of a firm choosing an optimal hedge
+against price risk in financial markets, where financial contracts are subject to
+unhedgeable/uninsurable counterparty credit risk. This credit risk is endogenous, that is, the firm’s hedging decisions will affect the counterparty’s default
+risk. The purpose of this study is twofold. First, it investigates the firm’s hedging and production decisions when vulnerable forward contracts are available.
+It shows that the presence of credit risk induces the hedging firm to reduce
+its production and that, under plausible assumptions, its vulnerable forward
+position requires partial coverage. Second, it investigates the use of options in
+the presence of credit risk, called vulnerable options. This is related to the
+scant literature on the hedging role of options. This literature points out that
+options, in additions to forward/futures contracts, are important hedging
+instruments when profits are not linear in the hedgeable source of risk. This
+nonlinearity may stem from the production flexibility of the competitive firm
+(Moschini & Lapan, 1992; Wong, 2003b) or the multiplicative interaction
+between the hedgeable and non-hedgeable risks (Brown & Toft, 2001;
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+250
+
+Mahul and David Cummins
+
+Moschini & Lapan, 1995; Sakong et al., 1993; Wong, 2003a). This study
+offers a new rationale for the hedging role of options traded on the overthe-counter markets. It shows that the presence of credit risk induces the hedging firm to purchase (vulnerable) options, although these contracts are sold at
+a fair price and the profit function is linear in the hedgeable price risk. This
+contrasts with the previous studies that focus on the nonlinearity of the profit
+function as the key point for the use of options.
+The next section presents the model and its assumptions in the expected
+utility framework. Optimal production and hedging decisions with vulnerable
+forward contracts are investigated in the followingsection. The demand for vulnerable options in the presence of vulnerable forwards is discussed in the section
+Hedging decisions with vulnerable option contracts. The final section gives the
+conclusion.
+THE MODEL
+A two-date model is considered in which a competitive firm produces a single
+output. Before the resolution of uncertainty, the firm has to commit to an output level, q. The (non-random) production process can be described in a
+reduced form by a cost function, c(q), with c(0)  0, c′(q)  0, and c′′(q)  0.
+The firm expects to sell the output quantity q on the forward market at a price
+~
+p.1,2 A forward contract is defined as a promise to deliver one unit of the commodity at the end of the period for the specified forward price.
+The vulnerable forward contract is described as follows. The contract
+~
+writer has assets of total value K when the contract matures. This random varip . Given a realized payoff
+able can be correlated with the settlement price 
+function I(p) and the realized assets K  0, the contract writer is solvent if
+I(p)  K, and thus he pays its commitment in full. If the contract writer cannot make the promised payment, I(p)  K, then he is considered as insolvent
+and the hedging firm holding the contract receives only K.
+~
+Let °(p, K) be the joint cumulative density function (CDF) of ( ~
+p, K)
+defined over the support [0, pmax]  [0, Kmax] with pmax  0 and Kmax  0. Let
+~
+~  p and £(p) the CDF of p.
+  p) denote the CDF of K
+~
+G(.p
+conditional on p
+  p) is the probability of the contract writer’s insolvency
+Therefore, G(I(p)p
+associated with the payoff function I(p) when the realized settlement price
+is p. The probability of counterparty default is endogenous because it depends
+on the firm’s hedging decisions. Note that financial contracts are asymmetric:
+there is a risk of default only when the payoff is positive. On the contrary, the
+1
+
+As basis risk is not discussed here, all hedging operations in this study are done in forward markets.
+Throughout this paper, random variables have a tilde, whereas their realizations do not.
+
+2
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Hedging under Counterparty Credit Uncertainty
+
+251
+
+hedging firm is assumed to always fulfill its commitments, e.g., because of high
+reputational costs.3
+In this model, the hedging firm faces two sources of uncertainty: the
+commodity price risk that can be hedged on the over-the-counter markets and
+the counterparty credit risk that is assumed to be unhedgeable/uninsurable. In this
+context of incomplete markets, the terminology “full coverage” means that the
+hedging firm is fully covered against the variations in the random settlement price
+when the contract is fully performing, i.e., when the counterparty does not default.
+The hedging firm is assumed to take its decisions to maximize the expected value of an increasing and concave transformation u(.) of its profit p. The
+firm can be an expected utility maximizer, where u(.) is the von NeumannMorgenstern utility function, and it exhibits risk aversion. This can also be a
+value-maximizing firm, where the expected profit net of deadweight costs is
+u(p)  p  d(p) , with d(.) being the exogenous deadweight cost function,
+d(p)  0, and d–(p)  0. This function captures most of the popular motivations for why a firm hedges: market imperfections (Greenwald & Stiglitz,
+1993), direct and indirect costs of financial distress (Smith & Stulz, 1985),
+information asymmetries that raise the cost of external funds relative to internal funds (Froot, Scharfstein, & Stein, 1993; Smith & Stulz, 1985).
+PRODUCTION AND HEDGING DECISIONS WITH
+VULNERABLE FORWARD CONTRACTS
+The firm can hedge against commodity price volatility on the over-the-counter
+forward markets. These contracts are subject to counterparty credit risk
+because there is no mechanism, such as a clearance board, that gives the hedging firm a guarantee that the contract will be fully honored. With over-thecounter forward markets available, the hedging firm’s profit is expressed as
+
+  qp
+  c(q)  min[n(p  
+p
+p ), K ]
+0
+
+(1)
+
+where p0 is the forward price and n the number of contracts sold (if n  0) or
+purchased (if n  0). The profit function can be rewritten as
+1
+if p  p0  Kn
+  qp
+  c(q)  
+p
+x n(p0  
+p ) with x  e
+K(n(p0  p)) otherwise
+
+(1)
+
+3
+
+As noted by a referee, a symmetric approach would be to consider that the hedging firm can also default.
+Risk-taking decisions with limited liability have been investigated by Gollier, Koehl, and Rochet (1997).
+Including limited liability in the present model makes the problem of credit risk much more difficult to
+address, because the primary objective of this study is to investigate optimal vulnerable hedging strategies. It
+is thus left to further research.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+252
+
+Mahul and David Cummins
+
+The default risk is thus characterized by the multiplicative background risk
+
+x , which is a function of the settlement price p, the forward price p0, the counterparty’s asset K, and the firm’s hedging decisions n. The hedging firm’s
+expected utility is
+pmax Kmax
+
+) 
+U  Eu(p
+
+  u(p) d°(p, K)
+0
+
+(2)
+
+0
+
+where E is the expectation operator and p is defined in Equation (1). This can
+be rewritten as
+pmax
+
+U
+
+n(p0 p)
+
+• 
+0
+
+  p)  u(qp  c(q)
+u(qp  c(q)  K) dG(Kp
+
+0
+
+  p) ¶ d£(p)
+ n(p0  p))G(n(p0  p)p
+
+(3)
+
+where G(./.)  1G(./.) is the probability of full performance. The first righthand side (RHS) term under the integral in Equation (3) is the utility level
+under states of counterparty’s insolvency, whereas the second RHS term is the
+utility level under states of counterparty’s solvency. As U is strictly concave in n
+and q, maximizing the firm’s expected utility with respect to n and q yields the
+necessary and sufficient conditions for the (unique) optimum:
+0U
+  c(q)  n(p  
+ )]  0
+ E[(p0  
+p )u(qp
+p ))G(n(p0  
+p )p
+0
+0n
+
+(4)
+
+0U
+  c(q) )u(p
+ )6  0
+ E5(p
+0q
+
+(5)
+
+Observing that the probability of default is zero whenever the settlement
+price is higher than the forward price, conditions (4) and (5) yield
+p0
+
+c(q)  p0 
+
+1
+)
+Eu(p
+
+ c (p  p )
+0
+
+0
+
+n(p0 p)
+
+
+0
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+  p)d d£(p) .
+u(pq  c(q)  K) dG(Kp
+
+(6)
+
+Hedging under Counterparty Credit Uncertainty
+
+253
+
+If the forward contracts are not subject to credit risk, i.e., the counterparty
+always fulfills its commitments, the second RHS term in Equation (6) vanishes.
+Therefore, any firm will select the output level at which the forward price equals
+the marginal production costs, despite its probability belief and attitude toward
+risk. This is the contribution of forward markets and the essence of the separation theorem, as stated by Holthausen (1979) and Feder, Just, and Schmitz
+(1980). When the forward contracts are exposed to counterparty’s credit risk, the
+RHS integral in Equation (6) is negative and, as a consequence, the optimal output level q* satisfies c(q*) 	 p0. This leads to the following proposition.
+Proposition 1: The firm’s optimal production level under vulnerable forward
+markets is smaller than that under non-vulnerable forward markets.
+The presence of credit risk in over-the-counter forward markets induces
+the hedging firm to reduce its level of production. In other words, the development of organized forward markets with an effective clearance board (i.e., which
+eliminates credit risk) gives the firms the incentives to increase their production,
+assuming the clearance board is free of cost. When the forward contracts are
+exposed to credit risk, the optimal output level depends on the distribution of
+random variables and the firm’s attitude toward risk, as shown by the second
+RHS term in Equation (6). A direct consequence is that the separation theorem
+does not hold.
+The first-order condition (4) evaluated at n  q gives
+0U
+ )]
+`
+ u(qp0  c(q))E[(p0  
+p )G(q(p0  
+p )p
+0n nq
+
+(7)
+
+or, equivalently,
+0U
+ )EG(q(p  
+)
+ u(qp0  c(q))5(p0  Ep
+p )p
+`
+0
+0n nq
+ ))6
+,G(q(p  
+p )p
+ cov(p
+0
+
+(8)
+
+The following lemma examines the optimal hedging decision n*, depending on the vulnerable forward price and the expected settlement price under
+.
+full performance, Ep
+Lemma 1: Assume that the forward contracts are subject to counterparty
+credit risk.
+ )) 	 0. Partial coverage, n* 	 q, is opti,G(q(p  
+(i)Suppose cov(p
+p )p
+0
+. If the vulnerable forward
+mal if the vulnerable forward price satisfies p0  Ep
+
+market price is such that p0  Ep , then n* can be either higher or lower than q.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+254
+
+Mahul and David Cummins
+
+ ))  0. Full coverage, n*  q, is optimal
+,G(q(p  
+p )p
+(ii)Suppose cov(p
+0
+
+if p0  Ep ; partial coverage, n* 	 q, is optimal if p0 	 E ~
+p; more-than-full
+~
+coverage, n*  q, is optimal if p0  E p.
+ ))  0. More-than-full coverage,
+, G(q(p  
+(iii)Suppose cov(p
+p )p
+0
+. When p 	 Ep
+, n* can be either higher or lower
+n*  q, is optimal if p0  Ep
+0
+than q.
+The optimal hedge can be decomposed into three terms: a “pure hedge”
+equal to the output level q, a “speculative” component caused by the difference between the expected settlement price and the current price, and a
+“default” component due to the correlation between the random settlement
+price and the probability of default conditional on the realization of the settlement price. The speculative component induces the hedging firm to decrease
+(increase) its hedge, as the vulnerable forward price is lower (higher) than
+the expected settlement price. The default component, characterized by the
+covariance term in Equation (8), leads the hedging firm to increase (decrease)
+its hedge as this covariance term is positive or negative, i.e., as default risk
+tends to be higher in the states of nature where the settlement price is lower.
+A sufficient condition is that the probability of default increases (decreases) as
+the settlement price increases. Differentiating it with respect to the settlement
+price gives
+  p)
+dG(q(p0  p)p
+  p)  G (q(p  p)p
+  p) (9)
+ qg(q(p0  p)p
+p
+0
+dp
+  p)  0G(Kp
+  p)0p. A marginal increase in the settlewhere Gp (Kp
+ment price p has two effects on the probability of default. The first, expressed
+by the first RHS term in Equation (9), is negative and is caused by a decrease
+in the upper bound under which the contract writer becomes insolvent. The
+second effect expressed by the second RHS term in Equation (9) is the impact
+of the settlement price on the probability distribution of the contract writer’s
+~
+  p)  0 for all K, i.e., the random assets K
+assets. It is zero if Gp (Kp
+and
+the random settlement price p~ are stochastically independent, and it is nega~
+  p) 	 0 for all K, i.e., an increase in p makes K
+tive if Gp (Kp
+less risky by
+first-degree stochastic dominance (FSD). Therefore, the derivative in
+~
+~
+Equation (9) is negative if K and p~ are stochastically independent or if K
+~
+becomes riskier by FSD as p decreases. If K becomes riskier by FSD as p
+  p)  0 for all K, then the sign of the derivative in
+increases, i.e., Gp (Kp
+Equation (9) is indeterminate because an increase in price generates an
+increase in both the assets and the liabilities of the contract writer. The sign of
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Hedging under Counterparty Credit Uncertainty
+
+255
+
+the covariance term is thus indeterminate. The following proposition summarizes this discussion.
+Proposition 2: Suppose that the vulnerable forward price is equal to or lower
+than the expected settlement price. If an increase in the settlement price makes the
+counterparty’s assets less risky by the first-degree stochastic dominance or if the two
+random variables are stochastically independent, then the firm’s optimal vulnerable
+forward position requires partial coverage, n* 	 q.
+The optimality of full coverage with unbiased (performing) forward
+contracts is a well-known result (see, e.g., Holthausen, 1979). However, full
+coverage in all states of nature is not possible when forward contracts are
+subject to credit risk. Partial coverage allows the hedging firm to shift wealth
+from states of nature where the counterparty has sufficient capital to make the
+promised payment to states where he cannot make the payment in full, i.e., it
+defaults.
+The stochastic dependence between the contract writer’s assets and the
+settlement price as described in Proposition 2 may be justified by the existence
+of a systemic component in these two risky assets caused, for example, by an
+imperfect diversification within the counterparty’s portfolio. For example, a
+global financial market crash is likely to generate a drop in the settlement price
+as well as in the value of the counterparty’s portfolio, thus increasing the threat
+of counterparty’ insolvency.
+Suppose that new optimistic (pessimistic) information on the value of the
+counterparty’s total assets is released. Let H(./ ~
+p  p) denote the transformed
+~
+~
+~
+CDF of K conditional on p  p, where H(./ p  p) dominates (is dominated by)
+~  p) by the first-degree stochastic dominance. From the first-order conG(./ p
+dition (4) and observing that the probability of default is zero when p  p0, the
+  p)  ()G(.p
+  p) for
+firm’s optimal hedge increases (decreases) as H(.p
+all p, i.e., as the released information is optimistic (pessimistic) in the sense of
+the first-order stochastic dominance.
+HEDGING DECISIONS WITH VULNERABLE
+OPTION CONTRACTS
+The optimal hedging strategy of the firm is now examined when options contracts are available hedging instruments in addition to forward contracts.
+Contrary to previous studies (see, e.g., Moschini & Lapan, 1995), the model is
+not restricted to the case where a single strike price for the option is available.
+Hence, the hedging firm can select its strike price over a continuum of strike
+prices [0, pmax]. The firm’s optimal hedging decision is derived in two steps.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+256
+
+Mahul and David Cummins
+
+First, an optimal (vulnerable) hedging instrument is designed in the presence of
+(vulnerable) forward contracts. Second, this first-best solution is replicated with
+options on forward contracts.
+Designing an Optimal Hedging Instrument
+Subject to Credit Risk
+The hedging firm sells n vulnerable forward contracts with a forward price p0,
+as discussed in the previous section. In addition, the firm can purchase a
+vulnerable hedging instrument described by the couple [I(.),P], where P is
+the premium and I(p) is the payoff made by the performing counterparty
+when the realized settlement price is p. The payoff function is assumed to be
+non-negative:
+I(p)  0
+
+(10)
+
+for all p
+
+When the counterparty is non-performing (insolvent), the hedging firm
+receives only K. The vulnerable hedging contract is assumed to be fairly priced,
+i.e., its expected net payoff is zero given the expectation of the firm:
+~
+p), K].4
+P  E min[I( ~
+p)  n(p0  ~
+
+(11)
+
+To find the form of an optimal vulnerable hedging instrument, the premium p and the function I(.) that maximizes the firm’s expected utility of
+profit subject to the above constraints have to be found. The problem is stated
+as follows:
+pmax Kmax
+
+Max
+I(.)
+
+  u(qp  c(q)  min[I(p)  n(p
+0
+
+0
+
+ p), K]  P)d°(p, K)
+
+(12)
+
+0
+
+subject to constraints (10) and (11).
+The problem is solved in two steps. First, an optimal vulnerable hedging
+instrument is designed for a fixed premium P. Second, the objective function is
+optimized with respect to P. The following lemma characterizes the solution to
+the maximization problem (12).
+
+4
+
+Our intention here is not to impose an ad hoc option pricing theory but to focus on the hedging role of
+(vulnerable) options.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Hedging under Counterparty Credit Uncertainty
+
+257
+
+Lemma 2: Suppose a positive probability of solvency. The optimal hedging
+instrument I*(p) under solvency, solution to the maximization program (12) subject to conditions (10) and (11), provides full marginal coverage under a strike
+price p̂  [0, pmax]: I*(p)  (q  n)max(p̂  p,0), where n is the firm’s forward
+position.
+The optimal strike price p̂ is defined in the following lemma.
+Lemma 3: Suppose that the price of the vulnerable hedging contract is unbiased and the firm’s forward position is n. The optimal strike price satisfies
+p̂ 	 pmax if the covariance term
+  I*(p
+ )  n(p  p̂)  P), G(I*(p
+ )  n(p  
+ )]
+cov[u'(qp
+p )p
+0
+0
+
+(13)
+
+is positive. It satisfies p̂  pmax otherwise.
+The proofs of Lemmas 2 and 3 are relegated to the Appendix. When
+the hedging contract is fairly priced, the optimal strike price p̂ level is lower
+than or equal to the maximum price pmax depending on whether the “default
+component” expressed by the covariance term in Equation (13) is positive or
+non-positive.
+Hedging Decisions
+The first-best hedging instrument characterized by Lemmas 2 and 3 is
+used to derive the optimal hedging strategy with options on forward contracts.
+The sign of covariance term in Equation (13) plays a key role in the optimal
+trigger price. It is worth noting that
+0
+u'(qp  I*(p)  n(p0  p)  P)
+0p
+ u(qp  I*(p)  n(p0  p)  P)[q  n  I*(p)]©
+
+(14)
+
+From the concavity of u and the optimal form of the hedging instrument
+as expressed in Lemma 2, the above expression is non-positive if n  q.
+Sufficient conditions for partial coverage with vulnerable forwards, n/q 	 1,
+to be optimal have been identified in Proposition 2. The covariance term (13)
+is thus positive or negative depending on whether the probability of counterparty default is a decreasing (increasing) function of the settlement price.
+Differentiating this probability of default with respect to the settlement
+price yields
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+258
+
+Mahul and David Cummins
+
+  p)
+0G(I*(p)  n(p0  p)p
+  p)
+ [I'*(p)  n]g(I*(p)  n(p0 p)p
+0p
+  p)
+ Gp (I*(p)  n(p0  p)p
+
+(15)
+
+The first RHS term in Equation (15) is negative from the optimal design
+of the hedging contract for p 	 p̂ and equals zero for all p  p̂. The second
+RHS term is negative (positive) if an increase in the settlement price p
+~
+makes the conditional distribution of K less risky (riskier) by FSD. It is equal
+to zero if the assets of the counterparty and the settlement price are
+stochastically independent. Consequently, if the contract writer’s assets
+become less risky according to the FSD criterion as the settlement price
+increases or if the two random variables are independent, then the covariance term is positive. It may be negative if the assets become riskier according to the FSD criterion as the settlement price increases. Combining
+Proposition 2, Lemma 2 and Lemma 3 with the above discussion leads to the
+main result of this study.
+Proposition 3: Suppose that the vulnerable options on forward contracts
+are available and fairly priced, and the hedging firm’s optimal vulnerable
+forward position is n. If an increase in the settlement price makes the counterparty’s assets less risky by first-degree stochastic dominance or if the two
+random variables are independent, then the firm’s optimal hedging strategy
+requires a long vulnerable put position with a hedge ratio to output equal
+to 1  nq  0.
+When the default risk is more likely to occur in the states of nature with
+low settlement price, then the optimal hedging strategy is to buy put options
+in a quantity equal to the production level net of the forward position, q  n.
+The hedging firm can replicate the first-best vulnerable hedging contract
+with vulnerable options as long as it can choose the strike price. Note that
+full coverage in all states of nature is not possible when options are subject
+to credit risk. Selecting a strike price lower than the most favorable realization of the commodity price allows the firm to shift wealth from states of
+nature where the counterparty is fully performing to states where the counterparty defaults through a decrease in the premium. This thus increases
+wealth in states where the firm’s marginal utility is the highest. Therefore,
+the presence of credit risk induces the firm to purchase put options on forward contracts, with the number of put options equal to the firm’s output
+level net of its forward position. The presence of credit risk thus offers a new
+rationale for the use of (vulnerable) options, which complements previous
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Hedging under Counterparty Credit Uncertainty
+
+259
+
+analyses relying on the nonlinearity of the profit function (with respect to
+the settlement price).
+It is worth noting that, when options on forward contracts are the only
+available hedging instrument, i.e., n  0, the firm’s optimal hedging strategy
+requires a long vulnerable put position with a hedge ratio to output equal
+to unity.
+CONCLUSION
+The development of innovative financial products on over-the-counter markets makes the risk of counterparty more acute. This study has examined the
+optimal production and hedging decisions of a firm under a hedgeable price
+risk and a non-hedgeable credit risk. When (vulnerable) forward contracts
+are the only available hedging instruments, the separation theorem fails and
+that the firm does not sell its entire production in the forward market. When
+(vulnerable) options are also available, the optimal hedging strategy requires
+a long (vulnerable) put position. The hedge ratio to output is equal to 1
+when the (vulnerable) options on forwards are the only hedging instruments
+available.
+A natural extension of this model will be to introduce a financial tool to
+deal with credit risk and to analyze hedging decisions with two separate hedging contracts. Another way of research will be to examine how the firm could
+efficiently hedge price risk with futures contracts subject to basis risk and
+forward contracts exposed to credit risk. This would lead to analyze the tradeoff
+between basis risk and credit risk and, more specifically, the tradeoff between
+the cost of basis risk and the cost of credit risk due to imperfect coverage
+against price risk. This model could also be tested empirically to investigate
+how hedging decisions are related to the degree of credit risk in the hedging
+instruments.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+260
+
+Mahul and David Cummins
+
+APPENDIX
+Proof of Lemma 2: As the marginal payoff function appears neither in the
+objective function nor in the constraint, problem (12) can be solved by using
+Kuhn-Tucker condition for I(p) for all p ∈ [0,pmax]. The Lagrangian of the maximization problem is
+J(p)
+
+L
+
+ u(qp  K  P)g(Kp  p)dK  u(qp  J(p)  P)[1  G( J(p)p  p)]
+0
+
+ I(p)l(p)  m £ p 
+
+pmax
+
+J(p)
+
+ •  K dG(Kp  p)
+0
+
+
+
+0
+
+  p)]¶ dc(p)§
+ J(p)[1  G( J(p)p
+
+(A1)
+
+where J(p)  I(p)  n(p0  p), and m and l(p) are the Lagrangian multipliers
+associated respectively to constraints (11) and (10), with
+l(p) e
+
+ 0 if I(p)  0
+ 0 otherwise
+
+(A2)
+
+The first-order condition with respect to I(p) is
+  p)]  l(p)  m[1  G( J(p)p
+  p)]  0
+u(qp  J(p)  P)[1  G( J(p)p
+
+(A3)
+for all p ∈ [0, pmax].
+For all p: I(p)  0, we have
+M(p)  u(qp  n(p0  p)  P)  m  0
+
+(A4)
+
+~  p)  0 for all p ∈ [0, pmax]. As M(p)  (q  n)u
+(qp 
+where G(0p
+I(p)  p) 	 0 under u
+ 	 0, and assuming n 	 q, there exists a trigger price
+p̂ such that
+I* (p) e
+
+0
+0
+
+for p 	 p̂
+otherwise
+
+  p) 	 1 for all p, we have for all p: I(p)  0,
+If G( J(p)p
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+(A5)
+
+Hedging under Counterparty Credit Uncertainty
+
+u(qp  J(p)  P)  m
+
+261
+
+(A6)
+
+This means that, in every state of the world in which indemnity payments
+are made, the marginal indirect utility of the hedger must be constant. This
+implies that
+I* (p)  (q  n)
+
+(A7)
+
+in those states. Combining Equations (A5) and (A7) leads to the design of an
+optimal vulnerable hedging contract.
+Proof of Lemma 3: The first-order condition associated with the maximization problem (12) with respect to p is
+J(p)
+
+pmax
+
+m
+
+ •  u(p )dG(Kp  p)  u(p )[1  G( J(p)p  p)] ¶ d°(p)
+1
+
+0
+
+2
+
+0
+
+)
+J(p
+
+ E£
+
+ u(p )dG(Kp) §  E[u(p )[1  G( J(p )p )]]
+1
+
+(A8)
+
+2
+
+0
+
+where, J* (p)  I* (p)  n(p0  p), p1  qp  K  P and p2  qp  J*(p)  P.
+Equation (A3) can be rewritten as
+  p)]
+l(p)  [  u(p2 )  mm][1  G( J(p)p
+
+(A9)
+
+
+Taking the expectation of this equality with respect to p and replacing m by
+its expression in Equation (A8) gives
+ )p
+ )]]
+ )   E[u(p
+ )[1  G( J(p
+El(p
+2
+)
+J(p
+
+ )p
+ )] E £
+ [1  EG(J(p
+
+ u(p )dG(Kp ) §
+1
+
+0
+
+ )p
+ )]]
+ )p
+ )]E[u(p
+ )[1  G(J(p
+ [1  EG( J(p
+2
+
+(A10)
+
+For K 	 I(p), we have p2  p1 and thus u(p2) 	 u(p1) because
+u
+ 	 0. This implies that
+J(p)
+
+J(p)
+
+ u(p ) dG(Kp  p)   u(p ) dG(Kp  p)  u(p )G( J(p)p  p)
+1
+
+0
+
+2
+
+2
+
+0
+
+for all p.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+262
+
+Mahul and David Cummins
+
+Consequently, we have
+ )  E[u(p
+ )[1  G( J(p
+ )p
+ )]]  [1  EG(J(p
+ )p
+ )]Eu(p
+ )
+El(p
+2
+2
+
+(A11)
+
+This inequality can be rewritten as
+ )p
+ ))
+ )  cov(u(p
+ ), G( J(p
+El(p
+2
+
+(A12)
+
+If the RHS covariance term in Equation (A12) is positive, then
+
+El(p )  0. By definition of l( ) , this is possible only if p̂ 	 pmax. Alternatively,
+ )  0,
+if the RHS covariance term is non-positive, then we must have El(p
+i.e., p̂  pmax.
+
+BIBLIOGRAPHY
+Briys, E., Crouhy, M., & Schlesinger, H. (1993). Optimal hedging in a futures
+market with background noise and basis risk. European Economic Review, 37,
+949–960.
+Brown, G. W., & Toft, K. J. (2001). How firms should hedge. Review of Financial
+Studies, 15, 1283–1324.
+Doherty, N., & Schlesinger, H. (1990). Rational insurance purchasing: Consideration of
+contract nonperformance. Quarterly Journal of Economics, 55, 243–253.
+Feder, G., Just, R. E., & Schmitz, A. (1980). Futures markets and the theory of the firm
+under price uncertainty. Quarterly Journal of Economics, 94, 317–328.
+Froot, K., Scharfstein, D., & Stein, J. (1993). Risk management: Coordinating corporate investment and financing decisions. Journal of Finance, 48, 1629–1658.
+Gollier, C., Koehl, P. F., & Rochet, J. C. (1997). Risk-taking behavior with expected
+utility and limited liability: Applications to the regulation of financial intermediaries. Journal of Risk and Insurance, 64, 347–370.
+Greenwald, B. C., & Stiglitz, J. E. (1993). Financial market imperfections and business
+cycles. Quarterly Journal of Economics, 108, 77–114.
+Holthausen, D. M. (1979). Hedging and the competitive firm under price uncertainty.
+American Economic Review, 69, 989–995.
+Jarrow, R. A., & Turnbull, S. M. (1995). Pricing derivatives on financial securities subject to credit risk. Journal of Finance, 50, 53–85.
+Johnson, H., & Stulz, R. (1987). The pricing of options with default risk. Journal of
+Finance, 42, 267–280.
+Mahul, O. (2002). Optimal hedging in futures and options markets with basis risk.
+Journal of Futures Markets, 22, 59–72.
+Mahul, O., & Wright, B. D. (2004). Implications of incomplete performance for insurance. Economica, 71, 661–670.
+Moschini, G., & Lapan, H. (1992). Hedging price risk with options and futures for the
+competitive firm with production flexibility. International Economic Review, 33,
+607–618.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Hedging under Counterparty Credit Uncertainty
+
+263
+
+Moschini, G., & Lapan, H. (1995). The hedging role of options and futures under joint
+price, basis and production risk. International Economic Review, 36, 1025–1049.
+Sakong, Y., Hayes, D. J., & Hallam, A. (1993). Hedging production risk with options.
+American Journal of Agricultural Economics, 75, 408–415.
+Smith, C. W., & Stulz, R. (1985). The determinants of firms’ hedging policies. Journal
+of Financial and Quantitative Analysis, 20, 391–405.
+Wong, K. P. (2003a). Currency hedging with options and futures. European Economic
+Review, 47, 833–839.
+Wong, K. P. (2003b). Export flexibility and currency hedging. International Economic
+Review, 44, 1295–1312.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+

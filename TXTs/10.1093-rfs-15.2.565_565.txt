@@ -1,0 +1,516 @@
+Discussion of “Momentum and
+Autocorrelation in Stock Returns”
+Joseph Chen
+University of Southern California
+Harrison Hong
+Stanford University
+Jegadeesh and Titman (1993) document individual stock momentum: strategies that buy stocks that have performed relatively well in the past and sell
+stocks that have performed relatively poorly in the past generate signiﬁcant
+positive returns over the 3- to 12-month horizon. This ﬁnding, obtained using
+data from the U.S. market, also holds for a number of international markets
+[e.g., Haugen and Baker (1996), Rouwenhorst (1998)]. What are the economic mechanisms behind individual stock momentum?
+One approach to answering this question is to relate momentum to other
+factors driving the cross section of expected stock returns. A number of
+ﬁndings have emerged. Adjustments for factors such as the Fama and French
+three-factor model tend to strengthen, rather than explain, momentum [e.g.,
+Fama and French (1996), Grundy and Martin (2001)]. Contrary to the ﬁnding
+of Conrad and Kaul (1998), cross-sectional differences in expected returns
+is not an important cause of momentum [e.g., Jegadeesh and Titman (1993),
+Grundy and Martin (2001)]. And contrary to the ﬁnding of Moskowitz and
+Grinblatt (1999), a number of subsequent articles ﬁnd that industries (or
+industry effects) do not explain momentum [e.g., Asness, Porter, and Stevens
+(2000), Lee and Swaminathan (2000), Grundy and Martin (2001)]. Stock
+price momentum is partially related to earnings momentum, but both past
+returns and public earnings surprises (in a multiple regression) help to predict
+subsequent returns at horizons of six months to a year [e.g., Chan, Jegadeesh,
+and Lakonishok (1996)].
+1. The Article’s Main Findings and Conclusions
+Following this approach, this provocative article has two sets of ﬁndings.
+The ﬁrst set is similar to the ﬁnding of industry momentum [Moskowitz and
+Grinblatt (1999)]—for a set of industry portfolios, buying past winning portfolios and selling past losing portfolios generate positive returns for horizons
+out to about one year. Lewellen ﬁnds that size and book-to-market portfolios
+We would like to thank Ming Huang and Jeremy Stein for helpful comments. Address correspondence to
+Harrison Hong, Department of Finance, Graduate School of Business, Stanford University, Stanford, CA
+94305.
+The Review of Financial Studies Special 2002 Vol. 15, No. 2, pp. 565–573
+© 2002 The Society for Financial Studies
+
+The Review of Financial Studies / v 15 n 2 2002
+
+also exhibit momentum, similar in magnitude but distinct from momentum
+in individual stocks and industry. These new ﬁndings add to the growing list
+of stylized facts regarding stock price momentum. Like industry momentum,
+size and book-to-market momentum can conceivably be consistent with any
+number of explanations.1
+The second set of ﬁndings is based on Lo and MacKinlay (1990), who
+observe that the expected proﬁt of a momentum strategy might come from
+three different sources. A stock that performed well relative to other stocks
+might continue to do so because (1) the stock simply has a high unconditional
+mean relative to other stocks (this source has already been rejected in the
+literature), (2) the stock return is positively correlated, so its own past return
+predicts high future returns, and (3) the stock return is negatively correlated
+with lagged returns on other stocks (negative cross-serial covariance), so their
+poor performance predicts high future returns.
+Using raw returns, Lewellen calculates (separately) for industry, size, and
+book-to-market portfolios the auto- and cross-serial covariances among the
+portfolios. For each of these three sets of portfolios, the average of the autocovariances is slightly negative but is not statistically signiﬁcant. The corresponding average of the cross-serial covariances tend to be more negative
+but are also not generally statistically signiﬁcant.
+He draws two conclusions from these ﬁndings. First, the negative average of the autocovariances is evidence that momentum in industry, size, and
+book-to-market portfolios are not due to past winners (losers) continuing
+to be winners (losers). So this is inconsistent with the underreaction-based,
+behavioral models of momentum such as Barberis, Shleifer, and Vishny
+(1998) and Hong and Stein (1999), which imply positive autocovariances
+in stock returns. Second, the momentum in these portfolios is due to future
+stock return being negatively correlated with the lagged return of other stocks
+(negative cross-serial covariance), consistent with an overreaction hypothesis
+in which certain stocks overreact to a common factor and others do not.
+2. Our Main Points
+Beyond the obvious issues with the statistical signiﬁcance of the auto- and
+cross-serial covariance estimates, we argue that the two conclusions of the
+article are unwarranted. First, we show with a simple example that his empirical ﬁndings can in general be consistent with momentum being due to the
+underreaction to shocks. In other words, in general it does not follow that just
+because raw auto- and cross-serial covariances are on average negative that
+underreaction is not the source of momentum. Second, using an insight from
+1
+
+In a world with individual stock price momentum, one would expect that even portfolios created randomly
+might exhibit some momentum. Grundy and Martin (2001) ﬁnd that this is indeed the case. And depending on
+how the industry momentum strategy is constructed, they ﬁnd that the difference between industry momentum
+and momentum in random portfolios is not statistically signiﬁcant.
+
+566
+
+Discussion of “Momentum and Autocorrelation in Stock Returns”
+
+this example, we show that the industry, size, and book-to-market momentum are not likely to be due to the overreaction hypothesis advocated by
+the article. Instead, these ﬁndings are more consistent with underreactionbased explanations.
+3. A Simple Example
+Consider a one-factor world in which the only source of momentum is
+underreaction to shocks. Assume there are N stock returns (think of them as
+N industry portfolios) with the following one-factor structure:
+ft = ft−1 + et 
+rit = 	i + 
+i ft + i t 
+
+(1)
+
+where et is a mean-zero serially uncorrelated shock to the factor ft and i t is
+a mean-zero, positively serially correlated idiosyncratic shock with variance
+2 and Ei t i t−1  = 2 > 0. The unconditional variance of the factor ft
+is f2 . (Think of ft as the demeaned market factor.) The parameter  is the
+serial correlation of the factor. All other correlations, serial correlations, and
+cross-serial correlations are assumed to be zero. And assume that every asset
+has the same mean and beta: 	i = 	 and 
+i = 
+ = 1. By construction, the only
+source of momentum proﬁt in this setting is the positive serial correlation of
+the idiosyncratic (e.g., industry) shock, which one can think of as due to
+some underreaction mechanism along the lines of recent behavioral models.
+Lets verify this by calculating the expected momentum proﬁt. Recall that
+a momentum strategy buys stocks based on their returns in period t − 1 and
+holds the stocks in period t. With this strategy, the portfolio weight assigned
+to stock i at time t is
+wi t =
+
+1
+− r 
+r
+N i t−1 t−1
+
+(2)
+
+
+where rt = N1 Ni=1 ri t is the equally weighted index return and 	¯ the expected
+return of the index. By construction, the total investment at any given time
+is zero. However, the dollar investments in the long and short sides of the
+portfolio vary over time depending on the return realizations at time t − 1.
+The time t proﬁt of this momentum strategy is
+t =
+
+N
+1 
+w r 
+N t=1 i t i t
+
+(3)
+
+Given the one-factor structure in Equation (1), the momentum strategy in
+Equation (2) is given by weights in each asset of
+wi t =
+
+N
+N −1
+1 
+
+−
+
+
+i
+t−1
+N2
+N 2 j=i j t−1
+
+(4)
+
+567
+
+The Review of Financial Studies / v 15 n 2 2002
+
+Therefore the momentum proﬁt in Equation (3) is simply
+
+N 
+N
+
+N −1
+1 
+r 
+t =
+
+−
+
+N 2 i t−1 N 2 j=i j t−1 i t
+i=1
+
+(5)
+
+It is easy to show that the expected momentum proﬁt is
+Et  =
+
+N −1 2
+ 
+N
+
+(6)
+
+By construction, it only depends on the positive autocovariance of the idiosyncratic shocks since the unconditional means and stock betas are assumed to
+be identical.
+Now, lets calculate the Lo and MacKinlay decomposition for our onefactor example. Recall from Lo and MacKinlay (1990) that expected momentum proﬁt is given by the following mathematical identity:
+Et  ≡ 	2 + O − C
+
+(7)
+
+where the ﬁrst term, 	2 , is the cross-sectional variance of expected returns
+given by
+	2 =
+
+N
+1 
+	 − 	
+¯ 2
+N t=1 i
+
+(8)
+
+the second term, O, is the average autocovariance of raw returns given by
+O=
+
+N
+N −1 
+Eri t ri t−1 − 	2i 
+N 2 i=1
+
+(9)
+
+and the third term, C, is the average cross-serial covariance given by
+C = Ert rt−1  − 	¯ 2 −
+
+N
+1 
+Eri t ri t−1 − 	2i 
+N 2 i=1
+
+(10)
+
+Now, applying the formulas in Equations (8)–(10) to our one-factor example, it is easy to show that 	2 = 0 (as expected), that
+O=
+
+N −1 2 N −1 2
+f +
+ 
+N
+N
+
+(11)
+
+N −1 2
+f 
+N
+
+(12)
+
+and that
+C=
+
+Notice that 	2 + O − C = NN−1 2 , which is simply the expected momentum
+proﬁt calculated above in Equation (6).
+568
+
+Discussion of “Momentum and Autocorrelation in Stock Returns”
+
+When the common factor is serially correlated ( = 0), the average
+autocovariance O naturally depends on the autocovariances of the idiosyncratic shocks and the common factor. The expected momentum proﬁt E
+depends only on the autocovariance of the idiosyncratic shocks (and not of
+the common factor) by construction. Hence the cross-serial covariance term
+C has to be such that the identity given in Equation (7), the Lo and MacKinlay decomposition, holds.
+So even though momentum proﬁts do not depend on , the Lo and MacKinlay decomposition does. It yields negative auto- and cross-serial covariances
+or positive ones depending on the serial correlation of the factor during
+the sample period over which the decomposition is done. From Equations
+(11) and (12), if the autocorrelation of the common factor is positive, then
+O and C are positive. If it is sufﬁciently negative, then both O and C
+are negative.
+We draw two conclusions from this simple example. First, the Lo and
+MacKinlay decomposition is not informative in general about the underlying
+economic source of momentum proﬁt. Second, momentum due to underreaction can be entirely consistent with negative auto- and cross-serial covariances.
+In our Table 1 we show that the ﬁndings of the article are likely to be
+driven by the serial correlation of the market factor in sample. In panel A
+we calculate the momentum proﬁts using a set of 20 industry portfolios
+based on the strategy given in Equation (2) using past six-month returns.
+
+Table 1
+Momentum proﬁts and auto- and cross-serial covariances
+Panel A: Momentum proﬁts and serial correlation in the market
+Sample
+1941–1999
+1928–1999
+
+Mean return
+
+SD
+
+t-statistics
+
+0.072%
+0.064%
+
+032%
+038%
+
+244
+202
+
+
+−0041
+0080
+
+Panel B: Lo and MacKinlay decomposition
+Sample
+1941–1999
+1928–1999
+
+	2
+
+O
+
+C
+
+0.004%
+0.004%
+
+−0065%
+0209%
+
+−0133%
+0149%
+
+
+
+f2
+
+Total
+0072%
+0064%
+
+Panel C: Jegadeesh and Titman decomposition
+Sample
+1941–1999
+1928–1999
+
+	2
+0.004%
+0.004%
+
+0094%
+0067%
+
+−0001%
+0015%
+
+Total
+0090%
+0086%
+
+Value-weighted industry portfolios are formed using all common U.S. stocks listed on NYSE, AMEX, and Nasdaq. The industry
+classiﬁcations are based on two-digit SIC codes following Moskowitz and Grinblatt (1999) and produce 20 industries: mining,
+food, apparel, paper, chemical, petroleum, construction, primary metals, fabricated metals, machinery, electrical equipment,
+transportation equipment, manufacturing, railroads, other transportation, utilities, department stores, retail, ﬁnancials, and others.
+Returns are cumulated every six months over January–June and over July–December. Momentum strategies are formed every
+January and July based on prior six-month returns. The strategies are given in Equation (2). Panel A reports the momentum
+proﬁts expressed as semiannual returns and the serial correlation estimate of the market factor (value-weighted CRSP), ,
+calculated using six-month return. Panel B reports the Lo and MacKinlay decomposition of expected momentum proﬁt given in
+Equation (7). Panel C reports the Jegadeesh and Titman decomposition of expected momentum proﬁt given in Equation (14).
+Due to estimation error, this decomposition does not always add up to the momentum proﬁt.
+
+569
+
+The Review of Financial Studies / v 15 n 2 2002
+
+The numbers are 0.072% semiannual during the 1941–1999 and 0.064%
+semiannual during 1928–1999. They are similar to the ones reported in the
+article. The momentum proﬁts in the two periods are roughly the same. We
+also report the serial correlation in the market factor (value-weighted CRSP)
+using six-month returns. The numbers are −004 during the 1941–1999 and
+0.08 during 1928–1999. In panel B we report the corresponding the Lo and
+MacKinlay decomposition given by Equations (7)–(10). During 1941–1999,
+the cross-serial covariance term C is negative and the autocovariance term O
+is also negative. During 1928–1999, C is now positive and O is positive as
+well, just as our one-factor example predicts.
+In fact, we have replicated some of the ﬁndings on cross-serial covariances
+(measured at different horizons) reported in the article’s Table 6. We ﬁnd
+that these magnitudes are similar to the values predicted by Equation (12).
+In other words, it appears that a sizeable fraction of the article’s ﬁndings is
+due to the in-sample negative serial correlation of the market as opposed to
+an overreaction mechanism advocated by the article.
+4. An Alternative Decomposition of Expected Momentum Proﬁt
+As the simple example clearly shows, the Lo and MacKinlay decomposition is not in general informative about the economic sources of momentum,
+resulting in potentially misleading inferences. How then do we go about testing an overreaction-based explanation of momentum? Jegadeesh and Titman
+(1995) provides an answer to this question. Suppose that stocks follow the
+following factor structure:
+r i t = 	i + b0 i ft + b1 i ft−1 + i t 
+
+(13)
+
+where ft is the unexpected factor realization, i t is the asset speciﬁc component of return at time t, and (b0 i  b1 i ) are the time-invariant sensitivities
+of stock i to the contemporaneous and lagged realizations of the factor.
+This model is similar to conventional multifactor models except that it
+allows for the lagged factor sensitivities to be different from zero. To see
+how this speciﬁcation will generate momentum due to overreaction, imagine
+that there are only two industries A and B, with say (b0 A = 13 b1 A = 0) and
+(b0 B = 09 b1 B = −01). In this case, a naïve strategy of buying the winning
+industry and selling the losing industry is proﬁtable because of cross-serial
+covariances due to the overreaction of industry B. Suppose that there is a
+positive factor realization, so A is the winning industry. Then buying industry
+A and selling industry B is proﬁtable since industry B overreacts to the
+positive factor shock (and has negative future returns on average). Suppose
+that there is a negative factor shock, so A is the losing industry. Then the
+strategy calls for selling industry A and buying B. This is proﬁtable because
+B overreacts to the negative factor shock (and has positive future returns on
+average).
+570
+
+Discussion of “Momentum and Autocorrelation in Stock Returns”
+
+The expected momentum proﬁts under Equation (13) is shown by Jegadeesh
+and Titman (1995) to be given by
+Et  = 	2 +  + f2 
+
+(14)
+
+where the ﬁrst term, 	2 , is the cross-sectional variance of expected returns
+given in Equation (8), the second term, , is the average idiosyncratic
+autocovariance given by
+=
+
+N
+N −1 
+covi t  i t−1 
+N 2 i=1
+
+(15)
+
+and the third term, , is the contribution to momentum proﬁts from the
+differential overreaction to the common factor given by
+=
+
+N
+1 
+b − b̄0 b1 i − b̄1 
+N i=1 0 i
+
+(16)
+
+where b̄0 i and b̄1 i are the averages of b0 i s and b1 i s, respectively. In the
+context of the two-industry example given above, it is easy to see that  > 0.
+If overreaction is a signiﬁcant contribution for momentum, then we ought
+to see this latter term contributing a signiﬁcant amount to the total momentum proﬁt.
+We perform this Jegadeesh and Titman decomposition for the portfolios
+in our Table 1. For each of the 20 time series of industry portfolios, we
+estimate Equation (14) using the (demeaned) value-weighted market CRSP
+index as the proxy for the common factor. This estimation yields estimates
+for (	i  b0 i  b1 i ) for each of the 20 time series. With these estimates we
+can calculate the residuals i t for each of the 20 industry portfolios. This
+allows us to calculate the autocovariance for these time series of residuals
+and to average these autocovariances to get an estimate of . It is also easy
+to estimate  and f2 .
+Panel C of Table 1 reports the results of this decomposition for the 1928–
+1999 and the 1941–1999 time periods. Notice that in both instances,  > 0
+and is responsible for all the momentum proﬁts, whereas the cross-serial
+covariance term f2 is nearly zero. In other words, the overreaction model
+of Equation (14) is not likely to be driving momentum proﬁts, consistent
+with our earlier ﬁnding that the in-sample serial correlation of the market
+likely to be responsible for the observed negative cross-serial covariances.
+Moreover, panel C conﬁrms that momentum is due to price continuation,
+consistent with underreaction-based explanations.
+5. Conclusion
+This article contributes to the literature by documenting the existence of
+momentum in size and book-to-market portfolios. However, the conclusions
+571
+
+The Review of Financial Studies / v 15 n 2 2002
+
+that it draws from the Lo and MacKinlay decomposition of expected momentum proﬁt are unwarranted. We show that the article’s ﬁndings of negative
+average auto- and cross-serial covariances among the portfolios can be consistent with underreaction-based explanations. We also show that these ﬁndings are driven by the in-sample serial correlation of the market factor and
+not the overreaction mechanism advocated by the article. Our analysis also
+suggests that doing such decompositions are not likely to further advance our
+thinking on the economic sources of momentum.
+Rather, we ought to develop stock price models that not only ﬁt various stock price predictability patterns such as momentum, but also generate
+new and testable predictions [see, e.g., Barberis, Shleifer, and Vishny (1998),
+Daniel, Hirshleifer, and Subrahmanyam (1998), and Hong and Stein (1999)].
+While these models are far from being able to simultaneously reconcile all
+the behaviors of the time series of the market and the cross-section of stock
+returns, they have yielded new insights into the sources of individual stock
+price momentum. For instance, Hong, Lim, and Stein (1998) ﬁnd evidence
+consistent with the “gradual diffusion of information” hypothesis of Hong
+and Stein (1999). They ﬁnd that the proﬁtability of momentum strategies
+declines sharply with ﬁrm size and (controlling for size) is much more profitable for ﬁrms with little analyst coverage. Moreover, the effect of coverage
+also matters more for stocks that are past losers than for past winners. Other
+empirical articles motivated by these theories include Lee and Swaminathan
+(2000), who ﬁnd that momentum is more pronounced in high-volume ﬁrms
+than low-volume ﬁrms and get reversed at long horizons of three to ﬁve
+years. More work along this line needs to be done.
+References
+Asness, C. S., R. B. Porter, and R. L. Stevens, 2000, “Predicting Stock Returns Using Industry-Relative Firm
+Characteristics,” working paper, University of Florida.
+Barberis, N., A. Shleifer, and R. Vishny, 1998, “A Model of Investor Sentiment,” Journal of Financial Economics, 49, 307–343.
+Chan, L. K. C., N. Jegadeesh, and J. Lakonishok, 1996, “Momentum Strategies,” Journal of Finance, 51,
+1681–1713.
+Conrad, J., and G. Kaul, 1998, “An Anatomy of Trading Strategies,” Review of Financial Studies, 11, 489–519.
+Daniel, K. D., D. Hirshleifer, and A. Subrahmanyam, 1998, “Investor Psychology and Security Market Underand Over-Reactions,” Journal of Finance, 53, 1839–1886.
+Fama, E. F., and K. R. French, 1996, “Multifactor Explanations of Asset Pricing Anomalies,” Journal of
+Finance, 51, 55–84.
+Grundy, B. F., and S. R. Martin, 2001, “Understanding the Nature of the Risks and the Source of the Rewards
+to Momentum Investing,” Review of Financial Studies, 14, 29–79.
+Haugen, R. A., and N. L. Baker, 1996, “Commonality in the Determinants of Expected Stock Returns,”
+Journal of Financial Economics, 41, 401–439.
+Hong, H., T. Lim, and J. C. Stein, 1998, “Bad News Travels Slowly: Size, Analyst Coverage and the Profitability of Momentum Strategies,” Journal of Finance, 55, 265–295.
+
+572
+
+Discussion of “Momentum and Autocorrelation in Stock Returns”
+
+Hong, H., and J. C. Stein, 1999, “A Uniﬁed Theory of Underreaction, Momentum Trading and Overreaction
+in Asset Markets,” Journal of Finance, 54, 2143–2184.
+Jegadeesh, N., and S. Titman, 1993, “Returns to Buying Winners and Selling Losers: Implications for Stock
+Market Efﬁciency,” Journal of Finance, 48, 65–91.
+Jegadeesh, N., and S. Titman, 1995, “Overreaction, Delayed Reaction and Contrarian Proﬁts,” Review of
+Financial Studies, 8, 973–993.
+Lee, C., and B. Swaminathan, 2000, “Price Momentum and Trading Volume,” Journal of Finance, 55,
+2017–2069.
+Lo, A., and A. C. MacKinlay, 1990, “When Are Contrarian Proﬁts Due to Stock Market Overreaction,” Review
+of Financial Studies, 3, 175–206.
+Moskowitz, T. J., and M. Grinblatt, 1999, “Do Industries Explain Momentum?” Journal of Finance, 54,
+1249–1290.
+Rouwenhorst, K. G., 1998, “International Momentum Strategies,” Journal of Finance, 53, 267–284.
+
+573
+
+

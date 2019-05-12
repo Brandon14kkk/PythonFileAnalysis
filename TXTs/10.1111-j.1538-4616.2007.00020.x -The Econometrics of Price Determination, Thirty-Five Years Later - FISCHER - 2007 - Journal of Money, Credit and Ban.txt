@@ -1,0 +1,394 @@
+STANLEY FISCHER
+
+The Econometrics of Price Determination,
+Thirty-Five Years Later
+
+THE TITLE OF this conference takes its inspiration from the
+successful 1970 conference on The Econometrics of Price Determination, which
+resulted in a volume edited by Otto Eckstein.1 It is convenient to take that volume as
+representative of the best thinking of the time on the Phillips curve, and to use it to
+review progress in the area since then.
+Why look back? Partly to avoid what Gunnar Myrdal once called “the unnecessary
+Anglo-Saxon originality.” Equivalently, because those who ignore history are doomed
+to repeat it—although we should bear in mind Frank Knight’s corollary that those
+who do remember history are also doomed to repeat it. More fundamentally, in this
+case, the conference and the Eckstein volume contained several key contributions
+that helped shape subsequent developments, and whose implications are still being
+digested.
+The best-known of those papers is Robert Lucas’s classical article, “Econometric
+Testing of the Natural Rate Hypothesis,” which set out a radically different view of the
+implications of much of the econometric work on the Phillips curve that is discussed
+in the Eckstein volume, as well as several key themes associated with the rational
+expectations revolution that was to gain strength in the 1970s and 1980s.
+I will start by discussing the state of play in the field of price determination and
+the Phillips curve in 1970 when the previous conference was held, as reflected in the
+Eckstein volume. I will then expand on the rational expectations aspects, and go on
+
+1. Eckstein Otto (ed.) (1972). “The Econometrics of Price Determination Conference.” Board of Governors of the Federal Reserve System and Social Science Research Council, Washington, D.C.
+This is an edited version of a presentation made at the Federal Reserve Board-JMCB Conference on
+“Quantitative Evidence on Price Determination,” Washington, D.C., on September 29, 2005. I am grateful
+to Ami Barnea of the Bank of Israel for his assistance.
+
+STANLEY FISCHER is Governor of the Bank of Israel (E-mail: sfischer@bankisrael.gov.il).
+Received December 9, 2005; and accepted in revised form September 1, 2006.
+Journal of Money, Credit and Banking, Supplement to Vol. 39, No. 1 (February 2007)
+
+C 2007 The Ohio State University
+
+172
+
+:
+
+MONEY, CREDIT AND BANKING
+
+to discuss developments during the next 35 years. In doing so I will also draw on
+the famous Lucas–Sargent manifesto of 1978, “After Keynesian Macroeconomics.” 2
+I conclude with some outstanding issues.
+
+1. THE CONFERENCE VOLUME
+The 1970 conference brought together many of the veterans who had been working
+on wage–price dynamics, some of them in the context of the macroeconometric
+models that were then being developed, as well as some of the younger stars, among
+them Robert Lucas and Robert Gordon. It is worth noting that the conference took
+place after the fundamental contributions of Friedman (1968) and Phelps (1967),
+which argued that the long-run Phillips curve must be vertical, but before the 1973
+supply shocks, the intellectual absorption of which had a major impact on subsequent
+thinking about wage–price dynamics and the role of monetary policy.
+The volume contains papers by an impressive array of researchers, including a
+survey of recent developments by Bill Nordhaus, and reports on price equations in
+various econometric models of the United States by Otto Eckstein and David Wyss,
+Leonall Andersen and Keith Carlson, Dale Heien and Joel Popkin, Laurence Klein
+(Wharton model), Albert Hirsch (OBE model), George de Menil and Jared Enzler
+(FRB-MIT-Penn model), and Saul Hymans.
+The volume starts with an overview of the conference presented by James Tobin.
+Tobin summarizes the issues using a simple model of wage–price dynamics that he
+presents as a convenient framework for thinking about the issues and the conference
+papers. It consists essentially of four equations: (1) price dynamics, in which the
+rate of price change is determined by expectations of inflation, the rate of change of
+costs, including wage costs, and by the state of demand; (2) wage dynamics, in which
+the rate of wage change is determined by expectations of inflation and by demand;
+(3) an adaptive expectations equation for expected inflation; and (4) an equation for
+the adjustment of capacity utilization, which can be viewed as determining output
+dynamics. This set of equations is indeed representative of the structure of wage–
+price determination models then—and aside from the assumption on expectations, is
+also representative of the type of model that would be written down today, though in
+smaller models, the interactions of prices and wages are typically solved and presented
+in the form of a single price inflation equation.
+Indeed, expectations aside—but that is a very big aside—the wage–price dynamics
+in the Tobin summary are similar to the equations for price dynamics in many of
+the papers in this 2005 conference, and the subsequent papers in the 1970 volume
+struggle with many of the same issues that are currently on the agenda. I will return
+to this point below.
+
+2. In the Federal Reserve Bank of Boston’s After the Phillips Curve: Persistence of High Inflation and
+High Unemployment, Conference Series No. 19, republished in Lucas and Sargent, Readings (1981).
+
+STANLEY FISCHER
+
+:
+
+173
+
+Tobin then solves for both the short-run and the long-run Phillips curves, and
+describes the key issues as being, first, whether the long-run Phillips curve is vertical;
+and second, what is the short-run Phillips curve trade-off. He answers that the long-run
+Phillips curve is not vertical, because wages do not fully adjust for expected inflation.
+He also shows those parameters that determine the slope of the short-run Phillips
+curve.
+In commenting on the slope of the short-run Phillips curve, Tobin makes an interesting comment: “Econometric estimates of the trade-off are more pessimistic than
+statistical Phillips curves estimated before 1966.” What does “pessimism” mean in
+this context? From the context, it is clear that Tobin means that the short-run Phillips
+curves estimated in 1970 were steeper than those estimated earlier.
+That is pessimistic news if one is asking how much has to be paid in terms of higher
+inflation to attain a specific decrease in unemployment. If, instead, one is asking how
+much more unemployment is necessary in order to reduce inflation by a specific
+amount, a steeper Phillips curve is good news. It is revealing that it must have been
+the first of these two questions that was on the mind of an economist as outstanding
+as Tobin as late as 1970, when the inflation rate was already at 5%.
+Tobin briefly discusses both the adaptive expectations assumption and the natural
+rate hypothesis. He recognizes that the lagged expectations model is not fully sensible,
+but says he is not yet ready to reject it or its implications. With regard to the natural
+rate hypothesis as presented by Lucas, as well as Friedman and Phelps, he says that
+“a pragmatist might conclude that he agrees with the NRH in principle but also
+believes that . . . a trade-off does exist for policy-makers as well as statisticians.” Both
+these remarks reveal someone struggling with the need to rethink some of his basic
+assumptions.
+
+2. RATIONAL EXPECTATIONS
+Lucas’s paper was one of the first presentations of a set of themes developed
+primarily by him and by Thomas Sargent that became central to subsequent debates.
+In particular, Lucas emphasizes that
+(i) the natural rate hypothesis (NRH) has no implications for the sum of the coefficients in a Phillips curve that represents expected inflation by a distributed lag
+on past inflation;
+(ii) the NRH is an across-equations restriction within a simultaneous equations
+model;
+(iii) it is nonetheless possible to do policy experiments with rational expectations
+models, by recomputing the parameters of the system under alternative policy
+proposals;
+(iv) the hypothesis of rational expectations does lead to the natural rate theory (presumably within the standard price and wage equations then being estimated).
+
+174
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Of these propositions, the first 3 is now well understood; the second and third have
+had less impact on policy research than might have been expected; and the fourth
+is not valid, if by natural rate theory is meant that systematic monetary policy is
+necessarily ineffective when expectations are assumed to be rational.
+It seems from the proceedings that participants in the conference did not fully
+appreciate the power of the Lucas critique of existing macroeconometric models. That
+critique was developed over the next few years, and was expressed most pungently
+in “After Keynesian Macroeconomics” (Lucas and Sargent 1978).
+“After Keynesian Macroeconomics” is unequivocal and provocative, particularly in
+its second paragraph, which asserts that the high inflations of the 1970s “were accompanied by massive government budget deficits and high rates of monetary expansion,
+policies which, although bearing an admitted risk of inflation, promised according to
+modern Keynesian doctrine rapid real growth and low rates of inflation” (Lucas and
+Sargent 1978, p.295). While this sentence was probably written, successfully, to gain
+the reader’s attention, it takes no account of the possibility of adverse supply shocks.
+Thereafter, the paper becomes more closely argued. The key assertion is that the
+“casual treatment of expectations is not a peripheral problem in these models, for the
+role of expectations is pervasive in them and exerts a massive influence on their dynamic properties” (Lucas and Sargent 1978, pp.301–302). In addition, the authors propose the equilibrium business cycle theory as the alternative to Keynesian modeling,
+and assert that equilibrium models have already attained considerable econometric
+success.
+At the end of the paper, Lucas and Sargent say that if their approach to business
+cycles proves successful, “it will suggest important changes in the way we think about
+policy. Most fundamentally, it will focus attention on the need to think of policy as
+the choice of stable rules of the game, well understood by economic agents” (Lucas
+and Sargent 1978, p.317).
+
+3. PROGRESS DURING THE LAST 35 YEARS
+I start discussing progress by noting an area in which there has been relatively little
+change—the nature of the Phillips curve. Starting from the expectations of radical
+changes in approach implied by the Lucas and Lucas–Sargent papers, it is surprising
+that we are still working with simple Phillips curves in either single equation or
+small macroeconometric models. The ideal of estimating policy reactions in a full
+macroeconomic model with cross-equation restrictions is not yet standard practice—
+though perhaps the current work on dynamic stochastic general equilibrium (DSGE) 4
+will take us further in that direction.
+3. As noted by Robert Gordon at this year’s conference, Thomas Sargent (1971) made this point with
+force and clarity.
+4. Dynamic stochastic general equilibrium models; see for instance the paper by Laforte in this conference.
+
+STANLEY FISCHER
+
+:
+
+175
+
+Instead, we seem to have converged on a simple New Keynesian Phillips Curve,
+for instance equation (11) in Rudd and Whelan (2005),
+πt = γ f E t πt+1 + γb πt−1 + κ xt ,
+where x t represents “inflationary pressures.” The convergence is to a general form of
+this short-run Phillips curve. There has, of course, been a major change in the way
+expectations are now estimated, but that does not imply that the Phillips curve equation
+has changed, only that we would now estimate the expected price term differently
+than then.
+There also remain differences in approach—for instance, in the papers in this
+conference—as to how expected and past inflation should enter the equation. These
+are based on differences in the rationale for their inclusion, with the Calvo price
+dynamics equation being most commonly used.
+There are two ways of thinking about the fact that the modern version of the Eckstein
+volume’s canonical Phillips curve is not much changed from that of 35 years ago.
+One is surprised that 35 years on, researchers are still working on estimating Phillips
+curves that seem so ancient, and to decry either the lack of theoretical progress on
+the microfoundations of the curve or the difficulty of using data to settle disputes
+over alternative versions of the sources of the curve. In this regard, while it may be
+econometrically convenient to seek a single analytic approach that best generates
+an element of price stickiness within a model, it is not obvious that the alternative
+approaches suggested by, for example, Gray (1976), Phelps and Taylor (1977), Fischer
+(1977), Calvo (1983), and Blanchard (1983) are mutually exclusive.
+The second way of thinking about this is to say that the basic approach to price
+and wage dynamics set out by researchers in the Eckstein volume has stood the test
+of time, and to hope and expect that with the further passage of time, the accumulation of data, and improvements in econometric methods, it should be possible to
+continue refining the Phillips curve equation or sector. This second view seems to
+me more plausible, not least because many researchers associated with the rational
+expectations–equilibrium school of macroeconomics have seen the need to include
+price or wage stickiness assumptions within their models in attempting to account for
+business cycle correlations.
+Not only has there not been much change in the appearance of the Phillips curve,
+it is also the case that there does appear to be a short-run trade-off between output
+and inflation, one that has to be taken into account in the formulation of monetary
+policy. Faced with an inflationary shock, modern central bankers weigh the optimal
+speed at which to attempt to return to their inflation target, on the assumption that
+attempting to disinflate very rapidly will have a higher output or welfare cost than a
+more gradual disinflation.
+Therefore, the major changes in our ways of thinking about price determination
+and Phillips curve trade-offs are not a result of changes in the formulation of the
+Phillips curve. Rather, they come from the general acceptance of the rational expectations hypothesis and the rational expectations approach to all of macroeconomics,
+especially in the policy field.
+
+176
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Today, all over the world, monetary policy decisions are made with the recognition
+that expected inflation is not a weighted average of past inflation rates, but rather
+that the reactions of the private sector to monetary policy decisions depend on the
+monetary policy regime. That is, Lucas and Sargent’s statement (Lucas and Sargent
+1978) that we “need to think of policy as the choice of stable rules of the game, well
+understood by economic agents” is generally accepted, certainly by policymakers—
+and this remains true even though it is also generally recognized that there is a short-run
+Phillips curve trade-off that has to be taken into account in setting the policy interest
+rate.
+It is the combination of the rational expectations approach and the expectational
+Phillips curve that has led to a revolution in macroeconomics and in thinking about
+and the implementation of monetary policy. The entire game-theoretic approach to
+policy follows naturally given those two assumptions, hence the work of Kydland
+and Prescott (1977) and Barro and Gordon (1983), and the theoretical and empirical
+research on monetary policy credibility, monetary rules, central bank independence,
+etc. to which these papers gave impetus.
+For many decades, central bankers had been talking about the importance of credibility and consistency in their decisions. The rational expectations–Phillips curvebased research on these topics did not change the language the bankers spoke—rather,
+it added precision and the capacity to think analytically about concepts that were obviously important but had been hard to pin down precisely.
+If there is at least one area in which analytic models, econometric evidence, and
+the analysis of historical experience taken together have contributed to improved
+economic performance, it is monetary policy. 5 And the seeds of that change are all
+present in the Eckstein volume, both in the empirical work on the Phillips curve, and
+in the Lucas paper on testing the NRH.
+4. OUTSTANDING ISSUES
+The outstanding Phillips curve issues are those being discussed at this conference,
+including how much of wage–price behavior is forward looking, and what precisely
+are the mechanisms by which expectations of inflation (and future demand for labor)
+translate into actual inflation. Those mechanisms, including the presence of indexation, are likely themselves to be inflation dependent.
+Before concluding, I would like to mention and discuss—if only at a general level—
+a puzzling issue, namely, that it is difficult to account for the extent to which monetary
+policy appears to have been more successful in the last 15 years than it had been in
+the previous quarter century.
+There are many explanations for the Great Moderation in inflation and for the
+accompanying reduction in the variability of output in the major industrialized
+5. There is, of course, more than one area in which analytic work has led to major changes in economic
+behavior, including the development of the Black–Scholes formula and all that followed from it.
+
+STANLEY FISCHER
+
+:
+
+177
+
+economies. Among these is the assertion that economic shocks have been smaller
+during the recent period. That is unconvincing: if the last 15 years have been a period
+of greater economic instability, we would certainly have explained it as a result of the
+breakdown of the world order that had preserved global peace for 50 years, the rise
+of Asia, the rise of terrorism, the loss of confidence of Europeans in their future, and
+most recently, the rising prices of oil and other commodities.
+In most explanations for the Great Moderation, improved monetary policy receives
+a considerable part of the credit—not only for lower inflation, but also for greater
+stability on the real side. I believe this to be the case. But I also believe that the
+extent to which monetary policy has been more successful recently—especially in
+inflation-targeting countries—is surprising.
+To take the example of Israel, both market expectations, derived from interest rates
+on indexed and nonindexed bonds, and the predictions of forecasters are that the
+inflation rate for the next 12 months will be very close to 2%, the center of the 1–3%
+inflation target range. If the range of forecasts is a measure of the uncertainty of the
+distribution, then these expectations are held with considerable confidence.
+Why this confidence? The Bank of Israel’s credibility was enhanced through a
+series of tough decisions taken by my predecessors, not infrequently against the
+intense opposition of the finance ministry. Now people expect inflation to be within
+the band.
+The interesting question is whether central banks have the ability to control inflation
+as accurately as the markets appear to believe they can. In the typical macro model,
+central bank policy affects expectations of inflation and thus inflation via the Phillips
+curve, and also affects aggregate demand to the extent that monetary policy affects
+real interest rates.
+If these are the only routes through which monetary policy affects inflation (and
+output), then I would have expected inflation in the inflation-targeting countries to
+have been more variable than it has been since the adoption of the inflation-targeting
+approach.
+I suspect that expectations about monetary policy and expectations of inflation
+have a more pervasive effect on the economy than is shown by current models. In this
+regard let me make two points. The first is that in recent years the Bank of Israel has
+developed a monetary policy regime in which the interest rate tended to be adjusted in
+response to changes in expected inflation. The IMF has criticized the Bank for taking
+this approach rather than basing its decisions primarily on its own models, pointing
+out the dangerous circularity of the Bank’s approach. 6
+Interestingly, though, the Bank’s approach has seemed to work. Why? Note that it is
+possible to deduce market expectations of future interest rates from the term structure
+of interest, and thus to deduce what monetary policy path the markets regard as
+consistent with the expected path of inflation. In my so far limited experience at the
+Bank of Israel, the policy actions assumed by the markets have been very close to
+those the Bank has implemented. Presumably, the views expressed in the markets
+6. This concern about circularity is well expressed for example in Michael Woodford (2003).
+
+178
+
+:
+
+MONEY, CREDIT AND BANKING
+
+reflect calculations by market participants, based on explicit or implicit models of the
+monetary mechanism. Accordingly, one can view a monetary policy that responds to
+market expectations as drawing on the markets’ models, which are not necessarily
+any worse than those of the central bank. 7
+The point of this digression is to suggest that a monetary policy that responds to
+market expectations of inflation may be quite successful in stabilizing inflation and the
+economy because, in Lucas and Sargent’s words, “the role of expectations is pervasive
+and exerts a massive influence on [the] dynamic properties” of the economy. Which
+is to say that we may be missing a part of the monetary mechanism that operates
+through the impact of monetary policy on expectations.
+Thinking about this issue I recall a comment of Milton Friedman’s in the Chicago
+Money Workshop around 1969 or 1970, when J. Philip Cooper and I presented a very
+early version of a paper that examined the impact of monetary feedback rules on the
+variability of inflation and output in an econometric model. 8 A seminar participant
+raised the Lucas objection that the new policies would change the structure of the
+model. Friedman said that he suspected that whatever the changes induced in the
+structure of the economy as a result of a change in policy, they would probably tend
+to magnify the effects (positive or negative) of the policy change as they would be
+calculated in a model that did not take account of the induced structural changes.
+I have no idea whether this benign version of the Lucas critique has general or any
+validity. But it would help explain the apparent successes of the more consistently
+stabilization focused monetary policies of the last 15 years.
+Maybe that is what has happened—or maybe we are simply becoming too complacent.
+
+LITERATURE CITED
+Barro, Robert J., and David B. Gordon. (1983) “Rules, Discretion and Reputation in a Model
+of Monetary Policy.” Journal of Monetary Economics, 12:1, 101–21.
+Blanchard, Olivier J. (1983) “Price Asynchronization and Price Level Inertia.” In Inflation,
+Debt, and Indexation, edited by R. Dornbusch and M.H. Simonsen, pp. 3–24. Cambridge,
+MA: MIT Press.
+Calvo, Guillermo A. (1983) “Staggered Prices in a Utility-Maximizing Framework.” Journal
+of Monetary Economics, 12:3, 383–98.
+Cooper, Phillip J., and Stanley Fischer. (1972) “Simulations of Monetary Rules in the FRBMIT-Penn Model.” Journal of Money, Credit and Banking, 4:2, 384–96.
+Eckstein, Otto (ed). (1972) “The Econometrics of Price Determination Conference.” Washington, DC: Board of Governors of the Federal Reserve System and Social Science Research
+Council.
+
+7. None of this is to deny that the central bank should have its own models, to enable it to examine the
+impacts of alternative courses of action and to ensure that it understands the basis for the market’s views.
+8. See Cooper and Fischer (1972).
+
+STANLEY FISCHER
+
+:
+
+179
+
+Fischer, Stanley. (1977) “Long-Term Contracts, Rational Expectations, and the Optimal Money
+Supply Rule.” Journal of Political Economy, 85:1, 191–205.
+Friedman, Milton. (1968) “The Role of Monetary Policy.” American Economic Review, 58:1,
+1–17.
+Gray, Joanna. (1976) “Wage Indexation: A Macroeconomic Approach.” Journal of Monetary
+Economics, 2:2, 221–35.
+Kydland, Finn E., and Edward C. Prescott. (1977) “Rules Rather Than Discretion: The Inconsistency of Optimal Plans.” Journal of Political Economy, 85, 473–91.
+Laforte, Jean-Philippe. (2005) “A Bayesian DSGE Approach to the U.S. Economy.” Presented
+at the FRB/JMCB Quantitative Evidence on Price Determination Conference, Washington,
+D.C., Federal Reserve Board.
+Lucas, Robert E., Jr. (1972) “Econometric Testing of the Natural Rate Hypothesis.” In The
+Econometrics of Price Determination Conference, edited by O. Eckstein. Washington, DC:
+Board of Governors of the Federal Reserve System and Social Science Research Council.
+Lucas, Robert E., Jr., and Thomas J. Sargent. (1978) “After Keynesian Macroeconomics.” In
+After the Phillips Curve: Persistence of High Inflation and High Unemployment. Boston,
+MA: Federal Reserve Bank of Boston, Conference Series No. 19. (June). Republished in
+Lucas, R.E., Jr., and T.J. Sargent (eds.), Rational Expectations and Econometric Practice,
+Volume 1. Minneapolis: The University of Minnesota Press.
+Phelps, Edmund S. (1967) “Phillips’ Curves, Expectations of Inflation, and Optimal Unemployment over Time.” Economica, 34:3, 254–81.
+Phelps, Edmund S., and John B. Taylor. (1977) “Stabilizing Powers of Monetary Policy under
+Rational Expectations.” Journal of Political Economy, 85:1, 163–90.
+Rudd, Jeremy, and Karl Whelan. (2005) “Modelling Inflation Dynamics: A Critical Survey of
+Recent Research.” Presented at the FRB/JMCB Quantitative Evidence on Price Determination Conference.
+Sargent, Thomas J. (1971) “A Note on the ‘Accelerationist’ Controversy.” Journal of Money,
+Credit and Banking, 3:3, 721–25.
+Woodford, Michael. (2003) Interest and Prices. Princeton, NJ: Princeton University Press.
+
+

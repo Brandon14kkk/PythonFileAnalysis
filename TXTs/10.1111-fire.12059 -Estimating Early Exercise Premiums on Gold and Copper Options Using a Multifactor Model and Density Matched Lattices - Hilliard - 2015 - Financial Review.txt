@@ -1,0 +1,3569 @@
+The Financial Review 50 (2015) 27–56
+
+Estimating Early Exercise Premiums on
+Gold and Copper Options Using a
+Multifactor Model and Density Matched
+Lattices
+Jimmy E. Hilliard and Jitka Hilliard∗
+The Harbert College of Business at Auburn University
+
+Abstract
+We use the standard geometric Brownian motion augmented by jumps to describe the
+spot underlying and mean regressive models of interest rates and convenience yields as
+state variables for gold and copper prices. Estimates of parameters of the diffusion processes
+are obtained by the Kalman filter. Using these estimates, jump parameters are estimated in
+the second stage by least squares. Early exercise premia on puts and calls are computed using
+a lattice with probabilities assigned by the density matching technique. We find that while
+deep in the money options have greater absolute early exercise premiums, the early exercise
+premium is roughly constant as a percent of option price. Our findings also confirm that gold
+behaves like an investment asset and copper behaves like a commodity.
+
+Keywords: gold, copper, options, density matching, early exercise, Kalman filter
+JEL Classification: G13
+
+∗ Corresponding
+
+author: Auburn University, Raymond J. Harbert College of Business, 313 Lowder
+Business Building, 405 W. Magnolia Avenue, Auburn, AL 36849; Phone: (334) 844-5520; E-mail:
+jzh0023@auburn.edu.
+The authors thank the editors and anonymous referees for their careful reading, insightful comments and
+edits. The usual disclaimer applies.
+
+C 2015 The Eastern Finance Association
+
+27
+
+28
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+1. Introduction
+Pricing futures contracts on commodities is investigated by a number of scholars
+including work and references in Schwartz (1997). In this extension, we estimate the
+early exercise premium on American options on gold and copper futures contracts.
+Ramaswamy and Sundaresan (1985) and others establish that options on futures contracts have positive early exercise premiums. Essentially, the instantaneous interest
+rate on a futures contract behaves like a continuous dividend.
+Typical commodity pricing models progress in complexity and explanatory
+power from a one-factor model based on the underlying to a two-factor model that adds
+stochastic interest rates and to a three-factor model that adds both stochastic interest
+rates and convenience yield. We use standard geometric Brownian motion (gBm)
+augmented by jumps to describe the spot underlying and mean regressive models of
+interest rates and convenience yields as state variables for gold and copper prices.1 An
+important question with respect to pricing models is whether these metals behave like
+an investment asset or a commodity. Previous work indicates that gold behaves like
+an investment asset while copper behaves like a commodity. See Schwartz (1997),
+Hull (2006), or Hilliard and Reis (HR, 1998) for a further review of the properties of
+investment and commodity assets.
+We compute early exercise premia on puts and calls using a three-dimensional
+lattice with probabilities assigned by the density matching technique. The density
+matching technique, developed in Hilliard (2014) and Hilliard and Hilliard (2014)
+extends to multivariate applications and shows excellent convergence properties.
+We contribute to the literature with our empirical findings and our methodology.
+We compute the early exercise premium using a density matched lattice that prices
+both European options and American options. We find, somewhat surprisingly, that
+within a maturity class, the early exercise premium for these metals as a percent of
+option price is relatively constant. We confirm the finding that the absolute early
+exercise premium on gold and copper contracts increases with moneyness. With our
+data set, we also confirm the earlier findings from Schwartz (1997) that gold behaves
+like an investment asset and copper behaves like a commodity with convenience yield.
+We extend the methodology by estimating parameters of a three-factor model with
+jumps using a two-stage procedure. Schwartz (1997) uses observed futures prices
+and the Kalman filter to estimate parameters for an identical three-factor diffusion.
+We add jumps to the underlying giving a three-factor model with jumps. Jumps,
+
+1 Models that use jump diffusions to model European option prices include those of Ball and Torous
+(1983), Naik and Lee (1990), Bates (1996), Scott (1997), and Duffie, Pan and Singleton (2000). The
+usual assumption is that the jump magnitude is normal. The double exponential jump model studied by
+Kou (2004) and Ramezani and Zeng (2007) also has theoretical and empirical support. Huang and Wu
+(2004) consider time-changed Lévy processes and find that a high-frequency jump structure outperforms
+the low-frequency compound Poisson jump specification.
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+29
+
+however, do not generally effect futures prices.2 In the first stage, we therefore use
+futures prices and the Kalman filter to estimate diffusion (nonjump) parameters. In
+the second stage, we fix first stage estimates and use option prices and a three-factor
+option pricing model to estimate implied jump parameters. In our simulations, this
+procedure proves to be accurate and robust.
+
+2. The setup
+We make the assumption that physical commodity prices, St , follow a jumpdiffusion system written as
+dS
+= (μs − c − λJ̄ )dt + σs dZs + Jdq,
+S
+dc = κc (μc − c)dt + σc dZ c ,
+
+(1)
+
+dr = κr (μr − r)dt + σr dZ r ,
+while convenience yield (c) and interest rates (r) follow a mean-reverting
+Ornstein–Uhlenbeck (OU) diffusion. The innovations dZ s , dZ c , and dZ r are multivariate normal. See Schwartz (1997), Vasicek (1977) and others for a justification of the mean-reverting OU model for convenience yield and interest
+rates. The jump-diffusion process is used extensively for equities, commodities
+and currencies. The literature is extensive and includes the seminal works of
+Merton (1976) and Bates (1991). The jump component is represented by Jdq where
+2
+
+ln(1 + J ) ∼ N (γ − δ2 , δ 2 ) ≡ N(γ , δ 2 ) and dq = 1 if a jump occurs. The probability
+that a jump occurs in an infinitesimal interval dt is λdt. The average jump size is J̄ ≡
+E[J ] = eγ − 1. The adjustment coefficients in the mean regressive interest rate and
+convenience yield diffusions are κr and κc and the long-term means are μc and μr .
+The risk-neutralized futures diffusion is derived in HR and is given by
+dF̂
+= −λk̄dt + σ (τ )dZ F + Jdq,
+(2)
+F
+
+σ (τ ) = σs2 + σc2 Hc2 + σr2 Hr2 − 2σs σc ρsc Hc + 2σs σr ρsr Hr − 2σc σr Hc Hr ρcr ,
+−κτ
+
+is a factor that attenuates time
+where τ is the time to maturity and H = 1−eκ
+to maturity. For small τ, H ≈ τ − κτ 2 ≤ τ. The innovation in the diffusion term
+depends on other state variables and is given by σ (τ )dZ F = σs dZ s − Hc (τ )σc dZ c +
+Hr (τ )σr dZ r .
+2 See Casassus and Collin-DuFresne (2005) for a discussion of special factor models in which there can
+be a small effect.
+
+30
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+3. The futures pricing lattice
+We develop a pricing lattice in order to evaluate gold and copper options. As in
+Hilliard and Schwartz (2005), we transform to log form and consider the diffusion
+and jump components as two separate and independent factors. In log form, we write
+the jump diffusion as y = log(F̂ ) and thus
+
+
+σ 2 (τ )
+dt + σ (τ )dZ F + ln(1 + J )dq
+(3)
+dy = −λk̄ −
+2
+≡ du∗ + dv,
+and now du∗ is normalized so that
+⎞
+⎛
+2
+−λk̄ − σ 2(τ )
+⎠ dt + dZF
+du = ⎝
+σ (τ )
+
+(4)
+
+≡ mdt + dZF .
+A two-dimensional lattice for the underlying is implemented using du and dv =
+ln(1 + J ) in the second dimension. A third dimension is required since nodes must
+be discounted by stochastic interest rates. Normalizing volatility to one for interest
+rates, the lattice is
+√
+(5)
+	u = ± 	,
+	v = j δ, j = 0, ±1, ±2, ±3,
+√
+	r = ± 	,
+where 	 = τn is the time step, n is the number of steps in the lattice, and 	r
+is normalized by σr to give unit volatility. The lattice allows the diffusion to be
+approximated by binomial jumps while the Poisson directed process is approximated
+by jumps to one of seven possible nodes.3 There is some efficiency in the above
+characterization since it is not necessary to develop the lattice in the convenience
+yield dimension. Convenience yield comes into play only in its effect on futures
+volatility, σ (τ ) .
+We compute the probabilities at each node using a density matching technique.
+The node at each time step branches to one of ≡ (2)(2)(7) = 28 nodes in the following
+T
+step. Each node is uniquely identified by a row vector
+√ of the form Ak = (a1 , a2 , b),
+where T denotes transpose, the elements ai = ± 	, i = 1, 2 correspond to the
+diffusion process, and the elements b = j δ, j = 0, ±1, ±2, ±3 correspond to jump
+3 The choice of jumps of seven nodes is arbitrary. This choice has some experimental support (Hilliard
+and Hilliard, 2014).
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+31
+
+innovations. In the density matching technique, the conditional probability of a jump
+to one of K nodes is
+p (Ak )
+p (Ak |k = 1, 2, . . . , K) = K
+,
+(6)
+k=1 p(Ak )
+where the continuous-time diffusion process corresponding to the vector Ak has
+a multivariate normal density. Since the jumps are independent of the diffusion
+innovations, the probability assigned to node Ak can be written
+P (Ak ) = p (a1 , a2 ) pJ (b) .
+
+(7)
+
+The probability expression for the first two elements in Ak , denoted by Dk ≡ (a1 , a2 )
+is
+eQDk
+p(Dk ) = 4
+, k = 1, . . . , 4,
+QDk
+k=1 e
+
+(8)
+
+where
+√
+√
+1
+−1
+QDk = − (Dk − m 	)T 
+D
+(Dk − m 	), k = 1, 2, . . . , 4,
+2
+is the quadratic form of the multivariate normal with mean vector m and correlation
+matrix 
+D . The vector m consists of the drift terms in du and dr while 
+D is the
+correlation matrix of the innovations in du and dr.
+The probability assigned to the Poisson directed component is given by the
+mixture of normals (see Das, 2002)
+pJ (b) = pJ (b|dq = 1)	λ + pJ (b|dq = 0) (1 − 	λ) ,
+
+(9)
+
+where, for example,
+ 2
+
+e− 2 (−2δ−γ ) /δ
+1
+
+pJ (−2δ|dq = 1) = 3
+
+i=−3
+
+2
+ 2
+
+e− 2 (−iδ−γ ) /δ
+1
+
+2
+
+λ	.
+
+(10)
+
+For American options, inverse transforms are used at all nodes to recover F and
+r. The one-period recursion for option price O (the typical notation is O ≡ C for
+calls and O ≡ P for puts) is
+O(Ft , τ ) = max {OE (Ft , τ ), OC (Ft , t)} ,
+
+(11)
+
+where OE is the exercise value of the derivative and OC is the continuation value,
+computed as
+
+P (Ak )O(Ft+1,k )
+OC (Ft , t) = k
+,
+(12)
+1 + r	
+where Ft+1,k , k = 1, 2, . . . , 28 is the set of all states accessible at time t + 1 from
+state Ft . For European prices, let OC = O and use Equation (12). For more detail
+on the density matching setup for lattice probabilities, see Hilliard (2014) or Hilliard
+and Hilliard (2014).
+
+32
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+4. Parameter estimation
+In our empirical application, we use the density matching technique to estimate
+the early exercise premium on copper and gold options. We use state variables similar
+to those of Schwartz (1997) and HR. Specifically, the underlying spot is assumed to
+be a standard jump-diffusion process while both convenience yield and interest rates
+are assumed to follow an OU process. HR note that futures prices are not affected
+by jumps since the payoff function is linear and the expected contribution of jumps
+null out in the compensated jump diffusion. Casassus and Collin-DuFresne (2005),
+using the same state variables in a more generalized setup, show that jumps can affect
+futures prices when convenience yield is a function of the underlying. They conclude
+that the impact of jumps is likely to be minimal when jump intensity and jump size
+is small.
+In our model, jumps do not affect futures prices. This allows us to pursue a twostage process for estimating parameters. First, we use bond and futures prices, and
+the Kalman filter to estimate all nonjump parameters. Then, we fix these parameters
+and imply jump parameters by minimizing the sum of squared errors between option
+observations and model predictions.
+The standard setup for the Kalman filter consists of a measurement equation and
+a transition equation. Using the standard notation we write
+yt = Z t x t + d t + ε t ,
+
+(13)
+
+where yt is a vector of observations (the data) and xt is a vector of state variables that
+are typically latent. Exogenous parameters are included in dt while ε t is a vector of
+zero mean errors. The transition equation is written
+x t = T x t−1 + α t + Rηt ,
+(14)
+where we use the symbol α t for parameters instead of the usual ct to avoid confusion
+with our notation for convenience yield. The error term in the transition equation has
+covariance RRT where  ≡ cov[η, nT ]. When all random variables are Gaussian
+the Kalman filter gives the optimal estimator of xt and it can also be structured to
+obtain maximum likelihood parameter estimates. As Harvey (1989) points out, the
+Kalman filter provides the minimum mean squared error among all linear estimators even when the normality assumption is violated. Applications in the financial
+econometrics literature are found in sources including Schwartz (1997), Babbs and
+Nowman (1999), Chen and Scott (2003), Schwartz and Smith (2000), and Trolle and
+Schwartz (2009).
+We require bond data and commodity data to estimate all nonjump parameters.
+The Kalman setup for estimating interest rate parameters using bond data is in the
+Appendix. Here, we focus on the Kalman filter for estimating commodity parameters.
+For the physical system given in Equation (1), the futures pricing equation may be
+written
+ln(F (t, Ti )B(t, Ti )) = ln(St ) − Hc Ct + ln (A(τ )D1 D2 D3 )i + εit , i = 1, 2, . . . N ,
+(15)
+
+33
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+where F (t, Ti ) is the observed futures price with maturity Ti and Bi is the default free
+bond price with the same maturity. Functional forms and definitions of A and D are in
+the Appendix. The state variables are log spot prices, ln(St ), and convenience yield,
+Ct . The error term is added to account for errors in measurement. We assume that the
+error term is normal, homoskedastic, and cross sectionally uncorrelated. For a set of
+futures contracts trading at time-t, say N = 3, the Kalman setup for the measurement
+equation is
+⎛
+⎞
+⎞ ⎛ ⎞
+⎞ ⎛
+
+ln (A(τ1 )D1 D2 D3 )1
+ε1t
+1 −Hc 
+ln (F1 B1 )
+ln(S
+)
+t
+⎝ ln (F2 B2 ) ⎠ = ⎝ 1 −Hc ⎠
++ ⎝ ln (A(τ2 )D1 D2 D3 )2 ⎠ + ⎝ ε2t ⎠ ,
+Ct
+1 −Hc
+ln (A(τ3 )D1 D2 D3 )3
+ε3t
+ln (F3 B3 )
+⎛
+
+(16)
+where the error covariance matrix is given by
+⎛
+
+σε21
+H =⎝ 0
+0
+
+0
+σε22
+0
+
+⎞
+0
+0 ⎠.
+σε23
+
+(17)
+
+The Kalman setup for the transition equation is
+
+
+ln(St )
+Ct
+
+
+
+ 
+
+  
+σ2
+1 −	
+ln(St−1 )
+μs − 2s 	
+=
++
+
+
+Ct−1
+0 e−κc 	
+μc 1 − e−κc 	
+ 
+ √
+0
+σs 	 
+ηst
+
+.
++
+σc2 
+−2κc 	
+ηct
+0
+1
+−
+e
+2κc
+
+
+(18)
+
+We allow for correlations between ηst and ηct . For economy of presentation, this
+setup depicts three observations (N = 3) at each time point. We actually use N = 5
+when estimating interest rate parameters and N = 9 when estimating commodity
+parameters. Schwartz and Smith (2000) emphasize that if we increase the vector of
+futures contracts of varying maturity there will typically be little uncertainty about
+the state variables.
+Pricing relations in the measurement equation are derived using risk-neutral
+measures. Therefore, the risk-neutralized drift in rates and yield are adjusted so that
+the constant λσ is subtracted from the drift of both OU diffusions. The assumption
+of a constant risk adjustment is an oversimplification but it is commonly used in the
+literature in order to capture first-order effects. The latent variables in the transition
+equation are not risk-adjusted since the transition equation should capture the physical
+evolution of the latent variables. In the typical case, risk neutralizing the latent
+variables in the transition equation would result in a downward bias to their physical
+values.
+
+34
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+4.1. Parameters estimated from simulated data
+We first test the accuracy of our Kalman setup by estimating parameters for
+simulated data. Interest rates and convenience yields are generated daily by the OU
+process and five maturity bond prices are computed using the Vasicek (1977) model.
+The underlying spot is also simulated using the full jump-diffusion specification.4
+There are 200 iterations. At the beginning of each iteration, maturities are of length
+60, 120, 180, 240, and 300 days. They are reduced by one day for 30 consecutive
+days and then a new iteration begins. The results are given in Table 1. The parameter
+value is designated by θ, the starting point by θ0 , the estimate by θ̂ and the standard
+error of the estimate by σθ̂ . All estimates and standard errors are obtained using a
+Kalman filter and the Gauss program MaxLik with the BFGS maximization option.
+The   s refer to measurement errors and the other parameters are defined in the
+standard way for the OU process. Maximum likelihood estimates of the adjustment
+parameter is biased, but consistent (see, e.g., Tang and Chen, 2009). However, the
+estimates for the process (n = 6,000) that we simulate are quite accurate. For example,
+for interest rates, the speed of adjustment coefficient is κ̂r = 0.5193 (parameter
+= 0.5000) and the volatility is 
+σr = 0.0195 (parameter = 0.0200). For convenience
+yields, the speed of adjustment coefficient is κ̂c = 1.0459 (parameter = 1.0459).
+Convenience and diffusion volatilities are 
+σc = 0.2469 (parameter = 0.2490) and
+
+σs = 0.2687 (parameter = 0.2660), respectively. Correlation between convenience
+and spot innovations is estimated to be ρ̂ = 0.7976 (parameter = 0.8050). Standard
+errors for the speed of adjustment coefficient are 0.0331 for interest rates and 0.0101
+for convenience yields.
+
+4.2. Data
+We use daily data to estimate the parameters for interest rates, convenience
+yields and the diffusion component of the underlying futures. The data are obtained
+from CME Datamine. The daily data extend from June 23, 2003 until March 2, 2009.
+The time span for the out-of-sample data is from June 23, 2002 until December
+16, 2008. The time span for the in-sample data is from December 17, 2008 until
+March 2, 2012. A summary of the data for copper futures is given in Table 2. There
+are 19,839 out-of-sample observations and 615 in-sample observations. F1 refers
+to futures contracts with up to 60 days until maturity, F2 to futures contracts with
+maturities between 61 and 120 days, F3 to futures contracts with up to 180 days, and
+so on. A summary of the data for gold futures is given in Table 3. There are 15,070
+out-of-sample observations and 553 in-sample observations. Though not shown here,
+longer maturities were available for gold relative to copper, perhaps reflecting the fact
+that gold is used more as an investment asset or a long-term hedge against inflation.
+
+4 Jumps
+
+do not affect futures prices. However, we generate data with full jump-diffusion specifications.
+
+θ
+
+κr
+σr
+μr
+σ1
+σ2
+σ3
+σ4
+σ5
+
+θ0
+
+θ̂
+
+0.5000
+1.0000
+0.5193
+0.0200
+0.0400
+0.0195
+0.0400
+0.1000
+0.0400
+0.0010
+0.0001
+0.00100
+0.0010
+0.0001
+0.00100
+0.0010
+0.0001
+0.00100
+0.0010
+0.0001
+0.00100
+0.0010
+0.0001
+0.00100
+LL = 27.1144, n = 6,000.
+
+Panel A: Estimates: Interest rates
+
+Parameter
+
+0.0331
+0.0005
+0.0008
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+
+σθ̂
+
+κc
+σc
+μc
+σs
+μs
+ρsc
+σ
+
+Parameter
+
+θ0
+
+θ̂
+
+1.0000
+0.1000
+0.0000
+0.1000
+0.0100
+0.0000
+0.0050
+LL = 23.3689, n = 6,000
+
+1.0459
+0.2490
+0.0224
+0.2660
+0.0800
+0.8050
+0.0010
+
+1.0459
+0.2469
+0.0206
+0.2687
+0.0783
+0.7976
+0.0010
+
+Panel B: Estimates: Convenience & spot
+
+θ
+
+0.0101
+0.0029
+0.0013
+0.0025
+0.0395
+0.0058
+0.0000
+
+σθ̂
+
+Interest rates are computed for the Vasicek (1977) process with five maturity bond contracts generated for each day. In this simulation, the market price of risk
+is zero. At the beginning of each iteration contracts are of length 60, 120, 180, 240, and 300 days. They are reduced by one day for 30 consecutive days and
+then a new iteration begins. There are 200 iterations. The parameter value is designated by θ, the starting point by θ0 , the estimate by θ̂ and the standard error of
+the estimate by σθ̂ . All estimates and standard errors are obtained using the Kalman filter, the Gauss program MaxLik, and the BFGS maximization option. LL
+is the value of the log-likelihood function. The ’s refer to measurement errors and the other parameters are defined in the standard way for a mean regressive
+Ornstein–Uhlenbeck process.
+
+Estimation of parameters from simulated data
+
+Table 1
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+35
+
+36
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Table 2
+Statistics for copper futures
+F1 are futures contracts with maturities up to 60 days, F2 are futures contracts with maturities between 61
+and 120 days, F3 are contracts with 121–180 days, and so on. Contracts with maturities over 780 days are
+not shown in the table since these maturities are sparsely populated.
+Price
+Contracts
+
+Number
+
+Mean
+
+Maturity
+Std dev
+
+Mean
+
+Std dev
+
+382.20
+44.21
+104.44
+163.85
+224.63
+283.84
+344.40
+404.06
+464.03
+524.23
+583.89
+644.32
+703.44
+723.57
+
+211.59
+8.85
+8.85
+8.81
+8.87
+8.83
+12.31
+8.87
+14.54
+15.79
+8.86
+18.33
+19.66
+2.70
+
+381.35
+44.14
+104.34
+162.66
+222.84
+282.44
+343.58
+402.68
+462.84
+523.16
+583.78
+644.52
+703.32
+723.64
+
+211.70
+9.09
+9.40
+9.16
+8.97
+9.00
+9.05
+8.30
+8.65
+8.82
+8.48
+8.29
+8.64
+2.79
+
+Panel A: Out-of-sample period (June 23, 2002 to December 16, 2008)
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+
+19,839
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+1,615
+459
+
+1.9697
+2.0854
+2.0736
+2.0565
+2.0332
+2.0088
+1.9825
+1.9584
+1.9335
+1.9098
+1.8888
+1.8692
+1.8554
+1.9047
+
+1.0605
+1.1120
+1.1083
+1.1040
+1.0958
+1.0852
+1.0732
+1.0586
+1.0443
+1.0284
+1.0117
+0.9969
+0.9834
+0.9985
+
+Panel B: In-sample period (December 17, 2008 to March 2, 2009)
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+
+615
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+14
+
+1.5017
+1.4619
+1.4757
+1.4867
+1.4949
+1.5015
+1.5061
+1.5100
+1.5137
+1.5173
+1.5208
+1.5243
+1.5278
+1.5386
+
+0.1085
+0.0924
+0.0919
+0.0907
+0.0904
+0.0897
+0.0891
+0.0866
+0.0822
+0.0878
+0.0874
+0.0870
+0.0866
+0.0613
+
+A summary of the data for copper and gold futures options is given in Tables 4
+and 5, respectively. These data begin in December 17, 2008 and are out-of-sample
+with respect to the estimation of nonjump parameters. Jump parameters are estimated
+in this period but they are also-of-sample since they are lagged by one day before
+being used in the pricing model.
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+37
+
+Table 3
+Statistics for gold futures
+F1 are futures contracts with maturities up to 60 days, F2 are futures contracts with maturities between 61
+and 120 days, F3 are contracts with 121–180 days, and so on. Contracts with maturities over 780 days are
+not shown in the table since these maturities are sparsely populated.
+Price
+Contracts
+
+Number
+
+Mean
+
+Maturity
+Std dev
+
+Mean
+
+Std dev
+
+330.88
+42.60
+85.89
+146.59
+207.40
+268.29
+329.24
+390.21
+451.13
+511.97
+572.76
+633.63
+
+190.57
+8.19
+14.81
+14.88
+14.90
+14.92
+14.95
+14.97
+14.91
+14.88
+14.89
+14.93
+
+365.90
+44.14
+88.28
+146.38
+205.48
+265.77
+326.57
+385.20
+445.18
+505.48
+566.18
+626.98
+687.06
+730.64
+
+211.06
+9.09
+19.24
+18.35
+18.41
+18.05
+17.84
+17.26
+17.77
+17.67
+17.77
+17.57
+16.94
+7.13
+
+Panel A: Out-of-sample period (June 23, 2002 to December 16, 2008)
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+
+15,070
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+1,370
+
+562.29
+546.56
+548.94
+552.30
+555.58
+558.83
+562.08
+565.36
+568.71
+572.11
+575.58
+579.10
+
+195.82
+188.23
+189.44
+191.03
+192.56
+194.05
+195.52
+197.00
+198.50
+200.03
+201.58
+203.16
+
+Panel B: In-sample period (December 17, 2008 to March 2, 2009)
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+
+553
+50
+50
+48
+48
+48
+49
+49
+49
+50
+49
+49
+48
+14
+
+900.35
+893.68
+894.68
+894.13
+897.11
+899.99
+901.26
+901.76
+904.92
+906.55
+908.94
+911.50
+914.68
+878.12
+
+63.13
+50.41
+50.23
+50.61
+51.42
+52.08
+51.97
+51.97
+52.43
+52.18
+52.93
+52.92
+53.20
+15.60
+
+4.3. Estimation results—non-jump parameters
+Estimation results for gold and copper parameters are in Table 6. In the first
+stage, diffusion parameters are estimated using futures and bond contracts at nine
+maturities. For copper, convenience yields are assumed to follow an OU process
+and are defined in the standard way. We initially assumed that gold follows an OU
+process but we find that to be an incorrect specification (parameter estimates failed),
+presumably because gold is primarily an investment asset. Therefore, we assume
+
+N
+
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+
+201,639
+20,256
+38,224
+31,009
+27,288
+23,004
+20,086
+15,563
+11,417
+7,571
+4,401
+2,093
+727
+
+Panel A: Copper calls
+
+Maturity
+
+<0.90
+
+$0.0933
+0.0034
+0.0253
+0.0558
+0.0865
+0.1210
+0.1471
+0.1655
+0.1745
+0.1933
+0.2214
+0.3179
+0.3933
+
+Mean
+
+29,135
+5,174
+6,360
+3,594
+2,735
+2,459
+2,176
+1,439
+1,251
+1,155
+1,087
+1,072
+633
+
+N
+
+$0.2202
+0.0234
+0.1017
+0.1877
+0.2536
+0.3027
+0.3388
+0.3611
+0.3873
+0.4215
+0.4487
+0.4731
+0.4909
+
+Mean
+
+0.90–0.97
+
+24,122
+4,344
+5,058
+2,831
+2,055
+1,866
+1,696
+1,369
+1,228
+1,172
+1,076
+951
+476
+
+N
+
+$0.2914
+0.0804
+0.1757
+0.2551
+0.3143
+0.3618
+0.3973
+0.4291
+0.4627
+0.4970
+0.5246
+0.5417
+0.5368
+
+Mean
+
+0.97–1.03
+
+Moneyness
+
+23,088
+3,118
+4,118
+2,735
+2,142
+1,896
+1,774
+1,602
+1,514
+1,381
+1,268
+1,050
+490
+
+N
+
+$0.4019
+0.2087
+0.2766
+0.3385
+0.3827
+0.4308
+0.4694
+0.5038
+0.5404
+0.5717
+0.5979
+0.6024
+0.5897
+
+Mean
+
+1.03–1.10
+
+134,346
+10,838
+19,932
+17,085
+15,634
+13,957
+13,219
+11,593
+10,650
+8,966
+6,870
+4,332
+1,270
+
+N
+
+$0.8853
+0.7964
+0.8325
+0.8673
+0.8879
+0.9106
+0.9280
+0.9527
+0.9666
+0.9328
+0.8697
+0.7983
+0.7108
+
+Mean
+
+(Continued)
+
+>1.10
+
+Data are from December 17, 2008 to January 31, 2012. N is the number of observations. F1 are futures contracts with maturities up to 60 days, F2 are the contracts
+with maturities between 61 and 120 days, F3 is 121–180 days, and so on. Contracts with maturities over 780 days are not shown in the table because they are
+sparsely populated. Moneyness for calls is calculated as F /K.
+
+Copper futures options
+
+Table 4
+
+38
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+N
+
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+
+146,837
+16,660
+26,606
+18,875
+15,452
+13,648
+12,919
+11,349
+10,448
+8,788
+6,693
+4,193
+1,206
+
+Panel B: Copper puts
+
+Maturity
+
+Copper futures options
+
+Table 4 (Continued)
+
+<0.90
+
+$0.0960
+0.0021
+0.0174
+0.0443
+0.0715
+0.0975
+0.1219
+0.1460
+0.1718
+0.2082
+0.2589
+0.3113
+0.3652
+
+Mean
+
+28,578
+4,648
+5,578
+3,359
+2,508
+2,196
+2,061
+1,839
+1,698
+1,548
+1,422
+1,180
+551
+
+N
+
+$0.2310
+0.0228
+0.0974
+0.1784
+0.2389
+0.2874
+0.3256
+0.3611
+0.3948
+0.4283
+0.4554
+0.4677
+0.4658
+
+Mean
+
+0.90–0.97
+
+22,420
+3,740
+4,332
+2,493
+2,056
+1,838
+1,687
+1,365
+1,235
+1,167
+1,087
+949
+471
+
+N
+
+$0.3009
+0.2566
+0.1733
+0.2593
+0.3156
+0.3632
+0.3979
+0.4260
+0.4599
+0.4947
+0.5231
+0.5411
+0.5388
+
+Mean
+
+0.97–1.03
+
+Moneyness
+
+21,151
+2,566
+3,630
+2,668
+2,443
+2,169
+1,906
+1,262
+1,088
+1,009
+939
+923
+548
+
+N
+
+$0.4089
+0.2115
+0.2871
+0.3546
+0.4079
+0.4578
+0.4910
+0.4978
+0.5195
+0.5521
+0.5807
+0.6044
+0.6189
+
+Mean
+
+1.03–1.10
+
+194,082
+17,052
+33,176
+29,811
+27,595
+23,351
+20,378
+15,761
+11,591
+7,733
+4,561
+2,253
+820
+
+N
+
+>1.10
+
+$1.2650
+1.2008
+1.2300
+1.2635
+1.2795
+1.2930
+1.3191
+1.3452
+1.3400
+1.2778
+1.1114
+0.8480
+0.7166
+
+Mean
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+39
+
+40
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Table 5
+Gold futures options
+Data are from December 17, 2008 to January 31, 2012. N is the number of observations. F1 are futures
+contracts with maturities up to 60 days, F2 contracts have maturities between 61 and 120 days, F3 is
+121–180 days, and so on. Contracts with maturities over 780 days are not shown in the table because they
+are sparsely populated. Moneyness for calls is calculated as F /K and moneyness for puts is calculated as
+K/F where K is strike price.
+Maturity
+
+Moneyness
+<0.90
+N
+
+Mean
+
+0.90–0.97
+N
+
+Mean
+
+0.97–1.03
+N
+
+Mean
+
+1.03–1.10
+N
+
+Mean
+
+>1.10
+N
+
+Mean
+
+Panel A: Gold calls
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+
+328,911 $30.42 164,704 $52.56 140,318 $81.13 122,767 $128.51 258,246 $294.70
+38,776
+0.37 26,998
+3.04 23,134 21.43 20,910
+81.64 35,852 262.09
+61,477
+3.39 39,031 15.95 32,193 43.40 27,755
+96.41 55,946 279.40
+45,108 10.75 23,902 36.70 20,184 67.47 19,396 114.16 38,048 275.49
+39,626 19.00 18,759 54.06 17,226 85.19 15,516 129.65 27,295 268.51
+34,261 28.92 16,056 69.63 14,049 100.80 11,207 140.03 20,108 283.23
+29,115 38.33 14,241 83.20 10,690 114.38
+7,215 153.63 14,777 296.77
+14,913 48.58
+5,786 107.25
+5,142 139.36
+4,027 179.65 10,805 336.54
+9,794 55.71
+2,997 119.84
+2,719 154.05
+2,592 193.89
+8,715 373.43
+8,747 49.42
+2,505 116.96
+2,569 148.97
+1,915 191.60
+7,027 369.67
+6,694 59.67
+2,168 134.86
+2,231 167.63
+1,927 209.76
+4,672 331.65
+6,436 68.81
+1,904 142.11
+1,736 181.28
+1,588 215.61
+4,665 329.46
+6,042 78.08
+1,718 147.10
+1,478 180.57
+1,475 221.18
+3,878 334.38
+4,654 98.06
+1,688 175.56
+1,101 209.53
+1,161 245.46
+3,064 375.41
+
+Panel B: Gold puts
+All
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+
+419,479 $15.23 138,131 $41.75 114,561 $72.13
+65,772
+0.29 25,974
+2.97 22,404 21.04
+100,514
+2.10 36,407 14.46 30,367 42.56
+64,562
+5.94 21,722 30.94 16,816 64.70
+46,014 10.73 15,515 44.89 12,224 81.19
+32,984 15.84 11,462 59.70
+9,510 97.01
+24,400 21.14
+8,163 75.71
+7,900 113.53
+16,119 27.99
+4,107 94.70
+3,622 138.23
+11,340 30.99
+2,311 107.69
+1,728 144.40
+9,721 28.41
+1,565 104.21
+1,584 140.04
+7,068 32.62
+1,676 116.23
+1,329 158.78
+7,828 40.92
+1,680 127.44
+1,456 165.16
+3,173 44.44
+792 132.37
+682 172.53
+3,808 56.56
+946 155.47
+645 195.10
+
+78,138 $125.92 135,266 $417.84
+15,744
+80.95 17,174 351.91
+20,226
+95.32 25,965 400.41
+11,184 116.49 19,738 411.35
+7,906 132.27 15,951 399.57
+6,480 146.95 13,841 391.29
+5,649 162.96 11,188 401.60
+2,456 194.79
+4,798 430.75
+1,090 198.70
+3,334 509.84
+1,218 186.08
+3,486 536.60
+707 197.94
+2,463 581.33
+925 203.76
+3,310 580.36
+583 219.43
+1,474 493.43
+477 266.60
+915 427.99
+
+41
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+Table 6
+Parameter estimates for gold and copper
+
+Parameters are estimated using nine maturity futures and bond contracts for each trading day from June
+23, 2003 until December 16, 2008. The parameter estimates are denoted by θ̂ and the standard error of
+the estimate is denoted by σθ̂ . LL is the value of the log-likelihood function. All estimates and standard
+errors are obtained using a Kalman filter and the Gauss program MaxLik with the BFGS maximization
+option. For copper, both short-term rates and convenience yield are assumed to follow an Ornstein–
+Uhlenbeck process and are defined in the standard way. For gold, short-term rates are assumed to follow
+geometric Brownian motion with Ornstein–Uhlenbeck interest rates. Parameter estimates with subscript
+c refers to convenience yields and subscript r refers to short-term interest rates. The first four parameters
+corresponding to the interest rate process are estimated independently and then input into the second
+program that estimates smooth stock parameters and convenience yield parameters. The standard errors in
+the measurement (transition) residuals are denoted by σε (ση ).
+θ̂
+
+σθ̂
+
+Prob
+
+θ̂
+
+Panel A: Copper estimates
+σs
+μs
+κc
+σc
+μc
+ρsr
+ρsc
+ρrc
+λc σc
+ση
+σε
+
+0.4484
+0.0103
+0.3947
+0.2333
+0.3634
+0.0090
+0.1184
+0.0043
+0.1048
+0.0367
+0.0000
+.
+0.5908
+0.0303
+0.0000
+.
+−0.0170
+0.0133
+0.0042
+0.0041
+0.0053
+0.0000
+LL = 31.0579, n = 1,368
+
+σθ̂
+
+Prob
+
+Panel B: Gold estimates
+0.0000
+0.0907
+0.0000
+0.0000
+0.0043
+.
+0.0000
+.
+0.2007
+0.3086
+0.0000
+
+σs
+μs
+κc
+σc
+μc
+ρsr
+ρsc
+ρrc
+λc σc
+ση
+σε
+
+0.2670
+0.0057
+0.3079
+0.0645
+0.0000
+.
+0.0000
+.
+0.0000
+.
+−0.2519
+0.0125
+0.0000
+.
+0.0000
+.
+0.0000
+.
+0.0071
+0.0008
+0.0011
+0.0000
+LL = 44.8721, n = 1,198
+
+0.0000
+0.0000
+.
+.
+.
+0.0000
+.
+.
+.
+0.0000
+0.0000
+
+κr
+σr
+μr
+λr σr
+σε1
+
+0.3306
+0.0045
+0.0124
+0.0003
+0.0364
+0.0208
+−0.0030
+0.0069
+0.0007
+0.0000
+LL = 51.3143, n = 1,198
+
+0.0000
+0.0000
+0.0805
+0.6608
+0.0000
+
+Panel C: Interest rate parameter estimates
+κr
+σr
+μr
+λr σr
+σε1
+
+0.3406
+0.004
+0.0113
+0.0003
+0.0374
+0.0171
+−0.0028
+0.0058
+0.0007
+0
+LL = 51.2357, n = 1,368
+
+0
+0
+0.0288
+0.634
+0
+
+that the gold return process has no convenience yield and is more correctly specified
+as a standard jump diffusion. Stochastic interest rates are assumed to follow an
+OU process. The first four parameters corresponding to the interest rate process are
+estimated independently and then input into the second program that estimates stock
+diffusion parameters and convenience yield parameters. Schwartz (1997) documents
+that the impact of stochastic rates on commodities, especially in the short-term
+contracts, is negligible. While less than ideal, this procedure simplifies estimation
+while assuming only that interest rates have little impact on gold and copper parameter
+estimates.
+
+42
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+The copper, gold, and interest rate parameters are in Panels A, B, and C of
+Table 6, respectively. Interest rate parameters differ slightly since copper and gold
+data screens result in slightly different data sets. The beginning and ending dates
+are the same but on some days, either the gold or copper data set would not have
+sufficient observations and that day would be deleted from the respective sample.
+The estimates are similar for copper (gold) with estimates κ̂r = 0.3406 (0.3306),
+σ̂r = 0.0113 (0.0124),and μ̂r = 0.0374 (0.0364). Risk adjustment estimates for copper (gold) were small, λ̂σ̂r = −0.0028 (−0.0030) and not significant.
+Copper estimates in Panel A show a diffusion volatility of σ̂s = 0.4484, convenience yield volatility of σ̂c = 0.1184 and a positive correlation between the diffusion innovation and convenience yield of ρ̂sc = 0.5908. Neither μs or μc are
+required for futures option pricing under the risk-neutral measure. Vasicek(1977)
+bond prices depend on the risk-adjusted long-term mean that is estimated by
+= 0.04562 for the copper data set and 0.04547
+μ̂∗r = μ̂r − λ̂κ̂r σ̂r r = 0.0374 + 0.0028
+0.3406
+for the gold data set.
+Gold estimates under the gBm assumption are in Panel B. The volatility is
+estimated to be σ̂s = 0.2670 and the correlation estimate with interest rates is ρ̂sr =
+−0.2519. The measurement and transition errors are assumed to be homoskedastic
+for both gold and silver contracts. The standard errors are small and of order 10−3 .
+Our estimates are consistent with respect to sign and approximate magnitude
+with those of Schwartz (1997), who uses weekly data sets with domains July 9, 1990
+to June 13, 1995 for copper and November 21, 1990 to June 13, 1995 for gold.
+The Schwartz three-factor model is the same as our model net of jumps. Parameter
+estimates are similar and like Schwartz we find that there is no mean reversion in
+gold prices.
+
+4.3.1. Implied jump parameters
+Twelve futures contracts are chosen each day with maturities between the 30 and
+780 days. For each futures contract, data on nine option contracts are recorded, with
+levels of moneyness centered on the at-the-money contract. Thus, when there was no
+exact at-the-money option contract, we record either five out-of-the money and four
+in-the-money contracts or four out-of-the money and five in-the-money contracts.
+We estimate implied jump parameters by first converting American option prices
+to European prices using the procedure in Broadie, Chernov and Johannes (2007)
+and Trolle and Schwartz (2009). In this procedure, an American pricing model under
+the gBm assumption is used to find the implied volatility for the underlying.5 Then,
+the implied volatility is used in the European Black model to construct an artificial
+
+5 To find the American implied volatility, Trolle and Schwartz (2009) used the Barone-Adesi and Whaley
+(1987) approximation while we use approximations from a 200-step binomial tree. Broadie, Chernov and
+Johannes (2007) also use a binomial tree.
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+43
+
+European option price. While admittedly ad hoc, Trolle and Schwartz (2009) note in
+simulation studies that pricing errors (simulated European prices) are approximately
+zero at short maturities and very small for longer maturities. Broadie, Chernov and
+Johannes (2007) use a different model with jumps (stochastic volatility with jumps).
+In their simulations, they find acceptable but slightly larger errors in European prices.
+Implied jump parameters are estimated each day for the period December 17,
+2008 until March 2, 2009.6 Diffusion parameters are fixed at values estimated during
+the prior period extending from June 23, 2003 until December 16, 2008. One exception to this rule is used for copper options. A much better fit is obtained for copper
+when the diffusion volatility, σs , is used as the starting point and reestimated in the
+subsequent period. Thus, for copper, the four implied parameters estimated are: jump
+2
+
+frequency, λ, jump volatility, δ, mean jump magnitude, γ = γ − δ2 , and volatility,
+σs . The least squares function minimized was
+
+∗
+(Vobs
+− Vm (λ, δ, γ  , σs ))2 ,
+(19)
+min L =
+λ,δ,γ ,σs
+
+obs
+
+where all other parameters are fixed at their values reported in Table 6.7 In this setup,
+∗
+is the approximate European price obtained by adjusting the American price by
+Vobs
+the Trolle and Schwartz (2009) procedure. The model price Vm is computed by the
+HR model given in the Appendix. The model is compounded over Poisson events
+with an infinite number of terms. However, we find that prices are unchanged after
+30 terms when output is formatted to nine significant places. We center the number
+of terms around the mean number of expected events, λ(T − t), where T − t is the
+time to expiration of the option.
+There are up to 108 observations per day, consisting of 12 futures contracts
+and options with up to nine strikes. Days without observations are omitted and the
+previous day’s estimates are used when there were fewer than eight observations. We
+also screened high in-the-money options that, in the limit, contain no second moment
+information. An option is included as an observation only if the exercise value is less
+than 25% of the option price. In general, implied parameters are robust to the starting
+point.
+Typical values are in Table 7. The diffusion volatility for calls is higher than that
+for puts for both copper and gold (0.1725–0.1641 for copper and 0.3009–0.1119 for
+gold). Other studies consistently show that the “volatility spread” (implied volatility
+of calls minus that of puts) is negative. For example, Cremers and Weinbaum (2010)
+study volatility spreads for all stocks in the OptionMetrics database from 1996 to 2005
+and find that average put implied volatility exceeds average call implied volatility
+6 American and European option prices are computed numerically using a trivariate tree. While the out-ofsample data extended until January 31, 2012, we only estimated parameters for the first 50 days because
+of the computational load involved in pricing options multiple options per day on a trivariate tree.
+7 The
+
+Gauss procedure Optmum is used to minimize the function L.
+
+44
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Table 7
+Implied jump parameter estimates
+Nonlinear least squares estimates of model parameters taken from 50 daily observations beginning
+December 17, 2008. The arrival intensity of jumps = λ, mean jump magnitude = γ , jump volatilγ
+ity is δ, diffusion
+ volatility = σs and J̄ = e − 1. The local volatility of the jump-diffusion process is
+2
+2
+Std[dS/S] = σs + λδ 	, where 	 = 1 is the daily time step.
+Parameter
+
+Average
+
+Std error
+
+Panel A: Copper puts
+λ
+γ
+δ
+σs
+J̄
+λJ̄
+Std[dS/S]
+
+Std error
+
+Panel B: Copper calls
+1.754
+−0.0470
+0.3245
+0.1641
+−0.0426
+−0.0764
+0.4387
+
+0.0743
+0.0036
+0.0120
+0.0060
+0.0034
+0.0059
+0.0049
+
+Panel C: Gold puts
+λ
+γ
+δ
+σs
+J̄
+λJ̄
+Std[dS/S]
+
+Average
+
+1.392
+−0.0295
+0.3753
+0.1725
+−0.0290
+−0.0369
+0.4482
+
+0.0729
+0.0023
+0.0135
+0.0066
+0.0022
+0.0027
+0.0048
+
+Panel D: Gold calls
+0.6175
+0.1324
+0.1651
+0.1119
+0.1727
+0.0894
+0.2215
+
+0.3058
+0.2481
+0.1526
+0.1042
+0.2466
+0.1247
+0.0797
+
+0.3471
+0.0551
+0.1873
+0.3009
+0.0574
+0.0222
+0.3255
+
+0.1825
+0.0381
+0.0721
+0.2397
+0.0393
+0.0199
+0.2368
+
+by 0.978%. The results are not directly comparable to ours since we use a different
+model, a different underlying, and a different period.
+
+5. Early exercise estimates
+American contracts on copper and gold future options have nonzero early exercise premiums. Lacking simultaneous trading of otherwise identical American and
+European options, we evaluate early exercise premiums using the three-factor model
+with jumps in the underlying. The lattice is evaluated both with and without the possibility of early exercise. The early exercise premium is then the difference between
+the American option and the equivalent European option. During the out-of-sample
+period, implied jump parameters are estimated daily (using Equation (19)) and used
+in pricing calculations the next day. In general, we observe very small early exercise premiums because the out-of-sample period is in a low interest rate regime and
+because the options mature in less than one year. Short maturity contracts are chosen because they are most liquid and because evaluating a three-dimensional tree is
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+45
+
+time-consuming.8 For a short maturity contract, the numerical model with 20 steps
+performs quite well as can be seen from the data in the following tables. We note no
+significant improvements by increasing the number of steps.
+
+5.1. Copper
+Early exercise statistics for calls are in Table 8. Copper call prices over all data
+average about $0.22. The average early exercise premium over all maturities and
+strikes are in Panel A. The absolute early exercise premium is nonzero in the fourth
+place and averages about $0.0003. The average early percent exercise premium is
+about 15 basis points. While very small, the early exercise premium increases with
+moneyness. Notably the percentage early exercise premium is virtually unchanged
+over moneyness because the increasing premium with moneyness is largely offset by
+increases in option price.
+Moneyness affects early exercise premiums. Panels B, C, and D give results
+for the second, third and fourth nearby contract. The most in-the-money contacts
+have early exercise prices roughly two to three times greater than the most out-ofthe money contracts. Early exercise premiums, as a percent, averages about 5 basis
+points for the second nearby contract, 12 basis points for the third nearby contract, and
+19 basis points for the fourth nearby contract.
+Copper put statistics are in Table 9. Copper put prices over all data average about
+$0.21. Moneyness and maturity ranges are the same as in Table 8. Early exercise
+premiums, though still modest, are much higher for puts than for calls. Overall, the
+percent early exercise for puts averages about 39 basis points (Panel A) or more than
+twice that of calls (15 basis points). Still, the absolute level of the early exercise
+premium is quite small. The largest absolute early exercise premium, Panel D, is
+$0.0022 (over 68 basis points) for options that are more than 10% in-the-money. We
+observe that within a maturity class the average early exercise premium expressed as
+a percent is relatively unchanged over moneyness. Please see Figure 1 for a graphic
+depiction of moneyness versus percent early exercise premiums for both copper and
+gold.
+
+5.2. Gold
+Gold call statistics are in Table 10. Gold call prices over all data average about
+$76. Overall, early exercise premiums average about $0.18. While larger in absolute
+value, the percentage early exercise premiums are very similar to those for copper,
+averaging about 21 basis points. Both absolute and percent early exercise premiums
+8 It takes about 16 seconds to evaluate one option on a 20-step tree. Increasing the number to steps to 50
+increases the execution time for a single option to 9.6 minutes. The program is written in Gauss and the
+computer is an HP Compaq 8200 Elite CMT with a 256 GB primary Solid State hard drive, a 3.40 GHz
+processor, and 16 GB of RAM.
+
+46
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Table 8
+Model implied early exercise premiums for copper calls
+Moneyness is defined as F /K where F is futures price and K is the strike. Call is the average observed call
+price. Model is the value given by the numerical solution. The data are taken from observations beginning
+December 17, 2008 and ending March 2, 2009. The early exercise premium is the signed difference
+between the American and European call value as determined by the lattice model. All table entries are
+averages. The early exercise premium is denoted by EEX and scaled by 102 . The percent early exercise
+premium is denoted by EEX%. N is the sample size.
+Panel A: All—Averages
+Moneyness
+
+N
+
+Maturity
+
+Avg F/K
+
+Calls
+
+Model
+
+EEX(102 )
+
+EEX%
+
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+176
+257
+223
+214
+193
+188
+72
+
+0.7649
+0.7569
+0.7604
+0.7628
+0.7624
+0.7598
+0.7613
+
+0.8845
+0.9258
+0.9737
+1.0242
+1.0755
+1.1243
+1.1628
+
+0.1378
+0.1585
+0.1866
+0.2197
+0.2537
+0.2878
+0.3161
+
+0.1392
+0.1612
+0.1914
+0.2265
+0.2624
+0.2981
+0.3287
+
+0.0223
+0.0166
+0.0300
+0.0342
+0.0412
+0.0500
+0.0551
+
+0.1558
+0.1514
+0.1537
+0.1482
+0.1549
+0.1661
+0.1659
+
+0.8826
+0.9247
+0.9761
+1.0241
+1.0748
+1.1224
+1.1616
+
+0.0713
+0.0907
+0.1213
+0.1524
+0.1909
+0.2261
+0.2575
+
+0.0759
+0.0943
+0.1245
+0.1572
+0.1996
+0.2384
+0.2725
+
+0.0052
+0.0064
+0.0080
+0.0092
+0.0112
+0.0143
+0.0171
+
+0.0674
+0.0665
+0.0631
+0.0580
+0.0575
+0.0596
+0.0629
+
+0.8834
+0.9251
+0.9740
+1.0242
+1.0751
+1.1239
+1.1623
+
+0.1172
+0.1384
+0.1676
+0.1994
+0.2347
+0.2706
+0.2956
+
+0.1189
+0.1404
+0.1713
+0.2049
+0.2425
+0.2807
+0.3085
+
+0.0149
+0.0168
+0.0213
+0.0234
+0.0291
+0.0359
+0.0375
+
+0.1248
+0.1199
+0.1242
+0.1143
+0.1202
+0.1280
+0.1220
+
+0.8856
+0.9266
+0.9733
+1.0242
+1.0758
+1.1247
+1.1632
+
+0.1577
+0.1796
+0.2065
+0.2393
+0.2725
+0.3056
+0.3342
+
+0.1588
+0.1830
+0.2124
+0.2473
+0.2820
+0.3161
+0.3465
+
+0.0295
+0.0337
+0.0391
+0.0446
+0.0531
+0.0646
+0.0706
+
+0.1857
+0.1845
+0.1844
+0.1807
+0.1891
+0.2054
+0.2047
+
+Panel B: Second nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+58
+91
+74
+67
+66
+62
+23
+
+0.4074
+0.4118
+0.4106
+0.4093
+0.4119
+0.4095
+0.4155
+
+Panel C: Third nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+58
+85
+76
+72
+63
+64
+23
+
+0.6435
+0.6400
+0.6441
+0.6403
+0.6420
+0.6427
+0.6351
+
+Panel D: Fourth nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+60
+81
+73
+75
+64
+62
+26
+
+0.8823
+0.8795
+0.8814
+0.8803
+0.8809
+0.8806
+0.8729
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+47
+
+Table 9
+Model implied early exercise premiums for copper puts
+Moneyness is defined as F/K where F is futures price and K is the strike. Puts is the average observed
+option value and Model is the value given by the numerical solution. The data are taken from observations
+beginning December 17, 2008 and ending March 2, 2009. The early exercise premium is the signed
+difference between the American and European put value as determined by the lattice model. All table
+entries are averages. The early exercise premium is denoted by EEX and scaled by 102 . The percent early
+exercise premium is denoted by EEX%. N is the sample size.
+Moneyness
+
+N
+
+Maturity
+
+Avg K/F
+
+Puts
+
+Model
+
+EEX(102 )
+
+EEX%
+
+0.6586
+0.6314
+0.6536
+0.6391
+0.6531
+0.6299
+0.6299
+
+0.8772
+0.9242
+0.9755
+1.0246
+1.0751
+1.1235
+1.1577
+
+0.1001
+0.1238
+0.1633
+0.2017
+0.2519
+0.2990
+0.3169
+
+0.1062
+0.1284
+0.1641
+0.1997
+0.2469
+0.2918
+0.3129
+
+0.0457
+0.0529
+0.0756
+0.0833
+0.1052
+0.1181
+0.1114
+
+0.3912
+0.3735
+0.4256
+0.3880
+0.4047
+0.3885
+0.3464
+
+0.8767
+0.9235
+0.9753
+1.0240
+1.0748
+1.1234
+1.1590
+
+0.0600
+0.0834
+0.1174
+0.1570
+0.2047
+0.2570
+0.2742
+
+0.0730
+0.0932
+0.1222
+0.1580
+0.2040
+0.2557
+0.2720
+
+0.0102
+0.0150
+0.0186
+0.0232
+0.0289
+0.0388
+0.0401
+
+0.1410
+0.1615
+0.1531
+0.1489
+0.1425
+0.1537
+0.1472
+
+0.8780
+0.9246
+0.9755
+1.0237
+1.0746
+1.1226
+1.1572
+
+0.0995
+0.1290
+0.1636
+0.2051
+0.2517
+0.3033
+0.3232
+
+0.1053
+0.1327
+0.1643
+0.2026
+0.2467
+0.2945
+0.3200
+
+0.0379
+0.0467
+0.0639
+0.0728
+0.0929
+0.1089
+0.1071
+
+0.3618
+0.3546
+0.3935
+0.3641
+0.3809
+0.3746
+0.3397
+
+0.8769
+0.9246
+0.9756
+1.0262
+1.0758
+1.1246
+1.1568
+
+0.1338
+0.1655
+0.2035
+0.2461
+0.2944
+0.3448
+0.3573
+
+0.1347
+0.1649
+0.2009
+0.2414
+0.2857
+0.3323
+0.3501
+
+0.0824
+0.1036
+0.1368
+0.1583
+0.1859
+0.2230
+0.2009
+
+0.6263
+0.6402
+0.6966
+0.6683
+0.6639
+0.6851
+0.5889
+
+Panel A: All—Averages
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+211
+234
+220
+212
+228
+196
+22
+
+Panel B: Second nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+63
+85
+69
+74
+71
+72
+7
+
+0.4164
+0.4061
+0.4121
+0.4093
+0.4140
+0.4093
+0.3849
+
+Panel C: Third nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+>1.15
+
+72
+76
+73
+69
+78
+64
+9
+
+0.6392
+0.6431
+0.6402
+0.6414
+0.6431
+0.6412
+0.6534
+
+Panel D: Fourth nearby contract
+<0.899
+0.90–0.949
+0.95–0.999
+1.00–1.049
+1.05–1.099
+1.10–1.149
+≥1.15
+
+76
+73
+78
+69
+79
+60
+6
+
+0.8779
+0.8817
+0.8797
+0.8831
+0.8778
+0.8826
+0.8803
+
+48
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+0..5
+0.45
+0..4
+0.35
+0..3
+0.25
+0..2
+0.15
+0..1
+0.05
+0
+
+Copper Puts
+
+EEX(%)
+( )
+
+EEX(%)
+
+Copper Calls
+0.5
+0.45
+0.4
+0.35
+0.3
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+
+Moneynesss
+
+Moneyn
+ness
+
+0..5
+0.45
+0..4
+0.35
+0..3
+0.25
+0..2
+0.15
+0..1
+0.05
+0
+
+Gold Putss
+
+EEX(%)
+( )
+
+EEX(%)
+
+Gold Calls
+
+Moneyness
+
+0.5
+0.45
+0.4
+0.35
+0.3
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+
+Moneyness
+
+Figure 1
+Percent early exercise premium for copper and gold options. Percent early exercise premiums
+computed by a lattice with density matched probabilities. See also the data in Tables 8, 9, 10,
+and 11
+
+increase with maturity. Within a maturity class, percent early exercise premiums are
+relatively constant. The largest absolute early exercise premium is $0.4282, for the
+fourth nearby contract (longest maturity evaluated) that is most in-the-money (Panel
+D). The largest percentage early exercise premium is about 41 basis points for calls
+in the moneyness category 1.00–1.02.
+Gold put statistics are in Table 11. Gold put prices over all data average about
+$78. Early exercise premiums in Panel A average about $0.29, higher than the average
+for calls at approximately $0.18. The percent early exercise premium is about 34 basis
+points, compared to 21 basis points for calls. In Panel D, we observe the highest early
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+49
+
+Table 10
+Model implied early exercise premiums for gold calls
+Moneyness is defined as F /K where F is futures price and K is the strike. Calls is the observed option
+value and Model is the value given by the numerical solution. The data are taken from observations
+beginning December 17, 2008 and ending March 2, 2009. The early exercise premium is the signed
+difference between the American and European put value as determined by the lattice model. All table
+entries are averages. The early exercise premium is denoted by EEX. The percent early exercise premium
+is denoted by EEX%. N is the sample size.
+Moneyness
+
+N
+
+Maturity
+
+Avg F /K
+
+Calls
+
+Model
+
+EEX
+
+EEX%
+
+0.6298
+0.5473
+0.5321
+0.6392
+
+0.9718
+0.9898
+1.0097
+1.0294
+
+69.3845
+68.4798
+75.0705
+92.3088
+
+68.0938
+69.3169
+76.6584
+91.9204
+
+0.1533
+0.1356
+0.1650
+0.2714
+
+0.2030
+0.1702
+0.1903
+0.2742
+
+0.9758
+0.9898
+1.0093
+1.0251
+
+43.2540
+46.7048
+54.9634
+61.7017
+
+50.2339
+54.1827
+62.5725
+69.8394
+
+0.0282
+0.0298
+0.0407
+0.0516
+
+0.0534
+0.0526
+0.0632
+0.0718
+
+0.9723
+0.9896
+1.0099
+1.0316
+
+67.6643
+74.0116
+81.8394
+89.2125
+
+66.3943
+72.6334
+80.8475
+89.9658
+
+0.1092
+0.1175
+0.1552
+0.2001
+
+0.1615
+0.1590
+0.1909
+0.2202
+
+0.9691
+0.9899
+1.0101
+1.0300
+
+85.9767
+93.5071
+102.0600
+109.3161
+
+79.8607
+87.4161
+96.2959
+103.9918
+
+0.2620
+0.3172
+0.4001
+0.4284
+
+0.3237
+0.3602
+0.4165
+0.4104
+
+Panel A: All—Averages
+<0.980
+0.980–1.00
+1.00–1.02
+>1.02
+
+206
+321
+308
+272
+
+Panel B: Second nearby contract
+<0.980
+0.980–1.00
+1.00–1.02
+>1.02
+
+50
+125
+134
+60
+
+0.3489
+0.3385
+0.3404
+0.3485
+
+Panel C: Third nearby contract
+<0.980
+0.980–1.00
+1.00–1.02
+>1.02
+
+70
+112
+99
+88
+
+0.5881
+0.5683
+0.5683
+0.5896
+
+Panel D: Fourth nearby contract
+<0.980
+0.980–1.00
+1.00–1.02
+>1.02
+
+86
+84
+75
+124
+
+0.8271
+0.8298
+0.8266
+0.8151
+
+exercise premiums of about $0.68 and 63 basis points. The only notable difference
+in gold puts is that the early exercise percent changes within moneyness levels from
+about 9 basis points for moneyness <0.975 to about 25 basis points for moneyness
+>1.025.
+
+6. Summary and conclusions
+We develop a lattice model for pricing options with multiple factors following
+one or more jump diffusions. Jumps are modeled as a factor separate from that of the
+diffusion. Lattice probabilities are derived using a multivariate probability density
+function for diffusion components and a mixture of normals for the jump components.
+
+50
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Table 11
+Model implied early exercise premiums for gold puts
+Moneyness is defined as K/F where F is futures price and K is the strike. Puts is the observed option value
+and Model is the value given by the numerical solution. The data are taken from observations beginning
+December 17, 2008 and ending March 2, 2009. The early exercise premium is the signed difference
+between the American and European put value as determined by the lattice model. All table entries are
+averages. The early exercise premium is denoted by EEX. The percent early exercise premium is denoted
+EEX%. N is the sample size.
+Moneyness
+
+N
+
+Maturity
+
+Avg K/F
+
+Puts
+
+Model
+
+EEX
+
+EEX%
+
+66.6051
+65.1507
+81.7536
+100.5259
+
+67.2830
+68.2457
+82.6508
+99.3740
+
+0.2541
+0.1857
+0.2821
+0.4443
+
+0.3642
+0.2422
+0.3170
+0.4355
+
+873.1417
+895.2663
+897.3065
+884.4269
+
+40.1667
+44.4945
+58.4885
+84.3923
+
+48.1525
+53.5364
+66.2672
+87.2388
+
+0.0447
+0.0418
+0.0732
+0.2205
+
+0.0949
+0.0780
+0.1070
+0.2462
+
+0.9658
+0.9875
+1.0126
+1.0319
+
+60.1667
+71.3934
+84.3722
+93.5556
+
+62.0953
+72.4181
+84.1696
+94.0050
+
+0.1616
+0.1680
+0.2319
+0.3133
+
+0.2665
+0.2365
+0.2815
+0.3407
+
+0.9632
+0.9869
+1.0129
+1.0342
+
+78.0352
+91.8500
+104.6444
+116.3151
+
+75.9199
+87.6047
+99.1668
+111.3278
+
+0.3733
+0.4495
+0.5774
+0.6844
+
+0.5029
+0.5246
+0.5956
+0.6288
+
+Panel A: All—Averages
+<0.975
+0.975–1.00
+1.00–1.025
+>1.025
+
+178
+426
+414
+170
+
+0.6816
+0.5268
+0.5589
+0.6155
+
+0.9653
+0.9875
+1.0123
+1.0327
+
+Panel B: Second nearby contract—averages
+<0.975
+0.975–1.00
+1.00–1.025
+>1.025
+
+24
+181
+139
+52
+
+0.3687
+0.3319
+0.3290
+0.3508
+
+Panel C: Third nearby contract
+<0.975
+0.975–1.00
+1.00–1.025
+>1.025
+
+63
+137
+151
+45
+
+0.6001
+0.5593
+0.5630
+0.5909
+
+Panel D: Fourth nearby contract
+<0.975
+0.975–1.00
+1.00–1.025
+>1.025
+
+91
+108
+124
+73
+
+0.8206
+0.8121
+0.8116
+0.8192
+
+The primary advantage of this approach is its general applicability to a variety of
+multidimensional pricing applications and the property that node probabilities are
+always well defined.
+The Kalman filter with observed bond and futures prices is used to obtain
+estimates of diffusion parameters for copper and gold. These estimates are held fixed
+and implied jump parameters are updated daily to obtain early exercise estimates
+using the lattice model. Because of the low interest rate environment and short dated
+options, we find very modest early exercise premiums. We find that percentage
+early exercise premiums within a maturity class do not exhibit much variation over
+moneyness levels. The percent average early exercise premium is about 15 basis
+points for calls and 35 basis points for puts.
+
+51
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Appendix: The Kalman setup for estimating interest rate
+parameters
+The mean regressive Ornstein–Uhlenbeck (OU) process for the short-term rate
+is
+dr = κr (μr − r)dt + σr dZr ,
+with solution
+rt = r s e
+
+−κr (t−s)
+
+
+
++ μr 1 − e−κr (t−s) +
+
+
+
+
+σr2 
+1 − e−2κr (t−s) ηrt ,
+2κr
+
+(A1)
+
+(A2)
+
+where ηrt ∼ N (0, 1). Under Vasicek (1977) assumptions, bond prices are given by
+∗
+
+B(t, T ) = e−rHr +μr (Hr −τ )−
+Hr =
+
+1−e
+κ
+
+σ 2 (4(1−e−κτ )−(1−e−2κτ )−2κτ )
+,
+4κ 3
+
+(A3)
+
+−κτ
+
+,
+
+where μ∗r ≡ μ − λr σr is the risk-adjusted mean of the OU process. Taking logs,
+ln B = −rHr + μ∗r (Hr − τ ) −
+
+σ 2 (4(1 − e−κτ ) − (1 − e−2κτ ) − 2κτ )
+. (A4)
+4κ 3
+
+Therefore, the Kalman measurement equation with y = lnB is
+yt = Zt rt + dt + εt ,
+with
+
+
+
+1 − e−κτ
+Z = −Hr = −
+κ
+
+(A5)
+
+(A6)
+
+and
+dt = μ∗r (Hr − τ ) −
+
+σ 2 (4(1 − e−κτ ) − (1 − e−2κτ ) − 2κτ )
+.
+4κ 3
+
+(A7)
+
+The measurement covariance matrix is assumed to be diagonal with equal variances σm2 . For yt , we use five contracts each day corresponding to five maturities.
+The transition equation for a sampling interval delta is
+rt = T rt−1 + ct + Rηt ,
+
+(A8)
+
+T = e−κr 	 ,
+
+(A9)
+
+ct = μr (1 − e−κ	 ),
+
+(A10)
+
+where
+
+52
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+and
+
+
+R=
+
+σr2
+(1 − e−2κr (t−s) ).
+2κr
+
+(A11)
+
+A.1. European option prices with jump diffusions and Vasicek (1977)
+yields and rates
+Consider the following physical system of prices, convenience yields and interest
+rates:
+dS
+= (μs − c − λJ̄ )dt + σs dZs + J dq,
+S
+dc = κc (μc − c)dt + σc dZc ,
+(A12)
+dr = κr (μr − r)dt + σr dZr
+under standard definitions where the Poisson jump intensity is λ and log(1 + J ) ∼
+2
+N(γ − δ2 , δ 2 ). It is algebraically challenging but otherwise straightforward to show
+(as in HR, 1998) that the futures price is
+F (t, T ) = St A(τ )D1 D2 D3 e−Hc c(t) /B(t, T ),
+(A13)
+where B(t, T ) is Vasicek (1977) bond price and
+⎞
+⎛
+σc2
+ρsc σs σc
+σc2 Hc2
+⎠
+⎝
+(Hc −τ ) μc −
++
+−
+2
+2κ
+κ
+4κ
+c
+c
+c
+A(τ ) = e
+,
+
+
+ρcr σc σr Hr − τ
+Hc − τ
+D1 =
++
++ Hc Hr ,
+κc + κr
+κr
+κc
+
+
+ρsr σs σr
+(τ − Hr ) ,
+D2 =
+κr
+D3 = − (Hr − τ )
+
+(A14)
+
+σr2
+σr2 Hr2
+−
+,
+κr2
+2κr
+
+where constant risk premiums have been imbedded into the μr and μc .
+The risk-neutralized futures diffusion can be written
+d F̂
+= −λJ̄ dt + σ (τ )dZF + J dq,
+(A15)
+F
+with σ (τ ) as defined in Equation (2). Both λ and J are risk neutralized. Following
+the lead of Bates (1991) and HR (1998), the European call pricing formula can be
+expressed as
+
+∞
+n 
+
+
+−λτ (λτ )
+bn τ
+F (t, T )Z(t, T )e N (d1n ) − KN (d2n ) ,
+e
+C(t, T ) = P (t, T )
+n!
+n=0
+(A16)
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+53
+
+where the option and futures contract expire simultaneously at T , ln(Z(t, T )) =
+Q1 + Q2 + Q3 and where
+σs σr ρsr
+(τ − Hr (τ )),
+κr
+
+
+
+(τ − Hr (τ ))
+Hr (τ )e−κc τ − Hc (τ )
+Q2 = σc σr ρcr
+,
++
+κr κc
+κc (κr + κc )
+
+
+σr2
+1 + e−2κr τ
+e−κr τ
+,
++
+Q3 = − 2 τ − Hr (τ ) −
+κr
+2κr
+κr
+
+Q1 = −
+
+(A17)
+
+bn = −λJ̄ ,
+
+
+ln F (t,T K)Z(t,T ) + b(n)τ + 12 (ν 2 + nδ 2 )
+d1n =
+,
+ν 2 + nδ 2
+
+d2n = d1n − ν 2 + nδ 2 .
+
+Finally, the expression for the integrated variance is
+
+ν2 =
+t
+
+T
+
+σ 2 (s)ds =
+
+6
+
+
+vi ,
+
+(A18)
+
+j =1
+
+where
+v1 = σs2 τ,
+
+
+1 − e−2κc τ
+σc2
+v2 = 2 τ +
+− 2Hc ,
+κc
+2κc
+
+
+σr2
+1 − e−2κr τ
+v3 = 2 τ +
+− 2Hr ,
+κr
+2κr
+v4 = −2σs σc ρsc
+
+κc τ + e−κc τ − 1
+,
+κc2
+
+2σs σr ρsr
+(τ − Hr ) ,
+κr
+
+
+1 − e−(κc +κr )τ
+2σc σr ρcr
+τ+
+v6 = −
+− Hc − Hr ,
+κc κr
+κc + κr
+
+v5 =
+
+and where H =
+
+1−e−κτ
+κ
+
+.
+
+(A19)
+
+54
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+A.2. Kalman filter—General setup
+Consider the measurement equation
+yt = Zt x t + d t + ε t
+
+(A20)
+
+x t = Tx t−1 + α t + Rηt .
+
+(A21)
+
+and the transition equation
+
+There are N observations per period, m state variables, and t = 1, . . . , T time
+series observations. The matrix Zt is N × m, dt is N × 1, and α t is m × 1. The
+transition matrix T is m × m, R is m × g, and η is g × 1, where g is the number of error
+sources. Given an initial estimate of the latent variables, x̂0 and the covariance matrix
+of estimation errors (error = x̂t − xt ), P0 , the new covariance matrix of estimation
+errors is
+Pt|t−1 = T t Pt−1 T Tt + Rt Qt RTt ,
+
+(A22)
+
+where Qt = cov[ηt , ηTt ] and the notation t|t − 1 denotes an estimate at t, given the
+information at t − 1. The updating equations are
+t = Zt Pt|t−1 ZTt + Ht ,
+
+(A23)
+
+V t = yTt −Zx̂t|t−1 − dt ,
+
+(A24)
+
+x̂ t = x̂ t|t−1 + P t|t−1 ZTt −1
+t−1 V t ,
+
+(A25)
+
+P t = P t|t−1 − P t|t−1 Z Tt −1
+t Z t P t|t−1 ,
+
+(A26)
+
+where V t is the error in estimating y and t is the covariance matrix of the estimation
+errors.
+
+A.3. Maximum likelihood
+The parameters of the Kalman setup can be estimated by maximum likelihood. The
+log-likelihood equation is
+1  T −1
+NT
+1
+log | t | −
+V  V t,
+log 2π −
+2
+2 t=1
+2 t=1 t t
+T
+
+log L = −
+
+T
+
+(A27)
+
+where there are T time series observations, each consisting of N cross-sectional
+observations. V is the vector of measurement errors given in Equation (A24) and F
+is the covariance matrix of measurement errors given in Equation (A23).
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+55
+
+References
+Babbs, S.H. and K.B. Nowman, 1999. Kalman filtering of generalized Vasicek term structure models,
+Journal of Financial and Quantitative Analysis 34, 115–130.
+Ball, C.A. and W.N. Torous, 1983. Bond price dynamics and options, Journal of Financial and Quantitative
+Analysis 18, 517–531.
+Barone-Adesi, G. and R.E. Whaley, 1987. Efficient analytic approximation of American option values,
+Journal of Finance 42, 301–320.
+Bates, D.S., 1991. The crash of ’87. Was it expected? Evidence from the options markets, Journal of
+Finance 46, 1009–1044.
+Bates, D.S., 1996. Jumps and stochastic volatility: Exchange rate processes implicit in deutsche mark
+options, Review of Financial Studies 9, 69–107.
+Broadie, M., M. Chernov, and M. Johannes, 2007. Model specification and risk premia: Evidence from
+futures options, Journal of Finance 62, 1453–1490.
+Casassus, J. and P. Collin-DuFresne, 2005. Stochastic convenience yield implied from commodity futures
+and interest rates, Journal of Finance 60, 2283–2331.
+Chen, R.R. and L. Scott, 2003. Multi-factor Cox-Ingersoll-Ross models of the term structure: Estimates
+and tests from a Kalman filter model, Journal of Real Estate Finance and Economics 27, 143–172.
+Cremers, M. and D. Weinbaum, 2010. Deviations from put-call parity and stock return predictability,
+Journal of Financial and Quantitative Analysis 45, 335–367.
+Das, S.R., 2002. The surprise element: Jumps in interest rates, Journal of Econometrics 106, 27–65.
+Duffie, D., J. Pan, and K. Singleton, 2000. Transform analysis and asset pricing for affine jump-diffusions,
+Econometrica 68, 1343–1376.
+Harvey, A.C., 1989. Forecasting, Structural Time Series Models and the Kalman Filter (Cambridge
+University Press, Cambridge, UK).
+Hilliard, J.E., 2014. Robust binomial lattices for univariate and multivariate applications: Choosing probabilities to match local densities, Quantitative Finance 14, 101–110.
+Hilliard, J.E. and J. Hilliard, 2014. Using multivariate densities to assign lattice probabilities when there
+are jumps, Journal of Futures Markets doi:10.1002/fut.21667.
+Hilliard, J.E. and J. Reis, 1998. Valuation of commodity futures and options under stochastic convenience
+yields, interest rates, and jump diffusions in the spot, Journal of Financial and Quantitative Analysis
+33, 61–86.
+Hilliard, J.E. and A. Schwartz, 2005. Pricing European and American derivatives under a jump-diffusion
+process: A bivariate tree approach, Journal of Financial and Quantitative Analysis 40, 671–691.
+Huang, J.Z. and L. Wu, 2004. Specification analysis of option pricing models based on time-changed Lévy
+processes, Journal of Finance 59, 1405–1439.
+Hull, J.C., 2006. Options, Futures, and Other Derivatives (Pearson Prentice Hall, Upper Saddle River,
+NJ).
+Kou, S., 2004. Option pricing under a double exponential jump diffusion model, Management Science 4,
+1178–1192.
+Merton, R.C., 1976. Option pricing when underlying stock returns are discontinuous, Journal of Financial
+Economics 3, 125–144.
+Naik, V. and M. Lee, 1990. General equilibrium pricing of options on the market portfolio with discontinuous returns, Review of Financial Studies 3, 493–521.
+Ramaswamy, K. and S.M. Sundaresan, 1985. The valuation of options on futures contracts, Journal of
+Finance 40, 1319–1340.
+Ramezani, C.A. and Y. Zeng, 2007. Maximum likelihood estimation of the double exponential jumpdiffusion process, Annals of Finance 3, 487–507.
+Schwartz, E. and J.E. Smith, 2000. Short-term variations and long-term dynamics in commodity prices,
+Management Science 46, 893–911.
+
+56
+
+J. E. Hilliard and J. Hilliard/The Financial Review 50 (2015) 27–56
+
+Schwartz, E.S., 1997. The stochastic behavior of commodity prices: Implications for valuation and hedging,
+Journal of Finance 52, 923–973.
+Scott, L.O., 1997. Pricing stock options in a jump-diffusion model with stochastic volatility and interest
+rates: Applications of Fourier inversion methods, Mathematical Finance 7, 413–426.
+Tang, C.Y. and S.X. Chen, 2009. Parameter estimation and bias correction for diffusion processes, Journal
+of Econometrics 149, 65–81.
+Trolle, A.B. and E. Schwartz, 2009. Unspanned stochastic volatility and the pricing of commodity derivatives, Review of Financial Studies 22, 4423–4461.
+Vasicek, O., 1977. An equilibrium characterization of the term structure, Journal of Financial Economics
+5, 177–188.
+
+

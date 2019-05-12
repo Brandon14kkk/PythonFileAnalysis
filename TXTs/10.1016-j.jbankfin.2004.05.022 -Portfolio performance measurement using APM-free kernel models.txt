@@ -1,0 +1,3390 @@
+Journal of Banking & Finance 29 (2005) 623–659
+www.elsevier.com/locate/econbase
+
+Portfolio performance measurement using
+APM-free kernel models q
+Mohamed A. Ayadi
+a
+
+a,1
+
+, Lawrence Kryzanowski
+
+b,*
+
+Department of Finance, Operations, and Information Systems, Faculty of Business, Brock University,
+St. Catharines, ON, Canada L2S 3A1
+b
+John Molson School of Business, Concordia University, Montreal, QC, Canada H3G 1M8
+Received 10 July 2003; accepted 3 February 2004
+Available online 24 June 2004
+
+Abstract
+A general asset-pricing framework is used to derive a conditional asset-pricing kernel that
+accounts eﬃciently for time variation in expected returns and risk, and is suitable to perform
+(un)conditional evaluations of passive and dynamic investment strategies. The positive abnormal unconditional performance of Canadian equity mutual funds over the period 1989–1999
+becomes negative with conditioning, and is robust to the removal of ex post index mimickers.
+The reversal in the size-based performance results with limited information conditioning is
+alleviated somewhat with an expansion of the conditioning set. The performance statistics
+are weakly sensitive to changes in the level of relative risk aversion of the uninformed investor.
+Unconditional positive performances based on averages of individual fund performances lose
+their signiﬁcance when cross-correlations are accounted for using the block-bootstrap method.
+Estimates of survivorship bias due to the elimination of funds with shorter lives, which range
+from 36 to 58 basis points per year, are stable across performance models but diﬀer across
+groupings by fund objective.
+Ó 2004 Elsevier B.V. All rights reserved.
+JEL classiﬁcation: G11; G12
+Keywords: Stochastic discount factor; Conditional models; Mutual fund returns; Performance measures;
+Generalized method of moments; Survivorship bias
+
+q
+
+This paper was previously entitled, assessing portfolio performance using asset-pricing kernels.
+Corresponding author. Tel.: +514-848-2424 local 2782/+1-514-488-7457; fax: +1-514-848-4500.
+E-mail addresses: mayadi@brocku.ca (M.A. Ayadi), lkryzan@vax2.concordia.ca (L. Kryzanowski).
+1
+Tel.: +905-688-5550x3917.
+*
+
+0378-4266/$ - see front matter Ó 2004 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jbankﬁn.2004.05.022
+
+624
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+1. Introduction
+Most previous studies of portfolio performance evaluation use equilibrium-based
+asset-pricing models such as the CAPM and the APT to estimate the risk-adjusted
+performance of actively managed portfolios. These performance metrics are obtained by comparing the portfolio’s average excess return to that implied by the selected model for the same level of risk. Evidence against the empirical validity of
+these models in the form of priced anomalies is mounting. These models also fail
+to deliver reliable measures of performance and sometimes generate misleading inferences. This is caused essentially by problems related to estimation bias due to the
+presence of timing information (Dybvig and Ross, 1985; Admati and Ross, 1985;
+Grinblatt and Titman, 1989) and to the choice and eﬃciency of the chosen benchmarks where rankings can change with the use of diﬀerent benchmarks (Roll,
+1977, 1978). These problems led to the development of an asset-pricing model-free
+measure to assess portfolio performance.
+This alternative methodology relies on the general asset-pricing framework or
+GAPF based on the stochastic discount factor or SDF representation of asset prices.
+According to Harrison and Kreps (1979), this methodology requires weaker market
+conditions of either the law of one price or no arbitrage conditions. The GAPF
+implies that any gross return discounted by a market-wide random variable has a
+constant conditional expectation. The GAPF nests all common (un)conditional asset-pricing models such as the CAPM, APT, ICAPM, Multifactor Models, CCAPM,
+or Option Models, depending on the speciﬁcation of the stochastic discount factor.
+Moreover, the GAPF allows for an integration of the role of conditioning information with diﬀerent structures (Hansen and Richard, 1987).
+Grinblatt and Titman (1989) initially apply the GAP framework to portfolio performance evaluation via their positive period weighting measure or PPWM where
+the SDF is the marginal utility of the return on an eﬃcient portfolio. Subsequently,
+this methodology is applied and further developed by Glosten and Jagannathan
+(1994), Grinblatt and Titman (1994), Chen and Knez (1996), Kryzanowski and
+Lalancette (1996), Bansal and Harvey (1996), He et al. (1999), Goldbaum (1999),
+Dahlquist and Soderlind (1999), and Farnsworth et al. (2002). Most of these papers
+use existing asset-pricing kernels that are not adapted to performance evaluation
+when realizations may be negative, adopt simple linear conditioning information
+integration between the unconditional and conditional pricing kernels, and/or employ unconditional average returns.
+Thus, given these limitations in the existing literature, this paper has two major
+objectives. The ﬁrst major objective is to introduce a conditional asset-pricing kernel
+adapted to performance evaluation that eﬃciently accounts for the time variation in
+expected returns and risk, and not to rely on the linear information scaling used in
+most SDF-based performance tests reported in the literature. This SDF depends on
+some parameters and on the returns on an eﬃcient portfolio, and satisﬁes some regularity conditions. This approach has the advantage of not being dependent on any
+asset-pricing model or any distributional assumptions. The proposed SDF is eﬃcient
+by construction, given that it prices all of the benchmarks and assets. The proposed
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+625
+
+SDF is further diﬀerentiated from most existing SDF models because it has a unique
+structure that reﬂects non-linear interdependence between its unconditional and conditional versions caused essentially by the time-variability in the optimal risky asset
+allocation. The framework also is suitable for performing unconditional evaluations
+of ﬁxed-weight strategies and (un)conditional evaluations of dynamic strategies.
+The second major objective is to develop the appropriate empirical framework for
+the estimation of the performance measures. We advocate the use of a ﬂexible estimation methodology using the (un)conditional Generalized Method of Moments or
+GMM of Hansen (1982). We construct the empirical performance measures and
+their associated tests, and use this methodology to assess the performance of a set
+of Canadian equity mutual funds over the period 1989–1999. The GMM system is
+estimated consecutively using a one-step method and the excess returns for each individual fund or each portfolio of funds and the set of passive portfolios. We also test
+the sensitivity of the performance measures to changes in the level of the relative risk
+aversion of the uninformed investor, and estimate the survivorship bias and its sensitivity to the choice of the performance measurement model.
+The ﬁrst major ﬁnding is that the measured unconditional performance of fund
+managers is positive. Unconditional positive performances based on averages of
+individual fund performances lose their signiﬁcance when cross-correlations are accounted for using the block-bootstrap method. The performance statistics deteriorate with conditioning, which suggests that the time-variation in the conditional
+risky asset allocation used herein appears to have a greater impact on conditional
+performance than the common linear information scaling applied in most SDFbased performance tests. While the unconditional performance estimates are similar
+when the averages of the individual fund performances are compared against the
+average performances of the portfolios of all funds, the tests of signiﬁcance for the
+latter are more reliable since the latter reﬂect the contemporaneous correlations in
+the returns among the individual funds. In contrast, the former assumes that the performances of individual funds are independent contemporaneously of each other.
+With limited conditioning, the performance statistics based on all individual funds
+are higher than those based on portfolios of the funds, and the superior performance
+switches from larger funds to smaller funds as captured in a comparison of sizeversus equal-weighted portfolios of funds, when the assessment relies on both portfolios of funds and individual funds. These results may be due to an increased
+non-linearity in the risk adjustment for the limited conditional pricing kernel. Furthermore, an expansion of the conditioning information set seems to alleviate the impact of the conditional pricing kernel on the size-based statistics. The obtained
+results are robust to the removal of ex post index mimickers.
+The second major ﬁnding is that performance statistics and inferences are only
+weakly sensitive to changes in the level of relative risk aversion of the uninformed
+investor. This indicates that the pricing kernel-based performance measure is reasonably robust over a certain range of investor preferences.
+The third major ﬁnding is that survivorship bias due to the elimination of funds
+with shorter lives is important for the performance of Canadian equity mutual funds.
+This importance is similar to that estimated for US and European funds. While
+
+626
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+survivorship bias is reasonably stable across performance models, it diﬀers materially
+across funds grouped by their investment objectives.
+The remainder of the paper is organized as follows: Section 2 presents the general
+asset-pricing framework. In Section 3, we derive the asset-pricing kernel in the presence of time-varying returns. A (un)conditional portfolio performance evaluation
+using the developed normalized pricing operator is conducted in Section 4. In Section 5, we develop and explain the econometric methodology and the construction
+of the tests. Section 6 introduces the sample and the data used herein. Section 7 presents and discusses the main empirical results. Finally, Section 8 summarizes the
+ﬁndings and discusses their implications.
+
+2. General asset-pricing framework or GAPF
+The fundamental theorem in asset-pricing theory states that the price of a security
+is determined by the conditional expectations of its discounted future payoﬀs in frictionless markets. The stochastic discount factor or SDF is a random variable that
+reﬂects the fundamental economy-wide sources of risk. 2 The basic asset-pricing
+equation is written using gross returns as
+Et ðMtþ1 Ri;tþ1 Þ ¼ 1;
+
+all i ¼ 1; . . . ; N :
+
+ð1Þ
+
+The conditional expectation is deﬁned with respect to the sub-sigma ﬁeld on the set
+of states of nature, Xt , which represents the information available to investors at time
+t. Ri;tþ1 is a gross return or payoﬀ divided by price on asset i at time t þ 1, and Mtþ1 is
+the stochastic discount factor or the pricing kernel. 3 The prices, payoﬀs and discount factors can be real or nominal, and the general assumption is that the asset
+payoﬀs have ﬁnite second moments. As shown by Luttmer (1996), (1) becomes an
+inequality when transaction costs or any other market frictions are introduced.
+If ri;tþ1  Ri;tþ1  Rf ;tþ1 is deﬁned as an excess return, it has a zero price. The pricing equation then becomes
+Et ðMtþ1 ri;tþ1 Þ ¼ 0;
+
+all i ¼ 1; . . . ; N :
+
+ð2Þ
+
+The SDF representation integrates both the absolute and the relative pricing approaches and has several advantages. First, it is general and convenient for pricing
+stocks, bonds, derivatives and real assets. Second, the SDF representation is simple
+and ﬂexible in that it nests all asset-pricing models by introducing explicit assump-
+
+2
+It is a generalization of the standard discount factor under uncertainty. It is stochastic because it
+varies across the states of nature.
+3
+The SDF has various other names such as the intertemporal marginal rate of substitution in
+the consumption-based model, the equivalent martingale measure for allowing the change of measure from
+the actual or objective probabilities to the risk-neutral probabilities, or the state price density when the
+Arrow–Debreu or state-contingent price is scaled by the associated state probability.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+627
+
+tions on the functional form of the pricing kernel and on the payoﬀ distributions. 4
+Third, the SDF representation leads to a reliable analysis of passively and actively
+managed portfolios by avoiding the limitations of the traditional models by providing robust measures. Fourth, by construction, the SDF representation oﬀers a
+suitable framework when performing econometric tests of such models using the
+GMM approach of Hansen (1982). Fifth, the SDF representation accommodates
+conditioning information and exploits its implications and the predictions of the
+underlying model in a simple way.
+Kan and Zhou (1999) identify an empirical ﬂaw associated with the SDF methodology when the asset returns are generated by a linear factor structure. They argue
+that the SDF methodology ignores the full dynamics of asset returns in that it does
+not incorporate the data generating process in the moment conditions, and that some
+noisy or unsystematic factors may satisfy the SDF equation. Speciﬁcally, Kan and
+Zhou show that under such assumptions, the model parameters (speciﬁcally risk premiums) are poorly estimated in that they are less eﬃcient compared to those estimated with classical regression methods, and that the power of the speciﬁcation
+tests is signiﬁcantly reduced due to the misspeciﬁcation of the second moment matrix
+of the moment conditions. The evidence on this last problem is corroborated in Kan
+and Zhang (1999) for GMM tests of SDF models with useless factors. Jagannathan
+and Wang (2002) and Cochrane (2000) contradict these results by demonstrating
+that the GMM/SDF estimation is as eﬃcient as the traditional time-series and
+cross-sectional regressions asymptotically and in ﬁnite samples. 5
+3. Time-varying returns and asset-pricing kernels
+When investment opportunities are time-varying, the stochastic discount factors
+or the period weights can be interpreted as the conditional marginal utilities of an
+investor with isoelastic preferences described by a power utility function that exhibits
+constant relative risk aversion (CRRA) given by
+U ðWt Þ ¼
+
+1
+W 1c ;
+1c t
+
+where Wt is the level of wealth at t, and c is the relative risk aversion coeﬃcient. In a
+single-period model, the uninformed investor who holds the benchmark portfolio (the
+risky asset) maximizes the conditional expectation of the utility of his terminal wealth
+E½U ðWtþ1 ÞjXt 	:
+
+ð3Þ
+
+The conditional expectation is based upon the information set Xt .
+4
+These models include the CAPM of Sharpe (1964), the APT of Ross (1976), the CCAPM of Lucas
+(1978) and Breeden (1979), the ICAPM of Merton (1973), the multifactor models of Chen et al. (1986) and
+Fama and French (1993), and the Non-linear APM of Hansen and Singleton (1982).
+5
+Jagannathan and Wang (2002) show that the eﬃciency of the GMM estimates of factor risk premiums
+can be identical to OLS estimates, provided that additional moment conditions identifying the mean and
+factor variance are appended to the system.
+
+628
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+The investor with such preferences decides on the fraction at of wealth to allocate
+to the risky asset and any remaining wealth is invested in a risk-free security. The
+return on wealth is given by
+Rw;tþ1 ¼ at Rb;tþ1 þ ð1  at ÞRf ;tþ1 ¼ at ðRb;tþ1  Rf ;tþ1 Þ þ Rf ;tþ1
+¼ at rb;tþ1 þ Rf ;tþ1 ;
+
+ð4Þ
+
+where
+Rb;tþ1 : the gross return on the benchmark portfolio from t to t þ 1;
+rb;tþ1 : the excess return on the benchmark portfolio from t to t þ 1;
+Rf ;tþ1 : the gross risk-free rate from t to t þ 1 that is known one period in advance
+at time t; and
+at : is the proportion of total wealth invested in the benchmark portfolio.
+The optimal risky asset allocation or portfolio policy is no longer a constant
+parameter when asset returns are predictable. Fama and French (1988, 1989), Ferson
+and Harvey (1991), Bekaert and Hodrick (1992), Schwert (1989), and Kandel and
+Stambaugh (1996), among others, document evidence of signiﬁcant return predictability for long and short horizons, where the means and variances of asset returns
+are time-varying and depend on some key variables such as lagged returns, dividend
+yield, term structure variables, and interest rate variables. Moreover, more recent
+papers by Brennan et al. (1997), Campbell and Viceira (1999), Brandt (1999),
+Barberis (2000), and A€ıt-Sahalia and Brandt (2001) invoke diﬀerent assumptions
+on the intertemporal preferences of investors and on stock return dynamics. They
+show that the optimal portfolio weight is a function of the state variable(s) that forecast the expected returns when stock returns are predictable. It follows that the optimal portfolio weight is a random variable measurable with respect to the set of state
+or conditioning variables and is consistent with a conditional Euler equation: 6
+at  aðXt Þ:
+
+ð5Þ
+
+Thus, considering a constant optimal portfolio weight when returns are predictable
+aﬀects the construction of any measure based on this variable, and distorts inferences
+related to the use of such a measure. In addition, the functional form and the
+parameterization of the optimal portfolio allocation depend on the relationship
+between asset returns and the predicting variables. 7
+Assuming initial wealth at time t equals one, the conditional optimization problem as in Brandt (1999), Ferson and Siegel (2001), and A€ıt-Sahalia and Brandt
+(2001) for the uninformed investor is
+6
+
+See Appendix A for a proof that the optimal risky asset allocation is a non-linear function of the ﬁrst
+and second conditional moments of asset returns.
+7
+Brandt (1999) conducts a standard non-parametric estimation of the time-varying portfolio choice
+using four conditioning variables, dividend yield, default premium, term premium, and lagged excess
+return.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+a
+t ¼ arg max E½U ðat rb;tþ1 þ Rf ;tþ1 ÞjXt 	:
+
+629
+
+ð6Þ
+
+at
+
+The ﬁrst order condition gives the conditional Euler equation
+E½ðat rb;tþ1 þ Rf ;tþ1 Þc rb;tþ1 jXt 	 ¼ 0:
+
+ð7Þ
+
+c
+
+c
+Now deﬁne, Mtþ1
+ ðat rb;tþ1 þ Rf ;tþ1 Þ , which is a strictly positive conditional stochastic discount factor consistent with the no-arbitrage principle. This ensures that,
+if a particular fund has a higher positive payoﬀ than another fund, then it must have
+a higher positive performance. Grinblatt and Titman (1989) and Chen and Knez
+(1996) stress the importance of this positivity property in providing reliable performance measures. 8; 9
+c
+Mtþ1
+can be normalized such that
+
+Qctþ1 
+
+c
+Mtþ1
+c
+¼ Mtþ1
+Rf ;tþ1 :
+c
+Et ðMtþ1
+Þ
+
+ð8Þ
+
+Then Et ðQctþ1 Þ ¼ 1. This scaling is more convenient and is consistent with the original
+derivation of the PPWM of Grinblatt and Titman (1989) and Cumby and Glen
+(1990). The new conditional normalized pricing kernel plays a central role in the
+construction of the portfolio performance measure. The unconditional normalized
+pricing kernel is given by
+Qutþ1 
+
+u
+Mtþ1
+u
+¼ Mtþ1
+Rf ;tþ1 ;
+u
+EðMtþ1
+Þ
+
+ð9Þ
+
+where a is a constant parameter. Then EðQutþ1 Þ ¼ 1.
+Let kit , i ¼ ðu; cÞ, be the (un)conditional portfolio performance measure depending
+on the use of the appropriate SDF. It is an admissible positive performance measure
+with respect to the Chen and Knez (1996) deﬁnition. 10 If ry;tþ1 is the excess return on
+any particular portfolio y, then
+kut ¼ EðQutþ1 ry;tþ1 Þ ¼ Eðry;tþ1 Þ þ CovðQutþ1 ; ry;tþ1 Þ;
+
+ð10Þ
+
+kct ¼ Et ðQctþ1 ry;tþ1 Þ ¼ Et ðry;tþ1 Þ þ Covt ðQctþ1 ; ry;tþ1 Þ:
+
+ð11Þ
+
+It follows that the expected performance measure reﬂects an average value plus
+an adjustment for the riskiness of the portfolio measured by the covariance of its
+excess return with the appropriate normalized pricing kernel. The condition,
+Et ðQctþ1 rb;tþ1 Þ ¼ 0, or equivalently Et ðQctþ1 Rb;tþ1 Þ ¼ Rf ;tþ1 , guarantees that the benchmark portfolio is eﬃcient for the uniformed investor. In the case where Rb;tþ1 is
+8
+In this sense, the traditional Jensen alpha is implied by the CAPM pricing kernel when the positivity
+condition is not satisﬁed everywhere (Dybvig and Ross, 1985).
+9
+In general, when the pricing kernel can be negative with certain positive probability, a truncation is
+adopted. The truncation provides a similar representation for an option on a payoﬀ with a zero strike
+price.
+10
+According to Chen and Knez (1996), a performance measure is admissible when it satisﬁes four
+minimal conditions: it assigns zero performance to each portfolio in the deﬁned reference set, and it is
+linear, continuous, and non-trivial.
+
+630
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+a vector of gross returns on K eﬃcient benchmark portfolios, the condition becomes:
+Et ðQctþ1 Rb;tþ1 Þ ¼ Rf ;tþ1 1K , where 1K is a K-vector of ones.
+
+4. Performance evaluation of passively and actively managed portfolios
+4.1. Unconditional framework
+When uninformed investors do not incorporate public information, the portfolio
+weights are ﬁxed or constant. The gross return on such a portfolio is:
+Rp;tþ1 ¼ w0 R1;tþ1 , with w0 1N ¼ 1, R1 is a N -vector of gross security returns, and 1N
+is a N -vector of ones. We assume that the portfolio weights w are chosen one period
+before. The corresponding unconditional performance measure is
+kut ¼ EðQutþ1 rp;tþ1 Þ ¼ EðQutþ1 Rp;tþ1 Þ  Rf ;tþ1 ¼ 0;
+
+ð12Þ
+
+Qutþ1  Qðrb;tþ1 ; aÞ:
+It follows that the risk-adjusted return on the passive portfolio held by the uninformed investor is equal to the risk-free rate.
+The unconditional normalized pricing kernel or the PPWM only is able to price
+any asset or portfolio whose returns are attainable from all possible linear combinations of the original N assets or ﬁxed-weight trading strategies. The parameters of
+Qutþ1 are chosen such that EðQutþ1 rb;tþ1 Þ ¼ 0. Informed investors, such as possibly
+some mutual fund managers, trade based on some private information or signals
+implying non-constant weights for their portfolios. 11; 12
+The unconditional performance measure for an actively managed portfolio with a
+gross return Ra;tþ1 is given by
+0
+
+kut ¼ EðQutþ1 ra;tþ1 Þ ¼ EðQutþ1 Ra;tþ1 Þ  Rf ;tþ1 ¼ EðwðXat Þ Qutþ1 R1;tþ1 Þ  Rf ;tþ1 ;
+
+ð13Þ
+
+where Xa represents the private information set. When informed investors optimally
+exploit their private information or signals, this measure is expected to be strictly
+positive.
+4.2. Conditional framework
+When uninformed investors use publicly known information, Xp , in constructing
+their portfolios, the weights are a function of the information variables. The gross
+return is given by
+0
+
+Rp;tþ1 ¼ wðXpt Þ R1;tþ1 ;
+
+11
+
+with
+
+0
+
+wðXpt Þ 1N ¼ 1;
+
+and Xpt  Xat :
+
+The information may either concern individual stocks and/or the overall market.
+The weight function is not restricted, and may be non-linear, including any option-like trading
+strategies (Merton, 1981; Glosten and Jagannathan, 1994).
+12
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+631
+
+Consistent with the semi-strong form of the eﬃcient market hypothesis, the conditional SDF prices the portfolio such that
+kct ¼ Et ðQctþ1 rp;tþ1 Þ ¼ Et ðQctþ1 Rp;tþ1 Þ  Rf ;tþ1 ¼ 0;
+ð14Þ
+Qctþ1  Qðrb;tþ1 ; Xpt ; aÞ:
+To model the conditioning information, deﬁne Zt 2 Xpt , where Zt is a L-vector of
+conditioning variables containing unity as its ﬁrst element. One way to analyze these
+conditional expectations is to create general managed portfolios, and then to
+examine the implications for the unconditional expectations as in Cochrane (1996).
+Alternatively, as in Glosten and Jagannathan (1994), we can explicitly specify or
+approximate the conditional moments by incorporating the time-variation into the
+expected asset returns and volatilities. This latter approach has the disadvantage of
+being sensitive to any misspeciﬁcation in the conditional moments, and can lead to
+estimation problems given the increase in the number of parameters to be estimated
+compared to the number of available observations. Consequently, we focus on the
+ﬁrst approach using diﬀerent models of conditioning information to characterize the
+managed portfolios.
+Hansen and Singleton (1982) and Hansen and Richard (1987) propose including
+the conditioning information by scaling the original returns by the instruments. 13
+This simple multiplicative approach implies linear trading strategies and does not require the speciﬁcation of the conditional moments. 14 This approach allows one to
+uncover an additional implication of the conditional SDF model that is not captured
+by the simple application of the law of iterated expectations. These scaled returns can
+be interpreted as payoﬀs to managed portfolios or conditional assets. In eﬀect, an
+investor whose trading strategy is based on the value of Zlt , where l ¼ 1; . . . ; L, will
+put Zlt dollars into the asset. 15 The investor will receive Zlt Rtþ1 dollars at the end of
+the period, and each period the investor’s portfolio is rebalanced according to the
+value of the instrument. Hence, the payoﬀ space is expanded to NL dimensions to
+represent the number of trading strategies available to uninformed investors. 16
+13
+Bekaert and Liu (2004) propose that the conditioning information be integrated into the conditional
+pricing kernel model by determining the optimal scaling factor or the functional form of the conditioning
+information. These authors argue that the multiplicative model is not necessarily optimal in terms of
+exploiting the conditioning information and in providing the greatest lower bound. However, at the
+empirical level, this approach has a notable limitation in that the optimal scaling factor depends on the
+ﬁrst and second conditional moments of the distribution of asset returns leading to an increasing number
+of parameters to be estimated and diﬀerent parameterization of the conditional asset-pricing kernel. All of
+this leads to the need to estimate a complex system of equations.
+14
+It has become a commonly used approach in the asset-pricing literature.
+15
+The expected or average price of this trading strategy is equal to the expected or average value of the
+chosen instrument.
+16
+The intuition underlying the multiplicative approach is closely related to the evidence of returns
+predictability, where some prespeciﬁed variables predict asset returns. Such evidence potentially improves
+the risk–return tradeoﬀs available to uninformed investors, unlike the time-invariant risk–return tradeoﬀ.
+Bekaert and Hodrick (1992), Cochrane (1996), and Bekaert and Liu (2004) show that scaling the original
+returns by the appropriate instruments improves or sharpens the Hansen–Jagannathan lower bound on
+the pricing kernel when we account for conditioning information.
+
+632
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+The conditional performance measure can be written as
+kct ¼ Et ðQctþ1 R1;tþ1 Þ  Zt  Rf ;tþ1 1N  Zt ¼ 0;
+
+ð15Þ
+
+Et ðQctþ1 ÞZt ¼ Zt :
+
+ð16Þ
+
+Assuming stationarity and applying the law of iterated expectations yields:
+E½Qctþ1 ðR1;tþ1  Zt Þ	 ¼ EðRf ;tþ1 1N  Zt Þ;
+
+ð17Þ
+
+EðQctþ1 Zt Þ ¼ EðZt Þ;
+
+ð18Þ
+
+where  is the Kronecker product obtained by multiplying every asset return by
+every instrument. These two conditions ensure that the conditional mean of the
+pricing kernel is one, and that these managed portfolios are correctly priced. The
+conditional normalized pricing kernel is only able to price any asset or portfolio
+whose returns are attainable from dynamic trading strategies of the original N assets
+(i.e., asset returns scaled with the instruments) with respect to the deﬁned conditioning information set.
+The conditional performance for the actively managed portfolio is given by
+kct ¼ Et ðQctþ1 ra;tþ1 Þ ¼ Et ðQctþ1 Ra;tþ1 Þ  Rf ;tþ1 :
+
+ð19Þ
+
+This conditional test determines whether the private information or signal contains
+useful information beyond that available publicly, and whether or not this information has been used proﬁtably.
+The unconditional evaluation of dynamic performance that is implied by the conditional normalized pricing kernel is obtained by the simple application of the law of
+iterated expectations on the conditional model as in Ferson and Schadt (1996) and
+Dahlquist and Soderlind (1999). The parameterization of the conditional normalized
+pricing kernel diﬀers from the one associated with the conditional evaluation and is
+consistent with the following two moment conditions:
+EðQctþ1 R1;tþ1 Þ ¼ Rf ;tþ1 1N ;
+
+ð20Þ
+
+EðQctþ1 Þ ¼ 1:
+
+ð21Þ
+
+5. Econometric methodology and construction of the tests
+In this section, the empirical framework for the estimation of the performance
+measures and for the tests of the diﬀerent hypotheses and speciﬁcations using Hansen’s (1982) generalized method of moments (GMM) is detailed. 17 Important issues
+17
+
+This general and ﬂexible technique has become the common approach to estimate and test assetpricing models that imply conditional moment restrictions, even in the presence of non-standard
+distributional assumptions. It is an alternative to the maximum likelihood approach with no requirement
+to specify the law of motion of the underlying variables. Cochrane (2000) provides a comprehensive
+exposition of the relationship between the two techniques.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+633
+
+associated with the estimation procedure and the optimal weighting or distance
+matrix also are dealt with.
+5.1. The general methodology
+Two estimation methods are available for assessing the performance of actively
+managed portfolios such as mutual funds using a GMM system approach. The
+two-step method ﬁrst estimates the appropriate normalized pricing kernel using a
+system of moment equations including only passively managed portfolios, and then
+measures the risk-adjusted fund performance by multiplying the gross fund return by
+the estimated or ﬁtted pricing kernel and subtracting oﬀ the gross return on the riskfree asset. The performance estimates obtained in the second step do not account for
+the sampling errors resulting from the ﬁrst-step estimation, and consequently are
+consistent but not fully eﬃcient (Chen and Knez, 1996). The one-step method jointly
+and simultaneously estimates the normalized pricing kernel parameters and the performance measures by augmenting the number of moment conditions in the initial
+system with the actively managed fund(s) or portfolio(s) of funds. The estimates
+so obtained are more eﬃcient than those from the two-step method, but require
+more moment conditions especially when all the funds are included in the evaluation.
+In this paper, one-step estimation is repeated using the excess returns for each
+individual fund or each portfolio of funds and the set of ten passive portfolios. 18 This
+multivariate framework incorporates all of the cross-equation correlations. By construction, such estimations account for the restriction on the mean of the normalized
+(un)conditional pricing kernels, 19 which Dahlquist and Soderlind (1999) and Farnsworth et al. (2002) show is important in order to obtain reliable estimates.
+We now present the general steps and expressions leading primarily to the general
+case of conditional GMM estimation relevant for the conditional evaluation of
+dynamic trading-based portfolios. The unconditional GMM estimation is trivially
+obtained as a special case.
+Let h  ðacÞ0 be the vector of unknown SDF parameters to be estimated. Our
+model implies the following conditional moment restriction:
+Et ½Qc ðrb;tþ1 ; Zt ; h0 Þrp;tþ1 	 ¼ 0N
+
+ð22Þ
+
+such that Et ½Qc ðrb;tþ1 ; Zt ; h0 Þ	 ¼ 1. Now deﬁne uctþ1 ¼ Qc ðrb;tþ1 ; Zt ; hÞrp;tþ1 
+uðrb;tþ1 ; rp;tþ1 ; Zt ; hÞ as a N -vector of residuals or pricing errors, that depend on the set
+of unknown parameters, the excess returns on the benchmark portfolio(s), the
+18
+Farnsworth et al. (2002) show that the performance estimates and associated standard errors are
+invariant to the number of actively managed individual funds or portfolios of funds in the GMM system.
+Thus, a system, which is estimated simultaneously for each fund or portfolio of funds with the passive
+portfolios, is equivalent to an extended system with several funds or portfolios of funds. Such a system
+setup limits the number of moment conditions and controls the saturation ratios associated with the
+estimations.
+19
+The means of the normalized and non-normalized pricing kernels are equal to one and the inverse of
+the gross return on the risk-free asset, respectively.
+
+634
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+conditioning variables, and the excess returns on passive trading strategy-based
+portfolios.
+Assume that the dimensions of the benchmark excess return and the conditioning
+variables are K and L, respectively. Then, the dimension of the vector of unknown
+parameters is ðKL þ 1Þ. We then have
+Et ½uðrb;tþ1 ; rp;tþ1 ; Zt ; h0 Þ	 ¼ E½uðrb;tþ1 ; rp;tþ1 ; Zt ; h0 Þ	 ¼ 0N :
+
+ð23Þ
+
+Deﬁne hðrb;tþ1 ; rp;tþ1 ; Zt ; hÞ ¼ uctþ1  Zt ¼ uðrb;tþ1 ; rp;tþ1 ; Zt ; hÞ  Zt . Our conditional
+and unconditional moment restrictions can be written as: 20
+Et ½hðrb;tþ1 ; rp;tþ1 ; Zt ; h0 Þ	 ¼ E½hðrb;tþ1 ; rp;tþ1 ; Zt ; h0 Þ	 ¼ 0NL ; and
+
+ð24Þ
+
+Et ½Qc ðrb;tþ1 ; Zt ; h0 ÞZt  Zt 	 ¼ E½Qc ðrb;tþ1 ; Zt ; h0 ÞZt  Zt 	 ¼ 0L :
+
+ð25Þ
+
+Because the model is overidentiﬁed, the GMM system is estimated by setting the
+ðKL þ 1Þ linear combinations of the NL moment conditions equal to zero. When the
+system estimation of the performance measures is completed in one step, the number
+of moment conditions ðLðN þ 1ÞÞ and the number of unknown parameters ðKL þ 2Þ
+is augmented. 21
+Following Hansen (1982), the GMM estimator is obtained by selecting ^hT that
+minimizes the sample quadratic form JT given by 22
+JT ðhÞ  gT ðhÞ0 WT gT ðhÞ;
+
+ð26Þ
+
+where WT is a symmetrical and non-singular
+positive semi-deﬁnite NL  NL weighting
+PT
+matrix and gT ðhÞ is given by T1 t¼1 hðrb;tþ1 ; rp;tþ1 ; Zt ; hÞ.
+Let JT ð^
+hT Þ be the minimized value of the sample quadratic form. 23 When the
+optimal weighting matrix or the inverse of the variance–covariance matrix of the
+orthogonality conditions is used, TJT ð^
+hT Þ has an asymptotic standard central chisquare distribution with ððN  KÞL  1Þ degrees of freedom. This is the well-known
+Hansen JT -statistic. This estimation can handle the assumption that the vector of disturbances exhibits non-normality, conditional heteroskedasticity, and/or serial correlation even with unknown form.
+20
+Some technical assumptions are required for the consistency (strict stationarity and ergodicity of the
+process underlying the observable variables) and for the identiﬁcation of the model. The variable h must
+have a non-singular population (un)conditional covariance matrix, and the (un)conditional expectations
+of the ﬁrst derivatives of h must have a full raw rank. See Hansen (1982) and Gallant and White (1988) for
+more details.
+21
+Koenker and Machado (1999) derive restrictions on the growth rate of the number of moment
+conditions to ensure the validity of the conventional asymptotic inference for the GMM estimation. In
+eﬀect, these restrictions aﬀect the estimation of the optimal weighting matrix.
+22
+Under some regularity conditions, Hansen (1982) shows that the GMM estimator is consistent and
+asymptotically normal for any ﬁxed weighting matrix.
+23
+Jagannathan and Wang (1996) show that T times the minimized GMM criterion function is
+asymptotically distributed as a weighted sum of central chi-squared random variables.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+635
+
+5.2. The estimation procedure and the optimal weighting matrix
+The estimates of the portfolio performance measure are obtained by minimizing
+the GMM criterion function constructed from a set of moment conditions in the system. This requires a consistent estimate of the weighting matrix that is a general
+function of the true parameters, at least in the eﬃcient case. The dominant approach
+in the literature is the iterative procedure suggested by Ferson and Foerster (1994). 24
+Hansen (1982) proves that the GMM estimator is asymptotically eﬃcient when the
+weighting matrix is chosen to be the inverse of the variance–covariance matrix of the
+moment conditions. 25
+To estimate the optimal weighing matrix and to calculate the asymptotic standard
+errors for the GMM estimates, a consistent estimate of the empirical variance–
+covariance matrix of the moments is required. This variance–covariance matrix is
+deﬁned as the zero-frequency spectral density of the pricing errors vector
+hðrb;tþ1 ; rp;tþ1 ; Zt ; h0 Þ. A consistent estimate of this spectral density is used herein to
+construct a heteroskedastic and autocorrelation consistent (HAC) or robust variance–covariance matrix in the presence of heteroskedasticity and autocorrelation
+of unknown forms (Priestley, 1981). Chen and Knez (1996), Kryzanowski et al.
+(1997), Dahlquist and Soderlind (1999), and Farnsworth et al. (2002) construct robust t-statistics for their estimates of performance by using the modiﬁed Bartlett kernel proposed by Newey and West (1987a) to construct a robust estimator for the
+variance–covariance matrix. 26
+
+6. Sample and data
+6.1. Mutual fund and benchmark returns
+The initial mutual fund sample, which is drawn from the Financial Post mutual
+fund database, consists of 95 Canadian non-index equity funds with no more than
+5% of their values missing over the period from November 30, 1989 through December 31, 1999. The 122 monthly returns for each fund are given by the monthly
+changes in the NAVPS, and are adjusted for capital gains and dividend payments.
+As in most previous studies (Chen and Knez, 1996; Ferson and Schadt, 1996; Kryzanowski et al., 1997; Farnsworth et al., 2002), only equity funds are used for the tests
+24
+This consists of updating the weighting matrix based on a previous step estimation of the parameters,
+and then updating the estimator. This is repeated until convergence for a prespeciﬁed criterion and for a
+large number of steps. Ferson and Foerster (1994) and Cochrane (1996) ﬁnd that this iterative approach
+has better small sample properties than the two-step procedure, and is robust to small variations in the
+model speciﬁcations.
+25
+The choice of the weighting matrix only aﬀects the eﬃciency of the GMM estimator. Newey (1993)
+shows that the estimator’s consistency only depends on the correct speciﬁcation of the residuals and the
+information or conditioning variables.
+26
+The higher-order sample autocovariances are downweighted using linear declining weights, and those
+with order exceeding a certain parameter receive zero weight.
+
+636
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+of abnormal performance since an equity-based asset-pricing kernel cannot price or
+be used to evaluate the performance of non-equity funds. To be able to test the sensitivity of the performance statistics with respect to the selected benchmark, two
+benchmark proxies are used herein; namely, the 300 and value-weighted TSE indices.
+We use an additional sample of terminated and start-up funds over the studied period to estimate the impact of survivorship bias on fund performance, and to assess
+the impact of performance sensitivity across performance metrics and benchmark
+models.
+Table 1 presents some summary statistics on these funds. Panel A gives statistics
+on the cross-sectional distribution of the 95 mutual funds. The average annual fund
+returns vary from )3.08% for Cambridge Growth of Sagit Investment Management
+to 18.03% for AIC Advantage of AIC Limited, and have a cross-sectional mean of
+9.86%. The fund annual volatilities or standard deviations range from 6.00% for
+Canadian Protected of Guardian Timing Services to 31.05% for Cambridge Special
+Equity of Sagit Investment Management. Over the same sample, the annual average
+mean and volatility of the TSE 300 index returns are 11.17% and 14.53%, respectively.
+In panel B of Table 1, portfolios of funds grouped by investment objectives
+are obtained from equal-weighted portfolios using the 95 funds in the sample.
+The number of funds in each of six investment objective categories is 27 aggressive growth funds, 50 growth funds, 12 growth and income funds, 3 income
+funds, 1 balanced fund, and 2 specialty funds. Among the three groupings with
+at least ﬁve funds, the highest and lowest mean returns occur in the grouping
+of aggressive growth funds and the grouping of growth funds, respectively. The
+ﬁrst-order autocorrelations of the fund returns are greater than 0.1 for 30 of
+the 95 funds.
+6.2. Information variables
+A set of six instrumental variables is selected based on evidence of their predictive power in studies of stock return predictability. Data for each of these variables
+are drawn from Statistics Canada’s CANSIM database. The set includes DY or
+the dividend yield of the TSE 300 index (Fama and French, 1988, Ferson and
+Schadt, 1996, Kryzanowski et al., 1997, Christopherson et al., 1998; Farnsworth
+et al., 2002); TB1 or the Canadian one-month Treasury bill rate (Fama and Schwert, 1977; Ferson and Korajczyk, 1995); RISK or the risk premium as measured by
+the yield spread between long corporates (McLeod, Young, Weir bond index) and
+long Canadas (Chen et al., 1986; Kryzanowski and Zhang, 1992; Koutoulas and
+Kryzanowski, 1996); TERM or the slope of the term structure as measured by
+the yield spread between long Canadas and the one period lagged three-month
+Treasury bill rate (Ferson and Harvey, 1991; Chen and Knez, 1996); TSEVWX
+and TSE300X are the value-weighted and the TSE 300 index excess returns,
+respectively (Harvey, 1989); and DUMJ is a dummy variable for the month of
+January (Ferson and Schadt, 1996; Kryzanowski et al., 1997; Farnsworth et al.,
+2002).
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+637
+
+Table 1
+Summary statistics for the mutual funds and mutual fund excess return predictability
+Statistics
+
+Mean return
+
+Panel A: Individual mutual funds
+Mean
+0.8215
+Std. dev.
+0.2920
+Minimum
+)0.2563
+1%
+)0.1198
+2.5%
+0.1464
+5%
+0.3798
+10%
+0.5600
+25%
+0.7014
+Median
+0.8040
+75%
+0.9302
+90%
+1.1170
+95%
+1.4009
+97.5%
+1.4491
+99%
+1.4720
+Maximum
+1.5024
+
+Std. dev.
+
+Minimum
+
+Maximum
+
+Skewness
+
+Kurtosis
+
+4.1030
+0.9536
+1.7320
+2.6242
+2.8489
+3.1518
+3.2865
+3.6534
+3.9964
+4.2270
+4.8647
+5.7417
+6.6748
+7.7122
+8.9621
+
+)17.9935
+3.3824
+)23.7762
+)23.2102
+)22.6766
+)21.7504
+)20.7581
+)20.0053
+)18.8240
+)16.7178
+)14.6339
+)11.5281
+)8.4121
+)5.0960
+)4.5660
+
+12.2822
+5.8822
+5.9845
+6.2039
+6.5448
+7.2469
+7.7613
+9.1103
+10.9419
+12.9623
+15.8471
+26.6862
+31.3842
+36.9568
+39.2593
+
+)0.695
+0.603
+)1.562
+)1.514
+)1.476
+)1.401
+)1.231
+)1.048
+)0.870
+)0.518
+0.097
+0.462
+0.732
+1.349
+2.054
+
+4.105
+1.884
+0.305
+0.356
+0.967
+1.298
+1.714
+2.900
+4.192
+5.089
+6.014
+7.225
+8.308
+9.675
+10.437
+
+SWAG
+
+SWG
+
+SWGI
+
+27
+15.268
+0.009
+
+50
+16.250
+0.006
+
+12
+16.978
+0.005
+
+Panel B: Investment objective portfolios
+Objective
+N
+Mean return
+Ag. growth
+Growth
+Growth and
+income
+All
+
+Std. dev.
+
+27
+50
+12
+
+0.8409
+0.8143
+0.8156
+
+3.8646
+3.5717
+3.3359
+
+95
+
+0.8215
+
+3.5226
+
+Panel C: Mutual fund excess return predictability
+Fund portfolio EWAG
+EWG
+EWGI
+N
+v2
+p-value
+
+27
+15.343
+0.009
+
+50
+16.467
+0.006
+
+12
+17.531
+0.004
+
+This table reports the summary statistics for the mutual fund returns (in %) and for the mutual fund return
+predictability based on time series predictive regressions of two groups of portfolios of mutual fund excess
+returns on ﬁve lagged instrumental variables using monthly data from November 1989 through December
+1999, for a total of 122 observations. The instruments are dividend yield, risk premium, slope of the term
+structure, one-month Treasury bill rate, and dummy variable for January. The abbreviations AG, G, and
+GI refer to aggressive growth, growth, and growth and income fund categories, respectively, and the
+preﬁxes EW and SW refer to equal- and size-weighted portfolios of funds with these investment objectives,
+respectively. Panel A provides the statistics on the distribution of various parameter estimates for the
+sample of 95 equity mutual funds. Panel B reports some statistics on the equal-weighted portfolios of
+funds for the major groupings by investment objectives and for all funds. Panel C reports the mutual fund
+excess return predictability results where the estimations are conducted using the GMM method. The v2 row presents the Newey and West (1987b) tests of the hypothesis that all of the slope coeﬃcients are zeros.
+The next row includes the corresponding p-values.
+
+Descriptive statistics such as autocorrelations, and the correlation matrix for these
+variables are provided in panels A and B of Table 2, respectively. The correlations
+between these instruments range from )0.83 to 0.84.
+
+638
+
+Portfolios
+
+Min.
+
+Max.
+
+Skew.
+
+Kurt.
+
+q1
+
+q3
+
+q6
+
+q12
+
+Panel A: Descriptive statistics and autocorrelations
+TSEVWX
+0.545
+0.569
+4.194
+TSE300X
+0.417
+0.710
+4.243
+DY
+0.204
+0.191
+0.062
+TERM
+0.130
+0.138
+0.148
+RISK
+0.072
+0.073
+0.018
+TB1
+0.514
+0.415
+0.243
+P1
+4.882
+3.290
+11.472
+P2
+1.383
+1.167
+7.590
+P3
+0.830
+0.679
+6.544
+P4
+0.769
+0.754
+6.440
+P5
+0.484
+0.799
+6.451
+P6
+0.106
+0.625
+5.529
+P7
+0.115
+0.185
+4.616
+P8
+0.408
+0.364
+4.403
+P9
+0.439
+0.349
+4.353
+P10
+0.898
+0.874
+4.041
+
+)19.552
+)20.490
+0.109
+)0.245
+0.038
+0.212
+)18.102
+)25.821
+)20.705
+)25.037
+)23.005
+)27.103
+)21.572
+)20.037
+)18.118
+)18.999
+
+11.436
+11.559
+0.338
+0.368
+0.103
+1.143
+70.507
+29.736
+18.101
+26.279
+39.606
+14.187
+10.350
+11.404
+10.568
+8.502
+
+)0.737
+)0.889
+0.385
+)0.743
+)0.163
+1.161
+1.767
+0.158
+0.021
+0.161
+1.164
+)1.033
+)0.899
+)0.940
+)0.629
+)1.009
+
+6.398
+6.826
+1.952
+2.942
+1.839
+3.449
+10.756
+4.825
+3.723
+6.373
+14.139
+7.022
+6.101
+6.222
+4.822
+6.604
+
+0.063
+0.066
+0.976
+0.920
+0.948
+0.966
+0.228
+0.222
+0.236
+0.225
+0.111
+0.136
+0.062
+0.109
+0.063
+)0.036
+
+0.026
+0.006
+0.928
+0.793
+0.837
+0.883
+0.070
+0.079
+0.141
+0.070
+)0.037
+0.118
+0.054
+0.052
+0.036
+)0.018
+
+0.043
+0.050
+0.856
+0.630
+0.721
+0.747
+)0.103
+)0.070
+0.038
+)0.062
+)0.087
+0.059
+)0.008
+0.026
+0.023
+0.048
+
+)0.037
+)0.122
+
+Panel B: Correlation matrix of instruments
+Portfolios
+TSEVWX
+TSE300X
+
+TERM
+
+TSEVWX
+TSE300X
+DY
+TERM
+RISK
+TB1
+
+Mean
+
+1.000
+
+Median
+
+0.991
+1.000
+
+Std. dev.
+
+DY
+)0.276
+)0.245
+1.000
+
+0.122
+0.113
+)0.493
+1.000
+
+RISK
+
+TB1
+
+)0.054
+)0.033
+0.666
+)0.447
+1.000
+
+)0.254
+)0.233
+0.841
+)0.825
+0.557
+1.000
+
+0.682
+0.244
+0.619
+0.438
+0.111
+)0.018
+)0.018
+0.042
+)0.032
+)0.087
+)0.088
+)0.166
+)0.129
+)0.067
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Table 2
+Summary statistics for the instrumental variables and passive portfolios
+
+Panel C: Correlation matrix of passive portfolios
+Portfolios
+P1
+P2
+P3
+1.000
+
+0.670
+1.000
+
+0.655
+0.892
+1.000
+
+P4
+
+P5
+0.627
+0.867
+0.830
+1.000
+
+0.595
+0.681
+0.670
+0.652
+1.000
+
+P6
+0.655
+0.843
+0.837
+0.837
+0.752
+1.000
+
+P7
+0.555
+0.784
+0.780
+0.799
+0.743
+0.900
+1.000
+
+P8
+0.455
+0.708
+0.718
+0.732
+0.675
+0.874
+0.886
+1.000
+
+P9
+0.458
+0.675
+0.692
+0.698
+0.697
+0.825
+0.884
+0.925
+1.000
+
+P10
+0.398
+0.593
+0.622
+0.634
+0.652
+0.774
+0.811
+0.840
+0.883
+1.000
+
+This table reports the summary statistics for the monthly returns of the instrumental variables and ten size-sorted passive portfolios using all TSE stocks. TSEVWX and TSE300X
+are the value-weighted and 300 TSE index returns less the 1-month Treasury bill rate in % or TB1, respectively. DY is the dividend yield on the TSE 300 index. TERM is the yield
+spread between long Canadas and the one period lagged 3-month Treasury bill rate in % per month. RISK is the yield spread between the long-term corporate bond (McLeod,
+Young, Weir bond index) and long Canadas in % per month. Ten size-sorted stock portfolios are formed according to size deciles on the basis of the market value of equity
+outstanding at the end of the previous year. The securities with the smallest capitalizations are placed in P1. Panel A reports various statistics for these instruments and passive
+portfolios, including autocorrelation coeﬃcients of order 1, 3, 6, and 12. Panel B presents the correlation matrix of the instruments. Panel C presents the correlation matrix of the
+passive portfolios. The data cover the period from November 1989 to December 1999, for a total of 122 observations.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+P1
+P2
+P3
+P4
+P5
+P6
+P7
+P8
+P9
+P10
+
+639
+
+640
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+6.3. Predictability of mutual fund excess returns
+To motivate the implementation of the conditional methodology, we conduct a
+predictability analysis of two groups of six portfolios of mutual fund excess returns.
+The groups are equal- and size-weighted portfolios of funds using the individual fund
+returns within each investment objective. Time-series regressions of the excess returns of these portfolios of funds on a set of ﬁve instruments consisting of the lagged
+values of the dividend yield, the risk premium, the slope of the term structure, the
+one-month Treasury bill rate, and the dummy variable for the month of January
+are performed. The predictive power of the instruments is assessed using the Wald
+test proposed by Newey and West (1987b).
+The results reported in panel C of Table 1 indicate signiﬁcant levels of predictability for the equal- and size-weighted portfolios of funds. The null hypothesis, that all
+of the slope coeﬃcients associated with the selected instruments are zeros, is largely
+rejected. The evidence of predictability in the stocks composing the funds in the portfolios may explain these patterns. These ﬁgures also are higher than the unreported
+ones obtained with the portfolios of funds returns and with the passive portfolio excess returns. Furthermore, the unreported coeﬃcients associated with the dividend
+yield on the TSE 300 index and the yield on the one-month Treasury bill are significant for most of the portfolios. These ﬁndings provide strong support for undertaking a conditional performance analysis where the use of the conditional asset-pricing
+kernel eliminates the predictability in the mutual fund excess returns based on the set
+of predetermined information variables. Since two variables account for most of the
+time variation in mutual fund excess returns, subsequent empirical analysis only uses
+DY or DY and TB1 in the estimation of the performance measures.
+6.4. Passive strategies
+Passive (basis or reference) assets must reﬂect the investment opportunities set of
+investors and portfolio managers. In the empirical implementation of the performance measures, the type and the number of assets to be considered are important
+issues. In eﬀect, assets included must be consistent with the type of funds (essentially
+equity) under consideration. We construct ten size-based portfolios representing passive buy and hold stock market strategies considering all of the stocks on the TSE/
+Western monthly database. In a ﬁrst step, we compute the market value of each
+stock by multiplying the December-end price by the number of shares outstanding.
+The stocks are ranked on the basis of their market values at the end of the previous
+year. Ten decile portfolios are then formed each year with an approximately equal
+number of securities in each portfolio. The securities with the smallest capitalization
+are placed in portfolio one, as in Kryzanowski et al. (1997).
+Panels A and C in Table 2 provide descriptive statistics such as autocorrelations
+and the correlation matrix for these ten portfolios, respectively. The annualized average returns on the size portfolios range from 1.27% for portfolio six to 58.58% for
+portfolio one. All of the series indicate a low degree of persistence since all of the
+ﬁrst-order autocorrelations are less than 0.236.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+641
+
+6.5. Optimal risky asset allocation speciﬁcations
+In a conditional setting, the optimal risky asset allocation of the uninformed
+investor is a function of the conditional moments of asset returns. We assume that
+these conditional moments are linear in the state variables. Hence two linear speciﬁcations are adopted and integrated into the construction of the performance measures; namely: 27
+at ¼ Zt0 a;
+ð27Þ
+where a is a vector of unknown parameters, and Zt is a vector of instruments
+(including a constant) with a dimension equal to two or three depending on whether
+the set of conditioning variables includes DY only or both DY and TB1. When an
+unconditional evaluation is conducted, the uninformed investor’s portfolio policy is
+a constant.
+7. Empirical performance results
+The (un)conditional pricing kernel models are used to assess the risk-adjusted performance of the 95 equity funds under consideration. 28 In particular, we determine
+the average performance of all funds, its sign and signiﬁcance, its variability in total
+and per group of funds, and its sensitivity to the procedure for forming portfolios of
+funds and to the selected benchmark portfolio. 29
+We address three important issues related to risk-adjusted performance measurement. First, we examine the sensitivity of the performance metrics to changes in the
+level of relative risk aversion of the uninformed investor. Second, we estimate the
+survivorship bias and its sensitivity across performance metrics and benchmark
+models by using an additional sample of terminated and start-up funds over the
+studied period. Third, we estimate the impact on portfolio performance inferences
+when we remove index mimickers identiﬁed ex post from the sample.
+7.1. Evaluation of unconditional performance
+The performance results for the equal- and size-weighted portfolios of mutual
+funds using the two benchmark variables are summarized in Table 3. Based on
+27
+
+A€ıt-Sahalia and Brandt (2001) use a single linear index to characterize the relationship between the
+portfolio weight and the state variables.
+28
+The estimation is conducted by specifying the coeﬃcient of relative risk aversion exogenously as
+being equal to 4. The increasing complexity of the system prevented us from undertaking the simultaneous
+estimation of all of the coeﬃcients. The performance results and inferences are virtually unchanged using
+diﬀerent reasonable values of gamma.
+29
+Equal- and size-weighted portfolios of funds based on the investment objectives and for all funds
+provide insights on potential size eﬀects associated with performance, and can be interpreted as funds-offunds. They represent diversiﬁed investments that do not suﬀer from the most common criticism of fundsof-funds that they add an extra layer of costs. Other constructions could be based on industry or
+geographic sector investment themes.
+
+642
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Table 3
+Performance measures for the portfolios of funds using the unconditional and conditional pricing kernels
+Fund category
+
+TSE 300
+k
+
+Panel A: Equal-weighted
+Ag. growth
+Growth
+Growth/inc.
+All
+J-Stat
+
+TSEVW
+p-value
+
+Wald
+
+k
+
+p-value
+
+portfolio of funds and unconditional pricing kernel
+0.1884
+0.012
+0.1789
+0.2144
+0.001
+0.2098
+0.2681
+0.000
+0.2591
+0.1994
+0.000
+0.1933
+0.1506
+0.1505
+
+0.016
+0.001
+0.000
+0.000
+
+Panel B: Size-weighted portfolio of funds and unconditional pricing kernel
+Ag. growth
+0.2565
+0.001
+0.2463
+Growth
+0.2697
+0.000
+0.2626
+Growth/inc.
+0.1923
+0.006
+0.1830
+All
+0.2514
+0.000
+0.2438
+J-Stat
+0.1506
+0.1505
+
+0.002
+0.000
+0.008
+0.000
+
+Panel C: Equal-weighted
+Ag. growth
+Growth
+Growth/inc.
+All
+J-Stat
+Panel D: Size-weighted
+Ag. growth
+Growth
+Growth/inc.
+All
+J-Stat
+
+Wald
+
+portfolio of funds and conditional pricing kernel with DY as instrumental variable
+0.3077
+0.000
+0.2785
+0.000
+0.1012
+0.024
+0.0919
+0.040
+0.1479
+0.002
+0.1290
+0.008
+0.1599
+0.000
+0.1371
+0.000
+0.1792
+0.1792
+
+portfolio of funds and conditional pricing kernel with DY as instrumental variable
+0.2885
+0.000
+0.2510
+0.000
+0.1289
+0.004
+0.1129
+0.011
+0.0033
+0.947
+)0.0130
+0.794
+0.1414
+0.001
+0.1209
+0.007
+0.1794
+0.1793
+
+Panel E: Equal-weighted portfolio of funds and conditional pricing kernel with DY and TB1 as instrumental variables
+Ag. growth
+0.0299
+0.445
+0.000
+0.0056
+0.890
+0.000
+Growth
+)0.0899
+0.099
+0.000
+)0.0746
+0.134
+0.000
+Growth/inc.
+)0.0818
+0.152
+0.000
+)0.0522
+0.338
+0.000
+All
+)0.0605
+0.182
+0.000
+)0.0573
+0.183
+0.000
+J-Stat
+0.1843
+0.1828
+Panel F: Size-weighted
+Ag. growth
+Growth
+Growth/inc.
+All
+J-Stat
+
+portfolio of funds and conditional pricing kernel with DY and TB1 as instrumental variables
+0.1097
+0.008
+0.000
+0.0824
+0.046
+0.000
+)0.0529
+0.324
+0.000
+)0.0236
+0.621
+0.000
+)0.0961
+0.114
+0.000
+)0.0803
+0.156
+0.000
+)0.0197
+0.676
+0.000
+)0.0129
+0.763
+0.000
+0.1840
+0.1825
+
+This table reports the performance measures (k in %) per investment objective using the unconditional pricing kernel
+for the two selected benchmarks. The dividend yield (DY) and the yield on the one-month T-bill (TB1) are used as
+instrumental variables. Simultaneous system estimation, consisting of the ten size-based passive strategies and each
+portfolio of managed funds, is conducted using the GMM method. All represents the statistics of the portfolios of all
+funds. Size is deﬁned as the total net asset value of the fund. TSE 300 and TSEVW are the TSE 300 and valueweighted TSE indexes, respectively. The J-statistic is the minimized value of the sample quadratic form constructed
+using the moment conditions and the optimal weighting matrix. Wald corresponds to the p-value based on the Newey
+and West (1987b) Wald test of the marginal signiﬁcance of the two conditioning variables. Monthly data are used from
+November 1989 through December 1999, for a total of 122 observations per portfolio of funds.
+
+panel A, all equal-weighted portfolios have consistently positive and signiﬁcant
+abnormal performance. The lambda of a portfolio of all funds is 0.1933% per month,
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+643
+
+and the portfolio of growth/income funds contributes the most to this performance
+with a highly signiﬁcant lambda of 0.2591% using the value-weighted TSE index as a
+benchmark. The same analyses conducted on the size-weighted portfolios of funds
+(panel B) produces comparable and more signiﬁcant results. The lambdas of the
+portfolios of 27 aggressive growth funds and of the 50 growth funds are a highly signiﬁcant 0.2463% and 0.2626%, respectively. The lambda of the size-weighted portfolio of all funds is 0.2438% per month. These ﬁndings suggest that equal-weighted
+portfolios of funds, which overweight smaller funds and underweight larger funds,
+appear to underestimate unconditional performance. 30
+The cross-sectional average performance of individual funds is summarized in
+panels A and D of Table 4. The equal-weighted mean of the performances of individual funds is a positive 0.1931% (with an average p-value of 0.275) based on the
+value-weighted TSE index as the benchmark. Based on their cross-sectional means,
+the abnormal performances of the aggressive growth, growth, and growth/income
+samples of funds are positive but not signiﬁcant. However, the cross-sectional average signiﬁcance levels reported in this table must be interpreted with care since they
+are averages of individual levels, and the lambdas are symmetrically distributed with
+fat tails and are not independent. These results diﬀer from those reported for US
+funds (Chen and Knez, 1996; Ferson and Schadt, 1996; Farnsworth et al., 2002),
+and are consistent with the evidence in Kryzanowski et al. (1997).
+When the individual fund performances are weighted by the total NAVs of the
+funds, the cross-sectional size-weighted average lambda increases to 0.2224% and becomes marginally less insigniﬁcant (corresponding average p-value of 0.225) using
+the value-weighted TSE index. This performance improvement also is obtained for
+the aggressive growth and growth portfolios, and is conﬁrmed using the other benchmark.
+The comparison between these cross-sectional averages of individual performances and the performance of portfolios of all funds suggests similar inferences
+with comparable lambda point estimates and the consistent superior relative performance of larger versus smaller funds for both benchmarks. However, the p-values
+associated with the performances of portfolios of funds are superior and more
+reliable than those obtained from a cross-sectional averaging of the individual
+p-values.
+To better understand the sources of the positive average performance, the distribution of the p-values for all funds and per fund grouping is examined for the two
+benchmarks using heteroskedasticity and autocorrelation consistent t-statistics.
+Based on Table 5, 43% of the funds have p-values less than 5%, and only three funds
+exhibit signiﬁcant negative performance using the value-weighted TSE index as the
+benchmark. A preponderance of funds with good performance exists across all
+
+30
+Based on unreported results, the tests for the diﬀerences between the lambda estimates of the equaland size-weighted portfolios of funds are highly signiﬁcant (all of the p-values are less than 2%). This result
+is consistent across the four fund portfolios and the two benchmark variables. The lambdas of the two
+(equal- and size-weighted) portfolios under consideration are estimated within the same system.
+
+644
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Table 4
+Average summary statistics of the performance measures for individual funds using the unconditional and
+conditional pricing kernels
+Fund category
+
+Using TSE 300 and averaged over
+each of the funds in the respective
+fund category
+k
+
+p-Value
+
+Wald
+
+Using TSEVW and averaged over
+each of the funds in the respective
+fund category
+k
+
+p-Value
+
+Wald
+
+Panel A: Equal-weighted averages of individual fund performances using the unconditional pricing kernel
+Ag. growth
+0.1884
+0.263
+0.1796
+0.258
+Growth
+0.2145
+0.288
+0.2106
+0.285
+Growth/inc.
+0.2684
+0.204
+0.2597
+0.190
+All
+0.1996
+0.281
+0.1931
+0.275
+Mean J-Stat
+0.1506
+0.1505
+Panel B: Equal-weighted averages of individual fund performances using the conditional pricing kernel with
+DY as the instrument
+Ag. growth
+0.2988
+0.152
+0.2715
+0.158
+Growth
+0.1034
+0.224
+0.0844
+0.210
+Growth/inc.
+0.1669
+0.114
+0.1522
+0.118
+All
+0.1614
+0.198
+0.1412
+0.198
+Mean J-Stat
+0.1799
+0.1805
+Panel C: Equal-weighted averages of individual fund performances using the conditional pricing kernel with
+DY and TB1 as the instruments
+Ag. growth
+0.1137
+0.165
+0.000
+0.0902
+0.179
+0.000
+Growth
+)0.0971
+0.170
+0.000
+)0.0911
+0.171
+0.000
+Growth/inc.
+)0.0984
+0.201
+0.000
+)0.0890
+0.168
+0.000
+All
+)0.0461
+0.168
+0.000
+)0.0474
+0.181
+0.000
+Mean J-Stat
+0.1848
+0.1833
+Panel D: Size-weighted averages
+Ag. growth
+0.2391
+Growth
+0.2474
+Growth/inc.
+0.1918
+All
+0.2293
+Mean J-Stat
+0.1506
+
+of individual fund performances using the unconditional pricing kernel
+0.204
+0.2308
+0.198
+0.218
+0.2417
+0.213
+0.292
+0.1835
+0.268
+0.231
+0.2224
+0.225
+0.1505
+
+Panel E: Size-weighted averages of individual fund performances using the conditional pricing kernel with
+DY as the instrument
+Ag. growth
+0.2590
+0.185
+0.2309
+0.179
+Growth
+0.1311
+0.205
+0.1169
+0.182
+Growth/inc.
+0.0207
+0.169
+0.0063
+0.175
+All
+0.1469
+0.204
+0.1289
+0.195
+Mean J-Stat
+0.1797
+0.1799
+Panel F: Size-weighted averages of individual fund performances using the conditional pricing kernel with
+DY and TB1 as the instruments
+Ag. growth
+0.1384
+0.154
+0.000
+0.1157
+0.148
+0.000
+Growth
+)0.0557
+0.149
+0.000
+)0.0511
+0.143
+0.000
+Growth/inc.
+)0.1245
+0.258
+0.000
+)0.1154
+0.210
+0.000
+All
+)0.0218
+0.159
+0.000
+)0.0239
+0.158
+0.000
+Mean J-Stat
+0.1849
+0.1833
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+645
+
+Table 4 (continued)
+This table reports summary statistics of the average performance measures (k in %) per investment
+objective based on individual fund performances using the unconditional and conditional pricing kernels
+for the two benchmark variables. The dividend yield (DY) and the yield on the one-month T-bill (TB1) are
+used as instrumental variables. Simultaneous GMM system estimation is conducted for each individual
+fund together with the ten size-based passive strategies. All represents the equal- or the size-weighted
+averages of the performances of all of the individual funds. The J-statistic using the Bartlett kernel is the
+minimized value of the sample quadratic form constructed using the moment conditions and the optimal
+weighting matrix. Wald corresponds to the p-value based on the Newey and West (1987b) Wald test of the
+marginal signiﬁcance of the two conditioning variables. Size is deﬁned as the total net asset value of the
+fund. TSE 300 and TSEVW are the 300 and value-weighted TSE indices, respectively. Monthly data are
+used from November 1989 through December 1999, for a total of 122 observations per fund.
+
+major fund categories. The p-values based on the Bonferroni inequality indicate that
+the positive extreme t-statistics are signiﬁcant for all funds and across all major fund
+categories. 31 This rejects the joint hypothesis of zero lambdas. However, the conservative p-values corresponding to the minimum t-statistic for all funds are 0.577 and
+0.458 using the TSE 300 and the value-weighted TSE indices, respectively.
+Overall, the positive and signiﬁcant unconditional performance discussed above
+may reﬂect the presence of private and/or public information correlated with future
+returns. A conditional performance evaluation controlling for the eﬀects of public
+information is necessary to better assess whether the performance of our sample is
+due to the superior abilities of its managers.
+Before proceeding to the evaluation of conditional performance, we consider the
+possibility of using the moving block-bootstrap method of K€
+unsch (1989) as an
+alternative method of dealing with spatial correlation in a situation where the performances and test statistics are not likely to be independent across individual funds. 32
+To implement the method, 1000 block-bootstrap samples are constructed by resampling the entire data set with replacement using a block of three overlapping observations. For each bootstrap sample, the performance is estimated for each individual
+fund, and a distribution of performances is generated for all of the funds when the
+value-weighted TSE index is used as the benchmark. Bootstrapped statistics are
+then constructed for each individual fund. The unreported results with and without
+31
+This test uses the maximum or the minimum one-tailed p-value from the t-statistic distribution for all
+funds and fund groupings multiplied by the corresponding number of funds.
+32
+There are theoretical issues associated with the time-series block bootstrap due to the random or
+unknown nature of the dependence structure and the join-point problem (Andrews, 2004). According to
+Hall and Horowitz (1996), such block methods do not replicate the dependence structure of the original
+data, and the resulting bootstrap data series are not stationary when the blocks are of non-random lengths.
+In turn, this may aﬀect the distributions of the test statistics, since diﬀerent covariance matrices of the
+asymptotic forms of the parameter estimators are obtained from the original sample than from the
+bootstrapped samples. Hall and Horowitz (1996) propose some corrections to the diﬀerences between
+asymptotic covariances of the test statistics for the non-popular version of the block bootstrap based on
+non-overlapping observations of Carlstein (1986). They argue that the K€
+unsch’s blocking structure is more
+diﬃcult to analyse. We are grateful to one of the referees for suggesting the use of the block-bootstrap
+approach as another means of dealing with cross-correlations when drawing inferences about individual
+fund performances.
+
+646
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Table 5
+Summary statistics for the individual fund performances based on the unconditional and conditional pricing kernels
+Percent of
+funds with
+p < 5%
+
+Number of
+funds with
+k > 0 and
+p < 5%
+
+Bonferroni p-value
+Min. t
+
+Max. t
+
+48.15
+42.00
+41.67
+42.11
+
+11
+21
+4
+37
+
+0.245
+1.000
+0.073
+0.577
+
+0.000
+0.000
+0.000
+0.000
+
+11
+21
+5
+38
+
+0.237
+1.000
+0.058
+0.458
+
+0.000
+0.000
+0.000
+0.000
+
+Panel C: Value-weighted TSE index and unconditional pricing kernel with block bootstrapping
+Ag. growth
+27
+0.946
+0.003
+7.41
+2
+1.000
+Growth
+50
+0.988
+0.031
+2.00
+1
+1.000
+Growth/inc.
+12
+0.988
+0.013
+8.33
+1
+1.000
+All
+95
+0.988
+0.003
+4.21
+4
+1.000
+
+0.044
+0.776
+0.077
+0.154
+
+Panel D: TSE 300 index and conditional pricing kernel with DY as the instrumental variable
+Ag. growth
+27
+0.938
+0.000
+62.96
+16
+0.000
+Growth
+50
+0.959
+0.000
+60.00
+22
+0.000
+Growth/inc.
+12
+0.715
+0.000
+75.00
+6
+0.000
+All
+95
+0.959
+0.000
+60.00
+44
+0.000
+
+0.000
+0.000
+0.000
+0.000
+
+Panel E: Value-weighted TSE index and conditional pricing kernel with DY as the instrumental variable
+Ag. growth
+27
+0.904
+0.000
+55.56
+14
+0.000
+Growth
+50
+0.912
+0.000
+62.00
+22
+0.000
+Growth/inc.
+12
+0.655
+0.000
+83.33
+6
+0.000
+All
+95
+0.912
+0.000
+60.00
+42
+0.000
+
+0.000
+0.000
+0.000
+0.000
+
+Panel F: TSE 300 index and conditional pricing kernel with DY and TB1 as the instrumental variables
+Ag. growth
+27
+0.858
+0.000
+55.56
+11
+0.000
+Growth
+50
+0.971
+0.000
+58.00
+8
+0.000
+Growth/inc.
+12
+0.978
+0.000
+66.67
+1
+0.000
+All
+95
+0.978
+0.000
+58.95
+21
+0.000
+
+0.000
+0.000
+0.000
+0.000
+
+Fund
+category
+
+N
+
+Max. p
+
+Min. p
+
+Panel A: TSE 300 index and unconditional pricing kernel
+Ag. growth
+27
+0.894
+0.000
+Growth
+50
+0.980
+0.000
+Growth/inc.
+12
+0.984
+0.000
+All
+95
+0.984
+0.000
+
+Panel B: Value-weighted TSE index and unconditional pricing kernel
+Ag. growth
+27
+0.931
+0.000
+48.15
+Growth
+50
+0.948
+0.000
+42.00
+Growth/inc.
+12
+0.866
+0.000
+50.00
+All
+95
+0.948
+0.000
+43.16
+
+Panel G: Value-weighted TSE index and conditional pricing kernel with DY and TB1 as the instrumental
+Ag. growth
+27
+0.869
+0.000
+48.15
+8
+0.000
+Growth
+50
+0.934
+0.000
+58.00
+7
+0.000
+Growth/inc.
+12
+0.787
+0.000
+58.33
+1
+0.000
+All
+95
+0.944
+0.000
+54.74
+16
+0.000
+
+variables
+0.000
+0.000
+0.000
+0.000
+
+This table presents summary statistics for the unconditional and conditional performance measures (k in %) across the
+funds in each fund group and for all funds. The dividend yield (DY) and the yield on the one-month T-bill (TB1) are
+used as instrumental variables. All of the p-values are based on a GMM system estimation using the Bartlett kernel.
+Information related to the funds with signiﬁcant performance and with positive signiﬁcant performance at the 5% level
+is provided in the table. The Bonferroni p-values are the minimum and the maximum one-tailed p-values from the tdistribution across all of the funds and all of the fund groups, multiplied by the deﬁned number of funds. N is the
+number of funds in each group.
+
+block bootstrapping are similar for the cross-sectional averages of the individual
+performances. However, the average p-values associated with the bootstrapped
+lambdas are substantially higher for all funds and the three fund categories. The distributions of the bootstrapped p-values of all funds and per fund grouping diﬀer
+from those obtained with the original sample, as is evident from panel C of Table
+5. The percentages of funds with signiﬁcant performances are substantially lower
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+647
+
+with block bootstrapping for all funds and the three fund categories. The same
+observation occurs for the numbers of funds with positive and signiﬁcant lambdas.
+In fact, for the full sample, the number of funds with positive and signiﬁcant lambdas with block bootstrapping becomes less than what you would expect by chance;
+that is, only 4 out of 95 or 4.2% of the sample now have positive and signiﬁcant
+lambdas. Furthermore, only the Bonferroni p-value for the maximum t for the
+aggressive growth category of funds remains signiﬁcant at the 5% level with block
+bootstrapping.
+7.2. Evaluation of conditional performance
+The conditional model is estimated using two speciﬁcations for the conditioning
+structure in order to assess the sensitivity of the performance measures to the conditional speciﬁcation. The ﬁrst speciﬁcation considers only the dividend yield on the
+TSE 300 index, while the second considers both the dividend yield and the yield
+on the one-month Treasury bill. To assess the validity of the conditional approach,
+Wald tests (Newey and West, 1987b) are conducted on the coeﬃcients of the timevarying alphas.
+7.2.1. Conditioning with the dividend yield only
+When the conditional asset-pricing kernel model with DY as the only instrumental variable is used, the performance of an equal-weighted portfolio of all funds is
+0.1371%, using the value-weighted TSE index (see panel C in Table 3). The performance is weaker but still signiﬁcant. This could be explained by the signiﬁcant decrease in the performance of the growth, and growth/income portfolios. In
+contrast, the performance of the aggressive growth portfolio increases to 0.2785%
+and becomes more signiﬁcant. For the size-weighted portfolios of all funds, performance clearly deteriorates to 0.1209% (see panel D of Table 3). The reason is the
+low performance of the aggressive growth portfolio, and the surprisingly negative lambda for the growth/income portfolio. Overall, the conditional model has
+more of an impact on the size-weighted portfolios than on the equal-weighted portfolios.
+Examining the performance of individual funds further supports the previous
+conclusions. The average fund performance is aﬀected negatively using the conditional model (see Table 4). The distribution of the lambdas becomes less symmetric
+and with less observations in the tails. In contrast, Chen and Knez (1996) and Ferson
+and Schadt (1996) report that the inclusion of public information positively impacts
+their performance statistics for US funds. The changes in the point estimates of performance from the unconditional to conditional frameworks reported herein are
+consistent with those observed in Bansal and Harvey (1996) and Kryzanowski
+et al. (1997).
+With the conditional model, the performance statistics based on all of the individual funds are higher than those for the portfolios of all of the funds for the two portfolio formation procedures with the exception of the aggressive growth group and
+
+648
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+the equal-weighted portfolio of growth funds using the value-weighted TSE index
+as the benchmark. This result could be explained by the increasing non-linearity in
+the risk adjustment with the conditional pricing kernel. The switch in superior
+performance from larger funds to smaller funds conﬁrms the diﬀerential impact of
+conditioning information on size-weighted versus equal-weighted portfolios. The
+most notable source of the deterioration in the conditional lambdas is the poor
+performance of the individual growth and growth/income funds. Overall 42
+and 15 funds have negative and signiﬁcantly negative lambdas, respectively,
+using the value-weighted TSE index as the benchmark. The number of funds with
+positive and signiﬁcant performance decreases from 42 to 38. Moreover, all of the
+Bonferroni p-values, which correspond to the extreme maximum and minimum t-statistics, reject the null hypothesis of joint zero lambdas (see panels D and E of
+Table 5).
+7.2.2. Conditioning with the dividend yield and yield on the one-month T-bill
+Based on the results reported in Table 3 (panels E and F), the performance values
+of the portfolios of funds become negative but not signiﬁcant when the information
+set is expanded to two instruments. The lone exception is the portfolio of aggressive
+growth funds that exhibits decreased positive performance. The lambda for the
+equal-weighted portfolio of all funds is )0.0573% using the value-weighted TSE index as the benchmark. The Wald tests validate the conditional approach in that the
+Wald statistics reject the null hypothesis of no time-variation in the optimal allocation of risky assets for all portfolios. These ﬁgures are supported further using the
+size-weighted portfolios of funds, where the lambda of the portfolio of all the funds
+is )0.0129%.
+Based on panels C and F of Table 4, the cross-sectional averages of the performances of the individual funds support the conclusions reached previously for the
+portfolios of funds. The distribution of the conditional lambdas is now asymmetric
+with less extreme observations compared to the unconditional and conditional lambdas based on only one instrument.
+With the full conditional model, the diﬀerences between the cross-sectional averages of the performances of individual funds and the performances of portfolios
+of funds are more pronounced. Larger funds consistently exhibit superior performance across the two benchmarks. The extension of the conditioning information
+set seems to alleviate the impact of the conditional pricing kernel on the size-based
+statistics.
+Based on panel G of Table 5, 36 (i.e., 54.74% of the 95 funds) have signiﬁcant and
+negative lambdas for the full conditional model using the value-weighted TSE index
+as the benchmark compared to 3 and 15 funds using the unconditional and conditional estimations with one-instrument, respectively. The number of signiﬁcant
+and positive lambdas decreases to 16, which is less than half of the number obtained
+with the unconditional asset-pricing kernel model. These ﬁgures are caused by the
+negative performance of the aggressive growth, growth, and growth/income funds.
+Moreover, the Bonferroni test is signiﬁcant for all major fund groupings. This rejects
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+649
+
+the joint null hypothesis of zero conditional lambdas. The results (panel F, Table 5)
+are similar for the full conditional model using the TSE300 index as the benchmark.
+The overall results indicate that fund managers experience greater diﬃculty in
+realizing excess returns when public information, such as the dividend yield and
+the yield on one-month T-bills, are integrated into the construction of the asset-pricing kernel and the performance measures. This ﬁnding partially conﬁrms the theoretical conclusions of Chen and Knez (1996) who advocate that performance results can
+change in either direction in the presence of conditioning information, due to the
+presence of an inﬁnite number of admissible (un)conditional stochastic discount
+factors.
+7.3. Performance and relative risk aversion
+The sensitivity of the performance measures to changes in the level of the relative
+risk aversion of the uninformed investor now is tested using the sets of equal- and
+value-weighted portfolios of funds under the (un)conditional speciﬁcations. We seek
+an answer to the question: How is the ability of fund managers to realize excess returns related to the changes in the risk preferences of uninformed investors? These
+preferences are important since they aﬀect the construction of the benchmark model
+and may aﬀect measured performance.
+The results for the unconditional tests, which are reported in panels A and B of
+Table 6, suggest that the performance metrics decrease with an increase in the coefﬁcient of relative risk aversion. The performance for the equal-weighted portfolios of
+all funds (panel A) is 0.2017% with a gamma equal to 3, 0.1994% with a gamma
+equal to 4, 0.1975% with a gamma equal to 5, and 0.1964% with a gamma equal
+to 6, when the TSE 300 index is used as the benchmark. This negative association
+is consistent across all portfolios of funds, the two benchmarks, and the two portfolio weighting methods. Thus, unconditional performance is negatively but weakly
+sensitive to changes in the level of the relative risk aversion attributed to uninformed
+investors. This could be explained by implied investment/risk restrictions due to
+changes in the risk attitudes of the uninformed investor.
+The results for the conditional model with one instrumental variable DY are presented in panels C and D of Table 6. On average, a weak positive link exists between
+lambda and gamma, especially for the size-weighted portfolio of growth funds.
+When the value-weighted TSE index is used as the benchmark, the performance of
+this portfolio improves from 0.1082% when gamma is equal to 3, to 0.1153% when
+gamma is equal to 6. The only major exceptions are the equal- and size-weighted
+portfolios of aggressive growth funds, whose performances deteriorate, as the uninformed investor becomes more risk averse. A conditional framework with one instrumental variable aﬀects the nature of the relationship between fund performance and
+relative risk aversion, but has little eﬀect on the measured performance of the aggressive growth and growth style managers.
+An extended conditional model with two instrumental variables is used to test
+the robustness of this last conclusion. The results reported in panels E and F of
+Table 6 are consistent (negative) for the aggressive growth portfolios. In contrast,
+
+650
+
+Benchmark
+
+TSE 300
+
+Gamma
+
+3
+
+Fund
+category
+
+k
+
+TSEVW
+4
+pValue
+
+k
+
+5
+pValue
+
+Panel A: Unconditional pricing kernel for equal-weighted
+Ag. growth
+0.1899 0.01
+0.1884
+0.01
+Growth
+0.2157 0.00
+0.2144
+0.00
+Growth/inc.
+0.2704 0.00
+0.2681
+0.00
+All
+0.2017 0.00
+0.1994
+0.00
+J-Stat
+0.1506
+0.1506
+
+k
+portfolios
+0.1865
+0.2124
+0.2652
+0.1975
+0.1505
+
+6
+pValue
+of funds
+0.01
+0.00
+0.00
+0.00
+
+Panel B: Unconditional pricing kernel for size-weighted portfolios of funds
+Ag. growth
+0.2592 0.00
+0.2565
+0.00
+0.2540
+0.00
+Growth
+0.2725 0.00
+0.2697
+0.00
+0.2671
+0.00
+Growth/inc.
+0.1951 0.01
+0.1923
+0.01
+0.1898
+0.01
+All
+0.2545 0.00
+0.2514
+0.00
+0.2489
+0.00
+J-Stat
+0.1506
+0.1506
+0.1505
+
+3
+
+k
+
+pValue
+
+4
+
+k
+
+pValue
+
+5
+
+k
+
+pValue
+
+6
+
+k
+
+pValue
+
+k
+
+pValue
+
+0.1855
+0.2113
+0.2635
+0.1964
+0.1505
+
+0.01
+0.00
+0.00
+0.00
+
+0.1822
+0.2131
+0.2638
+0.1959
+0.1504
+
+0.01
+0.00
+0.00
+0.00
+
+0.1789
+0.2098
+0.2591
+0.1933
+0.1505
+
+0.02
+0.00
+0.00
+0.00
+
+0.1766
+0.2076
+0.2559
+0.1902
+0.1505
+
+0.02
+0.00
+0.00
+0.00
+
+0.1757
+0.2068
+0.2544
+0.1892
+0.1505
+
+0.02
+0.00
+0.00
+0.00
+
+0.2524
+0.2655
+0.1883
+0.2474
+0.1505
+
+0.00
+0.00
+0.01
+0.00
+
+0.2505
+0.2668
+0.1873
+0.2460
+0.1504
+
+0.00
+0.00
+0.01
+0.00
+
+0.2463
+0.2626
+0.1830
+0.2438
+0.1505
+
+0.00
+0.00
+0.01
+0.00
+
+0.2435
+0.2598
+0.1802
+0.2410
+0.1505
+
+0.00
+0.00
+0.01
+0.00
+
+0.2422
+0.2585
+0.1790
+0.2388
+0.1505
+
+0.00
+0.00
+0.01
+0.00
+
+0.00
+0.04
+0.01
+0.00
+
+0.2785
+0.0919
+0.1290
+0.1371
+0.1792
+
+0.00
+0.04
+0.01
+0.00
+
+0.2700
+0.0910
+0.1294
+0.1364
+0.1790
+
+0.00
+0.04
+0.01
+0.00
+
+0.2710
+0.0935
+0.1289
+0.1361
+0.1789
+
+0.00
+0.03
+0.01
+0.00
+
+0.2510
+0.1129
+)0.0130
+0.1209
+0.1793
+
+0.00
+0.01
+0.79
+0.01
+
+0.2444
+0.1144
+)0.0105
+0.1258
+0.1791
+
+0.00
+0.01
+0.83
+0.00
+
+0.2336
+0.1153
+)0.0079
+0.1224
+0.1789
+
+0.00
+0.01
+0.87
+0.01
+
+Panel C: Conditional pricing kernel
+Ag. growth
+0.3264 0.00
+Growth
+0.1110 0.01
+Growth/inc.
+0.1458 0.00
+All
+0.1588 0.00
+J-Stat
+0.1794
+
+with DY as instrumental variable for equal-weighted
+0.3077
+0.00
+0.3049
+0.00
+0.3076
+0.1012
+0.02
+0.1064
+0.02
+0.1097
+0.1479
+0.00
+0.1487
+0.00
+0.1488
+0.1599
+0.00
+0.1598
+0.00
+0.1592
+0.1792
+0.1791
+0.1791
+
+Panel D: Conditional pricing kernel
+Ag. growth
+0.2941 0.00
+Growth
+0.1222 0.01
+Growth/inc. )0.0003 0.99
+All
+0.1493 0.00
+J-Stat
+0.1795
+
+with DY as instrumental variable for size-weighted
+0.2885
+0.00
+0.2831
+0.00
+0.2701
+0.1289
+0.00
+0.1312
+0.00
+0.1320
+0.0033
+0.95
+0.0055
+0.91
+0.0070
+0.1414
+0.00
+0.1438
+0.00
+0.1450
+0.1794
+0.1793
+0.1792
+
+portfolios
+0.00
+0.01
+0.00
+0.00
+
+of funds
+0.2729
+0.0939
+0.1279
+0.1376
+0.1794
+
+portfolios of funds
+0.00
+0.2613 0.00
+0.00
+0.1082 0.02
+0.89
+)0.0167 0.74
+0.00
+0.1270 0.00
+0.1795
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Table 6
+Summary statistics for the performances of the portfolios of funds for the unconditional and conditional pricing kernels for various relative risk aversion levels
+
+equal-weighted portfolios of funds
+0.56
+0.0122 0.76
+0.0056
+0.10
+)0.0726 0.15
+)0.0746
+0.15
+)0.0489 0.37
+)0.0522
+0.17
+)0.0537 0.22
+)0.0573
+0.1847
+0.1828
+
+0.89
+0.13
+0.34
+0.18
+
+0.0023
+)0.0751
+)0.0534
+)0.0592
+0.1816
+
+0.95
+0.13
+0.32
+0.16
+
+0.0012
+)0.0749
+)0.0538
+)0.0597
+0.1808
+
+0.98
+0.12
+0.32
+0.15
+
+Panel F: Conditional pricing kernel with DY and TB1 as the instrumental variables for
+Ag. growth
+0.1190 0.00
+0.1097
+0.01
+0.1048
+0.01
+0.1018
+Growth
+)0.0541 0.32
+)0.0529
+0.32
+)0.0505
+0.34
+)0.0482
+Growth/inc. )0.0966 0.11
+)0.0961
+0.11
+)0.0953
+0.12
+)0.0945
+All
+)0.0175 0.71
+)0.0197
+0.68
+)0.0196
+0.67
+)0.0190
+J-Stat
+0.1861
+0.1840
+0.1828
+0.1819
+
+size-weighted portfolios of funds
+0.01
+0.0904 0.03
+0.0824
+0.36
+)0.0225 0.64
+)0.0236
+0.12
+)0.0800 0.16
+)0.0803
+0.68
+)0.0092 0.83
+)0.0129
+0.1843
+0.1825
+
+0.05
+0.62
+0.16
+0.76
+
+0.0782
+)0.0237
+)0.0802
+)0.0148
+0.1813
+
+0.06
+0.61
+0.15
+0.73
+
+0.0756
+)0.0235
+)0.0799
+)0.0157
+0.1805
+
+0.06
+0.61
+0.15
+0.71
+
+This table reports the performance measures or lambda (k in %) for the various portfolios of funds formed according to their investment objectives for various levels of the relative
+risk aversion or RRA coeﬃcient Gamma or c using the unconditional and conditional pricing kernels for two selected benchmarks. The dividend yield (DY) and the yield on the
+one-month T-bill (TB1) are used as instrumental variables. Simultaneous system estimation that consists of the ten size-based passive strategies and each portfolio of managed funds
+is conducted using the GMM method. All represents the statistics of the portfolios consisting of all of the funds. Information related to the estimated performance, the p-values, and
+the J-statistic using the Bartlett kernel is provided in the table. TSE 300 and TSEVW are the 300 and value-weighed TSE indexes, respectively. The J-statistic is the minimized value
+of the sample quadratic form constructed using the moment conditions and the optimal weighting matrix. Monthly data are used from November 1989 to December 1999, for a
+total of 122 observations per portfolio of funds.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Panel E: Conditional pricing kernel with DY and TB1 as the instrumental variables for
+Ag. growth
+0.0400 0.31
+0.0299
+0.44
+0.0224
+0.56
+0.0226
+Growth
+)0.0886 0.11
+)0.0899
+0.10
+)0.0887
+0.10
+)0.0869
+Growth/inc. )0.0791 0.17
+)0.0818
+0.15
+)0.0817
+0.15
+)0.0807
+All
+)0.0573 0.21
+)0.0605
+0.18
+)0.0618
+0.17
+)0.0603
+J-Stat
+0.1865
+0.1843
+0.1830
+0.1821
+
+651
+
+652
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+the performances of the portfolios of growth funds indicate weak sensitivity to
+changes in gamma. These two empirical observations suggest that a weak negative
+average link exists between conditional performance and relative risk aversion.
+Since it is diﬃcult to make unambiguous statements about the direction of the
+sensitivity of performance inferences to changes in the relative risk aversion of the
+uninformed investor based on the results for all of these models, we also estimate
+the models with gammas of 10, 15, 20, 25, 50, and 100. Based on these unreported
+results, we now ﬁnd that the relationship is negative when the measured performance
+is positive and signiﬁcant, and is positive when the measured performance is negative
+and not signiﬁcant. This suggests that performance becomes more neutral as the relative risk aversion increases in magnitude.
+7.4. Survivorship bias and risk-adjusted performance
+The original sample of mutual funds includes only funds that existed or survived
+over the full studied period. This sampling procedure produces a survivorship bias
+that is likely to overstate measured performance. This bias is inherent in the majority
+of the papers published on performance measurement. 33 Recent attempts to address
+this issue use various approaches. Grinblatt and Titman (1989) and Wermers (1997)
+examine the eﬀect of survivorship on a database of stock holdings and estimate the
+survivorship bias to be 20 basis points per year. Malkiel (1995) obtains a greater
+value of 1.4% per year for survivorship bias over the ten-year period 1981–1991.
+Brown and Goetzman (1995) estimate a survivorship bias of 80 basis points over
+a 10-year period for a sample of mutual funds. Elton et al. (1996) ﬁnd that the bias
+varies between 25.4 basis points per year to 71.9 basis points per year for a 14-year
+sample using several benchmark models and reinvestment assumptions. These conclusions are partially conﬁrmed by Carhart et al. (2002) where the survivorship bias
+is an increasing function of the time-length of the sample. They ﬁnd a survivorship
+bias equal to 43 basis points for a ﬁve-year sample, and that the bias ranges from 17
+basis points for a one year sample to 1% per year for samples longer than ﬁfteen
+years. However, the size of the bias is robust to the underlying performance model.
+In this section, we estimate the survivorship bias for Canadian equity mutual
+funds, and examine the impact of survivorship bias on the measured performance
+across fund investment objectives and chosen performance measurement models.
+Survivorship bias is estimated as the diﬀerence between the risk-adjusted performances of the size-weighted portfolios of all surviving and non-surviving funds,
+and of surviving funds only.
+For this purpose, we track monthly returns and total NAVs of funds that have
+existed, started up and terminated over the studied period of November 1989
+through December 1999. Five size-weighted portfolios of aggressive growth, growth,
+33
+Examples include Jensen (1968), Lehmann and Modest (1987), Grinblatt and Titman (1994), Ferson
+and Schadt (1996) and Kryzanowski et al. (1997). Most of these studies completely ignore this selection
+bias or argue that this bias has a limited and insigniﬁcant impact on their conclusions or argue that the
+incorporation of selection bias would just worsen the non-performance of the studied funds.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+653
+
+growth/income, income, and all funds are then constructed using all of the funds as
+long as they have at least one monthly return. For instance, the portfolios of aggressive growth and growth funds consist of 41 and 114 funds including 14 and 64 endof-period dead funds, respectively. The portfolio of growth/income funds has 24
+funds where 50% of the funds are terminated by period end. These ﬁgures represent
+the maximum number of funds in each portfolio since the composition of each
+portfolio changes over time depending on the existence and termination of each
+fund.
+Based on the results reported in panels A–C of Table 7, the estimate of survivorship bias varies somewhat across the various benchmarks and the performance measurement models. Survivorship bias ranges from 36 basis points per year using the
+conditional asset-pricing kernel with one instrumental variable (DY) to 58 basis
+
+Table 7
+Annual survivorship bias and risk-adjusted performance
+Fund category
+
+TSE 300
+k
+
+Panel A: Size-weighted
+Aggressive
+growth
+Growth
+Growth/income
+Income
+All
+
+TSEVW
+p-Value
+
+Surv. bias
+
+k
+
+p-Value
+
+Surv. bias
+
+portfolios of all funds in the fund category using the unconditional asset-pricing kernel
+0.2364
+0.00
+0.2412
+0.2265
+0.01
+0.2376
+0.2071
+0.1336
+0.1911
+0.2030
+
+0.00
+0.05
+0.05
+0.00
+
+0.7512
+0.7044
+)0.0180
+0.5808
+
+0.2017
+0.1259
+0.1826
+0.1956
+
+0.00
+0.06
+0.05
+0.00
+
+0.7308
+0.6852
+)0.0312
+0.5784
+
+Panel B: Size-weighted portfolios of all funds in the fund category using the conditional
+instrumental variable DY
+Aggressive
+0.2736
+0.00
+0.1788
+0.2334
+growth
+Growth
+0.0967
+0.03
+0.3864
+0.0854
+Growth/income
+)0.0582
+0.17
+0.7385
+)0.0687
+Income
+)0.0363
+0.60
+)0.0072
+)0.0523
+All
+0.1086
+0.01
+0.3936
+0.0912
+
+asset-pricing kernel with one
+
+Panel C: Size-weighted portfolios of all funds in the fund category using the conditional
+instrumental variables DY and TB1
+Aggressive
+0.0977
+0.02
+0.1440
+0.0699
+growth
+Growth
+)0.0874
+0.06
+0.4140
+)0.0645
+Growth/income
+)0.1879
+0.00
+1.1016
+)0.1794
+Income
+)0.2810
+0.00
+)0.0048
+)0.2545
+All
+)0.0584
+0.16
+0.4644
+)0.0499
+
+asset-pricing kernel with two
+
+0.00
+
+0.2112
+
+0.06
+0.11
+0.45
+0.03
+
+0.3300
+0.6684
+)0.0084
+0.3564
+
+0.10
+
+0.1500
+
+0.13
+0.00
+0.00
+0.19
+
+0.4908
+1.1892
+)0.0012
+0.4440
+
+This table reports the annualized performance measures (k in %) for the size-weighted portfolios of surviving and nonsurviving funds, where each portfolio includes all of the funds with the same investment objective. The table also reports
+estimates of the annualized survivorship bias using three asset-pricing kernel models and two selected benchmarks. The
+survivorship bias is the diﬀerence between the risk-adjusted performance of the size-weighted portfolios of all funds and
+of surviving funds only. Simultaneous system estimation, consisting of the ten size-based passive strategies and each
+portfolio of managed funds, is conducted using the GMM method. Panel A provides information on the performance
+estimates of four size-weighted portfolios of all funds using the unconditional asset-pricing kernel and an estimate of the
+survivorship bias. Panel B provides information on the performance estimates of four size-weighted portfolios of all
+funds using the conditional asset-pricing kernel with one instrumental variable (DY) and an estimate of the survivorship
+bias. Panel C provides similar information to panel B using the conditional asset-pricing kernel with two instrumental
+variables (DY and TB1) and an estimate of the survivorship bias. All represents the statistics of the size-weighted
+portfolio of all funds. The standard errors of the estimates are adjusted for serial correlation and heteroskedasticity
+(Newey and West, 1987a). Size is deﬁned as the total net asset value of the fund. TSE 300 and TSEVW are the TSE 300
+index and the value-weighted TSE index, respectively. Monthly data are from November 1989 through December 1999,
+for a total of 122 observations per portfolio of funds.
+
+654
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+points per year with the unconditional model. Survivorship bias diﬀers across fund
+objective groups in that it is more pronounced for the growth/income and growth
+groupings at 119 and 49 basis points per year, respectively, than for the aggressive
+and income groupings where it is 15 and nearly zero basis points per year, respectively. These results are robust to the benchmark model. These bias estimates and
+properties diﬀer from those of Elton et al. (1996), and parallel the ﬁndings of Carhart
+(1997) and Carhart et al. (2002) for US equity mutual funds. Furthermore, the riskadjusted performances of these extended size-weighted portfolios deteriorate and are
+negative when conditioning information is integrated into the estimation. This is
+consistent with our original conclusions that do not account for the survivorship
+bias.
+7.5. Index mimickers and risk-adjusted performance
+While our sample does not include any index or index-enhanced funds, we have
+implicitly assumed that all of the funds in the various samples are actively managed.
+Since at least some of the supposedly active funds basically only mimic the index,
+and are referred to as ‘‘index mimickers’’ or ‘‘closet indexers’’, their non-removal
+from the various samples may have aﬀected the performance inferences drawn to this
+point. While we are hesitant to attempt to identify and eliminate supposedly active
+funds that appear to be index mimickers ex post due to the fear of introducing a
+‘‘look-back’’ selection bias into our results, we nevertheless evaluated the performance of the various samples when we removed all funds with R-square values of
+0.9 or higher against each of the two benchmarks. This added selection criterion
+eliminated 19% and 23% of the funds when the value-weighted TSE index and the
+TSE 300 index are used as benchmarks, respectively. Since all of the previous results
+(performance statistics and inferences) are virtually unchanged for these screened
+samples, we do not report these results herein to conserve valuable journal space.
+Thus, our results appear to be robust to the inclusion of ex post identiﬁed index
+mimickers in the samples whose performances we are evaluating.
+
+8. Conclusion
+This paper uses the general asset-pricing or SDF framework to derive an assetpricing kernel that is relevant for evaluating the performance of actively managed
+portfolios. Our approach reﬂects the predictability of asset returns and accounts
+for conditioning information. Three performance measures are constructed and
+are related to the unconditional evaluation of ﬁxed-weight strategies, and unconditional and conditional evaluations of dynamic strategies. The appropriate empirical
+framework to estimate and implement the proposed performance measures and their
+associated tests using the GMM method is developed.
+The developed models are used to assess the risk-adjusted performance of
+a sample of 95 Canadian equity mutual funds with and without the addition of
+shorter-lived funds. The empirical evidence indicates positive abnormal uncondi-
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+655
+
+tional performance, which deteriorates with conditioning. Accounting for cross-correlations by block bootstrapping reduces the signiﬁcance of the unconditional performance statistics based on averages of individual fund performances. Negative
+and weakly signiﬁcant conditional performance is found for the portfolios of growth
+and growth/income funds, and positive but not signiﬁcant conditional performance
+is found for the portfolios of aggressive growth funds. Survivorship bias is material
+as it ranges from 36 to 58 basis points per year for the total sample. Survivorship bias
+is reasonably stable across performance models but diﬀers materially across fund
+objective groups. Performance inferences are weakly related to changes in the relative risk aversion of the uninformed investor for all but the aggressive growth grouping of funds. Risk-adjusted performance appears to move towards zero as the
+relative risk aversion increases in magnitude, and does not change materially when
+ex post index mimickers are eliminated from the sample. However, we expect that
+the removal of ex post index mimickers from the sample should have more of an impact on portfolio inferences when a non-asset-pricing-free metric is used to assess
+performance.
+We oﬀer three possible reasons for the interesting result that the performance of
+the Canadian funds deteriorates with conditioning information while the literature
+reports the opposite for US funds. First, the results for US funds do not use the performance pricing kernel and testing methodology reported herein. Second, our ﬁndings are consistent with a priori expectations, whose logic follows. With conditioning
+information, the investment opportunity set is enlarged for a portfolio manager who
+only uses public information to make investment decisions. In turn, this makes it
+harder to achieve or beat the performance benchmark. In this case, only the managers who possess and eﬃciently use their private information will produce positive
+risk- and benchmark-adjusted returns. Third, more parameters are estimated with
+the same number of observations for a conditional versus an unconditional assetpricing kernel model (essentially due to the conditional risky asset allocation structure). This generally leads to less power of the estimates or higher standard errors,
+which, in turn, results in higher p-values, all else held equal. This also helps to explain the deterioration of performance from limited to full conditioning. Thus, we
+would argue that the impact of conditioning on the directional change of performance inferences for US funds, if it holds for the application of the methodology
+used in our study, would be anomalous. However, this is a subject for future study.
+An apparent anomaly is the propensity of investors to continue to buy mutual
+funds although the conditional performance of these funds is negative but insignificant. One possible reason for the ongoing appetite of investors for mutual fund purchase is that mutual funds, advisory services and the ﬁnancial press report the
+unconditional measures of performance that are found in our study to be positive
+but insigniﬁcant. It would be interesting to observe if the propensity of investors
+to buy mutual funds would be aﬀected if regulators required funds to report both
+unconditional and conditional measures of portfolio performance.
+Our approach may be extended in two ways. The ﬁrst extension is to examine potential relationships between the performance measures and some business cycle
+indicators to better determine if the performance of active portfolio management
+
+656
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+diﬀers during periods of expansion and contraction. The second extension is to conduct the unfeasible fully eﬃcient conditional GMM estimation, which is based on
+general interactions between functions of conditioning variables and pricing errors,
+using non-parametric estimates for the optimal set of instruments as suggested in
+Newey (1993).
+
+Acknowledgements
+
+Financial support from Ned Goodman Chair in Investment Finance, CIRPEE,
+IFM2, FCAR (Fonds pour la formation des Chercheurs et l’Aide a la Recherche),
+and SSHRC (Social Sciences and Humanities Research Council of Canada) are
+gratefully acknowledged. We would like to thank Jonathan Berk, Don Cyr, Simon
+Lalancette, Howard Nemiroﬀ, Tim Simin, Lorne Switzer, and seminar participants
+at Concordia University, HEC School of Business (Montreal), Brock University,
+2001 NFA (Halifax), 2001 FMA (Toronto), 2002 MFA Conference (Chicago),
+and the 9th International Symposium on Finance, Insurance, and Banking, 2002
+(Karlsruhe, Germany) for their many helpful comments. The usual disclaimer applies. Please do not quote without the authors’ permission.
+
+Appendix A
+The conditional asset allocation problem is based on the following maximization:
+MaxEt ½U ðRw;tþ1 Þ	;
+at
+
+where Rw;tþ1 ¼ at rb;tþ1 þ Rf ;tþ1 and the conditional expectation is based upon the
+information set Xt . The following ﬁrst-order condition or FOC is obtained by differentiating Et ½U ðRw;tþ1 Þ	 with respect to at and setting the result equal to zero
+o
+Et ½U ðRw;tþ1 Þ	 ¼ Et ½U 0 ðRw;tþ1 Þ	Et ðrb;tþ1 Þ þ Covt ½U 0 ðRw;tþ1 Þ; rb;tþ1 	
+oat
+¼ Et ½U 0 ðRw;tþ1 Þ	Et ðrb;tþ1 Þ þ Et ½U 00 ðRw;tþ1 Þ	Covt ðRw;tþ1 ; rb;tþ1 Þ
+¼ Et ½U 0 ðRw;tþ1 Þ	Et ðrb;tþ1 Þ þ at Et ½U 00 ðRw;tþ1 Þ	Vart ðrb;tþ1 Þ
+¼ 0:
+The last expression follows by applying Stein’s lemma. The optimal risky asset
+allocation is obtained by solving the last expression
+at ¼
+
+1 Et ðrb;tþ1 Þ
+;
+U Vart ðrb;tþ1 Þ
+
+where U ¼
+
+Et ½U 00 ðRw;tþ1 Þ	
+Et ½U 0 ðRw;tþ1 Þ	
+
+is the uninformed investor’s global absolute risk aversion,
+
+which is assumed to be a ﬁxed parameter.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+657
+
+The optimal risky asset allocation or portfolio policy is no longer a constant
+parameter but a non-linear function of the ﬁrst and second conditional moments
+of the benchmark returns. It is measurable with respect to the set of state or conditioning information, or
+at  aðXt Þ:
+
+References
+Admati, A.R., Ross, S.A., 1985. Measuring investment performance in a rational expectations equilibrium
+model. Journal of Business 58, 1–26.
+A€ıt-Sahalia, Y., Brandt, M.W., 2001. Variable selection and portfolio choice. Journal of Finance 56, 1297–
+1351.
+Andrews, D.W.K., 2004. The block-block bootstrap: Improved asymptotic reﬁnements. Econometrica 72,
+673–700.
+Bansal, R., Harvey, C.R., 1996. Performance evaluation in the presence of dynamic trading strategies.
+Working Paper, Duke University.
+Barberis, N.C., 2000. Investing for the long run when returns are predictable. Journal of Finance 55, 225–
+264.
+Bekaert, G., Hodrick, R.J., 1992. Characterizing predictable components in excess returns on equity and
+foreign exchange markets. Journal of Finance 47, 467–509.
+Bekaert, G., Liu, J., 2004. Conditioning information and variance bounds on pricing kernels. Review of
+Financial Studies 17, 379–404.
+Brandt, M.W., 1999. Estimating portfolio and consumption choice: A conditional euler equations
+approach. Journal of Finance 54, 1609–1645.
+Breeden, D., 1979. An intertemporal asset pricing model with stochastic consumption and investment
+opportunities. Journal of Financial Economics 7, 265–296.
+Brennan, M.J., Schwartz, E.S., Lagnado, R., 1997. Strategic asset allocation. Journal of Economic
+Dynamics and Control 21, 1377–1403.
+Brown, S.J., Goetzman, W.N., 1995. Performance persistence. Journal of Finance 50, 679–698.
+Campbell, J.Y., Viceira, L.M., 1999. Consumption and portfolio decisions when expected returns are timevarying. Quarterly Journal of Economics 114, 433–495.
+Carhart, M., 1997. On persistence in mutual fund performance. Journal of Finance 52, 57–82.
+Carhart, M., Carpenter, J., Lynch, A.W., Musto, D.K., 2002. Mutual fund survivorship. Review of
+Financial Studies 15, 1439–1463.
+Carlstein, E., 1986. The use of subseries values for estimating the variance of a general statistic from a
+stationary sequence. Annals of Statistics 14, 1171–1179.
+Chen, N.F., Roll, R., Ross, S.A., 1986. Economic forces and the stock market. Journal of Business 59,
+383–403.
+Chen, Z., Knez, P.J., 1996. Portfolio performance measurement: Theory and applications. Review of
+Financial Studies 9, 511–555.
+Christopherson, J.A., Ferson, W.E., Glassman, D.A., 1998. Conditioning manager alphas on economic
+information: Another look at the persistence of performance. Review of Financial Studies 11, 111–142.
+Cochrane, J.H., 1996. A cross-sectional test of an investment-based asset pricing model. Journal of
+Political Economy 104, 572–621.
+Cochrane, J.H., 2000. A resurrection of the stochastic discount factor/GMM methodology. Working
+Paper, University of Chicago.
+Cumby, R.E., Glen, J.D., 1990. Evaluating the performance of international mutual funds. Journal of
+Finance 45, 497–521.
+Dahlquist, M., Soderlind, P., 1999. Evaluating portfolio performance with stochastic discount factors.
+Journal of Business 72, 347–384.
+
+658
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+Dybvig, P.H., Ross, S.A., 1985. Performance measurement using diﬀerential information and a security
+market line. Journal of Finance 40, 483–496.
+Elton, E.J., Gruber, M.J., Blake, C.R., 1996. Survivorship bias and mutual fund performance. Review of
+Financial Studies 9, 1097–1120.
+Fama, E.F., French, K.R., 1988. Dividend yields and expected stock returns. Journal of Financial
+Economics 22, 3–25.
+Fama, E.F., French, K.R., 1989. Business conditions and expected stock returns. Journal of Financial
+Economics 25, 23–50.
+Fama, E.F., French, K.R., 1993. Common risk factors in the returns on stocks and bonds. Journal of
+Financial Economics 33, 3–56.
+Fama, E.F., Schwert, G.W., 1977. Asset returns and inﬂation. Journal of Financial Economics 5, 115–146.
+Farnsworth, H., Ferson, W.E., Jackson, D., Todd, S., 2002. Performance evaluation with stochastic
+discount factors. Journal of Business 75, 473–503.
+Ferson, W.E., Foerster, S.R., 1994. Small sample properties of the GMM in tests of conditional asset
+pricing models. Journal of Financial Economics 36, 29–55.
+Ferson, W.E., Harvey, C.R., 1991. The variation of economic risk premia. Journal of Political Economy
+99, 385–415.
+Ferson, W.E., Korajczyk, R.A., 1995. Do arbitrage pricing models explain the predictability of stock
+returns. Journal of Business 68, 309–350.
+Ferson, W.E., Schadt, R., 1996. Measuring fund strategy and performance in changing economic
+conditions. Journal of Finance 51, 425–461.
+Ferson, W.E., Siegel, A.F., 2001. The eﬃcient use of conditioning information in portfolios. Journal of
+Finance 56, 967–982.
+Gallant, A.R., White, H., 1988. A Uniﬁed Theory of Estimation and Inference for Nonlinear Dynamic
+Models. Basil Blackwell, New York.
+Glosten, L., Jagannathan, R., 1994. A contingent claims approach to performance evaluation. Journal of
+Empirical Finance 1, 133–166.
+Goldbaum, D., 1999. A nonparametric examination of market information: Application to technical
+trading rules. Journal of Empirical Finance 6, 59–85.
+Grinblatt, M., Titman, S., 1989. Portfolio performance evaluation: Old issues and new insights. Review of
+Financial Studies 2, 393–422.
+Grinblatt, M., Titman, S., 1994. A study of monthly mutual funds returns and performance evaluation
+techniques. Journal of Financial and Quantitative Analysis 29, 419–444.
+Hall, P., Horowitz, J.L., 1996. Bootstrap critical values for tests based on generalized method of moments
+estimators. Econometrica 64, 891–916.
+Hansen, L.P., 1982. Large sample properties of generalized method of moments estimators. Econometrica
+50, 1029–1054.
+Hansen, L.P., Richard, S.F., 1987. The role of conditioning information in deducing testable restrictions
+implied by dynamic asset pricing models. Econometrica 55, 587–613.
+Hansen, L.P., Singleton, K.J., 1982. Generalized instrumental variable estimation of nonlinear rational
+expectations models. Econometrica 50, 1269–1286.
+Harrison, M., Kreps, D., 1979. Martingales and arbitrage in multiperiod security markets. Journal of
+Economic Theory 20, 381–408.
+Harvey, C.R., 1989. Time-varying conditional covariances in tests of asset pricing models. Journal of
+Financial Economics 24, 289–318.
+He, J., Ng, L., Zhang, C., 1999. Asset pricing speciﬁcation errors and performance evaluation. European
+Finance Review 3, 205–232.
+Jagannathan, R., Wang, Z., 1996. The conditional CAPM and the cross-section of expected returns.
+Journal of Finance 51, 3–35.
+Jagannathan, R., Wang, Z., 2002. Empirical evaluation of asset-pricing models: A comparison of the SDF
+and Beta methods. Journal of Finance 57, 2337–2367.
+Jensen, M.C., 1968. The performance of mutual funds in the period 1945–1964. Journal of Finance 23,
+346–389.
+
+M.A. Ayadi, L. Kryzanowski / Journal of Banking & Finance 29 (2005) 623–659
+
+659
+
+Kan, R., Zhang, C., 1999. GMM tests of stochastic discount factor models with useless factors. Journal of
+Financial Economic 54, 103–127.
+Kan, R., Zhou, G., 1999. A critique of the stochastic discount factor methodology. Journal of Finance 54,
+1221–1248.
+Kandel, S., Stambaugh, R.F., 1996. On the predictability of stock returns: An asset allocation perspective.
+Journal of Finance 51, 385–424.
+Koenker, R., Machado, J.A.F., 1999. GMM inference when the number of moment conditions is large.
+Journal of Econometrics 43, 327–344.
+Koutoulas, G., Kryzanowski, L., 1996. Macrofactor conditional volatilities, time-varying risk premia and
+stock return behavior. Financial Review 31, 169–195.
+Kryzanowski, L., Lalancette, S., 1996. Conditional performance evaluation of portfolios with linear and
+nonlinear payoﬀs. Working Paper, Concordia University.
+Kryzanowski, L., Zhang, H., 1992. Economic forces and seasonality in security returns. Review of
+Quantitative Finance and Accounting 1, 227–244.
+Kryzanowski, L., Lalancette, S., To, M.C., 1997. Performance attribution using an APT with prespeciﬁed
+macrofactors and time-varying risk premia and betas. Journal of Financial and Quantitative Analysis
+32, 205–224.
+K€
+unsch, H.R., 1989. The Jacknife and the bootstrap for general stationary observations. Annals of
+Statistics 17, 1217–1241.
+Lehmann, B.N., Modest, D.M., 1987. Mutual fund performance evaluation: A comparison of benchmarks
+and benchmark comparisons. Journal of Finance 42, 233–265.
+Lucas, R., 1978. Asset prices in exchange economy. Econometrica 46, 1429–1445.
+Luttmer, E.G.L., 1996. Asset pricing in economies with frictions. Econometrica 64, 1439–1467.
+Malkiel, B.G., 1995. Returns from investing in equity mutual funds 1971–1991. Journal of Finance 50,
+549–572.
+Merton, R.C., 1973. An intertemporal capital asset pricing model. Econometrica 41, 867–887.
+Merton, R.C., 1981. On market timing and investment performance I: An equilibrium theory of market
+forecasts. Journal of Business 54, 363–406.
+Newey, W.K., 1993. Eﬃcient estimation of models with conditional moment restriction. Handbook of
+Statistics 11, 445–519.
+Newey, W.K., West, K.D., 1987a. A simple positive semi-deﬁnite heteroskedasticity and autocorrelation
+consistent covariance matrix. Econometrica 55, 703–708.
+Newey, W.K., West, K.D., 1987b. Hypothesis testing with eﬃcient method of moments estimation.
+International Economic Review 28, 777–787.
+Priestley, M.B., 1981. Spectral Analysis and Time Series. Academic Press, New York.
+Roll, R., 1977. A critique of the asset pricing theory’s tests; Part I: On past and potential testability of the
+theory. Journal of Financial Economics 4, 129–176.
+Roll, R., 1978. Ambiguity when performance is measured by the security market line. Journal of Finance
+38, 1051–1069.
+Ross, S.A., 1976. Arbitrage theory of capital asset pricing. Journal of Economic Theory 13, 341–360.
+Schwert, G.W., 1989. Why does stock market volatility change over time? Journal of Finance 44, 1115–
+1153.
+Sharpe, W.F., 1964. Capital asset prices: A theory of market equilibrium under conditions of risks.
+Journal of Finance 19, 425–442.
+Wermers, R., 1997. Momentum investment strategies of mutual funds, performance persistence, and
+survivorship bias. Working Paper, University of Colorado at Boulder.
+
+

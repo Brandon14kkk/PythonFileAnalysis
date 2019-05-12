@@ -1,0 +1,2876 @@
+Adverse Selection and Competitive
+Market Making: Empirical Evidence
+from a Limit Order Market
+Patrik Sandås
+University of Pennsylvania
+
+This article presents a new methodology for testing economic restrictions on the price
+schedules offered in a limit order book that are based on (i) break-even conditions for
+marginal limit orders and (ii) rational updating conditions for order book revisions over
+time. Using order flow data from the Stockholm Stock Exchange, I find strong evidence of insufficient depth in the limit order books relative to the theoretical predictions.
+An extended model, which allows the model parameters to depend on market conditions,
+captures some of the systematic variation in the observed order book depth.
+
+During the last 15 years many securities markets have introduced electronic
+limit order book systems.1 This development has spurred a growing interest in the theoretical and empirical properties of such markets.2 In order to
+account for the popularity of this trading institution, we are interested in
+understanding traders’ order placement decisions and their contribution to
+liquidity and price formation. This article takes a step toward that goal by
+showing how the restrictions that the order books must satisfy in a relatively
+frictionless setting can be empirically tested. In particular, it is shown that
+the order books satisfy both a set of static break-even conditions and a set
+of dynamic updating conditions. An empirical strategy is formulated based
+on these conditions and implemented on order flow data from the Stockholm
+Stock Exchange.
+In limit order markets the liquidity at any point in time is characterized
+by the limit order book. A limit order specifies a fixed order price and quantity and is not assured execution. When a limit order is submitted it enters
+This article is based on my dissertation at Carnegie Mellon University. I am indebted to my committee members: Burton Hollifield, Robert Miller, and Duane Seppi. I thank Ulf Axelson, Bruno Biais, Richard Evans,
+Thierry Foucault, Rick Green, Joel Hasbrouck, Ken Kavajecz, Jonas Niemeyer, Christine Parlour, Matthew
+Rhodes-Kropf, Chester Spatt, Per Strömberg, and especially the editor, Larry Glosten, and an anonymous referee, as well as seminar participants at the 1999 AFA meetings, Carnegie Mellon, Columbia, LBS, MIT, NYU,
+UBC, UNC-Chapel Hill, and Wharton for helpful comments. I thank the Stockholm Stock Exchange, Stockholms Fondbörs Jubileumsfond, and Dextel Findata AB for providing the dataset, and the A. P. Sloan and the
+W. L. Mellon Foundations for generous financial support. I am responsible for any remaining errors. Address
+correspondence to Patrik Sandås, Finance Department, The Wharton School, University of Pennsylvania,
+Philadelphia, PA 19104-6367, or e-mail: sandas@wharton.upenn.edu.
+1
+
+Domowitz (1993) documents 35 financial markets that use limit order book systems. Recent developments
+are discussed in Domowitz and Steil (1999).
+
+2
+
+Recent studies include Glosten (1994), Biais, Hillion, and Spatt (1995), De Jong, Nijman, and Röell (1995),
+Foucault (1999), Parlour (1998), Parlour and Seppi (1998), and Hollifield, Miller, and Sandås (1999).
+The Review of Financial Studies Fall 2001 Vol. 14, No. 3, pp. 705–734
+© 2001 The Society for Financial Studies
+
+The Review of Financial Studies / v 14 n 3 2001
+
+the centralized order book, where it is stored until it is executed or canceled. A trade occurs when a market order arrives and is executed against
+the outstanding limit orders. In the book, limit orders are prioritized first by
+price and then by submission time. In most limit order markets there are
+no designated market makers and therefore all liquidity is provided by limit
+orders.
+The model used in this article is a version of Glosten (1994) with discrete
+prices and a time priority rule as in Seppi (1997).3 In this single-period
+model, limit orders are first submitted by profit-maximizing market makers.
+A trader then arrives and submits a market order. It is assumed that the market
+orders may be submitted by a privately informed trader and that a larger
+market order implies a greater change in the expected value of the asset.
+The expected profit for a market maker submitting a limit order depends
+on the probability of execution and the value of the asset conditional on
+the order being executed. Since limit orders are executed in succession, the
+execution probability for a limit sell order is decreasing in its price, and at a
+given price it is decreasing in the submission time of the order. The resulting
+price schedule is then, in general, increasing or decreasing for market buy or
+sell orders, respectively. Each marginal bid and offer that defines this price
+schedule is characterized by a break-even condition.
+By combining the break-even conditions with moment conditions that
+characterize the distribution of market orders it is possible to identify the
+underlying adverse selection costs. The adverse selection cost in this setting
+measures how much the expected value of the asset is revised in response to
+a given market order quantity. In other words, the adverse selection cost is
+represented by a “price impact function,” which depends on the trade size.
+A second building block for the empirical analysis is a set of updating restrictions that link the market order flow to the order book dynamics. If updating
+is rational, the change in the value predicted by the price impact function
+should on average be correct. By combining these updating restrictions with
+the break-even conditions, I obtain a set of internally consistent restrictions
+on both the “shape” of the limit order book at a point in time and on the
+order book revisions in response to trades.
+The main empirical findings of the article are as follows:
+1. The price schedules offered by the order books appear to be too
+steep, that is, they offer insufficient depth relative to the theoretical
+predictions.
+2. For most stocks the market order flow distribution strongly depends on
+state variables such as the past trading volume. I also find evidence
+3
+
+Rock (1996) use a similar setup for the order book in a model of the interaction between the specialist and the
+limit order book at the NYSE. Biais, Martimort, and Rochet (2000) analyze liquidity provision by competing
+market makers and obtain bid (ask) prices equal to “upper (lower) tail” expectations as in Glosten (1994) in
+the limit as the number of market makers goes to infinity.
+
+706
+
+Adverse Selection and Competitive Market Making
+
+consistent with more (less) severe adverse selection risk in markets
+with high (low) stock-specific or market-wide volatility and low (high)
+trading volume, holding everything else constant. A restricted model
+that does not allow for any state dependence is strongly rejected for
+all stocks. However, even with the state variables, stock-specific and
+market-wide volatility and trading volume, a test of overidentifying
+restrictions rejects for 5 of the 10 sample stocks at the 1% level.
+3. The deviations from the model predictions are inversely correlated
+with the time elapsed since the last transaction. These findings suggest
+that the order book may adjust with a delay to new information.
+This article contributes to the literature on limit order markets. Biais,
+Hillion, and Spatt (1995) study the order flow dynamics at the Paris Bourse
+and find evidence consistent with information asymmetries and competition.
+This article builds on their article by directly testing theoretical predictions
+about the order books and the order flow. De Jong, Nijman, and Röell (1996)
+test a version of Glosten (1994). This article extends their analysis by providing a direct test of the model restrictions, incorporating the effects of price
+discreteness and the time priority rule and utilizing both order book and order
+flow information.4
+The article is organized as follows. Section 1 provides a brief description
+of the market institution and the dataset. The theoretical model is presented in
+Section 2. Section 3 develops the empirical methodology. Section 4 presents
+the empirical results. Extensions are discussed in Section 5. Concluding comments are in Section 6.
+1. Description of the Market and the Dataset
+1.1 The market institution
+In 1990 the Stockholm Stock Exchange introduced a computerized limit
+order market. This trading system is similar to those systems used on the
+Toronto Stock Exchange and the Paris Bourse. In this mechanism, limit
+orders are stored in a centralized order book and automatically crossed with
+market orders, giving priority according to price and time. Investors submitting limit orders have the option to “hide” part of the limit order quantity—
+that is, to allow only a part of the limit order quantity to be displayed in
+the book. The hidden part of any limit order has lower priority than all the
+visible order quantities at a given price level. The data used in this article do
+not distinguish between hidden and visible order quantities.
+4
+
+Other empirical studies of limit order books with/without a specialist include Coppejans and Domowitz (1998),
+Hamao and Hasbrouck (1995), Hedvall, Niemeyer, and Rosenqvist (1997), Kavajecz (1999), and Lehmann
+and Modest (1994). Handa and Schwartz (1996), Harris and Hasbrouck (1996), and Lo, MacKinlay, and
+Zhang (1999) analyze order submission strategies.
+
+707
+
+The Review of Financial Studies / v 14 n 3 2001
+
+The limit order market is transparent; information about the five best bids
+and offers with corresponding quantities is instantaneously transmitted to the
+computer screens in the offices of the exchange members. The transparency
+and rich information disseminated to all market participants facilitate detection of profit opportunities. The computerized trading system allows market
+participants to quickly shift their market-making activities from one stock
+to another. The above-mentioned features of the institution suggest that it is
+reasonable to consider a model where the order book is determined by value
+traders, who do not need to trade but submit orders to take advantage of
+profit opportunities in the market.
+1.2 The dataset
+The dataset contains histories for all trades and orders that were submitted
+to the electronic trading system for a sample of 10 actively traded stocks at
+the Stockholm Stock Exchange.5 The sample period consists of 59 trading
+days between December 3, 1991, and March 2, 1992. The sample is representative of the electronic trading but it does not cover all trading in these
+stocks. Transactions made on London’s SEAQ International and on NASDAQ
+accounted for a significant fraction of the turnover in some companies during this period. In addition, block trades can be settled outside the electronic
+system. While other trading venues account for a significant proportion of
+the volume, most transactions are routed to the electronic trading system.
+The analysis in this article focuses on electronic trading.
+Descriptive statistics for the sample stocks are reported in Table 1. Henceforth I will refer to the sample stocks by their respective symbols listed in
+the first column of Table 1. The total number of transactions over the sample
+period, reported in the second column, ranges from a low of 667 (PROC) to
+a high of 8102 (LME). In the third column, similar differences in activity
+are observed in the total number of limit orders submitted, where the low
+is 1463 (PROC) and the high is 12,646 (LME). The fourth column reports
+the average transaction price for the stocks. During this period US $1 was
+equal to roughly 6.5 Swedish Crowns. Most of the stocks in the sample are
+traded with a tick size of one Crown (prices greater than 100 Crowns), corresponding to a tick size of 15 cents for a $15 stock. The exception is SEB,
+and for part of the sample LME and INVE, which traded in the 0.5 Crown
+tick size range (prices less than 100 Crowns). The daily trading volume for
+the stocks in the sample is quite variable, with a minimum of 1.1 million
+Crowns (PROC) and a maximum of 35.2 million Crowns (LME). The last
+column reports the sample period returns.
+5
+
+The full sample included all companies in the OMX index during the sample period. OMX is a market index
+that includes the 30 most actively traded securities on the Stockholm Stock Exchange. The index is updated
+semiannually. A smaller subsample of 10 companies was randomly selected among the stocks with at least
+500 trades during the 59-day sample period.
+
+708
+
+Adverse Selection and Competitive Market Making
+
+Table 1
+Descriptive statistics
+
+Stock
+
+Symbol
+
+Transactions
+
+Limit orders
+
+Average
+transaction
+price
+
+Asea
+Astra
+Electrolux
+Investor
+Ericsson
+Procordia
+Skandia
+S-E Banken
+Skanska
+Stora
+
+ASEA
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+1374
+3654
+2342
+784
+8102
+667
+956
+2141
+1367
+894
+
+2423
+5699
+4271
+1672
+12646
+1463
+2125
+3719
+2302
+1868
+
+309.75
+522.29
+242.19
+124.73
+109.35
+199.33
+154.50
+48.36
+123.59
+266.74
+
+Average
+daily trading
+volume
+
+Sample
+period
+return
+
+2.983
+28.400
+13.338
+2.131
+35.151
+1.079
+2.817
+5.598
+2.727
+2.737
+
+12.01%
+15.44%
+18.53%
+22.31%
+9.53%
+1.51%
+−15.95%
+−23.58%
+−23.21%
+−3.85%
+
+The table reports descriptive statistics for the sample. The sample period is December 3, 1991, to March 2, 1992. Transaction
+prices are measured in Swedish Crowns and the trading volume is measured in million Swedish Crowns. During the sample
+period US $1 was roughly equivalent to 6.5 Swedish Crowns. The sample period return is computed using the first and the last
+transaction price for each stock.
+
+Table 2
+Limit order book statistics
+Cumulative order quantities
+offered in the limit order book
+(100 shares)
+
+Order book spreads
+(Crowns)
+Stock
+ASEA
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+Ask2 −
+Ask1
+
+Ask1 −
+Bid1
+
+Bid1 −
+Bid2
+
+AskQ2 +
+AskQ1
+
+AskQ1
+
+BidQ1
+
+BidQ2 +
+BidQ1
+
+3.28
+6.26
+1.48
+1.21
+1.42
+1.25
+1.55
+1.20
+0.93
+0.23
+2.27
+2.02
+1.65
+1.17
+0.59
+0.31
+1.48
+0.96
+3.48
+4.40
+
+1.72
+1.04
+1.40
+0.82
+1.16
+0.49
+1.22
+0.56
+0.91
+0.20
+1.69
+1.09
+1.46
+0.98
+0.53
+0.13
+1.24
+0.67
+1.82
+1.28
+
+1.87
+1.99
+1.58
+1.99
+1.61
+2.85
+1.52
+1.19
+0.91
+0.22
+1.90
+2.18
+1.76
+1.98
+0.57
+0.23
+1.54
+1.35
+2.09
+1.79
+
+23.34
+16.00
+40.59
+32.10
+79.75
+57.64
+80.74
+54.12
+470.71
+293.99
+20.48
+17.22
+43.40
+31.43
+393.98
+249.58
+61.96
+57.44
+39.67
+30.69
+
+11.51
+11.61
+18.90
+19.29
+38.50
+37.87
+40.18
+40.06
+200.25
+193.79
+11.13
+13.70
+21.67
+19.61
+196.08
+187.15
+29.70
+34.48
+18.75
+21.04
+
+9.85
+10.17
+23.55
+28.64
+48.90
+45.83
+35.35
+31.14
+199.91
+178.22
+17.22
+18.69
+34.75
+30.20
+160.18
+176.92
+44.64
+45.46
+12.60
+13.90
+
+21.72
+17.00
+51.69
+44.60
+115.36
+76.93
+77.57
+55.33
+446.85
+319.53
+38.00
+28.88
+75.82
+46.23
+326.06
+246.97
+88.34
+68.89
+26.72
+23.24
+
+Summary statistics for the limit order books. The mean and standard deviation (first and second row for each stock, respectively)
+of the difference between the second-best and the best ask price, the best ask and best bid price, and the best and second-best
+bid price for each stock are reported in the first three columns. The mean and standard deviation for the quantities offered in
+the limit order book for the two best ask and two best bid price levels are reported in the last four columns for each stock. The
+quantities at the second-best price levels are cumulative, that is, they include the quantities at the respective best price level (bid
+or ask). The spreads are measured in Swedish Crowns and the quantities in 100 shares.
+
+709
+
+The Review of Financial Studies / v 14 n 3 2001
+
+In Table 2 the average order book spreads and the cumulative order quantities are reported for the two best bid and ask levels in the book.6 Notice that
+for some stocks, for example, SEB, the average spreads are very close to 0.5
+Crown, which is the minimum tick size for that stock. For other stocks, for
+example, ASEA, PROC, and STOR, spreads of several Crowns are common.
+The total order quantities offered at the best and second-best price levels are
+between 1.8 and 2.4 times the quantities offered at the best price levels. For
+all stocks, the spreads between the best and the second-best quotes on either
+the bid or the offer side are greater than the bid-ask spreads.
+Table 3 reports the 10th, 30th, 50th, 70th, and 90th percentiles for the
+market buy and sell order quantities (numbers of shares), as well as the average market order size for each stock. Market orders submitted in a sequence
+within 30 seconds by the same broker-dealer on the same side of the market
+(e.g., a market buy order by dealer A directly followed by another market buy order from dealer A within 30 seconds) were aggregated into one
+market order observation. Note that for all of the stocks the median market
+order size is smaller than the average market order size, and for most, much
+smaller.
+Table 2 documents that the spread is weakly increasing in the trade size for
+all stocks. One explanation for this is that larger orders are more likely to be
+submitted by informed traders. A standard method for decomposing the bidask spread into an adverse selection component (which may depend on the
+6
+
+In the data it is rare to observe orders that “walk up the book” beyond the two best price levels. In other
+words, orders beyond the two best price levels are unlikely to be executed by the next market order.
+
+Table 3
+Market order flow statistics
+Market order quantity percentiles
+Stock
+
+Order type
+
+10th
+
+30th
+
+50th
+
+70th
+
+90th
+
+Average
+order size
+
+ASEA
+
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+Sell
+Buy
+
+50
+50
+50
+100
+100
+100
+200
+200
+100
+100
+100
+100
+100
+200
+200
+200
+100
+100
+100
+100
+
+100
+100
+100
+200
+200
+300
+400
+400
+400
+300
+102
+200
+200
+400
+800
+600
+200
+200
+200
+200
+
+200
+200
+300
+500
+500
+800
+800
+800
+1000
+600
+200
+315
+500
+900
+1400
+1000
+500
+400
+300
+300
+
+400
+500
+750
+1000
+1100
+1600
+1400
+1000
+2450
+1500
+300
+600
+1000
+1368
+3400
+2200
+1000
+1000
+600
+600
+
+1000
+1000
+2000
+2500
+3600
+4000
+3600
+3000
+7000
+5000
+700
+1825
+2500
+3000
+9000
+8200
+2300
+2100
+1500
+1800
+
+378
+435
+759
+1035
+1299
+1481
+1388
+1208
+2757
+1997
+378
+654
+1009
+1305
+3309
+3155
+1002
+889
+639
+717
+
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+All market order quantities reported in this table are measured in number of shares.
+
+710
+
+Adverse Selection and Competitive Market Making
+
+Table 4
+Estimation of price impact regressions
+Stock
+ASEA
+a
+b
+c
+R2
+
+ASTR
+
+ELUX
+
+0.016
+0.021
+0.018
+0.55
+1.38
+1.33
+0.351
+0.265
+0.216
+14.89
+21.64
+19.69
+0.0186 0.0075 0.0039
+3.88
+7.51
+6.33
+0.20
+0.17
+0.21
+
+INVE
+
+LME
+
+0.012
+0.001
+0.39
+0.20
+0.254
+0.198
+9.69
+56.83
+0.0081 0.0006
+4.75
+6.86
+0.19
+0.32
+
+PROC
+
+SDIA
+
+SEB
+
+SKAB
+
+0.006 −0.011 −0.006 −0.011
+0.13
+−0.34
+−1.43
+−0.71
+0.294
+0.269
+0.114
+0.292
+7.70
+9.46
+29.38
+23.54
+0.0328 0.0096 0.0004 0.0048
+5.33
+4.93
+5.30
+5.00
+0.18
+0.16
+0.33
+0.36
+
+STOR
+−0.012
+−0.31
+0.362
+10.95
+0.0124
+3.70
+0.17
+
+The table reports estimation results for the following price impact regression:
+pt+1 − pt = a + b(It+1 − It ) + cqt+1 It+1 + t+1 ,
+where It is a trade indicator, qt+1 is the order quantity (100 shares), pt is the marginal price of the time t transaction, and t+1
+is an update of the expected fundamental value that is orthogonal to the time t market order. The corresponding t-statistics are
+reported directly below each parameter estimate. R 2 values are reported in the last row.
+
+trade size) and an order processing component is to estimate a “price impact
+regression” [see Glosten and Harris (1988)]. This methodology is designed
+for a different institutional setting and therefore the estimates presented below
+are best interpreted as benchmarks for the subsequent analysis. However, the
+empirical strategy presented in this article is related to this method and the
+key differences are briefly discussed below.
+Denote the fixed order processing cost by b and the variable adverse selection cost by c. The expected change in the fundamental value conditional on
+the order submitted at time t, or its “price impact,” is cqt It , where It is an
+indicator that takes value +1 and −1 for market buy and sell orders, respectively. The market order quantity qt is measured in 100 shares. A transaction
+price for a time t market order of pt = Xt + bIt + cqt It , where Xt denotes
+the fundamental value at time t, covers both the order processing and the
+adverse selection costs. Differencing pt+1 and pt yields
+pt+1 − pt = a + b(It+1 − It ) + cqt+1 It+1 + εt+1 ,
+
+(1)
+
+where a is the expected change in value and εt+1 is an update of the expected
+fundamental value that is orthogonal to the time t market order. The results
+for this price impact regression are reported in Table 4.7 For each stock, the
+parameter estimates and the corresponding t-values are reported in the first
+six rows, followed by the R 2 values. The fixed order processing cost, b, and
+the adverse selection cost, c, are both positive and statistically significant at
+the 1% level for all of the stocks.
+Figure 1 plots the mean and the median empirical price schedules as well
+as an implied price schedule based on the above regression results for two
+representative stocks, ASEA and ASTR. Each plot in Figure 1 is constructed
+7
+
+When a market order traded at several prices, that is, a market order “walked up the book,” the price for the
+last unit (the marginal price) was used for pt .
+
+711
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Figure 1
+Comparison of Benchmark and Observed Price Schedules
+The time-series mean (dashed line) and median (dash-dot line) of the markup or discount (measured in
+Swedish Crowns on the vertical axis) that a trader submitting hypothetical market orders of different sizes
+(measured in roundlots [100 shares] on the horizontal axis) would have paid or received relative to the midquote are plotted for two stocks, ASEA and ASTR. The markups and discounts are computed for the marginal
+unit of each market order size as follows. For each limit order book observed before a transaction, the markup
+(discount) that market orders of various sizes would pay or receive, respectively, are computed. The market
+order sizes are chosen to match the order flow by percentiles reported in Table 3. The solid line in each
+subplot corresponds to the implied price schedule based on the price impact regression results reported in
+Table 4, that is, bI + cI q is plotted for I = ±1 and various values of q, with a 5% confidence interval
+(dotted line).
+
+as follows. For each limit order book observed before a transaction, I figured the markup or discount that would be paid or received relative to the
+midquote by a trader submitting a market order of different sizes. The market order sizes are chosen to match the order flow by percentiles reported
+in Table 3. The mean (dashed line) and the median (dash-dot line) of these
+markups and discounts are plotted in Figure 1 as proxies for the typical
+price schedules observed in the data. The estimates of the cost of liquidity
+provision in Table 4 are then used to compute a benchmark for the price
+schedules. A price schedule reflecting the estimated order processing cost, b,
+and the “price impact,” cqI , is plotted (solid line) for the different order
+size percentiles in Figure 1, that is, bI + cI q is plotted for I = ±1 and
+different values for q. It is clear from the graphs that these benchmarks are
+712
+
+Adverse Selection and Competitive Market Making
+
+“too flat” to match either the mean or the median schedule offered by the
+order book. The difference tends to grow as we move further out in the limit
+order book. These initial findings suggest that there is not enough depth in
+the order book or, in other words, the order books appear to offer profit
+opportunities. It is, however, premature to draw this conclusion at this point.
+In this trading institution a trader cannot, as I did in Equation (1), condition
+on the size of the market order that will trigger the execution of her limit
+order. This implies that the execution of a limit order can result in a gain
+or a loss and that an order only breaks even on average [see Rock (1996)
+and Glosten (1994)]. Thus the transaction price is not, in general, equal
+to the conditional expectation of the fundamental value (plus or minus the
+fixed order processing cost) as in Equation (1). In addition, discrete prices
+combined with the time priority rule allows for nonmarginal limit orders to
+earn positive profits in the order book. These properties are accounted for in
+the empirical strategy presented in Section 3.
+In the next section, I present a model of the liquidity provision in a limit
+order market. The model captures important institutional features of this market, including the transparency of the trading system, price discreteness, and
+the time priority rule. The model imposes testable restrictions on the data that
+allow us to examine whether or not the discrepancies between the empirical
+price schedules and the implied price schedules presented above imply that
+there are unexploited profit opportunities in the market.
+2. Model
+The model presented here follows Glosten (1994), but it is modified to
+include discrete prices and a time priority rule as in the limit order market
+version of Seppi (1997). The theoretical results are reviewed here to provide
+a framework for the empirical analysis.
+2.1 General features of the model
+There are two types of agents in the market: market makers and traders.
+Patient market participants, who supply liquidity by submitting limit orders,
+are referred to as market makers. Traders, who may have private information,
+demand liquidity by submitting market orders. Consequently they can be
+thought of as impatient market participants who do not want to postpone
+their trading. There are a large number of both types of agents. The market
+makers are risk neutral and profit maximizing.
+The agents trade a risk-free asset with a return normalized to zero and
+a risky security whose value in period t is given by Xt . This is the fundamental value of the security conditional on all publicly available information.
+This value changes as new information arrives. The next period’s fundamental
+713
+
+The Review of Financial Studies / v 14 n 3 2001
+
+value, Xt+1 , is given by
+Xt+1 = Xt + µ + dt+1 ,
+
+(2)
+
+where dt+1 represents a random innovation in the value and µ is the expected
+change.
+Trading occurs sequentially over periods indexed by t. In each period t,
+there are three stages. Shortly before time t, market makers are randomly
+given the opportunity to submit new limit orders. This process is repeated as
+long as someone wishes to place a new order. At time t, when the new limit
+order book has been established, a trader arrives and submits a market order.
+After the trade, the new fundamental value is announced and the process
+starts over.
+The agents trade by submitting market and limit orders to a limit order
+book. For any order book I will use the following notation for the order
+prices and quantities. Let the prices {p+1 , p+2 , . . . , p+k } denote the ask
+prices in the book ordered from the best ask price, p+1 , to the kth best
+ask price, p+k . The order quantities associated with each price level are
+denoted by {Q+1 , Q+2 , . . . , Q+k }. The bid side variables are denoted analogously with a negative index. The market order quantity submitted at time t is
+denoted by mt . Market buy orders correspond to positive quantities, m > 0,
+and market sell orders to negative quantities, m < 0.
+2.2 The liquidity demand
+The trader arriving in a given period is independently drawn from a population of traders. In principle, the optimal market order quantity submitted
+by the trader will depend on factors such as the trader’s current position in
+the security and her information about the likely future value of the security.
+In order to simplify the analysis and concentrate on the decision problem
+of the market makers I use a reduced form representation for the trader’s
+demand for liquidity. I assume that a trader will be a buyer or a seller with
+equal probability and that the desired market order quantity is exponentially
+distributed with expected market order quantities λ and φ, respectively, for
+buyers and sellers. The distribution of market order quantities m can then be
+summarized by the following density function f (m), where
+
+1 −m
+e λ if m > 0 (market buy),
+fmb (m) = 2λ
+(3)
+f (m) =
+1 m
+fms (m) = 2φ e φ
+if m < 0 (market sell).
+I can now solve the market-makers’ decision problem using this
+parameterization.
+2.3 The market-makers’ decision problem and the order book
+The traders who demand liquidity may be informed about the innovation
+in the value of the security, dt+1 . The market order is therefore informative
+714
+
+Adverse Selection and Competitive Market Making
+
+about the likely value of this innovation. An alternative explanation, which in
+this case will lead to the same limit order books, is that some traders observe
+public information regarding the value of the innovation and “pick off” limit
+orders that are exposed. In both cases the market order quantity submitted is
+correlated with the value of the security in the next period. The information
+link between the market order quantity m and the fundamental value Xt
+can be represented by a nondecreasing price impact function, h(m), which
+relates the market order quantity m to the next period’s fundamental value
+as follows:
+E[Xt+1 |Xt , m] = Xt + µ + h(m),
+
+(4)
+
+where µ is the expected change in the fundamental value. The subsequent
+analysis is based on a symmetric linear specification for h(·) given by
+h(m) = αm,
+
+(5)
+
+where α is the per unit price impact of market orders. If market buy (sell)
+orders tend to signal increases (decreases) in the value of the asset, α is
+expected to be positive. For a given distribution of market orders, a larger α
+parameter implies a more severe adverse selection problem.8
+Consider an arbitrary order book and an arbitrary price level p. A limit
+order, which is the Qth best sell order unit in the limit order book, is executed
+whenever a market order that is sufficiently large arrives, that is, mt ≥ Q.
+Multiple limit orders at the same price level do not “split the surplus.”
+Instead, limit orders are executed according to strict time priority. This means
+that all limit order units with a higher time priority must be executed first.
+Market makers are assumed to incur a quantity-invariant order processing
+cost, which is denoted by γ . I assume that the order processing cost is equal
+for buy and sell orders. In the absence of adverse selection costs (i.e., α = 0),
+the order processing costs would determine the bid-ask spread, and the order
+book would offer infinite depth at the best quotes.
+Suppose the price level p is the lowest price, above Xt , at which it is
+profitable to supply a positive quantity. Consider the market-makers’ problem
+of deciding how many units to offer at this price level. The expected profit
+on the last unit, q, is determined by
+E[(p1 − γ − E[Xt+1 |m])I (m ≥ q)],
+
+(6)
+
+where p1 − E[Xt+1 |m] is the difference between the price the market maker
+receives and the expected fundamental value conditional on the market order
+m, I (m ≥ q) is an indicator, which is 1 if the market order submitted is larger
+8
+
+Many specifications of this model, including the normal exponential version, yield a nondecreasing price
+impact function. See Glosten (1994, p. 1137) for a counterexample.
+
+715
+
+The Review of Financial Studies / v 14 n 3 2001
+
+than q, and γ is the order processing cost. We can rewrite Equation (6) as
+follows using Equations (3), (4), and (5):
+∞
+q
+1 u
+1
+(p1 −γ −Xt −h(u)) e− λ du = (p1 −γ −Xt −α(q +λ))e− λ . (7)
+2λ
+2
+q
+Market makers are profit maximizing, and therefore the quantity offered at
+the price level p must be such that the last unit breaks even. This implies
+that the quantity Q1 submitted at the best sell price level p1 is given by
+Q1 =
+
+p1 − γ − Xt
+− λ.
+α
+
+(8)
+
+Given that the quantity Q1 is offered at p1 we can now ask what quantity the
+market makers will offer at the next price level, p2 . Using similar arguments
+we find that the quantity offered at the second-best price level, Q2 , is given by
+Q2 =
+
+p2 − γ − Xt
+− Q1 − λ.
+α
+
+(9)
+
+By recursively following the procedure described above we can construct the
+whole limit order book on the offer side. By analogy we can construct the
+order book on the bid side.
+The model presented above is static and therefore we cannot make predictions about the timing of limit order submissions. One way to think about the
+liquidity provision is to allow one market maker to enter and replenish the
+limit order book until all price levels satisfy the conditions presented above.
+Alternatively, several market makers could enter and compete for the profit
+opportunities in the limit order book. Provided that enough market makers
+regularly observe the status of the limit order book, profit opportunities will
+tend to be short-lived.
+3. Empirical Methodology
+The theoretical model discussed here imposes restrictions on the price and
+quantities in the limit order book as well as on the joint dynamics of the
+fundamental value and the order books. This section develops these two types
+of restrictions in more detail. The empirical strategy, which is subsequently
+outlined, builds directly upon these restrictions.
+3.1 Break-even conditions
+The model framework presented in Section 2 implies that the limit order book
+at time t is characterized by a set of break-even conditions. I concentrate
+on the restrictions that apply to the two best bid and ask quotes. The sharp
+distinction between the time of limit and market order arrivals that the model
+is based upon does not account for the randomness in the arrival times of
+716
+
+Adverse Selection and Competitive Market Making
+
+orders. It is also likely that the relevant model parameters change over time,
+for example, the liquidity demand may depend on market conditions. In order
+to bridge the gap between the model and data I assume that the break-even
+conditions hold approximately by introducing an error term in each breakeven condition. Let the error terms corresponding to the different price levels
+be denoted by k , k = ±1, ±2. The offer side break-even conditions given
+in Equations (8) and (9) can then be restated as
+ k
+
+
+Q i + λ = k
+k = +1, +2,
+(10)
+pk − Xt − γ − α
+k
+
+i=+1
+
+where i=+1 Qi is the aggregate quantity offered at the +kth price level and
+all price levels below the kth level on the offer side.9 Correspondingly, for
+the bid side we have
+ k
+
+
+Q i + φ = k
+k = −1, −2,
+(11)
+Xt − pk − γ − α
+k
+
+i=−1
+
+where i=−1 Qi is the aggregate quantity offered at or above the −kth price
+level on the bid side. The error terms capture the fact that at any point in time
+the order book may offer profit opportunities or exposed limit orders. Market
+makers are assumed to frequently enter the market and update their outstanding limit orders in the order book and potentially add new limit orders when
+the order book exhibits profit opportunities. I assume that on average the
+limit order book does not exhibit exposed limit orders or unexploited profit
+opportunities, that is, E[k ] = 0 for all k.
+In order to eliminate the unobserved fundamental value, Xt , I difference
+the equations above.10 The sum of the +kth and −kth break-even conditions,
+Equations (10) and (11), then result in the following two moment conditions:
+
+
+E[e1 (yt , ϕ)] = E p+1 − p−1 − 2γ − α(Q+1 + λ + Q−1 + φ) = 0 (12)
+and
+
+	
+E[e2 (yt , ϕ)] = E p+2 − p−2 − 2γ
+
+−α
+
++2
+
+i=+1
+
+Qi + λ +
+
+−2
+
+i=−1
+
+
+
+Qi + φ
+
+= 0,
+
+(13)
+
+where yt denotes the time t vector of data, {pk , Qk }k=+2
+k=−2 , and ϕ denotes the
+vector of parameters, {α, γ , λ, φ}.
+9
+
+I could also allow the parameters to vary with time-varying instruments, but the development of the estimation
+strategy assumes that they are constant.
+
+10
+
+In principle, I could have developed the break-even conditions based on the expected marginal profit,
+Equation (7), instead of the marginal profit conditional on execution, as in Equations (8) and (9). The advantage of the latter is that it makes it straightforward to eliminate the unobservable fundamental value, Xt .
+
+717
+
+The Review of Financial Studies / v 14 n 3 2001
+
+3.2 Updating restrictions and order book revisions
+The law of motion for the fundamental value given in Equation (2), together
+with the price impact function h(m) given in Equation (5), provides a link
+between the changes in the limit order books over time and the market order
+flow. This link will be used to generate another set of restrictions on the data
+that complement the information in the break-even conditions.
+The change in the fundamental value from time t to time t + 1 is given by
+Xt+1 − Xt = µ + h(mt ) + νt+1 = µ + αmt + νt+1 ,
+
+(14)
+
+where νt+1 is an expectation update that is orthogonal to mt and αmt is the
+price impact of the time t market order. The limit order books on the offer
+side at time t and time t + 1 are characterized by break-even conditions as
+in Equation (10):
+
+pk, t − Xt − γ − α
+
+k
+
+i=+1
+
+
+Qi, t + λ = k, t
+
+k = +1, +2
+
+(15)
+
+and
+
+pk, t+1 − Xt+1 − γ − α
+
+k
+
+i=1
+
+
+Qi, t+1 + λ = k, t+1
+
+k = +1, +2. (16)
+
+By subtracting Equation (15) from Equation (16) and using Equation (14)
+we get
+
+pk,t+1 − pk,t − α
+
+k
+
+i=+1
+
+k
+
+
+Qi, t+1 −
+
+= νt+1 + k,t+1 − k, t
+
+i=+1
+
+
+− µ − αmt
+
+Qi, t
+
+k = +1, +2,
+
+(17)
+
+and the analogous equations for the bid side are given by
+
+pk, t+1 − pk, t + α
+
+k
+
+i=−1
+
+Qi, t+1 −
+
+= νt+1 − k, t+1 + k, t
+
+k
+
+i=−1
+
+
+Qi, t
+
+− µ − αmt
+
+k = −1, −2.
+
+(18)
+
+I rule out a market order flow mt that depends on the state of the order book
+and assume that the market order flow is uncorrelated with the profit opportunities in the order book at every price level. In other words, I assume that
+E[mt k, t ] = 0 for all k. Furthermore, I assume that the order book is replenished quickly enough after each trade so that any deviation at time t +1 from
+the break-even conditions is uncorrelated with the previous time t market
+718
+
+Adverse Selection and Competitive Market Making
+
+order, that is, I assume that E[mt k, t+1 ] = 0 for all k.11 Given these assumptions, two additional conditions that apply to the offer side are obtained:
+E[e3 (yt , ϕ)]
+
+
+
+ +2
+	
++2
+
+
+Qi, t+1 −
+Qi, t − µ − αmt = 0
+= E 'p+2 − α
+i=+1
+
+(19)
+
+i=+1
+
+and
+E[e4 (yt , ϕ)] = E['p+1 − α(Q+1, t+1 − Q+1, t ) − µ − αmt ] = 0,
+
+(20)
+
+and two restrictions for the bid side:
+E[e5 (yt , ϕ)] = E['p−1 + α(Q−1,t+1 − Q−1, t ) − µ − αmt ] = 0
+
+(21)
+
+and
+E[e6 (yt , ϕ)]
+
+
+
+ −2
+	
+−2
+
+
+Qi,t+1 −
+Qi,t − µ − αmt = 0, (22)
+= E 'p−2 + α
+i=−1
+
+i=−1
+
+where 'pj = pj,t+1 − pj, t .
+An additional set of moment conditions is obtained by forming the difference between the expected values of the buy and sell market order quantities
+and the parameters λ and φ, respectively. These restrictions are given by
+E[e7 (yt , ϕ)] = E[mt − λ|mt > 0] = 0,
+E[e8 (yt , ϕ)] = E[mt + φ|mt < 0] = 0.
+
+(23)
+
+A vector of moment conditions denoted gt (yt, ϕ) is obtained by stacking
+all the moment conditions as gt (yt, ϕ) = [e1 (yt , ϕ) · · · e8 (yt , ϕ)]. A GMM
+estimator of the parameter vector ϕ can then be defined as
+	 T
+
+ 	 T
+
+
+1 
+1 
+g (y ϕ) WT
+g (y ϕ) ,
+(24)
+ϕT = arg min
+ϕ∈+
+T t=1 t t,
+T t=1 t t,
+where WT is a positive definite weighting matrix. Hansen (1982) proves that
+the GMM estimator of ϕ is consistent and asymptotically normally distributed.
+The variance-covariance matrix of ϕT is given by -Tϕ = [D0 S0−1 D0 ]−1 , where
+
+
+t (ϕ)
+] and S0 ≡ s=+∞
+D0 ≡ E[ ∂g∂ϕ
+s=−∞ E[gt gt−s ]. A consistent first-round estimate is obtained by using the identity matrix as the weighting matrix. In
+the second round, a heteroscedasticity and autocorrelation-consistent estimate
+of the variance-covariance matrix S0 is obtained by using the Newey–West
+procedure.
+11
+
+I thank the editor for pointing out the importance of these assumptions.
+
+719
+
+The Review of Financial Studies / v 14 n 3 2001
+
+4. Empirical Results
+In this section I first report estimation results based on applying the breakeven and updating conditions separately and then the results from applying
+them jointly. The second subsection analyzes the properties of the market
+order distribution in more detail. The third subsection presents the results for
+an extended model that allows the parameters to change with time-varying
+instruments. Finally, the last subsection addresses the importance of time in
+the dynamic adjustment of the order books.
+4.1 Tests of the main model predictions
+Table 5 presents the model parameter estimates obtained by applying the
+break-even and the updating conditions separately. The estimation based on
+the break-even conditions utilizes Equations (12) and (13), and the mean
+equations for the market order distributions, Equation (23). The estimates
+of λ and φ, which characterize the distribution of market buy and sell order
+quantities, are in general very close to the empirical averages of the market
+buy and sell order quantities (divided by 100) reported in the last column
+of Table 3. The estimated order processing cost, γ , is negative for all of
+the stocks. It is, of course, unlikely that the true order processing cost is
+Table 5
+Estimation using the break-even and the updating conditions separately
+Results using
+break-even conditions
+
+Results using
+updating conditions
+
+Stock
+
+λ
+
+φ
+
+γ
+
+α
+
+µ
+
+α
+
+χ 2 (6)
+
+ASEA
+
+4.362
+36.622
+10.348
+58.193
+14.809
+48.756
+12.023
+29.340
+19.968
+51.705
+6.541
+32.136
+13.063
+42.193
+31.571
+27.371
+8.902
+35.702
+7.174
+19.148
+
+3.776
+40.097
+7.605
+42.058
+12.993
+40.262
+13.881
+34.194
+27.573
+76.827
+3.779
+20.885
+10.093
+26.502
+33.092
+40.648
+10.018
+32.643
+6.380
+28.549
+
+−2.349
+−10.187
+−1.155
+−18.332
+−1.041
+−14.150
+−1.270
+−11.001
+−0.341
+−32.391
+−1.838
+−9.772
+−1.430
+−12.299
+−0.406
+−17.545
+−1.230
+−11.006
+−2.659
+−8.621
+
+0.217
+13.722
+0.061
+28.803
+0.028
+20.664
+0.037
+13.920
+0.004
+65.923
+0.139
+13.820
+0.054
+18.111
+0.003
+26.818
+0.040
+15.748
+0.159
+11.773
+
+0.021
+0.737
+0.023
+1.557
+0.016
+1.342
+0.008
+0.310
+0.000
+0.052
+0.006
+0.158
+0.001
+0.036
+−0.009
+−2.164
+0.014
+0.977
+−0.028
+−0.732
+
+0.006
+1.189
+0.003
+2.293
+0.013
+18.304
+0.011
+7.197
+0.002
+26.844
+0.040
+3.889
+0.021
+8.577
+0.001
+10.571
+0.013
+9.370
+0.037
+5.612
+
+2.543
+0.8636
+1.054
+0.9835
+7.518
+0.2756
+3.314
+0.7685
+40.035
+<0.0001
+18.893
+0.0043
+5.122
+0.5283
+16.473
+0.0114
+9.540
+0.1454
+3.063
+0.8009
+
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+Summary of estimation results obtained by imposing (i) the break-even conditions [Equations (12) and (13), and Equation (23)]
+and (ii) the updating restrictions [Equations (19)–(22)] separately. Coefficients characterizing the market order flow (λ, φ),
+the order processing cost (γ ), and the slope of the price impact function (α) obtained using the break-even conditions are
+reported in the first four columns with corresponding t-statistics in the second row for each stock. Estimates of the drift (µ)
+and the slope of the price impact function (α) based on using the updating conditions are reported in the fifth and sixth column,
+respectively. A constant and the signed market order quantity are used as instruments in the second estimation. Given the four
+moment conditions we have a total of total of eight orthogonality conditions. A chi-squared statistic for a test of overidentifying
+restrictions (six degrees of freedom) is reported in the last column with p-values directly below.
+
+720
+
+Adverse Selection and Competitive Market Making
+
+negative. However, this could reflect rational behavior in a setting where limit
+orders are placed by traders with heterogeneous valuations for the asset. It is
+possible that a limit buy order that is suboptimal for a market maker in this
+model is optimal for a trader with a high private valuation for holding the
+asset. Such a trader will not use zero, the payoff from not submitting an
+order, as the benchmark, but rather will compare the expected payoff on a
+limit buy order with that of a market buy order.
+The estimated slope coefficient, α, that determines the price impact of
+market orders is positive for all stocks. It is interesting to note that these
+coefficients are much larger than the coefficients inferred from the standard
+price impact regression. Note that the data used to obtain the first set of α
+coefficients reported in Table 5 include only “snapshots” of the limit order
+book at different points in time as well as the market order series. On average
+the slope coefficient obtained with the break-even conditions is about nine
+times greater than the corresponding slope coefficient obtained using the standard price impact regression. Based on these estimates the adverse selection
+cost for the marginal unit of an average size market order is between 10%
+and 59% of the quoted bid-ask spread. The large discrepancy between the two
+sets of slope coefficients is consistent with the large differences between the
+price schedules and the benchmark presented in Figure 1. Using the updating
+restrictions, which use time-series information, we would expect a smaller
+difference.
+The last three columns of Table 5 reports the estimation results based on
+applying the updating restrictions in Equations (19)–(22). The order processing cost, γ , is not identified using these restrictions alone. Furthermore, the
+updating restrictions do not depend on the order flow parameters λ and φ.
+The drift parameter, µ, is close to zero for most of the stocks. The slope
+of the price impact function, α, is positive for all stocks. Note that these α
+estimates are smaller in magnitude than the corresponding estimates obtained
+using the break-even conditions. There is large variation between the stocks,
+but on average the magnitude of the α estimates obtained using the updating
+conditions are only about 28% of the corresponding values obtained using the
+break-even conditions. The magnitude of the α’s for the updating conditions
+also exceeds the estimates reported in Table 4, but this difference is much
+smaller. The main difference between the standard price impact regression
+and the updating conditions is that the effects of price discreteness and time
+priority, as well as the “upper (lower) tail” expectations, are appropriately
+accounted for in the latter.
+Using a constant and the market order flow at time t as instruments in
+combination with Equations (19)–(22), I obtain a total of eight orthogonality conditions. The tests of overidentifying restrictions, reported in the last
+column of Table 5, reject this specification for LME, PROC, and SEB at
+the 1% level. One possible reason for these results is that not enough time
+has elapsed for the order book to be replenished to the “equilibrium” levels.
+721
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Table 6
+Estimation using the break-even and the updating conditions jointly
+Stock
+
+λ
+
+φ
+
+γ
+
+α
+
+µ
+
+χ 2 (3)
+
+ASEA
+
+4.120
+39.825
+9.944
+62.212
+13.800
+51.499
+11.944
+31.598
+20.131
+55.486
+6.185
+35.695
+12.167
+47.539
+30.665
+33.506
+9.203
+40.000
+5.924
+29.506
+
+3.766
+45.162
+7.057
+44.352
+12.244
+44.399
+12.521
+44.822
+26.836
+78.368
+3.498
+27.425
+9.452
+27.044
+34.952
+45.739
+9.699
+37.477
+6.220
+31.642
+
+−1.882
+−12.596
+−1.076
+−18.673
+−0.852
+−14.298
+−1.057
+−12.772
+−0.312
+−32.077
+−1.588
+−10.950
+−1.266
+−12.368
+−0.318
+−19.867
+−0.973
+−12.058
+−1.831
+−9.555
+
+0.1836
+17.1498
+0.0597
+30.1126
+0.0255
+22.8040
+0.0339
+16.1759
+0.0035
+67.8169
+0.1272
+15.6923
+0.0516
+19.2479
+0.0028
+30.7691
+0.0331
+18.0610
+0.1327
+14.8480
+
+−0.0710
+−1.7013
+0.0015
+0.0744
+0.0101
+0.7073
+−0.0832
+−3.2524
+−0.0033
+−1.0585
+−0.0012
+−0.0301
+0.0564
+1.6747
+−0.0090
+−1.7532
+0.0471
+2.6456
+0.0304
+0.5814
+
+39.6340
+<0.0001
+52.4118
+<0.0001
+70.4384
+<0.0001
+42.2795
+<0.0001
+144.1210
+<0.0001
+22.8218
+<0.0001
+39.0322
+<0.0001
+78.9999
+<0.0001
+54.6851
+<0.0001
+36.2041
+<0.0001
+
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+Summary of estimation results obtained by jointly imposing the break-even and updating conditions [Equations (12) and (13)
+and Equations (19)–(22)] and the market order conditions in Equation (23). The first five columns report the parameter estimates:
+λ, the market buy order mean, φ, the market sell order mean, γ , the order processing cost, α, the slope of the price impact
+function, and µ, the drift term. T -statistics are reported in the second row for each stock. The last column reports the chi-squared
+statistic (three degrees of freedom) for the test of overidentifying restrictions.
+
+This possibility is analyzed in the last subsection. The results in Table 5 indicate that the break-even and updating conditions lead us to make different
+inferences about the slope of the price impact function.
+Table 6 reports the results for the combined restrictions. By applying the
+break-even conditions in Equations (12) and (13), the updating restrictions
+in Equations (19)–(22), and the moment conditions for the market order
+flow in Equation (23), I obtain eight moment conditions. No instruments
+are used in this estimation.12 The system is overidentified, since only five
+parameters are estimated. The λ and φ estimates are comparable to the estimates reported in Table 5. The estimated order processing costs are negative
+and significant for all of the stocks. The estimated α coefficients tend to be
+smaller than the ones reported in Table 5. The combined restrictions yield
+estimates of α, the price impact coefficient, that differ from those obtained
+using the break-even conditions alone by roughly 10%.
+The tests of overidentifying restrictions strongly reject this model specification for all stocks. The key common parameter is α and it is therefore
+clear that the discrepancy between the α estimates based on the break-even
+and updating conditions is at least partially responsible for the rejections.
+The order books together with the market order distribution suggest that
+12
+
+Note that unlike the estimation based on Equations (19)–(22) alone, we cannot use the market order flow at
+time t as an instrument here since it is not part of the market-makers’ information set at time t. I thank the
+editor for pointing this out.
+
+722
+
+Adverse Selection and Competitive Market Making
+
+quotes should be revised by a certain amount following trades. The actual
+revisions in quotes and depths are in fact much smaller. Thus, based on the
+observed revisions, we would expect to see more depth in the books.
+The negative γ coefficients persist. As noted above, this could reflect a
+trade-off between market versus limit orders made by liquidity traders. The
+discrepancy between the α’s implied by the break-even and the updating conditions may be consistent with an order submission cost for market makers,
+as in Seppi (1997), rather than an order processing cost. For example, it is
+plausible that it is costly to monitor limit orders. This cost must be paid
+whether or not the order is executed and may lead market makers to quote
+larger markups (discounts) on limit orders with lower probabilities of execution, that is, limit orders further away from the quotes. It is beyond the
+scope of this study to consider these alternatives. Instead I will consider the
+present model framework and ask whether, within that framework, there are
+good explanations for the results above.
+To better understand how the model fails to match the data, it is useful to
+consider how the price schedules we observe differ from those implied by
+the model estimates. Figure 2 plots the average and median price schedules
+(dash and dash-dot lines, respectively) based on the observed limit order
+books as in Figure 1. In addition, two implied price schedules based on the
+estimation results reported in Table 5 are plotted. The implied price schedules
+are computed based on the α estimates and the estimates of λ and φ, which
+together determine the “upper tail” and “lower tail” expectations. The implied
+price schedules are computed for the market order quantities that match the
+percentiles reported in Table 3. All four price schedules are normalized to
+have a zero “price" for a trade size of one roundlot. Thus the graphs are
+designed to capture effects that are related to the market order quantities
+rather than quantity-invariant effects. The solid lines, which correspond to
+the α estimates obtained using break-even conditions, are closer to the actual
+schedules. The dotted lines represent the price schedules implied by the α
+estimates using the updating conditions. As in Figure 1, these schedules are
+close to zero. That is, prices respond less to trades than the schedules would
+suggest.
+4.2 Market order distribution
+One potential explanation for the rejections reported above is that the
+parametrization used for the market order distribution, two-sided exponential,
+provides a poor approximation of the empirical distribution. Alternatively, the
+conditional market order distribution could depend on the state of the market,
+that is, the assumption of an exogenous order flow is incorrect.
+Figure 3 presents a comparison of the empirical and the implied distributions for ASEA and ASTR.13 The empirical distribution of market order
+13
+
+The graphs are very similar for the other eight stocks.
+
+723
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Figure 2
+Comparison of Implied (Model) and Observed Price Schedules
+The time-series mean (dashed line) and median (dash-dot line) of the markup or discount (measured in
+Swedish Crowns on the vertical axis) that a trader submitting hypothetical market orders of different sizes
+[measured in roundlots (100 shares) on the horizontal axis] would have paid or received relative to the midquote are plotted for two stocks, ASEA and ASTR. The markups and discounts are computed for the marginal
+unit of each market order size as follows. For each limit order book observed before a transaction, the markup
+(discount) that market orders of various sizes would pay or receive, respectively, are computed. The market
+order sizes are chosen to match the order flow by percentiles reported in Table 3. The solid line in each plot
+corresponds to the price schedules implied by the α estimates based on the break-even conditions (see Table 5).
+The dotted line represents the price schedules implied by the α estimates based on the updating conditions
+(see Table 5). The price schedules are normalized so that a one round-lot trade has a zero markup/discount.
+
+quantities is plotted (bars) against the distribution implied by the exponential
+function and the parameter estimates for λ and φ (solid line) in the subplots
+on the left. For both stocks there seems to be significant “clustering" that the
+exponential distribution cannot capture. There appear to be more orders close
+to zero and far away from zero than we would expect if the true distribution
+was an exponential with a parameter equal to the average order size. This
+is potentially a problem as the adverse selection cost in the model is based
+on “upper tail” and “lower tail” expectations that may be sensitive to these
+types of deviations.
+To further study how the assumed functional form may affect the results,
+I computed the “upper tail” and “lower tail” expectations implied by the
+estimated distribution. In Figure 3 the graphs on the right show the implied
+“upper (lower) tail” expectations for the market order flow, for example,
+724
+
+Adverse Selection and Competitive Market Making
+
+Figure 3
+Distribution of Market Orders and “Upper (Lower)” Tail Expectations
+The distribution of market order quantities implied by the parameter estimates (λ and φ) reported in Table 6
+(solid line) and the empirical distribution of market order quantities (bars) are plotted on the left for ASEA
+and ASTR, respectively. The plots on the right show the “upper tail” expectations and the absolute value of
+the “lower tail” expectations computed based on (i) the estimated market order distribution (solid line) and
+(ii) the empirical distribution (dashed). The market sell order quantities appear with negative signs. The units
+for the market order quantities (x-axis) are 100 shares.
+
+E[m|m > 500], based on the estimated distribution (solid line). The same
+expectations based on the sample information are indicated with a dashed
+line. The estimates produce “upper (lower) tail” expectations that are too
+small. This difference grows as we move toward larger order quantities. This
+suggests that the functional form assumption is partly responsible for the
+rejections. Consider the effects of using a linear price impact function but a
+distribution of market order quantities, which does a better job in matching
+the “upper (lower) tail” expectations. This would allow us to capture more of
+the “excess” slope in the order books without violating the updating restrictions. Basically a steeper price schedule could be generated without causing
+too much overshooting in the dynamic updating. For example, update by αm
+after a trade of m units, but E[x|x ≥ m] = km + λ, where k > 1, so the
+price schedule is given by α(km + λ) rather than α(m + λ).
+Assuming an exogenous market order flow distribution significantly simplifies the derivation of the equilibrium limit order book. However, it is plausible that in reality the market order flow is a function of the limit order book.
+725
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Table 7
+Order book quantities and order flow
+Stock
+
+ρ1
+
+p-value
+
+ρ2
+
+p-value
+
+ASEA
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+0.0617
+0.0537
+0.5485
+0.3029
+−0.0082
+0.7191
+0.7098
+0.1712
+0.3678
+0.4709
+
+0.0956
+0.0330
+<0.0001
+<0.0001
+0.5664
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+
+0.1408
+0.0507
+0.2821
+0.5446
+0.2203
+0.2536
+0.2332
+0.3132
+0.3402
+0.5000
+
+0.0003
+0.0208
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+
+This table reports Spearman rank correlation coefficients for the best order book quantities and the market order flow. The rank correlation coefficients (ρ1 ) for the quantity at the best ask level in the order
+book (AQ1 ) and the market buy orders (m, m > 0) are reported in the first column with the corresponding p-values in the second column. The corresponding correlation coefficients (ρ2 ) for the best
+bid level in the order book (BQ1 ) and the market sell orders (|m|, m < 0) with p-values are reported
+in columns three and four, respectively.
+
+For example, it is likely that traders optimally choose between market and
+limit orders or follow dynamic order submission strategies that involve order
+splitting. It is beyond the scope of this article to formally consider a model
+with endogenous market order flow. In Table 7, I report correlation coefficients for the order book quantities (best bid and offer quantities) and the
+market order quantities (market sell and buy quantities, respectively). With
+the exception of ASEA and LME, the correlations are positive and significant.
+This means that larger market buy (sell) orders are observed more frequently
+when the best ask (bid) quantities in the order books are relatively large.
+Whether or not this phenomenon can explain the rejections above depends on
+how the market order distribution interacts with the information asymmetry.
+The above findings suggest two sets of empirical facts that could explain
+the rejections of the main model restrictions. First, a flexible distribution for
+market orders should do a better job of matching the empirical distribution
+of market orders and thereby better approximate the “upper tail” and “lower
+tail” expectations. Second, a richer model that allows for an endogenous order
+flow would better match the empirical facts. One benefit of endogenizing the
+order flow might be to match some of the substantial time variation in the
+order books, documented in Table 2. Without changing the current model
+framework we can still ask whether changes in market conditions can explain
+some of the variation in the books.
+4.3 Changing market conditions
+It seems plausible that the relative intensity of informed and liquidity trading
+changes over time. Changes in the arrival rate of earnings and macro news
+could generate this type of behavior. Thus, we would expect that both the
+distribution of market orders and the price impact of market orders would
+change with market conditions. Of course, without a model it is hard to know
+726
+
+Adverse Selection and Competitive Market Making
+
+what a relevant state variable is. With that limitation in mind the following
+analysis focuses on a small set of reasonable state variables.
+The variables used are the volatility of the mid-quote over the last
+60 minutes (z1 ), the trading volume over the last 60 minutes (z2 ), and the
+volatility of the market index over the last 60 minutes (z3 ). The state variables are normalized by subtracting and dividing by the average value of the
+respective state variables. The first and the third state variables are selected to
+capture changes in the arrival rate of stock-specific and market-wide information. The trading volume variable should capture changes in trading activity
+and allow us to separate high-volatility periods with thin trading from highvolatility periods with heavy trading. The state variables affect all model
+parameters except the drift, µ, which is assumed to be constant. The interaction is assumed to be linear and given by
+λ(z) = λ0 + λ1 z1 + λ2 z2 + λ3 z3 ,
+φ(z) = φ0 + φ1 z1 + φ2 z2 + φ3 z3 ,
+α(z) = α0 + α1 z1 + α2 z2 + α3 z3 ,
+
+(25)
+
+γ (z) = γ0 + γ1 z1 + γ2 z2 + γ3 z3 ,
+where λ0 , φ0 , α0 , and γ0 may be interpreted as the base case for the “average”
+state and the other coefficients measure the effects of deviations from this
+state. Table 8 presents the estimation results based on using the break-even
+conditions [Equations (12) and (13)], the updating conditions [Equations (19)–
+(22)], and the market order mean equations [Equation (23)], combined with a
+set of instruments, which includes a constant, the three state variables (z1 , z2 ,
+z3 ), and the first differences of the state variables ('z1 , 'z2 , 'z3 ).
+In Table 8 we note that the coefficients that capture the effect of trading
+volume on the price impact function, λ2 and φ2 , are positive and significant
+for most of the stocks. Thus, this specification potentially captures some
+of the endogeneity of the order flow. The coefficients for the stock-specific
+volatility (λ1 and φ1 ) tend to be negative, six of the λ1 and five of the φ1
+estimates are negative and significant at the 5% level. For the market-wide
+volatility the results are more mixed, with some significant positive and negative coefficients and many insignificant ones.
+The estimates of the order processing cost for the “average state” γ0 are
+close to the estimates reported in Table 8. The state-dependent components
+of γ are significant for less than half of the stocks and the estimates tend to
+have both positive and negative signs. Thus the results for the order processing cost do not follow any general pattern.
+The estimated mean slope for the price impact function (α0 ) is positive
+and significant at the 1% level for all stocks. The α0 estimates reported here
+are close to the α estimates reported in Table 6. The α1 and α3 estimates
+727
+
+728
+
+λ1
+
+−0.434
+−3.134
+−0.742
+−1.548
+−3.161
+−3.740
+−0.004
+−0.010
+1.154
+0.905
+−0.488
+−3.425
+−1.040
+−2.651
+−7.778
+−4.450
+−0.549
+−1.610
+−0.996
+−4.625
+
+λ2
+
+0.939
+4.433
+2.404
+5.299
+3.485
+4.764
+0.803
+1.685
+4.659
+4.485
+1.167
+3.808
+4.056
+4.533
+9.392
+4.083
+2.133
+2.932
+3.988
+6.896
+
+λ3
+
+0.038
+0.245
+−0.482
+−1.621
+0.373
+0.712
+−0.942
+−1.906
+0.433
+0.849
+−0.508
+−2.771
+−0.254
+−0.647
+2.674
+2.550
+−0.310
+−1.003
+0.157
+0.550
+
+φ0
+3.763
+23.047
+6.318
+30.034
+11.511
+27.462
+13.764
+18.238
+24.036
+35.293
+3.672
+19.611
+9.968
+23.121
+28.476
+24.036
+8.990
+24.302
+5.972
+19.178
+
+φ1
+−0.304
+−2.452
+−0.019
+−0.035
+−0.310
+−0.444
+−1.412
+−1.978
+−4.912
+−2.430
+0.072
+0.696
+0.033
+0.090
+−6.885
+−4.099
+−0.707
+−2.100
+0.196
+1.418
+
+φ2
+1.210
+4.541
+1.140
+3.062
+2.177
+2.976
+4.341
+3.804
+2.299
+1.521
+0.678
+3.248
+2.242
+4.240
+8.765
+5.183
+0.961
+1.983
+0.167
+1.017
+
+φ3
+−0.080
+−0.715
+−0.120
+−0.372
+−0.392
+−0.829
+1.316
+1.915
+2.142
+2.282
+−0.398
+−3.279
+0.837
+1.865
+0.955
+0.794
+0.771
+2.024
+−0.355
+−1.384
+
+γ0
+−1.813
+−10.714
+−1.031
+−17.893
+−0.835
+−13.445
+−1.021
+−11.665
+−0.302
+−29.940
+−1.548
+−10.797
+−1.281
+−13.004
+−0.339
+−18.227
+−1.078
+−11.722
+−1.827
+−8.871
+
+γ1
+0.214
+3.174
+0.186
+1.967
+0.109
+1.621
+0.0004
+0.006
+0.055
+2.531
+0.024
+0.415
+−0.139
+−2.214
+0.063
+2.987
+−0.196
+−3.725
+−0.055
+−0.684
+
+γ2
+0.140
+1.213
+−0.248
+−3.047
+0.004
+0.087
+0.084
+1.441
+0.033
+2.091
+−0.167
+−2.002
+−0.027
+−0.395
+0.051
+3.562
+0.251
+3.707
+0.207
+2.861
+
+γ3
+−0.179
+−1.560
+−0.044
+−0.836
+−0.009
+−0.201
+−0.070
+−0.755
+−0.048
+−3.569
+−0.310
+−4.532
+0.116
+2.263
+0.002
+0.145
+0.202
+3.991
+−0.189
+−1.810
+
+α0
+0.187
+15.588
+0.061
+31.466
+0.026
+22.210
+0.034
+17.358
+0.004
+68.215
+0.128
+16.038
+0.052
+20.918
+0.003
+32.098
+0.038
+18.889
+0.141
+14.804
+
+α1
+
+α2
+
+0.003
+−0.028
+0.605
+−3.723
+0.002
+0.001
+0.821
+0.512
+0.001
+−0.003
+0.945
+−4.250
+0.001
+−0.007
+0.877
+−6.182
+0.0005 −0.0004
+4.790
+−6.227
+0.004
+−0.004
+1.925
+−1.522
+0.006
+−0.005
+4.964
+−3.877
+0.001
+−0.001
+5.935 −10.838
+0.008
+−0.008
+5.789
+−5.577
+0.012
+−0.017
+2.981
+−6.460
+
+α3
+0.009
+1.571
+0.005
+2.610
+0.003
+4.568
+0.005
+3.365
+0.0004
+6.766
+0.018
+5.678
+−0.002
+−1.782
+0.0003
+5.104
+−0.004
+−3.001
+0.006
+1.655
+
+µ
+−0.045
+−2.492
+−0.003
+−0.335
+−0.005
+−0.625
+−0.040
+−3.932
+−0.006
+−5.073
+0.023
+1.230
+0.073
+5.257
+−0.011
+−4.918
+0.051
+5.210
+0.040
+1.767
+
+Summary of estimation results using the break-even conditions [Equations (12) and (13)], the updating conditions [Equations (19)–(22)], the market order conditions [Equation (23)], and allowing the λ, φ, α, and γ
+parameters to depend on the vector of state variables (mid-quote volatility, trading volume, market index volatility), as stated in Equation (25). Estimates of λ and φ are reported in the first row and t-statistics in the second
+row for each stock.
+
+STOR
+
+SKAB
+
+SEB
+
+SDIA
+
+PROC
+
+LME
+
+INVE
+
+ELUX
+
+ASTR
+
+λ0
+
+3.840
+26.097
+9.123
+32.811
+13.733
+26.709
+11.164
+22.206
+15.254
+32.047
+6.115
+15.079
+12.890
+23.298
+26.269
+21.959
+8.279
+19.176
+6.207
+16.979
+
+Stock
+
+ASEA
+
+Table 8
+Changing market conditions
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Adverse Selection and Competitive Market Making
+
+are positive and significant at the 5% level for five and six stocks, respectively. This is consistent with a positive relationship between the adverse
+selection cost and the stock-specific and market-wide volatility. The eight
+significantly negative estimates of α2 indicate that typically adverse selection
+risk is smaller when the trading volume is higher than normal.
+Table 9 reports the results for different specification tests based on this
+extended model. The first column reports the chi-squared test of overidentifying restrictions for the extended model. The test rejects for five of the
+stocks at the 1% level. This suggests that the extended model performs better than the specification without state variables, but it still fails to capture
+important features of the data. On the other hand, many of the coefficients
+reported in Table 8 are significant and are consistent with economic intuition. Thus it is informative to perform some further specification tests on
+this model. The last four columns of Table 9 report the chi-squared statistics
+for tests of no state dependence for different parameters of the model. First,
+a joint test of no state dependence for all four parameters (λ, φ, α, γ ) is
+reported. This test strongly rejects, all p-values are less than 0.0001, for all
+Table 9
+Specification tests
+Test of restrictions for i = 1, 2, 3
+
+Stock
+ASEA
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+Test of
+overidentifying
+restrictions
+χ 2 (39)
+
+λi = 0
+φi = 0
+αi = 0
+γi = 0
+χ 2 (12)
+
+λi = 0
+φi = 0
+χ 2 (6)
+
+αi = 0
+χ 2 (3)
+
+γi = 0
+χ 2 (3)
+
+50.712
+0.0991
+121.071
+<0.0001
+89.044
+<0.0001
+60.951
+0.0138
+222.585
+<0.0001
+29.653
+0.8599
+59.211
+0.0200
+85.531
+<0.0001
+64.649
+0.0061
+45.245
+0.2275
+
+70.695
+<0.0001
+83.930
+<0.0001
+103.357
+<0.0001
+86.977
+<0.0001
+194.284
+<0.0001
+165.461
+<0.0001
+79.032
+<0.0001
+277.026
+<0.0001
+77.606
+<0.0001
+135.423
+<0.0001
+
+34.579
+<0.0001
+32.326
+<0.0001
+40.007
+<0.0001
+36.193
+<0.0001
+42.914
+<0.0001
+68.088
+<0.0001
+32.873
+<0.0001
+66.797
+<0.0001
+16.564
+0.0110
+57.047
+<0.0001
+
+15.239
+0.0016
+12.977
+0.0047
+38.390
+<0.0001
+46.690
+<0.0001
+94.197
+<0.0001
+36.152
+<0.0001
+32.677
+<0.0001
+172.805
+<0.0001
+57.140
+<0.0001
+48.175
+<0.0001
+
+11.144
+0.0110
+10.467
+0.0150
+2.792
+0.4248
+2.373
+0.4987
+19.235
+0.0002
+24.028
+<0.0001
+14.444
+0.0024
+25.534
+<0.0001
+35.934
+<0.0001
+10.926
+0.0121
+
+Summary of specifications tests for the extended model. The extended model allows the λ, φ, α, and γ parameters to depend
+on the vector of state variables (mid-quote volatility, trading volume, market index volatility), as stated in Equation (25). It
+is estimated using the break-even conditions [Equations (12) and (13)], the updating conditions [Equations (19)–(22)], and
+the market order conditions [Equation (23)]. The first column reports a chi-squared test of overidentifying restrictions for the
+extended model. The corresponding p-values are reported immediately below the chi-squared test statistic. The following four
+columns report specification tests of no state dependence at all, no state dependence in the market order distribution, no state
+dependence in the price impact function, and no state dependence in the order processing cost, respectively. The p-values for
+each of the tests are reported below the chi-squared statistics.
+
+729
+
+The Review of Financial Studies / v 14 n 3 2001
+
+of the stocks. Second, a test of no state dependence for the market order
+distribution strongly rejects as well. The p-values for this test are less than
+0.0001 for nine stocks and the p-value is 0.011 for one stock, SKAB. Third,
+a restriction of no state dependence in the price impact function is rejected
+for all stocks at the 1% level. Finally, a test of no state dependence in the
+order processing cost rejects at the 1% level for five of the stocks. To sum up,
+the specification tests imply that (i) accounting for changing market conditions appears to be important for all stocks, (ii) changes in market conditions
+affect the market order distribution and the price impact function in an economically intuitive way, (iii) the order processing cost appears to be less
+dependent on market conditions, and (iv) tests of overidentifying restrictions
+still reject for five stocks at the 1% level.
+4.4 Time to replenish the book
+One aspect of liquidity provision that does not enter the model explicitly is
+time. It takes time for the market participants to learn about profit opportunities or to find out whether their outstanding orders are exposed. Thus
+it is possible that some of the observations we use in the estimation represent order books that are not at their “equilibrium” levels. It is also possible
+that time affects the shape of the “equilibrium” order book along the lines of
+Easley and O’Hara (1992)—periods of no-trade signal that information-based
+trades are less likely to arrive and hence depth should increase or the spread
+decrease. It is beyond the scope of this study to formally model the possible
+effects of time in this setting. Instead, some indirect evidence on the possible
+effects of time are reported.
+Table 10 reports results for two regressions that were designed to capture
+some of these effects. The residuals from the break-even conditions given by
+Equation (12) were computed for the best bid and ask quotes based on the
+parameter estimates reported in Table 6. In order to focus on the situation in
+which there are “profit” opportunities in the book, the dependent variable is
+the maximum of zero and this residual. Note that if the residual is positive,
+it suggests that according to the model there is either insufficient depth at
+the quotes, the bid is too low, or the ask is too high.
+The first two columns of Table 10 report the results of regressing the measure of “profit opportunities” in the order book on a constant and an indicator
+that takes on a value of one if the time elapsed from the last transaction is less
+than the median time between transactions. The eight significantly positive
+coefficients suggest that typically we see larger deviation or “profit opportunities” when a relatively short period of time has elapsed since the last
+transaction. This supports the idea that it takes time to replenish the limit
+order book.
+The second regression takes the average time elapsed between the last
+three trades as an independent variable. This measure captures changes in
+the arrival rate of market orders. For seven stocks the coefficient on this
+730
+
+Adverse Selection and Competitive Market Making
+
+Table 10
+Time and price schedule deviations
+Stock
+
+Constant
+
+Indicator for fast trading
+
+Constant
+
+Average time for
+last three trades
+
+ASEA
+
+1.0968
+19.9842
+0.6936
+29.0247
+0.5458
+23.3094
+0.6297
+13.3710
+0.2606
+45.5149
+1.2381
+15.2642
+0.6415
+12.0365
+0.2494
+24.0514
+0.7301
+17.7593
+1.0788
+14.2062
+
+0.1846
+2.3778
+0.1516
+4.4863
+0.1050
+3.1721
+0.1172
+1.7637
+0.1051
+12.9993
+−0.0085
+−0.0743
+0.2496
+3.3114
+0.0791
+5.4042
+0.2555
+4.3991
+0.2816
+2.6222
+
+1.3098
+23.5681
+0.9047
+36.6724
+0.6855
+29.0429
+0.7193
+16.6490
+0.3838
+70.3333
+1.2252
+15.7124
+0.9507
+17.0287
+0.3382
+34.1080
+0.9611
+22.4054
+1.2513
+16.4564
+
+−0.0002
+−3.0314
+−0.0005
+−7.4914
+−0.0002
+−5.1589
+0.0000
+−1.1134
+−0.0006
+−18.9753
+0.0000
+0.1647
+−0.0002
+−4.4611
+−0.0001
+−7.3081
+−0.0002
+−3.2684
+0.0000
+−0.5897
+
+ASTR
+ELUX
+INVE
+LME
+PROC
+SDIA
+SEB
+SKAB
+STOR
+
+The table reports results for two regressions of a measure of price schedule errors on variables that measure the time between
+arrivals. The price schedule deviation is computed as the maximum of zero and the residual from applying Equation (12), that
+is, the difference between the actual and the predicted bid-ask spread conditional on the estimated price impact function and
+order distribution. A positive value indicates that there are “profit” opportunities in the order book. The first two columns report
+the coefficients and the t-values for a regression of the price schedule deviations on a constant and an indicator for fast trading,
+that is, whether time since the last trade is below the median time between trades. The last two columns report the results for
+a regression of the price schedule deviation on a constant and the average time elapsed between the last three trades.
+
+variable is negative and significant at the 1% level. This suggests that longer
+time periods between trades are associated with books that exhibit fewer or
+at least smaller “profit opportunities.” Thus these regression results are also
+consistent with the idea that it takes time to replenish the order book. They
+are also consistent with the idea that periods of no-trade are informative,
+as in Easley and O’Hara (1992). In their model longer time between trades
+implies a lower probability of informed trading, ceteris paribus. However,
+the generally negative relation between α and volume documented in Table 8
+would seem to be inconsistent with this explanation.
+5. Extensions
+The results reported above were based on using the two best price levels in
+the order books. However, the data used here, like most limit order market
+datasets, include information about price levels deeper into the book. In principle, we can get better estimates by using these price levels when data are
+available. On the other hand, as we move further into the book the one-period
+break-even conditions that guide limit order submissions in the model may
+be increasingly unrealistic. Limit orders submitted deeper into the book will
+on average spend a longer time in the book before execution compared to the
+limit orders around the best quotes. Therefore it is likely that the decision to
+731
+
+The Review of Financial Studies / v 14 n 3 2001
+
+submit such orders is driven by multiperiod trade-offs between gains from
+obtaining time priority at prices currently away from the quotes and the costs
+of monitoring such orders. The current model does not address these types
+of trade-offs.
+In this analysis I used a particular parametrization of the model, a symmetric linear price impact function and a two-sided exponential market order distribution, which greatly simplified the derivations. Neither of these
+assumptions is necessary in order to implement this estimation strategy.
+Figure 3 shows that market order quantities tend to cluster on certain numbers of round lots. A general market order distribution that allows clustering
+could be used in combination with a linear price impact function to match
+the data more closely. A more general functional form for the price impact
+function can be estimated by using a richer parametrization or without making any functional form assumptions. An outstanding question is whether it is
+possible to identify the characteristics of an underlying distribution of information and hedging needs that would lead to a liquidity demand distribution
+and price impact function consistent with the observed order book data.
+6. Conclusions
+In this article, I estimate and test a version of Glosten’s model of open limit
+order markets. The empirical strategy is directly based on two types of restrictions that the model imposes on the data: the static break-even conditions and
+the dynamic updating conditions. Break-even conditions for marginal orders
+in the limit order book define the slope of the price schedule offered at a
+given point in time. Updating restrictions determine how the order book or
+price schedule responds to the information content in the market orders.
+In the empirical implementation I find that there is a strong tension
+between the adverse selection costs implied by the break-even conditions and
+the updating restrictions. Combining these restrictions generates overidentifying restrictions that are strongly rejected in the data. Additional evidence
+suggests that one important reason for the rejections is that the limit order
+books offer too little depth or imply price schedules that are too steep relative to the order book changes in response to trades. Several explanations
+for this finding are explored in the article: the functional form of the market
+order distribution, endogenous order flow, time-varying market conditions,
+and time itself. Allowing for time-varying market conditions, I find evidence
+suggesting that the market order flow distribution and the price impact function changes with market conditions. In particular, the variance of the market
+order flow distribution is positively correlated with the past trading volume.
+The coefficients for the price impact function imply that the adverse selection risk is greater (smaller) in markets with higher (lower) stock-specific
+and market-wide volatility and lower (higher) trading volume, respectively.
+732
+
+Adverse Selection and Competitive Market Making
+
+Overall the empirical results offer some support for a specification with timevarying parameters. An interesting question for future work is to derive these
+types of restrictions theoretically. Such restrictions would also be useful in
+deriving cross-sectional tests for the order books in different stocks.
+References
+Biais, B., P. Hillion, and C. Spatt, 1995, “An Empirical Analysis of the Limit Order Book and the Order Flow
+in the Paris Bourse,” Journal of Finance, 50, 1655–1689.
+Biais, B., D. Martimort, and J-C. Rochet, 2000, “Competing Mechanisms in a Common Value Environment,”
+Econometrica, 68, 799–838.
+Coppejans, M., and I. Domowitz, 1998, “Stock and Order Flow Information as Inputs to Limit Order Book
+Trading Activity,” working paper, Duke University.
+De Jong, F., T. Nijman, and A. Röell, 1995, “A Comparison of the Cost of Trading French Shares on the
+Paris Bourse and on SEAQ International,” European Economic Review, 39, 1277–1301.
+De Jong, F., T. Nijman, and A. Röell, 1996, “Price Effects of Trading and Components of the Bid-Ask Spread
+on the Paris Bourse,” Journal of Empirical Finance, 3, 1–35.
+Domowitz, I., 1993, “A Taxonomy of Automated Trade Execution Systems,” Journal of International Money
+and Finance, 12, 607–631.
+Domowitz, I., and B. Steil, 1999, “Automation, Trading Costs, and the Structure of the Securities Trading
+Industry,” in R. Litan and A. Santomero (eds.), Brookings-Wharton Papers on Financial Services, Brookings
+Institution Press, Washington, D.C.
+Easley, D., and M. O’Hara, 1992, “Time and the Process of Security Price Adjustment,” Journal of Finance,
+47, 577–605.
+Foucault, T., 1999, “Price Formation in a Dynamic Limit Order Market,” Journal of Financial Markets, 2,
+99–134.
+Glosten, L., 1994, “Is the Electronic Limit Order Book Inevitable?” Journal of Finance, 49, 1127–1161.
+Glosten, L., and L. Harris, 1988, “Estimating the Components of the Bid-ask Spread,” Journal of Financial
+Economics, 21, 123–142.
+Hamao, Y., and J. Hasbrouck, 1995, “Securities Trading in the Absence of Dealers: Trades and Quotes on the
+Tokyo Stock Exchange,” Review of Financial Studies, 8, 849–878.
+Handa, V., and R. Schwartz, 1996, “Limit Order Trading,” Journal of Finance, 51, 1835–1861.
+Hansen, L. P., 1982, “Large Sample Properties of Generalized Method of Moments Estimators,” Econometrica,
+50, 1024–1054.
+Harris, L., and J. Hasbrouck, 1996, “Market vs. Limit Orders: The SuperDOT Evidence on Order Submission
+Strategies,” Journal of Financial and Quantitative Analysis, 31, 213–231.
+Hedvall, K., J. Niemeyer, and G. Rosenqvist, 1997, “Do Buyers and Sellers Behave Similarly in a Limit Order
+Book? A High Frequency Data Examination of the Finnish Stock Exchange,” Journal of Empirical Finance,
+4, 279–293.
+Hollifield, B., R. A. Miller, and P. Sandås, 1999, “Empirical Analysis of Limit Order Markets,” Working Paper
+029-99, Rodney L. White Center, Wharton School, University of Pennsylvania.
+Kavajecz, K., 1999, “A Specialist’s Quoted Depth and the Limit Order Book,” Journal of Finance, 54,
+747–771.
+Lehmann, B., and D. Modest, 1994, “Trading and Liquidity on the Tokyo Stock Exchange: A Bird’s Eye
+View,” Journal of Finance, 49, 951–984.
+
+733
+
+The Review of Financial Studies / v 14 n 3 2001
+
+Lo, A.W., A. C. MacKinlay, and J. Zhang, 1999, “Econometric Models of Limit-Order Executions,” Working
+Paper 012-99, Rodney L. White Center, Wharton School, University of Pennsylvania; forthcoming in Journal
+of Financial Economics.
+Parlour, C., 1998, “Price Dynamics in Limit Order Markets,” Review of Financial Studies, 11, 789–816.
+Parlour, C., and D. Seppi, 1998, “Liquidity-Based Competition for Order Flow,” working paper, Carnegie
+Mellon University.
+Rock, K., 1996, “The Specialist’s Order Book and Price Anomalies,” working paper, Harvard University;
+forthcoming in Review of Financial Studies.
+Seppi, D., 1997, “Liquidity Provision with Limit Orders and a Strategic Specialist,” Review of Financial
+Studies, 10, 103–150.
+
+734
+
+

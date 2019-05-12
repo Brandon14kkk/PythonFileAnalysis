@@ -1,0 +1,1132 @@
+SETH CARPENTER
+SELVA DEMIRALP
+
+The Liquidity Effect in the Federal Funds Market:
+Evidence at the Monthly Frequency
+In this paper, we argue that much of the research into the link between money
+and interest rates suffers from misspecification. The measure of money and
+the measure of interest rates are not always well matched. In examining the
+transmission of monetary policy, we show that using an appropriate measure
+of money, Federal Reserve balances, and the appropriate interest rate, the
+federal funds rate, a clear liquidity effect exists. Furthermore, we explain
+how a lack of a clear institutional understanding may have contributed to the
+finding of a “liquidity puzzle” in the past.
+JEL codes: E43, E52, E58
+Keywords: liquidity effect, federal funds market.
+
+ECONOMISTS OFTEN CONSIDER the first step in the transmission
+mechanism of monetary policy to be a shift in the “money supply” that changes interest
+rates. Some authors (e.g., Reichenstein 1987, Leeper and Gordon 1992) have failed
+to find a negative relationship between some measures of money and some interest
+rates, dubbing this failure a “liquidity puzzle.” Other researchers (e.g., Strongin 1995,
+Christiano, Eichenbaum, and Evans 1996, Leeper, Sims, and Zha 1996, Bernanke
+and Mihov 1998a, 1998b) document a liquidity effect and argue that the liquidity
+puzzle is a result of econometric identification problems. In this paper, we show that
+identification of the liquidity effect can be achieved through a proper understanding
+of the money and interest rate involved.
+The interest rate used as a policy instrument in the United States is the federal
+funds rate. A major reason for a lack of consensus on the liquidity effect is that the
+The views expressed are those of the authors and do not necessarily reflect those of the Board of
+Governors or the Federal Reserve System. We thank Oscar Jorda and an anonymous referee for helpful
+comments, and Marcus Cuda. Shawn Liu and Brianna Wilcox provided excellent research assistance. Any
+errors, however, are solely those of the authors.
+
+SETH CARPENTER is Assistant Director, Division of Monetary Affairs, Board of Governors
+of the Federal Reserve System (E-mail: scarpenter@frb.gov). SELVA DEMIRALP is Assistant
+Professor, Department of Economics, Koç University (E-mail: sdemiralp@ku.edu.tr).
+Received February 9, 2006; and accepted in revised form February 8, 2007.
+Journal of Money, Credit and Banking, Vol. 40, No. 1 (February 2008)
+
+C 2008 The Ohio State University
+
+2
+
+:
+
+MONEY, CREDIT AND BANKING
+
+literature’s understanding of the institutional structure of the federal funds market
+is flawed. The federal funds market is the market for balances held at the Federal
+Reserve. Some research listed above looked at broad measures of money, M1 or M2,
+while others looked at narrower measures, such as the monetary base, nonborrowed,
+borrowed, or total reserves. As we will discuss later, none of these measures is the
+level of balances at the Federal Reserve and thus none is an appropriate specification.
+In some cases, the distinction is minor, in others it is significant. As will be clear in
+the empirical section, prior to the early 1990s, the distinction between reserves and
+balances was not significant, but later became important. In this paper, therefore, we
+explain the relevant details of the demand for and supply of balances at the Federal
+Reserve and the consequent determination of the funds rate itself. In so doing, we are
+able to document a low-frequency liquidity effect that is relevant for the initial stage
+of the transmission of monetary policy.
+With regard to the previous literature, we show that by estimating some of the
+same models over a recent sample period, we can document a liquidity puzzle and the
+various econometric “cures” do not resolve the liquidity puzzle over time. Our results
+are not consistently at odds with the previous literature, however. When the difference
+between balances and reserves was small, our results are similar to the previous
+literature. However, we demonstrate that using the balances, the funds that are actually
+traded in the federal funds market, one can identify a liquidity effect for the recent
+sample period. The liquidity puzzle is no puzzle at all, merely a misspecification.
+Previous studies that have focused on reserves instead of balances have excluded a
+crucial component of the federal funds market. Specifically, we note that Fed balances
+can be broken down into three categories: required reserve balances, excess balances,
+and contractual clearing balances, and this last category is not included in measures
+of reserves. Each component of balances has its own demand relative to the funds
+rate, which we can estimate separately. This observation helps to define the liquidity
+effect in this context.
+One conception of the effect is that it is the inverse of the elasticity of demand for
+money with respect to interest rates. That is to say, how much do interest rates move
+if the money supply is changed. We find this interpretation to be backward, in that
+the Federal Reserve has an interest rate target that it is consistently able to achieve.
+In so doing, the Federal Reserve supplies balances perfectly elastically at the target
+rate. As a result, because the Federal Open Market Committee (FOMC) sets the target
+rate without concern for reserves market conditions, the appropriate (and analytically
+equivalent) interpretation of the liquidity effect is the change in balances that result
+from a change in the target rate.
+At a daily frequency, Hamilton (1997) and Carpenter and Demiralp (2006a) document a liquidity effect in the federal funds market. These results are a product of
+correctly linking the federal funds rate with Federal Reserve balances. As we discuss later, the daily-frequency estimates of the liquidity effect suggest that a much
+larger change in balances is needed to change interest rates than suggested by the
+monthly frequency estimates. Again, the institutional structure of the market explains
+why these seemingly contrasting results are in fact consistent. At a daily frequency,
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+3
+
+the funds rate is in large part determined by expectations about where funds will be
+trading, typically at the target rate. Larger and unanticipated changes in the level of
+balances are necessary to cause changes in the funds rate (see Carpenter and Demiralp
+2006a, 2006b).
+At a lower frequency, such as that studied here, the driving variables that affect demand—notably requirements for balances held—adjust, and the result is that
+changes in the funds rate are associated with smaller changes in balances. In fact,
+using the estimates from the daily-frequency studies of the liquidity effect to infer
+the change in balances necessary for even a 25-basis-point change in the funds rate
+would lead to implausibly large open market operations. Put differently, in the long
+run, all variables can adjust, so the elasticity of demand for balances with respect
+to price is smaller. It is precisely this long-run reaction of the level of balances that
+we are studying here. This elasticity is a reflection of the long-run demand curve for
+balances with respect to the funds rate.
+Some of the previous literature (Bernanke and Mihov 1998a, Christiano, Eichenbaum, and Evans 1996) has focused on using different interpretations of the policy
+instrument to identify the liquidity effect. For our sample period of the 1990s, the
+federal funds rate is the monetary policy instrument. 1 As a result, the current paper bridges the two literatures. We examine the federal funds market like Hamilton
+(1997) and Carpenter and Demiralp (2006a, 2006b), but do so at a frequency of more
+relevance for macroeconomic empirical research.
+In the next section, we discuss balances of depository institutions at the Federal
+Reserve and focus on the motivation for holding these balances as a means of describing the demand function, and how that demand relates directly to the federal
+funds rate. In Section 2, we present simple regression results to document the existence of the liquidity effect for excess and contractual clearing balances at a monthly
+frequency, but the lack of a clear liquidity effect for required reserve balances. To
+acknowledge the dynamic aspect of these demand relationships, Sections 3 and 4 put
+our results in the context of a vector autoregression (VAR), highlighting the dependence of required reserves on reservable deposits. We show that previous oversight
+of the appropriate definition of balances has lead to the observed inconsistent results.
+Section 5 concludes.
+
+1. FEDERAL RESERVE BALANCES
+Figure 1 presents data on the level of Federal Reserve balances from 1989 to 2005.
+The level of total balances has fluctuated somewhat over the past 15 years, but there
+has been an even more dramatic shift in the composition of the total. Balances at
+the Federal Reserve can be broken down into three components: required reserve
+balances, contractual clearing balances, and excess balances. We stress that the sum
+1. The Federal Reserve did not begin to announce changes in the target for the federal funds rate until
+1994; however, the targeting itself began in the late 1980s (see Meulendyke 1998).
+
+4
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 1. Total Federal Reserve Balances (1989–2005).
+
+of these components, that is to say total balances, is the measure of money that is
+relevant for studying the liquidity effect relative to the federal funds rate.
+Depository institutions are required by the Federal Reserve to hold in reserve a
+quantity of funds that is related to the quantity of their customers’ deposits. 2 Currently,
+only transaction accounts (essentially demand deposits and other checkable deposits)
+have a required reserve ratio that is greater than zero. Banks’ reserve requirements
+can be fulfilled by holding vault cash, and any level of required reserves that is
+not met with vault cash must be met with balances on deposit at the Federal Reserve.
+These balances are referred to as required reserve balances. Required reserves include
+both vault cash used to meet requirements and required reserve balances. Currently,
+required reserves are a little over $40 billion, with vault cash accounting for a touch
+over $30 billion. The difference of roughly $10 billion recently is the level of required
+reserve balances. This accounting illustrates the difference between balances—which
+are traded in the fed funds market—and reserves—which are not.
+Banks’ reservable deposits are calculated by computing the daily average of customers’ checking accounts over a 2-week computation period. Based on this 2-week
+average, a formula determines the banks’ reserve requirements from the level of checking deposits. A similar 2-week average is made for vault cash that is to be applied
+to reserve requirements. Required reserve balances must be held on a daily-average
+basis over a 2-week maintenance period that begins 17 days after the end of the
+computation period. Until 1998, however, reserve accounting was contemporaneous,
+and the computation period overlapped with the maintenance period. Only during
+the last 2 days of the maintenance period were reserve requirements known with
+certainty.
+2. We will use the term “depository institution” and “bank” interchangeably, but in reality mean any
+depository institution, including commercial banks, thrifts, and the like.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+5
+
+Given the determination of required reserves, the contemporaneous level of interest
+rates, whether the federal funds rate or some other interest rate, cannot have a direct
+effect on this magnitude. The level of reserve requirements and the level of vault cash
+are determined in advance of the maintenance period in which the required reserve
+balances need to be held. As such, the interest rate in that period cannot change the
+level of balances. If interest rates were to have an effect on required reserve balances,
+the mechanism would necessarily have to incorporate a lag and would have to affect
+banks’ reservable deposits first. Consider the following scenario. The FOMC increases
+the federal funds rate target, and short-term interest rates rise. Demand deposits at
+commercial banks do not pay interest and interest rates on checkable deposits at thrift
+institutions follow market rates but tend to adjust slowly. The opportunity cost of
+holding reservable deposits, therefore, begins to rise as other money market rates
+adjust more quickly following the new funds rate target. Households economize on
+their holdings of checking deposits, again, perhaps with some lag. Consequently,
+reservable deposits fall, but possibly not until the next or subsequent computation
+period. Two weeks after reservable deposits have fallen, during the corresponding
+maintenance period, required reserve balances will decline, even if interest rates have
+stopped rising. In contrast to previous research, where the emphasis is on a short-run
+or contemporaneous relationship between money and interest rates, this discussion
+of the determination of required reserve balances points out that the relationship may
+lag, perhaps even by months.
+It is also conceivable that interest rates could affect currency demand and thus the
+level of cash that banks hold in their vaults. We think that this effect, however, is
+negligible because banks choose a level of currency based on customer needs, which
+are rather inelastic with respect to interest rates. Nonetheless, the effect of this change
+in currency demand would be to partly offset the effect on required reserve balances.
+As vault cash declines, the amount of reserve requirements that must be satisfied with
+required reserve balances goes up. Consequently, the net change in required reserve
+balances resulting from a change in interest rates is indeterminate. To summarize,
+there ought to be no contemporaneous effect of interest rates on required reserve
+balances, but a lagged effect is plausible. Even so, it is possible that the lagged effect
+is muted by the offsetting effects of reservable deposits and vault cash. 3
+Contractual clearing balances were established in 1980 with the Monetary Control
+Act as an effort to make Federal Reserve services more available to banks with low or
+zero reserve requirements and as a way to increase the level of balances in banks’ Fed
+accounts to reduce the likelihood of overdrafts. As can be seen in Figure 1, the level of
+contractual clearing balances—and its proportion of total balances—has been rising,
+on average, through time. Unlike other balances on deposit at the Federal Reserve,
+contractual clearing balances pay implicit interest in the form of earnings credits
+3. During the period of contemporaneous reserve accounting, for the funds rate to have a contemporaneous effect on required reserve balances, there must be an instantaneous effect of the federal funds rate
+on the level of checking account balances desired by the public that happens within 12 days. Based on the
+historical relationship between checking account balances and interest rates, we consider this possibility
+to be unlikely.
+
+6
+
+:
+
+MONEY, CREDIT AND BANKING
+
+that can be used to pay for services provided by the Fed—such as check clearing.
+Few banks held these balances until the early 1990s when reserve requirements for
+checking accounts were reduced and retail sweep activity began in large amounts. At
+that point, many banks discovered that the level of balances they wanted to hold were
+greater than the quantity they were required to hold. Thus, instead of holding excess
+balances, which pay no interest, banks began to hold contractual clearing balances in
+significant quantities.
+Indeed, this shift led the Desk to consider balances instead of reserves as the appropriate measure for targeting the federal funds rate because reserves no longer
+accurately reflected the demand for funds in the banking sector. The level of contractual clearing balances that a bank must hold is at the bank’s discretion; however, the
+bank may not change the level of contractual clearing balances more than monthly. 4
+In deciding on the level of contractual clearing balances to hold, banks consider the
+amount of Federal Reserve services that they wish to pay for with these earnings
+credits, the balance they need to hold in their account to clear transactions, and the
+opportunity cost of these balances relative to other uses of the funds. Each bank
+strikes its own compromise among these competing influences. Like required reserve
+balances, contractual clearing balances requirements must be satisfied on a periodaverage basis.
+The interest rate paid on contractual clearing balances was the federal funds rate
+until January of 2004. At that point, the earnings credit rate was changed to 90%
+of the yield on the 3-month Treasury bill, a change that reduced the earnings credit
+rate slightly. The rate was changed again in January 2005 to 80% of the yield on the
+3-month Treasury bill. 5 Because the interest generated can only be used to pay for Fed
+services, changes in short-term interest rates—and it should be noted that the federal
+funds rate and the yield on the 3-month Treasury bill move in virtual lockstep—have
+two distinct effects on demand for contractual clearing balances. First, for a given
+level of charges for Fed services, a higher interest rate means that a lower level of
+balances can generate sufficient earnings. Second, rising short-term rates are also
+linked to rising rates on investments that banks can make. As a result, rising rates
+imply a rising opportunity cost to banks for holding balances at the Fed. Therefore,
+both roles of interest rates imply a negative relationship between contractual clearing
+balances and the funds rate.
+Any balances that are held by banks over and above those to satisfy required
+reserve balances and contractual clearing balances are considered excess balances.
+Excess balances are costly in that they do not pay interest and are not useful to fulfill
+requirements. As a result, the federal funds rate represents an opportunity cost of
+holding these funds. Nevertheless, some banks choose to hold excess balances either
+because they are small banks and the forgone interest cost is lower than the cost that
+would be incurred by more closely managing their Fed account, or because banks wish
+4. In January 2004, banks were permitted to change their contracted level of clearing balances every
+maintenance period.
+5. Slightly more precisely, the earnings credit rate was changed to be a fraction of the 13-week moving
+average of the yield on the 3-month Treasury bill.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+7
+
+to have a higher level of balances to guard against an accidental overnight overdraft.
+Overdrafts are penalized severely, and as such, banks must weigh the reduction in
+the expected cost of a potential overdraft against the opportunity cost of holding
+idle funds. Clouse and Dow (2002) and Carpenter and Demiralp (2006b) present
+optimizing models of bank behavior that endogenously generate a demand for excess
+balances as a buffer against overdrafts. Given the two mentioned motivations for
+holding excess balances, a liquidity effect is implied. A higher federal funds rate
+implies a higher opportunity cost to holding excess balances, which should induce
+banks to economize on these balances. Of course, the impact of excess balances on
+the total liquidity effect is likely to be small, as excess balances represent only a small
+fraction of total balances (see Figure 1).
+As should be clear from the above description of balances held at the Federal
+Reserve, there is not a simple demand function. Analyzing just one portion—such as
+nonborrowed reserves—will only tell a portion of the story, and because nonborrowed
+reserves are dominated by required reserves—and in particular applied vault cash—
+it is not clear that there need be a strong contemporaneous relationship between
+the funds rate and nonborrowed reserves. Contractual clearing balances and excess
+balances, on the other hand, each have a distinct direct relationship with the funds
+rate.
+The composition of Federal Reserve balances has also changed through time, as
+can be seen in Figure 1. Early in the sample period, contractual clearing balances were
+a very small part of total balances, with required reserve balances accounting for the
+overwhelming majority. Because required reserve balances are part of nonborrowed
+reserves, the distinction between balances and reserves is not as crucial until the early
+1990s. Indeed, as our results will suggest later, our work has similarity to some of
+the previous research in the area during our early sample period—that is during the
+period when balances and reserves were not terribly dissimilar concepts. As retail
+sweep activity increased and banks’ use of contractual clearing balances rose to
+roughly half of total balances, the distinction between balances and reserves became
+more important. This shift may explain the vanishing liquidity effect for the post-1989
+sample when we reestimated the models that use reserve-based measures to estimate
+the liquidity effect. In the next section, we provide very simple regression results to
+motivate the differentiation of demand across the three types of balances.
+2. DISAGGREGATING DEMAND FOR BALANCES
+As a first step, we run a series of regressions of balances on the federal funds rate.
+We look at the relationship of total balances to the funds rate and compare those
+results to the relationship of the individual components. Table 1 presents the results.
+For comparison, all models are run with a common specification, and then additional
+terms are added to certain models. We include a lagged dependent variable, the lag of
+the federal funds rate, dummy variables for September 11, 2001, and one lag, and we
+include dummy variables for April and December, 2 months in which tax payment
+
+8
+
+:
+
+MONEY, CREDIT AND BANKING
+
+TABLE 1
+THE LIQUIDITY EFFECT FOR VARIOUS MEASURES OF BALANCESa
+
+Total
+balances
+(1)
+
+Constant
+y t−1
+Funds rate
+9/11
+9/11 lagged
+December
+
+634.33
+(444.85)
+0.98∗∗
+(0.02)
+−41.66
+(50.84)
+18631.56∗∗
+(154.57)
+−13497.80∗∗
+(246.97)
+599.36
+(294.41)
+
+Required
+reserve
+balances
+(2)
+
+250.82
+(248.41)
+0.99∗∗
+(0.01)
+−35.29
+(46.68)
+196.36
+(114.61)
+4068.83∗
+(126.25)
+10.89
+(310.30)
+
+Excess
+balances
+(3)
+
+1504.74∗∗
+(212.87)
+0.38∗∗
+(0.08)
+−72.63∗∗
+(19.17)
+18155.15∗∗
+(55.04)
+−6893.58∗∗
+(1544.14)
+445.78∗∗
+(141.27)
+
+April
+Trend
+RRB
+R-squared
+D–W
+
+0.96
+2.18
+
+0.98
+1.98
+
+0.86
+2.19
+
+Excess
+balances
+(4)
+
+1499.07∗∗
+(510.34)
+0.26∗∗
+(0.09)
+−24.29
+(23.09)
+17970.32∗∗
+(61.76)
+−4955.12∗∗
+(1611.45)
+419.39∗∗
+(134.08)
+−269.27∗
+(144.64)
+2.27
+(2.05)
+−0.01
+(0.01)
+0.87
+2.13
+
+Contractual
+clearing
+balances
+(5)
+
+Contractual
+clearing
+balances
+(6)
+
+494.76∗∗
+(90.98)
+0.96∗∗
+(0.01)
+−45.91∗∗
+(8.82)
+195.51
+(19.55)
+104.07
+(21.77)
+83.43
+(56.66)
+
+1222.65∗∗
+(215.12)
+0.91∗∗
+(0.03)
+−79.79∗∗
+(15.03)
+87.25
+(36.88)
+50.43
+(35.85)
+87.41∗
+(49.56)
+35.64
+(51.02)
+−0.51
+(0.73)
+−0.01∗∗
+(0.00)
+0.996
+1.40
+
+0.996
+1.31
+
+a Regression results, 1989:2–2005:06.
+
+Standard errors are in parentheses.
+Denote statistical significance at the 5 and 1% levels, respectively.
+
+∗ ,∗∗
+
+flows tend to distort the typical pattern of balances. At a monthly frequency, the
+deviation of the federal funds rate from the target rate is minimal. Because the target
+rate is set in response to macroeconomic variables and not conditions in the reserves
+market, endogeneity is not a significant issue. The only possible endogeneity would
+arise from higher economic activity leading to higher levels of checking accounts—
+and therefore required reserves—or higher payment levels—and therefore contractual
+clearing balances. We find this argument unconvincing, but we account for this type
+of feedback in our VAR analysis that yields similar results, so we are confident in our
+results.
+Column 1 presents the results for total balances, the sum of required reserve balances, excess balances, and contractual clearing balances. The coefficient of interest
+is the coefficient on the effective federal funds rate. The coefficient is not statistically
+significant, and one might consider this a liquidity puzzle. More puzzling would be a
+positive and statistically significant coefficient; however, given that a negative coefficient is theoretically appealing, we will consider this result part of the puzzle to be
+explained. The fact that the lagged dependent variable is significant and close to unity
+likely reflects the fact that contractual clearing balance levels are predetermined and
+adjusted somewhat sluggishly and that checking deposits—which determine required
+reserves—exhibit a great degree of persistence. We now turn to examine the different
+components of bank balances held at the Fed.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+9
+
+Column 2 presents the results using required reserve balances instead of total
+balances. Only the lagged dependent variable and the lagged September 11 dummy
+variable are significant. Importantly, the coefficient on the federal funds rate is not
+statistically significant. Again, while this result is not as puzzling as a positive and
+statistically significant coefficient, it does not fit comfortably with the notion of an
+easily estimable, downward-sloping demand curve. A straightforward explanation for
+this fact, as mentioned earlier, is that the level of required reserve balances is dictated
+by the level of reservable deposits at banks. A subsequent section will address whether
+these deposits respond to interest rates, and thus, with a lag, would imply a dynamic
+liquidity effect in required reserve balances.
+Column 3 presents the coefficients from the model estimated with excess balances
+as the dependent variable. The coefficient on the funds rate is negative and statistically
+significant at the 1% level. Looking at column 4, the results change a bit. Controlling
+for months of high tax payments seems to eliminate the statistical significance. This
+result presages our later results of a small and inconsistent liquidity effect for excess
+balances. As will be the case with the contractual clearing balance results, there is a
+negative coefficient on required reserve balances. Our interpretation is that when banks
+are forced to hold greater required reserve balance, the probability of an inadvertent
+overdraft is reduced, and so they decide to hold a lower level of excess balances as a
+buffer.
+Columns 5 and 6 present the results from the model estimated with contractual clearing balances as the dependent variable. The high persistence of contractual clearing
+balances is evident from the lagged dependent variable. However, like with excess
+balances, we find some substitutability between contractual clearing balances and
+required reserve balances. This is because a higher level of required reserve balances
+provides the banks with more funds for their transactions and the need for additional
+funds for clearing purposes declines. Note that the liquidity effect, as measured by
+the negative coefficient associated with the funds rate, is significantly negative for
+both specifications.
+3. VECTOR AUTOREGRESSION RESULTS
+We think of the results above as akin to stylized facts about the correlations between
+balances and interest rates, but clearly they are not a complete analysis of the data.
+Indeed, the results are at odds with some of the VAR results in the literature. As
+VARs have become a fairly standard tool to analyze the effect of monetary policy and
+investigate the liquidity effect, in order to make a stronger claim about the relationship
+and to fit our results into the broader literature, we turn to VAR modeling of the
+liquidity effect.
+First, we reestimate the models of Leeper and Gordon (1992), Christiano, Eichenbaum, and Evans (1996), and Strongin (1995). We are able to document that, even
+with these alternative methodologies, a liquidity puzzle can exist over our sample
+period where contractual clearing balances became an important component of total
+
+10
+
+:
+
+MONEY, CREDIT AND BANKING
+
+TABLE 2
+LAG ORDER SELECTION CRITERIA 1989–2005
+
+Leeper and Gordon
+CEE
+Strongin
+Carpenter and Demiralp
+
+AIC
+
+SIC
+
+5
+12
+3
+2
+
+2
+1
+2
+1
+
+balances. Based on our discussion of the demand for balances, we estimate a VAR in
+which we include the different components of balances individually to compare the
+results. In this specification, the liquidity effect is clear and evident for contractual
+clearing balances and for some specifications, a liquidity effect for excess balances,
+evidence that the previous literature suffered from a misspecification problem. Lastly,
+we introduce restrictions onto our system to allow required reserve balances to adjust only through changes in reservable liabilities, consistent with the institutional
+structure. 6 Under these restrictions, we confirm a liquidity effect for required reserve
+balances, underscoring the importance of modeling the institutional structure. Of note,
+our results on the liquidity effect in some cases include a substantial lag. As we have
+argued earlier, this lag is part of the institutional structure of the market and, instead of
+being evidence against a liquidity effect, highlights the importance of incorporating
+this type of structure into one’s understanding of the market.
+For each model, we use a sample period from 1989 to 2005. 7 As is always the case
+with estimating VARs, we need to choose a lag length. To be systematic and consistent
+across models, we calculated both the Schwarz Information Criterion (SIC) and the
+Akaike Information Criterion (AIC) for each model. Table 2 presents the results.
+The AIC consistently suggests a longer lag structure than the SIC. However, the vast
+majority of results for the different models suggests one, two, or three lags. Given that
+the AIC at times suggests many lags, we settle on using three lags for each model.
+Two potentially serious complications remain, however. One of the main reasons
+for the divergence of balances from reserves is the increased use of sweep activity in
+the post-1994 period whereby banks move funds from reservable checking accounts
+of customers into savings accounts that have a reserve requirement of zero. The
+switch in behavior is linked to the rise in the use of contractual clearing balances. As
+reserve requirements fell (see Figure 1) in the mid-1990s, banks found themselves
+with insufficient levels of balances to clear transactions through their Federal Reserve
+accounts. Because excess reserves pay no return, but contractual clearing balances
+do, banks aggressively stepped up their holdings of these balances.
+Second, as mentioned earlier, reserve accounting switched in July 1998 from
+contemporaneous reserve accounting to lagged reserve accounting (LRA), possibly
+6. The utility used to estimate the near VARs in this paper is available from Selva Demiralp upon
+request.
+7. We also include dummy variables for September 11, 2001.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+11
+
+FIG. 2. Leeper and Gordon (1989–2005) {MB, FFR, IP, CPI}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+compromising our results. We partially control for the change in accounting regimes
+by introducing dummy variables into our estimation of each model to allow for a shift.
+In Section 4, we report results from splitting our sample, first to examine whether
+our results are different over the period of the increased use of sweeps, and second
+whether there is a difference under the two accounting regimes. We find that our
+results are not sensitive to these changes.
+Leeper and Gordon (1992) estimate a VAR that includes the monetary base (MB),
+the federal funds rate (FFR), industrial production (IP), and the consumer price index
+(CPI). Figure 2 presents the impulse response functions from estimation over our
+sample period. As was the case in their results, we find a liquidity puzzle; there is
+no negative relationship between the monetary base and the federal funds rate. We
+must remember, however, that the monetary base is defined as required reserves plus
+excess reserves plus currency. Currency is supplied by the Federal Reserve completely
+elastically. Estimates such as Porter and Judson (2001) suggest that between one-half
+to two-thirds of U.S. currency is held overseas. Why such demand for currency,
+then, ought to be linked to the federal funds rate is unclear. The federal funds rate
+is the interest rate in the market for balances—not the monetary base—and since
+balances constitute less than 5% of the base, we should be unsurprised that there is
+no statistically significant relationship.
+Figures 3 and 4 present results from the modeling of Christiano, Eichenbaum, and
+Evans (1996). In that paper, a VAR is estimated that includes industrial production, the
+CPI, a commodity price index (CRB), the federal funds rate, nonborrowed reserves
+(NBR), total reserves (TR), and M1. These authors argue that the liquidity puzzle
+in Leeper and Gordon reflects endogeneity. Specifically, they claim that fluctuations
+in the monetary base reflect both exogenous supply changes as well as endogenous
+
+12
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 3. Christiano, Eichenbaum, and Evans (1989–2005) {IP, CPI, CRB, FFR, NBR, TR, M1}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+policymaker responses to demand side disturbances. By focusing on nonborrowed
+reserves, a narrower definition of money, they try to avoid this identification problem.
+Nonborrowed reserves consist of required reserve balances, excess balances, and
+vault cash used to satisfy reserve requirements. In 2004, for example, nonborrowed
+reserves were about $45 billion, of which required and excess balances constituted
+only about $15 billion or one-third of the total. Of that $15 billion, excess balances
+are roughly one-tenth. Contractual clearing balances are excluded from nonborrowed
+reserves but are roughly equivalent in levels to required reserve balances.
+Further blurring the relationship between nonborrowed reserves and the federal
+funds rate is the way that currency is disbursed to the banking sector. When banks
+request a shipment of currency, for example, to hold as vault cash, balances are
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+13
+
+FIG. 4. Christiano, Eichenbaum, and Evans (1989–2005) {IP, CPI, CRB, NBR, FFR, TR, M1}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+drained from the receiving bank’s account. However, the Desk offsets this drain of
+balances through open market operations in order to target the level of balances
+consistent with the target rate. All else equal, the drain of balances from currency
+shipments would lower balances to zero in a couple of weeks. As a result, reserves can
+change, sometimes greatly, and yet balances can remain constant. Hence, compared
+to the monetary base, nonborrowed reserves are a much narrower measure of money
+base, and this measure corresponds much more closely to banks’ funding needs, yet,
+nonborrowed reserves need not be correlated with the federal funds rate itself.
+Figure 3 presents the results from the Christiano, Eichenbaum, and Evans (1996)
+model, where they assume that the federal funds rate is the appropriate measure of
+monetary policy, and plots responses of other variables to innovations in the funds
+
+14
+
+:
+
+MONEY, CREDIT AND BANKING
+
+rate. We do find some evidence of a liquidity effect, as total reserves, nonborrowed
+reserves, and M1 all have a negative and statistically significant liquidity effect. In
+terms of magnitude, however, we will show that liquidity effect measure in this model
+is only one-tenth the effect we estimate in our model. We take this result as being
+consistent with the fact that reserves are related to balances, but are not the same
+thing. As a result, the true liquidity effect, which is the relationship between balances
+and the funds rate, is masked. We think the fact that a liquidity effect is evident in this
+model illustrates the similarity of our research to previous work.
+From an institutional point of view, however, the quantity of reserves, which is
+the monetary policy measure in Christiano, Eichenbaum, and Evans (1996), is not a
+useful measure over our sample period. As a matter of practice, the Desk provides
+balances perfectly elastically at the target rate, and as a result, balances react endogenously to the federal funds rate, not the reverse. Nonborrowed reserves, influenced
+by these changes in balances and banks’ demand for vault cash, also react endogenously. Indeed, understanding that nonborrowed reserves includes vault cash—which
+is a choice variable for banks—and excludes a significant fraction of balances—the
+variable that the Desk adjusts to maintain the target rate—underscores the inappropriateness of using nonborrowed reserves as a policy measure. Therefore, while the
+response of funds rate to nonborrowed reserves as the liquidity effect in the exercise
+shown in Figure 4 may be consistent with a liquidity effect, we do not find it to be
+compelling evidence of one.
+Stongin (1995) generalizes a measure of nonborrowed reserves to nest different
+policy regimes. He assumes that short-run demand for total reserves is inelastic and
+the Desk provides sufficient reserves to satisfy this demand. Furthermore, he argues
+that during a policy tightening, the Desk contracts nonborrowed reserves, resulting
+in an increase in borrowing. Thus, the ratio of nonborrowed reserves to total reserves
+ought to fall during a policy tightening. He estimates a model of nonborrowed reserves
+divided by total reserves and the federal funds rate and analyzes the response of these
+variables to changes in the nonborrowed reserves variable. 8 We present the impulse
+response from that model estimated over our sample period in Figure 5. In contrast to
+Strongin’s original results, we find a liquidity puzzle with no statistically significant
+response of the federal funds rate to a positive innovation in nonborrowed reserves
+relative to total reserves.
+Both the Christiano, Eichenbaum, and Evans (1996) paper and that by Strongin
+(1995) were meant to address the issue of a liquidity puzzle like that found in Leeper
+and Gordon. Nevertheless, our results above suggest that over a recent sample period,
+these estimation strategies may still result in a liquidity puzzle, though perhaps a mild
+one depending on the particular specification. Some researchers have interpreted these
+types of results as a sign that the liquidity effect is no longer operational in the federal
+funds market, and instead, so-called open mouth operations control the federal funds
+rate (see Thornton 2001). There is a bit of a tension between our preliminary results
+and the results we get from replicating others above. We believe that the vanishing
+8. To be specific, Strongin (1995) normalizes the reserves measures with the level of total reserves
+from the previous month.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+15
+
+FIG. 5. Strongin (1989–2005) {TR, NBR, FFR}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+liquidity effect is due to a misspecification of the demand function in the federal funds
+market. To resolve this conflict, we now estimate a model of balances that allows each
+component of balances to change independently. Importantly, we do not argue that a
+single component of balances is the appropriate measure of money to study but that
+they must be examined together to understand the market.
+Our baseline model includes the effective federal funds rate (FFR), reservable
+deposits (RDEP), required reserve balances (RRB), contractual clearing balances
+(CCB), and excess balances (ER). Considering our preliminary results, we infer that
+the channel for any liquidity effect in required reserve balances is through the response
+of reservable deposits. Figure 6 presents the impulse response functions from this
+model in response to a positive shock to the federal funds rate.
+The impulse response function for required reserve balances does not show a statistically significant liquidity effect. However, as would be predicted by the structure
+of reserve requirements, the response of required reserve balances to an innovation in
+reservable liabilities (not shown) is positive and significant. In contrast, contractual
+
+16
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 6. Carpenter and Demiralp (1989–2005), Unrestricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+clearing balances and excess balances conform to our previous results. Both of these
+types of balances show a negative reaction to a positive innovation to the federal funds
+rate, but only the response of contractual clearing balances is statistically significant.
+Given the structure of the federal funds market, there is no liquidity puzzle. Instead,
+the variables for which there is a direct link between the funds rate and balances show
+a liquidity effect. Moreover, these results are an order of magnitude larger than the
+effect we estimate using the Christiano, Eichanbaum, and Evans (1996) methodology
+when the federal funds rate is the measure of monetary policy.
+The model presented earlier lacks an interaction between the federal funds market
+and variables in the real economy. Indeed, the goal of research on the liquidity effect
+is to understand the initiation of the transmission mechanism, making our omission
+of macroeconomic variables a bit of a problem. Indeed, if demand for balances were
+a function of economic activity, our results are also subject to an endogeneity bias.
+Our focus is on the liquidity effect itself, not the transmission mechanism following
+a change in the funds rate. We feel this latter topic has been well explored, beginning
+with Bernanke and Blinder (1992) onward. To test the endogeneity, however, we
+include industrial production, the consumer price index, and the CPI. The impulse
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+17
+
+responses for the balances are no different (not shown), so we continue with our
+baseline model to maintain our focus on the liquidity effect alone.
+The foregoing results are suggestive, but because VARs are very general and we
+have some institutional restrictions that we can place on the model, we next estimate
+a “near-VAR” of the following specification: 9
+3
+
+
+FFRt = α j +
+
+βij FFRt−i +
+
+3
+
+
+i=1
+
+RDEPt = α j +
+
+3
+
+
+βij FFRt−i +
+
+i=0
+3
+
+
+RRBt = α j +
+
+3
+
+
+γij RDEPt−i +
+
+3
+
+
+βij FFRt−i +
+
+ωij CCBt−i +
+
+3
+
+
+3
+
+
+3
+
+
+3
+
+
+δij Dt−i + εt
+
+ηij RRBt−i +
+
+3
+
+
+δij Dt−i + εt
+
+i=0
+
+γij RDEPt−i +
+
+3
+
+
+ηij RRBt−i
+
+i=0
+
+δij Dt−i + εt
+
+i=0
+
+βij FFRt−i +
+
+i=0
+
++
+
+3
+
+
+3
+
+i=0
+
+i=0
+
+i=1
+
+ERBt = α j +
+
+γij RDEPt−i +
+
+i=1
+
+i=0
+
++
+
+3
+
+i=1
+
+i=0
+
+CCBt = α j +
+
+δij Dt−i + εt
+
+i=0
+
+ωij CCBt−i +
+
+i=0
+
+3
+
+
+γij RDEPt−i +
+
+i=0
+3
+
+
+ξij ERBt−i +
+
+i=1
+
+3
+
+
+ηij RRBt−i
+
+i=0
+3
+
+
+δij Dt−i + εt
+
+i=0
+
+for each equation j, where
+FFR t is the effective funds rate,
+RDEP t is the reservable deposits,
+RRB t is the required reserve balances,
+CCB t is the contractual clearing balance,
+ERB t is the excess reserve balances, and
+D t is a dummy variable for September 11.
+Essentially, we make the federal funds rate exogenous. The funds rate seldom
+varies significantly from the target rate, and these deviations are statistically and
+economically insignificant at a monthly frequency. Furthermore, the FOMC over
+our sample period has been targeting the funds rate and not any measure of reserve
+balances. Therefore, this restriction is valid. We allow reservable deposits to depend
+exclusively on the fed funds rate. This is, of course, a bit of an approximation, but
+not a severely limiting one. The level of checking deposits is determined by the
+9. As mentioned earlier in the text, we also include an interactive dummy variable for the post-LRA
+period in each equation.
+
+18
+
+:
+
+MONEY, CREDIT AND BANKING
+
+demand of banks’ customers for these assets. Presumably, a driving force behind
+the level is the opportunity cost of holding these deposits,which pay little or no
+interest. As a result, to the extent that the relationship between the federal funds rate
+and the appropriate opportunity cost is roughly constant, the specification is valid.
+Given the determination of required reserves, we let required reserve balances depend
+exclusively on the level of reservable deposits. Because the relationship is essentially
+an accounting relationship, this restriction is almost nonbinding.
+Contractual clearing balances and excess balances, by contrast, are allowed to
+depend on every other variable in the system. Banks have discretion over the level
+of contractual clearing balances that they set and on the level of excess balances
+that they hold. As a result, allowing each of these relationships to be completely
+determined by the data is appropriate. Impulse response functions from this system
+are presented in Figure 7. In this case, all components have a negative response to
+innovations in the funds rate, with that of required reserve balances and contractual
+clearing balances being statistically significant. Indeed, even reservable deposits show
+a negative response to an increase in the funds rate. This result is consistent with a
+negative elasticity of money demand with respect to interest rates. This result reflects
+
+FIG. 7. Carpenter and Demiralp (1989–2005), Restricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+19
+
+FIG. 8. Carpenter and Demiralp (1994–2005), Unrestricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+the institutional fact that required reserve balances can show a liquidity effect only as
+a result of a change in reservable deposits.
+4. ESTIMATION ISSUES
+In 1994 banks began to sweep funds held in customers’ checking accounts into
+special-purpose savings accounts on which the required reserve ratio is zero. This
+action reduced the level of required reserves, and since banks did not adjust their
+holdings of vault cash, required reserve balances fell, as can be seen in Figure 1. As
+a result, one might be concerned that the relationship among our variables changed
+at that point, leaving our results subject to question. To address this concern, we
+reestimated our two models over a shorter subsample from 1994 to 2005. 10 The
+impulse response functions from this estimation are shown in Figures 8 and 9, for
+the unrestricted and restricted VAR models, respectively. As can be seen, the results
+10. To preserve more degrees of freedom, the estimations for the subsample analysis do not incorporate
+dummy variables for the post-LRA period.
+
+20
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 9. Carpenter and Demiralp (1994–2005), Restricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+are little changed by restricting our attention to this latter subsample, and so we are
+confident that our results are not sensitive to this change in banks’ behavior.
+The change from contemporaneous reserve accounting to lagged reserve accounting
+that occurred in 1998 is similarly a possible problem for our estimation. To assess
+whether this change in reserve accounting rules caused a significant change in the
+impulse response functions estimated from our models, we broke the sample into two
+parts, one from 1989 through August 1998 that covers the contemporaneous reserve
+accounting period, and another from 1998 to 2005 that covers the lagged reserve
+accounting period.
+Figures 10–13 show the impulse response functions for our models (unrestricted
+and restricted) from each of these subsamples. As can be seen, qualitatively, the results
+are unchanged by breaking the sample into the two accounting regimes; we still note
+a significant liquidity effect in each sample period. Based on the above evidence, we
+conclude that our results are not sensitive to the two changes in regime during our
+sample that are represented by the introduction of the use of sweeps and the change
+from contemporaneous reserve accounting to lagged reserve accounting.
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+FIG. 10. Carpenter and Demiralp (1989–1998), Unrestricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+FIG. 11. Carpenter and Demiralp (1989–1998), Restricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+:
+
+21
+
+22
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 12. Carpenter and Demiralp (1998–2005), Unrestricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+5. CONCLUSIONS
+The evidence provided above suggests that a liquidity effect in the federal funds
+market exists at a monthly frequency. We explain how most of the previous literature
+that find a liquidity puzzle or a liquidity effect that is time sensitive have misspecified
+the question. The negative relationship between “interest rates” and “money” is, in
+our view, a reflection of the elasticity of demand for money with respect to an interest
+rate. As a result, it need only exist when the measures of money and interest rates are
+tied to each other. For the federal funds rate, the appropriate measure of money is the
+level of balances at the Federal Reserve, as these are the funds that are actually traded
+in the market. Of these balances, however, the level of required reserve balances is
+predetermined because of the method of reserve accounting employed. Consequently,
+there need be no contemporaneous relationship between required reserve balances
+and the federal funds rate. Because these balances and vault cash held at banks
+constitute the lion’s share of nonborrowed reserves, this fact helps to explain the
+puzzle sometimes found by researchers examining nonborrowed reserves. Indeed, as
+
+SETH CARPENTER AND SELVA DEMIRALP
+
+:
+
+23
+
+FIG. 13. Carpenter and Demiralp (1998–2005), Restricted VAR {FFR, RDEP, RRB, CCB, ERB}.
+NOTE: The dashed lines represent 95% confidence intervals computed by bootstrap method.
+
+discussed earlier, the relationship could display a considerable lag between a change
+in the federal funds rate until there is a change in the level of reservable deposits,
+which subsequently leads to a change in required reserve balances. This process could
+take months.
+While our results demonstrate that a liquidity effect exists, they also indicate the importance of understanding institutional arrangements of markets before being able to
+draw valid inferences about that market. The relationship between reserves—a commonly examined monetary aggregate—and balances is not one-for-one. Understanding the difference is crucial to understanding the actual mechanisms through which
+the federal funds market works and thus the way monetary policy is implemented in
+the United States. Previous studies that focused on reserves, whether nonborrowed,
+borrowed, or total, are no longer valid. The federal funds market is the market for
+balances, not reserves, and that distinction should be incorporated into economists’
+understanding of the transmission of monetary policy. Despite our protestations about
+the misspecification of previous research, our results hold great similarities to that
+research. One key insight is that during the period when reserves and balances were
+roughly equivalent, the distinction is immaterial. Following institutional changes
+
+24
+
+:
+
+MONEY, CREDIT AND BANKING
+
+in the early 1990s, however, the conceptual differences between the two measures
+emerged and the estimation result diverge. Consistently studying balances avoids this
+sample specificity.
+Our results also inform the debate between whether a negative liquidity effect or
+a direct Fisher effect is the appropriate model of interest rate response to changes
+in open-market operations. In the federal funds market at least, and therefore, likely
+other short-term interest rates, there exists a clear and statistically significant negative
+liquidity effect.
+
+LITERATURE CITED
+Bernanke, Ben, and A. S. Blinder. (1992) “The Federal Funds Rate and the Channels of
+Monetary Transmission.” American Economic Review, 82, 901–21.
+Bernanke, Ben, and Ilian Mihov. (1998a) “Measuring Monetary Policy.” Quarterly Journal of
+Economics, 113, 869–902.
+Bernanke, Ben, and Ilian Mihov. (1998b) “The Liquidity Effect and Long-run Neutrality.”
+Carnegie-Rochester Conference Series on Public Policy, 49, 149–94.
+Carpenter, Seth, and Selva Demiralp. (2006a) “The Liquidity Effect in the Federal Funds
+Market: Evidence from Daily Open Market Operations.” Journal of Money, Credit, and
+Banking, 38, 901–20.
+Carpenter, Seth, and Selva Demiralp. (2006b) “Anticipation of Monetary Policy and Open
+Market Operations.” International Journal of Central Banking, 2:2, 26–64.
+Christiano, Laurence, Martin Eichenbaum, and Charles Evans. (1996) “The Effects of Monetary
+Policy Shocks: Evidence from the Flow of Funds.” Review of Economics and Statistics, 78,
+16–34.
+Clouse, James, and James Dow. (2002) “A Computational Model of Banks’ Optimal Reserve
+Management Policy.” Journal of Economic Dynamics and Control, 26, 1787–814.
+Hamilton, James. (1997) “Measuring the Liquidity Effect.” American Economic Review, 87,
+80–97.
+Judson, Ruth, and Richard Porter. (2001) “Overseas Dollar Holdings: What Do We Know?”
+Wirtschaftspolitische Blatter, 48, 431–40.
+Leeper, Eric, and David Gordon. (1992) “In Search of the Liquidity Effect.” Journal of Monetary Economics, 29, 341–69.
+Leeper, Eric, Christopher Sims, and Tao Zha. (1996) “What Does Monetary Policy Do?”
+Brookings Papers on Economic Activity, 2, 1–63.
+Meulendyke, Anne-Marie. (1998) U.S. Monetary Policy and Financial Markets. Federal Reserve Bank of New York.
+Reichenstein, William. (1987) “The Impact of Money on Short Term Interest Rates.” Economic
+Inquiry, 25, 67–82.
+Strongin, Steven. (1995). “The Identification of Monetary Policy Disturbances: Explaining the
+Liquidity Puzzle.” Journal of Monetary Economics, 25, 463–97.
+Thornton, Daniel. (2001) “Identifying the Liquidity Effect at the Daily Frequency.” Federal
+Reserve Bank of St. Louis Review, July/August, 59–78.
+
+

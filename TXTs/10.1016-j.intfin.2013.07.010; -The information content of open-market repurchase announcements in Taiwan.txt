@@ -1,0 +1,1701 @@
+Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Contents lists available at ScienceDirect
+
+Journal of International Financial
+Markets, Institutions & Money
+j o ur na l ho me pa ge : w w w . e l s e v i e r . c o m / l o c a t e / i n t f i n
+
+The information content of open-market
+repurchase announcements in Taiwan
+Su-Yin Cheng a, Han Hou b,∗
+a
+Department of Banking and Finance, Kainan University, 33857, No. 1 Kainan Rd., Luzhu Shiang, Taoyuan,
+Taiwan, ROC
+b
+Department of Finance, Lunghwa University of Science and Technology, No. 300, Sec. 1, Wanshou Rd.,
+Guishan Shiang, Taoyuan, Taiwan, ROC
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 22 October 2012
+Accepted 20 July 2013
+Available online 6 August 2013
+JEL classiﬁcation:
+G10
+G14
+G32
+Keywords:
+Open-market repurchases
+CARs
+Announcement information
+Premium
+Event study
+
+a b s t r a c t
+Utilizing information disclosures of open-market repurchases in
+Taiwan, this paper investigates two topics. The ﬁrst is the association between corresponding announcing information and market
+responses. The results show that intention ratio is positively correlated with two-day announcement effect and the market responses
+of the entire execution period. However, the positive relationship
+is insigniﬁcant one month after the termination of the programs.
+The ﬁndings also reveal that price location is signiﬁcantly negative
+when related to market responses of the overall execution period,
+and that such a relationship can last longer. Second, while proxy for
+undervaluation is properly considered, our ﬁndings suggest that the
+interaction between price location and market responses resulted
+from a higher premium rather than undervaluation, indicating that
+price location sends a signal of premium.
+© 2013 Elsevier B.V. All rights reserved.
+
+1. Introduction
+Stock repurchase programs have become a popular and important ﬁnancial method for ﬁrms in
+many countries to distribute corporate cash to shareholders. In a repurchase program, a ﬁrm buys back
+a portion of its outstanding shares in the market over a period lasting from months to years. Empirical
+studies provide considerable evidence of signiﬁcantly positive price responses to announcements
+
+∗ Corresponding author. Tel.: +886 2 82093211x6423; fax: +886 2 82093211x6408.
+E-mail addresses: s2864121@mail.knu.edu.tw (S.-Y. Cheng), ﬁnhh@mail.lhu.edu.tw (H. Hou).
+1042-4431/$ – see front matter © 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.intﬁn.2013.07.010
+
+60
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+of stock repurchase programs (e.g., Comment and Jarrell, 1991; Ikenberry et al., 1995, 2000; Oded,
+2005). One common explanation is that ﬁrms use stock repurchase announcements to convey a signal
+of undervaluation (e.g., Dann, 1981; Vermaelen, 1981; Comment and Jarrell, 1991; Ikenberry et al.,
+1995; Stephens and Weisbach, 1998; Ikenberry et al., 2000). This is also conﬁrmed by declarations
+of top managers upon announcing repurchase programs that their current stock prices are too low,
+making their companies attractive investments (e.g., Dann, 1983; Baker et al., 2003).
+In addition to uncovering possible motivations for a stock repurchase announcement, some studies compare the signaling power of different forms of common stock repurchases. Comment and
+Jarrell (1991) indicate that Dutch-auction self-tender offers give a weaker stock undervaluation signal than do ﬁxed-price self-tender offers, possibly because Dutch auctions offer less of a premium
+over the market price when compared to ﬁxed-price tender offers. In other words, the magnitude of
+the offered premium over the market price is positively associated with market response. However,
+disparate market reactions between the two could be due to regulatory differences in the form of
+stock repurchase programs. For example, a ﬁxed-price offer speciﬁes a single repurchase price, while
+a Dutch auction speciﬁes a range of prices. The different speciﬁcations of repurchase prices may convey
+different information to market participants and thus induce different market responses.
+Unlike in the United States, where three methods are available for stock repurchases,1 in Taiwan,
+open-market repurchase (OMR) is the only way for ﬁrms to repurchase their shares.2 In particular, listed companies in the Taiwan Stock Exchange Cooperation (TSEC) are required to specify the
+purpose,3 price range, and number of shares to buy back before executing an OMR program. In addition, the program should be completed within two months and the ﬁrm must make a statement on
+the number of shares actually repurchased, average share cost of the repurchase, and/or reasons for
+not acquiring one hundred percent of the targeted shares. Among these features, the disclosure of a
+price range (i.e., the speciﬁcation of ceiling and ﬂoor prices) is particularly unique in that it allows us
+to measure the location of the ﬁrm’s stock price on the announcement day in relation to the ceiling
+and ﬂoor prices.
+Thereby, before executing an OMR program, the aforementioned three announcing variables may
+convey varying information to investors, which in turn leads to varied market responses. First, the
+number of shares to be purchased may convey information regarding the goal of a ﬁrm’s buyback
+behavior. We would anticipate that a higher intention ratio will lead to higher market reactions. Second, the distinct buyback motivations may transmit different information to investors. Compared with
+the need to give buyback shares to employees as part of their total compensation, the undervaluation
+reason may cause higher market responses. Speciﬁcally, as a company repurchases outstanding shares
+for employees only, investors may anticipate that such a ﬁrm will passively buy back shares—and consider this to be a weak signal. In contrast, when a ﬁrm repurchases shares because of undervaluation,
+investors may view this kind of motivation as a welcome signal since the company may repurchase
+shares with great effort.
+Third, the relative location of the ﬁrm’s current stock price in the repurchase price range may convey
+to investors information regarding the magnitude of the premium4 and/or the degree of undervaluation. More precisely, a ﬁrm with its current stock price close to (or above) the ceiling price has little
+room for the repurchase premium over its stock price; hence, it should receive a smaller market
+response. That is, investors view this kind of announcement as a proﬁtless signal. On the other hand,
+it may also convey that the company is not inclined to buy back shares since the current stock price
+is high. Investors can infer from the signal that the undervaluation of the ﬁrm’s stock might not be
+severe and would therefore not react very favorably to the announcement.
+Conversely, when the current stock price of an announcing ﬁrm is close to (or below) the ﬂoor price,
+investors would interpret it as a signal for a large or signiﬁcant premium and respond positively to the
+
+1
+
+They are privately negotiated transactions, tender offers, and open-market repurchases.
+It was not until August 2000 that ﬁrms in Taiwan were allowed to buy back outstanding shares.
+3
+The three most cited reasons for their repurchases include the need to give existing shares to employees as part of their
+total compensation, the belief that shares are undervalued, and the need to cover the issue of employee stock options.
+4
+To the extent that the relationship between price ranges and market prices of OMR ﬁrms in Taiwan is analogous to an offer’s
+premium over the market in a tender offer in the U.S. market.
+2
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+61
+
+announcement. In other words, investors may view this kind of announcement as a proﬁtable signal.
+Alternatively, it may also convey the signal that the company possesses intense motivation to buy back
+shares, since the current stock price is close to the ﬂoor price. Such a circumstance may strengthen market participants’ belief in the shares’ undervaluation, and should receive a greater response from the
+market. Since these two aspects of signaling may or may not coexist, we are interested in investigating
+the essential characteristics of the signal.
+By examining information disclosures together with the announcement of OMR programs, this
+paper intends to compare the signaling power of announcing variables. That is, we would like to
+distinguish which information announced by ﬁrms conveys valuable or proﬁtable information, which
+in turn causes consistently positive market reactions.
+The ﬁndings reveal that the percentage of shares to be repurchased is positively related to the
+announcement effect (i.e., two-day CARs) and the market responses of the entire execution period
+(i.e., 41-day CARs). Nevertheless, the positive effect is insigniﬁcant one month after the completion
+of the programs. In addition, the price location is signiﬁcantly negatively related to market responses
+of the entire execution period; this effect can last one month after the termination of the programs.
+Moreover, our ﬁndings reveal that the motivation for conducting an open-market repurchase does
+not affect the behavior of stock prices, suggesting that the announced purpose is redundant. Finally,
+after properly controlling for undervaluation proxy, we suggest that the negative association between
+price location and market responses is due to the higher premium rather than undervaluation. That
+is, a lower price location implies a higher premium and results in larger market responses.
+The rest of the paper is organized as follows. Section 2 describes the data and methodology. Our
+empirical evidence is shown in Section 3, and the conclusion is presented in Section 4.
+2. Methodology and model speciﬁcation
+2.1. Methodology
+Following Comment and Jarrell (1991), Ikenberry and Vermaelen (1996), Grullon and Michaely
+(2004), Jung et al. (2005), and Massa et al. (2007), we calculate abnormal returns by applying the
+one-factor market model. The announcement date is taken to be the event day, i.e., day 0. The event
+period contains 61 trading days, from day 0 to day +60. The reason that the event period is extended
+to cover up to 60 trading days after the announcement is to ensure that the event period includes
+both the two-calendar-month execution period of the repurchases program and the approximately
+one-calendar-month post-execution period. The parameters in the market model are estimated over a
+period beginning 140 days before and ending 21 days before the announcement. The average abnormal
+return of the sample ﬁrms on event day t can then be calculated as follows:
+ARt =
+
+1
+1
+ˆ i × Rm,t )
+ARi,t =
+(Ri,t − ˛
+ˆi − ˇ
+N
+N
+N
+
+N
+
+i=1
+
+i=1
+
+(1)
+
+where ARt is the abnormal return of observation i on event day t, Ri,t is the stock return of observation
+ˆ i are estimates for observation i based on the market model using daily data
+ˆ i and ˇ
+i on event day t, ˛
+from the 120-day period preceding the event period, and Rm,t is the market return on event day t. We
+then aggregate daily average abnormal returns to get the cumulative average abnormal return (CAR)
+from event day t1 to event day t2 as follows:
+CAR(t1 , t2 ) =
+
+t2
+
+
+ARt
+
+(2)
+
+t1
+
+Under the null hypothesis of no announcement effect, the cumulated average standardized t-day
+(t = t2 − t1 ) excess return on N open-market repurchase announcements is distributed as
+
+√
+t − CAR(t1 , t2 )∼N(0, t2 − t1 / N)
+(3)
+
+62
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+where t − CAR(t1 , t2 ) denotes Student’s t distribution of CAR(t1 , t2 ). A Wilcoxon sign-ranked test statistic
+for each set of returns is also reported to conﬁrm parametric tests in this study.
+
+2.2. Model speciﬁcation
+To investigate the determinants of market responses of OMR programs, this paper estimates regressions of the form described in the following model:
+CAR(t1 , t2 ) = ˛0 + ˛1 Target + ˛2 Location + ˛3 Purpose + ˇf (X) + ε
+
+(4)
+
+where CAR(t1 , t2 ) represents cumulative abnormal returns from event day t1 to event day t2 , and
+f(X) represents control variables used in this study. Three information variables that accompany the
+announcement of OMR programs are introduced. The fraction of intention volume, denoted by Target,
+is the ratio of the number of shares intended to be repurchased to the number of outstanding shares.
+Higher proportions of target shares have been found to be associated with greater abnormal returns
+in response to repurchase announcements (e.g., Comment and Jarrell, 1991; Ikenberry et al., 1995;
+Hatakeda and Isagawa, 2004).
+We deﬁne Location to be the ratio of the stock price in excess of the ﬂoor price to the gap between the
+ceiling price and ﬂoor price. It measures the relative distance of the current stock price from the ﬂoor
+price. This variable is based on the unique feature of the announcement of a target repurchasing price
+range and can be served as a premium or the degree of undervaluation. To control for the potential
+effect of the motivation for the repurchase on our results, we introduce an indicator, denoted by
+Purpose, that takes the value of 1 if the repurchased shares are to be given to employees as part
+of their compensation packages, and 0 otherwise. These three variables are revealed following the
+announcement of OMR programs.
+Following past literature such as Vermaelen (1984), Nohel and Tarhan (1998), McNally (1999),
+Ikenberry et al. (1995, 2000), Maxwell and Stephens (2003), Hatakeda and Isagawa (2004), Howell
+and Payne (2004), Jung et al. (2005), Liao et al. (2005), Massa et al. (2007), and Firth et al. (2010), we
+include ﬁrm size (Size),5 book-to-market ratio (BTM),6 stock return volatility (StdRtn),7 leverage ratio
+(Leverage),8 binary variable for technique sector (Tech),9 insider ownership (Insider),10 cumulative
+abnormal returns prior to the announcement (CAR20B),11 and return of assets (ROA)12 as control
+variables emphasized by the aforementioned studies. The data used here to calculate control variables
+are adopted; Table A1 shows a detailed description of the construction of all variables used in this study.
+
+5
+D’Mello and Shroff (2000) and Firth et al. (2010) indicate that small ﬁrms are more likely to use share repurchase programs
+as a mechanism to reveal that they are mis-valued.
+6
+Ikenberry et al. (1995, 2000) indicate that ﬁrms with high book-to-market ratios experience higher postannouncement
+abnormal returns than those with low ratios.
+7
+Jung et al. (2005) and Massa et al. (2007) argue that this variable might serve as a proxy for the risk of the ﬁrm’s stock.
+8
+Nohel and Tarhan (1998) argue that leverage information may help investigate how repurchases are ﬁnanced.
+9
+Liao et al. (2005) conclude that technique ﬁrms generate smaller market reaction than non-technique ﬁrms in Taiwan.
+10
+Jung et al. (2005) argue that insider ownership is linked with the announcement effect of an OMR program. If the insider is
+already ﬁrmly entrenched and is capable of engaging in tunneling, then a stock repurchase, which distributes cash to minority
+shareholders, may be a signal that the insider is less likely to engage in such activity. That is, the greater the ownership of the
+insider, the greater the market response to the repurchase announcement. Nevertheless, if the predominant effect of repurchase
+is to increase the likelihood of tunneling, then the association might turn negative. Firth et al. (2010) argue that the market
+appears to discount the undervaluation message of the repurchase signal when it is accompanied by insiders’ trades.
+11
+Comment and Jarrell (1991) argue that abnormal stock returns following the announcement is inversely related to stock
+returns preceding the announcement, especially when the preannouncement return is measured over a relatively short period.
+12
+Hatakeda and Isagawa (2004) and Howell and Payne (2004) mention that more proﬁtable ﬁrms have smaller announcement
+returns.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+63
+
+3. Empirical investigation
+3.1. Sample selection and data
+Our initial sample includes 2362 open-market stock repurchase announcements made by 512 ﬁrms
+listed on the Taiwan stock exchange from August 2000 to the end of 2012. The starting point of the
+sample period coincides with the deregulation of share repurchase programs in Taiwan. Three criteria
+are used to determine the ﬁnal sample for the study. First, an announcement is included only if it
+has the complete set of data required by this study. Second, we delete announcements made by ﬁrms
+that have only been listed for less than one year. Several studies offer global evidence of erratic price
+behavior of newly listed stocks (e.g., Spiess and Pettway, 1997; Bradley et al., 2006). We do not want
+to confound our repurchase announcement results with new listing effects.
+Third, to prevent the confounding effect of multiple stock repurchase announcements, we exclude
+repurchase announcements made by the same ﬁrm where their event periods overlap. In such cases,
+we retain only the ﬁrst of the announcements. Otherwise, we keep both announcements. For example,
+if ﬁrm A makes an OMR announcement today and makes another after 50 trading days, we exclude
+the second announcement sample because including both announcements in the sample could be
+confusing while observing the stock price behavior during the 81 trading day windows [−20, +60].
+Ultimately, we obtain a ﬁnal sample comprising 1603 repurchase announcements made by 501 ﬁrms.
+All the data used in this study are taken from the Taiwan Economic Journal (TEJ), a prominent data
+vender in Taiwan.
+3.2. Summary statistics and sample description
+As previously mentioned, the repurchasing ﬁrm must report at the end of the program the number
+of shares actually repurchased, the average share price of the repurchased shares, and the reasons
+for not buying back all the target shares. Note that the information on the number of shares actually
+repurchased through the program is not directly provided in the United States. In addition, Taiwanese
+law differs from Canadian law in that a Taiwanese ﬁrm is required at the repurchase announcement
+to specify a price range in which it will buy back its shares. This information allows calculation of the
+price location of the current stock price in relation to the repurchasing price range. Table 1 reports
+summary statistics of the open-market repurchase sample used in the study.
+For the 1603 programs in the sample, the average percent of outstanding shares to be repurchased
+is 3.000%, amounting to NT$678,524.480 million based on the market price on the announcement
+day. The price location variable indicates that the stock price on the announcement day is on average
+33.311% over the ﬂoor price on the way up to the ceiling price. The mean completion rate is about
+67.558%, which is lower than that in the United States with an execution period of three years, and that
+in Korea with an execution period of three months. More speciﬁcally, Stephens and Weisbach (1998)
+estimate that the actual number of shares repurchased is about 74–82% of the target shares in the
+United States, and Jung et al. (2005) show that about 90% of the target shares are actually repurchased
+in Korea. Although the completion rate in Taiwan seems lower than those in United States and Korea,
+it is higher than the completion rate of about 28.6% in Canada (e.g., Ikenberry et al., 2000).
+Panel A of Table 1 shows the distribution of OMR programs over the sample years. There appears to
+be a surge in repurchase activity right after it is allowed in August 2000. It remains popular in 2001, but
+experiences a small downward trend in 2002 and 2003. The number of repurchase programs reaches
+a record high of 297 in 2008, followed by a slump in 2009 and 2010. Although 2008 also witnesses
+the greatest dollar value (NT$123,584.294 million) of shares intended to be repurchased, time-series
+patterns of the number of repurchase programs, percent of outstanding shares to be repurchased, and
+dollar value of shares to be repurchased are not consistent. This suggests that the size of repurchase
+programs could vary to a great extent and contribute to the observation.
+The price location and completion rate both exhibit some time-series variation, but there appears
+to be no obvious correlation between the two. The location variable ranges from 25.710% in 2001 to
+40.359% in 2009; the completion rate has a minimum of 59.232% in 2009 and a maximum of 76.513%
+in 2010.
+
+64
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Table 1
+Descriptive statistics.
+N
+
+1603
+Total
+Panel A: grouped by year
+139
+August 2000
+119
+2001
+87
+2002
+98
+2003
+191
+2004
+125
+2005
+107
+2006
+116
+2007
+297
+2008
+48
+2009
+45
+2010
+167
+2011
+64
+2012
+Panel B: grouped by purpose
+983
+Compensation
+603
+Undervalued
+17
+Stock transferred
+Panel C: grouped by industry
+964
+Electronics
+639
+Non-electronics
+Non-electronics industry
+16
+Cement
+22
+Food
+32
+Plastics
+87
+Textile
+54
+Electric Machinery
+32
+Electrical & Cable
+38
+Chemical
+16
+Biotechnology & Medical Care
+3
+Glass & Ceramic
+Paper & Pulp
+17
+44
+Iron & Steel
+17
+Rubber
+Automobile
+8
+Building Material & Construction 62
+Shipping & Transportation
+17
+11
+Oil, Gas and Electricity
+Tourism
+6
+89
+Financial & Insurance
+30
+Trading & Consumers Goods
+Others
+38
+
+%
+
+Announcement information
+
+Complete information
+
+Target (%)
+
+Dollar amount (Million)
+
+Location (%)
+
+Execution rate (%)
+
+3.000
+
+678524.480
+
+33.311
+
+67.558
+
+8.671
+7.424
+5.427
+6.114
+11.915
+7.798
+6.675
+7.236
+18.528
+2.994
+2.807
+10.418
+3.993
+
+3.299
+3.076
+3.110
+3.150
+3.195
+3.054
+2.668
+2.833
+2.884
+3.342
+2.332
+3.041
+2.647
+
+45838.754
+31195.455
+35046.467
+40844.438
+88541.801
+44292.545
+57531.320
+90453.713
+123584.294
+14986.009
+31900.114
+64476.349
+9833.221
+
+29.827
+25.710
+34.087
+38.620
+36.914
+33.733
+37.319
+33.676
+31.084
+40.359
+40.157
+31.838
+30.976
+
+61.867
+71.481
+62.177
+66.266
+69.573
+72.339
+65.343
+75.461
+68.926
+59.232
+76.513
+60.221
+68.598
+
+61.323
+37.617
+1.060
+
+2.591
+3.699
+1.874
+
+302432.286
+354327.388
+21764.806
+
+32.858
+33.894
+38.866
+
+66.641
+68.919
+72.093
+
+60.137
+39.863
+
+2.904
+3.145
+
+496194.713
+182329.767
+
+33.239
+33.420
+
+68.731
+65.783
+
+2.504
+3.443
+5.008
+13.615
+8.451
+5.008
+5.947
+2.504
+0.469
+2.660
+6.886
+2.660
+1.252
+9.703
+2.660
+1.721
+0.939
+13.928
+4.695
+5.947
+
+4.264
+3.353
+2.918
+4.202
+3.370
+2.737
+2.650
+2.251
+1.574
+1.573
+2.934
+4.727
+2.587
+3.563
+3.690
+2.314
+4.066
+2.363
+2.844
+2.935
+
+4351.424
+9539.130
+3238.560
+8446.131
+7512.542
+13921.474
+5220.293
+1158.500
+220.150
+1643.167
+21544.312
+7808.423
+3341.400
+8254.988
+2996.235
+475.811
+200.981
+66760.288
+5148.304
+10547.654
+
+42.601
+47.474
+30.898
+29.629
+38.655
+42.266
+30.869
+29.401
+29.266
+29.836
+35.232
+39.736
+9.930
+29.115
+35.279
+20.873
+28.781
+33.783
+36.751
+30.610
+
+38.747
+57.221
+71.315
+71.991
+63.892
+71.301
+71.596
+52.474
+61.023
+74.786
+70.421
+45.840
+55.918
+59.469
+76.164
+66.924
+51.847
+62.362
+72.496
+73.116
+
+100
+
+Target is the ratio of number of shares intended to be repurchased and the number of outstanding shares. Dollar amount is the
+cumulative value of shares intended to be repurchased. Location is the ratio of stock price over ﬂoor price and the price range
+of cell price and ﬂoor price, which measures the relative distance of stock price to the ﬂoor price. Execution rate is the number
+of shares actually repurchased as a percentage of those intended to be repurchased. In Taiwan, there are three purposes for a
+ﬁrm to repurchase its own stock—transferring shares as compensation to employees (Compensation), ﬁrms maintaining their
+credit (Undervalued), and ﬁrms intending to issue stock options by acquiring outstanding shares (Stock transferred). Electronic
+denotes electronics industry, whereas Non-electronic represents other industries excluding the electronics industry.
+
+In Panel B, we further disaggregate the full sample into subsamples on the basis of the purpose.
+Of the total 1603 OMR programs, 983 (or 61.323%) are to repurchase shares for transfer to employees
+as part of a compensation package, 603 (or 37.617%) are to boost the stock price, and 17 (around 1%)
+are to repurchase outstanding shares to cover the issue of stock options. These numbers suggest that
+TSEC-listed ﬁrms are more inclined to buy back outstanding shares to give them as part of employee
+compensation than to boost the value of their shares.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+65
+
+The average percent of outstanding shares intended to be repurchased is 3.699% for repurchase
+programs conducted to buy back undervalued shares, higher than employee compensation purpose.
+The cross-sectional comparison of completion rates exhibits similar results. These indicate that ﬁrms
+which believe that they are undervalued are more inclined to buy back outstanding shares. Furthermore, the price location measure for repurchase programs due to share undervaluation is higher than
+that for repurchases made for employee compensation purposes.
+Finally, we divide the full sample into subsamples according to the ﬁrms’ industry codes. As shown
+in Panel C, about 60.137% (or 964) of our sample is conducted by ﬁrms in the electronics industry,
+whereas non-electronics ﬁrms contribute 39.863% (or 639) of the sample. The dollar value of the target shares from repurchase programs conducted by electronics companies is NT$496,194.713 million,
+more than 70% of the sample’s total. These numbers suggest that the electronics industry13 plays a
+dominant role in open-market repurchases. On the other hand, there is little difference in price location and execution rate between the electronics and non-electronics industries. The mean locations
+are 33.239% and 33.420%, and mean execution rates are 68.731% and 65.783%, respectively, for the
+electronics and non-electronics industries.
+Furthermore, there appears to be a wide variation in the summary statistics of non-electronic
+ﬁrms reported in Table 1. Of the total of 639 repurchases conducted by non-electronics ﬁrms, 89
+(13.928%) are from the ﬁnancial & insurance industry, whereas only 3 (or 0.469%) are made by the
+glass & ceramic industry. In addition, the lowest and highest dollar amounts are NT$200.981 million
+and NT$66,760.288 million for the tourism and ﬁnancial & insurance industries, respectively. The
+average price location ranges from 9.930% for the automobile industry to 47.474% for the food industry.
+Furthermore, the mean execution rate of 38.747% for the cement industry is the lowest, whereas the
+shipping & transportation industry has the highest mean execution rate.
+Table 2 provides further detailed information on the price location measure. Panels A, B, and C
+disaggregate the full 1603-item sample into subsamples on the basis of the target repurchasing ratio,
+capitalization of the announcing ﬁrm, and growth prospects of the announcing ﬁrm, respectively. In
+Panel A, there are 1234 (or 76.980%) repurchase programs with a target ratio between 0% and 4% of
+outstanding shares, indicating that about three quarters of our entire sample intend to buy back less
+than 4% of outstanding shares. There is little difference in price location across subsamples. For each
+subgroup, we ﬁnd that the mean price location is around 33%, and that the differences among them
+are statistically insigniﬁcant. This may also suggest that the price location is not associated with the
+target ratio.
+Panel B has results for subgroups formed on the basis of the announcing ﬁrm’s capitalization.
+Following Ikenberry et al. (2000), ﬁrms whose capitalization is below the median market capitalization of all the announcing ﬁrms are labeled as small-capitalization group, and otherwise as
+large-capitalization group. We ﬁnd that the mean price location for the small-capitalization group
+is 31.855% and that for the large-capitalization group is 34.770%. The difference between them is
+statistically signiﬁcant, with a t-statistic of 2.926. We further group the 1603 repurchase programs
+into decile portfolios. We deﬁne extremely-small-capitalization and extremely-large-capitalization
+groups to be ﬁrms in the ﬁrst and tenth deciles, respectively. The difference in price location between
+the two portfolios remains signiﬁcant, suggesting that capitalization of an announcing ﬁrm is linked
+with the price location revealed in the repurchase announcement. A lower price location for a small
+ﬁrm indicates that it may be severely undervalued, or that it possesses an incredible premium.
+Finally, we separate the full sample into two groups according to the style of a ﬁrm, measured by
+the growth prospect of the announcing ﬁrm. Following Ikenberry et al. (2000), those announcing ﬁrms
+whose book-to-market ratio is below the median of all the announcing ﬁrms are labeled as Growth,
+and otherwise as Value. As shown in Panel C, the mean price location for the Growth and Value groups
+are 33.585% and 33.048%, respectively. The difference between them is statistically insigniﬁcant, with
+
+13
+The electronics industry is the lifeblood of the Taiwan economy; it typically accounts for over 60% of the total market value
+of listed ﬁrms. Furthermore, it has been the main driver of the Taiwanese economy for the last 15 years. According to the
+Ministry of Economic Affairs in Taiwan, in 2006, there were at least 10 electronics products whose market shares come out on
+the top of the world. For example, Taiwan made 56% of the world’s laptop computers and 81% of PC motherboards in 2006.
+Semiconductor products, LCD monitors, and recordable media are also in top world market positions.
+
+66
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Table 2
+Price location of open-market repurchases in Taiwan.
+N
+Total
+Panel A: grouped by target
+0–2%
+2–4%
+4–6%
+6–8%
+8–10%
+Difference (F-tests)
+Panel B: grouped by ﬁrm capitalization
+Small-capitalization
+Large-capitalization
+Difference (t-tests)
+Extreme-small-capitalization
+Extreme-large-capitalization
+Difference (t-tests)
+Panel C: grouped by ﬁrm style
+Growth
+Value
+Difference (t-tests)
+Extreme-growth
+Extreme-value
+Difference (t-tests)
+
+1603
+
+%
+
+Mean of location
+
+100
+
+33.311
+
+599
+635
+248
+64
+57
+
+37.367
+39.613
+15.471
+3.993
+3.556
+
+34.039
+32.082
+34.414
+32.617
+35.348
+1.155
+
+802
+801
+
+50.031
+49.969
+
+160
+160
+
+9.981
+9.981
+
+31.855
+34.770
+2.926***
+29.986
+37.881
+3.338***
+
+798
+805
+
+49.782
+50.218
+
+160
+159
+
+9.981
+9.919
+
+33.585
+33.048
+0.538
+31.384
+29.124
+1.137
+
+Location is the ratio of stock price over ﬂoor price and the price range of cell price and ﬂoor price, which measures the relative
+distance of stock price to the ﬂoor price. Target is the ratio of number of shares intended to be repurchased and the number
+of outstanding shares. Firms below median market capitalization are labeled as small-capitalization, where those with above
+median market capitalization are labeled as large-capitalization. Extreme-small-capitalization and Extreme-large-capitalization
+are those ﬁrms whose market value ranks them in the lowest (10%) or highest (90%) deciles respectively compared to all 1603
+stocks. Those repurchase ﬁrms whose book-to-market is below median are labeled as Growth, whereas those above median are
+labeled as Value. Extreme-value and Extreme-growth are those ﬁrms whose book-to-market ratio ranks them in the highest
+(90%) or lowest (10%) deciles respectively compared to all 1603 stocks.
+***
+Statistical signiﬁcant at 1% level.
+
+a t-statistic equal to 0.538. We also separate the 1603 repurchase programs into decile portfolios on
+the basis of their book-to-market ratios. The ﬁrst and tenth deciles are deﬁned to be extreme-value
+and extreme-growth groups, respectively. The difference in price location between the two portfolios
+is insigniﬁcant, suggesting that the book-to-market ratio of the announcing ﬁrm is not linked with the
+price location revealed in the repurchase announcement. Overall, we ﬁnd that price location varies
+with ﬁrm size, but neither with intention ratio nor a ﬁrm’s style.
+3.3. Market response to price location
+In this section, we investigate whether the market reacts to the location of the current stock price
+relative to the range of target repurchasing prices revealed in the open-market repurchase announcement. We separate the 1603 samples into three even subgroups on the basis of the price location. Firms
+are assigned to the bottom third if their price location rank is below 33.333% (or the price location is
+smaller than 27.022%). The rest of the announcing ﬁrms are assigned to either the middle or top third
+on the basis of their price location rank.
+Figs. 1 and 2 plot the CARs for three subgroups. Fig. 1 plots of pre-announcement CARs span the
+period from 20 days before the announcement to one day before it. Fig. 2 plots of post-announcement
+CARs span the period from the announcement day to 60 trading days afterward. The plot of Fig. 1
+indicates that ﬁrms in the bottom third (CARs(1 st)) experience a more dramatic decline in their stock
+price prior to the announcement than do ﬁrms in the other two thirds. This difference shows that
+ﬁrms in the bottom third tend to be undervalued in relation to the other ﬁrms.
+This is also supported by the results shown in Panel A of Table 3. The 20-day CARs prior to the
+announcement for ﬁrms in the bottom, middle, and top thirds are −10.010%, −5.762%, and −2.198%,
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+67
+
+Variable
+CARs(1st)
+CARs(2nd)
+CARs(3rd)
+
+0
+
+-2
+
+CARs
+
+-4
+
+-6
+
+-8
+
+-10
+-20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9
+
+-8
+
+-7
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+Event days
+
+Fig. 1. Plot of cumulative abnormal return of the split sample for the pre-announcement period. This chart compares the preannouncement CARs for three samples segmented by price location. Day 0 is the date of the announcement. Daily average
+excess returns are cumulated over a period from 20 days before announcement to 1 day before. A ﬁrm belongs to the 1st, 2nd,
+or 3rd tertile as its price location is below 27.022%, between 27.022% and 37.500%, and over 37.500%, respectively.
+
+10
+
+Variable
+CARs(1st)
+CARs(2nd)
+CARs(3rd)
+
+8
+
+CARs
+
+6
+
+4
+
+2
+
+0
+
+0 2
+
+5
+
+8 11 14 17 20 23 26 29 32 35 38 41 44 47 50 53 56 59
+Event days
+
+Fig. 2. Plot of cumulative abnormal return of the split sample for the post-announcement period. This chart compares the
+post-announcement CARs for three samples segmented by price location. Day 0 is the date of the announcement. Daily average
+excess returns are cumulated over a period from the announcement day to 60 days afterward. A ﬁrm belongs to the 1st, 2nd,
+or 3rd tertile as its price location is below 27.022%, between 27.022% and 37.500%, and over 37.500%, respectively.
+
+68
+
+Table 3
+Market reaction in different categories of price location to the announcement of share repurchases.
+Windows
+
+Total sample
+
+1st Tertiles (<27.022%)
+
+2nd Tertiles (between)
+
+3rd Tertiles (>37.500%)
+
+Difference F-test
+
+−10.010 (−17.243) [14.775]
+−6.672 (−15.339) [13.725]
+−2.317 (−10.993) [10.251]
+
+−5.762 (−9.471) [10.608]
+−3.929 (−9.956) [9.802]
+−0.858 (−4.717) [4.213]
+
+−2.198 (−3.838) [4.370]
+−1.418 (−3.437) [3.790]
+−0.305 (−1.688) [0.976]
+
+44.246***
+40.149***
+29.407***
+
+1.580 (7.490) [7.398]
+2.759 (10.550) [10.157]
+3.439 (11.695) [11.006]
+3.899 (12.096) [11.546]
+4.214 (12.447) [11.796]
+4.571 (12.630) [12.117]
+4.801 (12.521) [12.039]
+4.978 (12.184) [11.801]
+5.245 (12.029) [11.969]
+5.372 (11.837) [11.747]
+6.917 (11.262) [11.201]
+7.747 (10.660) [10.432]
+8.810 (10.352) [10.090]
+7.729 (7.904) [8.424]
+8.016 (7.105) [7.483]
+14.497
+534
+
+2.453 (14.136) [13.208]
+3.360 (15.475) [14.293]
+3.770 (14.890) [14.416]
+4.095 (15.388) [14.743]
+4.377 (15.899) [14.857]
+4.573 (15.730) [14.699]
+4.679 (14.877) [14.148]
+4.850 (14.581) [13.937]
+4.960 (13.685) [13.781]
+5.073 (12.911) [13.648]
+6.243 (9.986) [11.724]
+6.933 (8.255) [11.249]
+7.784 (7.385) [10.753]
+7.502 (5.736) [9.150]
+7.311 (4.831) [8.225]
+32.585
+537
+
+1.960 (10.583) [10.809]
+2.382 (10.772) [10.743]
+2.627 (10.473) [10.479]
+2.742 (10.262) [10.562]
+2.884 (10.099) [10.204]
+3.142 (10.602) [10.517]
+3.350 (10.670) [10.699]
+3.421 (10.441) [10.427]
+3.488 (10.388) [10.498]
+3.454 (9.860) [9.971]
+4.387 (8.939) [9.300]
+4.694 (7.497) [8.201]
+5.612 (7.826) [8.180]
+5.432 (6.542) [7.247]
+5.404 (5.939) [6.214]
+52.929
+532
+
+5.291***
+4.447**
+4.864***
+6.516***
+7.391***
+6.737***
+5.626***
+5.815***
+6.120***
+6.589***
+5.086***
+4.602**
+3.395**
+1.425
+1.241
+
+A ﬁrm belongs to the 1st, 2nd, or 3rd tertile as its price location is below 27.022%, between 27.022% and 37.500%, and over 37.500%, respectively. Cumulative abnormal stock return from
+event day t1 to event day t2 is the sum of the daily average abnormal returns for the period. Numbers in the parenthesis and middle parenthesis are t-statistics and Wilcoxon rank tests,
+respectively. We report signiﬁcant levels for tests of the difference in mean (F-tests) among 1st, 2nd, and 3rd tertiles segmented by price location for different windows of CAR.
+**
+Statistical signiﬁcant at 5% level.
+***
+Statistical signiﬁcant at 1% level.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Panel A: prior to announcement period
+−5.989 (−17.198) [17.693]
+(−20, −1)
+(−10, −1)
+−4.008 (−16.356) [16.191]
+(−2, −1)
+−1.161 (−10.311) [9.307]
+Panel B: subsequent to announcement period
+1.998 (18.119) [17.982]
+(0, +1)
+(0, +2)
+2.835 (20.929) [20.197]
+(0, +3)
+3.280 (21.248) [20.616]
+(0, +4)
+3.580 (21.580) [21.168]
+(0, +5)
+3.827 (21.931) [21.250]
+(0, +6)
+4.097 (24.242) [21.549]
+(0, +7)
+4.279 (21.807) [21.273]
+(0, +8)
+4.419 (21.302) [20.893]
+(0, +9)
+4.567 (20.721) [20.938]
+(0, +10)
+4.636 (19.933) [20.463]
+(0, +20)
+5.853 (17.424) [18.666]
+(0, +30)
+6.461 (15.160) [17.290]
+(0, +40)
+7.406 (14.463) [16.785]
+6.891 (11.269) [14.341]
+(0, +50)
+6.912 (9.881) [12.694]
+(0, +60)
+33.311
+Location
+1603
+Obs.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+69
+
+respectively; all are statistically signiﬁcant at the 1% level. In particular, the negative excess return of
+the bottom third is about ﬁve times the decline suffered by ﬁrms in the top third. Furthermore, the
+difference between them is signiﬁcant at the 1% level. Qualitatively similar results can be obtained
+when the CAR window is changed to either (−10, −1) or (−2, −1). The results may provide evidence
+supporting the possibility that price location sends a signal of undervaluation for ﬁrms with a lower
+price location. Meanwhile, negative pre-announcement CARs suggest that there is no information
+leakage before the announcement of OMR programs in Taiwan.
+The plot of Fig. 2 indicates that ﬁrms in the bottom third (CARs(1st)) have higher excess stock
+returns after the announcement than do ﬁrms in the other two groups. Panel B of Table 3 conﬁrms the
+pictorial evidence and further conveys more interesting results. Observing the event windows from
+CARs (0, +1) to CARs (0, +6), the mean coefﬁcients of CARs are greater for ﬁrms in the middle third
+than for those in the other two groups. Nevertheless, the CAR differences for ﬁrms in the bottom and
+middle third are gradually closed. After window (0, +6), ﬁrms in the bottom third have the largest
+CARs. Firms in the middle third follow them, and those in the top third have the smallest CARs. The
+monotonic phenomenon can be observed from eight-day CARs using window (0, +7) to 61-day CARs
+using window (0, +60).
+Speciﬁcally, the lower price location generates a larger market reaction after window (0, +6). For
+example, looking at the 21-day CARs using window (0, +20), the 21-day postannouncement CAR for
+ﬁrms in the bottom third is 6.917%, compared to 6.243% for ﬁrms in the middle third and 4.387% for
+ﬁrms in the top third. This suggests that investors consider that ﬁrms in the top third have little room to
+raise their stock prices or are less undervalued, resulting in smaller market reactions. Similarly, higher
+excess returns for ﬁrms in the bottom third may be attributed to ﬁrms because they are considered to
+have more space to enhance their stock prices, or are strictly undervalued.
+Nevertheless, we do not observe an apparently negative relationship between price location and
+market responses prior to window (0, +7). The CARs are greater for ﬁrms in the middle third than for
+ﬁrms in the other two subgroups. For example, the two-day CARs of window (0, +1) for the middle third
+is 2.543%, compared to 1.580% of the bottom third and 1.960% of the top third. The difference between
+them is statistically signiﬁcant at the conventional level. The absence of negative market reaction
+and price location at the beginning of the announcement could be due to investors not recognizing
+the signal of price location ﬁrms intended to convey. After all, price location is not an intuitional
+variable (or information); investors need some time to observe the signal and evaluate the value of its
+information.
+Finally, the ﬁndings show that post-announcement CARs for each event window are positive and
+statistically signiﬁcant. The one-month, two-month, and three-month cumulative abnormal returns
+following the announcement are about 5.853%, 7.406%, and 6.912%, respectively, for the entire sample.
+The results indicate that on average, the market under-reacts to OMR announcements in Taiwan, since
+CARs continue to be signiﬁcantly positive for at least three months. The ﬁndings in Table 3 and Fig. 2
+offer preliminary insights into the relationship between price location and market reactions. However,
+these results are only suggestive since they do not control for other cross-sectional factors that might
+affect the magnitude of CARs. In Section 3.5, we conduct more formal statistical tests using multiple
+regressions.
+3.4. Comparing the characteristics of different price location
+In addition to the above ﬁndings, we examine whether ﬁrms in the three price-location portfolios
+differ in various characteristics. The results are shown in Table 4. The average percentages of shares
+to be repurchased are 2.911%, 3.132%, and 2.956% for the bottom, middle, and top price-location
+portfolios, respectively. The differences among them are statistically insigniﬁcant, indicating that a
+ﬁrm’s price location is not linked with the target repurchase rate. Also, we ﬁnd that ﬁrms with the
+same announcement motivation are evenly segmented by price location. This shows that our sample
+ﬁrms are not located on a speciﬁc price location. Moreover, the mean execution rates across the three
+portfolios are quite comparable in magnitude and do not signiﬁcantly differ from each other. This
+suggests that a ﬁrm’s price location might not be related to its completion rate. Overall, the ﬁndings
+indicate that price location is correlated with neither announcing variables or nor execution rate.
+
+70
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Table 4
+Differences in price location.
+Firm character
+Announcement variables
+Target
+Three purposes
+Compensation
+Undervalued
+Stock transferred
+Complete information
+Execution rate
+Firm speciﬁc characteristics
+Size
+BTM
+StdRtn
+Leverage
+Insider
+ROA
+Industry
+Tech
+Non-Tech
+Location (%)
+Obs.
+
+Total
+
+1st Tertiles
+(<27.022%)
+
+2nd Tertiles
+(between)
+
+3rd Tertiles
+(>37.500%)
+
+Difference
+F-tests
+
+3.000
+
+2.911
+
+3.132
+
+2.956
+
+1.880
+
+983
+603
+17
+
+344
+184
+6
+
+333
+201
+3
+
+306
+218
+8
+
+67.558
+
+67.759
+
+66.606
+
+68.316
+
+0.343
+
+8.696
+0.981
+2.578
+37.287
+36.660
+5.120
+
+8.618
+1.009
+2.678
+39.723
+35.336
+4.618
+
+8.702
+0.961
+2.555
+35.923
+38.387
+5.256
+
+8.769
+0.972
+2.502
+36.218
+36.245
+5.486
+
+1.670
+0.997
+5.737***
+8.872***
+6.346***
+3.697**
+
+964
+639
+
+313
+221
+
+344
+193
+
+307
+225
+
+33.311
+1603
+
+14.497
+534
+
+32.585
+537
+
+52.929
+532
+
+A ﬁrm belongs to the 1st, 2nd, or 3rd tertile as its price location is below 27.022%, between 27.022% and 37.500%, and over
+37.500%, respectively. Target is the ratio of number of shares intended to be repurchased and the number of outstanding shares.
+In Taiwan, there are three purposes for a ﬁrm to repurchase its own stock—transferring shares as compensation to employees
+(Compensation), ﬁrms maintaining their credit (Undervalued), and ﬁrms intending to issue stock options by acquiring outstanding shares (Stock transferred). Location is the ratio of stock price over ﬂoor price and the price range of cell price and ﬂoor
+price, which measures the relative distance of stock price to the ﬂoor price. Size is the natural logarithm of the previous quarter’s
+total assets. BTM is the ratio of the previous quarter’s book value of equity to the market value. Stock return volatility (StdRtn)
+is calculated as the mean standard deviation of daily returns over the period from 140 to 21 days prior to the announcement
+date. Leverage is measured as the ratio of the previous quarter’s total liability to the total assets. Insider is the sum of the
+previous quarter’s percentage ownership of managers, directors, supervisors, and block shareholders. ROA is the ratio of the
+previous quarter’s earnings before interest and tax (EBIT) to total assets. Tech denotes electronics industry, whereas Non-Tech
+represents other industries excluding the electronics industry. We report signiﬁcant levels for tests of the difference in mean
+(F-tests) among three categories segmented by price location for each variable.
+**
+Statistical signiﬁcance at the 5% levels.
+***
+Statistical signiﬁcance at the 1% levels.
+
+We now investigate whether there are links between ﬁrm-speciﬁc characteristics and price
+location. In addition to analyzing the announcement information among the three groups, our comparison of ﬁrm-speciﬁc characteristics relative to announcement information could provide insights
+addressing whether ﬁrms in different groups are associated with speciﬁc characteristics. On the basis
+of our ﬁndings in Table 4, ﬁrms in the bottom third are more likely to possess higher return volatility,
+higher leverage ratio, and lower insider ratio. Moreover, their ﬁrm performances are not particularly outstanding; their mean return of assets (ROA) is relatively low. Overall, this evidence is only
+suggestive since we could not control for all the variables; nevertheless, it does offer preliminary
+insights.
+3.5. Determinants of market reactions to repurchase announcements
+To evaluate the determinants of market reactions, we regress CARs of repurchase announcements
+on both announcement variables and control variables. Four different event periods including twoday CARs using window (0, +1), 41-day CARs using window (0, +40), 61-day CARs using window
+(0, +60), and 20-day CARs using window (+41, +60), respectively, are used to represent announcement effect, market responses of the entire execution period, market responses covering not only
+the entire execution period but also after the termination of the programs, and market responses
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+71
+
+covering only the period after the termination of the programs. Considering the aforementioned
+four event periods allows us to distinguish the signaling power of each set of announcement
+variables.
+Before discussing our main results, it is worth noting that if the magnitudes of some of the regression coefﬁcients are important and if multicollinearity exists among the independent variables, it is
+appropriate to evaluate the effects of multicollinearity among variables of interest. A common technique for evaluating the effects of multicollinearity among the independent variables is the variance
+inﬂation factor (VIF). Since the VIF tests in Table 5 are less than 10, multicollinearity does not pose a
+problem in interpreting our results.
+Column 2 of Table 5 indicates that announcement effect is positively related to the proportion of
+shares intended to be repurchased and is statistically signiﬁcant at the 5% level. This reveals that larger
+programs announced by ﬁrms lead to greater market responses and are in accord with the ﬁndings
+for U.S. markets (Ikenberry and Vermaelen, 1996; Grullon and Michaely, 2004). In contrast to our
+ﬁnding, Hatakeda and Isagawa (2004) and Jung et al. (2005) ﬁnd positive but insigniﬁcant association
+between market reactions and programs announced in Japan and Korea. In addition, the coefﬁcients
+for price location and purpose are negative but statistically insigniﬁcant, suggesting that price location
+and buyback motivation are not correlated with announcement effect. As mentioned previously, price
+location is not an intuitive variable; therefore, investors need some time to observe the signal and
+react appropriately.
+With respect to ﬁrm-speciﬁc characteristics and announcement effect, the ﬁndings show that bookto-market ratio, leverage ratio, and past cumulative abnormal returns have signiﬁcant impact on
+announcement effect. Speciﬁcally, we ﬁnd that value ﬁrms have higher announcement effect. Here
+we conﬁrm Ikenberry et al. (1995, 2000), who argue that ﬁrms with high book-to-market ratios experience higher cumulative abnormal returns than those with lower ratios. In addition, we ﬁnd that
+ﬁrms with a lower leverage ratio experience higher announcement effect. This is supported by Howell
+and Payne (2004), who contend that ﬁrms with more leverage have smaller announcement returns.
+Finally, announcement effect is signiﬁcantly and positively related to past cumulative excess returns,
+indicating that higher past excess returns lead to a greater announcement effect. These results contradict Hatakeda and Isagawa (2004), who argue that announcement effect is negatively related to
+the preannouncement cumulative abnormal return in Japan. Taken together, the evidence supports
+the idea that intention ratio, book-to-market ratio, leverage ratio, and past excess returns are four
+crucial factors that may affect the announcement effect of open-market repurchase programs. Meanwhile, we also ﬁnd that price location and announcing purpose are not correlated with announcement
+effect.
+Although price location and announcement effect are not related, it is improper to take for granted
+that price location information does not matter for the market responses of an overall execution
+period. Hence, we next estimate the relationship between the price location and market responses of
+the entire execution period, i.e., 41-day CARs using window (0, +40), and report this in column 4 of
+Table 5.
+Not surprisingly, we ﬁnd that intention ratio remains signiﬁcantly and positively correlated with
+41-day CARs, implying that a larger program announced by ﬁrms receives larger market reactions
+over the entire execution periods and is consistent with most of the previous literature on stock
+repurchases. In addition, we ﬁnd that price location has signiﬁcantly negative impact on 41-day CARs,
+suggesting that lower price location leads to larger market responses for the entire execution period. As
+mentioned previously, the relative location of a stock price within the price range of the announcement
+may convey either the magnitude of a premium or the degree of undervaluation, or both. Regardless
+of which signal price location represents, there is no doubt that it indeed conveys some kind of signal.
+Therefore, to distinguish between the premium and undervaluation hypothesis, we may observe the
+inﬂuence of a proxy for undervaluation, i.e., past excess returns. We ﬁnd that the coefﬁcient of CAR20B
+is positive and statistically signiﬁcant. Since the undervaluation proxy is controlled, we can conclude
+that the negative association between price location and market responses of the entire execution
+period is due to a greater premium rather than undervaluation. Finally, the coefﬁcient for purpose
+dummy is negative but statistically insigniﬁcant, suggesting that buyback motivation is not a good
+predictor of market responses.
+
+72
+
+Table 5
+Cross-sectional analysis of repurchase program announcements.
+Independent variable
+
+(0,1)
+
+VIF
+
+(0,40)
+
+VIF
+
+(0,60)
+
+VIF
+
+(41,60)
+
+VIF
+
+1.566 (1.246)
+
+NA
+
+14.016 (1.645)
+
+NA
+
+15.826 (1.266)
+
+NA
+
+1.924 (0.536)
+
+NA
+
+0.248*** (4.124)
+−0.003 (−0.533)
+−0.310 (−1.275)
+
+1.258
+1.092
+1.261
+
+1.101*** (3.535)
+−0.110*** (−3.452)
+−0.884 (−0.877)
+
+1.314
+1.953
+1.292
+
+0.906** (2.150)
+−0.136** (−2.990)
+−0.166 (−0.125)
+
+1.435
+2.210
+1.321
+
+−0.200 (−1.177)
+−0.026* (−1.668)
+0.754 (1.077)
+
+1.174
+1.042
+1.195
+
+−0.049 (−0.568)
+0.713** (2.575)
+−0.144 (−0.829)
+−0.012* (−1.707)
+0.138 (0.539)
+0.011 (1.505)
+0.021* (1.724)
+0.032 (1.439)
+3.284
+5.902***
+
+1.426
+1.934
+1.104
+1.136
+1.370
+1.103
+1.156
+1.361
+
+−0.328 (−0.800)
+3.684** (2.148)
+−2.579 (−0.913)
+0.019 (0.514)
+2.200 (1.321)
+0.010 (0.252)
+0.390** (2.596)
+0.035 (0.358)
+13.028
+22.434***
+
+1.920
+2.216
+7.391
+2.171
+3.644
+1.465
+6.931
+1.536
+
+−0.357 (−0.615)
+4.884** (2.011)
+−4.159 (−0.989)
+0.067 (1.266)
+3.196 (1.341)
+0.018 (0.332)
+0.623** (2.788)
+0.168 (1.257)
+15.185
+26.472***
+
+2.212
+2.526
+8.307
+2.616
+4.555
+1.670
+8.987
+1.623
+
+−0.037 (−0.137)
+1.251* (1.756)
+−1.581*** (−4.224)
+0.048** (2.361)
+0.969 (1.341)
+0.007 (0.286)
+0.234*** (9.652)
+0.134** (2.023)
+8.988
+15.050***
+
+1.334
+1.740
+1.117
+1.132
+1.282
+1.099
+1.157
+1.323
+
+Target is the ratio of number of shares intended to be repurchased and the number of outstanding shares. Location is the ratio of stock price over ﬂoor price and the price range of cell
+price and ﬂoor price, which measures the relative distance of stock price to the ﬂoor price. Purpose is an indicator value that takes the value of 1 if a ﬁrm transfers outstanding shares
+as compensation to employees and 0 others. Size is the natural logarithm of the previous quarter’s total assets. BTM is the ratio of the previous quarter’s book value of equity to the
+market value. Stock return volatility (StdRtn) is calculated as the mean standard deviation of daily returns over the period from 140 to 21 days prior to the announcement date. Leverage
+is measured as the ratio of the previous quarter’s total liability to the total assets. Tech is a binary variable that take the value of one for electronics ﬁrms and 0 others. Insider is the sum
+of the previous quarter’s percentage ownership of managers, directors, supervisors, and block shareholders. CAR20B is the cumulative abnormal return from event day −20 to event day
+−1. ROA is the ratio of the previous quarter’s earnings before interest and tax (EBIT) to total assets. Variance inﬂation factor (VIF) is used to check the possibility of multicollinearity. All
+reported t-statistics (Two-tailed) are corrected for heteroskedasticity using the White (1980) algorithm.
+*
+**
+***
+
+Statistical signiﬁcant at 10% level.
+Statistical signiﬁcant at 5% level.
+Statistical signiﬁcant at 1% level.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Constant
+Announcement variables
+Target
+Location
+Purpose
+Control variables
+Size
+BTM
+StdRtn
+Leverage
+Tech
+Insider
+CAR20B
+ROA
+Adj-R2 (%)
+F-statistics
+
+Explanatory variable: CAR(p,q)
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+73
+
+The above results provide solid evidence that intention ratio and price location are two
+important factors affecting the cumulative abnormal returns of the entire execution period. We
+further compare the signaling power of the two announcing variables by extending our event
+period to include the two-month execution period and one month after the termination of
+the programs. As shown in column 6 of Table 5, 61-day CARs is positively related to intention ratio and negatively related to price location. We see that the signiﬁcance levels of the
+two announcing variables have declined. This may be because the period covers the completion of open-market repurchase programs, causing mitigation of the signaling power of the
+announcing variables. We also ﬁnd that the signiﬁcance level for price location is higher than
+that for intention ratio, suggesting that price location conveys lasting and greater signaling
+power.
+Though the results suggest that price location and intention ratio inﬂuence market reactions from
+the announcement day to 60 days afterward, we argue that the ﬁndings may be somewhat inﬂuenced
+by the two-month execution period. In other words, the signiﬁcant impact of the two announcing variables on 61-day CARs may be mainly attributed to the effects on 41-day CARs. Therefore, it is necessary
+to exclude the two-month execution period from the 61-day CARs and re-examine the results. These
+are shown in column 8 of Table 5. Compared with the signiﬁcantly positive impacts of intention ratio
+on 41- and 61-day CARs, they are insigniﬁcant when the period covers only one month after the termination of the programs. It appears, then, that the inﬂuence of intention ratio is, at best, only part of the
+explanation. This makes sense since intention ratio is disclosed after the completion of the programs,
+leading to the decay of this information. In contrast to intention ratio, the impact of price location is signiﬁcantly negative, as expected. This reveals that price location is an important determinant of market
+responses, and that the inﬂuence of price location is not only between the execution periods but also
+after the termination of the programs. Moreover, as expected, buyback motivation is not a good predictor of market responses since the impact of purpose dummy remains insigniﬁcant. Apparently, our
+ﬁndings indicate that, among those announcing information, price location remains the most crucial
+factor that might affect market reactions even after the termination of the programs. Such information can continue inﬂuencing market responses for at least one month after the completion of the
+programs.
+
+4. Concluding remarks
+To the best of our knowledge, one unique feature of the Taiwanese market is the speciﬁc information disclosure of OMR programs. Accessing the information disclosure required by TSEC, this
+paper investigates whether markets behave differently in response to the announcing variables.
+Several interesting results are obtained. First, the empirical results indicate that, on average, the
+market underreacts to OMR announcements in Taiwan, since CARs continue to be signiﬁcantly positive for at least three months. Second, we ﬁnd that the percentage of shares to be repurchased is
+positively related to announcement effect and the market responses of the entire execution period.
+However, the positive effect is insigniﬁcant one month after the termination of the programs. Third,
+price location is signiﬁcantly and negatively related to market responses during the entire execution period; such effects can last one month even after the termination of the programs. We also
+suggest that the negative association between price location and market responses is due to higher
+premiums rather than undervaluation. That is, lower price location implies a higher premium and
+results in larger market responses. Finally, our ﬁndings reveal that the motivation for conducting an
+OMR program does not affect the behavior of stock prices, suggesting that the announced purpose is
+irrelevant.
+
+Appendix A. Appendix. Variable Deﬁnition
+A detailed description of construction of all variables is shown in Table A1
+
+74
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+Table A1
+
+Variables
+
+Abbreviation
+
+Panel A: information variables
+Target
+Intension volume
+Price location
+
+Location
+
+Motivation for the
+repurchase
+Panel B: control variables
+Firm size
+
+Purpose
+
+Book-to-market ratio
+
+BTM
+
+Stock return volatility
+Leverage ratio
+Binary variable for
+technique sector
+Insider ownership
+
+StdRtn
+Leverage
+Tech
+
+Past cumulative
+abnormal return
+Return of assets
+
+CAR20B
+
+Size
+
+Insider
+
+ROA
+
+Description
+The ratio of number of shares intended to be repurchased to number of
+shares outstanding
+The ratio of the stock price in excess of the ﬂoor price to the gap
+between the ceiling price and the ﬂoor price
+It takes the value of 1 if the repurchased shares are to be given to
+employees as part of their compensation packages and 0 otherwise
+The natural logarithm of the previous quarter’s total assets prior to the
+announcement
+The ratio of previous quarter’s book value of equity to the market
+value before the announcement
+The standard deviation of daily returns over the estimated period
+The ratio of previous quarter’s total liability to total assets
+It takes the value of one for technique ﬁrms and 0 otherwise
+The sum of the previous quarter’s percentage ownership of managers,
+directors, supervisors, and block shareholders
+The cumulative abnormal return for the period before the
+announcement window, days −20 to −1
+The ratio of previous quarter’s earnings before interest and tax (EBIT)
+to total assets
+
+References
+Baker, H.K., Powell, G.E., Veit, E.T., 2003. Why companies use open-market repurchase: a managerial perspective. Quarterly
+Review of Economics and Finance 43 (3), 483–504.
+Bradley, D.J., Jordan, B.D., Ritter, J.D., 2006. Analyst behavior following IPOs: the “bubble period” evidence. Review of Financial
+Studies 21 (1), 101–133.
+Comment, R., Jarrell, G., 1991. The relative signaling power of Dutch-auction and ﬁxed-price self-tender offers and open-market
+share repurchases. Journal of Finance 46 (4), 1243–1271.
+Dann, L., 1981. Common stock repurchases: an analysis of returns to bondholders and stockholders. Journal of Financial Economics 9 (2), 113–138.
+Dann, L., 1983. Is your common stock really worth buying back? Director and Boards 7 (4), 23–29.
+D’Mello, R., Shroff, P.K., 2000. Equity undervaluation and decisions related to repurchase tender offers: an empirical investigation. Journal of Finance 55 (5), 2399–2424.
+Firth, M., Leung, T.Y., Rui, O.M., 2010. Double signals or single signal? An investigation of insider trading around share repurchases. Journal of International Financial Markets, Institutions and Money 20 (4), 376–388.
+Grullon, G., Michaely, R., 2004. The information content of share repurchase programs. Journal of Finance 59 (2), 1649–1684.
+Hatakeda, T., Isagawa, N., 2004. Stock price behavior surrounding stock repurchase announcements: evidence from Japan.
+Paciﬁc-Basin Finance Journal 12 (3), 271–290.
+Howell, J.C., Payne, J.D., 2004. Mixed messages: open-market repurchases following stock acquisitions. Financial Review 39 (3),
+367–387.
+Ikenberry, D.L., Lakonishok, J., Vermaelen, T., 1995. Market underreaction to open market share repurchases. Journal of Financial
+Economics 39 (2–3), 181–208.
+Ikenberry, D.L., Vermaelen, T., 1996. The option to repurchase stock. Financial Management 25 (4), 9–24.
+Ikenberry, D.L., Lakonishok, J., Vermaelen, T., 2000. Stock repurchase in Canada: performance and strategic trading. Journal of
+Finance 55 (5), 2373–2397.
+Jung, S.C., Lee, Y.G., Thornton Jr., J.H., 2005. An empirical comparison between operations of stabilization fund and stock
+repurchases in Korea. Paciﬁc-Basin Finance Journal 13 (3), 319–341.
+Liao, T.L., Ke, M.C., Yu, H.T., 2005. Anomalous price behaviour around stock repurchases on the Taiwan Stock Exchange. Applied
+Economics Letters 12 (1), 29–39.
+Massa, M., Rehman, Z., Vermaelen, T., 2007. Mimicking repurchases. Journal of Financial Economics 84 (3), 624–666.
+McNally, W.J., 1999. Open market stock repurchase signaling. Financial Management 28 (2), 55–67.
+Maxwell, W.F., Stephens, C.P., 2003. The wealth effects of repurchases on bondholders. Journal of Finance 58 (2), 895–919.
+Nohel, T., Tarhan, V., 1998. Share repurchases and ﬁrm performance: new evidence on the agency costs of free cash ﬂow. Journal
+of Financial Economics 49 (2), 187–222.
+Oded, J., 2005. Why do ﬁrms announce open-market repurchase programs? Review of Financial Studies 18 (1), 271–300.
+Spiess, D.K., Pettway, R.H., 1997. The IPO and ﬁrst seasoned equity sale: issue proceeds, owner/managers’ wealth, and the
+underpricing signal. Journal of Banking and Finance 21 (7), 967–988.
+
+S.-Y. Cheng, H. Hou / Int. Fin. Markets, Inst. and Money 27 (2013) 59–75
+
+75
+
+Stephens, C., Weisbach, M., 1998. Actual share reacquisitions in open-market repurchase programs. Journal of Finance 53 (1),
+313–333.
+Vermaelen, T., 1981. Common stock repurchases and market signaling: an empirical study. Journal of Financial Economics 9
+(2), 139–183.
+Vermaelen, T., 1984. Repurchase tender offers, signaling, and managerial incentives. Journal of Financial and Quantitative
+Analysis 19 (2), 163–181.
+White, H., 1980. A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. Econometrics 48 (4), 817–838.
+
+

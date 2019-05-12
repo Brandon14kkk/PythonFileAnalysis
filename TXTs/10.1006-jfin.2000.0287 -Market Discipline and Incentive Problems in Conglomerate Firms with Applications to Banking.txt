@@ -1,0 +1,2322 @@
+Journal of Financial Intermediation 9, 240–273 (2000)
+doi:10.1006/jfin.2000.0287, available online at http://www.idealibrary.com on
+
+Market Discipline and Incentive Problems in Conglomerate
+Firms with Applications to Banking1
+Arnoud W. A. Boot2
+Finance Group, University of Amsterdam, The Netherlands, and CEPR
+
+and
+Anjolein Schmeits3
+John M. Olin School of Business, Washington University, St. Louis, Missouri
+Received September 17, 1998
+
+This paper analyzes the optimality of conglomeration. We show that the potential benefits
+of conglomeration depend critically on the effectiveness of market discipline for stand-alone
+activities. Effective market discipline reduces the benefits of conglomeration. With ineffective market discipline of stand-alone activities, conglomeration would further undermine
+market discipline, but may nevertheless be beneficial. In particular, when rents are not too
+high, the diversification benefits of conglomeration dominate the negative incentive effects.
+A more competitive environment therefore induces conglomeration. We also show that introducing internal cost-of-capital allocation schemes creates internal market discipline that
+complements the weak external market discipline of a conglomerate. Our analysis sheds
+light on the Barings debacle and other recent developments in the banking sector. Journal
+C 2000 Academic Press
+of Economic Literature Classification Numbers: G20, G21, G34. °
+
+1 We thank Sudipto Bhattacharya, Erik Berglöf, Patrick Bolton, Peter Ove Christensen, Phil
+Dybvig, Mark Flannery, Dalia Marin, Stewart Myers, M. P. Narayanan, Raghu Rajan, Anjan Thakor,
+and participants of the Risk Management in Banking Conference at the Wharton Financial Institutions
+Center (October 1996), the Annual Meetings of the Western Finance Association in San Diego (June
+1997), the European Finance Association in Vienna (August 1997), the CEPR Conference on Core
+Competencies, Diversification and the Role of Internal Capital Markets in Naples (January 1999), and
+seminar participants at the Bank of England, Tilburg University, the University of Amsterdam and the
+University of Michigan for their helpful comments.
+2 Corresponding address: Roetersstraat 11, 1018 WB Amsterdam, The Netherlands. Fax: +31 20
+525 5285. E-mail: awaboot@fee.uva.nl.
+3 Corresponding address: Campus Box 1133, One Brookings Drive, St. Louis, MO 63130-4899.
+Fax: (314) 935 6359. E-mail: schmeits@olin.wustl.edu.
+
+240
+1042-9573/00 $35.00
+
+c 2000 by Academic Press
+Copyright °
+All rights of reproduction in any form reserved.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+241
+
+1. INTRODUCTION
+How much should firms diversify? Although few would deny that some diversification is necessary, the optimal scope of a firm’s activities is not well-defined.
+This paper focuses on internal incentive problems that may arise from interactions between different divisions in a conglomerate firm. In particular, it analyzes
+the impact of market discipline, internal discipline and product market rents in
+determining whether conglomeration is optimal.
+The intuition developed in the paper is as follows. We consider two divisions,
+A and B, that need to be financed externally and either may operate as standalone firms or may be integrated in a two-divisional (conglomerate) firm. Division
+A makes a partially observable risk choice that affects its cash flows, whereas
+division B’s risk is initially exogenous. The degree of market discipline determines
+the sensitivity of division A’s (stand-alone) funding costs to its risk-taking behavior.
+That is, market discipline affects the speed of adjustment of the funding cost to
+risk choices.
+If the two divisions are integrated in one firm, the pooled funding cost of the
+conglomerate reflects only partially the risk choice of each division; the divisions
+co-insure each other. That is, the conglomerate firm’s returns are more predictable,
+and ceteris paribus default is less likely. This has three effects on the risk choice of
+division A. First, the co-insurance lowers the pooled funding rate and hence reduces
+risk-taking incentives induced by limited liability. We label this the diversification
+effect of co-insurance. This effect considered in isolation improves division A’s
+risk choice. Second, the default probability of the firm becomes less sensitive to
+risk-taking by division A. This reduces the expected costs of financial distress,
+thus inducing extra risk-taking (negative incentive effect of co-insurance). Third,
+since the pooled funding rate of the conglomerate firm is less sensitive to division
+A’s risk choice than the funding rate of division A as a stand-alone entity (division
+B “smoothes”), division A internalizes only a part of the higher funding cost of the
+combined firm due to greater risk-taking. Thus, market discipline becomes less
+effective, inducing free-riding inefficiencies in division A’s decisions (negative
+incentive effect of reduced market discipline).
+Our main insights are as follows. How effective the market disciplines standalone activities (divisions) matters considerably in determining the benefits of
+conglomeration; effective market discipline reduces the benefits of conglomeration. The reason is that the risk-taking incentives of a stand-alone activity are
+fully mitigated if the activity is exposed to optimal market discipline. Conglomeration then can only worsen decisions. With ineffective market discipline, conglomeration can help. In particular, when rents are not too high, the diversification benefits of conglomeration may dominate the negative incentive effects. That
+is, with modest rents diversification is valuable, because it helps protect these
+rents and reduces risk-taking incentives induced by limited liability. This creates a clear link between the optimality of conglomeration and the competitive
+
+242
+
+BOOT AND SCHMEITS
+
+environment: a more competitive environment (lower rents) strengthens the case
+for conglomeration.
+We also analyze the effectiveness of internal cost-of-capital allocation schemes
+and managerial incentive contracts. Could these alter the trade-off between conglomeration and stand-alone organizations? We show that internal cost-of-capital
+allocation schemes complement the weak external market discipline of the conglomerate and favor conglomeration. In this context, we argue that these schemes
+should respond to actual risk choices, rather than anticipated risk choices. We also
+show that due to precommitment problems, the optimality of conglomeration in
+our framework cannot be mimicked through the use of managerial incentive contracts. That is, no robust incentive contract can be written between the manager
+and the shareholders of stand-alone divisions that perfectly replicates the divisions’
+incentives in a conglomerate firm.
+These observations highlight the costs and benefits of conglomeration and the
+role that the competitive environment plays. We believe these issues are particularly
+acute in the context of banking. Modern commercial banking has been transformed
+from a purely relationship-type business into one where a transaction-orientation—
+with proprietary trading as a prime example—has become more prevalent. The risk
+profile of these activities is very different from that of traditional banking. This
+could invite cross-subsidization and free-riding in conglomerate banks. In particular, the relatively low-risk relationship banking activities may subsidize the more
+risky trading activities. This would reduce market discipline on the trading activities and could invite more risk-taking. Some noteworthy recent financial debacles
+highlight the conflicts between proprietary trading and relationship banking activities. In particular, the demise of the British merchant bank Barings illustrates the
+conflict between relationship banking (Barings’ traditional merchant bank activities in London) and trading activities (its infamous Singapore operations). While
+Barings was an extreme case, the friction between relationship banking and trading
+is typical for modern banking.
+Our analysis relates to the broader issue of the determinants of the boundaries of
+firms; see, for example, Grossman and Hart (1986) and Hart (1995). These contributions to industrial economics generally focus on synergies, i.e., complementarity
+or joint production. A related literature focuses, as we do, on the co-insurance benefits of conglomeration in the absence of synergies. These papers show that the
+resulting lower variability of cash flows may increase the value of tax shields
+(see Flannery et al., 1993), increase the effectiveness of debt as a bonding device
+(see Li and Li, 1996) or improve investment incentives (see Kahn, 1992). While
+co-insurance is an important consideration in our analysis as well, our primary
+focus is on the free-riding incentives of divisions. A related paper in this respect
+is Fulghieri and Hodrick (1997), which also studies interactions and agency problems between divisions in a conglomerate firm. However, in contrast to our work,
+their focus is on synergistic mergers.
+Our analysis of internal cost-of-capital allocation schemes is related to recent
+studies that examine the allocation of internally and externally raised capital to
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+243
+
+investment projects or divisions within a firm in the presence of information and
+incentive problems. Stein (1997) analyzes the role of corporate headquarters in
+allocating scarce resources to competing projects in an internal capital market.
+Rajan and Zingales (1999) and Wulf (1998) address the adverse consequences
+of power struggles and influence costs on the allocation of capital within firms.
+A growing empirical literature furthermore documents that the diversification associated with conglomeration destroys value. Berger and Ofek (1995), Lamont
+(1997), and Shin and Stulz (1998) suggest that this diversification discount arises
+from investment inefficiencies caused by inefficient cross-subsidies between divisions in a conglomerate firm. In addition, a large literature has emerged on internal
+capital allocation and performance measurement systems like RAROC and EVA in
+financial institutions (see, for example, James and Houston, 1996, and Zaik et al.,
+1996). Stoughton and Zechner (1999) analyze financial institutions’ decentralized
+capital allocation decisions in the presence of information asymmetries and derive
+an optimal capital allocation mechanism. These papers, however, do not consider
+free-riding problems between divisions, but focus instead on the optimal allocation
+of funds across divisions to improve investment efficiency. We emphasize that internal cost-of-capital allocation mechanisms are pivotal, once incentive problems
+and free-riding are considered.
+The organization of the paper is as follows. Section 2 introduces the formal
+model and contains the analysis. Internal cost-of-capital allocation mechanisms
+and incentive contracting issues are considered in Section 3. Section 4 focuses
+on banking, in particular on the interactions between relationship banking and
+proprietary trading activities. In Section 5 we discuss further implications of our
+analysis and empirical evidence. Section 6 contains the conclusions. All the proofs
+are in the Appendix.
+2. THE MODEL: SETUP AND ANALYSIS
+2.1. Specification
+A. Production possibilities for divisions. Consider two divisions, division A
+and division B. Each needs $1 of external financing in order to invest in a project.
+All funding is raised through debt contracts.4 The riskless interest rate is assumed
+to be zero and there is universal risk neutrality. At t = 0, the manager of division
+A undertakes the project and decides on the monitoring intensity m that affects the
+risk of the project. A higher monitoring level corresponds to lower risk. The private
+monitoring cost equals V (m), with V 0 (m) > 0 and V 00 (m) > 0. A level of m ∈ [0, 1]
+results in a success probability θ + (1 − θ )m, with θ ∈ [1/2, 1].5 The parameter θ
+is publicly observable; m is only partially observable and nonverifiable. At t = 1
+4
+
+The use of debt in our paper can be rationalized on grounds of nonverifiability, and hence noncontractibility, of the divisions’ cash flows.
+5 The condition θ ≥ 1/2 guarantees the equivalence between monitoring and risk choices; i.e., given
+θ ≥ 1/2 increasing monitoring effort is equivalent to reducing risk.
+
+244
+
+BOOT AND SCHMEITS
+
+project returns are realized. In case of success the project return is X > 1 and in
+case of failure the return equals zero.
+The capitalized future profits of division A, incorporating all expected cash
+flows from the periods beyond t = 1, are represented by the parameter F. In case
+of default, division A is terminated and F will be lost.6 Division B’s cash flow
+distribution is initially exogenous. Its project generates an end-of-period (t = 1) return of Y > 1 with a probability p ∈ (0, 1) and 0 with probability (1 − p). Divisions
+A and B have uncorrelated returns. In Section 4, we generalize this structure.
+B. Organizational structure, divisional objectives and sequence of events. We
+distinguish two organizational structures:
+(1) Division A and division B operate separately and independently (standalone option). Each is funded directly and independently in a competitive credit
+market.
+(2) Division A and division B are integrated in one firm and funded as a conglomerate. In this case both divisions co-insure each other.7
+We assume that the two-divisional firm will default only if the projects of both
+divisions fail. This incorporates co-insurance in the model.8
+An important feature of our model is the free-riding due to a moral-hazard-inteams effect (see Holmström, 1982). We have each division being run by its own
+manager. Given the absence of synergies, the natural assumption is that divisional
+managers care only about the returns of their own division. This introduces the
+moral-hazard-in-teams effect with conglomeration. In particular, in the absence
+of an internal cost-of-capital allocation mechanism, the funding cost of each division only partially reflects the risk choices made by that division. That is, the
+consequences of each division’s decisions are shared by all, since the market only
+assesses the overall riskiness of the firm. A division therefore can increase its
+risk without being fully charged for the incremental cost, even if external market
+discipline is perfect.
+The sequence of events is as follows. Prior to t = 0 the organizational structure
+of the firm is chosen. At t = 0 the divisions’ activities are funded, and both divisions invest $1. Subsequently, the manager of division A chooses the division’s
+monitoring intensity. At t = 1 cash flows are realized and repayments are made.
+C. Determination of interest rates and market discipline. The funding costs
+are determined in a competitive capital market such that the lenders earn zero
+6
+
+Observe that this implies that F cannot be expropriated from division A or redistributed ex post
+without complete loss in value. F can be thought of as the future profits arising from investing in
+proprietary information or other division-specific investments. Alternatively, the loss of the value F
+could be interpreted as a bankruptcy cost.
+7 Observe that we have a simple two-divisional structure and therefore can say little about the relative
+advantages of different organizational forms within a conglomerate (functional versus divisional). See
+Harris and Raviv (1999) for an analysis of these issues. We assume that each divisional manager has a
+comparative advantage in running his or her own division, even in a conglomerate.
+8 This assumption implies that the cash flows realized by each division are sufficiently high to
+facilitate full debt repayments for the conglomerate and thus survival of both divisions.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+245
+
+profits. Under complete information, the interest factors for the stand-alone divisions A and B are
+RA (m) =
+
+1
+θ + (1 − θ )m
+
+(1)
+
+respectively
+RB =
+
+1
+.
+p
+
+(2)
+
+For the conglomerate we have:
+RC (m) =
+=
+
+1
+θ + (1 − θ )m + {1 − [θ + (1 − θ)m]} p
+1
+.
+1 − (1 − θ )(1 − m)(1 − p)
+
+(3)
+
+Observe that RC (m) < RA (m) and RC (m) < RB , at any level of monitoring m. This
+reflects the diversification benefit of co-insurance.
+We now introduce market discipline and partial observability of m. Let α ∈ [0, 1]
+be the probability that the actual monitoring choice m is detected by the lender.
+Lenders will then optimally adjust the funding costs to their observation of m and
+thus respond to the division’s risk choice. Recall that even then m is not verifiable
+and hence not contractible. This mechanism is similar to the role that credit ratings
+play in the determination of funding costs. If m is not observed, all lenders can do
+is rationally anticipate the firm’s privately optimal monitoring choice.
+This formulation captures the notion that the market obtains information about
+the credit quality of the firm over time, which then becomes reflected in the firm’s
+funding cost. The parameter α reflects the amount of information and/or the speed
+at which information is obtained in the market and can be used for repricing
+purposes.9 It can also be interpreted as the precision of the information received
+by the market. More noise obscures repricing and hence reduces market discipline.
+Observe that α = 0 implies no market discipline and α = 1 implies perfect market
+discipline. Firms then face the following expected funding costs:
+Ri (α, m) = α Ri (m) + (1 − α)Ri ,
+
+(4)
+
+The degree of market discipline α may depend on the type and specificity of a division’s assets.
+It represents the degree of observability of monitoring levels chosen in the division and thus reflects
+the transparency of a division’s assets or operations. In our model formulation, the market perfectly
+observes the firm’s risk choice with probability α. This risk choice then will be immediately incorporated
+in the cost of funding for the firm. Obviously, this formulation is just to simplify matters. What we
+have in mind is the interpretation emphasized in the text. Alternatively, we could have modeled the
+firm’s debt maturity structure. With short-term debt and partially irreversible risk choices, a firm’s risk
+choice would directly affect its future funding cost (see Flannery, 1994).
+9
+
+246
+
+BOOT AND SCHMEITS
+
+with i ∈ {A, C}, where m is the actual monitoring choice and α the probability
+of detection. The monitoring choice affects RA (α, m) and RC (α, m) directly if
+detected (via its effect on RA (m) respectively RC (m)). If the monitoring choice is
+undetected, which happens with probability (1 − α), the expected funding costs
+depend only on the lenders’ rational anticipation of the division’s risk choice. RA
+and RC therefore do not directly depend on m. Thus, the funding cost set by the
+market either only anticipates the risk choice after contracting or responds directly
+to the risk choice. This implies that a firm cannot costlessly increase risk ex post.
+Since the firm now bears some of the additional costs from suboptimal risk-taking,
+it may be discouraged to do so. In division B no moral hazard is present, thus RB
+is independent of the degree of market discipline and is as given in (2).
+2.2. Analysis
+Since the success probability of division B is independent of its manager’s
+actions, the analysis will proceed from the perspective of division A. We start
+with division A’s choice of risk, i.e., its monitoring intensity. As explained in
+Section 2.1.B, the manager of division A maximizes his or her divisional return
+net of private monitoring costs.
+A. Risk choices in a stand-alone firm. With self-financing, the stand-alone division A maximizes [θ + (1 − θ )m](X + F) − V (m). The first-best level of monitoring intensity m ∗ chosen by the divisional manager satisfies the first order condition (1 − θ)(X + F) = V 0 (m ∗ ). This is our benchmark. With complete outside
+debt financing, the manager of a stand-alone division A solves the following optimization problem:
+Max[θ + (1 − θ)m](X − RA (α, m) + F) − V (m)
+m
+
+s.t. RA =
+
+1
+.
+θ + (1 − θ )m
+(5)
+
+The constraint in (5) guarantees that the lenders rationally anticipate the monitoring
+choice of the division. The level m̃ A of monitoring chosen follows from the first
+order condition, taking into account the expression for RA (α, m) as given in (4):
+∂ RA (m̃ A )
+∂m
+(1 − θ )(1 − α)
+= V 0 (m̃ A ) ⇔ θ + (1 − θ )m̃ A =
+.
+(1 − θ )(X + F) − V 0 (m̃ A )
+
+(1 − θ)(X − RA (α, m̃ A ) + F) − [θ + (1 − θ)m̃ A ]α
+
+(6)
+
+The following results can now be derived.
+LEMMA 1. The stand-alone division A chooses too much risk, i.e., underinvests in monitoring, m̃ A < m ∗ . This underinvestment is more severe the higher the
+expected funding costs.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+247
+
+LEMMA 2. The monitoring intensity m̃ A in the stand-alone division A strictly
+increases with the level of market discipline α imposed and reaches the first-best
+level m ∗ if market discipline is perfect.
+Lemma 1 shows the discrepancy between the first-best and the actual level of
+monitoring chosen. In the absence of market discipline, the financial market can
+only passively anticipate risk choices. This will aggravate moral hazard. Lemma 2
+shows that market discipline mitigates moral hazard by creating a mechanism for ex
+post settling up. This will make the manager reluctant to reduce monitoring effort.
+With perfect market discipline (α = 1), the divisional manager fully internalizes
+the consequences of his or her monitoring decision and first best obtains.
+B. Risk choices in a conglomerate. If divisions A and B are integrated in a
+conglomerate firm, the manager of division A determines his or her monitoring
+choice by solving the following optimization problem:10
+Max[θ + (1 − θ)m](X − RC (α, m)) + {[θ + (1 − θ )m]
+m
+
++ (1 − [θ + (1 − θ)m]) p}F − V (m)
+
+s.t. RC =
+
+1
+.
+1 − (1 − θ )(1 − m)(1 − p)
+(7)
+
+Observe that the future rents F are available even if division A fails, as long as
+division B is successful; i.e., the divisions A and B co-insure each other. Let m̃ C
+be division A’s monitoring choice in a conglomerate. The first-order condition for
+division A can be expressed as follows:
+(1 − θ)(X − RA (α, m̃ C ) + F) − [θ + (1 − θ )m̃ C ]α
+
+∂ RA (m̃ C )
+∂m
+
++ (1 − θ)[RA (α, m̃ C ) − RC (α, m̃ C )] − (1 − θ ) p F − [θ + (1 − θ )m̃ C ]α
+¸
+·
+∂ RC (m̃ C ) ∂ RA (m̃ C )
+(8)
+−
+= V 0 (m̃ C ).
+×
+∂m
+∂m
+We have rearranged the terms in (8) to disentangle the various effects that distinguish the conglomerate from the stand-alone case. We first derive the following
+result.
+10 As in the stand-alone case, the manager maximizes his or her divisional return. The specification
+incorporates co-insurance benefits; e.g., when division A fails and division B succeeds, bankruptcy
+is averted and future rents F are preserved. Observe that the specification in (7) does not include a
+subsidy from division A to division B in case the latter defaults. It is somewhat arbitrary whether or
+not the manager of division A would take such a subsidy into account. We have assumed here that
+the manager cares about his or her own payoffs and not about the subsequent reallocations of profits.
+Alternatively, we could have introduced such subsidies in (7). This would, however, not have affected
+our results qualitatively. We will return to the divisional manager’s objective function in Section 3.2,
+where we discuss incentive contracting issues.
+
+248
+
+BOOT AND SCHMEITS
+
+LEMMA 3. The impact of market discipline on division A as part of a conglomerate (two-divisional) firm at any given level of monitoring m is strictly less than
+its impact on division A as a stand-alone activity.
+The intuition is that in a conglomerate firm the consequences of division A’s
+moral hazard are shared by both divisions. Division A’s funding cost therefore
+only partially reflects its monitoring choice. In other words, the overall expected
+pooled funding cost RC (α, m) reflects division A’s risk choices less than RA (α, m)
+does for any given level of m. As a consequence, market discipline will be less
+effective in a conglomerate, even if we maintain our assumption that outsiders can
+detect the monitoring choices of each division as easily in the conglomerate as in
+the stand-alone case.11
+How does conglomeration affect the monitoring choice of division A? This can
+be analyzed by comparing (6) to (8). Observe that the first two terms on the left
+hand side (LHS) of Eq. (8), which can also be found in (6), specify the marginal
+return to monitoring effort of division A as a stand-alone firm. Conglomeration
+introduces three additional effects:
+—First, a diversification effect of co-insurance, represented in the third term
+on the LHS of Eq. (8). This diversification effect results from the lower funding
+costs RC (α, m) of a two-divisional firm and positively affects division A’s choice
+of monitoring.12
+—Second, an incentive effect of co-insurance, represented in the fourth term on
+the LHS of Eq. (8). The co-insurance effect guarantees that division A may capture
+its future rents F even if it fails. This occurs whenever division B is successful.
+Division A therefore can free-ride on division B in a two-divisional firm. This
+effect induces division A to increase risk, i.e., reduce monitoring;
+—Third, an incentive effect due to a reduction in the impact of external market
+discipline, represented in the fifth term on the LHS of Eq. (8). This induces additional free-riding and adds to the negative incentive effect from co-insurance; it
+adversely affects division A’s choice of monitoring and thus increases risk.
+We now have the following two results.
+PROPOSITION 1. (i) For a given level of market discipline α, the monitoring
+intensity chosen by division A is higher (=lower risk) in a conglomerate than as
+a stand-alone firm for rents F below a threshold F . If F > F , the reverse is true.
+∂F
+¯ (higher ¯α) shrinks the region
+Furthermore, ∂α¯ < 0. Thus, more market discipline
+11 One would expect that a conglomerate obscures the decisions taken in individual divisions. The
+reduced transparency, which is effectively a reduction in α, would further undermine market discipline
+in a conglomerate. Observe that this would strengthen the result in Lemma 3.
+12 From Eq. (3) it is clear that R (α, m) < R (α, m) for a given m ∈ [0, 1], due to the diversification
+C
+A
+benefits from co-insurance. However, division A may choose a different effort level m̃ C in a conglomerate firm from the level m̃ A selected in the stand-alone case. The inequality RC (α, m̃ C ) < RA (α, m̃ A )
+continues to hold if and only if m̃ C > (m̃ A − p)/(1 − p), i.e., if the effort level chosen in a conglomerate
+firm is still sufficiently high, although it may be lower than in a stand-alone firm.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+249
+
+for which conglomeration produces more monitoring. (ii) For a given level of rents
+F, division A chooses a higher monitoring intensity in a conglomerate if market
+discipline α is below a threshold α ; the reverse holds for α > α . Furthermore,
+∂α
+¯
+< 0. Thus, higher rents diminish¯the region for which conglomeration
+increases
+∂ ¯F
+monitoring.
+The first part of the proposition can be explained as follows. The choice of
+monitoring intensity made by division A results from a trade-off between the
+positive diversification effect and the negative incentive effects. If the level of
+capitalized future rents F is high, the negative incentive effects are dominant and
+division A’s monitoring intensity is reduced relative to the stand-alone case. For
+smaller values of rents, the diversification effect is dominant, resulting in lower risk
+(higher monitoring intensity) in a conglomerate. The intuition is that high values of
+rents induce substantial monitoring in the stand-alone case. Conglomeration then
+worsens incentives and leads to lower monitoring because rents are less at risk (that
+is, the negative incentive effect of co-insurance dominates). For low values of rents,
+limited liability induces low monitoring in the stand-alone case. Conglomeration
+then helps by mitigating the impact of limited liability (that is, the diversification
+∂F
+effect of co-insurance dominates). The comparative statics result ∂α¯ < 0 shows that
+with more market discipline, conglomeration worsens incentives for lower values
+of rents. In the limit, we have:
+COROLLARY 1 (Perfect market discipline). With perfect market discipline
+(α = 1), a stand-alone division attains first-best monitoring but a conglomerate
+does not.
+The intuition is straightforward. Nearly perfect market discipline does not leave
+much value to conglomeration. That is, with perfect market discipline, the standalone firm fully internalizes its monitoring choice. At the other extreme, with no
+market discipline, the prospects for conglomeration are best, resulting in a large
+interval of values of F for which conglomeration improves incentives.
+The intuition for the second part of Proposition 1 is analogous. If the stand-alone
+division A is subject to little market discipline (low α), conglomeration improves
+division A’s monitoring incentives, although the effectiveness of market discipline
+is further reduced (see the last term on the LHS of Eq. (8)). The reason is that then
+the diversification benefits of co-insurance dominate. For higher market discipline
+of the stand-alone activities (high α), the impact of the reduced effectiveness
+of market discipline in a conglomerate becomes larger and will at some point
+dominate the positive diversification effect of co-insurance. This results in a lower
+monitoring intensity in division A in a conglomerate relative to the stand-alone
+option. The proposition also shows that for higher levels of capitalized future rents
+F, the interval of values of α for which risk choices are improved in a conglomerate
+becomes smaller. The negative incentive effect from co-insurance then becomes
+more important and aggravates the reduced effectiveness of market discipline in a
+∂α
+conglomerate. This explains the comparative statics result ∂ ¯F < 0.
+
+250
+
+BOOT AND SCHMEITS
+
+C. Choice of organizational structure. Prior to the monitoring decision at
+t = 0, both divisions decide on an organizational structure. Conglomeration is
+optimal if it generates the highest aggregate surplus net of funding costs. In this
+case, an optimal sharing rule between the divisions can always be found such that
+both divisions prefer to be integrated in a conglomerate firm.
+The choice of organizational structure is not fully determined by the comparison
+of incentive effects. One other effect is at work. Conglomeration reduces the probability that future rents are lost due to default, ignoring the effect of incentives on
+risk choices. This favors conglomeration. Therefore, conglomeration is preferred
+when risk choices in a conglomerate are better, but also sometimes when they are
+not. The following result can be derived.
+PROPOSITION 2. (i) For low levels of market discipline α, conglomeration is
+preferred if rents F are below a threshold F̄ (F ≤ F̄, with F̄ > F ), whereas the
+¯ high levels of
+stand-alone alternative is preferred if rents exceed the threshold. For
+market discipline α, conglomeration is preferred for intermediate values of rents
+(F0 ≤ F ≤ F̄, with F0 > F ), whereas the stand-alone alternative is preferred for
+¯ (0 < F < F and F > F̄).13 (ii) For small to medium
+low and high values of rents
+0
+levels of rents, conglomeration is preferred if market discipline is sufficiently weak
+(α ≤ ᾱ, with ᾱ > α ), whereas the stand-alone alternative is preferred if market
+¯ For high levels of rents, the stand-alone alternative always
+discipline is strong.
+dominates.
+The intuition is similar to that of Proposition 1. The stand-alone division A
+would benefit from committing to a higher monitoring intensity (observe that
+m̃ A < m ∗ ; see Lemma 1). Conglomeration improves matters if division A benefits
+sufficiently from the diversification effect of co-insurance in a conglomerate. From
+Proposition 1, we know that this holds for low levels of α and relatively low values
+of capitalized future rents F. Consider first part (ii) of Proposition 2. This is
+analogous to Proposition 1, except that the cut-off ᾱ exceeds that in Proposition 1
+(α ). Conglomeration is now optimal for a wider range of values of the market
+¯
+discipline
+parameter α. This is because of the better preservation of future rents in
+a conglomerate.
+Consider now part (i) of Proposition 2. According to Proposition 1, if F is relatively high (F > F ), the negative incentive effect from co-insurance dominates
+¯
+and division A chooses
+more risk in a conglomerate. As Proposition 2 shows,
+conglomeration may then initially still be optimal because the expected value arising from the preservation of future rents exceeds the losses due to distorted risk
+choices. But for F sufficiently large (i.e., for F > F̄ > F ), the negative incentive
+¯
+effects from co-insurance will dominate and the stand-alone
+option becomes optimal. This is illustrated in the first panel of Fig. 1. Figure 1 illustrates how the extra
+13 There are parametric conditions for which F and/or F̄ do not exist, i.e., for which the set (F , F̄]
+0
+0
+is empty or for which F̄ < 0. In that case the stand-alone option is always optimal. For more details,
+see the proof of Proposition 2.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+251
+
+FIG. 1. The difference in total expected surplus between conglomeration and the stand-alone
+option as a function of F.
+
+surplus generated by conglomeration vis-à-vis the stand-alone option depends on
+the level of rents F. In the figure the symbol 1 represents the difference between
+the aggregate surplus generated in the case of conglomeration and the aggregate
+surplus available in the stand-alone case.
+For high levels of market discipline α, conglomeration always worsens incentives. However, conglomeration will still be optimal if the rents at stake are
+
+252
+
+BOOT AND SCHMEITS
+
+sufficiently large (F > F0 ). If F becomes really large (F > F̄), the stand-alone option again becomes optimal, because the high rents induce maximum monitoring
+and thus minimal risk in the stand-alone case. Conglomeration can then only make
+matters worse. Thus, only for intermediate values of rents F can conglomeration
+be optimal. This is illustrated in the second panel of Fig. 1.
+We also observe from Fig. 1 that for very large values of rents F, those exceeding
+F C , conglomeration and the stand-alone organizational structure converge. Such
+a high value of rents induces a maximum feasible monitoring choice, with zero
+default risk. This is formalized in Corollary 2.
+COROLLARY 2 (Corner solution). If rents F become large (i.e., for F >F C ),
+both divisions are indifferent between the stand-alone alternative and conglomeration. In both organizational structures, division A then chooses the maximum
+monitoring intensity.
+This result obtains because default risk disappears at high values of F. If some
+default risk was to remain, even at the maximum feasible monitoring choice, the
+diversification benefit of conglomeration would make the conglomerate alternative
+optimal.
+2.3. Numerical Example
+In this section, we will illustrate our main results so far with a numerical example based on the following parameters: θ =1/2, p = 1/2, X = 2.75, Y = 4 and
+V (m) = 4m 2 . The results of our numerical analysis are summarized in Table I.
+Panel A presents the differences in the equilibrium risk choices in division A between the conglomerate and the stand-alone option, m̃ C − m̃ A , as a function of the
+degree of market discipline α ∈ [0, 1] and the level of capitalized future rents F.
+Panel B focuses on the optimal organizational structure of the divisions and shows
+the difference in surplus 1 between the conglomerate and the stand-alone option
+for the different levels of α and F.
+The numerical results illustrate the characterizations in Propositions 1 and 2.
+High rents F make the stand-alone option optimal: both improved monitoring
+incentives, m̃ C − m̃ A < 0, and a higher surplus of stand-alone vis-à-vis conglomeration; see the negative numbers for 1 in Panel B. Low market discipline improves
+monitoring choices in a conglomerate vis-à-vis stand-alone. In general, conglomeration is suboptimal for high levels of market discipline, except for intermediate
+values of rents.
+2.4. Discussion
+The general insights from the Propositions 1 and 2 are summarized in Table II.
+We observe from Table II that medium rents favor conglomeration, but that risk
+choices are generally worse (compare Panels A and B in Table I). This discrepancy between privately optimal risk choices and the optimal choice of organizational structure occurs because conglomeration preserves the future rents more
+
+253
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+TABLE I
+Overview of Results of Numerical Example
+F
+α
+
+0.00
+
+0.25
+
+0.50
+
+1.00
+
+2.00
+
+4.00
+
+∞
+
+8.00
+
+Panel A: Differences in monitoring incentives in division A (m̃ C − m̃ A ) as a function of α and F
+0.00
+0.10
+0.20
+0.30
+0.40
+0.50
+0.60
+0.70
+0.80
+0.90
+1.00
+
+0.0377
+0.0276
+0.0177
+0.0081
+−0.0012
+−0.0102
+−0.0189
+−0.0273
+−0.0356
+−0.0435
+−0.0514
+
+0.0282
+0.0183
+0.0086
+−0.0007
+−0.0098
+−0.0186
+−0.0271
+−0.0353
+−0.0434
+−0.0512
+−0.0589
+
+0.0188
+0.0091
+−0.0004
+−0.0095
+−0.0183
+−0.0269
+−0.0353
+−0.0434
+−0.0513
+−0.0590
+−0.0664
+
+0.0000
+−0.0092
+−0.0182
+−0.0270
+−0.0354
+−0.0436
+−0.0515
+−0.0593
+−0.0669
+−0.0743
+−0.0816
+
+−0.0369
+−0.0452
+−0.0534
+−0.0614
+−0.0692
+−0.0767
+−0.0840
+−0.0912
+−0.0982
+−0.1051
+−0.1118
+
+−0.1086
+−0.1155
+−0.1224
+−0.1291
+−0.1357
+−0.1422
+−0.1485
+−0.1546
+−0.1606
+−0.1665
+−0.1724
+
+−0.2462
+−0.2514
+−0.2564
+−0.2614
+−0.2662
+−0.2710
+−0.2757
+−0.2804
+−0.2849
+−0.2894
+−0.2938
+
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+
+Panel B: Difference in expected surplus in a conglomerate vis-à-vis the stand-alone option
+0.00
+0.10
+0.20
+0.30
+0.40
+0.50
+0.60
+0.70
+0.80
+0.90
+1.00
+
+0.0519
+0.0379
+0.0243
+0.0111
+−0.0016
+−0.0140
+−0.0259
+−0.0376
+−0.0489
+−0.0599
+−0.0706
+
+0.0987
+0.0835
+0.0688
+0.0547
+0.0409
+0.0276
+0.0146
+0.0020
+−0.0103
+−0.0222
+−0.0339
+
+0.1421
+0.1260
+0.1102
+0.0951
+0.0804
+0.0660
+0.0521
+0.0386
+0.0254
+0.0125
+−0.0001
+
+0.2192
+0.2012
+0.1836
+0.1664
+0.1499
+0.1338
+0.1182
+0.1028
+0.0878
+0.0732
+0.0588
+
+0.3347
+0.3135
+0.2926
+0.2721
+0.2521
+0.2328
+0.2139
+0.1954
+0.1772
+0.1593
+0.1420
+
+0.4143
+0.3879
+0.3617
+0.3359
+0.3106
+0.2858
+0.2615
+0.2378
+0.2145
+0.1915
+0.1685
+
+−0.0179
+−0.0517
+−0.0850
+−0.1177
+−0.1500
+−0.1819
+−0.2134
+−0.2446
+−0.2753
+−0.3055
+−0.3354
+
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+
+effectively, so that default is less likely, ceteris paribus. For very high levels of
+rents, F > F C , this is unimportant because both the stand-alone structure and the
+conglomerate involve low risk choices, with negligible default risk. Observe also
+from Table II that with sufficiently low rents and perfect market discipline (α → 1),
+TABLE II
+Optimal Organizational Structure as a Function of Competitive Environment (Inverse of Rents F)
+and Market Discipline/Transparency (α)
+F
+α
+
+Low
+
+Medium
+
+High
+
+F>F C
+
+Low
+High
+
+Conglomerate
+Conglomerate or
+stand-alone
+Stand-alone
+
+Conglomerate
+Conglomerate or
+stand-alone
+Conglomerate or
+stand-alone
+
+Stand-alone
+Stand-alone
+
+Indifferent
+Indifferent
+
+Stand-alone
+
+Indifferent
+
+Limit
+α→1
+
+254
+
+BOOT AND SCHMEITS
+
+the stand-alone alternative is preferred. While this limiting case is of interest in
+itself, combinations of low and medium–high levels of market discipline and rents
+may best characterize most real-world industries. A general implication from Table II is that conglomeration is an optimal response to increasing competition
+unless market discipline becomes nearly perfect.
+On a more fundamental level, firms may differ in asset-specificity and operate
+in different competitive environments. Asset-specificity could well be linked to
+transparency. High asset-specificity can give rise to proprietary information and
+lack of transparency, and hence little market discipline. This favors a conglomerate
+type of organization for such type of activity.14
+On a different note, the characterization in Table II also leads to insights about
+the heterogeneity of activities that should be combined in a conglomerate. Our
+analysis suggests that activities with low and high asset-specificity should not
+be mixed together. Assets with low asset-specificity benefit most from a standalone organization and exploit the considerable amount of market discipline. High
+asset-specificity activities should then only be combined with other high assetspecificity activities and would jointly benefit from the positive incentive effects
+of diversification.
+
+3. INTERNAL ALLOCATION OF COST OF CAPITAL
+AND INCENTIVE CONTRACTING ISSUES
+In this section we analyze the impact of an internal cost-of-capital allocation
+mechanism on division A’s risk choice in a conglomerate and on the choice of organizational structure. We subsequently address how the use of incentive contracts
+(i.e., managerial compensation mechanisms) could affect our analysis. In particular, we will discuss whether the incentives in a conglomerate could be replicated by
+stand-alone divisions without a change in organizational structure and vice versa.
+3.1. Internal Allocation of Cost of Capital
+From Section 2 it is clear that integrating separate divisions in a conglomerate
+firm is desirable if it results in better monitoring choices in the divisions. If not,
+free-riding dominates, leading to high risk, and the two divisions may prefer to
+operate as stand-alone entities. Potentially valuable diversification benefits may
+then remain unexploited. The source of this inefficiency is the reduction in market
+discipline following conglomeration that outweighs the potential diversification
+benefits. An increase in the impact of market discipline in a conglomerate firm
+therefore could reduce free-riding and facilitate socially desirable integration.
+14 A different perspective appears in Rajan and Myers (1998). In their work liquid assets, i.e., those
+with low asset-specificity, are most difficult to monitor for reasons of excessive managerial discretion.
+That is, managers could easily run away with these assets. We do not focus on these managerial
+agency-problems.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+255
+
+In this section, we show that an internal cost-of-capital allocation mechanism
+could create internal discipline that complements external market discipline. In
+particular, the impact of a given level of market discipline on division A’s choice
+of monitoring intensity can be increased by an internal allocation of the cost of
+capital to the respective divisions by a CEO. We assume that the CEO acts in the
+interest of the shareholders of the conglomerate firm.
+We will proceed as follows. Recall that in Section 2 the same interest rate factor
+RC (α, m) was charged to each division. This is now going to change. The internal
+allocation of cost of capital is introduced in the following way. The CEO first
+allocates different charges to the two divisions to reflect intrinsic differences in
+riskiness. This alone, however, does not restore market discipline. For this, it is
+necessary to increase the sensitivity parameter in the cost of capital charged to
+division A with respect to the monitoring choice m. That is, the CEO internally
+leverages the external market discipline parameter α. Observe that even if the
+CEO is not better informed than outsiders, he or she could improve matters by
+undoing the diluted market discipline in the conglomerate. In that case, the total
+degree of market discipline that division A is subjected to in a conglomerate firm
+is α(∂ RA (m)/∂m), which is the same as in the stand-alone case (see Eq. (4)).
+If the CEO does not do anything, the diluted external market discipline equals
+α̂ ≡ α(∂ RC (m)/∂m)/(∂ RA (m)/∂m); clearly α̂ < α. If the CEO has better information than outsiders, the total (internal and external) market discipline could become
+even larger than in the stand-alone case. This is implicitly the case in Stein (1997)
+where the CEO engages in winner-picking and can reallocate scarce resources
+between competing projects in a conglomerate.
+We assume that the CEO assigns a sensitivity parameter β to the cost of capital
+charged to division A. Similar to α, the parameters and α̂ and β are expressed
+as sensitivity parameters vis-à-vis the interest rate charged to the division in a
+conglomerate firm. The total degree of market discipline that division A is subject
+to then equals α̂(1 − β) + β. This specification shows that internal and external
+market discipline are complements: a higher α̂ and/or β increase discipline. If the
+sensitivity parameter β equals zero, each division is subject only to external market
+discipline of the diluted degree α̂. If the CEO makes each division fully accountable
+for its risk choice by assigning β = 1, then discipline is perfect. For intermediate
+values of the sensitivity parameter β, the total degree of market discipline lies
+between α̂ and 1. The expected cost of capital charged to division A can now be
+denoted by RA (α̂(1 − β) + β, m), with ∂ RA (α̂(1 − β) + β, m)/∂m = [α̂(1 − β) +
+β](∂ RA (m)/∂m). Similarly, the funding cost of the conglomerate firm is RC (α̂(1 −
+β) + β, m). In this specification, each division is being charged for its own default
+risk. The following result can be derived.
+LEMMA 4. A differential charge reflecting intrinsic differences in riskiness will
+elevate the nominal funding cost. This will worsen division A’s incentives.
+The intuition for this lemma is that passively increasing capital charges worsens
+incentives. That is, charging a division for its anticipated higher risk induces even
+
+256
+
+BOOT AND SCHMEITS
+
+more risk-taking in this division. It highlights the adverse outcomes that occur
+with moral hazard.15 An internal cost-of-capital allocation can be effective only if
+sufficient discipline is imposed as well. Here the sensitivity factor α̂(1 − β) + β
+becomes important. We now have Proposition 3.
+PROPOSITION 3. Internal discipline (β > 0) strictly improves division A’s incentives in a conglomerate, enlarging the range of values of the future rents F for
+∂F
+which conglomeration improves incentives and thus is optimal. That is, ∂β¯ > 0,
+where F is the threshold below which conglomeration improves incentives (see
+¯
+Proposition
+1).
+The result in Proposition 3 underscores the potential effectiveness of internal
+discipline. We can also show:
+COROLLARY 3. With full internal discipline, β = 1, market discipline α is
+redundant, and first best attains; division A chooses the first-best monitoring
+intensity.
+Corollary 3 together with Proposition 3 shows that internal discipline β complements, and ultimately may replace, market discipline α. In the limit, when β is
+one, internal discipline is perfect and market discipline α becomes redundant.
+3.2. Incentive Contracting Issues
+In our analysis, the manager of a stand-alone division maximizes the division’s
+expected surplus net of funding costs. The manager thus maximizes shareholder
+value. This is basically equivalent to the manager receiving an equity-linked compensation contract. Observe that with an equity-linked compensation contract, the
+manager is induced to take more risk to the detriment of the debtholder. Could
+managers be induced to maximize firm value? The problem is that shareholders can
+not credibly design a managerial compensation structure that induces the manager
+to maximize firm value. This is because shareholders have an incentive to renegotiate such a compensation contract ex post (after debt financing is obtained). Also,
+bond covenants are not effective in the context of our model. The nonverifiability
+of the monitoring choice makes covenants impossible to enforce.16 The manager
+15
+
+Observe that the internal allocation of cost of capital now gives each division an expected funding
+cost that is identical to what would have been charged in the stand-alone case. We could have chosen to
+pass on some diversification benefits in the allocated funding cost. However, this would not have changed
+the qualitative result in Lemma 4. That is, charging for anticipated risk taking worsens incentives.
+16 As in Boot et al. (1993), we could allow for discretionary covenants in bond contracts, such as,
+for example, the material adverse change (MAC) clause in loan commitments. The viability of these
+contracts, however, depends crucially on reputational considerations. Observe also that real world
+MAC clauses are contingent on verifiable characteristics of the borrower; see Avery and Berger (1991).
+Hence, the applicability of such clauses in the context of our model is limited. What may help, however,
+is to introduce dynamic considerations. For example, if the firm deals with financiers regularly (rather
+than the static case analyzed in this paper), the firm may want to build a reputation for not engaging in
+asset substitution, i.e., for making value-maximizing decisions.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+257
+
+in the stand-alone case can thus not be motivated to choose an optimal monitoring
+level.17
+Precommitment problems between managers and shareholders also preclude
+cross-subsidization between stand-alone firms in the case of default. That is,
+the ex post unwillingness of the shareholders of a stand-alone division to crosssubsidize a defaulting division makes incentive contracts which replicate the coinsurance in a conglomerate infeasible ex ante. Interestingly, it is exactly this
+cross-subsidization (co-insurance) that generates the benefits of conglomeration;
+the time-inconsistency problem is effectively resolved by conglomeration. By having a claim on a conglomerate firm, a shareholder credibly precommits to crosssubsidize a defaulting division in a conglomerate. This way conglomeration serves
+as a credible precommitment device for co-insurance.
+These conclusions are reminiscent of the findings in Ramakrishnan and Thakor
+(1991), who compare the benefits of diversification (cooperation) with those achieved by stand-alone incentive contracting mechanisms (competition) and also
+conclude that conglomeration and the use of managerial compensation contracts
+are optimal under different circumstances. Ramakrishnan and Thakor (1991) consider a risk-neutral principal who must motivate two risk-averse agents to make
+unobservable effort choices that stochastically affect output. The principal can
+choose between having the agents operate independently (stand-alone) or having
+them cooperate in a conglomerate (integration). In Ramakrishnan and Thakor, the
+correlation between the idiosyncratic returns dictates whether conglomeration is
+desirable. If this correlation is not too high, conglomeration helps in improving
+the precision of incentive contracts for divisional managers. That is, co-insurance
+reduces noise in the remuneration contract of risk-averse managers.18 This is similar in spirit to our results: we show that co-insurance mitigates limited liability,
+which points at the optimality of conglomeration.
+We could also ask the question whether a stand-alone firm could replicate the
+diversification benefits of conglomeration by hedging its default risk with a third
+party in the financial market. For example, the manager of division A could enter
+into a contract in which he or she receives an amount equal to the cross-subsidy
+from division B in the case division A defaults and/or pays an amount equal to
+the cross-subsidy to division B if B defaults. Observe, however, that the division’s
+default risk depends on the divisional manager’s monitoring intensity m and thus is
+(partly) endogenous. Hedging such risks is problematic, since a market for trading
+firm-specific default risk is subject to rampant moral hazard problems.
+17 Observe that ideally we would like to induce managers to maximize firm value. This could explain
+why incentive contracts are not as sensitive to equity value as theory predicts (see John and John, 1993).
+Simultaneously, however, we would like to induce managers to choose optimal effort. The latter desire
+could ask for equity-linked compensation. The problem of the design of managerial compensation is
+thus complex. Some general results regarding managerial compensation mechanisms are derived in
+Holmström (1979) and Harris and Raviv (1979).
+18 See also Aron (1988). The questions she asks are similar to those in Ramakrishnan and Thakor
+(1991), but her analysis is different in that she compares independently run businesses to a conglomerate
+run by a single manager and examines when the latter is optimal relative to performance contracting.
+
+258
+
+BOOT AND SCHMEITS
+
+We next turn to the issue of the optimal design of incentive contracts in multidivisional firms. This issue is central in a sizeable literature that examines the benefits
+and drawbacks of forming teams in agency contexts; see, for example, Holmström
+(1982). Holmström addresses the merits of relative performance evaluation and
+finds that relative performance contracts can reduce moral hazard costs by allowing
+for better risk sharing if the outputs of different activities are correlated. If outputs
+are independent, and each activity’s output can be observed separately, the optimal
+compensation schedule for each agent depends solely on his or her own output.19
+These results provide a foundation for the divisional objective functions that we
+use in the case of conglomeration. The divisional managers are compensated based
+on the net payoff of their own division and thus receive an equity type of claim in
+their division. As indicated above, such a claim would be optimal if the outputs of
+the activities in divisions A and B are uncorrelated and can be observed separately
+by the principal (e.g., the CEO).
+The analysis above helps explain the increasing importance and popularity of
+equity-linked internal compensation mechanisms in multidivisional firms (e.g.,
+EVA or economic profit). Two drawbacks, however, should be mentioned. First,
+although divisional-payoff-related compensation mechanisms may improve a divisional manager’s incentives, the effectiveness of such incentive contracts may be
+hampered by influence activities (see, e.g., Milgrom and Roberts, 1990, Rajan and
+Zingales, 1999, and Wulf, 1998). These influence activities would be mitigated
+if each division would optimize the total surplus of the conglomerate firm. However, managerial effort aversion is typically best dealt with by linking the manager’s
+compensation to only his or her own divisional output (Holmström, 1982). Second,
+compensating the divisional manager based on a divisional equity claim instead of
+the traded equity of the conglomerate limits the possibility for information feedback and performance monitoring by the market (see Holmström and Tirole, 1993,
+and Milbourn, 1999). Both drawbacks point to the limitations in using managerial
+performance contracts in conglomerate firms and imply that a conglomerate firm
+is unlikely to be able to mimic the incentives provided by stand-alone divisions.
+4. BANKING: PROPRIETARY TRADING VERSUS
+RELATIONSHIP BANKING
+4.1. Introduction
+In this section, we adapt our analysis to the potential conflict between transaction- and relationship-oriented activities in banking as briefly discussed in
+19
+
+Holmström and Milgrom (1990) obtain similar results, allowing for cooperation (team effort)
+and potential information sharing between agents in a multidivisional firm. They find that cooperation
+between agents can be beneficial if the agents can monitor each other and have better information
+than the principal (see also Varian, 1990). Ramakrishnan and Thakor (1991) and Itoh (1991) discuss
+the benefits of cooperation in the absence of correlation between the outputs of different activities. In
+these papers agents can supply effort to facilitate each other’s activities and can thus engage in team
+production with interdependent incentive schemes.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+259
+
+Section 1. Observe that many banking activities are relationship oriented. Proprietary trading activities, however, are different and involve arbitrage between
+different markets and/or different financial products. These trading activities involve substantial risks. Thus, establishing the fair risk-adjusted cost of funds is
+important. This cost might, given the specific nature of the trading activities, differ
+substantially from the cost of funds of the bank as a whole. Moreover, relationshiporiented banking typically has a longer-term scope. The bank may need to heavily
+invest in relationships at the outset, in order to benefit in the longer term. A link
+therefore can be expected between relationship-specific effort exerted now and
+the possibility to benefit from this in a later period. The activities in the trading
+division are more short-term oriented and do not depend on relationship-specific
+effort. In a multidivisional bank, however, the risk choices of the trading division
+may have an impact on the relationship-banking division, by affecting the risk and
+survival probability of the bank as a whole.
+In the context of our model, we now activate division B as a proprietary trading
+division (i.e., we endogenize division B’s risk choice) and interpret division A
+as the relationship-banking division. Our primary focus is on how the choices
+of trading division B may undermine the choices made by relationship-banking
+division A.
+4.2. Specification and Analysis
+As before, division A, the relationship-banking activity, chooses its monitoring
+intensity m, generating a payoff X with probability θ + (1 − θ )m, and zero otherwise. Division A is subject to external market discipline of a degree αA ∈ [0, 1].
+The capitalized value of future rents is now F(m), with F 0 (m) > 0 and F 00 (m) < 0.
+The dependence of F on the monitoring intensity m captures some of the future
+benefits of relationship-specific investments and generalizes the exogenous value
+of F as used before.
+Division B, the proprietary trading activity, generates an end-of-period return
+Y ( p) with probability p, where p can now be chosen ( p was fixed before). We let
+Y 0 ( p) < 0 and Y 00 ( p) > 0, such that pY ( p) has an interior maximum. The degree of
+external market discipline imposed on division B is αB ∈ [0, 1]. Analogous to the
+analysis in Section 2, two different organizational structures can be distinguished:
+stand-alone or conglomerate. The funding costs are as specified in (1) through (3).
+Observe that the pooling rate is now RC (α, m, p) per dollar invested and depends
+on the risk choices in both divisions, m and p.
+If division B operates as a stand-alone firm, it maximizes p[Y ( p) − RB (α, p)].
+In a conglomerate, it maximizes p[Y ( p) − RC (α, m̃ C , p)]. Define p̃ B as division
+B’s privately-optimal risk choice as a stand-alone firm and p̃ C as its risk choice in
+a conglomerate. We can now derive the following result.
+PROPOSITION 4. Given division A’s optimal monitoring choice in a conglomerate, there may exist a threshold level of market discipline α B such that, for
+α B > α B , the proprietary trading division B chooses strictly¯ more risk in a
+¯
+
+260
+
+BOOT AND SCHMEITS
+
+conglomerate than as a stand-alone activity. For α B ≤ α B the opposite holds and
+¯
+division B chooses less risk in a conglomerate.
+Proposition 4 shows that from the perspective of division B also, effective market
+discipline of stand-alone activities discourages conglomeration. However, whenever we start out with very low market discipline of stand-alone activities (low αB ),
+the beneficial effects of diversification dominate, and the risk choices in division
+B are better in a conglomerate. Proposition 4 is in the spirit of our earlier results.
+In the determination of the optimal organizational structure, similar issues play a
+role as before. Both divisions choose the organizational structure of their operations
+at t = 0, anticipating their incentives and the funding costs conditional on each
+organizational structure. Several cases can be distinguished. We will focus on the
+most stringent case with B choosing more risk in a conglomerate than as a standalone activity (α B < αB < 1). We can show:
+¯
+PROPOSITION 5 (Active trading division B). Excessive (vis-à-vis stand-alone)
+risk-taking in the trading division B makes conglomeration less attractive. The
+relationship banking division A then will only benefit from conglomeration if it
+faces sufficiently low market discipline. Otherwise, the stand-alone alternative is
+optimal.
+This proposition generalizes Proposition 1. Proposition 5 can be illustrated with
+a simple numerical example.20 Assume, as before, that θ = 1/2, X = 2.75 and
+V (m) = 4m 2 . Furthermore, let F(m) = 0.5m 1/2 and Y ( p) = 3( p − 2)2 . With these
+assumptions, it can be shown that division B chooses more risk in a conglomerate ( p̃ C < p̃ B ) for any αB larger than approximately 0.37 (=α B ). This worsens
+incentives in division A compared to the case where division¯ B is exogenous.
+Division A now lowers its monitoring (m̃ C < m̃ A ) in case of conglomeration for a
+wider range of values of αA . That is, the cut-off value α A below which division
+¯
+A’s incentives improve in the case of conglomeration decreases.
+For example, if
+αB = 0.80, α A would equal 0.49, whereas in the absence of free-riding by division B α A¯ would equal 0.52. These negative incentive effects undermine the
+¯ of relationship banking activities, and conglomeration becomes less
+added value
+attractive.
+Our example also shows that the stronger the effect of monitoring m on the future
+rents F(m), the lower the benefits of conglomeration. For example, if we let m
+affect F(m) more, say F(m) = 6m 1/2 , conglomeration always worsens monitoring
+choices in division A and is never optimal. These results show that relationshipspecific activities may suffer from the proprietary trading activity and underscore
+the necessity of an internal allocation of the cost of capital.
+Observe also that Propositions 4 and 5 may underestimate the consequences
+of risk-taking in the proprietary trading division B. This is because we have assumed that division A defaults less often as part of a conglomerate bank than
+20 For a summary of all the possible combinations of risk choices and choices of organizational
+structure, see the proof of Proposition 5 and the numerical example in the Appendix.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+261
+
+as a stand-alone entity. We next allow the proprietary trading division B to increase the default probability of division A and that of the conglomerate bank as a
+whole.
+Consider the following simple alteration of the model. Let δ be the dilution
+factor in the success probability of the relationship lending division A. We assume
+that default in the proprietary trading division reduces the success probability of
+the relationship lending division from θ + (1 − θ )m to [θ + (1 − θ )m](1 − δ), with
+δ ∈ (0, 1]. The survival probability of the conglomerate bank now becomes equal
+to p + [θ + (1 − θ)m](1 − p)(1 − δ). With δ = 0.30 in our numerical example, it
+can be shown that the incentives for excessive risk-taking in both divisions of the
+conglomerate bank increase. Division A now always reduces its monitoring for
+αA larger than approximately 0.35, whereas B increases its risk for αB > 0.36.
+The intuition is that the possible dissipative impact of default of division B on
+the survival probability of the overall bank increases the pooled funding costs
+RC (α, m, p) of the conglomerate bank. This induces division A to prefer the standalone alternative more often.
+Propositions 4 and 5 and the numerical example illuminate key aspects of the
+Barings debacle. Proprietary trading within a conglomerate bank may suffer from
+a lack of market discipline, and as a result, excessive risk-taking occurs that undermines the relationship-specific activities. The latter effect is the key insight that
+this section adds to the general analysis in Section 2.
+
+5. FURTHER IMPLICATIONS AND EMPIRICAL EVIDENCE
+In this section we discuss further implications of our analysis and relate our
+insights to the existing empirical evidence.
+5.1. The Diversification Discount
+Several empirical papers have documented that diversified firms trade, on average, at a discount relative to a portfolio of specialized single segment firms. The
+market value of a diversified firm appears to be approximately 13–15% less than
+the sum of its segments valued separately, see Berger and Ofek (1995). Similarly,
+Lang and Stulz (1994) provide evidence that during the 1980s Tobin’s q of diversified firms was significantly smaller than the q of matching portfolios of specialized
+firms. Most of the existing contributions suggest that this diversification discount
+results from misallocations of capital and inefficient cross-subsidies between divisions in a conglomerate firm. Berger and Ofek (1995) find that conglomerate firms
+overinvest in industries with limited investment opportunities, as measured by a
+low Tobin’s q ratio. Also cross-subsidization of poorly-performing divisions by
+better-performing divisions is common. In the context of the oil industry, Lamont
+(1997) has shown that investments in nonoil segments of oil firms respond to the
+cash flows of other segments when an unanticipated oil shock occurs. He finds that
+
+262
+
+BOOT AND SCHMEITS
+
+following the adverse oil shock in 1986, capital expenditures in nonoil segments
+were drastically reduced, while abundant oil-related profits facilitated subsidies
+to these activities in 1985. This suggests that diversified companies tend to subsidize and overinvest in poorly-performing segments. Also, Shin and Stulz (1998)
+provide evidence that the investment by a segment of a diversified firm depends
+on the cash flow of other segments. In particular, they find that the investment by
+segments of highly-diversified firms is larger and less sensitive to their own cash
+flow than the investment of comparable single-segment firms and is unrelated to
+the relative quality of their investment opportunities.
+To the extent that the internal incentive problems in a conglomerate firm dominate the benefits of diversification, our analysis also explains the existence of a
+diversification discount. Contrary to the literature discussed above, however, this
+discount arises in our analysis even if conglomeration does not change the allocation of capital to the individual divisions for investment purposes. We show that
+incentive problems in a conglomerate could reduce the cash flows generated by
+each of these divisions and explain the diversification discount.
+Rajan et al. (2000) emphasize that, even though conglomerates trade at a discount
+on average, 39.3% of the conglomerates trade at a premium. They explain this
+by power considerations and show that a diversified firm sometimes allocates
+capital in the right direction and sometimes in the wrong direction, depending on
+the interrelation of the segments within the firm. In general, dispersion between
+segments in the diversified firm is bad. Diversified firms can trade at a premium if
+the dispersion between segments is low. These conclusions are roughly consistent
+with our observations in Section 2.4, where we argue that heterogeneity of activities
+is generally bad for conglomeration.21
+5.2. Conglomeration in Developed and Developing Economies
+Empirical evidence presented in Khanna and Palepu (1997) suggests that conglomeration is, on average, beneficial in developing economies and less beneficial
+in more developed countries. Since developing countries may lack transparency
+and hence have a low degree of market discipline α, this is consistent with our predictions. But more might be going on. As indicated in Khanna and Palepu (1997),
+conglomerates may add value in developing economies by imitating the external
+market discipline that can be found in more developed economies. This translates
+into a high value of β in our analysis. An explanation could be the important role
+of families in the funding of corporations and the scarcity of outside financing
+opportunities in developing economies. This could make conglomeration more
+attractive.
+
+21 An effect that we have not taken into account in our analysis is that the mere fact of conglomeration
+may reduce competition and increase the rents F. This effect would amplify the potential benefits of
+conglomeration.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+263
+
+5.3. Applications to Corporations: Spinoffs and Equity Carve-Outs
+Our analysis of incentive problems in conglomerate firms could also explain the
+empirically documented positive stock price reactions to spinoffs and equity carveouts (see, e.g., Schipper and Smith, 1986, and Daley et al., 1997). In the absence of
+any synergies, spinoffs and divestitures are optimal if the negative incentive effects
+associated with conglomeration dominate the diversification benefits. Selling off
+individual divisions then mitigates free-riding and increases the effectiveness of
+market discipline. Evidence in Daley et al. (1997) suggests that the value created
+by spinoffs is higher if the spun-off entity is in a different industry. This is in line
+with our argument against the conglomeration of heterogeneous activities.
+Equity carve-outs can capture the benefits of both worlds. In these transactions,
+also known as partial public offerings, firms sell a minority interest in the common
+stock of a previously wholly-owned subsidiary. For example, Thermo Electron
+spins off any division that grows sufficiently large, but continues to own 80% of its
+equity; 20% of the subsidiary’s equity is traded separately and owned outside the
+firm (see Allen, 1998). Equity carve-outs thus allow for co-insurance and diversification benefits, while at the same time exposing the subsidiary to direct market
+discipline. Schipper and Smith (1986) found that equity carve-outs are associated
+with significant positive stock returns and suggest that carve-outs resolve ex ante
+informational problems (i.e., undervaluation of a wholly-incorporated subsidiary).
+Our analysis suggests a complementary explanation: equity carve-outs can attenuate ex post incentive distortions.
+These arguments raise questions as to why we do not observe more equity carveouts and, more generally, whether equity carve-outs with conglomeration dominate
+other organizational structures. A tentative answer to this question is that this is
+likely to depend on the interplay between internal and external market discipline.
+Equity carve-outs increase the effectiveness of external market discipline, but can
+at the same time decrease the quality of the internal information flow between
+subsidiary and parent and as a consequence make internal discipline less effective.
+This again points to the importance of internal cost-of-capital allocation schemes
+and helps explain the increased use of metrics like EVA and RAROC.
+6. CONCLUSIONS
+This paper has focused on the incentive effects of conglomeration. Incentive
+problems sometimes dictate integration of activities as in a conglomerate, but favor stand-alone activities when there is perfect market discipline. We have shown
+that conglomeration has benefits that compensate for ineffective market discipline. In particular, diversification benefits can effectively relax the limited liability
+constraint such that adverse risk-taking incentives are mitigated. However, conglomeration also weakens market discipline and invites free-riding. An effective
+internal cost-of-capital allocation mechanism could then be useful in mitigating
+these effects.
+
+264
+
+BOOT AND SCHMEITS
+
+Apart from market discipline, the competitiveness of the industry also turns out
+to be a factor. We have shown that the case for conglomeration is stronger in a
+more competitive environment. We believe that these results are important and help
+illuminate corporate practices. More research is needed, however. In particular,
+alternative organizational structures need to be considered. Our modeling of standalone and conglomeration as well-defined (extreme) organizational structures is
+obviously a simplification. Real-world organizations are often hybrids of various
+sorts. Joint ventures, cross-holdings, and equity carve-outs are examples. These
+structures have some of the costs and benefits of stand-alone and conglomerate
+structures. Future research should examine these intermediate structures.
+
+APPENDIX
+Proof of Lemma 1. With complete self-financing division A’s optimal monitoring choice m ∗ satisfies:
+(1 − θ)(X + F) = V 0 (m ∗ ),
+
+(A.1)
+
+where m ∗ ≡ m ∗ (θ, X, F) with ∂m ∗ /∂θ < 0, ∂m ∗ /∂ X > 0 and ∂m ∗ /∂ F > 0, since
+V 00 (m) > 0 ∀m ∈ [0, 1]. In the case of outside financing at the funding rate
+RA (α, m) division A’s optimal monitoring choice m̃ A satisfies the first order condition (6), which can be written as:
+(1 − θ )(X + F) = V 0 (m) + (1 − θ)(1 − α)RA
+
+(A.2)
+
+and the necessary second order condition V 00 (m̃ A ) > 0. Note that RA = RA (α, m̃ A )
+in equilibrium (see Eq. (5)). The second term on the RHS of (A.2) is larger than zero
+∀m ∈ [0, 1]. Due to the convexity of V (m) it can be seen that V 0 (m̃ A ) < V 0 (m ∗ ) implies that m̃ A < m ∗ . Furthermore, since ∂[V 0 (m ∗ ) − V 0 (m̃ A )]/∂ RA = (1 − θ )(1 −
+α) > 0, (m ∗ − m̃ A ) increases with RA .
+Proof of Lemma 2. Observe that m̃ A ≡ m̃ A (α, θ, X, F). Since the second term
+on the RHS of (A.2) decreases monotonically with α and V 00 (m) > 0, ∂ m̃ A /∂α > 0.
+For α = 1 the first order condition equals (A.1), and the optimal monitoring choice
+equals m ∗ . Alternatively, this result can be derived from totally differentiating
+Eq. (6) with respect to α. For completeness, note that ∂ m̃ A /∂ X > 0, ∂ m̃ A /∂ F > 0
+and ∂ m̃ A /∂θ < 0 if V 0 (m) is sufficiently high, i.e., if V 0 (m) > (1 − θ )2 (1 −
+m)(1 − α)/[θ + (1 − θ)m]2 .
+Proof of Lemma 3. This result follows from differentiating RA (α, m) and
+RC (α, m) with respect to m. Since p ∈ [0, 1] it can be seen that ∀m ∈ [0, 1]:
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+265
+
+¯
+¯
+¯ ∂ RC (α, m) ¯
+α(1 − θ )(1 − p)
+¯=
+¯
+¯
+¯
+∂m
+{θ + (1 − θ )m + (1 − [θ + (1 − θ )m]) p}2
+¯
+¯
+¯ ∂ RA (α, m) ¯
+α(1 − θ )
+¯
+¯
+<
+=¯
+¯
+[θ + (1 − θ)m]2
+∂m
+Proof of Proposition 1. Recall that m̃ A and m̃ C represent the solutions to division A’s optimization problem if it operates respectively as a stand-alone firm
+and as part of a conglomerate firm. Then for the stand-alone case Eq. (6) and the
+second order condition are given by
+(1 − θ)(X + F) − (1 − θ )RA (α, m̃ A )
+− [θ + (1 − θ)m̃ A ]
+
+∂ RA (α, m̃ A )
+− V 0 (m̃ A ) = 0
+∂m
+
+(A.3)
+
+and V 00 (m̃ A ) > 0, with X > RA (α, m̃ A ). Similarly, for the conglomerate case the
+first order condition and the second order condition are given by
+(1 − θ)(X + F) − (1 − θ )RC (α, m̃ C ) − [θ + (1 − θ )m̃ C ]
+− (1 − θ) p F − V 0 (m̃ C ) = 0
+
+∂ RC (α, m̃ C )
+∂m
+(A.4)
+
+and V 00 (m̃ C ) > 2α(1 − θ)2 (1 − p) p/{µ̃C + (1 − µ̃C ) p}3 ≡ V1 , with µ̃i ≡ θ + (1 −
+θ)m̃ i for i ∈ {A, C} and Min{X, Y } > 2RC (α, m̃ C , p). For a given level of α let
+F A and F C be the minimum levels of F for which m̃ A respectively m̃ C equal
+1. From Lemma 2 and (A.4) it can be seen that m̃ A and m̃ C increase monotonically in F on F ∈ [0, F A ] and [0, F C ], respectively. Furthermore let V 00 (m̃ C ) > V2 ,
+with V2 ≡ V1 + (1 − p)V 00 (m̃ A ). From this it can be seen that F C > F A . Now
+first consider the case where F ∈ [0, F A ]. If m̃ C (0) > m̃ A (0), then there exists a
+unique F ∈ [0, F A ] such that m̃ A ( F ) = m̃ C ( F ). Since m̃ C − m̃ A decreases mono¯ that m̃ (F) > m̃ (F) for F < F ,
+tonically¯ with F on F ∈ [0, F A ], it¯ can be seen
+C
+A
+¯
+whereas m̃ C (F) < m̃ A (F) for F > F . If m̃ C (0) < m̃ A (0), then m̃ C (F) < m̃ A (F) for
+A
+A
+C ¯
+all F ∈ [0, F ]. For F ∈ (F , F ) it can easily be seen that m̃ C (F) < m̃ A (F) = 1,
+but the difference m̃ A − m̃ C now decreases with F. For F ≥ F C , finally, m̃ C (F) =
+m̃ A (F) = 1 (corner solution). The level of capitalized future profits F for which
+¯ firm as in
+division A would make the same monitoring choice in a conglomerate
+the stand-alone case satisfies:
+·
+¸
+RA (α, m̃ A ) − RC (α, m̃ A ) θ + (1 − θ)m̃ A
+∂ RC (m̃ A ) ∂ RA (m̃ A )
+F=
+−
+α
+−
+.
+¯
+p
+(1 − θ ) p
+∂m
+∂m
+By substituting from (1) and (3) it follows that F = ((1 − α)[ p + (1 − p)µ̃A (2 −
+¯
+that there exist parameter
+µ̃A )] − µ̃A )/µ̃A [ p + (1 − p)µ̃A ]2 . It can be shown
+
+266
+
+BOOT AND SCHMEITS
+
+values for θ, α, X , and p such that F ∈ [0, F A ] (see the numerical example in
+¯ all F ∈ [0, F A ]. After some tedious algeSection 2.3). If F < 0, then m̃ C < m̃ A for
+¯
+∂F
+bra it can be shown that ∂α¯ < 0. In terms of α the proof is analogous. For a given
+level of F define α A and α C as the minimum levels of α for which m̃ A respectively
+m̃ C would equal 1. From Lemma 2 and (A.4) it can be shown that m̃ A and m̃ C
+increase monotonically with α on [0, Min{α A , 1}] and [0, Min{α C , 1}], respectively. Now first consider the case where α ∈ [0, Min{α A , 1}]. If m̃ A (0) < m̃ C (0)
+and α A ≤ 1, there exists a unique α ∈ [0, α A ] such that m̃ A (α ) = m̃ C ( α ). Since
+m̃ C − m̃ A decreases monotonically ¯with α, then m̃ C (α) > m̃ A¯(α) for α¯∈ [0, α ),
+¯
+whereas m̃ C (α) < m̃ A (α) for α ∈ (α , α A ]. If m̃ A (0) < m̃ C (0) and α A > 1, then there
+¯
+exists an α ∈ [0, 1] such that m̃ A (α ) = m̃ C (α ) if and only if m̃ C (1) < m̃ A (1). Other¯ 1]. If m̃ ¯ (0) < m̃ (0), then m̃ < m̃ for all α ∈
+¯ > m̃ (α) for all α ∈ [0,
+wise, m̃ C (α)
+A
+C
+A
+C
+A
+A
+C
+[0, 1]. If α ∈ [α , Min{α , 1}], then m̃ C (α) < m̃ A (α) = 1. Finally, if α ∈ [α C , 1]
+then m̃ C (α) = m̃ A (α) = 1 (corner solution). The degree of market discipline α for
+which m̃ C = m̃ A equals α = ((1 − µ̃A ) p[µ̃A + (1 − µ̃A ) p] − p F µ̃A [µ̃A + ¯(1 −
+µ̃A ) p]2 )/([µ̃A + (1 − µ̃A )¯ p]2 − (1 − p)µ̃2A ). From the numerical example in
+Section 2.3, it follows that there exist parameter values for θ, X, p, and F such
+that α ∈ [0, Min{α A , 1}]. If α < 0, then m̃ C < m̃ A for all α ∈ [0, Min{α A , 1}]. It
+¯ ∂α
+¯
+can furthermore be shown that ∂ ¯F < 0. This completes the proof.
+Proof of Corollary 1. The first part of Corollary 1 has been derived in Lemma 2.
+For the second part it is sufficient to show that (A.4) < (A.3) for α = 1. This can
+easily be seen from substituting α = 1. Since m̃ A = m ∗ for α = 1 the second order
+condition then dictates that m̃ C < m ∗ (see Proposition 1).
+Proof of Proposition 2. Conglomeration is the optimal organizational structure if the aggregate expected surplus generated by the respective divisions’ investments is (weakly) higher in a conglomerate firm than in the stand-alone option. If
+division A and division B operate stand-alone, the total expected surplus equals
+pY + µ̃A (X + F) − 2. In the case of conglomeration, the expected surplus equals
+pY + µ̃C (X + F) + (1 − µ̃C ) p F − 2. Define 1(α, F) as the difference in total
+expected surplus between the conglomerate and the stand-alone option, divided
+by (1 − θ), as a function of α and F. Furthermore, let ∂ 2 1(α, F)/∂ F 2 < 0 for
+F ∈ [0, F̂] with F̂ as defined below. That is, let
+m̃ 00C [X + (1 − p)F] − m̃ 00A [X + F] + 2m̃ 00C (1 − p) − 2m̃ 00A < 0
+
+or
+
+3(1 − θ)(1 − p)V1
+(1 − θ )V 000 (m̃ A ) [V 00 (m̃ C ) − V1 ]3
++
+MC
+[V 00 (m̃ A )]3 (1 − θ )(1 − p)2
+·
+¸
+X+F
+2
+2(1 − p)2
+×
+−
++
+X + (1 − p)F
+V 00 (m̃ C ) − V1
+V 00 (m̃ A )
+
+V 000 (m̃ C ) > −
+
+×
+
+1
+[V 00 (m̃ C ) − V1 ]3
+.
+2
+(1 − θ)(1 − p) X + (1 − p)F
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+267
+
+Conglomeration is optimal if and only if 1(α, F) ≥ 0, that is if
+[m̃ C − m̃ A ](X + F) + (1 − m̃ C ) p F ≥ 0.
+
+(A.5)
+
+We first focus on the first part of Proposition 2. Consider the case where m̃ C (0) >
+∂F
+m̃ A (0). From Proposition 1, we have ∂α¯ < 0. Hence, this case occurs if α is
+relatively low. Condition (A.5) then is always satisfied if m̃ C ≥ m̃ A , that is if
+0 ≤ F ≤ F . If m̃ C < m̃ A , that is for F > F , conglomeration will only be optimal
+¯ (through F) exceeds the loss due to
+¯
+if the expected
+benefit from co-insurance
+lower monitoring. For a given level of α let F̂ > F be the level of F for which
+¯ for F > F̂ condition (A.5)
+(1 − m̃ C ) p = (m̃ A − m̃ C ). Then it can be shown that
+will be strictly violated, and the stand-alone option is optimal. The intuition is
+that for F > F̂ the incentives in division A have been distorted so much that
+the diversification benefit of co-insurance has completely been eliminated. No
+higher value of F can make conglomeration desirable, since the probability of
+capturing these higher future rents has deteriorated too much. For F > F̂, we have
+1(α, F) < 0. Therefore, there exists a F̄ ∈ ( F , F̂] such that 1(α, F) ≥ 0 if F ≤ F̄,
+¯ case where m̃ (0) ≤ m̃ (0), that is
+and 1(α, F) < 0 if F > F̄. Next consider the
+C
+A
+where F < 0. As can be seen from Proposition 1, this case is relevant for high
+< 0, the stand-alone option is always optimal. Alterlevels of¯ α. Then, if ∂1(α,0)
+∂F
+∂1(α,0)
+natively, if ∂ F ≥ 0, there may exist at most two levels of capitalized future
+profits F on the interval [0, F̂] for which 1(α, F) = 0. Denote these values as F0
+and F̄ > F0 . If F0 and F̄ > F0 exist, conglomeration is optimal for F ∈ [F0 , F̄].
+The intuition is that the level of preserved rents F may first dominate the negative
+incentive effect stemming from co-insurance. For higher levels of F, however,
+the incentive effect becomes dominant and conglomeration becomes less optimal.
+Otherwise, 1(α, F) < 0 for all F ≥ 0 and the stand-alone option is always optimal.
+Next consider the second part of Proposition 2. For a given level of F consider first
+the case where m̃ C (0) > m̃ A (0). This case occurs if the level of rents F is not too
+high. If m̃ C ≥ m̃ A , that is, if 0 ≤ α ≤ Min{α , 1}, condition (A.5) is always satisfied.
+¯ Min{α , 1}, therefore, conglomeration
+If α > Min{α , 1}, then m̃ C <m̃ A . For α >
+¯
+¯
+is optimal as long as 1(α, F) ≥ 0. Even if conglomeration
+reduces division A’s
+monitoring intensity, it may still be preferred if m̃ C is still sufficiently high, i.e.,
+if m̃ C > m̃ A − (1 − m̃ A ) p F/(X + (1 − p)F). Define ᾱ ∈ [0, 1] as the level of α for
+which 1(α, F) = 0. Since 1(α, F) decreases monotonically in α, it can be seen
+that conglomeration is optimal if Min{α , 1} < α ≤ Min[ᾱ, 1]. Next consider the
+case where m̃ C (0) < m̃ A (0). Since 1(α,¯ F) is monotonically decreasing in α, in
+this case the stand-alone option is always optimal. This completes the proof.
+Proof of Corollary 2. From Proposition 1, we have m̃ C = m̃ A = 1 for F ≥ F C .
+The corollary then follows immediately from substituting this in the expected
+surplus functions for the two organizational structures. Note that if we would have
+restricted the maximum monitoring intensity to a level m̄ < 1, some default risk
+remains for large levels of F(F ≥ F C ), even if monitoring incentives are maximized
+
+268
+
+BOOT AND SCHMEITS
+
+in the conglomerate and the stand-alone option. In this case conglomeration would
+be the dominant organizational structure for all F ≥ F C , since the future rents F
+would be preserved more often and the negative incentive effects of conglomeration
+are absent.
+Proof of Lemma 4. The first order condition of division A’s optimization problem in the presence of a passive internal allocation mechanism in a conglomerate
+is given by:
+(1 − θ)(X + F) − (1 − θ )RA (α̂, m̃ C ) − [θ + (1 − θ )m̃ C ]α̂
+− (1 − θ) p F − V 0 (m̃ C ) = 0.
+
+∂ RA (m̃ C )
+∂m
+(A.7)
+
+From comparing (A.7) with Eq. (A.4) and substituting α̂ = α(∂ RC (m)/∂m)/
+(∂ RA (m)/∂m), the result follows directly, since RC (α, m) < RA (α̂, m) ∀m ∈
+[0, 1].
+Proof of Proposition 3. This result follows from Lemma 2 and Proposition 1.
+First, we show that internal discipline (β > 0) would improve division A’s incentives in a conglomerate in the absence of a differential charge. In this case, the
+total degree of market discipline that division A would be subject to vis-à-vis the
+conglomerate funding rate equals α + β α(1α̂− α̂) > α. From totally differentiating
+the first order condition of division A’s optimization problem in the presence of
+internal discipline, it follows that m̃ C (F)|α+βα(1−α̂)/α̂ > m̃ C (F)|α ∀F ≥ 0 and that
+(∂ m̃ C /∂ F)|α+βα(1−α̂)/α̂ >(∂ m̃ C /∂ F)|α >0. The (negative) slope of m̃ C (F)− m̃ A (F)
+therefore becomes less steep and F increases, the more so if β grows larger, that is
+∂F
+¯
+¯ > 0. Using a similar argument, it can be shown that the same would hold in the
+∂β
+presence of a differential charge. Internal discipline (β > 0) thus improves division
+A’s incentives irrespective of whether differential interest rates are charged to the
+divisions or not. From comparing the cut-off levels F in the absence of an internal allocation mechanism (see Proposition 1) and in¯ the presence of an internal
+allocation mechanism with β > 0, it can be shown that F is larger with an internal
+¯
+allocation mechanism if β is sufficiently high.
+Proof of Corollary 3. With β = 1, the total degree of (market) discipline that
+division A is subject to equals 1. The result then follows from Lemma 2.
+Proof of Proposition 4. Division B’s optimization problem if it operates standalone is given by:
+Max p[Y ( p) − RB (αB , p)]
+p
+
+s.t. RB =
+
+1
+.
+p
+
+(A.8)
+
+Division B’s optimal risk choice p̃ B if it operates as a stand-alone firm satisfies:
+Y ( p) + pY 0 ( p) − (1 − αB )RB = 0
+
+(A.9)
+
+269
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+and the second order condition 2Y 0 ( p̃ B ) + p̃ B Y 00 ( p̃ B ) < 0, with p̃ B < p ∗ and
+Y ( p̃ B ) > RB (αB , p̃ B ). Define p̃ C as division B’s risk choice in case of conglomeration and let m̃ C be division A’s optimal monitoring choice in case of conglomeration
+(as before). The first order condition of division B’s optimization problem in case
+of conglomeration is given by
+Y ( p) + pY 0 ( p) − RC (αB , m̃ C , p) − p(∂ RC (αB , m̃ C , p)/∂ p) = 0
+
+(A.10)
+
+under the assumption that Min{X, Y ( p̃ C )} > 2RC . The second order condition
+is given by 2Y 0 ( p̃ C ) + p̃ C Y 00 ( p̃ C ) < −(2αB (1 − µ̃C )µ̃C /[µ̃C + (1 − µ̃C ) p̃ C ]3 ) ≡ Y1 .
+Observe that p̃ B and p̃ C are both monotonically increasing in α. Given division
+A’s equilibrium strategy m̃ C , division B chooses p̃ C = p̃ B in a conglomerate if and
+only if αB = α B ≡ µ̃C (1 − p̃ B )[µ̃C + (1 − µ̃C ) p̃ B ]/([µ̃C + (1 − µ̃C ) p̃ B ]2 − (1 −
+¯ Y as 2Y 0 ( p̃ ) + p̃ Y 00 ( p̃ ) for i ∈ {B, C} and let M be equal to
+µ̃C ) p̃ 2B ). Define
+i
+i
+i
+i
+C
+µ̃C + (1 − µ̃C ) p̃ C . Furthermore, let YC < Y2 , where Y2 equals Y1 + (( p̃ B p̃ C (1 −
+µ̃C )YB )/MC2 )) < Y1 . Then it can be seen that p̃ C < p̃ B if αB > α B and p̃ C ≥ p̃ B
+¯ with α, it folif and only if αB ≤ α B . Since p̃ C − p̃ B increases monotonically
+¯
+lows that α B ∈ (0, 1) if p̃ C (0) > p̃ B (0) and p̃ C (1) < p̃ B (1). This completes the
+¯
+proof.
+Proof of Proposition 5. The first order condition of division A’s optimization
+problem as a stand-alone firm is given by:
+(1 − θ)X + (1 − θ)F(m) + [θ + (1 − θ )m]F 0 (m)
+− (1 − θ)(1 − αA )RA − V 0 (m) = 0.
+
+(A.11)
+
+In case of conglomeration the first order condition for division A is:
+(1 − θ)X + (1 − θ)(1 − p̃ C )F(m) + [1 − (1 − θ)(1 − p̃ C )(1 − m)]F 0 (m)
+− (1 − θ)RC (αA , p̃ C , m) − [θ + (1 − θ )m]
+
+∂ RC (αA , p̃ C , m)
+− V 0 (m) = 0.
+∂m
+(A.12)
+
+Let VA be equal to V 00 (m̃ A ) − 2(1 − θ )F 0 (m̃ A ) − µ̃A F 00 (m̃ A ) and define VC as
+V 00 (m̃ C ) − 2(1 − θ)(1 − p̃C )F 0 (m̃ C ) − MC F 00 (m̃ C ). Furthermore, let VC > V1 +
+(1 − p̃ C )µ̃C µ̃A VA
+. Then it can be shown that, given division B’s optimal strategy p̃ C
+MC2
+in a conglomerate, division A improves its monitoring intensity in the case of
+conglomeration if and only if:
+αA ≤ α A
+¯
+(1 − µ̃A ) p̃ C [µ̃A + (1 − µ̃A ) p̃ C ] − p̃ C [F(m̃ A ) − (1 − m̃ A )F 0 (m̃ A )]µ̃A [µ̃A + (1 − µ̃A ) p̃ C ]2
+≡
+.
+[µ̃A + (1 − µ̃A ) p̃ C ]2 − (1 − p̃ C )µ̃2A
+
+270
+
+BOOT AND SCHMEITS
+
+If αA > α A , division A chooses higher risk in the case of conglomeration. In the
+¯
+case of conglomeration,
+the equilibrium incentives in both divisions are determined
+simultaneously. Conglomeration then is the preferred organizational structure if
+the aggregate expected surplus in the case of conglomeration is higher than in the
+stand-alone option, i.e., if
+µ̃C X + [µ̃C + (1 − µ̃C ) p̃ C ]F(m̃ C ) + p̃ C Y ( p̃ C )
+≥ µ̃A X + µ̃A F(m̃ A ) + p̃ B Y ( p̃ B ).
+
+(A.13)
+
+The following equilibria now can occur: (i) m̃ C ≥ m̃ A and p̃ C ≥ p̃ B ; that is, the
+incentives in both divisions improve with conglomeration. In this equilibrium
+αA ≤ α A and αB ≤ α B , and conglomeration is the optimal organizational struc¯ m̃ ≥ m̃ and
+¯ p̃ < p̃ ; that is, division B free-rides on division A. In
+ture; (ii)
+C
+A
+C
+B
+this case αA ≤ α A and αB > α B and conglomeration may or may not be optimal;
+¯ p̃ ≥ p̃ ; that
+¯ is, division A free-rides on division B and α > α
+(iii) m̃ C < m̃ A and
+C
+B
+A
+¯A
+and αB ≤ α B . Conglomeration then may or may not be optimal; (iv) m̃ C < m̃ A and
+¯ is, the incentives in both divisions worsen in case of conglomeration
+p̃ C < p̃ B ; that
+and αA > α A and αB > α B . In this equilibrium the free-riding by division B in¯
+¯ in division A and vice versa. This is the equilibrium
+duces excessive
+risk-taking
+we focus on in Section 4.2. Conglomeration then will only result in a higher expected surplus if the benefits from co-insurance are sufficiently high, otherwise
+the stand-alone option will be optimal. From expression (A.13) it can be seen that,
+irrespective of division A’s risk choice m̃ C in a conglomerate, conglomeration
+becomes less attractive if p̃ C < p̃ B . Conglomeration then is only optimal if the distortions in division A’s risk choices are not too high. This is the case if αA is not too
+large.
+The following numerical example illustrates all possible equilibria. Assume
+that X = 2.75, θ = 1/2, V (m) = 4m 2 , F(m) = 0.5m 1/2 and Y ( p) = 3( p − 2)2 .
+Tables A.I and A.II summarize the results. Panel A of Table A.I represents the
+difference m̃ C − m̃ A as a function of the market discipline parameters αA and αB .
+Panel B shows the difference p̃ C − p̃ B as a function of αA and αB . Table A.II finally incorporates the differences 1 in expected surplus between the conglomerate
+and the stand-alone option. From Panel B in Table A.I it is clear that p̃ C < p̃ B for
+medium and high values of αB . By simultaneously solving for m̃ C and p̃ C in the
+conglomerate case for different levels of αA ∈ [0, 1] and αB ∈ [0, 1], and by substituting m̃ C in the expression for α B (see the proof of Proposition 4), we find that
+the cut-off level α B , above which¯division B’s incentives worsen varies between
+0.3686 (for αA =¯0) and 0.3698 (for αA = 1) and thus is approximately equal to
+0.37. For any αB > 0.37 division B therefore increases its risk in a conglomerate.
+This worsens incentives in division A. To see this, consider the following example.
+Let αB = 0.80. In this case, it can be verified that p̃ B = 0.6281 and, since αB > α B ,
+¯
+p̃ C < p̃ B . By simultaneously solving for m̃ C and p̃ C for different levels of αA , and
+substituting p̃ C in the expression for α A given above, we find that the cut-off level
+¯
+
+271
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+TABLE A.I
+Differences in Incentives in Divisions A and B between the Conglomerate
+and the Stand-Alone Option
+αB
+αA
+
+0.0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1.0
+
+Panel A: Differences in incentives in division A (m̃ C − m̃ A ) as a function of αA and αB
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+
+0.0429
+0.0340
+0.0251
+0.0163
+0.0076
+−0.0010
+−0.0094
+−0.0177
+−0.0259
+−0.0340
+−0.0418
+
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+
+0.0488
+0.0489
+0.0489
+0.0490
+0.0490
+0.0491
+0.0491
+0.0492
+0.0492
+0.0493
+0.0493
+
+0.0430
+0.0341
+0.0252
+0.0164
+0.0077
+−0.0009
+−0.0094
+−0.0177
+−0.0259
+−0.0340
+−0.0419
+
+0.0432
+0.0343
+0.0253
+0.0165
+0.0077
+−0.0009
+−0.0093
+−0.0177
+−0.0259
+−0.0340
+−0.0419
+
+0.0433
+0.0344
+0.0254
+0.0165
+0.0078
+−0.0008
+−0.0093
+−0.0177
+−0.0259
+−0.0341
+−0.0420
+
+0.0434
+0.0345
+0.0255
+0.0166
+0.0078
+−0.0008
+−0.0093
+−0.0177
+−0.0259
+−0.0341
+−0.0421
+
+0.0436
+0.0346
+0.0256
+0.0167
+0.0079
+−0.0007
+−0.0093
+−0.0177
+−0.0260
+−0.0342
+−0.0421
+
+0.0437
+0.0347
+0.0257
+0.0168
+0.0080
+−0.0007
+−0.0092
+−0.0177
+−0.0260
+−0.0342
+−0.0422
+
+0.0438
+0.0349
+0.0258
+0.0169
+0.0080
+−0.0006
+−0.0092
+−0.0176
+−0.0260
+−0.0342
+−0.0422
+
+0.0440
+0.0350
+0.0260
+0.0170
+0.0081
+−0.0006
+−0.0092
+−0.0176
+−0.0260
+−0.0343
+−0.0423
+
+0.0441
+0.0351
+0.0261
+0.0171
+0.0082
+−0.0006
+−0.0092
+−0.0176
+−0.0260
+−0.0343
+−0.0423
+
+0.0443
+0.0353
+0.0262
+0.0171
+0.0082
+−0.0006
+−0.0092
+−0.0178
+−0.0260
+−0.0343
+−0.0424
+
+Panel B: Differences in incentives in division B ( p̃C − p̃ B ) as a function of αA and αB
+0.0348
+0.0348
+0.0349
+0.0349
+0.0350
+0.0350
+0.0350
+0.0351
+0.0351
+0.0352
+0.0352
+
+0.0215
+0.0215
+0.0215
+0.0216
+0.0216
+0.0216
+0.0216
+0.0217
+0.0217
+0.0217
+0.0218
+
+0.0088
+0.0088
+0.0088
+0.0089
+0.0089
+0.0089
+0.0089
+0.0089
+0.0089
+0.0090
+0.0090
+
+−0.0033
+−0.0033
+−0.0033
+−0.0033
+−0.0033
+−0.0033
+−0.0033
+−0.0032
+−0.0032
+−0.0032
+−0.0032
+
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+−0.0149
+
+−0.0260
+−0.0260
+−0.0260
+−0.0260
+−0.0260
+−0.0261
+−0.0261
+−0.0261
+−0.0261
+−0.0261
+−0.0261
+
+−0.0367
+−0.0367
+−0.0367
+−0.0367
+−0.0368
+−0.0368
+−0.0368
+−0.0368
+−0.0368
+−0.0369
+−0.0369
+
+−0.0470
+−0.0471
+−0.0471
+−0.0471
+−0.0471
+−0.0472
+−0.0472
+−0.0472
+−0.0473
+−0.0473
+−0.0473
+
+−0.0570
+−0.0571
+−0.0571
+−0.0571
+−0.0572
+−0.0572
+−0.0573
+−0.0573
+−0.0573
+−0.0574
+−0.0574
+
+−0.0668
+−0.0668
+−0.0668
+−0.0669
+−0.0669
+−0.0670
+−0.0670
+−0.0671
+−0.0671
+−0.0672
+−0.0672
+
+α A of αA , above which division A chooses a lower monitoring intensity in case of
+¯
+conglomeration,
+equals 0.49. If we substitute p̃ C = p̃ B , however, α A equals 0.52.
+¯
+Free-riding by division B therefore shrinks the interval of αA for which
+conglom1/2
+eration improves incentives in division A. For F(m) = 6m it can be shown that
+TABLE A.II
+Difference in Total Expected Surplus between the Conglomerate and the Stand-Alone Option
+αB
+αA
+
+0.0
+
+0.1
+
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+
+0.2038
+0.1875
+0.1713
+0.1552
+0.1394
+0.1240
+0.1088
+0.0939
+0.0792
+0.0648
+0.0507
+
+0.1777
+0.1614
+0.1451
+0.1289
+0.1131
+0.0976
+0.0824
+0.0674
+0.0527
+0.0382
+0.0241
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.1564
+0.1394
+0.1262
+0.1163
+0.1094
+0.1050
+0.1400
+0.1230
+0.1098
+0.0998
+0.0928
+0.0884
+0.1237
+0.1066
+0.0933
+0.0834
+0.0763
+0.0719
+0.1075
+0.0904
+0.0771
+0.0670
+0.0599
+0.0555
+0.0916
+0.0745
+0.0611
+0.0510
+0.0439
+0.0394
+0.0761
+0.0589
+0.0454
+0.0353
+0.0281
+0.0236
+0.0608
+0.0436
+0.0301
+0.0199
+0.0127
+0.0081
+0.0458
+0.0285
+0.0150
+0.0047 −0.0025 −0.0072
+0.0310
+0.0137
+0.0001 −0.0102 −0.0175 −0.0223
+0.0164 −0.0010 −0.0146 −0.0249 −0.0323 −0.0371
+0.0023 −0.0152 −0.0289 −0.0392 −0.0467 −0.0515
+
+0.8
+
+0.9
+
+1.0
+
+0.1030
+0.0864
+0.0698
+0.0533
+0.0372
+0.0213
+0.0058
+−0.0095
+−0.0246
+−0.0398
+−0.0543
+
+0.1032
+0.0865
+0.0698
+0.0533
+0.0371
+0.0212
+0.0056
+−0.0097
+−0.0248
+−0.0398
+−0.0543
+
+0.1052
+0.0885
+0.0718
+0.0553
+0.0390
+0.0231
+0.0075
+−0.0079
+−0.0231
+−0.0381
+−0.0526
+
+272
+
+BOOT AND SCHMEITS
+
+m̃ C < m̃ A for all αA ∈ [0, 1] and αB ∈ [0, 1], and furthermore that 1 < 0 for all
+αA and αB . In this case, therefore, conglomeration is never optimal. Finally, by
+incorporating δ = 0.30 in our example, we find that α A decreases to approximately
+0.35 and α B decreases to approximately 0.36 (for¯all levels of αA ). In this case
+¯
+the stand-alone
+option becomes optimal more often; that is, conglomeration now
+is only optimal if αA is smaller than approximately 0.35.
+
+REFERENCES
+Allen, J. W. (1998). Capital markets and corporate structure: The equity carve-outs of Thermo Electron,
+J. Finan. Econ. 48, 99–124.
+Aron, D. J. (1988). Ability, moral hazard, firm size and diversification, Rand J. Econ. 19, 72–87.
+Avery, R. B., and Berger, A. N. (1991). Loan commitments and bank risk exposure, J. Banking Finance
+15, 173–192.
+Berger, P., and Ofek, E. (1995). Diversification’s effect on firm value, J. Finan. Econ. 37, 39–65.
+Boot, A. W. A., Greenbaum, S. I., and Thakor, A. V. (1993). Reputation and discretion in financial
+contracting, Amer. Econ. Rev. 83, 1165–1183.
+Daley, L., Mehrotra, V., and Sivakumar, R. (1997). Corporate focus and value creation: Evidence from
+spinoffs, J. Finan. Econ. 45, 257–281.
+Flannery, M. J. (1994). Debt maturity and the deadweight costs of leverage: Optimally financing
+banking firms, Amer. Econ. Rev. 84, 320–331.
+Flannery, M. J., Houston, J. F., and Venkataraman, S. (1993). Financing multiple investment projects,
+Financial Manage. 22, 161–172.
+Fulghieri, P., and Hodrick, L. (1997). “Synergies and Internal Agency Conflicts, The Double-Edged
+Sword of Mergers,” Working Paper, Insead and Center for Economic Policy Research.
+Grossman, S. J., and Hart, O. (1986). The costs and benefits of ownership: A theory of vertical and
+lateral integration, J. Polit. Econ. 94, 691–719.
+Harris, M., and Raviv, A. (1979). Optimal incentive contracts with imperfect information, J. Econ.
+Theory 20, 231–259.
+Harris, M., and Raviv, A. (1999). “Organization Design,” Working Paper, University of Chicago and
+Northwestern University.
+Hart, O. (1995). “Firms, Contracts and Financial Structure,” Oxford University Press, Oxford.
+Holmström, B. (1979). Moral hazard and observability, Bell J. Econ. 10, 74–91.
+Holmström, B. (1982). Moral hazard in teams, Bell J. Econ. 13, 324–340.
+Holmström, B., and Milgrom, P. (1990). Regulating trade among agents, J. Instit. Theoret. Econ. 146,
+85–105.
+Holmström, B., and Tirole, J. (1993). Market liquidity and performance monitoring, J. Polit. Econ.
+101, 678–709.
+Itoh, H. (1991). Incentives to help in multi-agent situations, Econometrica 59, 611–636.
+James, C., and Houston, J. (1996). Evolution or extinction: Where are banks headed?, J. Appl. Corp.
+Finance 9, 8–23.
+John, T. A., and John, K. (1993). Top-management compensation and capital structure, J. Finance 53,
+949–974.
+Kahn, C. M. (1992). “Project Choice, Moral Hazard, and Optimal Subsidiary Structure for Intermediaries,” Working Paper, University of Illinois.
+
+MARKET DISCIPLINE AND INCENTIVE PROBLEMS
+
+273
+
+Khanna, T., and Palepu, K. (1997). Why focused strategies may be wrong for emerging markets,
+Harvard Bus. Rev. 75, 41–50.
+Lamont, O. (1997). Cash flow and investment: Evidence from internal capital markets, J. Finance 52,
+83–109.
+Li, D. D., and Li, S. (1996). A theory of corporate scope and financial structure, J. Finance 51, 691–709.
+Maksimovic, V., and Phillips, G. (1998). “Optimal Firm Size and the Growth of Conglomerate and
+Single-Industry Firms,” Working Paper, University of Maryland.
+Milbourn, T. (1997). “The Executive Compensation Puzzle: Theory and Evidence,” Working Paper,
+London Business School.
+Milgrom, P., and Roberts, J. (1990). Bargaining costs, influence costs, and the organization of economic
+activity, in “Perspectives on Positive Political Economy” (J. Alt and K. Shepsle, Eds.), Cambridge
+Univ. Press, Cambridge, UK.
+Rajan, R. G., and Myers, S. C. (1998). The paradox of liquidity, Quart. J. Econ. 113, 733–761.
+Rajan, R. G., Servaes, H., and Zingales, L. (2000). The cost of diversity: The diversification discount
+and inefficient investment, J. Finance 55, 35–80.
+Rajan, R. G., and Zingales, L. (1999). The tyranny of the inefficient: An enquiry into the adverse
+consequences of power struggles, J. Public Econ., forthcoming.
+Ramakrishnan, R. T. S., and Thakor, A. V. (1991). Cooperation versus competition in agency, J. Law
+Econ. Organ. 7, 248–283.
+Schipper, K., and Smith, A. (1986). A comparison of equity carve-outs and seasoned equity offerings:
+share price effects and corporate restructuring, J. Finan. Econ. 15, 153–186.
+Shin, H., and Stulz, R. (1998). Are internal capital markets efficient?, Quart. J. Econ. 113, 531–552.
+Stein, J. C. (1997). Internal capital markets and the competition for corporate resources, J. Finance 52,
+111–133.
+Stoughton, N., and Zechner, J. (1999). “Optimal Capital Allocation Using RAROCTM and EVAr ,”
+Working Paper, University of Vienna.
+Varian, H. R. (1990). Monitoring agents with other agents, J. Instit. Theoret. Econ. 146, 153–174.
+Wulf, J. (1998). “Influence and Inefficiency in the Internal Capital Market: Theory and Evidence,”
+Working Paper, The Wharton School, University of Pennsylvania.
+Zaik, E., Walter, Kelling G., and James, C. (1996). RAROC at Bank of America: From theory to
+practice, J. Appl. Corp. Finan. 9, 83–93.
+
+

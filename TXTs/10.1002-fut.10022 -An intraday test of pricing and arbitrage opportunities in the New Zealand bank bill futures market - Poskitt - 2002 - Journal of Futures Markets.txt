@@ -1,0 +1,2929 @@
+AN INTRADAY TEST OF
+PRICING AND ARBITRAGE
+OPPORTUNITIES IN THE
+NEW ZEALAND BANK BILL
+FUTURES MARKET
+RUSSELL POSKITT
+
+This paper examines pricing and arbitrage opportunities in the New
+Zealand bank bill futures market using an intraday data set. The key ﬁndings are: (a) the implied forward rate model yields biased estimates of
+the bill futures yield but the bias is small and not economically signiﬁcant;
+(b) ex post synthetic bill opportunities are more numerous than ex post
+quasi-arbitrage opportunities but the yield enhancements are minor; (c) ex
+post quasi-arbitrage opportunities are substantially less frequent and less
+proﬁtable than reported by prior studies using closing data; and (d) arbitrage opportunities decline when execution delays are introduced but the
+declines are not statistically signiﬁcant. In broad terms, the bill futures
+market is efﬁcient with respect to quasi-arbitrage but less so with respect
+to synthetic bill opportunities. The results also suggest that arbitrage
+I wish to thank Greg Mardon (Reuters) and Kelly McCullum (NZFOE) for providing the data used
+in this study and Greg Boland (NZFOE), Tim Robinson (Deutsche Bank), and David Walker (ANZ
+Bank) for their insights into the workings of the bill futures and bill markets. I am also grateful for
+the helpful comments of Henk Berkman, two anonymous referees, and seminar participants at
+UNITEC, the University of Auckland and the 5th New Zealand Finance Colloquium held at the
+University of Otago.
+For correspondence, Russell Poskitt, School of Accountancy, Law and Finance, UNITEC, Private
+Bag 92025, Auckland, New Zealand; e-mail: rposkitt@unitec.ac.nz
+Received April 2001; Accepted September 2001
+
+■
+
+Russell Poskitt is at the School of Accountancy, Law and Finance at UNITEC in
+Auckland, New Zealand.
+
+The Journal of Futures Markets, Vol. 22, No. 6, 519–555
+© 2002 Wiley Periodicals, Inc.
+Published online in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/fut.10022
+
+520
+
+Poskitt
+
+opportunities are not generally available to arbitrageurs without access to
+the interbank bill market. The incidence of arbitrage opportunities is on a
+par with levels reported in intraday studies of stock index and foreign
+exchange markets. This illustrates the importance of using high frequency
+data to assess transactional efﬁciency in ﬁnancial markets. © 2002 Wiley
+Periodicals, Inc. Jrl Fut Mark 22:519–555, 2002
+
+1. INTRODUCTION
+This paper investigates pricing and arbitrage opportunities in the bank
+bill futures contract traded on the New Zealand Futures and Options
+Exchange (NZFOE) using an intraday data set. This paper is in large part
+motivated by Goodhart and O’Hara’s (1997) plea for research into interest rate markets using high-frequency data. The paucity of research in
+this area is primarily due to the lack of archival data.
+Prior research in the Treasury bill futures contract traded on the
+Chicago Mercantile Exchange has documented significant mispricing
+and/or substantial arbitrage opportunities (e.g., Chow & Brophy, 1982;
+Elton, Gruber, & Rentzler, 1984; Hegde & Branch, 1985; Lang &
+Rasche, 1978; Puglisi, 1978; Rendleman & Carabini, 1979). For example, the frequency of arbitrage opportunities is estimated at 63.8% for
+synthetic bill arbitrage (Elton et al., 1984), 40% for quasi-arbitrage
+(Lang & Rasche, 1978) and 26.5% for pure arbitrage (Elton et al.,
+1984).1 The latter study also found a substantial number of instances
+where pure arbitrage proﬁts exceeded $500 per $1 million of face value
+of Treasury bills. This is in sharp contrast to research in foreign exchange
+and stock index futures markets which found relatively few, and not
+exceptionally proﬁtable, formal arbitrage opportunities (e.g., Buhler &
+Kempf, 1995; Lim, 1992; Rhee & Chang, 1992).
+The frequency and size of arbitrage opportunities suggests that the
+Treasury bill futures market is not transactionally efficient. However,
+these prior studies suffer from a number of limitations. The first is the
+widespread use of an inappropriate forward pricing model to generate fair
+
+1
+
+Synthetic bill arbitrage occurs when investors create synthetic bills by combining an m (n)-day bill
+with a position in the bill futures market to generate a return superior to that on a pure n (m)-day
+bill. Quasi-arbitrage and pure arbitrage are strategies that involve taking simultaneous positions in
+the bill and bill futures market such that a guaranteed proﬁt can be made with zero initial investment. The distinction between quasi-arbitrage and pure arbitrage hinges on whether or not the arbitrageur has a portfolio of bills. Quasi-arbitrage describes the situation where the arbitrageur raises
+funds to purchase an n-day bill (m-day bill) by selling an m-day bill (n-day bill) from his bill portfolio. The term “pure arbitrage” is reserved for situations where the arbitrageur does not hold bills and
+must therefore raise funds by short-selling bills.
+
+New Zealand Bank Bill Futures Market
+
+or theoretical Treasury bill futures yields. Vignola and Dale (1980) and
+Kawaller and Koch (1984) showed that mispricing is substantially less
+when the cost of carry (COC) model is employed in place of the implied
+forward rate (IFR) model that is employed in other studies.2
+Unfortunately these two studies examined neither the frequency nor the
+size of arbitrage opportunities.
+Second, with the notable exception of Elton et al. (1984), prior
+studies used daily closing yield data. The time difference between the
+closing of the Treasury bill market in New York and the end of Treasury
+bill futures trading in Chicago automatically induced error into the
+measurement of the futures/forward differential and the identiﬁcation of
+arbitrage opportunities.
+A third issue relates to the measurement of transaction costs.
+Several studies (e.g., Elton et al., 1984; Hegde & Branch, 1985) compared the gross proﬁts from arbitrage opportunities with estimated transaction costs of $175. Such an assumption is inappropriate when transaction costs are influenced by the term to maturity of the bill futures
+contract. In these circumstances, employing a ﬁxed level of transaction
+costs will lead to errors in measuring the frequency and proﬁtability of
+arbitrage opportunities. Confusion between different arbitrage strategies
+has also led to the use of erroneous transaction cost estimates, compromising the validity of some results (e.g., Rendleman & Carabini, 1979).
+The research design of this study addresses these speciﬁc issues and
+incorporates other advances from the stock index futures literature.
+With regard to model selection, it employs the IFR model to generate
+theoretical bill futures yields since prior research by Poskitt (1998) has
+shown this model to be appropriate for pricing the bill futures contract
+traded on the NZFOE.3 Second, the potential for measurement error is
+largely mitigated by employing an intraday data set comprising timestamped bid/ask quote data for the major bill maturities in the bill market and time-stamped transaction and quote data from the bill futures
+2
+
+Vignola and Dale (1980) and Kawaller and Koch (1984) argue that the repo arbitrage-based costof-carry model should be used to study arbitrage opportunities in the Treasury bill futures market
+since the price of the Treasury bill futures contract is determined at the margin by the repo arbitrage
+activities of dealers in U.S. government securities.
+3
+Poskitt (1998) ﬁnds that the bill futures contract traded on the NZFOE is priced more accurately
+by the IFR model than by the COC model and offers proﬁts considerably smaller than U.S. studies
+report. For example, he ﬁnds that 82.7% of the closing futures yields lie within the IFR-based noarbitrage zone but the corresponding ﬁgure for the COC model is only 45.8%. The author attributes
+the superior performance of the IFR model to the prominent role played by interbank dealers in the
+New Zealand money market. These participants are the price-setters since they face the lowest
+transaction costs of all participants and hold substantial portfolios of bills of varied maturities which
+can be drawn upon to implement quasi-arbitrage trades.
+
+521
+
+522
+
+Poskitt
+
+market. The nature of the bill market bid/ask quote data captured by
+Reuters means that nonsynchronicity, which is an important issue in
+studies of the stock and stock index futures markets using high-frequency
+data, is not an issue in this study. Third, the paper uses standard noarbitrage arguments and transaction cost data to derive no-arbitrage
+bounds for the two main types of arbitrage strategies employed in New
+Zealand, synthetic bill arbitrage and quasi-arbitrage (see Appendices 1
+and 2). Comparative statics show that the width of the synthetic bill noarbitrage zone is approximately constant as bill futures expiration
+approaches while the width of the quasi-arbitrage no-arbitrage zone
+narrows appreciably (see Appendices 3 and 4).4 In addition, this paper
+considers the impact on the frequency and proﬁtability of arbitrage of
+much shorter, and more realistic, execution delays than Elton et al.
+(1984) were able to consider. Lastly, this paper attempts to avoid the
+potential selection bias introduced by the use of transaction data rather
+than quote data. Phillips and Smith (1980) observed that transaction
+data potentially overstate both the frequency and profitability of arbitrage opportunities since arbitrage trades systematically use prices from
+the wrong side of the bid/ask spread. This selection bias can be avoided
+if arbitrage opportunities are evaluated using the bill futures best bid and
+best ask quote data provided by Reuters rather than the transaction data
+provided by the NZFOE.
+This paper ﬁnds that the IFR model gives biased estimates of the
+bill futures yield. However, the bias is small and not economically significant. Quasi-arbitrage opportunities are scarce and much less proﬁtable
+than documented in prior studies. However, synthetic bill opportunities
+are more numerous, although the gains are still quite small. Both the
+number and average proﬁtability of quasi-arbitrage opportunities decline
+when execution lags are introduced but the declines are not statistically
+signiﬁcant. The results also suggest that arbitrage opportunities are not
+generally available to arbitrageurs without access to the interbank bill
+market. Overall, the bill futures market is highly efﬁcient with respect to
+quasi-arbitrage opportunities but less efﬁcient with respect to synthetic
+4
+
+The intuition for the quasi-arbitrage result is as follows. Ignore for the moment all transaction costs
+except the bid/ask spread in the bill market. The dollar value of the 5 basis point bid/ask spread
+incurred in the interbank bill market is proportional to the term to maturity of the bill. The longer
+the term to bill futures expiration, the longer the term of the bills traded in the bill market and the
+greater the dollar transaction costs incurred in the bill market. An arbitrageur must recoup this cost
+from mispricing in the bill futures contract. However, the dollar value of 1 basis point on the bill
+futures contract is ﬁxed (if yield changes are ignored) since the underlying bill has a constant term
+to maturity of 90 days. Thus the longer the term to bill futures expiration, the more the bill futures
+yield must deviate from fair value for the arbitrageur to recoup his transaction costs.
+
+New Zealand Bank Bill Futures Market
+
+bill opportunities. This finding is broadly similar to those reported in
+studies of arbitrage in the foreign exchange and stock index futures
+markets.
+The remainder of this paper is organized as follows. Institutional
+details on the bill and bill futures markets are provided in Section 2.
+Section 3 outlines the no-arbitrage pricing model for the bill futures
+contract. The data sources are discussed in Section 4 and the methodology outlined in Section 5. The results are presented and discussed in
+Section 6 and the paper is summarized in Section 7.
+2. INSTITUTIONAL BACKGROUND
+Bank bills are the most heavily traded instrument in New Zealand’s
+short-term money market. Bank bills (or, more correctly, bank accepted
+bills) are bills of exchange that have been accepted by a registered bank.5
+The bills are often referred to as accommodation bills because they are
+issued for the sole purpose of raising short-term funds for a corporate
+borrower. The bills are drawn between a bank and a corporate borrower
+with an acceptance facility and sold to investors in the primary market.
+Bank bills have a minimum size of $50,000 and are issued with maturities between 7 and 365 days although the most popular maturities are
+30, 60, and 90 days (Potter, 1995). Subsequent trading takes place in the
+secondary market, a screen-based decentralised dealer market with trading hours of 8:00 a.m. to 4:30 p.m. In 1999 there were eight interbank
+dealers acting as price-makers in the secondary market and one screen
+broker facilitating transactions on behalf of dealers.6
+The secondary market is divided into two segments, the wholesale
+market and the retail market. The minimum size parcel in the wholesale
+market is $1 million and the dealer’s bid/ask spread is typically 5 basis
+points. In the wholesale market, interbank dealers buy and sell bills with
+each other, large corporates and fund managers, both domestic and offshore, and other ﬁnancial institutions. In the retail market, retail dealers
+buy and sell bills with small corporates and retail investors. The retail
+dealer’s bid/ask spread is typically 10 basis points. Dealer quotes in both
+the wholesale and retail markets are indicative only. That is, a dealer is
+5
+
+When a bank accepts a bill it undertakes to pay the face value of the bill to the holder on maturity date. Since the accepting bank will have a good credit rating the bill will trade at a small margin above Treasury bills with a similar term to maturity. This margin was 40 basis points in late
+1999.
+6
+The eight dealers are ASB Bank, ABN AMRO, HSBC, ANZ Bank, BNZ, Deutsche Bank, National
+Bank, and WestpacTrust. The screen broker is Fixed Interest Securities (NZ) Ltd.
+
+523
+
+524
+
+Poskitt
+
+not obligated to transact at the advertised quote. Individual dealer transactions are not reported to the market and there is little information on
+the size of the bill market. Although data on trading volumes in the secondary market is not available, the volume of outstanding issues of bank
+bills was estimated at $4 billion in 1994 (National Bank, 1994).
+The NZFOE introduced the bank bill futures contract in December
+1986 following dissatisfaction with the futures contract on prime commercial paper. The underlying ﬁnancial instrument is a bank bill with a
+face value of $500,000 and a term to maturity of 90 days. The contract is
+non-deliverable, that is, cash settlement is mandatory. The NZFOE
+offers bank bill futures contracts with settlement months of March,
+June, September, and December up to eight quarters ahead although
+trading tends to be concentrated in the near contract.
+The bank bill futures contract is the most successful derivative contract traded on the NZFOE. In 1998 turnover in the bank bill futures
+contract amounted to 1,236,944 contracts for an average daily turnover
+of $2,454 million. However, trading volumes declined during 1999 and
+2000 following the sharp drop in day-to-day volatility in short-term interest rates that resulted from a change in how monetary policy was implemented in New Zealand in early 1999. Turnover fell 32.4% to 816,913
+contracts in 1999, and this decline continued in the ﬁrst six months of
+2000, albeit at a slower rate. By the end of the sample period in June
+2000 turnover was running at an annual rate of 727,374 contracts.
+The NZFOE is an automated market with a centralized electronic
+limit order book. The trading hours for the bank bill futures contract
+are 8:00 a.m. to 12:00 noon, 1:00 p.m. to 4:30 p.m., and overnight
+from 7:00 p.m. to 7:10 a.m. Buy and sell orders are entered via terminals in the offices of brokers and transactions are governed by price
+and time priority rules. Transactions occur when buy and sell orders
+match. Transaction prices and volumes are reported immediately to the
+market.
+
+3. THEORETICAL DEVELOPMENT
+3.1. No-Arbitrage Bill Futures Pricing
+in the Absence of Transaction Costs
+Arbitrage has been deﬁned as a strategy that “guarantees a positive payoff in some contingency with no possibility of a negative pay-off and
+requires no net investment” (Dybvig & Ross, 1992). The no-arbitrage
+pricing formula for the bill futures contract is based on the following
+
+New Zealand Bank Bill Futures Market
+
+assumptions: (a) m- and n-day bank bills (m  n) with a face value of $F
+are traded in the bill market; (b) investors are indifferent between holding m- and n-day bills; (c) a bill futures contract with a maturity date of m
+is available in the futures market. This contract is based on an n–m-day
+bank bill with a face value of $F and a maturity date of n; (d) the daily
+settlement-to-market feature of the bill futures contract is ignored;7 (e)
+bank bills and bill futures contracts are perfectly divisible; and (f ) arbitrage is conducted by dealers employed by banks offering acceptance
+facilities to borrowers.
+In the absence of transaction costs and other frictions, the following
+condition must hold if an arbitrage opportunity is not to exist:
+f
+r0,nm
+ c
+
+1  (r0,n  n兾365)
+1  (r0,m  m兾365)
+
+ 1d 
+
+365
+nm
+
+(1)
+
+Equation (1) deﬁnes the implied forward rate (IFR).
+3.2. No-Arbitrage Bill Futures Pricing
+in the Presence of Transaction Costs
+3.2.1. Introduction
+When transaction costs are non-zero, arbitrage opportunities will emerge
+when the bill futures yield deviates from the IFR by more than enough to
+compensate arbitrageurs for the transaction costs involved in structuring
+an arbitrage trade. The transaction costs interbank arbitrageurs face
+include: (a) the bid/ask spread on bill transactions of 5 basis points in the
+interbank market; (b) a NZFOE fee of $2.50 per bill futures transaction;
+(c) the interest cost on the initial margin payment of $600 per bill
+futures contract;8 and (d) the market spread in the bill futures market,
+which is usually between 1 and 2 basis points on the nearby bill futures
+contract.9
+7
+
+Flesaker (1993) argued that treating the futures contract as if it were a forward contract by ignoring the settlement-to-market feature of the futures contract loses little accuracy. Although Cox,
+Ingersoll, and Ross (1981) showed that the prices of otherwise equivalent forward and futures contracts differ according to the correlation between the price of the underlying asset and a stochastic
+interest rate, Flesaker found the difference between the two yields to be quite small for contract
+maturities less than one year. For instance, he reported the difference in yields is less than 0.2 basis
+points on an annualized basis when the interest rate futures contract has a maturity of less than
+3 months (see Flesaker, 1993, Table 1, p. 86).
+8
+The interest cost can be estimated by assuming arbitrageurs borrow at the m-day rate prevailing at
+the time the bill futures position is established.
+9
+Brokerage fees are ignored since interbank arbitrageurs are assumed to have access to their inhouse futures desk.
+
+525
+
+526
+
+Poskitt
+
+This paper considers two arbitrage strategies, synthetic bill arbitrage and quasi-arbitrage.10 In a synthetic bill trade, an arbitrageur takes
+advantage of any bill futures mispricing to enhance investment returns
+by creating a synthetic bill. An arbitrageur with an n-day (m-day) investment horizon has a choice between purchasing an n-day bill (m-day bill)
+or creating a synthetic n-day bill (m-day bill) by purchasing an m-day
+bill (n-day bill) and taking a long (short) position in the nearby bill
+futures contract. The synthetic bill is more attractive than a pure bill
+when the promised yield net of transaction costs exceeds the promised
+yield on the pure bill. The creation of a synthetic bill involves two transactions in the bill market and two transactions in the bill futures market
+while the purchase of a pure bill involves only one transaction in the bill
+market.11
+Quasi-arbitrage involves either a cash-and-carry arbitrage or a
+reverse cash-and-carry arbitrage trade. Under quasi-arbitrage, an arbitrageur takes advantage of any bill futures mispricing to earn a riskless
+proﬁt by switching from a synthetic bill to a pure bill. If n-day (m-day)
+yields are higher than warranted by yields prevailing in the bill and bill
+futures market, the arbitrageur will purchase the n-day (m-day) bill by
+selling m-day (n-day) bills and taking a short (long) position in the nearby
+bill futures contract. If the transactions are structured correctly, the arbitrageur will be faced with zero cash ﬂows at times 0 and n and a positive
+cash flow at time m. Arbitrageurs engaging in quasi-arbitrage conduct
+three transactions in the bill market and two transactions in the bill
+futures market.
+3.2.2. Upper and Lower Bounds Under
+Synthetic Bill Arbitrage
+A synthetic n-day bill will offer a higher yield than a pure n day bill when
+the bill futures best ask yield at time 0 exceeds an upper bound approximated by:
+UB*  a
+
+a
+1  (r 0,n
+ n兾365)
+a
+a
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+10
+
+365
+nm
+
+ 1b
+(2)
+
+Pure arbitrage is ignored because short-selling of bank bills is not practiced in New Zealand.
+Although synthetic bill arbitrage transactions do not satisfy the Dybvig and Ross (1992) criteria for
+arbitrage, this paper follows convention and uses the term arbitrage to describe this type of trading
+strategy.
+11
+
+New Zealand Bank Bill Futures Market
+
+where ri,j denotes the time i yield on a j-day bill; the superscripts a and b
+denote the ask and bid quotes respectively; C represents the dollar value
+of the modiﬁed basis incurred at time m; and E the sum of the NZFOE
+fee on two bill futures transactions and the interest foregone on the initial margin payment.12
+Similarly, a synthetic m-day bill will offer a higher yield than a pure
+m-day bill when the bill futures best bid yield at time 0 is below a lower
+bound approximated by:
+LB*  a
+
+a
+ n兾365)
+1  (r 0,n
+a
+a
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+ 1b
+
+365
+nm
+
+(3)
+
+Refer to Appendix 1 for the derivation of equations (2) and (3).
+3.2.3. Upper and Lower Bounds
+Under Quasi-Arbitrage
+Reverse cash-and-carry arbitrage will be proﬁtable when the bill futures
+best ask yield at time 0 exceeds an upper bound approximated by:
+UB**  a
+
+b
+ n兾365)
+1  (r 0,n
+a
+b
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(4)
+
+Similarly, cash-and-carry arbitrage will be proﬁtable when the bill
+futures best bid yield at time 0 is below a lower bound approximated by:
+LB**  a
+
+a
+ n兾365)
+1  (r 0,n
+b
+a
+[1  (r0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(5)
+
+Refer to Appendix 2 for the derivation of equations (4) and (5).
+12
+
+The modiﬁed basis at time m represents the difference between either the bid or the ask yield on a
+90-day bill and the settlement yield on the bill futures contract. The settlement yield is computed by
+taking the average of the mid-quotes derived from bid and ask quotes on 90-day bills posted by dealers in the bill market. Since the bid/ask spread on a 90-day bill is typically 5 basis points, the modiﬁed
+basis is 2.5 basis points. Although C varies with the level of yields, for all practical purposes it is constant. The exchange fee component of E is also constant but the interest foregone component varies
+with the level of yields and the term to bill futures expiration. As a result C  E typically declines from
+0.000088 90 days from bill futures expiration to 0.000070 one day prior to bill futures expiration.
+
+527
+
+528
+
+Poskitt
+
+3.2.4. When Is Arbitrage Not Arbitrage
+and Does It Matter?
+Kamara (1988) used the term “one-way arbitrage” to describe synthetic
+bill arbitrage trades.13 As noted previously, this type of activity does not
+satisfy the Dybvig and Ross (1992) criteria for arbitrage. Nonetheless,
+the continuous ﬂow of investors seeking the highest yield should exert
+equilibrating pressure on both bill and bill futures yields and eliminate
+the synthetic bill arbitrage opportunity. It is also possible that synthetic
+bill arbitrage activity may prevent quasi-arbitrage opportunities from
+emerging. However, Rhee and Chang (1992) observed that one-way arbitrage opportunities do not give rise to a money machine because one-way
+arbitrage trades are not initiated de novo in order to make money. The
+arbitrageurs are in fact investors and once they have purchased either
+their pure bill or synthetic bill, they exit the market. In contrast, quasiarbitrage or round-trip arbitrage opportunities attract arbitrageurs into
+the market. Since these arbitrageurs will endeavor to establish large positions in both the bill and bill futures markets to generate riskless proﬁts,
+the relatively higher level of arbitrage activity should eliminate any quasiarbitrage opportunity quickly. Whether synthetic bill arbitrage alone is
+sufﬁcient to make conventional quasi-arbitrage redundant is ultimately
+an empirical issue.
+4. DATA
+This paper uses intraday data from the bill futures and bill markets
+for the period from 12 November 1999 to 14 June 2000. This period
+spans the last 33 calendar days of the December 1999 bill futures contract and the last 91 calendar days of the March 2000 and June 2000 bill
+futures contracts.
+Reuters provided archived bid/ask quote data on 30-, 60-, 90-, 120-,
+150-, and 180-day bank bills.14 Reuters compiled this data from indicative
+13
+This term originated in the literature on arbitrage in the foreign exchange markets. The traditional
+argument is that covered interest arbitrage (or “round-trip arbitrage”) involving simultaneous
+transactions in the spot and forward markets for foreign exchange and the domestic and foreign
+securities markets ensures that the interest rate parity condition will hold. However, Deardorff
+(1979) showed that the presence of arbitrageurs seeking the least-cost method of exchanging currencies should prevent exchange rates from ever departing enough from interest rate parity for conventional covered interest arbitrage to break even. Deardorff coined the phrase “one-way arbitrage”
+to describe the activity of arbitrageurs with exogenous needs for foreign currency. Miller (1992)
+used the terms “formal” and “informal” arbitrage to distinguish between arbitrage trading and “good
+shopping by knowledgeable investors” in the stock and stock index futures markets.
+14
+The individual time series are referred to as Reuters Instrument Codes or RICs.
+
+New Zealand Bank Bill Futures Market
+
+quotes posted by a panel of dealers operating in the interbank bill market.
+The number of quote revisions over the sample period ranges from 426
+for the 30-day bill to 1,823 for the more popular 90-day bill. Total quote
+revisions over the six bill maturities amount to 5,814.
+Reuters cautions that the quote data are a general guide to where
+the market is and do not necessarily represent yields at which transactions are occurring. Reuters also provided archival data on the best bid
+and best ask quote on the near bill futures contract. These quotes were
+sourced from the electronic limit order book for the bill futures contract
+on the NZFOE.
+The literature recognizes two main problems with using Reuters
+dealer quotes as proxies for transaction prices (e.g., Goodhart &
+Figliuoli, 1991; Martens & Kofman, 1998). First, in an active market,
+dealers may be too busy making deals to update their quotes. Second,
+dealers may manipulate their quotes in an attempt to initiate a favorable market movement. A dealer can simply avoid being “hit” by not
+answering the phone, by claiming that the quote is indicative rather
+than ﬁrm or by agreeing to deal only in small amounts. On the other
+hand, it can be argued that a dealer’s ability to refuse to trade at posted
+quotes is to a large extent constrained by their need to maintain their
+reputation and credibility with other market participants (e.g.,
+Bollerslev & Domowitz, 1993; Goodhart & Figliuoli, 1991). Thus,
+although these quotes (or even the mid-rate) do not represent actual
+transaction prices, they provide a good approximation of prices at which
+transactions are occurring.
+Another potential problem is that of the nonsynchronicity of
+bid/ask quotes from the bill market and transactions in the bill futures
+market. Prior researchers examining index futures arbitrage recognize
+that the infrequent trading of stocks within the market index can generate violations of no-arbitrage relations that are in fact spurious (e.g.,
+MacKinlay & Ramaswamy, 1988). However, the particular nature of the
+bill market quote data supplied by Reuters largely mitigates this potential problem. Speciﬁcally, Reuters only record changes in bid/ask quotes.
+When a dealer changes his bid/ask quote for, say, the 90-day bill, the
+new quote pair is compared to the 90-day quote in the broker market. If
+the new quote pair is within a predetermined margin of the benchmark
+quote in the broker market, Reuters records the new pair of quotes.
+Thus, the absence of more recent quote pairs does not necessarily indicate that trading is not taking place, only that if trading is taking place,
+it is taking place at the last recorded pair of quotes. This situation
+
+529
+
+530
+
+Poskitt
+
+differs from that of the stock market where transaction prices are the
+primary source of trading information. In stock markets, the absence of
+recent transaction prices on a stock signals that trading is not taking
+place and that the prevailing price is stale. No similar presumption is
+made in this study.
+The NZFOE provided time-stamped transaction data on the bill
+futures contract comprising time of trade to the nearest minute, price
+and volume. Over the period from 12 November 1999 to 14 June 2000
+there were 3,439 trades in the near bill futures contract for a total contract volume of 183,817 contracts. Some 272 of these transactions took
+place during the overnight trading session and these are excluded from
+the study. Furthermore, analysis of the Reuters quote data revealed that
+bill quotes were missing on three days over the sample period: 26 and 29
+November 1999 and 3 April 2000. Since newspaper reports indicated
+that the bill market was open on these days, it was surmised that the
+absence of quote data was due to technical problems experienced by
+Reuters rather than to inactivity in the bill market. All bill futures transactions occurring on these days were therefore deleted from the sample.
+Also, to prevent stale best bid and best ask quotes from inﬂuencing the
+results, bill futures transactions taking place before Reuters recorded a
+fresh bid or ask quote each morning were removed from the sample.15
+Lastly, transactions taking place on the expiration dates of the nearby bill
+futures contract (15 December 1999, 15 March 2000, and 14 June
+2000) were removed from the sample. This left a ﬁnal sample of 3,019
+bill futures transactions.
+
+5. METHODOLOGY
+Contract mispricing is measured by the bill futures/IFR differential at
+the time of each bill futures transaction. The arithmetic bill futures/IFR
+differential at time t is computed as follows:
+rDiff,t  rtf  rtIFR
+
+(6)
+
+where r tf is the time t bill futures transaction yield and r tIFR the contemporaneous IFR. By convention, the differential is measured in both
+15
+
+Reuters does not record best bid and ask quotes arising from overnight trading in the bill futures
+market. The best bid and best ask quotes prevailing when trading commences after 8:00 a.m. will
+relate to trading on the previous afternoon. These quotes will not necessarily reﬂect where the bill
+futures market is early in the morning session. Hence the need to remove these quotes from the
+analysis.
+
+New Zealand Bank Bill Futures Market
+
+arithmetic and absolute terms. The absolute bill futures/IFR differential
+at time t is deﬁned as follows:
+rAbDiff,t  ƒ rtf  rtIFR ƒ
+
+(7)
+
+For each bill futures transaction the contemporaneous IFR is
+computed from the yield curve constructed from the most recent quotes
+posted in the bill market. The IFR is computed using the following
+equation:
+rtIFR  c
+
+1  (rt,n  n兾365)
+1  (rt,m  m兾365)
+
+ 1d 
+
+365
+90
+
+(8)
+
+where rt,m and rt,n are the time t mid-quotes on m- and n-day bills respectively. Equation (8) shows that the forward rate for the period from time
+m to time n is determined by the yields on m- and n-day bills (see, e.g.,
+Hicks, 1939). When m and n are not multiples of 30, rt,m and rt,n are estimated by linear interpolation.16
+Arbitrage opportunities occur when either the bill futures best ask
+or best bid lies outside either the synthetic bill or quasi-arbitrage noarbitrage zones deﬁned earlier. The yield enhancements offered by synthetic bill arbitrage opportunities are computed by comparing the annualized yield on the synthetic bill, adjusted for transaction costs, with the
+ask yield on the ordinary bill.
+The annualized yield enhancements offered by the synthetic n- and
+m-day bills are deﬁned by the following pair of equations:
+¢r0,n  c
+
+f,a
+a
+1  [P(r0,nm
+)  (C  E)]P(r 0,m
+)
+
+¢r0,m  c
+
+a
+[P(r0,f, bnm )  (C  E)]  P(r 0,n
+)
+
+f,a
+[P(r0,nm
+)
+
+ (C 
+
+a
+E)]P(r 0,m
+)
+
+a
+P(r 0,n
+)
+
+
+
+
+
+365
+a
+d  r 0,n
+n
+
+365
+a
+d  r 0,m
+m
+
+(9)
+
+(10)
+
+Following Rendleman and Carabini (1979), let r and r denote the yield on bills maturing just
+before and just after the maturity date of the d-day bill. Similarly, let d and d represent the days to
+maturity of the corresponding bills maturing just before and just after the d-day bill. The yield on the
+d-day bill is given by the following equation:
+
+16
+
+rd 
+
+[r  (d   d)  r  (d  d  )]
+d  d
+
+Although dealers often use nonlinear methods to obtain yields on nonstandard maturities, the estimation error arising from the use of linear interpolation is not expected to be large since the interpolation interval is less than 30 days. The error is likely to be largest when d is less than 30 days
+since these yields are extrapolated from the 30- and 60-day bill yields.
+
+531
+
+532
+
+Poskitt
+f,a
+f,b
+where r0,nm
+and r0,nm
+are the best ask and best bid quotes on the nearby bill futures contract. The term inside the square brackets on the RHS
+of equation (9) represents the yield on the synthetic n-day bill and the
+second term on the RHS is the yield on a pure n-day bill [refer to equations (1.2) and (1.3) in Appendix 1]. Similarly, the term inside the square
+brackets on the RHS of equation (10) represents the yield on the synthetic m-day bill and the second term on the RHS is the yield on a pure
+m-day bill (refer to equations (1.9) and (1.10) in Appendix 1).
+Profits offered by quasi-arbitrage opportunities are computed by
+assuming the m- and n-day bills and the 90-day bill underlying the bill
+futures contract have a face value of $1 million. The proﬁts accruing to
+reverse cash-and-carry and cash-and-carry trades are measured by the
+following pair of equations:
+
+ RCCA 
+
+b
+P(r0,n
+)
+a
+P(r 0,m
+)
+
+ CCA  
+
+a
+f,b
+f,a
+)  P(rm,nm
+)  P(r0,nm
+)E
+ P(rm,nm
+
+a
+P(r 0,n
+)
+b
+P(r0,m
+)
+
+b
+f,b
+f,a
+ P(rm,nm
+)  P(r0,nm
+)  P(rm,nm
+)E
+
+(11)
+
+(12)
+
+Equations (11) and (12) represent the time m net cash ﬂow from reverse
+cash-and-carry and cash-and-carry arbitrage respectively (refer to
+Tables 2.1 and 2.2 in Appendix 2 for details).
+
+6. RESULTS
+6.1. The Futures/IFR Differential
+Summary statistics on the arithmetic bill futures/IFR differential
+are presented in Panel A of Table I for the full sample and for subsamples
+based on the term to maturity of the nearby bill futures contract.
+The frequency distribution of the arithmetic differential is depicted in
+Figure 1.
+The data in Panel A show that the mean differential is relatively
+small and negative, at 2 basis points over the full sample. The mean
+differential also narrows as bill futures maturity date approaches. The
+Jarque–Bera statistics in Panel A indicate that the null hypothesis of normally distributed differentials is rejected except for the 0–30-day term to
+maturity subsample. The nonparametric binomial Sign (S) and Wilcoxon
+(T) statistics reported in Panel B indicate that the null hypothesis of a
+zero median differential is rejected for the full sample and for each of the
+
+New Zealand Bank Bill Futures Market
+
+TABLE I
+
+Arithmetic Futures/IFR Differential
+0–30 Days
+
+31–60 Days
+
+61–90 Days
+
+Total
+
+Panel A: Summary Statistics
+Sample size
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistic
+
+1,125
+1.1
+0.9
+2.8
+7.7
+8.0
+0.008
+2.684
+4.68
+
+1,108
+2.4
+2.3
+3.9
+12.1
+14.2
+0.359
+4.064
+75.93**
+
+859
+2.8
+3.1
+4.1
+16.4
+12.2
+0.536
+3.748
+61.12**
+
+3,092
+2.0
+2.0
+3.7
+16.4
+14.2
+0.113
+3.856
+100.86**
+
+12.83**
+9.12**
+11.56**
+
+20.80**
+15.77**
+18.79**
+
+19.99**
+16.51**
+16.97**
+
+30.84**
+23.68**
+27.99**
+
+Panel B: Hypothesis Tests
+H0: rDiff  0
+t statistic
+S statistic
+T statistic
+**Signiﬁcant at the 0.01 level.
+
+800
+700
+
+Frequency
+
+600
+500
+400
+300
+200
+100
+0
+–0
+
+.4
+
+0
+–0
+
+.3
+
+4
+–0
+
+.2
+
+8
+
+2
+
+.2
+
+–0
+
+6
+
+.1
+
+–0
+
+10
+
+.
+–0
+
+4
+
+.0
+
+–0
+
+02
+
+0.
+
+08
+
+0.
+
+14
+
+0.
+
+20
+
+0.
+
+26
+
+0.
+
+32
+
+0.
+
+38
+
+0.
+
+Differential
+FIGURE 1
+
+Frequency distributions of arithmetic differential.
+
+term to maturity subsamples. These test results show that the IFR model
+generates biased estimates of the bill futures yield.
+The negative mean arithmetic differential for the sample implies
+that the IFR model overprices the nearby futures contract. This ﬁnding is
+consistent with results from previous studies (e.g., Capozza & Cornell,
+1979; Lang & Rasche, 1978; Poole, 1978; Rendleman & Carabini, 1979;
+
+533
+
+534
+
+Poskitt
+
+TABLE II
+
+Absolute Futures/IFR Differential
+1–30 Days
+
+31–60 Days
+
+61–90 Days
+
+Total
+
+1,125
+2.4
+1.9
+1.8
+8.0
+0.0
+0.811
+2.968
+123.3**
+
+1,108
+3.5
+2.8
+2.9
+14.2
+0.0
+1.476
+5.196
+625.2**
+
+859
+4.2
+3.7
+2.7
+16.4
+0.0
+0.794
+3.266
+92.9**
+
+3,092
+3.3
+2.6
+2.6
+16.4
+0.0
+1.321
+5.017
+1,423.2**
+
+Panel A: Summary Statistics
+Sample size
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistic
+
+Panel B: Hypothesis Tests
+H0: rDiff,130  rDiff,3160  rDiff,6190
+F statistic
+K statistic
+x2 statistic
+
+129.4**
+234.6**
+151.8**
+
+**Signiﬁcant at the 0.01 level.
+
+Vignola & Dale, 1980). However, the overpricing is of doubtful economic
+significance: two basis points is equivalent to approximately $24 on
+$1 million face value of 90-day bills.17
+The mean arithmetic differential compares favorably with those
+documented in U.S. studies. For instance, Poole (1978) reported an
+IFR-based mean differential for the nearby contract of 6 basis points.
+Kawaller and Koch (1984) measured the differential in percentage terms
+and report a mean differential of 0.31% for the IFR model but only
+0.03% for the COC model. The mean percentage differential for the full
+sample in this study is 0.31%.18 Overall, the results demonstrate that
+the IFR model performs well in pricing the bill futures contract traded
+on the NZFOE, consistent with the ﬁnding based on the use of closing
+yield data (e.g., Poskitt, 1998).
+The data in Table II show that the mean absolute differential is also
+relatively small, at 3.3 basis points over the full sample. The mean
+absolute differential for the full sample of 3.3 basis points compares very
+favorably with those reported in U.S. studies. For example, Lang and
+17
+
+Differences between the creditworthiness of a bank bill and a bank bill futures contract could
+drive a wedge between the IFR and the bill futures yield. However, it is difﬁcult to argue that credit
+risk differences are responsible for such a small differential particularly when the credit risk differential between Treasury bills and bank accepted bills can be up to 40 basis points.
+18
+This ﬁgure is obtained by dividing 0.02% (2 basis points) by 6.52%, the mean bill futures transaction yield over the sample period.
+
+New Zealand Bank Bill Futures Market
+
+Rasche (1978) reported a mean absolute differential of 14 basis points
+for the nearby bill futures contract.
+The mean absolute differential is also increasing in the term to
+maturity of the nearby bill futures contract, rising from 2.4 basis points
+in the 1–30-day subsample to 4.2 basis points in the 61–90-day subsample. The Jarque–Bera statistics in Panel A indicate that the differentials
+are nonnormal. The nonparametric Kruskal–Wallis (K) and median chisquare (x2) test statistics reported in Panel B show that the null hypothesis of equal median differentials across the three term to bill futures
+maturity samples is strongly rejected. This result is consistent with the
+positive relation between the width of the quasi-arbitrage no-arbitrage
+zone and the term to maturity of the bill futures contract.19
+6.2. Frequency of Ex Post
+Arbitrage Opportunities
+Table III documents the frequency of ex post synthetic bill and quasiarbitrage opportunities for the sample of bill futures transactions. Ex
+post arbitrage opportunities exist when prevailing quotes in the bill and
+bill futures markets are such that immediate execution at these quotes
+will yield an arbitrage profit (Klemkosky & Lee, 1991). The sample is
+stratiﬁed according to whether the bill futures yield is below or above the
+IFR. Of the 3,019 bill futures transactions, 2,168 of the transaction
+yields are below the IFR and the remaining 851 are above the IFR.
+The results reported in Table III show that synthetic bill opportunities are more abundant than quasi-arbitrage opportunities.20 This
+19
+
+I also test for the impact of nonsynchronicity between bill market quotes and bill futures transactions on the absolute futures/IFR differential. If nonsynchronicity is important, then one would
+expect the absolute futures/IFR differential to be increasing in the difference between the time of a
+bill futures transaction and the time of the last recorded quote from the bill market. Following
+Rendleman and Carabini (1979), the absolute futures/IFR differential is regressed against the time
+difference variable. The coefﬁcient estimate of the latter is found to be negative but not signiﬁcantly
+different from zero, with a t statistic of 1.07. When the lagged absolute differential is included as
+an explanatory variable, the explanatory power of the model increases sharply but the coefﬁcient of
+the time difference variable remains negative and is even less signiﬁcant. These results show that
+the difference between the time of a bill futures transaction and the time of the last recorded quote
+from the bill market has no signiﬁcant effect on the absolute futures/IFR differential. This ﬁnding is
+consistent with the discussion in Section 4.
+20
+The results are broadly the same when arbitrage opportunities are assessed using bill futures yields
+rather than best bid and best ask quote data. The number of cash-and-carry opportunities rises to 44
+while the number of reverse cash-and-carry opportunities rises to 7. Overall, the incidence of quasiarbitrage opportunities rises to 1.5%. The number of synthetic m-day bill opportunities rises to 383
+while the number of synthetic n-day bill opportunities rises to 812. Overall, the incidence of synthetic
+bill opportunities rises to 38.7%. Mean yield enhancements barely change while mean proﬁts fall to
+$42.99 and $59.36 for cash-and-carry and reverse cash-and-carry arbitrage opportunities respectively.
+
+535
+
+536
+
+Poskitt
+
+TABLE III
+
+Frequency of Ex Post Arbitrage Opportunities
+F Below IFR
+Strategy
+Sample size
+No. of
+opportunities
+Frequency
+
+F Above IFR
+
+Synthetic Cash and Synthetic
+m-Day Bill
+Carry
+n-Day Bill
+2,168
+274
+12.6%
+
+2,168
+34
+1.6%
+
+851
+547
+64.3%
+
+Total
+
+Reverse Cash Synthetic Quasiand Carry
+Bill
+Arbitrage
+851
+4
+0.5%
+
+3,019
+821
+27.2%
+
+3,019
+38
+1.3%
+
+difference is more pronounced when the bill futures yield lies above the
+IFR when the frequency of synthetic bill opportunities reaches 64.3%.21
+The relatively high frequency of synthetic bill arbitrage opportunities
+suggests that the ﬂow of investors into the markets seeking to enhance
+yields is not sufﬁcient to prevent synthetic bill arbitrage opportunities
+from emerging.
+Table III shows that quasi-arbitrage opportunities are relatively
+scarce, with incidences of reverse cash-and-carry arbitrage and cashand-carry arbitrage opportunities at 0.5% and 1.6% respectively. The
+quasi-arbitrage opportunities are also highly clustered.22 At 1.3%, the
+overall incidence of quasi-arbitrage opportunities is much lower than
+the 17.3% incidence that Poskitt (1998) found using closing yield data.
+The results in Table III compare favorably with those documented in
+U.S. studies of quasi-arbitrage opportunities. For example, Lang and
+Rasche (1978) reported the incidence of quasi-arbitrage opportunities at
+40% while Hegde and Branch (1985) estimated the incidences at 9.3%
+for reverse cash-and-carry quasi-arbitrage and 62.5% for cash-and-carry
+quasi-arbitrage.
+The incidence of ex post synthetic bill and quasi-arbitrage opportunities is also broadly comparable to the level documented by Rhee and
+Chang (1992) for the foreign exchange market. They reported the incidence of one-way arbitrage opportunities for 1–3-month maturities in
+21
+The very high frequency of arbitrage opportunities in this situation largely reﬂects the low transaction costs incurred by arbitrageurs creating synthetic n-day bills: the gap between the IFR and
+UB* is much smaller than the gap between the IFR and LB*. Thus, when the bill futures yield is
+above the IFR it is also almost always above UB*.
+22
+Of the 34 cash-and-carry opportunities, 32 occurred on 17 April between 10:46 a.m. and 4:24 p.m.
+and the remaining two occurred the following day at 4:20 p.m. and 4:22 p.m. Of the four reverse
+cash-and-carry opportunities, three occurred between 8:58 a.m. and 10:00 a.m. on 5 January and
+the remaining one at 10:34 a.m. on 28 February.
+
+New Zealand Bank Bill Futures Market
+
+TABLE IV
+
+Ex Post Yield Enhancements of Synthetic Bill Trades
+Nonannualized Data
+Strategy
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistic
+
+Annualized Data
+
+Synthetic
+m-Day Bills
+
+Synthetic
+n-Day Bills
+
+Synthetic
+m-Day Bills
+
+Synthetic
+n-Day Bills
+
+0.50
+0.29
+0.47
+1.75
+0.00
+1.114
+3.287
+57.64**
+
+0.45
+0.39
+0.45
+3.97
+0.00
+2.936
+18.666
+6,379.8**
+
+2.89
+1.91
+2.89
+11.00
+0.02
+1.406
+4.048
+102.81**
+
+1.30
+1.23
+1.17
+9.07
+0.00
+2.140
+11.243
+1,966.3**
+
+**Signiﬁcant at the 0.01 level.
+
+the foreign exchange and eurocurrency markets at 47.3% for Sterling,
+46.9% for the Deutschmark, 71.8% for the Swiss Franc, and 85.6% for
+the Yen. In contrast, the authors found there were no covered interest (or
+round-trip) arbitrage opportunities in the one to three month forward
+maturities in the markets for Sterling, Deutschmarks and Swiss Francs,
+and for Yen, the incidence was a mere 1.3%.
+6.3. Economic Signiﬁcance of Ex Post
+Arbitrage Opportunities
+The beneﬁts of ex post synthetic bill opportunities are assessed in terms
+of yield enhancements. Panels A and B of Table IV report the annualized
+and nonannualized yield enhancements in basis points. The nonannualized data show that the majority of yield enhancements are small and less
+than 0.5 basis points. When the yield enhancements are measured on
+an annualized basis the dispersion in the yield enhancements increases,
+with the impact more noticeable for m-day bills.23 The mean yield
+enhancements rise to 2.9 basis points for synthetic m day bills and 1.3
+basis points for synthetic n-day bills. These results suggest that, since
+the bid/ask spread in the retail market is 5 basis points wider than in the
+
+23
+Part of the reason for the greater dispersion of annualized yields for m-day bills is that m is less
+than n. The annualizing factor for m-day bills is 365/m while that for n-day bills is 365/n. Since m is
+less than n, 365/m is greater than 365/n. Thus a given basis point yield differential between an ordinary bill and a synthetic bill will result in a greater annualized yield enhancement for an m-day bill
+than an n-day bill.
+
+537
+
+538
+
+Poskitt
+
+interbank market, arbitrageurs without access to the interbank market
+will rarely be able to take advantage of any bill futures mispricing to
+enhance yields on their investments.
+When the mean annualized yield enhancements of 2.9 and 1.3 basis
+points are divided by the mean bill futures yield of 6.43%, the mean yield
+enhancements are 0.45% and 0.20%. In comparison, Rhee and Chang
+(1992) reported that one-way arbitrage of 1–3-month forward Sterling
+yielded mean annualized percentage proﬁts of 0.06%, while similar activity in the Deutschmark, Swiss Franc, and Yen yielded proﬁts of 0.08%,
+0.12%, and 0.15% respectively. Although the figures reported in this
+study are larger, they are not an order of magnitude greater.
+The gains from ex post quasi-arbitrage are assessed in terms of dollar
+proﬁts per $1 million face value of bills. Table V reports the proﬁtability of
+quasi-arbitrage opportunities on both a nonannualized and an annualized
+basis. The data in Panel A of Table V shows that the proﬁtability of quasiarbitrage opportunities is relatively low with mean proﬁts of $51.80 and
+$80.23 under cash-and-carry and reverse cash-and-carry arbitrage respectively. There are no instances where the quasi-arbitrage profit exceeds
+$150 per $1 million face value of bills. An arbitrage proﬁt of $100 per $1
+million face value of bills is equivalent to a percentage proﬁt of 0.01%!
+The proﬁts available from ex post quasi-arbitrage opportunities are
+lower than Poskitt (1998) ﬁnds and considerably lower than the corresponding ﬁgures that Elton et al. (1984) report. The latter study reported
+mean profits of $1,351 per $1 million face value of bills for arbitrage
+trades undertaken 90 days prior to bill futures maturity, declining to
+$1,067 for trades undertaken 30 days prior to bill futures maturity. The
+
+TABLE V
+
+Ex Post Proﬁtability of Quasi-Arbitrage Trades
+Nonannualized Data
+Strategy
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistic
+
+Annualized Data
+
+Cash and
+Carry
+
+Reverse Cash
+and Carry
+
+Cash and
+Carry
+
+Reverse Cash
+and Carry
+
+$51.80
+$53.48
+$20.31
+$77.35
+$4.47
+0.771
+2.827
+3.41
+
+$80.23
+$88.37
+$48.27
+$130.09
+$14.11
+0.562
+2.071
+0.35
+
+$326.01
+$336.55
+$127.77
+$486.76
+$28.62
+0.769
+2.821
+3.40
+
+$480.43
+$460.77
+$147.31
+$678.35
+$321.84
+0.451
+2.046
+0.29
+
+New Zealand Bank Bill Futures Market
+
+arbitrage opportunities identiﬁed in this study yield mean proﬁts equivalent to a few basis points. Given that Reuters quotes are only indicative,
+the arbitrage proﬁts may well be illusory.
+The generally low proﬁtability of ex post quasi-arbitrage opportunities documented above compares favorably with that found in studies of
+arbitrage in stock /stock index futures markets. Lim (1992) reported a
+mean percentage proﬁt of 0.12% (nonannualized) from arbitrage opportunities in the Nikkei stock index futures contracts. The corresponding
+figure from Buhler and Kempf ’s (1995) study of arbitrage in the DAX
+stock index futures contract is 0.42%, again on a nonannualized basis. In
+contrast, the mean proﬁts reported above of $51.80 and $80.23 correspond to mean percentage proﬁts of 0.005% and 0.008% respectively!
+Again, the data reported in Table V also suggests that the arbitrage
+opportunities will not be available to arbitrageurs without access to the
+interbank bill market.
+
+6.4. Ex Ante Quasi-Arbitrage Opportunities
+In an ex ante test of market efﬁciency, arbitrageurs attempt to make positive ex ante proﬁts upon observing ex post mispricing. The number of
+proﬁtable quasi-arbitrage opportunities is expected to decline on an ex
+ante basis because the proﬁt opportunity may disappear before the arbitrageur can execute his arbitrage trade. Ex ante proﬁtability is typically
+assessed by assuming that arbitrageurs face delays in executing both the
+futures and the cash market legs of an arbitrage transaction (e.g.,
+Klemkosky & Lee, 1991).
+Table VI reports the impact of delays in order execution ranging
+from 1 minute to 10 minutes on the number and proﬁtability of quasiarbitrage arbitrage opportunities.24 The analysis underlying Table VI disregards arbitrage opportunities that occur within 10 minutes of an existing arbitrage opportunity. This leads to a sharp fall in the number of
+arbitrage opportunities examined since most of the arbitrage opportunities occur in clusters. The small sample sizes make it difﬁcult to reject
+the null hypotheses.
+Execution delays reduce both the number of profitable arbitrage
+opportunities and their average proﬁtability. For example, introducing a
+1-min delay reduces the number of proﬁtable cash-and-carry arbitrage
+24
+Conversations with money market dealers suggest that a one minute delay is generous since all the
+interbank dealer need do is buy or sell bills with the dealer offering the most favorable terms and signal the bill futures dealer to enter a market order into the NZFOE’s automated trading system.
+
+539
+
+540
+
+Poskitt
+
+TABLE VI
+
+Ex Ante Proﬁtability of Quasi-Arbitrage Trades
+Delay
+
+Nil
+
+1 Minute
+
+2 Minutes
+
+5 Minutes
+
+10 Minutes
+
+Panel A: Summary Statistics for Cash-and-Carry Arbitrage Opportunities
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistics
+No. of proﬁtable
+opportunities
+Success rate
+
+$47.42
+$49.04
+$22.06
+$77.35
+$4.47
+0.387
+2.477
+0.44
+12
+
+$39.25
+$36.07
+$33.93
+$91.80
+$0.00
+0.181
+1.514
+1.17
+10
+83.3%
+
+$41.47
+$48.78
+$29.27
+$77.35
+$0.00
+0.178
+1.509
+1.18
+11
+91.7%
+
+$39.34
+$49.04
+$31.51
+$77.35
+$0.00
+0.150
+1.369
+1.28
+10
+83.3%
+
+$38.75
+$44.59
+$28.91
+$77.35
+$0.00
+0.078
+1.617
+0.97
+10
+83.3%
+
+Panel B: Summary Statistics for Reverse Cash-and-Carry Arbitrage Opportunities
+Mean
+Median
+Standard deviation
+Maximum
+Minimum
+Skewness
+Kurtosis
+Jarque Bera statistics
+No. of proﬁtable
+opportunities
+Success rate
+
+$77.52
+$88.37
+$58.75
+$130.09
+$14.11
+0.328
+1.500
+0.33
+3
+
+$77.52
+$88.37
+$58.75
+$130.09
+$14.11
+0.328
+1.500
+0.33
+3
+100.0%
+
+$77.52
+$88.37
+$58.75
+$130.09
+$14.11
+0.328
+1.500
+0.33
+3
+100.0%
+
+$77.52
+$88.37
+$58.75
+$130.09
+$14.11
+0.328
+1.500
+0.33
+3
+100.0%
+
+$72.82
+$88.37
+$66.42
+$130.09
+$0.00
+0.407
+1.500
+0.36
+2
+66.7%
+
+trades from 12 to 10 and the mean proﬁtability from $47.42 to $39.25
+per $1 million face value of bills. The impact of execution delays is more
+muted for cash-and-carry trades. However, overall, neither the declines
+in the success rate rates nor the declines in average proﬁtability are statistically signiﬁcant.
+The decline in the number of proﬁtable arbitrage opportunities with
+the passage of time is consistent with that documented in prior studies.
+For example, Buhler and Kempf ’s (1995) study of arbitrage in DAX index
+futures reported the success rate remaining at 100% after a 1-min delay
+before declining to 99.8%, 98.2%, and 95.5% as the delay increased to 2,
+5, and 10 minutes respectively. Chung’s (1991) study of arbitrage in MMI
+futures finds the success rate under the 0.5% transaction cost regime
+declining to 88%, 85%, and 83% with execution lags of 20 seconds, 2, and
+5 minutes respectively.
+
+New Zealand Bank Bill Futures Market
+
+7. SUMMARY
+This paper examines pricing and arbitrage opportunities in the bill
+futures contract traded on the NZFOE using an intraday data set. In
+respect of contract pricing, the IFR model is found to yield biased estimates of the bill futures yield. The futures/IFR forward differential is
+negative and signiﬁcantly different from zero. The tendency for the IFR
+to overprice the bill futures contract is consistent with the results of
+prior studies using the IFR model. However, the degree of overpricing, at
+2 basis points, is small in comparison with that documented in prior
+studies and of doubtful economic signiﬁcance. These results show that
+the IFR model performs well in pricing the bill futures contract traded
+on the NZFOE, consistent with prior research using daily data. In addition, the absolute futures/IFR differential is increasing in the term to
+maturity of the bill futures contract, consistent with the notion that the
+width of the quasi-arbitrage no-arbitrage zone is an increasing function
+of the term to bill futures maturity.
+The frequency of synthetic bill arbitrage opportunities is broadly
+similar to that reported in prior studies but the yield enhancements are
+minor. In contrast, quasi-arbitrage opportunities are very scarce compared to the levels reported in prior studies and the level of proﬁtability
+markedly lower. Only rarely do arbitrage proﬁts exceed $100 per $1 million face value of bills. The absence of numerous and relatively proﬁtable
+quasi-arbitrage opportunities suggests that the supply of quasi-arbitrage
+services is sufﬁcient to ensure efﬁcient pricing. However, the relatively
+greater abundance of synthetic bill opportunities suggests that the ﬂow
+of investors seeking the highest yield is not strong enough to prevent synthetic bill opportunities from emerging.
+The number of profitable quasi-arbitrage opportunities and their
+average proﬁtability decline when execution delays are introduced but
+the declines are not statistically signiﬁcant. However, analysis of execution risk is complicated by the small sample sizes.
+In general, the gains to arbitrageurs are small, whether measured in
+terms of yield enhancements or proﬁts. Moreover, it is extremely doubtful that these gains would be available to arbitrageurs not enjoying
+access to the interbank bill market. It should also be remembered that
+quotes in the interbank market are indicative, not ﬁrm, so any gains to
+arbitrageurs may well be illusory. On the other hand, greater gains may
+be available to arbitrageurs trading bills at broker bid/ask quotes which
+are usually inside the bid/ask quotes of interbank dealers.
+
+541
+
+542
+
+Poskitt
+
+The frequency and profitability of arbitrage opportunities documented in this paper is broadly comparable to the levels reported in
+studies examining arbitrage opportunities in stock index futures markets
+and the international foreign exchange market. This shows the importance of using high frequency data to assess the transactional efﬁciency
+of ﬁnancial markets.
+APPENDIX 1: DERIVATION OF UPPER
+AND LOWER BOUNDS FOR SYNTHETIC
+BILL ARBITRAGE
+Upper Bound
+The upper bound for the bill futures ask yield is derived by considering
+an arbitrageur with an n-day horizon who creates a synthetic n-day bill as
+an alternative to purchasing an n-day bill.
+At time 0 the arbitrageur simultaneously (a) buys m-day bills and
+(b) buys one bill futures contract. At time m the m-day bills matured and
+the arbitrageur simultaneously (a) invests the proceeds in an n–m-day
+bill and (b) sells one bill futures contract. At time n the arbitrageur
+receives the proceeds from the maturing n–m-day bill.
+Let r bi, j denote the time i bid quote on a j-day bill and r ai, j the time i
+ask quote on a j-day bill, C represent the modiﬁed basis at time m and E
+represent the basis point equivalent of the sum of the NZFOE fee, brokerage fee, and interest foregone on the initial margin on a bill futures
+transaction. Let P(r a0,n) be the time 0 price of the n-day bill at the ask
+yield r a0,n, the time 0 price of the m-day bill at the yield and the time 0
+price of the bill futures contract.
+The transactions and resulting cash flows are summarized in
+Table 1.1. The NZFOE fee, brokerage fee, and initial margin are all
+assumed to be paid at time m.
+Recall that C is the modiﬁed basis at time m. That is,
+a
+f,b
+)  P(rm,nm
+)
+C  P(r m,nm
+
+(1.1)
+
+Substituting equation (1.1) into the net cash ﬂow at time m results
+in a zero cash flow at this time. The yield on the synthetic n-day bill
+strategy is therefore
+f,a
+a
+1  : P(r0,nm
+)  (C  E) ; P(r 0,m
+)
+f,a
+[P(r0,nm
+)
+
+ (C 
+
+a
+E)]P(r 0,m
+)
+
+
+
+365
+n
+
+(1.2)
+
+New Zealand Bank Bill Futures Market
+
+TABLE 1.1
+
+Cash Flows From Creating Synthetic n-Day Bill
+Time 0:
+
+f,a
+Buy [P(r 0,nm
+)  (C  E)] m-day bills at r a0,m
+
+f,a
+)  (C  E )]P(r a0,m )
+[P(r0,nm
+
+f,a
+Buy 1 futures contract at r0,nm
+
+0
+
+[Settlement value 
+
+Time m:
+
+f,a
+P (r0,nm
+)]
+
+Net cash ﬂow
+
+f,a
+)  (C  E )]P(r a0,m )
+[P(r 0,nm
+
+Proceeds from maturing m-day bills
+
+f,a
+)  (C  E )
+P(r 0,nm
+
+a
+Buy n–m-day bill at rm,nm
+
+P (r am,nm )
+
+f,b
+Sell 1 futures contract at rm,nm
+f,b
+[Settlement value  P (rm,nm
+)  E]
+
+Time n:
+
+Futures proﬁt/loss
+
+f,b
+f,a
+)  P(r0,nm
+)E
+P(rm,nm
+
+Net cash ﬂow
+
+f,b
+C  P(r am,nm )  P(rm,nm
+)
+
+Proceeds from maturing n–m-day bills
+
+$1
+
+Net cash ﬂow
+
+ⴙ$1
+
+The corresponding yield on a pure n-day bill strategy is
+a
+)
+1  P(r 0,n
+a
+P(r 0,n
+)
+
+
+
+365
+n
+
+(1.3)
+
+For the two strategies to offer the same yield, the following must
+hold:
+a
+)
+1  P(r 0,n
+a
+P(r 0,n
+)
+
+f,a
+a
+)  (C  E) ; P(r 0,m
+)
+1  : P(r0,nm
+365
+365
+
+
+
+f,a
+a
+n
+n
+[P(r0,nm )  (C  E)]P(r 0,m )
+
+(1.4)
+
+Rearranging equation (1.4) gives
+f,a
+)
+P(r0,nm
+
+
+
+a
+a
+P(r 0,n
+)  (C  E)P(r 0,m
+)
+a
+P(r 0,m
+)
+
+(1.5)
+
+which can be rewritten in yield form as
+f,a
+r0,nm
+
+a
+
+a
+1  (r 0,n
+ n兾365)
+a
+a
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(1.6)
+
+543
+
+544
+
+Poskitt
+
+Equation (1.6) defines the upper bound for the bill futures ask
+yield, UB*.
+Lower Bound
+The lower bound for the bill futures bid yield is derived by considering
+an arbitrageur with an m-day horizon who creates a synthetic m-day bill
+as an alternative to purchasing an m-day bill.
+At time 0 the arbitrageur simultaneously (a) buys an n-day bill, and
+(b) sells one bill futures contract. At time m the arbitrageur simultaneously (a) sells the n-day bill which has a remaining life of n–m days and
+(b) buys one bill futures contract.
+The transactions and resulting cash flows are summarized in
+Table 1.2. Again, the NZFOE fee, brokerage fee, and initial margin are
+all assumed to be paid at time m.
+Recall that C represents the modiﬁed basis at time m. That is,
+f,a
+b
+C  P(rm,nm
+)  P(rm,nm
+)
+
+(1.7)
+
+Substituting equation (1.7) into the net cash ﬂow at time m yields a
+time m net cash ﬂow of
+f,b
+P(r0,nm
+)  (C  E)
+
+(1.8)
+
+The yield on the synthetic m-day bill strategy is therefore
+f,b
+a
+:P(r0,nm
+)  (C  E) ;  P(r 0,n
+)
+a
+P(r 0,n
+)
+
+
+
+365
+m
+
+(1.9)
+
+TABLE 1.2
+
+Cash Flows From Creating a Synthetic m-Day Bill
+Time 0:
+
+Buy n-day bill at r a0,n
+
+a
+P (r 0,n
+)
+
+f,b
+Sell 1 futures contract at r 0,nm
+
+0
+
+f,b
+[Settlement value  P (r0,nm
+)]
+
+Time m:
+
+Net cash ﬂow
+
+a
+P (r 0,n
+)
+
+Sell n–m-day bill at r bm,nm
+
+P (r bm,nm )
+
+f,a
+Buy 1 futures contract at rm,nm
+f,a
+[Settlement value  P (rm,nm
+)  E]
+
+Futures proﬁt/loss
+
+f,b
+f,a
+P(r0,nm
+)  P(rm,nm
+)E
+
+Net cash ﬂow
+
+b
+f,b
+f,a
+P(r m,nm
+)  P(r0,nm
+)  P(rm,nm
+)E
+
+New Zealand Bank Bill Futures Market
+
+The corresponding yield on a pure m-day bill strategy is
+a
+)
+1  P(r 0,m
+a
+P(r 0,m
+)
+
+
+
+365
+m
+
+(1.10)
+
+For the two strategies to offer the same yield, the following must
+hold:
+a
+1  P(r 0,m
+)
+a
+P(r 0,m
+)
+
+
+
+f,b
+a
+)  (C  E) ;  P(r 0,n
+)
+:P(r0,nm
+365
+365
+
+
+a
+m
+m
+P(r 0,n )
+
+(1.11)
+
+Rearranging equation (1.11) gives
+f,b
+)
+P(r0,nm
+
+
+
+a
+a
+P(r 0,n
+)  (C  E)P(r 0,m
+)
+a
+P(r 0,m
+)
+
+(1.12)
+
+which can be rewritten in yield form as
+f,b
+a
+r0,nm
+
+a
+1  (r 0,n
+ n兾365)
+a
+a
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(1.13)
+
+Equation (1.13) defines the lower bound for the bill futures bid
+yield, LB*.
+APPENDIX 2: DERIVATION OF UPPER AND
+LOWER BOUNDS FOR QUASI-ARBITRAGE
+Upper Bound
+The upper bound for the bill futures ask yield under quasi-arbitrage is
+derived by considering an arbitrageur with an n-day horizon who initiates
+reverse cash-and-carry arbitrage.
+At time 0 the arbitrageur simultaneously (a) sells an n-day bill,25
+(b) invests the proceeds in m-day bills, and (c) buys one bill futures contract. At time m the m-day bills mature and the arbitrageur simultaneously (a) invests the proceeds in an n–m-day bill and (b) sells one bill
+25
+It is implicitly assumed that the arbitrageur is an interbank dealer and that the bill has been issued
+under a bill acceptance facility between the bank and a corporate client seeking funds. As the acceptor, the bank has primary liability for making payment of the face value of the bill on maturity date.
+
+545
+
+546
+
+Poskitt
+
+TABLE 2.1
+
+Cash Flows From Reverse Cash-and-Carry Arbitrage
+P(r b0,n )
+
+Sell n-day bill at r b0,n
+
+Time 0:
+
+Buy
+
+P(r b0,n )
+P(r a0,m )
+
+m-day bills at r a0,m
+
+f,a
+Buy 1 futures contract at r0,nm
+
+
+
+P(r b0,n )
+P(r a0,m )
+
+a
+)
+P(r0,m
+
+0
+
+f,a
+[Settlement value  P (r0,nm
+)]
+
+Time m:
+
+Net cash ﬂow
+
+0
+
+Proceeds from maturing m-day bills
+
+
+
+a
+Buy n–m-day bill at rm,nm
+
+a
+)
+P(rm,nm
+
+P(r b0,n )
+P(r a0,m )
+
+f,b
+Sell 1 futures contract at rm,nm
+f,b
+[Settlement value  P (rm,nm
+)E]
+f,a
+P(r f,b
+m,nm )  P(r0,nm )  E
+
+Futures proﬁt/loss
+Net cash ﬂow
+
+
+
+P(r b0,n )
+P(r a0,m )
+
+a
+f,b
+ P(r m,nm
+)  P(r m,nm
+)
+
+f,a
+ P(r0,nm
+)E
+
+Time n:
+
+Proceeds from maturing n–m-day bill
+Honor presentation of n-day bill
+
+$1
+$1
+
+Net cash ﬂow
+
+0
+
+futures contract. At time n the proceeds from the n–m-day bill are used
+to honor the presentation of the n-day bill sold at time 0.
+The transactions involved in the reverse cash-and-carry arbitrage
+and resulting cash flows are summarized in Table 2.1. The NZFOE
+fee, brokerage fee and initial margin are all assumed to be paid at
+time m.
+Observe that the time 0 net cash ﬂow is 0. The absence of arbitrage
+opportunities therefore requires that the net cash flow at time m also
+equal 0. That is,
+
+
+b
+)
+P(r0,n
+a
+P(r0,m
+)
+
+a
+f,b
+f, a
+ P(rm,nm
+)  P(rm,nm
+)  P(r0,nm
+)E0
+
+(2.1)
+
+Rearranging equation (2.1) gives
+f,a
+P(r0,nm
+)
+
+
+
+b
+P(r0,n
+)
+a
+P(r 0,m
+)
+
+a
+f,b
+ P(rm,nm
+)  P(rm,nm
+)E
+
+(2.2)
+
+New Zealand Bank Bill Futures Market
+
+Recall that C is the modiﬁed basis at time m. That is,
+a
+f,b
+)  P(rm,nm
+)
+C  P(rm,nm
+
+(2.3)
+
+Substituting equation (2.3) into equation (2.2) yields
+f,a
+)
+P(r0,nm
+
+
+
+b
+P(r0,n
+)
+a
+P(r 0,m
+)
+
+ (C  E)
+
+(2.4)
+
+which can be rewritten in yield form as
+f,a
+r0,nm
+
+a
+
+b
+1  (r0,n
+ n兾365)
+a
+b
+[1  (r 0,m
+ m兾365)]  (C  E)[1  (r0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(2.5)
+
+Equation (2.5) defines the upper bound for the bill futures ask
+yield, UB**. Observe that the only difference between this upper bound
+and that represented by equation (1.6) is that the time 0 ask quote on
+the n-day bill is replaced by the higher bid quote. Since this term is
+added in the numerator and subtracted in the denominator, this substitution raises the upper bound.
+Lower Bound
+The lower bound for the bill futures bid yield is derived by considering
+an arbitrageur with an n-day horizon who initiates cash-and-carry
+arbitrage.
+At time 0 the arbitrageur simultaneously (a) sells m-day bills,
+(b) invests the proceeds in an n-day bill, and (c) sells one bill futures contract. At time m the m day bills mature and the arbitrageur simultaneously
+(a) sells the n-day bill, which has a remaining life of n–m days, and (b) buys
+one bill futures contract. At time n the n-day bill matures and the proceeds
+are used to honor the presentation of the n–m-day bill sold at time m.
+The transactions involved in the cash-and-carry arbitrage, and
+resulting cash ﬂows, are summarized in Table 2.2. Again, the NZFOE fee,
+brokerage fee, and initial margin are all assumed to be paid at time m.
+The net cash ﬂow at time m is set equal to 0 and solved for the time
+f,b
+0 futures yield, r0,nm
+. That is,
+
+
+a
+P(r 0,n
+)
+b
+P(r 0,m
+)
+
+b
+f,b
+f,a
+)  P(r0,nm
+)  P(rm,nm
+)E0
+ P(rm,nm
+
+(2.6)
+
+547
+
+548
+
+Poskitt
+
+TABLE 2.2
+
+Cash Flows From Cash-and-Carry Arbitrage
+Time 0:
+
+Sell
+
+a
+P(r 0,n
+)
+
+P(r b0,m )
+
+m-day bills at r b0,m
+
+f,b
+Sell 1 futures contract at r0,nm
+
+Time m:
+
+a
+)
+P(r 0,n
+
+P(r b0,m )
+
+b
+)
+P(r0,m
+
+P(r a0,n )
+
+Buy n-day bill at r a0,n
+
+[Settlement value 
+
+
+
+0
+
+f,b
+P (r0,nm
+)]
+
+Net cash ﬂow
+
+0
+
+Honor presentation of m-day bills
+
+
+
+b
+Sell n–m-day bill at r m,nm
+
+P(r a0,n )
+P(r b0,m )
+
+b
+)
+P(r m,nm
+
+f,a
+Buy 1 futures contract at rm,nm
+f,a
+[Settlement value  P (rm,nm
+)  E]
+
+Futures proﬁt/loss
+
+f,b
+f,a
+)  P(rm,nm
+)E
+P(r 0,nm
+
+Net cash ﬂow
+
+
+
+a
+)
+P(r 0,n
+
+P(r b0,m )
+
+b
+f,b
+)  P(r 0,nm
+)
+ P(r m,nm
+
+f,a
+ P(rm,nm
+)E
+
+Time n:
+
+Proceeds from maturing n-day bills
+Honor presentation of n–m-day bill
+
+$1
+$1
+
+Net cash ﬂow
+
+0
+
+Rearranging equation (2.6) gives
+
+f,b
+P(r0,nm
+)
+
+
+
+a
+P(r 0,n
+)
+b
+P(r0,m
+)
+
+b
+f, a
+)  P(rm,nm
+)E
+ P(rm,nm
+
+(2.7)
+
+Recall that C represents the modified basis incurred at time m.
+That is,
+f, a
+b
+)  P(rm,nm
+)
+C  P(rm,nm
+
+(2.8)
+
+Substituting equation (2.8) into equation (2.7) yields
+f,b
+)
+P(r0,nm
+
+
+
+a
+P(r 0,n
+)
+b
+P(r0,m
+)
+
+ (C  E)
+
+(2.9)
+
+New Zealand Bank Bill Futures Market
+
+which can be rewritten in yield form as
+f,b
+r0,nm
+
+a
+
+a
+1  (r 0,n
+ n兾365)
+b
+a
+[1  (r0,m
+ m兾365)]  (C  E)[1  (r 0,n
+ n兾365)]
+
+
+
+365
+nm
+
+ 1b
+(2.10)
+
+Equation (2.10) defines the lower bound for the bill futures bid
+yield, LB**. Note that the only difference between this lower bound and
+that represented by equation (1.13) is that the time 0 ask quote on the
+m-day bill in the denominator of equation (1.13) is replaced by the lower
+bid quote in equation (2.10). This substitution lowers the lower bound.
+APPENDIX 3: RELATIONSHIP BETWEEN
+THE WIDTH OF THE SYNTHETIC BILL
+NO-ARBITRAGE ZONE AND THE TERM
+TO BILL FUTURES EXPIRATION
+The no-arbitrage zone for synthetic bill arbitrageurs, Z*, is deﬁned as
+Z*  UB*  LB*
+
+(3.1)
+
+where UB* and LB* are deﬁned by the continuous compounding versions of equations (1.6) and (1.13) from Appendix 1:
+365
+er 0,n n兾365
+ 1b
+UB*  a r a m兾365
+a
+r 0,n
+n兾365
+0,m
+90
+e
+ Ke
+
+(3.2)
+
+365
+er 0,n n兾365
+ 1b
+LB*  a r a m兾365
+a
+r 0,n
+n兾365
+0,m
+90
+e
+ Ke
+
+(3.3)
+
+a
+
+a
+
+where K  C  2E. For analytical tractability assume that E does not
+include the interest foregone on the initial margin payment.26
+Substituting equations (3.2) and (3.3) into equation (3.1), expanding
+and simplifying yields
+365
+2Ke2r 0,n n兾365
+Z* 
+a 2r a m兾365
+b
+a
+90 e 0,m
+ K2e2r 0,n n兾365
+a
+
+26
+
+(3.4)
+
+Including interest forgone on the initial margin payment automatically induces a positive term to
+maturity effect into the width of the no-arbitrage zone since interest foregone is proportional to the
+term to maturity.
+
+549
+
+550
+
+Poskitt
+
+Since time is incorporated into the width of the no-arbitrage zone
+via m (the term to maturity of the m-day bill maturing on bill futures
+expiration date) and n (the term to maturity of the n-day bill maturing 90
+days after the maturity date of the short-term bill), the total differentiation approach is used.
+This process is more manageable if the following substitutions are
+made:
+
+w  r x  r y  r M  m兾365N  n兾365
+
+b
+v  r0,n
+
+b
+0,m
+
+a
+0,n
+
+a
+0,m
+
+Making these substitutions in equation (3.4) yields:
+Z* 
+
+365
+2Ke2xN
+a 2yM
+b
+90 e
+ K2e2xN
+
+(3.5)
+
+Partially differentiating equation (3.5) with respect to M gives
+365 4Kye2xN2yM
+0Z*
+a
+b  0
+
+0M
+90 (e2yM  K2e2xN ) 2
+
+(3.6)
+
+while partially differentiating equation (3.5) with respect to N yields
+4K xe2xN2yM
+365
+0Z*
+a 2yM
+b  0
+
+0N
+90 (e
+ K2e2xN ) 2
+
+(3.7)
+
+Substituting the partial derivatives (3.6) and (3.7) into a total differential equation gives
+365
+4Kxe2xN2ym
+365 4Kye2xN2ym
+a 2yM
+b
+dM
+
+a
+b dN (3.8)
+dZ* 
+90 (e
+90 (e2yM  K2e2xN ) 2
+ K2e2xN ) 2
+which simpliﬁes to
+dZ* 
+
+365 4K(x  y)e2xN2yM
+a 2yM
+b dM
+90
+(e
+ K2e2xN ) 2
+
+(3.9)
+
+since dM  dN. Clearly, the sign of the total differential depends on the
+size of x and y. Assume that dM  0, that is, the term to bill futures expiration increases. If x  y (i.e., the yield curve is upward-sloping), then
+dZ*  0. Sample calculations show that this effect is minor.27 That is,
+the width of the no-arbitrage zone is increasing in the term to maturity
+27
+Assume that m is 45 days and n is 135 days and that bid/ask yields are 6.00/5.95 for 45-day bill and
+6.10/6.05 for 135-day bills. If K is $0.000070 for $1 of face value, then dZ* is 0.000163 basis points
+when dm  dn  45 days. That is, if the term to bill futures expiration increases by 45 days, the synthetic bill no-arbitrage zone will increase in width by 0.000163 basis points when the yield curve has
+a positive slope of 10 basis points.
+
+New Zealand Bank Bill Futures Market
+
+of the bill futures contract. If x  y (i.e., the yield curve is flat), then
+dZ*  0. That is, the term to maturity of the bill futures contract will not
+have any effect on the width of the no-arbitrage zone. Lastly, if x  y
+(i.e., the yield curve is downward-sloping), then dZ*  0. That is, an
+increase in the term to maturity of the bill futures contract will reduce
+the width of the no-arbitrage zone.
+APPENDIX 4: RELATIONSHIP BETWEEN
+THE WIDTH OF THE QUASI-ARBITRAGE
+NO-ARBITRAGE ZONE AND THE TERM
+TO BILL FUTURES EXPIRATION
+The no-arbitrage zone for quasi-arbitrageurs, Z**, is deﬁned as
+Z**  UB**  LB**
+
+(4.1)
+
+where UB** and LB** are deﬁned by the continuous compounding versions of equations (2.5) and (2.10) from Appendix 2.
+UB**  a
+LB**  a
+
+er0,n n兾365
+b
+
+a
+r 0,m
+m兾365
+
+e
+
+b
+r 0,n
+n兾365
+
+ Ke
+
+er 0,n n兾365
+
+ 1b
+
+365
+90
+
+(4.2)
+
+ 1b
+
+365
+90
+
+(4.3)
+
+a
+
+b
+r 0,m
+m兾365
+
+e
+
+a
+r 0,n
+n兾365
+
+ Ke
+
+where K  C  E. Again, assume that E does not include the interest
+foregone on the initial margin payment. Substituting equations (4.2) and
+(4.3) into equation (4.1) and simplifying yields
+365
+er0,n n兾365r0,m m兾365  er 0,n n兾365r 0,m m兾365  2Ker 0,n n兾365r0,n n兾365
+≤
+± r a m兾365r b m兾365
+b
+b
+b
+a
+0,m
+90
+e 0,m
+ Ker0,n n兾365r0,m m兾365  K2er0,n n兾365r 0,n n兾365
+a
+a
+  Ker 0,m
+m兾365r 0,n
+n兾365
+b
+
+Z** 
+
+b
+
+a
+
+a
+
+a
+
+b
+
+(4.4)
+Again, the total differentiation approach is employed. Obtaining the
+partial derivatives is more manageable if the following substitutions are
+made:
+
+w  r x  r y  r
+
+b
+v  r0,n
+
+b
+0,m
+
+a
+0,n
+
+M  m兾365N  n兾365
+
+a
+0,m
+
+Making these substitutions in equation (4.4) yields:
+Z** 
+
+365
+evNwM  exNyM  2Ke xNvN
+a wMyM
+b
+90 e
+ KevNwM  K2e xNvN  Ke xNyM
+
+(4.5)
+
+551
+
+552
+
+Poskitt
+
+Partially differentiating equation (4.5) with respect to M gives
+
+365
+0Z**
+
+±
+0M
+90
+
+wK2e(x2v)NwM  yK2e(2xv)NyM  yevN (2wy)M
+  wexN (2yw)M  2yKe(xv)N (wy)M  2wKe(xv)N (wy)M
+(e(yw)M  KevNwM  K2e(xv)N  Ke xNyM ) 2
+
+≤
+
+(4.6)
+Partially differentiating equation (4.6) with respect to N gives
+xK2e(x2v)NwM  vK2e(2xv)NyM  vevN (2wy)M
+0Z**
+365   xe xN (2yw)M  2xKe(xv)N (wy)M  2vKe(xv)N (wy)M
+
+±
+≤
+0N
+90
+(e(yw)M  KevNwM  K2e(xv)N  Ke xNyM ) 2
+(4.7)
+Substituting the partial derivatives into the total differential equation yields
+
+dZ** 
+
+365
+±
+90
+
+wK2e(x  2v)N  wM  yK2e(2x  v)N  yM  yevN  (2w  y)M
+  wexN  (2y  w)M  2yKe(x  v)N  (w  y)M  2wKe(x  v)N  (w  y)M
+(e(y  w)M  KevN  wM  K2e(x  v)N  KexN  yM ) 2
+
+≤ dM
+
+xK2e(x  2v)N  wM  vK2e(2x  v)N  yM  vevN  (2w  y)M
+365   xe xN  (2y  w)M  2xKe(x  v)N  (w  y)M  2vKe(x  v)N  (w  y)M
+±
+
+≤ dN
+90
+(e(y  w)M  KevN  wM  K2e(x  v)N  Ke xN  yM ) 2
+
+(4.8)
+Since dM  dN equation (4.8) can be written as
+
+dZ** 
+
+365
+±
+90
+
+(w  x)K2e(x2v)NwM  (v  y)K2e(2xv)NyM  (v  y)evN(2wy)M
+(w  x)exN(2yw)M  (x  v  w  y)2Ke(xv)N(wy)M
+(e(yw)M  KevNwM  K2e(xv)N  KexNyM )2
+
+≤ dM
+
+(4.9)
+The sign of the total differential is inﬂuenced by the relative size of
+v, w, x, and y. First consider the case of the upward-sloping yield curve
+where v  w and x  y. Further assume the yield curve is steeply sloped
+so the ask yield on the n-day bill exceeds the bid yield on the m-day bill,
+
+New Zealand Bank Bill Futures Market
+
+that is, x  w. Since bid yields exceed ask yields, v  x and w  y. Under
+these conditions:
+(v  y)  0
+(w  x)  0
+2K(x  y)  0
+2K(v  w)  0
+
+(4.10)
+
+K2 (w  x)  0
+K2 (v  y)  0
+where  indicates a positive difference larger than the preceding or following negative difference. Since the negative differences are outweighed by the positive differences the numerator in equation is positive.
+That is, when dM  dN  0, dZ**  0 when the yield curve is steeply
+upward-sloping.
+Now consider the case of a ﬂat curve where v  w and x  y. Since
+bid yields exceed ask yields, v  x and w  y. Under these conditions:
+(v  y)  0
+(w  x)  0
+2K(x  y)  0
+2K(v  w)  0
+
+(4.11)
+
+K2 (w  x)  0
+K2 (v  y)  0
+Therefore, when dM  dN  0, dZ**  0 when the yield curve is ﬂat.
+Lastly, consider the case of the downward-sloping yield curve where
+v  w and x  y. Further assume the yield curve is steeply sloped so the
+ask yield on the m-day bill exceeds the bid yield on the n-day bill, that is,
+y  v. Since bid yields exceed ask yields, v  x and w  y. Under these
+conditions:
+(v  y)  0
+(w  x)  0
+2K(x  y)  0
+2K(v  w)  0
+K2 (w  x)  0
+K2 (v  y)  0
+
+(4.12)
+
+553
+
+554
+
+Poskitt
+
+where  indicates a positive difference larger than the preceding or following negative difference. Although the third and fourth terms are negative, K is very close to zero so their impact is negligible. Since the negative differences are likely outweighed by the positive differences the
+numerator in equation is positive. That is, when dM  dN  0, dZ**  0
+when the yield curve is steeply downward-sloping.28
+BIBLIOGRAPHY
+Bollerslev, T., & Domowitz, I. (1993). Trading patterns and prices in the interbank foreign exchange market. Journal of Finance, 48, 1421–1443.
+Buhler, W., & Kempf, A. (1995). DAX index futures: Mispricing and arbitrage in
+German markets. Journal of Futures Markets, 15, 833–859.
+Capozza, D. R., & Cornell, B. (1979). Treasury bill pricing in the spot and
+futures markets. Review of Economics and Statistics, 61, 513–520.
+Chow, B. G., & Brophy, D. J. (1982). Treasury bill futures market: A formulation
+and reinterpretation. Journal of Futures Markets, 2, 25–47.
+Chowdry, B., & Nanda, V. (1991). Multimarket trading and market liquidity.
+Review of Financial Studies, 4, 483–511.
+Chung, Y. P. (1991). A transactions data test of stock index futures market efﬁciency and index arbitrage proﬁtability. Journal of Finance, 46, 1791–1809.
+Cox, J. C., Ingersoll, J. E., & Ross, S. A. (1981). The relation between forward
+prices and futures prices. Journal of Financial Economics, 9, 321–346.
+Deardorff, A. V. (1979). One-way arbitrage and its implications for the foreign
+exchange markets. Journal of Political Economy, 87, 351–364.
+Dybvig, P. H., & Ross, S. A. (1992). Arbitrage. In P. Newman, M. Milgate, &
+J. Eatwell (Eds.), The new Palgrave dictionary of money and finance
+(p. 43). London: J. Macmillan.
+Elton, E. J., Gruber, M. J., & Rentzler, J. (1984). Intraday tests of the efﬁciency
+of the treasury bill futures market. Review of Economics and Statistics, 66,
+129–137.
+Flesaker, B. (1993). Arbitrage free pricing of interest rate futures and forward
+contracts. Journal of Futures Markets, 13, 77–91.
+Goodhart, C. A. E., & Figliuoli, L. (1991). Every minute counts in financial
+markets. Journal of International Money and Finance, 10, 23–52.
+Goodhart, C. A. E., & O’Hara, M. (1997). High frequency data in ﬁnancial markets: Issues and applications. Journal of Empirical Finance, 4, 73–114.
+Hegde, S. P., & Branch, B. (1985). An empirical analysis of arbitrage opportunities in the Treasury bill futures market. Journal of Futures Markets, 5,
+407–424.
+28
+
+For example, assume that m is 45 days and n is 135 days and that bid/ask yields are 6.00/5.95 for all
+bills. If K is $0.000070 for $1 of face value, then dZ** is 5.08 basis points when dm  dn  45 days.
+That is, if the term to bill futures expiration increases by 45 days, the quasi-arbitrage no-arbitrage
+zone will increase in width by 5.08 basis points when the yield curve is ﬂat. dZ** is slightly higher
+when the yield curve is upward-sloping and fractionally lower when the yield curve is downwardsloping.
+
+New Zealand Bank Bill Futures Market
+
+Hicks, J. R. (1939). Value and capital. Oxford: Clarendon Press.
+Kamara, A. (1989). Market trading structures and asset pricing: Evidence from
+the treasury-bill markets. Review of Financial Studies, 1, 357–375.
+Kawaller, I., & Koch, T. W. (1984). Cash and carry trading and the pricing of
+treasury bill futures. Journal of Futures Markets, 4, 115–123.
+Klemkosky, R. C., & Lee, J. H. (1991). The intraday ex post and ex ante profitability of index arbitrage. Journal of Futures Markets, 11, 291–311.
+Kyle, A. (1985). Continuous auctions and insider trading. Econometrica, 53,
+1315–1335.
+Lang, R. W., & Rasche, R. H. (1978, December). A comparison of yields of
+futures contracts and implied forward rates. Federal Reserve Bank of
+St. Louis Review, 21–30.
+Lim, K. G. (1992). Arbitrage and price behavior of the Nikkei stock index
+futures. Journal of Futures Markets, 12, 151–161.
+MacKinlay, A. C., & Ramaswamy, K. (1988). Index-futures arbitrage and the
+behaviour of stock index futures prices. Review of Financial Studies, 1,
+137–158.
+Martens, M., & Kofman, P. (1998). The inefficiency of Reuters foreign
+exchange quotes. Journal of Banking and Finance, 22, 347–366.
+National Bank. (1995). The New Zealand money market: Information memorandum. Wellington, New Zealand.
+Poole, W. (1978, Spring). Using treasury bill futures to gauge interest rate
+expectations. Federal Reserve Bank of San Francisco Economic Review,
+7–19.
+Poskitt, R. N. (1998). The pricing of bank bill futures contracts and FRA contracts in New Zealand. Accounting and Finance, 38, 245–264.
+Potter, W. (1995). An overview of the money and bond markets in New Zealand,
+Part 2: The non-Crown debt market. Reserve Bank Bulletin, 58, 264–277.
+Phillips, S. M., & Smith, C. W. (1980). Trading costs for listed options: The
+implications for market efficiency. Journal of Financial Economics, 8,
+179–201.
+Puglisi, D. J. (1978). Is the futures market for treasury bills efﬁcient? Journal of
+Portfolio Management, 5, 64–67.
+Rendleman, R. J., & Carabini, C. E. (1979). The efﬁciency of the treasury bill
+futures market. Journal of Finance, 54, 895–914.
+Rhee, S. G., & Chang, R. P. (1992). Intraday arbitrage opportunities in foreign
+exchange and eurocurrency markets. Journal of Finance, 67, 363–379.
+Vignola, A. J., & Dale, C. (1980). The efficiency of the treasury bills futures
+market: An analysis of alternative specifications. Journal of Financial
+Research, 3, 169–188.
+
+555
+
+

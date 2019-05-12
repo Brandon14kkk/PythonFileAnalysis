@@ -1,0 +1,2093 @@
+J. Finan. Intermediation 19 (2010) 418–437
+
+Contents lists available at ScienceDirect
+
+J. Finan. Intermediation
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / j fi
+
+Liquidity and leverage q
+Tobias Adrian a,*, Hyun Song Shin b
+a
+b
+
+Federal Reserve Bank of New York, New York, NY 10045, USA
+Princeton University, Princeton, NJ 08544, USA
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 1 August 2008
+Available online 24 December 2008
+Keywords:
+Financial market liquidity
+Financial cycles
+Financial interlmediary leverage
+
+a b s t r a c t
+In a ﬁnancial system in which balance sheets are continuously
+marked to market, asset price changes appear immediately as
+changes in net worth, and eliciting responses from ﬁnancial intermediaries who adjust the size of their balance sheets. We document evidence that marked-to-market leverage is strongly
+procyclical. Such behavior has aggregate consequences. Changes
+in dealer repos – the primary margin of adjustment for the aggregate balance sheets of intermediaries – forecast changes in ﬁnancial market risk as measured by the innovations in the Chicago
+Board Options Exchange Volatility Index VIX index. Aggregate
+liquidity can be seen as the rate of change of the aggregate balance
+sheet of the ﬁnancial intermediaries.
+Ó 2009 Elsevier Inc. All rights reserved.
+
+1. Introduction
+In a ﬁnancial system where balance sheets are continuously marked to market, changes in asset
+prices show up immediately on balance sheets, and have an instant impact on the net worth of all constituents of the ﬁnancial system. The net worth of ﬁnancial intermediaries are especially sensitive to
+ﬂuctuations in asset prices given the highly leveraged nature of such intermediaries’ balance sheets.
+Our focus in this paper is on the reactions of the ﬁnancial intermediaries to changes in their net
+worth, and the market-wide consequences of such reactions. If ﬁnancial intermediaries were passive
+q
+The ﬁrst version of this paper was presented at the 6th BIS Annual Conference, ‘‘Financial System and Macroeconomic
+Resilience”, 18–19 June 2007 under its former title ‘‘Liquidity and Financial Cycles”. BIS working paper 256 http://www.bis.org/
+publ/work/256.pdf. We thank the editor Elu von Thadden and two anonymous referees for their comments. We also thank
+seminar/conference participants at the BCBS/JFI/CEPR conference on risk transfer mechanisms in Basel, May 2008, the Federal
+Reserve Bank of New York, the Federal Reserve Bank of Chicago, Princeton University, and Baruch College. The views expressed
+in this paper are those of the authors and do not necessarily represent those of the Federal Reserve Bank of New York or the
+Federal Reserve System.
+* Corresponding author.
+E-mail addresses: tobias.adrian@ny.frb.org (T. Adrian), hsshin@princeton.edu (H.S. Shin).
+
+1042-9573/$ - see front matter Ó 2009 Elsevier Inc. All rights reserved.
+doi:10.1016/j.jﬁ.2008.12.002
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+419
+
+and did not adjust their balance sheets to changes in net worth, then leverage would fall when total
+assets rise. Change in leverage and change in balance sheet size would then be negatively related.
+However, as we will see below, the evidence points to a strongly positive relationship between
+changes in leverage and changes in balance sheet size. Far from being passive, the evidence points
+to ﬁnancial intermediaries adjusting their balance sheets actively, and doing so in such a way that
+leverage is high during booms and low during busts. That is, leverage is procyclical.
+Procyclical leverage can be seen as a consequence of the active management of balance sheets by
+ﬁnancial intermediaries who respond to changes in prices and measured risk. For ﬁnancial intermediaries, their models of risk and economic capital dictate active management of their overall Value-atRisk (VaR) through adjustments of their balance sheets.
+From the point of view of each institution, decision rules that result in procyclical leverage are
+readily understandable. However, there are aggregate consequences of such behavior for the ﬁnancial
+system as a whole that might not be taken into consideration by individual institutions. We exhibit
+evidence that procyclical leverage affects aggregate volatility and particularly the price of risk.
+Our paper has two main objectives. Our ﬁrst objective is to document the relationship between balance sheet size and leverage for security broker dealers – ﬁnancial intermediaries that operate primarily through the capital markets, and which included the major Wall Street investment banks. We show
+that leverage is strongly procyclical for these institutions and show that the margin of adjustment on
+the balance sheet is through repos and reverse repos. The ﬁrst version of our paper was written in June
+2007, just prior to the eruption of the ﬁnancial crisis of 2007–2009. Since then, the ﬁve major US
+investments banks that we analyze in the remainder of the paper have all left the broker dealer sector.
+Three of them – Bear Stearns, Lehman Brothers and Merrill Lynch were either taken over under distressed conditions or declared bankruptcy. The remaining two – Goldman Sachs and Morgan Stanley
+– converted to bank holding companies. Thus, in the short time period since the ﬁrst version of this
+paper was written, the era of stand alone Wall Street investment banks has come to an end. Our paper
+represents a contemporaneous record of the last months of the once illustrious Wall Street investment
+banks.
+Our second objective is to pursue the aggregate consequences of procyclical leverage and document evidence that expansions and contractions of balance sheets have asset pricing consequences
+through shifts in risk appetite. In particular, we show that changes in collateralized borrowing and
+lending on intermediary’s balance sheet are signiﬁcant forecasting variables for innovations in market-wide risk as measured by the VIX index of implied volatility in the stock market. We also decompose VIX innovations into changes of stock market volatility and changes of the difference between
+implied volatility and actual volatility (the volatility risk premium). We ﬁnd that dealer balance sheet
+changes primarily forecast changes in the volatility risk premium, which has a natural interpretation
+as the price of risk.
+Previous work has shown that innovations in market volatility are important cross-sectional pricing factors (see Ang et al. (2006), and Adrian and Rosenberg (2008)), and that the volatility risk premium forecasts future equity returns (Bollerslev and Zhou (2007)). Our ﬁnding that ﬂuctuations of the
+balance sheets of broker dealers forecast volatility innovations shows that intermediary balance
+sheets matter for the pricing of risk. In this way, our empirical results provide some backing to recent
+theoretical work on liquidity and asset pricing. Gromb and Vayanos (2002) draw on the theme in Shleifer and Vishny (1997) on the importance of collateral constraints for leveraged traders. Brunnermeier
+and Pedersen (2009) coined the term ‘‘margin spiral” where increased margins and falling prices reinforce market distress. He and Krishnamurthy (2008) show how intermediary capital matters in a dynamic asset pricing model. Our empirical results provide some context for this literature.
+Our ﬁndings also shed light on the concept of ‘‘liquidity” as used in common discourse about ﬁnancial market conditions. In the ﬁnancial press and other market commentary, asset price booms are
+sometimes attributed to ‘‘excess liquidity” in the ﬁnancial system. Financial commentators are fond
+of using the associated metaphors, such as the ﬁnancial markets being ‘‘awash with liquidity”, or
+liquidity ‘‘sloshing around”. However, the precise sense in which ‘‘liquidity” is being used in such contexts is often left unspeciﬁed.
+Our empirical ﬁndings suggest that ﬁnancial market liquidity can be understood as the rate of
+growth of aggregate balance sheets. In response to increases in prices on the asset side of intermedi-
+
+420
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+aries’ balance sheets, leverage falls, and intermediaries hold surplus capital. They will then search for
+uses of their surplus capital. In a loose analogy with manufacturing ﬁrms, we may see the ﬁnancial
+system as having ‘‘surplus capacity”. For such surplus capacity to be utilized, the intermediaries expand their balance sheets. On the liabilities side, they take on more short-term debt. On the asset side,
+they search for potential borrowers that they can lend to. Financial market liquidity is intimately tied
+to how hard the ﬁnancial intermediaries search for borrowers.
+The outline of our paper is as follows: we begin with a review of some very basic balance sheet
+arithmetic on the relationship between leverage and total assets. The purpose of this initial exercise
+is to motivate our empirical investigation of the balance sheet changes of ﬁnancial intermediaries
+in Section 3. Having outlined the facts, in Section 4, we show that changes in aggregate repo positions
+of the major ﬁnancial intermediaries can forecast innovations in the volatility risk-premium, where
+the volatility risk premium is deﬁned as the difference between the VIX index and realized volatility.
+We conclude with discussions of the implications of our ﬁndings for funding liquidity.
+2. Some basic balance sheet arithmetic
+What is the relationship between leverage and balance sheet size? We begin with some very elementary balance sheet arithmetic, so as to focus ideas. Before looking at the evidence for ﬁnancial
+intermediaries, let us think about the relationship between balance sheet size and leverage for a
+household. The household owns a house ﬁnanced with a mortgage. For concreteness, suppose the
+house is worth 100, the mortgage value is 90, and so the household has net worth (equity) of 10.
+The initial balance sheet then is given by:
+
+Leverage is deﬁned as the ratio of total assets to equity, hence is 100=10 ¼ 10. What happens to
+leverage as total assets ﬂuctuate? Denote by A the market value of total assets and E is the market value of equity. We make the simplifying assumption that the market value of debt stays roughly constant at 90 for small shifts in the value of total assets. Total leverage is then
+
+L’
+
+A
+A  90
+
+Leverage is inversely related to total assets. When the price of my house goes up, my net worth increases, and so my leverage goes down. Indeed, for households, the negative relationship between total assets and leverage is clearly borne out in the aggregate data. Fig. 1 plots the quarterly changes in
+total assets to quarterly changes in leverage as given in the Flow of Funds account for the United
+States. The data are from 1963 to 2006. The scatter chart shows a strongly negative relationship, as
+suggested by a passive behavior toward asset price changes.
+We can ask the same question for ﬁrms, and we will address this question for three different types
+of ﬁrms: non-ﬁnancial ﬁrms, commercial banks and security brokers and dealers. If a ﬁrm were passive in the face of ﬂuctuating asset prices, then leverage would vary inversely with total assets. However, the evidence points to a more active management of balance sheets.
+Fig. 2 is a scatter chart of the change in leverage and change in total assets of non-ﬁnancial, nonfarm corporations drawn from the U.S. ﬂow of funds data (1963–2006). The scatter chart shows much
+less of a negative pattern, suggesting that companies react somewhat to changes in asset prices by
+shifting their stance on leverage.1 More notable still is the analogous chart for U.S. commercial banks,
+again drawn from the U.S. Flow of Funds accounts. Fig. 3 is the scatter chart plotting changes in leverage
+1
+This ﬁnding is consistent with Welch’s (2004) analysis of non-ﬁnancial leverage which demonstrates that 40% of leverage
+changes are (passively) explained by shocks to equity prices, and 60% by the net issuing activity.
+
+421
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Total Asset Growth (Percent Quarterly)
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+-4
+-1
+
+-0.5
+
+0
+
+0.5
+
+1
+
+1.5
+
+Leverage Growth (Percent Quarterly)
+Fig. 1. Total assets and leverage of household.
+
+Total Assets Growth (Percent Quarterly)
+
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+-2.5
+
+-2
+
+-1.5
+
+-1
+
+-0.5
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+Leverage Growth (Percent Quarterly)
+Fig. 2. Total assets and leverage of non-ﬁnancial, non-farm corporates.
+
+against changes in total assets for U.S. commercial banks. A large number of the observations line up
+along the vertical line that passes through zero change in leverage. In other words, the data show the
+outward signs of commercial banks targeting a ﬁxed leverage ratio.
+However, even more striking than the scatter chart for commercial banks is that for security dealers
+and brokers, that include the major Wall Street investment banks. Fig. 4 is the scatter chart for U.S.
+security dealers and brokers, again drawn from the Flow of Funds accounts (1963–2006). The alignment of the observations is now the reverse of that for households. There is a strongly positive relationship between changes in total assets and changes in leverage. In this sense, leverage is procyclical.
+In order to appreciate the aggregate consequences of procyclical leverage, let us ﬁrst consider the
+behavior of a ﬁnancial intermediary that manages its balance sheet actively to as to maintain a
+constant leverage ratio of 10. The effects we describe below will be even larger for leverage that is
+
+422
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Total Asset Growth (Percent Quarterly)
+
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+-50
+
+-40
+
+-30
+
+-20
+
+-10
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Leverage Growth (Percent Quarterly)
+Fig. 3. Total assets and leverage of commercial banks.
+
+Total Asset Growth (Percent Quarterly)
+
+40
+30
+20
+10
+0
+-10
+-20
+-30
+-50
+
+-40
+
+-30
+
+-20
+
+-10
+
+0
+
+10
+
+20
+
+30
+
+40
+
+Leverage Growth (Percent Quarterly)
+Fig. 4. Total assets and leverage of security brokers and dealers.
+
+procyclical. Suppose the initial balance sheet is as follows. The ﬁnancial intermediary holds 100 worth
+of securities, and has funded this holding with debt worth 90.
+
+Assume that the price of debt is approximately constant for small changes in total assets. Suppose
+the price of securities increases by 1% to 101.
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+423
+
+Leverage then falls to 101=11 ¼ 9:18. The bank targets leverage of 10, and so takes on additional
+debt of D to purchase D worth of securities on the asset side so that
+
+assets 101 þ D
+¼
+¼ 10
+equity
+11
+The solution is D ¼ 9. The bank takes on additional debt worth 9, and with this money purchases securities worth 9. Thus, an increase in the price of the security of 1 leads to an increased holding worth 9.
+After the purchase, leverage is now back up to 10.
+
+The mechanism works in reverse, too. Suppose there is shock to the securities price so that the value of security holdings falls to 109. On the liabilities side, it is equity that bears the burden of adjustment, since the value of debt stays approximately constant.
+
+Leverage is now too high ð109=10 ¼ 10:9Þ. The bank can adjust down its leverage by selling securities worth 9, and paying down 9 worth of debt. Thus, a fall in the price of securities of leads to sales of
+securities. The new balance sheet then looks as follows. The balance sheet is now back to where it
+started before the price changes. Leverage is back down to the target level of 10.
+
+The perverse nature of the reactions to price changes are even stronger when the leverage of the
+ﬁnancial intermediary is procyclical. When the securities price goes up, the upward adjustment of
+leverage entails purchases of securities that are even larger than that for the case of constant leverage.
+If there is the possibility of feedback, then the adjustment of leverage and price changes will reinforce
+each other in an ampliﬁcation of the ﬁnancial cycle.
+If ﬁnancial markets are not perfectly liquid so that greater demand for the asset tends to put upward pressure on its price, then there is the potential for a feedback effect in which stronger balance
+sheets feed greater demand for the asset, which in turn raises the asset’s price and lead to stronger
+balance sheets. Fig. 5 illustrates the feedback during a boom. The mechanism works exactly in reverse
+in downturns. If ﬁnancial markets are not perfectly liquid so that greater supply of the asset tends to
+put downward pressure on its price, then there is the potential for a feedback effect in which weaker
+balance sheets lead to greater sales of the asset, which depresses the asset’s price and lead to even
+weaker balance sheets. Fig. 6 illustrates the feedback during a downturn.
+
+424
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Adjust leverage
+
+Stronger
+balance sheets
+
+Increase
+B/S size
+
+Asset price boom
+Fig. 5. Leverage adjustment in upturn.
+
+Adjust leverage
+
+Weaker
+balance sheets
+
+Reduce
+B/S size
+
+Asset price decline
+Fig. 6. Leverage adjustment in downturn.
+
+In Section 4, we return to the issue of feedback by exhibiting evidence that is consistent with the
+ampliﬁcation effects sketched above. We will see that changes in key balance sheet components forecast changes in the VIX index of implied volatility in the stock market.
+3. A ﬁrst look at the evidence
+3.1. Investment bank balance sheets
+To set the stage for our empirical study, we begin by examining the quarterly changes in the balance sheets of the (then) ﬁve major US investment banks, as listed below in Table 1. The data are from
+the regulatory ﬁlings with the U.S. Securities and Exchange Commission (SEC) on their 10-K and 10-Q
+forms.
+Our choice of these ﬁve banks is motivated by our concern to examine ‘‘pure play” investment
+banks that were not part of bank holding companies so as to focus attention on their behavior with
+
+Table 1
+Investment banks.
+Name
+
+Sample
+
+Bear Stearns
+Goldman Sachs
+Lehman Brothers
+Merrill Lynch
+Morgan Stanley
+
+1997Q1–2008Q1
+1999Q2–2008Q1
+1993Q2–2008Q1
+1991Q1–2008Q1
+1997Q2–2008Q1
+
+425
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+as % of Bank Holding Company Total Assets
+160%
+
+180%
+
+Security Brokers and Dealers
+
+160%
+
+140%
+
+140%
+
+120%
+
+120%
+
+100%
+
+100%
+
+80%
+
+Hedge Funds
+
+80%
+
+60%
+
+60%
+
+40%
+
+40%
+
+20%
+
+20%
+
+0%
+
+Total Financial Assets (% of BHC Assets)
+
+Total Financial Assets (% of BHC Assets)
+
+180%
+
+0%
+1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004 2006
+
+Source:
+Total financial assets of Security Brokers and Dealers are from table L.129 of the Flow of Funds, Board of Governors of the Federal
+Reserve.
+Total financial assets of Bank Holding Companies are from table L.112 of the Flow of Funds, Board of Governors of the Federal
+
+Fig. 7. Total ﬁnancial intermediary assets.
+
+respect to the capital markets.2 Citigroup reported its investment banking operations separately from its
+commercial banking operations until 2004 as ‘‘Citigroup Global Markets”, and we have data for the period 1998Q1–2004Q4. In some of our charts below, we will report Citigroup Global Markets for comparison. The stylized balance sheet of an investment bank is as follows.
+
+On the asset side, traded assets are valued at market prices, or are short term collateralized loans
+(such as reverse repos) for which the discrepancy between face value and market value are very small
+due to the very short term nature of the loans. On the liabilities side, short positions are at market values, and repos are very short term borrowing. We will return to a more detailed descriptions of repos
+and reverse repos below. Long-term debt is typically a small fraction of the balance sheet for investment banks.3 For these reasons, investment banks provide a good approximation of the balance sheet
+that is continuously marked to market, and hence provide insights into how leverage changes with balance sheet size.
+The second reason for our study of investment banks lies in their increasing signiﬁcance for the
+ﬁnancial system until the ﬁnancial crisis that led to the demise of the large investment banks.
+Fig. 7 plots the size of securities ﬁrms’ balance sheets relative to that of bank holding companies.
+We also plot the assets under management for hedge funds, although we should be mindful that
+2
+Hence, we do not include JP Morgan Chase, Credit Suisse, Deutsche Bank, and other brokerage operations that are part of a
+larger bank holding companies.
+3
+The balance sheet of Lehman Brothers as of November 2005 shows that short positions are around a quarter of total assets, and
+long term debt is an even smaller fraction. Shareholder equity is around 4% of total assets (implying leverage of around 25). Shortterm borrowing in terms of repurchase agreements and other collateralized borrowing takes up the remainder.
+
+426
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+‘‘assets under management” refers to total investor equity, rather than the size of the balance sheet. To
+obtain total balance sheet size, we should multiply by hedge fund leverage (which is not readily available). Fig. 7 shows that when expressed as a proportion of bank holding company balance sheets, securities ﬁrms had been increasing their balance sheets at a very rapid rate. Note that when hedge funds’
+assets under management is converted to balance sheet size by multiplying by a conservative leverage
+factor of 2, the combined balance sheets of investment banks and hedge funds overtook the bank holding company balance sheets in 1990, and became more that twice as large by 2007.
+Size is not the only issue. When balance sheets are marked to market, the responses to price
+changes may entail responses that may be disproportionately large. LTCM’s balance sheet was small
+relative to the total ﬁnancial sector, but its impact would have been underestimated if only size
+had been taken into account. Similarly, the size of the sub-prime mortgage exposures was small relative to the liabilities of the ﬁnancial system as a whole, but the credit crisis of 2007/2008 demonstrates that its impact can be large. Table 2 gives the summary statistics of the investment banks
+over the sample period.
+We begin with the key question left hanging from the previous section. What is the relationship
+between leverage and total assets? The answer is provided in the scatter charts in Fig. 8. We have included the scatter chart for Citigroup Global Markets (1998Q1–2004Q4) for comparison, although Citigroup does not ﬁgure in the panel regressions reported below. The scatter chart shows the growth in
+assets and leverage at a quarterly frequency. In all cases, leverage is large when total assets are large.
+Leverage is procyclical.
+There are some notable common patterns in the scatter charts, but also some notable differences.
+The events of 1998 are clearly evident in the scatter charts. The early part of the year saw strong
+growth in total assets, with the attendant increase in leverage. However, the third and fourth quarters
+of 1998 shows all the hallmarks of ﬁnancial distress and the attendant retrenchment in the balance
+sheet. For most banks, there were very large contractions in balance sheet size in 1998Q4, accompanied by large falls in leverage. These points are on the bottom left hand corners of the respective scatter charts, showing large contractions in the balance sheet and decrease in leverage. Lehman Brothers
+and Merrill Lynch seem especially hard hit in 1998Q4.
+
+Table 2
+Investment bank summary statistics.
+
+Panel A: US$ Millions
+Total assets
+Total liabilities
+Equity
+Reverse repos and other collateralized lending
+Reverse repos
+Repos and other collateralized borrowing
+Repos
+Trading VaR
+Panel B: quarterly growth
+Total assets
+Total liabilities
+Equity
+Reverse repos and other collateralized lending
+Reverse repos
+Repos and other collateralized borrowing
+Repos
+Trading VaR
+
+Mean
+
+Std Dev
+
+Min
+
+Median
+
+Max
+
+Obs
+
+344599
+330937
+13289
+
+217085
+208964
+8365
+
+97302
+93111
+4190
+
+287562
+275719
+10988
+
+901397
+871561
+30920
+
+65
+65
+65
+
+134923
+64368
+
+80723
+30615
+
+34216
+19097
+
+116731
+55911
+
+323802
+140054
+
+65
+65
+
+105948
+98474
+49
+
+60501
+41596
+17
+
+29423
+54682
+29
+
+89189
+83227
+45
+
+263724
+202372
+92
+
+65
+53
+29
+
+4%
+4%
+3%
+4%
+3%
+
+5%
+5%
+3%
+7%
+9%
+
+15%
+15%
+5%
+19%
+16%
+
+4%
+4%
+3%
+3%
+3%
+
+16%
+17%
+8%
+21%
+28%
+
+64
+64
+64
+64
+64
+
+3%
+2%
+4%
+
+9%
+9%
+9%
+
+26%
+19%
+25%
+
+4%
+1%
+3%
+
+21%
+19%
+19%
+
+64
+53
+28
+
+This Table reports aggregate balance sheet items for the ﬁve investment banks of Table 1. In Panel A, we report time series
+summary statistics for the cross sectional average of the balance sheet items. In Panel B, we report the summary statistics of
+quarterly grwoth rates which are weighted by the total assets cross sectionally.
+
+427
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Total Assets and Leverage
+
+.1
+
+.2
+2007-4
+
+0
+
+2008-1
+2007-3
+1998-3
+
+-.1
+
+2007-3
+1998-3
+
+Total Asset Growth
+
+.2
+.1
+0
+
+2008-1
+
+-.1
+
+Total Asset Growth
+
+.2
+.1
+0
+-.1
+
+2007-4
+
+1998-4
+
+.2
+
+-.2
+
+-.1
+
+0
+
+.1
+
+Bear Stearns
+
+Goldman Sachs
+
+.2
+
+-.2
+
+0
+
+.1
+
+.1
+2008-1
+
+-.05
+
+-.1
+
+-.1
+
+.2
+
+1998-4
+
+1998-3
+
+2007-3
+1998-4
+
+-.2
+
+2007-4
+
+Total Asset Growth
+
+2007-4
+
+.1
+
+.1
+
+Leverage Growth
+
+.2
+
+-.3
+
+0
+
+2008-1
+
+0
+
+Citigroup Markets 98-04
+
+2007-3
+
+.05
+
+Total Asset Growth
+
+.2
+.1
+
+1998-3
+
+-.1
+
+Leverage Growth
+
+.15
+
+Leverage Growth
+
+0
+
+.1
+
+-.1
+
+0
+
+Leverage Growth
+
+-.2
+
+-.1
+
+-.2
+
+-.2
+
+1998-4
+1998-4
+
+0
+
+-.2
+
+Total Asset Growth
+
+2008-1
+2007-3
+1998-3
+2007-4
+
+-.2
+
+Total Asset Growth
+
+Morgan Stanley
+
+Merrill Lynch
+
+Lehman Brothers
+
+-.2
+
+-.1
+
+0
+
+.1
+
+Leverage Growth
+
+-.2
+
+-.1
+
+0
+
+.1
+
+.2
+
+Leverage Growth
+
+Fig. 8. Total assets and leverage.
+
+However, there are also some notable differences. It is notable, for instance, that for Citigroup Global Markets, the large retrenchment seems to have happened in the third quarter of 1998, rather than
+in the ﬁnal quarter of 1998. Such a retrenchment would be consistent with the closing down of the
+former Salomon Brothers ﬁxed income arbitrage desk on July 6th 1998, following the acquisition of
+the operation by Travelers Group (later, Citigroup). Many commentators see this event as the catalyst
+for the sequence of events that eventually led to the demise of Long Term Capital Management (LTCM)
+and the associated ﬁnancial distress in the summer and early autumn of 1998.4
+Fig. 9 aggregates the individual scatter charts by taking the asset-weighted average of changes in
+balance sheet size and leverage. The upward-sloping relationship between changes in assets and
+changes in leverage is clearer. The 45-degree line in the scatter chart corresponds to the combination
+of points where the total equity value remains constant. This is because leverage growth is deﬁned as
+the log difference in assets minus log difference in equity. Hence, the 45-degree line corresponds to
+the points where the log difference in equity is zero. The set of points below the 45-degree line corresponds to the observations in which equity fell. This explains why the observations for the third and
+fourth quarters of 2007 appear below the 45-degree line, as banks announced credit losses on their
+mortgage portfolios. More interestingly, there is a striking contrast between what happened in
+1998 following the LTCM crisis and the credit crisis of 2007/2008. As of the ﬁrst quarter of 2008, there
+had not been the same type of contraction of balance sheets as was observed in the 1998 crisis. This
+difference holds the key to several distinctive characteristics of the crisis of 2007/2008, as shown by
+Adrian and Shin (2008a) and Greenlaw et al. (2008).
+Table 3 shows the results of a panel regression for change in leverage. The positive relationship between the change in leverage and change in total assets is conﬁrmed in column (ii) of Table 3. The
+coefﬁcient on lagged leverage (i.e. previous quarter’s leverage) is negative, suggesting that leverage
+is mean-reverting. Leverage is negatively related to lagged Value-at-Risk (ﬁnal column).
+4
+The ofﬁcial account (BIS, 1999) is given in the report of the CGFS of the Bank for International Settlements (the so-called
+‘‘Johnson Report”). Popular accounts, such as Lowenstein (2000) give a description of the background and personalities.
+
+428
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+.1
+
+2008-1
+
+0
+
+2007-3
+
+2007-4
+
+-.1
+
+Total Asset Growth (Quarterly)
+
+.2
+
+Asset weighted, 1992Q3-2008Q1, Source: SEC
+
+-.2
+
+1998-4
+
+-.2
+
+-.1
+
+0
+
+.1
+
+.2
+
+Leverage Growth (Quarterly)
+Fig. 9. Aggregate leverage and total asset growth.
+
+Table 3
+Leverage regressions.
+Leverage (quarterly growth)
+
+Leverage (log lag)
+Total Assets (quarterly growth)
+Repos (quarterly growth)
+Trading VaR (quarterly growth, lag)
+Constant
+Observations
+Number of banks
+R2
+Fixed effects
+
+Coef
+p-Value
+Coef
+p-Value
+Coef
+p-Value
+Coef
+p-Value
+Coef
+p-Value
+
+(i)
+
+(ii)
+
+(iv)
+
+(v)
+
+0.08
+0.00
+
+0.04
+0.02
+0.83
+0.00
+
+0.07
+0.04
+
+0.02
+0.82
+
+0.22
+0.00
+
+0.28
+0.00
+235
+5
+5%
+
+0.09
+0.06
+235
+5
+62%
+
+0.21
+0.04
+196
+5
+24%
+
+0.06
+0.01
+0.07
+0.77
+109
+5
+5%
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+This table reports panel regressions of quarterly leverage growth rates on the lagged level of leverage, the growth rates of
+trading VaRs, the growth rates of repos, and the growth rates of total assets. Leverage is computed from the balance sheets of
+the ﬁve investment banks from Table 1 whose summary statistics are reported in Table 2. Leverage is deﬁned as the ratio of
+total assets to book equity. All of the balance sheet data are from the 10-K and 10-Q ﬁlings of the banks with the Security and
+Exchange Commission. p-values are adjusted for autocorrelation and heteroskedasticity.
+
+More interestingly, third column of Table 3 shows that the margin of adjustment in the ﬂuctuations
+of balance sheets is through repos. In a repurchase agreement (repo), a ﬁnancial institution sells a
+security on the understanding that it will buy it back at a pre-agreed price on a ﬁxed future date. Such
+an agreement is tantamount to a collateralized loan, with the interest on the loan being the excess of
+the repurchase price over the sale price. From the perspective of the funds lender – the party who buys
+the security with the undertaking to re-sell it later – such agreements are called reverse repos. For the
+buyer, the transaction is equivalent to granting a loan, secured on collateral. In this way, adjustments
+in total assets and hence leverage show up as changes in repos, as is visible in Fig. 10.
+
+429
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Total Assets Growth and Collateralized Financing Growth
+
+-.3
+
+-.2
+
+-.1
+
+0
+
+.1
+
+.2
+
+Asset weighted
+
+1992-1
+
+1994-1
+
+1996-1
+
+1998-1
+
+2000-1
+date
+
+Coll. Financing Growth
+
+2002-1
+
+2004-1
+
+2006-1
+
+2008-1
+
+Total Asset Growth
+
+Fig. 10. Total asset and total repo growth.
+
+Repos and reverse repos are important ﬁnancing activities that provide the funds and securities
+needed by investment banks to take positions in ﬁnancial markets. For example, a bank taking a long
+position by buying a security needs to deliver funds to the seller when the security is received on settlement day. If the dealer does not fully ﬁnance the security out of its own capital, then it needs to
+borrow funds. The purchased security is typically used as collateral for the cash borrowing. When
+the bank sells the security, the sale proceeds can be used to repay the lender.
+Reverse repos are loans made by the investment bank against collateral. The bank’s prime brokerage business vis-à-vis hedge funds will ﬁgure prominently in the reverse repo numbers. The scatter
+chart gives a glimpse into the way in which changes in leverage are achieved through expansions
+and contractions in the collateralized borrowing and lending. We saw in our illustrative section on
+the elementary balance sheet arithmetic that when a bank wishes to expand its balance sheet, it takes
+on additional debt, and with the proceeds of this borrowing takes on more assets. The expansion and
+contraction of total assets via repos are plotted in Fig. 11.
+Fig. 11 plots the change in assets against change in collateralized borrowing for each of the investment banks. The positive relationship in the scatter plot conﬁrms our panel regression ﬁnding that
+balance sheet changes are accompanied by changes in short term borrowing.
+Fig. 12 plots the change in repos against the change in reverse repos. A dealer taking a short position by selling a security it does not own needs to deliver the security to the buyer on the settlement
+date. This can be done by borrowing the needed security, and providing cash or other securities as collateral. When the dealer closes out the short position by buying the security, the borrowed security
+can be returned to the securities lender. The scatter plot in Fig. 12 suggests that repos and reverse repos play such a role as counterparts in the balance sheet.
+3.2. Value-at-Risk
+Procyclical leverage is not a term that the banks themselves are likely to use in describing what
+they do, although this is in fact what they are doing. To get a better handle on what motivates the
+banks in their actions, we explore the role of Value-at-Risk (VaR) in explaining the banks’ balance
+sheet decisions.
+For a random variable A, the Value-at-Risk at conﬁdence level c relative to some base level A0 is deﬁned as the smallest non-negative number VaR such that
+
+ProbðA < A0  VaRÞ 6 1  c
+
+430
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+Total Assets and Repos
+
+.1
+
+.2
+
+.2
+0
+-.2
+
+.3
+
+-.4
+
+-.2
+
+0
+
+.2
+
+.4
+
+-.4
+
+Repos and other Collat. Financing
+
+.2
+
+Total Assets
+
+0
+
+.1
+
+.15
+.1
+
+2008-1
+
+0
+
+0
+
+0
+
+Citigroup
+
+2007-3
+2007-4
+
+.05
+
+Total Assets
+
+.2
+.1
+
+1998-3
+
+1998-4
+
+1998-3
+
+0
+
+.1
+
+-.3
+
+-.05
+
+2007-3
+1998-4
+
+-.1
+
+-.2
+
+Repos and other Collat. Financing
+
+Goldman Sachs
+
+2008-1
+2007-4
+
+-.1
+
+2007-4 1998-4
+
+1998-4
+
+Bear Stearns
+
+-.2
+
+2007-3
+1998-3
+
+-.1
+
+2007-4
+
+-.1
+
+0
+
+2008-1
+
+-.2
+
+-.1
+
+Total Assets
+
+.1
+
+.1
+0
+
+1998-3
+
+-.2
+
+Total Assets
+
+0
+1998-4
+
+-.2
+
+2008-1
+2007-3
+
+-.1
+
+.1
+
+2007-3
+
+1998-3
+
+-.1
+-.2
+
+Total Assets
+
+2008-1
+2007-4
+
+Repos and other Collat. Financing
+
+Total Assets
+
+Morgan Stanley
+
+.2
+
+Merrill Lynch
+
+.2
+
+Lehman Brothers
+
+.2
+
+-.2
+
+Repos and other Collat. Financing
+
+0
+
+.2
+
+.4
+
+.6
+
+-.4
+
+Repos and other Collat. Financing
+
+-.2
+
+0
+
+.2
+
+.4
+
+Repos and other Collat. Financing
+
+Fig. 11. Total assets and repos.
+
+-.1
+
+0
+
+.1
+
+.2
+
+.3
+
+-.4
+
+-.2
+
+0
+
+.2
+
+.4
+
+.1
+
+.2
+
+Morgan Stanley
+
+0
+
+2007-3
+2008-1
+
+-.1
+
+1998-3
+1998-4
+
+2007-4
+
+-.2
+
+.4
+.2
+1998-4
+
+Reverse Repos & Collat. Lending
+
+-.2
+
+0
+
+0
+-.2
+-.4
+
+1998-4
+
+2008-1
+1998-3
+2007-4
+2007-3
+
+-.2
+
+2007-3
+
+1998-3
+2007-4
+
+Merrill Lynch
+
+-.4
+
+2008-1
+
+Reverse Repos & Collat. Lending
+
+.2
+
+Lehman Brothers
+
+-.4
+
+-.2
+
+0
+
+.2
+
+Citigroup
+
+-.1
+
+0
+
+.1
+
+.2
+
+Repos and other Collat. Financing
+
+0
+
+.2
+
+.4
+
+.6
+
+Repos and other Collat. Financing
+Fig. 12. Repos and reverse repos.
+
+.1
+0
+
+.1
+0
+
+-.2
+
+1998-4
+
+-.3 -.2 -.1
+
+2007-3
+
+-.2
+
+2007-3
+2008-1
+2007-4
+
+-.1
+
+.1
+
+1998-3
+
+-.1
+
+0
+
+2008-1
+1998-4
+2007-4
+
+.2
+
+Goldman Sachs
+
+Reverse Repos & Collat. Lending
+
+Bear Stearns
+
+.2
+
+Repos and other Collat. Financing
+
+Reverse Repos & Collat. Lending
+
+Repos and other Collat. Financing
+
+.2
+
+Repos and other Collat. Financing
+
+-.2
+
+Reverse Repos & Collat. Lending
+
+Reverse Repos & Collat. Lending
+
+Repos and Reverse Repos
+
+1998-3
+
+-.4
+
+-.2
+
+0
+
+.2
+
+.4
+
+Repos and other Collat. Financing
+
+431
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+For instance, A could be the total marked-to-market assets of the ﬁrm at some given time horizon.
+Then the Value-at-Risk is the equity capital that the ﬁrm must hold in order to stay solvent with probability c. Financial intermediaries publish their Value-at-Risk numbers as part of their regulatory ﬁlings and in their annual reports. Their economic capital is tied to the overall Value-at-Risk of the
+whole ﬁrm, where the conﬁdence level is set at a level high enough to target a given credit rating (typically A or AA).
+If ﬁnancial intermediaries adjust their balance sheets to target a ratio of Value-at-Risk to economic
+capital, then we may conjecture that their disclosed Value-at-Risk ﬁgures would be informative in
+reconstructing their actions. If the bank maintains capital K to meet total Value-at-Risk, then we have
+
+K ¼ k  VaR
+
+ð3:1Þ
+
+where k is the proportion of capital that the intermediary holds per unit of VaR. The proportionality k
+is potentially time varying. Hence, leverage L satisﬁes
+
+L¼
+
+A 1
+A
+1 1
+¼ 
+¼ 
+K k VaR k V
+
+1
+
+where V is the unit value-at-risk, deﬁned as the value-at-risk per dollar of assets. Procyclical leverage
+then follows directly from the counter-cyclical nature of unit value-at-risk. The negative relationship
+between leverage and value-at-risk can also be seen in Table 3, column (v).
+We can indeed see this counter-cyclical relationship in the data. In Fig. 13, we plot the unit valueat-risk against total assets, having removed the ﬁxed effects for individual banks. We see that the relationship is downward sloping. We highlight 2007Q4 and 2008Q1 for Bear Stearns and Lehman Brothers, as they are clear outliers in the plot. The high levels of unit value-at-risk for these two investment
+banks leading up to the height of the credit crisis is suggestive of balance sheets that are under considerable stress. Shortly after ﬁling its 10-Q form for the ﬁrst quarter of 2008, Bear Stearns suffered its
+run, and was acquired by J.P. Morgan Chase with the assistance of the Federal Reserve. Lehman Brothers ﬁled for bankruptcy in September of 2008.
+In Fig. 14, we plot the evolution of the average unit value-at-risk over time. We see again that the
+average unit value-at-risk increased sharply in 2007Q4 and 2008Q1.
+Eq. (3.1) also suggests that the ratio of Value-at-Risk to shareholder equity may be an informative
+series to track over time. The naive hypothesis would be that this ratio is kept constant over time by
+the bank. The naive hypothesis also ties in neatly the regulatory capital requirements under the 1996
+
+.5
+
+2008-1 Leh
+
+0
+
+2007-4 Leh
+
+-.5
+
+Log VaR/Assets
+
+2007-4 Bear
+2008-1 Bear
+
+-.5
+
+0
+
+.5
+
+Log Assets
+Bear Sterns
+
+Goldman Sachs
+
+Lehman Brothers
+
+Merrill Lynch
+
+Morgan Stanley
+
+Fitted values
+
+Fig. 13. VaR and total assets.
+
+1
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+.011
+.01
+.009
+.008
+
+VaR to Total Assets (Percent)
+
+.012
+
+432
+
+2001-1
+
+2002-1
+
+2003-1
+
+2004-1
+
+2005-1
+
+2006-1
+
+2007-1
+
+2008-1
+
+date
+Fig. 14. VaR to total assets (percent).
+
+Market Risk Amendment of the Basel capital accord. Under this rule, the regulatory capital is three
+times the 10 day, 99% Value-at-Risk.
+In Fig. 15, we plot the evolution of the VaR/equity ratio and leverage over time. The Value-at-Risk
+numbers are reported in the 10-K and 10-Q ﬁlings since 2001. We can see that both ratios – VaR/Equity and Leverage – are fairly constant before 2007, with the exception of Goldman Sachs, which exhibits
+a marked increase in leverage. In 2007, both leverage and the VaR/equity ratio increased markedly for
+most banks. In Fig. 16, we plot average leverage for all banks since 1992. There are two peaks in the
+
+VaR/Equity and Leverage
+Log Leverage
+
+-6.5
+
+3
+
+-7
+
+2.8
+
+Log Leverage
+3.2
+
+3.4
+
+VaR to Equity (log)
+-6
+-5.5
+
+-5
+
+3.6
+
+log VaR/Equity
+
+2001-12002-12003-12004-12005-12006-12007-12008-1
+date
+
+2001-12002-12003-12004-12005-12006-12007-12008-1
+date
+
+Bear Stearns
+
+Goldman Sachs
+
+Bear Stearns
+
+Goldman Sachs
+
+Lehman Brothers
+
+Merrill Lynch
+
+Lehman Brothers
+
+Merrill Lynch
+
+Morgan Stanley
+
+Morgan Stanley
+Fig. 15. VaR/equity and leverage.
+
+433
+
+30
+20
+
+25
+
+Average Leverage
+
+35
+
+40
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+1992-1
+
+1994-1
+
+1996-1
+
+1998-1
+
+2000-1
+
+2002-1
+
+2004-1
+
+2006-1
+
+2008-1
+
+date
+Fig. 16. Average leverage over time.
+
+evolution of leverage over time, one prior to the LTCM crisis of 1998, and a second peak in the run-up
+to the global ﬁnancial crisis of 2007–2009.
+
+4. Forecasting risk appetite
+We now explore the asset pricing consequences of balance sheet ﬂuctuations. We exhibit empirical
+evidence that the waxing and waning of balance sheets have a direct impact on asset prices through
+the ease with which traders, hedge funds and other users of credit can obtain funding for trades.
+So far, we have used quarterly data drawn either from the balance sheets of individual ﬁnancial
+intermediaries or the aggregate balance sheet items from the Flow of Funds accounts. However, for
+the purpose of tracking the ﬁnancial market consequences of balance sheet adjustments, data at a
+higher frequency are more useful. For this reason, we use the weekly data on the primary dealer repo
+and reverse repo positions compiled by the Federal Reserve Bank of New York. The primary dealer data
+have previously been analyzed by Adrian and Fleming (2005) and Kambhu (2006).
+Primary dealers are security-broker dealers with whom the Federal Reserve has a trading relationship. The primary dealers include the (then) ﬁve investment banks studied above, as well as commercial and foreign banks that own broker-dealers.5 The Federal Reserve collects transactions, positions,
+ﬁnancing, and settlement data of the primary dealers in ﬁxed income markets. The data are consolidated
+and released publicly on the Federal Reserve Bank of New York website.6 The primary dealer data provide
+a valuable window on the overall market, at a frequency (every week) that is much higher than the usual
+quarterly reporting cycle. Dealers collect information on their ﬁnancing activities each Wednesday; summary data are released each Thursday, one week after they are collected. The data are aggregated across
+all dealers, and are only available by asset class.
+Repos and reverse repos are a subset of the security ﬁnancing data. Financing distinguishes between ‘‘securities in” and ‘‘securities out” for each asset class. ‘‘Securities in” refer to securities received by a dealer in a ﬁnancing arrangement, whereas ‘‘securities out” refer to securities delivered
+by a dealer in a ﬁnancing arrangement. For example, if a dealer enters into a repo, in which it borrows
+funds and provides securities as collateral, it would report securities out. Repos and reverse repos are
+5
+6
+
+A list of current primary dealers can be found at: http://www.newyorkfed.org/markets/pridealers_current.html.
+www.newyorkfed.org/markets/primarydealers.html.
+
+434
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+reported across all sectors. Adrian and Fleming (2005) provide more detail about the data, and see
+Dufﬁe (1996) and Fleming and Garbade (2003) for further details about repo markets.
+We use the weekly repo and reverse repo data to forecast ﬁnancial market conditions in the following week. Our measure of ﬁnancial market conditions is the VIX index of implied volatility in S&P500
+index options. The VIX index reﬂects aggregate ﬁnancial market volatility, as well as the price of risk of
+market volatility. Ang et al. (2006) show that VIX innovations are signiﬁcant pricing factors for the
+cross section of equity returns, and Bollerslev and Zhou (2007) show that the volatility risk premium
+– the difference between the VIX and realized volatility of the S&P500 index – forecasts equity returns
+better than other commonly used forecasting variables (such as the P/E ratio or the term spread). We
+provide summary statistics of the primary dealer data, and the volatility data in Table 4.
+We use the daily VIX data from the website of the Chicago Board Options Exchange (www.cboe.com/micro/vix), and compute the S&P500 volatility from daily data over weekly windows. We compute the volatility risk premium as the difference between implied volatility and realized volatility.
+This risk premium is closely linked to the payoff to volatility swaps, which are zero investment derivatives that return the difference between realized future volatility and implied volatility over the
+maturity of the swap (see Carr and Wu (2009) for an analysis of variance and volatility swaps). We
+then compute averages of the VIX and the variance risk premium over each week (from the close of
+Wednesday to the close of the following Tuesday).
+The growth rate of repos on dealers’ balance sheets signiﬁcantly forecast innovations in the VIX.
+This can be seen in column (ii) of Table 5, where we report forecasting regressions for VIX changes
+over the next week. The forecasting results are signiﬁcant at the 1% level. The forecasting R2 increases
+from 4.9% when only the past VIX level is used, to 9% when repo changes are included in the forecast
+(comparison of columns i and ii). We believe the latter result (the signiﬁcant forecasting power of
+dealer’s repo growth for innovations in implied volatility) to be important. The forecasting result also
+holds for reverse repos, consistent with the notion that it is the total size of the balance sheet that matters for aggregate liquidity (column ii).
+In order to gain a better understanding what is determining the forecasting result, we also run the
+forecasting regressions for S&P500 volatility and the volatility risk premium (columns v–viii). We see
+that it is the volatility risk premium that is being forecast, not actual equity volatility. Adjustments to
+the size of ﬁnancial intermediary balance sheets via repos thus forecasts the price of risk of aggregate
+volatility, rather than aggregate volatility itself. We provide a graphical illustration of the forecasting
+power of repos as a scatter chart in Fig. 17.
+We can put forward the following economic rationale for the forecasting regressions presented
+here. When balance sheets expand through the increased collateralized lending and borrowing by
+ﬁnancial intermediaries, the newly released funding resources chase available assets for purchase.
+More capital is deployed in increasing trading positions through the chasing of yield, and the selling
+
+Table 4
+Primary dealer ﬁnancing summary statistics.
+Mean
+
+Std Dev
+
+Min
+
+Max
+
+Obs
+
+Panel A: US$ Billions
+Reverse repos and other collateralized lending
+Reverse repos
+Repos and other collateralized borrowing
+Repos
+Net repos
+
+1708
+1252
+1792
+1736
+484
+
+1026
+702
+1087
+1086
+396
+
+397
+332
+382
+369
+21
+
+4227
+2972
+4616
+4567
+1600
+
+926
+926
+926
+926
+926
+
+Panel B: weekly growth
+Reverse repos and other collateralized lending
+Reverse repos
+Repos and other collateralized borrowing
+Repos
+Net repos
+
+17%
+19%
+18%
+19%
+40%
+
+207%
+265%
+215%
+222%
+437%
+
+1075%
+1410%
+1076%
+1159%
+2429%
+
+1266%
+1471%
+1360%
+1344%
+5356%
+
+925
+925
+925
+925
+925
+
+This table reports summary statistics of collateralized ﬁnancing by the Federal Reserve’s Primary Dealers from form FR2004 for
+January 3, 1990– April 2, 2008.
+
+435
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+Table 5
+Forecasting volatility.
+One week average
+
+Volatility
+(change)
+
+Volatility risk
+premium (change)
+
+Implied volatility (change)
+
+Implied volatility (lag)
+Repos (lagged growth)
+Reverse repos (lagged growth)
+Net repos (lagged growth)
+Constant
+p-value
+
+Coef
+p-value
+Coef
+p-value
+Coef
+p-value
+Coef
+p-value
+Coef
+0.00
+
+R2 (adj.)
+
+(i)
+
+(ii)
+
+(iii)
+
+(iv)
+
+(v)
+
+(vi)
+
+(vii)
+
+(viii)
+
+0.10
+0.01
+
+0.09
+0.01
+0.28
+0.00
+
+0.09
+0.01
+
+0.10
+0.01
+
+0.45
+0.00
+
+0.45
+0.00
+0.01
+0.89
+
+0.81
+0.00
+
+0.81
+0.00
+0.21
+0.05
+
+0.06
+0.00
+1.93
+0.00
+5.5%
+
+4.99
+0.00
+22.3%
+
+4.96
+0.00
+22.0%
+
+6.50
+0.00
+40.3%
+
+6.52
+
+0.24
+0.00
+
+1.95
+0.00
+4.9%
+
+1.85
+0.00
+9.0%
+
+1.82
+0.00
+9.1%
+
+41.0%
+
+-10
+
+-5
+
+0
+
+5
+
+10
+
+This table reports forecasting regressions of VIX implied volatility changes, S&P500 volatility changes, and the volatility risk
+premium on lagged growth rates of repo, reverse repo, and net repo positions of U.S. Primary Dealers. The VIX is computed from
+the cross section of S&P500 index option prices by the Chicago Board of Options Exchange. We compute weekly volatility from
+S&P500 returns. The volatility risk premium is the difference between the average VIX over the week and S&P500 volatility for
+the same week. Summary statistics of the Primary Dealer ﬁnancing data are given in Table 4. The data are weekly from January
+3, 1990–April 2, 2008. p-Values are adjusted for autocorrelation and heteroskedasticity.
+
+-10
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+Repo growth (lag)
+VIX change (weekly average)
+
+Fitted VIX change
+
+Fig. 17. Implied volatility and lagged repos.
+
+of the ‘‘tails” , as in the selling volatility via options. If the increased funding for asset purchases result
+in the generalized increase in prices and risk appetite in the ﬁnancial system, then the expansion of
+balance sheets will eventually be reﬂected in the asset price changes in the ﬁnancial system – hence,
+the ability of changes in repo positions to forecast future volatility, and particularly the volatility risk
+premium.
+Finally, we may expect that balance sheet changes will have an impact on real variables also, such
+as the components of GDP. This is conﬁrmed in Adrian and Shin (2008b), who study implications for
+the conduct of monetary policy. We do not pursue this issue further here, for lack of space.
+
+436
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+5. Other related literature
+Our results add to the literature on the role of liquidity in asset pricing. Gennotte and Leland (1990)
+and Geanakoplos (2003) provide early analyses that are based on competitive equilibrium. As well as
+those mentioned in the opening to our paper, recent contributions to the role of liquidity in asset pricing include Allen and Gale (2004), Acharya and Pedersen (2005), Brunnermeier and Pedersen (2005,
+2009), Morris and Shin (2004), Diamond and Rajan (2005). The common thread is the relationship between funding conditions and the resulting market prices of assets. Closely related is the literature
+examining ﬁnancial distress and liquidity drains.
+The managing of leverage is closely tied to the bank’s attempt to target a particular credit rating. To
+the extent that the ‘‘passive” credit rating should ﬂuctuate with the ﬁnancial cycle, the fact that a
+bank’s credit rating remains constant through the cycle suggests that banks manage their leverage actively, so as to shed exposures during downturns. Kashyap and Stein (2003) draw implications from
+such behavior for the procyclical impact of the Basel II bank capital requirements.
+More broadly, our discussion here is related to the large literature on the ampliﬁcation of ﬁnancial
+shocks through balance sheet channels. The literature has distinguished two distinct channels. The
+ﬁrst is the increased credit that operates through the borrower’s balance sheet, where increased lending comes from the greater creditworthiness of the borrower (Bernanke and Gertler (1989), Kiyotaki
+and Moore (1997, 2005)). The second is the channel that operates through the banks’ balance sheets,
+either through the liquidity structure of the banks’ balance sheets (Bernanke and Blinder (1988), Kashyap and Stein (2000)), or the cushioning effect of the banks’ capital (Van den Heuvel (2002)). Our discussion is closer to the latter group in that we also focus on the intermediaries’ balance sheets.
+However, the added insight from our discussions is on the way that marking to market enhances
+the role of market prices, and the responses that price changes elicit from intermediaries.
+The impact of remuneration schemes on the ampliﬁcations of the ﬁnancial cycle have been addressed recently by Rajan (2005). The agency problems within a ﬁnancial institution holds important
+clues on how we may explain procyclical behavior. Stein (1997) and Scharfstein and Stein (2000) present analyses of the capital budgeting problem within banks in the presence of agency problems.
+The possibility that a market populated with Value-at-Risk (VaR) constrained traders may have
+more pronounced ﬂuctuations has been examined by Danielsson et al. (2004). Mark-to-market
+accounting may at ﬁrst appear to be an esoteric question on measurement, but we have seen that it
+has potentially important implications for ﬁnancial cycles. Plantin et al. (2008) present a microeconomic model that compares the performance of marking to market and historical cost accounting
+systems.
+6. Concluding remarks
+Aggregate liquidity can be understood as the rate of growth of the aggregate ﬁnancial sector balance sheet. When asset prices increase, ﬁnancial intermediaries’ balance sheets generally become
+stronger, and – without adjusting asset holdings – their leverage tends to be too low. The ﬁnancial
+intermediaries then hold surplus capital, and they will attempt to ﬁnd ways in which they can employ
+their surplus capital. In analogy with manufacturing ﬁrms, we may see the ﬁnancial system as having
+‘‘surplus capacity”. For such surplus capacity to be utilized, the intermediaries must expand their balance sheets. On the liability side, they take on more short-term debt. On the asset side, they search for
+potential borrowers. Aggregate liquidity is intimately tied to how hard the ﬁnancial intermediaries
+search for borrowers. In the sub-prime mortgage market in the United States we have seen that when
+balance sheets are expanding fast enough, even borrowers that do not have the means to repay are
+granted credit – so intense is the urge to employ surplus capital. The seeds of the subsequent downturn in the credit cycle are thus sown.
+References
+Adrian, T., Fleming, M., 2005. What ﬁnancing data reveal about dealer leverage. Fed. Reserve Bank New York Curr. Issues Econ.
+Financ. 11 (3).
+
+T. Adrian, H.S. Shin / J. Finan. Intermediation 19 (2010) 418–437
+
+437
+
+Adrian, T., Rosenberg, J., 2008. Stock returns and volatility: pricing the short-run and long-run components of market risk. J.
+Financ. 63, 2997–3030.
+Adrian, T., Shin, H.S., 2008a. Liquidity and ﬁnancial contagion. Financial Stability Review. Banque de France.
+Adrian, T., Shin, H.S., 2008b. Financial intermediaries, ﬁnancial stability and monetary policy. Paper presented at the Federal
+Reserve Bank of Kansas City Symposium at Jackson Hole.
+Allen, F., Gale, D., 2004. Financial intermediaries and markets. Econometrica 72, 1023–1061.
+Acharya, V., Pedersen, L., 2005. Asset pricing with liquidity risk. J. Financ. Econ. 77, 375–410.
+Ang, A., Hodrick, R., Xing, Y., Zhang, X., 2006. The cross-section of volatility and expected returns. J. Financ. 61, 259–299.
+Bank for International Settlements, 1999. A Review of Financial Market Events in Autumn 1998, CGFS Publication Number 12.
+http://www.bis.org/publ/cgfs12.htm.
+Bernanke, B., Blinder, A., 1988. Credit, money and aggregate demand. Am. Econ. Rev. 78, 435–439.
+Bernanke, B., Gertler, M., 1989. Agency costs, net worth, and business ﬂuctuations. Am. Econ. Rev. 79, 14–31.
+Bollerslev, T., Zhou, H., 2007. Expected stock returns and variance risk premia. Fed. Reserve Board Financ. Discussion Ser., 2007–
+2011.
+Brunnermeier, M., Pedersen, L., 2005. Predatory trading. J. Financ. 60, 1825–1863.
+Brunnermeier, M., Pedersen, L., 2009. Market liquidity and funding liquidity. Rev. Financ. Stud. 22 (6), 2201–2238.
+Carr, P., Wu, L., 2009. Variance risk premiums. Rev. Financ. Stud. 22, 1311–1341.
+Danielsson, J., Shin, H., Zigrand, J., 2004. The impact of risk regulation on price dynamics. J. Bank. Financ. 28, 1069–1087.
+Diamond, D., Rajan, R., 2005. Liquidity shortages and banking crises. J. Financ. 60, 615–647.
+Dufﬁe, D., 1996. Special repo rates. J. Financ. 51, 493–526.
+Fleming, M., Garbade, K., 2003. The repurchase agreement reﬁned: GCF repo. Fed. Reserve Bank New York Curr. Issues Econ.
+Financ. 9 (6).
+Geanakoplos, J., 2003. Liquidity, default, and crashes: endogenous contracts in general equilibrium. In: Advances in Economics
+and Econometrics: Theory and Applications, Eighth World Conference, vol. II. Cambridge University Press.
+Gennotte, G., Leland, H., 1990. Hedging and crashes. Am. Econ. Rev. 80, 999–1021.
+Greenlaw, D., Hatzius, J., Kashyap, A., Shin, H.S., 2008. Leveraged Losses: Lessons from the Mortgage Market Meltdown US
+Monetary Policy Forum Report No. 2. http://research.chicagogsb.edu/igm/events/docs/USMPF-ﬁnal.pdf.
+Gromb, D., Vayanos, D., 2002. Equilibrium and welfare in markets with ﬁnancially constrained arbitrageurs. J. Financ. Econ. 66,
+361–407.
+He, Z., Krishnamurthy, A., 2008. Intermediary Asset Pricing. Northwesetern University. Unpublished working paper.
+Kambhu, J., 2006. Trading risk, market liquidity, and convergence trading in the interest rate swap spread. Fed. Reserve Bank
+New York Curr. Issues Econ. Policy Rev. 12, 1–13.
+Kashyap, A., Stein, J., 2000. What do a million observations on banks say about the transmission of monetary policy? Am. Econ.
+Rev. 90, 407–428.
+Kashyap, A., Stein, J., 2003. Cyclical Implications of the Basel II Capital Standard, University of Chicago and Harvard University.
+Unpublished working paper. http://faculty.chicagogsb.edu/anil.kashyap/research/basel-ﬁnal.pdf.
+Kiyotaki, N., Moore, J., 1997. Credit Chains. Princeton University. Unpublished working paper.
+Kiyotaki, N., Moore, J., 2005. Liquidity and asset prices. Int. Econ. Rev. 46, 317–349.
+Lowenstein, R., 2000. When Genius Failed. Random House, New York.
+Morris, S., Shin, H.S., 2004. Liquidity black holes. Rev. Financ. 8, 1–18.
+Plantin, G., Sapra, H., Shin, H., 2008. Marking to market: panacea or pandora’s box. J. Account. Res. 46, 435–460.
+Rajan, R., 2005. Has ﬁnancial development made the world riskier? Paper presented at the Federal Reserve Bank of Kansas City
+Economic Symposium at Jackson Hole. http://www.kc.frb.org/publicat/sympos/2005/sym05prg.htm.
+Scharfstein, D., Stein, J., 2000. The dark side of internal capital markets: divisional rent-seeking and inefﬁcient investment. J.
+Financ. 55, 2537–2564.
+Shleifer, A., Vishny, R., 1997. The limits of arbitrage. J. Financ. 52, 35–55.
+Stein, J., 1997. Internal capital markets and the competition for corporate resources. J. Financ. 52, 111–133.
+Van den Heuvel, S., 2002. The Bank Capital Channel of Monetary Policy, University of Pennsylvania. Unpublished working paper.
+Welch, I., 2004. Capital structure and stock returns. J. Polit. Econ. 112, 106–131.
+
+

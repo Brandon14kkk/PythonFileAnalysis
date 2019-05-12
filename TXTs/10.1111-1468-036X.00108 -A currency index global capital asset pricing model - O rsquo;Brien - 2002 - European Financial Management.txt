@@ -1,0 +1,668 @@
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+European Financial Management, Vol. 6, No. 1, 2000, 7 ± 18
+
+A currency index global capital asset
+pricing model
+Thomas J. O'Brien
+School of Business, University of Connecticut, Storrs, CT 06269, USA
+e-mail: tomo@sba.uconn.edu
+
+and Walter Dolde
+University of Connecticut
+e-mail: dolde@uconnvm.uconn.edu
+
+Abstract
+The application of an international capital asset pricing relationship with two
+factors, the global market portfolio and a currency index, is described and
+illustrated. The model and illustration help demonstrate a problem with the common
+practice of adjusting an asset's expected rate of return across currencies via nominal
+riskless interest rate differentials.
+Keywords: international; asset; pricing.
+JEL classification: G15.
+
+1. Introduction
+In a global financial market, arbitrage should force the value of an internationally
+traded asset to be the same across currency borders, adjusted for exchange rates.
+Given this cross-border valuation condition, an international CAPM permits the
+consistent expression of an asset's equilibrium expected return in any currency. For
+developed countries with globally integrated markets, an international CAPM with
+cross-border pricing consistency is thus a more appropriate valuation tool than the
+domestic, segmented-market CAPM.
+
+Prior versions of this paper were presented at the 1996 Multinational Finance Association
+Meeting, 1996 Financial Management Association, and 1997 Eastern Finance Association. The
+authors thank Reid Click, Campbell Harvey, Hossein Kazemi, Piet Sercu, Jeroen Weimer, and
+workshops at the University of Mannheim, the University of Massachusetts, and the University
+of Potsdam. The research assistance from Indrek Saapar and the support from the Center for
+Real Estate and Urban Economics Studies at the University of Connecticut are gratefully
+acknowledged. This research was conducted in part while Dolde was a visiting professor at Yale
+University.
+# Blackwell Publishers Ltd 2000, 108 Cowley Road, Oxford OX4 1JF, UK and 350 Main Street, Malden, MA 02148, USA.
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+8
+
+T. J. O'Brien and W. Dolde
+
+One international CAPM is the nominal global CAPM, or GCAPM, in which the
+single benchmark is the global market portfolio. The GCAPM has been applied by Jorion
+and Schwartz (1986) and Stulz (1995b,c). While the GCAPM should be a better valuation
+tool for internationally traded assets than the domestic CAPM, there is a growing body of
+empirical evidence that systematic exposure to exchange rate changes may be `priced' in
+financial markets, in addition to systematic exposure to market portfolio returns. 1
+Accordingly, an international CAPM consistent with this empirical evidence may be
+even more useful than the single-factor GCAPM. A potential candidate is the general
+international capital asset pricing model (ICAPM), pioneered by Solnik (1974), Sercu
+(1980), Stulz (1981), and Adler and Dumas (1983). In the general ICAPM, where
+purchasing power parity (PPP) is assumed to be violated, systematic exposure to
+exchange rate changes is a risk that is priced. Also in support of this theory is an
+overwhelming amount of empirical evidence that PPP is violated. 2
+However, the general ICAPM has an exchange rate risk factor for each currency in
+the global market and thus is cumbersome to apply. This practitioner problem may be
+addressed, following Ross and Walsh (1983), with a portfolio representation of the
+exchange rate factors. This approach implies a two-factor international CAPM, where
+the first factor is the global market portfolio and the second is a portfolio of riskless
+deposits in various currencies, or currency index. The true weights of the currency index
+of the theory are generally unobservable and depend on country-specific degrees of
+relative risk aversion and levels of national wealth. However, one may expect the model
+to be applied by practitioners with an observable `proxy' currency index, just as a
+`proxy' for the true market portfolio is used in practice with the CAPM and GCAPM.
+This article describes an application of the `currency index' global CAPM, or CIGCAPM. Section 2 discusses the model, while Section 3 illustrates an application, also
+comparing the valuation with that of the single-factor GCAPM. Section 4 discusses
+the issue of converting an asset's required rate of return across currency borders.
+Section 5 concludes.
+2. Currency index global capital asset pricing model
+The risk-return relationship of the CI-GCAPM is shown in equation (1). The
+derivation, provided in the Appendix, is based on the assumptions that (1) purchasing
+power parity is violated, and (2) inflation in home goods is nonstochastic.
+E(Ri ) ÿ r   im [E(Rm ) ÿ r]   ix [E(Rx ) ÿ r]
+
+(1)
+
+1
+
+See, for examples, Dumas and Solnik (1995), Ferson and Harvey (1993, 1994), Harvey, Solnik,
+and Zhou (1994), Brown and Otsuki (1993, 1994), Dukas, Fatemi, and Tavakkol (1993), and
+more recently He and Ng (1998) and Doukas, Hall, and Lang (1996).
+2
+
+The international CAPM is reviewed in Ross and Walsh (1983), Dumas (1994), Stulz (1995a), and
+Solnik (1997). Solnik points out that a single-factor international CAPM representation is possible
+by viewing asset returns hedged against exchange rate risk and a (partly) hedged global market
+portfolio. The model's risk-return relationship here is expressed in terms of unhedged returns.
+For examples of the empirical rejection of PPP, see Abuaf and Jorion (1990), Engel and
+Hamilton (1990), Evans and Lewis (1993), and Rogoff (1996). Rogoff summarizes the empirical
+results and concludes that short-run deviations from PPP are large and volatile, and indeed, the
+1-month conditional volatility of real exchange rates (the volatility of deviations from PPP) is of
+the same order of magnitude as the conditional volatility of nominal exchange rates.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+A Currency Index Global CAPM
+
+9
+
+where
+Ri, r, Rm, and Rx are based on nominal returns from the viewpoint of one currency,
+referred to as the pricing currency,
+Ri is the return on asset i, consisting of the asset's local currency return and the
+percentage change in the value of the asset's local currency (relative to the pricing
+currency),
+r is the nominal riskfree rate of the pricing currency,
+Rm is the return (in the pricing currency) on the unhedged global market portfolio,
+Rx is the return on an index of currency deposits, where the return on each currency
+deposit includes both the nominal riskfree rate of that currency and the percent
+change in the value of the currency (relative to the pricing currency), and
+im and ix are bivariate regression coefficients of Ri versus Rm and Rx. 3
+The CI-GCAPM may be stated in the form of equation (1) with any
+currency serving as the pricing currency. Like all international asset pricing
+models, the transformation between currencies preserves the no-arbitrage value of
+any internationally traded asset at spot exchange rates. Note that the two
+systematic risk factors do not have to be uncorrelated. As a result, both of the
+systematic factors affect Ri in two ways in equation (1). For example, variation in
+Rx affects Ri directly through  ix and indirectly through  im and the covariance of
+Rm with Rx.
+As pointed out in Dumas (1994), the general ICAPM also provides a risk-adjusted
+equilibrium relationship between the riskless interest rate differential and the
+equilibrium expected rate of change of an exchange rate. Let xk be the percentage
+change in currency k relative to the pricing currency, kp. Then in the CI-GCAPM, we
+have that
+E(xk )  r ÿ rk  km [E(Rm ) ÿ r]   kx [E(Rx ) ÿ r]
+
+(2)
+
+where
+xk is the percentage change in currency k relative to currency kp,
+rk is currency k's nominal riskfree rate, and
+ km and kx are, respectively, the bivariate regression sensitivities of the percentage
+change in the value of currency k (relative to kp ) to the global market portfolio
+and the currency deposit index.
+Equation (2) is a statement of the risk-adjusted uncovered interest rate parity
+(UIRP) condition in the CI-GCAPM. Equation (2) follows from viewing currency k's
+nominally riskless asset as a risky asset from the viewpoint of currency kp, and noting
+
+3
+
+im  [cov(Ri, Rm )var(Rx ) ÿ cov(Ri, Rx )cov(Rm, Rx )]=[var(Rm )var(Rx ) ÿ cov(Rm, Rx ) 2 ] and
+ix  [cov(Ri, Rx )var(Rm ) ÿ cov(Ri, Rm )cov(Rm, Rx )]=[var(Rm )var(Rx ) ÿ cov(Rm, Rx ) 2 ].
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+10
+
+T. J. O'Brien and W. Dolde
+
+that risks and required returns have the same equilibrium pricing structure, whether a
+risky asset is a stock or a foreign currency deposit. 4
+As shown in the Appendix, in the CI-GCAPM, the risk premia on the two factors
+must satisfy the conditions of equations (3a) and (3b):
+E(Rm ) ÿ r   var(Rm )  (1 ÿ )cov(Rm, Rx )
+
+(3a)
+
+E(Rx ) ÿ r   cov(Rx, Rm )  (1 ÿ )var(Rx )
+
+(3b)
+
+where
+ is the `market price of risk', a wealth-weighted aggregate of investors' degrees of
+relative risk aversion.
+Equations (3a) and (3b) are useful in ensuring an asset's consistent valuation across
+currencies in the illustration of the CI-GCAPM application in the next section.
+Solnik (1997) pointed out that market segmentation would imply a more complex
+international pricing relationship than the CI-GCAPM of equation (1). However,
+while `home bias' behavior has been observed, Solnik contends that current empirical
+evidence, while still fragmentary, supports the conclusion that assets are priced in an
+integrated financial market, except possibly for emerging and smaller market assets.
+3. An illustration of applying the CI-GCAPM
+The application of the CI-GCAPM for purposes of estimating an asset's cost of
+capital is demonstrated in this section. Also, the principle of consistent cost of capital
+estimation across currencies is demonstrated for an asset assumed to be traded in an
+integrated financial market where the CI-GCAPM holds.
+The asset's returns used in the analysis were those actually realized by the ADRs of
+the British company, Grand Metropolitan, PLC (GrandMet). The valuation of the
+asset is assumed to have taken place in April 1997, using parameters estimated with
+monthly historical data from April 1991 through March 1997. Equation (1) is applied
+in both US dollars and sterling to find the (consistent) equilibrium expected rate of
+return of an asset in both currencies.
+The global market portfolio is `proxied' by the MSCI World Index, and the
+currency index is `proxied' by the Federal Reserve Trade-Weighted Index of G-10
+currencies. 5 The analysis employs Stulz' (1995c) estimate of the annual expected risk
+4
+
+In equation (2) the equilibrium expected change in a currency value depends on the expected
+change in the currency index portfolio, E(Rx ). This circularity is reminiscent of that in the
+original CAPM, where the expected return on a stock depends on the expected return of the
+market portfolio.
+5
+
+These proxies were chosen for use in the illustration, as the data were readily available. By
+construction, the Financial Times All-Actuaries World Index is more of a proper portfolio than
+the MSCI index, as Steve Brown has explained to us. Also, broader currency indexes than the one
+we used are available and are more consistent with the spirit of the CI-GCAPM. In practitioner
+applications, use of the G-10 currency index may be a usable `proxy' for the true currency index,
+just as the S & P 500 index is a usable `proxy' for the domestic US market portfolio. Technically,
+since the riskless US dollar asset is one of the currency deposits of the currency index portfolio,
+the G-10 index should be `weighted' by 1 minus the weight of the riskless US dollar asset in the
+currency deposit portfolio. This weighting was not performed here.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+A Currency Index Global CAPM
+
+11
+
+premium in US dollars on the global market portfolio, 5.40%, which is about 0.45%
+monthly.
+3a. Equilibrium expected rate of return (in US dollars)
+Since the risk premium on the global market portfolio is assumed to be known in US
+dollars (5.4% annually), the asset's equilibrium expected rate of return is first
+determined by applying the CI-GCAPM in US dollars. Assuming the CI-GCAPM
+holds, and with monthly empirical estimates in US dollars of 0.000873 for var(Rm) and
+0.0000957 for cov(Rm, Rx), an estimate of the global market price of risk consistent
+with equation (3a) is 5.666. 6
+With the estimate of 5.666 for  and the estimates of 0.000397 for the monthly
+var(Rx) and 0.0000957 for the monthly cov(Rm, Rx), an estimate of the expected
+monthly risk premium on the currency factor, E(Rx ) ÿ r, consistent with equation (3b)
+is ÿ0.00131 in US dollars (about ÿ1.57% annualized). The interpretation of this value
+is that in equilibrium, the rate of return in US dollars on a portfolio of interest-earning
+currency deposits is expected to be lower than the US dollar riskfree rate, due to an
+expected appreciation of the US dollar and=or lower interest rates on the currency
+deposits.
+The nominal 1-month risk free interest rate in US dollars used in the valuation is
+0.46875%, determined by dividing by 12 the annualized 1-month eurodollar rate of
+5.625% in the Financial Times of 29 April 1997.
+The asset parameters in the CI-GCAPM are the bivariate betas for GrandMet's
+ADRs relative to the global market portfolio and the currency index. These beta
+estimates, computed with monthly US dollar returns for the April 1991 to March 1997
+period, are  im  1.1017 and ix  ÿ0.1182. The market and asset parameters using US
+dollars as the pricing currency are summarized in Figure 1.
+The asset's equilibrium (monthly) expected rate of return in the CI-GCAPM in US
+dollars is thus E(Ri)  0.0046875  1.1017[0.0045] ÿ 0.1182[ÿ0.00131]  0.0098. The
+corresponding annualized equilibrium expected rate of return on the asset in US
+dollars, is about 0.1176, or 11.76% per annum.
+What would have been the asset's estimated equilibrium expected rate of return
+with the single-factor GCAPM? The asset's estimated single-factor beta, cov(Ri, Rm )=
+var(Rm), is 1.089 computed with the same data. Thus the single-factor GCAPM
+estimate of the monthly equilibrium expected rate of return is
+0.0046875  1.089[0.0045]  0.0096, or 0.1151 annualized. In US dollars, there is only
+25 basis points difference between the CI-GCAPM and single-factor GCAPM
+6
+Harvey (1991) estimated a global price of risk of 11.47 for the G-7 countries using a singlefactor GCAPM and data in US dollars, but rejected the hypothesis that this estimate was the
+same across countries, as should be the case with integrated markets if the single-factor
+GCAPM is the correct model. With US stocks, Harvey's estimated global market price of risk
+was 5.37, and with UK stocks it was 8.89. Of course, these estimates were determined from
+average returns actually experienced in the markets. Assuming that average returns in each
+market reflected expectations during the 1970± 1989 time period of the Harvey data, then either
+(a) a different model, such as the CI-GCAPM, would have resulted in a consistent, but different,
+global price of risk, or (more likely) (b) the financial markets Harvey studied were simply not yet
+well integrated during 1970± 1989, and were moreover in the process of moving to a new, global
+equilibrium.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+12
+
+T. J. O'Brien and W. Dolde
+Var(Rm)
+Var(Rx)
+Cov(Rm, Rx)
+
+0.000873
+0.000397
+0.0000957
+
+E(Rm) ÿ r
+E(Rx) ÿ r
+Risk free rate (r)
+
+0.45%
+ÿ0.131%
+0.46875%
+
+ im
+ ix
+
+1.1017
+ÿ0.1182
+
+E(Ri)
+
+0.0098 [11.76% per annum]
+
+Fig. 1. Monthly market and asset parameters in US dollars
+
+annualized cost of equity estimates for GrandMet, a point that is discussed further
+below.
+3b. Equilibrium expected rate of return (in sterling)
+Now consider the same returns on GrandMet ADRs as they would have been realized
+in sterling by a British investor. The parameter values used above that pertain to US
+dollar returns must be consistently translated into sterling. 7 The global market price
+of risk requires no translation, as it characterizes behavioral attitudes (in the
+aggregate) about risk-return tradeoffs, and thus is a pure number independent of
+currencies and numeraires. Thus  retains the numerical value of 5.666 in the sterling
+analysis.
+The monthly empirical estimates, in sterling, are 0.001206 for var(Rm ), 0.000275 for
+var(Rx), and 0.000202 for cov(Rm, Rx). The equilibrium expected monthly risk premia
+on the global market portfolio and on the currency index, in sterling, are determined
+from equations (3a, b). Equation (3a) produces the monthly expected risk premium on
+the global market portfolio in sterling of E(Rm ) ÿ r  5.666(0.001206) ÿ
+4.666(0.000202)  0.00589 (about 7.07% annualized), and equation (3b) produces
+the monthly expected risk premium on the currency index in sterling of E(Rx ) ÿ r 
+5.666(0.000202) ÿ 4.666(0.000275)  ÿ0.0001386 (about ÿ1.66% annualized). 8
+7
+By the no-arbitrage relation between the US dollar price of the ADRs, the sterling price of the
+actual shares, and the exchange rate, the sterling returns on GrandMet's ADR are the same as
+the sterling returns on the actual shares. For GrandMet's returns in sterling, actual exchange
+rate conversions were made here from the monthly GrandMet ADR returns data.
+The analogous conversions in the international CAPM theory are made with the Ito
+approximation. See Dumas (1994) and Sercu and Uppal (1995). In the Ito approximation, the
+percentage change in $=£ is equal to the variance of the percentage exchange rate changes minus
+the percentage change in £=$ (which implies that the variance of the percentage exchange rate
+changes is the same from either exchange rate direction.) With the Ito approximation, the return
+of an asset in currency kp is equal to its return in currency k (Rik) plus the percentage change is
+the value of currency k (xk) plus cov(Rik, xk ).
+8
+
+An alternative, and perhaps easier, method for finding the equilibrium expected rates of return
+on the global market portfolio and currency deposit index, in sterling, is to convert from the US
+dollar expected returns by applying equation (4).
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+A Currency Index Global CAPM
+Var(Rm)
+Var(Rx)
+Cov(Rm, Rx)
+E(Rm) ÿ r
+E(Rx) ÿ r
+Risk free rate (r)
+
+13
+
+0.001206
+0.000275
+0.000202
+0.589%
+ÿ0.0136%
+0.515625%
+
+im
+ ix
+
+1.0593
+0.6036
+
+E(Ri)
+
+0.01131 [13.57% per annum]
+
+Fig. 2. Monthly market and asset parameters in sterling
+
+The nominal 1-month risk free interest rate in sterling, 0.515625%, was determined
+by dividing by 12 the annualized 1-month eurosterling rate of 6.1875% in the
+Financial Times of 29 April 1997.
+The bivariate betas for GrandMet relative to the global market portfolio and the
+currency index, computed with monthly sterling returns for April 1991 to March 1997,
+are im  1.0593 and ix  0.6036. The market and asset parameters using sterling as
+the pricing currency are summarized in Figure 2.
+Since GrandMet's bivariate betas with the global market portfolio and the currency
+deposit index were estimated in sterling to be  im  1.0593 and  ix  0.6036, the
+equilibrium expected rate of return in sterling with the CI-GCAPM is
+E(Ri)  0.00515625  1.0593[0.00589]  0.6036[ÿ0.000136]  0.01131 per month, or
+about 13.57% annualized. Thus the annualized required rate of return in sterling is
+about 13.57%, compared to the 11.76% annualized required rate of return in US
+dollars.
+Suppose the CI-GCAPM reflects actual risk-pricing in financial markets, but one
+tries to estimate the asset's cost of equity in sterling with the single-factor GCAPM. A
+univariate regression of GrandMet's returns on the global market portfolio, with
+monthly returns in sterling between June 1991 and March 1997, would have yielded a
+beta estimate of 0.9584. If one somehow estimated the `true' risk premium in sterling
+on the global market portfolio, 0.00589, from historical data, one would estimate a
+cost of equity in sterling of 0.00515625  0.9584[0.00589]  0.0108, or about 12.96%
+annualized, 61 basis points lower than the assumed-true equilibrium expected rate of
+return in sterling of 13.57%.
+3c. CI-GCAPM versus single-factor GCAPM: discussion
+Given that equilibrium expected returns are consistent with the CI-GCAPM in the
+illustration, the single-factor GCAPM provided a better approximation of GrandMet's `true' cost of equity in US dollars than in sterling. One reason for the
+discrepancy may be that even though the CI-GCAPM can be applied in any
+currency, the same is not generally true of the single-factor GCAPM. If the singlefactor GCAPM is assumed to hold in US dollars, then in sterling a two-factor model
+holds, where the first factor is the (nominal return on the) global market portfolio in
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+14
+
+T. J. O'Brien and W. Dolde
+
+sterling and the second factor is the percentage change in the sterling price of the US
+dollar. 9
+Given that the US dollar is the most influential currency, the single-factor GCAPM
+may be a better approximation in US dollars than in other currencies. Perhaps this
+situation explains why the single-factor GCAPM gives a poorer approximation for
+GrandMet's cost of equity in sterling than in US dollars in the illustration, given that
+the CI-GCAPM is assumed to hold.
+
+4. On converting an asset's required return between currencies
+Some textbooks and articles in the practitioner literature have suggested the use of
+nominal risk free interest rate differentials to convert an asset's required return across
+currencies. The nominal riskless interest rate differential is a portion of the proper
+adjustment, but more is involved. The example above provides a setting to
+demonstrate this issue. 10
+Recall from the example that GrandMet's (monthly) equilibrium expected rate of
+return was estimated to be 1.131% (13.57% annually) in sterling, and 0.98%
+(11.76% annually) in US dollars, based on the CI-GCAPM pricing of systematic
+market and currency risks. The nominal riskfree rates are 0.515625% (6.1875%
+annually) in sterling and 0.46875% (5.625% annually) in US dollars. Thus
+GrandMet's monthly required return differential across currencies is about
+0.151% (1.81% annually), but the riskfree interest rate differential is considerably
+smaller, 0.046875% (0.5625% annually). Thus the difference between the asset's
+equilibrium expected rates of return in US dollars and sterling reflects more than the
+interest rate differential.
+In the CI-GCAPM, the equilibrium expected rate of return on an asset in currency
+k, E(Rik), can be converted to the equilibrium expected rate of return in currency kp via
+equation (4).
+E(Ri )  E(Rik )  r ÿ rk  km [E(Rm ) ÿ r]  kx [E(Rx ) ÿ r]  cov(Rik, xk )
+
+(4)
+
+In equation (4), the required return conversion across currencies depends in part on
+the nominal riskless interest rate differential, r ÿ rk. But the conversion also depends
+on an adjustment for the systematic risks of the kp=k exchange rate, which determine,
+along with the nominal riskless interest rate differential, the equilibrium expected rate
+of change in the kp price of currency k, E(xk), in equation (2). Moreover, the
+9
+This situation results from an accounting transformation from one currency to the other, as
+pointed out in Ross and Walsh (1983). The single-factor GCAPM results for any currency only
+in the special case when utility is logarithmic, as recognized by Jorion and Schwartz (1986).
+However, the estimated market price of risk used here, based on Stulz (1995c), is not consistent
+with the assumption of logarithmic utility and its relative risk aversion of 1.
+10
+
+The point of this section is recognized in Sercu and Uppal (1995). Our purpose here is to use
+the example of the previous section to reinforce the point, and to further discuss the issue that
+we think is not yet widely understood. It is convenient to make this point using the CI-GCAPM
+illustration, but the result is perfectly general: adjusting an asset's equilibrium expected rate of
+return across currencies with the riskless interest rate differential is inconsistent with all
+international capital asset pricing models.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+A Currency Index Global CAPM
+
+15
+
+conversion depends on the covariance of the asset's return in currency k with the
+change in the value of currency k, cov(Rik, xk). 11
+In order to illustrate equation (4), the betas of the $=£ exchange rate percentage
+changes ( km and kx) are estimated with a bivariate regression of the monthly
+percentage changes of the exchange rate against the global market portfolio and
+currency index, in US dollars. These betas for the June 1991 through March 1997
+period were 0.0992 for km and 0.9792 for kx. The covariance between GrandMet's
+monthly sterling returns and the monthly percentage changes in the US dollar value of
+sterling, cov(Rik, xk), was ÿ0.00037 during the same period.
+Given these data, and given the expected monthly rate of return of 0.01131
+in sterling, the application of equation (4) results in an equilibrium monthly
+expected rate of return on GrandMet's stock in US dollars of E(Ri ) 
+0.01131  0.0046875 ÿ 0.00515625  0.0992[0.0045]  0.979[ÿ0.00131]  (ÿ0.00037) 
+0.00963, or 0.963% monthly (11.56% annually). This estimate of the US dollar
+required return from equation (4) is much closer to the rate found with the CIGCAPM in US dollars, 0.98% (11.76% annually), than the rate found with the
+interest rate adjustment 1.084% (13% annually). 12
+5. Conclusion
+The CI-GCAPM, which includes a currency index factor in addition to the global
+market factor, may be a useful tool in practitioner valuations of assets in globally
+integrated markets. The model is more easily implemented than the general multicurrency version of the international CAPM and is more consistent with empirical
+evidence of the pricing of systematic exposure to exchange rate changes than the
+single-factor GCAPM.
+The application of the model is illustrated on an asset with parameters estimated
+from historical data, and a comparison is made with the single-factor GCAPM. The
+numerical results of this exercise are also used to illustrate the fallacy of adjusting an
+asset's required rate of return across currencies via the nominal riskless interest rate
+differential.
+References
+Abuaf, N. and Jorion, P., `Purchasing power parity in the long run', Journal of Finance, Vol. 45,
+March, 1990, pp.157± 174.
+Adler, Michael and Dumas, Bernard, `International portfolio choice and corporate finance: a
+synthesis', Journal of Finance, Vol. 38, June, 1983, pp. 925± 984.
+11
+
+Equation (4) is derived from the Ito approximation to converting returns,
+E(Ri$)  E(Rik )  E(xk )  cov(Rik, xk), and substituting from equation (2) for E(xk). Note that
+with the Ito approximations discussed in footnote 7, the covariance term in equation (4) can
+also be expressed as the covariance between the asset's returns in currency kp and xk, minus the
+variance of xk.
+12
+Equation (4) would have reconciled the expected return in US dollars and sterling exactly if
+the Ito approximation (see footnote 7) had been used to convert exchange rates and returns, as
+assumed in the model. In the application here, actual conversions were made in order to gauge
+the impact of that approximation.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+16
+
+T. J. O'Brien and W. Dolde
+
+Brown, Stephen J. and Otsuki, Toshiyuki, `Risk premia in Pacific Rim capital markets', PacificBasin Finance Journal, Vol. 1, 1993, pp. 235± 61.
+Brown, Stephen J. and Otsuki, Toshiyuki, `Exchange rate volatility and equity returns', in
+Amihud, Y. and Levich, R. (eds), Exchange Rates and Corporate Values and Strategies
+(Business One Irwin, Homewood, IL, 1994).
+Doukas, John, Hall, Patricia and Lang, Larry, `Exchange-rate exposure, stock returns, and the
+pricing of currency risk in Japan' (SSRN, 1996).
+Dukas, Stephen P., Fatemi, Ali M. and Tavakkol, Amir, `Foreign Exchange Exposure and the
+Pricing of Exchange Rate Risk', (Kansas State University working paper, 1993).
+Dumas, Bernard, `Partial vs. general equilibrium models of the international capital market', in
+Ploeg, Frederick van der (ed.), The Handbook of International Macroeconomics (Basil
+Blackwell, London, 1994).
+Dumas, Bernard and Solnik, Bruno, `The world price of exchange rate risk', Journal of Finance,
+Vol. 50, June, 1995, pp. 445 ±79.
+Engel, Charles and Hamilton, James D., `Long swings on the dollar: are they in the data and do
+markets know it?', American Economic Review, September, 1990, pp. 689± 713.
+Evans, Martin and Lewis, Karen, `Do long term swings in the dollar affect estimates of the risk
+premia?' (Weiss Center for International Financial Research, Wharton School Working
+Paper, 1993).
+Ferson, Wayne and Harvey, Campbell, `The risk and predictability of international equity
+returns', Review of Financial Studies, Vol. 6, No. 3, 1993, pp. 527± 566.
+Ferson, Wayne and Harvey, Campbell, `Sources of risk and expected returns in global equity
+markets', (NBER Working Paper No. 4622, 1994).
+Grauer, F. L. A., Litzenberger, R. A. and Stehle, R. E., `Sharing rules and equilibrium in an
+international capital market under uncertainty', Journal of Financial Economics, Vol. 3, June,
+1976, pp. 233 ± 256.
+Harvey, Campbell R., `The world price of covariance risk', Journal of Finance, Vol. 46, March,
+1991, pp. 111 ± 157.
+Harvey, Campbell, Solnik, Bruno and Zhou, Guofu, `What determines international asset
+returns?' (Duke University, 1994).
+He, J. and Ng, L., `The foreign exchange exposure of Japanese multinational corporations',
+Journal of Finance, Vol. 53, April 1998, pp. 733± 753.
+Jorion, Philippe, `The pricing of exchange rate risk in the stock market', Journal of Financial and
+Quantitative Analysis, Vol. 26, September 1991, pp. 363± 376.
+Jorion, Philippe and Schwartz, Eduardo, `Integration vs. segmentation in the Canadian stock
+market', Journal of Finance, Vol. 41, July 1986, pp. 603±616.
+Ross, Stephen A. and Walsh, Michael M., `A simple approach to the pricing of risky assets with
+uncertain exchange rates', in Hawkins, R. et al., (eds), Research in International Business and
+Finance, 3 (JAI Press, Greenwich, CT), 1983, pp. 39± 54.
+Rogoff, Kenneth, `The purchasing power parity puzzle', Journal of Economic Literature, Vol. 34
+No. 2, 1996, pp. 647 ±68.
+Sercu, Piet, `A generalisation of the international asset pricing model', (Onderzoeksrapport Nr.
+8002, Katholieke Universiteit Leuven, 1980).
+Sercu, Piet and Uppal, Raman, International Financial Markets and the Firm (Southwestern,
+Cincinnati, 1995).
+Solnik, Bruno, `An equilibrium model of the international capital market', Journal of Economic
+Theory, Vol. 8, August 1974, pp. 500± 524.
+Solnik, Bruno, `The world price of foreign exchange risk: some synthetic comments', European
+Financial Management, Vol. 3, March 1997, pp. 9 ± 22.
+Stulz, Rene M., `A model for international asset pricing', Journal of Financial Economics, Vol. 9,
+December 1981, pp. 383 ± 406.
+Stulz, Rene M., `International portfolio choice and asset pricing: an integrative survey', in
+Jarrow, R. et al. (eds), Handbooks in OR & MS, 9 (Elsevier, Amsterdam, 1995a, pp. 201± 223.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+A Currency Index Global CAPM
+
+17
+
+Stulz, Rene M., `The cost of capital in internationally integrated markets: the case of NestleÂ',
+European Financial Management, Vol. 1, No. 1, 1995b, pp. 11± 22.
+Stulz, Rene M., `Globalization of capital markets and the cost of capital: the case of NestleÂ',
+Journal of Applied Corporate Finance, Vol. 8, Fall 1995c, pp. 30± 38.
+
+Appendix
+In international capital asset pricing theory, investors from different nations realize
+different real returns from a given security when purchasing power parity does not
+hold. Despite the heterogeneity in real returns, equilibrium asset pricing can be
+achieved under the assumption of fully integrated international currency and capital
+markets that meet typical perfect markets conditions. The K-country international
+CAPM includes K  1 risk premia, one for the global portfolio of risky assets, one for
+the valuation currency's own inflation risk, and K ÿ 1 additional risk factors
+corresponding to each other country's uncertain inflation, expressed in the pricing
+currency, kp. Foreign inflation rates expressed in kp have two components: inflation in
+the foreign currency and the percentage change in the exchange rate between the
+foreign currency and kp. With this model, a consistent value of any asset can be found
+from the viewpoint of any currency. 13
+A convenient additional assumption is that each country's inflation rate is
+nonstochastic when measured in its own currency. This situation has been called
+the Solnik-Sercu special case. Here there is no inflation risk premium for the pricing
+currency, kp, and the other K ÿ 1 risk premia apply to nominal foreign exchange risks.
+In this case, asset i can be valued in terms of any currency kp by the following nominal
+pricing relationship:
+E(Ri )  r  q cov(Ri, Rm )  k 6 kpq(1=qk ÿ 1)wk cov(Ri, xk )=W
+
+(A1)
+
+where Ri, r, Rm, and xk are expressed in currency kp,
+Ri is the return on asset i, consisting of the asset's local currency return and the change
+in the value of the asset's currency relative to currency kp,
+r is the riskfree rate in currency kp,
+Rm is the return in currency kp on the unhedged global market portfolio,
+xk is the percentage change of currency k relative to currency kp,
+wk is the wealth of country k,
+qk is the market average degree of risk aversion of investors from country k,
+W is global wealth and equals kwk, and
+1=q is the global harmonic mean degree of risk aversion, equal to (kwk=qk )=W.
+Equation (A1) says that the required return on an asset is the risk free rate plus a
+risk premium for exposure to the global market portfolio, plus K ÿ 1 risk premia for
+exposure to each of the K ÿ 1 exchange rates relative to the currency of valuation. The
+coefficients of the K covariance terms sum to unity and the choice of valuation
+currency is irrelevant for equation (A1).
+13
+
+See Dumas (1994), equation (2.9).
+
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s208/s208.3d
+
+18
+
+T. J. O'Brien and W. Dolde
+
+The K ÿ 1 currency risk factors may be aggregated into a portfolio. The exact
+weights of this portfolio are generally unobservable, but may not be critical to
+practitioners, who are likely to use a proxy currency index anyway. Under the
+assumption of equal aggregate risk tolerances across borders, the currency index
+weights are relative national wealth. Although risk tolerances may not be empirically
+equal across investors or across borders, and although wealth weights are not
+necessarily consistent with the trade-weighted currency index used in the application
+in the text, this assumption is employed below as the easiest way to show how the
+currency factors collapse into an index portfolio.
+The assumption of equal degrees of aggregate risk aversion across borders, qk  
+for all k, implies that q from equation (A1) also takes the value . Thus, equation (A1)
+reduces to a risk-pricing model in only two factors:
+E(Ri )  r   cov(Ri, Rm )  (1 ÿ )cov(Ri, X )
+
+(A2)
+
+where
+X is a wealth-weighted index of the percent changes in all other currencies,
+k 6 kpwkxk=W, in terms of the currency of valuation (kp). Equivalently, X is the
+percentage change in a wealth-weighted index of exchange rates.
+A key step in the derivation of equation (1) in the text is the application of equation
+(A2) to Rm and Rx to obtain:
+E(Rm ) ÿ r   var(Rm )  (1 ÿ )cov(Rm, X ),
+
+(A3a)
+
+E(Rx ) ÿ r   cov(X, Rm )  (1 ÿ )var(X ).
+
+(A3b)
+
+Equation (1) in the text then follows from solving equations (A3a) and (A3b)
+simultaneously for  and (1 ÿ ), substituting the results into equation (A2), and
+rearranging. equations (3a) and (3b) in the text follow directly from equations (A3a)
+and (A3b), noting that the only variation in Rx is variation in X.
+
+# Blackwell Publishers Ltd, 2000
+
+

@@ -1,0 +1,4271 @@
+THE JOURNAL OF FINANCE * VOL. LV, NO. 1 * FEBRUARY 2000
+
+Agency Problems and Dividend Policies
+around the World
+RAFAELLA PORTA,FLORENCIOLOPEZ-DE-SILANES,
+ANDREI SHLEIFER, and ROBERTW. VISHNY*
+ABSTRACT
+This paper outlines and tests two agency models of dividends. According to the
+"outcomemodel," dividends are paid because minority shareholders pressure corporate insiders to disgorge cash. According to the "substitute model," insiders interested in issuing equity in the future pay dividends to establish a reputation for
+decent treatment of minority shareholders. The first model predicts that stronger
+minority shareholder rights should be associated with higher dividend payouts;
+the second model predicts the opposite. Tests on a cross section of 4,000 companies
+from 33 countries with different levels of minority shareholder rights support the
+outcome agency model of dividends.
+
+THE SO-CALLEDDIVIDEND PUZZLE (Black (1976)) has preoccupied the attention of
+financial economists at least since Modigliani and Miller's seminal work (see
+Modigliani and Miller (1958) and Miller and Modigliani (1961)). This work
+established that, in a frictionless world, when the investment policy of a
+firm is held constant, its dividend payout policy has no consequences for
+shareholder wealth. Higher dividend payouts lead to lower retained earnings and capital gains, and vice versa, leaving total wealth of the shareholders unchanged. Contrary to this prediction, however, corporations follow
+extremely deliberate dividend payout strategies (Lintner (1956)). This evidence raises a puzzle: How do firms choose their dividend policies?
+In the United States and other countries, the puzzle is even deeper since
+many shareholders are taxed more heavily on their dividend receipts than
+on capital gains. The actual magnitude of this tax burden is debated (see
+Poterba and Summers (1985) and Allen and Michaely (1997)), but taxes generally make it even harder to explain dividend policies of firms.
+Economists have proposed a number of explanations of the dividend puzzle. Of these, particularly popular is the idea that firms can signal future
+profitability by paying dividends (see Bhattacharya (1979), John and Wil-
+
+* The first three authors are from Harvard University, the fourth author is from the University of Chicago. They are grateful to Alexander Aganin for excellent research assistance, and
+to Lucian Bebchuk, Mihir Desai, Edward Glaeser, Denis Gromb, Oliver Hart, James Hines,
+Kose John, James Poterba, Roberta Romano, Raghu Rajan, Lemma Senbet, Rene Stulz, Daniel
+Wolfenzon, Luigi Zingales, and two anonymous referees for helpful comments.
+
+1
+
+2
+
+The Journal of Finance
+
+liams (1985), Miller and Rock (1985), and Ambarish, John, and Williams
+(1987)). Empirically, this theory had considerable initial success, since firms
+that initiate (or raise) dividends experience share price increases, and the
+converse is true for firms that eliminate (or cut) dividends (Aharony and
+Swary (1980), Asquith and Mullins (1983)). Recent results are more mixed,
+since current dividend changes do not help predict firms' future earnings
+growth (DeAngelo, DeAngelo, and Skinner (1996) and Benartzi, Michaely,
+and Thaler (1997)).
+Another idea, which has received only limited attention until recently (e.g.,
+Easterbrook (1984), Jensen (1986), Fluck (1998, 1999), Hart and Moore (1974),
+Myers (1998), Gomes (2000), and Zwiebel (1996)), is that dividend policies
+address agency problems between corporate insiders and outside shareholders. According to these theories, unless profits are paid out to shareholders,
+they may be diverted by the insiders for personal use or committed to unprofitable projects that provide private benefits for the insiders. As a consequence, outside shareholders have a preference for dividends over retained
+earnings. Theories differ on how outside shareholders actually get firms to
+disgorge cash. The key point, however, is that failure to disgorge cash leads
+to its diversion or waste, which is detrimental to outside shareholders' interest.
+The agency approach moves away from the assumptions of the ModiglianiMiller theorem by recognizing two points. First, the investment policy of
+the firm cannot be taken as independent of its dividend policy, and, in particular, paying out dividends may reduce the inefficiency of marginal investments. Second, and more subtly, the allocation of all the profits of the
+firm to shareholders on a pro rata basis cannot be taken for granted, and
+in particular the insiders may get preferential treatment through asset
+holding the investment policy
+diversion, transfer prices, and theft-even
+constant. Insofar as dividends are paid on a pro rata basis, they benefit
+outside shareholders relative to the alternative of expropriation of retained
+earnings.
+In this paper, we attempt to identify some of the basic elements of the
+agency approach to dividends, to understand its key implications, and to
+evaluate them on a cross section of more than 4,000 firms from 33 countries
+around the world. The reason for looking around the world is that the severity of agency problems to which minority shareholders are exposed differs
+greatly across countries, in part because legal protection of these shareholders varies (La Porta, Lopez-de-Silanes, Shleifer, and Vishny (1997, 1998),
+henceforth referred to as LLSV). Empirically, we find that dividend policies
+vary across legal regimes in ways consistent with a particular version of the
+agency theory of dividends. Specifically, firms in common law countries, where
+investor protection is typically better, make higher dividend payouts than
+firms in civil law countries do. Moreover, in common but not civil law countries, high growth firms make lower dividend payouts than low growth firms.
+These results support the version of the agency theory in which investors in
+good legal protection countries use their legal powers to extract dividends
+from firms, especially when reinvestment opportunities are poor.
+
+Agency Problems and Dividend Policies
+
+3
+
+Section I of the paper summarizes some of the theoretical arguments. Section II describes the data. Section III presents our empirical findings. Section IV concludes.
+
+I. Theoretical Issues
+A. Agency Problems and Legal Regimes
+Conflicts of interest between corporate insiders, such as managers and
+controlling shareholders, on the one hand, and outside investors, such as
+minority shareholders, on the other hand, are central to the analysis of the
+modern corporation (Berle and Means (1932), Jensen and Meckling (1976)).
+The insiders who control corporate assets can use these assets for a range of
+purposes that are detrimental to the interests of the outside investors. Most
+simply, they can divert corporate assets to themselves, through outright theft,
+dilution of outside investors through share issues to the insiders, excessive
+salaries, asset sales to themselves or other corporations they control at favorable prices, or transfer pricing with other entities they control (see Shleifer and Vishny (1997) for a discussion). Alternatively, insiders can use corporate
+assets to pursue investment strategies that yield them personal benefits of
+control, such as growth or diversification, without benefiting outside investors (e.g., Baumol (1959), Jensen (1986)).
+What is meant by insiders varies from country to country. In the United
+States, the U.K., Canada, and Australia, where ownership in large corporations is relatively dispersed, most large corporations are to a significant
+extent controlled by their managers. In most other countries, large firms
+typically have shareholders that own a significant fraction of equity, such as
+the founding families (La Porta, Lopez-de-Silanes, and Shleifer (1999)). The
+controlling shareholders can effectively determine the decisions of the managers (indeed, managers typically come from the controlling family), and
+hence the problem of managerial control per se is not as severe as it is in the
+rich common law countries. On the other hand, the controlling shareholders
+can implement policies that benefit themselves at the expense of minority
+shareholders. Regardless of the identity of the insiders, the victims of insider control are minority shareholders. It is these minority shareholders
+who would typically have a taste for dividends.
+One of the principal remedies to agency problems is the law. Corporate
+and other law gives outside investors, including shareholders, certain powers to protect their investment against expropriation by insiders. These powers in the case of shareholders range from the right to receive the same per
+share dividends as the insiders, to the right to vote on important corporate
+matters, including the election of directors, to the right to sue the company
+for damages. The very fact that this legal protection exists probably explains
+why becoming a minority shareholder is a viable investment strategy, as
+opposed to just being an outright giveaway of money to strangers who are
+under few if any obligations to give it back.
+
+4
+
+The Journal of Finance
+
+As pointed out by LLSV (1998), the extent of legal protection of outside
+investors differs enormously across countries. Legal protection consists of
+both the content of the laws and the quality of their enforcement. Some
+countries, including most notably the wealthy common law countries such as
+the United States and the U.K., provide effective protection of minority shareholders so that the outright expropriation of corporate assets by the insiders
+is rare. Agency problems manifest themselves primarily through non-valuemaximizing investment choices. In many other countries, the condition of
+outside investors is a good deal more precarious, but even there some protection does exist. LLSV (1998) show in particular that common law countries appear to have the best legal protection of minority shareholders, whereas
+civil law countries, and most conspicuously the French civil law countries,
+have the weakest protection.
+The quality of investor protection, viewed as a proxy for lower agency
+costs, has been shown to matter for a number of important issues in corporate finance. For example, corporate ownership is more concentrated in countries with inferior shareholder protection (LLSV (1998), La Porta, Lopez-deSilanes, and Shleifer (1999)). The valuation and breadth of capital markets
+is greater in countries with better investor protection (LLSV (1997), DemirgucKunt and Maksimovic (1998)). Finally, there is some evidence that good investor protection contributes to the efficiency of resource allocation and to
+economic growth more generally (Levine and Zervos (1998), Rajan and Zingales (1995)). This paper continues this research by examining the dividend
+puzzle using shareholder protection as a proxy for agency problems.
+B. Agency and Dividends: Two Views
+B. 1. The Role of Dividends in an Agency Context
+In a world of significant agency problems between corporate insiders and
+outsiders, dividends can play a useful role. By paying dividends, insiders
+return corporate earnings to investors and hence are no longer capable of
+using these earnings to benefit themselves. Dividends (a bird in the hand)
+are better than retained earnings (a bird in the bush) because the latter
+might never materialize as future dividends (can fly away). Additionally, the
+payment of dividends exposes companies to the possible need to come to the
+capital markets in the future to raise external funds, and hence gives outside investors an opportunity to exercise some control over the insiders at
+that time (Easterbrook (1984)).
+Unfortunately, there are no fully satisfactory theoretical agency models
+of dividends that derive dividend policies as part of some broad optimal
+contract between investors and corporate insiders, which allows for a range
+of feasible financing instruments. Instead, different models, such as Fluck
+(1998, 1999), Myers (1998), and Gomes (2000), capture different aspects of
+the problem. Moreover, the existing agency models do not fully deal with the
+issues of choice between debt and equity in addressing agency problems, the
+
+Agency Problems and Dividend Policies
+
+5
+
+choice between dividends and share repurchases, and the relationship between dividends and new share issues. We attempt to distill from the available literature the basic mechanisms of how dividends could be used to deal
+with agency problems. In particular, we distinguish between two very different agency "models" of dividends. The predictions of these models that we
+test are necessarily limited by the fact that we do not look at all the financing and payout choices simultaneously.
+Perhaps most importantly in this regard, we do not examine share repurchases, which have been commonly taken as an alternative to paying dividends. We note, however, that share repurchases are most common precisely
+in the countries where firms pay high dividends, such as the United States
+and the U.K. For example, between June 1997 and June 1998 there were
+1,537 share repurchases in the world recorded by the Securities Data Corporation, of which 1,100 occurred in the United States. By market value, the
+United States accounted for 72 percent of world share repurchases during
+this period, and the United States, the U.K., Canada, and Australia combined accounted for 83 percent. In some civil law countries, share repurchases are even illegal or heavily taxed (The Economist, August 15, 1998).1
+If share repurchases are complementary to dividends, rather than a substitute for them, our evidence only underestimates the difference in total cash
+payouts to shareholders between civil and common law countries.
+B.2. Dividends as an Outcome of Legal Protection of Shareholders
+Under the first view, dividends are an outcome of an effective system of
+legal protection of shareholders. Under an effective system, minority shareholders use their legal powers to force companies to disgorge cash, thus precluding insiders from using too high a fraction of company earnings to benefit
+themselves.2 Shareholders might do so by voting for directors who offer better dividend policies, by selling shares to potential hostile raiders who then
+gain control over non-dividend paying companies, or by suing companies
+that spend too lavishly on activities that benefit only the insiders. Moreover,
+good investor protection makes asset diversion legally riskier and more expensive for the insiders, thereby raising the relative attraction of dividends
+for them. The greater the rights of the minority shareholders, the more cash
+they extract from the company, other things equal.
+It is important to recognize that this argument does not rely on minority
+shareholders having specific rights to dividends per se, but rather on their
+having the more general rights of voting for directors and protesting wealth
+1 It could be argued that the discouragement of share repurchases is a form of shareholder
+protection since, unlike dividends, share repurchases can be discriminatory. This argument is
+less plausible in light of the fact that most share repurchases in the United States and the U.K.
+are open market, and, moreover, appear to supplement rather than substitute for dividends.
+2 Even under an effective system, residual agency problems must remain, for if they are
+totally resolved, we are back to the world of Modigliani and Miller with no reason for dividends.
+
+6
+
+The Journal of Finance
+
+expropriation. A good example from the United States is Kirk Kerkorian
+forcing Chrysler Corporation to disgorge its cash by paying dividends in
+1995 to 1996. As a large shareholder in Chrysler, Kerkorian had no specific
+rights to dividends, but used the voting mechanism to put his associates on
+the board and then force the board to sharply raise dividends. Another good
+example is Velcro Industries, the producer of the famous "touch fastener"
+incorporated on the island of Curacao in the Netherlands Antilles, "where
+shareholders have no right of dissent" (Forbes, October 15, 1990). Two-thirds
+of the shares of Velcro Industries are controlled by the Cripps family that
+runs Velcro (Forbes, May 23, 1994). In 1988, despite having a large cash
+reserve, the company suspended dividends "for the foreseeable future" (Forbes,
+October 3, 1988), -delisted itself from the Montreal Stock Exchange, and aggressively wrote down assets to slash earnings, evidently to "buy out Velcro
+minority holders cheap" (Forbes, May 23, 1994). The share price dived and,
+in 1990, with dividends remaining at zero, the Crippses offered to repurchase minority shares at slightly above the market price. Minority shareholders sued in New York and "when a New York judge ruled that the United
+States was the proper jurisdiction, secretive Sir Humphrey Cripps decided
+to call off his offer rather than go under the light of U.S. court of law"
+(Forbes, May 23, 1994). The company subsequently resumed its dividend
+payments. This case illustrates that, in a high protection country like the
+United States, in contrast to a low protection country like the Netherlands,
+shareholders are able to extract dividends from companies by virtue of their
+ability to resist oppression rather than having any specific dividend rights
+per se.
+In a cross section of countries with different quality of shareholder protection, the implication that better protection is associated with higher dividend payouts is testable. There is one further implication of this theory.
+Consider a country with good shareholder protection, and compare two companies in that country: one with good investment opportunities and growth
+prospects, and another with poor opportunities. Shareholders who feel protected would accept low dividend payouts, and high reinvestment rates, from
+a company with good opportunities because they know that when this company's investments pay off, they could extract high dividends. In contrast, a
+mature company with poor investment opportunities would not be allowed
+to invest unprofitably. As a consequence, with good shareholder protection,
+high growth companies should have significantly lower dividend payouts
+than low growth companies. In contrast, if shareholder protection is poor, we
+would not necessarily expect such a relationship between payouts and growth
+since shareholders may try to get what they can-which may not be muchimmediately. This also is a testable implication.3 The implications of the
+outcome agency model of dividends are illustrated in Figure 1.
+3 Ambarish et al. (1987) derive the negative relationship between growth and payouts in a
+dividend signaling model. They do not focus on how this relationship would vary depending on
+how well shareholders are protected. In principle, this extension is possible.
+
+Agency Problems and Dividend Policies
+Div/Earn
+
+\H
+L ow P ro tection
+
+Investment
+Figure
+
+1. Outcome
+
+7
+
+igh P rote ctio n
+\
+
+Opportunities
+model of dividends.
+
+B.3. Dividends as a Substitute for Legal Protection of Shareholders
+In an alternative agency view, dividends are a substitute for legal protection.4 This view relies crucially on the need for firms to come to the external
+capital markets for funds, at least occasionally. To be able to raise external
+funds on attractive terms, a firm must establish a reputation for moderation
+in expropriating shareholders. One way to establish such a reputation is by
+paying dividends, which reduces what is left for expropriation. For this mechanism to work, the firm must never want to "cash in" its reputation by
+stopping dividends and expropriating shareholders entirely. The firm would
+never want to cash in if, for example, there is enough uncertainty about its
+future cash flows that the option of going back to the capital market is
+always valuable (Bulow and Rogoff (1989)).
+A reputation for good treatment of shareholders is worth the most in countries with weak legal protection of minority shareholders, who have little
+else to rely on. As a consequence, the need for dividends to establish a reputation is the greatest in such countries. In countries with stronger shareholder protection, in contrast, the need for a reputational mechanism is weaker,
+and hence so is the need to pay dividends. This view implies that, other
+things equal, dividend payout ratios should be higher in countries with weak
+legal protection of shareholders than in those with strong protection.5
+4 The closest informal discussion to the substitute model is Easterbrook (1984). Formally, the
+model that comes the closest to taking this point of view is Gomes (2000). However, the recent
+drafts of his paper have moved away from focusing on dividends, and hence our discussion
+should not be interpreted as a description of Gomes's model.
+' Dewenter and Warther (1998) argue that there is less need to signal future earnings with
+dividends in Japan than in the United States. This may be because Japanese firms have better
+ways of information transmission to the relevant investors than do U.S. firms, or because Japanese managers are more insulated from investor pressure (Kang and Stulz (1996)). Dewenter
+and Warther find that share price reactions to dividend changes are smaller in Japan than in
+the United States. This finding may be consistent with either of the two agency models of
+dividends.
+
+The Journal of Finance
+
+8
+Div/Earn
+
+Low Protection
+iq
+
+Investment
+
+Protection
+H~~~~~Figh
+
+Opportunities
+
+Figure 2. Substitute model of dividends.
+
+Additionally, in this view, firms with better growth prospects also have a
+stronger incentive to establish a reputation since they have a greater potential need for external finance, other things equal. As a result, firms with
+better growth prospects might choose higher dividend payout ratios than
+firms with poor growth prospects. However, firms with good growth prospects also have a better current use of funds than firms with poor growth
+prospects. The relationship between growth prospects and dividend payout
+ratios is therefore ambiguous. Figure 2 illustrates the implications of this
+substitute agency model of dividends.
+B.4. Summary of Predictions of Agency Models
+We refer to the two alternative agency models of dividends as "the outcome model" and "the substitute model." The outcome model predicts that
+dividend payout ratios are higher in countries with good shareholder protection, other things equal. The substitute model predicts the opposite. The
+outcome model further predicts that, in countries with good shareholder protection, companies with better investment opportunities should have lower
+dividend payout ratios. The substitute model does not make this prediction.
+In fact, it makes a weak prediction that, in countries with poor shareholder
+protection, firms with better investment opportunities might pay out more
+to maintain reputations.
+C. Tax Issues
+Economists are divided on the effects of taxes on the valuation of dividends
+(Poterba and Summers (1985)). The so-called traditional view holds that heavy
+least in
+taxation of dividends at both the corporate and personal levels-at
+the United States-is a strong deterrent to paying out dividends rather than
+retaining the earnings. There are two important objections to this view. One
+objection, raised by Miller and Scholes (1978), states that investors have
+
+Agency Problems and Dividend Policies
+
+9
+
+access to a variety of dividend tax avoidance strategies that allow them to
+effectively escape dividend taxes. This objection does not closely correspond
+to what investors actually do (Feenberg (1981)). Another objection, the socalled new view of dividends and taxes (e.g., King (1977), Auerbach (1979)),
+holds that cash has to be paid out as dividends sooner or later, and therefore
+paying it earlier in the form of current dividends imposes no greater a tax
+burden on shareholders than does the delay. According to this theory, taxes
+do not deter dividend payments. Harris, Hubbard, and Kemsley (1997) support this new view. In our empirical work, we include a measure of the tax
+disadvantage of dividends based on Poterba and Summers (1984, 1985) to
+assess the effect of taxes on dividend policies. Appendix A summarizes in
+detail our treatment of the tax effects of dividends, and also presents the
+data on taxes that we use in the empirical work.
+II. Data
+Our sample is based on the March 1996 edition of the WorldScope Database, which presents information on the (typically) largest listed firms in 46
+countries. There are 13,698 firms in the original database. Since accounting
+data are often reported with a delay, our analysis uses data through 1994.
+Table I, Panel A summarizes the construction of the sample. From the original universe, we eliminate firms trading in socialist countries and in Luxembourg; firms listed in countries with mandatory dividend policies (i.e.,
+legal requirements that a certain fraction of net income is paid out as dividends); financial firms; firms completely or partially owned by the government (as best we can identify them); firms without consolidated balance
+sheets in 1989, 1994, or both; firms with negative net income or negative
+cash flow in 1994; firms with missing dividend data in 1994 or missing
+sales, net income, or cash flow data in 1994 or 1989; firms whose dividends
+exceed sales; and finally, three firms that do not appear to be publicly traded.
+This leaves us with the basic sample of 4,103 firms from 33 countries for
+which we can compute dividend payout ratios in 1994 and sales growth rates
+from 1989 to 1994. Panel B shows how we get from 46 to 33 countries.
+We note in particular the exclusion of countries with mandatory dividend
+rules, namely Brazil, Chile, Colombia, Greece, and Venezuela.6 Some of these
+countries have weak legal protection of minority shareholders. The fact that,
+in such environments, regulators choose to force companies to pay dividends
+is in itself some evidence in favor of the importance of agency considerations, since the most plausible reason for a mandatory dividend policy is to
+assure outside investors that they would not be expropriated entirely, and
+thus to encourage participation in the equity markets by such investors (LLSV
+(1998)). In general, firms in mandatory dividend countries have higher pay6
+
+There also appears to be a minimum dividend requirement in Germany, although it can be
+waived at the discretion of management. Because this requirement is so weak, we do not count
+Germany as a mandatory-dividend country. Excluding it would only strengthen our results.
+
+10
+
+The Journal of Finance
+Table I
+
+Construction
+
+of the Sample
+
+Panel A: Firms in the Sample
+13,698
+-56
+-12
+-323
+-2,836
+-335
+-1,296
+-3,878
+-832
+-11
+-13
+-3
+4,103
+
+WorldScope Sample (3/96 version)
+Firms listed in stock exchanges of former socialist countries
+Firms listed in Luxembourg's stock exchange
+Firms listed in stock exchanges of countries with mandatory dividend policies
+Financial firms (primary and/or secondary SIC between 6,000 and 6,999)
+State-owned enterprises (direct and/or indirect government ownership)
+Unconsolidated balance sheets in 1989, 1994, or both
+Missing sales in 1989 and/or dividends, cash flows, net income or sales in 1994
+Negative net income before extraordinary items in 1994
+Negative cash flow in 1994
+Dividends > Sales
+Not publicly traded (i.e., cooperatives and privately owned firms)
+Basic sample
+Panel B: Countries in the Sample
+
+46
+-3
+-1
+-5
+-4
+
+Countries in WorldScope
+Socialist, former socialist countries (China, Poland, Hungary)
+Luxembourg
+Mandatory dividend countries (Brazil, Chile, Colombia, Greece, Venezuela)
+Countries that do not meet data requirements (Israel, Pakistan, Peru, Sri Lanka)
+
+33
+
+Countries in the sample
+
+outs than firms in countries without such rules, but they nevertheless appear, in the data, to have lower payouts than required by the law. A possible
+reason for this is that the accounting earnings reported to the authorities for
+the purposes of compliance with mandatory dividend rules are lower than the
+earnings reported to the shareholders which we use in our analysis.
+Table II summarizes the construction of the variables. We use two rough proxies for protection of minority shareholders. The first is a dummy equal to one
+if a country's company law or commercial code is of civil origin, and zero for
+common law origin. Because we have data on few countries, we do not distinguish between French, German, and Scandinavian civil law origins in this paper, as in LLSV (1997, 1998). In general, civil law countries have weaker legal
+protection of minority shareholders than do common law countries. The second measure of investor protection, the low investor protection dummy, is equal
+to one if the index of antidirector rights is below the sample median. The index
+of antidirector rights comes from LLSV (1998), and reflects such aspects of minority rights as the ease of voting for directors, the possibility of electing directors through a cumulative voting mechanism, the existence of a grievance
+mechanism for oppressed minority shareholders, such as a class action lawsuit, the percentage of votes needed to call an extraordinary shareholder meeting, and the existence of preemptive rights.
+
+Agency Problems and Dividend Policies
+
+11
+
+Since we are dealing with accounting data in countries with different
+accounting standards, we compute several measures of the dividend payout
+ratio. The numerator in these ratios is the total cash dividend paid to
+common and preferred shareholders. The denominators are cash flow, earnings, and sales. The dividend-to-cash-flow ratio has a natural economic
+interpretation since it is the ratio of cash distributed to cash generated in
+a period. The dividend-to-earnings ratio is the most commonly used measure of dividend payouts. The two ratios have several problems, however.
+First, both of them may depend on a country's accounting conventions, and
+hence may not be exactly comparable across countries. Second, these ratios
+have the potential problem of being easily manipulated by accounting tricks.
+Third, and perhaps most important, diversion of resources may occur before earnings or cash flows are reported, in which case these two ratios
+overestimate the share of true earnings that is paid out as dividends. Fortunately, if diversion is greater in countries with poor shareholder protection, this problem biases the results toward finding higher payouts in these
+countries than is really the case. Our results of lower measured payouts in
+countries with poor shareholder protection reported below would thus be
+even stronger if true earnings and cash flows were higher than reported.
+Still, as an additional guard against these problems, we also present the
+dividends-to-sales ratio, since sales are less dependent on accounting conventions, are harder to manipulate or smooth through accounting practices, and are less subject to theft. Sales should be viewed just as a deflator;
+the economic interpretation of this ratio is not transparent.
+The trickiest measurement problem we face is how to capture investment
+opportunities across firms in a way that is consistent across countries. Our
+principal measure of such opportunities is the past growth in sales of each
+firm, which has the advantage of being roughly independent of accounting
+practices, but has the disadvantage of relying on the past as a proxy for the
+future. For each firm, we compute its annual real sales growth rate over the
+five-year period from 1989 to 1994. In Section III, we discuss other measures of investment opportunities.
+For our dividend payout ratios and the sales growth rate, we also compute
+industry-adjusted measures. For each company in a given industry, we make
+this adjustment relative to the worldwide rather than countrywide measure
+for that industry (i.e., we take out worldwide industry effects rather than
+country-industry effects). Consider the computation of the industry-adjusted
+growth in sales, for example. We first find for each industry in each country
+the median real growth rate of sales in that industry in that country. We
+then take the median of country medians, thus obtaining the worldwide median growth in real sales in the industry. Our measure of industry-adjusted
+growth in sales for a company is the difference between that company's sales
+growth and the world median sales growth in its industry. The idea is that
+different industries might be at different stages of maturity and growth that
+determine their dividend policies.
+
+12
+
+The Journal of Finance
+
+Table II
+
+The Variables
+
+This table describes the variables collected for the 33 countries included in our study. The first column give
+column describes the variable and provides the sources for the variables.
+Variable
+Common law
+Civil law
+Low protection
+
+High protection
+Dividend-to-cash-flow
+
+IA_dividend-to-cash-flow
+
+Dividend-to-earnings
+
+Description
+
+Equals one if the origin of the Company Law or Commercial Code of the cou
+and zero otherwise. Source: LLSV (1998).
+Equals one if the Company Law or Commercial Code of the country originate
+Source: LLSV (1998).
+Equals one if the index of antidirectors rights is smaller or equal to three (th
+wise. The index of antidirectors rights is formed by adding one when: (1) th
+mail their proxy vote; (2) shareholders are not required to deposit their sha
+holders' Meeting; (3) cumulative voting or proportional representation of m
+allowed; (4) an oppressed minorities mechanism is in place; (5) the minimu
+entitles a shareholder to call for an Extraordinary Shareholders' Meeting is
+(the sample median); (6) or when shareholders have preemptive rights that
+holders meeting. The range for the index is from zero to six. Source: LLSV
+Equals one if the index of antidirectors rights (defined above) is greater than
+otherwise. Source: LLSV (1998).
+Dividends as a percentage of cash flow in fiscal year 1994. Dividends are def
+common and preferred shareholders. Cash flow is measured as total funds
+items from discontinued operations. Source: WorldScope Database.
+Industry-adjusted dividend-to-cash-flow ratio for a firm. To calculate IA_divid
+each industry in each country the median of the dividend-to-cash-flow ratio
+in the sample we define the world median as the median of C_D/CF across
+IA_dividend-to-cash-flow as the difference between the firm's dividend-to-ca
+dividend-to-cash-flow for the firm's industry. We rely on a firm's primary S
+broad industries: (1) agriculture; (2) mining; (3) construction; (4) light man
+(6) communications and transportation; and (7) services. Source: WorldScop
+Dividends as a percentage of earnings in fiscal year 1994. Dividends are defi
+common and preferred shareholders. Earnings are measured after taxes an
+items. Source: WorldScope Database.
+
+Agency Problems and Dividend Policies
+
+13
+
+GS
+IA_GS
+Dividends
+
+GS_decile
+
+taxIA_GS_decile
+Dividend-to-sales
+IA_dividend-to-sales
+advantage
+
+IA_dividend-to
+
+The
+(6)
+(2) as we
+the
+Rank late
+Rank ing;
+find
+each
+ratio
+order
+broad
+Average the dustry
+Average
+ceived
+define
+define
+Global
+(1994),
+(5)
+ratio
+is
+Dividends
+for
+net
+common
+between of
+industry.in
+in
+decile
+portation; define
+Database.
+of decile
+the the
+as
+mining;
+sample
+GS.
+the each
+We
+anda
+Price thethefor
+sales
+annual
+annualforInternational
+the
+heavy
+and(3)
+we industry
+each
+Industry-adjusted
+in
+in Industry-adjust
+world
+difference
+Economy:
+industries:
+rely
+described
+GS.
+(7)
+form
+firm's
+communications
+in of value,
+(1) dividend-to-earnings
+on world
+IA-GS. following
+U.S.
+define
+each
+a
+GS industry Financial
+preferred
+country
+to It
+IA_dividend-to-earning
+and
+for
+percentage
+Firms
+median
+in
+percentage between
+the
+seven
+Waterhouse's
+an
+Domestic
+the
+as
+services.
+andas
+of
+the
+median
+are dollars construction;
+capital
+firm's
+the
+manufacturing;
+country
+theworld
+thetheeach
+as
+and Appendixranges
+industry-adjusted (4)
+sales
+agriculture;
+A.
+growth
+dividend-to-sales
+(6) broad
+Statistics
+into
+outside
+gains
+firm's the
+Source:
+themedian in
+ranked in
+firm's
+(2)
+from
+shareholders.
+dividend-to-ear
+light
+world
+primary of ratio
+Individual 1
+country by real
+transportation;
+median
+growth (1996).real
+median
+when to
+difference
+thefor fiscal
+Sources:
+SIC median
+ratio
+of thein
+Sales
+as median
+investor, industries:
+industry.
+a
+and
+terms
+mining;
+Taxes:
+legal
+10.
+to
+International
+of
+median
+(net)
+kept
+for
+of
+of
+areyear
+A
+(1)
+(7) (3) We thethea
+by WorldScope
+(net)
+Ernst
+GSC_GS
+firm.
+communications
+between
+median origin sales
+net
+Issues inside
+define
+for of sales
+manufacturing;
+and US$1
+C_D/STo 1994. rely
+dividend-to-sales
+firm.
+using
+the
+and
+across
+on median
+into
+the
+over (5) the
+To
+the the
+services.
+sales.
+of
+Worldwide
+over 10 the Database.and dividend-to-sales a
+(1991).
+across
+agriculture;
+the
+firm's
+GS
+Young's
+construction;
+firm
+calculate
+U.S.
+heavythe
+firm's the
+Dividends
+firm's
+ratio Source:
+as distributed (2)
+Source:
+C_D/E
+(4)
+following
+countries.
+calculate
+as
+are
+period
+world
+GNP
+Summary
+(C_GS).
+period
+dividend-to-earnin
+equal-size
+transportation;
+countries.
+light
+mining;
+across
+seven
+Worldwide
+industry.
+primary
+retained
+(C_D/S).
+Finally,
+and(3)
+Then
+ratio
+defined
+(1995), dividend
+We
+median
+WorldScope
+WorldScope
+SIC
+deflator. broad
+we for
+groups.
+(7)
+as
+Finally,
+manufacturing;
+1989-1994.
+Then
+to
+and
+rely
+1989-1994.
+dividend-to-earnings
+we for
+countries.
+(6)
+Corporate
+earnings.
+total
+IA_dividend-to-sales,
+income
+on each
+To
+(C_D/E).
+Source:
+a calculate Ranges Before
+manufacturing;
+and
+Tax to
+define
+services.
+we
+Database.
+Database.
+The
+each
+construction;
+OECD's
+cash (5)
+industries:
+the
+Then
+thetheFinally,
+IAJdividend-to
+calculate
+(4) firm'sindustry from
+first
+(1)
+1
+Guide
+dividend-to-sales
+we
+calculate
+forwe
+IA_GS
+Source:
+in
+to
+heavyworld
+Taxing value
+find
+light as
+computing for industry
+WorldScope
+and
+communications
+10
+dividends
+each
+of
+the
+in
+following first
+for
+computation
+the IA_GS,
+the
+primary
+GS,
+in
+and
+calculate
+Profitsof
+the
+median find
+agriculture;each paid
+we
+US$1
+we
+SIC
+in
+to
+seven
+sample
+WorldScope
+Database
+firm's
+thisrefor
+a Directory
+to
+industry
+intransmanufacturfirst
+we
+in
+difference ascending
+sample
+andtransIA_dividend-to-sales
+manufacturing;
+
+14
+
+The Journal of Finance
+Table III
+
+The Data
+Panel A classifies countries by legal origin and presents medians by country. Definitions for
+each of the variables can be found in Table II. Panel B reports tests of medians for civil versus
+common legal origin.
+
+Country
+
+N
+
+Low
+Protection
+
+Div/CF
+
+Div/Earn
+
+(%)
+
+(%)
+
+Div/Sales
+
+(%)
+
+GS
+(Annual)
+
+Div Tax
+Adv.
+
+Panel A: Medians
+Argentina
+Austria
+Belgium
+Denmark
+Finland
+France
+Germany
+Indonesia
+Italy
+Japan
+South Korea
+Mexico
+Netherlands
+Norway
+Philippines
+Portugal
+Spain
+Sweden
+Switzerland
+Taiwan
+Turkey
+Civil Law Median
+Australia
+Canada
+Hong Kong
+India
+Ireland
+Malaysia
+New Zealand
+Singapore
+South Africa
+Thailand
+United Kingdom
+United States
+Common
+Sample
+
+Law Median
+Median
+
+3
+9
+33
+75
+39
+246
+146
+1
+58
+149
+2
+14
+96
+50
+4
+17
+33
+81
+70
+3
+6
+
+0
+1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+0
+1
+1
+1
+1
+
+12.65
+5.85
+11.77
+6.55
+8.08
+9.46
+12.70
+8.72
+9.74
+13.03
+7.33
+19.47
+11.29
+10.74
+6.72
+0.64
+15.77
+5.59
+10.38
+48.97
+8.61
+
+27.36
+24.83
+39.38
+17.27
+21.27
+23.55
+42.86
+25.11
+21.83
+52.88
+18.49
+46.44
+30.02
+23.91
+10.47
+38.01
+30.45
+18.33
+25.30
+68.89
+22.64
+
+4.32
+0.77
+1.09
+0.71
+0.77
+0.63
+0.83
+0.77
+0.92
+0.72
+0.66
+3.59
+0.74
+0.98
+2.45
+0.64
+1.04
+0.78
+0.98
+11.54
+2.08
+
+14.32
+13.31
+3.78
+4.32
+-2.14
+4.54
+5.88
+32.62
+-1.38
+6.19
+5.29
+8.02
+4.13
+4.43
+-7.29
+8.20
+1.32
+-0.63
+3.73
+1.62
+0.16
+
+1.00
+0.78
+0.74
+0.67
+1.07
+0.64
+0.86
+0.76
+0.77
+0.70
+0.79
+1.00
+0.40
+1.08
+1.05
+0.98
+0.72
+1.03
+0.56
+0.60
+0.90
+
+33
+
+1
+
+9.74
+
+25.11
+
+0.83
+
+4.32
+
+0.78
+
+103
+236
+40
+1
+16
+41
+17
+27
+90
+10
+799
+1,588
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+
+22.83
+8.00
+35.43
+25.69
+17.39
+15.29
+19.16
+22.28
+16.16
+32.83
+16.67
+11.38
+
+42.82
+19.78
+45.93
+49.34
+27.28
+37.93
+35.60
+41.04
+35.62
+52.56
+36.91
+22.11
+
+2.22
+0.78
+7.51
+1.55
+0.96
+3.12
+2.26
+2.14
+1.90
+3.35
+1.89
+0.95
+
+2.21
+-0.62
+7.94
+-0.09
+9.96
+16.31
+3.11
+11.02
+3.47
+17.73
+2.44
+3.15
+
+0.90
+0.89
+1.00
+0.59
+0.77
+0.68
+1.00
+0.96
+0.85
+0.90
+0.83
+0.58
+
+40
+
+0
+
+18.28
+
+37.42
+
+2.02
+
+3.31
+
+0.87
+
+39
+
+1
+
+11.77
+
+30.02
+
+0.98
+
+4.13
+
+0.83
+
+Panel B: Test of Medians (z-statistic)
+Civil vs Common Law
+*, *,
+
+and *** indicate significance
+
+3.97*
+
+- 3.29*
+
+-1.72***
+
+-2.36**
+
+-0.34
+
+-0.09
+
+at the 1, 5, and 10 percent levels, respectively.
+
+Table III summarizes the data by presenting the number of observations
+we have for each country as well as country medians of several variables. Of
+the firms in our sample, a little over one-quarter (1,135) are from civil law
+countries and a little over three-quarters (2,968) are from common law countries. More than half of the firms in the sample come from the United States
+
+Agency Problems and Dividend Policies
+
+15
+
+and the United Kingdom. Both of these countries have a large number of
+listed firms; WorldScope coverage and the quality of data are also better for
+richer countries. India, for example, has 5,398 listed firms in 1995, but only
+one of them makes it into the sample.
+The second column of Table III illustrates the finding of our earlier work,
+namely that common law countries on average have stronger shareholder
+protection, as illustrated by the median of the low shareholder protection
+dummy, than do civil law countries. The z-statistic on the difference in the
+median civil law and common law shareholder protection is 3.97.
+The next three columns present country medians of our three dividend
+payout ratios. The median of country median dividend-to-earnings ratios (the
+most common payout metric used in the United States) is about 30 percent,
+confirming that a substantial share of earnings is paid out as dividends.7
+Paying dividends is indeed what large firms just about everywhere do, and
+there is a dividend puzzle to be explained. Table III also reveals that, for all
+measures, common law countries have higher payouts than civil law countries, and for two out of three the difference is statistically significant at the
+5 percent level. We discuss this result in more detail below.
+The sixth column shows that the median of country medians real growth
+rate of sales in the sample is 4.13 percent. At the median of country medians, firms in civil law countries grow one percent faster than firms in common law countries.
+A final point in Table III is that, in most countries, the difference between
+the tax treatment of dividends and retained earnings is small. The United
+States, with its significant tax advantage of retained earnings, is relatively
+extreme.8
+III. Results
+A. Simple Statistics
+We present the results in three steps. First, in Tables IV and V, we present
+some basic statistics from our sample of firms that bear on the hypotheses
+described in Section I. In computing these statistics, we weigh all the countries equally, so the United States and the U.K., where most firms in the
+sample are located, do not receive any extra weight. Second, in Tables VI
+and VII, we present the regressions on a cross section of companies that
+control for tax and industry effects. In these regressions, countries that have
+more companies automatically receive more weight. These two ways of presenting the data are thus complementary, since one can argue for both empirical strategies. Finally, we discuss the robustness of our results to several
+alternative measurement and specification strategies.
+7 Note that, in the calculation of this measure, the United States and the U.K. do not receive
+any more weight than any other country.
+8 In the computation of tax rates, we combine federal and local taxes. For example, for the
+United States we add federal (28 percent) and New York State (7.75 percent) capital gains tax
+rates.
+
+The Journal of Finance
+
+16
+
+Table IV
+
+Dividends by Legal Origin and Growth Opportunities
+This table classifies firms based on both the legal origin of the country in which they are
+incorporated and on their growth in sales (GS) relative to the world median growth in sales.
+Countries are required to have at least five valid observations (firms) with growth in sales
+below the world median and five observations with growth in sales above the world median.
+The number of countries in the resulting sample is 24 (14 civil law and 10 common law countries). To compute the world median growth in sales we calculate the median growth in sales for
+each country and then we take medians again but now over the 24 resulting country observations. For each classification, the table reports the median value of the country medians for the
+following three ratios: (1) dividend-to-cash-flow in Panel A; (2) dividend-to-earnings in Panel B;
+and (3) dividend-to-sales in Panel C. Finally, Panel D reports Z-statistics for tests of difference
+in medians.
+
+All
+
+Legal Origin
+
+"Growth"
+GS> World Median GS
+
+"Mature"
+GS< World Median GS
+
+Panel A: Dividend-to-cash-flow
+10.56
+17.03
+
+Civil law
+Common law
+
+10.89
+15.17
+
+9.20
+22.87
+
+Panel B: Dividend-to-earnings
+27.66
+36.27
+
+Civil law
+Common law
+
+30.35
+27.95
+
+21.27
+40.88
+
+Panel C: Dividend-to-sales
+Civil law
+Common law
+
+0.80
+2.02
+
+0.89
+1.77
+
+0.77
+2.91
+
+Panel D: Z-statistic for Differences in Medians
+
+Civil vs Common law
+Civil law: Mature vs growth
+Common law: Mature vs growth
+8, *, and *** indicate significance
+
+Div/CF
+
+Div/Earn
+
+Div/Sales
+
+-2.81*
+-0.92
+2.34**
+
+-0.76
+-0.87
+2.42**
+
+-2.75*
+-0.92
+1.74***
+
+at the 1, 5, and 10 percent levels, respectively.
+
+In Tables IV and V, we present medians of country medians (MOMs) of
+dividend payout ratios for various groups of firms, and in particular distinguish between rapidly and slowly growing firms. To have reasonably robust
+statistics, we use a narrower sample in these tables than we do in Table III.
+Specifically, we only consider countries where we have at least five firms
+with sales growth above the world median sales growth of 4.1 percent, and
+five firms with sales growth below the world median. This restriction leaves
+us with 24 countries, and eliminates countries with very few firms from the
+analysis. In the regressions, we go back to the broader sample.9
+In Table IV, we examine whether firms in civil and common law countries
+have different dividend payout policies. To begin, we compute the MOM for
+the three dividend payout ratios for the civil and common law families sep9 We have also computed the medians without the restriction on the number of firms with
+high and low growth rates in each country. The results are very similar.
+
+Agency Problems and Dividend Policies
+
+17
+
+Table V
+
+Dividends by Legal Protection
+
+and Growth Opportunities
+
+This table classifies firms based both on the level of investor protection of the country in which
+they are incorporated (low or high protection) and on their growth in sales (GS) relative to the
+world median growth in sales. Countries included are required to have at least five valid observations (firms) with growth in sales below the world median and five observations with
+growth in sales above the world median. The number of countries in the resulting sample is 24
+(11 with low protection equal to one). To compute the world median growth in sales we calculate
+the median growth in sales for each country and then we take medians again but now over the
+24 resulting country-observations. For each classification, the table reports the median value
+of the country-medians for the following three ratios: (1) dividend-to-cash-flow in Panel A;
+(2) dividend-to-earnings in Panel B; and (3) dividend-to-sales in Panel C. Finally, Panel D reports Z-statistics for tests of difference in medians.
+
+Investor Protection
+
+All
+
+"Growth"
+GS>World Median GS
+
+"Mature"
+GS<World Median GS
+
+Panel A: Dividend-to-cash-flow
+Low protection
+High protection
+
+9.74
+16.16
+
+10.86
+14.51
+
+8.74
+18.93
+
+Panel B: Dividend-to-earnings
+Low protection
+High protection
+
+25.30
+35.62
+
+31.31
+29.05
+
+21.24
+39.69
+
+Panel C: Dividend-to-sales
+Low protection
+High protection
+
+0.78
+1.89
+
+0.88
+1.53
+
+0.76
+2.24
+
+Panel D: Z-statistic for Differences in Medians
+
+Low vs high protection
+Low protection: Mature vs growth
+High protection: Mature vs growth
+**
+
+and *** indicate significance
+
+Div/CF
+
+Div/Earn
+
+Div/Sales
+
+-2.87*
+-1.15
+2.38**
+
+-1.13
+-1.08
+2.23**
+
+-2.40**
+-1.54
+1.67***
+
+at the 1,5, and 10 percent levels, respectively.
+
+arately (the same measures, for a broader sample, are presented in Table III).
+The results of this calculation are presented in the first column of Table IV.
+For all three ratios, common law countries have a higher dividend payout
+ratio than civil law countries do. The MOM dividend-to-cash-flow ratio is 17
+percent for common law countries, and only 10.6 percent for civil law countries. The MOM dividend-to-earnings ratios are 36.3 percent for common law
+countries, and 27.7 percent for civil law countries. The MOM dividend-tosales ratio is two percent for common law countries and 0.8 percent for civil
+law countries. For all three variables, these estimates are very close to those
+for the broader sample in Table III. Panel D of Table IV shows that, for two out
+of the three measures of dividend payouts, the difference between the common
+law MOM payout and the civil law MOM payout is statistically significant.
+The results in the first column of Table IV are central to this paper. Recall
+from Table III that common law countries generally have stronger minority
+shareholder protection than civil law countries. The fact that common law
+
+18
+
+The Journal of Finance
+
+countries also have higher dividend payouts supports the outcome agency
+model of dividends, according to which better shareholder protection leads to
+higher dividend payouts. In contrast, the result is inconsistent with the basic prediction of the substitute agency model of dividends. More generally,
+the fact that dividend payouts are so different in environments with different shareholder protection suggests that agency considerations are likely to
+be central to the explanation of why firms pay dividends.
+The additional results in Table IV address the relationship between dividend payout rates and sales growth rates across legal regimes. For each
+country with enough observations (see above), we separately compute the
+median payout ratio for firms with above and firms with below the world
+median sales growth rate. Within each origin, we then compute the MOM
+payout across countries for rapidly and slowly growing firms separately. The
+results are presented in the last two columns of Table IV, and again are
+consistent across all three measures of dividend payouts. In common law
+countries, payout ratios are strictly higher for slowly growing firms than for
+rapidly growing firms. In the common law family, the MOM dividend-tocash-flow ratio is 15.2 percent for rapidly growing firms and 22.9 percent for
+slowly growing firms; the MOM dividend-to-earnings ratio is 28 percent for
+rapidly growing firms and 41 percent for slowly growing firms; and the
+MOM dividend-to-sales ratio is 1.8 percent for rapidly growing firms and
+2.9 percent for slowly growing firms. These differences between mature and
+growth firms in common law countries are statistically significant (see
+Panel D). These results are consistent with the predictions of the outcome
+agency model, according to which well-protected minority shareholders are
+willing to delay dividends in firms with good growth prospects.
+In the civil law family, in contrast, rapidly growing firms appear, if anything, to pay higher dividends. In this family, the MOM dividend-to-cashflow ratio is 10.9 percent for rapidly growing firms and 9.2 percent for slowly
+growing firms; the MOM dividend-to-earnings ratio is 30.3 percent for rapidly and 21.3 percent for slowly growing firms; and finally the MOM dividendto-sales ratio is 0.9 percent for rapidly and 0.8 percent for slowly growing
+firms. The positive association between dividend payouts and growth rates
+in civil law countries is consistent with the dividends as substitutes theory
+applying to these countries. However, as Panel D shows, these payout differences between mature and growth firms in civil law countries are not
+statistically significant, and hence we should not read too much into this
+finding.
+Table V presents calculations similar to those in Table IV, except that now
+countries are sorted by whether the low shareholder protection dummy is
+equal to zero or one. As in Table IV, we use the narrow sample of countries.
+The results are similar to those in Table IV, and we summarize them only
+briefly. First, on all measures of dividend payouts, countries with better
+shareholder protection have higher dividend payout ratios than do countries
+with worse protection. Second, again on all measures of dividend payouts,
+within countries with good shareholder protection, high growth firms have
+
+Agency Problems and Dividend Policies
+
+19
+
+lower dividend payouts than low growth firms. The differences are statistically significant at the 5 percent level in two cases, and at the 10 percent
+level in the third. Finally, on all measures of dividend payouts, within countries with low shareholder protection, high growth firms have higher dividend payouts than low growth firms. These differences are not statistically
+significant, however.
+The preliminary results are consistent with the outcome agency model.
+However, the findings may be driven by some heterogeneity of countries
+correlated with legal origin or investor protection. Accordingly, we next move
+to a regression analysis that attempts to control for the differences in tax
+regimes and in industrial composition in different countries.
+B. Regressions
+Table VI presents the results of regressions across 4,103 firms in 33 countries around the world. We use the broader sample described in Table III. We
+employ a random effects specification that explicitly accounts for the crosscorrelation between error terms for firms in the same country. We control for
+the tax advantage of dividends, which is specific to each country, but not for
+industry effects until Table VII. We report results for all three measures of
+the dividend payout ratio. We use dummies to proxy for the quality of legal
+protection of investors. For each payout variable, we present one regression
+that distinguishes between common and civil law countries, and one regression that distinguishes between low and high shareholder protection countries, and one that includes both the origin and the protection dummies. As
+a measure of investment opportunities in the regressions, we use the decile
+rank of the past average annual sales growth rate for each firm, GS_decile.
+In this calculation, the deciles of growth rates are defined separately for
+companies in common and civil law families. Using deciles gives us a less
+widely spread variable, and defining deciles separately for the two families
+ensures that we have enough high growth firms in civil law countries. We
+also include an interaction between GS_decile and the legal origin or the low
+investor protection dummy.
+The tax variable enters with the positive sign in all specifications, but is
+only statistically significant in the dividend-to-sales ratio regressions. The
+interpretation of this result is highly ambiguous. The positive coefficients
+can be interpreted as some support for the traditional view, under which
+taxes discourage the payment of dividends. The insignificance of these coefficients, however, may be interpreted as evidence in favor of the "new view,"
+under which tax payments are already capitalized in the value of the firm
+and therefore do not influence dividend policy. Last, the evidence may mean
+that our computations do not adequately address the nuances of each country's tax treatment of dividends.
+Consider first the regressions that use only one measure of investor rights
+at a time. The civil law dummy enters with a negative and significant coefficient at the 1 percent level in regressions using all three measures of
+
+20
+
+The Journal of Finance
+
+*,
+
+of
+
+**,
+1.4299
+(8.4796)
+(3.5145)
+(0.4005)
+(0.7812)
+(0.4146)
+(5.0539)
+(8.4626)
+44.1156* (3.8440)
+22.6043*
+22.3730* Constant
+1.8907*
+44.9493*
+44.6786*
+1.8963* (8.9882)
+20.2817*
+and
+**
+
+-
+
+-
+
+Civil
+
+indicate
+
+-8.1284 (3.9817)
+(0.4378)
+13.2591* law
+-2.0821* (7.2780)
+13.2883*(1.6602)
+-2.3471*(0.2185)
+-16.4633*(3.0909)
+
+significance
+at
+
+-
+
+zero
+over
+firm
+is
+the
+variable
+following
+retained
+Regressions
+that
+otherwise;
+period
+three
+with
+(2)
+incorporated
+equals
+1989
+earnings
+to is low ratios:
+one(1)
+country
+if
+equal
+1994;
+the
+(described
+(4)or
+protection,
+in
+random
+the a legal
+
+Tablesmaller
+Low
+origineffects
+dummy
+-10.1918
+-0.1404
+(2.1943)
+(4.0195)
+(7.3403)
+(3.1446)
+protection II). than
+10.8156*
+-18.1518*
+of for
+interactiondividend-to-cash-flow
+the the
+three (2)
+and
+variable
+Standard
+10
+Panel
+(the
+Panel
+cross
+between
+that
+Panel
+A:
+B:
+Company
+GS
+C:
+errors
+(0.0832)
+(0.0813)
+(0.1927)
+(0.0139)
+(0.0142)
+(0.1974)
+(0.0142)
+-0.0884*
+-0.0859* (0.1974)
+-2.1354* (0.0832)
+-0.8502*
+-2.1431*
+-2.0613*
+-0.8457* GS_decile
+-0.8133*
+sample
+percent-0.0865*
+Law section
+areand equals
+or of
+civil one
+33 Regression
+levels,
+if
+Dependent
+median)
+shown
+dividend-to-earnings;
+law
+the
+in
+and
+and
+Dividend-to-sales
+Table
+Commercial
+countries
+origin;
+Dividend-to-earnings
+(0.1608)
+(0.3504)
+(0.0595) (0.0273)
+(0.8308) (0.3816)
+Dividend-to-cash-flow
+Results
+0.9022*
+0.8948*
+2.3925*
+0.0962*
+Index
+(3)
+zero
+as
+Variables
+0.1189**
+VI
+1.5135***
+respectively.
+as
+(5) of
+as
+GS_decile*Civil
+Code for
+the
+parenthesis.
+of around
+the
+0.2979
+1, (0.4476)
+(0.3461)
+1.6413*
+5,
+
+Dependent
+
+the the
+otherwise;
+Dependent
+
+Dependent
+Low
+
+Raw
+
+(3)
+Antidirectors
+interaction
+dividend-to-sales.
+world.
+GS, country
+Data
+in
+therightsThe
+The
+
+Variable
+0.1112
+1.0124
+(0.8717)
+(0.3676)
+(0.4007)
+(0.1695)
+2.4253* Variable
+0.8554* Variable
+GS_decile*
+between
+protection
+which
+GSfirm's
+the
+(described
+dependent
+and
+in independent
+average
+firm
+Low is
+Div
+Table
+8.9453
+3.5303
+3.2262
+9.5905
+3.1591
+8.9278
+(10.1111)
+(0.8911)
+tax
+(9.5425)
+(4.3237)
+(3.9635)
+(5.7621)
+(0.4708)
+(9.7170)
+(0.4556)
+1.8457*
+1.8157*
+variables
+advantage
+2.1266**
+II) variables
+annual
+of
+are
+are:
+Protection;
+the
+(1)the
+incorporated
+and
+is
+N
+percentage
+4,1034,1034,103
+4,1034,1034,103
+4,1024,1024,102
+(6)
+civil
+1994
+country
+tax in law,
+Roman
+growth
+a
+values
+in
+Law
+which of
+-0.0248
+(0.0623)
+(0.0288)
+0.0926*
+
+x2
+
+157.59*
+153.45*
+61.76*
+
+118.13*
+121.61*
+119.38*
+
+109.52*
+137.79*
+134.29*
+
+sales
+theand
+the
+advantage
+dummy
+
+21
+
+Agency Problems and Dividend Policies
+
+8,
+
+in
+the
+sales.
+rights
+origin;
+IA_GS,
+least
+14.2369 (3.9021)
+14.9785
+14.4038
+0.6490
+which
+(3.6114)
+(4.8398)
+(0.8000)
+(0.4248)
+(9.7285)
+(9.7308)
+1.1116*
+10.2997*
+10.0288*Constant countries.
+1.1042* (10.2583)
+(5)the
+and (0.4715)
+The
+8.1130***
+Regressions
+five
+*
+the
+following
+the
+at
+
+8,
+
+(describedwith
+firm's
+firm three
+Standard in is
+indicate
+independent
+Civil
+annual
+interaction
+country
+Table ratios:
+observations
+errors
+-10.8174(4.4173)
+(1.6883)
+(0.4439)
+in
+12.7246*law
+-2.1146* (7.7188)
+12.4283*
+15.9368*(3.0636)
+II)
+-2.5125*(0.2238)
+(1)
+are
+of variables
+average
+random
+incorporated
+each
+between
+significance
+theis
+are:
+shown
+at
+(1) effects
+in IA-GS
+the
+Low
+country
+Roman for
+percentage
+1,
+-0.5290
+0.4255
+-6.3909
+(2.1150)
+(0.3507)
+(3.0865)
+protection
+(7.7540)
+(4.2450)
+(0.4520)
+and in civil
+-10.5460*Panel
+-1.6415*
+16.8178* Panel
+5,
+the
+Panel
+A:
+Law
+B:
+law,
+low
+C:
+a
+and
+country/industry
+which
+parenthesis.
+and
+10
+and
+the
+Regressio
+zero
+dummy
+protection;
+cross-section
+firm
+industry-adjusted
+percent
+(0.0806)
+(0.0826)
+report
+(0.0139)
+(0.0139)
+(0.1980)
+(0.1932)
+(0.0135)
+-0.1106*
+-0.1076*
+-0.8730*
+-0.8758*
+-2.2892* (0.0827)
+-0.8343*
+-2.1865*
+-2.2938*
+-0.1087* (0.1981)
+of
+is
+IA_GS_decile and
+variable
+only
+(6)
+otherwise;
+levels,
+Results
+growth
+industry-adjustedthirty
+on
+Dependenttaxin (2)that
+(2)
+for
+the
+three
+low
+incorporated
+Table
+sales
+IA-GS
+is equals
+VII
+Civil Variables
+respectively.
+(0.3835) (0.3413) (0.1598)
+(0.0571)
+over one
+0.8869*
+0.1557*(0.0268)
+0.1244* (0.8191)
+advantage
+1.9432** 2.4323* 0.8946*
+countries
+of theequalif
+Industry-adjusted-dividend-to-sales
+industries
+decile*
+Industry-adjusted-dividend-to-earnings
+or protection,
+Industry-adjusted-dividend-to-cash-flow
+as
+a the
+as
+that
+as
+period
+around
+retained
+IA
+origin
+have smaller
+Low
+the
+dummy
+of
+GS
+the
+Dependent
+than the
+IndustryDependent
+Dependent
+0.5648
+-0.0332
+earnings
+world.
+(0.3592)
+(0.1688)
+(0.8622)
+(0.4041)
+(0.0283)
+(0.0600)
+0.1165*
+2.3746*
+0.8295*
+1989-1994;
+-0.0102**
+variable
+decile*
+protection
+(4)three
+The
+Variable
+required
+Data
+Variable
+the(the
+that
+Variable
+Company
+industry-adjusted(calculated
+Law
+and
+as
+number
+equals
+or dependent
+sample
+Div
+(3)
+of
+3.7703
+7.7032 (4.3890)
+7.2467
+3.6333
+4.0120
+7.1076
+interaction
+one
+(10.9624)
+(11.1096)
+(5.5198)
+(4.0724)
+(0.9124)
+(0.5329)
+(0.4819)
+1.4931*
+1.4371* (11.5312)
+tax
+advantage
+if
+1.6823***
+indicated
+median)
+variables
+the
+in
+betweenCommercial
+and
+are
+observations
+N
+Table Index
+the
+in
+4,0774,0774,077
+zero
+4,0764,0764,076
+4,0774,0774,077
+of Code
+IA_GS
+of
+at II).
+1994
+the
+Weand
+least
+civil
+x
+otherwise;values
+industry-adjusted117.12*
+134.59* 138.58*
+141.26*
+77.82*
+138.28*
+129.53*
+require
+147.28* 135.48*
+law(3)Antidirectors
+three
+country
+of
+-
+
+-
+
+-
+
+22
+
+The Journal of Finance
+
+dividend payouts.10 Using the dividend to cash flow ratio, for example, common law countries have a 13.3 percentage point higher payout, other things
+equal. The coefficient on GS_decile is negative and also significant at the
+1 percent level, and implies that, for common law countries, moving from
+the bottom to the top decile of sales growth rate is associated with a 7.6 percentage point lower dividend to cash flow ratio. That is, in common law
+countries, higher growth firms pay moderately lower dividends. At the
+same time, the coefficient on the interaction between GS_decile and the civil
+law dummy is highly statistically significant and of roughly the same magnitude as that on GS_decile in all three regressions. This implies that, other
+things equal, there is no relationship between sales growth and dividend
+payouts in civil law countries. The results using the civil law dummy, like
+the medians in Table IV, are consistent with the outcome agency model of
+dividends.-1
+Similar results obtain using the low shareholder protection dummy. The
+coefficient on that dummy is negative and significant at the 1 percent level
+using all measures of payout.12 The coefficient on GS_decile as before is
+negative and significant, implying that, in countries with good shareholder
+protection, faster growing firms pay lower dividends. The coefficient on the
+interaction between GS_decile and the low shareholder protection dummy is
+positive and of about the same magnitude, indicating that the relationship
+between growth and payouts does not hold in countries with poor shareholder protection. These results also suggest that dividends are an outcome of
+pressure on the insiders to pay out profits.
+When both the civil law dummy and the poor shareholder protection dummy
+are included in the regression, in two out of three cases the former remains
+significant, while the latter does not. (In the third case, both variables lose
+significance.) Although it is best not to put too much weight on this result
+given that the two variables are correlated, one view is that our measure of
+shareholder protection does not perfectly capture some of the differences
+between the legal regimes. For example, as argued in LLSV (1998), the quality of law enforcement-which
+surely matters for shareholder power-is also
+better in common law than in civil law countries. The other results do not
+change appreciably when both dummies are included at the same time.
+In Table VII, we use industry-adjusted growth in sales and industryadjusted dividends to control for industry effects, and otherwise estimate
+the same equations as in Table VI (the details of the adjustment are described in Table II). The industry adjustment does not change the thrust of
+10 The civil law dummy is also highly significant when included in the regression on its own,
+without the growth in sales variables.
+" These results also survive the inclusion of a measure of the quality of accounting standards, described in LLSV (1998), available for 31 countries in the sample (not Ireland and
+Indonesia).
+12 The poor shareholder protection dummy is also highly significant
+when included in the
+regression on its own, without the growth in sales variables.
+
+Agency Problems and Dividend Policies
+
+23
+
+our results. Countries from the common law family, as well as countries
+with good shareholder protection, pay higher industry-adjusted dividends,
+and, moreover, in these countries, faster growing firms pay lower dividends,
+other things equal.
+
+C. Robustness
+In this subsection, we briefly describe the results of some of the robustness checks of our findings. One question is whether the regression results
+are shaped by firms from the United States and the U.K., which are the
+majority of the sample. Of course, the results in Tables IV and V weigh all
+countries equally, but one might want to know more about firm-level data.
+Accordingly, Figures 3 and 4 present the plots of dividend payouts against
+sales growth for each of the 11 common law and 20 civil law countries respectively.13 Figure 3 shows that there is a negative relationship between
+growth in sales and dividend-to-earnings ratios in every one of the 11 common law countries. Figure 4 shows that this relationship is negative for 11
+of the 20 civil law countries, and positive for nine of the 20. If we plot the
+ratio of dividends to cash flow against sales growth, the relationship is again
+negative for all 11 common law countries, and for 11 out of 20 civil law
+countries. Finally, if we plot the ratio of dividends to sales against sales
+growth, the relationship is negative for 10 of the 11 common law countries,
+and for 10 of the 20 civil law countries. In summary, while the results for
+different countries hold with different levels of statistical significance, they
+consistently show that more rapidly growing firms pay lower dividends in
+common law, but not in civil law countries.14
+A further concern about our results is that we might have selected a particular point in time during national (or international) business cycles that
+makes our results special. To address this concern, we reestimate all regressions using 1992, 1993, and 1994 dividend variables, and look at three-year
+rather than five-year past sales growth rates (thus, for example, we have
+related measures of 1992 dividends to 1989 to 1991 sales growth rates). Our
+results hold using these alternative points in time for measuring dividend
+payouts and investment opportunities.
+A related point deals with the inherent crudeness in measuring investment opportunities in terms of the past growth rate in sales. We have chosen to use the past growth rate in sales to avoid the incompatibility of
+accounting variables across countries. To check robustness, we have also
+reestimated our results using growth rates of assets, fixed assets, cash flow,
+and earnings, as well as industry Q, as measures of investment opportuni-
+
+We do not have enough observations to run a regression for India and Indonesia.
+Very similar results obtain if we divide three countries by high versus low antidirector
+rights.
+13
+14
+
+24
+
+The Journal of Finance
+
+E
+150-
+
+Figure -60
+3.
+maximum
+
+50
+
+-3o
+
+6 0
+growth-in-sales
+
+6
+
+xo-
+
+o
+
+150-
+
+150
+-
+
+-'0
+
+6
+
+0*.
+
+(GS)
+
+E10O05
+
+Thailand
+6o
+
+for
+11
+
+Australia
+50
+
+Malaysia
+98s0
+
+so-
+
+i6o
+
+1i6o
+
+i60
+
+dividend-to-earnings
+Is
+1i5i
+Dividends-to-earnings
+common
+~~~~~~~~~~~~
+ratio
+*_
+E
+at law
+50
+IGO
+150
+ratios
+0~~~~~~~
+]
+-10
+the
+-so.6
+-do _
+_
+for
+
+01
+
+100-
+
+150
+-
+
+150
+-
+
+-'0o
+
+_
+
+6
+
+countries
+United
+common
+do
+
+_
+
+New6
+
+_
+
+5
+
+b
+
+_
+_
+
+common
+law(India
+
+_
+
+do
+
+98
+
+i60
+
+law
+does
+95th
+
+150
+
+E
+
+Canada
+8s do
+
+_
+
+Zealand_
+
+Kingdom
+
+_
+_
+
+Ito
+
+_
+
+i6o _
+
+not
+
+i6o
+
+_
+_
+
+have
+a countries.
+percentile.
+plot
+Scatter -6o
+
+Siso
+_~
+0
+
+~~~~~~~~~~~~S~~0
+150
+a
+~
+oo0-A
+
+plots 6
+because
+it are United
+has
+
+0
+States
+shown
+only
+~of
+i6o
+one
+Ido,
+observation).
+To
+dividend-to-earnings
+avoid
+ratios
+outliers,
+we (div/earn)
+
+o
+
+150-
+
+Ad0
+
+150
+
+-so
+6
+Hong
+
+6
+
+do
+98s
+Kong
+
+985o
+Singapore
+
+160
+
+1i60
+I
+eo
+
+Ito
+
+S
+0
+~~~
+
+do
+
+6
+
+E
+ioo
+
+150
+
+150-
+
+_
+
+-do
+
+_
+
+6
+
+_
+
+do
+
+South
+_
+
+9.60
+Africa
+
+Irelancd
+1i6o
+s
+
+_
+_
+
+1
+0
+
+Ito
+
+_
+_
+
+cap
+theagainst
+
+IFo
+E
+
+E
+
+isb
+
+_
+
+sb
+
+25
+
+Agency Problems and Dividend Policies
+
+o
+
+E1
+
+5
+
+0
+4
+
+Figure 0
+maximum
+4.
+-to
+
+Mexico
+go
+
+0
+
+~
+
+_
+
+dividend-to-earnings
+~~~~Ei
+civil
+so
+
+1S50
+
+s
+50
+610is0
+
+150
+
+50
+
+-
+
+1
+
+_
+50t5b
+
+o
+
+ioo-
+
+.
+
+goS
+
+.
+
+0
+
+S50.
+
+O
+
+10
+
+s
+150
+
+-!So
+
+50
+1501 50
+
+I?
+
+50
+
+100
+
+so
+
+100
+l
+
+gocago
+.
+
+150
+
+150
+
+so
+
+0
+
+not
+
+s
+
+1600
+
+150
+
+.100
+
+o
+50so
+ioIio
+
+Austria
+
+Finlan8
+50
+
+50
+
+Netherlands
+
+(IndonesiaIsO
+95th law
+
+0
+percentile.
+countries.
+have
+a
+
+0-60
+
+-4-
+
+100
+
+does
+
+150
+
+-So
+
+-
+
+the ratios
+countries
+o 50
+for Sweden
+civil
+
+-0
+4
+
+s
+
+E
+
+0
+
+law civil
+
+150
+
+_
+
+_
+
+15b
+*ooEl
+
+so
+lawDividends-to-earnings
+ratio
+0
+at
+
+ioo-
+
+_
+
+1_
+0800_
+
+100
+_
+
+5
+
+i5b
+
+_
+
+Argentina
+50_
+
+.
+
+_
+
+50~~~
+
+150-
+
+_
+
+Germany
+
+lo
+
+Eoo
+
+_
+
+_
+
+50
+
+50
+
+_
+
+_
+
+_
+_
+_
+_
+
+0
+-60_
+
+_
+
+0
+
+-
+
+go _
+61o
+
+100
+
+15
+
+50
+loo
+
+0
+growth-in-sales
+Spain_
+
+for
+20
+
+E,0
+
+So_
+_
+
+_
+_
+
+(GS)
+
+so
+
+I50
+
+-So
+
+150
+Eioo-
+
+0
+.4
+-50
+
+so0
+50
+
+i100 150
+
+-
+
+0-
+
+.
+
+Italy
+g
+50
+
+goSb
+Philippines
+
+6o
+Switzerland
+
+Belgium
+ge
+
+plotScatter
+
+1
+
+10
+
+100
+
+100
+
+plots
+because
+it are
+
+isO
+
+has
+
+-~
+0
+
+0
+
+shown
+
+50 Eoo
+
+150
+
+*so
+
+50
+
+s
+
+'o
+
+0
+
+150
+-
+
+0
+
+Taiwan
+
+-
+
+0
+
+go0
+
+iO
+
+iso
+5
+
+-
+
+o
+
+Eioo-
+
+*
+
+150
+
+0
+
+150
+
+Turkey
+
+outliers,
+
+goSo
+
+r1o
+
+-!S0
+
+Portugal
+50
+
+we (div/earn)
+
+~ -o
+
+150
+-
+
+0
+-0 _
+
+-?
+
+0
+
+_
+
+South_
+_
+
+go50
+
+_
+Korea
+
+ioo]
+
+10
+1O
+
+--0
+
+isO
+
+150
+
+150
+
+_
+
+theagainst
+
+_
+_
+
+~~~~~~~go
+F
+
+_
+Finlanc
+
+60_
+_
+_
+
+100_
+
+;iooq
+
+_
+
+6
+
+10_
+
+100
+
+50
+
+-0 _
+
+_
+
+i6o
+
+cap
+
+-
+
+50b1o00150
+
+isb
+
+?
+50
+
+0
+
+150
+
+DenmarYr
+
+_
+
+6
+
+ioo
+
+100
+
+avoid
+
+ratios
+
+50.sb
+
+---
+
+*
+
+s0
+
+100
+
+observation).
+1
+s
+To dividend-to-earnings
+0
+
+Eioo0
+
+Japan
+
+Norway
+
+ggo
+
+so
+
+l0o
+
+-0
+-
+
+only
+of
+one
+
+I5
+
+_
+
+I
+s1_
+
+1
+5SO
+-
+
+26
+
+The Journal of Finance
+
+ties. The results generally confirm the reported findings in both sign and
+significance, although the relationship between industry Q and dividends is
+insignificant.
+One possible alternative interpretation of our results is that our measures
+of investor protection simply reflect the degree of capital market development. It is possible that firms in developed capital markets are happy to pay
+out their earnings because they can always raise more external funds, whereas
+firms in undeveloped capital markets would hold on to the hard-to-get cash.
+This view would explain our finding that, on average, dividend payouts are
+higher in countries with good investor protection, which also happen to be
+countries with developed capital markets.
+This alternative view has its own problems, however. To begin, the degree
+of capital market development is to a significant extent endogenous, and
+indeed in part determined by legal origin and the quality of investor protection (LLSV (1997)). Moreover, this view does not explain our findings on
+the relationship between investment opportunities and payouts. If anything,
+this view would imply that firms in poorly developed capital markets should
+exhibit extreme sensitivity of payouts to growth opportunities, and really
+try to hoard cash when they have good investments. In contrast, firms in
+developed markets should be willing to pay dividends regardless of investment opportunities since they can count on raising external funds. Contrary
+to these predictions, our data show that the negative relationship between
+investment opportunities and payouts is stronger in countries with good investor protection and hence more developed capital markets.
+As a final point, we briefly address a possibly important objection to our
+analysis, which states that perhaps the evidence of lower payouts in civil
+law (or poor shareholder protection) countries simply reflects greater reliance on debt finance in those countries. First, as an empirical matter, we
+use the ratios of dividends to cash flow and to earnings, so the denominators
+already take out interest payments. Even if firms in civil law countries rely
+on debt to a greater extent, they should not necessarily pay out less of their
+net-of-interest income. Second, it is not generally the case that firms in civil
+law countries rely more on debt finance. Indeed, many of these countries,
+particularly French civil law countries, have poor legal protection of both
+shareholders and creditors, and hence have both smaller debt and smaller
+equity markets (LLSV (1997)). The idea that countries with poorly developed
+stock markets necessarily, or even on average, have better developed lending
+mechanisms is simply a myth. Last, we actually test the validity of this
+objection by including a country-specific measure of debt finance from LLSV
+(1997), namely the ratio of aggregate private debt to GNP, in the regressions
+in Tables VI and VII. The coefficients on the debt variable are positive,
+though generally insignificant, while the magnitudes and the statistical significance of shareholder protection coefficients remain largely unaffected.
+This finding is inconsistent with the argument that poor shareholder protection is associated with lower dividend payouts because of substitution of
+financing into debt.
+
+Agency Problems and Dividend Policies
+
+27
+
+IV. Conclusion
+This paper uses a sample of firms from 33 countries around the world to
+shed light on dividend policies of large corporations. We take advantage of
+different legal protection of minority shareholders across these countries to
+compare dividend policies of companies whose minority shareholders face
+different risks of expropriation of their wealth by corporate insiders. We use
+this cross-sectional variation to examine the agency approach to dividend policy.
+We distinguish two alternative agency models of dividends. In the first
+model, dividends are an outcome of effective legal protection of shareholders,
+which enables minority shareholders to extract dividend payments from corporate insiders. In the second, dividends are a substitute for effective legal
+protection, which enables firms in unprotective legal environments to establish reputations for good treatment of investors through dividend policies.
+Our data suggest that the agency approach is highly relevant to an understanding of corporate dividend policies around the world. More precisely,
+we find consistent support for the outcome agency model of dividends. Firms
+operating in countries with better protection of minority shareholders pay
+higher dividends. Moreover, in these countries, fast growth firms pay lower
+dividends than slow growth firms, consistent with the idea that legally protected shareholders are willing to wait for their dividends when investment
+opportunities are good. On the other hand, poorly protected shareholders
+seem to take whatever dividends they can get, regardless of investment opportunities. This apparent misallocation of investment is presumably part of
+the agency cost of poor legal protection.
+In our analysis, we find no conclusive evidence on the effect of taxes on
+dividend policies. Nor can we use our data to assess the relevance of dividend signaling. In fact, our results are consistent with the idea that, on the
+margin, dividend policies of firms may convey information to some investors. Despite the possible relevance of alternative theories, firms appear to
+pay out cash to investors because the opportunities to steal or misinvest it
+are in part limited by law, and because minority shareholders have enough
+power to extract it. In this respect, the quality of legal protection of investors
+is as important for dividend policies as it is for other key corporate decisions.
+
+Appendix
+
+A
+
+Table A.I presents the raw data used to calculate the tax preference of
+dividends for each country. We use the tax rates faced by local residents who
+acquire minority stakes in publicly traded securities and hold their investments long enough to qualify for long-term capital gains tax rates. Furthermore, we assume that the effective tax rate on capital gains is equivalent to
+one-fourth of the nominal rate (Poterba (1987)). Finally, we combine federal
+and local taxes whenever possible. In order to compute the tax parameter, it
+is helpful to use the criteria proposed by King (1977) and group the tax
+systems of the countries in our sample in three broad categories:
+
+The Journal of Finance
+
+28
+
+S.
+New
+
+Civil
+Hong
+Italy5
+Spain
+South
+Japan6
+India'3
+Taiwan
+Ireland
+Sweden
+Finland Austria
+Norway
+France2
+Mexico8
+Turkey"
+Denmark
+Belgium'
+Australia
+Canada'2
+Korea7 Indonesia4
+Portugal9
+Argentina
+Singapore
+Germany3
+Law
+Malaysia'4
+Philippines
+Kong
+Netherlands
+Zealand
+Switzerland'"
+Africa'5
+Country
+Mean
+
+0.30
+0.25
+0.340.400.34
+0.540.33
+0.340.520.520.35
+0.400.350.280.350.41
+0.33 0.36 0.270.250.340.280.35
+0.400.270.330.300.400.520.180.44
+
+(A)
+Profits
+Undistributed
+Corporate
+Tax
+
+0.340.400.340.30
+0.410.330.25
+0.280.350.41
+0.400.35
+0.520.180.440.33 0.35 0.270.250.340.280.35
+0.340.520.520.35
+0.490.270.330.300.40
+
+(B)
+Profits
+Distributed
+
+(C)
+0.400.000.000.00 Gains
+0.190.25
+0.000.260.000.300.00
+0.280.000.00
+0.000.000.000.000.400.220.00
+0.400.47 0.13 0.000.000.000.130.560.100.20
+Capital
+Personal
+
+Constructio
+of
+the
+
+Tax (D)
+
+0.400.26
+0.220.00
+0.600.25
+0.220.350.51
+0.300.53
+0.280.600.00
+0.560.300.00
+0.00
+0.400.44
+0.32
+0.360.47 0.30 0.10
+0.480.450.00
+0.000.300.33
+
+Tax
+
+Dividends
+
+Table
+A.1
+
+0.000.00
+0.000.00 Rate
+0.280.000.000.000.000.27
+0.220.00
+0.000.250.330.25
+0.000.000.000.26
+0.000.200.000.00
+0.00
+0.270.33
+0.140.33 0.09 0.00
+
+(E)
+
+Imputation
+
+(1
+- Value
+B of
++ $1
+E)
+(G)
+0.510.70 * in
+0.370.46
+0.390.400.750.40
+0.650.72
+0.450.37
+0.44
+0.260.590.520.31
+0.720.400.57
+0.270.830.450.53 0.52 0.66
+0.510.700.670.480.42
+(1
+D)
+Dividends
+
+(1A)
+
+0.590.600.660.70
+0.460.630.70
+0.480.60
+0.670.65
+0.660.45
+0.59
+0.590.62
+0.700.56
+0.510.59 0.62 0.730.750.66
+0.730.670.70
+0.540.460.83
+0.60
+
+Value
+Capital
+of
+(H)
+$1
+in
+Gains
+
+(1-C/4)
+
+Tax
+0.670.74
+0.781.00 (G/H)
+0.860.631.07
+0.770.76
+0.790.70
+0.971.051.080.401.00
+1.030.72
+0.85
+0.890.90 0.81 0.900.600.56
+0.581.00
+0.961.000.68
+0.77
+Dividend
+Preference
+
+Advantage
+of
+
+Dividends
+
+Agency Problems and Dividend Policies
+
+29
+
+of
+17,
+and
+The
+used
+rates the
+taxes
+those
+16The
+Notes: United
+14
+United
+(3)
+include
+on 16 Personal
+Sources: 1993 14Capital
+13Indian
+are
+4Personal
+Common Thailand
+Corporate
+Whenever
+U.S.
+7Corporate
+1Corporate
+9Corporate
+6Corporate
+8Corporate
+3Dividends
+2Dividends
+distributed
+'Dividends
+augmented
+on 15Corporate
+"Corporate
+'0Combined 13.2
+both '2Dividends
+average
+in
+in
+in
+by
+by thea percent
+taxes
+in
+tax
+LawStates'6
+gains
+the
+taxes
+Taxing
+applicable
+a
+Kingdom
+Ernst
+taxes
+taxes
+taxes
+percent
+capital
+on
+taxes
+taxes
+SA
+corporate
+income
+corporate
+to
+Corporate
+Italy
+12
+Worldwide
+Worldwide
+top
+Individual
+in in in percent
+are
+three
+in
+corporate
+rates
+on taxes
+and
+cantonal
+France Mean
+of
+tax aregains
+basic
+combined
+Profits
+in
+Germany
+the
+maximumCanada
+tax
+taxes
+in
+are
+Taxes,
+are
+and
+the
+in Taxes,
+in income
+imputation
+Korea
+are
+Mexico
+percent
+rate
+are
+Young
+dividends
+A
+a A
+percent Turkey
+local
+residents
+sum
+Personal
+Portugal
+rate40
+not are
+Corporate
+corporationsenterprise
+rate
+of
+of grossed
+Japan
+and
+range and
+distributed
+Belgium
+and
+is
+Tax
+grossed
+combined
+is 36 up
+include
+Tax
+tax
+the
+grossed
+based surtax include
+include
+Global
+include
+0.35 0.420.330.30
+3.4
+grossed
+a
+communal
+include
+up
+a
+percent surcharge.
+by Indonesia
+from
+includes
+Price
+up a
+adjusted
+on as based
+Worldwide a
+a
+up
+includes
+profits
+Worldwide
+7.5
+10
+Guide,
+are13
+a
+56.8by include
+state
+Guide
+federalon by federal 10
+by
+in for
+a
+percent
+well
+56.25
+45
+50
+of 6.5
+percent
+a
+for five
+25 seven
+calculated
+Economy, and
+andas the
+3/7of
+corporate
+taxed
+Ernst
+corporate
+as
+(deductible).
+a
+percent
+three
+percent
+New
+South
+as percent
+sales
+for percent
+Summary,
+Waterhouse
+tax percent
+Summary,
+tax
+and
+percent
+of
+the
+percent
+to
+percent
+percent
+corporate
+percent percent
+15.5 percent
+0.36 0.420.330.30
+tax
+taxsocial
+York
+highest personal
+for 19
+Domestic
+for
+Africa
+Price Directory,
+for
+rates
+sum
+of
+rate.
+percent
+provincial
+Price
+resident
+basic
+Young,
+taxordinary income
+of
+differed,
+tax
+and
+taxsurtax
+mandatory
+income
+(7.875
+percent
+municipal
+tax
+(average)0.25
+Ernst
+rate
+range
+dividend
+in
+tax crisis
+we
+percent
+purposes
+include
+combined
+inheritance three
+tax
+1994.
+a
+income
+tax
+(16 contribution.
+and local
+0.19 0.360.400.00
+andmarginal
+and
+rely
+from
+15 percent
+purposesand
+tax.
+Waterhouse,
+purposes
+a
+purposes
+Waterhouse,
+percent).
+tax
+(30
+taxprovincial
+on
+3.4
+surcharge
+surcharge
+federaladdition
+the
+terms:
+on 15
+and
+21.7
+(IRPEG)
+and
+andto rates.
+theInternational
+on (1)
+percent
+1995. Young,rate
+tax
+contribution
+and
+1995.
+rates
+percent
+the
+the
+each
+thethe
+and
+on
+top
+percent
+percent).
+37.5
+for
+1994.
+0.33 0.470.400.37
+percent
+Issues,
+percent
+of
+source
+top
+of
+(derrama)
+individual
+16.2
+surtax.
+average
+surtax
+basic to
+trade.
+of
+employee-profit-sharing
+in
+the
+(Ontario)
+provincial
+can
+that
+individual
+social
+percent
+in
+The
+the
+32
+Ontario
+individual
+individual
+OECD,
+used
+46.65
+percent
+35
+surcharge.
+can
+claim can
+can
+corporate addition
+here)
+1991.
+(secondary
+0.14 0.000.170.30
+presents
+marginal
+local
+percent
+to
+addition
+claim
+corporate
+percent contribution
+corporate
+tax
+residents.
+tax
+claim
+claim
+percent
+andcredit
+to tax
+in
+the
+contribution.
+more
+on
+Similarly,
+for
+rate
+rate
+the
+36
+income
+creditare
+credit
+is
+rates
+income
+credit
+up
+the
+corporate
+federal
+(25
+taxfor
+39
+to
+forfor
+basic
+for
+details.
+(deductible)
+tax tax; up
+tax
+Personal
+percent
+up
+up
+3/7
+companies
+in
+(2) to
+We
+Switzerland.
+rate
+deductible.
+to
+of
+personal to percent).
+rate. or
+rate.
+(ILOR).
+taxes
+percent.0.53 0.310.500.63
+use
+We basic
+(28
+20.7
+the on 50
+25.0
+56.25
+The STC)
+individuals
+the
+addition
+took rate.
+in
+on
+cash
+to
+dividend
+percent
+the
+percent
+percent).
+capital
+percent
+percent
+The
+the
+OECD
+and
+of
+of
+of
+individual
+Ontario
+tax34
+amount
+gains
+the
+the
+middle
+the
+dividends
+of
+source
+rate
+surcharge
+capitalPersonal
+tax
+(35.92
+capital
+cash
+the
+cash
+cash
+point of percent
+only
+are
+0.62 0.530.600.70
+30
+gains capital
+for
+(Tokyo
+gains declared
+for
+or
+amount
+tax
+percent).
+amount
+amount
+and
+dividend.
+corporate
+gains of
+of
+of
+of
+percent
+paid
+calculated
+20
+corporate
+on tax
+the
+the
+and the
+as
+after
+metropolitan
+Switzerland.
+dividend
+Corporate
+the
+Municipal
+taxes. rate.
+0.85 0.580.830.90
+percent
+taxes March is
+
+dividend.We
+taxes
+dividend
+
+dividends area);dividend.tax
+
+dividend.
+sum
+
+30
+
+The Journal of Finance
+1. The Classical System: Personal and corporate taxation are independent of each other and shareholders receive no compensation for taxes
+paid at the corporate level. Specifically, the company pays a flat rate of
+corporate tax on profits (i.e., distributed and undistributed income are
+taxed at the same rate) and shareholders pay income tax on dividend
+receipts. Accordingly, the value to an investor of one dollar in earnings
+distributed in the form of dividends is equal to (1 - Tcorp) * (1 - Tdiv),
+where Tcorp iS the corporate tax rate on income and Tdiv is the personal
+tax rate on dividend receipts. Similarly, the value to an investor of
+one dollar in earnings retained inside the firm is given by (1 - Tcorp) *
+(1 - Tcap), where Tcap is the effective personal tax rate on capital gains.
+Therefore, the dividend tax preference parameter (defined as the ratio
+of the value earnings distributed as dividends versus earnings retained inside the firm) is given by (1 - Tdiv)/(l - Tcap).
+2. The Two-Rate System: The corporate tax rate on earnings distributed
+as dividends is lower than on retained earnings to mitigate the tax
+advantage of retained earnings in the classical system. Accordingly, the
+value to an investor of one dollar in earnings distributed in the form of
+dividends is equal to (1 - Tdist) * (1 - Tdiv), where Tdist is the corporate
+tax rate on distributed income. Similarly, the value to an investor of
+one dollar in earnings retained inside the firm is given by (1 - Tret) *
+where Tret is the corporate tax rate on retained earnings.
+(1 - Tcap),
+Thus, the dividend tax preference parameter is given by (1 - Tdist) *
+- Tret) * (1 - Tcap))In practice, the pure two-rate system
+(1 - Tdiv)/((l
+is implemented rarely in our sample of countries. In fact, only two
+countries in our sample have different tax rates for retained earnings
+and dividends: Germany and South Africa. However, in South Africa
+the taxes on dividends are higher than on retained earnings contrary
+to the motivation behind the two-rate system, (Tdiv = 49 percent versus
+dividends in Germany are not only
+Tret = 40 percent). Interestingly,
+taxed at a lower corporate rate but shareholders are allowed to credit
+taxes paid by corporations on distributions to offset personal taxes in
+the same way as in the imputation system.
+3. The Imputation System: Shareholders receive credit for taxes paid by
+the company on earnings distributed as dividends. These credits may
+be used to offset shareholder's tax liability. Part of the corporate tax
+liability on distributed profits is "imputed" to shareholders and regarded as a prepayment of their personal income tax. In the most frequent version of the imputation system, dividends are regarded as having
+borne personal tax at the "imputation" rate -rimp and shareholders are
+liable only for the difference between their marginal tax rates on personal income and the imputation rate (i.e., they pay taxes on dividend
+
+receipts at the rate
+
+Tdiv -
+
+Timp).
+
+Accordingly,the value to an investor of
+
+one dollar in earnings distributed in the form of dividends is equal to
+(1 - Tcorp + Timp) * (1 - Tdiv). Hence, the dividend tax preference parameter is given by (1 - Tdist + Timp) * (1 - Tdiv)/((l - Tret) * (1 - Tcap))-
+
+Agency Problems and Dividend Policies
+
+31
+
+Less frequently, the operation of the system is defined in terms of a
+tax credit rate Tcred and not an imputation rate. In countries that rely
+on tax credits, shareholders are liable for the difference between the
+personal taxes owed on dividends-cum-tax-credit received and the tax
+credit (i.e., they pay taxes on dividend receipts at the rate (1 + Tcred) *
+In such cases, we re-express Tcred in terms of its associated
+Tdiv - Tcred.).
+Timp and use the formula for the imputation system.
+Appendix
+
+B
+
+Summary statistics of the data in the paper are presented in Table B.I.
+The variables are defined in Table II.
+
+Table B.I
+
+Summary
+
+Statistics
+
+Variable
+
+Observations
+
+Mean
+
+Median
+
+Standard
+Deviation
+
+Minimum
+
+Maximum
+
+Civil law
+Low protection
+Dividend-to-cash-flow
+IA_dividend-to-cash-flow
+Dividend-to-earnings
+IA_dividend-to-earnings
+Dividend-to-sales
+IA_Dividend-to-sales
+GS
+GS_decile
+IA-GS
+IA_GS_decile
+Tax advantage of dividends
+
+4,103
+4,103
+4,103
+4,077
+4,103
+4,076
+4,103
+4,077
+4,103
+4,103
+4,103
+4,103
+4,103
+
+0.2766
+0.2218
+15.1209
+3.2143
+35.2640
+3.5192
+1.9161
+0.7843
+6.0426
+5.5015
+1.8076
+5.5016
+0.7145
+
+0
+0
+13.0677
+1.1791
+29.8006
+-2.0261
+1.1165
+0.0701
+3.4638
+6
+-0.6801
+6
+0.6670
+
+0.4474
+0.4155
+13.4504
+13.2962
+31.9907
+32.0873
+2.3093
+2.2494
+17.6672
+2.8725
+17.6387
+2.8725
+0.1554
+
+0
+0
+0
+-14.7019
+0
+-38.8565
+0
+-2.6563
+-77.3508
+1
+-26.2185
+1
+0.4000
+
+1
+1
+47.7362
+34.3852
+134.3036
+101.8580
+9.2154
+7.7169
+275.0829
+10
+270.541
+10
+1.0750
+
+REFERENCES
+Aharony, Joseph, and Itzhak Swary, 1980, Quarterly dividend and earnings announcements
+and stockholder returns: An empirical analysis, Journal of Finance 35, 1-12.
+Allen, Franklin, and Roni Michaely, 1997, Dividend policy, in Robert Jarrow, Vojislav Maksimovic, and William Ziemba, eds.: North-Holland Handbooks in Operations Research and
+Management Science (Finance, North-Holland, Amsterdam).
+Ambarish, Ramasastry, Kose John, and Joseph Williams, 1987, Efficient signalling with dividends and investments, Journal of Finance 42, 321-343.
+Asquith, Paul, and David Mullins, 1983, The impact of initiating dividend payments on shareholders' wealth, Journal of Business 56, 77-96.
+Auerbach, Alan, 1979, Wealth maximization and the cost of capital, Quarterly Journal of Economics 93, 433-446.
+Baumol, William, 1959, Business Behavior, Value and Growth (Macmillan, New York).
+Benartzi, Shlomo, Roni Michaely, and Richard Thaler, 1997, Do changes in dividends signal the
+future or the past?, Journal of Finance 52, 1007-1034.
+
+32
+
+The Journal of Finance
+
+Berle, Adolf, and Gardiner Means, 1932, The Modern Corporation and Private Property (Macmillan, New York).
+Bhattacharya, Sudipto, 1979, Imperfect information, dividend policy, and the "bird-in-hand"
+fallacy, Bell Journal of Economics 10, 259-270.
+Black, Fischer, 1976, The dividend puzzle, Journal of Portfolio Management 2, 5-8.
+Bulow, Jeremy, and Kenneth Rogoff, 1989, Sovereign debt: Is to forgive to forget?, American
+Economic Review 79, 43-50.
+De Angelo, Harry, Linda De Angelo, and Douglas Skinner, 1996, Reversal of fortune: Dividend
+policy and the disappearance of sustained earnings growth, Journal of Financial Economics 40, 341-371.
+Demirguc-Kunt, Asli, and Vojislav Maksimovic, 1998, Law, finance, and firm growth, Journal of
+Finance 53, 2107-2138.
+Dewenter, Kathryn L., and Vincent A. Warther, 1998, Dividends, asymmetric information, and
+agency conflicts: Evidence from a comparison of the dividend policies of Japanese and U.S.
+firms, Journal of Finance 53, 879-904.
+Easterbrook, Frank, 1984, Two agency cost explanations of dividends, American Economic Review 74, 650-659.
+Feenberg, Daniel, 1981, Does the investment interest limitation explain the existence of dividends?, Journal of Financial Economics 9, 265-269.
+Fluck, Zsuzsanna, 1998, Optimal financial contracts: Debt versus outside equity, Review of
+Financial Studies 11, 383-418.
+Fluck, Zsuzsanna, 1999, The dynamics of the management-shareholder
+conflict, Review of
+Financial Studies 12, 347-377.
+Gomes, Armando, 2000, Going public with asymmetric information, agency costs, and dynamic
+trading, Journal of Finance, forthcoming.
+Harris, Trevor, Glenn Hubbard, and Deen Kemsley, 1997, Are dividend taxes and tax imputation credits capitalized in share values?, manuscript, Columbia University.
+Hart, Oliver, and John Moore, 1994, A theory of debt based on inalienability of human capital,
+Quarterly Journal of Economics 109, 841-880.
+Jensen, Michael, 1986, Agency cost of free cash flow, corporate finance, and takeovers, American Economic Review Papers and Proceedings 76, 323-329.
+Jensen, Michael, and William Meckling, 1976, Theory of the firm: Managerial behavior, agency
+costs, and capital structure, Journal of Financial Economics 3, 305-360.
+John, Kose, and Joseph Williams, 1985, Dividends, dilution, and taxes: A signalling equilibrium, Journal of Finance 40, 1053-1070.
+Kang, Jun-Koo, and Ren6 M. Stulz, 1996, How different is Japanese corporate finance? An
+investigation of the information conflict of new security issues, Review of Financial Studies
+9, 109-139.
+King, Mervyn, 1977, Public Policy and the Corporation (Chapman and Hall, London).
+La Porta, Rafael, Florencio Lopez-de-Silanes, and Andrei Shleifer, 1999, Corporate ownership
+around the world, Journal of Finance 54, 471-517.
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert W. Vishny, 1997, Legal
+determinants of external finance, Journal of Finance 52, 1131-1150.
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert W. Vishny, 1998, Law
+and finance, Journal of Political Economy 106, 1113-1155.
+Levine, Ross, and Sara Zervos, 1998, Stock markets, banks, and economic growth, American
+Economic Review 88, 537-558.
+Lintner, John, 1956, Distribution of income of corporations among dividends, retained earnings,
+and taxes, American Economic Review 46, 97-113.
+Miller, Merton, and Franco Modigliani, 1961, Dividend policy, growth, and the valuation of
+shares, Journal of Business 34, 411-433.
+Miller, Merton, and Kevin Rock, 1985, Dividend policy under asymmetric information, Journal
+of Finance 40, 1031-1051.
+Miller, Merton, and Myron Scholes, 1978, Dividends and taxes, Journal of Financial Economics
+6, 333-364.
+
+Agency Problems and Dividend Policies
+
+33
+
+Modigliani, Franco, and Merton Miller, 1958, The cost of capital, corporation finance, and the
+theory of investment, American Economic Review 48, 261-297.
+Myers, Stewart, 1998, Outside equity financing, Working paper, MIT.
+Poterba, James, 1987, Tax policy and corporate savings, Brookings Papers on Economic Activity
+2, 455-503.
+Poterba, James, and Lawrence Summers, 1984, New evidence that taxes affect the valuation of
+dividends, Journal of Finance 39, 1397-1415.
+Poterba, James, and Lawrence Summers, 1985, The economic effects of dividend taxation, in
+Edward Altman and Marti Subramanyam, eds.: Recent Advances in Corporate Finance (Richard D. Irwin Publishers, Homewood, Ill.).
+Rajan, Raghuram, and Luigi Zingales, 1995, What do we know about capital structure? Some
+evidence from the international data, Journal of Finance 50, 1421-1460.
+Shleifer, Andrei, and Robert W. Vishny, 1997, A survey of corporate governance, Journal of
+Finance 52, 737-783.
+Zwiebel, Jeffrey, 1996, Dynamic capital structure under managerial entrenchment, American
+Economic Review 86, 1197-1215.
+
+

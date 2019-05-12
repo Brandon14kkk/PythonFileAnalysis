@@ -1,0 +1,1613 @@
+EFA
+
+Financial
+Review
+
+Eastern
+
+Pinance
+Association
+
+The Financial Review 36 (2001) 1-22
+
+Forced Versus Voluntary Dividend
+Reduction: An Agency Cost Explanation
+Ranjan D'Mello*
+Tarun Mukherjee
+University of New Orleans
+
+Oranee Tawatnuntachai
+Penn State Harrisburg
+
+Abstract
+We examine whether the agency cost arising from shareholder-bondholder conflict is
+an important determinant of the timing of dividend reduction decisions. Firms forced to
+reduce dividends owing to bond covenant violations experience lower earnings, more frequent
+losses, and greater earnings declines around the dividend reduction year than do firms that
+voluntarily reduce dividends. Relative to voluntary-reduction firms, forced-reduction firms
+have higher debt-to-equity ratios and managerial holdings. These findings coupled with the
+increased dividend payout ratios and lower announcement period returns suggest that financially distressed firms that anticipate poor performance have greater incentives to delay
+reducing dividends to avoid a wealth transfer to bondholders.
+Keywords: agency cost, dividend reduction decision, shareholder-bondholder conflict
+
+JEL Classi3cations: GO/G3
+
+1. Introduction
+Firms that experience poor operating performance often respond by altering
+either their financial structure, their operating policies, or both to reduce the probabil*Corresponding author: Department of Economics and Finance, University of New Orleans, New
+Orleans, LA 70148; Phone: (504) 280-6900, Fax: (504) 280-6397, E-mail: rdmello@uno.edu
+
+We would like to thank Brian Betker, Amitabh Dutta, Larry Fink, David Mayers, John Persons, Doug
+Schroeder, Paul Schultz, Pervin Shroff, Ajai Singh, Oscar Varela, Gerald Whitney, and especially Tom
+George for valuable comments. We also gratefully acknowledge helpful comments from Stephen Fems
+(the editor), two anonymous referees of this journal, and seminar participants at Louisiana Tech., the
+1997 FMA and the 1999 EFA conferences. All errors are the responsibility of the authors.
+
+1
+
+2
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+ity of future financial distress. Ofek (1993) documents that firms in short-term
+financial distress react quickly in the distress year by reducing dividends, among
+other alternative actions, to ensure that the firms continue as going concerns.’
+Alternatively, DeAngelo and DeAngelo (1990) examine long-term financially distressed firms and find that one third of their sample firms do not reduce dividends
+despite experiencing losses.’ In addition, a significant fraction of the financially
+distressed firms delay reducing dividends until binding bond covenants force them
+to do so. In an examination of the dividend policy of a random sample of firms,
+Kalay (1980) reports that less than 5% of the firms in his sample are forced to
+reduce dividends because of bond covenant violations. The results of these studies
+suggest that the duration of financial distress can explain the timing of the dividend
+reduction decision. Firms that perform poorly in the short-run voluntarily reduce
+dividendswhile those associated with long-term financial distress delay the reduction
+decision as long as possible. In this paper, we examine whether the agency cost
+arising from the shareholder-bondholder conflict is an important determinant in
+explainingwhy some firms voluntarily reduce dividends but others delay the decision
+until bond covenants are violated.
+The decision to voluntarily reduce dividends can be viewed as a financing
+decision: shareholders can use the proceeds of the dividend reduction to finance
+value-enhancing projects. Myers (1977) proves that for firms with risky debt, the
+gain from increased firm value accrues primarily to bondholders. Similarly, Kalay
+(1982) notes that for financially distressed firms, a reduction in dividends benefits
+bondholders at the expense of shareholders by increasing the reservoir of available
+funds and lowering the risk of debt. Dhillon and Johnson (1994) also find negative
+stock returns and positive bond returns on dividend reduction announcements.These
+papers suggest that the shareholder-bondholderagency conflict provides an incentive
+for managers of financially distressed firms to delay reducing dividends, thus
+avoiding wealth transfers from shareholders to bondholders.
+The agency cost hypothesis predicts that firms that are performing poorly and
+which anticipate continued financial distress will subsequently be forced to reduce
+dividends while those that face temporary declines in performance will voluntarily
+reduce dividends. The hypothesis also predicts that the managers of forced-reduction
+firms will attempt to pay out to shareholders as much of firm value as possible.
+This is especially true when managers own a significant fraction of the firm’s equity.
+Finally, since the wealth transfer problem is positively related to the firm’s debt
+level, the agency cost hypothesis predicts that these implications will be more
+pronounced for highly levered firms.
+
+’
+
+Ofek (1993) defines short-term financial distress as one year of above average stock performance
+followed by a year of poor performance (in the bottom decile of the market).
+DeAngelo and DeAngelo (1990) define financial distress as firms with at least three years of losses.
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+3
+
+We find evidence supporting the agency cost hypothesis. Firms that are forced
+to reduce dividends due to binding bond covenants (henceforth referred to as forcedreduction firms) experience a significantly lower earnings level and a higher frequency of losses than do firms that voluntarily reduce dividends (voluntarily-reduction firms) for at least three years prior and subsequent to the dividend reduction
+announcement year. Despite the poor past and anticipated future operating performance, forced-reductionfirms delay reducing dividends until a year after experiencing
+the first loss while voluntary-reductionfirms cut dividends in the year of their first
+loss. We also find that by increasing dividends in the years immediately preceding
+the dividend reduction decision, forced-reduction firms attempt to pay out as much
+of the firm’s value as possible to shareholders. Further, we find that relative to
+voluntary-reduction firms, forced-reduction firms have higher debt-to-equity ratios
+and larger levels of insider holdings in the pre-announcement period thus providing
+a stronger motivation for these firms to delay reducing dividends. The forcedreduction firms also experience significantly more negative stock returns at the
+dividend reduction announcement than do voluntary-reduction firms. These results
+are robust to alternative explanations.
+The paper is organized as follows: Section 2 describes the sample selection
+criteria and the classification scheme used to distinguish between forced- and voluntary-reduction firms. Section 3 reports and analyzes the results. In Section 4 we
+summarize and conclude.
+
+2. Sample selection
+In this section we describe the sample of firms that reduce dividends, the
+criteria used to classify the dividend reduction decision as being either forced or
+voluntary, and the firm specific characteristics for both subsamples of firms.
+
+2.I . Dividend reduction sample
+A dividend reduction occurs when a firm’s regular per-share cash dividend
+(adjusted for stock splits and stock dividends) in the current quarter is lower than
+that paid in the previous quarter. Our original sample consists of firms in nonregulated industries listed on Center for Research in Security Prices (CRSP) tapes
+that initiated dividend reductions between January 1982-December 1992. Since
+CRSP reports dividend information only for positive dividend payments, we use
+the following rules to identify dividend omissions (i.e., zero dividend payments).
+If the time difference between two consecutive dividend announcement dates or the
+firm’s last dividend announcement and the earlier of the firm’s delisting date on
+CRSP or May 31, 1993 exceeds five months, we assume that a dividend omission
+has occurred. The five-month period allows delayed dividend announcements to be
+included in the sample (see Kalay and Lowenstein, 1986). We then cross-reference
+
+4
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+the announcements with the Wall Street Journal Index and eliminate observations
+that are not listed in the Index.
+Since the relation between firm’s operating performance and timing of the
+dividend reduction is important, we restrict our attention to those firms that do not
+reduce dividends for at least a three-year period immediately preceding the reduction
+year. The initial sample consists of 550 firms, of which 449 firms are listed on the
+Cornpustat data set. We also omit firms that have no relevant accounting information
+(3 firms), or change fiscal year-ends in the dividend reduction year (1 firm), or
+have no financial statements in the dividend reduction year because they are acquired
+or go private (26 firms). Our final sample consists of 4 19 firms that reduce dividends
+between 1982-1992.
+
+2.2. Forced versus voluntary samples
+We use the same classification criteria as Kalay (1980) and DeAngelo and
+DeAngelo (1990) to distinguish between forced and voluntary dividend reductions.
+We classify a dividend reduction as forced if either (a) the level of unrestricted
+retained earnings, which we define as the funds that firms can use to pay dividends
+under the most restrictive direct or indirect debt covenants, at the year-end added
+to the current year’s dividend, is less than the dividend paid in the preceding year,3
+or (b) annual reports explicitly state that the dividend is being reduced to comply
+with binding bond covenants. Our primary data source for the level of unrestricted
+retained earnings and dividend payments is Cornpustat, which provided information
+for approximately 60% of the observation^.^ For the remaining firms (157 firms),
+we explore other sources such as “Long-Term Debt” section of Moody’s Industrial
+Manual, annual reports and 10-K filings. From these sources we obtain information
+about debt covenant violations and unrestricted retained earnings levels. If we do
+not find an explicit statement of bond covenant violations (34 firms), we assume
+that the dividend reduction decision is voluntary. For firms that violate bond covenants and for which no unrestricted retained earnings information is available at
+the dividend reduction year-end, we assume an unrestricted retained earnings level
+of zero. Overall, 323 firms voluntarily reduce dividends, 96 firms are forced to
+reduce dividends, and the number of voluntary reductions exceeds forced reductions
+in each year of the sample period.
+The dividend reduction definition listed above presents a clear dichotomous
+classification (i.e., voluntary versus forced) that we use in subsequent univariate
+analyses. However, in practice, the difference between forced and voluntary dividend
+reductions might not be so precise. A firm that cannot maintain the previous year’s
+dividend level (i.e., forced-reduction firm) might reduce dividends more than the
+Kalay (1980) defines unrestricted retained earnings as “reservoir”.
+
+This fraction is similar to that reported by DeAngelo and DeAngelo (1990).
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+5
+
+amount by which its retained earnings is restricted, thereby maintaining a positive
+unrestricted retained earnings level. The dividend reduction decision for this firm
+is therefore comprised of both a voluntary component, defined as the level of
+unrestricted retained eamings at the dividend reduction year-end, and a forced
+component, which is the difference between the level of dividend reduction and the
+voluntary component. Therefore, in the multivariate analyses, the dependent variable
+is the extent to which the dividend reduction is forced. This variable takes on a
+value between and including zero and one, depending on the unrestricted retained
+earnings level at the dividend reduction year-end. For firms that reduce dividends
+without binding bond covenants, the entire dividend reduction is voluntary (i.e., the
+forced component is zero). Firms with binding bond covenants and whose unrestricted retained earnings level is zero in the dividend reduction year-end have a
+forced component of one. For forced-reduction firms with a positive unrestricted
+retained earnings level, the forced component of the dividend reduction decision
+falls between zero and
+
+2.3. Descriptive statistics
+Table 1 presents descriptive statistics for the sample of forced- and voluntaryreduction firms at the fiscal year-end prior to the dividend reduction announcement.6
+The average voluntary-reduction firm is significantly larger in size (assets, and book
+and market equity values) and has higher debt and sales levels than is the average
+forced-reduction firm. Although there is no statistical difference between the mean
+and median market-to-book ratio of common equity between the two subsamples
+of firms, the voluntary-reduction firms have significantly higher mean and median
+earnings per share and unrestricted retained earnings levels than do the forcedreduction f m s . For the sample of forced-reduction firms, we do not find any
+significant differences in financial characteristics (except mean market-to-bookratio)
+between the subsamples of firms that had a forced component of one and those that
+had a forced component less than one.
+
+3. Results
+In this section we report the results from our empirical analysis that examines
+the agency cost hypothesis as an explanation for the timing of the dividend reduction
+decision. First, we compare the level and change in operating performance of forcedand voluntary-reduction firms. Second, we examine the motivation for delaying
+reducing dividends by analyzing leverage ratios and managerial holdings around
+There are 11 forced-reductionf m s with a positive voluntary component. Elimination of these fims
+in subsequent analyses does not affect the results.
+The characteristics of the subsample of f m s for which unrestricted retained earnings information is
+available are similar to those of the overall sample.
+
+6
+
+R. D'Mello, T.Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001)1-22
+
+Table 1
+
+Descriptive statistics for forced and voluntary dividend reduction firms
+This table presents mean (first row) and median (second row) size, debt, and performance measures for
+the forced and voluntary dividend reduction f i s . All variables except market-to-book ratio, earningsper-share, and unrestricted retained earnings are in millions of dollars. Unrestricted retained earnings
+are standardized by year -3 assets. The r-statistic and Wilcoxon Z-statistic measure the difference in
+mean and median values between the two subsamples,respectively.All data are obtained from Cornpusrut.
+
+Variables
+
+Assets
+Common Stock
+(market value)
+Common Stock
+(book value)
+Market-to-Book
+Equity Ratio
+Debt
+Sales
+Earnings-Per-Share
+
+VoluntaryReductions
+
+ForcedReductions
+
+t-statistic
+Z-statistic
+
+1841.76
+186.87
+525.18
+84.11
+455.42
+73.22
+1.29
+91.025
+474.52
+31.17
+1647.05
+238.28
+0.56
+0.44
+0.17
+10.093
+
+426.90
+172.65
+108.72
+58.05
+98.56
+39.08
+1.40
+81.086
+115.52
+34.38
+424.79
+197.81
+-0.36
+0.02
+0.035
+0.023
+
+2.367*'
+1.317
+4.801***
+3.865'**
+3.622***
+4.019"**
+-0.615
+-1.109
+2.646***
+0.164
+2.871*'*
+1.629
+4.003***
+5.27 1***
+7.880***
+6.849***
+
+Unrestricted Retained
+Earnings
+***
+Indicates statistical significance at the 0.01 level.
+**
+Indicates statistical significance at the 0.05 level.
+
+the dividend reduction year. Finally, we examine the extent to which the timing of
+the dividend reduction can be explained by hypotheses other than agency costs.
+
+3.1. Comparison of operating per$onnance
+3.1.1. Level of earnings
+The agency cost hypothesis predicts that shareholders of poorly performing
+firms with expected future losses would not voluntarily reduce dividends to prevent
+a wealth transfer to bondholders. Handjinicolaou and Kalay (1984)and Myers (1977)
+argue that the seventy of the agency problem is negatively related to the option
+value of the firm's equity. Since the value of the equity option falls as the firm's
+operating performance declines (i.e., the underlying asset value), the hypothesis
+predicts that, ceteris paribus, firms with poor operating performance are more likely
+to delay reducing dividends.
+We test the prediction of the agency cost hypothesis by examining the firm's
+operating performance, which we define as net income before extraordinary losses
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+7
+
+available for common shareholders (Cornpustat # 237) standardized by year -3 book
+value of assets. We exclude extraordinary items because they do not capture the
+firm’s normal operating performance. We standardize earnings by year -3 book
+value of assets to control for the bias caused by poorly performing firms divesting
+assets (see Ofek, 1993).
+Because the implicit assumption of the agency cost hypothesis is that managers
+are perfect agents of equity shareholders, we initially examine the payoffs to the
+f m ’ s residual claimants. Panel A of Table 2 presents a time series distribution of
+earnings performance for voluntary- and forced-reduction firms for the seven-year
+period, beginning three years before and ending three years after the dividend
+reduction announcement year (year 0).
+The median and mean standardized earnings for the voluntary-reduction firms
+in the pre-announcementperiod are positive and statistically significant, but decrease
+as year 0 approaches. This result is consistent with the conclusion of DeAngelo and
+DeAngelo (1990), that managers of financially distressed firms are reluctant to
+reduce dividends when firms report positive net income. In the dividend reduction
+announcement year, voluntary-reduction firms report median (mean) standardized
+earnings of -0.36% (-2.24%). For forced-reduction firms, the decline in earnings in
+the pre-announcement period is similar to that reported for voluntary-reduction
+firms, but begins a year prior to the reduction year. These firms report an average
+loss of 0.76% in year -1 and a significant (0.01 level) median (mean) loss of 6.41%
+(9.77%) in the dividend reduction year.
+Subsequent to the dividend reduction announcement year, the voluntary-reduction firms show a significant improvement in performance, but the forced-reduction
+firms continue to perform poorly. Although the voluntary-reduction subsample reports significantly positive median earnings (at 0.01 level) for all years after year
+0, the forced-reduction subsample’s median earnings are negative in all three years
+(significant at 0.01 and 0.10 levels in years 1 and 2, respectively). The difference
+in median eamings performance between the two groups is significant for all years.
+We further test whether forced dividend reductions result from a large unexpected decline in earnings in year 0, rather than a gradual and expected decline as
+predicted by the agency cost hypothesis. Panel A of Table 2 presents changes in
+earnings, standardized by year -3 book value of assets, for the seven-year period
+centered on the dividend reduction year. Forced-reductionf m s not only experience
+a decline in earnings earlier (year -2) than the voluntary-reduction firms (year -I),
+but the average decline in earnings for these firms is also significantly greater than
+that of voluntary-reductionfirms through the dividend reduction year. These results
+suggest that the poor performance for the forced-reduction firms is not completely
+unanticipated, but rather a culmination of declining earnings over the prior years.
+We test the robustness of the above results by using three alternative earnings
+measures: (1) annual net income before extraordinary losses available for common
+shareholders standardized by contemporaneous sales, (2) earnings before interest
+and taxes and depreciation (EBITDA - Compustut # 13) less interest payments and
+
+8
+
+R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+taxes, standardized by assets in year -3, and (3) EBITDA less interest payments
+and taxes standardized by contemporaneous sales. Standardizing annual earnings
+by year-end sales controls for the likelihood that poorly performing firms sell off
+their unproductive assets and that this variable measures the firms’ annual operating
+return. Similarly, we use EBITDA less interest payments and taxes because it is a
+more precise measure of shareholders’ operating cash flow and controls for potential
+earnings manipulation by managers, both of which are potentially significant especially for financially distressed firms. Consistent with the results presented earlier, we
+continue to observe that voluntary-reductionfirms significantly outperform forcedreduction firms over the seven-year period (results not tabulated).
+These results indicate that both voluntary- and forced-reduction firms experience a decline in earnings prior to reducing dividends. However, although the poor
+performance of the voluntary-reduction firms is temporary, that of the forcedreduction firms is deeper and more persistent. The results for the voluntary-reduction
+firms are consistent with Ofek’s (1993) conclusions that firms react quickly to
+financial distress. In contrast, the results for the forced-reduction firms support the
+agency cost hypothesis that firms with persistently poor past operating performance
+and anticipated financial distress only reduce dividends when forced to do so because
+of bond covenant violations.
+
+3.1.2. Frequency of losses
+We also examine the frequency of losses in the pre- and post-announcement
+periods for both subsamples of firms. We note that not all firms have all years of
+data reported on Compustut. Hence, we report the percentage of years of losses for
+which data is available rather than the number of years of losses. “One” indicates
+that the firm has losses for all years for which data is available. The results are
+presented in Table 2, Panels B and C .
+Approximately 60% of the forced-reduction firms experience at least one loss
+in the pre-announcement period and the median firm experiences 0.33 years of
+losses. For the voluntary-reduction firms, the fraction of firms experiencing at least
+one loss is only 26%. The difference between the two groups is highly significant
+at the 0.01 level.
+The same results hold for the post-announcement period. Approximately 2.3%
+of forced-reductionfirms do not suffer a loss in any of the four year-ends subsequent
+to the announcement compared to 27.7% of the voluntary-reduction firms. Similarly,
+the percentage of firms that experience losses in all the years is 34% for the forced
+group, which is significantlyhigher than the 14% for the voluntary group. In addition,
+nearly 11.5% of the forced-reduction firms file for bankruptcy in the four-year
+period following the dividend reduction announcement compared to only 2.5% of
+the voluntary-reduction firms. The difference between the two subsamples is significant at the 0.01 level.
+
+R. D'Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+9
+
+Table 2
+
+Operating performance around the initial dividend reduction for fims that reduced dividends
+between 1982-1992
+Standardized level of earnings in year t is the net income before extraordinary losses of year t, divided
+by the year -3 book value of assets. Standardized change in earnings in year t is the change in net
+income in year t relative to year t-1, divided by book value of assets in year -3. The frequency of losses
+is the number of years that f i s experience negative net income before extraordinary items relative to
+the number of years for which data is available. In Panel A, mean results are reported in the first row
+and median results are reported in the second row. The t-statistic is the parametric test for equality of
+means, the 2-statistic is the non-parametricWilcoxon rank sum test, and the xzstatisticstest the difference
+in fraction of fms experiencing losses between the voluntary- and forced-reduction subsamples. All
+data are obtained from Cornpustat.
+Panel A: Standardized Level and Changes of Earnings
+
+Voluntary-Reductions
+Year
+-3
+-2
+-1
+
+0
+1
+2
+3
+
+t-statistic
+Z-statistic
+
+Forced-Reductions
+
+Levels
+
+Changes
+
+Levels
+
+Changes
+
+Levels
+
+Changes
+
+6.841***
+6.333***
+7.076"'
+5.828'**
+3.878*'*
+2.865***
+-2.236"**
+-0.362***
+0.593
+1.366***
+0.140
+2.101***
+1.306'**
+2.504**'
+
+0.972***
+0.739"'
+0.241
+-0.254
+-3.211'**
+-2.247***
+-6.018***
+-3.633***
+2.593***
+1.571*'*
+-0.583
+0.782*'
+1.195
+0.628
+
+4.853***
+4.544'*'
+4.163*"
+3.987***
+-0.756
+0.088
+-9.768*'*
+-6.412***
+-6.201***
+-2.803*'*
+-2.629*
+-1.027*
+-3.386"
+-0.536
+
+0.427
+0.441
+-0.690
+-0.589**
+-4.919***
+-4.125***
+-8.913***
+-6.855***
+3.333***
+2.859***
+3.043
+1.990*"
+-0.533
+0.049
+
+3.868*'"
+4.048"*
+4.957***
+4.232'**
+5.821*"*
+6.334***
+5.081***
+7.181*'*
+4.050***
+5.172***
+1.305
+3.077"*
+2.408*'
+3.718*'*
+
+1.118
+1.085
+1.782*
+1.340
+2.079**
+2.744*'*
+1.788*
+2.583**
+0.474
+1.396
+1.492
+1.499
+0.687
+0.825
+(continued)
+
+These results are even more significant given the following two points: First,
+there is significant attrition in the forced-reduction subsample (20%of the initial
+sample), resulting in a survivorship bias. Second, in classifying the sample into
+forced and voluntary dividend reduction firms, firms whose voluntary component
+of the dividend reduction decision falls between zero and one are classified as
+forced-reductionf i i s . Both of these factors bias upwards the operating performance
+of the forced subsample and against the implication of the agency cost hypothesis.
+However, despite these biases, the results presented in Table 2 strongly support the
+agency cost hypothesis.
+
+3.1.3. Timing of dividend reduction decision
+In this section, we directly examine whether forced-reduction firms delay
+reducing dividends relative to voluntary-reduction firms by comparing the timing
+
+10 R. D'Mello, T. Mukherjee, 0.Tawa&untachai/The Financial Review 36 (2001) 1-22
+Table 2 (continued)
+
+Operating performance around the initial dividend reduction for firms that reduced dividends
+between 1982-1992
+Panel B: Frequency Distribution of Losses Prior to the Dividend Reduction Announcemen1
+Fraction of
+Years of Losses
+
+Voluntary-Reductions
+
+Forced-Reductions
+
+x'statistic
+~
+
+0
+73.62%
+40.91%
+32.759***
+0.333
+24.43
+48.86
+19.491***
+0.667
+1.63
+7.95
+9.291***
+1
+0.33
+2.27
+3.440*
+Panel C: Frequency Distribution of Losses Subsequent to the Dividend Reducation Announcement
+Fraction of
+Years of Losses
+
+Voluntary-Reductions
+
+0
+0.25
+0.33
+0.50
+0.67
+0.75
+
+27.69%
+21.50
+1.95
+22.48
+1.63
+11.07
+1
+13.68
+Panel D: Percentage of Firms that Filed for Bankruptcy
+
+Forced-Reductions
+
+2.27%
+13.64
+1.14
+23.86
+3.41
+21.39
+34.09
+
+All Firms
+
+Voluntary-Reductions
+
+Forced-Reductions
+
+4.76
+
+2.48
+
+11.46
+
+x2 statistic
+25.723%"
+2.668
+0.263
+0.075
+1.093
+6.511**
+19.115***
+
+x2 statistic
+13.790***
+
+I**
+
+** Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+* Indicates statistical significance at the 0.10 level.
+
+of the dividend reduction decision relative to the first loss. Figure 1 shows the
+operating performance of the forced- and voluntary-reduction samples conditional
+on the firms experiencing at least one loss in the seven-year period centered on the
+announcement year. Of the initial sample of 419 firms, 277 voluntary-reduction
+firms and all 96 forced-reductionfirms experience a loss over the seven-year period.
+Although the median voluntary-reductionfirm reacts quickly and reduces dividends
+in the year of the f i s t loss, the median forced-reduction firm does not reduce
+dividends until one year after the first loss. This result provides strong direct evidence
+that forced-reduction firms delay reducing dividends despite poor past, and anticipated future operatingperformance,and is consistent with the agency cost hypothesis.
+To the extent that the 46 voluntary-reduction firms avoid experiencing losses
+by reducing dividends, this figure is biased against the agency cost hypothesis. A
+detailed analysis of these firms shows that they experience a significant decline in
+capital expenditures and earnings in years -1 and 0. Thus, these firms are, to a
+
+1
+
++Voluntary
+
+Voluntary-reduction firms'
+dividend reduction decision
+.-
+
+- IC - . Forced
+
+dividend reduction decision
+
+Timing of dividend reduction decision relative to the year of tbe first loss
+The figure presents !he median standardized earnings level for the seven-year period centered around the first loss (year 0) for forced- and voluntary-reduction
+subsamples. The arrows indicate the timing of the dividend reduction announcement decision for the median forced-reduction (year 1) and voluntary-reduction
+(year 0) f m s relative to the fust loss.
+
+Figure 1
+
+-0.06
+
+0'08
+
+ear
+
+2
+
+B".
+
+a,
+
+2
+a
+3
+.s.
+
+P
+
+12 R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+certain extent, poorly performing firms, even though they do not incur any losses
+and appear to reduce dividends to avoid future financial distress.
+
+3.2. Comparison of debt-to-equity ratio
+As discussed earlier, the severity of the agency problem is negatively related
+to the option value of the firm’s equity. Handjinicolaou and Kalay (1984) and
+Dhillon and Johnson (1994) contend that an increase in the firm’s debt level (i.e.,
+the option strike price) lowers the option value of the firm’s equity and increases
+the agency cost problem. Therefore, the agency cost hypothesis predicts that, ceteris
+paribus, firms with high leverage will not reduce dividends until bond covenants
+are violated.
+We measure leverage by the debt-to-equity ratio, which we define as total debt
+divided by market equity capitalization for the same year.7 Table 3 reports the debtto-equity ratio of both subsamples of firms for the seven-year period centered on
+the dividend reduction announcement year. Forced-reduction firms have a higher
+fraction of debt than do voluntary-reduction firms, especially in the pre-announcement period. The debt-to-equity ratio of both subsamples of firms increases as the
+dividend reduction announcement year approaches. The median (mean) debt-toequity ratio of the forced-reduction firms is 1.77 (2.39) and 2.08 (2.98), and that
+of the voluntary-reduction firms is 1.01 (1.30) and 1.17 (1.57) in years -1 and 0,
+respectively. The test statistics for the difference in mean and median debt-to-equity
+ratios between the two subgroups are highly significant for both years at the 0.01
+level. Subsequent to the dividend reduction announcement year, forced-reduction
+firms continue to experience significantly higher debt-to-equityratios than do voluntary firms. These findings are consistent with the implication of the agency cost
+hypothesis that highly leveraged firms (forced-reduction firms) despite poor operating performance delay reducing dividends relative to low leveraged firms (voluntary-reduction firms).
+
+3.3. Comparison of dividend payout policy
+As we have noted, the agency cost hypothesis also predicts that prior to reducing
+dividends, managers of financially distressed firms will attempt to exploit bondholders by transferring as much wealth to equity shareholders as possible. We test this
+implication by examining the dividend policies of forced- and voluntary-reduction
+firms in the three-year pre-announcement period. We define normalized dividend
+
+’
+
+We obtain similar results if we use only long-term debt as the numerator in the calculation of the debtto-equity ratio. We also test the robustness of our results by defining both debt and equity in terms of
+book value. Since poorly performing forced-reduction firms experience a decline in equity value prior
+to the dividend reduction announcement, using market equity value as the denominator increases the
+leverage ratio for these firms and biases the results in favor of the agency cost hypothesis. We obtain
+similar results.
+
+R. D'Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+13
+
+Table 3
+
+Debt-to-equityratios in years around the initial dividend reductionfor firms that reduced dividends
+between 1982-1992
+Mean (first row) and median (second row) debt-to-equity ratio in year t are defined as total debt divided
+by market equity capitalization of the same year. The t-statistic is the parametric test for equality of
+means, and the Z-statistic is the non-parametric Wilcoxon rank sum test. All data are obtained from
+Compustat.
+Year
+-3
+-2
+-1
+0
+1
+2
+3
+*t*
+
+**
+
+Voluntary-Reductions
+
+Forced-Reductions
+
+0.954
+0.678
+1.015
+0.816
+1.299
+1.008
+1.571
+1.170
+1.454
+0.977
+1.470
+0.993
+1.600
+0.862
+
+1.426
+1.002
+1.616
+1.112
+2.387
+1.770
+2.980
+2.076
+3.162
+1.776
+3.066
+1.816
+2.516
+1.458
+
+t-statistic
+2-statistic
+3.129***
+3.422***
+3.644*"*
+4.203"**
+4.409"'
+5.863***
+4.411**"
+6.221***
+4.373'5.884""
+3.636***
+4.695***
+2.414**
+4.005***
+
+Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+
+for year t as dividend at year t divided by year -1 dividend, adjusted for stock splits
+and stock dividends. By construction, the normalized dividend in year -1 is one and
+for any prior year a ratio less than one implies that the firm has increased dividends.
+Change in dividend in year t is relative to year t-1 and is standardized by year -1
+dividend.
+Table 4 presents the results for the forced- and voluntary-reduction groups.
+Both subsamples of firms have mean (median) dividend ratios of less than one for
+all years prior to year -1 except in year -2. This finding suggests that firms increase
+dividends prior to year 0.8The test statistics for the difference in mean and median
+levels and changes in dividends between the two groups of firms are statistically
+insignificant. In addition to raising dividends, 10.7% of the sample firms initiate
+dividends. Although dividend increases by poorly performing firms is surprising,
+such a decision by forced-reduction firms is even more puzzling, especially when
+the funds available for dividend payments (unrestricted retained earnings) for these
+firms are significantly lower than those for the voluntary-reductionfirms in the preannouncement period. However, these results are consistent with the hypothesis that
+
+* DeAngelo and DeAngelo (1990) report similar findings.
+
+14 R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+Table 4
+
+Payout policies for years prior to the initial dividend reduction for voluntary- and forced-reduction
+firms that reduced dividends between 1982-1992
+The normalized cash dividend at year t is the cash dividend at year t relative to the dividend at year 1. Change in dividend in year t is the difference in dividend between year t and t-1 standardized by the
+dividend in year -1. Dividend initiations are examined over the four-year period preceding the dividend
+reduction announcement year. The t-statistic is the parametric test for equality of means, the 2-statistic
+is the non-parametric Wilcoxon rank sum test and the x2 statistics test the difference in fraction of f m s
+between the voluntary- and forced-reduction subsamples. In Panel A, mean results are reported in the
+first row and median results are reported in the second row.
+Panel A: Normalized Cash Dividend Levels and Changes
+
+Voluntary-Reductions
+Year
+
+Levels
+
+-4
+
+0.640
+0.750
+0.77 1
+0.892
+0.887
+1
+
+Changes
+
+t-statistic
+2-statistic
+
+Forced-Reductions
+Levels
+
+0.660
+0.750
+-3
+0.133
+0.793
+0.086
+0.900
+0.114
+0.920
+-2
+0.057
+1
+0.095
+1
+-1
+1
+1
+0
+1
+Panel B: Percentuge of Firms that Initiated Dividends
+
+Changes
+
+Levels
+
+Changes
+
+0.108
+0.067
+0.113
+0.048
+0.067
+0
+
+0.487
+0.569
+0.654
+0.733
+1.460
+1.490
+0
+0
+
+1.389
+0.722
+0.051
+0.855
+1.283
+1.138
+
+All Firms
+
+Voluntary-Reductions
+
+Forced-Reductions
+
+x’ statistics
+
+10.74
+
+10.84
+
+10.42
+
+0.014
+
+managers attempt to exploit bondholdersby manipulating dividend policy and paying
+out as much of firm value as possible.
+
+3.4. Level of insider holdings
+The evidence presented so far is consistent with the agency cost hypothesis.
+First, firms with poor operating performance and expected financial distress delay
+reducing dividends. Second, the delay is more pronounced for highly levered firms.
+Third, the managers attempt to payout as much of firm value as possible. As stated
+earlier, a fundamental assumption of this hypothesis is that managers work in the
+best interest of current shareholders,i.e., managers engage in these types of activities
+since they are major stakeholders in the firm. To test this, in Table 5 we compare
+levels and changes in insider holdings for both the forced- and voluntary-reduction
+groups.
+
+R. D'Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+15
+
+Table 5
+
+Insider holdings in years around the initial dividend reduction for firms that reduced dividends
+between 1982-1992
+Insider holdings is obtained from proxy statements filed with SEC. Insider holdings for year t is obtained
+from the latest proxy statement filed prior to the year-end. Change in insider holdings at time t represents
+the difference in levels of insider holdings from time t to t-1 divided by the level at time t-1. Average
+level represents the average annual insider holdings for all f m s for all years for which data is available.
+Average change represents the change in insider holdings in year -1 relative to year -3 standardized by
+insider holdings level in year -3. Mean results are reported in the f i st row and median results are reported
+in the second row. The t-statistic is the parametric test for equality of means and Z-statistic is the nonparametric Wilcoxon rank sum test.
+Voluntary-Reductions
+Year
+
+Levels
+
+-3
+
+17.80***
+10.83***
+17.02"'
+10.87***
+16.59""
+10.90***
+17.76***
+12.10'""
+
+-2
+-1
+
+Average
+
+Forced-Reductions
+
+Changes
+
+Levels
+
+4.01
+-0.54
+-3.10
+-1.27**
+-2.31
+-5.77**
+
+20.00*"*
+16.60***
+21.80***
+15.90***
+21.37***
+16.80***
+21.10***
+16.06***
+
+t-statistic
+2-statistic
+
+Changes
+
+Levels
+
+Changes
+
+-6.11
+-4.01**
+3.70
+0.00
+-6.45
+-6.96**
+
+-0.823
+-1.886""
+-1.528'
+-2.203**
+-1.723'
+-2.153'"
+-1.255
+-2.091'*
+
+2.249*'
+1.843'
+-1.599
+1.244
+0.780
+0.629
+
+***
+
+Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+* Indicates statistical signifiances at the 0.10 level.
+
+**
+
+We obtain information about insider holdings for three years prior to the
+dividend reduction announcement year from proxy statements filed with the SEC.9
+We find that insiders of the median forced-reduction firm hold approximately 17%
+of the firm's outstanding shares in year -1. However, those of the voluntary-reduction
+firm hold only 11% of the firm's equity. The difference in median (mean) insider
+holdings between the two groups is significant at 0.05 (0.10) level. We find similar
+results for years -2 and -3.
+We also test whether insiders of the forced-reductionfirms, anticipating financial distress, reduce their holdings more dramatically than do insiders of voluntaryreduction firms. In year -2 we find that the mean and median decline in insider
+holdings of the forced-reduction firms are significantly higher than that for the
+voluntary-reduction firms." Both results are consistent with the prediction of the
+agency cost theory.
+Insider holding data is relatively infrequent. We find information for only 263 fms.
+lo We eliminate observations where the change in insider holding exceeds 200%. When we examine the
+full sample, we find that the average percentage decline in insider holding from year -1 to year -3 is
+significantly higher for forced-reduction f m s relative to voluntary-reduction firms.
+
+16 R. D’Mello, T.Mukherjee, 0. TawatnuntachaiRhe Financial Review 36 (2001) 1-22
+
+3.5. Multivariate regression analyses
+In this section, we present regression results of the association between the
+decision to reduce dividends and the firm’s operating performance, average debtto-equity ratio, and level of insider holdings. The dependent variable is the degree
+to which the dividend reduction is forced. Its value ranges from one (if the firm
+has no unrestricted retained earnings at the year-end) to zero (if the bond covenants
+are not binding). We find similar results when we estimate logit regressions in
+which the dependent variable is the dichotomous classification used in our earlier
+univariate analyses.”
+We use two measures as proxies for the firm’s operating performance, the
+fraction of years of losses for the three years prior to the dividend reduction year
+and the level of standardized earnings for the three years prior to the dividend
+reduction announcement year. We also use the fraction of years of losses subsequent
+to the dividend reduction announcement as a proxy for expected future performance.12 We use the average three-year pre-announcement debt-to-market equitycapitalization ratio to measure the f i ’ s debt exposure. To test the manager’s
+motivation to delay reducing dividends, we also include the log of the average
+insider holdings over the three-year pre-announcement period. The agency cost
+hypothesis predicts a negative coefficient for earnings level and positive coefficients
+for fraction of years of losses both prior and subsequent to the reduction, average
+debt-to-equity ratio, and insider holdings.
+The results in Table 6 indicate that the degree to which the dividend reduction
+is forced depends significantlyon past earnings performance. The coefficients for the
+standardized earnings level for years -3, and -1 (regressions 1and 5) are significantly
+negative, and those for the fraction of years of losses in the pre-announcement
+period (regression 2, 6, and 8) are significantly positive. We obtain similar results
+when we use standardized earnings changes as a proxy for operating performance.
+These findings confirm the results of earlier univariate analyses. We also find that
+the coefficients for future expected profits and debt-to-equity level are positive and
+significant (regressions 3, 4, 5 , and 6). This suggests that both future performance
+and leverage ratios are important determinants in explaining the timing of the
+dividend reduction decision. Finally, the coefficients for insider holdings level are
+also significantly positive, as we expected. The regression results are consistent
+with the univariate results presented earlier and the implications of the agency cost
+hypothesis.
+
+I’
+
+Results are not reported for brevity but are available upon request.
+
+DeAngelo, DeAngelo, and Skinner (1992, p. 18.50) argue that although realized future earnings are
+unknown at the time of the dividend reduction, “future earnings realization are a reasonable empirical
+proxy for managers’ expectations of future earnings.”
+
+30.383"**
+0.067
+408
+
+** Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+* Indicates statistical significance at the 0.10 level.
+
+***
+
+7.709***
+0.047
+408
+
+0.126"**
+
+0.276'**
+- 1.209**
+0.166
+-0.643"*
+
+Intercept
+Earnings, Year -3
+Earnings, Year -2
+Eamings, Year -1
+Fraction of Losses Prior
+Fraction of Losses After
+Average DebtEquity Ratio
+Log(Insider holdings)
+F statistics
+Adjusted R2
+N
+
+0.176***
+
+2
+
+1
+
+Model #
+Variables
+
+58.588""
+0.124
+408
+
+0.392***
+
+0.015
+
+3
+
+13.906***
+0.033
+377
+
+0.059***
+
+5
+
+13.704***
+0.144
+377
+
+0.337***
+0.028'
+
+0.063
+-0.853"
+0.252
+-0.522**
+
+Coefficients
+
+0.126***
+
+4
+
+25.348***
+0.162
+377
+
+0.138*"
+0.323***
+0.026"
+
+-0.033
+
+6
+
+0.354*"*
+0.022
+0.038'"
+8.107***
+0.147
+247
+
+-0.006
+-0.677
+-0.261
+-0.280
+
+7
+
+0.336***
+0.128***
+0.025
+0.033*
+13.263***
+0.168
+247
+
+-0.102*
+
+8
+
+Regression analysis for forced versus voluntary dividend reductions between 1982-1992
+The dependent variable i s the fraction of the dividend reduction that is forced. Its value ranges from 0 to 1. The independent variables are the fraction of years
+of losses in the three years preceding the dividend reduction year, the standardized net income before extraordinary items for three years prior to the dividend
+reduction announcement year, the average debt-to-equity ratio in the three years prior to the dividend reduction year, the fraction of years of losses in the four
+year-ends subsequent to the dividend reduction announcement, and the log of average insider holdings in the three-year period prior to the dividend reduction
+announcement year.
+
+Table 6
+
+p
+
+18 R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+
+3.6. Abnormal stock price reaction
+The agency cost hypothesis predicts that the announcementperiod stock returns
+will be higher (i.e., less negative) for voluntary-reduction firms than for forcedreduction firms. To examine this implication, we define abnormal stock returns as
+returns in excess of the value-weighted market index. We obtain the announcement
+day (day 0) from CRSP for dividend cuts and The Wall Street Journal Index for
+dividend omissions. We define the announcement period as the three-day window
+centered on day 0. The results are similar when we use a five-day announcement
+period window or a subsample of firms that is uncontaminated by other events
+during the announcement period window.
+Table 7 presents the results. For the voluntary-reduction firms, the mean (median) announcement period return is -4.32% (-3.52%) and is significantly higher
+than the -8.35% (-7.58%)for the forced-reduction firms. The mean three-day abnormal return for the uncontaminated subsamples of the voluntary- and forced-reduction
+firms is -4.33 and -8.66%, respectively. The differences in abnormal returns are
+significant at the 0.01 level.
+We find that approximately 67% (32%) of forced- (voluntary-) dividend reductions are omissions. Since prior studies find a more negative stock price reaction
+for dividend omissions than for dividend cuts, the greater negative stock price
+reaction of forced reductions could be explained by the higher fraction of dividend
+omissions in the ~amp1e.l~
+We test this hypothesis by dividing the full sample into firms that cut dividends
+and those that omitted dividends, and then compare the announcement-period returns
+between the forced- and the voluntary-reduction subsamples. For the voluntaryreduction firms (219 observations), the median abnormal announcement dividend
+cut return is -3.48%. Although it is less negative, it is not significantly different
+from the -4.21% for the median forced-reduction firm (32 observation^).'^ For the
+uncontaminated subsamples,the mean and median differencebetween the two groups
+exceeds 1%, but it is statistically insignificant. For dividend omissions, the median
+abnormal return for voluntary-reduction firms is significantly less negative than that
+of the forced-reduction firms.
+Overall, these results suggest that the market anticipates continued poor operating performance for forced-reduction firms and thus reacts more negatively
+to their announcements of dividend reductions than to similar announcements by
+voluntary-reduction firms.
+l 3 Christie (1994) reports risk-adjusted abnormal returns of -7.04% and -7.33% for dividend omissions
+and cuts, respectively. Also see Healy and Palepu (1988).
+
+l4
+
+The small sample size for the forced-reduction f i i s might explain the insignificant test results.
+
+R. D'Mello, T. Mukherjee, 0. TawatnuntachaiITheFinancial Review 36 (2001)1-22
+
+19
+
+Table 7
+Analysis of market-adjusted announcement period returns for forced versus voluntary initial
+dividend reduction firms between 1982-1992
+Abnormal returns are three-day CRSP value-weighted market-adjustedreturns. The fist row is the mean
+returns and the median returns are in the second row. The last column reports the t-statistic (Wilcoxon
+Z) for the difference in means (medians).
+All Firms
+Number
+of Firms
+
+Abnormal
+Returns
+
+Voluntary-Reductions
+Number
+of Firms
+
+Abnormal
+Returns
+
+Forced-Reductions
+Number
+of Firms
+
+Abnormal
+Returns
+
+-4.32'"
+-3.52"*
+
+96
+
+-8.35***
+-7.58**"
+
+4.088***
+
+219
+
+-4.18'**
+-3.48'**
+
+32
+
+-4.65*"*
+-4.21***
+
+0.304
+0.650
+
+104
+
+-4.61'**
+-4.08***
+
+64
+
+-10.20***
+-9.66"'
+
+t-statistic
+2-statistic
+
+Panel A: Overall Sample
+419
+
+-5.24**'
+-4.25***
+Panel B: Dividend Cuts
+25 1
+
+-4.24%''
+-3.55***
+Panel C: Dividend Omissions
+168
+
+-6.74**'
+-5.67***
+
+323
+
+3.084***
+
+3.057***
+3.787'"
+
+*** Indicates statistical significance at the 0.01 level.
+
+3.7. Testing alternative explanations
+In this section, we test some alternative hypotheses to agency costs as an
+explanation for the difference in the timing of the dividend reduction decision. We
+examine whether firms voluntarily reduce dividends as a source of financing for
+subsequent investment activities, rather than as a corrective action to current poor
+performance. We use two variables as proxies for investment activities: capital
+expenditure to total assets, and selling, general, and administrative expenses to sales.
+We examine long-run changes from year +3 to year -1 and annual changes averaged
+over the three years subsequent to the dividend reduction announcement year.
+Finally, we also study the change in ratios from one- (three-) year(s) subsequent to
+one year preceding the announcement.
+An analysis of the full sample of voluntary-reductionfirms shows no improvement in average annual and long-run changes in post-announcement investment
+activities relative to year -1 (not reported). This confirms that the decision to reduce
+dividends by these firms is not motivated by future financing needs, but rather by
+preserving firm value.
+We also test whether the difference in timing between the two groups can be
+explained by differences in industry composition. We classify firms into industry
+groups based on the first-digit SIC code. We do not find any significant difference in
+the fraction of firms in different industries between forced- and voluntary-reduction
+subsamples. Further, we examine whether voluntary-reduction firms reduce dividends early relative to their first loss because they are more closely monitored by
+
+20 R. D’Mello, T.Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+bondholders, compared to forced-reduction firms. Bondholders are more likely to
+lend money to a firm if managers reduce dividends. This hypothesis therefore
+predicts a higher increase in total debt financing for voluntary-reduction firms
+relative to forced-reduction firms prior to the dividend reduction announcement.
+The results in Panel A of Table 8 provide evidence to the contrary. We find that
+the increase in debt level of forced-reduction firms is significantly higher than that
+for the voluntary-reduction firms in years -3 and -1.
+Finally, we test the possibility that the timing of the dividend reduction decision
+is influenced by the growth opportunities facing the firm, rather than by the agency
+cost hypothesis. Firms with valuable future opportunities have an incentive to react
+quickly to poor performance and voluntarily reduce dividends because of the high
+cost associated with losses of future growth opportunities (the cost of financial
+distress hypothesis). Alternatively, firms with few growth opportunities will delay
+reducing dividends because of the low marginal cost of delaying dividend reduction.
+Therefore, this hypothesis predicts that voluntarily-reductionfirms have higher levels
+of investment opportunities than do forced-reduction firms.
+We use two proxies for future growth opportunities; the ratio of intangible
+assets (Cornpustat # 33) to total assets (Cornpusfat # 6) and the ratio of research
+and developmental expenditures (R&D - Cornpustat # 46) to sales (Cornpustat #
+12).15We control for the poor performance immediately preceding the dividend
+reduction year by examining these proxies for the three-year period ending in year 2 relative to the dividend reduction announcement year. The results are also reported
+in Table 8.
+We find that the forced-reduction firms have significantly higher levels of R&
+D to their sales ratios relative to the voluntary-reduction firms for all three years
+(Panel B). This finding is inconsistent with the implications of the cost of financial
+distress hypothesis. In addition, we do not find any significant differences in mean
+and median intangible to total assets ratios between the forced- and voluntaryreduction firms. These results suggest that despite having more valuable investment
+opportunities in the pre-announcement period, forced-reduction firms postpone the
+reduction decisions until bond covenants are violated.
+
+4. Summary and conclusion
+This paper examines whether the agency cost arising from shareholder-bondholder conflict explains the timing of the dividend reduction decision. Dividend
+reduction in the face of continued poor performance transfers wealth from shareholders to bondholders. Thus, the agency cost hypothesis posits that firms that experience
+persistent poor performance and anticipate financial distress or bankruptcy will
+delay voluntarily reducing dividends until bond covenants force them to do so to
+prevent a wealth transfer from shareholders to bondholders.
+l5
+
+See Titman and Wessels (1988) for a discussion of these proxies.
+
+R. D'Mello, T. Mukherjee, 0. TawatnuntachaiITheFinancial Review 36 (2001) 1-22
+
+21
+
+Table 8
+
+Ratio of change in debt, research and development to sales and intangible to total assets around
+the initial dividend reductions between 1982-1992
+Change in total debt in year t is relative to year t-1 and is standardized by book value of assets in year
+-3. All results are significant at the 1% level. Research and development expense is standardized by
+sales and intangible assets is standardized by total assets. Mean results are reported in the first row and
+median results are reported in the second row. The t-statistic is the parametric test for equality of means
+and the Z-statistic is the non-parametric Wilcoxon rank sum test.
+Panel A: Change in Total Debt
+Year
+
+Voluntary-Reductions
+
+Forced-Reductions
+
+t-statistic
+Z-statistic
+
+-3
+
+0.041
+0.069
+-1.878*
+0.025
+0.050
+-2.103**
+-2
+0.083
+0.115
+-0.702
+0.027
+0.048
+-1.573
+-1
+0.106
+0.101
+0.110
+0.020
+0.054
+-2.117**
+Panel B: Ratio of Research and Development (R&D) Expenditure to Sales and Intangible Assets (IA)
+to Total Assets
+Voluntary-Reductions
+
+t-statistic
+Z-statistic
+
+Forced-Reductions
+
+IA
+
+R&D
+
+Sales
+
+IA
+Assets
+
+R&D
+
+Year
+
+Sales
+
+Assets
+
+Sales
+
+IA
+Assets
+
+-4
+
+0.013
+0
+0.024
+0
+0.027
+0
+
+0.020
+0.013
+0.023
+0.014
+0.025
+0.016
+
+0.016
+0.005
+0.020
+0.004
+0.037
+0.005
+
+0.023
+0.012
+0.025
+0.012
+0.030
+0.016
+
+-0.766
+-2.581***
+0.366
+- 1.945'
+-0.682
+-2.098**
+
+-0.522
+0.563
+-0.367
+0.224
+-0.646
+0.023
+
+R&D
+
+-3
+-2
+*I*
+
+** Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+* Indicates statistical significance at the 0.10 level.
+
+The results for firms that are forced to reduce dividends support the agency
+cost hypothesis. These firms perform poorly prior to the dividend reduction announcement year and report significantly lower levels of income than do the voluntary-reduction firms for the three-year period including the dividend reduction announcement year. Further, the forced-reduction firms experience greater numbers
+of annual losses than do the voluntary-reduction firms. Despite poor operating
+performance and lower levels of unrestricted retained earnings, the forced-reduction
+firms do not reduce dividends until a year subsequent to the first loss. Instead, a
+significant fraction of these firms increase dividends in the pre-announcement period.
+Poor performance for the forced-reduction firms also persists beyond the time
+that the firms reduce dividends. These firms continue to report losses for at least
+
+22 R. D’Mello, T. Mukherjee, 0. Tawatnuntachai/The Financial Review 36 (2001) 1-22
+three years subsequent to the dividend reduction year, but the voluntary-reduction
+firms report significantpositive earnings. Further, a significant fraction of the forcedreduction firms file for bankruptcy. The forced-reduction firms also have significantly higher debt-to-equity ratios and managerial ownership compared to the voluntary-reduction firms providing greater incentives to delay reducing dividends. The
+announcement period return results are consistent with these findings: The market
+reacts more negatively to forced reductions than to voluntary reductions.
+Overall, these results are consistent with the shareholder-bondholderconflict
+hypothesis of Jensen and Meckling (1976) and Myers (1977): Firms that expect
+prolonged financial distress continue to maintain or even increase dividend payments
+until forced by bond covenants to reduce payouts, thus avoiding a transfer of wealth
+to bondholders.
+
+References
+Chnstie, W., 1994. Are dividend omissions truly the cruelest cut of all? Journal of Financial and
+Quantitative Analysis 29, 459-480.
+DeAngelo,H. and L. DeAngelo, 1990. Dividend policy and financial distress: An empirical investigation
+of troubled NYSE f m s , Journal of Finance 45, 1415-1431.
+DeAngelo, H., L. DeAngelo, and D. Skinner, 1992. Dividends and losses, Journal of Finance 47,
+1837-1863.
+DeAngeIo, H., L. DeAngelo, and D. Skinner, 1996. Reversal of fortune: Dividend signaling and the
+disappearance of sustained earnings growth, Journal of Financial Economics 40, 341-371.
+Dhillon, U. and H. Johnson, 1994. The effect of dividend changes on stock and bond prices, Joumal
+of Finance 49, 281-289.
+Handjinicolaou, G. and A. Kalay, 1984. Wealth redistributions or changes in f i i value: An analysis
+of returns to bondholders and the stockholders around dividend announcements,Journal of Financial
+Economics 13, 35-63.
+Healy, P. and K. Palepu, 1988. Earnings information conveyed by dividend initiations and omissions,
+Journal of Financial Economics 21, 149-176.
+Jensen, M. and W. MecMing, 1976. Theory of the fm:managerial behavior, agency costs, and ownership
+structure, Journal of Financial Economics 3, 305-360.
+Kalay, A., 1980. Signaling, information content and the reluctance to cut dividends, Journal of Financial
+and QuantitativeAnalysis 15, 855-869.
+Kalay, A., 1982. Stockholders-bondholdersconflict and dividend constraints,Journal of Financial Economics 10, 211-233.
+Kalay, A. and U. Lowenstein, 1986. The informational content of the timing of dividend announcements,
+Journal of Financial Economics 16, 373-388.
+Myers, S., 1977. Determinants of corporate borrowing, Journal of Financial Economics 5 , 147-175.
+Ofek, E., 1993. Capital structure and fim response to poor performance; An empirical analysis, Journal
+of Financial Economics 34, 3-30.
+Titman, S . and R. Wessels, 1988. The determinants of capital structure choice, Journal ofFinance 43,
+1-19.
+
+

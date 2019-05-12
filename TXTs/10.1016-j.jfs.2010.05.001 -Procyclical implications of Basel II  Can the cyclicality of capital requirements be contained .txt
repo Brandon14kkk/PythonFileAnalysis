@@ -1,0 +1,2742 @@
+Journal of Financial Stability 7 (2011) 138–154
+
+Contents lists available at ScienceDirect
+
+Journal of Financial Stability
+journal homepage: www.elsevier.com/locate/jfstabil
+
+Procyclical implications of Basel II: Can the cyclicality of capital requirements
+be contained?
+Henrik Andersen ∗
+Norges Bank, Financial Markets Department, Bankplassen 2, Norges Bank, Oslo, Norway
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 24 June 2009
+Received in revised form 5 May 2010
+Accepted 7 May 2010
+Available online 19 May 2010
+JEL classiﬁcation:
+E32
+G21
+G28
+G33
+Keywords:
+Basel II
+Procyclicality
+Capital positions
+
+a b s t r a c t
+While the current capital adequacy framework, Basel II, aims to make banks’ capital requirements more
+sensitive to the underlying risk of the assets, it may also introduce an additional source of procyclicality in
+the banking sector. In this paper we assess the potential cyclicality of Basel II for the entire bank portfolio.
+This is in contrast to previous studies which have taken into account only parts of banks’ assets, and also
+neglected the potential cyclicality of bank capital. We apply a detailed data set covering a relatively long
+period to analyse the cyclicality of both bank capital and Basel II capital requirements. Moreover, we
+employ a more comprehensive system of models than applied in the existing literature. Consistent with
+previous evidence, we ﬁnd a substantial increase in the calculated Basel II capital requirements at the
+same time as bank capital deteriorates in a recession scenario. However, we also ﬁnd that the cyclicality
+of Basel II capital requirements may be effectively contained if risk weightings are based on a sufﬁciently
+long observation period which includes economic downturns.
+© 2010 Elsevier B.V. All rights reserved.
+
+1. Introduction
+Bank regulations may amplify the procyclicality inherent in
+bank lending behaviour; see e.g. Kashyap and Stein (2004). This
+may particularly be the case with the current capital adequacy
+framework. Basel II aims to make minimum capital requirements
+more sensitive to the underlying risk of the banks’ operations than
+the former framework, Basel I. However, the risk sensitive capital requirements may also reinforce the procyclicality of bank
+behaviour; see e.g. Borio et al. (2001) and Catarineu-Rabell et
+al. (2003). As bank assets and loans in particular, are assigned
+higher risk weightings during economic downturns, required capital will increase. At the same time capital positions will tend to
+deteriorate as loan losses accelerate. This may induce banks to
+reduce lending and increase lending margins, thereby amplifying
+the procyclicality of bank lending. Conversely, during an economic
+upturn lower risk weightings and excess capital holdings may contribute to expanding credit volumes and risk fuelling a credit-led
+boom.
+When the capital adequacy ratio falls below desirable levels,
+cuts in lending is not the only option; see Benford and Nier (2007).
+
+∗ Tel.: +47 22 31 64 66.
+E-mail address: Henrik.Andersen@Norges-Bank.no.
+1572-3089/$ – see front matter © 2010 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jfs.2010.05.001
+
+Banks may cut dividends in order to increase the regulatory capital,
+but this may be far from sufﬁcient. Another option is to raise new
+capital, though this might be very costly for existing shareholders when the banking sector is under pressure. Banks could also
+attempt to sell part of their assets, but this cannot be the solution
+for the entire sector.
+Empirical research, however, strongly suggests that banks usually reduce lending; see e.g. Francis and Osborne (2009). Moreover,
+Nier and Zicchino (2005) ﬁnd that the strength of the loan growth
+response is non-linear and depends on the capital buffer available
+to absorb losses. If capital buffers are below a comfort level, banks
+cut their lending by more than if the capital buffers are ample.
+It may be argued that the Basel II framework need not have
+procyclical effects on the economic activity if every borrower
+has access to non-bank ﬁnancing during downturns; see Saurina
+and Trucharte (2006). However, the ongoing ﬁnancial crisis has
+demonstrated that borrowers’ access to non-bank ﬁnancing may
+be seriously hampered at the same time as banks contain their
+lending.
+The contribution of this paper to the literature is threefold:
+ﬁrst, going beyond the existing literature, we calculate the Basel II
+capital requirements for all corporate exposures, household exposures, bank exposures and sovereign exposures. Considering the
+entire bank portfolio is important as the debt-servicing capacity
+of enterprises, banks, households and sovereigns may be affected
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+differently by the business cycle. Second, we analyse both the
+cyclicality of capital positions and the cyclicality of Basel II capital requirements at the same time. By this we take into account
+that possible procyclical implications of Basel II also depend on
+how the banks’ capital positions are affected by the business cycle.
+Third, we apply a more comprehensive set of models and a more
+detailed data set than commonly applied in the literature.1
+We simulate the capital positions and minimum capital requirements based on a suite of models. A bank model employs a stress
+scenario from a macro model and estimated Basel II risk weightings from an enterprise sector model, a household model, a logit
+model for banks and a loss given default (LGD) model. Contrary
+to most other studies, we apply the advanced IRB approach2 and
+allow for cyclicality in both probability of default (PD) and LGD.
+Our data set includes all Norwegian banks, all Norwegian jointstock companies and all Norwegian households. As our data set
+covers a relatively long observation period and includes economic
+downturn conditions, we are able to calculate different versions of
+through-the-cycle (TTC) capital requirements.
+Studies simulating the internal rating based (IRB) approach
+of Basel II ﬁnd signiﬁcant cyclicality in the capital requirements
+determined by internally estimated risk parameters.3 Estimated
+increases in capital requirements in a downturn range from 30 to
+202%, partly depending on the macroeconomic shocks considered,
+the models employed and which parts of the bank portfolio were
+included.
+The capital adequacy of a bank is determined both by the
+minimum capital requirement and the capital position. Thus, the
+macroeconomic effects of Basel II will also depend on how the
+banks’ capital positions are affected by the business cycle. Most
+studies ﬁnd that capital positions tend to deteriorate during economic downturns.4
+Our analysis sets out by demonstrating how risk sensitive
+capital requirements can introduce an additional source of procyclicality in the banking sector. In a recession scenario for the
+Norwegian economy, we document a substantial increase in the
+calculated Basel II capital requirements even when the banks
+employ TTC rating systems where the risk parameters are based on
+ﬁve- and ten-year-moving averages. At the same time, bank capital deteriorates as banks record high losses on loans and securities.
+However, the cyclicality can be effectively contained if the capital
+requirements are calculated based on twenty-year-moving average PDs and LGDs covering economic downturn conditions. This is
+because a longer observation period gives new observations lower
+weight, and because the data from the previous economic down-
+
+1
+The literature typically tracks the rating for a hypothetical portfolio of corporate
+exposures using either rating transition matrices, or market indicators of probability of default (PD), as a proxy for a bank’s rating system. Changes in PDs are mapped
+to changes in capital requirements to estimate whether capital requirements vary
+over a business cycles. Simulation studies based on rating agency transition matrices are often classiﬁed as more through-the-cycle (TTC). Studies applying different
+versions of Merton’s option pricing model, such as Moody’s KMV, are often classiﬁed
+as describing a point-in-time (PIT) rating system. Moody’s KMV default risk forecast is established as a commonly used indicator to calculate an enterprise’s default
+risk on the basis of its stock price, balance sheet information and an option pricing
+model.
+2
+Under the advanced IRB approach, banks provide their own estimates of the risk
+parameters. The literature normally applies the foundation IRB approach. Under the
+foundation IRB approach banks provide their own estimates of the PD, while the
+remaining risk parameters are ﬁxed by supervisors.
+3
+See e.g. Altman et al. (2005), Benford and Nier (2007), Catarineu-Rabell et al.
+(2003), Gordy and Howells (2006), Goodhart et al. (2004), Jakubik and Schmieder
+(2008), Kashyap and Stein (2004), Marcelo and Scheicher (2005), Saurina and
+Trucharte (2006) and Taylor and Goodhart (2006).
+4
+See e.g. Ayuso et al. (2004), Jokivuolle et al. (2008), Lindquist (2004), Bikker and
+Metzemakers (2004) and Stoltz and Wedow (in press).
+
+139
+
+turn ensures that the initial risk parameters are already high before
+the next downturn occurs.
+During the recent ﬁnancial crisis, market pressure forced banks
+to increase their capital adequacy ratios at the same time as losses
+and writedowns reduced their capital positions. This induced banks
+to tighten their credit standards which, in turn, ampliﬁed the economic downturn. As a response, the Basel Committee at the end of
+2009 issued proposals that will reduce the procyclicality of capital
+requirements, and promote the build-up of capital buffers in good
+times.5 On the basis of a comprehensive impact assessment, a fully
+calibrated set of standards will be developed by the end of 2010
+and then gradually phased in. In this context, our analysis can shed
+some light on how the new standards should be calibrated in order
+to mitigate the procyclicality of capital requirements.
+This paper is organised as follows. Section 2 describes the Basel
+II capital requirement formula. Section 3 presents the data and
+methodology. Section 4 describes the procedures for projecting the
+Basel II capital requirements and bank capital. Section 5 presents
+and discusses the results of our analysis while Section 6 concludes.
+2. Basel II and capital requirements
+The Basel II framework is based on three mutually reinforcing
+pillars: minimum capital requirements (Pillar I), the supervisory
+review process (Pillar II) and market discipline (Pillar III).6 Focusing on Pillar I, the Basel II framework contains three different
+approaches for calculating capital requirements for credit risk,
+namely the standardised approach,7 the foundation IRB approach
+and the advanced IRB approach. Basel II also includes capital
+charges for market risk and operational risk.
+Under the IRB credit risk approaches, banks must categorise
+banking-book exposures into broad classes of assets with similar
+underlying risk characteristics. The classes of assets are: Corporate,
+Sovereign, Bank, Retail, Equity and Eligible purchased receivables.
+Retail includes loans to households and loans to the smallest enterprises. Loans to the remaining enterprises are covered by Corporate.
+Bank covers loans and other exposures to ﬁnancial institutions.
+Sovereign includes loans and other exposures to public entities.
+Within the Basel II framework the formula for calculating riskweighted assets (RWA) is a modiﬁed version of the so-called
+Gaussian asymptotic single risk factor model of credit risk. The
+solvency margin of the formula is set at 99.9%, i.e. the probability that required capital does not cover any deﬁcits should be less
+than 0.1% over a one-year horizon. The formula is a function of PD,
+LGD, exposure at default (EAD) and maturity (M). In addition, the
+formula includes a parameter for maturity adjustment (b) and a
+parameter for asset correlation (R).
+The formula for calculating RWA for corporate, sovereign, bank
+and retail exposures is
+
+
+
+
+RWA = 12.5 × EAD × LGD × N
+×
+
+
+
+G(PD) +
+
+√
+√
+
+R × G(0.999)
+
+1−R
+
+
+
+
+
+
+− (PD × LGD)
+
+(1 + (M − 2.5)b)
+,
+(1 − 1.5b)
+
+where N is the cumulative standard normal distribution function
+and G its inverse. The maturity adjustment (b) is given by b =
+
+5
+
+See Basel Committee on Banking Supervision (2009).
+For a detailed description of the framework, see Basel Committee on Banking
+Supervision (2006b).
+7
+The standardised approach is basically Basel I with more reﬁned risk-buckets
+and enhanced by allowing banks to apply external ratings and acknowledging risk
+mitigation effects.
+6
+
+140
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+(0.11852 − 0.05478 × ln(PD))2 , except in the case of retail exposures where b is set equal to zero. The decision to adjust for maturity
+reﬂects the intuitive notion that, on the one hand, risk increases
+with loan duration and, on the other hand, the likelihood that the
+PD will deteriorate increases when the initial PD is low and the
+maturity of the exposure is large. These factors suggest that capital
+requirements should increase with the maturity of the exposures.
+Under the advanced IRB approach, banks provide their own estimates of the PD, the LGD, the EAD and the M parameters. These
+internal estimates must be grounded in historical experience and
+empirical evidence. Basel II does not specify whether recent observations should be given more weight or not. The length of the
+underlying historical observation period for the PD measure must
+be at least ﬁve years. For corporate, retail and bank exposures, the
+one-year PD cannot be below 0.03%. The LGD and EAD estimates
+should reﬂect economic downturn conditions and the observation
+period must be at least seven years (ﬁve years for retail exposures).
+The LGD estimates used for the IRB capital calculation cannot be
+less than the long-run default-weighted average.8
+In the case of corporate, sovereign and bank exposures, the correlation factor (R) is given by
+
+For all Norwegian households we have tax return data with
+household income, debt and interest payments. This covers more
+than two million households per year over the sample period
+1986–2007. Data on standard living costs are taken from the
+National Institute for Consumer Research.
+For all Norwegian banks we have detailed ﬁnancial statements,
+balance sheets and capital adequacy reports9 over the period
+1991–2008. Information on individual borrowers of each bank is
+not available, but the volumes of loans can be allocated to sectors and industries. Using this type of loan classiﬁcation we can
+combine data from the banks’ balance sheets with detailed data on
+individual enterprises and households along the sector/industry
+dimension. The data source is the Bank Statistics.
+3.2. Models
+
+To calculate capital requirements according to the Basel II
+framework we use Norges Bank’s proprietary database with
+accounting data for enterprises, households and banks. This data
+set probably includes more comprehensive and relevant information for calculating Basel II capital requirements than the market
+indicators used in several of the previous simulation studies. Market liquidity effects, herd behaviour and several other mechanisms
+in the capital market may produce substantial variation in market indicators that is not related to the borrowers’ probability of
+default. Moreover, market indicators are only available for a fraction of the banks’ borrowers.
+Our data on enterprises include annual ﬁnancial statements for
+all Norwegian joint-stock individual companies over the period
+1988–2007. The number of enterprises submitting their ﬁnancial
+records to the database is up from 50,000 in 1988 to 190,000 in
+2007. The total bank debt of these companies accounted for around
+90% of the Norwegian banking sector’s loans to enterprises by the
+end of 2007. The data source is the Statistics on enterprises.
+
+We project the banks’ capital requirements and capital positions using a suite of models. The literature typically employs
+rating agency transition matrices or different versions of Merton’s
+option pricing model and market information to calculate the capital requirements for a hypothetical credit portfolio, i.e. an artiﬁcial
+bank. We simulate the capital positions and the minimum capital
+requirements of real banks.
+Chart 1 illustrates the relationship between our models. Projections of key variables from a macro model, i.e. credit growth,
+lending rates, wages, gross domestic product, inﬂation, house
+prices and housing investments, are used as input in a bank model,
+an enterprise model, a household model, a logit model for banks
+and a LGD model.
+The macro model is an equilibrium correction model for the
+Norwegian economy. A core macro model has been expanded by
+introducing relationships that are central to the analysis of ﬁnancial
+stability. The GDP equation includes feedback effects from credit
+and house prices to real activity. The macro model thus internalises the co-movement and procyclicality of credit, asset prices
+and agent optimism discussed in the literature, see Borio et al.
+(2001). The core model is estimated on a data set that includes
+the 1988–92 banking crisis in Norway. The additional ﬁnancial stability equations are in general estimated on shorter samples partly
+due to lack of data. Appendix A presents a stylised version of the
+macro model. For a more detailed review of the relationships in the
+macro model, see Andersen and Berge (2008).
+The enterprise model predicts PDs and bank loans at the ﬁrm
+level as a generalised logistic function of accounting data indicators
+representing earnings, liquidity, ﬁnancial strength, industry, age
+and size of the company. The mean PD for each industry is projected
+from a base year by using autoregressive distributed lag models
+(ADLs) with inputs from the macro scenarios. The projected PD is
+then used to predict the default risk at the ﬁrm level. The ADLs
+are estimated on the basis of annual data from 1989 to 2004. The
+enterprise model and the projection procedures are described in
+detail by Nordal and Syed (2010), who also document the results
+of a back testing exercise.
+The household model measures the ﬁnancial margin of each
+household, deﬁned as the household income minus taxes, interest payments, repayment of debt and standard living costs. This
+margin serves as a reasonable measure of the households’ debtservicing capacity. For a discussion of households’ margins, see
+Vatne (2006, 2007). Forward projections of household income and
+interest payments are based on the macro scenarios. Repayment
+of debt is assumed to be linear over twenty years. Standard living
+
+8
+For each year considered in the observation period, the number of defaults
+occurring is used to weight the ﬁnal calculated average.
+
+9
+The database does not include capital adequacy reports for branches of foreign
+banks.
+
+
+
+R = 0.12
+
+1 − e−50PD
+1 − e−50
+
+
+
+
+
++ 0.24
+
+1−
+
+1 − e−50PD
+1 − e−50
+
+
+
+
+
+−c 1−
+
+S−5
+45
+
+
+
+where c is equal to zero for all exposures, except in the case of SME
+borrowers where the parameter is set equal to 0.04. S is expressed
+as total sales in million euros. For residential mortgage exposures
+and qualifying revolving retail exposures R is equal to 0.15 and 0.04
+respectively. For all other retail exposures R is given by:
+
+
+
+R = 0.03
+
+1 − e−35PD
+1 − e−35
+
+
+
+
+
++ 0.16
+
+1−
+
+1 − e−35PD
+1 − e−35
+
+
+
+The formula takes only the correlation between the idiosyncratic
+risk of an exposure and the systematic risk into account, ignoring
+correlations between the idiosyncratic risks of different exposures
+in a portfolio. Thus, the formula is based on the assumption that all
+idiosyncratic risks are diversiﬁed away.
+3. Data and models
+3.1. Data
+
+,
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+141
+
+Chart 1. The relationship between the models.
+
+costs are taken from the National Institute for Consumer Research
+and depend on key characteristics of the household.
+The bank model is a non-behaviour model. It includes data from
+the banks’ annual ﬁnancial statements, balance sheets and capital
+adequacy reports. The bank model is used to generate paths for
+banks’ results and capital adequacy. The banks’ main income and
+cost items are linked to variables in the macro model and the enterprise model. The bank model takes loan volumes, lending rates,
+and labour costs from the macro model. Projections of loan losses
+are taken from the enterprise model, the household model and the
+LGD model. For a more detailed description of the bank model, see
+Appendix B and Andersen and Berge (2008).
+The logit model for banks provides estimates of the PD for individual banks, based on indicators of the banks’ capital adequacy,
+earnings, liquidity, credit risk and concentration risk (see Andersen,
+2008).10 These indicators are projected based on the macro scenarios before the PDs are computed by the logit model. The logit model
+is estimated on the basis of quarterly bank data between 2000 and
+2005. The predictive powers of the logit model were veriﬁed outside the estimation sample period by applying it to 11 failed banks
+from the period 1990–93.
+The LGD model is a simple dynamic model where the main
+explanatory factor is changes in commercial property prices; see
+Bernhardsen and Larsen (2007).11 They found that the LGD can be
+projected with reasonable accuracy by this model. This is not surprising as banks’ lending to enterprises is often secured against
+property. According to the estimated model, a 10% drop in commercial property prices leads, cet. par., to an increase in the LGD
+of around 11 percentage points. Over time LGD tends towards a
+constant level of 35%.
+4. Projections
+In this section we outline our procedures for projecting the six
+largest Norwegian banks’12 capital positions, Basel II exposures and
+
+10
+Probability
+of
+failure = 9.55 − 0.93Capital
+adequacy − 50.5Return
+on
+assets − 0.059Share of mortgages − 0.094Liquidity risk measure + 1908.3Expected
+loss measure + 8.4Concentration risk measure.
+11
+LGD(t) = 0.085 + 0.76LGD(t − 1) − 1.09ln(commercial property prices).
+12
+DnB NOR, SpareBank 1 SR-Bank, Sparebanken Vest, SpareBank 1 SMN and SpareBank 1 Nord-Norge.
+
+risk parameters based on the data and models described in Section
+3. Generally, our procedures for approximating exposures and calculating risk parameters are in line with the Basel II requirements
+described in Section 2. However, as it is not possible to reproduce
+banks’ risk proﬁle completely, we need to incorporate some proxies for Basel II capital requirements on exposures not identiﬁed in
+our data set.
+4.1. Projection of Basel II exposures
+We calculate Basel II capital charges on the banks’ total loans
+to every sector and industry, including household exposures, bank
+exposures and sovereign exposures. The bulk of the empirical literature only assess the cyclicality of Basel II capital requirements
+for a hypothetical credit portfolio or parts of an individual bank’s
+assets, typically the corporate portfolio.
+Exposures to the corporate sector are approximated based on
+data from the Bank Statistics and the Statistics on enterprises. Loans
+to the corporate sector accounted for 28% of the assets in the Norwegian banking sector by the end of 2007. In the Bank Statistics the
+corporate loan portfolio is composed of nine different industries.13
+Data on total sales for each enterprise with bank debt makes it
+possible to classify debts within each of the nine different industries as corporate exposures, retail exposures and SME exposures
+for banks. While all enterprises with total sales less than 2 million
+NOK are assumed to be retail exposures, all enterprises with total
+sales exceeding 400 million NOK are assumed to be corporate exposures. The remaining enterprises are assumed to be SME exposures.
+This is in accordance with the Basel II classiﬁcation. Based on this
+assumption, 12.8% of the loans to the enterprise sector by the end
+of 2007 were corporate exposures, 38.6% were SME exposures and
+48.7% were other retail exposures. We assume that this distribution of exposures to corporates, retails and SMEs within each of the
+nine industries is identical for each of the largest Norwegian banks
+(and remains the same over the simulation period). This assumption should be innocuous when applied to the six large banks in
+our sample. We proceed to calculate capital requirements for corporate, retail and SME exposures within each industry for each
+
+13
+Primary industries, Property management, Commercial services, Mining and
+manufacturing, Oil and gas, Shipping abroad, Other transport, Construction and
+Retail trade, hotel and restaurant.
+
+142
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+individual bank. We thus take into account that different banks
+have different exposures to individual industries, see Chart 2.
+In this way we are able to differentiate the quality of borrowers between the banks. However, the data does not enable us to
+take into account the variation in bankruptcy probabilities within
+different risk groups. Some banks may end up with less creditworthy borrowers than others due to lower risk aversion or poorer risk
+management.
+Exposures to the households are approximated based on data
+from the Bank Statistics. Residential mortgage loans (including home
+equity lines of credit) accounted for 35% of the assets in the Norwegian banking sector at the end of 2007. The remaining retail
+exposures, i.e. total loans to the retail market less residential mortgages and other retail exposures are assumed to be qualifying
+revolving retail exposures. 4% of the Norwegian banking sector’s
+assets are classiﬁed as qualifying revolving retail.
+Bank exposures and sovereign exposures are reported in the Bank
+Statistics. While bank exposures accounted for 6% of assets in the
+Norwegian banking sector at the end of 2007, sovereign exposures
+accounted for less than 1%. Equity includes all assets posted as
+long-term shareholdings in the Bank Statistics. Equity exposures
+accounted for less than 1% of the assets in the Norwegian banking
+sector.
+Off-balance sheet exposures and Eligible purchased retail and corporate receivables are not identiﬁed in the Bank Statistics. Thus,
+capital requirements for these exposures are not calculated. These
+exposures accounted for a negligible share of the six largest Norwegian banks’ total capital requirements by the end of 2008.
+Altogether, we arrive at 31 different risk groups, including 27
+different risk groups for enterprises. In the simulations below,
+growth in the banks’ total loans to households and enterprises are
+taken from the macro model (see Chart 1). The distribution of exposures to each of the nine industries in the corporate portfolio will be
+projected by the enterprise model. Growth in residential mortgage
+exposures and qualifying revolving retail exposures is set equal to
+growth in total loans to households. Other exposures are assumed
+to grow at the same rate as total loan growth.
+4.2. Projection of Basel II risk parameters
+We apply the advanced IRB approach to calculate capital
+requirements for all Basel II exposures.14 Under the advanced IRB
+approach, banks provide their own estimates of the risk parameters. Contrary to most other studies, we allow for cyclicality in both
+the PDs and LGDs. Several studies argue that the LGDs are likely to
+be affected by the economic cycle; see for example Altman et al.
+(2005) and Dierick et al. (2005). Moreover, EADs may increase as
+borrowers make more use of their loan commitment limits during an economic downturn; see for example Allen and Saunders
+(2003). As the possibility of additional drawings on credit lines is
+incorporated in the predicted loan growth we implicitly assume
+that the EAD is affected by the cycle.
+PDs for loans granted to the enterprises, i.e. Corporate, SME and
+Other retail exposures are taken from the enterprise model (see
+Chart 1). The PDs for bank exposures are taken from the logit model
+for Norwegian banks. The PD for bank exposures is set equal to the
+average probability of failure as predicted for the six banks in our
+sample. The PDs for Sovereign exposures are set equal to the average
+PD reported in the 5th Quantitative Impact Study (QIS 5) by Basel II
+
+14
+The six banks in our sample have only adopted the IRB approach for parts of their
+holdings. For example, while the share of IRB exposures of total DnB NOR exposures
+was 38% at end-2007, the IRB share of Nordea Bank Norge was 54%. The banks are
+in the process of extending the IRB approach to their entire portfolios as set out in
+the Basel II framework.
+
+banks included in CEBS Group 1.15 The PDs for the residential mortgage loans and qualifying revolving retail exposures are assumed to
+be proportional to the share of household debt held by households
+with a negative ﬁnancial margin. The level of these PDs is calibrated
+according to the QIS 5 study and the average Basel II parameters
+reported by the Norwegian banks. Thus, our PDs are initially set
+equal to the PDs reported by the Basel II banks and then assumed
+to change with households’ debt-servicing capacity.
+The LGDs on corporate exposures, SMEs, bank exposures,
+sovereign exposures and small ﬁrms deﬁned as retail exposures are
+taken from the LGD model. The LGDs of residential mortgage loans
+and qualifying revolving retail exposures are initially set equal to
+the average LGD of the QIS 5 study, i.e. 16.1 and 55.0% respectively.
+However, these LGDs are assumed to change over the simulation
+period in line with the LGD from the estimated model for enterprises. The LGDs are not allowed to be less than their long-run
+default-weighted average. This is in accordance with the Basel II
+framework.
+The EADs of all on-balance sheet exposures are measured gross
+of provisions. The effects of on-balance sheet netting are not taken
+into account. The possibility of additional drawings on credit lines
+is indirectly incorporated in the predicted loan growth. The EAD
+estimates are therefore of a PIT character.
+According to the advanced IRB approach the effective maturity
+(M) should be measured based on cash ﬂow data. As data on cash
+ﬂows are not reported in the Bank Statistics, we apply the foundation IRB approach for measuring M. Thus M is set equal to 2.5 years
+for all exposures included in our study.
+Due to data limitations we apply the simple risk weight
+method16 for calculating the capital requirements for equity exposures. As the share of equity holdings not publicly traded is not
+identiﬁed in our data set, we apply a 350% risk weight for all equity
+exposures. This is in line with the simple risk weight method under
+the market-based approach for equity exposures.
+We calculate average risk parameters for each of the 31 different
+risk groups. These aggregate bankruptcy probabilities reveal information only on the average quality of borrowers from each risk
+group, and therefore only reﬂect the idiosyncratic risk for each bank
+due to its specialisation in particular groups of borrowers. Another
+potential disadvantage of using average risk parameters is that the
+capital requirement formula is not linear, but concave. However,
+Basel II urges banks to employ average risk parameters when calculating capital requirements for retail exposures.17 According to
+our estimates 52% of the assets owned by the Norwegian banking
+sector were retail exposures at the end of 2007. Consequently, our
+calculation of capital charges based on average risk parameters for
+different risk groups probably serve as a reasonable approximation.
+However, errors may still arise from applying average risk parameters if the distribution of PDs, LGDs and EADs is not stable through
+the economic cycle.
+
+15
+CEBS Group 1 banks are banks located in a country which are part of the Committee of European Banking Supervisors, have Tier 1 capital in excess of 3 billion
+euros, are diversiﬁed and internationally active. For a detailed description of the QIS
+5 study, see Basel Committee on Banking Supervision (2006a).
+16
+Under the market-based approach, banks are permitted to use two different
+methods: a simple risk weight method or an internal models method. Under the
+simple risk weight method a 300% risk weight is to be applied to equity holdings
+that are publicly traded and a 400% risk weight is to be applied to all other equity
+holdings.
+17
+According to Basel II, a retail exposure “must be one of a large pool of exposures,
+which are managed by the bank on pooled basis”. Furthermore, Basel II underlines
+that “For each identiﬁed pool of retail exposures, banks are expected provide an
+estimate of the PD and LGD associated with the pool”. In Norwegian regulations,
+banks estimating PDs for individual borrowers with statistical models can set the
+PD associated with the pool equal to the unweighted average of these PDs.
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+143
+
+Chart 2. The shares of loans to different industries for Norway’s ﬁve largest banks and Nordea Bank Norge. Percentage of total loans to the enterprise sector, 2008.
+
+4.3. Projection of additional Basel II capital requirements
+We need to incorporate some proxies for additional capital
+requirements on exposures which are not identiﬁed in our data
+set. The calculated cyclicality in our analysis is not expected to be
+signiﬁcantly affected by the fact that we do not cover the cyclicality
+of every single risk exposure.
+The capital requirement for operational risk is calculated by
+assuming that the (last reported) capital charge for operational
+risk increases at the same rate as gross income. Operational risk is
+not expected to be a source of increased procyclicality in the minimum capital requirements, as historical experiences indicate that
+operational risk charges actually tends to increase during economic
+upturns.
+The calculation of capital charges for market risk cannot be performed on data available in the Bank Statistics. Instead, we use the
+last reported capital charge for market risk at each bank. This capital
+charge is adjusted for annual growth of the ﬁnancial assets exposed
+to market ﬂuctuations identiﬁed in the banks’ balance sheets.
+The additional Pillar II capital requirement18 is approximated
+by multiplying the capital charge for all the identiﬁed exposures
+by annual real GDP growth (mainland Norway) from the macro
+model. This ensures that the Pillar II capital charge reﬂects business
+cycle effects. However, negative GDP growth will not result in any
+reductions in the Pillar I capital requirements. This is in line with
+Basel II which does not allow for any reductions in Pillar I capital
+requirements.
+The capital charge for the remaining exposures, i.e. off-balancesheet exposures, purchased receivables and exposures to foreign
+counterparts, and risk-reducing effects of guarantees and credit
+derivatives, are endogenously determined as a residual; the capital
+charge is equal to the difference between the latest Basel II capital
+requirements identiﬁed in the Bank Statistics and the sum of all the
+
+18
+Under the supervisory review process (Pillar II), supervisors should address
+whether the banks need to hold additional capital against credit risk concentrations, liquidity risk, interest rate risk in the banking book and other risks that are
+not, or not fully, covered in Pillar 1. Supervisors generally expect banks to operate
+above the minimum regulatory capital ratios and can require banks to hold capital
+in excess of the minimum. External factors such as business cycle effects and the
+macroeconomic environment should be considered. For a more detailed description
+of the Pillar II capital charge, see Basel Committee on Banking Supervision (2006b).
+
+capital charges speciﬁed above. In the projections, we assume that
+this residual grows at the same rate as the sum of all the capital
+charges speciﬁed above.
+
+5. Simulations on the Basel II capital requirements and
+capital positions
+Based on the procedures outlined in Sections 3 and 4 we calculate Basel II capital requirements and capital positions for the six
+banks under a four-year stress scenario. The projection period is
+from end-2007 until end-2011.19
+A severe shock in 2008 produces annual GDP growth of −1.6% in
+2009, −0.5% in 2010 and 0.4% in 2011. Such a deep recession has not
+been recorded in Norway since the late 1980s, i.e. during the previous banking crisis. A weakening of household conﬁdence in their
+own ﬁnancial situation and the downturn of the Norwegian economy lead to a sharp fall in house prices. In 2011, real house prices
+are about 50% lower than at the end of 2007. Consumer price inﬂation increases as a result of higher imported inﬂation. In response
+to higher consumer price inﬂation, the interest rate rises rapidly
+in 2008 to curb inﬂation. In 2009 the banks’ lending rate peaks at
+8.1%.
+Moreover, we assume that banks’ risk-willingness declines in
+pace with heightened global liquidity and credit risk. Banks are
+assumed to tighten lending sharply. Lower house prices and higher
+bank lending rates result in lower corporate and household credit
+growth and weaker economic developments. At the most, annual
+growth in loans to enterprises and households falls 5 and 2% respectively. Weaker macroeconomic developments and higher bank
+lending rates reduce borrowers’ debt-servicing capacity. This produces loan losses of 2.2% of total loans in 2011.
+As in e.g. Peura and Jokivuolle (2004), we assume that banks
+are not able to raise new capital. The margin between deposit and
+lending rates is constant through the projection period, but the
+premium on banks’ market funding costs increases. Dividends are
+assumed to be 50% of after-tax proﬁt, and are not paid if banks
+record a negative proﬁt.
+
+19
+Notice that this is a counterfactual scenario different from the one actually
+realised in 2008 and 2009.
+
+144
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Chart 3. Non-performing loans in different industries in percent of total loans to the enterprise sector. Actual numbers 1998–2007 and PD projections for 2008–2011.
+
+Chart 4. The share of household debt held by households with a negative ﬁnancial margin. Percentage of total loans to the household sector. Actual ﬁgures 1986–2007 and
+projections for 2008–2011.
+
+Chart 5. Probability of liquidity or solvency problems for Norway’s ﬁve largest banks and Nordea Bank Norge. Actual ﬁgures 1991–2007 and projections for 2008–2011.
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+145
+
+Chart 6. The loan-loss ratio. Percentage of total defaulted loans, 1991–2007.
+
+Initially, we employ our models to calculate PIT estimates of
+PDs and LGDs based on the stress scenario. Thereafter, these risk
+parameters are combined with the EADs and Ms and the Basel II
+formula to compute capital requirements. Historical data and projections of the PDs are displayed in Charts 3–5. Chart 3 shows the
+annual share of non-performing loans in different industries since
+1988. The stress scenario PDs projected by the enterprise model
+are also included in the chart.
+In several industries the PDs increase substantially during the
+last years of the simulation period and reach the highest level
+since the Norwegian banking crisis. The increase in the PDs from
+2008 to 2011 varies between 2% (property management) and 774%
+(primary industries). Hence, the effect of the stress scenario on
+different industries differs to a large extent.
+The share of household debt held by households with a negative
+ﬁnancial margin is reported in Chart 4. As outlined in Section 4.2, we
+assume that the PDs for residential mortgage loans and qualifying
+revolving retail exposures develop in line with this ratio. The share
+of household debt held by households with a negative ﬁnancial
+margin has been falling rapidly since 1989. However, according to
+the household model the share increases in 2007 and 2008.
+Chart 5 displays the average probability of liquidity or solvency
+problems for the ﬁve largest domestically held banks and Nordea
+Bank Norge. The probability of liquidity or solvency problems is
+derived from the logit model for Norwegian banks. The mean probability of liquidity or solvency problems was 65% in 1991, at the
+height of the Norwegian banking crisis. In the stress scenario this
+probability increases rapidly during the simulation period and is
+24% in 2011.
+Chart 6 displays the historical loan-loss ratio. This ratio is equal
+to the historical LGD. Towards the end of the previous banking crisis, i.e. in 1991, the loan-loss ratio was 54%. In 2002 the loan-loss
+ratio peaked again at 25%.
+5.1. PIT Basel II capital requirements
+We calculate Basel II capital requirements based on a PIT rating
+system and different versions of a TTC rating system. PIT models
+are based on more recent data and aim to predict developments
+over the next year, whereas TTC models aim to predict a long term
+average performance for the obligor. According to Catarineu-Rabell
+et al. (2003) many banks consider their rating systems as more PIT
+than TTC in nature. The main reason for this is the difﬁculty of
+obtaining sufﬁciently long data series for use in TTC systems. This
+
+is especially the case for recently established banks or banks operating in new markets. In addition, banks may prefer to use recent
+default data which is regarded as more relevant to the current
+situation.
+As a transitional arrangement the Financial Supervisory Authority of Norway allowed banks to employ the advanced IRB approach
+in 2008 and the foundation IRB approach in 2008 and 2009 even in
+cases where the historical observation period was no longer than
+two years.20 This may have been done to promote a level playing
+ﬁeld. Finally, constructing a TTC system is technically challenging
+because structural variables that are used to classify borrowers also
+vary with the cycle. Altogether, these facts indicate that calculating
+PIT capital requirements is relevant.
+We initially calculate PIT capital requirements based on single
+year PDs and LGDs. The average PDs and LGDs included in our calculation of PIT Basel II capital requirements are reported in Table C.1.
+The 0.03% ﬂoor is not binding in any single case. The LGDs are not
+allowed to be less than the average LGDs, which are assumed to be
+equal to the average LGDs reported in the QIS 5. This assumption
+is in line with the Basel II requirement that LGD estimates should
+reﬂect economic downturn conditions.
+We compare our projections of Basel II capital requirements
+with Basel I capital requirements which are based on constant
+risk weights. The calculated Basel I capital requirements are only
+affected by growth in banks’ total assets as we assume no sizeable
+portfolio shifts during the projection period.
+We ﬁnd that total Basel II capital requirements grow signiﬁcantly faster in the stress scenario than the Basel I capital
+requirements, see Table 1. The Basel II risk-weighted assets increase
+by 152% during the simulation period. In 2011 the total Basel II riskweighted assets for the six banks are 137% higher than the Basel I
+risk-weighted assets. The largest relative difference between these
+two ﬁgures for a single bank is 155%. These results support the
+hypothesis that the Basel II capital requirements might rise substantially in a recession, as credit risk materialises and borrowers
+are downgraded. The results also highlight the fact that risk can
+easily be underestimated if measured over short periods and on
+data that do not capture a complete credit cycle.
+As reported in Table 1, the Basel II risk-weightings increase substantially for Bank exposures, Corporates, SMEs and Other retail
+
+20
+See § 49-2 of the capital requirement regulations for Norwegian ﬁnancial institutions (2006): FOR 2006-12-14 nr 1506.
+
+146
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Table 1
+Risk-weighted assets for the ﬁve largest Norwegian banks and Nordea Bank Norge. Millions of NOK, 2008–2011.
+September 2008
+
+2008
+
+2009
+
+2010
+
+2011
+
+Reported Basel II risk-weighted assets
+Operational Risk
+Market Risk
+Pillar II
+Retail mortgages
+Qualifying revolving retail
+Bank
+Sovereign
+Corporates
+SME
+Other retail
+Equities
+Residual
+
+1295
+67
+46
+30
+124
+24
+157
+4
+61
+162
+117
+67
+436
+
+0
+56
+50
+36
+206
+24
+186
+4
+73
+193
+140
+68
+526
+
+0
+57
+49
+0
+466
+35
+545
+7
+139
+367
+263
+66
+1050
+
+0
+59
+48
+0
+453
+30
+693
+8
+191
+499
+339
+65
+1256
+
+0
+63
+48
+0
+300
+19
+682
+7
+178
+469
+307
+65
+1126
+
+Total Basel II risk-weighted assets
+Basel 1 risk-weighted assets
+
+1295
+1479
+
+1562
+1461
+
+3045
+1412
+
+3642
+1383
+
+3264
+1377
+
+exposures. The main driver behind the accelerating capital requirements for bank exposures is the increase in the PD mainly driven
+by deteriorating earnings and falling capital adequacy ratios. The
+LGDs of all sectors increase rapidly during the simulation period as
+property prices fall by around 50%. This sharp fall is an important
+driver behind the increase in the total capital requirements.
+The share of household debt held by households with a negative
+ﬁnancial margin peaks in 2008 at 14%, and then falls to 13.3% in
+2009 and below 10% in 2010 and 2011. This reduces the capital
+requirements for retail mortgages and qualifying revolving retail
+during the last years of the projection period.
+5.2. TTC Basel II capital requirements
+Under the Basel II framework banks are urged to use a TTC rating system. In order to calculate TTC PDs we combine historical
+data with projections of the PDs. The data employed to calculate TTC PDs are shown in Charts 3–5. As in Benford and Nier
+(2007), we set the TTC PDs equal to the ﬁve-year-moving average PDs. We also calculate TTC Basel capital requirements based
+on ten-year-moving average PDs. Accordingly, we apply ﬁve- and
+ten-year-moving average LGDs.
+The risk parameters included in the TTC calculation of Basel II
+capital requirements are reported in Tables C.2 and C.3. The PDs
+still increase rapidly during the simulation period. When the tenyear-moving average is applied, the increase in the PDs during
+the simulation period differs from 1% (mining) to 127% (primary
+industries). The increase in the PDs based on the ﬁve-year-moving
+average differs from 16% (mining) to 386% (shipping abroad). The
+0.03% ﬂoor is not binding in any single case.
+The ﬁve- and ten-year-moving average LGDs also increase
+substantially. When the ten-year-moving average is applied, the
+increase in the LGDs during the simulation period differs from
+17% (qualifying revolving retail) to 102% (retail mortgages). The
+increases in the LGDs are somewhat higher when the ﬁve-yearmoving average is employed.
+Tables C.4 and C.5 report the TTC calculated risk-weighted assets
+for the different exposures. Interestingly, the increase in the TTC
+Basel II risk-weighted assets is still sizeable. The Basel II riskweighted assets, based on the ten-year-moving average, increase
+by 64% during the simulation period. In 2011 the Basel II riskweighted assets based on the ten-year-moving average are 55%
+higher than the Basel I risk-weighted assets. The difference is 123%
+when the ﬁve-year-moving average PDs and LGDs are applied.
+These results reveal that banks adopting TTC rating systems
+may still experience substantial cyclicality in their Basel II capital requirements. The calculated increases in the Basel II capital
+
+requirements are higher than the increases documented by empirical studies like Kashyap and Stein (2004) and Saurina and Trucharte
+(2006). According to Kashyap and Stein (2004), TTC models lead
+to increases in capital requirements for corporate exposures of
+between 30 and 45% over the period 1998–2002. This was a period
+marked by pronounced economic slowdowns in both the US and
+Europe. PIT models result in increases of between 70 and 90% over
+the same period. Saurina and Trucharte (2006) found that the maximum TTC capital requirements were 56% higher than the minimum
+TTC capital requirements for retail mortgages in Spain during the
+period 1990–2004. Our analysis shows increases in the Basel II capital requirements in the range of 64% (TTC) to 152% (PIT). Benford
+and Nier (2007) found that the maximum TTC capital requirements
+were between 170 and 202% higher than the minimum TTC capital requirements for retail mortgages in the UK during the period
+1983–2006.
+Comparing results across different studies is, however, challenging as they vary along a number of dimensions. First, the
+macroeconomic shocks considered differ to a large extent. While
+we consider a recession scenario, other studies consider the implications of milder economic slowdowns. Second, the universe of
+borrowers considered varies across different studies. This affects
+the results when the sensitivity to macroeconomic shocks differs
+across borrowers. Finally, the models employed and the Basel II
+approaches applied differ to a large degree. For instance, allowing
+for cyclicality in LGDs in our analysis, contrary to most other studies, raises the estimated increase in Basel II capital requirements
+by around two thirds.
+5.3. Simulations on capital positions and Basel II capital adequacy
+Ultimately, it is the cyclicality in the capital adequacy that
+matters. Thus, the macroeconomic effects of Basel II will also
+depend on how the banks’ capital buffers are affected by the
+business cycle. In our bank model the regulatory capital is endogenously determined by the proﬁt net of losses and after taxes and
+dividends.21
+Chart 7 displays the average capital adequacy ratio for the
+six banks calculated using the Basel I approach, the Basel II PIT
+
+21
+Under Basel II, the difference between total provisions and total expected losses
+must be deducted from regulatory capital when expected losses exceed provisions.
+50% of the deduction must be made from Tier 1 capital and 50% from Tier 2 capital.
+Expected losses associated with equity exposures under the PD/LGD approach and
+securitisation exposures are not included in the sum of total expected losses. Total
+provisions include speciﬁc provisions, partial write-offs and general provisions. We
+assume that total provisions equal total expected losses.
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Chart 7. Mean capital adequacy in the ﬁve largest domestically held banks and
+Nordea Bank Norge. Percents of risk-weighted assets, 2008–2011.
+
+approach and the two Basel II TTC approaches. With constant risk
+weights (Basel I) the capital adequacy of the six banks falls close
+to the required level of 8% in 2011 unless new capital is raised.
+The reported Basel I capital adequacy ratio is mainly determined
+by changes in the capital position as we assume no sizeable portfolio shifts during the projection period. In the recession scenario,
+negative results in 2010 and 2011 reduce the capital position by
+16% from 2008 to 2011. Consequently, the Basel I capital adequacy
+ratio falls from 10.0% in 2008 to 8.8% in 2011. This demonstrates
+that changes in the capital position may affect capital adequacy
+substantially.
+We ﬁnd a negative co-movement between capital positions and
+Basel II capital weightings, i.e. capital positions deteriorate at the
+same time as capital requirements increase during the recession
+scenario. With the PIT Basel II approach the capital requirements
+of the six banks are violated already in 2009, and the ratio falls from
+9.3% in 2008 to 3.7% in 2011. Thus, the added cyclical pressure on
+bank capital positions caused by Basel II PIT capital requirements
+is quite extreme.
+With the TTC Basel II approaches the added cyclicality in the
+capital adequacy ratio is still sizeable. Even if the six banks employ
+TTC Basel II capital requirements based on ten-year-moving average PDs, they violate the capital requirements during the two last
+years of the projection period.
+One explanation behind the small difference in the cyclicality
+of TTC and PIT capital requirements may be the fact that the capital requirements formula is concave. Thus, the effect on the capital
+charge of an 800% increase in the PDs is less than eight times the
+effect of a 100% increase in the PDs. In addition, the PDs based
+on moving averages increase substantially during the simulation
+period, see Tables C.2 and C.3. Loan losses are often unexpected
+and tend to increase rapidly. Surprisingly high loan losses affect
+the risk parameters even when the historical observation period is
+ten years. Thus, Basel II may introduce signiﬁcant cyclicality in the
+capital requirements even when the banks have access to default
+data over a full decade.
+However, the cyclicality in the Basel II capital requirements
+can be effectively contained if the historical observation period is
+sufﬁciently long and includes economic downturn conditions. We
+ﬁnally apply twenty-year-moving average PDs and LGDs, based
+on the data in Charts 3–5, in order to cover the previous banking crisis. As reported in Table C.6, the risk parameters based
+on the twenty-year-moving average are fairly stable. Several PDs
+actually fall during the simulation period as the previous banking
+crisis is given lower weight. Thus, in 2011 the TTC Basel II risk-
+
+147
+
+weighted assets, based on the twenty-year-moving average, are
+only 5% higher than the Basel I risk-weighted assets, see Table C.7.
+The TTC Basel II risk-weighted assets, based on the twenty-yearmoving average, do not exhibit any signiﬁcant cyclicality during
+the simulation period.
+The removal of cyclicality can be explained as follows. First, with
+a data set covering a sufﬁciently long observation period the volatility in capital requirements is contained as new observations are
+given low weight. Second, when the risk parameters are estimated
+on a data set covering economic downturns, the increase in capital requirements during economic downturns is curbed as the risk
+parameters are already high.
+Our analysis demonstrates that the shorter the time series
+applied in banks’ risk models are, the more the capital requirement swings with the business cycle. The impact can be substantial.
+According to Basel II, internal estimates of PD must be based
+on a historical observation period covering at least ﬁve years.
+The LGD and EAD estimates should reﬂect economic downturn
+conditions and the observation period must be at least seven
+years. Some countries permit the use of considerably shorter time
+series than the optimal through-the-cycle coverage. In addition,
+the available time series tend to not include data from recessions.
+In sum, we ﬁnd that the observation period should be longer
+than ten years, and cover a recession in order to contain the cyclicality in the Basel II capital requirements. Thus, the difference
+between the time series employed and the ideal time series should
+be taken into account when the Basel Committee calibrate the new
+set of standards to reduce the procyclicality of capital requirements.
+
+6. Conclusion
+A growing body of literature has assessed the potential cyclicality of Basel II. However, only parts of banks’ assets have
+been considered in each study. In addition, the cyclicality of the
+capital positions is usually not taken into account. This paper
+analyses the cyclicality of capital positions and the cyclicality of
+Basel II capital requirements for the entire asset portfolio of six
+Norwegian banks. In addition, we apply a more comprehensive
+modelling approach and a more detailed data set than commonly
+applied in the literature. A bank model developed for stress-testing
+purposes is combined with bankruptcy probabilities from an enterprise model, from a logit model for banks and from a household
+model.
+Our analysis provides some new evidence on the cyclical nature
+of Basel II. Based on a recession scenario for the Norwegian economy, we document a substantial increase in the calculated Basel
+II capital weightings even when the banks employ a throughthe-cycle rating system where the risk parameters are based on
+a ten-year observation period. In our stress scenario, bank capital also deteriorates as the banks record high losses on loans and
+securities.
+The added cyclical pressure on bank capital positions caused
+by Basel II may be of a larger magnitude than the pre-existing
+effect under Basel I. However, the cyclicality of their Basel II capital
+requirements can be effectively contained if the historical observation period is sufﬁciently long and includes economic downturn
+conditions. Basel II risk-weighted assets, based on the twenty-yearmoving average, do not exhibit any signiﬁcant cyclicality during our
+simulation period.
+The Basel Committee will by the end of 2010 develop a revised
+capital adequacy framework in order to reduce the procyclicality in the banking sector. Our analysis of the cyclicality of capital
+
+148
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+positions and Basel II capital requirements can provide useful
+indications on how the capital adequacy framework should be calibrated in order to mitigate procyclicality. The shorter the time
+series applied in banks’ risk models are, the stronger the measures
+needed to reduce the procyclicality of capital requirements will
+be.
+An important area for further work is to develop a bank model
+covering the most important aspects of bank behaviour. The bank
+model employed in our analysis does not enable us to evaluate
+how banks may respond to the macro scenarios. Banks may for
+instance react to a tighter capital constraint by cutting off credit to
+its riskier borrowers, see e.g. Jokipii and Milne (2010). On the other
+hand, banks may not be able to attract borrowers of high credit
+quality when the economy is in a downturn. For a more complete
+representation we would also need to model contagion between
+banks.
+
+Import prices
+pit = 0.4vt +1.3pit∗ −0.4[(pi − pi∗ − v)t−1 − 0.6(p − p∗ − v)t−1 ]
+Estimation period 1990Q1–2007Q2
+Unemployment
+
+
+ut = 0.4ut−1 − 1.6
+
+1
+4
+2
+
+2
+
+
+
+
+The author is indebted to an anonymous referee, Farooq Akram,
+Sigbjørn Atle Berg, Bent Vale and Eivind Bernhardsen for useful
+comments. The views expressed in this paper are those of the
+author and should not be interpreted as reﬂecting those of Norges
+Bank (the Central Bank of Norway).
+
+1
+4
+2
+
+yt−j − mean
+
+		
+
+2
+
+
+j=1
+
+yt−j
+j=1
+
+− 0.03[ut−2 − 11.1(w − p)t ]
+
+Estimation period 1979Q3–2007Q4
+
+(4)
+
+Wages
+wt = zt − 0.5(wt−1 − zt−1 ) − 0.1[wt−2 − pt−1 − zt−2
++ 0.001ut−1 − w ]
+
+Acknowledgements
+
+(3)
+
+Estimation period 1978Q4–2007Q4
+(5)
+
+Consumer prices
+pt = 0.3pt−2 + 0.1yt−1 + 0.1(wt−1 − zt−1 ) + 0.1pet
+− 0.06[pt−3 − 0.65(wt−3 − zt−2 ) − 0.35pit−1 − p ]
+
+Appendix A. The macro model
+
+Estimation period 1978Q4–2007Q4
+
+The core macro model is an extension of the model reported
+in Bårdsen and Nymoen (2008) and Bårdsen et al. (2005).22 It
+is a macro-econometric model estimated on quarterly data. The
+model explicitly takes into account several channels of interplay
+between output, inﬂation and ﬁnancial stability. The equations are
+in equilibrium-correction form, with backward-looking expectations formation.
+We present a stylised version of the model in Eqs. (1)–(13). Small
+letters denote natural logarithms of the variable,  denotes the
+ﬁrst difference operator, j denotes the j-period difference operator, and foreign variables are denoted with starred superscripts.
+In general, intercept terms and seasonal effects have been omitted from the equations for ease of exposition. The identities that
+complete the model are not reported.
+Aggregate demand
+yt = −0.6yt−1 + 0.7gt + 0.4gt−1 + 0.1(ph − p)t−1
+
+Money market interest rate
+∗
+− 1) + 0.4Rt∗ − 0.5
+Rt = 1.5(tc − 2.5) − 0.6(Rt−1 − Rt−1
+
+⎛
+
+⎞
+
+1
+×⎝
+ut−j − 2⎠
+4
+4
+
+Estimation period 1991Q1–2007Q2
+
+j=1
+
+(7)
+Banks’ lending rate
+RLt = 0.8Rt + 0.2Rt−1 − 0.35[RLt−1 − (Rt−1 + RLM)]
+
+(8)
+
+Household debt
+(cr h − pt ) = −0.01(RLt−2 + RLt−3 ) + 0.3(inc − p)t−1
++ 0.1((ph − p)t − (ph − p)t−3 ) − 0.04[(cr h − p)t−1
+
++ 0.1(cr e − p)t−1 + 0.2(cr h − p)t−3
+− 0.3[(yt−2 − 0.8gt−2 − 0.1(v + p∗ − p)t−1 − 0.1(cr h − p)t−4
++ 0.01(RL − )t−1 ]
+
+(6)
+
+− 0.7(ph − p)t−4 + 0.04RLt−4 − 1.2(inc − p)t−2 ]
+Estimation period 1991Q1–2007Q2
+
+(9)
+
+Estimation period 1991Q1–2006Q4
+(1)
+
+House prices
+pht = 0.2inct − 0.03RLt − 0.02RLt−1 + 0.03Hte
+
+Exchange rate
+vt =
+
+ϕ(−0.04Rt + 0.05Rt∗
+
+h
+−0.1[pht−1 +0.05RLt−1 + 0.5ut −1.3(inc − hs)t−1 −0.3crt−1
+]
+
+− 0.1pot − 0.07ut−1 )
+
+Estimation period 1990Q2–2006Q4
+
+(10)
+
+∗
+
+− 0.1[(v + p − p)t−1 + 0.03((R − )t−1 − (R∗ − ∗ )t−1 )
++ 0.1(po + usd − p)t−1 − v ]
+Estimation period 1994Q2–2007Q2
+
+Housing investments
+
+
+
+(2)
+jt = −0.044
+
+1
+RL −
+3
+
+1
+
+
+j=−1
+
+	
+c
+t−j
+
+
+− 0.01
+
+t
+
+1
+RL −
+3
+
+1
+
+
+	
+c
+t−j
+
+j=−1
+
+t−4
+
+− 0.1[(jt−1 −hst−10 )−(ph − p)t−4 − (inc − p)t−1 − (pj − p)t−4 ]
+22
+The presentation of the core part of the macro model is based on Bårdsen and
+Nymoen (2008).
+
+Estimation period 1991Q1–2007Q4
+
+(11)
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Household default rate
+(dh − cr h ) = −0.23 (dh − cr h )t−1 + 0.022 (RL − )t
++ 0.022 (RL − )t−2 − 0.54 (ph − p)t
+− 0.2[(dh − cr h )t−4 − 0.4ut−3 − 0.08(RL − )t−4
++ 1.2(inc − p)t−1 + 1.2(ph − p)t−4 ]
+Estimation period 1993Q1–2005Q4
+
+(12)
+
+Firm default
+(de − p)t = −0.32 (de − p)t−1 + 0.022 (RL − )t + 0.9ut
++ 0.7ut−1 + 1.5(cr e − p)t−3 − 0.4(po + usd − p)t
+− 0.5[(de − p)t−3 − (cr e − p)t−4 − 0.05(RL − )t−3
+− 1.7ut−2 + 0.7(v + p∗ − p)t−3 + 0.5(po + usd − p)t ]
+Estimation period 1992Q1–2005Q4
+
+(13)
+
+where  = 100(4 Pt /Pt−4 ) is the inﬂation rate; u =
+u ) is the core inﬂation rate, i.e. inﬂation adjusted for
+100(4 Ptu /Pt−4
+∗ ) is the
+changes in energy prices and taxes; ∗ = 100(4 Pt∗ /Pt−4
+foreign inﬂation rate.
+Growth in real aggregate demand (y) is modelled in Eq. (1).
+Aggregate demand is affected by the real interest rate (RL − ), real
+government expenditure (g) and the real exchange rate (v + p∗ −
+p). Thus, a change in the nominal exchange rate would directly
+affect aggregate demand. Aggregate demand is also affected by
+house prices and credit. Changes in real house prices (ph − p) have
+short-run effects on aggregate demand through a wealth effect on
+consumption and through housing investments not captured by the
+real interest rate. Real corporate credit (cre − p) affects GDP in the
+short run, while real household credit (crh − p) has long-run effects
+on GDP. The short-run effect is interpreted as reﬂecting frictions in
+the credit market, while the long-run effect points towards a form
+of rationing of the household sector.
+The exchange rate (in logs denoted v) expresses the number of domestic currency units per unit of foreign currency. The
+equation of growth of the nominal effective exchange rate (v)
+in Eq. (2) reacts to deviations from PPP (v + p∗ − p) and hence
+contributes to stabilising the real exchange rate. ϕ is a dummy
+for inﬂation targeting, and takes the value 0 up until 2001Q1
+and the value 1 from 2001Q2. In the long run, the nominal
+exchange rate reﬂects the difference between domestic and foreign prices and the difference between domestic and foreign
+real interest rates (R − ) − (R∗ − ∗ ). Accordingly, domestic inﬂation is fully reﬂected in the nominal exchange rate in the long
+run.
+Import prices measured in domestic currency (pi) are a homogenous function of the nominal exchange rate (v) and foreign
+producer prices measured in foreign currency (pi*). On the other
+hand, import prices increase if the real exchange rate (in terms of
+consumer prices) appreciates. This is due to pricing-to-markets in
+import price setting.
+The unemployment rate (u) follows output growth (y) in the
+short run as an Okun’s law relationship, see Eq. (4). In addition, it
+exhibits slow reversion towards its equilibrium rate; an intercept
+term has been omitted.
+There is a pass-through of consumer price inﬂation (p) to nominal wage growth (w) in the short run; see Eq. (5). In each period,
+nominal wages adjust towards their long-run relationship where
+there is a full pass-through of consumer prices and productivity
+
+149
+
+(z). However, the mark-up of wages on prices and productivity is
+inversely related to the unemployment rate (u).23
+In the short run, consumer price inﬂation varies with changes in
+aggregate demand (y) and to some extent nominal wage growth
+(w); see Eq. (6). In addition, it adjusts to deviation from the longrun relationship for consumer prices. In the long run, consumer
+prices (p) reﬂect a weighted average of domestic and imported
+costs, represented by unit labour costs (w − z) and import prices
+(v + p∗ ). It follows that the initial effect of a change in nominal
+exchange rate on aggregate demand would become modiﬁed over
+time due to the exchange rate pass-through to inﬂation, which
+would have an effect opposite that of the nominal exchange rate on
+the real exchange rate. The model also includes an equation for the
+underlying, i.e. core, inﬂation rate (pc ), which is linked to consumer
+price inﬂation.
+The three-month money market interest rate (R) follows an estimated Taylor-type rule in Eq. (7). Since March 2001, Norwegian
+monetary policy is aimed at targeting the annual core inﬂation
+rate (c ) at 2.5%. Despite the fact that Norwegian monetary policy has changed over time24 the estimated equation is stable over
+the estimation period 1991–2006. The interest rate responds to
+deviation from target in domestic core inﬂation and to deviation in
+unemployment from 2%. This unemployment gap represents the
+output gap. If the interest rate deviates from the foreign interest
+rate including a premium of 1 percentage point, this also affects
+the interest rate.
+Banks’ lending rate (RL) is deﬁned to follow the money market
+rate. A lending margin (RLM), i.e. the margin between the lending rate and the money market rate, is an exogenous variable in
+the model. The coefﬁcients of this equation are calibrated and not
+estimated.
+The relationship explaining movements in household debt in
+Equation (9) builds on the work presented in Jacobsen and Naug
+(2004). Growth in household debt (cr h ) reacts positively to
+growth in income (inc) and housing prices (ph), and decreases
+with higher interest rate on loans (RL); see Jacobsen and Naug
+(2004) for further details.
+The model of house prices (ph) in Equation (10) is based on
+Jacobsen and Naug (2005). The growth rate of nominal house
+prices (ph) is explained by growth in nominal income (inc) and
+household expectations about their own ﬁnancial situation and the
+Norwegian economy (He ), i.e. a survey-based consumer conﬁdence
+indicator, as well as interest rate changes (RL) and deviations
+from steady state. In steady state, house prices (ph) are mainly
+determined by income (inc) and housing capital (hc) in addition to
+the interest rate (RL), the unemployment rate (u), and household
+debt (crh ).
+The equation for gross ﬁxed housing investment (j) is based
+on Jacobsen et al. (2007), see Eq. (11). Growth in gross ﬁxed
+housing investment
+(j) dependson the change in the real lend
+ing rate 4 RL − (1/3)
+
+1
+
+j=−1
+
+c
+
+. In steady state, gross ﬁxed
+t
+
+investment depends on the level of housing capital (hs) due to
+replacement investment, real house prices (ph − p), real investment
+price (pj − p), households’ real wage 
+income (inc − p) as a proxy
+ for
+land costs, and the real lending rate
+
+RL − (1/3)
+
+1
+
+j=−1
+
+c
+t−j
+
+.
+t−4
+
+23
+The constant mark-up term is suppressed. In the full econometric model,
+productivity (z) is an endogenous variable that depends on real wages (w − p),
+unemployment (u) and a deterministic trend.
+24
+At the very beginning of the sample, NOK was pegged to the ECU, but went
+ﬂoating in December 1992. Although inﬂation targeting was formally introduced in
+March 2001, it is a common view that this regime was gradually introduced from
+early 1999.
+
+150
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Chart 8. The bank model.
+
+The equations of default25 by households and ﬁrms in (12) and
+(13) respectively are based on Berge and Boye (2007). Households’
+default rate (dh − cr h ), i.e., default as a share of total household
+bank debt, depends on households’ real income (inc − p), unemployment (u), the real interest rate (RL − ) and real house prices
+(ph − p). With respect to ﬁrms’ default, there is not homogeneity between default and debt in the short run, only in the long
+run. Firms’ default, measured in real terms (de − p), depends on
+the level of debt (cr e − p), the real interest rate (RL − ), domestic
+demand proxied by the unemployment rate (u), the real exchange
+rate (v + p∗ − p) as a measure of competitiveness and the real oil
+price (po + usd − p). The latter variable captures that the level of
+activity and investments in the oil sector affect other industries.
+In addition, SMM includes estimated equations for bankruptcies
+in ﬁrms adapted from Jacobsen and Kloster (2005), productivity (z),
+and bond rates (RB).
+
+B.1. Banks’ proﬁt and loss account
+Banks’ proﬁt after tax and dividends is calculated in the following manner:
+PRO = NII + OOI − OOC − LL − T − DIV
+
+(2.1)
+
+where proﬁt after tax and dividends (PRO) depends on net interest
+income (NII), other operating income (OOI), other operating costs
+(OOC), loan losses (LL), tax (T) and dividends (DIV).
+Net interest income (NII) which is included in the calculation of
+banks’ proﬁt after tax and dividends (see Eq. (2.1)), is calculated as
+follows:
+NII = ((L − 1 + L)/2) · LR+((OA − 1 + OA)/2) · ROA−((D − 1 + D)/2)
+· RD − ((OL − 1 + L)/2) · ROL
+
+(2.2)
+
+The bank model is a non-behavioural model and consists of
+three main components: proﬁt and loss account, balance sheet and
+capital adequacy calculation, see Chart 8.
+The proﬁt and loss account and the balance sheet have a reciprocal effect on each other. Banks’ proﬁt after tax and dividends
+directly affects banks’ equity capital included in the balance sheet.
+At the same time, net interest income, which is included in the
+proﬁt and loss account, is determined by the size of the assets and
+liabilities in the balance sheet. The balance sheet affects the capital adequacy calculation. Equity capital is an important item in
+the calculation of regulatory capital included in the capital adequacy calculation. The balance sheet also affects the risk-weighted
+assets for capital adequacy calculation. The bank model’s projections make use of the output from the macro model on lending,
+lending rates and labour costs. The model may be used for individual banks or groups of banks, depending on the purpose of the
+analysis. A detailed presentation of the model follows.
+
+where the subscript −1 indicates that the variable is from the previous year. Net interest income (NII) depends on net lending (L),
+average lending rate (LR), other interest-bearing assets (OA), average interest rate on other interest-bearing assets (ROA), deposits
+from customers and other ﬁnancial institutions (D), average interest rate on deposits from customers and other ﬁnancial institutions
+(RD), other interest-bearing liabilities (OL)26 and average interest
+rate on other interest-bearing liabilities (ROL). An increase in the
+average interest rate on loans and other interest-bearing assets
+increases in isolation net interest income, whereas an increase in
+the average interest rate on deposits and other interest-bearing liabilities has the opposite effect. In addition, growth in total assets
+will increase net interest income if the marginal interest rate is
+higher on interest-bearing assets than on interest-bearing liabilities. Net interest income as a share of banks’ total operating income
+has fallen over the past ten years, although the share was nonetheless 67% at end-2007. It is therefore especially important that the
+projections for this income item are accurate.
+Other operating income (OOI) which is included in the calculation
+of banks’ proﬁt after tax and dividends (see Eq. (2.1)), is calculated
+
+25
+Our data on problem loans include both default and loans with a high probability
+of default as reported by the banks.
+
+26
+Other interest-bearing liabilities include short-term paper, bonds, subordinated
+loans and other debt.
+
+Appendix B. The bank model
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+as follows:
+OOI = FEE + SD + NGS + NGFE + NGD + OGI
+
+(2.3)
+
+where other operating income is the sum of fee income (FEE), share
+dividends (SD), gains/losses on securities (NGS), foreign exchange
+(NGFE) and derivatives (NGD), as well as other gains and income
+(OGI).
+Fee income (FEE), which is included in the calculation of other
+operating income (see Eq. (2.3)), is calculated using an error correction model estimated on quarterly data:
+ ln(FEE) = −4.82 − 0.37 ln(FEE − 1) + 0.60 ln(GDP − 1)
++ 1.51(R5Y −R3M)−1−0.003FORB+0.94 ln(GDP)
++ 0.23 ln(FEE − 4) + 0.02S1 + 0.01S2 − 0.001S3
+(2.4)
+where ln designates the logarithm of the variable, the subscript
+−1 indicates that the variable is from the previous quarter and 
+designates the ﬁrst difference, i.e.  ln(FEE) = ln(FEE) − ln(FEE − 1).
+Banks’ fee income is estimated using GDP (GDP), the yield differential between 5-year government bonds (R5Y) and three-month
+money market rates (R3M), and the market share of branches of
+foreign banks (FORB). The equation also contains the effects of seasonal variations (S(i)). See Andersen et al. (2008) for a more detailed
+description of the equation. At the end of 2007, fee income was the
+largest item in other operating income, accounting for 55% of the
+total.
+Other operating costs (OOC) include labour costs, commission
+costs, electronic data processing costs and other costs. Labour costs
+represented the largest item, accounting for 55% of other operating
+costs in 2007.
+Loan losses (LL) have been low in recent years, but may increase
+considerably if the ﬁnancial position of borrowers deteriorates.
+During the Norwegian banking crisis in the period 1988–1993, loan
+losses were very high, and in 1991 loan losses were higher than
+other operating costs. Projected loan losses are derived from the
+enterprise model, the household model and the LGD model.
+Tax (T) is set at 28% of proﬁt before tax and dividends. The average share of tax that banks have charged to income during the past
+ﬁve years is slightly less than 28%, but the share varies from year
+to year.
+Banks’ dividends (DIV) are assumed to be 50% of after-tax proﬁt.
+A dividend is not paid if banks record a negative proﬁt.
+B.2. Banks’ balance sheets
+A bank’s balance sheet consists of an asset column listing the
+bank’s assets and a liability column indicating how the assets have
+been funded. The assets in the balance sheet comprise the following
+items:
+• loans to households and enterprises
+• securities and deposits in other ﬁnancial institutions
+• other assets
+
+151
+
+Loans, accounting for 67% of banks’ total assets in 2007, represented the dominant asset on the balance sheet.
+Liabilities comprise the following items:
+•
+•
+•
+•
+•
+
+customer deposits
+market funding
+other debt
+subordinated loans
+equity capital
+
+Deposits, accounting for 62% of banks’ total liabilities, represented the dominant liability on the balance sheet. Market funding
+comprises bonds, short-term paper and loans from other ﬁnancial
+institutions.
+B.3. Banks’ capital adequacy
+The calculation of banks’ capital adequacy is based on projections of regulatory capital and the risk-weighted assets for capital
+adequacy. Banks’ regulatory capital is the sum of Tier 1 capital and
+subordinated debt. It is impossible, however, to identify all components of Tier 1 capital. Therefore, a residual, i.e. the difference
+between the last reported ﬁgure for Tier 1 capital and the sum of
+the Tier 1 capital items in the balance sheet, is also projected. The
+risk-weighted assets for capital adequacy are calculated separately
+based on projections for the assets portfolio and the corresponding
+risk parameters.
+B.4. Risk factors that can be analysed using the bank model
+The bank model can be used to analyse the effect of several different risk factors on banks’ proﬁt and ﬁnancial strength. Credit risk
+affects banks’ loan losses (LL). Credit risk is therefore included in the
+bank model through the effect of estimated loan losses on banks’
+proﬁt (PRO) and capital adequacy.
+Liquidity risk affects banks’ funding costs. In the bank model, the
+deposit rate (DR) and the interest rate on other interest-bearing
+liabilities (ROL) can be adjusted as a result of changes in liquidity
+risk. Changes in the interest rate that banks pay for funding affects
+estimated net interest income (NII) as well as banks’ proﬁt (PRO)
+and capital adequacy.
+Market risk affects dividends (DIV) and gains/losses on securities
+(NGS), foreign exchange (NGFE) and derivatives (NGD). Changes in
+market risk are thus important to other operating income (OOI),
+which is included in the calculation of banks’ proﬁt (PRO) and capital adequacy.
+Banks can incur considerable losses as a result of operational
+risk. In the bank model, costs resulting from operational risk are
+included in other operating costs (OOC). Losses due to operational
+risk will thus lead to higher costs, lower proﬁts (PRO) and a reduction in capital adequacy in the bank model.
+Appendix C.
+See Tables C.1–C.7.
+
+152
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Table C.1
+PIT risk parameters, 2008–2011.
+2008
+
+2009
+
+2010
+
+2011
+
+Exposure
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+Bank
+Sovereign
+Retail Mortgages
+Qualifying Revolving Retail
+
+0.0195
+0.0013
+0.0120
+0.0369
+
+0.406
+0.406
+0.262
+0.558
+
+0.0952
+0.0013
+0.0114
+0.0350
+
+0.737
+0.737
+0.627
+0.852
+
+0.1412
+0.0013
+0.0085
+0.0262
+
+0.827
+0.827
+0.7’44
+0.915
+
+0.2358
+0.0013
+0.0085
+0.0172
+
+0.720
+0.720
+0.657
+0.787
+
+Enterprises
+Primary industries
+Oil and gas
+Mining
+Construction
+Retail trade, hotel and restaurant
+Shipping abroad
+Other transport
+Property management
+Commercial services
+
+0.0292
+0.0134
+0.0108
+0.0148
+0.0233
+0.0123
+0.0256
+0.0129
+0.0135
+
+0.406
+0.406
+0.406
+0.406
+0.406
+0.406
+0.406
+0.406
+0.406
+
+0.0569
+0.0217
+0.0100
+0.0227
+0.0298
+0.0198
+0.0381
+0.0180
+0.0132
+
+0.737
+0.737
+0.737
+0.737
+0.737
+0.737
+0.737
+0.737
+0.737
+
+0.1452
+0.0516
+0.0167
+0.0516
+0.0639
+0.0471
+0.0829
+0.0237
+0.0344
+
+0.827
+0.827
+0.827
+0.827
+0.827
+0.827
+0.827
+0.827
+0.827
+
+0.2549
+0.0910
+0.0194
+0.0871
+0.0993
+0.0831
+0.1367
+0.0132
+0.0510
+
+0.720
+0.720
+0.720
+0.720
+0.720
+0.720
+0.720
+0.720
+0.720
+
+Equities
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+2009
+
+2010
+
+350% Risk weight
+
+Table C.2
+TTC risk parameters. Five-year-moving average PDs and LGDs, 2008–2011.
+2008
+
+2011
+
+Exposure
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+Bank
+Sovereign
+Retail Mortgages
+Qualifying Revolving Retail
+
+0.0086
+0.0013
+0.0120
+0.0369
+
+0.361
+0.361
+0.181
+0.552
+
+0.0274
+0.0013
+0.0143
+0.0439
+
+0.438
+0.438
+0.274
+0.612
+
+0.0553
+0.0013
+0.0154
+0.0472
+
+0.534
+0.534
+0.391
+0.685
+
+0.1011
+0.0013
+0.0154
+0.0473
+
+0.608
+0.608
+0.490
+0.732
+
+Enterprises
+Primary industries
+Oil and gas
+Mining
+Construction
+Retail trade, hotel and restaurant
+Shipping abroad
+Other transport
+Property management
+Commercial services
+
+0.0214
+0.0116
+0.0119
+0.0095
+0.0240
+0.0069
+0.0165
+0.0089
+0.0161
+
+0.361
+0.361
+0.361
+0.361
+0.361
+0.361
+0.361
+0.361
+0.361
+
+0.0257
+0.0119
+0.0111
+0.0123
+0.0237
+0.0096
+0.0206
+0.0105
+0.0130
+
+0.438
+0.438
+0.438
+0.438
+0.438
+0.438
+0.438
+0.438
+0.438
+
+0.0505
+0.0206
+0.0122
+0.0208
+0.0316
+0.0179
+0.0343
+0.0138
+0.0172
+
+0.534
+0.534
+0.534
+0.534
+0.534
+0.534
+0.534
+0.534
+0.534
+
+0.0994
+0.0369
+0.0139
+0.0369
+0.0471
+0.0337
+0.0597
+0.0152
+0.0248
+
+0.608
+0.608
+0.608
+0.608
+0.608
+0.608
+0.608
+0.608
+0.608
+
+Equities
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+2009
+
+2010
+
+2011
+
+Table C.3
+TTC risk parameters. Ten-year-moving average PDs and LGDs, 2008–2011.
+2008
+Exposure
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+Bank
+Sovereign
+Retail Mortgages
+Qualifying Revolving Retail
+
+0.0058
+0.0013
+0.0120
+0.0369
+
+0.356
+0.356
+0.171
+0.551
+
+0.0150
+0.0013
+0.0124
+0.0382
+
+0.394
+0.394
+0.218
+0.581
+
+0.0290
+0.0013
+0.0126
+0.0388
+
+0.442
+0.442
+0.276
+0.618
+
+0.0523
+0.0013
+0.0126
+0.0373
+
+0.479
+0.479
+0.326
+0.641
+
+Enterprises
+Primary industries
+Oil and gas
+Mining
+Construction
+Retail trade, hotel and restaurant
+Shipping abroad
+Other transport
+Property management
+Commercial services
+
+0.0296
+0.0116
+0.0145
+0.0104
+0.0296
+0.0094
+0.0205
+0.0097
+0.0243
+
+0.356
+0.356
+0.356
+0.356
+0.356
+0.356
+0.356
+0.356
+0.356
+
+0.0331
+0.0120
+0.0140
+0.0116
+0.0295
+0.0102
+0.0212
+0.0106
+0.0229
+
+0.394
+0.394
+0.394
+0.394
+0.394
+0.394
+0.394
+0.394
+0.394
+
+0.0450
+0.0157
+0.0142
+0.0157
+0.0325
+0.0131
+0.0278
+0.0122
+0.0234
+
+0.442
+0.442
+0.442
+0.442
+0.442
+0.442
+0.442
+0.442
+0.442
+
+0.0672
+0.0241
+0.0146
+0.0233
+0.0386
+0.0203
+0.0390
+0.0124
+0.0252
+
+0.479
+0.479
+0.479
+0.479
+0.479
+0.479
+0.479
+0.479
+0.479
+
+Equities
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+153
+
+Table C.4
+Risk weighted assets for the ﬁve largest Norwegian banks and Nordea Bank Norge based on ﬁve-year-moving average PDs and LGDs. Millions of NOK, 2008–2011.
+September 2008
+
+2008
+
+2009
+
+2010
+
+2011
+
+Reported Basel II risk-weighted assets
+Operational Risk
+Market Risk
+Pillar II
+Retail mortgages
+Qualifying revolving retail
+Bank
+Sovereign
+Corporates
+SME
+Other retail
+Equities
+Residual
+
+1295
+67
+46
+27
+124
+24
+120
+4
+56
+147
+105
+67
+508
+
+0
+56
+50
+28
+142
+24
+127
+4
+59
+157
+112
+68
+533
+
+0
+57
+49
+0
+236
+29
+214
+4
+72
+189
+136
+66
+703
+
+0
+59
+48
+0
+351
+34
+319
+5
+100
+264
+189
+65
+958
+
+0
+63
+48
+0
+441
+37
+456
+6
+133
+348
+242
+65
+1228
+
+Total Basel II risk-weighted assets
+Basel 1 risk-weighted assets
+
+1295
+1479
+
+1360
+1461
+
+1756
+1412
+
+2393
+1383
+
+3067
+1377
+
+Table C.5
+Risk weighted assets for the ﬁve largest Norwegian banks and Nordea Bank Norge based on ten-year-moving average PDs and LGDs. Millions of NOK, 2008–2011.
+2008
+
+2009
+
+2010
+
+2011
+
+Reported Basel II risk-weighted assets
+Operational Risk
+Market Risk
+Pillar II
+Retail mortgages
+Qualifying revolving retail
+Bank
+Sovereign
+Corporates
+SME
+Other retail
+Equities
+Residual
+
+September 2008
+1295
+67
+46
+27
+124
+24
+102
+4
+59
+155
+111
+67
+509
+
+0
+56
+50
+28
+134
+24
+106
+4
+61
+162
+116
+68
+525
+
+0
+57
+49
+0
+172
+25
+163
+4
+66
+174
+125
+66
+606
+
+0
+59
+48
+0
+218
+27
+216
+4
+80
+212
+152
+65
+727
+
+0
+63
+48
+0
+252
+27
+282
+5
+97
+254
+180
+65
+856
+
+Total Basel II risk-weighted assets
+Basel 1 risk-weighted assets
+
+1295
+1479
+
+1335
+1461
+
+1507
+1412
+
+1809
+1383
+
+2129
+1377
+
+Table C.6
+TTC risk parameters. Twenty-year-moving average PDs and LGDs, 2008–2011.
+2008
+
+2009
+
+2010
+
+2011
+
+Exposure
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+PD
+
+LGD
+
+Bank
+Sovereign
+Retail Mortgages
+Qualifying Revolving Retail
+
+0.0432
+0.0013
+0.0120
+0.0369
+
+0.353
+0.353
+0.167
+0.550
+
+0.0460
+0.0013
+0.0112
+0.0344
+
+0.373
+0.373
+0.191
+0.566
+
+0.0507
+0.0013
+0.0104
+0.0318
+
+0.396
+0.396
+0.219
+0.584
+
+0.0299
+0.0013
+0.0104
+0.0289
+
+0.414
+0.414
+0.243
+0.596
+
+Enterprises
+Primary industries
+Oil and gas
+Mining
+Construction
+Retail trade, hotel and restaurant
+Shipping abroad
+Other transport
+Property management
+Commercial services
+
+0.0840
+0.0175
+0.0188
+0.0132
+0.0422
+0.0159
+0.0316
+0.0192
+0.0429
+
+0.353
+0.353
+0.353
+0.353
+0.353
+0.353
+0.353
+0.353
+0.353
+
+0.0715
+0.0174
+0.0176
+0.0121
+0.0401
+0.0163
+0.0320
+0.0190
+0.0390
+
+0.373
+0.373
+0.373
+0.373
+0.373
+0.373
+0.373
+0.373
+0.373
+
+0.0639
+0.0188
+0.0167
+0.0129
+0.0381
+0.0171
+0.0346
+0.0182
+0.0358
+
+0.396
+0.396
+0.396
+0.396
+0.396
+0.396
+0.396
+0.396
+0.396
+
+0.0623
+0.0217
+0.0158
+0.0156
+0.0388
+0.0195
+0.0389
+0.0167
+0.0339
+
+0.414
+0.414
+0.414
+0.414
+0.414
+0.414
+0.414
+0.414
+0.414
+
+Equities
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+350% Risk weight
+
+154
+
+H. Andersen / Journal of Financial Stability 7 (2011) 138–154
+
+Table C.7
+Risk weighted assets for the ﬁve largest Norwegian banks and Nordea Bank Norge based on twenty-year-moving average PDs and LGDs. Millions of NOK, 2008–2011.
+September 2008
+
+2008
+
+2009
+
+2010
+
+2011
+
+Reported Basel II risk-weighted assets
+Operational Risk
+Market Risk
+Pillar II
+Retail mortgages
+Qualifying revolving retail
+Bank
+Sovereign
+Corporates
+SME
+Other retail
+Equities
+Residual
+
+1295
+67
+46
+33
+124
+24
+197
+4
+71
+186
+132
+67
+346
+
+0
+56
+50
+33
+131
+24
+203
+4
+73
+193
+137
+68
+354
+
+0
+57
+49
+0
+140
+23
+212
+4
+73
+191
+136
+66
+360
+
+0
+59
+48
+0
+152
+22
+230
+4
+79
+207
+148
+65
+383
+
+0
+63
+48
+0
+159
+21
+206
+4
+87
+229
+163
+65
+395
+
+Total Basel II risk-weighted assets
+Basel 1 risk-weighted assets
+
+1295
+1479
+
+1326
+1461
+
+1312
+1412
+
+1397
+1383
+
+1442
+1377
+
+References
+Altman, E., Brady, B., Resti, A., Sironi, A., 2005. The link between default and recovery
+rates: implications for credit risk models and procyclicality. Journal of Business
+78 (6), 2203–2227.
+Allen, L., Saunders, A., 2003. A survey of cyclical effects in the credit risk measurement models. BIS Working Paper, No. 126.
+Andersen, H., 2008. Failure prediction of Norwegian banks: a logit approach. Working Paper 2/2008, Norges Bank.
+Andersen, H., Berge, T.O., 2008. Stress testing of banks’ proﬁt and capital adequacy.
+Economic Bulletin 2/2008, Norges Bank, pp. 47–57.
+Andersen, H., Berg, S.A., Jansen, E.S., 2008. The dynamics of operating income in the
+Norwegian banking sector. Working Paper 13/2008, Norges Bank.
+Ayuso, J., Pérez, D., Saurina, J., 2004. Are capital buffers pro-cyclical? Evidence from Spanish Panel Data. Journal of Financial Intermediation 13, 249–
+264.
+Basel Committee on Banking Supervision, 2006a. Results of the ﬁfth quantitative
+impact study (QIS 5). BIS.
+Basel Committee on Banking Supervision, 2006b. International Convergence of Capital Measurement and Capital Standards: A Revised Framework. BIS.
+Basel Committee on Banking Supervision, 2009. Strengthening the resilience of the
+banking sector. BIS.
+Benford, B., Nier, E., 2007. Monitoring cyclicality of Basel II capital requirements.
+Financial Stability Paper No. 3, December.
+Berge, T., Boye, K.G., 2007. Explaining the development in default by households and
+ﬁrms. Economic Bulletin 1, Norges Bank.
+Bernhardsen, E., Larsen, K., 2007. Modelling credit risk in the enterprise sector further development of the SEBRA model. Economic Bulletin 3, Norges Bank,
+pp. 102–108.
+Bikker, J., Metzemakers, P., 2004. Is bank capital procyclical? A Cross-Country Analysis. De Nederlandsche Bank Working Paper 009/2004.
+Borio, C., Furﬁne, C., Lowe, P., 2001. Procyclicality of the ﬁnancial system and ﬁnancial stability: issues and policy options. BIS Paper, No. 1.
+Bårdsen, G., Eitrheim, Ø., Jansen, E.S., Nymoen, R., 2005. The Econometrics of Macroeconomic Modelling. Oxford University Press, Oxford.
+Bårdsen, G., Nymoen, R., 2008. Macroeconometric Modeling for Policy. Handbook
+of Econometrics, vol II, Applied Econometrics. Palgrave-MacMillan.
+Catarineu-Rabell, E., Jackson, P., Tsomocos, D.P., 2003. Procyclicality and the new
+Basel accord – banks’ choice of loan rating system. Bank of England Working
+Paper, no. 181.
+Dierick, F., Pires, F., Scheicher, M., Spitzer, K.G., 2005. The new Basel Capital Framework and its implementation in the European Union. ECB Occasional Paper
+series, No. 42, December.
+Francis, W., Osborne, M., 2009. Bank regulation, capital and credit supply: Measuring
+the impact of Prudential Standards. UK Financial Services Authority Occasional
+Paper series, No. 36, September.
+
+Goodhart, F., Hofmann, B., Segoviano, M., 2004. Bank regulation and macroeconomic
+ﬂuctuations. Oxford Review of Economic Policy 20 (4), 591–615.
+Gordy, M.G., Howells, B., 2006. Pro-cyclicality in Basel II: can we treat the disease
+without killing the patient. Journal of Financial Intermediation 15 (3), 395–417.
+Jacobsen, D.H., Kloster, T.B., 2005. What inﬂuences the number of bankruptcies?
+Economic Bulletin 4/2005, Norges Bank, pp. 191-201.
+Jacobsen, D.H., Naug, B.E., 2004. What inﬂuences the growth of household debt?
+Economic Bulletin 3/2004, Norges Bank, pp. 103-111.
+Jacobsen, D.H., Naug, B.E., 2005. What drives house prices? Economic Bulletin
+1/2005, Norges Bank, pp. 29-41.
+Jacobsen, D.H., Solberg-Johansen, K., Haugland, K., 2007. Housing investments and
+house prices. Economic Bulletin 1/2007. Norges Bank, pp. 33-46.
+Jakubik, P., Schmieder, C., 2008. Stress testing credit risk: comparison of the Czech
+Republic and Germany. FSI Award 2008 Winning Paper, Bank for International
+Settlements.
+Jokipii, T., Milne, A., 2010. Bank capital buffer and risk adjustment decisions. Journal
+of Financial Stability.
+Jokivuolle, E, Virolainen, K., Vähämaa, O., 2008. Macro-model-based stress testing
+of Basel II capital requirements. Discussion Papers 17/2008, Bank of Finland.
+Kashyap, A.K., Stein, J.C., 2004. Cyclical implications of the Basel II standards. Economic Perspectives, Federal Reserve Bank of Chicago, Quarter 1, pp. 18–31.
+Marcelo, A., Scheicher, M., 2005. Capital requirements for corporate default risk. ECB
+Mimeo.
+Lindquist, K., 2004. Banks’ buffer capital: how important is risk? Journal of International Money and Finance 23 (3), 493–513.
+Nordal. K.B., Syed, H., 2010. A model for predicting aggregated corporate credit risk.
+Penger og Kreditt 1/10, Norges Bank.
+Nier, E., Zicchino, L., 2005. Bank weakness and bank loan supply. Financial Stability
+Review, December, pp 85–93.
+Peura, S., Jokivuolle, E., 2004. Simulation based stress tests of banks’ regulatory
+capital adequacy. Journal of Banking and Finance 28, 1801–1824.
+Saurina, J., Trucharte, C., 2006. An assessment of Basel II procyclicality in mortgage
+portfolios. Presented at the Federal Deposit Insurance Corporation’s 6th Annual
+Bank Research Conference.
+Stoltz, S., Wedow, M., in press. Banks’ regulatory capital buffer and the business
+cycle: evidence for Germany. Journal of Financial Stability.
+Taylor, A., Goodhart, C., 2006. Procyclicality and volatility in the ﬁnancial system:
+the implementation of Basel II and IAS 39. In: Gerlach, S., Gruenwald, P. (Eds.),
+Procyclicality of Financial Systems in Asia. IMF and Hong Kong Institute for
+Monetary Research, Palgrave MacMillan, New York.
+Vatne, B.H., 2007. Financial margins in Norwegian households – an analysis of micro
+data for the period 1987–2003. IFC Bulletin No. 26, pp. 40–51, Bank for International Settlements.
+Vatne, B.H., 2006. How large are the ﬁnancial margin of Norwegian Household? An
+analysis of micro data for the period 1987–2004. Economic Bulletin 4, Norges
+Bank, pp. 173–180.
+
+

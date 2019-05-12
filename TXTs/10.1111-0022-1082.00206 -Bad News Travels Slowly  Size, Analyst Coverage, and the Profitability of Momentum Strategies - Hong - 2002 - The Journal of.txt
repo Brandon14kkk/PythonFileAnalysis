@@ -1,0 +1,2966 @@
+THE JOURNAL OF FINANCE * VOL. LV, NO. 1 * FEBRUARY 2000
+
+Bad News Travels Slowly:
+Size, Analyst Coverage, and the
+Profitability of Momentum Strategies
+HARRISON HONG, TERENCE LIM, and JEREMY C. STEIN*
+
+ABSTRACT
+Various theories have been proposed to explain momentum in stock returns. We
+test the gradual-information-diffusionmodel of Hong and Stein (1999) and establish three key results. First, once one moves past the very smallest stocks, the
+profitability of momentum strategies declines sharply with firm size. Second, holding size fixed, momentum strategies work better among stocks with low analyst
+coverage. Finally, the effect of analyst coverage is greater for stocks that are past
+losers than for past winners. These findings are consistent with the hypothesis
+that firm-specific information, especially negative information, diffuses only gradually across the investing public.
+
+SEVERAL RECENT PAPERS HAVE DOCUMENTED that, at medium-term horizons rangis, past
+ing from three to 12 months, stock returns exhibit momentum-that
+winners continue to perform well, and past losers continue to perform poorly.
+For example, Jegadeesh and Titman (1993), using a U.S. sample of NYSE/
+AMEX stocks over the period from 1965 to 1989, find that a strategy that
+buys past six-month winners (stocks in the top performance decile) and shorts
+past six-month losers (stocks in the bottom performance decile) earns approximately one percent per month over the subsequent six months. Not
+only is this an economically interesting magnitude, but the result also appears to be robust: Rouwenhorst (1998) obtains very similar numbers in a
+sample of 12 European countries over the period from 1980 to 1995.1
+
+* Hong is from the Stanford Business School, Lim is from Goldman Sachs, and Stein is from
+
+the MIT Sloan School of Management and the National Bureau of Economic Research. This
+research is supported by the National Science Foundation and the Finance Research Center at
+MIT. We are grateful to Joseph Chen for research assistance and to Ken French, Paul Pfleiderer,
+Geert Rouwenhorst, David Scharfstein, Ken Singleton, Ren6 Stulz, three anonymous referees,
+and seminar participants at MIT, Yale, UCLA, Berkeley, Stanford, Illinois, the Norwegian School
+of Management, and the Stockholm School of Economics for helpful comments and suggestions.
+Data on analyst coverage were provided by I/B/E/S Inc. under a program to encourage academic research. Thanks also to Lisa Meulbroek for sharing the data on options listings.
+1Rouwenhorst (1997) finds that momentum strategies also earn significant profits on average in a sample of 20 emerging markets. See Haugen and Baker (1996) for confirmatory evidence from the United States and several European countries.
+
+265
+
+266
+
+The Journal of Finance
+
+While the existence of momentum in stock returns does not seem to be too
+controversial, it is much less clear what might be driving it. Some (e.g.,
+Conrad and Kaul (1998)) have suggested a risk-based interpretation of momentum. This is certainly a logical possibility, although there is little evidence
+that cuts clearly in favor of a risk story. In this vein, Fama and French (1996)
+note that momentum effects are not subsumed by their three-factor model.
+Turning to "behavioral" (i.e., non-risk-based) explanations, there are a number of theories that can give rise to positive medium-term return autocorrelations. In some of these, prices initially overreact to news about
+fundamentals, then continue to overreact further for a period of time. The
+positive-feedback-trader model of DeLong et al. (1990) fits in this camp, as
+does the overconfidence model of Daniel, Hirshleifer, and Subrahmanyam
+(1998). In other models, momentum is a symptom of underreaction-prices
+adjust too slowly to news.
+The set of underreaction theories can be further subdivided according the
+exact mechanism that is at work. In Barberis, Shleifer, and Vishny (1998),
+there is a representative investor who suffers from a conservatism bias, and
+who does not update his beliefs sufficiently when he observes new public
+information. In Hong and Stein (1999) the emphasis is instead on heterogeneities across investors, who observe different pieces of private information
+at different points in time. Hong and Stein make two key assumptions: (1)
+firm-specific information diffuses gradually across the investing public; and
+(2) investors cannot perform the rational-expectations trick of extracting information from prices. Taken together, these two assumptions generate underreaction and positive return autocorrelations.
+Our goal in this paper is to test the Hong-Stein version of the underreaction hypothesis. In other words, we look for evidence that momentum reflects the gradual diffusion of firm-specific information.2 To do so, we begin
+by sorting stocks into different classes, for which information is a priori
+more or less likely to spread gradually. The central prediction is then that
+stocks with slower information diffusion should exhibit more pronounced
+momentum.3
+One natural sorting variable-which
+forms the basis for our first set of
+firm size. It seems plausible that information about small firms
+tests-is
+gets out more slowly; this would happen if, for example, investors face fixed
+costs of information acquisition, and hence choose in the aggregate to devote
+more effort to learning about those stocks in which they can take large positions.
+2 A recent paper that can be thought of in a similar spirit is Chan, Jegadeesh, and Lakonishok (1996). They show that momentum strategies are profitable even after controlling for
+drift (Bernard and Thomas (1989, 1990), Bernard (1992)). This
+post-earnings-announcement
+suggests that momentum at least in part reflects the adjustment of stock prices to the sort of
+information that (unlike earnings news) is not made publicly available to all investors
+simultaneously.
+3 To obtain this prediction, we are assuming
+that smart-money arbitrage does not completely
+eliminate differences in momentum across stocks. This property holds in a wide range of settings. For example, if there is a pool of arbitrageurs that operate across all stocks, it suffices to
+assume that they are risk-averse and hence prefer to hold diversified portfolios.
+
+Size, Analyst Coverage, and Profitability
+
+267
+
+Unfortunately, even if firm size is in fact a useful measure of the rate of
+information diffusion, it is likely to capture other things as well, potentially
+confounding our inferences. For example, Merton (1987) and Grossman and
+Miller (1988) argue that market making or arbitrage capacity may be less in
+small-capitalization stocks. On the one hand, if there are supply shocks, this
+could lead to a greater tendency toward reversals (i.e., negatively correlated
+returns) in small stocks, which would obscure the gradual-information-flow
+effect we are interested in. On the other hand, one might argue that whatever behavioral phenomenon is driving positive serial correlation in returns,
+less arbitrage means that it will have a bigger impact in small stocks, leading us to overstate the importance of gradual information flow as the specific mechanism at work. The bottom line is that although it is certainly
+interesting to see how momentum profits vary with firm size, this probably
+does not by itself constitute a clean test of our central hypothesis.
+As an alternative proxy for the rate of information flow, we consider analyst coverage. The idea here is that stocks with lower analyst coverage
+should, all else equal, be ones where firm-specific information moves more
+slowly across the investing public. Thus our second set of tests boils down to
+checking whether momentum strategies work better in low-analyst-coverage
+stocks. The one important caveat is that analyst coverage is very strongly
+correlated with firm size (Bhushan (1989)). So in this second set of tests, we
+control for the influence of size on analyst coverage by sorting stocks into
+groups according to their residual analyst coverage, where the residual comes
+from a regression of coverage on firm size.4
+To preview, we obtain the predicted results for both firm size and residual
+analyst coverage. First, with respect to size, once one moves past the very
+smallest capitalization stocks (where thin market making capacity does indeed appear to be an issue) the profitability of momentum strategies declines sharply with market capitalization.
+Second, holding size fixed,
+momentum strategies work particularly well among stocks that have low
+analyst coverage. Moreover, size and coverage interact in a plausible fashion: The marginal importance of analyst coverage is greatest among small
+stocks. Beyond being statistically significant, these effects are also of an
+economically interesting magnitude. For example, across our entire sample,
+momentum profits are roughly 60 percent greater among the one-third of
+the stocks with the lowest residual coverage, as compared to the one-third
+with the highest residual coverage.
+In addition to these basic findings, we uncover another interesting regularity. There is a strong asymmetry, in that the effect of analyst coverage is
+much more pronounced for stocks that are past losers than for stocks that
+4 Our use of residual analyst coverage as a forecaster of stock returns links us to work by
+Brennan, Jegadeesh, and Swaminathan (1993). They are interested in understanding a higher
+fact that at daily and weekly horizons, small stocks seem to lag
+frequency phenomenon-the
+large stocks (Lo and MacKinlay (1990)). They show that holding size fixed, low-coverage stocks
+also tend to lag high-coverage stocks, which they interpret as evidence that analysts are important in helping stocks adjust to common information. Note that this is quite different from
+our story, which focuses on the role of analysts in propagating firm-specific information.
+
+The Journal of Finance
+
+268
+
+are past winners. In other words, low-coverage stocks seem to react more
+sluggishly to bad news than to good news. This makes intuitive sense in the
+context of a theory based on the flow of firm-specific information. Think of
+a firm that has no analyst coverage but is sitting on good news. To the
+extent that its managers prefer higher to lower stock prices, they will push
+the news out the door themselves, via increased disclosures, etc. On the
+other hand, if the same firm is sitting on bad news, its managers will have
+much less incentive to bring investors up to date quickly. Thus the marginal
+contribution of outside analysts in getting the news out is likely to be greater
+when the news is bad.
+Although all of our evidence is consistent with the sort of gradualinformation-flow model in Hong and Stein (1999), it is also possible to put
+forward an alternative explanation of the data. In particular, it may be that
+analyst coverage is a proxy for differences in transactions costs that are
+somehow not well captured by firm size. To take a concrete example, consider two stocks A and B of equal size, where A is harder to sell short than
+B, and also attracts fewer analysts. Since short-sales constraints can impede
+the adjustment of prices to negative information, (Diamond and Verrecchia
+(1987)) this could explain why the low-coverage stock A reacts more slowlythe high-coverage stock B.
+especially to bad news-than
+In an effort to confront this alternative hypothesis, we experiment with
+two further proxies for transactions costs: share turnover and a dummy variable for the existence of listed options on a given stock. The latter variable
+might be expected to be particularly useful in picking up cross-sectional differences in ease of shorting, since investors who are not adept at directly
+shorting a stock can use put options as a substitute. As it turns out, our
+results are robust to both of these controls. Nevertheless, although these
+checks are helpful, we recognize that we do not have a perfect measure of
+transactions costs at the individual stock level, and so cannot definitively
+rule out all variations of the alternative hypothesis. This is an inevitable
+shortcoming of our approach.
+The remainder of the paper is organized as follows. In Section I we describe our data and analyze in detail the cross-sectional determinants of
+analyst coverage. Section II contains our main results on momentum strategies sorted by firm size and residual coverage. In Section III we present
+complementary results based on an alternative, much more parametrically
+structured, regression approach. Section IV concludes.
+I. Cross-Sectional
+
+Determinants
+
+of Analyst
+
+Coverage
+
+Our data come from three primary sources. The stock return and turnover
+data are from the CRSP Monthly Stocks Combined File, which includes NYSE,
+AMEX, and Nasdaq stocks. Throughout, we exclude ADRs, REITs, closedend funds, and primes and scores-that
+is, stocks that do not have a CRSP
+share type code of 10 or 11. The data on analyst coverage are from the
+I/B/E/S Historical Summary File, and are available on a monthly basis beginning in 1976. For each stock on CRSP, we set the coverage in any given
+
+Size, Analyst Coverage, and Profitability
+
+269
+
+month equal to the number of I/B/E/S analysts who provide fiscal year 1
+earnings estimates that month. If no I/B/E/S value is available (i.e., the
+CRSP cusip is not matched in the I/B/E/S database), we set the coverage to
+zero. Finally, the options-listing data come from the Options Clearing Corporation, and cover options listed on the CBOE, NYSE, AMEX, Philadelphia,
+Pacific, and Midwest exchanges.
+Table I provides an overview of the extent of analyst coverage for both our
+full sample (Panel A) as well as for five size-based subsamples (Panel B).
+The first striking thing that emerges from the table is how many firms show
+up as having zero analysts. This is especially true in the first few years of
+the sample period, 1976 to 1978. For example, in 1976, 77.3 percent of all
+firms appear as having zero analysts. There is a marked deepening of coverage around 1980, with the fraction of uncovered firms dropping to 58.2
+percent. After that, things change much more smoothly, with the fraction of
+uncovered firms declining gradually to 36.9 percent in 1996.
+While the numbers no doubt largely reflect the reality that many firms
+are simply not covered by analysts, we worry that they may also be somewhat contaminated by measurement error. It is possible that the I/B/E/S
+data set is missing information on some firms' analysts. Alternatively, it is
+possible that I/B/E/S has the data, but has assigned a different cusip number to a firm than CRSP. In this case, we would mistakenly code the CRSP
+firm as having no analysts. In principle, such measurement error should
+should be harder to discern
+make our tests err on the side of conservatism-it
+significant differences across stocks that we classify as low coverage versus
+high coverage. Because of this concern, and because the number of zeros is
+so much higher in the first few years, all the tests we present below use a
+sample period that runs from 1980 to 1996.5 However, it should be noted
+that none of our results are materially altered if we begin in 1976 instead.
+A second key fact that comes out of Table I is that for the smallest firms,
+there is simply no variation in coverage. Consider those firms that are smaller
+than the 20th percentile NYSE/AMEX firm. As can be seen, almost all of
+them have zero analysts-82 percent are not covered in 1988, which is roughly
+the midpoint of the sample period we use. Consequently, we simply cannot
+use this part of the population to test any hypotheses having to do with
+analyst coverage. Hence, all our coverage-related tests begin with a subsample that excludes those firms that are below the 20th percentile NYSE/
+AMEX breakpoint in any given month.6 Note that there is much more variation
+in analyst coverage in the next size class, which runs from the 20th to the
+40th percentile of NYSE/AMEX-in
+1988, only 41.7 percent of the firms in
+this class are not covered, and a substantial fraction have as many as three
+or four analysts.
+5 For reasons that we explain later, we typically measure analyst coverage six months before
+we actually begin to implement our momentum strategies. Since our sample period for measuring returns begins in 1980, we use analyst data as far back as 1979.
+6 The cutoff point is around $30 million in market capitalization
+as of the midpoint of the
+sample period, and rises to almost $60 million by 1996.
+
+The Journal of Finance
+
+270
+
+96 94 92 90 88 86 84 82 80 78 76
+Above
+Below
+Between
+Between
+Between
+the
+the
+thethethe
+20th
+80th
+40th
+20th
+60th
+NYSE/AMEX
+& & &
+
+by
+Year
+during
+median
+firm
+the
+sizesize, Descriptive
+
+No.
+4329
+4402 Firms
+4472
+5438
+5932
+5049
+5890
+5567
+5364
+4754
+6460
+of
+
+thethe
+period
+statistics
+same
+1976
+for
+number
+to
+of
+
+40th
+80th
+60th
+percentile
+percentile
+Breakpoints
+
+332.3
+249.3
+183.6
+387.4
+248.9
+176.4
+978.1
+672.8
+500.7
+402.2
+802.9
+
+SizeMean
+(millions)
+
+percentiles
+percentiles
+percentiles
+No.
+4316079371363
+2597Firms
+of
+
+Panel 90.8
+Size
+34.6
+22.718.7
+42.5
+81.1
+32.6
+49.834.5
+44.430.3
+Median
+(millions)
+B:
+
+statistics
+1996.
+analyst
+as
+analysts
+in
+at Panel
+A coverage
+Panel for
+A. various
+reports
+forNYSE,
+
+4235.7
+147.1
+45.1
+9.6
+554.0
+
+0 0 0 0 0 0 0 0 0 0 0
+SizeMean
+(millions) Breakdown
+of
+0 0 0 0 0 0 0 0 0 0 0
+
+the
+coverage
+
+10
+Panel
+A:
+
+20
+
+All
+2390.7
+133.3
+42.58.3
+495.8
+8 1 0 0 0
+
+Size
+Analyst
+Median
+(millions)
+0 0 0 0 0 0 0 0 0 0 0
+10
+
+13 4 0 0 0
+
+20 No.
+
+16 6 1 0 0
+
+30
+
+of
+
+Statistics
+and Nasdaq
+No.
+Table
+forI
+of Stocks, thebetween
+stocks,
+1976
+
+30
+
+Coverage
+1 0 0 0 0 0 0 0 0 0 0
+by
+
+40
+
+Firm 2 1 1 1 0 0 0 0 0 0 0
+
+50
+
+Analysts
+and
+1976-1996percentage
+Analyst
+at
+excluding
+of 1996
+
+Size
+19 7 2 0 0
+
+40 Analystsfor
+at
+50
+
+23 10 4 1 0
+
+60 Coverage
+
+26 12 5 2 0
+
+70
+
+28 14 7 3 0
+
+80 Percentiles
+
+30 17 9 4 1
+
+theADRs,
+firms
+3 3 2 2 1 1 1 1 1 0 0
+
+60
+
+4 4 3 3 3 3 3 2 2 0 0
+
+70
+
+Coverage
+
+1988
+
+21 8 3 1 0
+
+Percentiles
+
+that
+Coverage
+REITs,
+number
+hadof
+no
+firms
+in closed-end
+
+7 7 6 7 5 6 6 5 4 2 1
+
+80
+
+12 13 13 13 12 14 12 11 9 5 4
+
+90
+
+coverage.
+the
+funds,
+Panel and
+B sample,
+
+90
+
+of
+
+Descriptive
+
+AMEX,
+even
+and
+years
+percentiles,
+
+of
+
+71.5%
+45.4%
+50.5%
+50.8%
+59.3%
+58.2%
+77.3% firms
+40.0%
+46.7%
+50.1%
+36.9%
+82.0% firms
+21.5%
+41.7%
+7.7%
+5.6%
+uncovered
+uncovered
+N.oAnlssaCoeaePrntesPercentage
+Percentage
+
+primes
+their
+reports
+and
+formean
+1988
+andscores
+
+Size, Analyst Coverage, and Profitability
+
+271
+
+In Table II, we examine the cross-sectional determinants of analyst coverage. When we actually implement our trading strategies in the next section, we run a separate regression every month to create our measure of
+residual coverage. Because the regressions look so similar month to month,
+we only present one set in Table II for illustrative purposes, corresponding
+to December 1988, which is around the midpoint of our sample period.
+Again, note that in each case, the regression is run only on those stocks that
+are larger than the 20th percentile NYSE/AMEX breakpoint in the given
+month.
+The first point to note is that unlike some previous researchers who have
+run similar regressions (e.g., Bhushan (1989) and Brennan and Hughes (1991))
+we use as our left-hand side variable log(1 + Analysts), rather than the raw
+number of analysts. We do this because we ultimately want to use the residuals from our analyst-coverage regressions to explain momentum, and it
+seems plausible that one extra analyst should matter much more in this
+regard if a firm has few analysts than if it has many.
+In Model 1, we use OLS, and the only two right-hand side variables are
+log (Size), where Size is current market capitalization, and a Nasdaq dummy
+variable.7 The size variable is clearly enormously important, generating an
+R2 of 0.61. In Model 2, we add 15 industry dummies to the regression.8 This
+has a small effect, raising the R2 to 0.63.
+In Models 3 and 4, we try adding the firm's book-to-market ratio. We do
+this because book-to-market is known to forecast returns (Fama and French
+(1992), Lakonishok, Shleifer, and Vishny (1994)) and we want to make sure
+that any return-predicting power we get out of analyst coverage is not simply capturing a book-to-market effect. As it turns out, the coefficient on bookto-market is positive and significant, but it adds nothing at all to the R2
+Thus it is unlikely that any of the results we report below are driven by
+anything to do with book-to-market.9 In Models 5 and 6, we undertake a
+similar experiment with beta.10 The coefficient on beta is positive and strongly
+significant, and in this case, the R2 increases marginally, going from 0.61 to
+0.63 when we exclude industry dummies.
+
+7 The Nasdaq dummy is the only variable whose behavior changes much over the sample
+period. In earlier years, it is strongly negative, which is why we include it in our baseline
+model. However, by the late 1980s, it is typically positive, though not always significantly so.
+correspond to the following grouping of two-digit SIC codes: (1) SIC 01-09;
+8 The dummies
+(2) SIC 10-14; (3) SIC 15-19; (4) SIC 20-21; (5) SIC 22-23; (6) SIC 24-27; (7) SIC 28-32; (8)
+SIC 33-34; (9) SIC 35-39; (10) SIC 40-48; (11) SIC 49; (12) SIC 50-52; (13) SIC 53-59; (14) SIC
+60-69; and (15) SIC 70-79.
+9 Even if high-coverage stocks do have higher mean returns because they have a higher
+loading on book-to-market, this cannot explain our central result, namely that high-coverage
+stocks exhibit less momentum.
+(1977) method, using daily re10 Throughout, we calculate beta with the Scholes-Williams
+turns and the value-weighted CRSP index in the prior calendar year. We require that 50 percent of single-day trade-only returns (computed using closing prices, not bid/ask averages) be
+available. This is the same approach used by CRSP in its NYSE/AMEX Excess Returns File.
+
+272
+
+The Journal of Finance
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+foras
+the
+theusing
+dummies.theratio
+prior of Dependent
+whether
+Log
+a
+0.52
+0.57
+0.51
+0.50
+0.57
+0.55
+0.50
+0.56
+0.54Size
+(46.11)
+(51.46)
+(53.03)
+(38.83)
+(48.41)
+(52.22)
+(49.87)
+(52.90)
+(52.67)
+a six last
+There
+200
+firm's
+variable
+arefirm
+is
+-0.02
+-0.02
+0.09
+0.09
+0.07
+0.07
+0.05
+0.04
+0.03
+NASD
+(-0.48)(-0.54)
+(2.59)(2.62)(2.28)(2.00)(1.50)(1.21)(0.99)
+hasmonths'
+2,012
+log(l
+year-end
++
+0.17
+0.12
+Mkt
+observations
+(3.15)
+(4.30)
+trading
+Book/ options
+No.
+Model
+
+Beta
+
+0.40
+0.38
+(10.94)
+(11.54)
+
+from
+Analyst
+volume
+observations.
+trading
+on
+
+-0.52
+(-3.12)
+
+1/P
+
+-1.27
+(-3.23)
+
+Var
+
+Ro
+
+-0.50
+(-9.46)
+
+R0
+
+-0.28
+(-6.06)
+
+R2
+
+-0.28
+(-6.00)
+
+book-to-market
+year-end.
+divided
+coverage).
+by Rk
+t-statistics
+CBOE,
+is value.
+Log
+are
+the
+sharesBeta
+Size
+in
+NYSE,rateis is
+a
+Determinants
+of
+the
+
+of
+
+AMEX, firm's
+log
+return
+outstanding.
+parentheses. aof
+of
+a market Table
+Analyst
+II
+NASD
+* firm firm's
+beta.
+Philadelphia,
+T-O P
+or is
+is
+lagged
+a year-end
+k
+the
+
+Coverage,
+
+R3
+
+-0.04
+(-0.85)
+
+R4
+
+-0.16
+(-3.46)
+
+VarNASD
+exchanges.
+0,1,2,3,4.
+times
+is is
+a
+T-O
+IND
+the
+firm
+is
+is
+a
+a
+T-O
+Nasdaq
+NASD
+set
+variance
+turnover.
+firm's
+of
+of
+OPT
+a dummy.
+OPT
+T-O
+
+3.82
+3.52
+(7.32)
+(8.18)
+
+-0.37
+-0.53
+(-0.93)
+(-0.64)
+
+0.12
+(2.48)
+No
+
+No
+
+Pacific firm's
+years
+market
+Nasdaq
+for
+stock k share
+=
+12/1988
+value.
+dummy
+price.
+
+Yes Yes No
+
+Yes No
+
+Yes No IND
+
+0.64 0.64 0.65 0.65 0.64 0.63 0.61 0.63 0.61R2
+
+is
+CRSP
+a turnover
+firm's
+Book/Mkt
+is
+return
+defined
+dummy
+industry
+
+Size, Analyst Coverage, and Profitability
+
+273
+
+In Model 7, we add to the industry-dummy specification of Model 2 a
+number of variables that are considered in Brennan and Hughes (1991): 1/P,
+where P is the price of a share; the variance of daily returns; and five years'
+worth of annual lagged returns. Although many of the coefficients are individually significant, the overall impression is that these extra variables are
+not very important in explaining the variation in coverage-jointly they raise
+the R2 from 0.63 to 0.65.11
+In Model 8, we take the baseline specification of Model 1 and add a turnover measure, defined as the number of shares traded over the prior six
+months divided by total shares outstanding. (Because turnover numbers may
+not have the same interpretation in a dealer market, we allow the coefficient
+on turnover to be different for Nasdaq firms.) Turnover is significantly positively correlated with coverage on all exchanges, and it raises the R2 somewhat, from 0.61 to 0.64. However, with this regression, one needs to be
+especially careful in attaching any causal interpretation. On the one hand, it
+is possible that turnover causes coverage: Analysts may be more inclined to
+follow naturally high-turnover stocks if this makes it easier to generate brokerage commissions for their employers (Hayes (1996)). On the other hand,
+Brennan and Subrahmanyam (1995) find evidence of causality running in
+the other direction: More analysts reduce the adverse-selection costs of trading, and thereby attract a greater volume of trade. As we argue in Section II.D below, depending on which story one believes, it may or may not
+make sense to control for turnover in generating our measure of residual
+analyst coverage.
+Continuing in a similar vein, Model 9 adds to the turnover measure of
+Model 8 another proxy for transactions costs, a dummy variable that takes
+on the value one if the stock in question has listed options. (About 25 percent
+of our sample firms have listed options in 1988, with the fraction rising to
+49 percent by 1996.) As can be seen, the options-listing dummy has the
+expected positive sign and is statistically significant. However, unlike turnover, it adds virtually nothing to the explanatory power of the regressionthe R2 remains at 0.64, just as in Model 8.
+Overall, the results in Table II make it clear that although a number of
+other variables are significantly related to analyst coverage, firm size is by
+far the dominant factor. Thus, in addition to worrying about the influence of
+these other variables, it is also important to think about potential nonlinearities in the relationship between log(1 + Analysts) and log(Size). In this
+spirit, we proceed as follows. We start in Section IJ.B by using the simple
+size-based regression in Model 1 as our baseline method for generating re" Interestingly, our results call into question the conclusions of Brennan and Hughes (1991),
+who obtain significant positive coefficients on 1/P. In our regressions, we tend to get the opposite sign. We conjecture that this arises because we are using log(1 + Analysts) on the lefthand side, rather than the raw number of analysts. Because 1/P is correlated with firm size,
+and because firm size is of such dominant importance, any differences in how one models the
+analyst-size relationship is likely to have a strong influence on the 1/P coefficient.
+
+274
+
+The Journal of Finance
+
+sidual analyst coverage. Next, in Section II.C we rerun all of our tests separately for each of the size classes (except the very smallest) in Table I. In
+this case, we run a separate cross-sectional analyst regression each month
+for firms in the 20th-40th NYSE/AMEX percentiles, for firms in the 40th60th percentiles, and so on. Among other things, this approach allows the
+relationship between log(1 + Analysts) and log(Size) to take on a piecewise
+linear form, hopefully correcting any deficiencies that arise from imposing
+an overly simple linear structure on the entire sample.
+Moreover, in Section II.D we also report on sensitivity checks that take
+into account the potential for analyst coverage to be correlated with some of
+the other variables considered in Table II. For example, we experiment with
+alternative definitions of residual coverage based on Model 2, which includes the industry dummies, and Models 8 and 9, which include turnover
+and the options-listing dummy. Furthermore, we redo our tests in terms of
+beta-adjusted returns in case the pronounced relationship between beta and
+analyst coverage is affecting the results.
+
+II. Momentum
+
+Strategies,
+
+Cut Different
+
+Ways
+
+A. Cuts on Raw Size
+We begin our analysis of momentum strategies in Table III. In this table,
+unlike in the tables that come later, we look at the entire universe of
+stocks without dropping those below the 20th NYSE/AMEX percentile. In
+so doing, we closely follow the methodology of Jegadeesh and Titman (1993)
+in many respects. In particular, we focus on their preferred six-month/sixmonth strategy, we couch everything in terms of raw returns, and we equalweight these returns. But there are three noteworthy differences. First,
+our sample period from 1980 to 1996 is more recent. Second, we do not
+exclude Nasdaq stocks. And third, our measure of momentum differs from
+theirs. They sort stocks into 10 deciles according to past performance, and
+then measure the return differential of the most extreme deciles-which
+they denote by P10 - P1. In contrast, we place less emphasis on the tails
+of the performance distribution. We sort our sample into only three parts
+based on past performance: P1, which includes the worst-performing 30 percent; P2 which includes the middle 40 percent; and P3, which includes the
+best-performing 30 percent. Our basic measure of momentum is then
+P3 - P1. This is similar to the measure used by Moskowitz (1997) and
+Rouwenhorst (1997).
+We use this alternative, broader-based measure of momentum in order to
+generate better signal-to-noise properties for our tests. Unlike Jegadeesh
+and Titman (1993), we are not so much interested in establishing the existence of momentum per se, but in comparing momentum effects across subsamples of stocks. In some cases, we look at as many as 12 subsamples,
+when we sort by size and residual analyst coverage simultaneously. (See
+Table V below.) If we also were to use 10 performance deciles, we would end
+
+Size, Analyst Coverage, and Profitability
+
+P3
+Mean Mean
+P2-P1 P1
+Median
+MedianP3-P1
+size
+size
+analyst
+analyst
+
+P3
+
+P2
+
+P1
+
+This
+stocks
+reports
+table
+the are
+breakpoints,
+parentheses.
+
+Past
+
+the
+
+worst-performing
+ranked
+includes
+average
+30 in
+all
+
+(2.61) (4.35) (4.48) (2.44)
+All
+Stocks
+0.01043
+0.01378
+0.01570
+0.00527
+
+0.00.17 7
+
+1
+(-1.77)(4.40) (4.97) (4.44)
+0.02106
+0.01662
+0.01733
+-0.00374
+
+0.00.521 21
+
+(3.60) (3.89) (3.84) (1.37) 2
+0.746
+0.00653
+0.01290
+0.01507
+0.00854
+
+0.71.143 44
+
+(6.66) (4.35) (3.88) (0.52) 3
+0.732
+0.00231
+0.01280
+0.01433
+0.01664
+
+1.32.078 79
+
+(6.10) (4.05) (3.75) (0.43) 4
+0.763
+0.00194
+0.01570
+0.01244
+0.01376
+
+2.53.2136138
+
+(5.32) (4.26) (4.18) (1.05) 5
+0.780
+0.01187
+0.00469
+0.01395
+0.01655
+
+4.45.0237242
+
+(4.80) (4.26) (4.14) (1.32) 6
+0.774
+0.00573
+0.01374
+0.01608
+0.01035
+
+6.97.3430437
+
+(3.72) (4.13) (4.27) (1.43) 7
+0.869
+0.01375
+0.01491
+0.00606
+0.00885
+
+10.5
+10.6786806
+
+(1.90) (4.04) (4.40) (2.51) 8
+0.901
+0.01010
+0.01393
+0.01436
+0.00425
+
+15.7
+15.31612
+1658
+
+(1.73) (3.96) (4.43) (2.25) 9
+1.086
+0.00922
+0.01401
+0.00441
+0.01363
+
+22.4
+21.44504
+7290
+
+(0.08) (3.84) (4.50) (3.37) 10
+0.01355
+0.01258
+0.00021
+0.01278
+
+275
+
+smallest
+monthly
+percent,
+stocks.
+firms ascending
+Momentum
+The
+are
+returns
+order
+in
+of portfolio
+on relative
+P2
+size
+these the
+class
+Strategies,
+1,
+includes
+basis
+theportfolios
+theof momentum
+
+and
+next
+middle
+in
+portfolios
+2,
+40 six-month
+are
+Size
+andportfolios 1/1980-12/1996,
+lagged
+Table
+the percent,
+Class
+formed
+III
+formed
+and
+Using
+largest returns.
+based
+using on
+are
+Raw
+in
+portfolio
+(NYSE/AMEX Portfolio
+10. P3
+Decile
+
+P1
+size-based
+six-month
+is
+
+Mean
+
+Returns
+
+an
+includes
+lagged
+the
+and
+subsamples
+raw
+(median)
+equally
+Breakpoints)of
+size
+is
+returns
+Sorting
+in stocks.
+weighted
+and
+by
+best-performing
+Using
+held
+30
+millions.
+portfolio
+for Size
+of six
+percent.
+stocks
+t-statistics
+NYSE/AMEX
+This
+in months.
+are
+table
+theThe
+in decile
+
+The Journal of Finance
+
+276
+0.016
+
+++
+
+-
+
+0.014
+
+iJ
+
+0.012
+0.01
+0.006
+0.006
+a.
+
+-
+
+/Al_
+
+0.004
+
+O
+
+0.
+
+0.002/\.
+
+-0.002/
+0. 004',
+-
+
+,.,,
+
+-0.006
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+.
+
+7
+
+.
+
+I
+
+8
+
+9
+
+10
+
+NYSRAMEX-basedSize Deciles
+
+Figure 1. Momentum profits and firm size. Momentum profits (P3 - P1) plotted against
+NYSE/AMEX-based size deciles, 1 (smallest) to 10 (largest).
+
+up chopping the universe of stocks into 120 portfolios, and we would reach
+a point where some of the individual portfolios are quite undiversified, thereby
+creating larger standard errors in our test statistics.12
+The first column in Table III confirms that there is significant momentum
+in the full sample: The baseline strategy that buys top-30 percent (P3) winners and shorts bottom-30 percent (P1) losers generates 0.53 percent per
+month (t-statistic = 2.61).13 The next columns break the momentum effect
+down by size (measured six months before the start of the ranking period).
+We use an independent sort to generate 10 subsamples, with the breakpoints determined by NYSE/AMEX deciles. Figure 1 illustrates the results,
+plotting the relationship between size and the magnitude of the momentum
+effect. As can be seen, there is a pronounced, inverted U-shape. In the very
+smallest stocks (which are tiny, with a mean market capitalization of $7
+million) momentum is actually negative. By the second size decile, momen12 In fact, we have redone all our key tests, using the Jegadeesh and Titman (1993) P10 - P1
+momentum measure in place of our P3 - P1 measure. As might be expected, the point estimates
+of interest-that
+is, the differences in momentum between low- and high-coverage firms-are
+typically larger in absolute value. However, the standard errors are also larger, so in many
+cases the t-statistics turn out to be smaller. This confirms the notion that our P3 - P1 measure
+has better signal-to-noise properties for the particular type of tests we focus on.
+13 This is lower than the Jegadeesh-Titman
+(1993) figure of 0.95 percent per month. The
+difference arises for two distinct reasons noted above. First, our strategy invests in stocks with
+less-extreme past performance. And second, it turns out that including the smaller Nasdaq
+firms substantially damps the results since, as can be seen from Table III, the momentum
+measure is actually negative for the very smallest firms. The different sample period is not
+responsible for the difference in results because when we use an NYSE/AMEX sample and a
+P10 - P1 momentum measure over our sample period we obtain numbers almost identical to
+Jegadeesh and Titman.
+
+Size, Analyst Coverage, and Profitability
+
+277
+
+tum profits are significantly positive, and they reach a peak in the third size
+decile, where market capitalization averages about $45 million and where
+the profits are a striking 1.43 percent per month (t-statistic = 6.66), which
+is almost three times the value for the sample as a whole. After the third
+size decile, momentum profits decline monotonically to the point where they
+are essentially zero in the largest stocks.14
+The nonmonotonic effect of raw size can be easily understood in the context of the informal theory sketched in the Introduction: Smaller firms may
+have slower information diffusion, which would lead to greater momentum,
+but they probably also have more limited investor participation (i.e., thinner
+market making capacity) which can lead to more pronounced supply-shockinduced reversals.15 Under this interpretation, the sharp decline in momentum profits that occurs between the third and the tenth size classes is
+testament to the economic importance of gradual information diffusion in
+mid-cap stocks.
+Another interesting pattern that emerges in Table III is that the bulk of
+the momentum effect seems to come from losers, as opposed to winners.
+Consider for example, the column corresponding to the third size class, where,
+as noted above, the P3 - P1 winners-minus-losers measure is 1.43 percent
+per month. Of that, 1.05 percent, or about three-quarters of the total, comes
+is, from
+from the difference between average performers and losers-that
+P2 - P1. As can be seen from the table, this tendency holds with remarkable
+consistency in every one of the size classes (i.e., deciles two through eight)
+where there are positive momentum profits to begin with.16 It suggests that
+to the extent that stock prices do underreact, they are more prone to underreact to bad news than to good news. We return to this theme in greater
+detail below.
+B. Cuts on Residual Analyst Coverage
+Next we turn to the cuts based on residual analyst coverage. Here, and in
+everything that follows, we exclude all stocks that are below the 20th percentile NYSE/AMEX breakpoint. Again, this is because the vast majority of
+these small stocks simply never have any analyst coverage, so there is no
+14 Jegadeesh and Titman (1993) also find that momentum profits follow a hump shape with
+respect to size (see their Table III, p. 78). But they document only small differences across
+subsamples. This is because they only use three size classes, and exclude Nasdaq firms; much
+of the variation in size is thus either blurred or omitted. It should also be noted that the hump
+example, skipping a month between the ranking
+shape is robust to a number of variations-for
+period and the holding period, or eliminating January returns. The latter reduces overall momentum, but does not alter the nonmonotonic relationship between momentum and size.
+15 Alternatively, it may be that many of the tiniest stocks trade at very low dollar prices, so
+we are picking up some discreteness-induced negative correlation. Since we do not pay any
+further attention to this class of stocks in what follows, we do not pursue this possibility.
+16 In Jegadeesh and Titman's (1993) full sample, the asymmetry between winners and losers
+is not so big. This discrepancy appears to come from the behavior of the very smallest loser
+stocks, which, as Table III shows, actually exhibit strong reversals. When one excludes these
+tiny stocks, as we do, the winner-loser asymmetry becomes much more pronounced.
+
+278
+
+The Journal of Finance
+
+variation to work with. Within this truncated universe, we create three subsamples based on residual analyst coverage, with the residuals coming from
+month-by-month cross-sectional regressions of log(1 + Analysts) on log(Size)
+and a Nasdaq dummy, just as in Model 1 of Table II.
+In implementing this technique, we choose to measure residual coverage
+six months before we start our preformation ranking period.17 We use slightly
+"stale" data on analyst coverage in order to address a possible endogeneity
+concern. McNichols and O'Brien (1996) find that analysts are more likely to
+begin covering firms when they are optimistic about their near-term prospects. When one combines this finding with Womack's (1996) evidence that
+there is stock price drift for up to six months in response to analyst recommendations, it raises the possibility that recent innovations in analyst coverage may be informative about future returns. Although we have no reason
+to expect that this form of endogeneity would bias any of our key tests one
+way or another, we adopt the stale data approach as a simple precaution.
+Intuitively, any patterns that we now find are driven by the permanent component of coverage, and not by recent (and possibly return-predicting) innovations in coverage. These caveats notwithstanding, our results seem very
+insensitive to exactly when we measure analyst coverage. We have experimented with measuring it zero, 12, and 18 months prior to our ranking
+period, and in each case we obtain very similar results.
+Table IV presents the results of this approach. Before getting to the returns for the three subsamples, it is important to check that they have the
+desired characteristics with respect to size and coverage. Ideally, the subsamples will contain stocks of the same size, yet will display a healthy spread
+in coverage. As can be seen from the table, the variation in coverage is certainly there. The low-coverage subsample, which we denote Subl, has median coverage of 0.1 (mean of 1.5), and the high-coverage subsample Sub3
+has median coverage of 7.6 (mean of 9.7). We do a little less well in terms of
+size matching. Subl has a somewhat larger mean size than Sub3 ($962 million versus $455 million) and at the same time a smaller median size ($103
+million versus $180 million). Evidently, due to nonlinearities in the analystsize relationship, the simple linear regression technique is giving us residuals that do not have exactly the same size distribution across the three
+subsamples.18 We attempt to remedy this deficiency shortly, in Table V. For
+the moment, it suffices to say that the imperfect size matching in Table IV
+does not color any of the conclusions.
+17
+
+Concretely, our first month's worth of observations has the following timing: (1) we measure
+residual coverage based on a regression using data as of January 1979; (2) in an independent
+sort, we rank stocks on their performance in the six months from June 30, 1979 to December 31,
+1979 and assign them to either P1, P2, or P3; and (3) we then calculate the realized returns for
+the coverage/past-performance portfolios over the next six months, which run until June 30, 1980.
+18 What seems to be going on is this: After a point, the number of analysts simply maxes out,
+and no longer increases with size. Thus with a linear model, the very largest firms-the Intels
+and GMs of the world-tend to show up as having abnormally low coverage relative to their
+size, thereby landing in Subl. This pushes the mean size in Subl up relative to that in Sub3.
+
+Size, Analyst Coverage, and Profitability
+
+279
+
+Turning to the returns numbers, two patterns emerge that hold up throughout our subsequent analysis. First, as predicted by the theory, there is more
+momentum in stocks with low residual coverage. The P3 - P1 momentum
+measure is 1.13 percent per month in the low-residual-coverage subsample
+Subl, and only 0.72 percent per month in the high-residual-coverage subsample Sub3.19 The difference of 0.42 percent between Subl and Sub3 in this
+regard is highly statistically significant, with a t-statistic of 3.50. Moreover,
+the economic magnitude is clearly important-momentum
+profits are roughly
+60 percent higher in Subl than in Sub3.
+The second key finding is that the effect of residual coverage on the P3 P1 momentum measure is entirely driven by what happens in the loser stocks
+in P1.20 Pl/Subl stocks underperform P1/Sub3 stocks by 0.70 percent per
+month. This difference is also highly significant, with a t-statistic of 5.16. In
+other words, one attractive strategy, which we call the "loser-analyst-spread
+trade," or "LAST" strategy, is simply to buy the stocks in P1/Sub3 and short
+those in Pl/Subl, without ever dealing with any of the winner stocks in P3.
+This strategy is not only size-neutral, but also (unlike the JegadeeshTitman strategy) momentum-neutral. So to the extent that anybody ever
+makes an argument that momentum returns are proxying for a risk factor,
+our LAST strategy earns 0.70 percent per month with no loading on that
+risk factor.
+Taken together, these two patterns suggest that analyst coverage is especially important in propagating bad news. This ties together nicely with our
+earlier finding that the bulk of momentum profits seem to come from loser
+stocks. And as we noted in the Introduction, it also makes intuitive economic
+sense. When firms are sitting on good news, managers probably have every
+incentive to push this news out to investors as fast as possible, which makes
+analysts less important. In contrast, when there is bad news, managers are
+likely to be less forthcoming, so outside analysts have a more crucial role to
+play.21
+19 For the full sample in Table IV, the P3 - P1 value is 0.94 percent per month. This is higher
+than in Table III because we have now dropped the smallest firms, which as seen above, have
+negative momentum.
+20 Indeed, the numbers in P3 go slightly the "wrong way"-the
+continuing performance of
+low-coverage winners is a bit worse than that of high-coverage winners. Although this difference between P3/SubI and P3/Sub3 is statistically significant in Table IV, it, much more so
+than our other results, appears to be fragile. For example, it totally disappears when we work
+with beta-adjusted returns in Table VI below. To the extent that there is a premium for beta
+in our sample period, this should not be surprising since, as we saw in Table II, low coverage
+is associated with lower values of beta. In fact, the median beta in Subl is 0.75, versus 0.95
+in Sub3.
+21 A large literature
+finds that analysts tend to be too optimistic about firms' prospects
+(see Lim (1998) and Easterwood and Nutt (1998) for recent examples). Note that there need
+be no contradiction between this work and our claim that analysts are important for propagating bad news. Smart investors will deflate analysts' overhyped reports, so a "hold" recommendation as opposed to a "buy" can be a powerful bad signal, even if analysts rarely say
+"sell."
+
+The Journal of Finance
+
+280
+
+Table IV
+
+Momentum
+
+1/1980-12/1996, Using Raw Returns
+Strategies,
+and Sorting by Model 1 Residuals
+
+This table includes only stocks above the NYSE/AMEX 20th percentile. The relative momentum portfolios are formed based on six-month lagged raw returns and held for six months. The
+stocks are ranked in ascending order on the basis of six-month lagged returns. Portfolio P1 is
+an equally weighted portfolio of stocks in the worst-performing 30 percent, portfolio P2 includes
+the middle 40 percent, and portfolio P3 includes the best-performing 30 percent. This table
+reports the average monthly returns of these portfolios and portfolios formed using an independent sort on Model 1 analyst coverage residuals of log size and a Nasdaq dummy. The
+least-covered firms are in Subl, the medium covered firms in Sub2, the most covered firms in
+Sub3. Mean (median) size is in millions. t-statistics are in parentheses.
+Residual Coverage Class
+
+Past
+P1
+P2
+P3
+P3 - P1
+Mean size
+Median size
+Mean analyst
+Median analyst
+
+All
+Stocks
+
+Low:
+Subl
+
+Medium:
+Sub2
+
+High:
+Sub3
+
+Subl - Sub3
+
+0.00622
+(1.54)
+0.01367
+(4.40)
+0.01562
+(4.35)
+0.00940
+(4.89)
+
+0.00271
+(0.66)
+0.01257
+(4.20)
+0.01402
+(3.95)
+0.01131
+(5.46)
+
+0.00669
+(1.70)
+0.01397
+(4.58)
+0.01583
+(4.52)
+0.00915
+(4.64)
+
+0.00974
+(2.31)
+0.01439
+(4.29)
+0.01690
+(4.45)
+0.00716
+(3.74)
+
+-0.00703
+(-5.16)
+-0.00182
+(-2.11)
+-0.00288
+(-2.80)
+0.00415
+(3.50)
+
+962
+103
+1.5
+0.1
+
+986
+200
+6.7
+3.5
+
+455
+180
+9.7
+7.6
+
+C. Two-Way Cuts on Size and Residual Coverage
+In Table V, we disaggregate the analysis of Table IV by size. The methodology is exactly the same except that we look at four separate subsamples.
+The first includes all stocks between the 20th and 40th NYSE/AMEX percentiles, the second includes those between the 40th and 60th percentiles, and
+so forth. We have two motivations for doing this disaggregation. First, as a matter of economics, it seems reasonable to conjecture that the marginal importance of coverage is greater in the smaller stocks, which have fewer analysts
+on average, and are probably less well researched in other ways. Second, as a
+matter of methodology, this approach should give us better size matches across
+residual coverage classes, since we now run the analyst coverage regressions
+separately for each size-based subsample. Compared to our earlier approach,
+this is like allowing the analyst-size relationship to be piecewise linear.
+As can be seen from the table, the size matching is now almost flawless,
+except in the largest class of stocks. Consider first the results for the smallest
+size class, that corresponds to the 20th to 40th percentile range. The mean
+size is $63 million in Subl, versus $64 million in Sub3. (The medians are
+
+Size, Analyst Coverage, and Profitability
+
+Low:
+Subl
+High:
+Mean
+Mean
+Mean
+Residual
+Medium:
+Median
+Median
+Median
+Median
+Median Median
+Subi
+Sub3
+size
+size
+size
+Sub3
+size Sub2 size
+size
+coverage
+
+coverage
+
+coverage
+
+P3
+-
+
+P3
+-
+
+P3
+-
+
+P3
+-
+
+P1
+=
+
+P1
+=
+
+P1
+=
+
+P1
+=
+
+3.161 64
+
+0.956 61
+
+0.059 63
+
+281
+
+rawThis
+
+covered
+weighted
+residuals
+table
+returns
+of
+firms
+and Momentum
+in logbest-performing
+Coverage
+includes
+30 portfolio
+size
+of held
+Sub2,
+foronly
+and
+Class
+thea percent.
+six
+stocks
+stocks
+in
+1:
+Strategies,
+most This
+Nasdaq
+themonths.
+above
+table
+Thethe
+covered
+20th-40th
+dummy.
+
+firms reports
+stocks
+in Sizethe
+are
+is
+1/1980-12/1996,
+worst-performing
+(6.46)Percentile
+(5.10)
+(5.48)
+NYSE/AMEX
+(2.13)
+Sub3.
+30
+sorted
+ranked
+average
+20th
+in
+P3 2:
+P3
+P3
+P3
+Mean
+Using
+using
+percent,
+P1
+P1
+P1
+P1
+monthly
+=
+=
+=
+=
+Raw
+percentile.
+ascending
+(median)
+40th-60th
+7.6188202 3.6193207 0.6183199
+Table
+The V
+portfolio
+size returns
+order
+0.01057
+0.00975
+0.00730
+0.00327
+to P2
+is NYSE/AMEX
+on
+in
+Returns
+Percentile
+therelative
+(4.49)
+(4.95)
+(3.60)
+(1.95)
+Size
+includes and
+portfolios
+basis
+P3 3: Class:millions.
+P3
+P3
+P3
+breakpoints.
+theof
+momentum
+P1
+P1
+P1
+P1
+Theformed
+=
+=
+=
+=
+by middle Sorting
+60th-80th t-statistics
+least 40 six-month
+14.7615663 9.0629678 3.7592653
+by
+portfolios
+are sorts
+0.00605
+0.00316
+0.00424
+0.00180
+on lagged
+in
+are
+Size
+covered
+percent,
+Percentile
+size
+(3.11)
+(1.62)
+(2.02)
+(1.18)
+and
+formed
+firms
+andandreturns.
+4:
+P3
+P3
+P3
+are
+P3
+parentheses.
+based
+in Model
+on Model
+1
+P1
+P1
+P1
+portfolio
+-P1
+Portfolio
+1
+=
+=
+=
+=
+Subl, P3 P1
+is
+24.9
+2363
+5056 80th-1OOth
+2511
+5163 11.1
+3650 18.82853
+theanalyst
+an six-month
+0.00092
+0.00009
+0.00070
+0.00023
+includes
+0.00364
+
+0.01147
+
+0.01389
+
+0.01511
+
+(.14)
+
+(0.33)
+
+(0.05)
+
+(0.49)Percentile
+
+Residuals
+coverage
+theequally
+lagged
+medium
+
+282
+
+The Journal of Finance
+
+$59 and $61 million respectively.) Yet we still have a good spread in coverage,
+with a median of 0.0 analysts in Subl and 3.1 analysts in Sub3. And the basic
+results from Table IV carry over. The P3 - P1 momentum measure is 1.51 percent per month in Subi, and 1.15 percent per month in Sub3. The difference
+of 0.36 percent is statistically significant (t-statistic of 2.13) even though the
+standard errors are naturally quite a bit higher with the smaller sample.
+As we move to progressively larger size classes, two things happen. First,
+the overall momentum effect shrinks, just as in Table III. Second, the differential in momentum between Subl and Sub3 shrinks also, consistent with
+the hypothesis that the marginal importance of analysts should decline with
+size. In the next size class, covering the 40th-60th percentile range, where
+stocks average approximately $200 million in market capitalization, the Sub3 Subl momentum differential is not much smaller, at 0.33 percent (tstatistic = 1.95). But by the time we get to the 60th-80th percentile range,
+where mean size is close to $700 million, the differential is down to 0.18 percent (t-statistic = 1.18). And it is essentially zero for the largest size class.
+Overall, the size disaggregation effort in Table V lends further credence to
+our interpretation of the evidence. It makes it clear that the earlier numbers
+in Table IV are not an artifact of imperfect size matching in the full sample.
+And it is comforting to know that analyst coverage has more of an impact on
+momentum in precisely those parts of the size distribution where one a priori suspects that gradual information diffusion is likely to be important and
+where momentum effects are most pronounced to begin with.
+Table V also helps put into perspective the extent to which firm size and residual coverage might each be capturing something related to the phenomenon of gradual information flow. On the one hand, it is natural to focus most
+of the attention on residual coverage as a proxy for this phenomenon-it makes
+for a cleaner test of our hypothesis because it is less likely than size to be bringing in other confounding factors. But in gauging the quantitative significance
+of the results, it is important to recognize that, if we hold size fixed, we cannot
+hope to capture the full magnitude of any gradual-information-flow effect.
+To be specific, return to the results for the smallest set of firms in Table Vthose in the 20th-40th percentile range. Among these firms, those with the
+fewest analysts have momentum of 1.51 percent per month; those with the
+most analysts have momentum of 1.15 percent per month. Although the difference of 0.36 percent is substantial, it is still just a fraction of the total
+momentum effect. One reading of this might be that gradual information
+diffusion can only "explain" a fraction of the overall momentum in stock
+returns. However, such an inference is at best superficial. Recall that even
+the most heavily covered stocks in this class have only three or four analysts, and only average $60 million in market capitalization. Thus they
+might naturally be expected to have slower information diffusion than, say,
+a $10 billion company with 25 analysts. The bottom line is that residual
+analyst coverage, viewed in isolation, is unlikely to provide a full picture of
+the importance of gradual information flow. This is where the cuts on raw
+size in Tables III and V add potentially useful evidence.
+
+283
+
+Size, Analyst Coverage, and Profitability
+Table VI
+
+1/1980-12/1996, Using Beta-Adjusted
+Momentum Strategies,
+Returns and Sorting by Model 1 Residuals
+This table includes only stocks above the NYSE/AMEX 20th percentile. The relative momentum portfolios are formed based on six-month lagged beta-adjusted returns and held for six
+months. The stocks are ranked in ascending order on the basis of six-month lagged returns.
+Portfolio P1 is an equally weighted portfolio of stocks in the worst-performing 30 percent,
+portfolio P2 includes the middle 40 percent, and portfolio P3 includes the best-performing 30
+percent. This table reports the average monthly beta-adjusted returns of these portfolios and
+portfolios formed using an independent sort on Model 1 analyst coverage residuals of log size
+and a Nasdaq dummy. The least covered firms are in Subl, the medium covered firms in Sub2,
+the most covered firms in Sub3. Mean (median) size is in millions, t-statistics are in parentheses.
+Residual Coverage Class
+Past
+P1
+P2
+P3
+P3 - P1
+Mean size
+Median size
+Mean analyst
+Median analyst
+
+All Stocks
+
+Low:
+Subl
+
+Medium:
+Sub2
+
+High:
+Sub3
+
+Subl - Sub3
+
+-0.00753
+(-3.29)
+0.00280
+(2.44)
+0.00444
+(3.17)
+0.01197
+(5.99)
+
+-0.01007
+(-3.97)
+0.00313
+(2.48)
+0.00423
+(2.76)
+0.01431
+(6.79)
+
+-0.00712
+(-3.30)
+0.00299
+(2.92)
+0.00454
+(3.50)
+0.01167
+(5.76)
+
+-0.00511
+(-2.13)
+0.00231
+(1.73)
+0.00430
+(2.74)
+0.00940
+(4.62)
+
+-0.00497
+(-3.64)
+0.00081
+(1.06)
+-0.00006
+(-0.06)
+0.00491
+(4.04)
+
+1070
+106
+1.8
+0.2
+
+998
+221
+7.1
+4.0
+
+464
+186
+9.9
+7.9
+
+D. Sensitivities
+We now discuss several variations on the baseline analysis of Table IV.
+First, in Table VI, we depart from Jegadeesh and Titman's (1993) focus on
+raw returns. Given that our economic story is all about firm-specific information, it seems sensible to focus on returns adjusted for any marketwide
+factors. This is also a useful precaution since, as seen in Table II, analyst
+coverage is correlated with beta. In Table VI all the returns, both in the
+preformation and postformation periods, are market-model adjusted, using
+individual stock betas. As it turns out, the use of this beta adjustment does
+not significantly alter our central results. The P3 - P1 momentum measure
+for the entire sample actually rises somewhat, to 1.20 percent per month
+(from 0.94 percent in Table IV), and the difference between the low-coverage
+Subl and the high-coverage Sub3 also goes up a bit, to 0.49 percent, with a
+t-statistic of 4.04 (from 0.42 percent in Table IV). Finally, the LAST strategy,
+which is long P1/Sub3 and short Pl/Subl, continues to do well, though not
+quite as well as before, generating an average beta-adjusted return of 0.50 percent per month (t-statistic = 3.64).
+
+284
+
+The Journal of Finance
+
+In a second sensitivity check, we go back to using raw returns, but generate the coverage residuals from Model 2 of Table II, which includes the 15
+industry dummies. To save space, we do not report the results in a table
+here (see the NBER working paper version for full details) as they are not
+much changed. The difference in P3 - P1 momentum between Subl and
+Sub3 falls slightly, to 0.33 percent per month, but is still strongly significant, with a t-statistic of 3.06. As for our LAST strategy which operates only
+in P1, it now generates a monthly return of 0.60 percent (t-statistic = 5.03).
+Thus it appears that one can design a profitable LAST strategy that is not
+only size-neutral and momentum-neutral but beta-neutral, as well as neutral to any industry factors. This makes it all the more improbable that one
+can explain the substantial returns to this strategy based on any kind of
+risk story.22
+However, a final caveat on this point is that we have not checked whether
+the profits to the LAST strategy continue to be large after controlling for
+book-to-market effects. One might think that this correction would be relevant in light of the evidence in Table II that analyst coverage is positively
+correlated with book-to-market. As it turns out, though, the differences in
+book-to-market across Subl and Sub3 are too small to matter much. Using
+our Model 1 residuals, the median value of book-to-market is 0.57 in Subl
+and 0.69 in Sub3 (the means are 0.67 and 0.78 respectively). Based on the
+evidence in Fama and French (1992), this book-to-market spread corresponds to a return differential of roughly 0.10 percent per month, only a
+small fraction of the profits to our LAST strategy.23
+In another untabulated check (again see the NBER version for details), we
+do everything else the same as in Table IV except that we skip a month
+between the six-month ranking period and the six-month investment holding period. Jegadeesh and Titman (1993) suggest this approach as a way to
+check that neither bid-ask bounce nor any other high-frequency phenomenon is coloring any of the results. As it turns out, nothing changes-the
+numbers come out almost identical to those in Table IV.
+In a similar spirit, we again redo Table IV, this time looking only at investment returns in non-January months. We do so because Jegadeesh and
+Titman (1993) find that small firms exhibit large negative momentum in
+January, and we worry that this might somehow be influencing the results.
+Once more, nothing much changes. Although overall momentum is noticeably higher outside of January, the Subl versus Sub3 differential is only
+marginally affected, rising from its Table IV value of 0.42 percent per month
+to 0.46 percent per month (t-statistic = 3.75).
+22
+
+Moskowitz (1997) argues that momentum effects are in part explained by industry factors.
+Whether or not this is correct on average, it appears that our results about cross-sectional
+differences in the power of momentum strategies are not driven by industry factors.
+which covers the period from 1963 to 1990. Our Subl
+23 See their Table IV (pp. 442-443),
+and Sub3 median values of book-to-market correspond roughly to the fourth and fifth deciles of
+their book-to-market distribution, respectively. On average, for each decile one moves between
+the second and the ninth, there is a 0.10 percent per month return increment.
+
+Size, Analyst Coverage, and Profitability
+
+285
+
+Table VII
+
+Momentum
+
+Strategies,
+1/1984-12/1996, Using Raw Returns
+and Sorting by Model 8 Residuals
+
+This table includes only stocks above the NYSE/AMEX 20th percentile. The relative momentum portfolios are formed based on six-month lagged raw returns and held for six months. The
+stocks are ranked in ascending order on the basis of six-month lagged returns. Portfolio P1 is
+an equally weighted portfolio of stocks in the worst-performing 30 percent, portfolio P2 includes
+the middle 40 percent, and portfolio P3 includes the best-performing 30 percent. This table
+reports the average monthly returns of these portfolios and portfolios formed using an independent sort on Model 8 analyst coverage residuals of log size, a Nasdaq dummy, firm turnover,
+and Nasdaq dummy times firm turnover. The least covered firms are in Subl, the medium
+covered firms in Sub2, the most covered firms in Sub3. Mean (median) size is in millions.
+t-statistics are in parentheses.
+Residual Coverage Class
+
+Past
+P1
+P2
+P3
+P3 - P1
+Mean size
+Median size
+Mean analyst
+Median analyst
+
+All Stocks
+
+Low:
+Subl
+
+Medium:
+Sub2
+
+High:
+Sub3
+
+Subl - Sub3
+
+0.00498
+(1.11)
+0.01209
+(3.44)
+0.01351
+(3.38)
+0.00853
+(4.22)
+
+0.00190
+(0.42)
+0.01126
+(3.44)
+0.01210
+(3.20)
+0.01020
+(4.67)
+
+0.00553
+(1.26)
+0.01273
+(3.67)
+0.01377
+(3.54)
+0.00824
+(3.92)
+
+0.00747
+(1.56)
+0.01229
+(3.16)
+0.01458
+(3.31)
+0.00711
+(3.46)
+
+-0.00557
+(-3.58)
+-0.00103
+(- 1.00)
+-0.00248
+(-2.11)
+0.00309
+(2.23)
+
+1412
+124
+2.9
+0.4
+
+1078
+282
+8.3
+4.9
+
+442
+180
+10.0
+7.7
+
+In Table VII, we again use raw returns, and this time generate the coverage residuals from Model 8 of Table II, which includes the turnover variables. But before turning to the numbers, we should point out that it is
+far from clear that it makes economic sense to control for turnover in this
+way. As noted above, it may well be that the positive correlation of coverage and turnover reflects causality running from the former to the latter:
+High-coverage stocks have lower adverse-selection costs of trading, and hence
+attract more trading volume (Brennan and Subrahmanyam (1995)). To the extent that this story is true, we should not use Model 8 to generate our residuals, for we would just be reducing the exogenous variation in coverage by
+regressing it on a noisy proxy for itself, thereby weakening the power of our
+tests.
+However, there are other stories, according to which it is more sensible to
+use Model 8. To take a simple example, one might argue that our basic
+measure of firm size is misleading, because for some stocks the "float" (i.e.,
+those shares that trade on a regular basis in the public market) is much
+
+286
+
+The Journal of Finance
+
+smaller than the market capitalization. And it is possible that both analyst
+coverage, as well as transactions costs of arbitrage, are driven primarily by
+float, rather than by market capitalization. In this setting, a turnover controlbe warranted.
+presumably a good proxy for float-would
+Overall, this discussion suggests that by using a turnover control, as in
+Table VII, we are erring on the side of being too conservative: The control
+may or may not make economic sense, and it potentially wastes some statistical power. We also end up sacrificing further power because of two data
+limitations: (1) we can only run the turnover-adjusted tests for the shorter
+sample period from 1984 to 1996, due to a lack of earlier turnover data on
+among
+Nasdaq; and (2) we also lose roughly 12 percent of the firms-typically
+the smaller ones-from our Table IV sample because of the requirement that
+turnover numbers be available for six months prior to the measurement of
+analyst coverage. With all these flags in mind, the results in Table VII are
+surprisingly strong. The difference in P3 - P1 momentum between Subl and
+Sub3 falls slightly relative to Table IV, to 0.31 percent per month, but even
+with the shorter sample it is still significant, with a t-statistic of 2.23. The
+return to the LAST strategy is now 0.56 percent per month, with a t-statistic
+of 3.58. The bottom line is that our results appear to be robust, even to this
+(possibly ill-conceived) control for the correlation between turnover and analyst coverage.
+A similarly motivated check is to rerun our tests using the residuals from
+Model 9, which, in addition to the turnover measure, incorporates the optionslisting dummy. One would not expect this to make much difference, since we
+have already seen in Table II that this dummy has virtually no incremental
+explanatory power for analyst coverage. And, indeed, the results from this
+untabulated set of tests are almost identical to those displayed in Table VII.
+Thus we can safely conclude that our inferences are not colored by any crosssectional differences in transactions costs or short-sales constraints that we
+can reasonably measure.
+Finally, in Table VIII, we break our sample into three subperiods: 1980 to
+1984, 1985 to 1990, and 1991 to 1996. We then exactly repeat our baseline
+analysis from Table IV for each subperiod. Our results hold up well to this
+time disaggregation. The P3 - P1 momentum measure is meaningfully larger
+for the low-coverage Subl in each of the three subperiods: the difference
+between Subl and Sub3 bounces around from 0.65 percent to 0.31 percent.
+Even more impressive, the LAST strategy earns positive and statistically
+significant returns in each of the three subperiods.
+In fact, the only surprise in Table VIII is that there appears to be little
+momentum on average in the last subperiod, which runs from 1991 to 1996.
+The overall point estimate for P3 - P1 over this period is only 0.33 percent,
+compared to values of 1.14 percent and 1.38 percent for the first two subperiods respectively. It is hard to say whether this just reflects noise in a
+short sample, or the fact that more arbitrageurs have caught on to momentum effects and are beginning to drive them out of existence. In any case,
+what is noteworthy from our perspective is that though the average degree
+
+Size, Analyst Coverage, and Profitability
+
+287
+
+Table VIII
+
+for Subperiods,
+Momentum Strategies
+1/1980-12/1996,
+Using Raw Returns and Sorting by Model 1 Residuals
+This table includes only stocks above the NYSE/AMEX 20th percentile. The relative momentum portfolios are formed based on six-month lagged raw returns and held for six months. The
+stocks are ranked in ascending order on the basis of six-month lagged returns. Portfolio P1 is
+an equally weighted portfolio of stocks in the worst-performing 30 percent and portfolio P3
+includes the best-performing 30 percent. This table reports the average monthly returns of
+these portfolios and portfolios formed using an independent sort on Model 1 analyst coverage
+residuals of log size and a Nasdaq dummy. The least covered firms are in Subl, the medium
+covered firms in Sub2, the most covered firms in Sub3. Mean (median) size is in millions.
+t-statistics are in parentheses.
+Residual Coverage Class
+
+Subperiods
+1/1980-12/1984
+
+Past
+P1
+P3
+P3
+
+1/1985-12/1990
+
+-
+
+P1
+
+P1
+P3
+P3
+
+1/1991-12/1996
+
+-
+
+P1
+
+P1
+P3
+P3
+
+-
+
+P1
+
+All
+Stocks
+
+Low:
+Subl
+
+Medium:
+Sub2
+
+High:
+Sub3
+
+Subl - Sub3
+
+0.00713
+(0.94)
+0.01852
+(2.62)
+0.01139
+(3.27)
+
+0.00282
+(0.35)
+0.01706
+(2.30)
+0.01424
+(3.61)
+
+0.00806
+(1.09)
+0.01850
+(2.69)
+0.01044
+(2.88)
+
+0.01215
+(1.63)
+0.01991
+(2.79)
+0.00777
+(2.52)
+
+-0.00933
+(-3.48)
+-0.00286
+(-1.31)
+0.00647
+(2.90)
+
+-0.00302
+(-0.41)
+0.01079
+(1.54)
+0.01381
+(4.65)
+
+-0.00617
+(-0.85)
+0.00920
+(1.38)
+0.01538
+(4.86)
+
+-0.00205
+(-0.28)
+0.01164
+(1.70)
+0.01369
+(4.42)
+
+-0.00081
+(-0.10)
+0.01145
+(1.50)
+0.01227
+(4.05)
+
+-0.00536
+(-2.21)
+-0.00225
+(-1.29)
+0.00311
+(1.62)
+
+0.01472
+(2.49)
+0.01805
+(4.06)
+0.00333
+(0.97)
+
+0.01151
+(1.91)
+0.01632
+(3.79)
+0.00481
+(1.33)
+
+0.01428
+(2.49)
+0.01781
+(4.05)
+0.00353
+(1.02)
+
+0.01828
+(2.95)
+0.01983
+(4.16)
+0.00155
+(0.43)
+
+-0.00677
+(-3.34)
+-0.00351
+(-2.36)
+0.00326
+(1.60)
+
+of momentum may be declining over time, there is not yet any evidence that
+the cross-sectional differences in momentum that we are emphasizing have
+begun to disappear.
+E. Cumulative Returns in Event Time
+We have focused throughout on the six-month/six-month strategy, because
+it has become a standard benchmark for evaluating momentum strategies.
+But of course this is somewhat arbitrary. To provide more information, Figure 2 plots cumulative returns in event time. In so doing, we use the methodology of Table VI-we assign stocks to performance categories based on
+
+The Journal of Finance
+
+288
+PANEL A
+Qz
+02
+Q15
+
+1
+
+3
+
+7
+
+5
+
+9
+
+11
+
+13
+
++
+
+W
+
+15
+
+17
+
+19
+
+21
+
+25
+
+27
+
+29
+
+31
+
+33
+
+35
+
+Z3 2
+
+27
+
+29
+
+31
+
+S3
+
+35
+
+23
+
+PANEL B
+Q15,
+
+Q(E6-
+
+-
+
+a 01 ...........
+
+.
+
+-Q15L,
+1
+
+r
+
+3
+
+5
+
+.
+
+.
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17
+
+19
+
+21
+
+returns in event time. We assign stocks to perforFigure 2. Cumulative
+beta-adjusted
+mance categories based on six-months-prior beta-adjusted returns, and do an independent sort
+based on the analyst coverage residuals from Model 1. In Panel A we show momentum profits
+for low and high coverage stocks. We track the cumulative beta-adjusted momentum portfolio
+returns (P3 - P1) on a month-by-month basis, out to 36 months for low coverage (Subl) and high
+coverage (Sub3) stocks. Panel B shows profits to the LAST strategy. Here we plot the cumulative
+beta-adjusted returns (P1) for the low coverage (Subl) past losers, the high coverage (Sub3) past
+losers, and the LAST portfolio that is short the former and long the latter (Sub3 - Subi).
+
+six months' prior beta-adjusted returns, and do an independent sort based
+on the analyst-coverage residuals from Model 1. We then track cumulative
+beta-adjusted returns on a month-by-month basis, out to 36 months.
+In Panel A, we plot the cumulative returns to the P3 - P1 momentum
+strategy separately for the low-coverage subsample Subl and the highcoverage subsample Sub3. There appear to be two distinct things going on.
+
+Size, Analyst Coverage, and Profitability
+
+289
+
+First, up to about the 10-month mark, we see roughly a linear extrapolation
+of our earlier results: Momentum strategies continue to earn incremental
+monthly profits in both Sub3 and Subl, but the effect is stronger in Subl so
+that the cumulative differential keeps on widening. After this point, something else quite interesting happens. The cumulative performance of the
+high-coverage subsample Sub3 flattens out; in other words, there is no more
+momentum left after 10 months for the high-coverage stocks. But the lowcoverage subsample Subl continues to display some momentum out to about
+the two-year mark. Consequently, the cumulative differential between Subl
+and Sub3 keeps on growing until this point. Twenty-four months after portfolio formation, the total P3 - P1 profit for Subl is 19.63 percent, versus
+8.90 percent for Sub3, a difference of 10.73 percent.
+This dynamic pattern is, of course, completely consistent with the theory
+of gradual information diffusion that we have emphasized. In the context of
+this theory one would interpret Figure 2, Panel A, as follows: High-coverage
+Sub3 firms underreact by roughly nine percent to the information contained
+in lagged six-month returns, and it takes them a little less than a year to
+fully catch up. In contrast, low-coverage Subl firms underreact by more, on
+the order of 20 percent. Their adjustment to long-run equilibrium not only
+involves more movement in the first year, but also requires a longer period
+of time to fully play itself out.
+In Panel B of Figure 2, we explore the dynamics of our LAST strategy.
+Focusing only on the past-loser stocks in P1, we plot the cumulative returns
+for Pi/Subl, P1/Sub3, and the LAST portfolio that is short the former and
+long the latter. The time profile that emerges is almost identical to that in
+Panel A, and is consistent with our earlier conclusion that virtually all of the
+Subl versus Sub3 action is coming from the losers in P1. In particular, the
+high-coverage P1/Sub3 stocks continue to perform poorly for about 10 months,
+and then flatten out. The low-coverage Pi/Subl stocks not only perform worse
+over the first 10 months, but continue to do poorly until about two years out.
+Consequently, the LAST strategy keeps on earning incremental profits up to
+the two-year mark, with the cumulated profit amounting to 9.32 percent.
+More Tightly
+III. An Alternative,
+Regression
+Approach
+
+Structured
+
+In this section, we take a somewhat different approach to measuring the
+same basic phenomenon. In the most general terms, our central hypothesis
+is that stocks that are small and that have low residual analyst coverage
+should display more positively autocorrelated returns at medium horizons. A
+simple (perhaps naive) way to test this would be to estimate a serial correlation coefficient for each stock, and then regress this serial correlation coefficient on measures of the stock's analyst coverage and size.
+This is what we attempt to do now. More precisely, at the beginning of
+each year t, we collect all stocks that have a market capitalization greater
+than the 20th percentile NYSE/AMEX breakpoint, and for which we have
+
+290
+
+The Journal of Finance
+
+complete return data through year t + 5. We then estimate for each stock i
+the serial correlation of its six-month excess returns (relative to T-bills),
+using 49 overlapping, observations over the five-year period from t to t + 5,
+and call this variable RHOit.24 Next, we perform a cross-sectional regression, running RHOit against log(1 + Analystsit) and log(Sizeit), as well as a
+Nasdaq dummy variable. All the right-hand-side variables are measured at
+the start of year t, so one can think of this regression as an attempt to
+forecast stock i's serial correlation over the next five years.
+We should note one caveat associated with this method. For any stock i,
+our measure of serial correlation RHOit is affected not only by the correlation of its firm-specific information, but also by its loading on any common
+factors. To see this, suppose the returns on stock i, rit, are given by a onefactor model (suppressing constants):
+rit = bi mt +
+
+(1)
+
+where mt is the common factor, bi is the loading on this factor, and eit represents firm-specific information. Even if we assume for simplicity that the
+0O) a regression of rit
+common factor is serially uncorrelated, (cov(mt, mt-1)
+on rit-1 produces the following theoretical coefficient pi:
+Pi - cov(eit,
+var(mt) + var(eit)).
+ejt_j)1(V
+
+(2)
+
+This suggests that, all else equal, our constructed left-hand-side variable
+is, higher betas.
+RHOit is lower for stocks with higher factor loadings-that
+This is potentially a matter of concern because, as we have seen in Table II,
+there is a positive cross-sectional correlation between beta and analyst coverage. Thus one might mistakenly conclude that high coverage is reducing
+RHOit by reducing the serial correlation of firm-specific information, when
+in fact it is proxying for a beta effect. In order to address this issue, we rerun
+the regressions that we present below, adding firm betas to the right-hand
+side. As it turns out, none of our results is materially altered.
+Before turning to these results, it is useful to discuss how this general
+approach compares to what we have done above. The main difference is that
+it imposes more parametric structure, some of which may be unwarranted.
+For example, the regression approach we are now proposing does not allow
+for asymmetries across winners and losers; yet we have seen that such asymmetries are pronounced in the data. Additionally, the regression approach
+only makes sense if residual analyst coverage is a firm-level attribute that
+is "quasi-fixed"-that
+is, it does not vary much over five-year periods of
+24 It is well known that in a small sample one obtains downward-biased
+measures of serial
+correlation. Kendall (1954) shows that the bias is given by -(1+3p)/T,
+where p is the true
+value and T is the number of independent observations. This does not affect the conclusions
+from our cross-sectional regressions, however. We could easily rescale all our estimates of RHOi,
+to de-bias them, and none of our regression t-statistics would change.
+
+Size, Analyst Coverage, and Profitability
+
+291
+
+time. If there is significant high-frequency variation in residual coverage,
+this is again something that the less-structured method of the previous section is better equipped to handle.
+The offsetting advantage is that if the parametric structure we impose
+with the regression is not too inappropriate, our statistical power along certain dimensions should be enhanced. In particular, if we are interested in
+doing the analysis over very short intervals of time-(e.g.,
+to check the stability of our estimates) the regression approach may be especially useful.
+Table IX summarizes the results. In Panel A, we present the coefficients
+on the coverage and size variables from cross-sectional regressions run each
+year over the 14 years from 1979 to 1992.25 We also aggregate the annual
+information in two different ways. First, we calculate Fama-MacBeth (1973)
+time-series averages of the coefficients. Second, we run a giant pooled regression with year dummies. Not surprisingly, this latter approach tends to
+produce point estimates almost identical to the Fama-MacBeth method, but
+higher t-statistics.
+All the evidence in Panel A points to a consistent negative effect of analyst
+coverage on a stock's serial correlation. Of the yearly coefficients, 13 out of
+14 are negative, the majority significantly so. The Fama-MacBeth and pooled
+estimates are strongly significant. The point estimates for size are also negative, but statistically insignificant.
+In Panel B, we modify the specification by adding an interaction term,
+given by log(1 + Analysts) * log(Size). This is motivated by our evidence in
+Table V that the importance of analyst coverage is decreasing in firm size.
+The cross-sectional regressions substantiate this finding. The coverage and
+size terms increase in magnitude relative to Panel A (the size term is now
+statistically significant) and the interaction term is positive, as expected,
+implying that the negative influence of coverage on serial correlation becomes weaker for larger firms.
+It is interesting to compare the economic magnitudes implied by Table IX
+to those in our earlier tables. Think of two equal-sized firms, one with the
+Subl median coverage of 0.1 (from Table IV), the other with the Sub3 median coverage of 7.6. According to the Fama-MacBeth coverage-term estimate of -0.0125 in Panel A of Table IX, the Subl firm should have a serial
+correlation coefficient that is 0.026 higher than that of the Sub3 firm (0.0125 x
+(log(8.6)-log(1.1))
+= 0.026). When one combines this with the observation
+that the past return differential between P1 and P3 stocks is approximately
+60 percent, this implies that a P3 - P1 momentum strategy should be ex1.56 percent
+more over six months
+for the
+pected to return
+Subl firm, (0.026 x 60 percent = 1.56 percent), or about 0.25 percent per
+month extra. This is very much in the same ballpark as-albeit a bit smaller
+than-the
+Subl/Sub3 differential of 0.42 percent per month reported in
+
+Table IV.
+25
+We have to stop in 1992 because we need to go five years forward from that point to
+calculate RHOit.
+
+292
+
+The Journal of Finance
+Table IX
+
+Cross-Sectional
+
+Momentum
+
+Regressions,
+
+1979-1992
+
+This table includes only stocks above the NYSE/AMEX 20th percentile. The dependent variable
+is RHO: regression coefficient of six-month returns (net risk-free) on lagged six-month returns.
+Panel A: Independent variables are log(l + Analyst coverage), log size, and a Nasdaq dummy.
+Panel B: Independent variables are log(l + Analyst coverage), log size, interaction of log(l +
+Analyst coverage) and log size and a Nasdaq dummy. Note: t-statistics are adjusted for serial
+correlation.
+Panel A
+Year
+
+Coverage
+
+t-statistics
+
+Size
+
+t-statistics
+
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+
+-0.0015
+-0.0014
+-0.0039
+0.0040
+-0.0136
+-0.0280
+-0.0166
+-0.0357
+-0.0111
+-0.0163
+-0.0141
+-0.0208
+-0.0126
+-0.0031
+
+-0.1800
+-0.2040
+-0.6090
+0.5500
+-1.9020
+-3.9300
+-2.1330
+-5.6310
+-1.8160
+-2.5820
+-2.2900
+-3.2060
+-1.7100
+-0.4720
+
+-0.0097
+-0.0188
+-0.0061
+-0.0259
+0.0050
+0.0168
+0.0146
+0.0240
+0.0040
+-0.0108
+-0.0071
+-0.0004
+0.0059
+0.0019
+
+-1.7530
+-3.8600
+-1.2800
+-4.5520
+0.8990
+2.9200
+2.4060
+4.7650
+0.8480
+-2.2560
+-1.5550
+-0.0860
+1.1680
+0.4070
+
+Fama-MacBeth
+
+-0.0125
+
+-3.8023
+
+-0.0005
+
+-0.1265
+
+Pooled with year
+dummies
+
+-0.0127
+
+-5.0898
+
+-0.0004
+
+-0.2832
+
+Panel B
+Coverage
+
+t-statistics
+
+Size
+
+t-statistics
+
+Interaction:
+Coverage * Size
+
+t-statistics
+
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+
+0.0306
+0.1000
+0.0055
+-0.0382
+-0.0053
+-0.1441
+-0.1618
+-0.0457
+-0.0664
+-0.1622
+-0.0837
+-0.1372
+-0.0898
+-0.0836
+
+0.7260
+2.5930
+0.1430
+-0.8500
+-0.1270
+-3.3310
+-3.3860
+-1.1950
+-1.8020
+-4.2580
+-2.4370
+-3.6960
+-2.2350
+-2.3560
+
+-0.0060
+-0.0064
+-0.0049
+-0.0321
+0.0061
+-0.0001
+-0.0092
+0.0224
+-0.0051
+-0.0359
+-0.0189
+-0.0212
+-0.0084
+-0.0118
+
+-0.8320
+-0.9480
+-0.6980
+-3.7080
+0.7730
+-0.0060
+-0.9330
+2.8280
+-0.6720
+-4.4700
+-2.5800
+-2.6360
+-0.9450
+-1.5720
+
+-0.0027
+-0.0084
+-0.0008
+0.0035
+-0.0007
+0.0095
+0.0118
+0.0008
+0.0044
+0.0118
+0.0057
+0.0094
+0.0063
+0.0065
+
+-0.775
+-2.674
+-0.248
+0.951
+-0.205
+2.721
+3.079
+0.265
+1.521
+3.884
+2.059
+3.184
+1.954
+2.308
+
+Fama-MacBeth
+
+-0.0630
+
+-1.8920
+
+-0.0094
+
+-2.3701
+
+0.0041
+
+1.5423
+
+Pooled with year
+dummies
+
+-0.0648
+
+-5.0533
+
+-0.0087
+
+-3.7494
+
+0.0043
+
+4.4487
+
+Year
+
+Size, Analyst Coverage, and Profitability
+
+293
+
+A similar calculation based on the interactive specification in Panel B can
+be used to back out the implied momentum differentials for firms in varying
+size classes. For example, consider the smallest class of firms (those between
+the 20th and 40th NYSE/AMEX percentiles) in the first column of Table V,
+which have a mean market capitalization of about $60 million. Comparing a
+Subl firm in this class with median coverage of 0.0 to a Sub3 firm with
+median coverage of 3.1, the Fama-MacBeth coefficients in Panel B imply
+that a momentum strategy returns 3.91 percent more over six months for
+the Subl firm, or approximately 0.60 percent per month extra. This is again
+in this case somewhat larger than the analroughly in line with-although
+ogous number of 0.36 percent reported in Table V.
+Overall then, Table IX provides further comfort as to the robustness of our
+central results. Even with a very different measurement approach, we get
+six-month return autocorrenot only the same qualitative outcome-higher
+lations among lower coverage stocks-but remarkably comparable economic
+magnitudes.
+
+IV. Conclusions
+Recently, a number of researchers (e.g., Barberis et al. (1998), Daniel et al.
+(1998), and Hong and Stein (1999)) have begun to develop behavioral models
+that aim to unify a range of previously documented "anomalies" in asset
+returns. In a critique of this work, Fama (1998) argues that one should not
+be too impressed if these models simply rationalize those existing patterns that they were specifically designed to capture. Rather, the acid test
+should be the "out-of-sample" one: The ability to generate new hypotheses
+that are ultimately borne out in future empirical work: "The over-riding
+question should always be: Does the new model produce coherent rejectable
+predictions . .
+We agree wholeheartedly with this sentiment, and this paper represents
+an attempt to take one step in the indicated direction.26 The gradualinformation-diffusion model of Hong and Stein (1999) was built for the express purpose of delivering both medium-term momentum and long-term
+reversals in stock returns; in the spirit of Fama (1998), then, it should be
+evaluated more on the basis of other, previously untested auxiliary predictions. Here we have focused on one relatively simple and clear-cut such hypothesis, namely: If momentum comes from gradual information flow, then
+there should be more momentum in those stocks for which information gets
+out more slowly.
+Rather than restating all our findings, at this point it suffices to say that
+they are strongly consistent with the above hypothesis. This is not to claim
+that alternative interpretations of some or all of the evidence cannot be put
+26
+
+A recent paper with a similar motivation is Klibanoff, Lamont, and Wizman (1998). They
+test the behavioral hypothesis that investors react more strongly to news that is "salient"-in
+this case, news about countries that appears on the front page of The New York Times.
+
+294
+
+The Journal of Finance
+
+forth. If concrete new alternatives are in fact offered, it will be necessary to
+do more refined testing to sort things out. But in any case, we hope that this
+effort has demonstrated at least one point: Nonclassical models of asset pricing can do more than just provide ex post rationalizations of existing anomalies; they can-and should-be
+subject to the same standards of out-ofsample empirical testing as more traditional theories.
+REFERENCES
+Barberis, Nicholas, Andrei Shleifer, and Robert Vishny, 1998, A model of investor sentiment,
+Journal of Financial Economics 49, 307-343.
+Bernard, Victor L., 1992, Stock price reactions to earnings announcements; in R. Thaler, ed.:
+Advances in Behavioral Finance (Russell Sage Foundation, New York).
+Bernard, Victor L., and J. Thomas, 1989, Post-earnings announcement drift: Delayed price
+response or risk premium?, Journal of Accounting Research, 27, 1-48.
+Bernard, Victor L., and J. Thomas, 1990, Evidence that stock prices do not fully reflect the
+implications of current earnings for future earnings, Journal of Accounting and Economics
+13, 305-340.
+Bhushan, Ravi, 1989, Firm characteristics and analyst following, Journal of Accounting and
+Economics 11, 255-274.
+Brennan, Michael J., and Patricia Hughes, 1991, Stock prices and the supply of information,
+Journal of Finance 46, 1655-1691.
+Brennan, Michael J., Narasimhan Jegadeesh, and Bhaskaran Swaminathan, 1993, Investment
+analysis and the adjustment of stock prices to common information, Review of Financial
+Studies 6, 799-824.
+Brennan, Michael J., and Avanidhar Subrahmanyam, 1995, Investment analysis and price formation in securities markets, Journal of Financial Economics 38, 361-381.
+Chan, Louis K. C., Narasimhan Jegadeesh, and Josef Lakonishok, 1996, Momentum strategies,
+Journal of Finance 51, 1681-1713.
+Conrad, Jennifer, and Gautam Kaul, 1997, An anatomy of trading strategies, Review of Financial Studies 11, 489-519.
+Daniel, Kent D., David Hirshleifer, and Avanidhar Subrahmanyam, 1998, Investor psychology
+and security market under- and overreactions, Journal of Finance 53, 1839-1885.
+DeLong, J. Bradford, Andrei Shleifer, Lawrence H. Summers, and Robert Waldmann, 1990,
+Positive feedback investment strategies and destabilizing rational speculation, Journal of
+Finance 45, 379-395.
+Diamond, Douglas, and Robert Verrecchia, 1987, Constraints on short-selling and asset price
+adjustment to private information, Journal of Financial Economics 18, 277-311.
+Easterwood, John C., and Stacey R. Nutt, 1999, Inefficiency in analysts' earnings forecasts:
+Systematic misreaction or systematic optimism?, Journal of Finance 54, 1777-1797.
+Fama, Eugene F., 1998, Market efficiency, long-term returns, and behavioral finance, Journal
+of Financial Economics 49, 283-306.
+Fama, Eugene F., and Kenneth R. French, 1992, The cross-section of expected stock returns,
+Journal of Finance 47, 427-465.
+Fama, Eugene F., and Kenneth R. French, 1996, Multifactor explanations of asset pricing anomalies, Journal of Finance 51, 55-84.
+Fama, Eugene F., and James D. MacBeth, 1973, Risk, return and equilibrium: Empirical tests,
+Journal of Political Economy 81, 607-636.
+Grossman, Sanford J., and Merton H. Miller, 1988, Liquidity and market structure, Journal of
+Finance 43, 617-633.
+Haugen, Robert A., and Nardin L. Baker, 1996, Commonality in the determinants of expected
+stock returns, Journal of Financial Economics 41, 401-439.
+
+Size, Analyst Coverage, and Profitability
+
+295
+
+Hayes, Rachel M., 1996, The impact of trading commission incentives on stock coverage and
+earnings forecast decisions by security analysts, Stanford GSB thesis.
+Hong, Harrison, Terence Lim, and Jeremy C. Stein, 1998, Bad news travels slowly: Size, analyst coverage and the profitability of momentum strategies, NBER working paper 6553.
+Hong, Harrison, and Jeremy C. Stein, 1999, A unified theory of underreaction, momentum
+trading and overreaction in asset markets, Journal of Finance 54, 2143-2184.
+Jegadeesh, Narasimhan, and Sheridan Titman, 1993, Returns to buying winners and selling
+losers: Implications for stock market efficiency, Journal of Finance 48, 65-91.
+Kendall, M. C., 1954, Note on bias in the estimation of autocorrelation, Biometrika 41, 403-404.
+Klibanoff, Peter, Owen Lamont, and Thierry A. Wizman, 1998, Investor reaction to salient news
+in closed-end country funds, Journal of Finance 53, 673-699.
+Lakonishok, Josef, Andrei Shleifer, and Robert Vishny, 1994, Contrarian investment, extrapolation and risk, Journal of Finance 49, 1541-1578.
+Lim, Terence, 1998, Rationality and analysts' forecast bias, Working paper, Amos Tuck School.
+Lo, Andrew, and A. Craig MacKinlay, 1990, When are contrarian profits due to stock market
+overreaction, Review of Financial Studies 3, 175-206.
+McNichols, Maureen, and Patricia C. O'Brien, 1996, Self-selection and analyst coverage, Working paper, London Business School.
+Merton, Robert C., 1987, A simple model of capital market equilibrium with incomplete information, Journal of Finance 42, 483-510.
+Moskowitz, Tobias J., 1997, Industry factors as an explanation for momentum in stock returns,
+Working paper, UCLA Anderson School.
+Rouwenhorst, K. Geert, 1997, Local return factors and turnover in emerging stock markets,
+Working paper, Yale University.
+Rouwenhorst, K. Geert, 1998, International momentum strategies, Journal of Finance 53, 267-284.
+Scholes, Myron, and Joseph Williams, 1977, Estimating betas from nonsynchronous data, Journal of Financial Economics 5, 309-328.
+Womack, Kent L., 1996, Do brokerage analysts' recommendations have investment value? Journal of Finance 51, 137-168.
+
+

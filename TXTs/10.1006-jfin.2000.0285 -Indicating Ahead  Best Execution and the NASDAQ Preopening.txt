@@ -1,0 +1,1434 @@
+Journal of Financial Intermediation 9, 184–212 (2000)
+doi:10.1006/jfin.2000.0285, available online at http://www.idealibrary.com on
+
+Indicating Ahead: Best Execution and the
+NASDAQ Preopening1
+Conrad S. Ciccotello
+Georgia State University
+
+and
+Frank M. Hatheway
+The Pennsylvania State University
+
+Dealers enter nonbinding expressions of interest during the Nasdaq preopening to promote price discovery and ease stock inventory management when the market opens. But does
+this practice of “indicating ahead” constitute best execution for an individual customer? Arguments in favor of the practice rely on the notion that best execution is a general condition
+as opposed to a concept applicable on a trade-by-trade basis. Some customers must sacrifice
+in individual instances to improve the functioning of the overall market. But the practice
+of indicating ahead violates the dealer agent’s duty of loyalty to her individual customer.
+Moreover, the dealer’s financial self-interest is best served by indicating ahead. Journal of
+C 2000 Academic Press
+Economic Literature Classification Numbers: G10, G18, K22. °
+
+1. INTRODUCTION
+This paper introduces a new question into the best execution literature in law and
+finance. We ask whether “indicating ahead” violates the dealers’ fiduciary duty of
+1 Corresponding author is Conrad S. Ciccotello, Department of Risk Management and Insurance,
+Georgia State University, P.O. Box 4036, Atlanta, GA 30302-4036. Fax: (404) 651-4219. Part of
+this paper was completed while Ciccotello was visiting Pennsylvania State University and Hatheway
+was visiting the Securities and Exchange Commission. The Securities and Exchange Commission,
+as a matter of policy, disclaims responsibility for any private publication or statement by any of its
+employees. The views expressed herein are those of the authors and do not necessarily reflect the
+views of the Commission or of the author’s colleagues upon the staff of the Commission. The authors
+are grateful to Joel Hasbrouck, Erik Sirri, Jeff Smith, and seminar participants at the JFI/Cornell
+Symposium, Pennsylvania State University, George Washington University, and the Washington Area
+Finance Conference for helpful comments and suggestions. We also thank Bridge Information Systems
+for providing access to the Nasdaq data. Mike Chernov provided invaluable research assistance.
+
+184
+1042-9573/00 $35.00
+
+c 2000 by Academic Press
+Copyright °
+All rights of reproduction in any form reserved.
+
+NASDAQ PREOPENING
+
+185
+
+best execution. Indicating ahead refers to the practice of entering indicative, rather
+than firm, quotes to reflect imbalances in buy and sell orders during the Nasdaq
+preopening period. An analysis of the law and finance issues associated with the
+preopening extends the literature on best execution, which has mainly focused on
+the price obtained for a customer’s transaction while the market is open.
+The practice of indicating ahead provides an opportunity to study the blurring
+line between markets and institutions highlighted by the conflicting duties of the
+dealer. Nasdaq dealers, who are allegedly competitors, effectively act as a single
+organization to open the market. We examine whether the potential improvements
+in overall market function obtained through dealers’ preopening coordination of
+price should constitute best execution and override the potential costs to a subset of
+individual customers. Arguably, the practice of indicating ahead subverts a dealer’s
+duty to individual customers in favor of a duty to the market at large. The issue is
+made more complicated as a Nasdaq dealer customarily takes the other side of the
+customer’s order. So the dealer’s self-interest may also be best served by indicating
+ahead.
+To understand the economic impact of this practice, we examine several empirical issues. They include: Does indicating ahead result in identifiable costs to
+investors? Is the price based on the preopening unbiased and efficient? Do the different types of preopening behavior by wholesale versus integrated broker dealers
+reveal self-interest?
+To address these questions, we use one year of dealer quotations on 52 Nasdaq
+stocks during the 90 min prior to the start of trading at 9:30 a.m. We find that the
+Nasdaq preopening is capable of identifying the informationally unbiased price
+during the preopening. However, a wedge is driven between the informationally
+unbiased price and the opening price in the final minutes of the preopening. For
+days with light opening trading volume, there is strong evidence of price reversals
+following the opening.
+Because of the preopening, an informed investor whose individual order creates an imbalance during the preopening may be made worse off for that trade
+than if indicative quotes had not been disclosed. Further, dealers benefit both from
+obtaining potentially valuable information about inventory shocks and from realizing the spread at reduced inventory risk. Indicating ahead is thus unlike other
+trading protocols, such as preferencing or internalization. Rather than resulting
+in best execution for an individual order, but raising trading costs in the overall
+market, indicating ahead facilitates the determination of the equilibrium price for
+the market as a whole, but raises the costs of trading for some customers’ orders.
+Our legal analysis of best execution in the preopening relies on the rules, prior
+cases, and literature that frame a dealer’s fiduciary duties. Fueled by high-profile
+cases such as Manning,2 dealers’ duties are the subject of a growing literature in
+law and finance. Macey and O’Hara (1997) summarize the law and economics
+2 E. F. Hutton & Co., CCH Fed. Sec. L. Rep. 89,303 (S.E.C. Rel., No. 25887, July 6, 1988).
+(Hereinafter, “The Manning Case”.)
+
+186
+
+CICCOTELLO AND HATHEWAY
+
+considerations of the fiduciary duty of best execution. They argue that best execution eludes legal definition; as such, an exact determination of dealers’ legal
+obligations is problematic. The adjudication of best execution disputes reflects the
+unsettled law, often turning on the case-specific assessments of harm, process, and
+disclosure.3 Manning, for example, was a successful customer plaintiff because he
+was found to be an unsophisticated investor who could demonstrate damages.4
+The rules that apply to the preopening are important to frame the legal context
+for the customer and dealer arguments that are made later in the paper. Since 1987,
+there has been no explicit mention of the preopening in the NASD manual. But the
+recent disciplinary proceeding NASDR Market Regulation Committee v. Morgan
+Stanley5 indicates that the standards of fiduciary duty that apply during regular
+trading hours should be applied to the preopening unless specifically exempted.
+In the Morgan Stanley proceeding, NASDR found that preopening quotations
+affected subsequent execution prices; therefore, preopening quotes could be considered part of an attempt to manipulate markets.6 Morgan Stanley establishes a
+link between preopening quotations and opening prices that our empirical analysis
+confirms. To evaluate the legal arguments that the practice of indicating ahead
+constitutes best execution, we rely on Morgan Stanley’s extension of the standards
+of duty from the trading day to the preopening.
+The rest of the paper proceeds as follows: Section 2 contains a discussion of
+role of the preopening and the empirical results. Section 3 presents the arguments for the customer against the practice of indicating ahead. Section 4 is the
+dealers’ rebuttal. Section 5 outlines the potential regulatory alternatives to address this issue. Section 6 summarizes the arguments and evidence and offers
+conclusions.
+2. THE NASDAQ PREOPENING
+This section describes the institutional features of the Nasdaq preopening and
+presents the empirical results of the paper. After describing the salient aspects of
+Nasdaq, we turn to a discussion of the role of the preopening and the motivation of
+dealers in displaying indicative quotes. An example of the preopening follows for
+illustrative purposes. The last part of this section contains the empirical results.
+2.1. Economic Significance of the Nasdaq Preopening
+Nasdaq is an electronic multidealer market that opens for trading at 9:30 a.m.
+During the trading period, dealers are required to display their bid and ask prices.
+The highest bid and the lowest ask on the system form the reported market quote at
+3
+
+The Perils of Payment for Order Flow, 107 Harvard Law Review 1675 (1994).
+See Manning, supra, at note 2. The dissent took issue with whether Manning was unsophisticated.
+5 NASD Notices to Members—Disciplinary Actions, May 1998, NASD Regulation Sanctions
+Morgan Stanley and Seven Traders.
+6 Ibid.
+4
+
+NASDAQ PREOPENING
+
+187
+
+any point in time. For the stocks in this study, dealers must individually post their
+prices at a minimum quantity of 1000 shares throughout trading hours. Trades may
+be executed against the posted quotes using one of several electronic systems or
+via telephone.
+The Nasdaq quotation reporting system is activated starting at about 8:00 each
+trading day. During the 90-min preopening period, dealers can (but are not required
+to) display their bid and ask prices. One key difference from the trading period is
+that the prices quoted during the preopening are indicative and hence nonbinding.
+They do not have to be honored at any minimum or posted quantity, as must be
+done during trading hours. More directly, there is no chance of execution of the
+order on Nasdaq at that time.
+Since the preopening quotes are indicative, and alternative systems (such as
+Instinet) exist for posting firm quotes, why would dealers post preopening quotes
+on Nasdaq? It is possible that quotes in the preopening are an indication of a
+willingness to trade on another market such as Instinet. However, dealers are
+reluctant to trade during the preopening and trading volume is light.7 The trading
+that does occur tends to be concentrated immediately before the opening of the
+Nasdaq market. Instead, the evidence suggests that the quotes are indicative and
+used by dealers in signaling an order imbalance. The industry perspective is that
+preopening quotes change the NBBO by raising the bid or lowering the ask to
+reflect demand or supply for a stock. Specifically:
+‘in the absence of a mechanism to disseminate order imbalances (as exists for exchange listed
+stocks), upticking was the only means available to communicate...demand’8
+
+Dealer incentives are relevant to an analysis of whether the practice of indicating
+ahead constitutes best execution. What economic incentives do dealers have for
+using nonbinding quotes to signal price changes? Several motives for publicizing
+trading interest have been identified in the literature. Farrell (1995) describes a
+central insight from the theory of communication games as a receiver of a signal
+changes his actions in a way that is both to his benefit and to that of the sender.
+Any assessment of the best execution role of the preopening will be closely linked
+to determining whether dealers indicate ahead for the benefit of investors or for
+their own benefit.
+Admati and Pfleiderer (1991) propose a model implying that dealers’ price
+signals benefit their investor customers. They show that if uninformed investors
+can credibly preannounce their buying (selling) interest, they reduce trading costs
+not only for themselves, but for certain other liquidity traders as well. Under this
+model, dealers’ preopening quotes would serve their customers as a means of
+searching for the other side of buying (selling) interest. Quotes would also be
+generally uninformative about permanent changes in the equilibrium price.
+7
+
+Ibid.
+NASDR v. Morgan Stanley, Decision Proceeding No. CMS 960235, April 13, 1998, pp. 59–60,
+63–64.
+8
+
+188
+
+CICCOTELLO AND HATHEWAY
+
+Alternatively, Biais et al. (1999) argue that the opening price is a public good.
+Dealers cooperate in this model to produce price discovery. The means for enforcing long-term production of price discovery is some form of “punishment” within
+the dealer community through their repeated interaction in the marketplace. As
+envisioned by Biais et al., dealers signal for the benefit of all market participants
+and the preopening quotes would be informative about overnight changes in the
+equilibrium price.
+Finally, Cao et al. (1999) extend the reasoning of Biais et al. by adding preferenced order flow to reputational arguments. They claim that balancing supply
+and demand is the optimal outcome for an informed dealer in the Nasdaq preopen.
+They also note the suggestion of Madhavan and Dutta (1997) that the stability of the
+registered dealer community in a stock makes for a repeated game where reputation
+may limit the ability of informed dealers to take advantage of their information by
+trading against their fellow dealers.9 In the Cao et al. setting, dealers signal for the
+benefit of dealers and preopening quotes are informative.
+Conclusively identifying which characterization most accurately describes the
+Nasdaq preopening requires confidential order and counterparty information and
+is outside the scope of this study. Nevertheless, the empirical properties of the
+preopening described in the following sections make inferences about dealer motivations possible. Sections 3 and 4 will then interpret the Section 2 results in the
+context of best execution.
+2.2. A Specific Example
+To demonstrate the economic impact of preopening quotations, we first use an
+example. In Fig. 1, we display the bid–ask and the midpoint of individual dealer
+quotes as well as the best bid–ask quotes during the preopening for Microsoft
+(MSFT) on December 8, 1995. On the previous trading day, December 7, Microsoft had closed at $90 5/8–90 3/4. On the 8th, the stock would rise to $94
+1/8–94 5/8. At 8:22 a.m., the Nasdaq computers recorded the initial best bid–ask
+quote of the day, repeating the previous day’s closing quote of $90 5/8–90 3/4.
+Seventeen minutes later, Morgan Stanley & Co. posted the first dealer quote of the
+day, crossing10 the market and raising the best bid $1/4 to $90 7/8. Within the next
+minute, Bear, Stearns & Co. raised the best bid another $1/8. Eight minutes later
+Weeden & Co. raised the best bid by $1/8 to $91 1/8, and Morgan Stanley & Co.
+raised the bid by $3/8.
+Microsoft, with a market capitalization of $51 billion, was up $7/8 31 min
+after the Nasdaq system came on. Over that 31 min, 12,000 shares had traded on
+alternative trading systems such as Instinet. Close to 9 million shares would trade
+during the day. At this point seven different dealers had entered their quotes into the
+
+9 The SEC’s Section 21(a) Report adds further insights into the role of reputation on dealers’ willingness to trade with certain counterparties.
+10 A “crossed” market is one where the bid price is greater than the ask price.
+
+FIG. 1. Individual market maker quotes and market quotes during the preopening for Microsoft Corporation (December 8, 1995). The initial dealer
+locked quote was recorded by Morgan Stanley. The figure shows how changes in the quotes of one market maker can dominate the preopening. Morgan
+Stanley’s quotes will increase the best bid three times and cause $7/8 of the $1 7/8 price change which occurred on the preopening.
+
+NASDAQ PREOPENING
+
+189
+
+190
+
+CICCOTELLO AND HATHEWAY
+
+Nasdaq system. In the 37 min left in the preopening, the best bid would rise four
+more times in establishing the opening bid of $92 1/2. Overall, Morgan Stanley
+would increase the best bid quote three times and account for $7/8 of the $1 7/8
+increase during the preopening. The opening best bid–ask quote of $92 1/2–92 5/8
+appears to have been a reasonable estimate of the equilibrium price as the 11 A.M.
+trade prices were in the range $92 3/4–93 1/4. Through a series of quote changes,
+Nasdaq dealers had established a new equilibrium price with which to start the
+trading day.
+2.3. Importance to Price Discovery
+While the Microsoft example is an interesting anecdote, a more formal analysis
+of the preopening is warranted. We proceed as follows. After a description of the
+data set, we document dealers’ activity during the preopening. Regression and correlation analyses then test the informational efficiency of the Nasdaq preopening
+quotes. We then estimate the same regression using the 25% of the sample days with
+the largest overnight price change for each stock. Last, we document the relative importance of individual Nasdaq dealers to the price discovery during the preopening.
+Two intraday data sets are used to conduct our empirical analysis. The first is
+the Nasdaq preopening data obtained from Bridge Information Services.11 The
+sample period extends from October 1, 1995 through September 30, 1996.12 The
+preopening data set contains (1) individual market maker quotes including the
+identifying market maker code, and (2) the inside quotes (i.e., the best bid–ask
+prices), which are updated when the best individual market maker quotes (either
+the bid, the ask, or both) change. Both quotes are time-stamped to the nearest minute
+and are recorded in chronological sequence within each minute. Additional data
+are obtained from the Trade and Quote (TAQ) database compiled by the New York
+Stock Exchange.
+Our sample consists of the 52 most active stocks among the 3772 Nasdaq
+National Market (NNM) issues, as measured by 1994 share volume. These stocks
+are also among the largest on Nasdaq as there is a high correlation between trading activity and market capitalization. Hence, our analysis includes major Nasdaq
+stocks such as Microsoft, Intel, Cisco Systems, and Biogen. As five stocks switched
+to other markets or were otherwise delisted from Nasdaq during the sample period, additional stocks were added in order of 1994 share volume to maintain the
+sample size. Thus, the final sample includes 52 stocks, most of which have about
+252 trading days during the sample period.
+Table 1 contains summary statistics for dealer quote activity during the preopening. A number of dealers are active during the preopening with a cross-sectional
+average of 22 dealers submitting quotes each day. Table 1 shows that the frequency
+
+11
+
+We thank Bridge Information Services for providing access to the Nasdaq data.
+This sample period is after the disclosures of odd-eighths avoidance by Christie and Schultz
+(1994), and prior to the Order Disclosure Rules of 1997. Further, the order disclosure rules, Rules
+11Ac1-1 to 11Ac1-4, do not apply to the preopening.
+12
+
+191
+
+NASDAQ PREOPENING
+
+TABLE 1
+Summary Statistics of 52 of the Most Active Nasdaq Stocks during the Preopening and Trading
+
+Sample
+
+Daily Daily Daily dealer
+no. of no. of
+preopen Before
+trades dealers
+quotes
+8:30 8:30–8:45 8:45–9:00 9:00–9:15 9:15–9:30
+
+Full sample
+1294
+Quartile 1
+223
+(least active)
+Quartile 2
+638
+Quartile 3
+1269
+Quartile 4
+3048
+(most active)
+
+22
+13
+
+55
+25
+
+5
+4
+
+2
+1
+
+3
+2
+
+9
+5
+
+36
+13
+
+18
+24
+32
+
+38
+60
+96
+
+4
+5
+6
+
+1
+2
+3
+
+2
+4
+5
+
+6
+10
+15
+
+25
+39
+67
+
+Note. For each stock, the reported numbers are (1) daily average number of trades, (2) daily average
+number of dealers during the preopening, (3) daily average number of dealer quotes during the preopening, and (4) daily average number of dealer quotes during various intervals in the preopening. The
+sample period extends from October 1, 1995 through September 30, 1996. The numbers of dealers,
+preopening dealer quotes, and preopening market quotes are from the Bridge data set. The numbers
+of trades are from the TAQ database. The sample stocks are partitioned into four quartiles and sorted
+according to daily average number of trades.
+
+of dealer quotes increases during the last 15 min of the pre-opening (from 9:15–
+9:30 a.m.). More active quartiles have more quotes between 8:30 and 9:15 than
+less active quartiles. Activity in the last 15 min is concentrated at the end of the
+interval. During that time, the quote frequency is comparable to the trading day.
+Figure 2 shows that for the least actively traded stocks (quartile 1), a very small
+percentage of dealers average more than one quote per day. For the most actively
+
+FIG. 2. Distribution of dealer quotes. We calculate the average number of preopening quotes per
+market maker for each of the 52 sample stocks. We then calculate the percentage of market makers for
+each stock with an average frequency of 1, 2, 3, 4, and 5 preopening quotes per day. The percentages
+are then averaged across stocks for each quote frequency. The sample period extends from October 1,
+1995 through September 30, 1996. The sample stocks are partitioned into four quartiles and sorted
+according to daily average number of trades. Quartile 1 is the least active; quartile 4 the most active.
+
+192
+
+CICCOTELLO AND HATHEWAY
+
+FIG. 3. Percentage of price changes greater than one-eighth. Using sample data from 52 Nasdaq
+stocks from October 1, 1995 to September 30, 1996, this figure shows the percentage of price changes
+during the preopening that are greater than one-eighth. The percentages are computed for discrete
+time periods. The results are based on the 12 top market makers in terms of the frequency with which
+they change the market quote. Based on a test for differences in proportion, the percentage of changes
+greater than one-eighth before 8:30 is significantly greater than that for any of the other periods at the
+5% level. N is the number of price changes per time period.
+
+traded stocks (quartile 4), the distribution of individual dealer quotes is more
+uniform. Some dealers typically submit no more than a single preopening quote
+near the start of trading. Others submit an average of up to five preopening quotes
+per day with their first quote usually occurring prior to 9 a.m.
+Although the frequency of dealer quotes increases as 9:30 approaches, the magnitude of the changes in the market quote decreases. Figure 3 shows that over 95%
+of the changes in the market quote are one-eighth or less in the final 5 min of the
+preopening whereas less than 33% are smaller than one-eighth in the first 15 min.
+Larger price changes tend to occur early in the preopening when fewer dealers are
+quoting. Cao et al. (1999) show that these large price changes, occurring early in
+the preopening, contribute significantly to price discovery.
+Turning to the informational properties of the preopening, the question is whether
+the price based on the preopening is unbiased and efficient. Using the regression
+technique of Biais (1999),13 Fig. 4 shows that the preopening price measured by
+quotes between 9:00 and 9:25 A.M. is unbiased with a regression coefficient statistically equal to one. However, a bias is identified as occurring at 9:29 a.m. and
+lasting approximately until 10:15 a.m. Figure 4 also shows that prices as measured
+by trades occurring on alternative trade systems such as Instinet are more biased
+than prices measured by Nasdaq preopening quotes.14
+13 The application of the approach of Biais et al. (1999) to Nasdaq is discussed in Chernov and
+Hatheway (1999).
+14 We also estimated the regressions in Fig. 4 using the 3:00 p.m. price as the equilibrium.The results
+are very similar to those in Fig. 4, so we did not include them.
+
+NASDAQ PREOPENING
+
+193
+
+FIG. 4. Unbiasedness of the quote and trade prices. The unbiasedness of the prices observed
+during the preopening is tested by constructing a sample of preopening and closing trade and quote
+data for 52 active Nasdaq stocks from October, 1995 to September, 1996. Then the following expression
+is estimated: V11 − Pclose = α + β(Pt − Pclose ) + εt . Here V11 is the true value of the stock assumed
+to be the 11 a.m. price, Pt is the price at time t, and Pclose is the previous day’s closing price. The
+regression is estimated twice with all preopening prices measured as either the quote price or the trade
+price. The quote price is measured as the most recent midquote (or the most recent bid or ask price if
+the market is locked or crossed) prior to the indicated time. The trade price is measured as the most
+recently reported trade price prior to the indicated time. If the preopening is unbiased, the estimated
+value of β should be equal to one.
+
+Figure 5 repeats the analysis for top quartile of close to open price changes for
+each stock in the sample and further partitions the results based on the trading
+volume in the first 5 min of trading. The heaviest volume quartile (quartile 4)
+shows the least evidence of bias in the preopening quotes. As volume decreases,
+the extent of the bias increases and is consistent with the preopening price change
+being greater than the close to 11 a.m. price change. Interestingly, the extent of the
+bias increases as 9:30 a.m. approaches for all the volume quartiles.
+Figures 4 and 5 suggest a bias in preopening quotes. We test for a direction of the
+bias in Table 2. This table presents the correlation coefficients between the close-toopen price change and the open-to-11 A.M. price change. A correlation coefficient
+estimate of zero would indicate that the preopening prices are efficient with no
+predictive value for subsequent price changes. Although many of the coefficient
+estimates are close to zero, the table shows that reversals are more prevalent for light
+volume, high price change days than for either heavy volume, high price change
+or light volume, low price change days. There is also some weaker evidence of
+price continuations for openings with heavy volume. Together, the findings in
+Figs. 4 and 5 and Table 2 suggest price reversals and continuations similar to those
+documented by Stoll and Whaley (1990) for the New York Stock Exchange.
+Finally, the distribution of price discovery across market makers is relatively
+concentrated for each stock. Using price contribution as a measure of price discovery, Panel A of Table 3 shows that the three dealers with the largest share of price
+contribution account for an average of one third of the total price contribution for
+each stock. One half of the total price contribution is provided by an average of
+
+194
+
+CICCOTELLO AND HATHEWAY
+
+FIG. 5. Unbiasedness and volume. The unbiasedness of the prices observed during the preopening
+is tested by constructing a sample of preopening and closing trade and quote data for 52 active Nasdaq
+stocks from October, 1995 to September, 1996. Then the following expression is estimated: V11 −
+Pclose = α + β(Pt − Pclose ) + εt . Here V11 is the true value of the stock, assumed to be the 11 a.m.
+price, Pt is the price at time t, and Pclose is the previous days closing price. The regression is estimated
+using the quartile of the largest close to open returns for each stock in the sample period. The four lines
+shown represent volume quartiles. Volume quartile one represents the smallest 25% of daily opening
+trading volume during the period from 9:30 to 9:35 A.M. for each stock in our sample, quartile four
+the largest 25%. The data have been truncated with the top 1% of the log close to open price change
+days being dropped for each stock.
+
+between six and seven market makers. Since the average stock has over 50 market
+makers active during the preopening in our sample, the price contribution in each
+stock is concentrated in a relatively small number of dealers.
+A small number of dealers are also responsible for much of the price contribution
+across stocks. Panel B of Table 3 lists the frequencies with which individual dealers
+TABLE 2
+Correlation between Close to Open and Open to 11:00 A.M. Returns
+Volume Quartile
+Return quartile
+
+1 (lowest)
+
+2
+
+3
+
+4 (highest)
+
+Full sample
+1 (smallest)
+2
+3
+4 (largest)
+
+−0.14*
+−0.07*
+−0.05*
+−0.12*
+−0.27*
+
+−0.06*
+−0.04
+−0.01
+0.06
+−0.14*
+
+−0.06*
+0.01
+0.09*
+0.00
+−0.14*
+
+0.05*
+0.02
+0.04
+0.13*
+0.04
+
+Note. Using sample data from 52 Nasdaq stocks from October 1, 1995 to September 30, 1996, this
+table shows Pearson correlation coefficients for the signed close to open log return and signed open
+to 11:00 A.M. log return. The coefficients are presented by volume and price change quartiles. Return
+quartile one represents the smallest 25% of close to open returns for each stock in the sample period,
+quartile four the largest 25%. Volume quartile one represents the smallest 25% of daily opening trading
+volume during the period from 9:30 to 9:35 A.M. for each stock in our sample, quartile four the largest
+25%. The data have been truncated with the top 1% of the log close to open price change days being
+dropped for each stock, the reason being that there are a small number of very large price changes
+(greater than 10%) that often represent takeovers or other unusual events. An asterisk indicates that the
+correlation coefficient is different from zero at the 5% level.
+
+195
+
+NASDAQ PREOPENING
+TABLE 3
+Price Contribution by Dealer
+Panel A
+Percent of price
+Number of market
+contribution by top 3
+makers for 50% price
+market makers
+contribution
+Full sample
+Quartile 1 (least active)
+Quartile 2
+Quartile 3
+Quartile 4 (most active)
+
+32.5
+34.4
+31.2
+33.3
+31.1
+
+Number of market
+makers quoting in
+preopen
+
+6.6
+6.2
+6.6
+6.5
+7.1
+
+45.3
+38.2
+45.9
+44.5
+52.5
+
+Panel B
+Ranking
+Name of market maker
+
+#1
+
+#2
+
+#3
+
+Total
+
+Mayer & Schweitzer
+Herzog
+Merrill Lynch Inc.
+Sherwood Securities Corp.
+Bear, Stearns & Co. Inc.
+Morgan Stanley & Co. Inc.
+
+10
+7
+6
+3
+4
+1
+
+6
+2
+5
+7
+6
+4
+
+6
+4
+2
+2
+1
+3
+
+22
+13
+13
+12
+11
+8
+
+Totals
+
+31
+
+30
+
+18
+
+79
+
+Note. Using 52 stocks over the period from October 1, 1995 to September 30, 1996, we evaluate
+price contribution by dealers during the preopening. We define a price change as occurring following
+a quote where a market maker’s quote resulted in the market being improved (a higher bid or a lower
+ask). For each dealer in each stock, we calculate the weighted price contribution for that dealer as
+WPCki =
+
+T
+X
+t=1
+
+Ã
+
+¯ P Nt
+¯ ! Ã P Nt
+!
+¯
+¯
+j=1 1P j,t
+j=1 1P j,t I j,k
+×
+,
+¯
+¯
+P T ¯ P Nt
+P Nt
+¯
+t=1
+j=1 1P j,t
+j=1 1P j,t
+
+where 1P j,t is the price change over the jth quote change on day t, Nt is the number of quote changes
+on day t, and I j,k is a dummy variable with value 1 if the jth quote change was initiated by market
+maker k and with value 0 otherwise. The first term in parentheses is the weighting factor for each day.
+The second term in parentheses is the contribution of the price changes initiated by market maker k
+on day t relative to total price changes on day t. Panel A shows price contribution by volume quartile.
+Panel B ranks market makers by their relative price contribution, the number one market maker having
+the greatest price contribution over the year for that stock. We then count the number of times a market
+maker achieves a ranking of 1, 2, or 3. The market makers with the greatest number of top-three
+rankings are listed in the table.
+
+are identified as one of the three leading dealers in terms of price contribution for
+a stock. The six dealers listed account for over 50% of the top three positions for
+the 52 stocks in our sample. There are two types of dealers listed in Table 3, major
+integrated broker dealers (such as Merrill Lynch) and major wholesalers (such as
+Sherwood Securities).
+The existence of integrated broker and wholesale dealers in the preopening warrants additional investigation into their motivations and patterns of price signaling.
+
+196
+
+CICCOTELLO AND HATHEWAY
+
+FIG. 6. Percentage of price changes initiated by wholesaler dealer. Using sample data for 52 stocks
+over the period from October 1, 1995 to September 30, 1996, this figure breaks the preopening down
+into six time periods. The results show the percentage of preopening price changes initiated by a
+wholesaler dealer (as opposed to an integrated brokerage dealer) during each period. The results are
+based on the 12 top market makers (four of which are wholesalers) in terms of the frequency with
+which they change the market quote. Tests for differences in proportions between the period before
+8:30 a.m. and all the other time periods (except 8:30–8:45 a.m.) are significant at greater than the 5%
+level. N is the number of price changes per period. The wholesalers include Mayer and Schweitzer,
+Herzog, Sherwood Securities, and Knight Securities.
+
+Figure 6 shows the proportion of price changes initiated by wholesale versus integrated broker dealers over time. While both types of dealers are active throughout
+the preopening and play a significant role in price discovery, wholesaler dealers
+become more active relative to integrated broker dealers as the opening approaches.
+Broker dealers, such as Merrill Lynch, typically handle a significant portion
+of institutional order flow. As institutional orders are both relatively large, and
+potentially informed, signaling imbalances in this type of order flow should be
+important to dealers. These firms also possess substantial in house research capability. Figure 6 shows that broker dealers are more active early in the preopening,
+when price changes are larger.
+Wholesale firms’ order flow is disproportionately retail order flow, which is
+typically considered uninformed. But due to the random fluctuations of liquidity
+demand, retail orders may cause order flow imbalances for dealers. These imbalances may worsen as the opening nears. Consistent with the pattern in Fig. 6,
+wholesale dealers become more active in signaling their accumulated order imbalances just prior to the opening.
+3. THE CUSTOMER CASE AGAINST INDICATING AHEAD
+Having presented the empirical evidence from the Nasdaq preopening, we now
+construct the customer position that the practice of indicating ahead does not
+
+NASDAQ PREOPENING
+
+197
+
+constitute best execution. We present two arguments. The first relies on the common law agency concept of loyalty in the context of conflicting duty. The second
+characterizes the practice of indicating ahead as a collaborative effort to enrich
+dealers at their customers’ expense.
+3.1. Common Law Agency and the Duty to the Customer
+3.1.1. Loyalty
+Common law requires an agent to be loyal and act exclusively in his or her
+principal’s interest.15 Courts have accepted the position of the SEC that the fiduciary
+duty of a broker-dealer begins with the solicitation of business and covers all aspects
+of the client–broker relationship under the “shingle theory.”16 The client–broker
+agency relationship is thus clearly in existence when an order is placed and when
+the broker has consented to execute.17 The relationship ends when the transaction
+is complete.18 Under Nasdaq Rule 2320, the dealer’s obligation for best execution
+is defined as obtaining the most favorable terms for the customer on that specific
+transaction, and not in terms of the market or any future transactions.19
+Kyle (1989) demonstrates that the value of a trader’s private information decreases as her information is revealed through multiple rounds of trading. Cao and
+Lyons (1998) show that information can consist of both payoff-relevant information about the asset’s final value and payoff-irrelevant information including the
+effects of the customer’s order on dealer inventories.20 In the preopening, multiple
+rounds of quotations replace the multiple rounds of trading in Kyle with prices
+adjusting to new equilibrium levels as shown in Fig. 4 and Table 2. Disclosure
+of interest harms customers with superior payoff-relevant information that could
+have been rewarded with better trades at the opening had there been no dealer
+preopening coordination of price. Even if the customer is uninformed about future
+payoffs, revealing his or her interest allows all dealers to reflect the anticipated
+inventory effect in their quotes.21
+15 See the Restatement of Agency, sections 387, 424, and In Re Merrill Lynch, 911 F. Supp 754
+(1995). Easterbrook and Fischel (1993) argue that the duty of loyalty “in its strong form” requires an
+agent to work for the exclusive benefit of the principal.
+16 Charles Hughes v. SEC, 139 F.2d 434 (2d Circuit.1943), Cert. denied, 321 U.S. 786 (1944).
+17 Robinson v. Merrill Lynch, 337 F. Supp. 107, 111 (N.D. Ala. 1971), aff’d, 453 F.2d 417 (5th cir.
+1972).
+18 Ibid.
+19 NASD Manual, Rules of the Association, Conduct Rules, ¶2320 (1996).
+20 During the time of this study, over two-thirds of interdealer trading volume was conducted using
+the telephone or SelectNet system where the dealer could refuse the trade. Both reputational issues
+and the right of refusal reduce the ability of an informed dealer to compel trade at the posted quote of
+an uninformed dealer. Compelled trade is central to Cao and Lyons’ (1998) argument that informed
+traders will exploit their information rather than disclose it.
+21 Admati and Pfleiderer (1991) show that disclosure of trading interest reduces trading costs for
+uninformed traders but do not analyze the case for informed traders or account for inventory effects.
+
+198
+
+CICCOTELLO AND HATHEWAY
+
+When a dealer discloses customer interests/orders in the Nasdaq preopening
+without having any chance of executing them, he or she is not being loyal to the
+customer. Even if the investor releases his or her property rights by communicating
+an order to the dealer for purchase or sale at the opening price, such communication
+is done with the expectation that the dealer will not betray confidentiality nor
+give away the customer’s advantage. Customers without information may also be
+harmed if the effect of an individual preopening quote causes prices to move away
+from them. Indicating ahead thus harms all customers on the side of an order
+imbalance.
+3.1.2. Conflicting Duty
+Dealer duties to the market do not subvert their duties to customers. On the
+contrary, the dealer’s duty to the market is also undermined by the practice of
+indicating ahead. Dealer duties to the market are rooted in the antimanipulation
+requirements of Sections 10(b)(5) and 15c of the Exchange Act.22 This philosophy
+of the integrity of the market extends well beyond the marketplace or exchange as
+evidenced by NASD rule 3310, which states:
+No member shall publish or circulate...any notice, circular, advertisement, newspaper article,
+investment service, or communication of any kind...which purports to quote the bid price or
+asked price for any security unless such member believes that such quotation represents a
+bona fide bid for, or offer of, such security.23
+
+The practice of indicating ahead in the preopening, where there is no chance of
+filling the order, violates this rule as the quotation is not a bona fide bid or offer.
+As such, the practice is an intentional interference with the free forces of supply
+and demand.
+The duty to the market does not require full disclosure of all the information in a
+dealer’s possession, particularly the information relating to a customer order. The
+limit order display rule implemented in 1997 requires the display, either through
+the dealer’s quote or a pass-through arrangement, of all limit orders meeting certain
+price and size requirements.24 The NASD and SEC have recognized that the required disclosure of all orders may be detrimental to customers and do not require
+display of large orders, and market, contingent, or working orders.
+Even if indicating ahead benefits the whole market, such a claim is irrelevant.25
+Each dealer owes the duties of loyalty and confidentiality to each individual principal and each individual order. By revealing customer interests and orders early,
+the dealer group has subverted the interests of clients to those of fellow dealers.
+This practice denies the customer the opportunity to trade at the opening price that
+would have prevailed had the order not been revealed.
+17 C.F.R. § 240,10b-5 (1951), 17 C.F.R. § 240.15c (1995).
+NASD Manual,Rules of the Association,Conduct Rules, ¶3310 (1996).
+24 17 C.F.R. § 240.11Ac1–1 to § 240.11Ac1–4 (1996).
+25 See Macey and O’Hara (1997, p. 211).
+22
+23
+
+NASDAQ PREOPENING
+
+199
+
+3.2. Collaboration to Benefit Dealers to the Detriment of Their Customers
+3.2.1. Dealer Benefits from Indicating Ahead
+Dealers are active in the preopening, as Table 1 and Fig. 2 show. Dealers make
+these indicative quotes in the preopening because it is in their interest. Farrell
+(1995) discusses the notion of “cheap talk,” suggesting that antitrust law stops
+even nonbinding communications about pricing. This is because the talk helps
+competitors reach a collusive, and profitable, equilibrium.
+Although they are allegedly competitors, dealers collaborate by using their indicative quotes to signal other dealers about price movements. This is evidenced
+by the specific example given in Fig. 1 and the general pattern of price discovery
+shown in Figs. 4 and 5. Moreover, Table 3 suggests leadership by certain dealers
+in the price movements of individual stocks.
+Indicating ahead is a collaborative sharing of information such as is criticized
+in the recent SEC Section 21(a) report.26 The following quotation from that report
+discusses an example of information sharing:
+Some Nasdaq market makers have also worked improperly together in this way to fill customer
+orders or to reduce inventory exposure. In such cases, a market maker having a sizeable
+customer order or an inventory imbalance called upon other market makers to coordinate
+their quotations and transactions with the requesting market maker. The fact that a market
+maker used these arrangements when engaged in buying or selling securities for a customer
+was typically not disclosed and may have violated the duties owed by the market maker to
+its customer.27
+
+The practice of indicating ahead benefits dealers by allowing them to move prices
+prior to executing orders. While there are no specific rules against quoting ahead
+of customer orders, trading ahead of customer block orders, or “front running,” is
+currently prohibited under NASD Rule 2110-3 because the practice increases the
+cost to the customer while profiting the dealer.28 As the dealer is the counterparty for
+a majority of trades on Nasdaq, the practice of indicating ahead amounts to trading
+ahead.29 Cases such as Barnett and Opper hold that there is not best execution
+when dealers trade for their own account after accepting customer orders.30
+Table 2 documents that large price reversals tend to occur in low-volume
+openings.31 Since Nasdaq dealers are often the counterparties for their own customers, there is a conflict of interest between the price signal sent by a dealer
+26 S.E.C. Report Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding NASD
+and the Nasdaq Market (1996), pp. 2–3, 26–27.
+27 Ibid., p. 23–24.
+28 NASD Manual, Rules of the Association, Conduct Rules, ¶2110-3 (1996).
+29 Smith (1999) shows that dealer–customer trades are 72% of Nasdaq trading.
+30 See Barnett v. United States, 319 F.2d 340 (8th Cir. 1963), where the brokerage traded for its
+account after accepting a customer’s order, and Opper v. Hancock Securities Corp., 250 F. Supp. 668
+(S.D.N.Y.), affd, 367 F.2d 157 (2d Cir. 1966), where the broker made representations that it was trying
+to execute the customer’s order while it traded for its account.
+31 See Stoll and Whaley (1990).
+
+200
+
+CICCOTELLO AND HATHEWAY
+
+as an agent for the customer during the preopening and the price received by a
+dealer trading as principal against the customer after trading starts. If monitoring
+is imperfect, dealers can benefit by signaling excess price changes and then trading
+against their customers.
+Even under the extreme case of a zero-profit sequential trading model, such
+as that proposed by Glosten and Milgrom (1985), dealers benefit by preopening
+communications. In sequential trading models, all traders transact with the dealer
+and the dealer’s expected profit is zero. If the preopening successfully determined
+the new equilibrium price, the dealer’s profit would remain zero. But the preopening
+allows dealers to reduce the risk to their expected profits, thereby benefiting them.
+3.2.2. Harm to Customers
+3.2.2.1. Subversion of information. When a customer’s order reflects new information, and that information is subverted from the customer to the market
+through preopening indications, the customer is harmed. Figure 1 provides an
+illustration. Assuming that a customer was informed about changes in the equilibrium price of the stock in this scenario, the revelation of her order flow during the
+preopening leads to the higher price she must pay.32
+The large price changes initiated by major investment banking and integrated
+brokerage firms, such as Morgan Stanley’s actions in the Microsoft example,
+could reflect informed institutional order flow. Dealers that handle a significant
+proportion of institutional order flow also tend to possess a substantial market
+research capability themselves. Their preopening indications could reflect their
+own information-gathering abilities and knowledge of the market. The empirical
+evidence does not identify whether indications by integrated broker dealers reflect
+their customer order flow or their own research. But even if the indications are
+based solely on the dealer’s own research, it is arguable that this advantage should
+be for the benefit of the dealer’s own customers.
+Wholesalers generally do not have a market research capability. However, Fig. 6
+indicates that these wholesalers’ quotes still cause over 27% of price changes before
+8:30 a.m. Further refinement of the data in Fig. 3 indicates that wholesalers are
+as likely as integrated brokers to post quotes which change the market quote by
+more than $1/8 prior to 8:30 a.m., 68.9% v. 66.4%. Wholesalers also represent a
+substantial share of price contribution and leadership as shown in Table 3. Since
+the primary private information available to wholesalers is their own order flow, it
+appears that this order flow is informative. Indicating ahead subverts the value of
+this informed order flow from customers to the market.
+3.2.2.2. Order imbalances. Damage is also done to customers when preopening indications identify order imbalances and the market price deviates from the
+equilibrium price. Figure 4 shows that at 9:29, the preopening price is a biased
+estimator of the equilibrium price. Figures 4 and 5 and Table 2 show that the bias
+32 Unfortunately, we do not have order flow data to more directly assess the value of this lost
+information.
+
+NASDAQ PREOPENING
+
+201
+
+triggers price reversals similar to those reported in Stoll and Whaley (1990). The
+result is an opening Nasdaq price that overshoots the equilibrium price.33 Customers on the same side as the order imbalance thus tend to pay more (or receive
+less) relative to the equilibrium price.
+Price reversals on the opening are generally considered to be the dealers’ response to temporary imbalances in liquidity demand. Liquidity demand is more of
+a concern for wholesalers than for integrated broker dealers. Figure 6 shows that
+wholesalers become more active late in the preopening as they accumulate order
+imbalances. They then move prices in order to balance their order flow. The pattern
+in Fig. 3 suggests that these accumulated liquidity imbalances lead to small price
+changes, as over 95% of the changes in the market quote are less than $1/8 in the
+final minutes of the preopening.
+An example of the motivation to balance supply and demand is taken from
+O’Reilly (1999):
+...a market maker with a large volume of retail buy orders—particularly before the market
+opens—may note that the best offer in the market is for fewer shares than it needs to buy to
+fill those orders. So to move the market and fill its orders, the market maker may enter a bid
+at or higher than the current best offer to lock the market, hoping to get other market makers
+to adjust their quotes.34
+
+Even if inventory balancing is to be put ahead of individual customer interests,
+one problem for customers is that dealers’ inventory balancing motive is confounded with other less desirable goals, such as price manipulation for profit.
+The evidence of price reversals shown in Table 2 suggests that reversals seem
+too large, particularly on days with light volume, to be driven solely by inventory
+balancing.
+O’Reilly (1999) discusses how dealers are affecting the market without trying
+to reach the other side. Quoting from the article:
+Wholesalers jack-up their prices at the opening, then short the stock before the prices retreat
+to regular levels...35
+
+There is some evidence that sophisticated customers realize the risks of trading
+at the opening due to these manipulation risks. Chan et al. (1995) observe that
+the size of trades is smaller at the opening than during the day. This is consistent
+with institutions reducing their trading around the opening. In addition, Harris
+and Schultz (1998) find that SOES traders avoid trading immediately after the
+opening.
+33
+
+Recall the equilibrium price is taken to be the 11 a.m. or 3 p.m. price.
+See O’Reilly (1999, p. 26).
+35 Ibid. The quotation within the article is by Michael Barone, head of Nasdaq trading at William
+Blair and Company. Along similar lines, Pulliam (1999) quotes Matt Johnson, head of Nasdaq trading
+at Lehman Brothers, as saying “Some market makers are quoting at a higher level so they can buy it
+back at a cheaper price.” More egregious examples of this practice evolve from goals aimed more at
+manipulation than inventory balancing. For example, Pulliam (1999) describes the process of “painting
+the screen” during the preopening.
+34
+
+202
+
+CICCOTELLO AND HATHEWAY
+
+4. THE DEALERS’ CASE IN REBUTTAL
+This section presents the dealers’ case that preopening indications constitute
+best execution. We begin with a discussion of the dealers’ duty to fully reflect
+supply and demand during the preopening. Next comes a summary of the evidence
+that indicating ahead benefits the market as a whole. The section concludes with
+the argument that customers should understand the preopening and could avoid
+exposing their orders if they objected to the practice.
+4.1. Duty to the Market
+Dealers have several obligations that are salient to an understanding of duty to the
+market during the preopening. Dealers must have a quote entered into the Nasdaq
+system by 9:30. The quote must be two-sided and reflect the dealers’ actual buying
+and selling prices. Quotes must comply with the prohibitions against manipulative
+practices outlined in NASD rules 2110 and 2120, which echo sections 10(b)(5)
+and 15(c) of the Exchange Act.36
+Under these obligations, displaying a price that does not reflect the dealer’s
+assessment of the price necessary to clear the market could be deemed a manipulative practice. These obligations require that dealers use the preopening to identify
+the opening, i.e., equilibrium, price. This contention is supported by the NASDR
+Market Regulation Committee in NASDR v. Morgan Stanley...
+...we recognize that it is appropriate and commonplace to use Nasdaq as vehicle to advertise
+interest in either buying or selling securities... .37
+
+This statement implies that a dealer’s duty to both his customer and the market
+are best met by engaging in a search for the other side during the preopening.
+Consistent with Biais et al. (1999), dealers’ quotes produce the public good of
+price discovery. Current policy also recognizes that using Nasdaq quotes as a
+means to conduct that search is appropriate and dealers need not use Instinet, the
+telephone, or other means to advertise their interest.
+4.2. Improved Market Function
+Preopening indications improve the functioning of the whole market. The results
+in Fig. 4 show that the opening price produced by preopening indications is close to
+being an unbiased estimator of the price at 11 A.M. on the trading day. Figure 4 also
+demonstrates how the prices as measured by trades occurring on alternative trade
+systems like Instinet are more biased than prices measured by preopening quotes.
+The price reversals seen in Figs. 4 and 5, and those implied by the correlation
+coefficients in Table 2 are the result of searching for the other side. They are more
+36 NASD Manual, Rules of the Association, Conduct Rules, ¶2110 and ¶2120 (1996); see also
+17 C.F.R. § 240.10b-5 (1951), 17 C.F.R. § 240.15c (1995).
+37 See NASDR v. Morgan Stanley, supra at note 8, p. 61.
+
+NASDAQ PREOPENING
+
+203
+
+pronounced on low-volume days because this search is more difficult for the dealer
+and costly to the customer. As such, evidence of reversals alone is insufficient to
+show damage to customers.
+Indicating ahead benefits customers by enabling them to obtain a more favorable
+price. It reduces informational asymmetries and lowers the search costs that would
+be incurred if trading interest were not disclosed. On a theoretical basis, Admati and
+Pfliederer (1991) show that disclosure of trading interest lowers the asymmetric
+information cost to traders. The intuition behind this result is supported by both
+experimental (e.g., Flood et al. (1999)) and empirical work (e.g., Naik and Yadav
+(1999)). Furthermore, Flood et al. (1999) show that the costs associated with search
+can be eliminated with transparent quotes.
+Experimental evidence such as Crawford (1998) and Flood et al. (1999) also
+suggests that price discovery would be slower in the absence of preopening communications. The practice of indicating ahead thus promotes price discovery and
+speeds execution of customer orders. Macey and O’Hara (1997) argue that these
+are elements of best execution. Under the view that best execution is more of a
+general condition than a specific requirement for each trade, minimizing the total
+costs of trading should be the goal. These costs include the “opportunity costs of
+failing to trade in a timely manner.38
+Preopening indications also improve liquidity and reduce market fragmentation.
+When a dealer takes advantage of her competitors by using her superior information at the opening, a disadvantaged dealer may choose not trade with her anymore. This would raise the adverse selection costs for dealers, akin to the “cream
+skimming” example discussed by Easley et al. (1996). Higher adverse selection
+costs for dealers will lead to higher trading costs for customers. If informed trades
+subsequently move off Nasdaq, then the market will become thinner and less transparent. Arguably, one comparison is the recent experience of the London SETS
+market.39
+Telser (1985) argues that competition may require some cooperation in order
+to maintain efficiency. The preopening indications of dealers are a cooperative
+process that aims at improving the functioning of the market. The practice of
+indicating ahead thus supports an Edgeworth contract surface. In short, it is not
+possible to make any one trader better off by changing the price he or she receives
+without making at least one other trader worse off. For example, in the case of the
+preopening, those customers on the side of the imbalance may receive “worse”
+prices than they would if indicating ahead did not occur. But those customers on
+the contra side receive “better” prices because of the practice of indicating ahead.
+To demand that best execution apply to every quote and trade will raise the costs
+for all customers. As Macey and O’Hara (1997) argue, pursuing a narrow concept
+of best execution may make markets less efficient.
+38
+
+See Macey and O’Hara (1997, p. 220).
+See Ascarelli, S. (1998). London Stock Exchange plans to cut hours: Move is effort to improve
+liquidity in its SETS electronic order book, The Wall Street Journal, May 29, Sect. B, p. 7A.
+39
+
+204
+
+CICCOTELLO AND HATHEWAY
+
+4.2.1. Burden of Proof and Counterfactuals
+Even if arguments that preopening communications improve market function
+are rejected, customer claims of damage must still fail. There is no empirical basis
+to directly evaluate harm in the absence of a comparison to a situation where
+preopening communications do not exist.
+Plaintiffs carry the burden of proving damage. In this case, plaintiffs are customers. While the evidence (such as Table 3) indicates that certain types of dealers
+are active in the preopening, none of the empirical results directly indicate damage.
+For example, evidence of price reversals alone (Table 2) does not prove damage.
+Price reversals could have been more severe in the absence of preopening communications. Without the counterfactual evidence, the customer cannot meet the
+burden of proof.
+4.3. Customer Sophistication
+The dissent in Manning argues that customer sophistication is an issue in best
+execution debates.40 Table 3 shows that the major investment banking and brokerage firms (Morgan Stanley, etc.) are often leaders in moving the preopening
+price. It is their customers who are most likely harmed. But their customers should
+tend to be larger and more sophisticated than the customer group as a whole.41 As
+such, they should know about this preopening mechanism. They are free to submit
+orders during trading hours or trade with other dealers whom they believe will
+better protect their interests.42
+Large investors probably will not object to this practice because it helps achieve
+the best execution of blocks. Otherwise, execution would be much slower and
+potentially at worse prices. Unsophisticated (uninformed) customers actually benefit from preopening communications. If this is a zero-sum game, the prestige
+group often leads (gives away their larger clients’ information advantage) to the
+betterment of small investors.
+Inventory balancing facilitated by the preopening helps small traders who buy
+and sell infrequently. The overshooting identified in Table 2 merely reflects the
+appropriate price change needed to achieve desired inventory exposure in a dealer
+market confronted with the overnight accumulation of orders. Moreover, Nasdaq
+dealers do not normally charge their customers a commission for trades executed
+when the market takes the other side. The customer receives an execution, at a price
+he was willing to pay, pays the spread, and does not pay an additional commission.
+5. POLICY CHOICES
+The strength of the arguments both for and against the practice of indicating
+ahead highlights the difficulty of crafting regulatory alternatives for the preopening.
+40
+
+See Manning, supra at note 2, pp. 89, 333–338.
+We assume this given the natural selection process.
+42 The nature of the fiduciary duty owed will vary depending upon the relationship between the
+broker and the investor. See Romano v. Merrill Lynch, 834 F.2d 523, 530 (5th Cir. 1987).
+41
+
+NASDAQ PREOPENING
+
+205
+
+The Nasdaq dealers have a difficult job. They must open the market even when
+there may be an imbalance of orders due to information arrival. In so doing, they
+must choose between the interests of an individual order and overall interests of
+their customers and the market. Unlike the NYSE, there is no single dealer (the
+specialist) who matches orders.43 On the Paris Bourse, which is also a dealer market
+like Nasdaq, the exchange has a central computer that clears the market to open.44
+How should Nasdaq open consistent with best execution? As the previous two
+sections indicate, there is a tension between the needs of the market at the opening
+and the duty to individual transactions as described in ¶2320. We evaluate several
+policy alternatives. First, we discuss the all (bar all preopening indications) or
+nothing (status quo) approaches. We then examine two midrange policy choices.
+One is the mandatory disclosure of the practice of indicating ahead. The second is
+the adoption of an automated or batch style opening for Nasdaq.
+In evaluating the alternatives, we begin with the parameters for market quality
+provided by Domowitz and Steil (1999). They argue that liquidity, as measured
+by spreads and market depth, is a facet of a well-functioning market. In addition,
+informational efficiency, composed of considerations of adverse selection and
+speed of execution, forms a component in the assessment of market quality. We also
+evaluate the alternatives in terms of dealer duties to an individual customer which
+are based on common law agency principles of confidentiality and loyalty. These
+parameters require the agent to seek the most favorable terms for a customer’s
+transaction.
+5.1. Maintain Status Quo
+Currently, Nasdaq trading at the opening is characterized by spreads that do not
+appreciably widen, the ability to trade a large number of shares, and informationally
+efficient prices. This comes at the cost of revealing customer trading interest to
+the market, which could lead to a reduction in overnight information production.
+In addition, the current opening allows dealers to act in their self-interest to the
+detriment of customers’ individual orders. From a legal perspective, the current
+opening favors the concept of best execution as a general condition rather than
+applying it on a trade-by-trade basis.
+The NASD posture toward the preopening suggests that this regulatory body
+believes that the benefits of the practice of indicating ahead outweigh the costs.45
+From a regulatory perspective, those customers whose trades may be individually
+informative to the market are the customers most qualified to protect their own interests. In this instance, the practice of indicating ahead constitutes best execution.
+The remaining issue for regulators is to distinguish between proper information
+sharing through quotes and improper information sharing as described in the 21(a)
+report.46
+43
+
+See Madhavan and Panchapagesan (1997).
+See Biais et al. (1999).
+45 There is NASD interest in reducing the frequency of locked and crossed markets at the start of
+trading.
+46 See SEC 21(a) Report, supra at note 26, pp. 26–27.
+44
+
+206
+
+CICCOTELLO AND HATHEWAY
+
+The problem with the do-nothing approach is that the line between acceptable
+and improper communications is hard to draw (and harder to enforce). In addition,
+indicating ahead smacks of the “friendly competition” and “hand holding” criticized in the SEC Section 21(a) report.47 The practice arguably violates a dealer’s
+duty of loyalty, and undermines the confidence in the Nasdaq market.
+5.2. Ban the Practice
+Such an alternative would be implemented by not allowing the Nasdaq computers to be turned on until just prior to the opening and prohibiting interdealer
+communication prior to trading. An individual customer order would not be disclosed unless on an alternative market where live trading was occurring. Best
+execution would be satisfied in the sense of no single order being disadvantaged
+relative to others. But such a ban would widen spreads and reduce liquidity and
+price efficiency.
+A ban on preopening coordination on the Nasdaq system really aims at stopping cheap talk among dealers. While not turning on the Nasdaq computers
+would be easily implemented, this broader goal would be difficult to enforce.
+In the spirit of the regulatory dialectic, keeping the Nasdaq computers off during the preopening would invite attempts by dealers to communicate in other
+forums. Having dealers coordinating market-opening positions off-Nasdaq would
+be more difficult to monitor and enforce than having the preopening cheap talk on
+Nasdaq.
+Off-Nasdaq coordination would raise dealer search costs relative to the current
+baseline. It is likely that these costs would be passed on to customers. If spreads
+were to widen, liquidity to decrease, and prices to become less informative there
+would be substantial costs passed on to traders. Easterbrook and Fischel (1993)
+argue that courts (and regulators, by inference) should refrain from adopting rules
+that raise costs without benefit. Under this rationale, both sides may be better off
+if the current preopening communication practice is allowed to continue.
+As the issue here is one of conflicting duty, an alternative to proscribing all
+preopening communication would be to prevent preopening communication from
+being based on customer order flow. This policy assumes that a “Chinese Wall”
+between the trading desk and incoming customer orders can be maintained. Preopening quotes can then adjust to reflect public information, but not the information
+in order flow. But the disadvantages of this policy are similar to those of prohibiting all preopening quotes; orders might be displayed on alternative systems or via
+private communication.
+5.3. Require Disclosure
+Assessing rights and obligations within the context of fiduciary relationships
+is often difficult. Easterbrook and Fischel (1993) argue that fiduciary duties are
+47
+
+See SEC 21(a) Report, supra at note 26, p. 6.
+
+NASDAQ PREOPENING
+
+207
+
+generally characterized by unusually high costs of specification and monitoring.
+Instead of trying to capture all aspects of the relationship in written contract, an
+agent assumes a duty of “loyalty in objective, and a duty of care in performance.”48
+Easterbrook and Fischel (1993) suggest that “the details should be those that
+maximize the gain, which the contracting parties can divide.”49
+Because of these difficulties in assessing rights and duties in fiduciary relationships, dealer fiduciary duty cases such as Chassins emphasize that an agent
+should disclose conflicts of interest to customers.50 Disclosure of the practice of
+indicating ahead may add transparency that could be useful in establishing a fair
+bargain between customers and dealers. Customers might well not agree to dealer
+preopening communications if they dickered about the subject explicitly.51 With
+proper disclosure, customers could at least time their submission of orders to
+address a dealer’s conflict of interest. The Section 21(a) report states “An undisclosed arrangement between or among dealers that results in a broker dealer acting
+contrary to the interests of its customer is incompatible with the firms’ agency duties to its customers.52
+The effects of requiring customer disclosure are complex to analyze. Traders
+who believe their trades to be informative may alter their submission strategy. If
+informed traders avoided submitting orders prior to trading, some of the problems
+associated with banning the practice might ensue.
+Brokerage agreements typically disclose that purchases and sales may be made
+in different markets. They are generally silent about whether customer indications
+of interest and/or orders may be exposed. Requiring this disclosure would arguably
+facilitate bargaining and customer choice on this issue. But this may be of little
+benefit since the customers impacted most by this practice are also the ones most
+likely to be aware of it already. As such, sophisticated large traders may gain little
+from formal notification of this practice. Small traders may not care since the
+practice is an added complication that arguably benefits them anyway. Further, as
+Easterbrook and Fischel (1993) point out, the process of “soliciting waivers” takes
+time and is costly.
+5.4. Adopt an Automated or Batch Style Opening
+A final alternative is to batch the customers’ orders and dealers’ trading interest
+into a single, presumably automated, system. While batch auctions have some
+advantages for opening a market, they do not unambiguously dominate dealer
+markets.53 Such a system avoids the conflicting duty problem of the preopening.
+However, batch style opening is inconsistent with the dealer structure of the Nasdaq
+48
+
+See Easterbrook and Fischel (1993, p. 426).
+Ibid.
+50 See Chassins v. Smith, Barney & Co., 438 F.2d 1167, 1172 (2d Cir. 1970).
+51 See Easterbrook and Fischel (1993) and Jordan v. Duff & Phelps Inc. 815 F.2d 429, 436 (1987).
+52 See SEC 21(a) Report, supra at note 26, p. 24.
+53 See Madhavan (1992) for a thorough analysis.
+49
+
+208
+
+CICCOTELLO AND HATHEWAY
+TABLE 4
+Summary of Policy Alternatives for Preopening
+Priority of duties to market
+
+Priority of duties to customer
+
+Policy alternatives
+
+Liquidity
+
+Efficiency
+
+Confidentiality
+
+Loyalty
+
+Status quo
+Ban
+Disclosure
+Automation
+
+High
+Low
+Uncertain
+Uncertain
+
+High
+Low
+Uncertain
+Uncertain
+
+Low
+High
+Intermediate
+Intermediate
+
+Low
+High
+High
+Intermediate
+
+Note. This table presents a summary of four policy alternatives for the NASDAQ preopening. Each
+alternative is ranked regarding the relative (high, low, or intermediate) priority it places on supporting
+dealers’ market duties and customer duties. In some cases, the impact (and priority) is uncertain. Those
+cases are labeled as such. Dealer market duties are to provide liquidity, which consists of considerations
+of spread and depth, and efficiency, which consists of speed and adverse selection considerations.
+Dealer duties to customers consist of confidentiality of orders and loyalty to an individual order.
+The alternatives are to leave the preopening as it is (status quo), allow no preopening indications on
+NASDAQ (ban), require disclosure of the practice of indicating ahead to customers (disclosure), and
+automate the preopening by submission of all orders to an electronic source (automation).
+
+market. Furthermore, existing automated batch systems have not been free from
+problems including illiquidity and gaming.54
+5.5. Comparing Policy Alternatives
+Comparing the policy alternatives to each other is problematic in the absence
+of criteria for measurement. As best execution eludes precise legal definition the
+criteria that encompass this concept also remain arbitrary. Best execution involves
+both dealer duties to the market and dealer duties to individual customers. Table 4
+provides an assessment of the relative priority each set of duties receives under the
+various policy alternatives for the Nasdaq preopening. The overall tradeoff that
+is apparent in the conflict of dealer duties is apparent. The policy alternative that
+arguably prioritizes market duties is the status quo, but it offers the lowest priority to customer duties. On the other hand, banning preopening communications
+emphasizes the individual customer duties, but arguably harms both liquidity and
+informational efficiency.
+The remaining alternatives provide some interesting middle ground. Formal
+notification as a policy appears to support a balancing of the conflicting duties
+to market and customer. Dealers communicate their intentions to indicate ahead,
+while presumably persuading the customer that the practice is in that customer’s
+best interests. But the effect of a formal policy of disclosure on the market is
+difficult to analyze.
+Automated systems can remove the dealer’s balancing of market and customer
+considerations, but their use undermines the dealer structure of Nasdaq. Domowitz
+54
+
+For a survey, see Domowitz (1993).
+
+NASDAQ PREOPENING
+
+209
+
+and Steil (1999) argue that cross subsidization is a feature of dealer markets. This
+cross subsidization arguably occurs in the current preopening as it exists. Informed
+orders subsidize uninformed orders. The changeover to an electronic system removes this subsidization to the advantage of informed orders. But uninformed
+orders are left worse off. Whether the costs of this arrangement are higher than
+under the existing opening is an unanswered question. As Domowitz and Steil
+(1999) observe, comparisons of traditional and automated markets are difficult
+given self-selection bias. The comparisons that do exist do not suggest a strong
+advantage for either type of system.
+
+6. SUMMARY AND CONCLUSIONS
+This paper asks whether Nasdaq dealers’ practice of indicating ahead of customers in the Nasdaq preopening constitutes best execution. Dealers use nonexecutable quotes to both facilitate price discovery and improve stock inventory
+management. From the dealers’ perspective, this practice improves functioning
+of the overall market, thereby benefiting customers as a group. But from the customer’s point of view, these communications are collusive and violate the duty of
+loyalty owed to each principal individually. In addition, the practice may transfer
+wealth from the customer group to the dealer group as a whole and is difficult to
+monitor.
+Adjudication of this issue turns on how best execution is defined. On one hand,
+best execution should be more of an overall condition than a requirement at any
+point in time. This definition strengthens the dealers’ position by putting the duty
+to the market above the duty to individual customers. Although an “unappealing
+specter”55 for some, defining best execution as an overall condition is a recognition
+of the futility in trying to characterize the concept on a trade-by-trade basis.
+But conversely, defining best execution based on “hornbook” agency law means
+that each dealer owes a duty of loyalty to her customer individually. Under this
+view, dealer duties to the market are irrelevant. This definition favors the customer
+position, as “indicating ahead” puts the dealer’s financial interests ahead of those of
+individual customers. The result is direct harm for some customers and a violation
+of the duty.
+The preopening is an interesting example of the blurring line between markets
+and institutions. Dealers, although competitors in market making, coordinate their
+actions, effectively acting as a single organization to open the market. From a
+policy standpoint, the practice of indicating ahead in the Nasdaq preopening raises
+a concern that “the goal of best execution for the individual may not be compatible
+with the broader goal of best execution for the market as a whole.”56
+55
+56
+
+See Macey and O’Hara (1997, p. 211).
+Ibid., p. 206.
+
+210
+
+CICCOTELLO AND HATHEWAY
+
+The specific policy question we ask is what action regulators should take regarding preopening indications. We examine four alternatives: (1) do nothing, (2)
+ban outright preopening indications on the Nasdaq system, (3) require disclosure
+of the practice to investors, or (4) initiate an automated or batch-style opening
+procedure.
+Doing nothing appears suboptimal, since this practice smacks of inappropriate
+sharing of information and has a direct impact on unknowing traders. An outright
+ban may be easy to implement (simply do not allow the Nasdaq computers to be
+turned on until just before the opening), but it may not be the best approach either.
+Banning preopening indications on Nasdaq sets the stage for the dealers to find
+another forum in which to communicate and may reduce market quality. Disclosure
+may have little effect since most informed traders know of the practice already.
+Automated or batch-style openings are inconsistent with the dealer structure of the
+Nasdaq market. They also have the potential for abuse.
+REFERENCES
+1. Articles
+Admati, A. R., and Pfleiderer, P. (1991). Sunshine trading and financial markets equilibirum, Rev.
+Finan. Stud. 4, 443–482.
+Ascarelli, S. (1998). London Stock Exchange plans to cut hours: Move is effort to improve liquidity in
+its SETS electronic order book, Wall Street Journal (May 29), 7A.
+Biais, B., Hillion, P., and Spatt, C. (1999). Price discovery and learning during the preopening on the
+Paris Bourse, J. Polit. Econ., in press.
+Cao, H. H., and Lyons, R. K. (1998). “Inventory Information,” working paper, University of California,
+Berkeley.
+Cao, C., Ghysels, E., and Hatheway, F. (1999). Why Is the Bid Price Greater than the Ask? Price
+Discovery during the Nasdaq Preopening, J. Finance, in press.
+Chan, K. C., Christie, W., and Schultz, P. H. (1995). Market structure and the intraday pattern of bid-ask
+spreads in Nasdaq securities, J. Business 68, 35–60.
+Chernov, M., and Hatheway, F. (1999). “The Nasdaq Preopening,” Working Paper, Department of
+Finance, Pennsylvania State University.
+Christie, W., and Schultz, P. (1994). Why do Nasdaq market-makers avoid odd-eighth quotes?
+J. Finance 49, 1813–1840.
+Crawford, V. (1998). A survey of experiments on communication via cheap talk, J. Econ. Theory 78,
+289–298.
+Domowitz, I. (1993). Automating the price discovery process: Some international comparisons and
+regulatory implications, J. Finan. Serv. Res. 6, pp. 305–326.
+Domowitz, I., and Steil, B. (1999). Automation, trading costs, and the structure of the trading services
+industry, Brookings–Wharton Pap. Finan. Serv., in press.
+Easley, D., Kiefer, N., and O’Hara, M. (1996) Cream-skimming or profit-sharing? The curious role of
+purchased order flow, J. Finance 51, 811–834.
+Easterbrook, F., and Fischel, D. (1993). Contract and fiduciary duty, J. Law Econ. 36, 425–446.
+Farrell, J. (1995). Talk is cheap, Amer. Econ. Rev. 85, 186–190.
+
+NASDAQ PREOPENING
+
+211
+
+Flood, M. D., Huisman, R., Koedijk, K. G., and Lyons, R. K. (1999). “Search Costs, the Neglected
+Spread Component,” Working Paper, University of California, Berkeley.
+Flood, M. D., Huisman, R., Koedijk, K. G., and Mahieu, R. J. (1999). Quote disclosure and price
+discovery in multiple-dealer financial markets, Rev. Finan. Stud. 12, 37–60.
+Glosten, L. R., and Milgrom, P. R. (1985). Bid, ask, and transaction prices in a specialist market with
+heterogeneously informed traders, J. Finan. Econ. 14, 71–100.
+Harris, J. H., and Schultz, P. H. (1998). The trading profits of SOES bandits, J. Finan. Econ. 50,
+39–62.
+Kyle, A. S. (1989). Informed speculation with imperfect competition, Rev. Econ. Stud. 56, 317–
+355.
+Macey, J., and O’Hara, M. (1997). The law and economics of best execution, J. Fin. Intermed. 6,
+188–223.
+Madhavan, A. (1992). Trading mechanisms in securities markets, J. Finance 47, 607–642.
+Madhavan, A., and Panchapagesan, V. (1997). “Price Discovery and Exchange Openings,” Working
+Paper, University of Southern California.
+Madhavan, A., and Dutta, P. (1997). Competition and collusion in dealer markets, J. Finance 52,
+245–276.
+Naik, N., and Yadav, P. (1999). “The Effects of Market Reform on Trading Costs of Public Investors:
+Evidence from the London Stock Exchange,” Working Paper, London Business School.
+Notes (anonymous) (1994). The perils of payment for order flow, 107, Harvard Law Rev. 1675–
+1692.
+O’Reilly, M. (1999). Struggling with locked and crossed markets, Traders (May, 1999), 25–28.
+Pulliam, S. (1999). Has a ’20s trick donned millennium clothes? Wall Street Journal (June 11, 1999),
+C1–C2.
+Smith, J. W. (1999). “The Role of Quotes in Attracting Orders on the Nasdaq Inter-dealer Market,”
+Working Paper, NASD.
+Stoll, H. (1978). The supply of dealer services in securities markets, J. Finance 33, 1133–1151.
+Stoll, H., and Whaley, R. (1990). Stock market structure and volatility, Rev. Finan. Stud. 3, 37–71.
+Telser, L. (1985). Cooperation, competition, and efficiency, J. Law Econ. 28, 271–295.
+
+2. Cases
+Barnett v. United States, 319 F.2d 340 (8th Cir. 1963).
+Charles Hughes v. SEC, 139 F.2d 434 (2d Circuit. 1943), cert. denied, 321 U.S. 786 (1944).
+Chassins v. Smith, Barney & Co., 438 F.2d 1167 (2d Cir. 1970).
+In re E. F. Hutton & Co., Securities Exchange Act Release No. 25887 (1988 Transfer Binder) Fed. Sec.
+L. Rep. (CCH) 84303 (July 6, 1988).
+In re Merrill Lynch, No. CIV 94-5343 (DRD). (1995 WL 746866) (Fed. D.N.J.) 1995.).
+Jordan v. Duff & Phelps Inc., 815 F.2d 429 (7th Cir. 1987), cert. dismissed, 108 S. Ct. 1067 (1988).
+NASD Notices to Members–Disciplinary Actions, May 1998, NASD Regulation Sanctions Morgan
+Stanley and Seven Traders.
+NASDR v. Morgan Stanley, Decision Proceeding No. CMS 960235, April 13, 1998.
+Opper v. Hancock Securities Corp., 250 F. Supp. 668 (S.D.N.Y.), aff’d, 367 F.2d 157 (2d Cir. 1966).
+Robinson v. Merrill Lynch, 337 F. Supp. 107, 111 (N.D. Ala. 1971), aff’d, 453 F.2d 417 (5th Cir.
+1972).
+Romano v. Merrill Lynch, 834 F.2d 523, 530 (5th Cir. 1987).
+
+212
+
+CICCOTELLO AND HATHEWAY
+
+3. Statutes, Regulations, and Related Materials
+17 C.F.R. § 240.9a (1995).
+17 C.F.R. § 240.15c (1995).
+17 C.F.R. § 240.11Ac1-1 (1996).
+NASD Manual, Rules of the Association, Conduct Rules, ¶2110-3, 2120, 2320, 3310 (1996).
+Restatement (Second) of Agency (1957).
+Securities and Exchange Commission, Report Pursuant to Section 21(a) of the Securities Exchange
+Act of 1934 Regarding the NASD and the Nasdaq Market (1996).
+
+

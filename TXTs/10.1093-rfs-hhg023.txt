@@ -1,0 +1,981 @@
+Why the NPV Criterion does not Maximize
+NPV
+Elazar Berkovitch
+Interdisciplinary Center, Herzliya (IDC)
+Ronen Israel
+Interdisciplinary Center, Herzliya (IDC)
+This article presents a theory of capital allocation that shows how the use of net
+present value (NPV) as an investment criterion leads to inefficient capital budgeting
+outcomes and how this criterion may be dominated by other capital budgeting criteria,
+like the internal rate of return and the profitability index. The essence of our theory
+is rooted in the mainstream paradigm of corporate finance: while firms use NPV to
+measure the addition to firm value from prospective projects, ``classical'' informational and agency considerations prevent it from implementing the optimal capital
+budgeting outcome. Our theory also identifies conditions when alternative criteria
+should be used. Finally, we characterize when direct monitoring through capital
+budgeting dominates compensation contracts in alleviating the agency problem.
+
+The use of net present value (NPV) as a criterion for project selection is a
+standard tenet of scholars, students, and authors of corporate finance
+textbooks. However, this consensus regarding NPV within the academic
+community is at odds with findings on the actual practices of firms in
+making investment decisions. Indeed, firms use criteria like internal rate of
+return (IRR), payback period, and profitability index (PI) more often
+than they use the NPV criterion in selecting projects.1 This discrepancy
+
+We thank Sugato Bhattacharya, Avraham Beja, Simon Beninga, Phil Dybvig, Mike Fishman, Jacob
+Glazer, Yaniv Grinstein, Milton Harris, Ravi Jagannathan, Gautam Kaul, Yrjo Koskinen (the discussant
+in the 1998 EFA meetings), Marc Lipson, Johannes Raaballe, Artur Raviv, Oded Sarig, Yossi Spiegel, and
+participants in seminars at Columbia University, Cornell University, University of Michigan Business
+School, New York University, Northwestern University, Tel Aviv University, Hebrew University, Technion, Washington University, the 1998 EFA annual meetings in Fontainebleau, France, the 1999 CEPR
+conference on core competencies, diversification, and the role of internal capital markets, Naples, Italy,
+and the 1999 Nordic workshop on corporate finance, Copenhagen, Denmark, for their comments and
+suggestions, and Gerda Kessler and Nancy Kotzian for editorial assistance. Address correspondence
+to Elazar Berkovitch, Interdisciplinary Center, Herzliya P.O.B 167, Herzliya 46150, Israel, or e-mail:
+elib@idc.ac.il.
+1
+
+For example, Stanley and Block (1984) report, for a survey of 121 multinational firms, that ``The internal
+rate of return clearly dominates as the primary method with a 65.3 percent representation. The net
+present value approach, often preferred over other methods in published materials on the subject, was
+specified as the primary method in only 16.5 percent of the responses.'' This report is consistent with the
+findings in Mao (1970), Schall, Sundem, and Geijsbeek (1978), Scott and Petty (1984), and Ross (1986).
+For example, Schall, Sundem, and Geijsbeek (1978) study a sample of 189 firms and report that 74% used
+payback (with only 2% using it as the sole criterion), 58% used accounting rate of return (4% using it
+alone), 65% used IRR (6% using it alone), and only 56% used NPV (with only 2% using it alone).
+The Review of Financial Studies Spring 2004 Vol. 17, No. 1, pp. 239±255, DOI: 10.1093/rfs/hhg023
+ã 2004 The Society for Financial Studies
+
+The Review of Financial Studies / v 17 n 1 2004
+
+between theory and practice raises the question: Are firms unaware of
+academic recommendations regarding NPV as a criterion or are scholars
+and financial economists unaware of the complexity and specific capital
+budgeting problems and needs faced by firms?
+Regarding the firm's perspective, the influx of MBAs into financial
+management positions suggests that firms are aware of the academic
+consensus about the use of NPV as a capital budgeting criterion. Nevertheless, despite this awareness, firms have not adopted NPV as their
+dominant capital budgeting criterion. Indeed, in a recent exhaustive survey of multinational firms, Segelod (1995) finds that the IRR is still the
+dominant criterion. Although use of the NPV criterion has increased over
+the years (from 11% of firms requesting it in their capital budgeting forms
+in 1964, to 33% in 1977, to 52% in 1990), it is still clearly a secondary tool,
+as explained by the author: ``The NPV criterion has also become increasingly popular, although not as popular as the table may imply. Some of
+the groups which use IRR use the NPV or the PI to interpolate the correct
+IRR. Both criteria are requested on their forms, but the IRR appears to be
+the principal criterion for these groups'' (p. 85).
+In this article we present a theory that explains why and how firms use
+different capital budgeting criteria in their capital allocation systems. We
+explain the selection of capital budgeting criteria as a way to implement an
+optimal capital allocation system. This approach enables us to identify
+scenarios where the NPV criterion leads to inefficient capital budgeting
+outcomes; this explains why NPV is often secondary in firms' budgeting
+decisions to other criteria such as the IRR and the PI. Our theory is rooted
+in the mainstream paradigm of corporate finance: while firms use NPV to
+measure the addition to firm value from prospective projects, ``classical''
+informational and agency considerations prevent it from implementing
+the optimal capital allocation outcome. In fact, in many cases, it implements strikingly inferior outcomes.
+To explicate our theory, we develop a model of a firm that consists of
+two components: (1) top management, or ``headquarters'' and (2) divisional mangers, or ``the manager.''2 In this structure, the objective of
+headquarters is to maximize shareholder value, while the objective of the
+manager is to maximize her own utility. To alleviate the adverse impact of
+these conflicting incentives, headquarters needs to design both monitoring
+and incentive mechanisms. To this end, headquarters sets up a capital
+allocation system that specifies the following: a capital budgeting criterion, and a wage compensation for divisional managers.
+
+2
+
+This structure has been used frequently by researchers of corporate finance. For similar modeling in the
+context of capital budgeting, see, for example, Harris and Raviv (1996, 1998) and Stein (1997). Since we
+assume headquarters perfectly represents the interests of shareholders, this model is similar to classical
+principal-agent models [see Harris and Raviv (1979) and Holmstrom (1979)].
+
+240
+
+Why the NPV Criterion does not Maximize NPV
+
+The difference between our approach and the ``textbook'' approach to
+capital budgeting is best illustrated with a simple example. If headquarters
+can observe, at no cost, all available projects, then the textbook NPV rule
+will lead headquarters to select the project that maximizes shareholder
+value. However, if headquarters cannot observe all available projects,
+then the manager may manipulate the selection process by presenting
+projects such that managerial utility is maximized.
+To see how the manager may manipulate the selection process, suppose
+that the set of potential investment projects for the firm includes two
+mutually exclusive projects. The projects arrive randomly and independently; consequently one, both, or neither may become available. Suppose
+the manager prefers a project that requires a larger investment, although
+this project has a lower NPV. In this case, if both projects become available, and if headquarters uses the textbook NPV rule as its capital budgeting criterion, the manager may choose to request only the low NPV
+project. As a result, the set of projects headquarters considers will differ
+from the actual available set. Thus the NPV rule does a poor job in
+restricting manipulations by divisional managers who privately observe
+the availability of mutually exclusive projects. Depending on the underlying cash flow distribution and the severity of the agency problem
+between managers and headquarters, a different capital budgeting rule
+may be needed to ensure that the high-NPV project is selected. In other
+words, while NPV is the best way to measure value added, in many
+situations, it is not a good way to implement the selection of the highest
+NPV projects.
+Our theory shows why the NPV rule cannot implement the optimal
+project selection outcome. If the NPV rule does not implement the selection of projects with the highest NPV, what mechanism does? In general,
+the rules governing the project selection process may be very complex,
+depending upon the economic environment. Therefore they may have
+many restrictions and detailed guidance. However, we identify economic
+environments where simple capital budgeting criteria like the IRR and PI
+implement the optimal outcome. In different economic environments, the
+firm has to choose between simple criteria and more complex criteria that
+restrict the manager more efficiently but are more expensive to implement.
+We argue that in many situations simple rules dominate more complex
+rules. Therefore firms often use these simple criteria.
+Our theory has a number of implications for both researchers and firms.
+First, from an academic standpoint, our theory helps reconcile the textbook NPV criterion recommendation with actual firm capital budgeting
+practices. Second, it lends insight into the capital budgeting process by
+illustrating how modified forms of capital budgeting criteria can provide
+optimal outcomes. For example, firms will use a modified IRR rule where
+the hurdle rate is different than the risk-adjusted cost of capital. Thus our
+241
+
+The Review of Financial Studies / v 17 n 1 2004
+
+theory can explain the puzzling finding in Poterba and Summers (1995)
+that U.S. firms use real hurdle rates that are considerably higher than a
+standard cost-of-capital analysis would suggest.3 Similarly, to the extent
+that multinational firms investing abroad confront more severe implementation problems, our theory provides a possible rationale for the
+often-criticized practice of adding a fudge factor to their cost of capital.
+Our theory belongs to the growing capital budgeting literature. Antle
+and Eppen (1985) show that in a setting of asymmetric information it is
+optimal for firms to ration their investments in some states of nature. The
+firm can do so by using a hurdle rate that is higher than the cost of capital.
+In a related article, Harris and Raviv (1996) provide a theory of endogenous capital rationing as a way to curb empire-building managers while
+benefiting from their private information. In a later study, Harris and
+Raviv (1998) characterize when it is optimal for headquarters to delegate
+to the manager the allocation of a total budget for two independent
+investment projects.4 These studies show that NPV is an ineffective criterion because headquarters cannot know project NPV without verification
+costs. However, our theory shows that, even if NPV is known, it still will
+not implement the optimal outcome in these cases.
+Narayanan (1985) rationalizes the use of the payback method by managers that prefer projects with early cash flows to enhance their reputation. Thakor (1990) provides a rationale for capital rationing in an
+environment where the firm is cash constrained and therefore prefers
+short-term projects in which the cash flow is realized sooner. This preference toward short-term projects may be implemented, for example, by
+the payback method. In contrast to these models, in our model there are
+no cash constraints and the capital allocation system is used to restrict
+managerial discretion. Hirshleifer and Suh (1992) show, in a setting similar to ours, how compensation contracts are used to induce self-serving
+managers to take high-value, high-risk projects. We endogenously solve
+for the optimal method, wage compensation or capital budgeting, to
+alleviate the agency conflicts.
+In Stein (1997), a firm faces an exogenous capital constraint and its
+informed headquarters allocates the limited resources to the better project
+(``winner picking'') at the expense of the other project (``loser sticking'').
+Trading off headquarters' monitoring ability against the efficient allocation of resources, Stein explains optimal scale and scope for firms. In our
+model, headquarters does not face capital rationing, but can be manipulated by better-informed, lower-ranked managers.
+3
+
+Specifically, Poterba and Summers (1995) find that, during the past half-century, the average real
+discount rate was 12.2%, distinctly higher than equity holders' average rates of return of approximately
+7% and much higher than the return on debt of approximately 2%.
+
+4
+
+In previous work, Harris, Kriebel, and Raviv (1982) show how transfer pricing is used in allocating funds
+within the firm in the presence of information and incentive problems.
+
+242
+
+Why the NPV Criterion does not Maximize NPV
+
+Finally, our theory relates to the real option literature. This literature
+has also identified a problem with the NPV criterion. Specifically, simple
+NPV calculations can miss the real option value of a project, resulting in
+rejection of value-creating projects whose option value exceeds the absolute value of their naive negative NPV. In this case, the wrong decision
+results from miscalculation of the true NPV. McDonald and Siegel (1986)
+and McDonald (1999) show that when the firm cannot calculate the true
+NPV, it is optimal to use a hurdle rate or the PI criterion. In this respect,
+our results are similar to theirs. However, in our article, headquarters can
+calculate the NPV of all projects they observe.
+The remainder of the article is organized as follows. Section 1 provides
+the basic structure of the capital allocation process and characterizes the
+optimal capital allocation system. Section 2 evaluates the effectiveness of
+common capital budgeting criteria in implementing the optimal outcome.
+Section 3 concludes. All proofs are relegated to the appendix.
+1 A Model of the Capital Allocation Process
+
+
+In this section we outline the model underlying our theory of optimal
+capital allocation. In this model we consider a firm consisting of (1) top
+management, or ``headquarters'' and (2) divisional managers, or ``the
+manager.'' In this firm, the objective of headquarters is to maximize
+shareholder value, while the objective of the manager is to maximize her
+own utility. To maximize shareholder value, headquarters sets up a capital
+allocation system specifying both rules for the capital budgeting process
+and compensation for divisional managers. To abstract away from exogenous capital rationing issues, we assume that headquarters faces no
+liquidity constraints. We assume that all agents in the economy are risk
+neutral.
+The main idea behind our theory can be demonstrated by considering
+an investment opportunity set consisting of one business venture that
+is implemented by two mutually exclusive projects. The only difference
+between the two projects is the amount of capital required to operate the
+respective underlying technologies. One project, project H, is more capital
+intensive. The other project, project L, is less capital intensive. While the
+characteristics of each project are known, there is uncertainty about which
+combination of the two projects is actually available to the firm. The
+arrival of projects L and H follows a binomial process with independent
+probabilities of arrival, gL and gH, respectively.
+The actual levels of investment and cash flow of each project depend on
+a scale parameter, , representing the level of demand for the final product
+of the firm. The cumulative distribution function of the scale parameter 
+is F(). Specifically, the required investment for project m  L, H is
+Im()  Im, where IL and IH are scalars that represent the underlying
+243
+
+The Review of Financial Studies / v 17 n 1 2004
+
+technology. We further specify that IH > IL, reflecting the assumption that
+project H is more capital intensive than project L. This assumption implies
+that IH() > IL(). Regardless of the underlying technology, the expected
+cash flow over period t is identical for both technologies. This expected
+cash flow is represented by ct()  ct, where ct are known scalars. Note
+that these assumptions represent a constant return-to-scale production
+technology. Because of risk neutrality, the appropriate discount rate is the
+riskless rate, , independent of the underlying technology.
+Thus the
+P
+c
+=1
+ t , is
+present value of future cash flow, denoted by PV  1
+t1 t
+5
+also independent of the underlying technology. Therefore the NPV of a
+type m project is given by
+NPVm   ÿaIm  PV
+
+m  L, H:
+
+1
+
+In addition to project value, the model also defines manager utility that
+creates an agency conflict. Specifically the manager's utility is defined over
+her wage income, W, and firm size, as measured by the required investment, I, and is given by the following utility function:6
+UW , I  W  I:
+
+2
+
+We assume that is a positive scalar, implying that the manager benefits
+from larger-scale investment projects. For tractability, we assume that
+the manager has no personal wealth and her reservation utility is zero.7
+The assumption that the manager has no personal wealth implies that
+W  0.
+The sequence of events and information structure of the capital allocation process consists of three stages. In stage 1, headquarters establishes a
+capital allocation system that specifies rules for the capital budgeting
+process and managerial compensation. In stage 2, the manager privately
+observes the characteristics of available projects. In this stage, the manager submits a capital budgeting request that specifies the required investment and future expected cash flow for each requested project. In stage 3,
+headquarters evaluates the capital budgeting request, makes acceptance
+decisions based on the capital budgeting rule, and pays the manager
+according to the compensation contract. In this process we assume that
+headquarters can perfectly verify the characteristics of requested projects
+and cannot discern the availability, and thus the characteristics of other
+5
+
+The assumption that the future cash flow of project L equals that of project H is for convenience, and can
+be relaxed as long as NPVH() < NPVL().
+
+6
+
+We use a linear utility function to simplify the analysis. The main results hold under a more general
+specification.
+
+7
+
+If the manager's reservation utility were positive, headquarters could motivate the manager by shifting
+wages between various states without incurring additional costs. Nevertheless, because there are no
+negative wages, a positive reservation utility would not solve the incentive problem completely. Thus,
+to simplify the analysis, we assume away this possibility.
+
+244
+
+Why the NPV Criterion does not Maximize NPV
+
+projects. This assumption is equivalent to assuming a zero verification
+cost to headquarters for requested projects, and infinite verification cost
+for other projects.8
+The optimal capital allocation system implements the best outcome to
+shareholders, given the above information constraints and incentive problems. To describe this system, we solve the capital allocation problem
+as a direct revelation game, where the manager reports project availability
+and headquarters establishes a capital allocation system that maximizes
+shareholder value subject to the incentive compatibility constraint that the
+manager truthfully reports project availability.9 We solve for the optimal
+capital allocation system conditional on , although neither the manager
+nor headquarters observe the realization of  directly. This is possible
+because both the manager and headquarters can infer the realization of 
+from the characteristics of a requested project by solving   ct =ct .10
+After solving the revelation game, we relate the solution to actual capital
+allocation practices to evaluate the effectiveness of current allocation
+practices in maximizing shareholder value.
+In the revelation game, headquarters chooses project acceptance
+probabilities and manager wages to maximize firm value.11 We denote
+the acceptance probabilities by L(LH, ) and H(H, ). Specifically,
+L(LH, ) is the acceptance probability of project L when the manager
+reports both project L and project H. In this case, if project L is rejected,
+headquarters accepts project H.12 Thus when the manager reports both
+projects, the acceptance probability of project H is (1ÿL(LH, )). Likewise, H(H, ) is the acceptance probability of project H when the
+manager reports only project H. We denote the manager's wage when
+both projects are reported by W(LH, ).13 Consequently headquarters'
+
+8
+
+With finite verification cost, the optimal mechanism would be either the one in our model or a mechanism
+with costly verification, as in Harris and Raviv (1996), depending on the magnitude of the verification cost.
+
+9
+
+By the revelation principle, we can solve for the best outcome to shareholders by considering only a direct
+revelation game.
+
+10
+
+This assumption simplifies the analysis. The scale parameter  has an important role in the discussion of
+complexity of different capital budgeting criteria in the beginning of Section 2.
+
+11
+
+Note that the manager cannot lie when no project is available, because headquarters can check any
+project she reports. For the same reason, the manager does not want to lie when only project L is
+available, because the only possibility to misrepresent the information is to report that no project is
+available. For the manager, this possibility is worse than reporting only project L. Therefore, in what
+follows, we will use the fact that the manager truthfully reports that only project L is available to set the
+acceptance probability of project L to one when the manager reports that only project L is available.
+
+12
+
+In general, it is possible to put a lower probability on accepting project H, implying that both projects are
+rejected with a positive probability. However, since a higher probability of rejecting both projects
+decreases the expected utility to the manager from reporting both projects, a higher rejection probability
+decreases her incentive to report the truth. Furthermore, this also decreases the expected value to
+shareholders. Thus accepting project H when project L is rejected dominates.
+
+13
+
+Since the manager prefers to report project H, there is no reason to pay her any wage when she reports
+only project H.
+
+245
+
+The Review of Financial Studies / v 17 n 1 2004
+
+problem is represented as follows:
+Z
+maxL LH¸ ¸ H H¸ ¸ W LH¸  V  gL 1ÿ gH NPVL  H H, gH
+ l ÿ gL NPVH  gL gH L LH, 
+ÿ
+
+ NPVL   1ÿ L LH, 
+ NPVH  ÿ W LH, dF 
+
+3
+
+subject to
+L LH,  IL   1 ÿ L LH,  IH   W LH, 
+ H H,  IH  8
+
+4
+
+0  L LH,   1
+
+8
+
+5
+
+0  H H,   1 8
+
+6
+
+W LH,   0
+
+8:
+
+7
+
+Equation (3) represents the ex ante value to shareholders. Specifically this
+value consists of the expected NPV, net of managerial wage. Equation (4)
+represents the incentive compatibility constraints for the manager for each
+possible realization of .
+We now outline the conditions for the optimal solution to the capital
+allocation problem [Equations (3)±(7)].
+Proposition 1.
+
+(a) Suppose
+
+< 1 and let gL  NPVH = IH  NPVH .
+
+(i ) If gL  gL , then W LH,   0, H H,   IL =IH , and
+L(LH, )  1.
+(ii ) If gL < gL , then W(LH, )   (IHÿIL)), H(H, )  L(LH,
+)  1.
+(b) Suppose > 1 and let gL  NPVH =PV .
+(i ) If gL  gL , then W LH,   0, H H,   IL =IH , and
+L(LH, )  1.
+(ii ) If gL < gL , then W(LH, )  0, H(H, )  1, and L(LH, )  0.
+We now examine the capital allocation process in greater detail. In
+Proposition 1(a)(i) and 1(b)(i), headquarters announces that it will directly
+intervene in project selection without paying a wage. Headquarters
+induces the manager to reveal project L by rejecting project H with a
+positive probability. This rejection probability is chosen to satisfy the
+incentive compatibility constraint of the manager. In particular, if the
+manager reports project L, this project is accepted, resulting in utility
+IL() to the manager. However, if the manager reports project H, project
+H is accepted with probability IL =IH , also giving the manager an expected
+utility of IL(). These acceptance probabilities induce the manager
+to reveal project L when it is available. Note that the positive rejection
+246
+
+Why the NPV Criterion does not Maximize NPV
+
+probability of project H requires headquarters to commit to an action that
+is ex post inefficient. Headquarters can be held to this commitment both
+indirectly and directly. First, if headquarters keeps deviating from this
+rule, it will lose its reputation and thus its ability to induce managers to
+reveal the best project. Second, shareholders may provide members of the
+board of directors with compensation packages that internalize the optimal rule. Since negotiation of the board of directors' compensation before
+the decision on every project is practically impossible, this may induce the
+implementation of the optimal capital budgeting rule.14
+Proposition 1(a)(ii) describes the situation where it is more efficient for
+headquarters to induce the manager to reveal project L by paying her the difference in her utility from accepting project L over project H, W(LH, ) 
+ (IHÿIL). Finally, Proposition 1(b)(ii) describes the situation where
+delegating project selection to the manager dominates direct intervention
+in the capital budgeting or giving incentives to the manager by paying her
+to reveal the availability of project L. The reason for this is that when > 1,
+paying the manager her difference in utility from undertaking project L
+over project H is higher than the difference in the projects' NPV.
+2 Capital Budgeting Criteria and the Implementation of the
+Optimal Outcome
+
+
+We now analyze the effectiveness of various well-known capital budgeting
+criteria in implementing the outcome of the optimal capital allocation
+system defined in Proposition 1. In particular, we compare the effectiveness of ratio criteria like IRR and PI to level criteria like NPV in implementing the optimal capital budgeting rule. However, before comparing
+the criteria, it is necessary to define the relationship between a capital
+allocation system and capital budgeting criteria. To define this relationship, we view capital budgeting criteria as a mechanism to implement the
+optimal capital budgeting rule specified in Proposition 1.
+An important aspect of the implementation of a capital budgeting
+rule is how the headquarters' project selection process is communicated to
+divisional managers. If this process is not communicated in a clear and understandable manner, managers will not be certain of the consequences of project
+manipulation. Thus the capital allocation system will not reduce manager
+manipulations of project information as it could. Our premise is that capital
+budgeting criteria are instrumental to communicate headquarters' decision
+processes to divisional managers in a clear and understandable manner.
+In most corporations, the capital budgeting rule is communicated formally via a capital budgeting manual that gives instructions on how to file
+14
+
+If it is impossible to implement a stochastic capital budgeting rule, the optimal rule will be similar, with
+acceptance probabilities restricted to either one or zero.
+
+247
+
+The Review of Financial Studies / v 17 n 1 2004
+
+a request and what to include [see Segelod (1995)]. The capital budgeting
+criteria are one method to specify the capital budgeting rules. However,
+these criteria are often overly simplistic and thus should be dominated by
+more detailed, accurate capital budgeting rules. Thus we might ask why
+firms prefer the simple criteria to their more effective underlying counterparts. In the context of the current model, this question may be rephrased
+as, why should firms prefer to use simple capital budgeting criteria that are
+independent of the scale parameter  over more detailed capital budgeting
+rules that depend on the scale parameter ?
+However, the very simplicity of these capital budgeting criteria may
+provide a communication advantage. Since a firm's capital budgeting
+manual may be complex and cumbersome, any simplification may enhance
+its communication value. Therefore we view the optimal capital budgeting
+criterion as the one that best communicates headquarters' capital budgeting rules. In this respect, the trade-off in selecting a capital budgeting
+criterion is between simplicity (the cost of complexity) and precision.
+Given this trade-off, we now explore the efficiency of typical capital
+budgeting criteria in implementing the optimal system specified in
+Proposition 1. This analysis shows that some simple capital budgeting
+criteria, like the IRR and PI, can implement the outcome of the optimal
+system, while others, like the NPV rule, cannot.
+To evaluate these criteria, we must first derive a definition of criterion complexity. A natural measure of complexity in our model is . In
+general, the optimal system depends on . This dependence creates
+complexity because both headquarters and the manager must perform
+the following two steps to implement a capital allocation system that
+depends on :
+1.
+2.
+
+Indicate to the manager how headquarters defines and calculates .
+Specify the set of contingencies, as prescribed by Proposition 1, on
+the calculated .
+
+Note that if a criterion is independent of , headquarters does not need to
+specify these steps. Following this observation, we define two degrees of
+complexity: simple criteria, or criteria that are not conditioned on , and
+complex criteria, or criteria that are conditioned on .
+Given the above measure of criterion complexity, we now explore
+specific capital budgeting criteria. We first examine the capital budgeting
+criteria as defined by typical finance texts. We next assess the effectiveness
+of the textbook versions and offer modified versions of these criteria. We
+then assess the effectiveness of the modified versions in implementing the
+optimal capital budgeting rule.
+We focus our analysis on the most common capital budgeting criteriaÐ
+NPV, IRR, and PI. The textbook NPV rule is to undertake the highest
+positive-NPV project. Similarly the textbook IRR rule is to accept the
+248
+
+Why the NPV Criterion does not Maximize NPV
+
+project with the highest IRR, as long as it exceeds the cost of capital ,
+where the IRR of project m  L, H is defined by15
+0  ÿIm 
+
+1
+X
+t1
+
+1
+X
+ct
+ct
+
+ÿI
+
+m
+t
+t
+1  IRRm 
+t1 1  IRRm 
+
+m  L, H:
+8
+
+Finally, the textbook profitability index (PI) rule is to accept the project
+with the highest PI, as long as its PI is larger than one. The PI for project
+m  L, H is given by
+P1
+P
+t
+ 1
+ct =1  t
+t1 ct =1  
+ t1
+m  L, H: 9
+PIm  
+Im
+Im
+We now show that the above criteria, in their textbook forms, cannot
+implement the best outcome. We first examine the effectiveness of the
+NPV rule where headquarters accepts the project with the highest positive
+NPV. The manager will take advantage of this rule by requesting project
+H whenever it is available. Since the NPV of project H is positive, and it is
+the only one that the manager requests, headquarters will accept it, leading to an inferior outcome.16 For the same reason, the textbook IRR
+and PI ratio also fail to implement the best outcome. This discussion is
+summarized in the following proposition.
+Proposition 2.
+outcome.
+
+The textbook NPV, IRR, and PI cannot implement the best
+
+We now examine whether simple modified versions of the above criteria
+can implement a better outcome by imposing stricter project acceptance
+standards. For example, headquarters can use a simple modified NPV
+criterion that specifies a critical value, NPVc, such that a project is
+accepted with probability 1 if its NPV is above NPVc. If the requested
+project's NPV is lower than NPVc, the project is accepted with the optimal
+probability, . However, this modification creates the following two
+deviations from the outcome of Proposition 1. First, for projects with
+high  values, the manager can manipulate headquarters to approve
+project H. This occurs when NPV H() > NPVc. Second, when  is low,
+good projects will be rejected. This occurs when NPV L() < NPVc.
+Thus the simple modified NPV rule is effective only when
+NPV H()  NPVc  NPV L(), in which case, the manager requests only
+15
+
+In the following discussion, we assume that the IRRs of projects are well defined and unique. When this
+assumption is violated, the IRR rule cannot implement the optimal mechanism.
+
+16
+
+When there are more than two alternative projects, the manager may include other available projects in
+the capital budgeting request as long as their NPV is lower than that of her preferred project.
+
+249
+
+The Review of Financial Studies / v 17 n 1 2004
+
+project L, although both projects are available. Proposition 3 summarizes
+this discussion.17
+Proposition 3.
+outcome.
+
+A simple modified NPV criterion cannot implement the best
+
+We now examine the effectiveness of modifications of the IRR and PI
+criteria. Of interest is that although a simple modified NPV rule cannot
+implement the outcome of the optimal capital budgeting rule, simple
+modified versions of the IRR and PI rules can implement the outcome
+specified in Proposition 1(a)(i) and Proposition 1(b)(i). Proposition 4
+shows how a simple modified IRR criterion implements this outcome.18
+Proposition 4. Suppose the conditions of either Proposition 1(a)(i) or
+Proposition 1(b)(i) hold. Then headquarters can implement the optimal outcome of the capital budgeting process through the following rules. If the
+capital budgeting request includes one project, a project with IRR  IRRL is
+accepted with probability 1, while a project with IRR  IRRH is accepted
+with probability H  IL =IH . If it includes two projects, the project with
+IRR  IRRL is accepted. The wage is set at W  0.
+Proposition 4 shows scenarios in which simple modified IRR and PI
+criteria can be used to implement the best capital budgeting outcome when
+a simple modified NPV criterion cannot.19 The generality of the example
+we analyze here is important to the conclusions we can draw from the
+analysis. How general are these scenarios? Can this example explain why
+the IRR criterion is widely used in practice? We have used a constant
+return to scale example to show two properties simultaneously. First, that
+the IRR and PI criteria dominate the NPV criterion, and second, that both
+can implement the best outcome. We believe that the first property,
+
+17
+
+Another possible way to curb managers is by imposing capital rationing. Since a manager will prefer
+large-scale projects, capital rationing may force her to report the lower investment project. Specifically,
+by imposing capital rationing, headquarters establishes a critical capital limit, I c, such that, if the
+requested capital is below Ic, the request is approved, and if the requested capital is above I c, the project
+is accepted with the optimal probability, . However, capital rationing creates the same inefficiencies as
+the modified NPV criterion: when IL() > I c, good projects are rejected, and when IH() < I c, the
+manager can manipulate headquarters to accept project H. Thus capital rationing does not implement
+the best outcome.
+
+18
+
+To focus on capital budgeting criteria, Proposition 4 does not discuss the implementation of the optimal
+outcome specified in Propositions 1(a)(ii) and 1(b)(ii). To implement the outcome of Proposition 1(a)(ii),
+headquarters pays the manager a wage of  (IHÿIL), accepts the requested project if the manager
+requests one project, and accepts the project with IRRL if the capital budgeting request includes both
+projects. To implement the outcome of Proposition 1(b)(ii), headquarters delegates the capital budgeting
+decision to the manager.
+
+19
+
+The case of a simple modified PI yields similar outcomes, with PI replacing IRR in the cases outlined in
+Proposition 4.
+
+250
+
+Why the NPV Criterion does not Maximize NPV
+
+namely, the dominance of the IRR and PI over the NPV criterion, applies
+to many situations.20 This dominance, however, does not imply that the
+IRR and PI criteria are part of firms' optimal capital allocation systems.
+Thus, to conclude that our theory explains why so many firms use the IRR
+and PI criteria requires that they implement the best outcome in many
+different scenarios. How plausible is this condition?
+To answer this question it is important to look at the sensitivity of our
+results to changing the constant return to scale assumption, in which case
+both the investment level and future cash flow will be affected by market
+factors, but at a different rate. For example, both the levels of investment
+and future cash flow will move up with a positive demand shock, but the
+impact on future cash flow is likely to be stronger. We can capture it in our
+model by having different 's multiply c and I, where the one that multiplies c is higher. As a result, the NPV, IRR, and PI all increase in .
+However, the IRR and PI, being ratios, are less sensitive to changes in 
+than the NPV. Moreover, it is possible that if the difference in the underlying technologies is big enough, the highest IRR for all possible 's under
+the inferior technology (H) is lower than that under the superior one (L).
+In this case, the capital budgeting system of Proposition 4 applies. Even
+when such a ``clean'' separation is not feasible, the IRR and PI, both being
+less sensitive to demand shocks and simple, may be optimal over
+more complex rules. However, it is plausible that in other situations,
+more complex rules are optimal. In this respect, our theory may reconcile
+research findings on the actual use of capital budgeting criteria within
+organizations that most corporations do not rely solely on the NPV rule
+and use multiple capital budgeting criteria in their practice of capital
+budgeting. See, for example, Segelod (1995).
+3 Conclusion
+
+
+Our theory of capital allocation shows that there are plausible scenarios
+where the well-known and often criticized capital budgeting criteria like
+IRR and PI will perform better than the NPV criterion in implementing a
+value-maximizing project selection process. The main contribution of this
+theory is the idea that although the NPV is the right statistic to measure
+the value added to a firm from undertaking a certain project, it often does
+a poor job in implementing a selection process that maximizes firm value.
+Consequently NPV, although a useful valuation tool, is ineffective as the
+core of a capital allocation process. Our theory is consistent with evidence
+that many companies do not use the NPV criterion at all in their capital
+allocation process, or only rely on it partially.
+20
+
+However, it is possible that under some other scenarios, with different information structure and
+incentives, the NPV criterion does better than the IRR and PI criteria.
+
+251
+
+The Review of Financial Studies / v 17 n 1 2004
+
+An important explanation derived from our theory is why firms may
+use modified versions of textbook budgeting criteria. For example, some
+firms may use a modified NPV criterion, where they accept projects only if
+the NPV is above a threshold level different from zero. Or they may use a
+modified PI criterion, where they set the cutoff for accepting projects at a
+PI level different than one. Finally, they may employ a modified IRR rule,
+where the hurdle rate is different than the cost of capital. Our theory
+shows how all of these modifications are attempts to implement the
+optimal project selection process. Given this expanded understanding of
+the rationale behind capital budgeting criteria choices, our theory can
+explain the puzzling finding in Poterba and Summers (1995) that U.S.
+firms use real hurdle rates that are considerably higher than standard
+cost-of-capital analysis would suggest. Similarly, to the extent that multinational firms investing abroad confront more severe implementation
+problems, our theory provides a possible rationale for the often-criticized
+practice of adding a fudge factor to their cost of capital.
+In sum, our analysis shows that the capital allocation process is more
+complicated than is traditionally taught, and that seemingly irrational
+budgeting practices may have a logical rationale behind them. This analysis also makes the point that market imperfections play a role in firms'
+capital allocation processes. Since firms operate in imperfect capital markets, it should not be surprising that firms don't rely on the NPV rule, just
+as it is not surprising that firms care about their capital structure when
+markets are imperfect.
+
+Appendix
+Proof of Proposition 1. For convenience we first rewrite headquarters' constrained optimization problem given by Equations (3)±(7):
+Z
+maxL LH¸ ¸ H H¸ ¸ W LH¸  V  gL 1ÿgH NPVL H H, gH 1ÿgL NPVH 
+ÿ
+
+ gL gH L LH, NPVL  1ÿL LH,  NPVH 
+ÿW LH, dF
+
+10
+
+subject to
+L LH,  IL   1 ÿ L LH,  IH   W LH,   H H,  IH  8 11
+0  L LH,   1
+
+8
+
+12
+
+0  H H,   1
+
+8
+
+13
+
+W LH,   0
+
+8:
+
+14
+
+We next denote the LaGrange multiplier of Equation (11) by 1; the LaGrange multipliers of
+the two constraints in Equation (12) by 2 and 3; the LaGrange multipliers of the two
+constraints in Equation (13) by 4 and 5; and the LaGrange multiplier of Equation (14) by
+6. To simplify notation, we use L for L(LH, ), H for H(H, ), and W for W(LH, ).
+
+252
+
+Why the NPV Criterion does not Maximize NPV
+
+We next identify the Kuhn-Tucker conditions of the above problem:
+@L
+W  W ÿgL gH  1  6   0
+@W
+
+15
+
+@L
+L  L gL gH IH  ÿ IL   1  IL  ÿ IH  ÿ 2  3   0
+@L
+
+16
+
+@L
+H  H 1 ÿ gL gH NPVH  ÿ 1 IH  ÿ 4  5   0
+@H
+
+17
+
+@L
+1  1 L IL   1 ÿ L  IH   W ÿ H IH   0
+@1
+
+18
+
+2 1 ÿ L   0
+
+19
+
+3 L   0
+
+20
+
+4 1 ÿ H   0
+
+21
+
+5 H   0
+
+22
+
+6 W   0:
+
+23
+
+We first check for possible solutions that satisfy the Kuhn-Tucker conditions of Equations
+(15)±(23) when W > 0, and then check for possible solutions when W  0.
+We first suppose that W > 0. In this case it follows that the bracketed expression in
+Equation (15) equals zero. Similarly we know from Equation (23) that 6  0. Substituting
+zero for the above two components in Equation (15) yields 1  gL gH > 0. Consequently the
+bracketed expression in Equation (18) equals zero, implying that
+ÿ
+
+W  ÿL IL  ÿ 1 ÿ L IH   H IH :
+
+24
+
+We now show that L  1. Suppose instead that L  0. Under this supposition, Equation
+(24) implies that W  [(Hÿ1) IH()]  0, a contradiction. Thus L > 0. It follows from this
+that the bracketed expression in Equation (16) equals zero. Furthermore, we know that
+Equation (20) implies that 3  0. We can now substitute 1  gL gH and 3  0 into the
+bracketed expression in Equation (16). Since we know that the bracketed expression in
+Equation (16) equals zero, we obtain
+2  gL gH IH  ÿ IL 1 ÿ  6 0:
+
+25
+
+From Equations (25) and (19), it follows that L  1.
+Similarly, to show that H  1, we suppose instead that H  0. Under this supposition,
+and since L  1, Equation (24) implies that W [ÿ IL()] < 0, a contradiction. Thus H > 0.
+It follows from this that the bracketed expression in Equation (17) equals zero. Furthermore,
+Equation (22) implies that 5  0. We can now substitute 1  gL gH and 5  0 into the
+bracketed expression in Equation (17). Since we know that the bracketed expression in
+Equation (17) equals zero, we obtain:
+1 ÿ gL gH NPVH  ÿ gL gH IH   4 :
+
+26
+
+It follows from Equation (26) that 4 6 0, except, possibly, for one special case. Since 4 6 0,
+Equation (21) implies that H  1.
+We can now substitute L  H  1 into Equation (24) to obtain W  [ IH()ÿ IL()].
+Thus the resulting expected value to shareholders, when W > 0, is
+Vw   gL NPVL   1 ÿ gL gH NPVH  ÿ gL gH  IH  ÿ IL :
+
+27
+
+We now check for possible solutions to the problem when W  0. In this proof there are five
+mutually exclusive and fully exhaustive cases to consider in the search for a solution to
+
+253
+
+The Review of Financial Studies / v 17 n 1 2004
+
+Equations (10)±(14):
+1.
+2.
+3.
+4.
+5.
+
+H  L  0
+1 > L > 0 and 1 > H > 0
+H  L  1
+H  1 and L < 1
+H < 1 and L  1.
+
+We first examine case 1. Evaluation of case 1 shows that it cannot be a solution to the
+problem because increasing H from zero to one increases the objective function of Equation
+(10), while Equations (11)±(14) continue to hold.
+Likewise, we find that case 2 cannot be a solution to the problem. Under the assumptions
+of case 2, Equations (19)±(22) imply that 2  3  4  5  0. However, substituting
+2  3  4  5  0 into the bracketed expression in Equations (16) and (17) (note that
+these expressions equal zero) yields conflicting solutions for 1. Thus the system of equations
+does not hold for case 2.
+In addition, we find that case 3 cannot be a solution to the problem. In this case, the incentive
+compatibility constraint of Equation (11) is violated.
+We now consider case 4. This case presents a possible solution to the problem. The
+suppositions that W  0 and H  1, and the incentive compatibility constraint of Equation
+(11), imply that L  0. The resulting expected value to shareholders is
+Vc4   gL 1 ÿ gH NPVL   gH NPVH :
+
+28
+
+Finally, we consider case 5. This case also presents a possible solution to the problem. To
+evaluate case 5, we first show that H > 0. If H  0, then the incentive compatibility
+constraint of Equation (11) holds as a strict inequality, implying that the objective function
+can be increased by increasing H without violating the constraint. Thus H > 0. It follows
+from this that the bracketed expression in Equation (17) equals zero. We further know that
+Equation (22) implies that 5  0. Similarly, since H < 1, Equation (21) implies that 4  0.
+Substituting 4  5  0 into Equation (17) yields 1 > 0. Consequently the bracketed expression in Equation (18) must equal zero. Substituting L  1 into Equation (18) and equating
+the bracketed expression to zero yields H  IL =IH . Thus the resulting expected value to
+shareholders is
+IL
+Vc5   gL NPVL   gH 1 ÿ gL NPVH :
+29
+IH
+To prove Proposition 1(a), suppose that < 1. We now use Equations (27)±(29) to fully
+characterize the optimal solution for the optimization problem.
+A comparison of Equations (27) and (28) yields that Vc4 < Vw iff gLgH(IH()ÿ
+IL())(1ÿ ) > 0. Since < 1 and IH() > IL(), this inequality holds for all parameter values,
+implying that Vc4 < Vw. Thus it remains to compare Vw to Vc5 of Equation (29). Using
+Equations (27) and (29), we find that Vc5 > Vw iff:
+gL  gL 
+
+NPVH
+:
+IH  NPVH
+
+30
+
+Therefore, for gL  gL , the optimal solution is W  0, L  1, and H  IL =IH . This proves
+Proposition 1(a)(1). For gL < gL , the optimal solution is W   (IHÿIL)), L  H  1. This
+proves Proposition 1(a)(ii).
+To prove Proposition 1(b), suppose that > 1. We know from comparing Equations (27)±
+(28) that Vc4 > Vw. Thus it remains to compare Vc4 of Equation (28) to Vc5 of Equation (29).
+Comparing these equations we find that Vc5 > Vc4 iff:
+gL  gL 
+
+254
+
+NPVH
+:
+PV
+
+31
+
+Why the NPV Criterion does not Maximize NPV
+
+Therefore, for gL  gL , the optimal solution is W  0, L  1, and H  IL =IH . This
+proves Proposition 1(b)(i). For gL < gL , the optimal solution is W  0, L  0, and H  1.
+This proves Proposition 1(b)(ii).
+For proofs of Propositions 2±4, see the detailed discussion prior to each of the
+propositions.
+
+References
+Antle, R., and G. D. Eppen, 1985, ``Capital Rationing and Organizational Slack in Capital Budgeting,''
+Management Science, 31, 163±174.
+Harris M., C. H. Kriebel, and A. Raviv, 1982, ``Asymmetric Information, Incentives, and Intrafirm
+Resource Allocation,'' Management Science, 28, 604±620.
+Harris, M., and A. Raviv, 1979, ``Optimal Incentive Contracts with Imperfect Information,'' Journal of
+Economic Theory, 20, 231±259.
+Harris, M., and A. Raviv, 1996, ``The Capital Budgeting Process, Incentives and Information,'' Journal of
+Finance, 51, 1139±1174.
+Harris, M., and A. Raviv, 1998, ``Capital Budgeting and Delegation,'' Journal of Financial Economics, 50,
+259±289.
+Hirshleifer, D., and Y. Suh, 1992, ``Risk, Managerial Effort, and Project Choice,'' Journal of Financial
+Intermediation, 2, 308±345.
+Holmstr
+om, B., 1979, ``Moral Hazard and Observability,'' Bell Journal of Economics, 13, 324±340.
+Mao, J. C. T., 1970, ``Survey of Capital Budgeting: Theory and Practice,'' Journal of Finance, 25,
+349±360.
+McDonald, R., and D. R. Siegel, 1986, ``The Value of Waiting to Invest,'' Quarterly Journal of
+Economics, 101, 707±727.
+McDonald, R., 1999, ``Real Options and Rule of Thumbs in Capital Budgeting,'' in M. Brennen and
+L. Trigeorgis (eds.), Project Flexibility: Agency, and Competition: New Developments in the Theory and
+Applications of Real Options, Oxford University Press, New York.
+Narayanan, M. P., 1985, ``Observability and the Payback Criterion,'' Journal of Business, 58, 309±323.
+Poterba, J. M., and L. H. Summers, 1995, ``A CEO Survey of U.S. Companies' Time Horizons and
+Hurdle Rates,'' Sloan Management Review, 37, 43±53.
+Ross, M., 1986, ``Capital Budgeting Practices of Twelve Large Manufacturers,'' Financial Management,
+15, 15±22.
+Schall, L. D., G. L. Sundem, and W. R. Geijsbeek, Jr., 1978, ``Survey and Analysis of Capital Budgeting
+Methods,'' Journal of Finance, 33, 281±287.
+Scott, D. F., Jr., and W. J. Petty II, 1984, ``Capital Budgeting Practices in Large American Firms: A
+Retrospective Analysis and Synthesis,'' Financial Review, 19, 111±123.
+Segelod, E., 1995, Resource Allocation in Divisionalized Groups, Ashgate Publishing, Brookfield, USA.
+Stanley, M. T., and S. B. Block, 1984, ``A Survey of Multinational Capital Budgeting,'' Financial Review,
+19, 36±54.
+Stein, J. C., 1997, ``Internal Capital Markets and the Competition for Corporate Resources,'' Journal of
+Finance, 52, 111±133.
+Thakor, A. V., 1990, ``Investment `Myopia' and the Internal Organization of Capital Allocation
+Decisions,'' Journal of Law, Economics, & Organization, 6, 129±154.
+
+255
+
+

@@ -1,0 +1,2239 @@
+Journal of Financial Markets 28 (2016) 91–115
+
+Contents lists available at ScienceDirect
+
+Journal of Financial Markets
+journal homepage: www.elsevier.com/locate/finmar
+
+Pre-trade transparency and informed trading:
+Experimental evidence on undisclosed orders$
+Arie E. Gozluklu n
+Warwick Business School, Finance Group, University of Warwick, Coventry CV4 7AL, UK
+
+a r t i c l e i n f o
+
+abstract
+
+Article history:
+Received 22 February 2015
+Received in revised form
+7 March 2016
+Accepted 10 March 2016
+Available online 19 March 2016
+
+I use experimental asset markets to analyze trading under different
+transparency and information settings. I ﬁnd that both liquidity
+and informed traders use undisclosed orders to compete for
+liquidity provision. In opaque markets, traders increase aggressiveness to improve execution probability. Without information
+friction, market opacity enhances liquidity, especially toward the
+end of trading, and is beneﬁcial for liquidity traders. Under
+informed trading, adverse selection drives market outcomes
+mainly around news announcements. Monopolistic insiders
+exploit opacity at the expense of large liquidity traders. Opacity
+does not affect informational efﬁciency with a monopolistic insider, but value discovery is faster when informational rents are
+shared.
+& 2016 Elsevier B.V. All rights reserved.
+
+JEL classiﬁcation:
+C91
+C92
+G28
+Keywords:
+Undisclosed orders
+Hidden liquidity
+Information asymmetry
+Market opacity
+Insider trading
+
+☆
+With thanks to Thierry Foucault (discussant), Frank de Jong, Alessandro Innocenti, Arze Karam (discussant), Debrah Meloso,
+Carlo Milia, Rosemarie Nagel, Terrance Odean (discussant), Christine Parlour, Petya Platikanova, Kristian Rydqvist (discussant),
+Gideon Saar (editor), Shyam Sunder, Mark Wu (discussant) and an anonymous referee for their thoughtful comments and
+suggestions. I am indebted to Carlo Favero, Charles Noussair and Barbara Rindi for their support. I also thank participants at the
+EFA 2014, CICF 2013, Multinational Finance Society 2013, Frontiers of Finance 2012, Experimental Finance 2012, FMA European
+Meeting 2010, XVII Finance Forum, Madrid, ESA European Meeting in Innsbruck, GREQAM 2009, Aix en Provence, IMEBE 2009,
+Granada, APESA 2009, Haifa, Bocconi University Finance seminars and Tilburg University Finance Faculty for their hospitality
+during my stay in Tilburg. This paper previously circulated under the title “Pre-trade transparency and informed trading: An
+Experimental Approach to Hidden Liquidity.” I acknowledge ﬁnancial support from Bocconi University and Tilburg University
+CentER Lab.
+n
+Tel.: þ 44 24 7657 4297.
+E-mail address: arie.gozluklu@wbs.ac.uk
+
+http://dx.doi.org/10.1016/j.ﬁnmar.2016.03.003
+1386-4181/& 2016 Elsevier B.V. All rights reserved.
+
+92
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+1. Introduction
+In most modern trading platforms, orders posted to the limit order book (LOB) also include
+instructions specifying the degree of disclosure (Cheuvreux, 2012). Such orders, labeled as undisclosed (reserve or iceberg) orders, allow traders to limit the quantity exposure by concealing a
+portion of the order. This feature reduces the pre-trade transparency of the market, since traders do
+not observe the total depth available on the electronic LOB. Using laboratory markets, in this paper I
+address two related yet unresolved questions regarding the use of undisclosed orders. The ﬁrst
+question inquires about the source of hidden liquidity and its impact on the trading strategies of
+market participants while the second is related to its implications on different dimensions of market
+quality.
+Undisclosed orders account for a large proportion of trading activity in major exchanges, for
+example, more than 44% of the Euronext volume (Bessembinder, Panayides, and Venkataraman,
+2009), about 28% of the Australian Stock Exchange volume (Aitken, Berkman, and Mak, 2001), 16% of
+executed shares on Xetra (Frey and Sandas, 2008), and 20% of executions in the NASDAQ (Yao, 2013).1
+However, the source of hidden liquidity is still controversial. Two separate viewpoints emerge
+regarding the types of traders and their motivation for submitting undisclosed orders. According to
+the ﬁrst view, large liquidity traders enter markets for exogenous reasons and prefer undisclosed
+orders to compete with other liquidity suppliers and/or to protect their orders from fast traders (Buti
+and Rindi, 2009, 2013). If only large liquidity traders (Harris, 1997) opt for undisclosed orders, then
+the implications on market quality are mixed. While opacity improves depth at the top of the book, it
+widens the spread at the expense of small traders. On the other hand, in the second view, informed
+traders employ hidden liquidity to conceal private information and to minimize the price impact of
+large orders. If this is the underlying reason, then opacity introduced through undisclosed orders
+could harm the informational efﬁciency of ﬁnancial markets. While the effect on market quality is
+positive due to increased trading volume (Moinas, 2010), this view also highlights the potential role of
+undisclosed orders as a tool to obscure insider trading. Boulatov and George (2013) suggest that
+hidden liquidity attracts informed traders to liquidity provision, hence improving liquidity and
+informational efﬁciency via intense competition. Overall, even though the stock exchanges are in a
+race to offer darker platforms, there is still no consensus in the academic literature on the virtues of
+concealing orders.
+I design an asset market experiment to study market opacity introduced via undisclosed orders
+and its sensitivity to market friction induced by private information. I start with a baseline setting
+under symmetric information where I rule out the potential effects of adverse selection on hidden
+liquidity. I compare an opaque regime with a transparent alternative that excludes the possibility of
+undisclosed orders. In a second setting, I introduce a monopolistic insider in experimental asset
+markets, maintaining all other features. I also run additional sessions with two insiders. This design
+allows competition among informed traders (Boulatov and George, 2013). I analyze trading
+mechanisms under both symmetric and asymmetric information. My results contribute to the recent
+debate on dark trading and have important implications for market design.
+I document several interesting ﬁndings from the experimental asset markets. My ﬁrst observation
+is that both liquidity and informed traders compete for liquidity provision (Boulatov and George,
+2013; Collin-Dufresne and Fos, 2015) and make use of undisclosed orders. In opaque markets, on
+average, about 20% of limit orders are replaced by undisclosed orders. Whenever traders reduce
+liquidity consumption to control for price risk, they provide liquidity more aggressively to increase
+execution probability, which in turn affects market liquidity. Both large liquidity and informed traders
+submit, on average, more undisclosed orders compared to other trader types, but there is substantial
+heterogeneity among informed traders: They either submit no undisclosed orders at all (nearly half of
+informed traders) or supply hidden liquidity in large quantities and at price levels further away from
+1
+Some exchanges, such as the NASDAQ, the NYSE, and alternative trading platforms, that is, dark pools, also offer completely hidden orders. However, my analysis is limited to partially disclosed orders following theoretical models on undisclosed
+orders (Moinas, 2010; Buti and Rindi, 2013).
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+93
+
+the midquote. Nonetheless, informed traders manage to pool with large liquidity traders in liquidity
+provision, exploit their informational advantage, and thus affect market outcomes.
+Second, I show that large liquidity traders obtain higher trading proﬁts in opaque markets under
+symmetric information, since liquidity consumption is cheaper. Once a monopolistic insider is
+introduced to the market, however, large liquidity traders are negatively affected by reduced transparency, because monopolistic insiders are better at extracting informational rents. In other words,
+under an opaque regime, a monopolistic insider is better off at the expense of large liquidity traders.
+However, once informational rents are shared by two insiders, then market transparency has a minor
+effect on the proﬁts of liquidity traders. These results suggest that any welfare analysis of market
+transparency should control for the degree of adverse selection in the market.
+Third, without an insider, reducing transparency contributes positively to market liquidity, especially toward the end of the trading period. Liquidity traders substitute part of the limit and marketable orders with undisclosed orders to reduce exposure to opportunistic traders and price risk but,
+at the same time, they increase limit order aggressiveness to compensate for the reduction in
+execution probability. This strategic behavior reduces both quoted bid–ask and realized spreads, that
+is, the temporary price impact of marketable orders. Under asymmetric information, however, the
+spread does not change overall under different transparency regimes. One exception is around public
+news announcements: Thanks to market opacity, informed traders do not have to rush to exploit their
+informational advantage and can afford to trade using less aggressive orders, that is, limit or undisclosed orders instead of marketable orders, but, to increase the execution probability, they submit
+liquidity more aggressively, which reduces quoted spreads immediately after information release.
+Increasing the degree of adverse selection with more insiders results in increased book depth in
+opaque markets without affecting quoted spreads, in line with empirical evidence from the Toronto
+Stock Exchange (Anand and Weaver, 2004). In the case of a monopolistic insider, transparency does
+not affect the informational efﬁciency of asset markets, but value discovery is faster in opaque
+markets when informational rents are shared between insiders (Boulatov and George, 2013).
+Bloomﬁeld, O'Hara, and Saar (BOS, 2015) also ﬁnd that the depth dimension of liquidity improves due
+to opacity, but the authors do not document any effect on informational efﬁciency. However, their
+study has several differences in experimental design from mine, particularly regarding the quality of
+the private information held by informed traders.
+There are few theoretical papers on hidden liquidity. My market design is closely linked to a paper
+by Buti and Rindi (2013), who study optimal order strategies in a dynamic LOB allowing undisclosed
+orders. In their model, risk-neutral traders make simultaneous strategic decisions on price, quantity,
+and exposure conditional on the state of the LOB and their private valuations of assets. Buti and
+Rindi's model extends the models of both Foucault (1999) and Parlour (1998), who abstract from
+private information. In equilibrium, large traders submit hidden liquidity to electronic LOB for two
+different motivations: to avoid competition for liquidity provision and/or to avoid being picked off by
+fast traders in case of a public information shock (Buti and Rindi, 2009). The former refers to a
+situation where a competitor undercuts a large limit buy (sell) order by sending a limit buy (sell)
+order at a slightly higher (lower) price (typically by the minimum tick size), thus gaining price
+priority. Undisclosed orders help prevent undercutting by hiding order quantity. In the latter case,
+supplying hidden liquidity would complicate the detection of mispriced orders (e.g., due to new
+information arrival) that are likely to be exploited by scalpers. In one of the earliest studies, Aitken,
+Berkman, and Mak (2001) analyze the Australian Stock Exchange and conclude that uninformed
+liquidity suppliers use hidden quantity to reduce the option value of their limit orders (Copeland and
+Galai, 1983) and thus protect themselves from parasitic traders. Bessembinder, Panayides, and Venkataraman (2009) and Pardo Tornero and Pascual (2011) show that traders use undisclosed orders to
+manage exposure and pick off risk. De Winne and D'Hondt (2007) and Frey and Sandas (2008) fail to
+ﬁnd any impact of private information on hidden liquidity provision.
+Moinas (2010) proposes the ﬁrst theoretical model with private information to analyze the effect
+of undisclosed orders on market performance and trader welfare. She builds a discrete sequential
+model of trading with incomplete information and concludes that hidden liquidity is part of the
+informed (insider) agent's equilibrium camouﬂage strategy. That analysis supports the idea that
+undisclosed orders are driven by informational concerns, that is, not revealing private information to
+
+94
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+the market through large orders that are likely to have a price impact. In a different setting, Boulatov
+and George (2013) also focus on hidden liquidity provision under asymmetric information. They
+predict that informed traders are more inclined to provide liquidity in opaque markets. Moinas (2010)
+and Boulatov and George (2013) suggest improved liquidity through reduced pre-trade transparency.
+Anand and Weaver (2004) show that informed traders use hidden liquidity to minimize price impacts
+if trading activity is high using data from the Toronto Stock Exchange. Belter (2007) and Kumar,
+Thirumalai, and Yadav (2009) also provide evidence supporting the hypothesis that the use of
+undisclosed orders may be information driven.
+Overall, the literature on undisclosed orders is far from conclusive. Given the controversy,
+experimental asset markets (e.g., Bloomﬁeld and O'Hara, 1999; BOS, 2005, 2009, 2015; Perotti and
+Rindi, 2006) are instrumental when testing the main theoretical predictions on hidden liquidity,
+which is not always possible with empirical data. This paper is one of the ﬁrst that attempts to ﬁll
+this gap.
+The paper proceeds as follows. In Section 2, I summarize the key theoretical predictions on
+undisclosed orders. In Section 3, I describe the experimental design. In Section 4, I present the statistical analysis and the ﬁndings. I conclude in Section 5.
+
+2. Predictions on undisclosed orders
+Before I describe the details of my experimental design, I brieﬂy revisit the key predictions recent
+theories provide on the source of undisclosed orders and the impact of opacity on market quality.
+Prediction 1. Liquidity traders submit undisclosed orders to reduce the price impact of large orders
+(Esser and Mönch, 2007).
+Submitting an undisclosed order with a ﬁxed peak size is a dominant order-splitting strategy as
+opposed to one splitting large limit orders because, given the time priority rule in the market, the
+visible part of the undisclosed order is automatically executed. If this is the underlying reason for
+hidden liquidity, I do not expect a signiﬁcant change in market liquidity.
+Prediction 2. Liquidity traders submit undisclosed orders to avoid undercutting by other traders and to
+compete for liquidity provision (Buti and Rindi, 2013).
+If undisclosed orders are used to decrease price competition, the bid–ask spread widens because
+orders at the best prices are not subject to undercutting and submission of undisclosed orders to the
+second level of the book becomes optimal. While the depth at the top of the LOB increases, wider
+spreads reduce the surplus of marketable orders, which in turn reduces trading volume. Moreover,
+protection from undercutting results in higher trading proﬁts for liquidity traders, especially when
+the tick size is large.
+Prediction 3. Informed traders contribute to market liquidity in opaque markets (Moinas, 2010). In the
+case of more than one informed trader, insiders compete for (hidden) liquidity provision (Boulatov and
+George, 2013).
+Informed liquidity suppliers often try to imitate the behavior of large liquidity traders to conceal
+their private information, and thanks to undisclosed orders, they can enjoy the informational
+advantage longer. According to Moinas's (2010) model, both informed and large liquidity suppliers
+beneﬁt from opacity through an increase in depth and trading volume, but the author makes no
+prediction on spreads. However, one limitation of the model is that insiders can only supply liquidity
+and cannot take advantage of aggressive marketable orders. Boulatov and George (2013) conjecture
+that opacity through undisclosed orders attracts informed traders to supply liquidity and the competition among insiders leads to lower bid–ask spreads and more informationally efﬁcient midquotes.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+95
+
+3. The experiment
+The design of my asset market experiment takes into account recent theories on undisclosed
+orders and focuses on three dimensions: trader types, transparency, and information asymmetry. In a
+within-subject design, I control for three trader types and two transparency regimes. In the baseline
+setting, I test the effects of market opacity on both trading strategies and market quality under
+symmetric information. The analysis is extended by introducing informed trading. In this setting,
+there is an additional trader type, that is, an informed trader, which allows me to compare the
+transparency regimes under asymmetric information. Thus, using adverse selection, this experiment
+is used to separate market friction from pre-trade transparency.
+Under symmetric information, trading is isolated from motives related to private information. The
+information structure is common knowledge; hence, there is no informational advantage across traders. In
+this setting, one should observe hidden liquidity as part of an order-splitting strategy (Esser and Mönch,
+2007), due to competition for liquidity provision (Buti and Rindi, 2013) and/or protection from fast traders
+after public information release (Buti and Rindi, 2009). Under asymmetric information, adverse selection
+arises via a single insider with superior information. This setup is closer to the environment envisaged by
+Moinas (2010) theory, which suggests informational concerns behind hidden liquidity. I refer to Moinas's
+model to convey the intuition in an environment with an informed trader. To test the sensitivity of the
+results to a single monopolistic insider, I run additional sessions with two informed traders, which allows
+competition among insiders (Boulatov and George, 2013).
+3.1. Experimental asset markets
+In this section, I describe the experimental design in detail and introduce main parameters of
+experimental markets (see Online Appendix A for instructions). An experimental asset market is
+deﬁned as a six-minute trading period. Traders in cohorts of six to eight traders attend a session
+under a particular treatment that consists of a series of experimental markets called replications. I
+introduce within-subject transparency manipulation: In all sessions, traders attend markets both
+under a transparent regime (three to four replications), with no undisclosed order option, and an
+opaque regime (three to four replications), with an undisclosed order option. The transparency
+Table 1
+Liquidating dividend distribution.
+This table shows the liquidating dividend distribution of the assets traded in experimental markets. For each market, an asset
+from this pool is selected. The columns 1–3 correspond to the initial values of the dividends until the public information arrival
+at the third minute. The other columns show the distribution under the good news (columns 4–6), that is, $10 increase in
+unconditional expected value, and bad news (columns 7–9), that is, $10 decrease in unconditional expected value.
+Asset
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+Initial states
+
+Good news
+
+Bad news
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+L
+
+M
+
+H
+
+L
+
+M
+
+H
+
+L
+
+M
+
+H
+
+30
+29
+28
+27
+26
+25
+26
+25
+24
+23
+22
+21
+
+41
+41
+41
+41
+41
+41
+49
+49
+49
+49
+49
+49
+
+64
+65
+66
+67
+68
+69
+60
+61
+62
+63
+64
+65
+
+40
+39
+38
+37
+36
+35
+36
+35
+34
+33
+32
+31
+
+51
+51
+51
+51
+51
+51
+59
+59
+59
+59
+59
+59
+
+74
+75
+76
+77
+78
+79
+70
+71
+72
+73
+74
+75
+
+20
+19
+18
+17
+16
+15
+16
+15
+14
+13
+12
+11
+
+31
+31
+31
+31
+31
+31
+39
+39
+39
+39
+39
+39
+
+54
+55
+56
+57
+58
+59
+50
+51
+52
+53
+54
+55
+
+96
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Table 2
+Experimental design.
+This table shows the parameter choices for different trader types. The initial endowment in each market is the sum of the
+cash in experimental units and shares given to each trader type. For each trader type, the unconditional expected value of the
+initial endowments is the same: the initial cash plus the number of shares times $45, that is, $7,375. Trading targets are deﬁned
+per two-minute cycles, and remain the same during the six-minute trading period. Missing a target is penalized by subtracting
+$1,000 per unfulﬁlled target from the ﬁnal payoff at the end of each market. The dividend distribution is common knowledge to
+all trader types. Informed traders know the true state before trading starts.
+Trader Type
+
+1 or
+2 uninformed
+1 small liquidity
+(buy)
+1 small liquidity
+(sell)
+1 large liquidity
+(buy)
+1 large liquidity
+(sell)
+0, 1 or
+2 informed
+
+Endowments
+
+Targets
+
+Asset
+
+Cash
+
+Share
+
+Per 2 minute
+
+Penalty
+
+Info
+
+$4,000
+
+75
+
+No target
+
+No penalty
+
+Distribution
+
+$5,125
+
+50
+
+8 shares
+
+1,000
+
+Distribution
+
+$2,875
+
+1,000
+
+8 shares
+
+1,000
+
+Distribution
+
+$6,700
+
+15
+
+20 shares
+
+1,000
+
+Distribution
+
+$1,300
+
+135
+
+20 shares
+
+1,000
+
+Distribution
+
+$4,000
+
+75
+
+No target
+
+No penalty
+
+True state
+
+treatment order is randomized; some cohorts start trading in transparent markets and others start in
+opaque markets. The market regime is explicitly announced before each trading period.
+In each market, one asset is chosen from the distribution shown in Table 1. At the beginning of
+each trading period, the expected value of all securities is $45 (experimental currency). In line with
+previous studies (e.g., BOS, 2005), the minimum tick size is ﬁxed at $1 in all experimental asset
+markets. Trading starts with an empty book. Traders are endowed with different amounts of cash and
+a number of securities, depending on the trader type, explained in the section below, but the
+expected values of the initial endowment of each trader type are the same. Cash and shares of the
+asset are given as a grant. In other words, the initial endowment is not subtracted from the ﬁnal cash
+balances. This design allows no trading as a viable trading strategy. Unlike a dealership market,
+traders are not required to submit two-sided quotes. They can simply choose to provide or consume
+liquidity by taking one side of the trades. This feature reﬂects the electronic LOB mechanism common
+to many modern trading venues, such as Euronext.
+3.1.1. Information structure
+There are three states in the world fL; M; Hg: A single asset has either a high, middle, or low level of
+liquidation satisfying the following condition: M  L a H M. ex ante, each state is equally likely. A
+three-state design is used to simplify the already complicated trading mechanism (Plott and Sunder,
+1988). The distribution of liquidation value is common knowledge to all traders and known before
+trading starts. One novel feature of my design is that an information event occurs in the middle of the
+trading period.2 The experimenter releases the public information on the fundamental value of the
+security; the average value of liquidating dividends moves either up or down by 10 experimental
+currency units, that is,
+h
+i
+E va1;180 ¼ $ 45
+
+public information
+
+)
+
+Eu ½va181;360  ¼ $ 55Ed ½va181;360  ¼ $ 35
+
+The information event changes the expected fundamental value of the asset. Initially, six realizations are possible, which reduces to three equally likely outcomes once the information event
+2
+Even though the exact timing of the event is known to the market participants, the order revision cost, that is, the cost of
+canceling orders, differs across trader types, which still allows one to pick off stale orders.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+97
+
+occurs. The information event exogenously widens the bid–ask spread during the trading period and
+renders some of the outstanding limit orders obsolete. Thus I test how traders adjust their strategies
+to changing market conditions under different transparency regimes and information settings.
+3.1.2. Trading mechanism and the LOB
+The trading mechanism is exactly the same under all treatments. Traders attend markets under
+both transparent and opaque regimes in a random order. In transparent markets, traders can post
+limit orders specifying the price, p A f1; …; 90g, and the quantity, q A f1; 2; …; 9; 10g. Traders can submit
+block trades all at once, up to 10 shares. The submission of different order sizes is important in
+studying competition for liquidity provision (Easley and O'Hara, 1987; Buti and Rindi, 2009, 2013).
+Traders can also submit marketable orders stating only the quantity that hits the outstanding limit
+orders. Marketable orders above (below) the best ask (bid) are completely executed at different
+prices, given enough depth at those price levels. However, a marketable order at or inside the best bid
+offer (BBO) does not walk up the book; that is, if the order quantity is greater than the quantity at the
+best limit ask (bid), the remaining quantity after execution remains on the same side of the book. This
+feature is similar to that of Euronext Paris. Limit orders reduce the price risk at the expense of
+execution probability, while marketable orders facilitate execution, introducing price risk. In these
+markets, ﬁrst price and then time priority rules apply: orders that improve trading price, that is, buy
+(sell) orders submitted at higher (lower) prices, are executed ﬁrst, regardless of arrival time, and if
+several orders are posted at the same price level, those that arrive ﬁrst are executed ﬁrst.
+In opaque markets, traders can limit the quantity exposure by posting undisclosed orders, that is,
+they can choose to hide their orders, but a predeﬁned portion of the order (peak size ¼1) remains
+visible in the LOB. My design does not capture the trade-off between the optimal limit and the peak
+size of an undisclosed order, which is the focus of a continuous time model proposed by Esser and
+Mönch (2007). In opaque markets, ﬁrst price and then visibility and ﬁnally time priority rules apply.
+Orders that improve trading price, that is, buy (sell) orders at higher (lower) prices, are executed ﬁrst,
+regardless of arrival time, and if several orders are posted at the same price level, those that are
+visible are executed ﬁrst, while the hidden part of undisclosed orders loses time priority against
+visible limit orders that arrive later in the book. The visible part of the undisclosed orders, which is
+equal to the peak size, does not lose time priority against other limit orders posted at the same price.
+Every time the visible part is executed, another unit equal to the peak size becomes visible, until the
+entire order is executed (see the example in Online Appendix B).
+In both markets, orders can be canceled any time during the trading period. All price levels are
+shown on the screen. All bids and ask prices are integers; hence, the tick size is one unit of experimental currency (BOS, 2005).3 I impose short sale restrictions and bankruptcy conditions. However,
+traders are endowed with enough cash and securities and, hence, these conditions are rarely
+binding.4
+3.1.3. Trader types
+In each market, traders are randomly assigned to a trader type. Under symmetric information,
+there are three different types: traders with no exogenous trading motives, which I label uninformed,
+and traders with either small or large trading targets, that is, small and large liquidity traders (BOS,
+2005, 2009). Unlike previous studies, trading targets are imposed per two-minute cycles, so there are
+three trading cycles in each market. Trading cycles over relatively long periods avoid situations in
+which traders immediately fulﬁll their targets and behave randomly. Small liquidity traders should
+either buy or sell eight shares per cycle. For large liquidity traders, the target is 20 shares per twominute cycle. There are equal numbers of buy and sell targets. This symmetric design implies a zero
+aggregate net demand. The direction of the targets — buy or sell — remains the same during the sixminute trading periods. All traders are allowed to buy or sell, regardless of their targets, but liquidity
+3
+Empirical evidence on the effects of relative tick size is mixed (O'Hara, Saar, and Zhong, 2014). Online Appendix C shows
+whether the relative tick size has an impact on hidden liquidity submission.
+4
+Short-sale constraints are binding only for 3% of liquidity traders.
+
+98
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+traders are subject to a large penalty, $1,000 per unfulﬁlled target. The penalty is subtracted from the
+end-of-period payoffs.5 I thus introduce heterogeneity among uninformed traders using trading
+obligations (Bloomﬁeld and O'Hara, 1999; BOS, 2005). Liquidity traders transact for exogenous reasons related to the need to invest or to liquidate positions. Moreover, having liquidity traders with
+different trading obligations helps me test the effect of trading aggressiveness on market outcomes
+(Foucault, Kadan, and Kandel, 2005).
+Each trader starts trading with an initial endowment. The ex ante expected value of the initial
+endowments is $7,375 for all trader types. Uninformed traders start with $4,000 and 75 shares. Since
+these traders are given cash and shares as a grant, they do not have exogenous reasons to trade. The
+initial endowment composition of liquidity traders depends on the direction and magnitude of their
+targets. For example, traders with buy targets start with more cash and fewer shares (see Table 2).
+In asymmetric information sessions, a monopolistic insider replaces one uninformed trader. The
+new trader type starts with the same initial endowment as the uninformed trader and has no trading
+obligation. On top of the dividend distribution, the monopolistic insider knows the true state of the
+world before each market starts. This gives the trader an informational advantage until the public
+information release when the trader learns the true value of the liquidating dividend. Adverse
+selection via a single informed trader allows me to investigate how the participation of an insider
+(Kyle, 1985; Collin-Dufresne and Fos, 2015) affects liquidity dynamics and trading strategies under
+different transparency regimes.6 In further sessions, I analyze trading once there is competition
+among informed traders (Boulatov and George, 2013).
+3.2. Participants and incentives
+I run sessions with different incentive schemes. I ﬁrst conduct paid pilot sessions with 24 Tilburg
+University students recruited through the CentER experimental laboratory. Pilot sessions lasted two
+and a half hours and the participants were paid on average €10 per hour. Questionnaires after the ﬁrst
+pilot sessions revealed that participants had difﬁculty understanding the trading mechanism using
+undisclosed orders. Moreover, in these pilot sessions, the participants did not have enough training to
+develop trading strategies. To overcome this problem, I designed a longitudinal study with students
+who had a basic knowledge of the functioning of security exchanges.7
+I ran the next sessions at Bocconi University with undergraduate students (N ¼72, 11 cohorts) who
+attended a series of sessions as part of a market microstructure course requirement in 2009 (N ¼31,
+ﬁve cohorts) and 2011 (N ¼41, six cohorts). In 2009, I presented the experiment as an opportunity to
+increase one's course grade by one to three points (up to 20%), based on trading performance. A total
+of 31 students committed themselves to attend a series of sessions for a month. The use of one's
+course grade as an incentive scheme is controversial in experimental economics and ﬁnance; however, given the longitudinal nature of the experiment, grades provide a good scheme to guarantee
+commitment for an extended period. Moreover, this incentive mechanism has the advantage of
+introducing the possibility of loss, that is, obtaining no points after attending one month of trading
+sessions (Kroll and Levy, 1992). In 2011, I repeated the same experiment, but this time introducing an
+average payment of €12.5 per hour on top of the course grade incentive. I report the aggregate results
+of both experiments below.8
+Participants ﬁrst attended a lab session for the presentation of instructions and trading rules. The
+training session lasted 90 minutes and participants had extensive interactive training with the trading
+interface. They attended a second online training session to improve their familiarity with the trading
+5
+I do not allow for the partial fulﬁllment of trading targets; the same penalty applies even if traders miss their targets by
+one share. Given the price grid, fulﬁlling the target is a dominant strategy (see Online Appendix D).
+6
+Insider trading is illegal in many countries, but in some countries such as in the United States, legal insider trading is
+allowed under strict ﬁling requirements, such as SEC Form 4 or Schedule 13D ﬁling (Collin-Dufresne and Fos, 2015).
+7
+I ran another two-month pilot study with PhD students (N ¼6) who followed a market microstructure course. Their
+performance in the trading experiment determined 15% of their course grade.
+8
+Separate analyses of the data reveal that the lack of monetary incentives did not change the participants' behavior in such
+a way that would impair our inferences (results available upon request).
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+99
+
+Fig. 1. Order submission: The ﬁgure shows the dynamic evolution of limit, marketable, and undisclosed order submission in
+shares. The data are aggregated over markets under symmetric and asymmetric information, and I report average values per
+market over 30-second intervals. The vertical line indicates the time of the public information release about the ﬁnal dividend
+distribution.
+
+rules and to develop trading strategies. In the last three online sessions, participants traded under
+three different settings, that is, under symmetric information, asymmetric information, and either
+with auctions for private information (2009) or under asymmetric information with multiple insiders
+(2011).9 In each session, participants are randomly assigned to a different cohort, but against traders
+with the same experience level.
+All participants start with some cash and a security endowment as explained above and the
+interest rate is zero. Trading gains from one period are not transferred to other periods but are
+recorded to calculate cumulative payoffs. Participants' earnings in each market are the liquidation
+value of the assets they hold at the end of the trading period plus the capital gains (losses) obtained
+through trading assets minus the ﬁxed penalty for not fulﬁlling each trading target. All price and
+values are denominated in the laboratory currency. In the training sessions, I provided the participants with the explicit formula used to compute the payoffs. This ensured that they unambiguously
+understood the incentives and how they related to trading. Participants’ grades and monetary payoffs
+depended on their cumulative performance in all trading (except training) sessions.
+
+4. Results
+The statistical analysis is conducted at both the market and individual subject levels. Each of the
+eleven cohorts is a single independent data point averaged over different replications under the same
+market design, that is, opaque versus transparent. At the market level, I compare the within-cohort
+differences of market quality measures (within-subjects design). I report the Wilcoxon signed-rank pvalues for the paired samples. At the individual level, for each participant, dependent variables are
+aggregated under a relevant cell, that is, trader type  transparency, and the trading strategies of the
+same participant are compared under different trading roles. This design allows me to control for
+individual differences across participants. The results of an analysis of variance (ANOVA) are used to
+determine the effects of market structure on trading proﬁts under different information settings.
+9
+
+I discuss the results on auctions for private information in Online Appendix E.
+
+100
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Table 3
+Trading strategies under symmetric information.
+This table reports the differences in trading strategies across trader types, that is, uninformed with no target, small and large
+liquidity traders under symmetric information. Panel A and Panel B show the results for transparent and opaque markets,
+respectively. The columns 1–3 show the average shares submitted per trader using limit, marketable, and undisclosed orders.
+The columns 4–6 report measures of trader aggressiveness and competition in the following order: the number of limit orders
+submitted inside spread, at the BBO, and the average distance of limit orders to the prevailing midquote. The last column
+reports the average distance of undisclosed orders to the prevailing midquote conditional on submission. The values in parentheses are the standard deviations. The table also reports one-sided Wilcoxon signed-ranked results of two consecutive rows
+in the same column. n, nn, and nnn indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+
+Trader type
+
+LO
+(1)
+Mean
+
+MO
+(2)
+Mean
+
+HLO
+(3)
+Mean
+
+Inside
+(4)
+Mean
+
+BBO
+(5)
+Mean
+
+LO Agg.
+(6)
+Mean
+
+HLO Agg.
+(7)
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+Mean
+(std)
+
+23.66
+(27.61)
+32.43
+(27.43)nnn
+56.27
+(31.39)nnn
+
+–
+(–)
+–
+(–)
+–
+(–)
+
+2.04
+(2.24)
+2.76
+(2.19)nn
+3.53
+(2.13)nnn
+
+11.61
+(11.76)
+15.42
+(11.87)nnn
+16.87
+(9.28)nnn
+
+2.89
+(1.98)
+2.37
+(2.20)nnn
+1.98
+(1.36)n
+
+–
+(–)
+–
+(–)
+–
+(–)
+
+Panel A. Transparent markets
+Uninformed
+Small liquidity
+Large liquidity
+
+57.84
+(57.05)
+63.81
+(65.20)n
+70.38
+(37.12)nnn
+
+Panel B. Opaque markets
+Uninformed
+Small liquidity
+Large liquidity
+
+48.21
+(57.25)
+56.84
+(58.80)nn
+57.36
+(46.85)
+
+19.73
+(23.56)
+29.28
+(21.92)nnn
+48.57
+(31.48)nnn
+
+11.69
+(21.06)
+9.80
+(17.79)
+15.41
+(29.41)nnn
+
+1.56
+(2.04)
+2.40
+(1.96)nnn
+3.36
+(2.64)nnn
+
+9.87
+(11.44)
+14.06
+(13.07)nnn
+16.66
+(14.23)nn
+
+2.70
+(2.23)
+2.29
+(3.62)nn
+1.65
+(1.53)nnn
+
+2.63
+(2.63)
+2.84
+(1.90)
+1.58
+(1.36)
+
+To calculate market quality measures, an algorithm merges orders from the LOB with transaction
+data from the transaction book. All submitted limit, marketable, and undisclosed orders are collected
+on a tick-by-tick basis. I reconstruct the LOB for outstanding orders and obtain snapshots of the LOB
+for each second, which permits calculation of all depth-related measures at all price levels of the
+electronic order book.
+I compute liquidity, depth, and volatility measures separately to assess the impact of market
+transparency and informational friction on market quality. As a liquidity measure, I proxy for message
+trafﬁc using the total number of limit and marketable orders (and undisclosed orders under an
+opaque regime) submitted to the LOB. I also report the total transacted volume in shares and the
+number of shares per trade. The quoted bid–ask spread and effective spread reﬂect implicit transaction costs and the price impact of marketable orders. The latter is measured by P t  M t ðM t P t Þ for a
+buy (sell) order, where Pt and Mt are the transaction price and the midquote (BOS, 2009). I decompose
+the effective spread into temporary and permanent price impacts. The former is also known as the
+realized spread and is measured by the distance between the transaction price and the midquote
+prevailing after ﬁve trades, while the latter is the difference between the midquote and the midquote
+prevailing after ﬁve trades. The (visible) depth is the total number of (visible) shares both at the BBO
+and at all price levels of the LOB, labeled book depth. Finally, volatility is the sample estimate of the
+standard deviation of prices using both the transaction price and the midquote.
+
+4.1. Overview: order types
+Fig. 1 exhibits the time evolution of submitted shares of different order types under symmetric
+(Panel A) and asymmetric information (Panel B). The data are aggregated over 30-second intervals
+across different replications and cohorts.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+101
+
+Table 4
+Trading strategies under asymmetric information.
+This table reports the differences in trading strategies across traders types, that is, uninformed with no target, small and large
+liquidity traders, and informed trader under asymmetric information. Panel A and Panel B show the results for transparent and
+opaque markets, respectively. The columns 1–3 show the average shares submitted per trader using limit, marketable, and
+undisclosed orders. The columns 4–6 report measures of trader aggressiveness and competition in the following order: the
+number of limit orders submitted inside spread, at the BBO and the average distance of limit orders to the prevailing midquote.
+The last column reports the average distance of undisclosed orders to the prevailing midquote conditional on submission. The
+values in parentheses are the standard deviations. The table also reports one-sided Wilcoxon signed-ranked results of two
+consecutive rows in the same column. n, nn, and nnn indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Trader type
+
+LO
+(1)
+Mean
+
+MO
+(2)
+Mean
+
+HLO
+(3)
+Mean
+
+Inside
+(4)
+Mean
+
+BBO
+(5)
+Mean
+
+LO Agg.
+(6)
+Mean
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+(std)
+
+Mean
+(std)
+
+Panel A. Transparent markets
+Uninformed
+72.45
+(58.17)
+Small liquidity
+76.91
+(56.31)
+Large liquidity
+80.50
+(51.15)nnn
+Informed
+77.31
+(71.76)
+
+26.35
+(27.89)
+41.00
+(48.89)nn
+52.25
+(50.82)nnn
+52.54
+(51.45)n
+
+–
+(–)
+–
+(–)
+–
+(–)
+–
+(–)
+
+2.35
+(1.95)
+3.54
+(2.08)n
+4.25
+(2.91)nn
+3.54
+(3.78)
+
+9.99
+(8.80)
+15.90
+(10.61)nnn
+19.44
+(15.45)
+16.14
+(14.15)
+
+3.38
+(2.92)
+2.55
+(2.00)nnn
+2.38
+(1.84)
+3.90
+(4.60)
+
+–
+(–)
+–
+(–)
+–
+(–)
+–
+(–)
+
+Panel B. Opaque markets
+Uninformed
+57.85
+(57.88)
+Small liquidity
+60.98
+(51.87)
+Large liquidity
+74.10
+(66.00)nnn
+Informed
+59.88
+(51.19)nn
+
+27.42
+(35.39)
+37.25
+(42.34)nn
+48.84
+(30.24)
+45.00
+(56.92)n
+
+9.70
+(18.99)
+9.11
+(18.35)
+16.52
+(34.79)nn
+24.82
+(53.85)
+
+2.35
+(2.98)
+3.27
+(2.68)nnn
+3.84
+(2.98)nn
+2.97
+(3.07)nn
+
+9.55
+(9.40)
+13.21
+(11.22)n
+15.08
+(11.75)nn
+13.09
+(9.59)nn
+
+3.89
+(4.01)
+2.84
+(2.09)nn
+2.28
+(1.84)
+2.60
+(2.06)
+
+HLO Agg.
+(7)
+
+3.74
+(3.86)
+4.04
+(3.78)
+2.80
+(2.40)
+3.60
+(3.15)nn
+
+Since trading starts with an empty book, there is a large accumulation of limit orders at the
+beginning of each market. Limit shares show a downward trend during the trading period, exhibiting
+cyclical spikes coinciding with trading targets. Marketable orders, on the other hand, do not show any
+trend during the trading period. However, both limit and marketable shares move together around
+trading cycles, that is, at the second and fourth minutes, reﬂecting both exogenous trading targets and
+endogenous reactions to trading opportunities (Foucault, Kadan, and Kandel, 2005, 2013). Liquidity
+provision decreases just before a public information release. This reduction is similar to the evidence
+on anticipated news in equity (e.g., Graham, Koski, and Loewenstein, 2006; So and Wang, 2014) and
+bond markets (e.g., Green, 2004; Engle, Fleming, Ghysels, and Nguyen, 2012). The sudden spike in
+marketable orders after a public information release shows that traders respond very rapidly to news
+and adjust to new fundamentals. The features are common under both symmetric and asymmetric
+information.
+Undisclosed orders exhibit a downward sloping pattern, which is consistent with the fact that they
+lose time priority in execution. At the beginning of the trading period, when the book builds, spreads
+are typically larger, with higher price volatility, and this is when I expect to see more extensive use of
+undisclosed orders (Bessembinder, Panayides, and Venkataraman, 2009). Traders are also more likely
+to submit undisclosed orders before public information release to avoid the risk of picking off stale
+orders, but the use of undisclosed orders should increase as the time to news announcement
+decreases (Buti and Rindi, 2009).10 In Panel A of Fig. 2, I compare the number of undisclosed orders
+submitted in the ﬁrst and second halves of trading. The number decreases, on average, from 45 shares
+10
+On the contrary, Jiang, Lo, and Verdelhan (2011) document the withdrawal of hidden depth before news announcement
+in U.S. Treasury bond markets.
+
+102
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Fig. 2. Undisclosed orders: Panel A shows the number of undisclosed orders submitted in different time periods during
+trading: ﬁrst half and second half of trading, one minute before and after the public information release. Panel B shows the
+mean and median percentage of executed volume that consists of undisclosed orders both in markets under symmetric and
+asymmetric information.
+
+to 23 shares (p-value o 0:000) under symmetric information and from 55 shares to 34 shares (p-value
+o0:000) under asymmetric information. However, when I compare undisclosed orders right before
+and after an information release, the decrease is less pronounced. An increase in undisclosed orders
+under asymmetric information that persists through the last trading cycle hints at informational
+motives behind hidden liquidity provision (Chakrabarty and Shaw, 2008). To explore this notion
+further, I analyze trading strategies in Section 4.2.
+Panel B in Fig. 2 shows the percentage of executed volume that consists of undisclosed orders. The
+ﬁgure reveals that 17.8% to 19.5% of the executed volume in the experimental asset markets is
+undisclosed, which is similar to the evidence documented in empirical studies (e.g., Frey and Sandas,
+2008; Yao, 2013). While the ex ante probability of execution is lower for undisclosed orders, it seems
+that undisclosed orders are submitted aggressively to the LOB and more so under symmetric information (Frey and Sandas, 2008; Hasbrouck and Saar, 2009).
+4.2. Trading strategies
+In Table 3, I report the average number of shares of limit, marketable, and undisclosed orders
+submitted by each trader type under symmetric information. The focus is on competition for liquidity
+provision and trader aggressiveness. I report four different measures: (i) the number of limit orders
+submitted inside the bid–ask spread that improves the best price, (ii) the number of limit orders
+submitted at the BBO, (iii) the average distance of limit orders to the prevailing midquote, and (iv) the
+average distance of undisclosed orders to the prevailing midquote conditional on submission
+(Bessembinder, Panayides, and Venkataraman, 2009).
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+103
+
+Fig. 3. Trading proﬁts: This ﬁgure shows the average trading proﬁts of each trader type. The trading proﬁt is the ﬁnal payoff net
+of the initial endowment. Panel A exhibits the trading proﬁts in markets under symmetric information, that is, no insider
+trader, and I compare proﬁts across transparent and opaque markets. Panel B exhibits trading proﬁts in markets under
+asymmetric information, that is, with one insider, and I compare proﬁts across transparent and opaque markets.
+
+In my asset markets, exogenous trading targets constrain liquidity traders' behavior. In principle,
+liquidity traders should be more active in trading by participating not only in liquidity demand but
+also in liquidity provision. This is what I observe in Table 3 under both transparent and opaque
+regimes. Since liquidity traders, especially large ones, have exogenous trading motives, they also trade
+faster and provide liquidity more aggressively at the top levels of the book. The difference between
+transparent and opaque regimes is that traders also have the option to provide liquidity using
+undisclosed orders. Large liquidity traders use this option and shift about 20% of liquidity supply to
+undisclosed orders. It seems that they follow a mixed strategy of using both limit and undisclosed
+orders for liquidity provision, together with marketable orders to satisfy their liquidity needs and
+guarantee execution. Undisclosed orders allow liquidity traders to reduce order exposure and to
+control price risk and therefore complement both limit and marketable orders. However, at the same
+time, they reduce the execution probability due to the visibility priority rule. Large liquidity traders
+act strategically and improve execution probability by submitting limit orders more aggressively,
+rather than demanding more liquidity through marketable orders.
+Traditionally, informed traders are associated with short-lived information and are hence perceived as impatient traders who would like to exploit informational advantages as quickly as possible
+by consuming liquidity. However, researchers (BOS, 2005; Kaniel and Liu, 2006; Rindi, 2008; Boulatov
+and George, 2013) suggest that informed traders contribute substantially to liquidity provision, particularly when the information is sufﬁciently persistent. If used strategically, undisclosed orders may
+increase the life of private information by concealing trading motives (Moinas, 2010). The results
+reported in Table 4 under asymmetric information suggest that informed traders indeed act strategically and pool with large liquidity traders in both liquidity provision and consumption under a
+
+104
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Table 5
+ANOVA results under symmetric markets.
+This table presents the results of an ANOVA to test the effects of market structure on trading proﬁts under symmetric
+information. The dependent variable is the trader's payoff relative to the average market payoff normalized by the unconditional expected payoff ($7,375). The independent variables include trader type — uninformed trader, small liquidity (buy/sell),
+large liquidity (buy/sell) — opacity (transparent versus opaque), extremity (whether the state is extreme or not), and interaction terms. An asset is classiﬁed as extreme if the liquidating dividend is more than 20% from the unconditional mean. pvalues less than 0.10, 0.05 and 0.01 indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Source
+
+df
+
+Sum of
+squares
+
+Fstatistics
+
+p-Value
+
+Trader type
+Opacity
+Extremity
+Interaction (type, opacity)
+Interaction (type, extremity)
+Interaction (opacity, extremity)
+Interaction (type, opacity,
+extremity)
+Error
+
+4
+1
+1
+4
+4
+1
+4
+
+0.019
+0.001
+0.000
+0.052
+0.026
+0.000
+0.017
+
+0.92
+0.16
+0.07
+2.48
+1.25
+0.03
+0.79
+
+0.454
+0.678
+0.794
+0.043nn
+0.290
+0.873
+0.530
+
+494
+
+2.541
+
+Table 6
+ANOVA results under asymmetric markets.
+This table presents the results of an ANOVA to test the effects of market structure on trading proﬁts under asymmetric
+information. The dependent variable is the trader's payoff relative to the average market payoff normalized by the unconditional expected payoff ($7,375). The independent variables include trader type — uninformed trader, small liquidity (buy/sell),
+large liquidity (buy/sell) and informed traders — opacity (transparent versus opaque), extremity (whether the state is extreme
+or not), and interaction terms. An asset is classiﬁed as extreme if the liquidating dividend is more than 20% from the
+unconditional mean. p-values less than 0.10, 0.05 and 0.01 indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Source
+
+df
+
+Sum of
+squares
+
+Fstatistics
+
+p-Value
+
+Trader type
+Opacity
+Extremity
+Interaction (type, opacity)
+Interaction (type, extremity)
+Interaction (opacity, extremity)
+Interaction (type, opacity,
+extremity)
+Error
+
+5
+1
+1
+5
+5
+1
+5
+
+0.622
+0.000
+0.006
+0.072
+0.247
+0.000
+0.099
+
+9.50
+0.02
+0.45
+1.10
+3.77
+0.00
+1.52
+
+0.000nnn
+0.875
+0.502
+0.362
+0.002nnn
+0.965
+0.181
+
+431
+
+5.646
+
+transparent regime. In terms of submitted shares, I do not observe signiﬁcant differences between
+large liquidity and informed traders. In other words, informed traders are as active as large liquidity
+traders in liquidity provision (Menkhoff, Osler, and Schmeling, 2010). This evidence suggests ﬁerce
+competition, that is, a race to trade (Boulatov and George, 2013) between two trader types for
+liquidity provision. Notably, under an opaque regime, informed traders are less active in liquidity
+provision through visible limit orders and act less aggressively: They submit fewer limit orders that
+improve prices (inside spread) so that they can exploit their informational advantage as long as
+possible. They also exploit undisclosed orders to provide liquidity. However, I observe substantial
+heterogeneity among insiders (e.g., Cohen, Malloy, and Pomorski, 2012), and some informed traders
+do not use undisclosed orders at all. Once submitted, however, informed traders use undisclosed
+orders in larger quantities, further from the prevailing midquote.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+105
+
+Table 7
+Pre-trade transparency under symmetric information.
+This table reports the mean and median values for various market quality measures under symmetric information. I compare
+transparent and opaque markets using a paired sample analysis (11 cohorts) and report one sided Wilcoxon signed-rank p-values.
+I compute message trafﬁc as the sum of limit, marketable, and undisclosed orders (in case of opaque markets) submitted to the
+LOB, the total transacted volume in shares, and the number of shares per trade. I report quoted bid–ask spread for the entire
+trading period, for each trading cycle, and each minute. Cycle 1, 2, and 3 refer to the trading period between 1–120 seconds, 121–
+240 seconds, and 241–360 seconds, respectively. The effective (realized) spread is the distance between the transaction price and
+the midquote (prevailing after ﬁve trades). The permanent price impact is the difference between the midquote and the midquote
+prevailing after ﬁve trades. (Visible) BBO depth refers to the (visible) shares at the BBO, while (visible) book depth consists of the
+(visible) shares at all levels of the LOB. Price (midquote) volatility is the standard deviation of transaction prices (midquotes). pvalues less than 0.10, 0.05 and 0.01 indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Transparent
+
+Opaque
+
+p-Value
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Panel A. Liquidity
+Message trafﬁc
+Transacted volume
+Shares per trade
+Bid–ask spread
+Cycle 1
+1-minute
+2-minute
+Cycle 2
+3-minute
+4-minute
+Cycle 3
+5-minute
+6-minute
+Effective spread
+Realized spread
+Permanent price impact
+
+354
+215
+1.85
+1.87
+2.20
+2.78
+1.67
+1.67
+1.43
+1.91
+1.65
+1.53
+1.81
+0.60
+0.45
+0.15
+
+287
+204
+1.78
+1.74
+1.97
+2.48
+1.66
+1.33
+1.26
+1.23
+1.47
+1.48
+1.33
+0.57
+0.34
+0.12
+
+334
+208
+2.23
+1.64
+1.82
+2.42
+1.28
+1.57
+1.25
+1.89
+1.57
+1.76
+1.38
+0.54
+0.29
+0.25
+
+274
+216
+1.77
+1.60
+1.73
+2.03
+1.18
+1.67
+1.27
+1.90
+1.37
+1.32
+1.20
+0.48
+0.27
+0.19
+
+0.449
+0.310
+0.120
+0.120
+0.074n
+0.139
+0.010nnn
+0.449
+0.160
+0.319
+0.483
+0.319
+0.005nnn
+0.260
+0.087n
+0.449
+
+Panel B. Depth
+BBO depth
+Visible BBO depth
+Book depth
+Visible book depth
+
+20.93
+20.93
+124.53
+124.53
+
+19.85
+19.85
+123.73
+123.73
+
+24.97
+19.57
+135.98
+105.56
+
+20.59
+17.67
+135.36
+98.63
+
+0.232
+0.319
+0.120
+0.074n
+
+Panel C. Volatility
+Midquote volatility
+Price volatility
+
+4.97
+3.00
+
+4.83
+3.12
+
+4.66
+3.01
+
+4.15
+2.40
+
+0.160
+0.500
+
+4.3. Trading proﬁts
+The general conclusion that can be drawn from current models is that opacity via undisclosed
+orders improves the welfare of the market participants. In the absence of informed traders, Buti and
+Rindi (2013) predict that liquidity traders, especially large ones, beneﬁt from opaque markets. Models
+under adverse selection (Moinas, 2010; Boulatov and George, 2013) make a similar prediction for both
+informed and uninformed traders.
+I measure trading proﬁts at the individual subject level for each trader type and compute proﬁts as
+the ﬁnal payoff net of the initial endowment.11 Panel A in Fig. 3 exhibits the trading proﬁts in markets
+under symmetric information and compares proﬁts across transparent and opaque regimes. Liquidity
+traders, especially large ones, are better off in opaque markets at the expense of uninformed traders.
+11
+I elicit traders' risk preferences following Holt and Laury (2002) procedure. The average number of safe choices (n ¼69)
+is 4.74, which suggests slightly risk-averse behavior. Therefore, I believe that trading proﬁt is a good approximation for
+measuring subjects' utility.
+
+106
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Table 8
+Pre-trade transparency under asymmetric information.
+This table reports the mean and median values for various market quality measures under asymmetric information. I
+compare transparent and opaque markets using a paired sample analysis (11 cohorts) and report one sided Wilcoxon signedrank p-values. I compute message trafﬁc as the sum of limit, marketable, and undisclosed orders (in case of opaque markets)
+submitted to the LOB, the total transacted volume in shares, and the number of shares per trade. I report quoted bid–ask spread
+for the entire trading period, for each trading cycle and each minute. Cycle 1, 2, and 3 refer to the trading period between 1–120
+seconds, 121–240 seconds, and 241–360 seconds, respectively. The effective (realized) spread is the distance between the
+transaction price and the midquote (prevailing after ﬁve trades). The permanent price impact is the difference between the
+midquote and the midquote prevailing after ﬁve trades. (Visible) BBO depth refers to (visible) shares at the BBO, while (visible)
+book depth consists of the (visible) shares at all levels of the LOB. Price (midquote) volatility is the standard deviation of
+transaction prices (midquotes). n, nn, and nnn, indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Transparent
+
+Opaque
+
+p-Value
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Panel A. Liquidity
+Message trafﬁc
+Transacted volume
+Shares per trade
+Bid–ask spread
+Cycle 1
+1-minute
+2-minute
+Cycle 2
+3-minute
+4-minute
+Cycle 3
+5-minute
+6-minute
+Effective spread
+Realized spread
+Permanent price impact
+
+336
+240
+2.16
+3.05
+2.93
+3.56
+2.36
+3.20
+2.94
+3.40
+3.07
+3.54
+2.73
+1.02
+0.67
+0.34
+
+294
+261
+2.01
+2.59
+2.16
+3.21
+1.86
+2.04
+1.93
+2.15
+2.64
+2.73
+1.68
+0.87
+0.60
+0.44
+
+334
+226
+1.93
+2.81
+3.57
+4.09
+3.13
+1.76
+1.62
+1.86
+3.12
+2.73
+3.53
+0.79
+0.48
+0.31
+
+318
+190
+1.78
+2.88
+2.48
+3.48
+2.27
+1.48
+1.43
+1.44
+2.07
+2.45
+1.70
+0.88
+0.70
+0.31
+
+0.483
+0.207
+0.087n
+0.483
+0.183
+0.139
+0.207
+0.012nn
+0.062n
+0.012nn
+0.483
+0.289
+0.416
+0.260
+0.449
+0.382
+
+Panel B. Depth
+BBO depth
+Visible BBO depth
+Book depth
+Visible book depth
+
+Mean
+16.69
+16.69
+132.60
+132.60
+
+Median
+16.22
+16.22
+120.52
+120.52
+
+Mean
+18.82
+15.18
+149.61
+113.35
+
+Median
+18.71
+12.41
+152.43
+107.51
+
+p-Value
+0.289
+0.120
+0.382
+0.120
+
+Panel C. Volatility
+Midquote volatility
+Price volatility
+
+Mean
+6.60
+4.97
+
+Median
+6.78
+5.41
+
+Mean
+6.84
+4.91
+
+Median
+7.07
+4.07
+
+p-Value
+0.350
+0.500
+
+The increase in trading proﬁts for large liquidity traders is in line with Buti and Rindi (2013) prediction, but the mechanism generating differences in proﬁts seems to be different. In Online Appendix
+F.1, I decompose the trading proﬁts into “make and take” proﬁts, that is, proﬁts through limit orders
+versus marketable orders, respectively. I see that market making for uninformed traders is less
+proﬁtable under an opaque regime, which leads to the difference in total proﬁts across the two
+transparency regimes. On the other hand, large liquidity traders suffer losses, on average, through
+limit orders under both transparent and opaque regimes. While the make losses are more pronounced under an opaque regime, liquidity consumption is more proﬁtable. Differences in trading
+proﬁts across transparency regimes are likely to arise due to differences in implicit transaction costs
+across regimes. Therefore, in the next section, I compare different measures of liquidity across
+transparency regimes.
+As a formal analysis, I run an ANOVA to test the effects of market design on trading proﬁts under
+symmetric information. The dependent variable is the trader's payoff relative to the average market
+payoff normalized by the unconditional expected payoff ($7,375). The independent variables include
+trader type — uninformed, small liquidity (buy/sell), large liquidity (buy/sell) — opacity (transparent
+vs. opaque), and extremity (whether the state is extreme or not), and four interaction terms. An asset
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+107
+
+Fig. 4. Aggregate trading strategies under symmetric information: In this ﬁgure, I compare the average (median) liquidity
+make, take, and aggressiveness in transparent and opaque markets under symmetric information. Liquidity make is proxied by
+the submission rate, that is, the sum of submitted limit orders (plus undisclosed orders in opaque markets) over total orders.
+The take rate is the sum of submitted marketable orders over limit orders (plus undisclosed orders in opaque markets). The
+limit order aggressiveness is the average distance between the limit order price and the prevailing midquote at the time of
+order submission. The data are aggregated over 60-second time intervals. The vertical line indicates the time of the public
+information release about the ﬁnal dividend distribution. The dashed (solid) line shows the transparent (opaque) markets.
+
+is classiﬁed as extreme if the liquidating dividend is more than 20% from the unconditional mean
+(BOS, 2005). The results are shown in Table 5. Neither trader type nor market opacity alone affects
+trader proﬁts. It is also not surprising that the extremity variable is not signiﬁcant, since none of the
+traders have superior information in these markets. The only signiﬁcant variable is the interaction
+term, type  opacity, suggesting that market opacity has different implications for different trader
+types, consistent with the evidence above.
+I repeat the same analysis under asymmetric information. Panel B in Fig. 3 shows that informed
+traders, on average, earn more than the other trader types. This result is expected, since in my
+experimental markets informed traders have a clear informational advantage and they seem to be
+able to extract an informational rent. Interestingly though, they are, on average, better off under an
+opaque regime at the expense of large liquidity traders. The decomposition in Online Appendix Table
+F.2 also shows that opacity adversely affects both the make and take proﬁts of large liquidity traders.
+Hence, unlike markets under symmetric information, once information friction is introduced, large
+liquidity traders are worse off due to reduced transparency, which is in contrast with Moinas (2010)
+prediction. The ANOVA results in Table 6 indicate that trader type, particularly an informed one,
+
+108
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Fig. 5. Aggregate trading strategies under asymmetric information. In this ﬁgure, I compare the average (median) liquidity
+make, take, and aggressiveness in transparent, and opaque markets under asymmetric information. Liquidity make is proxied
+by the submission rate, that is, the sum of submitted limit orders (plus undisclosed orders in opaque markets) over total orders.
+The take rate is the sum of submitted marketable orders over limit orders (plus undisclosed orders in opaque markets). The
+limit order aggressiveness is the average distance between the limit order price and the prevailing midquote at the time of
+order submission. The data are aggregated over 60-second time intervals. The vertical line indicates the time of the public
+information release about the ﬁnal dividend distribution. The dashed (solid) line shows the transparent (opaque) markets. The
+lines with stars show the trading strategies of informed traders.
+
+clearly affects trading proﬁts under asymmetric information. The signiﬁcant interaction term type 
+extremity shows that a monopolistic insider can better exploit his or her informational advantage,
+especially when the information is more valuable.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+109
+
+Fig. 6. Order cancelation. In this ﬁgure, I compare the order cancelation rates in transparent and opaque markets under
+symmetric and asymmetric information. The cancel to make rate is the proportion of limit orders (plus undisclosed orders in
+opaque markets) that are canceled. The bars show the cancel-to-make rate both for the entire period, and for the period after
+the public information release, that is, the last three minutes of trading.
+
+4.4. Market quality
+An important regulatory concern is how a reduction in pre-trade transparency of the ﬁnancial
+markets affects market quality (e.g., Madhavan, Porter, and Weaver, 2005; Foucault, Pagano, and Röell,
+2010; Gozluklu, 2013). In light of the theoretical predictions summarized in Section 2, I now turn to
+the analysis of changes in market quality due to pre-trade opacity introduced via undisclosed orders.
+Market quality is measured along different dimensions, that is, liquidity, depth, and volatility, as
+deﬁned in Section 4.
+Table 7 reports both the mean and median values of different market quality measures under
+transparent and opaque regimes and symmetric information. Trading activity and volatility measures
+are not sensitive to market transparency. Book depth, on average, is higher (yet not signiﬁcant) in
+opaque markets, while visible book depth is lower, reﬂecting the reduction in market transparency.
+The average trade size is similar across transparency regimes, suggesting that order splitting cannot
+be the main motive (Prediction 1) behind hidden liquidity. The main change induced by opacity is the
+reduction of quoted spreads (by almost a quarter tick, on average) and, in particular, the realized
+spread, capturing the temporary price impact of marketable orders (p-value ¼ 0.087). Improved
+liquidity is broadly in line with the increased market participation of liquidity traders with undisclosed orders to avoid the risk of being picked off. However, the risk of being picked off cannot alone
+explain the reduction in spreads. First, traders have other means of avoiding exposure risk, via order
+cancelation. Second, there is no signiﬁcant increase in undisclosed orders before information release.
+Finally, Online Appendix Table G.1 also shows the displayed and undisclosed ﬁll rates of submitted
+orders for both the entire trading period and one minute after information release. While the ﬁll rates
+are lower for displayed orders for the entire trading period, I do not observe a signiﬁcant decrease in
+ﬁll rates right after information release.
+A reduction in spreads is in contrast with Prediction 2, which suggests an increase in spreads due
+to price competition via undisclosed orders. Given the balanced nature of the trading targets, that is,
+equal numbers of buy and sell targets, liquidity traders in these markets coordinate to satisfy their
+liquidity needs rather than compete; hence, there is no increase in the bid–ask spread as predicted by
+Buti and Rindi (2013). Further inspection into the dynamic evolution of liquidity shows that the
+reduction in spreads in opaque markets is mainly concentrated around the deadlines of trading
+targets, especially at the end of the trading period (p-value ¼0.005). In the next section, I analyze
+dynamic trading strategies to see how they affect aggregate market outcomes.
+Under asymmetric information, most of the market outcomes are insensitive to the transparency regime
+(see Table 8). Only the average trade size decreases signiﬁcantly (p-value¼0.087), reﬂecting the participation
+of both liquidity and informed traders in hidden liquidity provision. Since both large liquidity and informed
+traders join the race for liquidity provision, there is an increase in book depth (Prediction 3), but this result is
+
+110
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+Table 9
+Pre-trade transparency under asymmetric information (two insiders).
+This table reports the mean and median values for various market quality measures under asymmetric information with two
+insiders. I compare transparent and opaque markets using a paired sample analysis (six cohorts) and report one-sided Wilcoxon signed-rank p-values. I compute message trafﬁc as the sum of limit, marketable, and undisclosed orders (in case of
+opaque markets) submitted to the LOB, the total transacted volume in shares, and the number of shares per trade. I report
+quoted bid–ask spread for the entire trading period, for each trading cycle and each minute. Cycle 1, 2, and 3 refer to the trading
+period between 1–120 seconds, 121–240 seconds, and 241–360 seconds, respectively. The effective (realized) spread is the
+distance between the transaction price and the midquote (prevailing after ﬁve trades). The permanent price impact is the
+difference between the midquote and the midquote prevailing after ﬁve trades. BBO depth refers to shares at Best Bid Offer
+(BBO), while (visible) book depth are the (visible) shares at all levels of the LOB. Price (midquote) volatility is the standard
+deviation of transaction prices (midquotes). n, nn, and nnn, indicate signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+Transparent
+
+Opaque
+
+p-Value
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Panel A. Liquidity
+Message trafﬁc
+Transacted volume
+Shares per trade
+Bid–ask spread
+Cycle 1
+1-minute
+2-minute
+Cycle 2
+3-minute
+4-minute
+Cycle 3
+5-minute
+6-minute
+Effective spread
+Realized spread
+Permanent price impact
+
+371
+230
+1.98
+2.87
+3.82
+3.59
+4.10
+2.73
+2.52
+3.06
+2.35
+2.82
+2.40
+2.46
+0.33
+2.12
+
+352
+232
+1.76
+2.54
+2.55
+2.67
+2.70
+1.83
+1.94
+2.31
+2.29
+3.17
+1.55
+3.23
+0.13
+1.31
+
+395
+223
+1.70
+2.35
+2.85
+2.91
+3.08
+2.00
+2.03
+2.16
+2.02
+2.42
+1.71
+0.54
+1.43
+ 0.89
+
+415
+203
+1.38
+2.04
+2.48
+2.68
+2.78
+1.86
+1.69
+2.19
+1.84
+2.10
+1.54
+0.16
+2.14
+ 0.50
+
+0.219
+0.423
+0.156
+0.500
+0.500
+0.500
+0.422
+0.219
+0.344
+0.281
+0.344
+0.344
+0.359
+0.078n
+0.219
+0.031nn
+
+Panel B. Depth
+BBO depth
+Visible BBO depth
+Book depth
+Visible book depth
+
+17.96
+17.96
+133.08
+133.08
+
+16.16
+16.16
+123.53
+123.53
+
+19.94
+16.26
+159.00
+120.28
+
+19.46
+15.59
+154.16
+120.92
+
+0.219
+0.281
+0.016nn
+0.281
+
+Panel C. Volatility
+Midquote volatility
+Price volatility
+
+8.09
+6.81
+
+8.08
+5.64
+
+8.00
+7.19
+
+7.77
+7.02
+
+0.500
+0.500
+
+only statistically signiﬁcant when there is more than one informed trader (discussed later in Section 4.6).
+Importantly, I do not detect a decrease in spreads, either in quoted or in the realized spreads, over the entire
+trading period, except the period around a public information announcement. Spreads around the information event are lower, on average, by more than one tick under an opaque regime. This is the period when
+liquidity traders are exposed to more adverse selection risk. The ﬁll rates in Online Appendix Table G.2 show
+that uninformed and liquidity traders exploit undisclosed orders to protect themselves against adverse
+selection. On the other hand, the monopolistic insider can exploit the informational rent longer in opaque
+markets, thanks to the undisclosed orders. Rather than acting aggressively using marketable orders to beneﬁt
+from the informational advantage, the insider can pool with liquidity traders and provide liquidity more
+aggressively. The insider can thus increase the execution probability without revealing private information. I
+can thereby observe the reduction in spreads around the release of public information. Overall, the results
+indicate that informational friction is an important dimension in the transparency debate.12
+
+12
+In Online Appendix H, I show that how insider trading increases adverse selection costs, that is, an increase in volatility
+and bid–ask spread, regardless of the transparency regime.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+111
+
+Fig. 7. Value discovery. This ﬁgure shows the average deviation of midquotes from the fundamental asset value after the public
+information release. The deviation is the absolute difference between the midquote in each second, and true dividend normalized by the range of dividend distribution. Panel A shows the data under asymmetric information with a monopolistic
+insider. Panel B shows the data under asymmetric information with two insiders. The data are aggregated over 30-second time
+intervals.
+
+4.5. From trading to market outcomes
+Unlike the experimental evidence provided by BOS (2015), I observe not only the sensitivity of
+trading strategies to transparency regimes, but also that some of the market outcomes are driven by
+both the transparency regime and informational friction. However, it is important to highlight the
+differences in experimental design between the BOS (2015) study and mine. First, the composition of
+traders is not the same: BOS's (2015) design includes only two types of traders: liquidity and
+informed. Second, the information structure is different. In BOS's (2015) experiment, the informed
+traders participate in all markets, hence there is no symmetric information setting. Third, informed
+traders are not insiders but receive an imprecise signal about the fundamental value of the asset. Last
+but not least, in BOS's (2015) study markets are open for three minutes, without a public information
+release in the middle of trading.
+To see how aggregate trading affects market outcomes, I report liquidity make and take measures
+that reﬂect the aggregate order choice. Liquidity make is proxied by the submission rate, which is the
+sum of submitted limit orders (and undisclosed orders in opaque markets) over total orders. The take
+rate, on the other hand, is the sum of submitted marketable orders over limit orders (and undisclosed
+orders in opaque markets). Limit order aggressiveness captures the impatience of the average market
+participant (Foucault, Kadan, and Kandel, 2005). It is measured by the average distance between the
+limit order price and the prevailing midquote at the time of order submission. While aggressive
+liquidity provision reduces spreads, liquidity consumption has the opposite effect on market liquidity.
+In Fig. 4, I compare order submission strategies in transparent and opaque markets under symmetric information over one-minute time intervals. The vertical line indicates the time of the public
+information release about the ﬁnal dividend distribution. The submission rates are very similar across
+
+112
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+transparency regimes. The signiﬁcant reduction in spreads toward the end of two-minute cycles in
+opaque markets (see Table 7) coincides with the period when traders supply liquidity more
+aggressively rather than switch to marketable orders. There is a reduction in spreads when traders try
+to increase the execution probability of limit orders by submission to the top of the book. Right after
+information release, the mispricing of stale orders is corrected. In opaque markets, due to the greater
+accumulation of limit orders before the announcement, limit orders are submitted less aggressively
+after the information release, but more orders are picked off with marketable orders. The overall
+effect is a larger (but insigniﬁcant) spread in opaque markets right after the release of public information. This implies that, in the absence of information asymmetry, opacity affects market outcomes
+mainly through the strategic choice of order aggressiveness. Dynamic strategies reﬂect the trade-off
+between waiting costs and the cost of immediacy, that is, bid–ask spreads, and conﬁrm the intuition
+that mainly aggressive limit orders drive the evolution of spreads (Foucault, Kadan, and Kandel,
+2005).
+Fig. 5 shows dynamic order submission strategies in transparent and opaque markets under
+asymmetric information. It also separately shows the strategies of informed traders (lines with star
+symbols). First, I see that informed traders act differently from all the other market participants: They
+are very active in liquidity provision, especially around the information event, but they do not
+necessarily supply liquidity aggressively. Monopolistic insiders also engage heavily in liquidity consumption right after the information release to exploit their informational advantage, but they
+manage to pool with large liquidity traders and increase the execution probability of their informed
+orders by submitting more aggressive limit orders in opaque markets, rather than exploiting marketable orders. Hence, there is a signiﬁcant decrease in bid–ask spreads after the release of public
+information under asymmetric information.13
+Outstanding limit orders can also be revised through order cancelation. Fig. 6 shows cancel-tomake rate under symmetric and asymmetric information. The ﬁgure shows that traders cancel more
+orders in opaque markets regardless of the information setting, especially in the second half of
+trading. In other words, cancel-to-make rate provides further evidence that market opacity helps
+traders reduce exposure costs.
+
+4.6. Competition between insiders
+The results reported so far rely on a monopolistic informed trader. As a robustness test, I run
+additional session with two insiders. One can argue that competition among informed traders could
+lead to different market outcomes that would not arise in a market with a single informed trader
+(Boulatov and George, 2013). To alleviate this concern, I repeat the analysis in Section 4.4, analyzing
+the implication of opacity on market quality under asymmetric information with two insiders.
+The results in Table 9 are broadly in line with those in Table 8. One difference, however, is that
+increasing the degree of adverse selection results in increased book depth in opaque markets (pvalue ¼ 0.016) without much affecting the spreads. This result is consistent with the previous
+empirical evidence from the Toronto Stock Exchange (Anand and Weaver, 2004) and the experimental
+ﬁndings of BOS (2015). Under an opaque regime, quoted spreads are lower, on average, by half a tick
+(but not statistically signiﬁcantly) and, unlike markets with a monopolistic insider, spreads are similar
+around public news releases across transparency regimes. However, opacity has a signiﬁcant impact
+on effective spreads, mainly through the reduction of a permanent price impact. It seems that ﬁerce
+competition for liquidity provision among insiders accelerates the incorporation of information into
+prices under an opaque regime.
+
+13
+I do not observe a signiﬁcant effect on spreads in the ﬁrst trading cycle, because until the informed traders become
+insiders, trading strategies vary greatly.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+113
+
+4.7. Informational efﬁciency
+An important function of efﬁcient markets is to aggregate information and reﬂect the true fundamental value of traded assets. Undisclosed orders could hinder value discovery if they are predominantly used by informed traders to conceal their informed trades. However, if all market participants opt for hidden liquidity, then the effect on information efﬁciency will not be clear. In fact, the
+evidence so far is mixed (Ye, 2012; Zhu, 2014; BOS, 2015; Comerton-Forde and Putnins, 2015).
+The public news announcement in the experimental design allows me to test how information is
+incorporated into prices through trading under different transparency regimes. The informational
+efﬁciency of the markets is proxied by the average deviation of midquotes from the fundamental asset
+value once the news is made public. The deviation is measured as the absolute difference between the
+midquote and the true dividend normalized by the range of the dividend distribution.
+In the presence of a monopolistic insider, midquotes converge monotonically to the true liquidating dividend after the information event. Panel A of Fig. 7 reveals that market transparency does
+not affect the informational efﬁciency of the markets. The monopolistic insider competes with other
+large liquidity traders and follows pooling strategies to maximize the informational advantage. The
+use of undisclosed orders at lower levels of the book does not help with the value discovery. The
+situation is different when there is competition among insiders for liquidity provision. Panel B of
+Fig. 7 shows that value discovery is faster under opaque markets with shared informational rents,
+where competition for liquidity provision is more intense (Boulatov and George, 2013). Market
+opacity induces informed traders to provide liquidity more aggressively, which leads to more informative transaction prices.14
+
+5. Conclusion
+In my experimental asset markets, traders exploit undisclosed orders to enrich their strategy set.
+Undisclosed orders not only help liquidity traders reduce order exposure but also control the price
+risk. Hence they complement both limit and marketable orders. In opaque markets, liquidity traders
+improve execution probabilities by managing limit order aggressiveness. Under asymmetric information, monopolistic insiders compete with large liquidity traders for liquidity provision and, even
+though a subset of informed traders rely on hidden liquidity, opaque markets help insiders trade less
+aggressively.
+The market transparency increases the trading proﬁts of large liquidity traders in opaque markets
+under symmetric information. While a liquidity trader submits directional orders in line with her
+trading target, an uninformed trader operates on both sides of the LOB. The reduced cost of immediacy via lower spreads in opaque markets helps liquidity traders and is detrimental for uninformed
+ones. On the contrary, under adverse selection, large liquidity traders are worse off from reduced
+transparency, especially if the information is owned by a single insider. An insider is better at
+exploiting her informational advantage in an opaque market.
+My results show that the effect of undisclosed orders on market quality largely depends on
+informational friction. Without an insider, a reduction in transparency contributes positively to
+market liquidity by reducing spreads, especially toward the end of trading. On the other hand, under
+asymmetric information, the effect of market opacity on liquidity is mostly visible around the release
+of public news. Increasing the degree of adverse selection also results in increased book depth in
+opaque markets. Limiting pre-trade transparency can be beneﬁcial for securities that are less exposed
+to private information, for example, large ﬁrms and bonds; however, in markets with a potential for
+asymmetric information, for example, higher institutional participation or small ﬁrms, undisclosed
+14
+This result regarding informational efﬁciency differs from that of BOS (2015). The difference may be due to the fact that,
+in my setting, insider traders know the fundamental value of the asset, as opposed to informed traders who receive a signal
+about the true value, as in BOS's study (2015).
+
+114
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+orders do not necessarily improve market quality, except around information-sensitive periods,
+unless there is ﬁerce competition among informed traders.
+Finally, I show that the value discovery is also sensitive to the degree of asymmetric information.
+In the case of a monopolistic insider, the market transparency does not change the informational
+efﬁciency of the markets, while value discovery is faster under opaque markets when informational
+rents are shared between insiders.
+
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found in the online version at http://dx.doi.
+org/10.1016/j.ﬁnmar.2016.03.003.
+
+References
+Aitken, M.J., Berkman, H., Mak, D., 2001. The use of undisclosed limit orders on the Australian stock exchange. J. Bank. Finance
+25, 1589–1603.
+Anand, A., Weaver, D., 2004. Can order exposure be mandated? J. Financ. Mark. 7, 405–426.
+Belter, K., 2007. Supply and information content of order book depth: the case of displayed and hidden depth. Working paper.
+University of Aarhus.
+Bessembinder, H., Panayides, M., Venkataraman, K., 2009. In search of liquidity: an analysis of order submission strategies in
+automated markets. J. Financ. Econ. 94, 361–383.
+Bloomﬁeld, R., O'Hara, M., 1999. Market transparency: who wins and who loses?. Rev. Financ. Stud. 12, 5–35.
+Bloomﬁeld, R., O'Hara, M., Saar, G., 2005. The make or take decision in an electronic market: evidence on the evolution of
+liquidity. J. Financ. Econ. 75, 165–199.
+Bloomﬁeld, R., O'Hara, M., Saar, G., 2009. How noise trading affects markets: an experimental analysis. Rev. Financ. Stud. 22,
+2275–2302.
+Bloomﬁeld, R., O'Hara, M., Saar, G., 2015. Hidden liquidity: some new light on dark trading. J. Finance 70, 2227–2274.
+Boulatov, A., George, T.J., 2013. Hidden and displayed liquidity in securities markets with informed liquidity providers. Rev.
+Financ. Stud. 26, 2096–2137.
+Buti, S., Rindi, B., 2013. Undisclosed orders and optimal submission strategies in a dynamic limit order market. J. Financ. Econ.
+109, 797–812.
+Buti, S., Rindi, B., 2009. Undisclosed orders and optimal submission strategies in a dynamic limit order market. Working paper.
+University of Toronto.
+Chakrabarty, B., Shaw, K.W., 2008. Hidden liquidity: order exposure strategies around earnings announcements. J. Bus. Finance
+Account. 35, 1220–1244.
+Cheuvreux Credit Agricole Group., 2012. Market trading guide. Cré dit Agricole Cheuvreux International Limited, London.
+Cohen, L., Malloy, C., Pomorski, L., 2012. Decoding inside information. J. Finance 67, 1009–1043.
+Collin-Dufresne, P., Fos, V., 2015. Do prices reveal the presence of informed trading. J. Finance 70, 1555–1582.
+Comerton-Forde, C., Putnins, T., 2015. Dark trading and price discovery. J. Financ. Econ. 118, 70–92.
+Copeland, T., Galai, D., 1983. Information effects on the bid–ask spread. J. Finance 38, 1453–1469.
+De Winne, R., D'Hondt, C., 2007. Hide-and-seek in the market: placing and detecting hidden orders. Rev. Finance 11, 663–692.
+Easley, D., O'Hara, M., 1987. Price, trade size, and information in securities markets. J. Financ. Econ. 19, 69–90.
+Engle, R., Fleming, M., Ghysels, E., Nguyen, G., 2012. Liquidity, volatility, and ﬂights to safety in the U.S. Treasury market:
+evidence from a new class of dynamic order book models. Working paper. New York University.
+Esser, A., Mönch, B., 2007. The navigation of an iceberg: the optimal use of hidden orders. Finance Res. Lett. 4, 68–81.
+Foucault, T., 1999. Order ﬂow composition and trading costs in a dynamic limit order market. J. Financ. Mark. 2, 99–134.
+Foucault, T., Kadan, O., Kandel, E., 2005. Limit order book as a market for liquidity. Rev. Financ. Stud. 4, 1171–1217.
+Foucault, T., Kadan, O., Kandel, E., 2013. Liquidity cycles and make/take fees in electronic markets. J. Finance 68, 299–341.
+Foucault, T., Pagano, M., Röell, A., 2010. Market transparency In: Cont, R. (Ed.), Encyclopedia of Quantitative Finance. John Wiley
+& Sons Ltd, Chichester, UK.
+Frey, S., Sandas, P., 2008. The impact of hidden liquidity in limit order books. Working paper. University of Tubingen.
+Gozluklu, A.E., 2013. Empirical and experimental research on transparency and disclosure In: Baker, K., Yilmaz, H. (Eds.), Market
+Microstructure in Emerging and Developed Markets, Robert Kolb Series. John Wiley & Sons, Hoboken, New Jersey.
+Graham, J., Koski, J., Loewenstein, U., 2006. Information ﬂow and liquidity around anticipated and unanticipated dividend
+announcements. J. Bus. 79, 2301–2320.
+Green, T.C., 2004. Economic news and the impact of trading on bond prices. J. Finance 59, 1201–1233.
+Harris, L., 1997. Order exposure and parasitic traders, equity market structure for large-and mid-cap stocks. Dtsch. Börse, 31–50.
+Hasbrouck, J., Saar, G., 2009. Technology and liquidity provision: the blurring of traditional deﬁnitions. J. Financ. Mark. 12,
+143–172.
+Holt, C.A., Laury, S.K., 2002. Risk aversion and incentive effects. Am. Econ. Rev. 92, 1644–1655.
+Jiang, G.J., Lo, I., Verdelhan, A., 2011. Information shocks, liquidity shocks, jumps, and price discovery: evidence from the U.S.
+Treasury market. J. Financ. Quant. Anal. 46, 527–551.
+Kaniel, R., Liu, H., 2006. So what orders do informed traders use? J. Bus. 79, 1867–1913.
+
+A.E. Gozluklu / Journal of Financial Markets 28 (2016) 91–115
+
+115
+
+Kumar, K.K., Thirumalai, R.S., Yadav, P.K., 2009. Hiding behind the veil, pre-trade transparency, informed traders and market
+quality. Working paper. National Institute of Securities Markets.
+Kroll, Y., Levy, H., 1992. Further tests of the separation theorem and the capital asset pricing model. Am. Econ. Rev. 82, 664–670.
+Kyle, A., 1985. Continuous auctions and insider trading. Econometrica 53, 1315–1335.
+Madhavan, A., Porter, D., Weaver, D., 2005. Should securities markets be transparent? J. Financ. Mark. 8, 265–287.
+Menkhoff, L., Osler, C., Schmeling, M., 2010. Limit-order submission strategies under asymmetric information. J. Bank. Finance
+34, 2665–2677.
+Moinas, S., 2010. Hidden limit orders and liquidity in limit order markets. Working paper. Toulouse School of Economics.
+O'Hara, M., Saar, G., Zhong, Z., 2014. Relative tick size and the trading environment. Working paper. Cornell University.
+Pardo Tornero, A., Pascual, R., 2011. On the hidden side of liquidity. Eur. J. Finance 1, 1–19.
+Parlour, C.A., 1998. Price dynamics in limit order markets. Rev. Financ. Stud. 11, 789–816.
+Perotti, P., Rindi, B., 2006. Market for information and identity disclosure in an experimental open limit order book. Econ. Notes
+35, 97–119.
+Plott, C.R., Sunder, S., 1988. Rational expectations and the aggregation of diverse information in laboratory security markets.
+Econometrica 56, 1085–1118.
+Rindi, B., 2008. Informed traders as liquidity providers. Anonymity, liquidity and price formation. Rev. Finance 12, 497–532.
+So, E., Wang, S., 2014. News-driven return reversals: liquidity provision ahead of earnings news. J. Financ. Econ. 114, 20–35.
+Yao, C., 2013. Hidden agendas: a study of informativeness of concealed orders. Working paper. University of Warwick.
+Ye, M., 2012. A glimpse into the dark: price formation, transaction costs, and market share in the crossing network. Working
+paper. University of Illinois, Urbana-Champaign.
+Zhu, H., 2014. Do dark pools harm price discovery? Rev. Financ. Stud. 27, 747–789.
+
+

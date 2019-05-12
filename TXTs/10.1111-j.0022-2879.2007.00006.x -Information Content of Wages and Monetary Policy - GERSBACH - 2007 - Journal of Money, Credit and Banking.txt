@@ -1,0 +1,1106 @@
+HANS GERSBACH
+VOLKER HAHN
+
+Information Content of Wages and Monetary Policy
+We examine whether it is sufficient for central banks to observe and forecast
+nominal variables only. Analyzing the interplay of wage-setting unions and
+a central bank we show that although central banks may not gain more
+information by directly acquiring data about indicators of real shocks in
+the economy, such activities are nevertheless beneficial for central banks
+and yield lower social losses. Moreover, the extent of research activities by
+central banks should depend on the process of union formation.
+JEL codes: E50, E58, J51
+Keywords: central banks, wage bargaining, information asymmetries,
+indicators for monetary policy, controlling inflation.
+
+IN THE COURSE of conducting monetary policy, the central bank
+observes and forecasts a variety of real and nominal variables such as order inflows
+in firms, wages, and asset prices. In this paper we ask whether it is sufficient for
+central banks to observe and forecast nominal variables only. We examine the interplay between wage setting by sectoral labor unions and monetary policy. Our major
+conclusion is that although central banks may not gain more information by directly
+acquiring data about indicators of real shocks in the economy, such activities are
+nevertheless beneficial for central banks and yield lower social losses.
+While the literature on information asymmetries between the central bank and the
+public usually assumes that the central bank is better informed,1 we assume that
+unions may potentially have superior information. Note, however, that for our results
+to hold it is not necessary that the unions are better informed in every respect; it is
+1. For recent empirical evidence that central banks may have superior information cf. Peek, Rosengren,
+and Tootell (2003) and Romer and Romer (2000).
+We would like to thank Helge Berger, Martin Hellwig, Gerhard Illing, Thomas Laubach, Till Requate,
+seminar participants in Frankfurt and Heidelberg, and conference participants at the annual meeting of the
+German Economic Association 2000 in Berlin for many helpful comments. Financial support from the
+Deutsche Forschungsgemeinschaft (DFG) is gratefully acknowledged.
+
+HANS GERSBACH is from CER-ETH, Center of Economic Research at ETH Zurich, and CEPR
+(E-mail: hgersbach@ethz.ch). VOLKER HAHN is from CER-ETH, Center of Economic Research
+at ETH Zurich (E-mail: vhahn@ethz.ch).
+Received May 11, 2004; and accepted in revised form October 24, 2005.
+Journal of Money, Credit and Banking, Vol. 39, No. 1 (February 2007)
+
+C 2007 The Ohio State University
+
+134
+
+:
+
+MONEY, CREDIT AND BANKING
+
+sufficient for them to have some private information which the central bank does not
+possess. Our results remain valid even if the central bank has superior information
+overall.
+Why is it that unions may have some information which might not be available
+to the central bank? We have in mind that, e.g., in Germany, representatives of the
+employees have the legal right to be on the supervisory board. Through participation
+in management decisions and due to their familiarity with the firms they work for,
+union representatives may sometimes have information, e.g., on order inflows or the
+development of profits, which may not be available to the central bank immediately.
+This private information can then be used in wage bargaining. However, we also
+assume that these information asymmetries can be overcome if the central bank
+invests in a data aggregation process.
+Our main argument runs as follows. Suppose a central bank estimates shocks
+to labor demand independently of labor unions. The central bank will counteract
+nominal wage increases by inflationary policy in order to moderate unemployment.
+The situation changes when the central bank does not observe shocks to labor demand
+independently but has to rely on the inference of real shocks from the unions’ wage
+setting. If unions choose high nominal wages, the central bank will still want to
+increase inflation in order to achieve a lower level of unemployment. On the other
+hand, the central bank will expect a favorable real shock when it observes high
+nominal wages. This will lower its willingness to increase inflation. Overall, without
+independent information acquisition, the central bank will react less strongly to an
+increase in nominal wages.
+Since the central bank does not react strongly to increases in nominal wages when it
+does not observe real shocks directly, unions will choose higher nominal wages. Due
+to increasing marginal costs of inflation for the central bank, it does not compensate
+the high level of nominal wages completely by a correspondingly high rate of inflation.
+This leads to high real wages and unemployment despite high inflation rates.
+In summary, although the central bank can infer real shocks from the unions’ wage
+setting, unions’ incentives to signal favorable labor supply shocks lead to higher
+nominal and real wages when the central bank has no independent sources about the
+shocks. Higher real wages will create more unemployment. Hence, social welfare as
+determined by unemployment and inflation is better if the central bank does not base
+policy on nominal wages alone.
+The conclusions in this paper suggest that central banks should have independent
+research capabilities enabling them to identify real shocks if the costs for information
+acquisition are not too large. Our analysis may also have some bearing on the institutional design of the European Central Bank (ECB) and the National Central Banks
+(NCBs) in Europe. Our analysis can be interpreted as an interplay between a central
+bank and many regional unions. If unions are to play an important role in Europe,
+our result suggests that a strong regional presence of the ECB through the NCBs
+will be beneficial since information acquisition can then be done independently from
+observing nominal variables. If, however, traditional national unions are unable to
+coordinate wage setting across national boundaries in the future, the ECB may need
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+135
+
+fewer independent research capabilities since in the case of a large number of small
+unions, the value of direct observation of shocks disappears. Our analysis suggests
+that the extent of research activities of the ECB should depend on the process of union
+formation in Europe.
+1. RELATION TO THE LITERATURE
+The consequences of the interaction between central banks and a number of sectoral unions for monetary policy have recently been fleshed out in several important
+contributions. 2 In our paper, we examine whether the central bank should use real
+variables as indicators for monetary policy even if their information content could
+precisely be inferred from nominal wages.
+While there are no other contributions directly dealing with the issues addressed in
+this paper, there is one article that is complementary to our analysis. Woodford (1994)
+has recently examined the general question of the indicators to be used for monetary
+policy. He shows that one cannot judge the usefulness of indicators by merely looking
+at econometric data to the exclusion of a structural model.
+Our paper suggests that an indicator which does not improve the central bank’s
+information set if it is observed directly cannot be neglected without the danger of
+impairing the performance of monetary policy.
+2. MODEL
+We take our bearings from the models of Cukierman and Lippi (1999), Grüner
+and Hefeker (1999), and Herrendorf and Lockwood (1997) and consider information
+asymmetries between unions and the central bank. These information asymmetries
+can be mitigated either by inference from observed wages or by an independent
+information acquisition process.
+There are a central bank, which controls inflation, and n ≥ 1 identical unions, each
+of them representing a different industry. Unions are monopolists in their industries
+and choose wages for their members.
+The loss function of the central bank is given by the standard view that the central
+bank is concerned about inflation and unemployment:
+L CB = p 2 + a ū 2 ,
+
+(1)
+
+where p is the log of the inflation rate plus one. p equals the log of the price level if
+we normalize the log of the initial price level to zero. Aggregate unemployment is
+denoted by ū and a > 0 is the relative weight of the employment target.
+2. Cf. Agell and Ysander (1993), Bleaney (1996), Bruno and Sachs (1985), Calmfors and Driffill (1988),
+Cubitt (1995), Cukierman (1992), Cukierman and Lippi (1999), Forteza (1998), Grüner and Hefeker (1999),
+Guzzo and Velasco (1999), Herrendorf and Lockwood (1997), and Skott (1997).
+
+136
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Following al Nowaihi and Levine (1994), Cukierman and Lippi (1999), and Grüner
+and Hefeker (1999), the loss function of union j is given by
+L j = −2(w j − p) + Au2j + Bp2
+
+(2)
+
+where w j is the log nominal wage chosen by union j. The log real wage for the union’s
+members amounts to w jr := w j − p. Unemployment among the union’s members
+is denoted by u j . The positive parameters A and B stand for the importance of the employment and inflation target, respectively. The unions may dislike inflation because
+of its negative impact on members’ saving accounts, pensions, and other nominal
+assets which cannot be indexed on inflation (as developed by al Nowaihi and Levine
+1994). To offer empirical evidence for the unions’ dislike of inflation, Grüner and
+Hefeker (1999) report that German labor unions urged the ECB to keep inflation low
+under EMU.
+The demand for the labor of union j is assumed to be:
+l
+l dj = α(d − (w j − p) + ) ,
+(3)
+n
+where  is a macroeconomic shock which affects labor demand in all industries
+in the same way. 3 We assume that  is normally distributed with mean zero and
+standard deviation σ  . α and d are positive parameters. Labor is supplied completely
+inelastically. Aggregate labor supply of all unions is given by l. Since unions are
+assumed to be identical in size, labor supply for each industry equals ljs := l/n. The
+unemployment rate among the members of union j is defined as:
+u j :=
+
+l sj − l dj
+l sj
+
+.
+
+Using the labor demand function in equation (3) we obtain:
+
+
+u j = α w j − p − d + α −1 − 
+
+
+= α w j − p − w rc −  .
+
+(4)
+
+(5)
+
+Additionally, we have introduced the market-clearing real wage w rc := d − α −1
+which would equalize labor supply and demand if no shocks  were present. The
+mean unemployment rate, defined as the average over all industries, amounts to:
+
+
+ū = α w̄ − p − w rc −  ,
+(6)
+n
+where w̄ denotes the mean wage across all unions, i.e., w̄ := 1/n i=1
+wi .
+3. Cukierman and Lippi (1999) use a labor demand function that depends on the difference between
+the wage set by the union and the average wage across all industries. This term is meant to capture a
+competition effect which we have omitted for convenience. But our main result appears to be robust to the
+introduction of this effect since the incentives to signal shocks remain; only the unions’ wage responses to
+observations of shocks become less elastic. However, our finding that the results of Proposition 2 do not
+depend on the number of unions then no longer holds.
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+137
+
+The sequence of events is as follows:
+(i) The shock  is drawn from a normal distribution, i.e.,  ∼ N (0, σ2 ) . The
+shock cannot be observed by the central bank and the unions. Instead, each
+union receives noisy information about the macroeconomic shock ; i.e., it
+draws a sample x from a normal distribution with unknown mean  and a
+specified value of the variance σx2 : x ∼ N (, σx2 ) . For simplicity’s sake, we
+assume that every union observes the same sample. 4 Based on the sample, each
+union forms a posterior distribution about the shock. The posterior distribution
+is again a normal distribution (cf. DeGroot 1970, p.167) with mean:
+E[ | x] =
+
+1
+σx2
+1 + 1
+σ2
+σx2
+
+x
+
+(7)
+
+and variance:
+σ2 =
+
+1
+.
+1 + 1
+2
+2
+σ
+σx
+
+(8)
+
+(ii) Each union chooses the nominal wage w j in the respective industry.
+(iii) The central bank observes the mean nominal wage and may or may not observe
+the unions’ information about the shock, i.e., the sample x.
+(iv) Given its information set, the central bank chooses the inflation rate.
+(v) The shock occurs and in every industry unemployment ensues.
+We summarize the sequence of events in Figure 1.
+The use of normal distributions can be problematic because these distributions
+imply that shocks can be arbitrarily large. The problem can be largely avoided if the
+variance of the shock is rather small and thus the likelihood that labor supply will
+exceed labor demand can be neglected. More importantly, our results do not hinge
+on the distribution of shocks. Since only expected values matter in all proofs, our
+analysis will hold for any pair of conjugate prior and posterior distributions when
+the prior distribution has mean zero and a bounded variance. In particular, we could
+choose a prior distribution of the shock with sufficiently bounded support. 5
+4. An alternative assumption would be that each union draws a different sample and therefore must
+estimate the mean of the other unions’ posterior distribution, which differs from the mean of its own
+posterior distribution. In this context, the analysis becomes much more complex. But at least Proposition 1
+still holds with slight modifications; a proof is available upon request. The current assumption appears to
+be a plausible and the most tractable way to examine our question.
+5. In Proposition 2 we show that without independent information accumulating, the central bank’s
+expectation of the real shock is a linear function of the observed wage level. If shocks were bounded, the
+central bank’s expectations could not exceed the maximum possible shock but would be constant if very
+high wages were chosen. Similarly, the central bank’s expectations about the shock would remain constant
+for very low wages. For intermediate wage levels, the expectations given by Proposition 2 would still be
+valid. One can readily verify that this modified expectation schedule of the central bank about the shock
+leaves all main features of the equilibrium unchanged.
+
+138
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 1. Sequence of Events
+
+3. THE CENTRAL BANK’S BEST RESPONSE
+We first derive the central bank’s reaction to unions’ wage setting given its knowledge or assessment of the macroeconomic shock. Inserting equation (6) into equation (1) yields:
+2
+
+L CB = p 2 + aα 2 w̄ − p − w rc −  .
+
+(9)
+
+By differentiating the central bank’s expected losses with respect to p we obtain
+the central bank’s monetary policy reaction function
+
+p=
+
+
+aα 2 
+w̄ − w rc − E CB [] ,
+2
+1 + aα
+
+(10)
+
+where E CB denotes the expectation depending on the central bank’s information set.
+The central bank’s monetary policy reaction function is fairly general, since we have
+not yet specified how the expectations of the central bank concerning the size of the
+shock are formed.
+The reaction function implies that the optimal rate of inflation increases with the
+expected mean nominal wage but decreases with the central bank’s expectation of
+the shock. If the nominal wages are set very high, the central bank favors larger
+inflation rates to reduce real wages and to prevent unemployment. If the central
+bank expects a large shock, which is beneficial for employment, then the desire
+to establish a high level of inflation is smaller. For a = 0, i.e., if the central bank
+does not care about employment at all, the optimal inflation rate is always given by
+p = 0.
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+139
+
+4. DIRECT ACQUISITION OF INFORMATION ABOUT REAL VARIABLES
+BY CENTRAL BANKS
+In the first scenario, we assume that the central bank does not only know the mean
+wage w̄, but is additionally able to gather the unions’ information about the shock
+x. For instance, the central bank may have invested in a large information gathering
+process to obtain the same information as the unions. Inserting ECB [] = E[ | x]
+into the expression for the central bank’s reaction function embodied in equation (10)
+yields:
+p=
+
+
+aα 2 
+w̄ − w rc − E[ | x] .
+2
+1 + aα
+
+(11)
+
+Each union minimizes its expected losses taking the central bank’s reaction into
+account. In the Appendix we show that the following equilibrium exists using superscripts NR to denote the equilibrium values if the central bank has information about
+nominal and real variables:
+PROPOSITION 1: Suppose the central bank knows the information of unions about
+the shock x. Then, a unique perfect Bayesian equilibrium exists where unions choose
+the following nominal wages:
+
+
+1
+1
+NR
+c
+w̄ = w r + E[ | x] +
+(12)
+a+ 2 .
+α
+a2α2
+A+
+B
+n + (n − 1)aα 2
+The central bank chooses the inflation rate:
+p NR =
+
+1
+a.
+a2α2
+A+
+B
+n + (n − 1)aα 2
+
+(13)
+
+Proposition 1 implies that the equilibrium real wage is given by:
+w̄ NR,r = w rc + E[ | x] +
+
+1
+1
+α2
+a2α2
+A+
+B
+n + (n − 1)aα 2
+
+(14)
+
+and unemployment amounts to:
+ū NR =
+
+1
+1
++ α(E[ | x] − ).
+2 2
+α
+a α
+A+
+B
+n + (n − 1)aα 2
+
+(15)
+
+140
+
+:
+
+MONEY, CREDIT AND BANKING
+
+The real wage is always above w rc + E[ | x], which is the unions’ best estimate
+of the market-clearing real wage. Hence, expected unemployment is always positive.
+Unions are willing to trade off a moderate rise in unemployment against an increase
+in real wages.
+The prediction error of unions E[ | x] −  has the following impact on unemployment. If E[ | x] −  is positive, then unions expect the shock to be more favorable
+than it actually is. This induces them to choose rather high wages, implying high
+unemployment. But if E[ | x] −  is negative, then unions’ estimate of the shock
+was too pessimistic, resulting in cautious wage setting and lower unemployment. 6
+
+5. INFERRING REAL VARIABLES FROM NOMINAL VARIABLES
+In this section we assume that the central bank has no direct means of gathering
+information about the shock or about unions’ expectations about the shock. Then the
+only information available to the central bank is the mean wage. The central bank
+will therefore try to derive unions’ information about the shock from the observed
+nominal wages. This implies that we can rewrite equation (10) as
+p=
+
+
+aα 2 
+w̄ − w rc − E CB [ | w̄]
+2
+1 + aα
+
+(16)
+
+where E CB [ | w̄] denotes the central bank’s expectation about the shock conditional
+on the observed mean wage w̄. The crucial question is how the central bank estimates
+the realization of the macroeconomic shock from the aggregate nominal wage. We
+will only consider fully separating equilibria, i.e. for any two different expectations
+E[ | x], different wages w̄ are chosen. 7 Hence, the central bank can always infer the
+information of the unions from the observed mean wage.
+PROPOSITION 2: Suppose the central bank only observes the mean wage. Then a
+fully separating perfect Bayesian equilibrium exists. 8 Each union sets the nominal
+wage according to:
+
+
+1
+1
+w̄ N = E[ | x] + w rc +
+(17)
+a+ 2 .
+A
+α
+6. Proposition 1 could be used to establish comparative-static results with respect to changes in the
+number of unions n and of the other parameters. These results, however, are omitted here since they
+essentially reproduce those in Cukierman and Lippi (1999) in the absence of the competition effect.
+7. In our setup, pooling equilibria do not exist. Due to the assumption that shocks are normally distributed, it is possible that arbitrarily large shocks may occur. Intuitively, it cannot be optimal for the unions
+to always choose the same wage, no matter how large the expected shock. If, however, we assumed that
+the shocks were bounded, pooling equilibria, in which any union would always choose the same wage,
+could exist. The existence of pooling equilibria would not conflict with our central finding. The case for
+information collection would be even stronger in a pooling equilibrium since the central bank could no
+longer infer the size of the shock from wages.
+8. For n = 1, the proposed equilibrium is unique; i.e., no other separating equilibrium exists.
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+141
+
+The central bank’s choice of inflation amounts to:
+pN =
+
+1
+a.
+A
+
+(18)
+
+The central bank’s expectation about the shock is given as:
+
+
+1
+1
+E CB [ | w̄] = w̄ − w rc −
+a+ 2 .
+A
+α
+
+(19)
+
+From Proposition 2, we immediately obtain the equilibrium real wage
+w̄ N ,r = w rc + E[ | x] +
+
+1 1
+A α2
+
+(20)
+
+and the unemployment rate:
+ū N =
+
+1
++ α(E[ | x] − ).
+Aα
+
+(21)
+
+It appears counterintuitive for the equilibrium values of the endogenous variables
+to be independent of the number of unions. One would expect single unions to take
+the strength of their impact on the central bank’s behavior into account; the strength
+of this impact is determined by the overall number of unions. The strategic power
+of any single union should become smaller in proportion to the number of unions
+populating the economy. So why do the equilibrium values not depend on the number
+of unions n?
+In our model, the central bank still chooses the equilibrium inflation rate when a
+union deviates by choosing a different wage. This is due to two offsetting effects. If
+a union deviates in its wage policy, it affects both the central bank’s estimate of the
+shock and the expected unemployment rate. Both effects increase with the size of
+the union. The larger the union is, the more strongly a high wage affects the central
+bank’s estimate of the shock and the more willing the central bank is to react to a high
+wage with strictly anti-inflationary monetary policy. On the other hand, the larger the
+union is, the more it will increase aggregate unemployment with a high wage and
+the more likely the central bank is to pursue rather lax inflationary policy in order to
+reduce real wages. Thus, the strength of these two isolated effects does depend on the
+number of unions, while the net effect is always zero and independent of n.
+While both effects always work in opposite directions, it is clear that the independence of the equilibrium values of Proposition 2 is not robust to changes
+in the specification of our model with respect to the functional form of labor
+demand.
+Another interesting point is that the equilibrium in the previous proposition does
+not depend on the variance of the shock. As a consequence, the equilibria in the
+previous two propositions do not converge if the variance of the shock approaches
+zero. This is an important effect, which also occurs in other signaling games in
+
+142
+
+:
+
+MONEY, CREDIT AND BANKING
+
+monetary policy, notably in the paper by Faust and Svensson (2001), who study
+transparency and credibility in a model where the central bank’s characteristics are
+not publicly observable. In their paper, the case with unobservable goals does not
+converge to the case with observable goals when the variance of the shocks that affect
+the central bank’s employment target approaches zero.
+6. THE VALUE OF DIRECT OBSERVATIONS FOR SOCIETY,
+THE CENTRAL BANK, AND UNIONS
+In this section we compare Proposition 1 and Proposition 2 in order to obtain
+the major conclusions of our paper. If the central bank does not know the information of the unions, an increase in nominal wages has two effects on the central
+bank’s reaction function. First, an increase in wages should increase the optimal
+inflation rate because the central bank wants to reduce the unemployment created
+by high wages. Second, an increase in wages should have a positive impact on the
+central bank’s expectation of the labor demand shock. This effect should lower the
+optimal inflation rate. Therefore, if the central bank does know unions’ expectation about the shock, it will increase inflation more strongly as a reaction to higher
+nominal wages. Especially when the value of B is large, this makes high nominal
+wages less attractive for unions. Thus, equilibrium nominal wages are higher if the
+central bank does not know unions’ expectation about the shock. But the higher
+equilibrium nominal wages are, the higher the equilibrium inflation rate must be.
+And due to the increasing marginal costs of inflation for the central bank, higher
+equilibrium nominal wages imply higher real wages, which in turn create additional
+unemployment.
+Proposition 1 and Proposition 2 have important implications for the central bank’s
+value of direct information about real variables. Since both inflation and unemployment are lower if the central bank can observe the information of the unions about
+the shock, the central bank will always prefer to have direct information on E[ | x]
+over inferring the correct value of E[ | x] from nominal variables; i.e., the value of
+information is larger than zero. Social losses, which we assume to increase in aggregate unemployment and inflation and which do not necessarily coincide with the
+central bank’s losses, are higher if the central bank does not independently acquire
+information on real variables as well.
+Having established the positive value of a direct forecast of real variables for the
+central bank, we now discuss whether unions also benefit from the direct observation
+of real variables by central banks.
+In order to answer this question we compare the losses for unions if the central
+bank observes information about real shocks directly (cf. Section 4) with the losses if
+the central bank has to derive the information observed by unions from the nominal
+wages (cf. Section 5). The direct observation of real variables by the central bank is
+beneficial for the unions if the difference in these losses is positive. In the Appendix
+we show:
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+143
+
+PROPOSITION 3:
+1. For B > 0, unions benefit from the direct observation of real variables by the
+central bank if and only if
+
+
+1 2
+1
+α  +
+2 A
+
+
+1
+ (A + Ba 2 ) > 1
+
+a2α2
+A+
+B
+2
+n + (n − 1)aα
+
+(22)
+
+holds.
+2. For B = 0, unions are always indifferent.
+The direct observation of real variables by the central bank has ambiguous effects
+on unions’ losses. If the central bank observes the information of the unions directly,
+real wages are smaller. This has a negative impact on unions’ utility. But on the
+other hand, unemployment and inflation are lower, which is beneficial for unions.
+Proposition 3 implies that it is not clear which effect is stronger. Unions may or may
+not benefit from the direct acquisition of information about real variables by central
+banks.
+7. CONCLUSION
+The main message of the paper is support for an independent role of central banks
+in the acquisition of information about real shocks in the economy. Although central
+banks can infer private information precisely from nominal variables such as wages,
+unions’ incentives to signal a positive shock will lead to high unemployment and inflation. While probably no one would deny that central banks should be well informed
+in order to make good monetary policy, we establish a new point why information
+acquisition is beneficial. Information aggregation about real variables, although it
+may not improve the central bank’s understanding of the economy and which is in
+this sense redundant, may destroy unions’ incentives to signal positive realizations
+of shocks. This may shift the trade-off between the costs and benefits of information
+acquisition somewhat toward more information acquisition.
+From our major conclusion that research activities about real shocks can be beneficial although the information gained by these activities could be obtained from
+observing nominal variables, we have established a new point of direct relevance for
+monetary policy.
+Our analysis also contributes to a larger literature on signaling games. The gametheoretic literature and, in particular, textbook models of signaling focus on a receiver
+and a sender with a finite number of sender types. 9 The game-theoretic treatment of
+these signaling games has established the taxonomy of equilibria in terms of pooling
+9. See Kreps and Sobel (1994) and Fudenberg and Tirole (1992) for surveys.
+
+144
+
+:
+
+MONEY, CREDIT AND BANKING
+
+and separating equilibria. In addition, equilibrium refinements have been introduced
+to reduce the multiplicity of equilibria.
+Our model contributes to this literature in several ways. First, we consider a more
+complex signaling model where several senders (unions) enter a signaling game with
+the receiver (central bank). While it is known that signaling incentives by an informed
+party can distort allocations even if the receiver of price signals can precisely infer
+the information in equilibrium, there are no general results for the case where an
+uninformed player faces a number of informed parties. We show that the receiver
+benefits from direct information acquisition even if a multitude of senders are trying
+to signal their estimate of the shock.
+Second, we establish a new convergence result for a signaling game with a multitude
+of senders and one receiver. The more senders there are, the fewer distortions there
+are for the receiver. Indeed for n toward infinity, the value of direct observation of
+shocks for the central bank disappears, since if the number of unions goes to infinity,
+the equilibrium values are identical under both scenarios.
+Third, whereas standard signaling models involve a finite number of sender types,
+we consider a continuum of types, as the support of the probability density function for
+the shocks equals the set of real numbers. A continuum of sender types has generally
+the consequence that pooling equilibria are less likely and in our model they do not
+exist. We also show that unique separating equilibria exist as soon as the number of
+senders is larger than one.
+Fourth, our signaling model with many senders produces a counterintuitive result,
+namely that all senders may be better off when the uninformed receiver becomes
+informed. One underlying reason is that the objectives of the senders and the receiver
+are partially aligned as all senders and the receiver benefit from low inflation and low
+unemployment. Usually, in agency relationships the uninformed agent has to give
+some rent to the informed agent to extract the information from him. In our context,
+the informed players may benefit when the uninformed central bank is equally well
+informed.
+Fifth, the discontinuity issue raised at the end of Section 5 highlights the fact that
+monetary signaling models may be very sensitive to informational assumptions, as
+a very small information asymmetry, i.e., an arbitrarily small variance of the shock,
+produces different results compared to the case where the information symmetry is
+alleviated completely.
+Our analysis can be reinterpreted and applied to the European System of Central
+Banks (ESCB) if we consider regional instead of sectoral unions. In a first step, our
+results seem to stress the importance of the NCBs’ role in the information acquisition
+process about real shocks, which should be independent of the wage-setting process.
+However, caution may be advisable in two respects. First, the difference between the
+two scenarios we have considered vanishes if a large number of unions are present and
+if single unions have only a marginal impact on the central bank’s policy. Therefore,
+the direct acquisition of information about real variables will only be important if the
+number of unions in Europe is not too large. An interesting corollary is that the ECB
+may need to increase its capacity for collecting information if traditional national
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+145
+
+unions manage to coordinate wage bargaining across national boundaries. Second,
+we have deliberately disregarded direct costs of information collection for the central
+bank. In reality, the staff and the resources needed to gather information represent an
+opportunity cost which has to be subtracted from the positive value of information in
+order to judge how much in the way of resources should be devoted to independent
+research about macroeconomic shocks.
+
+APPENDIX
+PROOF OF PROPOSITION 1
+Using equation (2), the expected losses of union j are given by:
+  
+L j = −2(w j − E[ p | x]) + AE u 2j  x + BE[ p 2 | x].
+Minimizing the expected losses for union j and using ∂ w̄/∂w j = 1/n yields the
+first-order condition:
+0=
+=
+
+1 ∂
+E[L j | x]
+2 ∂w j
+aα 2
+aα 2
+n + (n − 1)aα 2
+|
+x]
++
+B
+−
+1
++
+Aα
+E[u
+E[ p | x].
+j
+n(1 + aα 2 )
+n(1 + aα 2 )
+n(1 + aα 2 )
+
+This equation describes the optimal choice of w j depending on the wages set by the
+other unions. Due to the symmetry of the problem, all wages must equal in equilibrium.
+Therefore, w j = w̄ holds. It follows from equations (5) and (10) that
+
+
+E[u j | x] = α w j − E[ p | x] − E[ | x] − w rc
+and
+E[ p | x] =
+
+
+aα 2 
+c
+w
+−
+w
+−
+E[
+|
+x]
+.
+j
+r
+1 + aα 2
+
+Inserting these equations into the first-order condition for the best response and
+rearranging the terms we obtain:
+
+
+n(1 + aα 2 ) = aα 2 + w̄ − w rc − E[ | x]
+
+
+
+
+Aα 2 n + (n − 1)aα 2
+a2α4
+×
+.
++B
+1 + aα 2
+1 + aα 2
+Solving for w̄ yields the equilibrium wage, denoted by w̄ N R . Inserting w̄ into
+equation (11) leads to the equilibrium inflation rate.
+
+
+146
+
+:
+
+MONEY, CREDIT AND BANKING
+
+PROOF OF PROPOSITION 2
+The minimization of union j’s loss function yields the first-order condition:
+0=
+
+1 ∂
+E[L j | x]
+2 ∂w j
+
+
+
+∂
+∂
+=
+E[ p | x] − 1 + Aα E[u j | x] 1 −
+E[ p | x]
+∂w j
+∂w j
++ BE[ p | x]
+
+∂
+E[ p | x].
+∂w j
+
+In a symmetric equilibrium, we must have w i = w j , ∀i = j and therefore w̄ =
+w j , ∀i = j. In a fully separating equilibrium, the central bank can completely infer the
+unions’ information from the observed wage, i.e., E CB [ | w̄] = E[ | x]. We define
+f (w j ) := ECB [ | w j ] and use equations (5) and (10) to obtain:
+
+aα 2 
+w̄ − w rc − f (w̄) ,
+2
+1 + aα
+
+
+E[u j | x] = α w j − E[ p | x] − E[ | x] − w rc
+
+
+
+aα 2 
+c
+c
+= α wj −
+w̄ − w r − f (w̄) − E[ | x] − w r ,
+1 + aα 2
+E[ p | x] =
+
+∂
+aα 2
+∂
+E[ p | x] =
+(1 − f  (w̄))
+w̄
+2
+∂w j
+1 + aα
+∂w j
+aα 2
+(1 − f  (w̄)),
+n(1 + aα 2 )
+
+
+∂
+aα 2
+∂
+
+E[u j | x] = α 1 −
+(1
+−
+f
+(w
+))
+w̄
+j
+∂w j
+1 + aα 2
+∂w j
+
+
+aα 2
+
+= α 1−
+(1
+−
+f
+(
+w̄))
+.
+n(1 + aα 2 )
+=
+
+In a symmetric fully separating equilibrium w̄ = w j and E[ | x] = f (w j ) must
+hold. Then the third of the above equations simplifies to:
+E[u j | x] =
+
+
+α 
+w j − w rc − f (w j ) .
+2
+1 + aα
+
+Inserting these equations into the first-order condition, we obtain the following
+differential equation:
+
+HANS GERSBACH AND VOLKER HAHN
+
+0=
+
+:
+
+147
+
+aα 2
+(1 − f  (w j )) − 1
+n(1 + aα 2 )
+
+
+
+
+Aα 2 
+aα 2
+c
+
++
+w j − w r − f (w j ) 1 −
+(1 − f (w j ))
+1 + aα 2
+n(1 + aα 2 )
++B
+
+
+
+a2α4
+w j − w rc − f (w j ) (1 − f  (w j )).
+2
+2
+n(1 + aα )
+
+In a fully separating equilibrium, the central bank’s beliefs must satisfy
+E CB [ | w̄] = E[ | x]. Together with ECB [ | w j ] = E[ | x] which must hold for every union j this implies that f (w j ) is a linear function if n ≥ 2. Therefore, we can set
+f (w j ) = (1 − m)w j − q − w rc , with m and q parameters left to be determined. Inserting
+this expression into the differential equation, which must hold for any w j , yields:
+m = 0,
+
+q=
+
+
+
+1
+1
+a+ 2 .
+A
+α
+
+Thus, we have identified E CB [ | w̄] and shown that it is unique. 10 Using these
+
+results we obtain the proposed equilibrium values for p and w j .
+PROOF OF PROPOSITION 3
+We first derive unions’ losses if the central bank observes the information of unions
+directly. Recall from Proposition 1 that the equilibrium values of inflation and real
+wage are given by
+p NR = c a
+w̄ NR,r = w rc + E[ | x] + c
+
+1
+α2
+
+where we have set
+c :=
+
+1
+.
+a2α2
+A+
+B
+n + (n − 1)aα 2
+
+Inserting these equations into union j’s loss function we obtain:
+
+c 
+L Nj R = −2 w rc + E[ | x] + 2 + A(c + α(E[ | x] − ))2 + Bc2 a 2 .
+α
+
+10. For B = 0 another solution exists for m : m = naα 2 /(1 + aα 2 ). The resulting equilibrium, however,
+is not stable, since all unions would be indifferent between the equilibrium wage and any other wage. In
+addition, the central bank’s expectation about the shock would decrease when wages increase, which does
+not seem plausible.
+
+148
+
+:
+
+MONEY, CREDIT AND BANKING
+
+In order to compute union j’s losses if the central bank knows the mean wage only,
+which corresponds to Proposition 2, we can simply set c := 1/A. We obtain
+
+
+
+2
+1
+1
+B
+N
+c
+L j = −2 w r + E[ | x] +
++A
++ α(E[ | x] − ) + 2 a 2 .
+Aα 2
+A
+A
+We compute the difference of losses:
+N
+L j = L NR
+j − Lj
+
+
+
+
+
+
+
+1
+1
+2
+1
+=− 2 c−
++ A c2 − 2 + 2α c −
+(E[ | x] − )
+α
+A
+A
+A
+
+
+1
++ Ba2 c2 − 2
+A
+
+
+
+
+
+1
+1
+A + Ba 2 1
+=2
+−c
++
+c
+−
+Aα(E[
+|
+x]
+−
+)
+.
+−
+A
+α2
+2
+A
+
+The expected difference of losses hence amounts to
+
+
+
+
+
+
+1
+A + Ba 2 1
+1
+E L j | x = 2
+−
+−c
++c .
+A
+α2
+2
+A
+For the direct observation of real variables by the central bank to be beneficial
+for unions, this expression must be positive. Rearranging the resulting inequality,
+inserting the definition of c, and using the fact that c < 1/A yields the proposed
+condition.
+
+
+LITERATURE CITED
+Agell, Jonas, and Bengt-Christer Ysander. (1993) “Should Government Learn to Live with
+Inflation? Comment.” American Economic Review, 83, 305–11.
+al Nowaihi, Ali, and Paul Levine. (1994) “Can Reputation Resolve the Monetary Policy Credibility Problem?” Journal of Monetary Economics, 33, 355–80.
+Bleaney, Michael. (1996) “Central Bank Independence, Wage-Bargaining Structure, and
+Macroeconomic Performance in OECD Countries.” Oxford Economic Papers, 48, 20–38.
+Bruno, Michael, and Jeffrey Sachs. (1985) Economics of Worldwide Stagflation. Cambridge,
+MA: Harvard University Press.
+Calmfors, Lars, and John Driffill. (1988) “Bargaining Structure, Corporatism, and Macroeconomic Performance.” Economic Policy, 6, 12–61.
+Cubitt, Robin P. (1995) “Corporatism, Monetary Policy and Economic Performance: A Simple
+Game Theoretic Analysis.” Scandinavian Journal of Economics, 97, 245–59.
+Cukierman, Alex. (1992) Central Bank Strategy, Credibility, and Independence: Theory and
+Evidence. Cambridge, MA: The MIT Press.
+
+HANS GERSBACH AND VOLKER HAHN
+
+:
+
+149
+
+Cukierman, Alex, and Francesco Lippi. (1999) “Central Bank Independence, Centralization
+of Wage Bargaining, Inflation and Unemployment: Theory and Some Evidence.” European
+Economic Review, 43, 1395–1434.
+DeGroot, Morris H. (1970) Optimal Statistical Decisions. New York: McGraw-Hill Book
+Company.
+Faust, Jon, and Lars E.O. Svensson. (2001) “Transparency and Credibility: Monetary Policy
+with Unobservable Goals.” International Economic Review, 42, 369–97.
+Forteza, Alvaro J. (1998) “The Wage Bargaining Structure and the Inflationary Bias.” Journal
+of Macroeconomics, 20, 599–614.
+Fudenberg, Drew, and Jean Tirole. (1992) Game Theory. Cambridge, MA: MIT Press.
+Grüner, Hans Peter, and Carsten Hefeker. (1999) “How Will EMU Affect Inflation and Unemployment in Europe?” Scandinavian Journal of Economics, 101, 33–47.
+Guzzo, Vincenzo, and Andrés Velasco. (1999) “The Case for a Populist Central Banker.”
+European Economic Review, 43, 1317–44.
+Herrendorf, Bertold, and Ben Lockwood. (1997) “Rogoff’s ‘Conservative’ Central Banker
+Restored.” Journal of Money, Credit and Banking, 29, 476–95.
+Kreps, David M., and Joel Sobel. (1994) “Signalling.” In Handbook of Game Theory, Vol. 2,
+edited by Robert J. Aumann and Sergiu Hart, pp. 849–67. Amsterdam: Elsevier Science
+B.V.
+Peek, Joe, Eric S. Rosengren, and Geoffrey M.B. Tootell. (2003) “Does the Federal Reserve
+Possess an Exploitable Informational Advantage?” Journal of Monetary Economics, 50:4,
+817–39.
+Romer, Christina D., and David H. Romer. (2000) “Federal Reserve Information and the
+Behavior of Interest Rates.” American Economic Review, 90, 429–57.
+Skott, Peter. (1997) “Stagflationary Consequences of Prudent Monetary Policy in a Unionized
+Economy.” Oxford Economic Papers, 49, 609–22.
+Woodford, Michael. (1994) “Nonstandard Indicators for Monetary Policy: Can Their Usefulness be Judged from Forecasting Regressions?” In Monetary Policy, edited by N. Gregory
+Mankiw, pp. 95–115. Chicago: University of Chicago Press.
+
+

@@ -1,0 +1,2146 @@
+The Financial Review 48 (2013) 233–258
+
+Does Say-on-Pay Matter? Evidence from
+Say-on-Pay Proposals in the United States
+Natasha Burns
+The University of Texas at San Antonio
+
+Kristina Minnick∗
+Bentley University
+
+Abstract
+We investigate the effect of say-on-pay (SOP) proposals on changes in executive and director compensation. Relative to non-SOP firms, SOP firms’ total compensation to CEOs does
+not significantly change after the proposal. However, the mix of compensation does change—
+companies move away from using cash compensation toward more incentive compensation,
+offsetting the reduction in bonus. Further, the mix of compensation of non-CEO executives
+changes similarly to that of CEOs. Compensation to directors of SOP firms increases less
+than non-SOP firms. Firms whose CEOs are well compensated, especially with cash-based
+compensation, are most likely to receive a proposal.
+
+Keywords: say-on-pay, executive compensation, corporate governance
+JEL Classifications: G34, G38, J33, M12
+
+∗ Corresponding
+
+author: Bentley University, 175 Forest Street, Waltham, MA 02458; Phone: (781) 8912941; Fax: (781) 788-6456; E-mail: kminnick@bentley.edu.
+We thank two anonymous reviewers, seminar participants at Bentley University, Morgan State University,
+The University of Texas at San Antonio, and the Federal Reserve Bank at Chicago. We thank John Wald
+for helpful comments. We also acknowledge helpful research assistance on portions of this article by Kevin
+Gao and Timothy Krause. All errors are our own.
+
+
+C 2013, The Eastern Finance Association
+
+233
+
+234
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+1. Introduction
+With enactment of the Dodd-Frank Wall Street Reform and Consumer Protection
+Act, say-on-pay (SOP) became federal law starting on Jan. 21, 2011, giving shareholders an advisory (nonbinding) vote on executive compensation. With the passing
+of the law, one important question emerges—will it affect executive compensation?
+The effects of the new law will be difficult to observe for several years.1 Therefore,
+we look to other sources to predict what will happen to U.S. executive compensation
+after shareholders get their advisory vote. Specifically, we study a set of U.S. firms
+that received an SOP proposal over the period 2006–2008 to provide unique insight
+into how SOP legislation will affect companies in the coming years.
+In our paper, we seek to understand whether shareholder scrutiny expressed
+through SOP proposals affects company compensation practices. We measure how
+compensation changes for CEOs after an SOP proposal is received. Further, as highlighted by the increasing concern over executive pay, it is not just the CEO whose
+compensation is under fire, but all executives, so we examine compensation for nonCEO executives as well. Similarly, because many of the proposals brought forth
+by shareholders state concern about board oversight and impartiality, we examine
+changes in board compensation.2 By studying the composition of and change in
+compensation for a sample of firms receiving proposals, we can better understand if
+SOP matters and, more generally, understand if shareholder activism can affect real
+change in a corporation.
+We first focus our attention on CEO pay, since proposals highlight CEO pay.
+We begin by examining the characteristics of firms targeted for the proposals. Over
+the sample period, 2003–2008, the average CEO total compensation of $15.6 million
+for a sample of 108 SOP firms is significantly greater than the $8 million for nonSOP firms. At the same time, SOP firms are significantly larger than non-SOP
+firms. Multivariate results indicate that even after controlling for size and other firm
+characteristics, companies with greater compensation are more likely to receive SOP
+proposals. Both equity incentive and cash-based compensation are greater in SOP
+firms.
+Our primary focus is the effect of the proposals on executive pay. A natural
+experiment is to compare changes in compensation for SOP firms pre- and postproposal. However, such a simple comparison would be contaminated by temporal
+trends in compensation. To account for this, we employ a difference-in-difference
+approach and compare the changes in executive pay for firms receiving an SOP
+
+1 Few firms have adopted SOP; even after legislation it will be a year before the first round of shareholder
+advisory votes on executive pay, and another year before the effects of those votes on compensation can
+be measured.
+2 In fact, some SOP proposals cite Brick, Palmon and Wald (2006) which shows that CEO pay tends to
+be higher when director pay is higher. See, for instance, the Cendant SOP proposal in its 2006 proxy
+statement: http://www.sec.gov/Archives/edgar/data/723612/000119312506153385/ddef14a.htm
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+235
+
+proposal to the changes for matched control firms that do not experience the proposals.
+We identify control firms by the propensity score matching approach. Using the
+compensation in the year prior to the proposal date as the benchmark year, we
+compare it to compensation in the year after the proposal. The results show that
+SOP firms increase their compensation less than non-SOP firms; non-SOP firms
+experience an 11% increase in the median value of total compensation, while CEOs
+of SOP firms experience a 4% median increase in total compensation. While this
+difference is statistically significant in univariate results, it no longer is significant in
+multivariate estimations that control for changes in firm characteristics.
+In addition, we examine how the different components of compensation change
+following the receipt of an SOP proposal. Boards must balance satisfying shareholders with satisfying executives so that the executives do not leave the firm. One way to
+do this is to change the compensation mix—in other words, reduce one form of compensation, like cash compensation, and replace it with another form of compensation,
+like options. We consider four forms of compensation: salary, bonus, restricted stock
+grants (RSGs), and option grants.
+Examining CEO compensation, we find that there is an overall shift from cash
+compensation to equity-based compensation. The bonuses of SOP firms decrease
+significantly more than those of non-SOP firms, in both the univariate analysis and
+the multivariate analysis. At the same time, we observe a significant increase in
+option grants for SOP CEOs versus non-SOP CEOs—options as a fraction of total
+compensation increase by seven percentage points more for SOP firms than non-SOP
+firms, whereas non-SOP firms actually experience a decrease in option compensation.
+The use of restricted stock increases for both types of firms. The reduction in bonus
+compensation and increase in equity performance-based compensation results in an
+even higher pay-for-performance sensitivity (PPS) for SOP firms. The increased use
+of option compensation as the form of performance-based compensation may reflect
+a kind of compromise, one that enables managers to lever their compensation once
+performance turns around while reducing cash as a percentage of compensation. In
+summary, for SOP firms, the decrease in bonus is offset by increases in options
+causing total compensation not to change significantly.
+In addition to examining the impact of SOP proposals on CEO compensation, we
+measure their bearing on the compensation of other executives and directors. Lazear
+and Rosen (1981) and Kale, Reis and Venkateswaran (2009) argue that in order to
+motivate executives to put forth more effort, a large spread in executive compensation
+is needed to create a tournament. As a result, if CEO compensation packages change,
+it is likely that other executives’ pay changes. Further, the proposal and its resulting
+attention could potentially impact director pay. We explore the impact of the proposals
+on directors’ compensation, specifically their cash, stock, and option awards.
+In contrast to CEOs, the median compensation of other executives of SOP firms
+decreases, whereas the compensation in benchmark firms increases. However, the
+same switch from cash (salary and bonus) to equity-based compensation (restricted
+stock and options) occurs for SOP executives. Directors of SOP firms also are affected
+
+236
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+by the proposals. Although there is a slight increase in average director pay for SOP
+firms, this increase is significantly less than the increase that non-SOP directors
+receive.
+The SOP movement did not originate in the United States. In 2002, the United
+Kingdom became the first country to enact SOP legislation, referred to as Directors
+Remuneration Report Regulation (DRR), spurring a few studies on its consequences.
+For instance, Ferri and Maber (2013), Alissa (2009), Carter and Zamora (2009),
+and Conyon and Sadler (2010) examine the impact of DRR on pay in the United
+Kingdom. However, there are significant differences in the way U.S. and U.K. CEOs
+are compensated which may alter the outcome of SOP in the United States versus the
+United Kingdom. In particular, the heavy use of incentive compensation, including
+stock and option grants, is unique for U.S. firms. Ferri and Maber (2013) make the
+comparison and find that cash compensation represents up to 67% of compensation to
+U.K. CEOs, while it comprises up to 34% of compensation for U.S. CEOs. Moreover,
+CEOs in the United States are paid more than those in the United Kingdom and
+other countries (Fernandes, Ferreira, Matos and Murphy, 2009). Taken together these
+findings suggest different cultures regarding pay. Because of this different pay culture,
+exploring the impact of SOP proposals in the United States, specifically, is of merit.
+Our study contributes to emerging studies on shareholder activism or shareholder voice in the United States. In general, Buchanan, Netter and Yang (2010)
+find that corporate governance is becoming increasingly responsive to shareholder
+activism expressed through proposals. Cai and Walking (2011) find that stock prices
+with abnormal compensation respond more positively to the passage of SOP legislation in the House of Representatives, suggesting a potential impact of SOP. Ertimur,
+Ferri and Muslu (2011) examine the relation between CEO pay and shareholder
+activism as expressed through compensation related vote-no campaigns and alternative mechanisms to SOP. Eritmur, Ferri and Muslu (2011) conclude that vote-no
+campaigns result in the most significant reductions in CEO pay and argue that they
+share similarities with SOP voting. Our study adds to the research by directly examining the impact of individual SOP proposals on U.S. firms and shows that equity
+compensation increases for SOP firms in the United States, more strongly linking
+compensation to performance.
+
+2. Background and relevant research
+2.1. CEO compensation and SOP
+Public outrage over compensation packages afforded to executives has recently
+been highlighted in the press. From academics (“flawed compensation arrangements
+have stemmed from defects in the underlying governance structure” [Bebchuk and
+Fried, 2006, p. 16]), to practitioners (“executive compensation is ridiculously out of
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+237
+
+line with performance”3 ), and shareholders (“we believe that existing U.S. corporate
+governance arrangements, including SEC rules and stock exchange listing standards,
+do not provide shareholders with sufficient mechanisms for providing input to boards
+on senior executive compensation”4 ), concerns are being voiced over CEO pay.
+In theory, the owners of a firm will set compensation to incentivize managers
+to maximize the wealth of the owners. However, because shareholders are dispersed,
+they must hire a board to represent their interests, both to monitor the CEO and to
+set compensation levels. As Shivdasani and Yermack (1999) and Cai, Garner and
+Walking (2009) point out, these board members are, in turn, often selected by the
+CEO. This may compromise board objectivity in setting compensation, resulting
+in compensation contracts that are determined under less than optimal bargaining
+conditions (Jensen and Murphy, 1990; Bebchuk and Fried, 2003). These conditions
+sometimes result in a pay structure that reflects managerial rent seeking (Bertrand
+and Mullainathan, 2001; Bebchuk, Fried and Walker 2002; Ryan and Wiggins, 2004).
+At the extreme, as Brick, Palmon and Wald (2006) assert, director objectivity could
+be especially inhibited in the event that “mutual back scratching” occurs in which
+director compensation is tied to CEO compensation. Directors and CEOs, at the very
+least, indirectly influence their own pay, and it is certainly rational for them to want
+to influence that pay upward.
+Regardless of the reasons why boards may not effectively set CEO pay, there is
+investor and public discord regarding executive pay packages. Further, proposals by
+investors suggest that board interests do not always align with shareholder interests
+in setting executive pay.
+Risk Metrics’ June 2008 SOP proposal offers an example of the rights that such
+a proposal provides: “the Company’s shareholders will be given the opportunity to
+vote on an advisory (nonbinding) resolution at each annual meeting to approve the
+Company’s Compensation Discussion and Analysis as outlined in the annual proxy
+statement.”5 The proposal requires shareholders to be given advisory votes on the
+company’s overall executive compensation policies and on whether the firm executed
+the policies appropriately. This extends the current rights of shareholders, under SEC
+rules, to approve materially amended equity compensation plans, allowing them an
+advisory vote for all forms of compensation.
+Proponents of SOP argue that such initiatives will empower shareholders to
+have an effect on executive pay, even though the vote is nonbinding. Bebchuk (2007)
+posits that shareholder disagreement on pay packages expressed through SOP votes
+might act as a constraint, resulting in more efficient bargaining between executives
+and boards. This is similar to Jensen and Murphy’s (1990) argument that informal
+
+3 www.bershirehathaway.com/letters/2005ltr.pdf
+4 Coca
+
+Cola DEF 14A, March 3, 2008. http://www.sec.gov/Archives/edgar/data/
+
+5 Risk
+
+Metrics, DEF 14A, June 4, 2008. http://www.sec.gov/Archives/edgar/data/
+
+238
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+political constraints truncate the upper tail of executive compensation. SOP provides
+an opportunity for shareholders to impose reputational consequences on directors
+by drawing public attention to their decisions involving compensation. For instance,
+Johnson, Porter and Shackell (1997) find that negative media coverage over a firm’s
+executive pay results in pay increases that are smaller in subsequent years, and in
+increases in PPS.
+Despite the fact that these votes are nonbinding, many executives oppose the
+proposals.6 There is concern that shareholders may oppose pay packages without
+due reason and therefore get in the way of the board functioning effectively and
+efficiently, preventing the board from focusing on more pertinent issues (Deane,
+2007). For instance, Goldman Sachs CEO Lloyd Blankfein states that “shareholder
+votes on executive pay would constrain directors from exercising judgment and hurt
+the investment bank’s ability to attract the best employees. It would create a cloud,
+a constraint, a limitation on decisions that have been at the heart of what a board
+has done.”7 Further, firms argue that if SOP adoption were in the best interest of
+the firm, boards would adopt it voluntarily. Finally, there is a question as to whether
+shareholders have the expertise to evaluate or set executive pay in the first place.
+Studies focusing on the United States indicate that SOP may have some effect.
+For instance, Cai and Walkling (2011) examine the stock price reaction of firms in
+response to the passage of SOP legislation in the House of Representatives. They find
+that firms with more excessive CEO compensation and lower pay-for-performance,
+and boards that respond more readily to shareholder pressure are impacted more
+positively. In contrast to the focus of our study, they do not examine the impact of
+the proposals on executive pay. Early research on shareholder proposals and CEO
+compensation does not find a significant change in pay in response to the shareholder
+pressure (Johnson, Porter and Shackell, 1997; Thomas and Martin, 1999), however.
+Studies on shareholder voice also suggest that SOP might have some influence.
+Most recently, Ertimur, Ferri and Muslu (2011) examine shareholder proposals on
+compensation that are alternatives to SOP, in addition to vote-no campaigns. In
+particular, they study the characteristics of firms that receive proposals and the kinds
+of proposals that receive shareholder support. They conclude that, in contrast to
+what SOP critics suggest, it does not appear that fringe shareholder groups are
+trying to micromanage executive pay. They argue that compensation-related vote-no
+campaigns share similarities with SOP in that they allow shareholders to express
+general dissatisfaction with pay. We extend this research by explicitly examining the
+impact of SOP proposals on executive compensation.
+In the United Kingdom, Ferri and Maber (2013) find that cash compensation
+becomes more sensitive to poor performance among firms adopting SOP. Conyon
+
+6 CEOs
+
+openly oppose push for SOP by shareholders. USA TODAY, Del Jones, July, 17, 2009.
+
+7 Goldman
+
+CEO says “say on pay” a bad idea, Reuters, 2008, http://www. reuters.com/article/idUSN
+1036192020080411
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+239
+
+and Sadler (2010) also examine changes in compensation among U.K. firms, but
+find no significant change. Similarly, we study how compensation changes for U.S.
+firms; however, since the components of U.S. compensation are more varied and
+more equity-based, the sensitivity of compensation to performance can be modified
+with more than just cash compensation, thus providing a richer environment to study
+its effects.
+
+2.2. Other executives’ compensation, board compensation and SOP
+As highlighted by the increasing concern over executive pay, it is not just the
+CEO whose compensation is under fire—all executives face a potential increase
+in scrutiny. Further, Lazear and Rosen (1981) and Kale, Reis and Venkateswaran
+(2009) argue that in order to motivate executives to put forth more effort, a large
+spread in executive compensation is needed to create a tournament. As a result,
+if CEO compensation packages change, it is likely that other executives’ pay also
+changes. On the other hand, if maintaining the current tournament structure is not of
+importance, then there may be no change in the pay of non-CEO executives.
+Similarly, the proposal and its resulting attention could potentially impact director pay. A recent article on http://www.cnn.com/ highlights the potential lack of
+independence between director and CEO pay.8 Ryan and Wiggins (2004) and Brick,
+Palmon and Wald (2006) show that CEO pay tends to be higher when director pay is
+higher. In fact, some SOP proposals cite Brick, Palmon and Wald (2006), as evidence
+of the need for shareholder SOP. This indicates that shareholders are at least paying
+attention to director pay and, that executives and directors are aware that shareholders
+are paying attention. While earlier research documents a relation between director
+and CEO pay, we recognize that the argument that SOP proposals will have an effect
+on director pay is tenuous. We therefore empirically examine for any effects.
+We focus on SOP proposals targeting individual companies in the United States.
+We examine the characteristics associated with a firm being targeted with an SOP
+proposal. In addition, we measure the changes in compensation occurring to targeted
+firms’ CEOs, non-CEO executives, and the board. Ours is the first study that we
+know of to examine the impact of individual SOP proposals on U.S. firms. It is also
+the first to explore its impact on other executives and board members.
+
+3. Empirical analysis
+3.1. Data and overview of the compensation environment
+We collect a sample of 137 SOP proposals over the period 2007–2008 from
+Capstone Research and ProxyDemocracy.org. To test whether the SOP proposals
+affect compensation, we require data to calculate the changes in compensation in the
+8 http://money.cnn.com/2010/01/04/news/companies/director_compensation.fortune/index.htm
+
+240
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+fiscal year before the proposal and the fiscal year after it. Compensation data are
+obtained from ExecuComp. After conditioning on the availability of compensation
+data for these firms from ExecuComp, we lose 27 observations. We drop Apple’s two
+proposals from our sample because the CEO only receives $1 in salary—a significant
+outlier. This results in a sample of 108 proposals from 76 companies. Accounting
+data are from Compustat and market data from CRSP.
+First, we observe compensation levels from 2003 to 2008 to see if there are any
+structural changes in compensation over those six years. Examining this period is
+important because activists’ incentives to bring forth SOP proposals likely stems from
+both the company’s and overall trends in the compensation environment; for instance,
+Murphy (1995) suggests that discrepancy in executive pay and average worker pay
+seems to coincide with public outrage over executive compensation.
+We focus on five compensation measures: salary, bonus, value of option grants,
+value of the RSGs, and total compensation (the sum of salary, bonus, other annual
+compensation, RSGs, long-term incentive plan payouts, all other compensation, and
+the value of option grants). We examine the levels of compensation because most
+news reports on executive pay discuss levels of pay as opposed to the percentage of
+compensation that is equity, etc. In fact, it would seem that high levels of stock options
+are described in the same manner as cash compensation. In addition, we scale each
+form of compensation by total compensation to understand how large a component
+it is of the total compensation package. This acknowledges that investors, whether
+they are sophisticated institutional or individual investors, potentially, also focus on
+the structure of compensation to incentivize management. We show the trend over
+time for both total compensation and the ratio of the compensation components in
+Figure 1, Panels A and B, respectively.
+Despite the inclusion of the recent financial crisis, we find an upward trend in
+total compensation: average compensation is $4.8 million in 2003 versus $7.2 million
+in 2008. Panel B of Figure 1 shows that salaries increase slightly over the period,
+with bonus showing evidence of stagnation or even decline. More notably, RSGs
+have been on the rise. While the use of RSGs increased, the value of options granted
+has decreased slightly, particularly over the period 2005–2007, picking up again in
+2008. This is consistent with firms trying to reduce managerial risk-taking incentives
+or may reflect a reduction in incentives to compensate with options due to recent
+accounting changes (Carter and Zamora, 2009).
+
+3.2. Description of the sample
+Panel A of Table 1 shows a breakout of the SOP proposals. Over the period 2006–
+2008, the popularity of SOP proposals significantly increases. While there were only
+three SOP proposals in 2006, there were 48 in 2007 and 57 in 2008. In 2006, no
+proposals passed, while in 2007 and 2008, only five and 11 passed, respectively.
+However, the activist shareholders that introduced the proposals are persistent. Panel
+B of Table 1 shows the frequency of the proposals. Thirty-three of the proposals were
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+241
+
+Figure 1
+Total compensation and components of compensation 2003–2008
+Panel A shows the total compensation over the period 2003–2008 for all S&P 1,500 firms with data in
+ExecuComp. Panel B shows the ratio of the option grant value over TDC1, the ratio of the option grant
+number over shares outstanding, the ratio of RSGs over TDC1, the ratio of salary to total assets, the ratio
+of bonus to total assets, the ratio of salary to TDC1, and the ratio of bonus to TDC1.
+
+242
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+Table 1
+Summary statistics
+This table reports descriptive summary statistics for say-on-pay (SOP) firms and non-SOP firms. The
+sample consists of 108 firms receiving an SOP proposal. The non-SOP firms are firms in ExecuComp that
+did not receive an SOP proposal and for which requisite data are available. Panel A shows the total number
+of proposals and the number that passed each year. Panel B shows the number of times the SOP proposal
+is brought to a company and the number of proposals passed on each attempt. Panel C shows the ten most
+common industries in the SOP sample. Panel D shows the firm variables. Cash flow is measured as net
+income plus depreciation divided by total assets. Return on assets is net income divided by total assets.
+Market-to-book is total liabilities plus market value of equity divided by total assets. Leverage is the ratio
+of long-term debt to total assets. The 12-month return is the 12-month compound return.
+Panel A: Distribution of proposals by proxy year
+Year
+
+Total
+
+Passed
+
+2006
+2007
+2008
+Total
+
+3
+48
+57
+108
+
+0
+5
+11
+16
+
+Number of times proposed
+
+Total
+
+Passed
+
+1
+2
+3
+Total
+
+75
+31
+2
+108
+
+12
+3
+1
+16
+
+Panel B: Distribution of attempts
+
+Panel C: Industry composition
+SOP
+Industry
+Banks
+Utilities
+Financials
+Pharmaceuticals
+Hardware
+Telecom
+Retail
+Insurance
+Oil
+Transportation
+
+Non-SOP
+
+Number
+
+Percentage
+
+Number
+
+Percentage
+
+9
+7
+6
+6
+5
+5
+4
+4
+4
+3
+
+12%
+9%
+8%
+8%
+7%
+7%
+5%
+5%
+5%
+4%
+
+83
+67
+56
+41
+20
+13
+83
+67
+46
+31
+
+7%
+6%
+5%
+3%
+2%
+1%
+7%
+6%
+4%
+3%
+(Continued)
+
+put forth more than once. Of those, three passed the second time and one passed the
+third time.
+Panels C and D of Table 1 present descriptive statistics for SOP and non-SOP
+firms. SOP firms are significantly larger than non-SOP firms whether measured
+by sales, market value, or assets. Thus, proposals might target firms that are more
+visible to the public. The average (median) SOP firm has a market capitalization of
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+243
+
+Table 1 (continued)
+Summary statistics
+Panel D: Firm characteristics in the proposal year
+SOP
+
+Cash flow
+Sales (MM)
+MV (MM)
+ROA
+Market-to-book
+Debt ratio
+12-month return
+N
+
+Non-SOP
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+0.08
+49,200∗∗∗
+73,800∗∗∗
+0.094
+1.306∗∗∗
+0.182
+−0.131∗∗∗
+108
+
+0.08
+22,600
+40,400
+0.088
+1.111
+0.157
+−0.129
+
+0.09
+5,776
+7,860
+0.102
+1.617
+0.180
+0.011
+793
+
+0.09
+1,926
+2,720
+0.091
+1.316
+0.152
+0.016
+
+∗∗∗ , ∗∗ , ∗
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively. MM, millions; MV,
+market value, ROA, return on assets.
+
+$73.8 billion ($40.4 billion), whereas the benchmark firms have a market cap of $7.9
+billion ($2.7 billion). Growth options, measured by total liabilities plus market value
+of equity divided by total assets, are significantly larger in non-SOP firms. The firms
+are similar in terms of leverage (the ratio of long-term debt to total assets) and cash
+flows (the sum of net income and depreciation divided by total assets). The proposal
+year of the SOP firms is preceded by poor performance relative to non-SOP firms,
+as measured by the 12-month compounded return (an average of –13% versus 1%
+for SOP firms and benchmark firms, respectively), which may be the catalyst for the
+proposals.
+
+3.3. The likelihood of receiving an SOP proposal
+To gain insight into the characteristics of firms that are targeted with an SOP
+proposal, we model the likelihood of an SOP proposal in a logistic regression with an
+indicator variable equal to 1 in the year of the SOP proxy. Our control sample includes
+all ExecuComp firms that have the required data over the period 2003–2008 but have
+not had any SOP proposals. However, while any firm can be targeted for SOP, we find
+that SOP firms are significantly larger than non-SOP firms. Therefore, we eliminate
+any control firms that have total assets less than the smallest SOP firm ($627.2
+million, unreported), resulting in 1,202 control firms. The advantages of including
+all non-SOP firms is that the sample is reflective of the total population of firms; we
+have statistical power to identify ways in which SOP firms differ from the population,
+and the logistic regressions do not overstate the probability a given firm will receive
+a proposal. We explore the likelihood of a proposal based on total compensation and
+other firm characteristics. We include controls associated with receiving a proposal
+(Karpoff, Malatesta and Walkling, 1996; Cai and Walkling, 2011; Eritmur, Ferri
+
+244
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+and Muslu, 2011)—a proxy for size (sales), performance (return on assets [ROA],
+12-month return), market-to-book and leverage, measured in year (t−1) where t is the
+proposal year. For a subset of firms for which we obtain data from the IRRC database,
+we include the Bebchuk, Cohen and Farrell (2009) measure of entrenchment index,
+board size, CEO duality, the percentages of the board and compensation committee
+that is independent, and a proxy for busy boards (the average number of other boards
+that independent directors hold). All regressions control for industry (Fama-French
+49 industries) and year effects.
+Table 2 presents results. Regression (1) shows that after controlling for firm size
+and other firm characteristics, higher total compensation is significantly associated
+with receiving an SOP proposal. Specifications (2) and (3) add governance—the
+number of observations falls to 1,887 from 2,902 as a result of data availability. Total
+compensation retains its significance. In regression (3) we substitute the fraction
+of compensation that is cash-based (salary and bonus) and equity-based (restricted
+stock and options). Each is significant, although cash-based compensation has a larger
+coefficient indicating that cash is a slightly more important factor than equity. Size is
+significantly positive in both specifications, thus, proposals might be targeted to firms
+that are more visible to the public. With respect to the governance characteristics,
+large and busy boards are more likely to receive an SOP proposal. Similar to Ertimur,
+Ferri and Muslu (2011), we find that boards with greater independence are more
+likely to be targeted and that the entrenchment index is negatively associated with
+being targeted.9 It is possible that shareholders predict less success in generating
+change if the CEO is entrenched in the company, and, therefore, do not waste their
+resources by presenting a proposal.
+In summary, SOP firms seem to be large firms with greater total compensation.
+Our results are consistent with Ferracone’s (2010) study of CEO pay, which concludes
+that the top 5% of CEOs who are paid highly attract attention that leads to the
+impression that all CEOs are paid very highly. The results also are consistent with
+Eritmur, Ferri and Muslu (2011) who show that compensation-related activism is
+associated with higher levels of CEO total and equity-based pay.
+
+4. Changes in compensation and say-on-pay
+4.1. Compensation data
+The central focus of our study is to test for changes in compensation due
+to the SOP proposal. To do so, we use a difference-in-difference approach as in
+Cheng and Farber (2008). This approach takes into account changes in compensation
+due to industry and other time invariant characteristics. The difference-in-difference
+estimate also assumes that the SOP firms’ compensation will have followed the same
+trend as the non-SOP firms’ compensation.
+9 Ertimur,
+
+Ferri and Muslu (2011) provide a possible explanation for this.
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+245
+
+Table 2
+The likelihood of receiving an SOP proposal
+This table reports the logistic regression estimations for the likelihood of receiving a say-on-pay (SOP)
+proposal. The dependent variable is equal to 1 if the company receives an SOP proposal. The sample
+consists of 108 SOP and non-SOP firms identified over the period 2006–2008 that have data on ExecuComp,
+Compustat, and CRSP. Board data are from the IRRC database. Total compensation is the sum of salary,
+bonus, other annual compensation, RSGs, long-term incentive plan payouts, and all other compensation.
+Cash/total compensation is the sum of salary and bonus, divided by total compensation. Incentive/total
+compensation is the sum of stock and option compensation divided by total compensation. Board size is
+the size of the board. CEO is chair is equal to 1 if the CEO is chair of the board. Entrenchment index is
+from Bebchuk, Cohen and Farrell (2009). % Board independence is the percentage of the board that is
+independent. % Indep. on compensation is the percentage of the compensate committee that is independent.
+% Busy board is the average number of boards independent directors sit on. Other control variables are as
+defined in Table 1, Panel D. All independent variables are measured one year prior to the SOP proposal
+year. We also control for industry and year effects. Standard errors are shown in parentheses.
+
+Log (sales)
+ROA
+Market-to-book
+Debt ratio
+12-month return
+Total compensation
+
+(1)
+
+(2)
+
+(3)
+
+0.975∗∗∗
+(0.05)
+−0.605
+(0.91)
+−0.008
+(0.06)
+−0.335
+(0.43)
+−0.269
+(0.18)
+0.769∗∗∗
+(0.08)
+
+0.731∗∗∗
+(0.07)
+−1.572
+(1.16)
+−0.186∗∗
+(0.08)
+0.104
+(0.48)
+−0.011
+(0.20)
+0.703∗∗∗
+(0.10)
+
+0.595∗∗∗
+(0.07)
+−4.574∗∗∗
+(1.44)
+−0.282∗∗∗
+(0.09)
+−0.241
+(0.51)
+−0.045
+(0.22)
+
+−17.487∗∗∗
+(0.75)
+2,902
+0.401
+
+0.079∗∗∗
+(0.03)
+0.057
+(0.12)
+−0.242∗∗∗
+(0.05)
+0.005∗∗
+(0.00)
+−0.031
+(0.05)
+0.124∗∗∗
+(0.04)
+−15.488∗∗∗
+(0.87)
+1,887
+0.398
+
+Cash/total compensation
+Incentive/total compensation
+Board size
+CEO is chair
+Entrenchment index
+% Board independence
+% Indep. on compensation
+% Busy board
+Constant
+Observations
+Pseudo R-squared
+∗∗∗ , ∗∗ , ∗
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively.
+
+1.263∗∗∗
+(0.50)
+1.235∗∗∗
+(0.46)
+0.056∗
+(0.03)
+0.057
+(0.12)
+−0.192∗∗∗
+(0.05)
+0.002∗∗
+(0.00)
+−0.035
+(0.05)
+0.156∗∗∗
+(0.04)
+−8.053∗∗∗
+(0.84)
+1,887
+0.203
+
+246
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+To make our comparison of SOP firms with control firms more precise, we
+find control firm matches using a propensity score. The propensity score is the
+probability that a firm with given characteristics is an SOP firm. In their seminal
+papers, Rosenbaum and Rubin (1983) and Rubin (1997) show that propensity score
+matching removes biases between samples. Drucker and Puri (2005) argue that it is
+superior to commonly used simple industry-size matching. To match firms based on
+the propensity scores, we use a Probit model that includes the factors affecting the
+likelihood of receiving an SOP proposal, including industry, year, size (measured by
+log of sales), and performance. Because the non-SOP sample is sufficiently large,
+we employ a 1-to-N matched sample, reducing the standard errors relative to using
+a one-to-one sample match. The average difference between the propensity score of
+the SOP sample and the benchmarks is 0.003. After matching, the firms are no longer
+significantly different in terms of firm characteristics. The return of matched nonSOP firms is 0.01 while SOP remains at –0.13 (reported in Table 1, Panel D for SOP
+firms).10 After applying the propensity score matching technique, the mean (median)
+market capitalization of non-SOP firms is now $66.3 million ($27.2 million), with
+sales of $43.1 million ($16.2 million). The market to book ratio is higher, though not
+significantly, for non-SOP firms, with an average of 1.47.
+
+4.2. Analysis of changes in CEO compensation
+Panel A of Table 3 reports summary statistics on CEO pay in SOP and matched
+firms. The univariates show that SOP firms receive a greater fraction of their compensation in the form of equity pay relative to matched firms, and that total compensation
+is higher with a mean of $17 million ($14 million) versus $8 million ($6 million)
+for non-SOP firms. Both cash and equity-based pay are higher in SOP firms, as well
+as PPS. PPS is measured according to Core and Guay (1999), and measures the
+change in wealth from equity-based pay for a 1% change in stock price. Panel B
+of Table 3 compares the change in the compensation between the SOP firms from
+the year before to the year after the proposal is received, with the respective change
+for non-SOP firms. Median total compensation increases 4% for SOP firms and less
+than the 11% for benchmark firms. The averages are much greater with average total
+compensation increasing 38% in SOP firms and 51% in non-SOP firms.11 We also
+examine the percent change in the various forms of the compensation components:
+It becomes evident that SOP firms are substituting more incentive compensation for
+bonus compensation. Bonus compensation decreases by 8% as a fraction of total
+
+10 When we exclude financials, the performance of the sample and control firms is no longer significantly
+different. Similarly, performance is not significant in the multivariate estimations of the likelihood of a
+proposal because the financials indicator picks up the effect (unreported). When we exclude financials
+from the sample, results from an analysis of changes in compensation are qualitatively similar.
+11 Winsorizing
+
+compensation does not significantly affect results.
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+247
+
+Table 3
+CEO compensation for SOP firms
+This table reports summary statistics for CEO compensation in say-on-pay (SOP) and matched non-SOP
+firms. Panel A reports the fraction and levels of the components of compensation measured at time
+(t−1) for SOP firms. Panel B reports the changes in compensation. The compensation variables include
+salary, bonus, the value of restricted stock grants (RSGs), the value of option grants, pay-for-performance
+sensitivity (PPS), total cash compensation, total equity incentive compensation, and total compensation
+(TDC1). Cash compensation is the sum of salary and bonus. Equity compensation is the sum of RSG and
+options. TDC1 is the sum of salary, bonus, other annual compensation, RSGs, long-term incentive plan
+payouts, and all other compensation. Pairwise t-tests and rank tests are used to examine whether there is a
+significant difference between the benchmark and SOP firms in mean and median, respectively.
+Panel A: CEO compensation
+SOP
+
+Options/ TDC1
+RSGs/TDC1
+Salary/TDC1
+Bonus/TDC1
+PPS
+Cash compensation
+Equity compensation
+TDC1
+
+Non-SOP
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+0.31∗∗∗a
+
+0.3∗∗∗
+
+0.22a
+
+0.30a
+0.17∗a
+0.16∗∗a
+4,745∗∗∗a
+3,382∗∗∗a
+11,042∗∗∗a
+17,085∗∗∗a
+
+0.28
+0.10∗
+0.10∗∗
+794∗∗∗
+2,021∗∗∗
+8,731∗∗∗
+14,429∗∗∗
+
+0.28a
+0.19 a
+0.20a
+1,423a
+2,715a
+4,935a
+8,442a
+
+0.18
+0.25
+0.14
+0.16
+521
+2,000
+3,287
+6,288
+
+Panel B: Change in CEO compensation from years (t−1) to year (t+1)
+SOP
+Mean
+Options/TDC1
+RSGs/TDC1
+Salary/TDC1
+Bonus/TDC1
+PPS
+Cash compensation
+Equity compensation
+TDC1
+N
+
+0.01∗∗∗b
+
+0.05∗∗∗c
+0.04∗c
+−0.08∗∗∗a
+0.49∗∗∗a
+−0.08∗∗∗a
+0.09∗∗∗a
+0.38∗∗∗a
+108
+
+Non-SOP
+Median
+
+Mean
+
+Median
+
+0.02∗
+
+−0.06
+0.11a
+−0.02c
+−0.06a
+0.33a
+−0.04c
+0.04c
+0.51a
+849
+
+0.00
+0.04
+−0.01
+−0.03
+0.00
+−0.03
+0.02
+0.11
+849
+
+0∗∗∗
+0∗∗∗
+−0.06∗∗∗
+0.00∗∗∗
+−0.05∗∗
+0.05∗∗∗
+0.04∗∗∗
+108
+
+∗∗∗ , ∗∗ , ∗
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively. a , b , and c denote a
+significant difference from zero for the mean at the 0.01, 0.05 and 0.10 level, respectively.
+
+compensation in SOP firms in comparison to 6% in non-SOP firms. Both option and
+restricted stock compensation become a larger fraction of total compensation in SOP
+firms. The use of restricted stock also increases for the non-SOP sample; however,
+the options for non-SOP firms decrease as a fraction of total compensation. It is
+possible that the benchmark firms are replacing option compensation with restricted
+
+248
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+stock compensation, while the SOP firms still are more heavily relying on option
+compensation.
+In a multivariate framework, we explore the impact of SOP proposals on compensation, controlling for firm-level attributes that affect compensation. Because we
+are measuring the impact on changes in compensation, we also measure the change
+in firm-level characteristics that affect compensation. As in prior research (Core and
+Guay, 1999; Cheng and Farber, 2008), we use the lagged changes of the control
+variables. Specifically, we model:
+Compensation type(t−1,t+1) = α0 + α1 SOP + α2 compensationt−2
++ βi Controls(t−2,t) + Year Indicators
++ Industry Indicators + ε.
+
+(1)
+
+We estimate Equation (1) using the percent change in compensation measures
+as dependent variables: the percent change is measured as the difference in the
+component as a fraction of total compensation in year (t+1) relative to year (t−1).
+SOP is an indicator variable equal to 1 if the firm received an SOP proposal. We
+control for basic firm characteristics and those associated with compensation design.
+Control variables include the natural log of sales as a proxy for size—larger firms
+tend to have larger compensation packages. Further, Core and Guay (1999) argue that
+because larger firms may be more complex, equity incentive levels may need to be
+greater to counter agency problems. We also include leverage. Bryan, LeeSeok and
+Lilien (2000) find that leverage is negatively associated with equity compensation,
+suggesting that debt acts as a substitute for monitoring, thus reducing the need
+for stock-based compensation. Firms with better prior performance should reward
+executives for the performance; thus there should be a positive relationship between
+performance and compensation (Hanlon, Rajgopal and Shevlin, 2003). We use two
+measures of performance: the 12-month return described previously and profitability,
+calculated as net income divided by total assets. Firms experiencing more cash
+constraints possibly switch to greater equity compensation; we control for cash flow
+using net income plus depreciation divided by total assets. Finally, we include lagged
+total compensation to take into account any effect of the level of compensation
+on changes in compensation. For instance, a CEO who is paid at the top of his
+pay scale may experience smaller increases in compensation than a CEO who is
+paid significantly less. Year and industry dummies (Fama-French 49 industries) are
+included to control for any time and industry effects.
+Panel A of Table 4 reports results for the regressions of compensation on the
+SOP dummy and controls. It is important to keep in mind that in a difference-indifference regression, to be significant, the change must be greater for SOP firms
+relative to non-SOP firms. We start with cash compensation in models (1) and (2).
+The results also show that bonus as a fraction of total compensation decreases more for
+SOP firms—by 2.1 percentage points—while salary’s fraction of total compensation
+increases more in SOP firms. Whereas the univariates show that option and RSGs
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+249
+
+Table 4
+Multivariate Analysis
+The sample consists of 108 say-on-pay (SOP) and propensity-score matched control firms. SOP is an
+indicator variable that equals 1 if the company receives an SOP proposal. The dependent variable in
+regressions (1) through (4) is the percent change in the respective component of compensation as a
+fraction of total compensation. The dependent variable in regressions (5) and (6) are the percent change in
+PPS and total compensation. All of the dependent variables are measured at time (t−1) to (t+1), where t is
+the year the proposal is received. Unexercisable option/TDC1 and exercisable option/TDC1 are the value
+of unexercisable and exercisable options adjusted by total compensation. Control variables are defined in
+Table 3 and are lagged relative to the dependent variables. Industry and year-fixed effects are included
+(unreported). Standard errors are shown in parentheses.
+(1)
+ Salary/
+TDC1
+
+(2)
+ Bonus/
+TDC1
+
+(3)
+ RSG/
+TDC1
+
+(4)
+ Option($)/
+TDC1
+
+(5)
+PPS
+
+(6)
+TDC1
+
+0.156∗∗∗
+(0.05)
+−0.024
+(0.04)
+0.358
+(0.64)
+0.123
+(0.15)
+1.327
+(0.89)
+0.089
+(0.06)
+−0.131
+(0.38)
+0.540∗∗∗
+(0.09)
+
+−0.237
+(0.31)
+−1.349∗∗∗
+(0.31)
+3.051∗
+(1.83)
+−0.246
+(0.42)
+2.692
+(2.54)
+0.440∗∗∗
+(0.17)
+−0.612
+(1.10)
+0.394∗
+(0.24)
+
+Panel A: Difference-in-difference analysis of SOP and non-SOP firms
+0.017
+(0.02)
+0.156∗∗∗
+(0.02)
+0.102
+(0.13)
+−0.034
+(0.03)
+0.373∗∗
+(0.17)
+
+−0.021∗∗
+(0.01)
+0.021
+(0.02)
+0.239∗
+(0.10)
+−0.063
+(0.03)
+0.297
+(0.17)
+
+−0.005
+(0.08)
+0.139∗∗∗
+(0.02)
+
+−0.048
+(0.03)
+0.037
+(0.02)
+
+−0.046∗
+(0.03)
+−0.101∗∗∗
+(0.03)
+0.041
+(0.16)
+−0.070∗
+(0.04)
+0.033
+(0.23)
+−0.001
+(0.02)
+0.079
+(0.10)
+0.043∗∗
+(0.02)
+
+ Unexercisable option/
+TDC1
+ Exercisable option/
+TDC1
+Constant
+−0.339∗∗∗
+(0.11)
+Observations
+957
+Adjusted R-squared
+0.133
+
+−0.084
+(0.04)
+957
+0.014
+
+0.311∗∗
+(0.15)
+957
+0.057
+
+SOP
+Lag total compensation
+ Cash flow
+ Log (Sales)
+ ROA
+ Market-to-book
+ Debt
+Lag 12-month return
+
+0.064∗∗
+(0.03)
+−0.036
+(0.03)
+0.024
+(0.17)
+0.001
+(0.04)
+0.627∗∗∗
+(0.23)
+0.033∗∗
+(0.02)
+0.095
+(0.10)
+0.059∗∗∗
+(0.02)
+−0.010∗∗∗
+(0.00)
+−0.008∗∗∗
+(0.00)
+0.104
+(0.15)
+957
+0.143
+
+−1.168∗
+(0.63)
+957
+0.196
+
+2.667∗
+(1.63)
+956
+0.011
+(Continued)
+
+increase for both SOP and non-SOP firms, estimation (4) shows that options as a
+fraction of total compensation increases by 6.4 percentage points more for SOP
+firms. While the use of RSGs as a fraction of total compensation increases for both
+sets of firms; it increases 4.6% less for SOP firms than for non-SOP firms (estimation
+3). Similarly, the PPS increases more for SOP firms than for non-SOP firms. The
+insignificant coefficient on the SOP dummy in the final regression shows that total
+
+250
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+Table 4 (continued)
+Multivariate Analysis
+(1)
+ Salary/
+TDC1
+
+(2)
+ Bonus/
+TDC1
+
+(3)
+ RSG/
+TDC1
+
+(4)
+ Option($)/
+TDC1
+
+(5)
+ PPS
+
+(6)
+%  TDC1
+
+Panel B: Difference-in-difference analysis of SOP and non-SOP firms controlling for proposals
+that passed
+SOP
+Passed
+Log total compensation
+ Cash flow
+ Log (Sales)
+ ROA
+ Market-to-book
+ Debt
+Lag 12-month return
+
+0.021
+−0.017∗∗ −0.033
+(0.02)
+(0.00)
+(0.03)
+−0.027
+−0.028
+−0.076
+(0.06)
+(0.02)
+(0.07)
+0.158∗∗∗
+0.023
+−0.096∗∗∗
+(0.02)
+(0.02)
+(0.03)
+0.105
+0.243∗
+0.049
+(0.13)
+(0.10)
+(0.16)
+0.034
+−0.063
+0.072∗
+(0.03)
+(0.03)
+(0.04)
+0.377∗∗
+0.291
+0.024
+(0.17)
+(0.17)
+(0.23)
+−0.001
+(0.02)
+−0.005
+−0.048
+0.076
+(0.08)
+(0.03)
+(0.10)
+0.139∗∗∗
+0.038
+0.044∗∗
+(0.02)
+(0.02)
+(0.02)
+
+ Unexercisable option/
+TDC1
+ Exercisable option/
+TDC1
+Constant
+−0.343∗∗∗ −0.088
+(0.12)
+(0.04)
+Observations
+957
+957
+Adjusted R-squared
+0.168
+0.021
+∗∗∗ , ∗∗ , ∗
+
+0.301∗∗
+(0.15)
+957
+0.096
+
+0.051∗
+(0.03)
+0.099
+(0.07)
+−0.043
+(0.03)
+0.013
+(0.17)
+0.002
+(0.04)
+0.612∗∗∗
+(0.23)
+0.034∗∗
+(0.02)
+0.096
+(0.10)
+0.059∗∗∗
+(0.02)
+−0.010∗∗∗
+(0.00)
+−0.008∗∗∗
+(0.00)
+0.119
+(0.15)
+957
+0.181
+
+0.135∗∗
+(0.06)
+0.114
+(0.28)
+−0.0224∗∗∗
+(0.01)
+−0.340
+(0.64)
+0.123
+(0.15)
+1.315
+(0.89)
+0.089
+(0.06)
+−0.133
+(0.39)
+0.541∗∗∗
+(0.09)
+
+−1.153∗
+(0.63)
+957
+0.196
+
+0.135
+(0.33)
+0.736
+(0.80)
+−1.402∗∗∗
+(0.32)
+2.967∗
+(1.83)
+0.241
+(0.42)
+2.580
+(2.54)
+0.444∗∗∗
+(0.17)
+−0.605
+(1.10)
+0.389
+(0.24)
+
+2.778∗
+(1.63)
+956
+0.052
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively.
+
+compensation does not change significantly more for SOP firms than non-SOP firms.
+We conclude that after receiving an SOP proposal, directors alter the compensation
+mix away from bonuses and toward other forms of incentive compensation, especially
+option compensation for SOP firms. Given the poor performance of SOP firms,
+options provide executives a way to tie their compensation to performance, creating
+a motivation for a turnaround of performance. This is consistent with Ferracone’s
+(2010) conjecture that firms use more stock options in low-performance years. We
+note that because total compensation does not decrease significantly for SOP firms
+relative to non-SOP, and it appears that options are being substituted for bonuses.
+The control variables include changes in size, ROA, free cash flow, returns,
+growth, and debt. In the regressions for option compensation, we include changes
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+251
+
+in exercisable and unexercisable options. Following Cai and Walkling (2011) we do
+not include changes in market-to-book in the regressions using cash compensation—
+salary and bonus—because accounting-based measures are more important for cash
+compensation than market measures. However, results are similar if we include this
+proxy for growth opportunities. As expected, ROA is positively associated with bonus
+compensation. It is also significantly associated with RSGs. Firms with higher cash
+flows seem to have higher total compensation and more bonus compensation. Finally,
+in general, performance as measured by lagged market returns is positively associated
+with the components of compensation.
+The proposals passed for some SOP firms and not for others. For robustness,
+we include an indicator equal to 1 if the proposal passes, and we report the results
+in Panel B of Table 4. The results largely mirror the results in Panel A; however,
+the coefficient on the SOP dummy is no longer significant for the percent change in
+RSGs (model 3). The passed indicator is not significant in any specification. This
+suggests that it is the action of bringing the proposal forth that matters, not whether
+the proposal actually passes.12
+In summary, while the board of directors does not significantly decrease total
+compensation when faced with SOP proposals, it changes the mix of compensation.
+Both SOP and non-SOP firms use more restricted stock and options. The percent
+option compensation of total compensation increases more for SOP firms. This
+change in compensation mix may help retain talent. Further, utilizing more options
+allows managers to lever their payoffs once performance is turned around (see e.g.,
+Dodonova and Khoroshilov, 2006; Brookman, Chang and Rennie, 2007). To do so,
+boards move away from cash compensation and rely more heavily on incentive
+compensation.
+
+4.3. The impact of SOP on other executives and board members
+We examine other executives’ and board members’ pay. Given that there is
+more than one executive for each firm, we measure the average of their compensation
+components for each firm-year. For directors, ExecuComp changed the way it records
+data starting in 2007. To make the pre-2007 data compatible with the post-2007 data,
+we do the following: Pre-2007, we calculate total cash fees as the annual director
+retainer plus director meeting fee multiplied by the number of meetings. The value of
+director option awards is calculated as the options received by all directors plus max
+additional options, each multiplied by the per-option value. Given that ExecuComp
+does not report the per-option value for directors, and because the options granted
+to directors typically resemble those given to the CEO (Brick, Palmon and Wald,
+12 In unreported results, we also examine shareholder support for the proposals and find that more shareholder support leads to lower cash and total compensation. Additionally, we examine union-supported
+proposals and find that union support does not matter. Finally, since part of our SOP sample received
+multiple proposals, we examine whether the number of tries matters, and results are qualitatively the same.
+
+252
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+2006), we use the CEO per-option value as our measure of the value of a given
+director option. In addition, we calculate the value of stock awards to directors as the
+total shares received by directors multiplied by the close price at fiscal-year end. For
+the post-2007 director compensation, we measure total cash fees as cash fees plus
+nonequity incentive compensation and then average each component of compensation
+across directors for a firm. We calculate PPS using the average vesting period and
+strike price of the options granted to CEOs to extrapolate the vesting period of the
+directors’ options. In each subperiod, total compensation is the sum of total cash fees,
+stock awards, and option awards. Note that the stock awards are equity, not restricted
+stock as for executives and CEOs.
+We use the same methodology and firms to explore the change in compensation
+for other executives as in the analysis for CEOs. In addition to the controls used
+in the CEO analysis, we also control for changes in CEO compensation because
+the changes in executive compensation should change with CEO compensation,
+particularly if the firm is maintaining a tournament structure. Similar to the setup for
+CEOs, we control for the executives’ or board members’ lagged total compensation.
+In this section, when we use the term executive compensation, we are referring to
+non-CEO executive compensation.
+Panel A of Table 5 shows the univariate statistics for the percent change
+in both other executives’ compensation and directors’ compensation. Similarly
+to the CEOs, we see that the executives at SOP firms experience a decrease in
+their bonus following the proposal, around 9% on average versus a 4% reduction in the bonus of non-SOP executives. Options and RSGs increase for the
+non-CEOs for an overall increase in equity-based compensation. There is a 9%
+decrease in median other executives’ total compensation for SOP firms, whereas
+the non-SOP firms’ executives experience a median increase of 11% in total
+compensation.
+Panel B of Table 5 shows the change in the components of the directors’ compensation. It is interesting to note that although the directors of SOP firms experience
+an increase in total compensation, the increase is significantly lower than non-SOP
+directors’ increase over the same period. This suggests that director pay has increased
+over the past few years, perhaps in response to the additional risk and work that directors have taken on in the post-Sarbanes-Oxley environment. However, SOP directors
+do not receive the same increases in compensation that non-SOP directors receive.
+There is not much difference in the change in the various ratios of director compensation when comparing SOP firms to non-SOP firms, except that option grants
+decrease more significantly for SOP firms.
+Table 6 shows the multivariate estimations. Models (1) through (6) focus on
+non-CEO executives. For SOP executives, both bonus and salary as a fraction of
+compensation decrease more than for non-SOP executives. Each of these is significant at the 1% level. In contrast, options and restricted stock as a fraction of total
+compensation each increase more for SOP firms relative to non-SOP. Again, cash
+compensation is being at least partially replaced with equity compensation resulting
+
+253
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+Table 5
+
+Changes in compensation for other executives and directors of say-on-pay (SOP) and control firms
+This table reports the mean values and percent changes in other executives’ compensation and directors’
+compensation between years (t−1) and (t+1) for SOP and non-SOP firms, where t is the year of the
+proposal. Panel A reports the changes in the ratios of compensation for other executives. The compensation
+ratio variables include salary, bonus, the value of restricted stock grants (RSGs), and the value of option
+grants, all adjusted by total compensation (TDC1). Cash compensation is salary plus bonus divided by
+total compensation. Incentive compensation is restricted stock plus options divided by total compensation.
+PPS is pay-for-performance sensitivity. Panel B shows the change in these ratios for directors. We use
+pairwise t-tests and rank tests to determine whether there is a significant difference between the benchmark
+and SOP firms in mean and median, respectively.
+Panel A: Change in compensation of non-CEO executives as a fraction of total compensation from
+years (t−1) to year (t+1)
+SOP
+
+Salary/TDC1
+Bonus/TDC1
+RSGs/TDC1
+Options/ TDC1
+Cash compensation
+Incentive compensation
+PPS
+Total compensation
+N
+
+Non-SOP
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+0.01∗
+−0.09∗∗∗a
+0.08∗a
+−0.01∗∗∗c
+−0.08∗∗∗a
+0.04∗∗∗a
+0.39∗∗∗a
+0.13∗∗∗c
+108
+
+0.01∗∗∗
+−0.06∗∗∗
+0.04
+0.01∗∗∗
+−0.04∗∗∗
+0.05∗∗∗
+0.55∗∗∗
+−0.09∗∗∗
+108
+
+−0.01c
+−0.04a
+0.09
+−0.06a
+−0.04a
+0.03a
+0.18a
+0.3a
+849
+
+−0.01
+−0.02
+0.06
+−0.02
+−0.02
+0.02
+−0.01
+0.11
+849
+
+Panel B: Change in compensation of directors as a fraction of total compensation from years (t−1)
+to year (t+1)
+SOP
+
+Cash/total compensation
+Stock/total compensation
+Option/total compensation
+Incentive compensation
+PPS
+Total compensation
+N
+
+Non-SOP
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+0.02
+0.01
+−0.04a
+−0.02a
+−0.55a
+0.06∗∗∗
+108
+
+0.02
+0
+0
+−0.02
+−0.30
+0.01∗∗∗
+108
+
+0.01
+0.03a
+−0.01a
+−0.01a
+−0.39a
+0.85a
+849
+
+0.03
+0
+0
+−0.03
+−0.45
+0.24
+849
+
+∗∗∗ , ∗∗ , ∗
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively. a , b , and c denote a
+significant difference from zero for the mean at the 0.01, 0.05 and 0.10 level, respectively.
+
+in an overall increase in PPS. However, the changes in compensation result in an
+overall smaller increase in total compensation for SOP firm executives relative to
+non-SOP executives.
+As for the control variables, the positive coefficient on the corresponding CEO
+compensation component is significant in all specifications, supporting the inference
+
+(5)
+% PPS
+
+(6)
+%  TDC1
+0.006
+(0.03)
+0.074∗∗
+(0.03)
+−0.073∗∗∗
+(0.01)
+−0.203
+(0.16)
+−0.022
+(0.04)
+0.480∗∗
+(0.23)
+−0.002
+(0.02)
+
+(4)
+ Option/
+TDC1
+
+−0.044∗∗∗ −0.049∗∗∗ 0.033∗
+0.025∗
+0.941∗∗ −0.230∗∗ −0.058∗∗
+(0.01)
+(0.02)
+(0.01)
+(0.01)
+(0.69)
+(0.10)
+(0.03)
+CEO compensation
+0.191∗∗∗ 0.384∗∗∗ 0.472∗∗∗ 0.473∗∗∗ 0.008∗∗∗
+0.078∗∗∗
+0.020
+percent 
+(0.02)
+(0.02)
+(0.02)
+(0.02)
+(0.00)
+(0.01)
+(0.02)
+Lag total compensation 0.049∗∗∗ 0.036∗∗∗ −0.019∗∗∗ −0.016∗∗ −0.367∗∗∗ −0.508∗∗∗
+0.190∗∗∗
+(0.01)
+(0.01)
+(0.00)
+(0.01)
+(0.07)
+(0.05)
+(0.01)
+ Cash flow
+−0.158∗∗ −0.023
+0.066
+0.025
+2.885
+2.353∗∗∗ −0.039
+(0.07)
+(0.09)
+(0.16)
+(0.09)
+(1.72)
+(0.60)
+(0.15)
+ Log (sales)
+0.007
+−0.031
+0.048∗∗
+0.027
+0.879
+0.411∗∗∗ −0.037
+(0.02)
+(0.02)
+(0.01)
+(0.02)
+(0.97)
+(0.14)
+(0.04)
+0.231
+−0.057
+−0.113
+−1.012
+0.107
+ ROA
+−0.156
+0.212∗
+(0.10)
+(0.12)
+(0.17)
+(0.12)
+(0.51)
+(0.83)
+(0.21)
+ Market-to-book
+−0.007
+0.027∗∗∗ 0.371∗∗
+0.035
+(0.01)
+(0.01)
+(0.17)
+(0.06)
+
+SOP
+
+(3)
+ RSG/
+TDC1
+
+(8)
+ Stock/
+Total
+
+(2)
+ Bonus/
+TDC1
+
+(7)
+ Cash/
+Total
+
+(1)
+ Salary/
+TDC1
+
+Non-CEO compensation
+
+(Continued)
+
+−0.347∗∗∗
+(0.04)
+−0.006
+(0.02)
+−2.185∗∗
+(0.41)
+0.371
+(2.73)
+1.407∗∗∗
+(0.23)
+−4.108
+(3.96)
+0.363
+(0.24)
+
+(10)
+(11)
+%  PPS %  Total
+−0.044∗∗ −0.203∗∗∗
+(0.02)
+(0.10)
+0.158∗∗∗ 0.001
+(0.04)
+(0.01)
+−0.110∗∗∗ 0.524∗∗∗
+(0.02)
+(0.17)
+0.222
+0.321
+(0.17)
+(0.33)
+0.061
+−3.512
+(0.04)
+(4.95)
+−0.455∗ −4.990∗∗
+(0.27)
+(2.27)
+−0.011
+3.337∗
+(0.02)
+(1.88)
+
+(9)
+Option/
+Total
+
+Director
+
+This table reports the multivariate estimations for the change in compensation of non-CEO executives and directors. Regressions (1) through (6) report results for
+non-CEO executives. Regressions (7) though (11) report results for directors. Say-on-pay (SOP) is an indicator variable that equals 1 if the company receives an
+SOP proposal. The observations consist of 108 SOP and propensity-matched control firms. For non-CEO executives, the compensation variables include salary,
+bonus, the value of restricted stock grants (RSGs), the value of option grants, and total compensation (TDC1). TDC1 is the sum of salary, bonus, other annual
+compensation, RSGs, long-term incentive plan payouts, and all other compensation. For boards, compensation is option, stock, and cash compensation; TDC1
+is the sum of these. We control for industry and year effects (unreported). All of the changes are measured at time (t−1) to (t+1), where t is the year the proposal
+is received. Standard errors are shown in parentheses.
+
+Changes in non-CEO executive and director compensation
+
+Table 6
+
+254
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+(3)
+ RSG/
+TDC1
+
+0.302∗∗
+(0.09)
+956
+0.454
+
+0.034
+−0.082
+(0.06)
+(0.09)
+0.063∗∗∗
+0.003
+(0.01)
+(0.02)
+
+−0.464∗∗∗ −0.327∗∗∗
+(0.07)
+(0.09)
+956
+956
+0.251
+0.407
+
+−0.039
+(0.04)
+0.031∗∗∗
+(0.01)
+
+(2)
+ Bonus/
+TDC1
+
+4.340∗∗∗
+(0.60)
+955
+0.230
+
+−0.210
+(0.36)
+0.320∗∗∗
+(0.08)
+
+(5)
+(6)
+% PPS %  TDC1
+
+0.092∗
+−1.035
+(0.05)
+(2.42)
+0.002
+0.771∗∗
+(0.01)
+(0.22)
+−6.038∗∗∗
+(2.14)
+0.128∗∗∗
+(0.05)
+0.092∗
+0.03∗
+(0.05)
+(0.02)
+956
+956
+0.498
+0.211
+
+(4)
+ Option/
+TDC1
+
+indicate statistical significance at the 0.01, 0.05 and 0.10 level, respectively.
+PPS, pay-for-performance sensitivity; ROA, return on assets.
+
+∗∗∗ , ∗∗ , ∗
+
+Observations
+Adjusted R-squared
+
+Constant
+
+ exercisable option
+
+ unexercisable option
+
+Lag 12-month return
+
+ Debt
+
+(1)
+ Salary/
+TDC1
+
+Non-CEO compensation
+
+Changes in non-CEO executive and director compensation
+
+Table 6 (continued)
+
+−0.865∗∗∗
+(0.17)
+815
+0.284
+
+0.103
+(0.10)
+0.006
+(0.02)
+
+(7)
+ Cash/
+Total
+
+(9)
+Option/
+Total
+
+0.275
+(0.18)
+815
+0.103
+
+−9.015
+(10.41)
+6.524∗∗
+(2.27)
+
+(10)
+%  PPS
+
+0.568∗∗∗
+2.085∗∗∗
+(0.11)
+(10.93)
+815
+559
+0.226
+0.143
+
+−0.004
+−0.116
+(0.10)
+(0.10)
+0.051∗∗
+0.031
+(0.02)
+(0.02)
+
+(8)
+ Stock/
+Total
+
+Director
+
+10.604∗∗
+(2.56)
+815
+0.222
+
+−1.630
+(1.08)
+0.117
+(0.26)
+
+(11)
+%  Total
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+255
+
+256
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+that CEO pay affects executive pay. While greater compensation in the past is associated with lower increases in options and restricted stock, it is positively associated
+with salary and bonus; however, on the whole, changes in total compensation are lower
+when prior compensation is higher. Bonus increases with performance whether measured by ROA or market returns. Salary also increases with performance. Finally,
+option compensation is positively related to growth options, as expected. Option
+compensation increases with exercisable options and decreases with unexercisable
+options, consistent with the replacement of options.
+In models (7) through (11), we present the results for directors’ compensation,
+which consists of cash, equity (not restricted stock), and options. We find that the
+total compensation of directors of SOP firms increases significantly less than that of
+directors of control firms. This is due primarily to reductions in option awards and
+a smaller increase in cash as percentages of total compensation, while changes in
+stock compensation are not significantly different from those in non-SOP firms. In
+summary, it seems that directors may reduce their amount of option grants in response
+to the shareholder disapproval expressed by the proposal. With respect to the control
+variables, stock and option compensation to directors is positively related to CEO
+compensation; except for cash, the coefficients on total director compensation are
+negative and significant, and profitability is positively related to stock and option
+compensation.
+
+5. Conclusion
+Executive compensation seems to undergo cycles of scrutiny often coinciding
+with market downturns. However, as CEO pay of larger publicly traded firms has
+increased dramatically compared to that of the average worker—CEO pay was 84
+times higher in 1985 but 262 times higher in 200013 —investors and the public at large
+are taking more concrete and permanent action. SOP proposals are an example of
+shareholders voicing their concern not only for the duration of the market downturn,
+but also for the future. SOP allows shareholders to have a more active and permanent,
+though nonbinding, voice in executive pay in the future by having an advisory role
+in compensation of a firm. However, there is a debate over whether SOP provisions
+actually have any merit when it comes to real change in compensation. We test
+whether SOP proposals do indeed help to change compensation.
+We find that although total compensation increases insignificantly less for SOP
+firms than for non-SOP firms, SOP companies use more incentive-based compensation and less cash-based compensation. Option grants increase for both samples,
+though more so for SOP firms. A significant decrease in bonus compensation for
+SOP firms further marks a shift from cash compensation toward performance-based
+compensation.
+
+13 Economic
+
+policy institute, www.epi.org
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+257
+
+Our results show that even though the SOP votes are nonbinding, SOP likely
+serves a purpose by providing an avenue for shareholders to voice their concerns. The
+SOP proposal does not need to pass in order to enact change—companies change the
+mix of compensation just by receiving an SOP proposal. It is even possible that some
+firms voluntarily move away from cash compensation just to avoid an SOP proposal.14
+Our results may be understated if mandatory SOP encourages monitoring of more
+firms. Our findings contribute to the research on the increasing role of shareholder
+voice and, more specifically, provide more information on the SOP initiatives debate.
+References
+Alissa, W., 2009. Boards’ response to shareholder’s dissatisfaction: The case of shareholders say on pay
+in the UK. Working paper, Pennsylvania State University.
+Bebchuk, L., 2007. Written testimony submitted before the Committee on Financial Services United States
+House of Representatives Hearing on Empowering Shareholders on Executive Compensation, March
+8.
+Bebchuk, L., A. Cohen, and A. Farrell, 2009. What matters in corporate governance? Review of Financial
+Studies 22, 783–827.
+Bebchuk, L. and J. Fried, 2003. Executive compensation as an agency problem, Journal of Economic
+Perspectives 17, 71–92.
+Bebchuk, L. and J. Fried, 2006. Pay Without Performance: The Unfulfilled Promise of Executive Compensation (Harvard University Press, Cambridge, MA).
+Bebchuk, L., J. Fried, and D. Walker, 2002. Managerial power and rent extraction in the design of executive
+compensation, University of Chicago Law Review 69, 751–846.
+Bertrand, M. and S. Mullainathan, 2001. Are CEOs rewarded for luck? The ones without principals are,
+Quarterly Journal of Economics 116, 901–932.
+Brick, I., O. Palmon, and J. Wald, 2006. CEO compensation, director compensation, and firm performance:
+Evidence of cronyism? Journal of Corporate Finance 12, 403–423.
+Brookman, J., S. Chang, and C. Rennie, 2007. CEO cash and stock-based compensation changes, layoff
+decisions, and shareholder value, Financial Review 42, 99–119.
+Bryan, S., H. LeeSeok, and S. Lilien, 2000. CEO stock-based compensation: An empirical analysis of
+incentive-intensity, relative mix, and economic determinants, Journal of Business 73, 661–693.
+Buchanan, B., J. Netter, and T. Yang, 2010. Are shareholder proposals an important corporate governance
+device? Evidence from US and UK shareholder proposals. Working paper, University of Georgia.
+Cai, J., J. Garner, and R. Walkling, 2009. Electing directors, Journal of Finance 64(5), 2389–2421.
+Cai, J. and R. Walkling, 2011. Shareholders’ say on pay: Does it create value? Journal of Financial and
+Quantitative Analysis 46, 299–339.
+Carter, M. and V. Zamora, 2009. Shareholder remuneration vote and CEO compensation design. Working
+paper, Boston College.
+Cheng, Q. and D. Farber, 2008. Earnings restatements, changes in CEO compensation, and firm performance, The Accounting Review 83, 1217–1250.
+Conyon, M. and G. Sadler, 2010. Shareholder voting and directors’ remuneration report legislation: Say
+on pay in the UK. Corporate Governance: An International Review 18(4), 296–312.
+Core, J. and W. Guay, 1999. The use of equity grants to manage optimal equity incentive levels, Journal
+of Accounting and Economics 28, 151–184.
+Deane, S., 2007. Say on pay: Results from overseas, Corporate Board 28, 11–18.
+
+14 http://www.shareholderforum.com/op/Library/20071100_Latham&Watkins-memo.pdf
+
+258
+
+N. Burns and K. Minnick/The Financial Review 48 (2013) 233–258
+
+Dodonova, A. and Y. Khoroshilov, 2006. Optimal incentive contracts for loss-averse managers: Stock
+options versus restricted stock grants, Financial Review 41, 451–482.
+Drucker, S. and M. Puri, 2005. On the benefits of concurrent lending and underwriting, Journal of Finance
+60, 2763–2799.
+Ertimur, Y., F. Ferri, and V. Muslu, 2011. Shareholder activism and CEO pay, Review of Financial Studies
+24(2), 535–592.
+Fernandes, N., M. Ferreira, P. Matos, and K. Murphy, 2009. The pay divide: (Why) are U.S. top executives
+paid more? Working Paper, University of Southern California.
+Ferracone, R., 2010. Fair Pay, Fair Play: Aligning Executive Performance and Pay (Wiley, John & Sons,
+Inc., San Francisco, CA).
+Ferri, F. and D. Maber, 2013. Say on pay votes and CEO compensation: Evidence from the UK, Review
+of Finance 17(2), 527–563.
+Hanlon, M., S. Rajgopal, and T. Shevlin, 2003. Are executive stock options associated with future earnings?
+Journal of Accounting and Economics 36, 3–43.
+Jensen, M. and K. Murphy, 1990. Performance pay and top-management incentives, Journal of Political
+Economy 98, 225–264.
+Johnson, M., S. Porter, and M. Shackell, 1997. Stakeholder pressure and the structure of executive
+compensation. Working paper, Michigan State University, University of Massachusetts at Amherst,
+and Notre Dame.
+Kale, J., E. Reis, and A. Venkateswaran, 2009. Rank-order tournaments and incentive alignment: The
+effect on firm performance, Journal of Finance 64, 1479–1512.
+Karpoff, J., P. Malatesta, and R. Walkling, 1996. Corporate governance and shareholder initiatives: Empirical evidence, Journal of Financial Economics 42, 365–395.
+Lazear, E. and S. Rosen, 1981. Rank order tournaments as optimum labor contracts, Journal of Political
+Economy 89, 841–864.
+Murphy, K., 1995. Politics, economics, and executive compensation, University of Cincinnati Law Review
+63, 713–748.
+Rosenbaum, P. and D. Rubin, 1983. The central role of the propensity score in observational studies for
+causal effects, Biometrika 70, 41–55.
+Rubin, D., 1997. Estimating causal effects from large data sets using propensity scores, Annals of Internal
+Medicine 127, 757–763.
+Ryan, H. and R. Wiggins III, 2004. Who is in whose pocket? Director compensation, board independence,
+and barriers to effective monitoring, Journal of Financial Economics 73, 497–524.
+Shivdasani, A. and D. Yermack, 1999. CEO involvement in the selection of new board members: An
+empirical analysis, Journal of Finance 59, 1829–1853.
+Thomas, R.S. and K.J. Martin, 1999. The effect of shareholder proposals on executive compensation,
+University of Cincinnati Law Review 67, 1021–1081.
+
+

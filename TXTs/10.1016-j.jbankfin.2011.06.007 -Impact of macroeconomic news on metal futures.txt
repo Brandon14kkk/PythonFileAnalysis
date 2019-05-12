@@ -1,0 +1,3524 @@
+Journal of Banking & Finance 36 (2012) 51–65
+
+Contents lists available at ScienceDirect
+
+Journal of Banking & Finance
+journal homepage: www.elsevier.com/locate/jbf
+
+Impact of macroeconomic news on metal futures
+John Elder, Hong Miao, Sanjay Ramchander ⇑
+Department of Finance and Real Estate, Colorado State University, USA
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 1 November 2010
+Accepted 9 June 2011
+Available online 25 June 2011
+JEL classiﬁcation:
+G14
+Keywords:
+Macroeconomic news
+Metal futures
+Return
+Volatility
+Volume
+
+a b s t r a c t
+This paper uses intra-day data for the period 2002 through 2008 to examine the intensity, direction, and
+speed of impact of US macroeconomic news announcements on the return, volatility and trading volume
+of three important commodities – gold, silver and copper futures. We ﬁnd that the response of metal
+futures to economic news surprises is both swift and signiﬁcant, with the 8:30 am set of announcements
+– in particular, nonfarm payrolls and durable goods orders – having the largest impact. Furthermore,
+announcements that reﬂect an unexpected improvement in the economy tend to have a negative impact
+on gold and silver prices; however, they tend to have a positive effect on copper prices. In comparison,
+realized volatility and volume for all three metals are positively inﬂuenced by economic news. Finally,
+there is evidence that several news announcements exert an asymmetric impact on market activity
+variables.
+Ó 2011 Elsevier B.V. All rights reserved.
+
+1. Introduction
+The relationship between information arrival and asset price
+movements is of central importance to price formation and price
+discovery in ﬁnancial markets, and is a topic that has been extensively investigated in the literature. For instance, the mixture of
+distributions model relies on ‘‘news’’ to explain movements in asset returns (see Tauchen and Pitts, 1983). Among the various
+sources of information the role of public information is frequently
+examined because they are easily identiﬁable, and also carry implications for the canonical model of weakly efﬁcient markets which
+posits that security prices reﬂect all available information. Chen
+et al. (1986) highlight the importance of macroeconomic factors
+such as industrial production and measures of unanticipated inﬂation on stock returns. In a related study, Flannery and Protopapadakis (2002) relate equity returns to macroeconomic variables.
+More recently, research attention has shifted to an examination
+of intra-day data that provides additional insights into the market
+microstructure behavior relating to trading and pricing variables.
+As a case in point, Adams et al. (2004) show that unanticipated
+inﬂationary news has distinguishable effects on intra-day equity
+returns, and that most of this information is incorporated within
+minutes of the news release.
+
+⇑ Corresponding author. Tel.: +1 970 491 6681; fax: +1 970 491 6196.
+E-mail addresses: john.elder@business.colostate.edu (J. Elder), hong.miao@
+business.colostate.edu (H. Miao), sanjay.ramchander@business.colostate.edu
+(S. Ramchander).
+0378-4266/$ - see front matter Ó 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jbankﬁn.2011.06.007
+
+This paper explores the price formation process and trading volume activity in the metals futures market around the release of
+new macroeconomic information. Four important questions are addressed. First, what is the impact of macroeconomic news on the
+return, realized volatility and volume of gold, silver and copper
+futures? Second, does the release of macroeconomic news affect
+the three metals in different ways? Third, how long does it take
+for the impact of macroeconomic news shocks to be fully absorbed
+by the market? Finally, does the metals market respond asymmetrically to the release of unexpected macroeconomic news?
+The answers to these questions are important for several reasons.
+First, our analysis is based on high-frequency intra-day data, which
+allows us to detect patterns of market reaction that may not be easily
+discerned in lower frequency daily data. In this regard, it is important to point out that the empirical literature using daily data ﬁnds
+only mixed or relatively weak evidence of the link between macroeconomic announcements and commodity prices (see Roache and
+Rossi, 2010; Hess et al., 2008), thus lending support to the argument
+that, unlike other assets, commodity prices are predetermined with
+respect to US macroeconomic aggregates such as real output, consumption and investment variables (Kilian and Vega, 2010). Therefore, an investigation of how an important class of commodities,
+speciﬁcally metals, responds to macroeconomic news at intra-day
+frequencies provides a meaningful contrast with existing studies.
+Based on Andersen’s (1996) argument that different types of news
+may have different stochastic arrival processes and therefore convey
+varying impacts on pricing behavior, we evaluate the impact of 19
+different types of macroeconomic news. These announcements are
+sorted by the time of each news release, with the aim of identifying
+
+52
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+those announcement times that have the largest impact on the metals market. Furthermore, taking into account evidence from related
+asset markets such as equities (Koutmos and Booth, 1995), we also
+examine whether or not metal futures respond asymmetrically to
+economic news. We contend that a study of how metal futures prices
+react to positive versus negative economic surprises would be informative not only in terms of market efﬁciency and information processing, but may also provide an explanation as to why previous
+studies that do not account for potential asymmetries may have
+been unsuccessful in documenting a signiﬁcant relationship between economic news and commodity prices.
+Second, compared to ﬁnancial assets, there is a relative paucity
+of studies that examine the role of information in the metal futures
+markets. This is especially noteworthy considering that in recent
+years there has been a steady increase in the amount of investor
+attention given to these markets. In general, the popularity of commodities, and in particular metals, stems from the belief that these
+assets act as a hedge against inﬂation, offer valuable diversiﬁcation
+opportunities to investors, serve as a monetary medium during
+times of market uncertainty, and have a wide range of manufacturing and industrial applications. It is therefore not entirely surprising that these products are one of the most heavily traded in
+organized futures exchanges.
+Finally, our study is comprehensive in scope in that it evaluates
+the responsiveness of several market activity variables including
+return, volatility and trading volume. We construct a realized volatility measure that accounts for intra-day price information within each particular time interval.
+Therefore, to summarize, our sample period, research design,
+and empirical methods allow us to investigate more fully the
+high-frequency dynamics of three important commodities. The
+remainder of the paper is organized as follows. In the next two sections we provide a literature review and discuss theoretical considerations, respectively. Section 4 explains the data sources,
+summary statistics and cleaning procedures. Section 5 provides a
+brief description of the research design and empirical methods,
+and discusses the results. Section 6 concludes the paper.
+
+2. Literature review
+A survey of the literature in the metals commodities markets reveals three major research streams: (a) characterization of the distributional properties of metal prices (Khalifa et al., 2011); (b)
+identiﬁcation of dynamic relationships between futures and spot
+prices of various metals (Kocagil, 1997); and (c) examination of metals as a hedge against inﬂation, currency rate risk, and market uncertainty (Baur and Lucey, 2010). Our study on how metal futures
+market responds to macroeconomic news adds a new dimension
+to the literature and carries implications for market efﬁciency, risk
+premia, and the pricing and trade behavior of gold, copper and silver.
+Although there is a vast amount of literature that documents
+the effects of macroeconomic news on stocks (e.g., Boyd et al.,
+2005), bonds (e.g., Simpson and Ramchander, 2004; Nowak et al.,
+2011) and currencies (e.g., Simpson et al., 2005; Chen and Gau,
+2010), the corresponding literature on the reaction of metal prices
+to economic announcements is relatively scarce. Some notable
+exceptions exist. Using daily data, in a broader examination of 12
+different commodities including gold, silver and copper, Roache
+and Rossi (2010) ﬁnd that daily prices are relatively insensitive
+to macroeconomic news. Hess et al. (2008) provide a state-dependent interpretation of macroeconomic news by showing that daily
+commodity prices are responsive only during recessionary periods,
+but not during periods of economic growth.
+To our knowledge there are only two studies that use intra-day
+data to examine gold and/or silver prices. Christie-David et al.
+
+(2000) use intra-day 15-min transaction prices between 1992
+and 1995 to show that the impact of economic surprises on the return variance of gold and silver futures prices is less pronounced
+compared to interest rate futures. Cai et al. (2001) provide a detailed characterization of return volatility in gold futures using 5min returns between 1994 and 1997. They ﬁnd that the impact
+of macroeconomic announcements is much smaller on gold compared to the impact on Treasury bond or currency markets, and
+only four announcements – jobs report, inﬂation, GDP and personal
+income – carry statistically signiﬁcant effects on gold volatility.
+Our study differs from both Christie-David et al. (2000) and Cai
+et al. (2001) in several regards. First, we use a longer and more recent time frame (2002 through 2008) for the analysis, a period during which metal prices experienced a dramatic increase in price
+and trading activity. For instance, the futures price of gold increased more than threefold during this period (from about $278
+per troy ounce in 2002 to about $1003 in 2008). There was also a
+corresponding rise in aggregate trading volume from about 6.8
+million contracts in 2001 to more than 38 million in 2008.1 Second,
+our study is more comprehensive in scope since we consider the impact of economic news on three important market activity variables
+– i.e., returns, volatility and trading volume. Third, we differentiate
+our work from prior studies by constructing a realized volatility
+measure that has been shown to provide consistent estimates of
+integrated volatility in the underlying price process (see BarndorffNielsen and Shephard, 2002).2 A ﬁnal point of distinction is that
+our study allows for the possibility of return, realized volatility
+and volume measures to respond asymmetrically to macroeconomic
+news announcements, and examines the persistence of economic
+shocks in the metals futures market.
+3. Theoretical considerations
+Physical commodities are different from most ﬁnancial assets in
+that they are continuously produced and consumed. The fact that
+they can be stored implies that production need not be consumed
+at once. Therefore, mismatches between production and consumption levels can lead to either accumulation or depletion of inventory resulting in price changes. The theory of storage (see
+Brennan, 1958) highlights the role of the interest costs of storing
+the commodity as an important determinant of commodity price
+changes. In this framework, an unexpected increase in interest
+rates reduces the demand for inventories (since it raises storage
+costs) and puts downward pressure on commodity prices.
+Unfortunately, given that aggregate inventories are usually not
+observable and inventory estimates are subject to potential misrepresentation, one may have to explain observed price changes
+in the context of information arrival. It is in this context that an
+examination of macroeconomic news, which reveals new information about future economic conditions, becomes pertinent in
+explaining commodity price movements. However, it must be
+noted that although news releases are expected to affect commodity prices by altering market beliefs about future economic conditions, the direction of the impact is indeterminate a priori. For
+instance, announcements that cause market participants to revise
+1
+The price movement in the copper market is even more dramatic. Its price was
+about $0.66 per pound at the beginning of 2002 and reached a peak in July 2008 when
+it closed at about $4.04 per pound; only to drop precipitously to about $1.26 at the
+end of 2008. The aggregated volume in copper futures increased from 2.8 million
+contracts in 2001 to 4.56 million contracts in 2008. Silver also seem to have followed
+a similar meteoric rise. It was about $4.53 per troy ounce at the beginning of 2002 and
+closed at its peak at $20.92 in March 2008. The aggregate volume of silver futures
+increased from 2.58 million in 2001 to 8.8 million in 2008.
+2
+Note that, however, the presence of microstructure noise may bias realized
+volatility estimates. We account for such potential bias using alternative estimators,
+as discussed in the ‘research design’ section of the study.
+
+53
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+their expectations of inﬂation upwards may lead investors to
+rebalance their portfolios by shifting out of money and into physical assets like commodities. This is likely to result in a positive
+price change. On the other hand, based on the policy anticipation
+hypothesis, if market participants anticipate a tighter monetary
+policy response to curb higher inﬂation, this may cause real interest rates to rise, and along with slower expected economic growth,
+drive down commodity prices. In sum, the response of commodity
+price changes to macroeconomic news is an empirical issue since
+the price response function is an amalgam of inﬂation expectations
+and expected monetary policy response.
+Predicting the price response can be further complicated by the
+fact that there is a wide degree of variation among individual commodity types. This is illustrated by Erb and Harvey (2006) who ﬁnd
+a low degree of correlation between different commodity futures
+products. In the case of metals, it would be reasonable to expect
+that the price response of precious metals (gold and silver) which
+are often seen as an alternative investment vehicle is different
+from industrial metals such as copper which is viewed a primary
+input in manufacturing. Therefore, it is possible that a surprise
+improvement in economic growth may cause gold and silver prices
+to drop because of portfolio rebalancing effects, but result in higher
+copper prices due to greater industrial demand.
+The pattern of the response of trading volume to anticipated
+announcements may also take different forms. Theoretical trading
+models such as Glosten and Milgrom (1985) endow informed traders
+with private information about impending announcements. Prior to
+anticipated announcements, these models imply that liquidity declines, as market makers seek to protect themselves from trading
+with informed traders, while volume may increase as long as the
+beneﬁts of informed trading exceed the costs of trading. In these
+models, the public announcement ameliorates the advantage of
+the informed traders, and volume may be either low or high, depending on whether there is pent up demand from uninformed traders.
+In models such as that described by Kim and Verrecchia (1994),
+the acquisition of private information prior to the announcement is
+endogenous, and depends on the cost of acquiring private information as well as the expected quality of the announcement. They
+ﬁnd that volume after the announcement is directly related to
+price volatility (measured as the absolute value of the price
+change), with an increase in the quality of the announcement tending to strengthen the reaction of volume. There is no reason for
+these characterizations to be mutually exclusive, so an empirical
+study can offer evidence on which effect tends to dominate.
+Finally, in comparison to returns and volume, our expected
+response of volatility is somewhat more predictable. Ross (1989)
+argues that in an arbitrage free economy return volatility should
+be related to information arrival or variation in information frequencies. This argument is supported by Pasquariello and Vega
+(2007) who ﬁnd that, ceteris paribus, price volatility increases in
+the presence of public information signals. Our research attempts
+to disentangle these various effects.
+
+through Friday during the following hours (Eastern Standard
+Time): 8:20 am–1:30 pm for gold, 8:25 am–1:25 pm for silver,
+and 8:10 am–1:00 pm for copper. Trading is also offered simultaneously on the Globex electronic trading platform Sunday through
+Friday from 6:00 pm–5:15 pm. The raw tick-by-tick futures price
+data speciﬁes the time, to the nearest second, and the price of
+the futures transaction. We construct a continuous price series
+from front month contract, rolling over to the next contract when
+the daily tick volume of the ﬁrst back-month contract exceeds the
+daily tick volume of the current front month contract. This procedure avoids stale prices from the front-month contract that typically occur in the 4 weeks prior to expiration. The futures prices
+are then sampled at 1-min discrete intervals, yielding about
+500,000 price observations for each metal. The 1-min observations
+are then used to construct 5-min return and volatility measures.
+Table 1 reports summary statistics for the daily return series for
+gold, silver and copper. Gold has a daily mean return of 0.065% and
+standard deviation 1.23%. Copper and silver have daily mean returns of 0.0426% and 0.0511% respectively, and both have a daily
+standard deviation of about 2%. The distribution of the return series for each metal exhibits negative skewness and excess kurtosis,
+and for each series the Jarque–Bera test rejects the null hypothesis
+of normality.
+Our data on macroeconomic news releases consists of 19 different announcements and is obtained from Bloomberg. For each
+announcement, we collect both the realized value and the consensus (median) forecast as reported in Bloomberg. Each announcement is released monthly on pre-arranged schedule and
+disseminated immediately on newswires and other data providers.
+In order to make meaningful comparison of the estimated news
+impact across the three asset classes and different news releases,
+we ‘‘standardize’’ the news measures. Speciﬁcally, the unanticipated component, or surprise, in each announcement is computed
+as the difference between the actual (or realized) value and the
+consensus forecast, normalized by its standard deviation. Let Ai,t
+denote the realized value of an announcement of type i at time t,
+and Ei.t denote the consensus forecast. The standardized surprise
+element of the announcement is deﬁned as:
+
+SAi;t ¼
+
+Ai;t  Ei;t
+
+ð1Þ
+
+ri
+
+where ri is the sample standard deviation of the surprise component of the type i announcement, Ai,t  Ei.t. Because ri is constant
+for each announcement, the standardization procedure should not
+affect the statistical signiﬁcance of the estimated response coefﬁcients and ﬁt of the regression model.
+We also calibrate each surprise announcement so that a positive
+value represents stronger-than-expected economic growth, and a
+negative value represents weaker-than-expected economic
+growth. Therefore, we switch the sign for the unemployment rate
+surprise so that positive surprise represents an unemployment rate
+that is lower than expected.
+We classify the 19 macroeconomic announcements into three
+categories depending on the time of each announcement. There
+
+4. Data characteristics
+4.1. Futures prices and macroeconomic announcements data
+Our data on metals prices consists of intra-day, tick-by-tick, futures transaction prices for gold, silver and copper for the period
+January 2002 through December 2008. The data for trading volume
+is available only for 2007 and 2008. The futures data is obtained
+from the Futures Industry Institute.
+Gold, silver and copper metal futures trade on the Chicago Mercantile Exchange (CME), which provides both open outcry (pit) and
+electronic (Globex) trading. Open outcry trading occurs Monday
+
+Table 1
+Summary statistics of daily raw returns (percentages) for the period 2002–2008.
+
+Mean
+Median
+Standard deviation
+Skewness
+Kurtosis
+Jarque–Bera
+Probability
+No. of observations
+
+Gold futures
+
+Copper futures
+
+Silver futures
+
+0.0653
+0.0897
+1.2339
+0.2635
+6.9825
+1188.18
+0.0000
+1767
+
+0.0426
+0.0611
+1.9992
+0.4042
+7.6518
+1635.69
+0.0000
+1761
+
+0.0511
+0.1857
+2.1158
+1.0500
+10.3024
+4246.01
+0.0000
+1765
+
+54
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+Table 2
+List of US macroeconomic news announcements: 2002–2008.
+Time
+
+Announcements (abbreviation)
+
+Total
+
+Std. Dev. of surprise components
+
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+8:30
+9:15
+9:15
+10:00
+10:00
+10:00
+10:00
+10:00
+10:00
+10:00
+
+Advance retail sales (ARS)
+Business inventories2 (BI)
+Change in nonfarm payrolls (CNP)
+Consumer price index (CPI)
+Durable goods orders (DGO)
+Housing starts (HS)
+Personal consumption1 (PC)
+Personal income (PI)
+Producer price index (PPI)
+Trade balance goods and services (TB)
+Unemployment rate (UR)
+Industrial production (IP)
+Capacity utilization (CU)
+Business inventories2 (BI)
+Construction spending (CS)
+Consumer conﬁdence (CC)
+Factory orders (FO)
+Leading indicators (Li)
+NAPM
+New home sales (NHS)
+Total
+
+84
+35
+84
+84
+84
+84
+72
+84
+84
+84
+84
+84
+84
+49
+84
+84
+84
+84
+84
+84
+1584
+
+0.1582
+2.5123
+108.2439
+78.8039
+0.7946
+0.2892
+0.5486
+0.5121
+55.9627
+0.1434
+0.2281
+0.3989
+0.3350
+14.3884
+0.5556
+0.6866
+8.0338
+0.1787
+77.2018
+0.2281
+
+This table lists the 19 different types of macroeconomic announcements along with the standard deviation of the surprise component. The
+surprise component is measured by: Surprise = Actual – Forecast. (For personal consumption, we only have data from 2003. For business
+inventories, some of the announcements were at 8:30 and others at 10.)
+
+4.2. Data cleaning and control sample
+We clean the data using the following steps. First, we exclude
+any weekend announcements. For instance, there are 28
+announcements on Saturdays (23 business inventories, four capacity utilization and one durable goods orders) and two announcements on Sundays (1 CPI and 1 for housing starts). Since there is
+no trading on weekends, we remove these 30 announcements. Second, in order to minimize bias due to stale prices and nonsynchronous trading we eliminate days with relatively low trading activity.
+3
+Business inventory is a special case. It was released at 8:30 am before June 2003.
+It was sometimes released at 8:30 am and sometimes at 10:00 am from June 2003 to
+November 2005. However, since December 2005 it has been always released at
+10:00 am. Therefore, there are 10 announcements plus some of the business
+inventory announcements at 8:30, and there are 6 other announcements plus some
+of the business inventory announcements at 10:00.
+
+Number of Announcements vs. Day of the Week
+Number of Announcements
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Day of the Week
+Number of Announcements vs. Day of the Month
+140
+
+Number of Announcements
+
+are 11 announcements at 8:30 am, two announcements at
+9:15 am, and seven announcements at 10:00 am.3 Table 2 reports
+the different types of macroeconomic and the associated time of release. A survey of the different economic announcements indicates
+that there are: (a) eight real activity economic variables (advance retail sales, capacity utilization, changes in nonfarm payroll, personal
+income, unemployment rate, housing starts, industrial production,
+and NAPM); (b) three consumption variables (personal consumption
+expenditure, new home sales, trade balance); (c) four investment
+variables (business inventories, durable goods orders, construction
+spending, factory orders); (d) two price variables (CPI, PPI); and (e)
+two forward looking variables (consumer conﬁdence, leading
+indicators).
+There are a total of 1584 announcements during the sample
+period. The distribution of macroeconomic announcements is
+shown in Fig. 1. All announcements are released each month on
+a prescheduled day at a ﬁxed time. With the exception of the
+Employment Situation Report, which includes information about
+nonfarm payrolls and the unemployment rate, and which are usually released on Fridays, most other announcements are evenly distributed through the week. The news releases also appear to be
+clustered around the middle of the month, with elevated levels
+during the beginning and end of each month.
+
+120
+100
+80
+60
+40
+20
+0
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+Day of the Month
+Fig. 1. Distribution of macroeconomic announcements, number of announcements
+versus day of the week, number of announcements versus day of the month.
+
+There are about 310, 290, and 300 1-min price intervals per trading
+day for gold, copper and silver, respectively. We remove those days
+from the sample where the number of 1-min price observations is
+
+55
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+found to be less than 50% of the number of price observations in a
+normal trading day. Finally, similar to Ederington and Lee (1993),
+we construct a control sample consisting of trading intervals that
+are not contaminated by one of our 19 scheduled news announcements. The control sample allows us to make meaningful statistical
+inferences on the impact of announcements and also accounts for
+any potential intraday patterns in the data.
+We examine price and volume in the study over a 50-min time
+period: 10 min prior to the new release and 40 min after the new
+release. We compare the study sample response to economic news
+with a time-matched control sample that is constructed using observations from days when there are no macroeconomic announcements. For example, the 8:30 am study sample includes all days
+with at least one announcement at 8:30 am, and the corresponding
+control sample for the 8:30 am announcement is constructed from
+all remaining days with no macroeconomic announcements. The
+resulting sample size over each announcement window for gold, silver and copper are reported in Table 3. After deleting days with low
+trading activity, we have, for the 8:30 announcement interval,
+609 days with price information for gold in the study sample versus
+751 days in the control sample. The control sample for copper and
+silver consists of 605 and 772 days, respectively. In general, we have
+fewer number of 9:15 announcements compared to the other two
+announcement times. Also, there are far fewer observations for
+trading volume (reported in parenthesis) since data for volume is
+available only for 2 years, 2007 and 2008.
+
+5. Research design and empirical results
+5.1. Return, volatility and volume measures
+The return (in percent) during the ith interval on day t is calculated as: Rti = 100  (logPc,t,i  logPo,t,i), where, Pc,t,i and Po,t,i represent the closing and opening prices during the ith interval on day
+t Volume for the ith interval on day t, Vti, is the cumulative volume
+during that interval.
+The intra-day volatility in the return series is measured using
+realized volatility. Realized volatility, also known as the cumulative intra-day squared return measure of volatility, was introduced
+by Andersen and Bollerslev (1998) for high-frequency data. The
+realized volatility (in percent) during an interval (ti1,ti] is calcuP
+lated as rt;i ¼ ð nj¼1 R2j Þ1=2 ; where rti is the volatility measure and
+n is the number of (return) observations during that period of time.
+Note in our study we sample the data at 1-min frequency; therefore, the realized variance for each 5 min interval is the sum of
+the ﬁve 1-min squared returns.
+The popularity of RV in high-frequency studies stems from the
+fact that it provides a consistent estimator of the daily variation
+of returns when prices are measured continuously and without
+measurement error (see Barndorff-Nielsen and Shephard, 2002).
+However, empirical studies suggest that when prices are sampled
+at ultra-high intervals (for instance, tick-by-tick data) the presence
+of market microstructure dynamics can render RV to be a biased
+and inconsistent estimator for quadratic variation (see Hansen
+and Lunde, 2006). Therefore, to lend robustness to our analysis
+we also estimate the Hansen and Lunde (2006) bias-corrected realized volatility measure and use these estimates in our regressions
+that examine the impact of macroeconomic news on volatility.4
+4
+The correction incorporates the ﬁrst-order auto-covariance terms proposed by
+P
+P
+Zhou (1996) as follows: RV ti; AC1 ¼ nj¼1 R2j þ 2 n1
+j¼1 Rj Rjþ1 . Furthermore, in order to
+ensure that the bias-corrected RV terms remain positive, Hansen and Lunde (2006)
+P
+^0 þ 2 Qj¼1 xj c
+^j ;,
+suggest that the RV estimator be adjusted as follows: RV t;ACqb ¼ x0 c
+PMj
+^
+cj ¼ i¼1 rt;i rt;iþj ; i n w h i c h t h e w e i g h t s f o l l o w a B a r t l e t t s c h e m e
+j
+xj ¼ 1  qþ1
+; j ¼ 0; 1; . . . ; 9, (also see Maheu and McCurdy, 2011) based on an
+autocorrelation analysis our study considers a Bartlett adjustment of q = 1.
+
+Table 3
+Analysis sample.
+Market
+
+Gold
+Copper
+Silver
+
+Study sample
+
+Control sample
+
+8:30
+
+9:15
+
+10:00
+
+8:30
+
+9:15
+
+10:00
+
+609
+(169)
+475
+(101)
+630
+(177)
+
+83
+(21)
+63
+(10)
+85
+(22)
+
+428
+(135)
+335
+(86)
+437
+(137)
+
+751
+(197)
+605
+(139)
+772
+(220)
+
+751
+(197)
+605
+(139)
+772
+(220)
+
+751
+(197)
+605
+(139)
+772
+(220)
+
+This table reports the total number of observations in the study sample and control
+sample for the 8:30, 9:15, and 10:00 announcements. The numbers in parenthesis
+are the number of days in the trading volume sample. We have volume data only for
+2007 and 2008.
+
+These results suggest that microstructure noise has negligible effects on realized volatility, and furthermore the conclusions
+regarding the impact of news on volatility generally remain unaffected when using the bias-corrected RV measure.5 Therefore, for
+the remainder of the paper we provide results that pertain only to
+the standard RV measure.
+5.2. News impact on return, volatility and volume
+The response of returns, volatility and volume is reported in
+Table 4 in the form of statistical tests on the equality of means
+for returns, volatility and volume around the three pre-scheduled
+announcement times (8:30, 9:15, 10:00). We conduct these tests
+along two dimensions: (a) the difference between the calculated
+returns (and realized volatility and volume) over the 5-min
+interval immediately prior to each set of announcements and the
+5-min interval immediately after each set of announcements, for
+both the control and study samples; and (b) the difference between
+the returns (and realized volatility and volume) over the 5-min
+control interval and the study interval, both immediately prior to
+each set of announcements and immediately after each set of
+announcements.
+Panels A, B, and C of Table 4 report the results for gold, copper,
+and silver, respectively. The results in Panel A suggest that economic announcements do not have a signiﬁcant effect on gold returns. For the 8:30 announcements, the change in returns before
+and after the announcement for the study sample is positive, with
+returns from 0.0107% to 0.0132%, although the difference is not
+statistically signiﬁcant (with a t-statistic of 0.2124). Similarly, the
+difference in returns between the study sample and the control
+sample is not signiﬁcant, either before or after the announcement.
+For the 9:15 announcements, returns after the announcement are
+greater than returns during the control sample, although the difference is again not signiﬁcant for either the study or the control samples. Again, the difference in returns between the study sample and
+the control sample is also not signiﬁcant, either before or after the
+announcement. Similar results are obtained for gold returns
+around the 10:00 announcement.
+The results for realized volatility around the announcements
+contrast sharply with those for returns. For example, around the
+8:30 announcement realized volatility for the study sample increases from 0.1070% to 0.1986%, with a t-statistic in excess of
+13. This difference is statistically signiﬁcant at the 1% level. Realized volatility also increases after the 9:15 and 10:00 announcements, with the increase again statistically signiﬁcant at the 1%
+level, although the magnitude of the increase is about half that
+for the 8:30 announcements. Realized volatility after the
+5
+For the sake of brevity these results are not reported; however, they can be
+obtained from the authors upon request.
+
+56
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Table 4
+Test of equality in mean return, realized volatility and volume around announcements.
+Gold futures
+
+Sample
+
+8:30 Announcement
+8:25–8:30
+
+8:30–8:35
+
+Test of equality
+in means
+Welch’s t-test
+
+9:15 Announcement
+9:10–9:15
+
+9:15–9:20
+
+Test of equality
+in means
+Welch’s t-test
+
+10:00 Announcement
+9:55–10:00
+
+Panel A: Tests of equality in means of returns, realized volatility and volume around macroeconomic announcements for gold futures
+Returns
+Control
+0.0096
+0.0028
+0.9258
+0.0001
+0.0024
+0.3924
+0.0108
+Study
+0.0107
+0.0132
+0.2124
+0.0244
+0.0026
+1.3242
+0.0096
+Difference 0.0011
+0.1568
+0.0245
+1.5699
+0.0012
+Difference
+0.0104
+0.8743
+0.0002
+0.0181
+Realized volatility
+
+Control
+Study
+Difference
+Difference
+
+0.1107
+0.1070
+0.0037
+
+Volume
+
+Control
+Study
+Difference
+Difference
+
+1054.70
+843.25
+211.45
+
+Sample
+
+8:30 Announcement
+
+Copper futures
+
+0.1156
+0.1986
+0.083
+959.35
+1713.41
+754.06
+
+8:25–8:30
+Panel B: Tests of equality in means of returns,
+Returns
+Control
+0.0033
+Study
+0.0126
+Difference 0.0093
+Difference
+
+8:30–8:35
+
+0.0919
+0.0974
+0.0055
+
+0.0970
+0.1301
+
+1.0237
+7.5141a
+2.3911b
+6.3135a
+
+843.61
+1134.67
+291.06
+
+Test of equality
+in means
+Welch’s t-test
+
+9:15 Announcement
+
+0.0331
+835.23
+1149.91
+314.68
+
+9:10–9:15
+
+9:15–9:20
+
+Control
+Study
+Difference
+Difference
+
+0.1380
+0.1429
+0.0049
+
+0.1407
+0.1893
+
+Volume
+
+Control
+Study
+Difference
+Difference
+
+114.04
+88.70
+25.34
+
+124.01
+129.99
+
+Silver futures
+
+Sample
+
+Means around 8:30
+
+0.0486
+
+5.98
+
+8:30–8:35
+
+0.4435
+6.5357a
+0.8211
+6.7665a
+
+0.1096
+0.0957
+0.0139
+
+0.1065
+0.1206
+
+0.7042
+3.0905a
+2.1245b
+0.3881
+
+92.97
+83.50
+9.47
+
+Test of equality
+in means
+Welch’s t-test
+
+Means around 9:15
+
+0.0141
+95.04
+92.10
+2.94
+
+9:10–9:15
+
+9:15–9:20
+
+0.1051
+0.1356
+
+0.1204
+0.0408
+0.9967
+1.2943
+
+983.62
+1015.24
+31.62
+
+1135.05
+1384.46
+
+Test of equality
+in means
+Welch’s t-test
+
+0.0305
+
+249.41
+10:00 Announcement
+10:00–10:05
+
+Volume
+
+Control
+Study
+Difference
+Difference
+
+0.1053
+463.07
+426.57
+36.50
+
+325.86
+486.19
+160.33
+
+a
+
+4.3813
+1.9143
+1.2280
+4.9078a
+
+0.1724
+0.2108
+0.0384
+
+234.40
+232.59
+1.81
+
+236.08
+334.00
+97.92
+
+0.0078
+
+0.2095
+0.3947
+0.5521
+0.1762
+
+87.40
+90.22
+2.82
+
+0.1137
+0.1380
+
+Test of equality
+in means
+Welch’s t-test
+
+Means around 10:00
+
+0.0243
+98.23
+114.93
+16.70
+
+10:00–10:05
+
+0.3153
+0.3115
+0.0038
+
+0.1727
+0.1702
+0.0025
+
+0.0100
+0.0022
+
+0.1026
+0.1054
+0.0028
+
+Realized Volatility
+
+7.4237a
+1.7080
+0.2826
+8.7503a
+
+10:00–10:05
+
+0.5579
+1.5389
+1.3359
+1.0390
+
+of return, realized volatility and volume around macroeconomic announcements for silver futures
+0.0052
+0.0081
+0.1564
+0.0070
+0.0074
+0.0471
+0.0222
+0.0137
+0.0274
+0.6139
+0.0106
+0.0028
+0.3455
+0.0020
+0.0085
+0.3805
+0.0176
+0.6565
+0.0202
+0.0193
+1.0210
+0.0046
+0.1601
+0.2302
+0.3355
+
+0.0007
+
+0.0943
+0.0995
+0.0052
+
+Panel C: Test of equality in means
+Return
+Control
+Study
+Difference
+Difference
+Control
+Study
+Difference
+Difference
+
+0.0228
+0.0235
+
+1.5205
+2.9071a
+0.7344
+3.6890a
+
+realized volatility and volume around macroeconomic announcements for copper futures
+0.0061
+0.2680
+0.0058
+0.0084
+1.7108b
+0.0020
+0.0101
+1.7279c
+0.0243
+0.0394
+2.5287b
+0.0102
+0.8581
+0.0185
+1.0417
+0.0122
+0.0162
+1.2627
+0.031
+1.5679
+
+Realized volatility
+
+8:25–8:30
+
+1.1692
+13.1942a
+0.8739
+12.0259a
+
+10:00–10:05
+
+0.0491
+2.0718b
+0.1963
+2.3564b
+
+0.1673
+0.1740
+0.0067
+
+0.0982
+1.4990
+0.0434
+1.7466c
+
+266.13
+284.61
+18.48
+
+10:00–10:05
+0.0079
+0.0514
+0.0435
+0.1708
+0.2138
+0.043
+287.19
+346.09
+58.9
+
+Test of equality
+in means
+Welch’s t-test
+1.8972c
+1.5006
+0.1706
+0.0782
+3.1516a
+7.0058a
+1.2822
+6.5528a
+1.5731
+3.2180a
+0.3342
+2.1719b
+Test of equality
+in means
+Welch’s t-test
+1.4081
+0.5448
+1.0472
+0.6372
+1.8867
+3.9413a
+0.3817
+3.5036a
+1.2372
+1.7539c
+0.3089
+1.2057
+Test of equality
+in means
+Welch’s t-test
+1.3387
+2.6693a
+1.4420
+2.6951a
+0.5662
+3.3465a
+0.8521
+3.9404a
+0.9199
+1.7686b
+0.6261
+2.0068c
+
+This table reports tests of equality in means of returns, realized volatilities, and volume around the announcements intervals at 8:30, 9:15 and 10:00 for gold, copper and
+silver. The returns, realized volatilities, and volumes are calculated over 5 min intervals before and after the announcement time points. Tests for equality in means between
+the returns, realized volatilities and volumes before and after the announcements are reported for both the control sample and the study sample. We also report tests of
+equality between the control and study samples, both prior to and after the announcement. The Welch’s t-test, sometimes called ‘‘Satterthwaite–Welch t-test’’, allows for
+unequal cell variances in samples. In our case, the p-values of the Welch’s t-test are only slightly higher than the standard t-test. The returns and volatilities are expressed in
+percentages (i.e., multiplied by 100).
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+announcement is also signiﬁcantly greater than the control sample
+(at the 1% level) for each announcement, although the difference is
+again about half as large for the 9:15 and 10:00 announcements,
+relative to the 8:30 announcements. Our results, therefore, provide
+strong evidence that macroeconomic news announcements have a
+positive and signiﬁcant impact on realized volatility of the return
+on metal futures.
+We plot the response of realized volatility around the three
+announcement times (8:30, 9:15, 10:00) for the study sample
+and the control sample in Fig. 2. The time stamp on the horizontal
+
+axis indicates the end of the 5-min interval, e.g., 8:35 covers the
+period 8:30 to 8:35, and so on. The ﬁgure clearly illustrates the tendency of volatility to spike around each of the announcement windows, 8:30, 9:15 and 10:00. Volatility tends to be high for the
+control sample near the market open for all three metals, but the
+volatility over the study sample appears to be substantively greater. Visual inspection of the 9:15 and 10:00 announcements indicates that volatility is also unusually high relative to the control
+sample, although the differences are not as pronounced as for the
+8:30 announcements. Finally, there is evidence that the effect of
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+57
+
+Fig. 2. Means of realized volatility in the study sample versus control sample.
+
+announcements on volatility decays relatively quickly, within
+about 10 min. This may explain why previous studies that rely
+on daily data are unable to identify a signiﬁcant relationship between commodity prices and economic announcements.
+Finally, the results for volume, reported in the bottom of Panel
+A, are comparable to realized volatility around the 8:30 and 10:00
+announcements. At the 8:30 and 10:00 announcements, volume
+surges over the study sample, although the magnitude of the increase is much larger for the 8:30 announcement. Interestingly,
+the change in volume around the 9:15 set of announcements is
+not found to be statistically signiﬁcant.
+Panels B and C of Table 6 presents the results for copper and silver. In the interest of brevity, the discussion on these two markets
+is restricted to just a couple of notable observations. First, the
+announcement effects documented for gold are also generally evident for copper and silver. In other words, announcements tend
+have a positive and signiﬁcant impact on volatility and volume.
+However, in contrast with gold, the 8:30 and 9:15 announcements
+have a statistically signiﬁcant inﬂuence on copper returns and the
+10:00 announcements have an impact on silver returns. Second,
+similar to the evidence for gold, the 8:30 set of announcements
+have the largest impact on volatility and volume for both copper
+and silver, followed by the 10:00 and 9:15 news releases.
+5.3. Marginal impact of news
+5.3.1. Response of returns
+Having established the differential impact of aggregate news
+announcements on returns, volume and volatility between the
+
+study and control sample, we now investigate the marginal impact
+of each macroeconomic news release on returns. In the ﬁrst step
+we ﬁt a univariate regression model of the following form:
+
+Rtiþ1 ¼ b0 þ bj SAj;ti þ etiþ1
+
+ð2Þ
+
+where Rti is the 5-min return at time ti+1, (ti+1 could be 8:35, 9:20, or
+10:05 on day t, whereas ti takes one of the values at 8:30, 9:15, or
+10:00), SAj;ti is the standardized surprise of the jth announcement
+at time ti on day t, and bo and bi are parameters to be estimated.
+The regression estimates correspond to days when there is at least
+one news announcement.
+Table 5 reports estimated coefﬁcients with corresponding t-statistics, p-values and adjusted R-squares obtained from the individual regression models. The results are discussed ﬁrst for the 8:30
+announcement, followed by the 9:15 and 10:00 announcements.
+We notice that several 8:30 announcements have a signiﬁcant impact on gold, copper and silver prices. All three metal prices are
+sensitive to surprises in durable goods orders, but in different
+ways. In particular, durable goods order has a negative inﬂuence
+on gold and silver prices, but is positively associated with copper
+prices. In interpreting the coefﬁcient values it is worth pointing
+out that the numbers measure the response of the 5-min postannouncement return to a one standard deviation change in the
+^SDGO ¼ 0:0644
+surprise element of the news. For instance, the b
+coefﬁcient value for gold implies that a one standard deviation
+unexpected increase (decrease) in durable goods orders causes a
+decrease (increase) in the price of gold futures by about 0.06% in
+the 5 min after the announcement. In terms of adjusted R-square
+values, among the various 8:30 announcements, the nonfarm
+
+58
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Table 5
+Impact of macroeconomic news releases on returns: Results from univariate regressions.
+Time
+
+Macroeconomic announcements
+
+Returns of gold futures
+R+5
+
+Returns of copper futures
+R+5
+
+Returns of silver futures
+R+5
+
+^j
+b
+
+T-Stat
+
+R2
+
+^j
+b
+
+T-Stat
+
+R2
+
+^j
+b
+
+T-Stat
+
+R2
+
+8:30
+
+Advance retail sales
+Business inventories
+Change in nonfarm payrolls
+Consumer price index
+Durable goods orders
+Housing starts
+Personal consumption
+Personal income
+Producer price index
+Trade balance
+Unemployment rate
+
+0.0783
+0.0172
+0.3050
+0.0180
+0.0644
+0.0068
+0.0066
+0.0155
+0.0056
+0.0199
+0.0709
+
+3.6631a
+0.6730a
+6.4746a
+0.8470
+3.7821a
+0.3497
+0.2504
+0.8724
+0.2505
+0.8081
+1.1981
+
+0.1373
+0.0255
+0.3470
+0.0038
+0.1457
+0.0115
+0.0144
+0.0032
+0.0122
+0.0045
+0.0056
+
+0.0085
+0.0114
+0.0541
+0.0068
+0.0994
+0.0611
+0.0082
+0.0052
+0.0285
+0.0512
+0.0141
+
+0.3247
+0.3767
+1.5689
+0.1939
+3.4176a
+3.0840a
+0.2862
+0.2536
+1.0397
+2.3873b
+0.3919
+
+0.0159
+0.0406
+0.0264
+0.0175
+0.1357
+0.1224
+0.0176
+0.0158
+0.0014
+0.0762
+0.0159
+
+0.0995
+0.0404
+0.3866
+0.0572
+0.0733
+0.0383
+0.0004
+0.0175
+0.0453
+0.0931
+0.1066
+
+2.8318a
+1.1167
+4.8668a
+1.6972c
+2.1565b
+1.0705
+0.0108
+0.4934
+1.1285
+2.6151b
+1.2183
+
+0.0807
+0.0106
+0.2253
+0.0241
+0.0436
+0.0018
+0.0145
+0.0095
+0.0034
+0.0688
+0.0062
+
+9:15
+
+Capacity utilization
+Industrial production
+
+0.0270
+0.0325
+
+1.8361c
+2.3279b
+
+0.0332
+0.0556
+
+0.0417
+0.0697
+
+1.6492
+2.8294a
+
+0.0339
+0.1130
+
+0.0400
+0.0371
+
+1.2852
+1.2511
+
+0.0091
+0.0072
+
+10:00
+
+Business inventories
+Consumer conﬁdence
+Construction spending
+Factory orders
+Leading indictors
+NAPM
+New home sales
+
+0.0979
+0.0259
+0.0042
+0.0194
+0.0102
+0.0283
+0.0323
+
+2.8246a
+1.4932
+0.1877
+1.6111
+0.5851
+1.6586
+1.5689
+
+0.1745
+0.0151
+0.0169
+0.0203
+0.0085
+0.0225
+0.0184
+
+0.0151
+0.0131
+0.0141
+0.0255
+0.0002
+0.3333
+0.0895
+
+0.2279
+0.5579
+0.6235
+1.2684
+0.0114
+3.5752a
+2.9232a
+
+0.0473
+0.0102
+0.0155
+0.0108
+0.0152
+0.1764
+0.1055
+
+0.0987
+0.0126
+0.0815
+0.0248
+0.0175
+0.0475
+0.0667
+
+2.0567b
+0.5265
+2.1840b
+1.1872
+0.3310
+1.5699
+1.9490c
+
+0.0917
+0.0089
+0.0582
+0.0052
+0.0113
+0.0184
+0.0334
+
+This table presents the results from the univariate regressions of the form: Rtiþ1 b0 þ bj SAj;ti þ etiþ1 , where Rtiþ1 is the 5-min post-announcement return.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+Table 6
+Stepwise models of impact of macroeconomic news on returns.
+Gold R+5
+
+8:30
+
+9:15
+
+10:00
+
+Copper R+5
+
+Silver R+5
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Intercept
+CNP
+UR
+ARS
+DGO
+
+0.0028
+0.3087
+0.1237
+0.0782
+0.0641
+
+0.3063
+12.819a
+4.9134a
+3.1249a
+2.4553b
+
+Intercept
+DGO
+HS
+CNP
+TB
+
+0.0104
+0.0994
+0.0622
+0.0528
+0.0426
+
+1.0313
+3.4775a
+2.2294b
+1.9995b
+1.7804c
+
+0.2311
+46.6755a
+
+Adjusted R2
+F-Statistics
+
+0.0412
+6.0734a
+
+0.0131
+0.4035
+0.1611
+0.0989
+0.0939
+0.0715
+0.1493
+23.0766a
+
+0.8837
+9.8125a
+3.9189a
+2.3838b
+2.3324b
+1.7174c
+
+Adjusted R2
+F-Statistics
+
+Intercept
+CNP
+UR
+ARS
+TB
+DGO
+Adjusted R2
+F-Statistics
+
+Intercept
+IP
+
+0.0012
+0.0325
+
+Intercept
+
+0.0028
+
+0.0976
+
+0.0557
+5.8390a
+
+0.0454
+0.1249
+0.1140
+0.2833
+13.2520a
+
+2.743a
+4.8263a
+4.069a
+
+Adjusted R2
+F-Statistics
+
+Intercept
+IP
+CU
+Adjusted R2
+F-Statistics
+
+Adjusted R2
+F-Statistics
+
+0.0000
+
+Intercept
+BI
+NAPM
+NHS
+Adjusted R2
+F-Statistics
+
+0.0219
+0.0981
+0.0303
+0.0316
+0.0331
+5.8674a
+
+Intercept
+NHS
+NAPM
+
+0.0053
+0.0950
+0.3341
+
+0.5134
+3.9673a
+2.8937a
+
+Adjusted R2
+F-Statistics
+
+0.0621
+12.0512a
+
+Intercept
+CS
+NHS
+BI
+Adjusted R2
+F-Statistics
+
+0.0493
+0.0826
+0.0642
+0.1011
+0.0175
+3.5945b
+
+0.0866
+2.4164b
+
+2.9451a
+3.3681a
+1.8045c
+1.7402c
+
+3.4352a
+2.1631b
+1.8307c
+1.6629c
+
+This table reports the estimated stepwise regression models for returns of the three metals. The stepwise regressions pick up only the announcements which have an impact
+P
+on the returns at the 10% signiﬁcance level. The stepwise regression models have the form: Rtiþ1 ¼ c þ N
+j¼1 bj SAj;t i þ et iþ1 , where Rt iþ1 is the 5-min post-announcement return,
+SAj;ti is the standardized surprise of the jth announcement at time ti on day t. Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+payroll indicator has the highest degree of explanatory power in
+the regressions for gold (35%) and silver (23%). The importance of
+payroll information has been documented in earlier studies such
+as Andersen and Bollerslev (1998) who refer to the Employment
+Situation or Jobs Report as the ‘‘king’’ of all announcements because of the signiﬁcant sensitivity of most asset prices to its public
+release. We also observe advance retail sales to have a strong inﬂuence on gold and silver; whereas, trade balance ﬁgures prominently in explaining copper and silver returns. Interestingly, we
+ﬁnd silver to be the most responsive to the 8:30 news releases with
+
+4 out of 11 announcements having a signiﬁcant impact on prices.
+Finally, housing starts surprises have a positive and signiﬁcant
+inﬂuence only on copper returns.
+An evaluation of the 9:15 announcements indicates that both
+capacity utilization and industrial production have a negative
+inﬂuence on gold returns. The estimated coefﬁcients of the two
+announcements are respectively 0.027 (regression adjusted
+R2 = 3.32%) and 0.0325 (regression adjusted R2 = 5.56%) and are
+statistically signiﬁcant at the 10% level or lower. In the case of
+copper, only industrial production has an inﬂuence on copper.
+
+59
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+Table 7
+Stepwise model of impact of macroeconomic news on realized volatility.
+Gold RV+5
+Optimal regressors
+8:30
+
+9:15
+
+10:00
+
+Copper RV+5
+^j
+b
+
+T-Stat
+
+Silver RV+5
+
+Optimal regressors
+a
+
+Intercept
+ABS_CNP
+ABS_UR
+ABS_BI
+ABS_ARS
+Adjusted R2
+F-Statistics
+
+0.0952
+0.1442
+0.0800
+0.0518
+0.0241
+0.3576
+55.8418a
+
+9.9618
+9.5281a
+5.0778a
+2.0028b
+1.6755c
+
+Intercept
+ABS_CU
+
+0.0407
+0.0364
+
+2.2928b
+3.2618a
+
+Adjusted R2
+F-Statistics
+
+0.3483
+8.2315a
+
+Intercept
+ABS_CC
+ABS_NAPM
+ABS_BI
+Adjusted R2
+F-Statistics
+
+0.0729
+0.0377
+0.0236
+0.0269
+0.2343
+18.3579a
+
+9.8303a
+4.7421a
+2.9555a
+1.8931c
+
+^j
+b
+
+T-Stat
+a
+
+Intercept
+ABS_CNP
+ABS_PI
+
+0.0852
+0.0767
+0.0358
+
+7.4360
+5.7166a
+2.7338a
+
+Adjusted R2
+F-Statistics
+
+0.2345
+23.845a
+
+Intercept
+ABS_CU
+ABS_IP
+Adjusted R2
+F-Statistics
+
+0.0789
+0.0638
+0.0504
+0.2184
+2.6084b
+
+3.0725a
+2.1556b
+1.8018c
+
+Intercept
+ABS_NAPM
+ABS_CS
+
+0.0663
+0.1325
+0.0339
+
+7.7184a
+2.2288b
+2.1008b
+
+Adjusted R2
+F-Statistics
+
+0.2702
+20.2395a
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Intercept
+ABS_CNP
+ABS_UR
+ABS_TB
+
+0.1949
+0.1995
+0.1061
+0.0420
+
+13.6505a
+7.2280a
+3.8416a
+1.7645c
+
+Adjusted R2
+F-Statistics
+
+0.2631
+55.7665a
+
+Intercept
+
+0.0912
+
+Adjusted R2
+F-Statistics
+
+0.2990
+8.5312a
+
+Intercept
+
+0.0624
+
+Adjusted R2
+F-Statistics
+
+0.1937
+25.9522a
+
+3.0409a
+
+3.5262a
+
+This table reports the estimated stepwise regression models for the realized volatility (RV) 5 min after each announcement. The stepwise regressions pick up only the
+announcements which have impacts on the 5-min realized volatility at the 10% signiﬁcance level. The stepwise regression models have the form: RV tiþ1 ¼ b0 þ
+PN
+P3
+j¼1 bj ABSðSAj;t i Þ þ
+s¼0 cs RV t iþs et iþ1 ; RV t iþ1 is the post-announcement 5-min realized volatility, ABSðSAj;t i Þ is the absolute value of the surprise of the jth announcement, and c is
+the volume persistence parameter that accounts for dependent variable lags (not reported). Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+Notably, the 9:15 announcements do not have an impact on silver
+returns.
+Among the 10:00 announcements, business inventories have
+the highest degree of explanatory power for gold and silver returns
+with adjusted R-square values of 17.5% and 9.17%, respectively.
+Surprises in business inventories have a negative impact on both
+gold and silver returns. In the case of copper, however, returns in
+this market are positively and signiﬁcantly inﬂuenced by NAPM
+and new home sales announcements. Again, as in the 8:30
+announcements, silver prices are the most sensitive to the 10:00
+set of announcements.
+The results in Table 5 provide meaningful insights into the
+nature of the relationship between economic announcements
+and returns. First, announcements that reﬂect an unexpected
+improvement in the economy tend to have a negative impact on
+gold and silver prices, but a positive effect on copper. For instance,
+a better than expected economic growth as conveyed by improvements in real activity (e.g., advance retail sales), consumption (e.g.,
+new home sales) and investment (e.g., durable goods orders) has a
+negative effect on gold and silver prices. One possible explanation
+for this behavior is that an unexpected improvement in the economy may reduce investors’ appetite for precious metals as they
+seek alternative investments such as stocks and bonds that appear
+to be relatively more attractive in this environment. On the other
+hand, copper returns are positively related with economic growth
+variables (e.g., durable goods orders, housing starts, NAPM). This
+may be attributed to the fact that copper is an important input
+good in manufacturing and production related industries (about
+70% of the demand for copper comes from electrical and construction industries), and a more sanguine economic climate would be
+indicative of greater demand for this industrial metal.
+In the next step of the empirical analysis we ﬁt a multivariate
+regression model of the form:
+
+Rtiþ1 ¼ c þ
+
+N
+X
+
+bj SAj;ti þ etiþ1
+
+ð3Þ
+
+j¼1
+
+To estimate Eq. (3), we pool together all days with at least one 8:30
+(9:15, 10:00) announcement together to form the 8:30 (9:15, 10:00)
+
+study sample. In addition to estimating the full model, we also estimate a stepwise regression model that identiﬁes a restricted set of
+regressors in the joint model with the most inﬂuential factors. For
+the purpose of discussion, only the stepwise results are reported
+in the paper.6 Stepwise regressions allow some or all of the independent variables in a standard linear multivariate regression to
+be chosen automatically from a set of variables.7 However, in order
+to ensure that the stepwise approach does not lead to model overﬁtting and result in falsely eliminating inﬂuential variables with less
+signiﬁcant relationships at the start of the stepwise selection procedure, we check for consistency of the stepwise coefﬁcients both with
+the univariate model and the full joint regression model containing
+all economic variables in the system. We also allow for manual additions of selected factors from economic categories that are not represented in the stepwise approach.
+The stepwise regression results, which are reported in Table 6,
+are largely consistent with the univariate regression results discussed earlier. Remarkably, variables that were identiﬁed to be
+inﬂuential in the univariate regressions are also found to be significant in the multivariate regressions. We ﬁnd that the 8:30 set of
+announcements have the largest impact on gold and silver prices
+(adjusted R-square values of 23.11% and 14.93%, respectively);
+whereas, the 9:15 and 10:00 announcements are relatively more
+inﬂuential for copper (adjusted R-squares of 28.33% and 6.21%,
+
+6
+
+The joint regression model results can be obtained from the authors.
+Our stepwise regressions are performed by using the stepwise-forwards method.
+The stepwise-forwards begins with no additional regressions in the regression, then
+adds the variable with the lowest p-value. The variable with the next lowest p-value
+given that the ﬁrst variable has already been chosen, is then added. Next both of the
+added variables are checked against the backwards p-value criterion. Any variable
+whose p-value is higher than the criterion is removed. Once the removal step has
+been performed, the next variable is added. At this, and each successive addition to
+the model, all the previously added variables are checked against the backwards
+criterion and possibly removed. The stepwise-forwards routine ends when the lowest
+p-value of the variables not yet included is greater than the speciﬁed forward
+stopping criteria. We choose both the forward and backward criteria to be 10%. While
+such methods are subject to pretest bias, we still view the results as informative in
+their tendency to highlight variables with the greatest explanatory power.
+7
+
+60
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Table 8
+Stepwise model of impact of macroeconomic news on trading volume (2007–2008).
+Gold V+5
+
+Copper V+5
+
+Silver V+5
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Optimal regressors
+
+^j
+b
+
+T-Stat
+
+Intercept
+ABS_UR
+ABS_CNP
+
+818.79
+822.61
+902.08
+
+6.4871a
+3.7171a
+2.9492a
+
+Intercept
+ABS_UR
+ABS_ARS
+
+30.33
+87.43
+86.40
+
+2.4878b
+3.7744a
+2.9954a
+
+0.3525
+23.2685a
+
+Adjusted R2
+F-Statistics
+
+0.5586
+19.8271a
+
+256.17
+235.51
+217.68
+132.12
+0.2659
+15.5715a
+
+6.3106a
+3.8686a
+1.9704c
+1.9095c
+
+Adjusted R2
+F-Statistics
+
+Intercept
+ABS_UR
+ABS_CNP
+ABS_ARS
+Adjusted R2
+F-Statistics
+
+9:15
+
+Intercept
+Adjusted R2
+F-Statistics
+
+174.19
+0.7826
+15.2966a
+
+0.8291
+
+Intercept
+Adjusted R2
+F-Statistics
+
+79.86
+0.6460
+2.2809
+
+1.6478
+
+Intercept
+Adjusted R2
+F-Statistics
+
+62.17
+0.8325
+21.1300a
+
+1.2393
+
+10:00
+
+Intercept
+ABS_NAPM
+Adjusted R2
+F-Statistics
+
+415.08
+308.16
+0.3567
+14.7500a
+
+2.9698a
+2.1120b
+
+Intercept
+ABS_CC
+Adjusted R2
+F-Statistics
+
+4.63
+230.24
+0.4290
+12.0211a
+
+0.2490
+3.8882a
+
+Intercept
+ABS_BI
+Adjusted R2
+F-Statistics
+
+85.53
+130.43
+0.3188
+12.2604a
+
+2.1109b
+1.9295c
+
+8:30
+
+This table reports the estimated stepwise regression models for trading volume 5 min after each announcement. The stepwise regressions pick up only the announcements
+P
+P3
+which have impact on the 5-min volume at the 10% signiﬁcance level. The stepwise regression models have the form: V tiþ1 ¼ b0 þ N
+j¼1 bj ABSðSAj;t i Þ þ
+s¼0 cs V t iþs et iþ1 ; V t iþ1 is
+the 5-min post-announcement volume, ABSðSAj;ti Þ is the absolute value of the surprise of the jth announcement, and c is the volume persistence parameter that accounts for
+dependent variable lags (not reported). Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+Gold-Return
+
+Copper-Return
+
+Silver-Return
+
+Fig. 3. Persistence of return shocks. This ﬁgure presents the values of the adjusted R-square of stepwise regressions in ten 5-min intervals around the announcement time
+points.
+
+respectively). Among the 8:30 announcements, nonfarm payrolls
+and durable goods orders seem to clearly dominate the price
+changes on all three metals.
+5.3.2. Response of volatility and volume
+This section discusses results of the impact of macroeconomic
+news release on realized volatility and trading volume for the three
+metals. To examine volatility, we again ﬁt joint regression models
+
+along with their stepwise forms for the realized volatility of each
+metal return series. For the sake of brevity only the reduced stepwise regression results are reported and discussed. In the case of
+trading volume we are able to estimate only the stepwise regression. This is because the joint regression models face a singularity
+problem due to a limited number of observations (volume data
+covers 2007 and 2008) and a relatively large number of regressors.
+The joint regression model has the following expression:
+
+61
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Gold-Volatility
+
+Copper-Volatility
+
+Silver-Volatility
+
+Fig. 4. Persistence of Volatility Shocks. This ﬁgure presents the values of the adjusted R-square of stepwise regressions in ten 5-min intervals around the announcement time
+points.
+
+Gold-Volume
+
+Copper-Volume
+
+Silver-Volume
+
+Fig. 5. Persistence of Volume Shocks. This ﬁgure presents the values of the adjusted R-square of stepwise regressions in ten 5-min intervals around the announcement time
+points.
+
+Y tiþ1 ¼ b0 þ
+
+N
+X
+j¼1
+
+bj ABSðSAj;ti Þ þ
+
+3
+X
+s¼0
+
+cs Y tis þ etiþ1
+
+ð4Þ
+
+where Y tiþ1 denotes the realized volatility or volume during the i + 1
+5-min interval at day t when there is at least one announcement,
+and ABSðSAj;ti Þ refers to the absolute value of the surprise of the
+
+62
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Table 9
+Asymmetric impact of macroeconomic news on returns.
+Gold R+5
+Optimal regressors
+Panel A: Model estimation results
+8:30
+Intercept
+P_CNP
+N_CNP
+P_UR
+N_TB
+N_PC
+P_ARS
+N_DGO
+
+9:15
+
+10:00
+
+Copper R+5
+^ Þ
+^ þ ðb
+b
+j
+j
+
+T-Stat
+
+0.0028
+0.2849
+0.3285
+0.1727
+2.5442
+0.2919
+0.0902
+0.0721
+
+0.2762
+5.9318a
+11.017a
+4.8659a
+4.1276a
+3.0733a
+2.7570a
+2.0741b
+
+Adjusted R2
+F-Statistics
+Intercept
+N_IP
+
+0.2575
+31.1178a
+0.0156
+0.0452
+
+Adjusted R2
+F-Statistics
+Intercept
+P_BI
+P_NAPM
+N_NAPM
+P_FO
+N_CC
+Adjusted R2
+F-Statistics
+
+0.0581
+6.0563a
+0.0079
+0.1184
+0.2854
+0.0435
+0.0509
+0.0299
+0.0547
+5.9385a
+
+Null Hypothesis
+
+Chi-square
+
+Panel B: Wald test of equality of coefﬁcients
+
+0.5352
+kbþ
+CNP k ¼ kbSCNP
+
+kbþ
+DGO k ¼ kbSDGO
+
+kbþ
+TR k ¼ kbTB
+
+kbþ
+UR k ¼ kbUB
+
+kbþ
+k
+¼
+kb
+CU
+CU
+
+kbþ
+k
+¼
+kb
+IP
+IP
+þ
+6.6986
+kbNAPM k ¼ kb
+NAPM
+
+1.0234
+2.4610b
+
+0.9897
+3.1044a
+3.0905a
+2.5631b
+2.0509b
+1.7586c
+
+Silver R+5
+
+Optimal regressors
+
+^þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Optimal regressors
+
+^þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Intercept
+P_DGO
+N_DGO
+N_PC
+N_CNP
+P_PPI
+N_HS
+P_TB
+
+0.0200
+0.0668
+0.1379
+0.2664
+0.0698
+0.0790
+0.0755
+0.0409
+
+1.7575c
+1.6906c
+3.2042a
+2.7227a
+2.2564b
+1.8519c
+1.7495c
+1.7227c
+
+0.0574
+5.1229a
+0.0137
+0.0784
+0.1844
+0.1329
+0.1181
+0.2914
+7.3740a
+0.0206
+0.1471
+0.4060
+
+0.0010
+0.3773
+0.4115
+0.1322
+0.2023
+0.1003
+3.1764
+0.1232
+0.3052
+0.1600
+15.9774a
+0.0028
+
+0.0592
+4.5888
+7.8327
+2.2098
+3.1038
+2.5038
+3.0343
+2.1966
+1.9769
+
+Adjusted R2
+F-Statistics
+Intercept
+P_IP
+N_IP
+P_CU
+N_CU
+Adjusted R2
+F-Statistics
+Intercept
+P_NHS
+P_NAPM
+
+Intercept
+P_CNP
+N_CNP
+P_UR
+N_UR
+P_TB
+N_TB
+P_ARS
+N_PC
+Adjusted R2
+F-Statistics
+Intercept
+
+Adjusted R2
+F-Statistics
+Intercept
+N_NAPM
+
+0.0000
+0.0487
+0.0602
+
+Adjusted R2
+F-Statistics
+
+0.0724
+14.0280a
+
+Adjusted R2
+F-Statistics
+
+0.0050
+3.2067c
+
+P-Value
+
+0.4654
+2.0098b
+4.0836a
+2.2391b
+2.9596a
+
+c
+
+1.9049
+4.7293a
+2.6445a
+
+Chi-square
+
+P-Value
+
+1.4107
+
+0.2349
+
+0.4644
+
+0.0341
+2.5483
+
+0.0976
+
+3.3564a
+1.7907c
+
+Chi-square
+
+P-Value
+
+0.1091
+
+0.7412
+
+8.6300
+0.5601
+
+0.0033
+0.4542
+
+0.8536
+0.1104
+
+0.0096
+
+This table reports the estimated stepwise regression models for the returns 5 min after each announcement. The stepwise regressions pick up only the announcements which
+P
+PN 
+þ
+
+þ
+have an impact on the 5-min returns at the 10% signiﬁcance level. The stepwise regression models have the form: Rtiþ1 ¼ c þ N
+j¼1 bj ðSAj;t i Þ þ
+j¼1 bj ðSAj;t i Þ et iþ1 ; Rt iþ1 is the
+post-announcement 5-min return, ðSAj;t i Þþ and ðSAj;ti Þ are the positive (P) and negative (N) components of the surprise of the jth announcement. Panel A presents the model
+estimation results and panel B tests the equality of the parameters of the negative and positive surprises if both of their impacts are signiﬁcant at the 10% signiﬁcance level
+(picked up by the stepwise regression). Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+jth announcement. To control for the persistence in volatility and
+volume, we include three lags of the left hand side variable as
+regressors.8
+The estimated results of the stepwise regression models for the
+realized volatility are presented in Table 7. Several interesting
+observations emerge. First, among the 19 different types of
+announcements, unanticipated news in nonfarm payroll has the
+greatest impact on the volatility of all three markets. A one standard deviation absolute unexpected shock in nonfarm payroll results in a 0.14%, 0.08% and 0.20% size increase in the realized
+volatilities of gold, copper and silver returns, respectively. Recall
+that the means of the 5-min realized volatility during the 8:30–
+8:35 interval in the control samples are only 0.12%, 0.14% and
+0.23% for the gold, copper and silver futures returns. Viewed in this
+context, increases in volatility caused by nonfarm payrolls are
+
+8
+Notice that for returns we do not include the lagged dependent variables since
+returns do not exhibit persistence. For volume and volatility, however, we ﬁnd the
+persistence parameter to be statistically signiﬁcant in all our regressions. Since the
+focus of our discussion is on new impact variables these coefﬁcient values are not
+reported; however, they may be obtained from the authors upon request.
+
+about 116%, 57% and 87% of the magnitudes of the corresponding
+means in the three markets. Second, the announcements explain
+the largest fraction of variation in gold volatility, with adjusted
+R-square values about 35% for the 8:30 and 9:15 announcements,
+and 23% for the 10:00 announcements. Third, economic news
+announcements are generally associated with elevated levels of
+volatility, as thirteen of the seventeen reported coefﬁcients are
+positive.
+Using volume data for the 2 year period 2007 and 2008, the
+stepwise models identify that, in all instances, the reported
+announcements have a positive inﬂuence on trading volume (Table
+8). We interpret these results are most consistent with the model
+of informed trading depicted by Kim and Verrecchia (1994), in
+which informed traders tend to have an advantage in processing
+new information after it is released, rather than in predicting
+new information. Once again, as in the volatility regression, the
+twin 8:30 announcements of nonfarm payroll and unemployment
+rate dominate the announcement shocks. For instance, a one standard deviation shock in nonfarm payroll results in the transaction
+volume of gold to increase by about 900 contracts in the 5 min
+following the announcement. Comparatively, the average trading
+
+63
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+Table 10
+Asymmetric impact of macroeconomic news on realized volatility.
+Gold RV+5
+
+Copper RV+5
+
+Optimal regressors
+Panel A: Model estimation results
+8:30
+Intercept
+N_CNP
+P_CNP
+N_UR
+N_TB
+N_UR
+
+9:15
+
+10:00
+
+^ Þ
+^þ ðb
+b
+j
+j
+
+T-Stat
+
+0.0930
+0.1388
+0.1988
+0.1253
+0.9083
+0.0410
+
+9.8742a
+8.3500a
+7.2547a
+5.6442a
+2.6720a
+2.0719b
+
+Adjusted R2
+F-Statistics
+
+0.3726
+59.9809a
+
+Intercept
+N_CU
+Adjusted R2
+F-Statistics
+
+0.0523
+0.0424
+0.3820
+9.5211a
+
+3.0436a
+3.9270a
+
+Intercept
+N_CC
+P_NAPM
+N_CS
+Adjusted R2
+F-Statistics
+
+0.0726
+0.0366
+0.0209
+0.0279
+0.2286
+17.7804a
+
+9.7450a
+4.5107a
+2.5768b
+1.9051b
+
+Null Hypothesis
+
+Chi-square
+
+Panel B: Wald test of equality of coefﬁcients
+
+4.0682
+kbþ
+CNP k ¼ kbCNP
+
+kbþ
+TB k ¼ kbTB
+
+9.1547
+kbþ
+UR k ¼ kbUR
+
+kbþ
+PI k ¼ kbPI
+
+Silver RV+5
+
+Optimal regressors
+
+^ þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Optimal regressors
+
+^ þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Intercept
+N_CNP
+N_PI
+P_CNP
+P_PPI
+N_PC
+P_PI
+Adjusted R2
+F-Statistics
+
+0.0842
+0.0855
+0.0886
+0.0608
+0.0466
+0.0952
+0.0240
+0.0963
+8.2984a
+
+7.3466a
+5.6067a
+2.7214a
+2.3458b
+2.2201b
+1.9676b
+1.7097c
+
+Intercept
+N_CNP
+P_CNP
+N_UR
+N_TB
+P_TB
+
+0.1912
+0.2138
+0.2622
+0.2000
+1.5636
+0.0405
+
+13.544a
+7.5570a
+5.6257a
+5.2859a
+2.5583b
+1.7241c
+
+Adjusted R2
+F-Statistics
+
+0.2868
+41.7464a
+
+Intercept
+
+0.0678
+
+2.8965a
+
+Intercept
+
+0.0912
+
+Adjusted R2
+F-Statistics
+
+0.1160
+1.9024
+
+Adjusted R2
+F-Statistics
+
+0.2990
+8.5312a
+
+Intercept
+P_NHS
+N_NAPM
+
+0.0617
+0.0313
+0.1594
+
+Intercept
+
+0.0624
+
+Adjusted R2
+F-Statistics
+
+0.2701
+20.2290a
+
+Adjusted R2
+F-Statistics
+
+0.1937
+25.9522
+
+7.1818a
+2.1258b
+1.8185c
+
+3.0409a
+
+3.5262a
+
+a
+
+P-Value
+
+Chi-square
+
+P-Value
+
+Chi-square
+
+P-Value
+
+0.0437
+
+0.6935
+
+0.4050
+
+0.8261
+6.2067
+
+0.3634
+0.0127
+
+3.3834
+
+0.0659
+
+0.0025
+
+This table reports the estimated stepwise regression models for the realized volatility (RV) 5 min after each announcement. The stepwise regressions pick up only the
+announcements which have an impact on the 5-min realized volatility at the 10% signiﬁcance level. The stepwise regression models have the form:
+P
+PN 
+þ
+ P3
+þ
+
+þ
+RV tiþ1 ¼ c þ N
+j¼1 bj ðSAj;t i Þ þ
+j¼1 bj ðSAj;t i Þ
+s¼0 cs RV t iþ1 et iþ1 ; RV t iþ1 is the post-announcement 5-min realized volatility, ðSAj;t i Þ and ðSAj;t i Þ are the positive (P) and negative
+(N) components of the surprise of the jth announcement, and c is the volume persistence parameter that accounts for dependent variable lags (not reported). Panel A presents
+the model estimation results and panel B reports the result of tests of equality of the coefﬁcients of the negative and positive surprises if both of their impacts are signiﬁcant
+at the 10% signiﬁcance level (picked up by the stepwise regression). Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+volume during the entire 8:30–8:35 for all the days in the control
+sample is only about 959 contracts. Similarly, the volume in the silver contract increases by 218 contracts during this interval compared to an average volume of only about 326 contracts in the
+control sample. We should note, however, that none of the 9:15
+announcements are signiﬁcant in any of the volume regressions.
+5.4. Persistence of announcement shocks on returns, volatility and
+volume
+The regression results thus far provide evidence on the immediate post-announcement 5-min interval response of gold, silver and
+copper. In this section, we expand the announcement window to
+investigate the persistence of announcement shocks on returns,
+volatility and volume. Speciﬁcally, we run a series of regressions
+at 5-min intervals, spanning 10 min before the announcement
+and up to 40 min after the announcement, and obtain the adjusted
+R-square values. The R-square values from the regression are then
+plotted across time to interpret the persistence of announcement
+shocks. Figs. 3–5 report this evidence for returns, volatility and
+volume.
+An overview of Fig. 3 suggests that the impact of news announcements on returns dissipates very quickly. Notably, during the 8:30–
+8:35 min interval, the highest adjusted R-square values are found
+for gold and silver. In contrast, copper exhibits a somewhat delayed
+response to the 8:30 announcement. For the 9:15 announcements,
+there is about a 30-min delay before the realization of the highest
+adjusted R-square for gold and silver. This might explain why we
+
+were unable to substantiate a post-announcement effect on returns
+for these two metals. Copper prices, on the other hand, seem to
+incorporate the 9:15 announcements quite rapidly. For the 10:00
+announcements, the highest adjusted R-squares for gold and copper
+regressions is realized during the immediate aftermath of the
+announcement, whereas there is about a 5–10 min delay in the peak
+response of silver prices. In all cases, we observe that the metal
+prices are efﬁcient in incorporating new economic information
+and the response tends to dissipate in less than an hour after the release of the announcement. Importantly, these results provide an
+interesting contrast to studies that use low frequency observations
+and document the sluggish price responsiveness of commodities.
+Similar to Fig. 3, the evidence from shocks to volatility and volume – Figs. 4 and 5, respectively – also paints a picture where both
+market activity variables are responsive to announcements. However, compared to returns, there tends to be far more persistence
+in volatility and volume shocks (particularly with 9:15 and 10:00
+announcements) suggesting that these two variables are characterized by different properties. Again, in most cases, shocks seem to
+dissipate within 60 min after the news release.
+5.5. Asymmetric impact of news on returns, volatility and volume
+We have thus far investigated the differential effects, intensity
+and speed of macroeconomic shocks. The regression results implicate several announcements, chieﬂy nonfarm payroll and durable
+goods orders, as having a disproportionate inﬂuence in the metals
+market. The presence of asymmetric response, where the impacts
+
+64
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+Table 11
+Asymmetric impact of macroeconomic news on trading volume (2007–2008).
+Gold V+5
+
+Copper V+5
+
+Optimal regressors
+Panel A: Model estimation results
+8:30
+Intercept
+P_CNP
+P_UR
+N_UR
+
+^ Þ
+^þ ðb
+b
+j
+j
+
+T-Stat
+
+1558.58
+3127.12
+1866.06
+557.73
+
+16.806a
+3.4060a
+3.6232a
+2.2020b
+
+Silver V+5
+
+Optimal regressors
+
+^ þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Optimal regressors
+
+^ þ ðb
+^ Þ
+b
+j
+j
+
+T-Stat
+
+Intercept
+N_UR
+P_ARS
+N_PI
+P_CNP
+P_DGO
+Adjusted R2
+F-Statistics
+
+114.71
+78.10
+124.50
+88.02
+188.84
+67.37
+0.1664
+4.9912a
+
+10.280a
+2.5501b
+2.7668c
+1.9963b
+2.0511b
+1.7328c
+
+Intercept
+N_UR
+P_CNP
+N_CNP
+P_ARS
+
+443.54
+177.82
+488.88
+336.52
+209.08
+
+18.326a
+2.6439a
+2.5404b
+2.5754b
+1.6878c
+
+Adjusted R2
+F-Statistics
+
+0.1115
+6.5235a
+
+Adjusted R2
+F-Statistics
+
+0.1880
+13.9615a
+
+9:15
+
+Intercept
+Adjusted R2
+F-Statistics
+
+1149.91
+0.0000
+
+4.8298a
+
+Intercept
+Adjusted R2
+F-Statistics
+
+92.10
+0.0000
+
+14.880a
+
+Intercept
+Adjusted R2
+F-Statistics
+
+334.00
+0.1144
+5.5475a
+
+6.1187a
+
+10:00
+
+Intercept
+N_NAPM
+P_BI
+N_BI
+Adjusted R2
+F-Statistics
+
+1338.07
+478.46
+552.19
+977.48
+0.1011
+6.0244a
+
+14.771a
+2.8662a
+1.7511c
+2.5659b
+
+Intercept
+N_CC
+
+101.95
+355.26
+
+8.8496a
+4.3254a
+
+Intercept
+N_CS
+
+334.76
+215.73
+
+13.293a
+2.0066b
+
+Adjusted R2
+F-Statistics
+
+0.1724
+18.7093a
+
+Adjusted R2
+F-Statistics
+
+0.0218
+4.0264b
+
+Null Hypothesis
+
+Chi-square
+
+P-Value
+
+Panel B: Wald test of equality of coefﬁcients
+
+kbþ
+CNP k ¼ kbCNP
+
+5.4552
+kbþ
+UR k ¼ kbUR
+
+0.7145
+kbþ
+BI k ¼ kbBI
+
+Chi-square
+
+P-Value
+
+Chi-square
+
+P-Value
+
+0.4507
+
+0.5020
+
+0.0195
+0.3980
+
+This table reports the estimated stepwise regression models for trading volume 5 min after each announcement. The stepwise regressions pick up only the announcements
+P
+þ
+þ
+which have an impact on the 5-min volumes at the 10% signiﬁcance level. The stepwise regression models have the form: V tiþ1 ¼ c þ N
+j¼1 bj ðSAj;t i Þ þ
+PN 
+ P3
+þ
+
+j¼1 bj ðSAj;t i Þ
+s¼0 cs V t iþ1 et iþ1 :V t iþ1 is to the 5-min post-announcement volume, ðSAj;t i Þ and ðSAj;t i Þ are the positive (P) and negative (N) components of the surprise of the jth
+announcement, and c is the volume persistence parameter that accounts for dependent variable lags (not reported). Panel A presents the model estimation results and panel B
+reports the result of tests of equality of the coefﬁcients of the negative and positive surprises if both of their impacts are signiﬁcant at the 10% signiﬁcance level (picked up by
+the stepwise regression). Refer to Table 2 for abbreviations for the various macroeconomic announcements.
+a
+Indicate signiﬁcance at the 1% level.
+b
+Indicate signiﬁcance at the 5% level.
+c
+Indicate signiﬁcance at the 10% level.
+
+of positive surprises and negative surprises cancel each other, may
+be one possible reason as to why some announcements are not
+found to be signiﬁcant. In this section, we examine the differential
+or asymmetric response of returns, realized volatility, and volume
+to positive versus negative positive economic surprises by running
+a multivariate regression model of the following form:
+
+Y tiþ1 ¼ c þ
+
+N
+X
+j¼1
+
+bþj SAþj;T i þ
+
+N
+X
+j¼1
+
+bj SAj;ti þ
+
+3
+X
+
+cs Y tis þ etiþ1 ;
+
+ð5Þ
+
+s¼0
+
+where Y tiþ1 denotes the return, realized volatility or volume during
+the i + 1 5-min interval at day t when there is at least one announce
+ment, and SAþ
+j;t i , and SAj;t i refer to the positive and negative components of the surprise of the jth announcement. Based on our setup,
+there are two possible ways in which asymmetries can be observed:
+(1) both negative and positive surprises have signiﬁcant impacts, but
+the magnitudes of their impacts are statistically different from each
+þ
+other, that is, jb
+j j – jbj j (a Wald test is conducted to render judgment
+on the equality of the two coefﬁcients); (2) only either negative or poþ
+sitive surprises are statistically signiﬁcant, that is, b
+j ¼ 0; bj – 0; or
+
+þ
+bj – 0; bj ¼ 0, in which case this would automatically indicate the
+presence of an asymmetric response. We estimate the full regression
+model, but report only its stepwise counterpart in Tables 9–11.
+The results in Table 9 for gold, copper and silver returns show
+that several news announcements are inﬂuential, and importantly
+have an asymmetric effect on returns. For gold futures, the Wald
+test indicates that NAPM has an asymmetric impact with
+þ
+jb
+NAPM j ¼ 0:04 – jbNAPM j ¼ 0:29; that is, positive surprises of NAPM
+have larger impacts than negative ones. There are several other
+announcements where only either positive or negative surprises
+are statistically signiﬁcant, again suggesting the asymmetric nat-
+
+ure of the returns response. The inﬂuential positive surprises (i.e.,
+better than expected economic growth) include unemployment
+rate, advance retail sales, business inventories and factory orders.
+On the other hand, negative economic shocks in trade balance, personal consumption, durable goods orders, industrial production,
+and consumer conﬁdence are signiﬁcant.
+For copper returns, we observe asymmetric responses to durable goods orders, personal consumption, PPI, housing starts, trade
+balance, new home sales, industrial production and capacity utilization. For the silver futures, we ﬁnd asymmetric impacts from
+trade balance, advance retail sales, personal consumption and
+NAPM. Finally, both positive and negative nonfarm payroll surprises have a pronounced inﬂuence on gold and silver returns;
+and importantly this impact is not asymmetric.
+The asymmetric impact of economic news on realized volatility
+is reported in Table 10. First, not surprisingly, in all three markets
+both positive and negative economic surprises exacerbate realized
+volatility. Second, the results generally supports the notion that
+‘‘bad’’ news has a stronger impact than ‘‘good’’ news – i.e., negative
+economic surprises generally have a larger effect on volatility than
+positive surprises. The estimated results for gold demonstrate that
+negative surprises in nonfarm payroll, unemployment rate, trade
+balance, capacity utilization and consumer conﬁdence increase
+realized volatility, while only one positive announcement – nonfarm payrolls – signiﬁcantly increases volatility. Also, note that
+the 8:30 announcements again dominate, with only one of the
+9:15 announcements containing sufﬁcient information to cause
+volatility to increase.
+The estimated results for copper demonstrate that several
+announcements – nonfarm payrolls, personal income, personal
+consumption, PPI, housing starts and NAPM – have an asymmetric
+
+J. Elder et al. / Journal of Banking & Finance 36 (2012) 51–65
+
+impact on realized volatility. In the case of silver, many announcements that were found to have an asymmetric impact on gold volatility also have an asymmetric effect on silver volatility.
+Furthermore, Wald test for the equality of trade balance coefﬁcients suggest that the magnitude of negative surprises is about
+
+three times that of positive surprises ðbþ
+TB ¼ 0:0405; bTB ¼ 1:5636Þ.
+The asymmetric impact on trading volume is presented in Table
+11. In general, volume in all three metals is higher in the immediate aftermath of both positive and negative news announcements.
+Overall, the prominence of unemployment rate and nonfarm payroll surprises is substantiated.
+6. Concluding remarks
+The question of whether commodity prices are inﬂuenced by
+macroeconomic fundamentals or whether they are predetermined
+with respect to monetary aggregates is a topic that has yet to ﬁnd
+consensus. Although there are strong economic reasons to expect
+commodity prices to be sensitive to macroeconomic fundamentals,
+prior empirical studies have not been very successful in documenting a strong relationship. We suggest that this might be due to several reasons including measurement of data at low (daily or
+monthly) frequencies and research methods that do not control
+for asymmetric impacts.
+We undertake a comprehensive examination of the response of
+return, volatility and trading volume for gold, copper and silver to
+19 different types of macroeconomic announcements. Notably, we
+rely on an improved analytical framework that uses high-frequency data for a sample period spanning 7 years from 2002 to
+2008. The announcements are classiﬁed by time and direction
+(i.e., whether the news release signals better-than-expected-economic news or worse-than-expected news) in order to: (a) identify
+the most important set of announcements; (b) trace the persistence of macroeconomic shocks; and (c) allow for asymmetry in
+the relationships.
+Our analysis reveals that news releases have a strong and
+instantaneous impact on all three metals. First, the 8:30 set of
+announcements appear to have the largest impact on prices, realized volatility and trading volume during the immediate postannouncement 5 min interval. For instance, univariate regression
+models show that surprises in nonfarm payroll (released at
+8:30 am) explain about 35% and 23% of the returns of gold and
+silver, respectively during the 8:30–8:35 time interval. Copper
+returns, on the hand, are more sensitive to the 9:15 set of
+announcements which include capacity utilization and industrial
+production. The evidence suggests that the behavior of commodity
+markets is quite similar to other asset markets in terms of their
+responsiveness to economic information. Our results for volume
+are most consistent with informed trading models where informed
+traders tend to have an advantage in processing, rather than predicting, new information.
+Second, our results indicate that the metals market respond in
+an economically predictable manner. Unexpected improvement
+in economic growth has a negative impact on gold and silver
+prices, but registers a favorable effect on copper returns. For instance, improvements in real economic activity (e.g., advance retail
+sales), consumption (e.g., new home sales) and investment (e.g.,
+durable goods orders) are found to negatively inﬂuence gold and
+silver prices. The performance of copper, on the other hand, is consistent with its status as an important industrial metal that beneﬁts primarily from unexpected growth in the economy.
+Finally, our evidence indicates that the effect of macroeconomic
+news dissipates quickly, within about 60 min of the news release,
+and notably, and that several announcements have an asymmetric
+
+65
+
+impact on market activity variables. These results provide an
+insightful contrast to previous studies that use daily data to examine the relationship between macroeconomic news and commodity
+prices.
+References
+Adams, G., McQueen, G., Wood, R., 2004. The effects of inﬂation news on high
+frequency stock returns. Journal of Business 77, 547–574.
+Andersen, T.G., 1996. Return volatility and trading volume: an information ﬂow
+interpretation of stochastic volatility. Journal of Finance 51, 169–204.
+Andersen, T.G., Bollerslev, T., 1998. DM-dollar intraday volatility: activity pattern,
+macroeconomic announcements, and longer run dependences. Journal of
+Finance 53, 219–265.
+Barndorff-Nielsen, O.E., Shephard, N., 2002. Econometric analysis of realized
+volatility and its use in estimating stochastic volatility models. Journal of the
+Royal Statistical Society 64, 253–280, Series B.
+Baur, D.G., Lucey, B.M., 2010. Is gold a hedge or a safe haven? An analysis of stocks,
+bonds and gold. Financial Review 45, 217–229.
+Brennan, M., 1958. The supply of storage. American Economic Review 48, 934–941.
+Boyd, J.H., Hu, J., Jagannathan, R., 2005. The stock market’s reaction to
+unemployment news: why bad news is usually good for stocks. Journal of
+Finance 60, 647–672.
+Cai, J., Cheung, Y.L., Wong, M.C.S., 2001. What moves the gold market? Journal of
+Futures Markets 21, 257–278.
+Chen, N., Roll, R., Ross, S., 1986. Economic forces and the stock market. Journal of
+Business 59, 383–403.
+Chen, Y.L., Gau, Y.F., 2010. News announcements and price discovery in foreign
+exchange spot and futures markets. Journal of Banking and Finance 34, 1628–
+1636.
+Christie-David, R., Chaudhry, M., Koch, T.W., 2000. Do macroeconomic news
+releases affect gold and silver prices? Journal of Economics and Business 52,
+405–421.
+Ederington, L.H., Lee, J.H., 1993. How markets process information: news releases
+and volatility. Journal of Finance 48, 1161–1191.
+Erb, C., Harvey, C., 2006. The tactical and strategic value of commodity futures.
+Financial Analysts Journal 62, 69–97.
+Flannery, M.J., Protopapadakis, A., 2002. Macroeconomic factors do inﬂuence
+aggregate stock returns. Review of Financial Studies 15, 751–782.
+Glosten, L.R., Milgrom, P.R., 1985. Bid, ask and transaction prices in a specialist
+market with heterogeneously informed traders. Journal of Financial Economics
+14, 71–100.
+Hansen, P.R., Lunde, A., 2006. Realized variance and market microstructure noise.
+Journal of Business & Economic Statistics 24, 127–161.
+Hess, D., Huang, H., Niessen, A., 2008. How do commodity futures response to
+macroeconomic news? Financial Markets and Portfolio Management 22, 127–
+146.
+Khalifa, A.A., Miao, H., Ramchander, S., 2011. Return distributions and volatility
+forecasting in metal futures markets: evidence from gold, silver, and copper.
+Journal of Futures Markets 31, 55–80.
+Kilian, L., Vega, C., 2010. Do energy prices respond to U.S. macroeconomic news? A
+test of the hypothesis of predetermined energy prices. Review of Economics and
+Statistics 93, 660–671.
+Kim, O., Verrecchia, R., 1994. Market liquidity and volume around earnings
+announcements. Journal of Accounting and Economics 17, 41–67.
+Kocagil, A., 1997. Does futures speculation stabilize spot prices? Evidence from
+metal markets. Applied Financial Economics 7, 113–125.
+Koutmos, G., Booth, G.G., 1995. Asymmetric volatility transmission in international
+stock markets. Journal of International Money and Finance 14, 747–762.
+Maheu, J.M., McCurdy, T.H., 2011. Do high-frequency measures of volatility improve
+forecasts of return distributions? Journal of Econometrics 160, 69–76.
+Nowak, S., Andritzky, J., Jobst, A., Tamirisa, N., 2011. Macroeconomic fundamentals,
+price discovery, and volatility dynamics in emerging bond markets. Journal of
+Banking and Finance 35, 2584–2597.
+Pasquariello, P., Vega, C., 2007. Informed and strategic order ﬂow in the bond
+markets. Review of Financial Studies 20, 1975–2019.
+Roache, S.K., Rossi, M., 2010. The effects of economic news on commodity prices: is
+gold just another commodity. The Quarterly Review of Economics and Finance
+50, 377–385.
+Ross, S.A., 1989. Information and volatility: the no-arbitrage martingale approach to
+timing and resolution irrelevancy. Journal of Finance 44, 1–18.
+Simpson, M.W., Ramchander, S., 2004. An examination of the impact of
+macroeconomic news on the spot and futures treasuries markets. Journal of
+Futures Markets 24, 453–478.
+Simpson, M.W., Ramchander, S., Chaudhry, M., 2005. The impact of macroeconomic
+surprises on spot and forward exchange markets. Journal of International
+Money and Finance 24, 693–718.
+Tauchen, G.E., Pitts, M., 1983. The price variability-volume relationship on
+speculative markets. Econometrica 51, 485–505.
+Zhou, B., 1996. High-frequency data volatility in foreign-exchange rates. Journal of
+Business and Economic Statistics 14, 45–52.
+
+

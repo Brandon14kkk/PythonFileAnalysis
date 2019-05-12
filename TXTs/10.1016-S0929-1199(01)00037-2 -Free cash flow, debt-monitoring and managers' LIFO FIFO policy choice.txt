@@ -1,0 +1,1529 @@
+Journal of Corporate Finance 7 Ž2001. 475–492
+www.elsevier.comrlocatereconbase
+
+Free cash flow, debt-monitoring and managers’
+LIFOrFIFO policy choice
+Ferdinand A. Gul )
+Department of Accountancy, City UniÕersity of Hong Kong, 83 Tat Chee AÕenue,
+Kowloon Tong, Hong Kong, China
+Accepted 22 June 2001
+
+Abstract
+This paper explores the explanatory power of Jensen’s free cash flow hypothesis in
+managers’ choice of LIFO versus FIFO. The association between FCF, and choice of
+inventory methods is based on the assumption that there is a potential conflict of interest
+between managers and shareholders when LIFO is the tax minimization method and that
+non-value-maximizing managers of firms with the FCF problem have incentives to choose
+FIFO, an income increasing method, in order to increase their compensation. However,
+since debt can act as a monitoring device and mitigate the agency problems of FCF,
+managers of firms with high FCF and high debt are less likely to choose FIFO than
+managers of firms with high FCF and low debt. The evidence is consistent with this
+expectation. q 2001 Elsevier Science B.V. All rights reserved.
+JEL classification: L84; M40
+Keywords: Free cash flow; Debt monitoring; Inventory accounting method; Growth opportunities
+
+1. Introduction
+An important strand of corporate finance and accounting research examines
+agencyrcontracting explanations for managers’ choice of corporate policies such
+as debt, dividend, compensation and accounting policies ŽSmith and Watts, 1992;
+Skinner, 1993.. In particular, choice of accounting policies has been the focus of
+)
+
+Tel.: q852-2788-7919; fax: q852-2788-7944.
+E-mail address: acgul@cityu.edu.hk ŽF.A. Gul..
+
+0929-1199r01r$ - see front matter q 2001 Elsevier Science B.V. All rights reserved.
+PII: S 0 9 2 9 - 1 1 9 9 Ž 0 1 . 0 0 0 3 7 - 2
+
+476
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+some research interest. This paper focuses on managers’ choice of inventory
+methods LIFO versus FIFO. Although prior studies provide some insight on why
+firms select LIFO, the understanding as to why firms remain on FIFO is still
+unclear and subject to some controversy ŽBiddle, 1989; Niehaus, 1989; Cushing
+and LeClere, 1992; Christie and Zimmerman, 1994.. 1 This paper attempts to
+provide an explanation for managers’ choice of LIFOrFIFO by drawing on
+Jensen’s Ž1986. Free Cash Flow ŽFCF. theory. FCF is defined as the excess cash
+available after mangers have invested in net present value ŽNPV. projects ŽRubin,
+1990, p. 81.. According to Jensen Ž1986, 1989., low growthrhigh FCF firms face
+an agency problem in the sense that managers indulge in ‘ value-destroying
+activities’ such as increasing their perquisites, investing in negative NPV projects
+and generally acting against shareholders’ interests. Jensen Ž1993, p. 849. also
+asserts that lucrative compensation and benefits are other ways in which the
+agency costs of FCF can manifest themselves. This suggests that managers of low
+growthrhigh FCF firms are more likely to choose FIFO, an income increasing
+method, rather than LIFO in order to receive higher compensation. Other reasons
+why non-value-maximizing managers may choose FIFO include job security
+ŽWeisbach, 1988; Christie and Zimmerman, 1994. and the need to mask nonvalue-maximizing expenditure from outsiders ŽChristie and Zimmerman, 1994..
+Jensen Ž1986, 1989. also argues that debt can mitigate the agency problems
+between shareholders and managers of firms with the FCF problem and motivate
+management to act in the interests of the shareholders. Debt not only reduces the
+FCF but also provides discipline to management through the debt market. This
+debt monitoring hypothesis is formalized by Harris and Raviv Ž1990. and Stulz
+Ž1990. and empirically demonstrated by Maloney et al. Ž1993. and Gul and Tsui
+Ž1998.. Following the debt monitoring hypothesis, managers of firms with the FCF
+problem and high debt are less likely to choose FIFO Žand act against the interest
+of the shareholders., than managers of firms with the FCF problem and low levels
+of debt, ceteris paribus.2
+The above reasoning regarding the role of FCF and debt monitoring was also
+examined by Gul and Tsui Ž1998. in a recent audit pricing study. They tested the
+hypothesis that there will be a positive association between FCF and audit fees and
+that the positive association is weaker for firms with higher levels of debt. They
+
+1
+Four hypotheses have been advanced for inventory accounting choices. These are the efficiency
+contracting hypothesis ŽSkinner, 1993., the tax hypothesis ŽCushing and LeClere, 1992., the political
+costs hypothesis ŽDopuch and Pincus, 1988; Lee and Hsieh, 1985. and the agency or opportunistic
+hypothesis ŽAbdel-khalik, 1985; Skinner, 1993..
+2
+This prediction runs counter to the debt covenant hypothesis which suggests that managers will
+choose income-increasing methods in order to loosen debt covenants. An extension of this prediction in
+the context of the debt hypothesis suggests that models used in prior studies may have an omitted
+variables problem by not explicitly considering the FCF problem Žsee, for example, Skinner, 1993 who
+did not find any significant results for the debtrinventory method relationship..
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+477
+
+argued that since managers of low growthrhigh FCF firms are involved in
+non-value maximizing activities they are also expected to mask non-optimal
+expenditures by accounting manipulations Žp. 220.. Thus, auditors respond to the
+higher probability of accounting misstatements by exerting greater audit effort and
+charging higher audit fees. However, the existence of debt as a monitoring device
+for low growthrhigh FCF firms is expected to mitigate the FCF agency problems
+and thus reduce the positive association between FCF and audit fees. The results
+of their study are consistent with the hypotheses. The same reasoning is applied to
+managers’ choice of LIFOrFIFO.
+Five proxies for growth are factor analyzed in order to obtain investment
+opportunity set ŽIOS. index. Firms with scores at the bottom quartile are categorized as low growth. The values for the independent variables, FCF and debt and
+the control variables size, inventory materiality, current ratio, average tax loss
+carryforward and return on assets are obtained by averaging the observations from
+Compustat for the years 1977, 1978, 1979 and 1980. Appropriate adjustments are
+made to all the relevant variables for LIFO firms to convert them to a FIFO basis.
+The dependent variable is the firm’s inventory method, LIFO Žcoded 0. versus
+FIFO Žcoded 1. for the year 1980. Niehaus Ž1989. also examines LIFOrFIFO
+choice for the same year and provides information on compensation and industries
+facing price declines. The information on compensation provides the basis for the
+assumption in the paper that managers would prefer FIFO in order to improve
+their compensation, ceteris paribus.
+Logistic regressions are used to test the hypothesis. The significant negative
+interaction results between FCF and debt for low growth firms suggest that
+increasing levels of both debt and FCF are associated with a lower likelihood of
+managers choosing FIFO. These results are consistent with Jensen’s Ž1986, 1989.
+FCF theory and the debt monitoring hypothesis.
+Another explanation for the results which draws from the debt covenant
+hypothesis may also be considered. Managers of firms with high debt and high
+FCF are less likely to choose FIFO than managers of high debt and low FCF
+because firms with high FCF are less likely to be close to debt covenant violations
+than firms with low FCF. The coefficients for debt in all the regressions are
+significant and positive. It is not possible to completely rule out this explanation
+but two reasons suggest that the FCF and debt monitoring is a more plausible
+explanation. First, the significant interaction results were only found for the low
+growth subsample and not for the high growth subsample. Second, a logistic
+regression with the full sample Ž N s 285. shows that the interaction term for FCF
+and debt is insignificant.3
+Section 2 provides the theoretical background for the paper and Section 3
+discusses the research method including variables specification. This is followed in
+
+3
+
+Results for the overall regression are not reported for the sake of parsimony.
+
+478
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+Section 4 by the data analyses and results. Section 5 presents a discussion and
+summary of the results.
+
+2. Theoretical background
+Two assumptions that provide the basis for the theoretical relationship between
+FCF, debt and choice of inventory methods are Ž1. that shareholders prefer
+managers to choose the inventory method that minimizes taxable income, Ž2. that
+managers prefer the inventory method that maximizes reported income to increase
+accounting based compensation ŽAbdel-khalik, 1985; Niehaus, 1989..4 Shareholders’ preference may be explained by the fact that lower tax liability implies a
+higher share price, and managers’ preference may be explained in terms of the fact
+that higher reported income increases earnings-based compensation, ceteris paribus.
+A reasonable assumption is that managers’ compensation increases with reported
+income ŽAbdel-khalik, 1985; Niehaus, 1989..5 The link between low growthrhigh
+FCF and choice of FIFO is based on Jensen’s Ž1993. suggestion that one
+manifestation of the FCF problem is managers’ incentives for higher compensation.
+When FIFO minimizes taxes, a conflict of interest between the shareholders
+and managers is unlikely since FIFO can be chosen for tax purposes and LIFO for
+financial reporting purposes. However, when LIFO minimizes taxes, there is a
+potential conflict of interest between the shareholders and mangers since if LIFO
+is used in tax reporting it must also be used for financial reporting. The
+management compensation assumption implies that managers prefer FIFO. The
+likelihood that this potential conflict would be resolved in favor of the shareholders of low growth firms depends on the extent of the FCF problem and the firm’s
+level of debt.6 A natural extension of the FCF agency problem is to say that
+non-value-maximizing managers of firms with low growthrhigh FCF are more
+likely to choose FIFO, an income increasing method. Other possible incentives for
+managers’ choice of FIFO include job security since the probability of replacing
+managers is higher for firms with poor accounting earnings performance ŽWarner
+et al., 1988; Weisbach, 1988; Murphy and Zimmerman, 1993. and the significant
+role of accounting numbers in proxy contests between managers and dissident
+shareholders ŽDeAngelo, 1988, 1990.. Accounting procedures are also used by
+4
+
+The political costs argument would suggest that managers of larger firms would prefer income
+decreasing methods.
+5
+Healy et al. Ž1987. found no evidence that compensation committees make bonuses contingent on
+the inventory method used by managers.
+6
+Since it is difficult to observe whether or not a conflict of interest actually exists, this hypothesis is
+an indirect test of the relationships.
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+479
+
+managers to mask non-value-maximizing expenditures from outsiders ŽShleifer
+and Vishny, 1989; Christie and Zimmerman, 1994..
+However, at high levels of debt, greater monitoring increases the likelihood that
+managers have incentives to make decisions that are more consistent with the
+interests of shareholders ŽJensen, 1989; Maloney et al., 1993..7 This suggests that
+managers are more likely to choose LIFO, which minimizes tax and increases the
+value of the shareholders’ wealth.
+
+3. Research methodology
+3.1. Sample selection
+Observations for this study are based on data collected from the PC Plus
+version of Compustat. In order to avoid the confounding effects of regulation on
+choice of inventory methods regulated firms with the following four digit SIC are
+excluded from the analysis: Ž1. 100–1400 Žmining firms., Ž2. 4011 Žrailroads., Ž3.
+4911–4991 Žutilities., Ž4. 6021–8744 Žfinancial, medical and other service firms..
+Another requirement for the firm to be included in the sample is that it is publicly
+traded, incorporated in the US, is not a subsidiary of another firm and information
+on inventory methods is available. Information on inventory accounting methods
+used by firms is also obtained from Compustat, which identifies seven different
+inventory valuation methods.8 For purposes of this study, only those firms that
+selected and retained LIFO or FIFO as the Aprimary methodB for the years
+1977–1981 are selected. As a result of this procedure, 794 firm observations are
+available. Of these, 352 firm observations met all the criteria for the measurement
+of the IOS variable. The bottom quartile of this sample in terms of the IOS scores
+is selected to represent the low growth category of firms Ž N s 88.. These 88 firms
+are used to run the regressions but are reduced as a result of any missing values
+for any of the variables in the overall regressions leaving 74 low growth firms.
+Table 1 presents the industry representations of the firms in the sampling frame
+and firms in the low growth category.
+3.2. Specification and measurement of Õariables
+The inventory method choice selected for study is for those reported at the
+fiscal year-end 1980. Two reasons motivated the choice of this year. First, Niehaus
+7
+
+Jensen Ž1989. also draws attention to the fact that managers of firms with high debt are more likely
+to be rewarded on the basis of cash flow of the firm rather than accounting earnings.
+8
+The following seven inventory valuation methods have been identified by Compustat: FIFO, LIFO,
+Specific Identification, Average Cost, Retail Method, Standard Cost, and Current or Replacement Cost.
+
+480
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+Table 1
+SIC defined industry representation of full sample and low growth sample
+Industry
+
+Heavy construction
+Food and kindred products
+Textile mill products
+Apparel
+Lumber and wood
+Furniture and fixtures
+Paper and allied products
+Printing and publishing
+Chemicals and allied products
+Pete refining
+Rubber and misc plastics
+Leather
+Stone, clay, glass
+Primary metal
+Fabr metal
+Indl, comml machinery
+Electrical equipment
+Transportation equipment
+Meas instr, photo gds
+Misc manufacturing
+Durable goods
+Nondurable goods—wholesale
+Bldg matl, hardware, garden—retail
+General merchandise stores
+Food stores
+Apparel and accessory stores
+Home furniture store
+Eating places
+Misc retail
+Total firms
+
+SIC code
+
+1600
+2000
+2200
+2300
+2400
+2500
+2600
+2700
+2800
+2900
+3000
+3100
+3200
+3300
+3400
+3500
+3600
+3700
+3800
+3900
+5000
+5100
+5200
+5300
+5400
+5600
+5700
+5800
+5900
+
+Number of firms
+Full sample
+
+Low growth samplea
+
+1
+11
+5
+1
+3
+9
+7
+4
+45
+11
+10
+1
+6
+13
+17
+65
+47
+20
+33
+5
+5
+5
+1
+9
+4
+3
+1
+4
+6
+352
+
+0
+3
+5
+0
+1
+3
+2
+2
+7
+2
+3
+0
+4
+7
+2
+6
+2
+5
+4
+3
+1
+2
+0
+2
+2
+1
+1
+1
+3
+74
+
+a
+The bottom quartile of 88 is reduced to 74 as a result of missing values for variables in the logistic
+regressions.
+
+Ž1989. used 1980 data and the results in this study will provide some basis for
+comparative analyses.9 Second, most LIFO adoptions had been made by 1981 and
+the rate of overall inflation had diminished by 1981. The financial variables are
+measured for each firm as the average of the year-end values for 1977 through to
+1980.10 Two sets of results are reported. In the first set, all relevant variables for
+LIFO firms are appropriately adjusted and restated on a FIFO basis ŽWhite et al.,
+9
+Lee and Hsieh Ž1985. used 1980 as the last year for their study and 1980 also overlaps with the
+third subperiod of the Dopuch and Pincus Ž1988. study.
+10
+This is similar to the method adopted by Skinner Ž1993..
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+481
+
+1994, pp. 344–349.. In the second set, the reported numbers without adjustments
+are used to provide a benchmark for purposes of comparison.
+3.2.1. InÕestment opportunity set (IOS)
+Following Myers Ž1977., firms are viewed as a combination of assets-in-place
+and future investment or growth options. Firms with growth options are those
+whose values depend on further discretionary expenditures by managers. These
+include capacity expansion projects, new product introductions, acquisitions of
+other firms and maintenance and replacement of existing assets ŽMason and
+Merton, 1985; Gaver and Gaver, 1993.. Growth opportunities are captured in
+terms of the IOS available to a firm. These IOS are expected to vary cross-sectionally since firms have different specific investments in physical and human assets
+ŽSmith and Watts, 1992..
+In this study, the IOS for each firm which is measured in terms of the notion of
+assets-in-place versus growth opportunities as identified by Myers Ž1977. is
+evaluated in terms of five proxies selected on the basis of prior studies ŽSkinner,
+1993; Gaver and Gaver, 1993; Baber et al., 1996.. They are the ratio of the market
+value of assets to the book value of assets, the ratio of the market value of the
+equity to the book value of the equity ŽGaver and Gaver, 1993., the ratio of plant,
+properties and equipment to the market value of the firm ŽSkinner, 1993., the ratio
+of total research and development expenditure to total assets ŽSkinner, 1993. and
+the geometric mean annual growth rate of market value of assets ŽBaber et al.,
+1996..
+The variables are defined below:
+MKTBKASs ratio of market value of assets to book value of assets Compustat
+items ŽŽ6 y 60 q Ž24)25..r6.;
+MKTBKEQs ratio of market value of equity to book value of common equity
+Compustat items ŽŽ24)25.r60.;
+RDA s ratio of research and development expenditure to total assets Compustat
+items Ž46r6.;
+PPE s ratio of net plant, properties and equipment to the market value of the
+firm Compustat items Ž8rŽ24)25..;
+MVAGRs geometric mean annual growth rate of market value of assets
+Compustat items
+3
+
+(
+
+6 y 60 q Ž 24)25.
+6 y 60 q Ž 24)25.
+
+t
+
+.
+
+ty3
+
+A composite measure of IOS is developed by conducting common factor
+analysis on the relevant growth proxies ŽGaver and Gaver, 1993.. Firms are
+assigned a composite factor score in order to identify their growth opportunities.
+Descriptive statistics, correlations and results of the common factor analysis based
+
+482
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+Table 2
+Descriptive statistics and Spearman correlation of five measures of IOS Ž N s 352.
+MVAGR
+Panel A: DescriptiÕe statistics
+Maximum
+2.480
+Third quartile
+1.319
+Median
+1.171
+First quartile
+1.079
+Minimum
+0.687
+Mean
+1.228
+
+PPE
+4.952
+0.888
+0.509
+0.285
+0.002
+0.710
+
+Panel B: Spearman rank correlations
+MVAGR
+1
+y0.311) ) )
+PPE
+1
+MKTBKAS
+MKTBKEQ
+RDA
+
+MKTBKAS
+13.339
+1.412
+1.086
+0.884
+0.472
+1.293
+
+0.431) ) )
+y0.716 ) ) )
+1
+
+MKTBKEQ
+15.080
+1.760
+1.155
+0.758
+y1.567
+1.524
+
+0.464 ) ) )
+y0.695 ) ) )
+0.962 ) ) )
+1
+
+RDA
+0.173
+0.043
+0.022
+0.009
+0.000
+0.031
+
+0.128 )
+y0.439 ) ) )
+0.340 ) ) )
+0.321) ) )
+1
+
+MVAGR s geometric mean annual growth rate of market value of assets; PPEs ratio of net plant,
+properties and equipment to the market value of the firm; MKTBKASs ratio of market value of assets
+to book value of assets; MKTBKEQs ratio of market value of equity to book value of common equity;
+RDA s ratio of research and development expenditure to total assets.
+)
+p-Value- 0.05.
+))
+p-Value- 0.01.
+)))
+p-Value- 0.001.
+
+on all the observations are reported in Tables 2 and 3. Panel A of Table 3 reports
+the communalities11 of the five proxies and Panel B shows the eigenvalues.12 The
+correlations between the common factor and the five proxies are reported in Panel
+C. The correlations are all significant and in the predicted direction. Panel D
+provides the descriptive statistics for the common factor.
+The summary statistics in Table 2 indicate that the correlations between the
+proxy variables are as expected ŽSkinner, 1993; Gaver and Gaver, 1993.. The
+MKTBKAS, MKTBKEQ, RDA and MVAGR are all significantly correlated with
+each other and highly significant. PPE is negatively correlated with each of the
+other proxies and is also highly significant. Factor analysis is shown in Table 3.
+As expected, the common factor is positively associated with MKTBKAS, MKTBKEQ, RDA and MVAGR and negatively correlated with PPE. All correlations
+are statistically significant. The common factor analysis results indicate that one
+factor fully explains the intercorrelations among the individual measures.13
+11
+
+Communalities are the squared multiple correlations obtained by regressing each of the proxies
+with the other two proxies.
+12
+Cattrell Ž1966. and Harman Ž1976. suggest that if the first eigenvalue exceeds the sum of the three
+communalities, this one common factor explains the intercorrelations among the individual measures.
+13
+See Gaver and Gaver Ž1993. and Harman Ž1976. for discussion of the procedures used in common
+factor analysis.
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+483
+
+Table 3
+Statistics related to common factor analysis of five measures of the investment opportunity set ŽIOS.
+for sample of 352 Compustat firms
+Panel A: Estimated communalities of five IOS measures
+MVAGR
+
+PPE
+
+MKTBKAS
+
+MKTBKEQ
+
+RDA
+
+0.121
+
+0.225
+
+0.778
+
+0.795
+
+0.222
+
+Panel B: Eigenvalues of the reduced correlation matrix of five IOS measures
+MVAGR
+
+PPE
+
+MKTBKAS
+
+MKTBKEQ
+
+RDA
+
+2.164
+
+0.307
+
+y0.1
+
+y0.103
+
+y0.127
+
+Panel C: Correlations between the common factor and five IOS measures
+MVAGR
+
+PPE
+
+MKTBKAS
+
+MKTBKEQ
+
+RDA
+
+0.342 ) ) )
+
+y0.513 ) ) )
+
+0.931) ) )
+
+0.970 ) ) )
+
+0.516 ) ) )
+
+Panel D: Descriptive statistics of the common factor
+Maximum
+Third quartile
+Median
+First quartile
+Minimum
+Mean
+
+9.670
+0.200
+y0.202
+y0.521
+y1.575
+0
+
+MVAGR s geometric mean annual growth rate of market value of assets Compustat items
+3
+
+(
+
+w 6y60q Ž 24)25. x t
+;
+w 6y60q Ž 24)25. x t y3
+
+PPEs ratio of net plant, properties and equipment to the market value of the firm Compustat items
+Ž8rŽ24)25..; MKTBKASs ratio of market value of assets to book value of assets Compustat items
+Žw6–60qŽ24)25.xr6.; MKTBKEQs ratio of market value of equity to book value of common equity
+Compustat items ŽŽ24)25.r60.; RDA s ratio of research and development expenditure to total assets
+Compustat items Ž46r6..
+
+3.2.2. Free cash flow (FCF) and debt
+It is difficult to measure FCF as defined by Jensen Ž1986. because all future
+projects cannot be readily identified and information on future relevant discount
+rates is also not available. Thus, attempts have been made to use proxies. In this
+study, the measure suggested by Lehn and Poulsen Ž1989. and adopted by
+Agrawal and Jayaraman Ž1994. is used. Lehn and Poulsen Ž1989. defines FCF as
+the operating income before depreciation minus interest expense, taxes, preferred
+dividend and common dividend. In order to make the FCF figures comparable, an
+adjustment is made to operating income and tax of LIFO firms and restated on a
+FIFO basis by taking into account changes in the LIFO reserve account ŽWhite et
+al., 1994, p. 344.. Following Lang et al. Ž1991. and Agrawal and Jayaraman
+
+484
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+Table 4
+Mean values of FIFOrLIFO firms
+Panel A: Low growth—adjusted
+Variables
+
+LIFO firms
+Ž N s 39.
+
+FIFO firms
+Ž N s 35.
+
+t-Value
+
+SIZE
+FCF – AT
+FCF – NS
+DEBT
+CR
+ROA
+TAX LOSS CrF
+INFL
+
+6.758
+0.078
+0.056
+0.209
+2.667
+0.575
+0.004
+242.774
+
+3.768
+0.060
+0.034
+0.253
+2.791
+0.407
+0.021
+230.831
+
+8.612 ) ) )
+1.789 )
+2.552 ) )
+y1.790 )
+y0.365
+3.099 ) ) )
+y1.170
+1.387
+
+Panel B: Full samplea —adjusted
+Variables
+
+N
+
+LIFO firms
+
+N
+
+FIFO firms
+
+t-Value
+
+SIZE
+FCF – AT
+FCF – NS
+DEBT
+CR
+ROA
+INV – MAT
+TAX LOSS CrF
+INFL
+IOS
+
+162
+157
+157
+162
+162
+126
+162
+157
+162
+162
+
+5.868
+0.099
+0.069
+0.183
+2.836
+0.412
+0.316
+0.009
+239.996
+y0.250
+
+190
+176
+176
+189
+190
+187
+190
+177
+190
+190
+
+4.093
+0.104
+0.076
+0.216
+3.528
+0.272
+0.303
+0.032
+228.487
+0.213
+
+8.829 ) ) )
+y0.617
+y0.579
+y2.722 ) ) )
+y1.032
+6.201) ) )
+1.038
+y1.641
+3.548 ) ) )
+y5.011) ) )
+
+FIFO firms
+
+t-Value
+
+Panel C: Low growth—as reported
+Variables
+
+LIFO Firms
+Ž N s 39.
+
+FIFO Firms
+Ž N s 35.
+
+t-Value
+
+SIZE
+FCF – AT
+FCF – NS
+DEBT
+CR
+ROA
+INV – MAT
+TAX LOSS CrF
+INFL
+
+6.758
+0.078
+0.056
+0.229
+2.215
+0.507
+0.210
+0.004
+242.774
+
+3.768
+0.060
+0.034
+0.253
+2.791
+0.407
+0.329
+0.021
+230.831
+
+8.612 ) ) )
+1.789 )
+2.552 ) )
+y0.966
+y1.703 )
+1.940 )
+y4.916 ) ) )
+y1.149
+1.387
+
+LIFO firms
+
+N
+
+Panel D: Full samplea —as reported
+Variables
+
+N
+
+SIZE
+FCF – AT
+FCF – NS
+DEBT
+CR
+
+162
+157
+157
+162
+162
+
+5.868
+0.099
+0.069
+0.199
+2.419
+
+190
+176
+176
+189
+190
+
+4.093
+0.104
+0.076
+0.216
+3.528
+
+8.829 ) ) )
+y0.617
+y0.579
+y1.342
+y1.657 )
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+485
+
+Table 4 Ž continued .
+Panel D: Full samplea —as reported
+Variables
+
+N
+
+LIFO firms
+
+N
+
+FIFO firms
+
+t-Value
+
+ROA
+INV – MAT
+TAX LOSS CrF
+INFL
+IOS
+
+158
+162
+157
+162
+162
+
+0.356
+0.253
+0.010
+239.996
+y0.250
+
+187
+190
+177
+190
+190
+
+0.272
+0.303
+0.032
+228.487
+0.213
+
+4.318 ) ) )
+y4.348 ) ) )
+1.592
+3.548 ) ) )
+y5.011) ) )
+
+SIZEs natural log of total assets ŽCompustat item 12..
+FCF – AT s Žincytaxyintexpypfddivycomdiv.rtotal assets.
+FCF – NSs Žincytaxyintexpypfddivycomdiv.rnet sales where: inc s operating income before depreciation ŽCompustat item 13.; tax s total income taxes minus change in deferred taxes from the
+previous year to the current year ŽCompustat items 16 and 50.; intexps gross interest expense on short
+and long term debt ŽCompustat item 15.; pfddiv s total amount of preferred dividend requirement on
+cumulative preferred stock and dividends paid on non-cumulative preferred stock ŽCompustat item 19.;
+comdiv s total dollar amount of dividends declared on common stock ŽCompustat item 21..
+DEBT s ratio of total debt to total asset ŽCompustat items 9q34 and 6..
+CR s ratio of current assets to current liabilities ŽCompustat items 4 and 5..
+ROA s ratio of operating income before depreciation to market value of the firms ŽCompustat items 13
+and 24)25..
+INV – MAT s ratio of inventory to total assets ŽCompustat items 3 and 6..
+TAXLOSS CrF s ratio of tax loss carry forwards to total assets ŽCompustat items 52 and 6..
+INFL s industry inflation based on actual producer price index.
+IOSs composite growth factor calculated using common factor analysis of the following five proxies:
+MVAGR s geometric mean annual growth rate of market value of assets, PPEs ratio of net plant,
+properties and equipment to the market value of the firm, MKTBKASs ratio of market value of assets
+to book value of assets, MKTBKEQs ratio of market value of equity to book value of common equity,
+RDA s ratio of research and development expenditure to total assets.
+a
+The different sizes for N is due to missing values for certain variables.
+)
+p-value- 0.1.
+))
+p-value- 0.05.
+)))
+p-value- 0.01.
+
+Ž1994., FCF is scaled by the value of total assets for the end of the previous year.
+As an additional test, FCF is also scaled by total net sales of the previous year.14
+Several measures of debt have appeared in the literature and the measure adopted
+in this study follows the definition used by Skinner Ž1993., which is book value of
+long term debt divided by the book value of total assets.
+3.2.3. Control Õariables
+Based on prior inventory studies, several control variables are selected. Size is
+measured in terms of the log of sales ŽCushing and LeClere, 1992.. In addition,
+14
+
+Lehn and Poulsen Ž1989. argues that the scaled variable will be more comparable across firms. See
+Lang et al. Ž1991. for arguments against the use of equity values as the denominator.
+
+486
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+there are a number of other variables which may impact the choice of accounting
+methods.15 Of these, a control variable adopted in this study but not in the Niehaus
+Ž1989. study is the current ratio since Wilson and Christensen Ž1985. suggests that
+lower ŽLIFO. balance sheet values for inventory could affect compliance with debt
+covenants. Other control variables included are inventory materiality ŽCushing and
+LeClere, 1992., return on assets ŽSkinner, 1993. and tax loss carryforwards
+ŽCushing and LeClere, 1992.. All inventory values for the LIFO firms were
+adjusted to an Aas-ifB FIFO basis. To control for the tax effect, a variable AINFLB
+that measures the direction and rate of price changes is included in the regressions.
+For this purpose, the information provided by the Bureau of Labor Statistics
+Producers’ Price Index is used to provide inflation factors that measure the
+direction and rate of price change of the firms’ industries.
+3.2.4. DescriptiÕe statistics
+Descriptive statistics for FIFO and LIFO firms on debt, FCF, size, current ratio,
+ROA, inventory materiality, tax loss carryforwards and the inflation factor are
+provided in Panels A and C of Table 4. Panel A reports descriptive statistics for
+the low growth firms Ž N s 74.16 with the LIFO adjustments while Panel C reports
+the same statistics but without the LIFO adjustments. Panels B and D of Table 4
+are similar except that descriptive statistics are for the whole sample of firms for
+which complete observations are available.17
+For low growth firms Žafter adjusting for LIFO., the differences are significant
+for five of the variables. The results show that FIFO firms are smaller, are more
+highly leveraged and have lower ROA. These results are expected and consistent
+with prior studies ŽDopuch and Pincus, 1988; Cushing and LeClere, 1992;
+Skinner, 1993.. The current ratio and the tax loss carryforwards are not significant
+but are in the expected direction. Inventory materiality is not in the predicted
+direction since it is higher for FIFO firms. This is, however, consistent with the
+findings of Dopuch and Pincus Ž1988. and Cushing and LeClere Ž1992.. The
+results for size may either be interpreted in terms of the political costs hypothesis
+or the hypothesis that size is a proxy for bookkeeping costs and that larger firms
+15
+
+Management ownership ŽNiehaus, 1989. was not included in the regression for the reasons cited in
+Cushing and LeClere Ž1992, footnote 8.. In addition, the focus of study is on low growth firms which
+are generally large companies and have relatively low levels of management ownership ŽDemsetz and
+Lehn, 1985.. It was also decided not to make additional investment in collecting compensation data
+since prior results found little evidence of a link between compensation and choice of LIFOrFIFO
+ŽHunt, 1985; Abdel-khalik, 1985; Dopuch and Pincus, 1988..
+16
+For convenience, the descriptive statistics reported are for 74 firms which are used in the overall
+regression equations. The descriptive statistics are not qualitatively different when the sample sizes are
+different which arise since there were less missing values for some of the variables such as the debt
+ratio.
+17
+Panels A and C exclude IOS Žfactor. scores since the sample represents firms with the bottom
+quartile of IOS Žfactor. scores.
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+487
+
+can absorb these costs more readily ŽCushing and LeClere, 1992.. Both the debt
+and current ratio results are consistent with the debt covenant hypothesis. Firms
+with higher leverage prefer FIFO and firms with low current ratios also prefer
+FIFO which improves their current ratio. FCF is significantly lower for FIFO firms
+and this is not in the predicted direction. It is possible that this is because FIFO
+firms are smaller and therefore have lower FCF.18 As expected, LIFO firms are
+associated with higher inflationary levels. On the whole, these results are similar
+to those reported in prior studies ŽDopuch and Pincus, 1988; Cushing and LeClere,
+1992; Skinner, 1993.. Panel C which reports the descriptive statistics for the
+unadjusted figures shows that there are some differences. Debt becomes insignificant and the sign for the current ratio changes to the wrong direction. Inventory
+materiality also becomes more significant in the wrong direction. As suggested by
+Dopuch and Pincus Ž1988., these results could be artifacts of the choice of
+inventory methods adopted. Panels B and D which report similar figures for the
+whole sample Žafter screening for IOS and other missing values. show that
+generally the results are similar. In particular, LIFO firms are associated with
+higher levels of inflation and lower levels of IOS. These results are consistent with
+Skinner’s Ž1993. study and provide support for the tax benefit hypothesis.
+
+4. Results and discussion
+Logistic regressions for low growth firms are run to evaluate the effects of the
+independent variables on firms’ choice of inventory method. The dependent
+variable is coded 1 if FIFO is chosen and 0 if LIFO is chosen. A positive
+coefficient indicates a higher likelihood of selecting an income increasing method
+ŽFIFO. while a negative coefficient indicates a lower Žhigher. likelihood of
+selecting FIFO ŽLIFO.. To test the debtrFCF interaction term, the following basic
+logistic regression model is formulated:
+Y s a q b 1 FCF q b 2 debt q b 3 FCF)debt
+where Y is the likelihood that managers choose FIFO.
+The b 3 parameter measures the extent to which the association between FCF
+and inventory choice is affected by debt and is expected to be negative. Tests are
+conducted by adding control variables to this basic model.
+Table 5 reports the results for the various equations. The table also provides the
+Wald chi-square and the level of significance for each estimated coefficient, the
+overall regression p-value and the R-squares.
+18
+
+Jensen Ž1986. argues that FCF is a problem that is more likely to be associated with large firms
+than smaller firms.
+
+488
+
+Table 5
+Logistic regression results Žfigures in parenthesis represent probability of Wald chi-square value for one-tailed test.
+PS a
+
+FCFNS
+
+DEBT
+
+SIZE
+
+CR
+
+ROA
+
+INV – MAT
+
+TAX LOSS CrF
+
+INFL
+
+FCF)DEBT
+
+q
+
+q
+
+q
+
+Overall p-value
+
+Pseudo R 2 Ž% .
+
+0.0001
+
+64
+
+0.0001
+
+62
+
+y
+
+y
+
+y
+
+y
+
+y
+
+y
+
+y
+
+Panel A: Low growth firms— adjusted
+Model 1
+100.8
+50.441
+Ž N s 74 .
+Ž0.010 .
+Ž0.002 .
+Model 2
+65.223
+34.847
+Ž N s 74 .
+Ž0.066 .
+Ž0.008 .
+
+y2.224
+Ž0.0004 .
+y1.737
+Ž0.0001 .
+
+y0.389
+Ž0.223 .
+y0.445
+Ž0.116 .
+
+y11.127
+Ž0.004 .
+y11.240
+Ž0.005 .
+
+2.214
+Ž0.366 .
+y1.113
+Ž0.427 .
+
+y33.936
+Ž0.026 .
+y37.472
+Ž0.027 .
+
+0.010
+Ž0.266 .
+y0.001
+Ž0.471 .
+
+y434.4
+Ž0.008 .
+y457.2
+Ž0.034 .
+
+Panel B: Low growth firms— as reported
+Model 1
+94.972
+39.393
+Ž N s 74 .
+Ž0.027 .
+Ž0.015 .
+Model 2
+25.130
+13.864
+Ž N s 74 .
+Ž0.195 .
+Ž0.077 .
+
+y1.885
+Ž0.0008 .
+y1.364
+Ž0.00005 .
+
+0.192
+Ž0.402 .
+y0.055
+Ž0.454 .
+
+y9.229
+Ž0.007 .
+y6.955
+Ž0.019 .
+
+9.729
+Ž0.059 .
+10.050
+Ž0.047 .
+
+y19.919
+Ž0.095 .
+y15.150
+Ž0.157 .
+
+0.019
+Ž0.120 .
+0.015
+Ž0.157 .
+
+y333.5
+Ž0.033 .
+y113.9
+Ž0.244 .
+
+0.0001
+
+61
+
+0.0001
+
+58
+
+Panel C: High growth firms— adjusted
+Model 1
+16.079
+7.627
+Ž N s 70 .
+Ž0.195 .
+Ž0.277 .
+Model 2
+31.859
+9.729
+Ž N s 70 .
+Ž0.059 .
+Ž0.179 .
+
+y0.770
+Ž0.001 .
+y0.874
+Ž0.0004 .
+
+y0.504
+Ž0.208 .
+y0.754
+Ž0.136 .
+
+y7.068
+Ž0.084 .
+y7.342
+Ž0.085 .
+
+y8.331
+Ž0.073 .
+y9.007
+Ž0.079 .
+
+y26.584
+Ž0.116 .
+y29.376
+Ž0.106 .
+
+y0.003
+Ž0.423 .
+y0.003
+Ž0.436 .
+
+y63.208
+Ž0.237 .
+y111.8
+Ž0.099 .
+
+0.0276
+
+27
+
+0.0256
+
+29
+
+Panel D: High growth firms— as reported
+Model 1
+0.405
+y3.502
+Ž N s 70 .
+Ž0.490 .
+Ž0.375 .
+Model 2
+15.014
+y0.623
+Ž N s 70 .
+Ž0.208 .
+Ž0.473 .
+
+y0.644
+Ž0.002 .
+y0.677
+Ž0.0005 .
+
+0.116
+Ž0.423 .
+y0.215
+Ž0.372 .
+
+y3.180
+Ž0.262 .
+y3.079
+0.265 .
+
+y0.458
+Ž0.461 .
+0.293
+Ž0.477 .
+
+y12.668
+Ž0.267 .
+y12.146
+Ž0.276 .
+
+0.012
+Ž0.213 .
+0.011
+Ž0.220 .
+
+9.257
+Ž0.451 .
+y24.999
+Ž0.373 .
+
+0.0577
+
+21
+
+0.0557
+
+23
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+FCFAT
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+489
+
+Panel A reports the logistic regressions for the Aas ifB adjusted figures. The
+estimate for the size19 variable is reliably negative and this is also consistent with
+expectations ŽCushing and LeClere, 1992.. Apart from the usual political costs
+hypothesis, Biddle Ž1989. and Morse and Richardson Ž1983. found that firms
+switched to LIFO after their estimated tax savings reached a high plateau. This is
+consistent with the fixed level of costs of switching. Such costs would be more
+easily absorbed by large firms which would also have a higher probability of
+reaching a critical plateau in any one year. The current ratio is negative and
+consistent with expectations and the findings by Cushing and LeClere Ž1992..
+ROA is reliably negative suggesting that firms with high profitability choose
+LIFO, a result which is consistent with Skinner Ž1993.. The estimate for inventory
+materiality is negative when FCF is scaled by net sales but not when FCF is scaled
+by total assets. The negative sign is consistent with predictions that firms with
+large inventory are less likely to use FIFO and take advantage of the tax benefits
+of LIFO. The positive sign results are consistent with Cushing and LeClere Ž1992.
+who found that the sign for inventory materiality was in the opposite Žpositive.
+direction Žp. 361.. The sign for the inflation factor is not significant but in the
+expected direction in Model 1 but not in Model 2 of Panel A.20 More importantly,
+Panel A shows that the interaction between FCF and debt is reliably negative and
+suggests that the positive relationship between FCF and FIFO weakens at progres-
+
+Notes to Table 5:
+FCF – AT s Žincytaxyintexpypfddivycomdiv.rtotal assets.
+FCF – NSs Žincytaxyintexpypfddivycomdiv.rnet sales where: inc s operating income before depreciation ŽCompustat item 13.; tax s total income taxes minus change in deferred taxes from the
+previous year to the current year ŽCompustat items 16 and 50.; intexps gross interest expense on short
+and long term debt ŽCompustat item 15.; pfddiv s total amount of preferred dividend requirement on
+cumulative preferred stock and dividends paid on non-cumulative preferred stock ŽCompustat item 19.;
+comdiv s total dollar amount of dividends declared on common stock ŽCompustat item 21..
+SIZEs natural log of total assets ŽCompustat item 12..
+DEBT s ratio of total debt to total asset ŽCompustat items 9q34 and 6..
+CR s ratio of current assets to current liabilities ŽCompustat items 4 and 5..
+ROA s ratio of operating income before depreciation to market value of the firms ŽCompustat items 13
+and 24)25..
+INV – MAT s ratio of inventory to total assets ŽCompustat items 3 and 6..
+TAXLOSS CrF s ratio of tax loss carry forwards to total assets Žcompstat items 52 and 6..
+INFL s industry inflation based on actual producer price index.
+FCF)DEBT s interaction between FCF and DEBT.
+a
+Predicted sign.
+19
+
+Other measures of size such as log of assets and actual sales produced similar results.
+This result is due to the fact that the sample only focussed on low growth firms since when a
+regression was run for the whole sample Ž N s 285. with all the variables inflation was negative
+Ž p- 0.03. thus also providing support for the tax benefit hypothesis.
+20
+
+490
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+sively higher levels of debt. The results support Jensen’s FCF and debt monitoring
+hypothesis.
+As a benchmark, logistic regression results using the unadjusted reported
+numbers are also reported in Panel B. The results are insignificant for most of the
+variables including the interaction term. This suggests that the adjusted numbers
+were more effective in capturing the suggested theoretical relationships. As a
+AcontrolB sample, results for the high growth subsample Ž N s 70. are also
+reported in Panels C and D both in terms of the adjusted and unadjusted figures.21
+The results are insignificant in most cases and provide further evidence in support
+of the hypothesis.
+
+5. Summary and conclusion
+This study provides evidence to show that managers of low growthrhigh FCF
+firms with high debt are more likely to act in the interest of shareholders and
+therefore less Žmore. likely to choose FIFO ŽLIFO.. Overall, these results increase
+our understanding of the determinants of accounting policy choice and add to the
+literature on finance theory in two ways. First, and most importantly, it is the first
+study to demonstrate the role of FCF and debt as a monitoring device in managers’
+choice of inventory accounting method. Future research should examine the role of
+FCF and debt in other accounting methods choice. Second, the study provides
+some support for a stream of literature on the tax benefits hypothesis for the
+choice of LIFOrFIFO.
+
+Acknowledgements
+Judy Tsui, Ross Watts, anonymous reviewers, participants at seminars at
+Monash University, Caulfield, Griffith University, City University of Hong Kong
+and AAANZ Conference.
+
+References
+Abdel-Khalik, A.R., 1985. The effect of LIFO switching and firm ownership on executives’ pay.
+Journal of Accounting Research 23, 427–447.
+Agrawal, A., Jayaraman, N., 1994. The dividend policies of all-equity firms: a direct test of the free
+cash flow theory. Managerial and Decision Economics 15, 139–148.
+Baber, R.B., Janakiraman, S.N., Kang, S.H., 1996. Investment opportunities and the structure of
+executive compensation. Journal of Accounting and Economics 21, 297–318.
+
+21
+
+The top quartile comprised 88 firms but the test sample is reduced to 70 as a result of missing
+values for one or more of the variables used in the regression.
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+491
+
+Biddle, G.C., 1989. Accounting methods and management decisions: the case of inventory costing and
+inventory policy. Journal of Accounting Research 18, 235–280.
+Cattrell, R.B., 1966. The Scree test for the number of factors. Multivariate Behavioral Research 1,
+245–276.
+Christie, A.A., Zimmerman, J.L., 1994. Efficient and opportunistic choices of accounting procedures:
+corporate control contests. The Accounting Review 69, 539–566.
+Cushing, B.E., LeClere, M.J., 1992. Evidence on the determinants of inventory policy choice. The
+Accounting Review 67, 355–366.
+DeAngelo, L.E., 1988. Managerial competition, information costs, and corporate governance: the use
+of accounting performance measures in proxy contests. Journal of Accounting and Economics 10,
+3–36.
+DeAngelo, L.E., 1990. Equity valuation and corporate control. The Accounting Review 65, 93–112.
+Demsetz, H., Lehn, K., 1985. The structure of corporate ownership: Causes and consequences. Journal
+of Political Economy, 1155–1177, Spring.
+Dopuch, N., Pincus, M., 1988. Evidence on the choice of inventory accounting methods: LIFO versus
+FIFO. Journal of Accounting Research 26, 28–59.
+Gaver, J.J., Gaver, K.M., 1993. Additional evidence on the association between the investment
+opportunity set and corporate financing, dividend and compensation policies. Journal of Accounting
+and Economics 16, 125–160.
+Gul, F.A., Tsui, J., 1998. A test of the free cash flow and debt monitoring hypotheses: evidence from
+audit pricing. Journal of Accounting and Economics 24, 219–237.
+Harman, H.H., 1976. Modern Factor Analysis. 3rd edn. University of Chicago Press, Chicago, IL.
+Harris, M., Raviv, A., 1990. Capital structure and the informational role of debt. Journal of Finance 45,
+321–349.
+Healy, P.M., Kang, S.H., Palepu, K.G., 1987. The effect of accounting procedure changes on CEOs’
+cash salary and bonus compensation. Journal of Accounting and Economics 9, 7–34.
+Hunt, H., 1985. Potential determinants of corporate inventory accounting decisions. Journal of
+Accounting Research 23, 448–467.
+Jensen, M.C., 1986. Agency costs of free cash flow, corporate finance and takeovers. American
+Economic Review 76, 323–339.
+Jensen, M.C., 1989. Eclipse of the public corporation. Harvard Business Review 5, 61–74.
+Jensen, M.C., 1993. The modern industrial revolution, exit, and the failure of internal control systems.
+Journal of Finance, 831–880, July.
+Lang, L.H.P., Stulz, R.M., Walkling, R.A., 1991. A test of the free cash flow hypothesis, the case of
+bidder returns. Journal of Financial Economics 29, 315–335.
+Lee, C.J., Hsieh, D., 1985. Choice of inventory accounting methods: comparative analysis of
+alternative hypothesis. Journal of Accounting Research, 468–485, Autumn.
+Lehn, K., Poulsen, A., 1989. Free cash flow and stockholder gains in going private transactions. The
+Journal of Finance, 771–787, July.
+Maloney, M.T., McCormick, R.E., Mitchell, M.L., 1993. Managerial decision making and capital
+structure. Journal of Business 66, 189–217.
+Mason, S.P., Merton, R.C., 1985. The role of contingent claims analysis in corporate finance. In:
+Altman, E.I. ŽEd.., Recent Advances in Corporate Finance. Irwin, Homewood, IL, pp. 7–54.
+Morse, D., Richardson, G., 1983. The LIFOrFIFO decision. The Journal of Accounting Research 21,
+106–127.
+Murphy, K.J., Zimmerman, J.L., 1993. Financial performance surrounding CEO turnover. Journal of
+Accounting and Economics 16, 273–315.
+Myers, S., 1977. Determinants of corporate borrowing. Journal of Financial Economics 5, 147–175.
+Niehaus, G.R., 1989. Ownership structure and inventory method choice. The Accounting Review 64,
+269–284.
+Rubin, P.H., 1990. Managing Business Transactions. The Free Press, Maxwell Macmilian International, New York.
+
+492
+
+F.A. Gul r Journal of Corporate Finance 7 (2001) 475–492
+
+Smith Jr., C.W., Watts, R.L., 1992. The investment opportunity set and corporate financing, dividend
+and compensation policies. Journal of Financial Economics 32, 263–292.
+Shleifer, A., Vishny, R.W., 1989. Management entrenchment, the case of manager-specific investments. Journal of Financial Economics 25, 123–139.
+Skinner, D., 1993. The investment opportunity set and accounting procedure choice: preliminary
+evidence. Journal of Accounting and Economics 16, 407–445.
+Stulz, R.M., 1990. Managerial discretion and optimal financing policies. Journal of Financial Economics 26, 3–27.
+Warner, J.B., Watts, R.L., Wruck, K.H., 1988. Stock prices and top management changes. Journal of
+Financial Economics 20, 461–492.
+Weisbach, M.S., 1988. Outside directors and CEO turnover. Journal of Financial Economics 20,
+431–460.
+White, G.I., Sondhi, A.S., Fried, D., 1994. Analysis and Use of Financial Statements. Wiley, New
+York.
+Wilson, P.W., Christensen, K.E., 1985. LIFO for Retailers: A Business, Financial and Tax Guide.
+Wiley, New York.
+
+

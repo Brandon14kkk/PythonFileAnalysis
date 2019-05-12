@@ -1,0 +1,2173 @@
+Available online at www.sciencedirect.com
+
+Journal of Financial Stability 4 (2008) 62–87
+
+Bank lending opportunities and credit standards
+A. Burak Güner ∗
+Barclays Global Investors, Active Strategies and Research Group, 32nd Floor,
+45 Fremont Street, San Francisco, CA 94105, United States
+Received 20 June 2006; received in revised form 13 November 2007; accepted 13 November 2007
+Available online 23 November 2007
+
+Abstract
+This article empirically tests the hypothesis that credit-screening standards can be first increasing and
+then decreasing in the quality of the bank’s pool of potential borrowers, which in turn may vary through
+the business cycle or across different segments of the lending markets. A key implication is that banks with
+lending opportunities toward the middle of the quality spectrum can have loan portfolios that perform better
+than do the portfolios of banks with loan-origination opportunities that are either too weak or too strong.
+Using banks’ volume of secondary-market loan sales as a proxy for the richness of lending opportunities,
+I find an inverse U-shaped relation between the performance of banks’ loan portfolios and their activity in
+the loan sales market. The pattern deserves scrutiny for its policy implications, as many regulators hold the
+view that countercyclical variation in credit standards may have a destabilizing effect on business cycles.
+© 2007 Elsevier B.V. All rights reserved.
+JEL classiﬁcation: G21; G30
+Keywords: Banking; Credit screening; Loan sales
+
+1. Introduction
+Mainstream theories on banking commonly attribute the existence of intermediaries to their
+efficiency in the credit-screening and monitoring of borrowers (e.g., Diamond, 1984; Campbell
+and Kracaw, 1980; Boyd and Prescott, 1986). For policymakers and regulators, the effect of
+credit standards on loan availability and economic output is material—so much so that the Fed
+administers periodic surveys that measure the change in credit standards by studying the qualitative
+answers of loan officers. For instance, a study of a Senior Loan Officer Survey on Bank Lending
+∗
+
+Tel.: +1 415 597 2332; fax: +1 415 618 5572.
+E-mail address: burak.guner@barclaysglobal.com.
+
+1572-3089/$ – see front matter © 2007 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jfs.2007.11.001
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+63
+
+by Lown et al. (2006) suggests that a tightening of credit standards explains a significant portion
+of the subsequent decline in business lending and wholesale inventory investment.1
+This paper analyzes empirically how the stringency of bank credit-screening standards depends
+on the exogenous quality of the bank’s pool of potential borrowers, which may vary with the
+business cycle or across different segments of the lending markets (e.g. different industries or
+geographical regions). In a theoretical framework, Ruckes (2004) develops the hypothesis that
+banks choose stricter standards of screening when the quality of the borrower pool is toward the
+middle of the quality spectrum than when the quality is either too low or too high. The intuition is
+simple: when the marginal benefits of screening out bad projects exceed the marginal costs of credit
+verification, the bank will adopt high lending standards (i.e., evaluate applicants more carefully
+and lend more often to good types). This result holds when the probability that screening the
+borrower will reveal a good type is sufficiently – but not too – high. In contrast, bank’s incentives
+to screen are the lowest if the probability of discovering a high type is close to zero (e.g., severe
+recessions, or small regional banks) or one (e.g., economic booms, or large money-center banks).
+Consistently, the empirical tests of this article reveal a pattern that would not seem obvious had
+one not considered the variation in credit standards: Bank loan-portfolio performance can be first
+increasing and then decreasing in the richness of the bank’s loan-origination opportunities.
+The intuition behind the inverse U-shaped relation analyzed in this paper is also close in spirit
+to the strand of literature (e.g., Diamond, 1991; Berlin and Loeys, 1988; Hoshi et al., 1993;
+Rajan, 1992) that analyzes when it is optimal for borrowers to choose bank loan (debt with bank
+monitoring) over public debt (arm’s-length debt with no monitoring). A central result of these
+papers is that the firm’s choice between debt with or without monitoring depends on the firm’s
+credit rating (i.e., the probability that the firm is a high type). Borrowers with too low a credit
+rating choose public debt—if they can obtain debt financing at all. Those borrowers with too high
+a credit rating choose public debt over bank loans (except in Rajan’s model where the high type
+is indifferent between the two sources of finance). The managers of highly rated firms do not
+need bank monitoring to commit to exerting a high level of effort (i.e., choosing the good project)
+because of their reputation capital at stake. At the same time, from the bank’s point of view, the
+benefits of monitoring or of pre-issue screening high-quality firms does not justify the costs of
+doing so. For the intermediate-quality firms, however, the costs of monitoring or pre-screening
+are less than the benefits of committing the firm to undertake efficient projects, or the benefits of
+screening out the low types. In equilibrium, therefore, only firms with intermediate credit ratings
+rely on debt with monitoring. Like these models, the model tested here is also based on the idea
+that borrower quality should be associated with the level of bank screening. Different from them
+however, this paper’s setting ignores the choice of the firm and focuses on the bank’s actions only.
+The empirical tests of this paper draw heavily on the observation that lending markets can
+be segmented; for instance, banks in different localities can have differential access to potential borrowers (e.g., Pennacchi, 1988; Carlstrom and Samolyk, 1995). As a result, banks whose
+loan-origination opportunities exceed their funding capacities (e.g. money center banks with constrained capital) originate more loans than they can profitably keep on their books and sell2 the
+1 The impact of credit availability on the economy (and vice versa) is a classic question among macroeconomists. See,
+for instance, Gorton and Winton (2003).
+2 Note that the reference is to the secondary loan sales, which differ from loan syndications (see Gorton and Haubrich,
+1990, for a description of the secondary loan sales market). In a secondary sale, the bank first originates and funds the
+loan, and then participates it (or a proportion thereof) to another institution. In a syndicated loan deal, before originating
+the loan, the lead manager (or a group of them) arranges a group of participants that will fund portions of the loan. All
+
+64
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+excess to other domestic and foreign banks, as well as to nonbank financial institutions such as
+money-market funds. Thus, the “comparative-advantage” hypothesis, which formally develops
+these arguments, predicts a positive correlation between loan sales and lending opportunities. The
+key feature of the analysis here, then, is to use loan sales activity at the bank level as a proxy for
+the bank’s lending opportunities (with certain caveats to be discussed shortly).
+To test the model’s implications for loan-portfolio quality, I analyze a large sample of quarterly
+reports of condition and income (bank call reports) compiled by the Federal Deposit Insurance Corporation (FDIC). Supportive of the hypothesis, I find that balance-sheet measures of
+nonperforming loans are first decreasing, and then increasing in the level of loan sales.
+For additional tests, I obtained a sample of loans from the Loan Pricing Corporation’s Dealscan,
+and then hand-matched the Dealscan lender names to the FDIC call reports and the borrower names
+to CRSP and COMPUSTAT. Because data on loan performance are not available, I examine
+borrower risk instead. To quantify it, I reason as follows. The costly credit-screening technology
+of banks is valuable only if it produces soft information about firm prospects beyond what the
+publicly observed information on the borrower can indicate. Soft information, in turn, should
+help the bank predict future borrower performance. My analysis thus proxies for borrower quality
+with several measures of post-issue borrower performance such as stock returns, return on assets,
+interest coverage, and distance to default. Overall, the results of the borrower-level analysis
+confirm those of the bank-level analysis: There is a nonmonotonic relation between post-issue
+borrower performance and the originating bank’s loan-sales volume.
+Finally, a couple of caveats about the interpretation of results are in order. First, comparative
+advantage is not the only driver of loan sales.3 For instance, other (perhaps complementary)
+hypotheses assert that loan sales might provide a mechanism for portfolio rebalancing to shift
+asset risk, or for underwriting securities without violating the regulations that prohibit banks
+from the practice.4 To the extent that other motivations for loan sales do not lead directly to
+the origination of poor quality loans, the implication is a noisier proxy and a bias toward the
+documented results. If, however, banks originate poorer quality loans with the intention of sale
+(moral hazard) or pick the lower quality loans already on their balance sheets for sale (adverse
+selection),5 and if Dealscan loans are more representative of sold loans rather than all loans
+originated by active sellers, the interpretation of the empirical results involving the Dealscan
+loans will be less clear. Namely, the poor quality of loans might be due to loan sales itself rather
+than the variable it is intended to proxy for.6 The weight of evidence in this article – at least
+
+lenders in the syndicate then fund the loan simultaneously. The lead bank(s) or the participant(s) can still sell their shares
+of the loan in the secondary market, which is in fact a common practice (see Demsetz, 1993).
+3 Although the comparative advantage hypothesis is not the only explanation for loan sales, it is the one that finds the
+most support in the literature. See, for instance, Demsetz (1993, 2000), and Haubrich and Thomson (1996) for empirical
+evidence. Stylized facts also support the hypothesis. A handful of money-center banks with access to many potential
+borrowers through their network of branches located throughout the financial centers of the world generated most of the
+loan sales during the 1980s and early 1990s, whereas loan buyers mainly comprised small regional banks, foreign banks,
+and nonbank financial institutions (see Gorton and Haubrich, 1990, for details on the features of the loan sales market).
+4 See Berger and Udell (1993) for a comprehensive discussion of these and other hypotheses on loan sales.
+5 Dahiya et al. (2003) find evidence consistent with this interpretation; stock price of companies whose loans are sold
+react negatively to the sale announcement.
+6 At the time of this writing, for instance, banks and other investors in the US are reporting losses from mortgages
+extended to the relatively less creditworthy consumers in the housing market (“subprime crisis”). It is hard to argue that
+the low quality loans were made as a response to improving lending opportunities rather than to satisfy increased investor
+demand due to a technological shock that allowed easy securitization of low quality loans.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+65
+
+indirectly – is more in favor of the former hypothesis. As demonstrated here as well as in Güner
+(2006), interest spreads for loans originated by most active sellers are on average lower than those
+originated by banks that are less active sellers – controlling for an array of bank variables and
+contractual features, as well as proxies for observable and unobservable borrower quality. This
+is inconsistent with the moral hazard explanation being a first order effect driving the portfolio
+quality results of this paper. Furthermore, the documented loan-quality effects at the borrower
+level hold only among the sole-lender loans, a small portion of which is intended for resale, as
+opposed to the syndicated loans sample, which is in fact the primary source of loans sold in this
+sample period. Yet, without a comprehensive dataset of retained and sold loans, such as the one
+marketed by the Loan Pricing Corporation after the completion of this research, it is difficult to
+rule out with confidence the moral hazard hypothesis using data at the loan level.
+Second caveat is about the sample period of this paper, which covers 1984–1993 due to the
+availability of the loan sales variable in the regulatory bank filings. One may be concerned that the
+motivation and the mechanics of loan sales as well as the segmented nature of the lending markets
+have evolved substantially since 1993, thus rendering the conclusions of this study irrelevant.
+These concerns, however valid as they may be, speak more to the validity of loan sales as an
+empirical proxy for lending opportunities in more recent periods, rather than the more general
+relevance of the question studied. To the extent that economic prospects of banks continue to vary
+across time (business cycles), or across market segments (industries or regions), countercyclical
+variation in credit standards may continue to be a relevant pattern for economists, regulators,
+bankers, and CFOs alike.
+The rest of the paper is organized as follows. Section 2 presents the hypotheses. Section 3
+presents the empirical tests using bank-level data from the FDIC call reports. Section 4 extends
+the empirical analysis by examining the data at the borrower level using a hand-matched dataset
+of Dealscan loans. Section 5 offers concluding comments.
+2. Hypotheses
+Ruckes (2004) sets up a rigorous model of bank lending with asymmetric information taking
+into account lender competition, loan pricing, and credit screening intensity. Here, I give a very
+high level summary of the model’s implications for credit standards, in order to convey the
+intuition behind the hypotheses tested. The object of this paper is not to formally test the highly
+structured Ruckes model; rather, I present it as a source of motivation for the hypothesis that credit
+screening standards and bank portfolio quality can be nonmonotonic in the quality of a bank’s
+loan pool.
+In the economy, there are two types of borrowers, good and bad, which differ in the expected
+success rate for the projects undertaken. The good type yields a payoff of X; the bad one yields
+zero. The a priori and exogeneous probability that a loan applicant is of the good type, λ (0,
+1), is known to the bank before any action is taken. Issues related to the borrower’s self-selection
+are assumed away as λ is assumed to be exogeneous. Parameters are such that the bank would
+never lend to the bad type in a perfect information world, and would always lend to the good
+type. The bank possesses a costly screening technology, which yields a signal that reveals the
+borrower type perfectly with probability q, and a non-informative signal with probability 1 − q.
+Cost of screening is increasing in q. The bank first decides the intensity of screening, q, and
+upon observing the signal (s = G, s = B, or s = 0), decides whether to extend the loan or reject the
+applicant. As mentioned, if s = G or s = B, the strategy is simply to accept or to reject, respectively.
+When s = 0 is observed, lenders play mixed strategies, by extending a “risky” loan with probability
+
+66
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+μ. A key result is that there is an equilibrium where credit-screening intensity (q) is first increasing
+in λ up to a threshold, λ*, and then decreasing past this threshold.7
+The model tells a stylized story of the following sort. If lending opportunities are relatively poor
+(λ is low), as in recessions, lenders never extend a risky loan (μ). A low q combined with zero μ
+is essentially credit rationing. In the cross section, one can think of low λ corresponding to small
+regional banks located in regions with poor loan origination opportunities. As economic prospects
+improve, credit standards (q) increase while banks also start extending some risky loans. Going
+from the middle of the λ spectrum to the high end, credit screening intensity q starts decreasing
+while risky loan volume μ is increasing. With increasing λ, the portfolio quality would reflect a
+combination of the fewer safe loans (low q) and many but decreasingly risky loans (high μ with
+an increasing probability λ of payback). Low q and high μ imply a worsening portfolio quality,
+while increasing λ implies an improving portfolio quality. The net effect is thus the object of the
+empirical tests.
+Hypothesis 1a. Since credit screening intensity q starts to decrease at relatively high levels of λ
+(when λ > λ*), loan portfolio quality of banks with very good lending opportunities can be lower
+than that of banks with inferior lending opportunities.
+Note that, when taken literally, the model implies that banks with poor lending opportunities
+with λ < λ* never extend risky loans, which in fact depends critically on the assumption that bank
+funding costs (δ) are constant across banks (λ* is essentially a multiplier of δ and hence increasing
+in the interest rate at which the bank raises its funds). Because small regional banks typically have
+a larger proportion of their liabilities in cheaply obtained deposits, they tend to have a funding cost
+advantage compared with larger banks, which fund most of their liabilities with money-market
+instruments at the competitive rate. If we instead allow banks to face increasing marginal costs,
+as in the comparative advantage model of Pennacchi (1988), small banks (those with low λ and
+low δ) would also end up extending some risky loans, rendering the empirical implications of
+the model at low λ region less precise than those presented in the paper. Thus, at low levels of
+λ, with increasing λ, portfolio quality would reflect a combination of few but safe loans (low q),
+and also few but very risky loans (combined with low μ and a probability λ of payback). The
+number of those risky loans (μ) is higher for banks with lower financing costs (δ), which is an
+unmodeled aspect of the lending market in this setting.8 At low levels of λ, therefore, as in the
+other extreme, whether portfolios of banks with low λ are riskier than those with higher λ is an
+empirical question.
+Hypothesis 1b. If low levels of λ are accompanied by low funding costs, portfolio quality will
+more closely reflect the low quality of the lending pool faced by the bank. Hence, at relatively low
+levels of λ (when λ < λ*), portfolio quality should be increasing in λ. Alternatively, if funding cost
+δ is more homogenous in this region, banks will extend only safe loans all the time and portfolio
+quality will be the same across banks, as implied by the original setting of the model.
+7 As credit screening technology is becoming less costly due to improving technologies such as credit scoring or
+improved firm disclosure, we would conjecture to observe more credit screening as screening becomes profitable for
+lower ␭ and the threshold beyond which relaxing the standard is optimal due to screening cost becomes increasingly
+higher. At one extreme discontinuity, for instance, in a world with zero credit screening costs (borne by the banks at least),
+there would be no variation in lending standards as a function of the loan pool. In such a world, however, the existence of
+commercial banks as traditional lenders would also be in question.
+8 Note that Ruckes (2004) actually analyzes the effect of introducing deposit insurance, which is essentially closely
+related to the variation in ␦. However, his setting does not incorporate heterogeneity across banks.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+67
+
+Besides this level effect in portfolio quality across all banks, I will also hypothesize a nonmonotonic dispersion effect in λ. Namely, because banks with high credit standards screen more
+intensely and lend more often to the high type regardless of the exact value of λ, we should observe
+a wider dispersion of portfolio quality when credit standards start decreasing due to very high λ.
+Hypothesis 2a. At relatively high levels of λ, cross-sectional variation in observed portfolio
+quality should be increasing in λ.
+Again, analogously to the level effect of Hypothesis 1b, observing the dispersion effect not
+only at the high end but also at the low end of the λ spectrum requires existence of banks with
+low funding costs (δ) that extend a positive number of risky loans.
+Hypothesis 2b. If low levels of λ are accompanied by low funding costs, at relatively low levels
+of λ, cross-sectional variation in observed portfolio quality can be decreasing in λ. Alternatively, if
+funding cost δ is more homogenous in this region, banks will extend only safe loans and dispersion
+of portfolio quality will be the same across banks, as implied by the original setting of the
+model.
+Finally, for a further test of the credit-standards hypothesis, I shift the gears a bit and consider
+its implication for loan pricing rather than loan quality. If the bank expends more effort (high q)
+to discover the borrower type, the loan decision is more likely to be an informed one. Hence the
+loan price is more likely to vary as a function of the revealed true borrower type.
+Hypothesis 3. If the bank follows stricter lending standards, loan pricing should be more correlated with “soft” information on the borrower (i.e., borrower quality observed by the bank, but
+not by the public at the time of lending).
+Empirically, I shall control for publicly observable borrower characteristics and test whether
+future borrower performance (i.e., distance to default) is related to loan pricing in each bank
+category. The intuition is that soft information helps predict borrower future, which in turn is
+likely to affect loan price—if the bank screens and learns the borrower type.
+3. Hypothesis tests at the bank level
+As a proxy for the quality of lending opportunities λ, which itself is not directly observable,
+I shall use the bank’s relative volume of loan sales. As noted by Gorton and Haubrich (1990),
+the stylized facts about loan sales in the sample period show three distinct categories of banks
+in terms of their relative activity in the secondary loan sales market: (1) nonsellers (low λ), (2)
+moderate sellers (moderate λ), and (3) active sellers (high λ). Active sellers differ from moderate
+sellers by a notable jump in loan-sales volume. For instance, the most active five sellers from
+1984 to 1993 accounted for approximately 61% of the total loan-sales volume.
+3.1. Data
+I obtained bank balance-sheet data from the FDIC’s quarterly call reports database. Using only
+those institutions that are defined as commercial banks (with entity code 10) results in a sample
+of approximately 450,000 bank-quarter observations. My sample period is limited to 1984–1993,
+since the regulation change in 1993 ended the requirement to report the amount of commercial and
+industrial (C&I) loans originated and sold by the bank. Although the definition of the loan-sales
+variable in call reports does not explicitly say the variable includes C&I loans only, earlier studies
+
+68
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+commonly interpret the variable as such.9 If a loan is not sold entirely, which is a common case,
+the variable records only the sold portion of the loan. In particular, it excludes the portion of
+the loan that is syndicated to the participants by the lead manager. Thus, the variable tracks loan
+participations (or secondary-market loan sales) only.
+To measure the bank’s relative loan-sales activity, I use the total amount of C&I loans originated
+and sold by the bank, scaled by the level of C&I loans on the balance sheet (“SALES”).10
+Sorting bank-quarter observations into SALES deciles,11 I provide summary statistics in Table 1.
+Approximately 60% of the observations are from nonseller bank-quarters. Within sellers, the bulk
+of the sales volume (79%) was generated by banks in the top SALES vintile (denoted by column
+10B in Table 1). Moreover, bank size tends to be increasing in loan sales. Even though these
+observations have been reported elsewhere (e.g., Gorton and Haubrich, 1990; Berger and Udell,
+1993), a new pattern concerning the bad-loans ratio emerges. As the last two rows of the table
+demonstrate, both measures of the bad-loans ratio (non-accrual and 90-day-past-due C&I loans
+as a ratio of the C&I loans outstanding) are lower among moderate sellers than they are among
+nonsellers. Moving to the most active sellers (vintile 10B), however, both ratios demonstrate an
+increase, which is consistent with the hypothesis that portfolio quality can be nonmonotonic in
+lending opportunities (proxied by loan sales).
+3.2. Cross-sectional analysis
+To gauge the statistical significance of the nonmonotonic pattern observed in the summary
+statistics, I employ OLS regressions where the dependent variable is the bad-loans ratio (NONPERFORM), constructed as the non-accrual plus 90-day-past-due C&I loans scaled by the size
+of C&I loans outstanding. Since bank assets are highly skewed in the sample period, for an easier
+interpretation of results, I perform the analysis separately in subsamples split by bank size according to the following cutoffs: $100 million, $500 million, and $1 billion. The explanatory variables
+are indicators for SALES deciles (SALES X), constructed by sorting observations separately in
+each size subsample by SALES. ACTIVE is a dummy that is equal to 1 if SALES is in the top
+decile, and SELLER is a dummy that is equal to 1 if SALES is greater than 0. For further controls,
+I include the logarithm of bank total assets, equity-to-assets ratio (as a proxy for overall financial
+health), and indicators for years.
+The results in Table 2A demonstrate the nonmonotonic relation between portfolio quality and
+loan sales. NONPERFORM drops between nonsellers and sellers as the SELLER dummy has
+a coefficient estimate that is negative and statistically significant. Portfolio quality is roughly
+the same among sellers, except for those in the top SALES decile. The coefficient estimate for
+
+9 See item number 3431 in the dictionary files available from the Chicago Federal Reserve’s web site at:
+http://www.chicagofed.org/economic research and data/data/commercial bank dictionary.cfm. The item excludes certain sales like consumer loans, residential mortgages and federal funds. While the loan sales variable may also include
+commercial real estate loans, to be consistent with the latter part of this study where I use a sample of corporate loans, I
+analyze commercial and industrial loans only and employ the variable as a proxy for C&I loans sold. This interpretation
+is consistent with previous studies that use the variable in a similar fashion; see, for instance, Demsetz (2000), Berger and
+Udell (1993), and Cantor and Demsetz (1993). My conversations with call report analysts at the FDIC also confirmed this
+interpretation. Overall, the added noise would only bias my tests against finding the documented results.
+10 Since this construction leaves us with a flow measure in the numerator and a stock measure in the denominator, a
+value of greater than one is possible and in fact observed in the data.
+11 Note that sorting within each year does not change the results.
+
+SALES decile
+
+Mean (SALES)
+Mean (PURCHASE)
+# of bank-quarter obs
+Mean (bank assets in USD millions)
+Mean (equity/assets)
+Total (loans sold in USD billions)
+Percentage (loans sold)
+Total (loans purchased in $ billions)
+Percentage (loans purchased)
+Mean (non-accrual C&I loans/C&I loans)
+Mean (90-day-past-due C&I loans/C&I loans)
+
+Nonsellers (0–6)
+
+0
+0.15
+277,875
+105.4
+0.09
+0
+0.0
+77
+17.4
+0.060
+0.030
+
+Moderate
+
+Active
+
+Whole sample mean (total)
+
+7
+
+8
+
+9
+
+10A
+
+10B
+
+0.01
+0.04
+37,970
+661.6
+0.08
+41
+0.8
+91
+20.5
+0.039
+0.015
+
+0.04
+0.05
+45,120
+428.3
+0.08
+157
+2.8
+95
+21.4
+0.043
+0.018
+
+0.11
+0.07
+45,120
+381.4
+0.08
+409
+7.4
+80
+18.0
+0.047
+0.020
+
+0.24
+0.11
+22,560
+428.4
+0.08
+556
+10.0
+41
+9.3
+0.057
+0.027
+
+2.57
+0.49
+22,560
+841.4
+0.09
+4,387
+79.0
+59
+13.2
+0.116
+0.068
+
+0.16
+0.14
+(451,206)
+265.0
+0.09
+(5,551)
+(100)
+(443)
+(100)
+0.058
+0.029
+
+Summary statistics for commercial banks (entity type code 10) according to the call reports they filed from 1984 to 1993. The amount of loans purchased becomes available in
+the 4th quarter of 1987. SALES denotes the amount of loans sold in a quarter divided by the end-of-quarter C&I loans outstanding on the bank balance sheet. PURCHASE is
+computed similarly for loans purchased in a given quarter. The whole sample is then sorted into SALES deciles. SALES is equal to 0 for 61.6% of observations. Decile 10 is
+further split into vintiles, denoted as 10A and 10B.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Table 1
+Summary statistics for the FDIC Call Reports
+
+69
+
+70
+
+Table 2A
+Level effect: bank loan portfolio quality and loan sales (1984–1993)
+Panel B ($100 million <
+size < $500 million)
+
+Panel C ($500 million <
+size < $1 bn)
+
+Panel D ($1bn < size)
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+−0.033
+
+(6.87)
+
+−0.011
+
+(3.78)
+
+−0.006
+
+(2.50)
+
+−0.008
+
+(2.39)
+
+(0.19)
+(0.99)
+(0.55)
+(0.50)
+(1.05)
+(1.79)
+
+SALES 10
+SALES 20
+SALES 30
+SALES 40
+SALES 50
+SALES 60
+SALES 70
+SALES 80
+
+0.000
+0.005
+
+ACTIVE
+
+0.072
+
+Log(bank size)
+Capital/assets
+Year dummies
+# of observations
+from nonsellers
+Sample size
+Adjusted R2
+
+−0.039
+−0.488
+
+(0.12)
+(2.73)
+
+0.001
+−0.002
+−0.001
+
+(0.61)
+(1.50)
+(1.05)
+
+−0.001
+0.001
+0.001
+0.001
+
+(0.51)
+(0.35)
+(0.74)
+(0.30)
+
+0.000
+−0.001
+0.001
+0.001
+−0.002
+0.003
+
+(5.11)
+
+0.011
+
+(2.77)
+
+0.008
+
+(2.71)
+
+0.005
+
+(2.10)
+
+−0.012
+−0.378
+
+(3.37)
+(4.64)
+
+0.005
+−0.155
+
+(1.04)
+(1.46)
+
+0.002
+0.047
+
+(1.78)
+(0.43)
+
+(9.28)
+(12.99)
+Yes
+221,764
+341,137
+0.003
+
+Yes
+49,114
+
+Yes
+3,525
+
+Yes
+3,472
+
+87,826
+0.003
+
+8,765
+0.03
+
+13,478
+0.02
+
+Constant included. Heteroscedasticity-robust t-statistics (clustered by bank) are reported in parentheses.
+The OLS regression results, where the dependent variable is a proxy for the risk of the bank’s C&I loan portfolio. This variable is constructed as the sum of nonaccrual and
+90-day-past-due C&I loans scaled by the total amount of C&I loans outstanding on the balance sheet at the end of a quarter. The sample period is 1984:Q1–1993:Q4. The model
+is run separately in each bank-size subsample. Within each bank-size subsample, quarter-bank observations are assigned to SALES deciles. SELLER is a dummy that is equal
+to 1 for positive values of SALES, and SALES X indicates that SALES is greater than the Xth SALES percentile within the respective bank-size sample. ACTIVE is equal to 1
+if SALES is in the top decile. The model also includes as control variables the natural logarithm of bank size (book assets) and the equity-to-assets ratio.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+SELLER
+
+Panel A (size < $100 million)
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+71
+
+ACTIVE is positive and statistically significant, suggesting a fall in portfolio quality for the most
+active sellers. Overall, these findings are consistent with Hypothesis 1.
+To test the dispersion effect of Hypothesis 2, I construct a measure of cross-sectional variation
+in portfolio quality in each SALES decile as follows:
+DEV = |NONPERFORM − E[NONPERFORM]|
+In this equation, E[NONPERFORM] is the sample average of NONPERFORM in a given bank
+size and SALES-decile subsample. DEV is then the absolute value of the deviation of the badloans ratio from the sample mean. I regress DEV on the same set of variables as before and present
+the results in Table 2B. As the negative (positive) coefficient estimate on SELLER (ACTIVE)
+suggests, the cross-sectional variation in loan portfolio quality is lower among moderate sellers
+than it is among nonsellers and active sellers. Indicators for other SALES deciles are mostly
+zero, statistically and economically. The findings therefore seem consistent with Hypothesis 2.
+Put differently, portfolio quality is cross sectionally more uniform among moderate sellers than
+it is among nonsellers and active sellers.
+3.3. Time series analysis
+For further tests of Hypothesis 1, I turn to time-series tests that exploit the temporal variation
+in loan-sales volume within banks. Namely, I explore portfolio quality when there are shocks to
+a bank’s lending opportunity set.
+If loan sales occur as a bank acquires comparative advantage in lending opportunities (e.g.,
+Pennacchi, 1988; Carlstrom and Samolyk, 1995), we should see an improvement in portfolio
+quality before the first loan sale. I thus examine banks that were initially nonsellers for at least
+3 consecutive years during the sample period, before recording a loan sale for the first time; this
+filter yields 4710 bank-year observations.
+Fig. 1 plots the inverse portfolio quality (NONPERFORM) in event time, where t denotes the
+year in which the first loan sale is recorded, t − 1 denotes the preceding year, etc. Yearly means and
+medians of NONPERFORM are both decreasing in time, confirming the comparative advantage
+hypothesis of loan sales—thus supporting the choice of loan sales as a proxy for loan-origination
+opportunities.
+
+Fig. 1. Loan portfolio quality as a bank becomes a first-time seller. This figure illustrates the change in balance-sheet
+quality for commercial banks that start selling loans in year t. The sample contains only those banks that have sold no
+loans for at least three consecutive years included, which yields a sample size of 4710 bank-year observations. Bad-loans
+ratio is the sum of nonaccrual and 90-day-past-due C&I loans scaled by the total C&I loans outstanding on the balance
+sheet. A higher ratio denotes a lower quality balance sheet.
+
+72
+
+Table 2B
+Dispersion effect: cross-sectional variation in bank loan portfolio quality and loan sales (1984–1993)
+Panel B ($100 million <
+size < $500 million)
+
+Panel C ($500 million <
+size < $1 billion)
+
+Panel D ($1 billion < size)
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+−0.048
+
+(10.46)
+
+−0.016
+
+(5.56)
+
+−0.009
+
+(4.52)
+
+−0.012
+
+(4.46)
+
+(0.40)
+(1.10)
+(1.27)
+(1.10)
+(1.66)
+(2.47)
+(3.71)
+
+SALES 10
+SALES 20
+SALES 30
+SALES 40
+SALES 50
+SALES 60
+SALES 70
+SALES 80
+
+0.003
+0.009
+
+ACTIVE
+
+0.107
+
+Log(bank size)
+Capital/assets
+Year dummies
+# of observations
+from nonsellers
+Sample size
+Adjusted R2
+
+−0.032
+−0.205
+
+(2.38)
+(6.09)
+
+0.002
+−0.001
+−0.001
+
+(1.87)
+(0.81)
+(0.66)
+
+−0.001
+0.001
+0.002
+0.000
+
+(0.53)
+(1.14)
+(1.29)
+(0.02)
+
+0.000
+−0.001
+0.001
+0.001
+−0.002
+0.003
+
+(7.77)
+
+0.017
+
+(4.27)
+
+0.009
+
+(4.33)
+
+0.006
+
+(7.86)
+(6.02)
+Yes
+221,764
+341,137
+0.001
+
+−0.005
+−0.224
+
+(1.56)
+(3.34)
+Yes
+49,114
+87,826
+0.002
+
+0.001
+−0.052
+
+(0.25)
+(0.57)
+Yes
+3,525
+8,765
+0.01
+
+−0.001
+0.104
+
+(1.72)
+(0.93)
+Yes
+3,472
+13,478
+0.02
+
+Constant included. Heteroscedasticity-robust t-statistics (clustered by bank) are reported in parentheses.
+The OLS regression results, where the dependent variable is the absolute deviation of the bad-loans ratio from the sample average for the respective loan-sales decile. The
+bad-loans ratio is constructed as the sum of nonaccrual and 90-day-past-due C&I loans scaled by the total amount of C&I loans outstanding on the balance sheet at the end of
+a quarter. The sample period is 1984:Q1–1993:Q4. The model is run separately in each bank-size subsample. Within each bank-size subsample, quarter-bank observations are
+assigned to SALES deciles. SELLER is a dummy that is equal to 1 for positive values of SALES, and SALES X indicates that SALES is greater than the Xth SALES percentile
+within the respective bank-size sample. ACTIVE is equal to 1 if SALES is in the top decile. The model also includes as control variables the natural logarithm of bank size
+(book assets) and the equity-to-assets ratio.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+SELLER
+
+Panel A (size < $100 million)
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+73
+
+Fig. 2. Loan sales generated by the most active five sellers. This figure illustrates the quarterly volume and percentage of
+loan sales generated by the most active five sellers in the sample period: Security Pacific, Bankers Trust, Chemical Bank,
+Citibank, and Chase Manhattan.
+
+Fig. 3. Loan portfolio quality of the most active five sellers. This figure illustrates the quarterly change in the average
+balance-sheet quality of the top five loan sellers, net of the average portfolio quality of nonsellers that have book assets
+over $1 billion. Bad-loans ratio is the sum of nonaccrual and 90-day-past-due C&I loans scaled by the total C&I loans
+outstanding. SALES ratio denotes the quarterly average of SALES for the five loan sellers, where SALES is the amount
+of loans sold in a given quarter divided by the C&I loans outstanding.
+
+To examine shocks to lending opportunities when the quality of the borrower pool (λ) is already
+high, I turn to the five most active sellers during my sample period. These banks together accounted
+for 61% of the total sales volume (Security Pacific, 24.8%; Citibank, 12.6%; Bankers Trust, 12.4%;
+Chemical Bank, 6.3%; and Chase Manhattan, 5.4%). Fig. 2 demonstrates a significant variation
+in these banks’ volume of loan sales – an initial hike in 1987 followed by a significant drop after
+1990 – providing us with a setting for a natural experiment where lending opportunities seem to
+have varied due to exogenous changes in economic conditions. Demsetz (1993) explains that this
+pattern stems from an initial increase in saleable loans (i.e., loans for financing M&A activities
+of firms), and a subsequent drop in their supply, coinciding with the turn of the business cycle.
+In Fig. 3, I plot the average bad-loans ratio12 (NONPERFORM) of these five banks juxtaposed
+to their average SALES ratio. Interestingly, the initial hike in SALES around 1987 is accompanied
+by a parallel jump in NONPERFORM, just as the drop in SALES in 1990 concurs with a drop
+12 To control for macro trends in the level of non-performing loans, I subtract from the average bad-loans ratio of these
+five banks the quarterly average bad-loans indicator for all nonseller banks with assets greater than $1 billion.
+
+74
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+in NONPERFORM. It seems that, as lending opportunities become richer, suggested by the
+increased loan sales, banks relax their credit standards resulting in a lower performance of their
+portfolios. As lending opportunities stat to get weaker – which coincides with the recession of
+1990 – observed portfolio quality improves.
+4. Hypothesis tests at the borrower level
+The results of the bank-level analysis seem consistent with the model’s implications,
+Hypotheses 1 and 2. Yet, a difficulty with interpreting the findings of Section 3 is that balancesheet variables indicate loan performance only for those loans that are retained on the books. If
+loans kept on the balance sheet systematically differ from those that are sold, then the loan-sales
+variable will not be an unbiased proxy for the quality of originated loans across banks, and thus for
+the variation in the lending opportunity set. This selection bias might be in either direction. If there
+are adverse selection issues with loan sales, then sold loans will tend to be riskier than retained
+loans. Since selling the lemons implies safer balance sheets for active sellers, however, this effect
+cannot explain my results. Alternatively, however, safe loans may be easier to sell, or selling safe
+loans may help the bank increase the expected returns on equity by increasing asset risk (James,
+1988). If these effects are significant, then active sellers may have riskier balance sheets than
+do moderate sellers, even if the former group originates safer loans than does the latter. A more
+powerful test, therefore, should examine the quality of all loans originated by the bank—both
+sold and retained. In addition, data on loan contracts will also allow a test of Hypothesis 3, which
+requires data on borrowers and loan prices.
+As noted in the introduction, an important assumption here is that Dealscan loans are representative of both sold and retained loans in general. While this might be true for sole-lender
+loans, we know that most of the syndicated loans are frequently sold in the secondary market
+(Demsetz, 1993). Primarily for this reason, I excluded syndicated loans from my analysis and
+focused on sole-lenders only. Given that I also tested for and found none of the nonmonotonicity
+effects among syndicated loans, however, suggests that moral hazard problem due to loan sales
+is unlikely to be the main driver of the results.13
+4.1. Data
+I obtained a sample of corporate loans from the Loan Pricing Corporation’s Dealscan database.
+As the Dealscan data start in 1987 and the FDIC loan sales variable ends in 1993, my sample
+period is 1987–1993. Although Dealscan provides detailed information on contract features such
+as pricing, maturity, deal size, seniority and security, it contains no information on lenders and
+borrowers beyond their names. I thus hand-match the Dealscan lender names14 to the bank names
+
+13 Besides the moral hazard bias, I also conjecture that syndicated loans would decrease the power of tests for the lending
+opportunities hypothesis since they are typically viewed as close substitutes for public debt (e.g., Jones et al., 2005; Dennis
+and Mullineaux, 2000). Borrowers in this category are predominantly large companies with credit ratings for which credit
+screening have minimal benefits (e.g., Diamond, 1991).
+14 In cases where Dealscan does not report the specific location of the lender, the Dealscan name might yield several
+exact matches in the FDIC sample, since banks belonging to the same holding company are required to file call reports
+by the state they are chartered in. Dropping these observations would cause considerable data loss, especially because
+some of these banks are influential loan sellers such as Security Pacific, Bankers Trust, Bank of America, etc. I thus
+consolidate the balance sheets of these banks. In most cases, each banking corporation has one main bank (usually the
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+75
+
+in the FDIC database of call reports and the Dealscan borrower names15 to CRSP and COMPUSTAT. The initial download yields 4942 sole-lender loan facilities (and 7890 syndicated loans
+which are excluded). The matching process yields approximately 1500 loan facilities or about
+1000 distinct loan deals. (A loan deal may comprise a term loan and a revolving credit line which
+are recorded as separate facilities.) Because Dealscan loans tend to be biased toward larger loans
+extended by the larger lenders, it may not be representative of the whole population. Unfortunately, this data limitation is common to many studies in the literature that employ the Dealscan
+database,16 and the reader is cautioned against the usual small sample bias.
+Sorting loans into deciles by the lender’s SALES ratio17 (the total amount of C&I loans sold
+during the year of lending scaled by the average volume of C&I loans outstanding), I provide
+summary statistics on borrowers, banks and various contract features in Table 3. Active sellers
+(i.e., those in the top SALES decile)18 have SALES ratios and total assets significantly higher
+than do moderate sellers (i.e., loan sellers in all but the top SALES decile). The sample selection
+tends to favor larger banks in comparison with the call-reports sample; only 8% of the loans are
+extended by nonsellers in the loans sample, even though 60% of the quarter-bank observations in
+the call-reports sample are nonsellers. This pattern is possibly due not only to the sample selection
+of Dealscan, but also to my requirement that the borrower needs to be publicly traded.
+4.2. Methodology
+Here, I determine whether the nonmonotonic relation between loan portfolio quality and lending opportunities observed at the bank level also holds at the borrower level. I thus analyze how
+borrower quality19 that can be discovered by banks only as a result of costly credit screening
+varies with the lender’s quality of lending opportunities (proxied by the lender’s SALES ratio).
+The assumption is that bank credit-screening produces soft information on firm prospects beyond
+what the publicly observed data can indicate at the time of borrowing. Soft information, in turn,
+should help predict future borrower performance. Consequently, I quantify borrower quality by
+several measures of post-issue borrower performance: stock returns, return on assets, interest
+coverage, and distance to default. The tests control for past borrower performance, and examine
+post-issue borrower quality as a function of bank loan sales.
+The first proxy for borrower quality is the buy-and-hold stock returns during the 12 months
+after the lending. The after-event stock returns are likely to indicate whether borrower prospects
+in general improve or worsen after the lending. As further indicators for borrower fundamentals,
+one identified as the national association) that accounts for most of the firm’s assets and loans. For other cases, working
+with the consolidated data would only bias the results against my findings, thus rendering the procedure innocuous for
+my experiments.
+15 I do a first order check on the borrower-name matching by comparing the firm SIC codes and asset sizes between
+Dealscan and CRSP/COMPUSTAT.
+16 Among many other studies that analyze Dealscan loans, for instance, see Hubbard et al. (2002), and Drucker and Puri
+(2005) which uses a similar matching method between borrowers, lenders, and banks. Hubbard et al. report a similar hit
+rate from the initial download to the final sample used.
+17 Note that sorting within a year (instead of the whole sample) does not change the conclusion of the results. In addition,
+using the loan-sales value for the quarter of lending, instead of the total value for the whole year, yields very similar
+results.
+18 For comparison to the earlier results, I verified that the 16 banks in the top SALES decile of the loans sample fall in
+the top deciles of the large sample.
+19 Ideally, I would like to analyze ex post loan performance. Due to the lack of these data, however, I instead analyze
+ex-post borrower performance as a proxy for the loan quality.
+
+76
+
+Table 3
+Summary statistics for the sample of dealscan loans (1987–1993)
+Nonsellers (0)
+
+Moderate sellers
+1
+
+Mean (SALES)
+
+Contract
+# of deals
+Deal Size
+# of facilities
+Facility Size
+Spread (basis p.)
+Maturity (years)
+Borrower
+# of borrowers
+# of obs. with a long-term
+crediting rating
+Assets
+Stock ret. vol.
+% Average monthly ret.
+Return on assets (%)
+Interest coverage >2
+Leverage
+Current ratio >2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+0.00
+
+0.001
+
+0.02
+
+0.05
+
+0.08
+
+0.12
+
+0.19
+
+0.32
+
+0.60
+
+1.40
+
+56
+3,489
+
+19
+5,385
+
+80
+7,467
+
+68
+7,951
+
+75
+11,229
+
+68
+14,678
+
+69
+13,814
+
+68
+17,205
+
+63
+29,156
+
+33
+51,653
+
+127
+6.7
+155
+5.6
+319.2
+2.7
+108
+10
+176.4
+0.18
+1.31
+0.38
+0.52
+0.53
+0.44
+
+36
+7.2
+45
+5.5
+286.2
+2.7
+34
+3
+194.8
+0.16
+0.52
+1.4
+0.36
+0.53
+0.42
+
+10.0
+16
+68,365
+
+165
+7.8
+202
+6.0
+289.9
+2.5
+
+155
+6.7
+201
+5.3
+297.5
+2.6
+
+152
+8.1
+196
+6.3
+294.8
+2.7
+
+157
+7.6
+200
+6.1
+285.6
+2.4
+
+162
+7.7
+204
+6.0
+293.8
+2.4
+
+157
+8.6
+193
+7.0
+277.2
+2.6
+
+168
+8.7
+201
+7.3
+269.2
+2.5
+
+173
+10.0
+206
+8.7
+247.9
+2.8
+
+143
+9.7
+177
+11.7
+240.0
+3.1
+
+149
+8
+
+139
+12
+
+141
+8
+
+143
+14
+
+152
+12
+
+146
+12
+
+150
+16
+
+154
+30
+
+124
+20
+
+168.0
+0.15
+2.16
+1.3
+0.65
+0.52
+0.55
+
+297.0
+0.17
+1.58
+0.90
+0.54
+0.56
+0.42
+
+133.1
+0.16
+1.98
+0.71
+0.63
+0.54
+0.42
+
+136.6
+0.15
+1.51
+0.33
+0.62
+0.52
+0.46
+
+166.8
+0.15
+1.41
+1.55
+0.63
+0.56
+0.41
+
+159.2
+0.16
+1.82
+1.72
+0.62
+0.53
+0.48
+
+307.5
+0.15
+1.15
+1.47
+0.62
+0.54
+0.50
+
+174.4
+0.15
+2.10
+1.64
+0.66
+0.52
+0.52
+
+52.2
+0.18
+2.71
+1.34
+0.63
+0.51
+0.49
+
+The sample means or counts of variables for which data exist in the intersection of the FDIC Call Reports, CRSP, COMPUSTAT, and the Loan Pricing Corporation’s Dealscan.
+The sample period is 1987–1993. SALES denotes the amount of loans sold in the year of lending divided by the average level of C&I loans outstanding on the bank balance
+sheet. The whole sample of loan facilities is sorted into SALES deciles (0–10). SALES decile 1 starts at the 8th percentile, since loan sales below this percentile are zero. All
+monetary values are given in USD millions. Borrower stock volatility and average stock returns are measured during the 12 months before the loan origination. Accounting
+variables are the averages over the four quarters before the loan origination.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Bank
+# of banks
+Assets
+
+2
+
+Active (10)
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+77
+
+I employ post-issue measures of return on assets (ROA) and interest coverage (ICOV). Finally,
+to experiment with a more direct measure of borrower’s financial health, I compute distance to
+default (DTD) using the methodology of the Moody’s KMV. Simply put, DTD measures the
+distance (i.e., the number of annual standard deviations) between the borrower’s market value of
+assets and non-equity liabilities:
+DTD =
+
+Assets − NonEquity Liabilities
+Assets × σAssets
+
+The market value and the annual standard deviation of total assets are jointly estimated using
+the Black–Scholes formula, where the inputs to the formula are the market value of equity, total
+non-equity liabilities, risk-free rate, and stock volatility. The first three variables are as of the
+quarter end, whereas stock volatility is estimated using the monthly returns during the 12 months
+before the quarter end. Since DTD is noisy, I create a dummy for future financial distress that
+indicates whether a firm is in the bottom decile of the sample in terms of its future change in DTD
+as a percentage of the initial value.
+Next, I illustrate the time horizon used for measuring borrower performance. All accounting
+variables are averaged over several quarters in order to minimize the effect of short-term fluctuations. (I also experiment with cumulative ROA as explained later.) The time subscript denotes
+the last quarter in a measurement window. Future DTD is measured with a lag after the lending
+(and after ROAt+4 and ICOVt+4 are measured), so that changes in fundamentals are reflected in
+the firm’s financial health.
+
+To test Hypothesis 2, I employ as the dependent variable the absolute deviation of post-issue
+ROA, dev(ROA) = |ROA − E[ROA]|, where E[ROA] is the sample average of post-issue ROA
+within the originating bank’s SALES decile. I omit tests of Hypothesis 2 with stock returns, interest
+coverage, and DTD, since these variables inevitably contain significant noise. In particular, the
+second moment of stock returns is likely to have too many determinants for my hypothesis to
+have any explanatory power.
+The test results for Hypotheses 1 and 2 are given next. The test of Hypothesis 3 is left to
+Section 4.4, as the methodology is sufficiently different from that employed in tests of the other
+hypotheses.
+4.3. Results: credit standards and borrower quality
+I start by describing the change in overall borrower prospects, as proxied by post-issue stock
+returns. In Fig. 4, I plot the ex-post buy-and-hold stock returns of borrowers averaged in each
+SALES decile. The mean returns start at about 0% for borrowers of nonsellers, jump to about 20%
+for sellers, before dropping back to 0% for active sellers. Fig. 4 also shows that the pattern is similar
+
+78
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Fig. 4. The top curve is the average 1-year buy-and-hold stock returns after the loan origination by each loan-sales decile.
+Decile 0 indicates the nonseller subsample. The bottom two curves give the mean returns after adjusting for the valueand the equal-weighted market returns.
+
+Fig. 5. This figure illustrates the average post-issue profitability change for each loan-sales decile. Profitability change is
+cum(ROAt+x ) − ROAt , where cum(ROAt+x ) is the cumulative return on assets for x quarters after the loan issue.
+
+when stock returns are corrected for CRSP market returns (value- and equal-weighted).20 Moreover, in multivariate OLS regressions, I find that this pattern in stock returns is robust to controls
+for stock-return volatility (prior and ex post), firm size, and market return. The effect is statistically
+significant with economic magnitudes similar to the values shown in Fig. 4 (untabulated).
+I then demonstrate the variation in post-issue ROA using alternative time horizons of 4–7
+quarters after the loan issue. Fig. 5 plots the mean value of cum(ROAt+x ) − ROAt in each SALES
+decile, where cum(ROAt+x ) is the cumulative return on assets over the x quarters after the loan
+issue. The inverse-U-shaped pattern observed with stock returns is also apparent in the relation
+between loan sales and post-issue borrower fundamentals; the latter demonstrates an initial hike
+for moderate sellers and a drop for active sellers.
+To gauge the pattern’s statistical significance and robustness to controls for observable borrower
+quality, I run OLS regressions that control for an array of indicators of borrower performance
+observed at the time of the loan issue: return on assets, return on equity, interest coverage (due to
+outliers, it is used as a dummy variable that indicates values greater than 2), leverage, firm size,
+stock return volatility, and average monthly stock returns.21 I also include dummy variables for
+the year of lending, borrower’s 1-digit SIC, and S&P credit rating.
+20 This finding does not make a statement about market efficiency, since the information on loan originations and relative
+loan-sales ranks of the banks may not be publicly available to investors in a timely manner.
+21 More explicit definitions of these variables are as follows (the numbers refer to the quarterly Compustat items).
+ROA = (8 + 22)/44, interest coverage = (22 + 23)/22, leverage = 54/44, firm size = 44, return on equity = 25/59. These vari-
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+79
+
+Fig. 6. This figure illustrates the fraction of borrowers with future financial distress in each SALES decile. A firm is
+considered financially distressed if its future change in distance-to-default (as a percentage of the initial value) falls within
+the bottom sample decile. Distance-to-default, in turn, is computed with the methodology recommended by Moody’s KMV.
+The future change is the difference between the current distance-to-default (average value for the past four quarters) and
+the future distance-to-default (average value for the three quarters starting a year after the loan origination).
+
+The dependent variable in Table 4, panel A is the change in the cumulative return on assets,
+cum(ROAt+4 ) − ROAt . SELLER has a coefficient estimate that is positive and statistically significant, whereas ACTIVE coefficient is negative and significant. Put differently, average borrower
+quality is initially increasing in loan sales, before dropping for borrowers of the most active sellers.
+In panels B and C, I check robustness to different functional forms of ROA. The dependent variable
+in panel B is the change in the moving average of borrower profitability, ma(ROAt+4 ) − ROAt .
+In panel C, I use future average borrower profitability, ma(ROAt+4 ), controlling for past profitability, ROAt . In both cases, the results are similar, consistent with the level effect predicted by
+Hypothesis 1.
+To test the dispersion effect of Hypothesis 2, I regress dev(cum(ROAt+4 ) − ROAt )) on the
+same set of explanatory variables as those used earlier. The estimated coefficients for SELLER
+and ACTIVE, as shown in panel D, carry negative and positive signs, respectively. As predicted by
+the hypothesis, the cross-sectional variation in borrower quality is lower among moderate sellers
+than it is among nonsellers and active sellers.22
+Finally, I employ a more direct measure of financial health than ROA or interest coverage. As
+explained in Section 4.2, future distress is an indicator that is equal to 1 if the change in DTD is
+in the bottom decile of the sample, where change in DTD is defined as (DTDt+7 − DTDt )/DTDt .
+(The difference is scaled by past DTD, since the same magnitude of change in DTD indicates a
+more significant change in default likelihood for lower initial values of DTD.)
+In Fig. 6, I illustrate the percentage of firms in each SALES decile for which future distress
+indicator is one. About 14% of borrowers in the nonseller group fall in the distress group, compared
+with approximately 10% of borrowers in the moderate SALES deciles. Supporting the earlier
+results, the ratio rises to 16% in the top decile. For a multivariate test, I also ran a probit regression
+with future distress as the dependent variable and the same set of control variables used in the earlier
+tests, and found statistically significant coefficients on SELLER and ACTIVE, with negative and
+positive signs, respectively (results not tabulated to save space).
+ables are averaged over the four quarters before the loan origination. Volatility and average stock returns are measured
+during the 12 months before the loan origination, using CRSP monthly returns.
+22 The results are similar if the dependent variable is dev(ma(ROA ) − ROA )), or dev(ma(ROA )) instead. I also
+t+4
+t
+t+4
+used interest coverage (and its different linear transformations due to outliers) for robustness, in both OLS and logit
+regressions. The results hold similarly.
+
+80
+
+Table 4
+OLS regression analysis: post-issue profitability as a proxy for borrower quality
+Panel B (level effect;
+ma(ROAt+4 ) − ROAt )
+
+Panel C (level effect;
+ma(ROAt+4 ))
+
+Panel D (dispersion effect;
+dev(cum(ROAt+4 )))
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+SELLER
+
+0.050
+
+(2.21)
+
+0.013
+
+(1.77)
+
+0.014
+
+(1.91)
+
+−0.048
+
+(3.76)
+
+ACTIVE
+
+−0.036
+
+(2.35)
+
+−0.009
+
+(2.31)
+
+−0.009
+
+(2.45)
+
+0.022
+
+(2.36)
+
+Return on assets
+Return on equity
+Interest coverage > 2
+Leverage
+Log(firm size)
+Stock return volatility
+Average stock returns
+
+0.057
+0.017
+0.029
+0.011
+−0.069
+0.256
+
+(1.30)
+(1.53)
+(0.91)
+(2.56)
+(1.01)
+(1.96)
+
+−0.106
+−0.011
+−0.007
+0.001
+0.001
+−0.011
+
+(3.39)
+(2.91)
+(0.80)
+(0.85)
+(0.05)
+(0.25)
+
+0.405
+−0.003
+−0.001
+0.004
+0.003
+−0.006
+0.047
+
+(3.22)
+(0.16)
+(0.32)
+(0.48)
+(2.37)
+(0.38)
+(1.22)
+
+−0.394
+0.019
+−0.010
+−0.051
+−0.010
+0.037
+0.065
+
+(1.95)
+(0.62)
+(1.27)
+(2.69)
+(3.46)
+(0.76)
+(0.73)
+
+Year dummies
+Industry dummies
+Credit rating dummies
+Sample size
+Adjusted R2
+
+Yes
+Yes
+Yes
+1,074
+0.04
+
+Yes
+Yes
+Yes
+1,074
+0.14
+
+Yes
+Yes
+Yes
+1,074
+0.17
+
+Yes
+Yes
+Yes
+1,074
+0.08
+
+Constant included. Heteroscedasticity-robust t-statistics (clustered by bank) are reported in parentheses.
+The dependent variable is the profitability after the loan issue. cum(ROAt+4 ) is the cumulative return on assets during the four quarters after the loan issue. ma(ROAt+4 ) is the
+average return on assets during the four quarters after the loan issue. ROAt is the average return on assets during the four quarters before the loan issue. The notation dev(·)
+denotes the variable’s absolute deviation from its mean value within the respective loan-decile sample. SELLER is a dummy that is equal to 1 for positive values of SALES, and
+ACTIVE indicates that SALES is in the top SALES decile in the sample. The accounting variables on the right-hand side are the average values over the four quarters before
+the loan origination. Average stock returns and volatility are as of the 12 months before the loan origination.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Panel A (level effect;
+cum(ROAt+4 ) − ROAt )
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+81
+
+In general, the small-sample analysis of this section at the borrower-level reaffirms the conclusion of the bank-level analysis presented in Section 3: There is a nonmonotonic relation between
+loan-portfolio quality and bank lending opportunities—a pattern that, in light of my model, I
+attribute to the variation in credit standards.
+4.4. Results: credit standards and loan pricing
+I regress the loan yield (all-in-drawn spread over a benchmark rate such as LIBOR) on
+the likely determinants of loan pricing. In particular, I investigate how post-issue change in
+distance to default (DTD) is correlated with loan pricing in each bank category, after controlling for an array of borrower, loan, and bank characteristics. If the bank applies high lending
+standards, I expect a stronger correlation between future DTD and the yield spread on the
+loan.
+I include as control variables the length of the firm–bank relationship, a statewide Herfindahl
+index, bank size, bank capitalization ratio, borrower size, interest coverage, ROA, current ratio,
+leverage, stock volatility, maturity of the loan contract, deal size, indicators for whether the loan
+is senior or secured, credit spread between Moody’s Baa and Bbb bond indices, indicators for
+year of lending, borrower S&P credit rating, borrower industry, loan style, and loan purpose. The
+details on these variables are left to Appendix A.
+To see how strongly future DTD is correlated with loan price in each loan-sales category,
+I interact future DTD with each of the following three indicators: (1) a dummy that indicates
+if SALES is zero (NONSELLER), (2) a dummy that indicates if SALES is in the top decile
+(ACTIVE), and (3) a dummy that indicates that SALES is positive but not in the top decile
+(MODERATE).
+In panel A of Table 5, I regress the all-in-drawn spread on the interaction of future DTD and
+loan-sales dummies, controlling for past DTD and the other determinants of loan price. (MODERATE) × (DTDt+7 ) interaction term is negative and statistically significant (t-statistic = 4.41).
+Put differently, among banks with moderate lending opportunities, a larger distance to default in
+the future implies cheaper loans for borrowers. The effect is statistically insignificant among
+nonsellers (t-statistic = 0.59), and only weakly significant among the most active sellers (tstatistic = 1.74).
+In panels B and C, I interact the three SALES indicators with the change in DTD (DTDt+7 ) and
+the scaled change in DTD (DTDt+7 /DTDt ), respectively. As before, there is a strong negative
+correlation between future change in DTD and loan price only among moderate sellers. The
+coefficient estimate for the interaction term, despite its negative sign, is insignificant among
+nonsellers (t-statistic is 0.79 and 0.91 in panels B and C, respectively), or is positive among active
+sellers.
+Finally, we might have concerns about interpreting the change in future DTD as a clean
+measure of ex-post borrower performance that is unpredictable at the time of lending, since
+future DTD may be correlated with past DTD and other past performance indicators. To minimize the confounding effects of this correlation, therefore, I compute the portion of future
+DTD that is not predicted by past variables. I thus first regress the scaled change in future
+DTD (DTDt+7 /DTDt ) on past borrower characteristics (the logarithm of firm size, indicator for
+ICOV > 2, indicator for current ratio >2, ROA, leverage, stock volatility, credit spread, indicators
+for industry, credit-rating, and year), and then interact the residuals obtained from this regression
+with the NONSELLER, MODERATE, and ACTIVE dummies. Alleviating the above concern,
+the loan-pricing results get even stronger, as seen in Table 5, panel D. The interaction terms of
+
+82
+
+Table 5
+Loan pricing and credit standards
+Panel A
+Coefficient
+−2.93
+−4.17
+−2.61
+
+t-Statistics
+
+Coefficient
+
+Panel C
+t-Statistics
+
+Panel D
+
+Coefficient
+
+t-Statistics
+
+Coefficient
+
+t-Statistics
+
+(0.91)
+(1.83)
+(0.87)
+(0.58)
+(2.65)
+(1.30)
+(0.56)
+(2.00)
+(1.02)
+
+13.33
+−15.45
+2.85
+−11.53
+−19.94
+−4.00
+0.03
+−5.85
+−7.18
+
+(0.81)
+(1.96)
+(0.19)
+(0.66)
+(1.91)
+(1.31)
+(0.38)
+(1.95)
+(0.85)
+
+(0.59)
+(4.41)
+(1.74)
+−3.33
+−3.12
+0.77
+
+(0.79)
+(4.88)
+(0.59)
+
+1.03
+−35.20
+−4.01
+0.04
+−6.30
+−5.99
+
+(0.02)
+(2.39)
+(1.32)
+(0.60)
+(2.13)
+(0.72)
+
+−8.70
+−20.87
+−3.95
+0.04
+−6.18
+−8.86
+
+(0.51)
+(2.11)
+(1.32)
+(0.61)
+(2.06)
+(1.04)
+
+−12.69
+−13.47
+8.81
+−11.38
+−24.21
+−4.03
+0.04
+−6.00
+−8.67
+
+Borrower
+DTDt
+Log(firm size)
+ICOV > 2
+ROA
+Current ratio > 2
+Leverage
+Leverage > 0.80
+Volatility
+
+0.87
+−24.98
+−29.78
+−16.89
+−250.54
+28.68
+26.13
+26.50
+
+(0.96)
+(5.32)
+(3.37)
+(2.10)
+(1.45)
+(1.11)
+(1.15)
+(0.70)
+
+−26.90
+−31.54
+−16.38
+−276.17
+25.50
+28.24
+84.81
+
+(5.91)
+(3.42)
+(2.04)
+(1.61)
+(1.01)
+(1.28)
+(2.11)
+
+−26.79
+−31.88
+−16.35
+−289.37
+30.79
+25.01
+109.35
+
+(5.98)
+(3.54)
+(2.02)
+(1.70)
+(1.21)
+(1.13)
+(2.00)
+
+−28.47
+−33.94
+−17.38
+−294.28
+27.49
+17.90
+29.07
+
+(6.26)
+(3.72)
+(2.13)
+(1.73)
+(1.07)
+(0.79)
+(0.70)
+
+Contract
+Log(maturity)
+Log(deal size)
+Senior dummy
+Secured dummy
+
+−17.07
+−15.47
+−26.01
+53.30
+
+(3.35)
+(2.70)
+(1.70)
+(4.10)
+
+−17.11
+−15.37
+−25.14
+53.19
+
+(3.31)
+(2.66)
+(1.64)
+(4.26)
+
+−17.16
+−14.97
+−23.23
+53.11
+
+(3.28)
+(2.64)
+(1.50)
+(4.20)
+
+−17.63
+−15.03
+−20.96
+53.56
+
+(3.36)
+(2.65)
+(1.40)
+(4.23)
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Bank
+NONSELLER × DTDt+7
+MODERATE × DTDt+7
+ACTIVE × DTDt+7
+NONSELLER × DTDt+7
+MODERATE × DTDt+7
+ACTIVE × DTDt+7
+NONSELLER × DTDt+7 /DTDt
+MODERATE × DTDt+7 /DTDt
+ACTIVE × DTDt+7 /DTDt
+SELLER
+ACTIVE
+RELATION
+HERFINDAHL
+Log(bank size)
+CAPITAL
+
+Panel B
+
+Table 5 (Continued )
+Panel A
+
+Panel B
+
+Other
+Credit spread
+Credit rating
+Borrower industry
+Loan style
+Loan purpose
+Year
+# of loan facilities
+Adjusted R2
+
+t-Statistics
+
+−0.07
+
+(0.18)
+
+Coefficient
+
+t-Statistics
+
+−0.05
+
+(0.14)
+
+Panel D
+
+Coefficient
+
+t-Statistics
+
+−0.15
+
+(0.39)
+
+Coefficient
+
+t-Statistics
+
+−0.11
+
+(0.28)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+1024
+0.50
+
+1024
+0.50
+
+1024
+0.50
+
+1024
+0.50
+
+The dependent variable is the all-in-drawn spread in basis points for sole-lender loan facilities in the 1987–1993 Dealscan sample. Indicators for borrower credit ratings, years,
+1-digit borrower SIC, loan style, and purpose are included in all specifications. SELLER indicates whether SALES is positive, and ACTIVE indicates whether SALES is in the
+top SALES decile. SALES denotes the total amount of C&I loans sold by the bank during the year of lending divided by the average C&I loans on the balance sheet. DTD is
+distance to default, estimated with the methodology of the Moody’s KMV. DTD in alternative functional forms is interacted with NONSELLER, MODERATE and ACTIVE
+indicators. In Panels A, B, and C, respectively, DTD appears as the future level (DTDt+7 ), the change (DTDt+7 ), or the percentage change (DTDt+7 /DTDt ). NONSELLER is
+equal to 1 when SALES is zero, and MODERATE is equal to 1 when a bank is a SELLER but not ACTIVE. In Panel D, instead of DTDt+7 /DTDt , I use the residuals obtained
+by regressing DTDt+7 /DTDt on past firm size, indicator for ICOV > 2, indicator for current ratio > 2, ROA, leverage, dummy for leverage > 0.80, stock volatility, credit spread,
+as well as dummies for 1-digit SIC, credit ratings, and years. See the appendix for more details on the variables.
+Constant included. Heteroscedasticity-robust t-statistics (clustered by bank) are reported in parentheses.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Coefficient
+
+Panel C
+
+83
+
+84
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+residual DTD with NONSELLER and ACTIVE now both carry a positive sign (although insignificantly), while the interaction term for MODERATE is still negative and statistically significant
+(coefficient = −15.45, t-statistic = 1.96).23
+This finding also addresses another potential concern. As shown in panels A through C, the
+coefficient estimate on the NONSELLER–DTD interaction is insignificant, but has a negative sign
+and a nontrivial magnitude. This result could be due to the fact that these tests have more power
+for moderate sellers than they do for nonsellers; the moderate-seller sample contains disproportionately more observations than does the nonseller sample. However, while this statistical-power
+argument could explain the low t-statistics on NONSELLER–DTD reported in panels A through
+C, it would not explain the positive sign on this coefficient obtained when future DTD is net of
+its predictable part.
+In summary, post-issue borrower performance is significantly correlated with loan pricing only
+among banks with moderate loan sales. This result provides further support for the hypothesis
+that credit standards are stricter among banks with moderate lending opportunities than they are
+among those with lending opportunities at either end of the quality spectrum.
+5. Conclusion
+In general, one would expect the quality of a bank’s loan portfolio to be monotonically increasing in the quality of its loan pool. However, this prediction does not necessarily hold when banks
+possess a costly credit-screening technology. Motivated by the Ruckes (2004) model, which
+shows that marginal benefits to lenders of screening out bad loans should be the highest when
+the quality of the loan pool is toward the middle of the quality spectrum, I hypothesize and
+show empirically that bank portfolio quality can be decreasing at high levels of bank lending
+opportunities.
+Since innovations in credit standards likely translate into fluctuations in credit availability
+and real output, the pattern should be scrutinized also for their macroeconomic implications.
+My empirical results here point to a potentially destabilizing feedback effect of credit standards
+on business cycles. Under normal business conditions banks are increasingly more careful in
+screening out bad projects. When times get worse, banks are screening less, and thus funding
+fewer loans, resulting in credit rationing for some productive projects. When times get substantially
+better, the subsequent relaxing of lending standards increases the credit supply resulting in more
+funding for unproductive projects, which in turn increases bank risk. As such, these findings might
+speak to regulators’ concerns about lending standards getting too tight at economic downturns
+and too lax at boom periods.
+Acknowledgements
+This paper is derived from my Ph.D. dissertation at the Stanford Graduate School of Business.
+I thank Peter DeMarzo, Darrell Duffie, Leslie Hodder, Ilan Kremer, Ulrike Malmendier, Gustavo
+Manso, Paul Pfleiderer, and two anonymous referees for helpful comments and suggestions. All
+errors are the author’s.
+
+23
+
+The standards errors shown in panel D are computed by bootstrapping with 1000 replications.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+85
+
+Appendix A. Variables used in loan-pricing tests
+
+Variable name
+
+Definition
+
+Bank variables (Source: FDIC Call Reports compiled and the LPC Dealscan Database)
+SALES
+Total amount of commercial and industrial (C&I) loans sold by the
+bank divided by the average C&I loans on the balance sheet during
+the year of lending
+SELLER
+Dummy variable that is equal to 1 for banks with SALES > 0
+NONSELLER
+Dummy variable that is equal to 1 for banks with SALES = 0
+ACTIVE
+Dummy variable that is equal to 1 for banks with SALES greater
+than the 90th percentile in the sole-lender sample
+MODERATE
+Dummy variable that is equal to 1 for banks with SELLER = 1 and
+ACTIVE = 0
+RELATION
+Natural logarithm of (1 + relationship length), where relationship
+length is the number of months between the current loan and the
+first time that the firm is observed to have borrowed from the same
+bank in the Dealscan sample
+HERFINDAHL
+Statewide competitiveness of the banking industry, in terms of
+banks’ C&I loans portfolio sizes
+CAPITAL
+Dummy variable equal to 1 for banks with equity-to-assets ratio
+below 6%
+Log(bank size)
+Natural logarithm of total book value of bank assets during the year
+of lending
+Borrower variables (Source: CRSP and COMPUSTAT)
+DTD
+A measure of distance-to-default used by Moody’s KMV
+Log(firm size)
+Natural logarithm of total book value of assets (44) averaged over
+the four quarters before the loan origination
+ICOV
+Interest coverage ((22 + 23)/22) averaged over the four quarters
+before the loan origination. To deal with outliers in this variable, I
+use it as a dummy that is equal to 1 for ICOV > 2
+ROA
+Profitability ((8 + 22)/44) averaged over the four quarters before the
+loan origination
+Current ratio
+Current assets over current liabilities (40/49) averaged over the four
+quarters before the loan origination. To deal with outliers, I use it as
+a dummy that is equal to 1 for current ratio > 2
+Leverage
+Total liabilities over total assets (54/44) averaged over the four
+quarters before the loan origination
+Volatility (prior)
+Monthly standard deviation of borrower stock returns as of the 12
+months before the loan origination
+Credit rating
+Dummy variables for the Standard and Poor’s issuer credit rating
+(i.e., AAA, AA+, AA, AA−, etc. through D)
+Industry
+Dummy variables for the 1-digit SIC industry code
+Loan-contract variables (Source: The Loan Pricing Corporation’s Dealscan Database)
+All-in spread (drawn)
+The amount the borrower pays the lender each year for each dollar
+borrowed in the case of a term loan, and for each dollar drawn off a
+credit line in the case of a loan commitment. The drawn all-in
+spread equals the coupon spread plus the annual fee. Most spreads
+are measured as a markup over LIBOR. In cases where they are
+based on another benchmark, LPC makes adjustments to the drawn
+all-in spreads, by assuming the following rates: prime = +255 bps,
+cost of funds = 0 bps, commercial paper = 3 bps, T-bills = −34 bps,
+Fed funds = 0 bps, money market rate = 0 bps, banker’s
+acceptance = −18 bps, CDS = −6 bps (Strahan, 1999)
+
+86
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+Appendix A (Continued )
+Variable name
+Log(maturity)
+Log(deal size)
+
+Senior
+Secured
+
+Year
+Loan style
+
+Loan purpose
+
+Definition
+Natural logarithm of the number of days between the loan
+origination and the maturity
+Natural logarithm of the total deal size in U.S. dollars. A deal may
+include several loan facilities at the same time. The most typical
+arrangement is a loan agreement that comprises a term loan and a
+revolver credit line
+Dummy variable that is equal to 1 if the loan is senior
+Dummy variable that is equal to 1 if the loan is secured. Since this
+variable is often missing (for about one-third of the sample), a
+dummy for missing cases is also included (but not shown) in all
+regressions
+Dummy variables for the calendar years in which each loan
+agreement is signed
+Dummy variables for “Revolver”, “Limited Line”, “Bridge Loan”,
+“Demand Loan”, “364-day facility” and “Other”. The omitted case
+is “Term Loan”
+Dummy variables for “Acquisition line”, “CP backup”, “Debt
+repay”, “Debtor-in-possession financing”, “ESOP”, “LBO/MBO”,
+“Project finance”, “Real estate”, “Recapitalization”, “Securities
+purchase”, “Spinoff”, “Stock buyback”, “Takeover” and “Working
+capital”. The omitted case is “Corp. purposes”
+
+COMPUSTAT (quarterly) item numbers are in parentheses.
+
+References
+Berger, A.N., Udell, G.F., 1993. Securitization, loan sales, and the liquidity problem in banking. In: Klausner, M., White,
+L. (Eds.), Structural Changes in Banking. Irwin, Homewood, IL, pp. 227–291.
+Berlin, M., Loeys, J., 1988. Bond covenants and delegated monitoring. J. Finan. 43, 397–412.
+Boyd, J., Prescott, E., 1986. Financial intermediary-coalitions. J. Econ. Theory 38, 211–232.
+Campbell, T., Kracaw, W., 1980. Information production, market signaling, and the theory of intermediation. J. Finan.
+35, 863–882.
+Cantor, R., Demsetz, R., 1993. Securitization, risk, and the credit slowdown. Fed. Res. Bank N. Y. Quart. Rev. 18 (2),
+27–38.
+Carlstrom, C., Samolyk, K., 1995. Loan sales as a response to market-based capital constraints. J. Bank. Finan. 19,
+627–646.
+Dahiya, S., Puri, M., Saunders, A., 2003. Bank borrowers and loan sales: new evidence on the uniqueness of bank loans.
+J. Bus. 76, 563–582.
+Demsetz, R., 1993. Recent trends in commercial bank loan sales. Fed. Res. Bank N. Y. Quart. Rev. 18 (4), 75–78.
+Demsetz, R., 2000. Bank loan sales: a new look at the motivations for secondary market activity. J. Finan. Res. 23,
+192–222.
+Dennis, S., Mullineaux, D., 2000. Syndicated loans. J. Finan. Int. 9, 404–426.
+Diamond, D., 1984. Financial intermediation and delegated monitoring. Rev. Econ. Stud. 51, 393–414.
+Diamond, D., 1991. Monitoring and reputation: the choice between bank loans and directly placed debt. J. Pol. Econ. 99,
+689–721.
+Drucker, S., Puri, M., 2005. On the benefits of concurrent lending and underwriting. J. Finan. 60, 2763–2799.
+Gorton, G., Haubrich, J., 1990. The loan sales market. In: Kaufman, G. (Ed.), Research in Financial Services, vol. 2. JAI
+Press, pp. 85–135.
+Gorton, G., Winton, A., 2003. Financial intermediation. In: Constantinides, G., Harris, M., Stulz, R. (Eds.), Handbook of
+the Economics of Finance, Vol. 1A, Corporate Finance. Elsevier/North Holland.
+Güner, A Burak., 2006. Loan sales and the cost of corporate borrowing. Rev. Finan. Stud. 19, 687–719.
+
+A.B. Güner / Journal of Financial Stability 4 (2008) 62–87
+
+87
+
+Haubrich, J., Thomson, B., 1996. Loan sales, implicit contracts, and bank structure. Rev. Quant. Finan. Account. 7,
+137–162.
+Hoshi, T., Kashyap, A.K., Scharfstein, D., 1993. The choice between public and private debt: An analysis of postderegulation corporate financing in Japan, NBER Working Paper.
+Hubbard, R.G., Kuttner, K.N., Palia, D.N., 2002. Are there bank effects in borrowers’ cost of funds? Evidence from a
+matched sample of borrowers and banks. J. Bus. 75, 559–581.
+James, C., 1988. The use of loan sales and standby letters of credit by commercial banks. J. Monet. Econ. 22, 395–422.
+Jones, J., Lang, W.W., Nigro, P., 2005. Recent trends in bank loan syndications: evidence for 1996–2000. J. Finan. Res.
+28, 385–402.
+Lown, C., Morgan, D., Rohatgi, S., 2006. The credit cycle and the business cycle: new findings from the loan officer
+opinion survey. J. Money Cred. Bank. 38, 1575–1597.
+Pennacchi, G., 1988. Loan sales and the cost of bank capital. J. Finan. 43, 375–396.
+Rajan, R.G., 1992. Insiders and outsiders: the choice between informed and arm’s-length debt. J. Finan. 47, 1367–1400.
+Ruckes, M., 2004. Bank competition and credit standards. Rev. Finan. Stud. 17, 1073–1102.
+Strahan, P., 1999. Borrower risk and the price and nonprice terms of bank loans. Staff Report No. 90. Federal Reserve
+Bank of New York.
+
+

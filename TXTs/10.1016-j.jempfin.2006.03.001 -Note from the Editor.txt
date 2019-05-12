@@ -1,0 +1,116 @@
+Journal of Empirical Finance 13 (2006) 389 – 391
+www.elsevier.com/locate/jempfin
+
+Note from the Editor, Wayne E. Ferson
+on Shanken, Jay and Mark I. Weinstein,
+Economic Forces and the Stock Market Revisited,
+Journal of Empirical Finance 13, Issue 2, 2006, 129−144
+The article by Shanken and Weinstein, published in the previous issue of the Journal of
+Empirical Finance, was written in the mid late 1980s, then condemned for many years to collect
+dust in a file drawer. It has been published in the Journal of Empirical Finance for two reasons.
+First, the paper is of significant historical interest for empirical asset pricing research. Second, the
+paper contains a number of lessons that remain important today.
+The article revisits the empirical evidence in Chen, Roll and Ross (CRR) on the cross-sectional
+pricing of the “macro” variables identified in that paper. The data are monthly returns on size
+portfolios, a market index and two bond returns, measured from 1958 to 1983. It finds that the
+CRR pricing results are not robust to reasonable perturbations in the empirical methods. The main
+problem seems to be a selection bias in the portfolio formation procedure used in the original
+studies. The original studies form portfolios based on firm size at the end of a five year beta
+estimation period. Current conventional practice would use size at the beginning of a period to
+form portfolios, then estimate betas on portfolio returns from a post-ranking period. When the
+tests are done this way, Shanken and Weinstein find some evidence for pricing of industrial
+production beta risk, but little support for the pricing of the other CRR macrovariables. The stock
+market beta, in contrast to claims by CCR, does appear to be priced.
+The cross sectional regression (CSR) method studied in this paper is a workhorse in
+empirical asset pricing to this day. Thus, many of the findings are as important today as when
+the paper was first written. Shanken and Weinstein illustrate that empirical results on crosssectional pricing can be highly sensitive to the way the methods are used, and that the widelycited results of CRR in particular are not robust. I am sure that many scholars in asset pricing
+suspect that the results in CRR were influenced by data mining, as the particular variable
+definitions seem idiosyncratic. There is other evidence in the literature that the results in CCR
+are not robust, but the lack of robustness does not seem to be widely understood. For example,
+even the current version of the leading MBA textbook by Bodie, Kane and Marcus (2004)
+cites the results of CRR as if they were credible. In addition to these important results relevant
+to CRR, the Shanken and Weinstein paper offers some useful methodological insights. These
+include the first application of Shanken's errors-in-variables adjustment for CSR standard
+errors and a restricted version of CSR that allows a general zero-beta rate when the factors are
+traded asset returns.
+0927-5398/$ - see front matter © 2006 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jempfin.2006.03.001
+
+390
+
+Editor's note
+
+Shanken and Weinstein describe three approaches to selecting factors in empirical asset pricing
+models. First we had the Capital Asset Pricing Model (CAPM, Sharpe, 1964), where the market
+factor followed from theory. Then we had statistical factor analysis, motivated by the Arbitrage
+Pricing Model (Ross, 1976). The third approach is exemplified by CRR, who look to observable
+macroeconomic factors motivated by economic intuition. To this list current work has added a
+fourth approach, namely the empirically motivated factors of Fama and French (FF3, 1993).
+For much of the last decade empirical work in asset pricing has been dominated by the threefactor model proposed by Fama and French. The factors are a stock market portfolio, the excess
+return of small over large firms and the excess return of high over low book-to-market firms. This
+represents a distinct approach to factor selection, as the factors were proposed to summarize thenanomalous patterns in the cross-section of average stock returns. The logic is that if some
+unobserved risk factor loadings explain these patterns, then the size and book/market of the firms,
+or their loadings on the associated spread portfolios, should proxy for the loadings on the
+underlying risk factors. The weakness of this approach is that it cannot distinguish an observed
+pattern in average returns that may be completely unrelated to systematic risk, from a pattern
+related to legitimate risk factors (e.g. Ferson (1996), Ferson et al., 1999).
+Lessons from the Shanken and Weinstein article apply to the FF3 model and to other models
+that will no doubt follow it in the future. Since the FF3 model is explicitly “empirically
+motivated,” the risk of data mining is potentially quite high. Others have raised that issue (e.g. Lo
+and MacKinlay (1990), MacKinlay, 1995). While data mining is not an explicit focus of the
+Shanken and Weinstein paper, it is but a small extrapolation. Will we look back in a decade on
+studies that now routinely use the FF3 model to “adjust for risk,” and marvel at their naivety?
+Perhaps, and studies are now emerging that question the external validity of the FF3 model (e.g.
+Conrad et al., 2003). On the other hand, other studies have found evidence that the FF3 model
+“works” out of sample (e.g. Fama and French, 1998 and Davis et al., 1998). The future is yet to be
+written.
+The implicit indictment of CCR here is not data mining, but it might be empirical specification
+mining. Here the lesson is as timely as ever. Empirical models to predict stock returns seem
+especially difficult and fragile. The spread portfolio approach used in Fama and French is highly
+susceptible to “methodology mining,” especially when coupled with CSRs, and a number of
+current studies extend these approaches to empirical regularities beyond size and book/market.
+The risks of misleading results that do not hold up in fresh data are very high with such methods.
+Will we look back in a decade and dismiss these studies as silly tautological exercises without
+economic content? On the other hand, the argument of Berk (1995) suggests that sorting stocks on
+cash flow related variables divided by price is likely to pick up cross-sectional dispersion in true
+risk loadings, in a variety of model settings.
+In summary, I encourage you to study the Shanken and Weinstein paper and take its lessons to
+heart. George Santayana was not talking about financial research, but his words could hardly be
+more appropriate to the setting: Those who forget history are condemned to repeat it.
+References
+Berk, Jonathan B., 1995. A critique of size-related anomalies. Review of Financial Studies 8, 275–286.
+Bodie, Zvi, Kane, Alex, Marcus, Alan, 2004. Investments. Irwin/McGraw Hill, Boston.
+Conrad, J., Cooper, M., Kaul, G., 2003. Value versus glamour. Journal of Finance 63, 1969–1995.
+Davis, J., Fama, E., French, K., 1998. Characteristics, covariances and average returns: 1929–1997. Journal of Finance 55,
+389–406.
+
+Editor's note
+
+391
+
+Wayne, Ferson E., 1996. Warning: Attribute-sorted Portfolios Can be Hazardous to Your Research. In: Saitou, S.,
+Sawaki, K., Kubota, K. (Eds.), Modern Portfolio Theory and its Applications. Center for Academic Societies, Osaka
+Japan, pp. 21–32.
+Ferson, W.E., Sarkissian, Sergei, Simin, Timothy, 1999. The alpha factor asset pricing model: a parable. Journal of
+Financial Markets 2, 49–68.
+Fama, E., French, K., 1993. Common risk factors in the returns on stocks and bonds. Journal of Financial Economics 33,
+3–56.
+Fama, French, 1998. Value versus growth: the international evidence. Journal of Finance.
+Lo, A., MacKinlay, A.C., 1990. Data snooping biases in tests of financial asset pricing models. Review of Financial
+Studies 3, 431–468.
+MacKinlay, A.C., 1995. Multifactor models do not explain deviations from the CAPM. Journal of Financial Economics 38,
+3–28.
+Ross, S., 1976. The arbitrage theory of capital market asset pricing. Journal of Economic Theory 13, 341–360.
+Sharpe, W., 1964. Capital asset prices: a theory of market equilibrium under conditions of risk. Journal of Finance 19,
+425–442.
+
+Further reading
+Shanken, Jay, Weinstein, Mark I., 2006. Economic forces and the stock market revisited. Journal of Empirical Finance 13
+(2), 129–144.
+
+Wayne E. Ferson
+Carroll School of Management, Boston College,
+140 Commonwealth Avenue, Chesnut Hill, MA 02467-3808, USA
+E-mail address: wayne.ferson@bc.edu
+
+

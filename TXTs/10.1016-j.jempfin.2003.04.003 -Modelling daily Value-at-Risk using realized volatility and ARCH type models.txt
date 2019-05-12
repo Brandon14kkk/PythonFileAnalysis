@@ -1,0 +1,1722 @@
+Journal of Empirical Finance 11 (2004) 379 – 398
+www.elsevier.com/locate/econbase
+
+Modelling daily Value-at-Risk using realized
+volatility and ARCH type models
+Pierre Giot a,b, Sébastien Laurent c,d,*
+a
+
+Department of Business Administration and CeReFiM at University of Namur, Rempart de la Vierge, 8,
+5000 Namur, Belgium
+b
+Center for Operations Research and Econometrics (CORE) at Université Catholique de Louvain, Belgium
+c
+CREST (CNRS), Paris, France
+d
+Department of Quantitative Economics, Maastricht University, The Netherlands
+Accepted 24 April 2003
+
+Abstract
+In this paper, we compare the performance of a daily ARCH type model (which uses daily
+returns) with the performance of a model based on the daily realized volatility (which uses intraday
+returns) when the 1-day ahead value-at-risk (VaR) is to be computed. While the VaR specification
+based on a long memory skewed Student model for the daily realized volatility provides adequate 1day-ahead VaR forecasts for two stock indexes (the CAC40 and SP500) and two exchange rate
+returns (the YEN – USD and DEM – USD), it does not really improve on the performance of a VaR
+model based on the skewed Student APARCH model and estimated using daily data only. Thus both
+methods seem to be equivalent. This paper also shows that daily returns standardized by the square
+root of the 1-day-ahead forecast of the daily realized volatility are not normally distributed.
+D 2004 Elsevier B.V. All rights reserved.
+JEL classification: C52; C53; G15
+Keywords: Value-at-risk; Realized volatility; Skewed student distribution; APARCH
+
+1. Introduction
+The recent widespread availability of databases providing the intraday prices of
+financial assets (stocks, stock indexes, bonds, currencies, . . .) has led to new developments
+in applied econometrics and quantitative finance as far as the modelling of daily and
+* Corresponding author. CORE (Université Catholique de Louvain), Voie du Roman Pays, 34, B-1348
+Louvain-La-Neuve, Belgium. Tel.: +32-10-478181; fax: +32-10-474301.
+E-mail addresses: pierre.giot@fundp.ac.be (P. Giot), Laurent@core.ucl.ac.be (S. Laurent).
+0927-5398/$ - see front matter D 2004 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jempfin.2003.04.003
+
+380
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+intradaily volatility is concerned. Focusing solely on the modelling of daily volatility using
+intraday data, the recent literature suggests at least three possible methods for characterizing volatility and risk at an aggregated level, which we take to be equal to 1 day in this
+paper.
+The first possibility is to sample the intraday data on a daily basis so that closing prices
+are recorded, from which daily returns are subsequently computed. In this setting, the
+notion of intraday price movements is not an issue, as the method is tantamount to
+estimating a volatility model on daily data. One well-known example is the ARCH model
+of Engle (1982) and subsequent ARCH type models such as the GARCH model of
+Bollerslev (1986) (see Palm, 1996, for a recent survey). The second method is based on the
+notion of realized volatility which was recently introduced in the literature by Taylor and
+Xu (1997) and Andersen and Bollerslev (1998) and which is grounded in the framework of
+continuous time finance with the notion of quadratic variation of a martingale. In this case, a
+daily measure of volatility is computed as an aggregated measure of volatility defined on
+intraday returns. More specifically, the daily realized volatility is computed as the sum of
+the squared intraday returns for the given trading day. We thus make explicit use of the
+intraday returns to compute the realized volatility, from which the daily volatility is
+modelled. This approach has been popularized recently in a collection of papers such as
+Andersen et al. (2000a, 2001a,b,c). Moreover, this method has been shown to perform
+equally well for stocks and exchange rate returns. A third possibility is to estimate a high
+frequency duration model on price durations for the given asset, and then use this
+irregularly time-spaced volatility at the aggregated level. Examples are Engle and Russell
+(1997), Gerhard and Hautsch (2002) or Giot (2002).
+In this paper, we focus on the first two methods as our aggregation level is equal to 1 day,
+and it is not clear how duration models could be of any help in this situation. The recent
+literature on realized volatility (see the references given above) and the huge literature on
+daily volatility models seem to indicate that a researcher or market practitioner faces two
+distinct possibilities when daily volatility is to be modelled. Going one way or the other is
+however not a trivial question. If one decides to model daily volatility using daily realized
+volatility, then intraday data are needed so that corresponding intraday returns can be
+computed. Even today, intraday data remain relatively costly and are not readily available
+for all assets. Furthermore, a large amount of data handling and computer programming is
+usually needed to retrieve the needed intraday returns from the raw data files supplied by
+the exchanges or data vendors. On the contrary, working with daily data is relatively simple
+and the data are broadly available. However, one has the feeling that all the relevant data are
+not taken into account, i.e. that by going at the intraday level one could get a much better
+model.
+In this paper, we aim to address this issue by comparing the performance of a daily
+ARCH type model (which uses daily returns) with the performance of a model based on the
+daily realized volatility (which uses intradaily returns) when the one-step ahead Value-atRisk (VaR) measure is to be computed. This exercise is done for two stock indexes (the
+French CAC40 index and the American SP500 index) and two exchange rates vis-a-vis the
+US dollar (the YEN –USD and the DEM –USD) for which intraday data are available over a
+long time period (i.e. 5 years for the CAC40 and about 12 years for the other series). VaR
+modelling is a natural application of volatility models as VaR measures are directly related
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+381
+
+to the expected volatility over the relevant time horizon. VaR models have been developed
+since the middle of the 1990s to quantify and assess market risk in financial markets. Put
+simply, the goal of VaR models is to provide, at a given percentage level and for a portfolio
+of (marketable) assets, the most likely loss for a financial institution. For example, the VaR
+at level a at the 1-day time horizon is the nominal 1-day loss that will not be exceeded in
+100. a portfolio realizations out of 100. The literature on VaR models has grown remarkably
+over the last decade because of the popularity of the RiskMetrics VaR specification of JP
+Morgan (see below) and the risk-adjusted measures of capital adequacy enforced by the
+Basel committee. Textbook material is presented in Jorion (2000) or Saunders (2000) while
+recent applications of univariate time series models of the ARCH type to VaR problems are
+given in, e.g. Lee and Saltoglu (2001), Danielsson (2002) or Berkowitz and O’Brien
+(2002). Because volatility is a key input to VaR models, the characterization of asset
+volatility (along with the density distribution of the asset returns) is of paramount
+importance when implementing and testing VaR models. We thus have daily and intradaily
+data for the stock indexes and exchange rates and aim to ascertain which data is the most
+useful to compute daily VaR measures. Indeed, (a) because we have intraday data over a
+long time period, we can retrieve the daily closing prices for the indexes and then compute
+daily VaR measure using daily ARCH type models; (b) with the intradaily data we can
+compute intraday returns and daily realized volatility, and we then have a competing model
+for the daily VaR which uses the intraday information.
+Our main results can be summarized in one sentence: yes, an (adequate) ARCH type
+model can deliver accurate VaR forecasts and this model performs as well as a competing
+VaR model based on the realized volatility. The key issue is to use a daily ARCH type
+model that clearly recognizes and fully takes into account the key features of the empirical
+data such as a high kurtosis and skewness in the observed returns. In this paper, we use the
+skewed Student APARCH model (see for instance Lambert and Laurent, 2001: Giot and
+Laurent, 2001), which delivers excellent results when applied to daily data. It is also true
+that the model based on the realized volatility delivers equally adequate VaR forecasts but
+this comes at the expense of using intraday information.1 Thus, for the two indexes and
+exchange rates under review, the results clearly indicate that modelling the realized
+volatility may be useful, but it is far from being the only game in town. Moreover, we also
+extend previous results of Andersen et al. (2001a) by showing that daily returns
+standardized by the square root of the 1-day-ahead forecast of the daily realized volatility
+are not normally distributed. This implies that, in a forecasting framework such as Valueat-Risk, realized volatility measures must be combined with adequate density distributions.
+The rest of the paper is organized in the following way. In Section 2, we describe the
+available intraday data and characterize the stylized facts of the realized volatility. In
+Section 3, we introduce the two competing models (i.e. the skewed Student APARCH
+model for the daily returns and the model based on the realized volatility) and detail the
+estimation results. These two models are used to provide 1-day-ahead VaR forecasts for
+the stock indexes and exchange rates in Section 4. Finally, Section 5 concludes.
+
+1
+See also Martens (2001) for a comparative study of daily versus realized volatility in a volatility forecasting
+framework, albeit the author does not focus on the density distributions of the returns.
+
+382
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+2. Data and stylized facts
+2.1. Data
+The data are available for two stock indexes and two exchange rates on an intraday basis
+and for a relatively long period of time (see details below), which allows VaR modelling and
+testing over an extended period of time. For these four series, we consider first daily returns
+(which are used by the skewed Student APARCH model) and then 15-min and a 1-h intraday
+returns for the stock indexes and the exchange rates, respectively (these intraday returns are
+used to compute the daily realized volatility).
+Our first asset is the French CAC40 stock index for the 1995 –1999 time period, i.e. 1249
+daily observations. The CAC40 index is computed by the Paris Bourse (EURONEXT) as a
+weighted measure of the prices of its components. It is available in the database on an
+intraday basis with the index being computed approximately every 30 s. For the time period
+considered in this paper, the opening hours of the French stock market were from 10 a.m. to 5
+p.m., thus 7 h of trading per day. With a regularly time-spaced 15-min grid, this translates
+into 28 intraday returns which are used to compute the daily realized volatility (see below for
+details). Intraday prices for the CAC40 index are computed every 15 min using a linear
+interpolation between the closest recorded prices below and above the time set in the grid.
+Correspondingly, all returns are computed as the first difference in the regularly time-spaced
+log prices of the index. Because the exchange is closed from 5 p.m. to 10 a.m. of the next day,
+the first intraday return (computed at 10h15 when working with a 15-min time grid for
+example) is the first difference between the log price at 10h15 and the log price at 5 p.m. the
+day before. Daily returns in percentage are defined as 100 times the first difference of the log
+of the closing prices.2
+Our second data set contains 12 years (from January 1989 to December 2000, or 3241
+daily observations) of tick-by-tick prices for the SP500 futures contracts traded on the
+Chicago Mercantile Exchange. Such SP500 futures contracts are traded from 8h30 to
+15h10 Chicago time, i.e. from 9h30 to 16h10 New York time. To conveniently define 15min returns, we remove all prices recorded after 16 h New York time.3 Like for the CAC40
+data set, intraday prices at the 15-min frequency are the outcomes of a linear interpolation
+between the closest recorded prices (for the nearest contract to maturity) below and above
+the times in the 15-min grid.4 Returns are computed as the first difference of the regularly
+time-spaced log prices of the index, with the overnight return included in the first intraday
+return. Daily returns in percentage are defined as 100 times the first difference of the log of
+the closing prices.
+Our third and fourth data sets contain hourly data for two major exchange rates, the
+Japanese yen (YEN) and the Deutsche Mark (DEM) against the US Dollar (USD). For
+these two exchange rates, we have about 12 years of intraday data, from January 1989 to
+2
+By definition and using the properties of the log distribution, the sum of the intraday returns is equal to the
+observed daily return based on the closing prices.
+3
+Thus the last recorded price for the futures at 16 h corresponds more or less to the closing price of the
+‘‘cash’’ SP500 index computed from its constituents traded on the NYSE or NASDAQ.
+4
+The choice of the nearest contract to maturity means that we always select very liquid future contracts.
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+383
+
+February 2001. During this period, the US Dollar, the DEM and the YEN were the main
+currencies traded in the FOREX market, and thus the volatility of the DEM – USD and
+YEN – USD currency returns made up most of the currency risk faced by large institutional
+investors and international corporations. The raw data consists of all interbank DEM –
+USD and YEN – USD bid –ask quotes displayed on the Reuters FXFX screen during this
+period. These quotes are indicative quotes but have been shown to be adequate inputs for
+computing intraday returns, see for example Danielsson and Payne (2002). Note that
+intraday FOREX returns computed from quoted bid – ask prices are subject to various
+market microstructure ‘frictions’, e.g. strategic quote positioning and inventory control.
+Such features are generally immaterial when analyzing longer horizon returns, but may
+distort the statistical properties of the underlying ‘fundamental’ high-frequency intraday
+returns. The sampling frequency at which such considerations become a concern is
+intimately related to market activity. For our exchange rate series, preliminary analysis
+based on the methods of Andersen et al. (2000b) and Oomen (2001) suggest that the use of
+equally spaced 30-min or hourly returns strikes a satisfactory balance between the
+accuracy of the continuous-record asymptotics underlying the construction of our realized
+volatility measures on the one hand, and the confounding influences from the market
+microstructure frictions on the other. As standard in the literature, we compute hourly
+exchange rate prices from the linearly interpolated logarithmic average of the bid and ask
+quotes for the two ticks immediately before and after the hourly time stamps throughout
+the global 24-h trading day. Next we obtain hourly returns as 100 times the first difference
+of the equally time-spaced logarithmic prices. To avoid the so-called weekend effect (there
+are almost no currency trades during the weekend), we exclude all returns from Friday
+21:00 GMT until Sunday 21:00 GMT.
+2.2. Realized volatility: definition and stylized facts
+Estimating and forecasting volatility is a key issue in empirical finance. After the
+introduction of the ARCH model by Engle (1982) or the Stochastic Volatility (SV) model
+(see Taylor, 1994) and their various extensions, a new generation of conditional volatility
+models has been advocated recently by Taylor and Xu (1997) and Andersen and Bollerslev
+(1998), i.e. models making used of the realized volatility. See also the more recent work by
+Andersen et al. (2001a) or Andersen et al. (2001b).
+The origin of ‘realized volatility’ is not as recent as it would seem at first sight. Merton
+(1980) already mentioned that, provided data sampled at a high frequency are available,
+the sum of squared realizations can be used to estimate the variance of an i.i.d. random
+variable. Taylor and Xu (1997) and Andersen and Bollerslev (1998) (among others) show
+that daily realized volatility may be constructed simply by summing up intraday squared
+returns. Assuming that a day can be divided in N equidistant periods and if yi,t denotes the
+intradaily return of the ith interval of day t, it follows that the daily volatility for day t can
+be written as:
+"
+
+N
+X
+i¼1
+
+#2
+yi;t
+
+¼
+
+N
+X
+i¼1
+
+y2i;t þ 2
+
+N X
+N
+X
+i¼1 j¼iþ1
+
+yj;t yji;t :
+
+ð1Þ
+
+384
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+P
+If the returns have a zero mean and are uncorrelated, Ni¼1 y2i;t is a consistent (see Andersen
+et al., 2001b,c) and unbiased5 estimator of the daily variance r2t. Because all squared
+returns on the right sideP
+of this equation
+are observed when intraday data (at equidistant
+2
+periods) are available, ½ Ni¼1 yi;t  is called the daily realized volatility.
+By summing high-frequency squared returns we may then obtain an ‘error free/model
+free’ measure of the daily volatility.6 However, choosing a very high sampling frequency
+(e.g. 30-s or 1-min frequency) may introduce a bias in the variance estimate due to market
+microstructure effects (bid – ask bounces, price discreteness or nonsynchronous trading). As
+a trade off between these two biases, Andersen et al. (2001b) propose the use of 5-min
+returns to compute daily realized volatility. Using the FTSE-100 stock index on the 1990–
+2000 time period, Oomen (2001) shows that the realized volatility measure increases when
+the sampling interval decreases while the summation of the cross terms in Eq. (1) decreases.
+By comparing the average daily realized volatility and the autocovariance bias factor,
+Oomen (2001) argues that the optimal sampling frequency for his data set suggests using
+25-min returns. For our two stock indexes, a sampling frequency of about 15-min was
+found to be optimal.7 For the exchange rates, we choose a sampling frequency of 1 h.
+Although the empirical work on realized volatility is still in its infancy, some stylized
+facts have already been ascertained:8
+
+
+First, the unconditional distribution of the realized volatility is highly skewed and
+kurtosed. On the other hand, the unconditional distribution of the logarithmic realized
+volatility is nearly Gaussian.
+ Secondly, the (logarithmic) realized volatility appears to be fractionally integrated.
+Indeed, volatility shocks die out very slowly, neither in accordance with an ARMA
+structure (which implies an exponential decay) nor with a unit root process.
+Correspondingly, the ACF decreases very slowly.
+ Finally, according to Ebens (1999) who analyzes the Dow Jones Industrial portfolio
+over the January 1993 to May 1998 period, the (logarithmic) realized volatility of stock
+indexes are nonlinear in returns. This feature is also well known in ARCH type models
+and is known as the leverage effect: past negative shocks on the stock index returns
+have a larger impact on current (realized) volatility than past positive shocks (see Black,
+5
+Areal and Taylor (in press) show that even if this estimator is consistent and unbiased, it has not the least
+variance when N is finite. These authors propose to weight the intraday squared returns by a factor proportional to
+the intraday activity. This deflator may be obtained easily by applying Taylor and Xu’s (1997) variance multiplier
+or the Flexible Fourier Function (FFF) of Andersen and Bollerslev (1997). Due to the strong similarity of the
+results with the ‘non-weighted squared returns’, we do not report the results using Areal and Taylor’s (in press)
+approach.
+6
+The theory of quadratic variation shows that, under suitable conditions, realized volatility is not only an
+unbiased ex-post estimator of daily return volatility, but also asymptotically free of measurement error (Andersen
+et al., 2001b,c).
+7
+To find the optimal sampling frequency, Oomen (2001) suggests to plot both the sum of squared intradaily
+returns and the autocovariance bias factor versus the sampling frequency. The ‘optimal’ sampling frequency is
+chosen as the highest available frequency for which the autocovariance bias term has disappeared.
+8
+In a preliminary version, we highlighted these stylized facts on the two stock indexes. See Giot and Laurent
+(2001) for more details. Additional stylized facts about realized volatility are available in Andersen et al. (2001a)
+or Andersen et al. (2001b).
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+385
+
+1976; French et al., 1987; Pagan and Schwert, 1990 and Zakoian, 1994). Note that an
+alternative explanation for this asymmetry is provided by the ‘volatility feedback’
+effect, see Campbell and Hentschel (1992). This also holds for realized stock volatility,
+but the leverage effect seems to be of minor economic importance, see Andersen et al.
+(2001a).
+
+3. Two competing models
+Realized volatility was reviewed in the preceding section and we can now introduce an
+econometric model for the daily VaR based on this measure. Section 3.2 is devoted to this
+topic. As the goal of the paper is to compare the performance of an ARCH type model
+directly applied to the daily data with the performance of a model based on the realized
+volatility, we also need to characterize the skewed Student APARCH model that will be
+needed for the daily data. This is done in the next subsection.
+3.1. ARCH type models
+A series of asset returns yt (t = 1,. . .,T), known to be conditionally heteroscedastic, is
+typically modelled as follows:
+yt ¼ lt þ et
+
+ð2Þ
+
+et ¼ rt zt
+
+ð3Þ
+
+lt ¼ cðgAXt1 Þ
+
+ð4Þ
+
+rt ¼ hðgAXt1 Þ;
+
+ð5Þ
+
+where c(	jXt  1) and h(	jXt  1) are functions of Xt  1 (the information set at time t  1),
+and depend on an unknown vector of parameters g; zt is an independently and identically
+distributed (i.i.d.) process, independent of Xt  1, with E(zt) = 0 and Var(zt) = 1; lt is the
+conditional mean of yt and r2t is its conditional variance.
+Because daily returns are known to exhibit some serial autocorrelation, we fit an AR(n)
+structure on the yt series for all specifications:9
+WðLÞðyt  lÞ ¼ et ;
+
+ð6Þ
+
+P
+where W(L) = 1  w1L  . . .  wnLn. In this case, lt ¼ l þ ni¼1 wi ðyti  lÞ.
+We now consider two possible specifications for the conditional variance of et. First we
+detail one of the most simple (but widely used by market practitioners) measure of
+9
+The serial autocorrelation found in daily returns is not necessarily at odds with the efficient market
+hypothesis. See Campbell et al. (1997) for a detailed discussion.
+
+386
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+volatility, the RiskMetrics volatility specification. Next we consider the APARCH model,
+which is one of the most flexible ARCH-type model.
+3.1.1. RiskMetrics
+In its most simple form, it can be shown that the basic RiskMetrics model is equivalent
+to a normal Integrated GARCH (1,1) model where the autoregressive parameter is set at a
+prespecified value of 0.94 and the coefficient of et2 1 is equal to 0.06. In this specification,
+we have that zt is i.i.d. N(0, 1) and r2t is defined as:
+r2t ¼ 0:06e2t1 þ 0:94r2t1 :
+
+ð7Þ
+
+Therefore, the RiskMetrics specification does not require estimation of unknown
+parameters in the volatility equation as all parameters are preset at given values. Although
+this is a crude way of modelling volatility, it is widely used by practitioners as this method
+often gives acceptable short-term volatility forecasts and it is very simple to use/program
+in Excel sheets.
+3.1.2. Skewed student APARCH
+Recently, Giot and Laurent (2003) have shown that (unlike the RiskMetrics model or
+more simple ARCH-type models) the skewed Student APARCH (in short SKST
+APARCH) model does provide accurate VaR forecasts, both for the right and left tails
+of the distribution of returns. The APARCH (Ding et al., 1993) is an extension of the
+GARCH model of Bollerslev (1986) that nests at least seven GARCH specifications. In
+the case of an APARCH(1,1), Eq. (5) is:
+rt ¼ ½x þ a1 ðAet1 A  an et1 Þd þ b1 rdt1 1=d ;
+
+ð8Þ
+
+where x, a1, an, b1 and d are additional parameters to be estimated. d (d>0) plays the role
+of a Box-Cox transformation of rt, while an(  1 < an < 1), reflects the so-called leverage
+effect. The properties of the APARCH model have been studied recently by He and
+Teräsvirta (1999a,b).
+In VaR applications, the choice of an appropriate distribution for the innovation process
+(zt) is an important issue as it directly affects the ‘quality’ of the estimation of the required
+quantiles. As in Giot and Laurent (2003) or Giot (2003), we use a standardized version of
+the skewed Student distribution introduced by Fernández and Steel (1998).10 According to
+Lambert and Laurent (2001) and provided that t > 2, the innovation process zt is said to be
+(standardized) skewed Student distributed, i.e. zt f SKST(0,1,n,t), if:
+8
+2
+m
+>
+>
+sg½nðszt þ mÞAt if zt < 
+>
+>
+1
+s
+>
+>
+< nþ
+n
+ð9Þ
+;
+f ðzt An; tÞ ¼
+>
+> 2 sg½ðszt þ mÞ=nAt if zt z  m
+>
+>
+1
+>
+s
+>
+:nþ
+n
+10
+Giot and Laurent (2003) show that an AR-APARCH model with a skewed Student density succeeds in
+correctly forecasting (both in- and out-of-sample) the 1-day-ahead VaR for three international stock indexes and
+three US stocks of the Dow Jones index. Models based on the normal or Student distributions clearly
+underperform when applied to the same data sets.
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+387
+
+where g(	jt) is a symmetric (unit variance) Student density and n is the asymmetry
+coefficient.11 Parameters m and s2 are, respectively the mean and the variance of the
+nonstandardized skewed Student:
+	
+
+
+t  1 pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+
+t2	
+C
+1
+2
+	 
+
+n
+m¼
+ð10Þ
+pﬃﬃﬃ
+t
+n
+pC
+2
+and
+	
+
+
+1
+2
+2
+s ¼ n þ 2  1  m2 :
+ð11Þ
+n
+In short, n models the asymmetry, while t accounts for the tail thickness. See Lambert
+and Laurent (2001) for a discussion of the link between these two parameters and the
+skewness and the kurtosis.
+3.2. Realized volatility model
+Regarding the realized volatility, its main features are that the logarithmic realized
+volatility is approximately normal, appears to be fractionally integrated and correlated with
+past negative shocks (see Section 2.2). To take these properties into account, let us
+consider the following ARFIMAX(0,d,1) model (initially developed by Granger, 1980;
+Granger and Joyeux, 1980 among others):
+ð1  LÞd ðlnRVt  l0  l1 yt1  l2 y
+t1 Þ ¼ ð1 þ h1 LÞut
+ð1  LÞd ¼
+
+l
+X
+
+Cðd þ 1Þ
+Lk ;
+Cðk
+þ
+1ÞCðd  k þ 1Þ
+k¼0
+
+ð12Þ
+
+where L is the lag operator, l0, l1, l2, h1 and d are parameters to be estimated, ut is an i.i.d.
+random process with mean 0 and variance ru, lnRVt is the logarithm of the realized
+volatility computed from the intraday returns observed for day t, yt is the daily return on
+day t, yt takes the value 0 when yt>0 and the value yt when yt < 0. Note that to determine
+the orders of this ARFIMA model we rely on the Schwarz (SC) information criterion.
+When ut f N(0,ru2), we have by definition that exp(ut) f logN(0,ru2) (where logN
+denotes the log-normal distribution). Thus, the conditional realized volatility is computed
+according to:
+	
+
+
+1 2
+RVtAt1 ¼ exp lnRVt  ût þ r̂u ;
+ð13Þ
+2
+where ût denotes the estimated value of ut by Eq. (12) and r̂u2 is the estimated variance of
+ut in the same equation.
+11
+
+The asymmetry coefficient n>0 is defined such that the ratio of probability masses above and below the
+2
+mean is Prðez0AnÞ
+Prðe<0AnÞ ¼ n . Note also that the density f(ej1/n,t) is the symmetric of f(ej1/n,t) with respect to the mean.
+Therefore, working with ln(n) might be preferable to indicate the sign of the skewness.
+
+388
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+To compute a 1-day-ahead forecast for the VaR of the daily returns yt using the
+conditional realized volatility, we now reestimate the model defined by Eqs. (2) –(5),
+where the conditional mean is the usual AR(n) process while the conditional variance is
+proportional to RVtjt  1 detailed above, i.e. r2t = r2RVtjt  1 (with r2 being an additional
+parameter to be estimated). In other words, all the dynamics of the conditional variance is
+assumed to be captured by the ARFIMAX model. This assumption will be tested in the
+empirical application. Note that r2 is used to ensure that the rescaled innovations of the
+second step have a unit variance.
+This specification is almost identical to the specification introduced in Section 3.1, but in
+this case the conditional volatility for the daily returns is proportional to the conditional
+realized volatility RVtjt  1 and thus uses the information provided by the intradaily returns
+of day t  1. As in Section 3.1, an adequate distribution for the innovation process (zt)
+should be selected. The recent empirical literature (see Andersen et al., 2001a) has stressed
+that daily returns standardized by their ex post realized volatility (RVt) are nearly Gaussian.
+Hence, an obvious first choice for the distribution of zt would be the Gaussian distribution.
+However, because we want to forecast the 1-day-ahead VaR, RVt is not observed at time
+t  1 and one has to rely on its 1-day-ahead forecast, i.e. RVtjt  1. As shown in the next
+subsection, this seemingly minor change has far-reaching consequences as it invalidates the
+choice of the normal distribution as an adequate distribution for zt. Therefore, we suggest
+the use of the skewed Student distribution introduced above (or SKST RV model) to take
+into account the skewness and kurtosis of zt. We also present results for the normal
+distribution (in short Normal RV model) to motivate our choice of a more flexible density
+distribution and allow for a comparison with recent results given in the literature on realized
+volatility.
+3.3. Estimation results
+In this subsection, we report estimation results for the two competing models detailed in
+Section 3.1 and 3.2. Estimation of the GARCH-type models is done by approximate
+maximum likelihood using G@RCH 3.0 (see Laurent and Peters, 2002). Estimation of Eq.
+(12) is carried out by exact maximum likelihood (Sowel, 1992) under the normality
+assumption using ARFIMA 1.0 (see Ooms and Doornik, 1998; Doornik and Ooms, 1999)
+and conditional sum-of-squares maximum likelihood (Hosking, 1981) using G@RCH 3.0
+(see Laurent and Peters).12 Because the estimation procedures provide very similar
+outcomes, we only report the results obtained with the first method. Finally, estimation
+of the second step involved in the realized volatility approach is carried out using G@RCH
+3.0. The Ox codes are available upon request.
+Our first framework uses the daily models defined in Sections 3.1.1 and 3.1.2. To
+simplify the layout of the tables, we only report the results pertaining to the conditional
+variance equation and the skewed Student density. Note that, based on the SC criterion, an
+AR(1) specification has been selected for the conditional mean of the SP500 index returns
+while no dynamics is needed for the other series. To check the adequacy of the overall
+12
+The finite sample properties of the conditional sum-of-squares maximum likelihood have been
+investigated by Chung and Baillie (1993).
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+389
+
+Table 1
+Skewed student (SKST) APARCH
+CAC40
+x
+a1
+an
+b1
+d
+ln(n)
+t
+
+0.196
+0.040
+0.439
+0.944
+1.783
+ 0.062
+13.254
+
+Q20
+2
+Q20
+P20
+a1E(AzA  anz)d + b1
+
+SP500
+(0.011)
+(0.014)
+(0.189)
+(0.015)
+(0.533)
+(0.042)
+(4.625)
+
+23.246 [0.277]
+13.824 [0.740]
+13.282 [0.834]
+0.992
+
+YEN – USD
+
+DEM – USD
+
+(0.003)
+(0.010)
+(0.108)
+(0.009)
+(0.144)
+(0.024)
+(0.515)
+
+0.011 (0.004)
+0.076 (0.015)
+ 0.039 (0.069)
+0.916 (0.015)
+1.712 (0.302)
+0.087 (0.025)
+5.243 (0.499)
+
+0.006
+0.048
+0.026
+0.944
+1.840
+ 0.059
+6.757
+
+22.617 [0.255]
+14.924 [0.667]
+10.543 [0.938]
+0.994
+
+15.629 [0.739]
+18.111 [0.448]
+13.847 [0.793]
+0.985
+
+0.006
+0.054
+0.583
+0.953
+0.980
+ 0.026
+5.542
+
+(0.003)
+(0.010)
+(0.066)
+(0.011)
+(0.310)
+(0.025)
+(0.773)
+
+15.357 [0.756]
+7.810 [0.981]
+14.840 [0.753]
+0.990
+
+Estimation results for the volatility specification of the skewed Student APARCH model on the daily returns of
+the CAC40 and SP500 stock indexes and the YEN – USD and DEM – USD exchange rates. Standard errors are
+2
+are, respectively the Ljung-Box Q-statistic of order 20 computed on the
+reported in parentheses. Q20 and Q20
+standardized residuals and squared standardized residuals. P20 is the Pearson goodness-of-fit statistics with 20
+cells. P-values of the statistics are reported in square brackets.
+
+conditional density, we first rely on the Pearson goodness-of-fit test that compares the
+empirical distribution with the theoretical one (see the application). For a given g number of
+cells, the Pearson goodness-of-fit statistics is:
+PðgÞ ¼
+
+g
+X
+ðni  Eni Þ2
+i¼1
+
+Eni
+
+;
+
+ð14Þ
+
+where ni is the number of observations in cell i and Eni is the expected number of
+observations (based on the ML estimates). For i.i.d. observations and under the null of a
+correct distribution, P( g) is distributed as a v2( g  1). Actually, as shown by Palm and
+Vlaar (1997), the asymptotic distribution of P( g) is bounded between a v2( g  1) and a
+v2( g  k  1) where k is the number of estimated parameters. Since our conclusions hold
+for both critical values and for various values of g, we report the significance levels relative
+to v2( g  1), with g = 20, i.e. P(20) in the tables.
+The results given in Table 1 show that:
+– b1 is close to 1 but significantly different from 1 for all series, which indicates a high
+degree of volatility persistence.13 Furthermore, in all cases the APARCH models are
+stationary in the sense that a1E(AzA  anz)d + b1 is lower than 1.
+– d is close to 1 for the SP500 index and not significantly different from 2 for the other
+series: the APARCH models the conditional standard deviation for the SP500 and the
+conditional variance for the other time series.
+– For the stock indexes, an is significantly positive: negative returns lead to higher
+subsequent volatility than positive returns (asymmetry in the conditional variance).
+However, no leverage effect is detected for the exchange rates.
+13
+Tse (1998) extended the APARCH by including a pure long memory feature (FIAPARCH). LR tests
+between the APARCH and the FIAPARCH clearly reject the FIAPARCH specification.
+
+390
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+– t is much larger for the CAC40 index than for the other series: daily returns of the
+SP500 index, YEN –USD and DEM – USD exchange rates display a much larger
+kurtosis and exhibit fatter tails than returns for the French data.
+– For the two exchange rates, ln(n) is significantly different from 0, which indicates that
+the innovations of the YEN –USD (resp. DEM – USD) returns are positively (resp.
+negatively) skewed while those of the CAC40 and the SP500 indexes are symmetric.
+– The AR-APARCH succeeds in taking into account all the dynamical structure exhibited
+by the returns and volatility of the returns as the Ljung-Box on the standardized
+residuals ( Q20) and the squared standardized residuals ( Q220) are always nonsignificant
+at the 5% level.
+– Finally, the relevance of the skewed Student APARCH model is ascertained by the
+Pearson goodness-of-fit statistic P(20).
+In our second framework, we explicitly use the information provided by the intradaily
+returns to compute the daily realized volatility. We first estimate an ARFIMAX(0,d,1)
+model on the logarithmic realized volatility lnRVt as in Eq. (12). In a second step, we
+assume that the conditional mean of yt follows the same AR structure as previously, while
+the conditional variance of the daily returns is expressed as r2t = r2RVtjt  1, with r2 being an
+additional parameter to be estimated. Note that to perform this second step, one has to make
+an additional assumption on the innovation process. As outlined at the end of Section 3.2,
+one assumes first that zt is normally distributed and then skewed Student distributed. Table
+2 presents estimation results for this second method. Panel I of the table deals with the
+Table 2
+Realized volatility framework
+CAC40
+
+SP500
+
+YEN – USD
+
+DEM – USD
+
+ 1.123
+0.256
+ 0.386
+ 0.218
+0.416
+0.615
+
+ 1.079
+0.078
+ 0.184
+ 0.209
+0.407
+0.484
+
+Panel I
+l0
+l1
+l2
+h1
+d
+r2u
+
+ 0.016
+0.029
+ 0.187
+ 0.341
+0.463
+0.444
+
+Panel II
+r2
+ln(n)
+t
+
+1.032 (0.046)
+ 0.069 (0.041)
+16.070 (6.658)
+
+1.106 (0.041)
+ 0.018 (0.024)
+6.097 (0.621)
+
+1.008 (0.043)
+0.079 (0.025)
+5.246 (0.501)
+
+1.099 (0.039)
+ 0.054 (0.025)
+6.808 (0.788)
+
+24.664 [0.215]
+16.745 [0.669]
+17.994 [0.523]
+
+23.095 [0.233]
+3.221 [0.999]
+13.185 [0.829]
+
+15.195 [0.765]
+34.045 [0.026]
+19.446 [0.428]
+
+14.802 [0.788]
+23.075 [0.285]
+9.856 [0.956]
+
+Q20
+2
+Q20
+P20
+
+(0.729)
+(0.026)
+(0.035)
+(0.053)
+(0.035)
+
+ 0.565
+ 0.016
+ 0.215
+ 0.287
+0.480
+0.399
+
+(1.120)
+(0.020)
+(0.034)
+(0.030)
+(0.019)
+
+(0.465)
+(0.030)
+(0.055)
+(0.037)
+(0.027)
+
+(0.369)
+(0.032)
+(0.032)
+(0.037)
+(0.027)
+
+Panel I: estimation results for the logarithm of the realized volatility (defined on 15-min returns for
+the CAC40 and SP500 stock indexes and 1-h returns for the exchange rates) using an
+ARFIMAX(0,d,1)
+specification: (1  L)d(lnRVt  l0  l1yt  1  l2yt 1 )=(1 + h1L)ut. Panel II: yt ¼ lt þ
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2
+are, respectively
+r2 RVtAt1 zt, with zt f SKST(0,1,n,t). Standard errors are reported in parentheses. Q20 and Q20
+the Ljung-Box Q-statistic of order 20 computed on the standardized residuals and squared standardized residuals.
+P20 is the Pearson goodness-of-fit statistics with 20 cells. P-values of the statistics are reported in square brackets.
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+391
+
+ARFIMAX specification while Panel II is related to the second step. Note that to save
+space, we do not report the estimated parameters of the conditional mean in Panel II.
+Several comments can be made:
+– First, the specification seems to succeed in modelling the dynamics of the first two
+2
+conditional moments of the series. Indeed, the Ljung-Box statistics Q20 and Q20
+indicate
+that the serial correlation in the error term and its square has been taken care of (at the
+conventional levels of significance).
+– Parameter d is well above 0 for the four series. Actually, one has the typical value of 0.4
+for the exchange rates (see Andersen et al., 2001b,c) and a slightly larger value for the
+stock indexes. In all cases, d is lower than 0.5 (even if not statistically different from 0.5
+for the stock indexes), which indicates that the logarithm of the realized volatility might
+be covariance-stationary.
+– l2 is significantly negative for all series: negative returns lead to higher subsequent
+volatility than positive returns (asymmetry in the conditional variance similar to the
+APARCH model). Note that this result differs from the one obtained with the APARCH
+model, where no leverage effect was detected for the exchange rates.
+– While the recent literature has stressed that ex post standardized returns have an almost
+normal distribution (see Andersen et al., 2000a,b, 2001a), this is zcertainly not true for
+ex ante standardized returns, i.e. returns standardized by the square root of the 1-dayahead forecast of the daily realized volatility. The estimated parameters ln(n) and t
+reported in Table 2 suggest that the ex ante standardized returns of the CAC40, SP500,
+YEN – USD and DEM –USD are kurtosed and skewed (this is particularly true for the
+exchange rates).14 Hence, while daily returns standardized by the ex post square root of
+the daily realized volatility are normally distributed, the same daily returns standardized
+by the square root of the 1-day-ahead forecast of the daily realized volatility are not
+normally distributed. As shown in the next section on Value-at-Risk, this implies that, in
+a forecasting framework, realized volatility measures must be combined with adequate
+density distributions.
+
+4. Assessing the VaR performance of the models assessing
+In the last part of the paper, we now focus on the application of the volatility models
+detailed previously to a Value-at-Risk application. As indicated in the introduction where
+we briefly reviewed the VaR framework, our goal in this paper is to ascertain if volatility
+models based on the realized volatility improves on the 1-day ahead daily VaR forecasts
+made by a model based on daily returns. In both cases, we choose the skewed Student
+density distribution as the density distribution for the standardized error term to take into
+account the salient features of the returns standardized by the volatility forecast. The latter is
+first equal to the daily volatility forecast (skewed Student APARCH model), and then based
+on the realized volatility measure (skewed Student realized volatility model). We also
+present results for the popular RiskMetrics method and the normal realized volatility model.
+14
+
+These results are in line with those reported in Table 1 (skewed Student APARCH on daily returns).
+
+392
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+More specifically, we use the estimated coefficients reported in the previous tables to
+compute the volatility forecasts used as inputs in the computation of the 1-day-ahead VaR
+for the four series. When assuming a normal distribution for the innovations, the VaR for
+long trading positions (i.e. left tail of the density distribution of returns) is given by lt + zart,
+while for short trading positions (i.e. right tail of the density distribution of returns) it is
+equal to lt + z1  art, with za being the left quantile at a% for the normal distribution and
+z1  a the right quantile at a%. When assuming a skewed Student distribution, the VaR for
+long trading positions is given by lt + sksta,t,nrt and lt + skst1  a,t,nrt, with sksta,t,n being
+the left quantile at a% for the skewed Student distribution with t degrees of freedom and
+asymmetry coefficient n; skst1  a,t,n is the corresponding right quantile.15 If ln(n) is
+smaller than zero (or n < 1), Asksta,t,nA>Askst1  a,t,nA and the VaR for long trading
+positions will be larger (for the same conditional variance) than the VaR for short trading
+positions. When ln(n) is positive, we have the opposite result. Therefore, the skewed
+Student density distribution allows for asymmetric VaR forecasts and fully takes into
+account the fact that the density distribution of asset returns can be substantially skewed.
+See for example Chen et al. (2001) for a discussion and motivation of skewness in
+financial returns.
+All models are tested with a VaR level a which ranges from 5% to 0.25% and their
+performance is then assessed by computing the failure rate for the returns yt. By definition,
+the failure rate is the number of times returns exceed (in absolute value) the forecasted VaR.
+This measure is also called the proportion of VaR violations, where a VaR violation is
+defined as an occurrence of a market returns larger (in absolute value) than the forecasted
+VaR. If the VaR model is correctly specified, the failure rate should be equal to the
+prespecified VaR level, i.e. a. In our empirical application, we define a failure rate fl for the
+long trading positions, which is equal to the percentage of negative returns smaller than
+one-step-ahead
+VaR for long positions (left tail of the density distribution of the returns), i.e.
+P
+1=T Tt¼1 Iðyt < VaRt ðaÞÞ , where I(	) is the indicator function and VaRt(a) is the VaR
+forecast at time t and at a%. Correspondingly, we define fs as the failure rate for short
+trading positions as the percentage of positive returns larger than the one-step-ahead VaR
+for short positions (right tail of the density distribution of the returns). Using a procedure
+that is now standard in the VaR literature, we assess the models’ performance by first
+computing their empirical failure rates, both for the left and right tails of the distribution of
+returns. Because the computation of the empirical failure rate defines a sequence of yes
+(VaR violation)/no (no VaR violation) observations, it is possible to test H0: f = a against H1:
+f p a, where f is the failure rate (estimated by f̂, the empirical failure rate). In the literature on
+VaR models, this test is also called the Kupiec LR test, if the hypothesis is tested using a
+likelihood ratio test (see Kupiec, 1995). The LR statistic is LR =  2ln(aT  N(1  a)N) +
+2ln((1  (N/T))T  N(N/T)N), where N is the number of VaR violations, T is the total
+number of observations and f is the theoretical failure rate. Under the null hypothesis
+that f is the true failure rate, the LR test statistic is asymptotically distributed as a v2(1).
+Besides the failure rate, a relevant VaR model should feature a sequence of indicator
+functions (VaR violations) that is not serially correlated. With the new variables
+15
+The quantile function of the (standardized) skewed Student has been derived in Lambert and Laurent
+(2001) as a mixture of two Student quantile functions. See also Giot and Laurent (2003).
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+393
+
+Hitt(a) = I( yt < VaRt(a))  a and Hitt(1  a) = I( yt>VaRt(1  a))  a, Engle and Manganelli
+(1999) suggest to test jointly that:
+
+
+A1: E(Hitt(a)) = 0 (respectively E(Hitt(1  a)) = 0) in the case of long trading positions
+(short trading positions).
+ A2: Hitt(a) (or Hitt(1  a)) is uncorrelated with the variables included in the
+information set.
+According to Engle and Manganelli (1999), testing A1 –A2 can be done using the
+artificial regression Hitt = Xk + et, where X is a T  k matrix whose first column is a column
+of ones, the next q columns are Hitt  1,. . .,Hitt  q and the k  q  1 remaining columns are
+additional independent variables (including the VaR itself). Engle and Manganelli (1999)
+VX k̂ a 2
+also show that under the null A1 –A2, the Dynamic Quantile test statistic k̂VX
+að1aÞ f v ðkÞ,
+where k̂ is the OLS estimates of k. A small sample version of this test ( F-test) is readily
+obtained but the difference is negligible since the sample size is larger than 1000
+observations. Note that while Engle and Manganelli (1999) only consider long trading
+positions, we also use this test when computing the VaR of short trading positions.
+Table 3 reports the P-values for the Kupiec (1995) failure rate test, while Table 4
+presents the results for the Engle and Manganelli (1999) regression quantile tests with
+q = 5 and k = 7 (i.e. we include the contemporaneous VaR forecast as additional explanatory variable). For both tests, each panel presents successively the results for the
+RiskMetrics, SKST APARCH, normal RV and SKST RV models. Let us first compare
+the results given in rows 3 and 4 of each panel, i.e. the results for the normal and skewed
+Student realized volatility specification. The empirical results given in both tables tell the
+same story. First and for the normal RV specification, the P-values for the null hypothesis
+of both tests are often smaller than 0.05, especially when a is below 1%. Secondly the
+skewed Student RV model performs very well as there are almost no P-values smaller than
+0.05, whatever the test and the tail one takes into account. Thus the switch from the normal
+distribution to the skewed Student distribution yields a significant improvement in the VaR
+performance of the model set in the realized volatility framework. In a second step, we
+now compare the results given in rows 2 and 4 of each panel, i.e. the results for the skewed
+Student APARCH model (daily data only) and the skewed Student realized volatility
+specification (which uses intradaily data). It is quite striking that we get very close (from a
+qualitative point of view) results: in most cases, P-values are larger than 0.05, both for the
+model that uses the daily data and for the model that uses the intradaily data (realized
+volatility). Therefore, using an APARCH model with daily data or a two-step approach
+relying on the realized volatility leads to very similar results in terms of VaR performance,
+provided that one correctly specify the full conditional density (the skewed Student density
+distribution) for both methods.
+This implies that previous results given in the empirical literature must be qualified. For
+example, Ebens (1999) concludes his paper by stating that the GARCH model underperforms (when volatility must be forecasted) with respect to the model based on the daily
+realized volatility. However, the author uses a GARCH model that neither really accounts
+for the long memory property observed in the realized volatility nor the fat-tails or
+asymmetry of the returns (even after standardization). Indeed, when estimating the more
+
+394
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+Table 3
+VaR failure rate results for the stock indexes and exchange rates
+a
+
+VaR for long positions
+
+VaR for short positions
+
+5%
+
+2.5%
+
+1%
+
+0.5%
+
+0.25%
+
+5%
+
+2.5%
+
+1%
+
+0.5%
+
+0.25%
+
+CAC40 stock index
+RiskMetrics
+SKST APARCH
+Normal RV
+SKST RV
+
+0.051
+0.754
+0.399
+0.555
+
+0.005
+0.233
+0.090
+0.617
+
+0.002
+0.223
+0.027
+0.337
+
+0.000
+0.923
+0.018
+0.765
+
+0.000
+0.945
+0.021
+0.497
+
+0.656
+0.855
+0.754
+0.643
+
+0.555
+0.555
+0.245
+0.332
+
+0.667
+0.891
+0.891
+0.891
+
+0.299
+0.606
+0.765
+0.923
+
+0.148
+0.633
+0.945
+0.497
+
+SP500 stock index
+RiskMetrics
+SKST APARCH
+Normal RV
+SKST RV
+
+0.301
+0.472
+0.058
+0.809
+
+0.001
+0.737
+0.655
+0.911
+
+0.000
+0.541
+0.036
+0.916
+
+0.000
+0.843
+0.001
+0.660
+
+0.000
+0.519
+0.000
+0.692
+
+0.301
+0.575
+0.025
+0.809
+
+0.125
+0.655
+0.570
+0.650
+
+0.036
+0.018
+0.803
+0.031
+
+0.004
+0.096
+0.960
+0.050
+
+0.060
+0.010
+0.333
+0.010
+
+YEN – USD exchange rate
+RiskMetrics
+0.049
+SKST APARCH
+0.817
+Normal RV
+0.006
+SKST RV
+0.921
+
+0.537
+0.762
+0.134
+0.512
+
+0.023
+0.500
+0.074
+0.627
+
+0.004
+0.079
+0.108
+0.542
+
+0.001
+0.532
+0.040
+0.532
+
+0.126
+0.521
+0.521
+0.521
+
+0.000
+0.399
+0.003
+0.339
+
+0.000
+0.105
+0.000
+0.198
+
+0.000
+0.108
+0.000
+0.863
+
+0.000
+0.419
+0.000
+0.809
+
+DEM – USD exchange rate
+RiskMetrics
+0.043
+SKST APARCH
+0.869
+Normal RV
+0.934
+SKST RV
+0.934
+
+0.017
+0.377
+0.529
+0.519
+
+0.000
+0.391
+0.004
+0.942
+
+0.000
+0.859
+0.000
+0.501
+
+0.000
+0.635
+0.000
+0.900
+
+0.934
+0.617
+0.128
+1.000
+
+0.333
+0.687
+0.377
+0.519
+
+0.001
+0.435
+0.195
+0.913
+
+0.000
+0.250
+0.023
+0.669
+
+0.000
+0.900
+0.001
+0.417
+
+P-values for the null hypotheses fl = a (i.e. failure rate for the long trading positions is equal to a, top of the table)
+and fs = a (i.e. failure rate for the short trading positions is equal to a, bottom of the table). a is equal successively
+to 5%, 2.5%, 1%, 0.5% and 0.25%. The RiskMetrics and skewed Student APARCH models are estimated on the
+daily returns (i.e. no use is made of the intraday returns) while the last two models are estimated using the twostep approach described in Section 3.2 and use the intraday returns.
+
+simple RiskMetrics VaR model on daily returns (the RiskMetrics model is tantamount to
+an IGARCH model with prespecified coefficients, under the additional assumption of
+normality), we have the VaR results given in the first row of each panel of Tables 3 and 4:
+its 1-day-ahead forecasting performance is rather poor, especially when a is small.16 With
+a more ‘sophisticated’ model on the other hand, VaR results are much better. Interestingly
+(and this confirms what we showed in Section 3.3 where we compared the statistical
+properties of the ex ante standardized returns obtained with the normal and skewed
+Student distributions), the same conclusion is true for the more complex model based on
+the combination of intraday returns and realized volatility. Therefore, this also shows that
+dealing with realized volatility in a forecasting framework does not mean that the normal
+distribution is a natural and obvious choice for the distribution of returns (which it is for ex
+post standardized returns). In other words, a forecasting framework where realized
+16
+Although the results are not reported in the paper, we also estimated a normal GARCH(1,1) model and its
+performance was not much better than the RiskMetrics specification.
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+395
+
+Table 4
+VaR quantile regression results for the stock indexes and exchange rates
+a
+
+VaR for long positions
+
+VaR for short positions
+
+5%
+
+2.5%
+
+1%
+
+0.5%
+
+0.25%
+
+5%
+
+2.5%
+
+1%
+
+0.5%
+
+0.25%
+
+CAC40 stock index
+RiskMetrics
+SKST APARCH
+Normal RV
+SKST RV
+
+0.232
+0.650
+0.908
+0.972
+
+0.028
+0.539
+0.338
+0.287
+
+0.000
+0.175
+0.097
+0.164
+
+0.000
+0.000
+0.000
+0.000
+
+0.000
+1.000
+0.000
+1.000
+
+0.878
+0.524
+0.971
+0.943
+
+0.923
+0.112
+0.750
+0.787
+
+0.999
+0.999
+0.998
+0.998
+
+0.973
+0.995
+0.999
+1.000
+
+0.889
+0.959
+0.995
+1.000
+
+SP500 stock index
+RiskMetrics
+SKST APARCH
+Normal RV
+SKST RV
+
+0.002
+0.101
+0.173
+0.156
+
+0.000
+0.018
+0.147
+0.145
+
+0.000
+0.780
+0.068
+0.896
+
+0.000
+0.152
+0.004
+0.984
+
+0.000
+0.999
+0.002
+1.000
+
+0.021
+0.051
+0.195
+0.222
+
+0.078
+0.293
+0.718
+0.704
+
+0.248
+0.252
+0.980
+0.690
+
+0.048
+0.924
+0.996
+0.856
+
+0.218
+0.615
+0.988
+0.678
+
+YEN – USD exchange rate
+RiskMetrics
+0.012
+SKST APARCH
+0.264
+Normal RV
+0.036
+SKST RV
+0.572
+
+0.075
+0.325
+0.019
+0.031
+
+0.119
+0.975
+0.056
+0.464
+
+0.030
+0.903
+0.004
+0.015
+
+0.001
+0.999
+0.000
+0.790
+
+0.013
+0.694
+0.480
+0.480
+
+0.000
+0.016
+0.000
+0.058
+
+0.000
+0.002
+0.000
+0.019
+
+0.000
+0.000
+0.000
+0.140
+
+0.000
+0.968
+0.000
+1.000
+
+DEM – USD exchange rate
+RiskMetrics
+0.009
+SKST APARCH
+0.959
+Normal RV
+0.662
+SKST RV
+0.671
+
+0.000
+0.776
+0.721
+0.866
+
+0.000
+0.892
+0.008
+0.635
+
+0.000
+0.994
+0.000
+0.887
+
+0.000
+0.999
+0.000
+1.000
+
+0.051
+0.389
+0.258
+0.638
+
+0.019
+0.000
+0.593
+0.269
+
+0.000
+0.011
+0.129
+0.533
+
+0.000
+0.007
+0.002
+0.130
+
+0.000
+1.000
+0.000
+0.996
+
+X VX k̂ a 2
+P-values for the dynamic quantile test statistic k̂V
+að1aÞ f v ð7Þ. a is equal successively to 5%, 2.5%, 1%, 0.5% and
+0.25%. The RiskMetrics and skewed Student APARCH models are estimated on the daily returns (i.e. no use is
+made of the intraday returns) while the last two models are estimated using the two-step approach described in
+Section 3.2 and use the intraday returns.
+
+volatility is used implies that this measure should be used in conjunction with an adequate
+density distribution.
+
+5. Conclusion
+In this paper, we have shown how to compute a daily VaR measure for two stock indexes
+(the CAC40 and SP500 stock indexes) and two exchange rates vis-a-vis the US dollar
+(YEN – USD and DEM –USD) using volatility forecasts based on realized volatility. The
+daily realized volatility is equal to the sum of the squared intraday returns over a given day
+and thus uses intraday information to define an aggregated daily volatility measure. While
+the VaR forecasts which use this method perform adequately over our sample, we also show
+that a more simple model based solely on daily returns also delivers nice results. Indeed,
+while the VaR specification based on an ARFIMAX(0,d,1)-skewed Student model for the
+daily realized volatility provides adequate 1-day-ahead VaR forecasts, it does not really
+improve on the performance of a VaR model based on the skewed Student APARCH model
+
+396
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+and estimated using daily data. Thus, for the four financial assets considered in our study,
+the two methods seem to be rather equivalent provided that one correctly specify the full
+conditional density (the skewed Student density distribution) for both methods and one
+does not use the normal distribution (even in the realized volatility framework). Another
+important conclusion of our paper is that daily returns standardized by the square root of the
+1-day-ahead forecast of the daily realized volatility are not normally distributed. This
+extends recent results on realized volatility (such as Andersen et al., 2001a) and shows that,
+in a forecasting framework such as Value-at-Risk, realized volatility measures must be
+combined with adequate density distributions.
+At this stage, one of the most immediate and promising extension of these techniques
+is to consider corresponding multivariate volatility models to forecast the VaR of a
+portfolio of financial assets. Multivariate models of the ARCH type are not easy to
+implement as they often require the estimation of a large number of parameters.
+Furthermore, these parameters are present in the latent volatility specification and this
+is one of the main difficulty of the problem. Therefore, multivariate realized volatility
+models should provide a much easier way to correctly model variances and correlations
+across financial assets as they assume that volatility is observed. This paves the way for
+the use of ‘usual’ multivariate models (VAR, ECM) directly applied to realized volatility
+and correlations.
+
+Acknowledgements
+While remaining responsible for any errors in this paper, the authors would like to thank
+G. Lefol, J.-P. Urbain, F. Palm and two anonymous referees for useful remarks and
+suggestions, G. Capelle Blancard and G. Janssen for the availability of the CAC40 and the
+exchange rates data sets, respectively.
+
+References
+Andersen, T., Bollerslev, T., 1997. Intraday periodicity and volatility persistence in financial markets. Journal of
+Empirical Finance 4, 115 – 158.
+Andersen, T., Bollerslev, T., 1998. Answering the skeptics: yes, standard volatility models do provide accurate
+forecasts. International Economic Review 39, 885 – 905.
+Andersen, T., Bollerslev, T., Diebold, F., Labys, P., 2000a. Exchange rate returns standardized by realized
+volatility are (nearly) Gaussian. Multinational Finance Journal 4, 159 – 179.
+Andersen, T., Bollerslev, T., Diebold, F., Labys, P., 2000b. Market microstructure effects and the estimation
+of integrated volatility. Working Paper. Northwestern University, Duke University, and University of
+Pennsylvania.
+Andersen, T., Bollerslev, T., Diebold, F., Ebens, H., 2001a. The distribution of realized stock return volatility.
+Journal of Financial Economics 61, 43 – 76.
+Andersen, T., Bollerslev, T., Diebold, F., Labys, P., 2001b. The distribution of realized exchange rate volatility.
+Journal of the American Statistical Association 96, 42 – 55.
+Andersen, T., Bollerslev, T., Diebold, F., Labys, P. 2001c. Modelling and forecasting realized volatility. Working
+Paper 01-01. The Wharton School, University of Pennsylvania.
+Areal, N., Taylor, S., 2000. The realized volatility of FTSE-100 futures prices. Journal of Futures Markets.
+22, 627 – 648.
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+397
+
+Berkowitz, J., O’Brien, J., 2002. How accurate are Value-at-Risk models at commercial banks? Journal of
+Finance 57, 1093 – 1112.
+Black, F., 1976. Studies of stock market volatility changes. Proceedings of the American Statistical Association,
+Business and Economic Statistics Section, 177 – 181.
+Bollerslev, T., 1986. Generalized autoregressive conditional heteroskedasticity. Journal of Econometrics 31,
+307 – 327.
+Campbell, J., Hentschel, L., 1992. No news is good news: an asymmetric model of changing volatility in stock
+returns. Journal of Financial Economics 31, 281 – 318.
+Campbell, J., Lo, A., MacKinlay, A., 1997. The Econometrics of Financial Markets. Princeton Univ. Press,
+Princeton.
+Chen, C., Hong, H., Stein, J., 2001. Forecasting crashes: trading volume, past returns, and conditional skewness
+in stock prices. Journal of Financial Economics 61, 345 – 381.
+Chung, C.-F., Baillie, R., 1993. Sample bias in conditional sum-of-squares estimator of fractionally integrated
+ARMA models. Empirical Economics 18, 791 – 806.
+Danielsson, J., 2002. The emperor has no clothes: limits to risk modelling. Journal of Banking and Finance 26,
+1273 – 1296.
+Danielsson, J., Payne, R., 2002. Real trading patterns and prices in the spot foreign exchange markets. Journal of
+International Money and Finance 21, 203 – 222.
+Ding, Z., Granger, C.W.J., Engle, R.F., 1993. A long memory property of stock market returns and a new model.
+Journal of Empirical Finance 1, 83 – 106.
+Doornik, J.A., Ooms, M., 2001. A Package for Estimating, Forecasting and Simulating Arfima Models: Arfima
+Package 1.1 for Ox. Working paper, Nuffield College, Oxford.
+Ebens, H., 1999. Realized stock index volatility. Working Paper No. 420. Department of Economics, John
+Hopkins University, Baltimore.
+Engle, R., 1982. Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom
+inflation. Econometrica 50, 987 – 1007.
+Engle, R., Manganelli, S., 1999. CAViaR: conditional autoregressive Value at Risk by regression quantiles.
+Mimeo, San Diego, Department of Economics.
+Engle, R., Russell, J., 1997. Forecasting the frequency of changes in quoted foreign exchange prices with the
+autoregressive conditional duration model. Journal of Empirical Finance 4, 187 – 212.
+Fernández, C., Steel, M., 1998. On Bayesian modelling of fat tails and skewness. Journal of the American
+Statistical Association 93, 359 – 371.
+French, K., Schwert, G., Stambaugh, R., 1987. Expected stock returns and volatility. Journal of Financial
+Economics 19, 3 – 29.
+Gerhard, F., Hautsch, N., 2002. Volatility estimation on the basis of price intensities. Journal of Empirical Finance
+9, 57 – 89.
+Giot, P., 2002. Market risk models for intraday data. University of Namur Discussion Paper 230.
+Giot, P., 2003. The information content of implied volatility in agricultural commodity markets. Journal of
+Futures Markets 23, 441 – 454.
+Giot, P., Laurent, S., 2001. Modelling daily Value-at-Risk using realized volatility and ARCH type models.
+Maastricht University METEOR RM/01/026.
+Giot, P., Laurent, S., 2003. Value-at-Risk for long and short positions. Journal of Applied Econometrics 18,
+641 – 664.
+Granger, C., 1980. Long memory relationships and the aggregation of dynamic models. Journal of Econometrics
+14, 227 – 238.
+Granger, C., Joyeux, R., 1980. An introduction to long-memory time series models and fractional differencing.
+Journal of Time Series Analysis 1, 15 – 29.
+He, C., Teräsvirta, T., 1999a. Higher-order dependence in the general power ARCH process and a special case.
+Stockholm School of Economics, Working Paper Series in Economics and Finance 315. Stockholm.
+He, C., Teräsvirta, T., 1999b. Statistical properties of the asymmetric power ARCH process. In: Engle, R., White,
+H. (Eds.), Cointegration, Causality, and Forecasting. Festschrift in Honour of Clive W.J. Granger. Oxford
+Univ. Press, Oxford, pp. 462 – 474. Chap. 19.
+Hosking, J., 1981. Fractional differencing. Biometrika 68, 165 – 176.
+
+398
+
+P. Giot, S. Laurent / Journal of Empirical Finance 11 (2004) 379–398
+
+Jorion, P., 2000. Value-at-Risk: The New Benchmark for Managing Financial Risk. McGraw-Hill, New York.
+Kupiec, P., 1995. Techniques for verifying the accuracy of risk measurement models. Journal of Derivatives 2,
+173 – 184.
+Lambert, P., Laurent, S., 2001. Modelling financial time series using GARCH – type models and a skewed
+Student density. Mimeo. Université de Liège.
+Laurent, S., Peters, J.-P., 2002. G@RCH 2.2: an Ox package for estimating and forecasting various ARCH
+models. Journal of Economic Surveys 16, 447 – 485.
+Lee, T.-H., Saltoglu, B., 2001. Evaluating Predictive Performance of Value-at-Risk Models in Emerging Markets:
+A Reality Check. Working paper. Marmara University.
+Martens, M., 2001. Forecasting daily exchange rate volatility using intraday returns. Journal of International
+Money and Finance 20, 1 – 23.
+Merton, R., 1980. On estimating the expected return on the market. An exploratory investigation. Journal of
+Financial Economics 8, 323 – 361.
+Oomen, R., 2001. Using high frequency stock market index data to calculate, model and forecast realized
+volatility. Manuscript. European Univ. Institute, Department of Economics.
+Ooms, M., Doornik, J., 1998. Estimation, Simulation and Forecasting for Fractional Autoregressive Integrated
+Moving Average Models. Discussion paper. Econometric Intitute, Erasmus University Rotterdam, Presented
+at the Fourth Annual Meeting of the Society for Computational Economics, June 30, 1998, Cambridge, UK.
+Pagan, A., Schwert, G., 1990. Alternative models for conditional stock volatility. Journal of Econometrics 45,
+267 – 290.
+Palm, F., 1996. GARCH models of volatility. In: Maddala, G., Rao, C. (Eds.), Handbook of Statistics. Elsevier,
+Amsterdam, pp. 209 – 240.
+Palm, F., Vlaar, P., 1997. Simple diagnostics procedures for modelling financial time series. Allgemeines Statistisches Archiv 81, 85 – 101.
+Saunders, A., 2000. Financial Institutions Management. McGraw-Hill, Irwin McGraw-Hill, Boston, MA.
+Sowel, F., 1992. Maximum likelihood estimation of stationary univariate fractionally integrated time series
+models. Journal of Econometrics 53, 165 – 188.
+Taylor, S., 1994. Modeling stochastic volatility: a review and comparative study. Mathematical Finance 4,
+183 – 204.
+Taylor, S., Xu, X., 1997. The incremental volatility information in one million Foreign Exchange quotations.
+Journal of Empirical Finance 4, 317 – 340.
+Tse, Y., 1998. The conditional heteroscedasticity of the Yen-Dollar exchange rate. Journal of Applied Econometrics 193, 49 – 55.
+Zakoian, J.-M., 1994. Threshold heteroskedasticity models. Journal of Economic Dynamics and Control 15,
+931 – 955.
+
+

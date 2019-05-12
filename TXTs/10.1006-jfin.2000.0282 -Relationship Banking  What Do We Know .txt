@@ -1,0 +1,816 @@
+Journal of Financial Intermediation 9, 7–25 (2000)
+doi:10.1006/jfin.2000.0282, available online at http://www.idealibrary.com on
+
+Relationship Banking: What Do We Know?
+Arnoud W. A. Boot1
+The University of Amsterdam, Tinbergen Institute, and CEPR
+Received October 14, 1999
+
+This paper briefly reviews the contemporary literature on relationship banking. We start
+out with a discussion of the raison d’être of banks in the context of the financial intermediation literature. From there we discuss how relationship banking fits into the core economic
+services provided by banks and point at its costs and benefits. This leads to an examination of
+the interrelationship between the competitive environment and relationship banking as well
+as a discussion of the empirical evidence. Journal of Economic Literature Classification
+C 2000 Academic Press
+Numbers: G20, G21, L10. °
+
+1. INTRODUCTION
+The modern literature on financial intermediation has primarily focused on the
+role of banks as relationship lenders. In this capacity, banks develop close relationships with borrowers over time. Such proximity between the bank and the
+borrower has been shown to facilitate monitoring and screening and can overcome
+problems of asymmetric information. In this view, relationships emerge as a prime
+source of an incumbent bank’s comparative advantage over de novo lenders. In
+recent years, however, the proliferation of transaction-oriented banking (trading)
+and direct funding available in the financial markets has started to seriously challenge banks’ future as relationship bankers. This has raised a host of interesting
+theoretical and empirical questions, the exploration of which has begun to shape
+the modern literature on relationship banking that is briefly reviewed in this paper.
+This review is organized around three distinct sets of questions. First, what
+defines relationship banking and how should it be viewed in the context of the
+modern literature on financial intermediation? These questions help define the
+1 The author thanks Allen Berger, Christa Bouwman, Anjolein Schmeits, Anjan Thakor, and an
+anonymous referee for helpful comments. The usual disclaimer applies. Please address comments to
+the author at the University of Amsterdam, Finance Group, Faculty of Economics and Econometrics,
+Roetersstraat 11, 1018 WB Amsterdam, The Netherlands. E-mail: awaboot@fee.uva.nl.
+
+7
+1042-9573/00 $35.00
+
+c 2000 by Academic Press
+Copyright °
+All rights of reproduction in any form reserved.
+
+8
+
+ARNOUD W. A. BOOT
+
+origin and scope of relationship banking. We know that information asymmetries
+are central to the literature on financial intermediation as developed by Diamond
+(1984) and others (see Bhattacharya and Thakor (1993) for a review). In fact,
+the raison d’être of banks may well be their role in mitigating informational
+asymmetries. Relationship banking is most directly aimed at resolving problems
+of asymmetric information. What is interesting is that this way of looking at
+relationship banking takes us beyond the traditional focus on commercial bank
+lending; relationships play a critical role in investment banking as well and in the
+activities of nonbank financial intermediaries and private equity and debt markets.
+The second set consists of questions about the source of the benefits of relationship banking. Questions addressed here include the following: What makes a
+relationship lender special? And what are the value-enhancing contractual features
+of relationship lending? One main insight with respect to the first question is that the
+dominance of relationship lending may resolve Grossmann and Hart (1980)-type
+free-rider problems and facilitate information reusability over time. This encourages information production and monitoring by the lender. The latter question
+addresses contractual features that are possibly unique to relationship lending. We
+show that relationship banking allows several special contractual features, including flexibility and discretion, the extensive use of covenants, and the inclusion of
+collateral requirements. We will show that these contractual features may facilitate
+implicit long-term contracts and resolve agency and information problems.
+A third set consists of questions about the “dark side” of relationship banking
+(its costs). Is relationship banking especially vulnerable to soft-budget constraint
+and hold-up problems? And how can these problems be resolved? We will argue
+that the flexibility of bank debt, in particular the possibilities for renegotiation,
+may give rise to perverse ex ante incentives on the part of borrowers (soft-budgetconstraint problem). Simultaneously, bank funding may lead to an information
+monopoly for the bank, giving rise to a hold-up problem. A potential solution
+for the soft-budget-constraint problem is to grant the bank seniority and/or grant
+it collateral. This could strengthen the bank’s bargaining position vis-à-vis the
+borrower and facilitate timely intervention. The latter would benefit bondholders as
+well and point at a complementarity between bank debt and capital market funding.
+Resolutions to the hold-up problem involve introducing competition to mitigate
+the bilateral monopoly of the incumbent bank with respect to the borrower. While
+introducing ex post competition (e.g., by choosing for multiple simultaneous bank
+relationships) may indeed reduce the hold-up problem, the viability of relationship
+banking may suffer. In this context, we also discuss particular contractual solutions
+that attenuate the hold-up problem by limiting the discretion of the lender (Von
+Thadden, 1995).
+While this review primarily focuses on theoretical insights that relate to relationship banking, the theory will be complemented with some key empirical
+insights. The organization of the paper is as follows. In Section 2, we start out with
+a discussion of the raison d’être of banks and the origin and scope of relationship
+banking. In Section 3 we focus on the benefits of relationship banking. Section 4
+
+RELATIONSHIP BANKING
+
+9
+
+looks at the “dark side” of relationship banking, the hold-up and the soft-budget
+constraint problem, and their resolutions. In Section 5 we focus on empirical issues and the impact of the increasingly competitive environment on relationship
+banking. Section 6 concludes.
+
+2. BANKS’ RAISON D’ÊTRE: WHAT DEFINES RELATIONSHIP
+BANKING IN THE CONTEXT OF THE MODERN THEORY
+OF FINANCIAL INTERMEDIATION?
+In this section we develop the basic theme of this paper by defining what we
+mean by relationship banking and discussing the origin and scope of relationship
+banking. We will point out that relationship banking services are provided by banks
+and nonbanking financial intermediaries alike. Moreover, relationship banking
+goes beyond lending and includes other services as well. We will also argue that
+the increase in capital market funding transforms rather than eliminates relationship
+banking. We will first link our discussion of relationship banking to the financial
+intermediation literature.
+Traditionally, commercial banks hold nonmarketable or illiquid assets that are
+funded largely with deposits. There is typically little uncertainty about the value
+of these deposits, which are often withdrawable on demand. The liquidity of bank
+liabilities stands in sharp contrast to that of their assets, reflecting the banks’ raison
+d’être. By liquifying claims, banks may facilitate the funding of projects that
+might otherwise be infeasible.2 In financial intermediation theory, this is referred
+to as qualitative asset transformation (see Greenbaum and Thakor (1995)): a bank
+manages and absorbs risks (e.g., credit and liquidity risks) by issuing claims on
+its total assets with different characteristics from those encountered in its loan
+portfolio.
+The banks’ assets are illiquid largely because of their information sensitivity.
+In originating and pricing loans, banks develop proprietary information. Subsequent monitoring of borrowers yields additional private information. The existence
+of proprietary information may inhibit the marketability of these loans. In their
+review of this literature, Bhattacharya and Thakor (1993) conclude that informational frictions—asymmetric (and proprietary) information—“provide the most
+fundamental explanation for the existence of (financial) intermediaries.”3 The access to information is inherently linked to relationship banking and may point to
+a comparative advantage of banks.
+The term “relationship banking” is not particularly sharply defined in the literature. Apart from references to “close bank relationships,” no definition is provided
+2 This points at intertemporal risk sharing. That is, banks may smooth the stochastic individual
+demand for liquidity; see for example Diamond and Dybvig (1983).
+3 This view distinguishes the modern theories of financial intermediation from the earlier transactioncost-based theories (see for example Benston and Smith (1976)).
+
+10
+
+ARNOUD W. A. BOOT
+
+(see for example Petersen and Rajan (1994) and Berger and Udell (1995)). We
+define relationship banking as the provision of financial services by a financial
+intermediary that:
+i. invests in obtaining customer-specific information, often proprietary in nature; and
+ii. evaluates the profitability of these investments through multiple interactions
+with the same customer over time and/or across products.
+This definition centers around two critical dimensions: proprietary information
+and multiple interactions. The definition emphasizes that relationship banking involves borrower-specific—often proprietary—information available only to the
+intermediary and the customer. In the context of lending, this information is obtained when banks provide screening (Allen, 1990; Ramakrishnan and Thakor,
+1984) and/or monitoring services (Diamond, 1984; Winton, 1995). Moreover, as
+stated in the definition, the information can be used in multiple interactions with
+the same customer, creating an opportunity to benefit from intertemporal information reusability (Greenbaum and Thakor, 1995). In contrast, transaction-oriented
+banking focuses on a single transaction with a customer, or multiple identical
+transactions with various customers. For example, transaction lending is viewed
+as arms-length finance focusing on that particular transaction rather than being
+aimed at an information-intensive relationship with a customer (Boot and Thakor,
+2000). In general, this means that three conditions are met when relationship banking is present (see Berger (1999)):
+i. The intermediary gathers information beyond readily available public information;
+ii. Information gathering takes place over time through multiple interactions
+with the borrower, often through the provision of multiple financial services;
+iii. The information remains confidential (proprietary).
+Two caveats are in order. First, our focus on relationship banking should not
+be taken too literally. It may also include things that nonbank financial intermediaries do. That is, in the context of lending, relationship lending is not the
+exclusive domain of banks. As Carey et al. (1998) have shown, other financial
+intermediaries—such as finance companies—may engage in relationship lending
+as well. Similarly, a relationship orientation may also apply to other areas of banking, e.g., investment banking. The role of an investment bank has commonly been
+described as that of a broker, i.e., matching buyers and sellers for the firms’ securities. As brokers, investment banks simply facilitate transactions, adding value due
+to their ability to economize on search or matching costs. This brokerage function
+is typically viewed as being quite distinct from relationship banking. However,
+investment banks usually do much more than provide brokerage services. Almost
+without exception they underwrite public issues, and this involves absorbing credit
+and/or placement risk. Such activities move an investment bank’s role close to that
+of a commercial bank engaged in lending; the processing and absorption of risk
+
+RELATIONSHIP BANKING
+
+11
+
+may be facilitated by the proprietary information and multiple interactions, that are
+the hallmarks of relationship banking. A relationship orientation might therefore
+still be present in investment banking, both in the investment bank’s interactions
+with investors (“placement capacity”) and in its interactions with borrowing firms.
+Nevertheless, public debt issues are relatively hands-off with few interactions between financiers and borrowers over time (Berlin and Mester, 1992; Rajan and
+Winton, 1995).
+The full menu of financing options for borrowers includes many other products
+with varying degrees of relationships. In the continuum between bank loans and
+public debt issues, we can, for example, position syndicated loans. These are
+offered by investment banks and commercial banks and involve several financiers
+per loan. Generally, only the lead bank has a relationship with the borrower, and
+the relationship intensity is somewhere inbetween a bank loan and a public debt
+issue (see Dennis and Mullineaux (1999)). The menu of financing options also
+includes the private equity and private debt markets (see Fenn et al. (1997) and
+Carey et al. (1993)). In these markets, relationships play an important role as
+well. For example, venture capitalists interact constantly with entrepreneurs after
+funding their projects.4
+The upshot of this discussion is that the economic services typically included as
+part of relationship banking are often provided by a variety of nonbank financial
+intermediaries as well. The more appropriate term to use then would be relationship intermediation. Because of the greater familiarity people have with the term
+“relationship banking,” however, we will continue to use this more commonly used
+term.
+The second caveat is that relationship banking does not involve only funding but
+includes also various other financial services, e.g., letters of credit, deposits, check
+clearing, and cash management services. We will not focus on these services per se,
+but one should keep in mind that these services can expand the information available to the intermediary. As some have argued, the information that banks obtain by
+offering multiple services to the same customer may be of value in lending (Degryse
+and Van Cayseele, 2000). For example, the use of checking and deposit accounts
+may help the bank in assessing a firm’s loan repayment capability. Thus, the scope
+of the relationship may affect the bank’s comparative advantage in lending.
+These arguments also put modern developments such as securitization in the
+right context. Securitization is an innovation in funding technology that some
+have characterized as a proliferation of transaction-oriented market financing at
+the expense of relationship-oriented bank lending. According to McKinsey & Co.’s
+Lowell Bryan (1988), “Structured securitized credit [. . .] is rendering traditional
+banking obsolete.” However, viewing securitization as a development that undermines relationship banking is taking too narrow a view of securitization. The
+economics of securitization dictate that the originating bank credit enhance the
+4
+
+We therefore do not focus on venture capital; see Gompers and Lerner (2000) for a review of this
+literature.
+
+12
+
+ARNOUD W. A. BOOT
+
+issue. Credit enhancement is typically achieved through the provision of excess
+collateral or with a letter of credit or other back-up facilities. Alternatively, the originating bank keeps a portion of the issue or sells the issue with implicit recourse
+(e.g., backed by its reputation). The credit enhancement reduces the riskiness of
+the asset-backed claims from the investors’ perspective, and more importantly, it
+addresses conflicts of interest rooted in the originating bank’s proprietary information. With private information in possession of the originating bank, the market
+requires assurance that the bank will not exaggerate the quality of the assets it seeks
+to sell. As with a warranty in product markets, credit enhancement discourages
+misrepresentation by requiring the originator to absorb a portion of the losses owing
+to default. Similarly, credit enhancement signals to the market that the originator
+will perform a thorough credit evaluation and an undiminished monitoring effort.5
+We can conclude then that even if securitization largely replaces traditional
+bank lending, relationship banking will not be dead and banks will have a distinct added value.6 They originate and service assets, while also processing the
+attendant risk in order to sustain these activities. Banks will therefore continue
+to screen and monitor borrowers, design and price financial claims, and provide
+risk management services. The competitive advantage of banks arising from their
+proprietary information about their customers will be preserved, as will be the
+value of relationship banking.
+3. HOW DOES RELATIONSHIP BANKING ADD VALUE?
+In this section we identify several potential benefits of relationship banking. The
+first benefit is relationship banking can facilitate a Pareto-improving exchange of
+information between the bank and the borrower. With relationship banking, a borrower might be inclined to reveal more information than in a transaction-oriented
+interaction and the lender might have stronger incentives to invest in producing
+information. The other benefit is related to the fact that relationship banking accommodates several special contractual features that can improve welfare:
+i. Relationship lending leaves room for flexibility and discretion in contracts that
+permits the utilization of subtle, noncontractable information, thereby facilitating
+implicit long term contracting.
+ii. Relationship lending may include extensive covenants that allow for a better
+control of potential conflicts of interest.
+5 Credit enhancement reduces the information sensitivity of securitized claims and enhances their
+marketability. Dennis and Mullineaux (1999) discuss these problems in the context of syndication.
+In particular, they point at the reputation of the syndicate’s managing agent that may provide for an
+implicit credit enhancement.
+6 See also Boyd and Gertler (1994). They argue that banks have not lost importance. Their argument
+is that a substitution from on-balance-sheet to off-balance-sheet banking may have falsely suggested
+a shrinking role for banks. As in the description of securitization in the text, much of the banks’
+value-added in the primal activities would be preserved.
+
+RELATIONSHIP BANKING
+
+13
+
+iii. Relationship lending may involve collateral (e.g., as in asset-based lending)
+that needs to be monitored. In fact, the need for such lending and monitoring may
+make the proximity of a relationship financier essential; otherwise, lending might
+not occur at all.
+iv. Relationship lending could permit the funding of loans that are not profitable
+for the bank from a short-term perspective but may be profitable if the relationship
+with the borrower lasts long enough. As we shall see, the reason for this is that
+long relationships make possible value-enhancing intertemporal transfers in loan
+pricing.
+Let us begin by examining the first benefit related to information exchange. A
+borrower might reveal proprietary information to its bank that it would never have
+disseminated to the financial markets (Bhattacharya and Chiesa, 1995). For example, a firm might not want to disclose information to the financial market that would
+benefit its competitors, because of the “two-audiences” signaling problem. This
+would then leave unresolved adverse-selection problems stemming from the borrower having superior information that investors do not have. However, when the
+bank is the financier, the borrower can disclose information to it without worrying
+about it spilling over to competitors. Banks are thus indispensable in overcoming
+problems of asymmetric information. A bank might also have better incentives
+to invest in information production about the borrower because of its role as an
+enduring and dominant lender. While such information production is costly, it may
+be worthwhile due to the substantial stake that the bank has in the funding of the
+borrower and the valuable intertemporal information reusability that accompanies
+a long relationship with the borrower.7 These effects can generate an improved
+information flow between the bank and the borrower, accentuating the value added
+by relationship banking.8
+Let us now consider the benefits due to the contractual features that relationship
+lending accommodates. One source of these benefits is linked to the flexibility that
+relationship banking can offer. The bank–borrower relationship is typically less
+rigid than a capital market funding arrangement, in the sense that renegotiation
+of contract terms is easier. This greater flexibility with relationship finance can
+improve welfare because discretion has value (e.g., Boot et al. (1993)). This is part
+of the important ongoing discussion in economic theory about rules versus discretion, where discretion allows decision making based on more subtle—potentially
+noncontractable—information.9 A bank–borrower relationship is in many ways
+7
+
+Diamond (1984) introduces intermediaries as delegated monitors. See Chan et al. (1986) for a
+discussion on information reusability, and James (1987) and Lummer and McConnell (1989) for
+empirical evidence. For a nice illustration supporting the special role of banks, see Berlin (1996).
+8 Allen (1993) and Boot and Thakor (1997) compare the information aggregation role of financial
+markets to the information acquisition activity of banks. Boot and Thakor’s (1997) analysis shows
+that incomplete information about future projects and its relevance for firm valuation and investment
+decisions is best resolved in the financial market (suggesting direct funding). Moral hazard and asset
+substitution related informational distortions suggest a distinct role for bank lending.
+9 See Simon (1936).
+
+14
+
+ARNOUD W. A. BOOT
+
+a mutual commitment based on trust and respect. This may allow implicit—
+nonenforceable—long-term contracting with a bank in circumstances in which
+information asymmetries and the noncontractability of various pieces of information would rule out long-term access to alternative capital market funding sources
+as well as explicit long-term commitments by banks.10 Therefore, both the bank
+and the borrower may realize that their relationship produces value unattainable
+through other means and thus should be fostered.11
+Another contractual benefit of relationship banking is directly related to the
+structure of the explicit contracts that banks can write. Bank loan contracts include extensive covenants to guide the bank–borrower relationship. Covenants
+help control potential conflicts of interest and reduce agency costs. In analyzing the effectiveness of covenants, we should take into account that bank loans
+are generally easier to renegotiate than bond issues or other public capital market funding vehicles (Berlin and Mester, 1992; Dennis and Mullineaux, 1999).
+This may, somewhat paradoxically, increase the effectiveness of covenants; very
+stringent and detailed covenants can be included because renegotiation is possible in the future if the arrival of new information makes the covenants suboptimal. Of course, how the covenants are renegotiated depends on the bargaining
+position of the bank vis-à-vis the borrower, which in turn may depend on the seniority of bank debt. In reality, bank loans are often senior to other debt.12 With
+seniority, a bank is likely to become less willing to renegotiate in a way that requires it to relinquish a portion of its claim. The reason is that the more senior
+the bank’s claim is, the less sensitive its value will be to the total value of the
+firm. This will weaken the bank’s incentive to give in to a reduction in the size
+of its claim in the hope of increasing its value through an increase in total firm
+value.
+The next contractual issue is that bank loan contracts can easily accommodate
+collateral requirements. An extensive theoretical literature shows that collateral can
+mitigate moral hazard and adverse selection problems in loan contracting (see Chan
+and Thakor (1987) and Stiglitz and Weiss (1981)).13 However, collateral is likely to
+be effective only if its value can be monitored (see Rajan and Winton (1995)). The
+
+10 Von Thadden (1995)—see the discussion in Section 4—constructs a model where the lender has
+an optimal degree of limited bargaining power that facilitates discretionary long-term bank lending.
+11 Mayer (1988) and Hellwig (1991) discuss the commitment nature of bank funding. Boot et al.
+(1991) address the credibility of commitments. Schmeits (1999) formally considers the impact of
+discretion (flexibility) in bank loan contracts on investment efficiency.
+12 Diamond (1993), Berglöf and Von Thadden (1993), and Gorton and Kahn (1993) address the
+priority structure.
+13 In effect, with posting collateral, the borrower makes himself vulnerable if a bad state occurs;
+that is, he would then have to forfeit the collateral. This makes collateral effective in combatting moral
+hazard and adverse selection problems. Boot and Thakor (1994) analyze the use of collateral in longterm contracts. Berger and Udell (1990) found that secured loans are riskier than unsecured loans, even
+after taking account of the value of the collateral, suggesting that these loans are to risky borrowers,
+which more often need relationships to get bank credit.
+
+RELATIONSHIP BANKING
+
+15
+
+monitoring of pledged collateral may crucially depend on the proximity between
+bank and borrower that comes with relationship banking.14
+The final contractual issue is that relationship banking could accommodate an
+intertemporal smoothing of contract terms, including losses for the bank in the
+short term that are recouped later in the relationship. Petersen and Rajan (1995)
+show that credit subsidies to young or de novo corporations may reduce the moral
+hazard problems and information frictions that banks face in lending to such borrowers. However, subsidies impose losses on the bank. Banks may nevertheless
+provide funding if they can expect to offset these losses through the long-term rents
+generated by these borrowers. The point is that without access to subsidized credit
+early in their lives, de novo borrowers would pose such serious adverse selection
+and moral hazard problems that no bank would lend to them. Relationship lending
+makes such subsidies and accompanying loans feasible because the proprietary
+information generated during the relationship produces rents for the bank later in
+the relationship and permits the early losses to be offset. The importance of
+intertemporal transfers in loan pricing is also present in Berlin and Mester (1998).
+They show that rate-insensitive core deposits allow for intertemporal smoothing
+in lending rates. This suggests a complementarity between deposit taking and
+lending. Moreover, the loan commitment literature has also emphasized the importance of intertemporal tax-subsidy schemes in pricing to resolve moral hazard
+(see Boot et al. (1991)) as well as the complementarity between deposit taking and
+commitment lending (see Kashyap et al. (1999)).
+The arguments so far focus on distinct benefits coming from relationship lending,
+and may explain why bank loans and other private debt type arrangements play
+an important role in funding corporations. What has not been emphasized is the
+potential complementarity between bank loans and public debt funding sources.
+Diamond (1991) and Hoshi et al. (1993) develop arguments highlighting the
+complementarity of bank lending and capital market funding. Hoshi et al. (1993)
+show that bank lending exposes borrowers to monitoring, which may serve as a certification device that facilitates simultaneous capital market funding.15 Diamond
+(1991) shows that borrowers may want to borrow first from banks in order to establish sufficient credibility before accessing the capital markets. Again banks provide
+certification and monitoring. Once the borrower is “established,” it switches to
+capital market funding. In this explanation, there is a sequential complementarity
+between bank and capital market funding. In related theoretical work, Chemmanur
+and Fulghieri (1994) show that the quality of the bank is of critical importance
+for its certification role. This suggests a positive correlation between the value of
+relationship banking and the quality of the lender.
+14 A related benefit of collateral is that it may reveal valuable information to the bank over time. For
+example, a bank with inventories and accounts receivable as collateral may learn valuable information
+about the business.
+15 Empirical evidence provided by James (1987) and Slovin et al. (1988) support the certification
+role of banks; see also Section 5.2. Other evidence can be found in Houston and James (1996).
+
+16
+
+ARNOUD W. A. BOOT
+
+The overall conclusion is that relationship lending can pave the way for more
+informative credit contracting decisions based on a better exchange of information,
+and also increase the availability of credit to information-sensitive borrowers. But,
+as we discuss in the next section, relationship banking has its costs as well.
+4. WHAT ARE THE COSTS OF RELATIONSHIP BANKING?
+There are two primary costs of relationship banking: the soft-budget constraint
+problem and the hold-up problem. The soft-budget constraint problem has to do
+with the potential lack of toughness on the bank’s part in enforcing credit contracts
+that may come with relationship-banking proximity. The hold-up problem has to
+do with the information monopoly the bank generates in the course of lending, that
+may allow it to make loans at non-competitive terms in the future to the borrower.
+We will now discuss each of these problems, as well as potential solutions that
+have been proposed in the literature.
+Consider the soft-budget constraint problem first. The key question is whether a
+bank can credibly deny additional credit when problems arise. That is, a borrower
+on the verge of defaulting may approach the bank for more credit to forestall
+default. While a de novo lender would not lend to this borrower, a bank that has
+already loaned money may well decide to extend further credit in the hope of
+recovering its previous loan. The problem is that borrowers who realize that they
+can renegotiate their contracts ex post like this may have perverse incentives ex
+ante (Bolton and Scharfstein, 1996; Dewatripont and Maskin, 1995). That is, if
+renegotiation of a loan agreement is too easy, a borrower may exert insufficient
+effort in preventing a bad outcome from happening.16 Granting seniority to the bank
+may provide amelioration. If the bank’s debt claim is the most senior, it can more
+credibly intervene in the decision process of the borrower when it believes that its
+interests are in danger. Why? Consider the following example. Suppose the bank
+believes that the firm’s strategy is flawed, or that a restructuring is needed. Can the
+bank intervene? This is not obvious because the borrower can be convinced that the
+bank will not enforce its demands. For example, the bank could threaten to call the
+loan, but the borrower—anticipating adverse consequences not only for itself but
+also for the value of the bank’s claim—realizes that the bank may not want to carry
+out such a threat. This is because carrying out the threat adversely affects the value
+of the bank’s (risky) claim on the borrower; thus, subgame perfection is violated.
+However, when the bank has seniority, the senior claim can insulate the bank from
+these undesirable consequences, because the value of this claim is less sensitive to
+the firm’s total value and hence the bank’s action. It could now credibly threaten to
+call the loan, and this threat helps in imposing its wishes upon the borrower. This
+argument shows that seniority of bank debt may facilitate timely intervention.
+One could ask whether it is really necessary to give the bank this role. Why not allocate the task of timely intervention and the necessary seniority to bondholders?
+16 This
+
+issue is similar to the debate on the economics of bankruptcy law: should the law be debtororiented (soft) or creditor-oriented (tough)? See for example, Aghion et al. (1992).
+
+RELATIONSHIP BANKING
+
+17
+
+Observe that bondholders are subject to more severe information asymmetries
+because they are not specialized in screening and monitoring to the same extent as
+the bank and are generally more dispersed (i.e., have smaller stakes, which causes
+free-rider problems). Both characteristics make them ill-suited for an early intervention task. Bondholders may thus find it optimal to grant bank debt priority over
+their own claims, and in doing so, delegate the timely intervention activity to the
+bank.17 Consequently, the borrower may reduce its total funding cost by accessing
+both the bank-credit market and the financial market.18 This is another example of
+the complementarity between bank financing and capital market funding.
+The next issue is the hold-up problem, possibly another dark side of relationship
+banking. The proprietary information about borrowers that banks obtain as part
+of their relationships may give them an information monopoly. In this way, banks
+could charge (ex post) high loan interest rates (see Sharpe (1990) and Rajan (1992)).
+The threat of being “locked in,” or informationally captured by the bank, may make
+the borrower reluctant to borrow from the bank. Potentially valuable investment
+opportunities may then be lost. Alternatively, firms may opt for multiple bank
+relationships. This may reduce the information monopoly of any one bank, but
+possibly at a cost. Ongena and Smith (2000) show that multiple bank relationships
+indeed reduce the hold-up problem, but worsen the availability of credit. One
+explanation is that multiple relationships can reduce the value of information
+acquisition to any one individual bank (see Thakor (1996)) or cause too much
+competition ex post, which may discourage lending to “young” firms (see our
+discussion in Section 5.1).19
+In an ingenious contribution, Von Thadden (1995) shows that a potentially
+superior solution to the hold-up problem may exist. He shows that a long-term
+line of credit with a termination clause can balance the costs and benefits of the
+hold-up problem and the effects of ex post competition. More specifically, such
+a line of credit generally stipulates that the lender may terminate the lending
+relationship but, if it chooses to continue it, it should do so at prespecified terms.
+This combination of a termination clause—which generates the hold-up problem
+in the first place—and continuation only at prespecified terms gives the lender
+limited bargaining power. In this way, the severity of the hold-up problem can be
+optimally managed and multiple bank relationships may not be needed.
+17 The bondholders will obviously ask to be compensated for their subordinated status. This—
+ignoring the timely intervention effect—is “a wash.” In other words, the seniority or subordination
+features can be priced out. That is, as for as senior debt may appear cheaper (it is less risky), junior, or
+subordinated debt, will appear more expensive.
+18 Longhofer and Santos (2000) develop an alternative explanation for seniority of bank debt. In
+their framework, firms might need new funding but asset substitution problems might be rampant,
+particularly in financial distress states. Senior debt may help because the seniority gives banks a strong
+incentive to guard against risk taking. Also, in this explanation, there is a complementarity between
+bank lending and capital market funding: senior bank lending serves as a commitment device against
+risk taking.
+19 This could also help explain the increasing importance of venture capital. In general, venture
+capital involves mezzanine-type funding including an equity component. This equity-type component
+may help the financier in securing part of the ex post rents.
+
+18
+
+ARNOUD W. A. BOOT
+
+5. COMPETITIVE ISSUES AND EMPIRICAL EVIDENCE
+This section has a dual purpose. We first consider the effect of competition
+on relationship banking. Is this a threat for relationships or does it augment their
+importance? We will show that there are countervailing forces at work such that
+the impact of competition on relationship banking is ambiguous. Next, we focus
+on the empirical evidence. The key message is that existing empirical work has
+shown a distinct value added to relationship banking. However, this research falls
+short in differentiating between the various costs and benefits.
+5.1. Competitive Issues
+We have argued that relationships may facilitate a continuous flow of information
+between debtor and creditor that could guarantee uninterrupted access to funding.
+Some, however, believe that more competition threatens these relationships, while
+others have recently argued the exact opposite. The question then is: how does
+elevated interbank competition or more intense competition from the financial
+market affect relationship banking?
+Let us first consider the viewpoint that more competition means less relationship banking. The argument here is that with more competition borrowers might be
+tempted to switch to other banks or to the financial market. When banks anticipate
+a shorter expected lifespan of their relationships, they may respond by reducing
+their relationship-specific investments. More specifically, anticipated shorter relationships inhibit the reusability of information and thus diminish the value of
+information (Chan et al., 1986). Banks may then find it less worthwhile to acquire
+costly proprietary information, and relationships suffer. Interestingly, shorter or
+weaker relationships may then become a self-fulfilling prophecy.
+A complementary negative effect of competition on relationship banking may
+come from the impact of competition on the intertemporal pricing of loans. Increased credit market competition could impose constraints on the ability of borrowers and lenders to share surpluses intertemporally. In particular, it becomes
+more difficult for banks to “subsidize” borrowers in earlier periods in return for
+a share of the rents in the future. Thus, the funding role for banks that Petersen
+and Rajan (1995) see in the case of young corporations—see the discussion in
+Section 3—may no longer be sustainable in the face of sufficiently high competition. This indicates that excessive interbank competition ex post may discourage
+bank lending ex ante.20,21
+An alternative view is that competition may also elevate the importance of
+relationships as a distinct competitive edge. Pure price competition pressures bank
+20 Berlin and Mester’s (1998) analysis suggests that competition forces banks to pay market rates on
+deposits which may complicate the potentially value-enhancing smoothing of lending rates.
+21 An extensive empirical literature focuses on the effect of consolidation in the banking sector on
+small business lending. This consolidation may in part be a response to competitive pressures. The
+effects on small business lending are not clear-cut (see Berger et al. (1998)).
+
+RELATIONSHIP BANKING
+
+19
+
+profit margins. Boot and Thakor (2000) show that a relationship orientation can
+alleviate these competitive pressures because a relationship banking orientation
+can make a bank more unique relative to competitors. Thus, a more competitive
+environment may encourage banks to become more client-driven and customize
+services, thus focusing more on relationship banking.22
+What this discussion indicates is that the impact of competition on relationship
+banking is complex; several effects need to be disentangled. What seems to have
+emerged, though, is that greater interbank competition may very well elevate the
+value of relationship banking. Future research, however, needs to examine this in
+greater detail.
+5.2. Empirical Evidence
+The costs and benefits of relationship banking have been subjected to extensive
+empirical academic scrutiny.23 In the early work of James (1987) and Lummer
+and McConnell (1989), the focus was on the announcement effect of bank loan
+agreements on stock prices. In general, this literature shows that there is a positive
+announcement effect. This announcement effect strongly suggests that banks play
+a special role. The results of Lummer and McConnell (1989) show that the positive stock price reaction is driven by renewals. This suggests that banks acquire
+information over time and points at a benefit of relationship banking. Similarly,
+Slovin et al. (1988) show that the announcement of a commercial paper issue
+has a significantly positive stock price impact only if backed by a stand-by letter
+of credit from a bank. Further supporting evidence is provided by Billet et al.
+(1995). They show a positive correlation between the quality of the lender and
+the announcement effect. This evidence confirms the Chemmanur and Fulghieri
+(1994) result on the importance of lender quality for the certification of borrowers.
+Based on these studies we can conclude that bank involvement has a distinct added
+value.24,25
+22 Boot and Thakor (2000) distinguish generic (information-extensive) transaction lending by banks
+for relationship lending. Transaction lending is most similar to direct funding in the financial market.
+Boot and Thakor’s analysis attaches two dimensions to relationship lending: volume and intensity or
+quality. That is, banks can choose to offer more relationship loans (at the expense of transaction loans)
+but also have to decide on the intensity of their relationship loans. Intensity points at, for example,
+sector specialization: how much does a bank invest in specific knowledge of a firm or industry? The
+more the bank invests, the better it can fine-tune its services to the needs of its relationship borrowers.
+Boot and Thakor’s main finding is that competition induces banks to make more relationship loans at
+the expense of (generic) transaction loans. However, the quality (or intensity) of the relationship loans
+is lower when interbank competition heats up.
+23 More extensive reviews can be found in Ongena and Smith (1998) and Berger (1999).
+24 To be more precise, Billet et al. (1995) show that their results apply to lenders in general. Thus, no
+distinction can be made between banks and nonbanks. This emphasizes Carey et al.’s (1998) analysis,
+which shows that relationship lending is not the exclusive domain of banks.
+25 In related research Slovin et al. (1993) show—in the context of the Continental Illinois debacle in
+1984—that the financial well-being of the lender (bank) affects the stock market returns of borrowing
+firms.
+
+20
+
+ARNOUD W. A. BOOT
+
+While confirming the special status of relationship banking, these studies provide
+only a very rough test of the value of relationship banking. Basically, all that is
+shown is that the existence of a bank–borrower relationship increases firm value.
+The sources of value-added are not uncovered. Nevertheless, these studies are
+valuable, particularly because implicitly the focus in these studies was on larger
+firms for which the value of relationship banking is likely to be smaller (observe
+that only those firms have publicly listed shares and thus announcement effects).
+Following most theories, relationship banking is likely to be even more valuable
+for smaller firms.
+More recent empirical studies have tried to measure the strength of a bank–
+borrower relationship and used this to evaluate the link between the strength and
+the added value of relationship banking. In other words, does the value added
+by relationship banking increase with the duration of the relationship? Typically,
+strength is measured by the duration of the bank–lender relationship. Most of
+these studies consider small firms. This research has produced several interesting
+insights. First, the duration of the bank–borrower relationship positively affects the
+availability of credit (Petersen and Rajan, 1994; Berger and Udell, 1995). Second,
+contract terms generally improve for the borrower over the life of the relationship:
+interest rates and collateral requirements fall.26 These results are consistent with the
+idea that relationship banking lubricates value-enhancing exchange of information
+and that the longer the duration of the relationship, the greater the information
+exchange. Third, there is evidence of intertemporal smoothing of contract terms
+that could also contribute to the increased availability of funds to “young” firms
+(Petersen and Rajan, 1994, 1995).
+The improvement in contract terms over the relationship is possibly evidence
+against the hold-up problem, since this problem should worsen credit terms over
+time. This does not mean that the hold-up problem is absent, but rather that it is
+dominated by other factors. Interestingly, in the European context, Degryse and Van
+Cayseele (2000) find the opposite: contract terms deteriorate with longer duration
+of the relationship. Thus, their findings support the hold-up problem hypothesis,
+suggesting that the hold-up problem is more dominant in Europe. The literature
+on what could explain this difference between the U.S. and Europe is not conclusive, but there are conjectures. One explanation might be that the banking sector
+in Europe is more consolidated and fewer credit alternatives exist for borrowers
+(e.g., the financial markets are less developed).27 Kracaw and Zenner (1998) offer an alternative explanation: they show that “interlocking” directorships—quite
+prevalent in Europe—between banks and firms may intensify hold-up problems.
+Other empirical research has explicitly looked at resolutions to the hold-up
+problem. One solution is that firms opt for multiple bank relationships. Ongena
+26 These empirical results also follow as (testable) hypotheses from Boot and Thakor’s (1994) theoretical analysis.
+27 The evidence on the impact of relationship banking on the availability of credit is similar between
+the U.S. and Europe. In both cases, relationship banking increases the availability of credit.
+
+RELATIONSHIP BANKING
+
+21
+
+and Smith (2000) show that this may indeed reduce the hold-up problem, but
+can worsen the availability of credit. A plausible explanation is that the presence
+of multiple relationships reduces the value of information acquisition to any one
+individual bank; Thakor (1996) provides a formal theory along these lines. Alternatively, the presence of multiple lenders causes “too much” competition ex post
+that can discourage lending to young firms (Petersen and Rajan, 1994). Houston
+and James (1999), following Hoshi et al.’s (1990) work on cash flow constraints
+and investment, refine these arguments by focusing on the size of the anticipated
+funding needs. They show that the desirability of multiple bank relationships crucially depends on these funding needs. Their empirical evidence indicates that
+firms with a single bank are at a disadvantage (“cash flow constrained”) only when
+large funding needs are anticipated. In the case of more modest funding needs,
+single bank firms are less cash flow constrained than firms with multiple bank
+relations are.
+The discussion in this section gives substantial evidence in support of the hypothesis that relationship banking adds value. An important next step is to design
+empirical tests that can differentiate between the various costs and benefits.28 In
+particular, existing empirical work is virtually silent on identifying the precise
+sources of value in relationship banking. For example, while it is very plausible
+that banks acquire valuable information through relationships, and the empirical
+evidence is generally supportive of this, little is known about how banks obtain
+information, what type of information they acquire, and how they use this information.
+
+6. CONCLUSION
+Relationship banking has become an important area of scientific inquiry. This
+review has focused primarily on the theoretical contributions but has also added
+key empirical insights. The general conclusion is that relationship banking has a
+distinct role to play and can be a value-enhancing intermediation activity. Much
+more research is needed, however. Existing work falls short in that it has not
+measured the precise sources of the added value of relationship banking. In the
+increasingly competitive environment of banking, the differentiation of distinct
+costs and benefits (and the empirical verification of it) is crucial in order to predict
+the viability and scale of relationship banking in the future.
+Of great importance is also the effect of the restructuring in the financial services
+industry on the viability of relationship banking. How does bank consolidation affect relationship banking? The empirical research so far has focused on small
+business lending and finds that mergers and acquisitions involving at least one
+large bank reduce lending to small businesses, whereas mergers and acquisitions
+28 Empirical evidence on the scope of relationship banking is not reported here. See Berlin and
+Mester (1998) for evidence on synergy gains between deposit taking and lending.
+
+22
+
+ARNOUD W. A. BOOT
+
+between small financial institutions have a positive impact on small business lending (see Berger (1999)). We need to understand what explains these results. On an
+even more general level we would like to disentangle the advantages and disadvantages of bank-based systems (e.g., Germany) and market-based financial systems
+(the Anglo-Saxon countries).29 The focus of this review on understanding the costs
+and benefits of relationship banking is undoubtedly helpful for this evaluation. But
+the relative importance of the various costs and benefits of relationship banking
+may differ between bank-based and market-based systems. For example, the empirical evidence presented in Section 5.2 points at potentially more severe hold-up
+problems in banking in Europe than in the US.
+These advances are promising, but cannot hide the fact that even at a fairly basic
+level, we are just beginning to learn about the real benefits of bank-customer relationships. Substantial ambiguity remains. As one banker recently put it: “you may
+think that you have a relationship, but the customer may consider it an annoying
+sequence of transactions.”
+REFERENCES
+Aghion, P., Hart, O., and Moore, J. (1992). The economics of bankruptcy reform, J. Law Econ. Organization 8, 523–546.
+Allen, F. (1990). The market for information and the origin of financial intermediation, J. Finan.
+Intermed. 1, 3–30.
+Allen, F. (1993). Stock Markets and Resource Allocation, in “Capital Markets and Financial Intermediation” (C. Mayer and X. Vives, Eds.), Cambridge Univ. Press, Cambridge, UK.
+Allen, F., and Gale, D. (1995). A welfare comparison of intermediaries and financial markets in Germany
+and the US, Eur. Econo. Rev. 39, 179–209.
+Benston, G., and Smith, C. W. (1976). A transactions cost approach to the theory of financial intermediation, J. Finan. Econ. 31, 215–231.
+Berger, A. (1999). The ‘Big Picture’ of relationship finance, in “Business Access to Capital and Credit”
+(J. L. Blanton, A. Williams, and S. L. Rhine, Eds.), pp. 390–400. A Federal Reserve System Research
+Conference.
+Berger, A., Saunders, A., Scalise, J. M., and G. F. Udell (1998). The effects of bank mergers and
+acquisitions on small business lending, J. Finan. Econ. 50, 187–230.
+Berger, A., and Udell, G. F. (1990). Collateral, loan quality, and bank risk, J. Monet. Econ. 25, 21–42.
+Berger, A., and Udell, G. F. (1995). Relationship lending and lines of credit in small firm finance, J.
+Business 68, 351–381.
+Berglöf, E., and von Thadden, E. L. (1994). Short-term versus long-term interests: Capital structure
+with multiple investors, Quart. J. Econ. 109, 1055–1084.
+Berlin, M. (1996). For better and for worse: Three lending relationships, Business Rev. Fed. Res. Bank
+Philadelphia, December, 3–12.
+Berlin, M., and Mester, L. (1992). Debt covenants and renegotiation, J. Finan. Intermed. 2, 95–133.
+29 An interesting literature on comparative financial systems is emerging. A question asked in this
+literature is whether bank-based systems will converge to market-based arrangements. See for example
+Allen and Gale (1995), Dewatripont and Maskin (1995), and Allen (1993).
+
+RELATIONSHIP BANKING
+
+23
+
+Berlin, M., and Mester, L. (1998). “Deposits and Relationship Lending,” Working Paper, Federal
+Reserve Bank of Philadelphia.
+Bhattacharaya, S., and Chiesa, G. (1995). Proprietary information, financial intermediation, and research incentives, J. Finan. Intermed. 4, 328–357.
+Bhattacharaya, S., and Thakor, A. V. (1993). Contemporary banking theory, J. Finan. Intermed. 3,
+2–50.
+Billet, M. T., Flannery, M. J., and Garfinkel, J. A. (1995). The effect of lender identity on a borrowing
+firm’s equity return, J. Finance 50, 699–718.
+Bolton, P., and Scharfstein, D. S. (1996). Optimal debt structure and the number of creditors, J. Polit.
+Econ. 104, 1–25.
+Boot, A. W. A., Greenbaum, S. I., and Thakor, A. V. (1993). Reputation and discretion in financial
+contracting, Amer. Econ. Rev. 83, 1165–1183.
+Boot, A. W. A., and Thakor, A. V. (1994). Moral hazard and secured lending in an infinitely repeated
+credit market game, Int. Econ. Rev. 35, 899–920.
+Boot, A. W. A., and Thakor, A. V. (1997), Financial system architecture, Rev. Finan. Stud. 10, 693–733.
+Boot, A. W. A., and Thakor, A. V. (2000). Can relationship banking survive competition? J. Finance
+55, forthcoming.
+Boot, A. W. A., Thakor, A. V., and Udell, G. F. (1991). Credible commitments, contract enforcement
+problems and banks: Intermediation as credibility assurance, J. Banking Finance 15, 605–632.
+Boyd, J. H., and Gertler, A. V. (1994). “Are Banks Dead, or Are the Reports Greatly Exaggerated?”
+Working Paper, Federal Reserve Bank of Minneapolis.
+Bryan, L. (1988). “Breaking Up the Bank: Rethinking an Industry under Siege,” Dow Jones–Irwin,
+Homewood, Illinois.
+Carey, M., Post, M., and Sharpe, S. A. (1998). Does corporate lending by banks and finance companies
+differ? Evidence on specialization in private debt contracting, J. Finance 53, 845–878.
+Carey, M., Prowse, S., Rea, J., and Udell, G. F. (1993). The economics of private placements: A new
+look, Finan. Markets Institutions Instruments 2, 1–67.
+Chan, Y., Greenbaum, S. I., and Thakor, A. V. (1986). Information reusability, competition and bank
+asset quality, J. Banking Finance 10, 255–276.
+Chan, Y., and Thakor, A. V. (1987). Collateral and competitive equilibria with moral hazard and private
+information, J. Finance 42, 345–363.
+Chemmanur, T. J., and Fulghieri, P. (1994). Reputation, renegotiation and the choice between bank
+loans and publicly traded debt, Rev. Finan. Stud. 7, 475–506.
+Degryse, H., and van Cayseele, P. (2000). Relationship lending within a bank-based system: Evidence
+from European small business data, J. Finan. Intermed. 9, 90–109.
+Dennis, S. A., and Mullineaux, D. J. (1999). “Syndicated Loans,” Working Paper, University of Kentucky.
+Dewatripont, M., and Maskin, E. (1995). Credit and efficiency in centralized and decentralized
+economies, Rev. Econ. Stud. 62, 541–555.
+Diamond, D. (1984). Financial intermediation and delegated monitoring, Rev. Econ. Stud. 51, 393–414.
+Diamond, D. (1991). Monitoring and reputation: The choice between bank loans and privately placed
+debt, J. Polit. Econ. 99, 689–721.
+Diamond, D. (1993). Seniority and maturity of debt contracts, J. Finan. Econ. 33, 341–368.
+Diamond, D. W., and Dybvig, P. (1983). Bank runs, deposit insurance, and liquidity, J. Polit. Econ. 91,
+401–419.
+Fenn, G. W., Liang, N., and Prowse, S. (1997). The private equity market: An overview, Finan. Markets,
+Institutions Instruments 6, 1–90.
+
+24
+
+ARNOUD W. A. BOOT
+
+Gompers, P., and Lerner, L. (2000). Venture capital, in “Handbook of Modern Finance” (D. Logue,
+Ed.).
+Gorton, G., and Kahn, J. (1993). “The design of bank loan contracts, collateral, and renegotiation,”
+NBER Working Paper 4273.
+Greenbaum, S. I., and Thakor, A. V. (1995). “Contemporary Financial Intermediation,” Dryden Press,
+New York.
+Grossman, S., and Hart, O. (1980). Takeover bids, the free-rider problem, and the theory of the corporation, Bell J. Econ. 11, 42–64.
+Hellwig, M. (1991). Banking, financial intermediation and corporate finance, in “European Financial
+Integration” (A. Giovanni and C. Mayer, Eds.), pp. 35–63. Cambridge Univ. Press, London.
+Hoshi, T., Kashyap, A., and Scharfstein, D. (1990). The role of banks in reducing the costs of financial
+distress in Japan, J. Finan. Econ. 27, 67–88.
+Hoshi, T., Kashyap, A., and Scharfstein, D. (1993). “The Choice between Public and Private Debt: An
+Analysis of Post-deregulation Corporate Financing in Japan,” NBER Working Paper, 4421.
+Houston, J., and James, C. M., (1996). Bank information monopolies and the mix of private and public
+debt choices, J. Finance 51, 1863–1889.
+Houston, J., and James, C. M. (1999). “Do Relationships Have Limits? Banking Relationships, Financial
+Constraints and Investment,” Working Paper, University of Florida.
+James, C. (1987). Some evidence on the uniqueness of bank loans, J. Finan. Econ. 19, 217–235.
+Kashyap, A., Rajan, R., and Stein, J. (1999). “Banks as liquidity providers: An explanation for the
+Co-existence of Lending and Deposit-Taking,” Working Paper, University of Chicago.
+Kracaw, W. A., and Zenner, M. (1998). “Bankers in the Boardroom: Good News or Bad News?”
+Working Paper, University of North Carolina.
+Longhofer, S. D., and Santos, J. A. C. (2000). The importance of bank seniority for relationship lending,
+J. Finan. Intermed. 9, 57–89.
+Lummer, S., and McConnell, J. (1989). Further evidence on the bank lending process and the reaction
+of the capital market to bank loan agreements, J. Finan. Econ. 25, 99–122.
+Mayer, C. (1988). New issues in corporate finance, Eur. Econ. Rev. 32, 1167–1183.
+Ongena, S., and Smith, D. C. (1998). “Bank Relationships: A Review,” Working Paper, University of
+Florida.
+Ongena, S., and Smith, D. C. (2000). What determines the number of bank relationships? Cross-country
+evidence, J. Finan. Intermed. 9, 26–56.
+Petersen, M. and Rajan, R. (1994). The benefits of lending relationships: Evidence from small business
+data, J. Finance 49, 1367–1400.
+Petersen, M., and Rajan, R. (1995). The effect of credit market competition on lending relationships,
+Quart. J. Econ. 110, 406–443.
+Rajan, R. (1992). Insiders and outsiders: The choice between relationship and arms length debt, J.
+Finance 47, 1367–1400.
+Rajan, R. and Winton, A. (1995). Covenants and collateral as incentives to monitor, J. Finance 50,
+1113–1146.
+Ramakrishnan, R. T. S., and Thakor, A. V. (1984). Information reliability and a theory of financial
+intermediation, Rev. Econ. Stud. 51, 415–432.
+Schmeits, A. (1999). “Discretion in Bank Contracts and the Firm’s Funding Source Choice between
+Bank and Financial Market Financing,” Working Paper, Washington University.
+Sharpe, S. (1990). Asymmetric information, bank lending and implicit contracts: A stylized model of
+customer relationships, J. Finance 45, 1069–1087.
+Simon, H. C. (1936). Rules versus authorities in monetary policy, J. Polit. Econ. 44, 1–30.
+
+RELATIONSHIP BANKING
+
+25
+
+Slovin, M. B., Sushka, M. E., and Hudson, C. D. (1988). Corporate commercial paper, note issuance
+facilities, and shareholder wealth, J. Int. Money Finance 7, 289–302.
+Slovin, M. B., Sushka, M. E., and Polonchek, J. A . (1993). The value of bank durability: Borrowers
+as bank stakeholders, J. Finance 48, 289–302.
+Stiglitz, J. E., and Weiss, A. (1981). Credit rationing in markets with imperfect information, Amer.
+Econ. Rev. 71, 393–410.
+Thakor, A. (1996). Capital requirements, monetary policy and aggregate bank lending: Theory and
+empirical evidence, J. Finance 51, 279–324.
+Von Thadden, E. L. (1995). Long-term contracts, short-term investment and monitoring, Rev. Econ.
+Stud. 62, 557–575.
+Winton, A. (1995). Delegated monitoring and bank structure in a finite economy, J. Finan. Intermed.
+4, 158–187.
+Yosha, O. (1995). Information disclosure costs and the choice of financing source, J. Finan. Intermed.
+4, 3–20.
+
+

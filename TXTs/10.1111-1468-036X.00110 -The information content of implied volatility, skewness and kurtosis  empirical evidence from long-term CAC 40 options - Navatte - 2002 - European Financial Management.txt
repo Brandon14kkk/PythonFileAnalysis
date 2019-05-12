@@ -1,0 +1,1304 @@
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+European Financial Management, Vol. 6, No. 1, 2000, 41± 56
+
+The information content of implied
+volatility, skewness and kurtosis:
+empirical evidence from long-term CAC
+40 options
+Patrick Navatte and Christophe Villa
+Department of Finance, University of Rennes I, Institut de Gestion de Rennes ± CREREG,
+11 rue Jean Mace,Â BP 1997, 35019 Rennes Cedex, France
+e-mail: patrick.navatte@univ-rennes1.fr
+e-mail: christophe.villa@univ-rennes1.fr
+
+Abstract
+Implied standard deviation is widely believed to be the best available forecast of the
+volatility of returns over the remaining contract life (Jorion, 1995). In this paper,
+we take this result two steps further to the higher moments of the distribution
+(skewness and kurtosis) based on a Gram ± Charlier series expansion of the normal
+distribution (Corrado and Su, 1996) using long-term CAC 40 option prices
+contract, named PXL. First, we found that implied first moments contain a
+substantial amount of information for future moments of CAC 40 returns although
+this amount decreases with respect to the moment's order. Secondly, we found that
+the different shapes of the volatility smile are consistent with different distribution of
+the underlying returns. Based on these results, we also observed that including other
+implied moments significantly improves the out-of-sample pricing performance of
+the Black ±Scholes, (1973) model.
+Keywords: implied density function; smile; volatility; skewness; kurtosis.
+JEL classification: C14, C52, G12, G13, G14.
+
+1. Introduction
+Volatility has already been the subject of extensive studies, including, the work on the
+implied volatility in option prices (Beckers, 1981; Day and Lewis 1992; Canina and
+Figlewski, 1993; Jorion, 1995; Bates, 1996a). Concerning the third and fourth
+
+Thanks are due to the editors and reviewers for helpful comments. We are also grateful to
+Christian Gourieroux, Kevin Chang and all the participants at the 16th international conference
+of the French Finance Association, Lille, 1998.
+# Blackwell Publishers Ltd 2000, 108 Cowley Road, Oxford OX4 1JF, UK and 350 Main Street, Malden, MA 02148, USA.
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+42
+
+P. Navatte and C. Villa
+
+moments (skewness and kurtosis respectively) only a few recent studies have been
+made (see Jackwerth and Rubinstein, 1996; Corrado and Su, 1996; Campa, Chang
+and Reider, 1997, for example). In this paper, we investigate how implied volatility,
+skewness and kurtosis together change magnitude over time. We then test the
+informational content of these three implied moments.
+The skewness and kurtosis in expected index returns have been recently documented
+for the American stock market by Jackwerth and Rubinstein (1996) and Corrado and
+Su (1996) using S&P 500 options traded on the Chicago Board Options Exchange. For
+this index, negative skewness and excess of kurtosis were observed in the probability
+density function. Since first documented in the 1987 stock market crash they reflect
+either a higher probability attached to a future crash, or a higher valuation of returns
+in the event of a crash.
+Only a few studies have been done in a European stock market; thus, the empirical
+research in this paper has been done using a database that contains reported trades
+and quotes covering call and put long-term CAC 40 option prices contract, named
+PXL, traded on the MONEP (MarcheÂ des Options NeÂgociables de Paris). This market
+(which opened in September 1987) has been quoting prices for an increasing number
+of contracts and offering investors a deeper degree of liquidity. The daily study period
+extends from 1 January 1995 through 31 May 1997.
+First, we tested the informational content of implied moments on future moments
+of CAC 40 returns. While Jorion pointed out that measures of volatility implied in
+option prices were the best available volatility forecasts, these results in fact appear to
+be in sharp contrast to those of Canina and Figlewski (1993). Following their
+methodology we tested if the implied volatility, skewness and kurtosis together
+contain substantial information for future moments of CAC 40 returns over the
+remaining contract life.
+Second, we studied the informational content of implied distribution on future
+implied moments of CAC 40 returns. In addition to the obvious reasons, a common
+motivation for implied parameters is the abundant empirical evidence that the
+benchmark Black and Scholes (1973) formula exhibits strong pricing biases across
+moneyness (i.e. the smile) and that it especially underprices out-of-the-money puts and
+calls (see Bates, 1996). Such evidence is clearly indicative of implicit stock return
+distributions that are negatively skewed with higher kurtosis than allowable in a Black
+and Scholes (1973) distribution. Guided by this evidence, the search for alternative
+models has focused mostly on finding the right distributional assumption. We find, for
+instance, that different shapes of the volatility smile are consistent with different
+distributions of the underlying returns. We also test if including other moments
+significantly improve the out-of-sample pricing performance of the Black and Scholes
+(1973) model.
+Concerning methodologies to extract the entire risk neutral probability density
+function, Campa et al. (1997) pointed out: `despite their methodological differences, the
+approaches lead to a similar probability density function clearly distinct from the
+lognormal benchmark, and typically characterized by skewness and kurtosis'. Moreover,
+in a more general setting Jondeau and Rockinger (1998) noticed some homogeneity of
+the implied risk neutral density derived by different approaches. Following these results,
+we concentrate, in this paper, on a semi-parametric methodology derived by Corrado
+and Su (1996) analogous to that of Jarrow and Rudd (1982).
+The rest of the paper is organized as follows: section 2 reviews the methodology of
+Corrado and Su (1996) on recovering the implied probability density function by a
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+
+43
+
+Gram-Charlier series expansion. Section 3 is devoted to the selection of PXL option
+prices data and takes into account some of the French market particularities, like
+dividend payment and settlement procedures. Section 4 investigates the informational
+content of implied moments on future moments of CAC 40 returns. Section 5 analyses
+the relationship between some of the first moments of the distribution and the
+volatility `smile' and studies the out-of-sample pricing performance of the Black and
+Scholes (1973) model and the Gram ±Charlier series expansion.
+2. Gram ± Charlier series expansion framework
+Placing the emphasis on structure of the terminal distribution rather than using a
+stochastic process implies costs and benefits. With regard to costs, the recovered
+distribution is independent of the evolution of the asset price prior to expiration.
+This means that the technique will provide no guidance for constructing dynamic
+hedges or replicating strategies for the option. In addition, the technique does not
+allow the time series properties of the underlying asset to be used in ex post
+evaluation of the model. The benefits of this technique arise from its flexibility,
+generality, and directness. A reasonably flexible functional form for the terminal
+distribution, such as the one used here, can easily accommodate a wide variety of
+shapes for terminal distribution. Working with equally flexible processes can be
+quite difficult. More importantly, starting with the terminal distribution is a more
+general approach since a given terminal distribution encompasses many stochastic
+processes, where a given process is consistent with only one terminal distribution.
+This technique allows the option data to directly infer some information concerning
+the shape of the distribution rather than forcing it to pass through the potentially
+distortionary filter of a misspecified process. By using exchange option prices to
+extract the entire risk neutral probability density function Campa et al. (1997)
+compare three alternative smoothing methods Ð cubic splines, an implied binomial
+tree and a mixture of lognormals Ð for transforming option data into the probability
+density function. As they point out: `despite their methodological differences, the
+three approaches lead to a similar probability density function clearly distinct from
+the lognormal benchmark, and typically characterized by skewness and kurtosis'.
+Further, Jondeau and Rockinger (1998) obtain approximately the same results using
+different approaches involving non-parametric (Breeden and Litzenberger, 1978),
+semi-parametric (Madan and Milne (1994) using Hermite Polynomials, Jarrow and
+Rudd (1982) using Edgeworth expansion), parametric ones like Jump Poisson
+processes (Bates, 1996) and stochastic volatility (Heston, 1993). More precisely they
+noticed some homogeneity of the implied risk neutral density derived by these
+techniques. Based on these results in this paper we concentrate on a semi-parametric
+methodology, analogous to that of Jarrow and Rudd (1982) derived by Corrado and
+Su (1996). The main difference is that they used a Gram ± Charlier series expansion
+of the normal probability density function instead of an Edgeworth expansion of the
+lognormal probability density function.
+As recalled by Corrado and Su (1996) a Gram ±Charlier series expansion of the
+density function f (x) can be defined as follows:
+f(x) 
+
+1
+X
+n0
+
+# Blackwell Publishers Ltd, 2000
+
+cn Hn (x)' (x)
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+44
+
+P. Navatte and C. Villa
+
+where ' (x) is a normal density function, Hn (x) are Hermite polynomials derived from
+successively higher derivatives of ' (x), cn are determined by moments of the
+distribution function.
+Let z be the standardized value of ln ST:
+z
+
+ln ST ÿ m
+s
+
+where m and s are the conditional mean and standard deviation of the logarithm of
+terminal asset price implied by the risk neutral pricing measure:
+m  ln St  (r ÿ 12 2 )
+p
+s 
+Corrado and Su (1996) truncated the density beyond the fourth moment after
+standardizing to a mean zero and unit variance and gave the density function in the
+following form: 1
+2
+3
+Sk 3
+Ku 4
+(z ÿ 3z) 
+(z ÿ 6z 2  3) 5
+f(z)  ' (z) 4 1 
+3!
+4!
+where Sk and Ku are coefficients related to the higher moments of ln ST. With the risk
+neutral density specified, the risk neutral valuation operator can be used to express the
+price of a European call option with strike price K:
+ 1
+max (0; e m  sz ÿ K )f(z)dz
+C  e ÿr
+ÿ1
+
+Corrado and Su (1996) then evaluate this integral, and obtained the following call
+price formula:
+p
+C  S[ (d ) ÿ e ÿx  (d ÿ   )]
+
+
+
+
+Sk
+3!
+Ku
+4!
+
+p
+p
+S  [(2  ÿ d )' (d) ÿ  2  (d )]
+
+(1)
+
+p
+p
+p
+S  [(d 2 ÿ 1 ÿ 3  (d ÿ   ))' (d ) ÿ  3  3=2  (d )]
+
+where  (x) is the normal standard cumulative distribution,
+x
+1 p
+d  p   
+  2
+and x  ln (S=Ke ÿr ) (x is the indicator of the moneyness of an option). Moreover,
+from the parity relationship, the put price is thus given by C ÿ S  Ke ÿr .
+1
+
+As the distribution is truncated after the fourth moment it may induce some estimation biases
+in the distribution tails. However, taking into account this fact we do not consider in the
+empirical study deep in and deep out options.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+
+45
+
+Equation (1) expresses the call price as Black-Scholes formula plus two terms
+involving the skewness (Sk) and kurtosis (Ku) of the logarithm of the underlying asset
+price.
+3. Data and methodology
+With respect to CAC 40 index options, we must distinguish between short maturity
+contracts, PX1 with an American feature and long maturity contracts, PXL designed
+like a European option. The former has been quoted since November 1988 and the
+latter since October 1991. For PX1 the longest maturity is 6 months, whereas that for
+PXL is 2 years with fixed expiration in March and September.
+3.1. Data
+Based on the following considerations, we use PXL option prices for our empirical
+work. First, options written on this index are the most actively traded long-term
+European-style contracts. Second, data on the daily dividend distributions are
+available for the index (from the MONEP-SBF CD-ROM). The sample period
+extends from 1 January 1995 through 31 May 1997. Therefore, the data set includes
+option prices for 600 trading days. The daily closing quotes for the PXL call and put
+options 2 are obtained from the MONEP-SBF CD-ROM. The recorded CAC 40 index
+values are the daily closing index levels.
+The interest rate was assumed to be the yield to maturity on a zero coupon bond
+maturing as close as possible to the option expiration date. Nevertheless, Rubinstein
+(1985) said `Compared to the other variables estimated, small measurement errors in
+interest rates should have little effect on computed implied volatility'. Moreover,
+Lauterbach and Schultz (1990) pointed out for the pricing of warrants: `... we find
+little evidence of a relation between model pricing errors and interest rates'. Interest
+rate data used in this paper has been obtained from Datastream. Interest rates for 1, 3,
+6 and 12 month Pibor rate and a 2 year rate provided by the Datastream database are
+utilized. The 1-month rate is used in the model for options with maturities less than 1
+month to expiration. Interest rates for options with maturities between 1 month and 2
+years are obtained by interpolating rates of notes with both just longer and shorter
+maturities. For example, if an option expires in 4 months, the interest rate used to
+price the option is obtained by adding 2=3 times the rate on a 3 month note and 1=3
+times the rate on 6 month notes.
+The CAC 40 Index is computed from a sample of 40 French stocks traded on the
+ReÂglement Mensuel (RM) market. In order to take into account the slightly forward
+feature of the CAC 40 index, we need to introduce Ln  1 which represents the
+settlement date just after the expiration date, T, and L1 denotes the settlement date
+just after the present date, t. Let f(It, K, , r) be the option price at time t, with an
+underlying asset price equal to I, an exercise price K, and an expiration date T. We
+also define:
+ST  IT exp ÿ r LT n  1 (Ln  1 ÿ T )
+2
+
+Rubinstein pointed out that, by using call and put option prices, the possible effects of
+mismeasurement in the riskless rate can be mitigated (c.f. Fleming, Ostdiek and Whaley (1995)
+p. 270).
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+46
+
+P. Navatte and C. Villa
+
+where IT is the CAC 40 index value at time T, r LT n  1 denotes the annualised implicit
+forward interest rate for the period running from the expiration date, T, to the next
+settlement date Ln  1. The European call option price at expiration can be rewritten:
+max(IT ÿ K, 0)  max(ST exp (r LT n  1 (Ln  1 ÿ T )) ÿ K, 0)
+ exp (r LT n  1 (Ln  1 ÿ T ))max(ST ÿ K , 0).
+0
+
+With K  K exp ÿ r LT n  1 (Ln  1 ÿ T ), the option price becomes in this case:
+
+
+0
+exp (r LTn  1 (Ln  1 ÿ T )) f St ; K ; ; r Tt
+0
+
+The actual value of S is given by:
+St  It exp ÿr LT 1 (Ln ÿ t )
+where r Lt 1 denotes the annualized implicit forward interest rate for the period running
+from the present date, t, to the next settlement date L1. Finally, we obtain:
+exp (r LTn  1 (Ln  1 ÿ T )) f (It exp (ÿ r Lt 1 (Lt ÿ t)); K ; ; r Ti )
+0
+
+where K  K exp ÿ r LT n  1 (Ln  1 ÿ T ). As Ln  1 ÿ T Å 1 month and L1 ÿ t Å 1 month,
+we consider that r LT n  1  r Lt 1  r1 where r1 is the one month interest rate. The option
+price reduces to:
+0
+
+f(It exp rt (q ÿ 1)(T ÿ t), K, , r)
+where
+q
+
+Ln  1 ÿ L1
+
+
+:
+
+For European options, we must take into account the distribution of dividends. For
+each option contract with  periods to the expiration date from time t, we first obtain
+the present value of the daily dividends D(t), PV(D(t, )), by computing:
+PV(D(t; )) 
+
+X
+ÿt
+
+e ÿR(t; s)s D(t  s)
+
+s1
+
+where R(t, s) is the s-period yield to maturity. In the next step, we subtract the present
+value of future dividends from the time-t index level, in order to obtain the adjusted
+dividend for CAC 40 index series that will be used as input into the option models.
+This procedure is repeated for all option maturities and for each day in our sample. In
+order to take into account the time patterns of the dividend distributions concerning
+the 40 stocks of the CAC 40 index, MONEP-SA has decided to consider only eight exdividend dates per year. The dates are 15 January, 15 April, 15 May, 9 and 25 June, 2,
+15 and 31 July. Our empirical study takes into account the span of time of these eight
+dividend dates per year. Nevertheless, we have replaced the last one by the first of
+December, as shown in Figure 1.
+Several exclusion filters have been applied to construct the option price data. First,
+as options with less than 3 months and more than 9 months to expiration may induce
+liquidity related biases, they are excluded from the sample. Therefore, on a given day
+we have only one option maturity class because there are only two expiration dates per
+year (in March and September of each year). On the first of January and the first of
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Dividends (in index points)
+
+Implied Volatility, Skewness and Kurtosis
+
+47
+
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52
+week
+Fig. 1. Weekly CAC 40 index dividends for 1996.
+
+July of each year we consider the next class of options since we omit any option to
+having a maturity date of less than 3 months. Second, to mitigate the impact of price
+discreteness on option valuation, price quotes lower than one index point are not
+included. Third, to lower the bias associated with non-synchronous trading, option
+quotations with daily volume of less than 10 contracts and=or contracts for which the
+absolute value of the moneyness exceeds 20% are eliminated from the sample. Finally,
+we eliminate from the sample any set of option prices that violate one of Merton's
+(1973) distribution-free bounds. In particular, we have eliminated sets that violate the
+upper or lower boundary conditions, the convexity relation, or the restriction on the
+difference between option prices divided by the difference in their strike prices. These
+filters ensure that there are no static arbitrage opportunities in the data set. Moreover,
+if the number of option prices available on a given day is less than three; then the
+corresponding day is excluded. The resulting data set includes option prices for 585
+days during the sample period. In total, 4, 041 daily price observations meet our
+inclusion criteria (Table 1). The number of call and put prices available on a given day
+ranges from 3 to 13, with a median of 7.
+Table 1
+Summary statistics for the PXL options included in the sample.
+Closing
+Implied Number of days Moneyness
+Closing
+Number of
+option price volatility days to expiration
+index value options per day
+Mean
+Median
+Std. dev.
+Minimum
+Maximum
+
+77.3209
+52
+77.6040
+1
+504
+
+# Blackwell Publishers Ltd, 2000
+
+0.1789
+0.1794
+0.0244
+0.0907
+0.3432
+
+181.1156
+182
+50.1299
+90
+270
+
+ÿ0.0547
+ÿ0.0605
+0.0854
+ÿ0.1999
+0.1998
+
+2075.0306
+1984.44
+259.3740
+1721.14
+2786.35
+
+6.8932
+7
+1.5746
+3
+13
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+48
+
+P. Navatte and C. Villa
+
+3.2. Methodology
+Our first set of estimation procedures leads us to estimate implied volatility on a daily
+basis for call and put long-term options on the French CAC 40 index. On a given day
+for the given option maturity class between 3 and 9 months, we obtain a unique
+implied volatility from all prices using as Whaley (1982) did a simultaneous equations
+procedure by minimizing the following sum of squares with respect to the previous
+argument:
+N 
+X
+
+^ i  I    
+Oi ÿ O
+
+2
+
+(2)
+
+i1
+
+In equation (2), N is the total number of price quotations available on a given day
+(the number of strike prices) with expiration , Oi is the quoted price of option i with
+expiration , OÃi (I ()) denote the theoretical Black and Scholes price of option i
+having time to expiration , given an estimate for the volatility of the returns on the
+index over the time to expiration, I ().
+Our second set of estimation procedures estimate implied volatility, skewness, and
+kurtosis parameters simultaneously using all prices on a given day for a given maturity
+class, by minimizing the following sum of squares with respect to the previous
+arguments:
+N 
+X
+
+^i  I   ; SkI   ; KuI    
+Oi ÿ O
+
+2
+
+(3)
+
+i1
+
+In equation (3), OÃi (I ( ), SkI (), KuI ()) denotes the theoretical Gram ± Charlier
+series expansion price of option i having time to expiration , given an estimate for the
+volatility, I (), the skewness, SkI ( ) and the kurtosis, KuI (), of the returns on the
+index over the time to expiration.
+We analyse the time patterns of implied probability distributions by calculating the
+skewness and kurtosis for each day. We can see from Table 2 and Figure 2 that on
+average the kurtosis is greater than three. This indicates that the market participants'
+
+Table 2
+Descriptive statistics of the implied moments' series.
+Black and Scholes
+
+Mean
+Median
+Std. dev.
+Minimum
+Maximum
+Number of
+observations
+
+Gram ± Charlier series expansion
+
+Implied volatility
+
+Implied volatility
+
+Implied skewness
+
+Implied kurtosis
+
+0.1764
+0.1792
+0.0187
+0.1329
+0.2508
+585
+
+0.1810
+0.1823
+0.0201
+0.1305
+0.2733
+585
+
+ÿ0.5117
+ÿ0.4742
+0.2417
+ÿ1.0862
+0.3458
+585
+
+3.3150
+3.2803
+0.7031
+0.3628
+5.8416
+585
+
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+26%
+
+Implied constrained volatility (BS)
+
+28%
+
+24%
+
+26%
+
+22%
+
+24%
+
+20%
+
+18%
+
+18%
+
+16%
+
+16%
+
+14%
+
+14%
+
+12%
+
+12
+
+Implied unconstrained volatility (GC)
+
+22%
+
+20%
+
+03/01/95
+
+49
+
+12%
+31/10/95
+
+29/08/96
+
+03/01/95
+
+Implied kurtosis
+
+2
+
+31/10/95
+
+29/08/96
+
+Implied skewness
+
+1,5
+
+10
+
+1
+8
+
+0,5
+
+6
+
+0
+-0,5
+
+4
+
+-1
+2
+
+-1,5
+
+0
+03/01/95
+
+-2
+31/10/95
+
+29/08/96
+
+03/01/95
+
+31/10/95
+
+29/08/96
+
+Fig. 2.
+
+anticipation for extreme values is higher than that forecast by the normal distribution.
+Further, the negative skewness indicates that the left tail is fatter (higher probability)
+and usually extends out further than the right tail; large negative observations are
+more likely than large positive ones. With regard to the second moment of the implied
+risk neutral distribution, we notice that both implied volatility are close and not as
+high.
+
+4. Is implied distribution an accurate forecast of the underlying distribution?
+In this section, we investigate the information content and predictive power of
+volatility, skewness and kurtosis implied in PXL option prices. In fact, while early
+studies (see Jorion, 1995 and Canina and Figlewski, 1993) of the information content
+in option prices focus on the volatility, in this paper we have extended this approach
+to the skewness and kurtosis. While Jorion (1995) has found that implied volatility
+contains substantial information for future volatility, Canina and Figlewski (1993),
+however, report that implied volatility has little predicative power for future volatility,
+and produces significantly biased forecasts. Define t ( ), Skt ( ), Kut () to be the
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+50
+
+P. Navatte and C. Villa
+
+realized volatility, skewness and kurtosis respectively over the remaining contract life,
+measured from day t to day t  , defined as:
+ 2t ( ) 
+
+1
+ ÿ1
+
+ 
+X
+
+Rt  i ÿ KR
+
+i1
+
+
+
+
+X
+
+( ÿ 1)(  ÿ 2)
+
+i1
+
+0
+
+Rt  i ÿ KR
+
+13
+
+A
+t ( )
+0
+14
+
+X
+ (  1)
+Rt  i ÿ KR
+@
+A
+Kut () 
+( ÿ 1)(  ÿ 2)(  ÿ 3) i  1
+t ()
+Skt ( ) 
+
+@
+
+2
+
+where Rt is defined by
+Rt  ln
+
+St  Dt
+St
+
+and KR is the sample mean of Rt.
+For example, the predictive power of a volatility forecast can be estimated by
+regressing the observed volatility on forecast volatility: 3
+t ()  a  bÃ t  "t  1
+where Ã t is the volatility forecast measured on day t, taken as the implied volatility,
+I, t (). In addition Canina and Figlewski (1993) suggest that an AR(1) specification
+using the historical rate dominates the OEX implied volatility as a forecast of
+observed volatility. The historical volatility rate is defined as t ÿ  (). For the other
+two moments the procedure is similar. As pointed out by Jorion (1995) and Canina
+and Figlewski (1993), with horizons of up to 9 months, however, using all the day data
+introduces overlaps in the error terms, which causes downward bias in the usual
+Ordinary Least Squares (OLS) standard errors. While White's (1980) covariance
+matrix presumes that the residuals to the estimated equation are serially uncorrelated,
+Newey and West (1987) have proposed an alternative that gives consistent estimates of
+the covariance matrix in the presence of both heteroscedasticity and autocorrelation.
+The predictive power hypothesis is tested and results are presented in Table 3.It
+shows that both implied volatilities (Black-Scholes and Gram-Charlier) contain a
+substantial amount of information for future volatility. Both slope coefficients are
+significantly different from zero. Furthermore, they are not significantly different
+from the number one. These results are in sharp contrast with those of Canina and
+Figlewski (1993) who report a slope coefficient of implied volatility of 0.229. Besides
+we could say that unconstrained implied volatility have higher R 2 than the constrained
+ones. As for historical volatility, in Table 3 we can observe that no substantial amount
+of information for future volatility is recoverable.
+Concerning skewness, Table 3 shows that implied skewness contains a substantial
+amount of information for future skewness. The slope coefficient is 0.6791 and the R 2
+is 0.2983. The historical skewness forecast produces a lower explanatory power than
+3
+
+We only present the regression equation for the volatility, but a similar methodology is used
+for higher moments.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+
+51
+
+Table 3
+Predictability regressions.
+Slopes on
+Moments
+
+Intercept
+
+Implied GC
+
+Volatility
+
+0.95 E ±05
+(1.55 E ±05)
+1.15 E ±05
+(1.71 E ±05)
+1.26 E ±04
+(1.48 E ±05)
+0.2822
+(0.0535)
+ÿ0.0837
+(0.0282)
+2.9562
+(0.1626)
+4.2152
+(0.3119)
+
+1.1099
+(0.1633)
+
+Skewness
+
+Kurtosis
+
+
+y
+
+Implied BS
+
+0.6791 y
+(0.0825)
+0.1693 y
+(0.0402)
+
+Historical
+
+R2
+0.2887
+
+1.1476
+(0.1909)
+
+0.2452
+ÿ0.1626 y
+(0.1367)
+
+0.008853
+0.2983
+
+0.3655 y
+(0.0774)
+
+0.1147
+
+ÿ0.2158 y
+(0.0975)
+
+0.0485
+
+0.0368
+
+Significantly different from zero at the 5% level
+Significantly different from one at the 5% level
+
+implied skewness. The slope is noticeably lower and the R 2 of the regression is about
+one third of the one implied. Finally, it should be noted that both implied and
+historical kurtosis contain little information to predict future kurtosis since both
+slopes and R 2 decrease as compared with the two previous moments.
+5. The relation between underlying distribution and Black-Scholes implied patterns
+In this section we are going to show that different shapes of the volatility smile are
+consistent with different distributions of the underlying asset. Renault and Touzi
+(1996) proved that, when volatility was stochastic but uncorrelated with changes in the
+spot price, Black and Scholes implied volatility was first lowest for at-the-money
+forward (strike price equal the forward underlying asset price or x  0), secondly
+increasing for both in-the-money (call's strike lower than the forward underlying asset
+price or x > 0) and out-of-the-money (call's strike greater than the forward underlying
+asset price or x < 0) options. This pattern has been referred to as the `volatility smile',
+so named for the appearance of a graph with implied volatility on the vertical axis and
+the option strike price on the horizontal axis. If we define the implied volatility I as
+the value of volatility that equates the Black-Scholes formula, BS, to the theoretical
+price given by the Gram-Charlier series expansions, then:
+BS(I )  C
+A linear approximation around the point I   is:
+p
+p
+BS(I )  S[  (d ) ÿ e ÿx  (d ÿ   )]  S  ' (d )( I ÿ ):
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+52
+
+P. Navatte and C. Villa
+
+If we equate this to the Gram-Charlier price, we find:
+2
+3
+ p
+
+Sk
+
+(d)
+5
+4 2  ÿ d ÿ  2 
+I   
+3!
+' (d )
+2
+3
+
+
+
+Ku
+
+(d
+)
+p
+
+p
+
+5
+4 d 2 ÿ 1 ÿ 3  d ÿ  
+ÿ  3  3=2
+
+4!
+' (d)
+Therefore the implied volatility is a function of five arguments:
+*
+*
+*
+*
+*
+
+the
+the
+the
+the
+the
+
+volatility, ,
+moneyness, x,
+option period of life, ,
+skewness, Sk,
+kurtosis, Ku.
+
+From this last formula, the implied volatility is approximately a quadratic function of
+moneyness.
+at-the-money
+call option, i.e. x  0, with
+
+p For the specific case of anp
+d  12  ;  (d)  12  ' (d )d; ' (d)  1=( 2) and the elimination of terms involving
+powers of two and higher in , we get the following approximation:
+I   
+
+Sk
+
+p Ku
+2  ÿ
+4
+4!
+
+
+
+Of these, only the first and last terms seem to have any significant effect. Therefore, an
+important feature of an at-the-money implied volatility is its relative independence of
+the skewness. Moreover, it can be noticed that when  approaches zero then this
+implied volatility does not converge towards the volatility but towards:
+0
+1
+Ku
+A:
+@1 ÿ
+4!
+For this maturity, we can observe a departure of the implied probability density
+function derived by the Gram-Charlier series expansion from that derived using the
+normal law. The implied skewness and kurtosis are different from those expected by
+the Black-Scholes model.
+For instance, a symmetric volatility smile is consistent with leptokurtosis or `fat
+tails' in the distribution, i.e. higher probabilities, as compared with the normal
+distribution, of larger positive or negative changes, as would result from returns with
+stochastic volatility. At times, the probability of future asset or index return
+observations is not symmetrically distributed around the `at-the-money' strike price.
+When this asymmetry is present, the smile can be transformed into a `smirk', with
+the option's implied volatility rising more sharply for strike prices on one side of the
+asset returns than on the other. Less documented in the literature is a convexity
+(concavity) in the smile which is due to the kurtosis. In fact when we compute the
+Black and Scholes' volatility implied by formula (1). As shown in Figure 3, a
+concave `smile' will appear if the kurtosis is less than three, whatever the level of the
+skewness is.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+
+34
+32
+30
+28
+26
+
+31
+30.5
+30
+29.5
+29
+
+0.4
+0.2
+0 Skewness
+-0.2
+
+80
+100
+K
+
+120
+
+53
+
+3.4
+3.2
+3 Kurtosis
+
+80
+100
+K
+
+-0.4
+
+2.8
+2.6
+
+120
+
+Kurtosis = 3.5
+
+34
+32
+30
+28
+
+0.4
+0.2
+0 Skewness
+-0.2
+
+80
+100
+K
+
+120
+
+-0.4
+
+32.5
+30
+27.5
+25
+
+3.4
+3.2
+3 Kurtosis
+2.8
+
+80
+100
+K
+
+120
+
+2.6
+
+S = 100, τ = 6 months, σ =30%, r = 0
+
+Fig. 3. Theoretical smiles implied by the Gram ± Charlier series expansion kurtosis  3.
+
+This ends up in a platykurtic distribution rather than a leptokurtic one. 4 Besides,
+whatever the level of this kurtosis is, a negative skewness leads to a `smirk' rather than
+a `smile', but with a slight convexity (concavity) in the case of a kurtosis which is
+greater or less than three. We have shown that the in-sample fit of implied volatility is
+better as we extend from the Black ±Scholes to skewness and kurtosis. As one may
+argue, this better fit might simply be a consequence of having a larger number of
+parameters. To lower the impact of this connection on inferences, we turn to
+examining each model's out-of-sample pricing performance. For out-of-sample
+pricing, the presence of more parameters may actually cause over-fitting which may
+penalize the model if the extra parameters do not improve its structural fitting (see for
+example Dumas, Fleming and Whaley 1998). For this purpose, we rely on previous
+day's option prices to back-out the required parameter values and then use them as
+input to compute current day's model-based option prices. Next, we subtract the
+model-determined price from its observed counterpart, to compute both Mean
+Absolute pricing Error (MAE) and Mean Relative pricing Error (MRE). Two groups
+
+4
+Jackwerth and Rubinstein (1996) found that the implied distributions in the pre-crash period
+were somewhat left-skewed and platykurtic. After the crash in the fourth quarter of 1987, they
+found a period of adjustment where the distributions became more left-skewed and changed
+from platykurtic to leptokurtic (p. 1628± 1629).
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+54
+
+P. Navatte and C. Villa
+Table 4
+
+Mean absolute errors (MAE) and mean relative errors (MRE) between the actual and the
+estimated option prices.
+Black± Scholes
+
+Gram ± Charlier
+
+Number of
+observations
+
+MAE
+
+MRE
+
+MAE
+
+MRE
+
+2166
+1869
+4035
+
+4.7779
+4.7898
+4.7834
+
+ÿ0.1004
+0.2869
+0.0799
+
+2.8550
+2.7834
+2.8219
+
+0.0350
+0.0128
+0.0247
+
+Call
+Put
+All sample
+
+Table 5
+Mean absolute errors (MAE) and mean relative errors (MRE) between the actual and the
+estimated option prices.
+Black ±Scholes
+
+Gram ± Charlier
+
+Number of
+observations
+
+MAE
+
+MRE
+
+MAE
+
+MRE
+
+Call
+
+OTM
+ATM
+ITM
+
+1126
+749
+291
+
+4.5341
+3.8833
+8.0235
+
+ÿ0.1967
+ÿ0.0044
+0.0250
+
+1.8242
+3.3714
+5.5148
+
+0.0616
+0.0086
+0.0003
+
+Put
+
+OTM
+ATM
+ITM
+
+1048
+637
+184
+
+5.1956
+3.8428
+5.7565
+
+0.5128
+0.0022
+ÿ0.0143
+
+1.7958
+3.6317
+5.4721
+
+0.0268
+ÿ0.0059
+ÿ0.0023
+
+of results are presented. Pricing errors reported in Table 4 are split in three categories
+(All options, calls and puts), as in Table 5 (OTM, ATM and ITM). 5
+It can be noticed that both pricing error measures rank the Gram ± Charlier series
+expansion first, and the Black ±Scholes model second. According to both measurements, the Gram ± Charlier series expansion does far better than Black ± Scholes in
+pricing OTM calls and puts.
+6. Conclusion
+This paper has focused on extracting CAC 40 index information from long-term
+option prices quoted on the MONEP based on a Gram ± Charlier series expansion
+truncated after the fourth moment as derived by Corrado and Su (1996). First we find
+an implied distribution with a negative skewness and a higher kurtosis than that
+forecast by the normal one. Secondly, we observe that implied moments contain a
+substantial amount of information for future moments of CAC 40 returns although
+this amount decreases with respect to the moment's order. Third, we find that
+different shapes of the volatility smile are consistent with different distributions of the
+5
+
+OTM: Out-of-The-Money; ATM: At-The-Money; ITM: In-The-Money.
+
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+Implied Volatility, Skewness and Kurtosis
+
+55
+
+underlying returns. We also observe that including other implied moments
+significantly improve the out-of-sample pricing performance of the Black ± Scholes
+(1973) model. These facts reveal that financial management needs to take into
+consideration more information than just the so-called volatility to discover the
+absolute market participants' anticipation rather than only its relative one.
+References
+Bates, D. S., `Jumps and Stochastic Volatility: Exchange Rate Processes Implicit in Deutsche
+Mark Options', Review of Financial Studies, Vol. 9 (1), 1996, pp. 69± 107.
+Beckers, S., `Standard Deviations Implied in Options Prices as Predictors of Future Stock Price
+Variability', Journal of Banking and Finance, Vol. 5, 1981, pp. 363± 382.
+Black, F. and Scholes, M., `The Pricing of Options and Corporate Liabilities', Journal of
+Political Economy, Vol. 81, 1973, pp. 637± 654.
+Breeden, D. T. and Litzenberger, R. H., `Prices of State-contingent Claims Implicit in Option
+Prices', Journal of Business, Vol. 51 (4), 1978, pp. 621± 651.
+Campa, J. C., Chang, P. H. K. and Reider, R. L., `Implied Exchange Rate Distributions:
+Evidence from OTC Option Markets', International Conference of the French Finance
+Association, Grenoble, June, 1997.
+Canina, L. and Figlewski, S., `The Informational Content of Implied Volatility', Review of
+Financial Studies, Vol. 6, 1993, pp. 659±681.
+Corrado, C. J. and Su, T., `Skewness and Kurtosis in S&P 500 Index Returns Implied by Option
+Prices', The Journal of Financial Research, Vol. 19 (2), 1996, pp. 175± 192.
+Day, T. E. and Lewis, C. M., `Stock Market Volatility and the Information Content of Stock
+Index Options', Journal of Econometrics, Vol. 52, 1992, pp. 267± 288.
+Dumas, B., Fleming, J. and Whaley, R. E., `Implied Volatility Functions: Empirical Tests', The
+Journal of Finance, forthcoming in the December issue.
+Fleming, Ostdiek and Whaley, 1995.
+Grundy, B. D., `Option Prices and the Underlying Asset's Return Distribution', The Journal of
+Finance, Vol. 46, 1991, pp. 1045± 1069.
+Jackwerth, J. C. and Rubinstein, M. `Recovering Probability Distributions from Option Prices',
+The Journal of Finance, Vol. 51 (5), 1996, pp. 1611± 1632.
+Jacquillat, B. and Solnik, A., MarcheÂs Financiers, gestion de portefeuille et des risques (Dunod,
+3rd ed., 1997, Paris).
+Jarrow, R. and Rudd, A., `Approximate Valuation for Arbitrary Stochastic Processes', Journal
+of Financial Economics, Vol. 10 (3), 1982, pp. 349±369.
+Jondeau, E. and Rockinger, M. `Reading the Smile: The Message Conveyed by Methods which
+Infer Risk Neutral Densities', International Conference of the French Finance Association,
+Lille, July, 1998.
+Jorion, P., `Predicting Volatility in the Foreign Exchange Market', The Journal of Finance, Vol.
+50, 1995, pp. 507 ± 528.
+LataneÂ, H. A. and Rendleman, R. J., `Standard Deviations of Stock Price Ratios Implied in
+Option Prices', The Journal of Finance, Vol. 31, 1976, pp. 369± 382.
+Lauterbach, B. and Schultz, P., `Pricing Warrants: An Empirical Study of the Black-Scholes
+Model and its Alternatives', The Journal of Finance, Vol. 4, 1990, pp. 1181± 1210.
+Madan, D. B. and Milne, F., `Contingent Claims Valued and Hedged by Pricing and Investing
+in a Basis', Mathematical Finance, Vol. 4, 1994, pp. 233± 245.
+Martinez, G. M., `Extracting Market Views from the Price of Options on Futures, The Journal
+of Futures Markets, Vol. 18, 1998, pp. 1 ± 34.
+Melick, W. R. and Thomas, C. P., `Recovering an Asset's Implied PDF from Option Prices: An
+Application to Crude Oil during the Gulf Crisis', Journal of Financial and Quantitative
+Analysis, Vol. 32, 1997, pp. 91 ± 115.
+# Blackwell Publishers Ltd, 2000
+
+{Journals}eufm/issue 6-1/s210/s210.3d
+
+56
+
+P. Navatte and C. Villa
+
+Merton, R. C., `Theory of Rational Option Pricing', Bell Journal of Economics and Management
+Science, Vol. 4, 1973, pp. 141 ± 183.
+Newey, W. and West, K., `A Simple Positive Semi-Definite, Heteroskedasticity and
+Autocorrelation Consistent Covariance Matrix', Econometrica, 51, 1987.
+Renault and Touzi, `Option Hedging and Implied Volatility in a Stochastic Volatility Model',
+Mathematical Finance, Vol. 6, 1996, pp. 279± 302.
+Rubinstein, M., `Non Parametric Tests of Alternative Option Pricing Models using all Reported
+Trades and Quotes on the 30 Most Active CBOE Option Classes from August 23, 1976
+through August 31, 1978', The Journal of Finance, Vol. 40, 1985, pp. 455± 480.
+Rubinstein, M., `Implied Binomial Trees, The Journal of Finance, Vol. 49, 1994, pp. 771±818.
+Sherrick, B. J., Garcia, P. and Tirupattur, V., `Recovering Probabilistic Information from
+Option Markets: Tests of Distributional Assumptions', The Journal of Futures Markets, Vol.
+16 (5), 1996, pp. 545 ± 560.
+White, H., `A Heteroskedasticity-Consistent Covariance Matrix and a Direct Test for
+Heteroskedasticity', Econometrica, 48, 1980.
+Whaley (1982)
+
+# Blackwell Publishers Ltd, 2000
+
+

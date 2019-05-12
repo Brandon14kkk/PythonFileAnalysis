@@ -1,0 +1,7360 @@
+How Often to Sample a Continuous-Time
+Process in the Presence of Market
+Microstructure Noise
+Yacine Aı̈t-Sahalia
+Princeton University and NBER
+Per A. Mykland
+The University of Chicago
+Lan Zhang
+Carnegie Mellon University
+In theory, the sum of squares of log returns sampled at high frequency estimates their
+variance. When market microstructure noise is present but unaccounted for, however,
+we show that the optimal sampling frequency is finite and derives its closed-form
+expression. But even with optimal sampling, using say 5-min returns when transactions are recorded every second, a vast amount of data is discarded, in contradiction
+to basic statistical principles. We demonstrate that modeling the noise and using all
+the data is a better solution, even if one misspecifies the noise distribution. So the
+answer is: sample as often as possible.
+
+Over the past few years, price data sampled at very high frequency have
+become increasingly available in the form of the Olsen dataset of currency
+exchange rates or the TAQ database of NYSE stocks. If such data were
+not affected by market microstructure noise, the realized volatility of the
+process (i.e., the average sum of squares of log-returns sampled at high
+frequency) would estimate the returns’ variance, as is well known. In fact,
+sampling as often as possible would theoretically produce in the limit a
+perfect estimate of that variance.
+We start by asking whether it remains optimal to sample the price
+process at very high frequency in the presence of market microstructure
+noise, consistently with the basic statistical principle that, ceteris paribus,
+more data are preferred to less. We first show that, if noise is present but
+unaccounted for, then the optimal sampling frequency is finite, and we
+
+We are grateful for comments and suggestions from the editor, Maureen O’Hara, and two anonymous
+referees, as well as seminar participants at Berkeley, Harvard, NYU, MIT, Stanford, the Econometric
+Society and the Joint Statistical Meetings. Financial support from the NSF under grants SBR-0111140
+(Aı̈t-Sahalia), DMS-0204639 (Mykland and Zhang), and the NIH under grant RO1 AG023141-01
+(Zhang) is also gratefully acknowledged. Address correspondence to: Yacine Aı̈t-Sahalia, Bendheim Center
+for Finance, Princeton University, Princeton, NJ 08540, (609) 258-4015 or email: yacine@princeton.edu.
+The Review of Financial Studies Vol. 18, No. 2 ª 2005 The Society for Financial Studies; all rights reserved.
+doi:10.1093/rfs/hhi016
+Advance Access publication February 10, 2005
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+derive a closed-form formula for it. The intuition for this result is as
+follows. The volatility of the underlying efficient price process and the
+market microstructure noise tend to behave differently at different frequencies. Thinking in terms of signal-to-noise ratio, a log-return observed
+from transaction prices over a tiny time interval is mostly composed of
+market microstructure noise and brings little information regarding the
+volatility of the price process since the latter is (at least in the Brownian
+case) proportional to the time interval separating successive observations.
+As the time interval separating the two prices in the log-return increases,
+the amount of market microstructure noise remains constant, since each
+price is measured with error, while the informational content of volatility
+increases. Hence very high frequency data are mostly composed of market
+microstructure noise, while the volatility of the price process is more
+apparent in longer horizon returns. Running counter to this effect is the
+basic statistical principle mentioned above: in an idealized setting where
+the data are observed without error, sampling more frequently can be
+useful. What is the right balance to strike? What we show is that these two
+effects compensate each other and result in a finite optimal sampling
+frequency (in the root mean squared error sense) so that some time
+aggregation of the returns data is advisable.
+By providing a quantitative answer to the question of how often one
+should sample, we hope to reduce the arbitrariness of the choices that have
+been made in the empirical literature using high frequency data: for
+example, using essentially the same Olsen exchange rate series, these
+somewhat ad hoc choices range from 5-min intervals [e.g., Andersen
+et al. (2001), Barndorff-Nielsen and Shephard (2002), Gençay et al.
+(2002) to as long as 30 min [e.g., Andersen et al. (2003)]. When calibrating
+our analysis to the amount of microstructure noise that has been reported
+in the literature, we demonstrate how the optimal sampling interval
+should be determined: for instance, depending upon the amount of microstructure noise relative to the variance of the underlying returns, the
+optimal sampling frequency varies from 4 min to 3 h, if 1 day’s worth of
+data are used at a time. If a longer time period is used in the analysis, then
+the optimal sampling frequency can be considerably longer than these
+values.
+But even if one determines the sampling frequency optimally, the fact
+remains that the empirical researcher is not making full use of the data at
+his disposal. For instance, suppose that we have available transaction
+records on a liquid stock, traded once every second. Over a typical 6.5 h
+day, we therefore start with 23,400 observations. If one decides to sample
+once every 5 minutes, then — whether or not this is the optimal sampling
+frequency — it amounts to retaining only 78 observations. Stated differently, one is throwing away 299 out of every 300 transactions. From a
+statistical perspective, this is unlikely to be the optimal solution, even
+
+352
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+though it is undoubtedly better than computing a volatility estimate using
+noisy squared log-returns sampled every second. Somehow, an optimal
+solution should make use of all the data, and this is where our analysis is
+headed next.
+So, if one decides to account for the presence of the noise, how should
+one proceed? We show that modeling the noise term explicitly restores
+the first order statistical effect that sampling as often as possible is optimal. This will involve an estimator different from the simple sum of
+squared log-returns. Since we work within a fully parametric framework,
+likelihood is the key word. Hence we construct the likelihood function for
+the observed log-returns, which include microstructure noise. To do so, we
+must postulate a model for the noise term. We assume that the noise is
+Gaussian. In light of what we know from the sophisticated theoretical
+microstructure literature, this is likely to be overly simplistic and one may
+well be concerned about the effect(s) of this assumption. Could it be more
+harmful than useful? Surprisingly, we demonstrate that our likelihood
+correction, based on the Gaussianity of the noise, works even if one
+misspecifies the assumed distribution of the noise term. Specifically, if
+the econometrician assumes that the noise terms are normally distributed
+when in fact they are not, not only is it still optimal to sample as often as
+possible (unlike the result when no allowance is made for the presence of
+noise), but the estimator has the same variance as if the noise distribution
+had been correctly specified. This robustness result is, we think, a major
+argument in favor of incorporating the presence of the noise when estimating continuous time models with high frequency financial data, even if
+one is unsure about the true distribution of the noise term.
+In other words, the answer to the question we pose in our title is ‘‘as
+often as possible,’’ provided one accounts for the presence of the noise
+when designing the estimator (and we suggest maximum likelihood as a
+means of doing so). If one is unwilling to account for the noise, then one
+has to rely on the finite optimal sampling frequency we start our analysis
+with. However, we stress that while it is optimal if one insists upon using
+sums of squares of log-returns, this is not the best possible approach to
+estimate volatility given the complete high frequency dataset at hand.
+In a companion paper [Zhang, Mykland, and Aı̈t-Sahalia (2003)], we
+study the corresponding nonparametric problem, where the volatility of
+the underlying price is a stochastic process, and nothing else is known
+about it, in particular no parametric structure. In that case, the object of
+interest is the integrated volatility of the process over a fixed time interval,
+such as a day, and we show how to estimate it using again all the data
+available (instead of sparse sampling at an arbitrarily lower frequency of,
+say, 5 min). Since the model is nonparametric, we no longer use a likelihood approach but instead propose a solution based on subsampling and
+averaging, which involves estimators constructed on two different time
+
+353
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+scales, and demonstrate that this again dominates sampling at a lower
+frequency, whether arbitrarily or optimally determined.
+This article is organized as follows. We start by describing in Section 1
+our reduced form setup and the underlying structural models that support
+it. We then review in Section 2 the base case where no noise is present,
+before analyzing in Section 3 the situation where the noise is ignored. In
+Section 4, we examine the concrete implications of this result for empirical
+work with high frequency data. Next, we show in Section 5 that accounting for the presence of the noise through the likelihood restores the
+optimality of high frequency sampling. Our robustness results are presented in Section 6 and interpreted in Section 7. In Section 8, we study the
+same questions when the observations are sampled at random time intervals, which are an essential feature of transaction-level data. We then turn
+to various extensions and relaxation of our assumptions in Section 9; we
+added a drift term, then serially correlated and cross-correlated noise
+respectively. In Section 10 concludes. All proofs are in the appendix.
+1. Setup
+Our basic setup is as follows. We assume that the underlying process of
+interest, typically the log-price of a security, is a time-homogeneous
+diffusion on the real line
+dXt ¼ mðXt ; uÞdt þ sdWt ,
+
+ð1Þ
+
+where X0 ¼ 0, Wt is a Brownian motion, m(., .) is the drift function, s2 the
+diffusion coefficient, and u the drift parameters, where u 2 Q and s > 0.
+The parameter space is an open and bounded set. As usual, the restriction
+that s is constant is without loss of generality since in the univariate case a
+one-to-one transformation can always reduce a known specification s(Xt)
+to that case. Also, as discussed in Aı̈t-Sahalia and Mykland (2003), the
+properties of parametric estimators in this model are quite different
+depending upon whether we estimate u alone, s2 alone, or both parameters together. When the data are noisy, the main effects that we describe
+are already present in the simpler of these three cases, where s2 alone is
+estimated, and so we focus on that case. Moreover, in the high frequency
+context we have in mind, the diffusive component of (1) is of order (dt)1/2
+while the drift component is of order dt only, so the drift component is
+mathematically negligible at high frequencies. This is validated empirically: including a drift which actually deteriorates the performance of variance estimates from high frequency data since the drift is estimated with a
+large standard error. Not centering the log returns for the purpose of
+variance estimation produces more accurate results [see Merton (1980)].
+So we simplify the analysis one step further by setting m ¼ 0, which we do
+
+354
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+until Section 9.1, where we then show that adding a drift term does
+not alter our results. In Section 9.4, we discuss the situation where the
+instantaneous volatility s is stochastic.
+But for now,
+Xt ¼ sWt :
+
+ð2Þ
+
+Until Section 8, we treat the case where our observations occur at equidistant time intervals D, in which case the parameter s2 is estimated at
+time T on the basis of N þ 1 discrete observations recorded at times t 0 ¼ 0,
+t 1 ¼ D, . . . ,t N ¼ N D ¼ T. In Section 8, we let the sampling intervals themselves be random variables, since this feature is an essential characteristic
+of high frequency transaction data.
+The notion that the observed transaction price in high frequency financial data is the unobservable efficient price plus some noise component
+due to the imperfections of the trading process is a well established
+concept in the market microstructure literature [see, for instance Black
+(1986)]. So, we depart from the inference setup previously studied
+[Aı̈t-Sahalia and Mykland (2003)] and we now assume that, instead of
+observing the process X at dates t i, we observe X with error:
+~ ti ¼ Xti þ Uti ,
+X
+
+ð3Þ
+
+where the Utis are i.i.d. noise with mean zero and variance a2 and are
+independent of the W process. In this context, we view X as the efficient
+~ is the transaction log-price. In an efficient
+log-price, while the observed X
+market, Xt is the log of the expectation of the final value of the security
+conditional on all publicly available information at time t. It corresponds
+to the log-price that would be, in effect, in a perfect market with no trading
+imperfections, frictions, or informational effects. The Brownian motion
+W is the process representing the arrival of new information, which in this
+idealized setting is immediately impounded in X.
+By contrast, Ut summarizes the noise generated by the mechanics of the
+trading process. We view the source of noise as a diverse array of market
+microstructure effects, either information or non-information related,
+such as the presence of a bid-ask spread and the corresponding bounces,
+the differences in trade sizes and the corresponding differences in representativeness of the prices, the different informational content of price
+changes owing to informational asymmetries of traders, the gradual
+response of prices to a block trade, the strategic component of the order
+flow, inventory control effects, the discreteness of price changes in markets that are not decimalized, etc., all summarized into the term U. That
+these phenomena are real and important and this is an accepted fact in the
+market microstructure literature, both theoretical and empirical. One can
+in fact argue that these phenomena justify this literature.
+
+355
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+We view Equation (3) as the simplest possible reduced form of structural market microstructure models. The efficient price process X is typically modeled as a random walk, that is, the discrete time equivalent of
+Equation (2). Our specification coincides with that of Hasbrouck (1993),
+who discusses the theoretical market microstructure underpinnings of
+such a model and argues that the parameter a is a summary measure of
+market quality. Structural market microstructure models do generate
+Equation (3). For instance, Roll (1984) proposes a model where U is due
+entirely to the bid-ask spread. Harris (1990b) notes that in practice there
+are sources of noise other than just the bid-ask spread, and studies their
+effect on the Roll model and its estimators.
+Indeed, a disturbance U can also be generated by adverse selection
+effects as in Glosten (1987) and Glosten and Harris (1988), where the
+spread has two components: one that is owing to monopoly power, clearing costs, inventory carrying costs, etc., as previously, and a second one
+that arises because of adverse selection whereby the specialist is concerned
+that the investor on the other side of the transaction has superior information. When asymmetric information is involved, the disturbance U
+would typically no longer be uncorrelated with the W process and would
+exhibit autocorrelation at the first order, which would complicate our
+analysis without fundamentally altering it: see Sections 9.2 and 9.3
+where we relax the assumptions that the Us are serially uncorrelated and
+independent of the W process.
+The situation where the measurement error is primarily due to the fact
+~ ti ¼ mi k where k is
+that transaction prices are multiples of a tick size (i.e., X
+the tick size and mi is the integer closest to Xti /k) can be modeled as a
+rounding off problem [see Gottlieb and Kalay (1985), Jacod (1996),
+Delattre and Jacod (1997)]. The specification of the model in Harris
+(1990a) combines both the rounding and bid-ask effects as the dual
+sources of the noise term U. Finally, structural models, such as that of
+Madhavan, Richardson, and Roomans (1997), also give rise to reduced
+~ takes the form of an unobforms where the observed transaction price X
+served fundamental value plus error.
+With Equation (3) as our basic data generating process, we now turn
+to the questions we address in this article: how often should one sample
+a continuous-time process when the data are subject to market microstructure noise, what are the implications of the noise for the estimation
+of the parameters of the X process, and how should one correct for the
+presence of the noise, allowing for the possibility that the econometrician
+misspecifies the assumed distribution of the noise term, and finally
+allowing for the sampling to occur at random points in time? We proceed from the simplest to the most complex situation by adding one
+extra layer of complexity at a time: Figure 1 shows the three sampling
+schemes we consider, starting with fixed sampling without market
+
+356
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+Figure 1
+Various discrete sampling modes — no noise (Section 2), with noise (Sections 3–7) and randomly spaced with
+noise (Section 8)
+
+microstructure noise, then moving to fixed sampling with noise and
+concluding with an analysis of the situation where transaction prices
+are not only subject to microstructure noise but are also recorded at
+random time intervals.
+
+357
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+2. The Baseline Case: No Microstructure Noise
+We start by briefly reviewing what would happen in the absence of
+market microstructure noise, that is when a ¼ 0. With X denoting the
+log-price, the first differences of the observations are the log-returns
+~ ti  X
+~ ti1 , i ¼ 1, . . . , N. The observations Yi ¼ s(Wt  Wt ) are
+Yi ¼ X
+iþ1
+i
+then i.i.d. N(0, s2D) so the likelihood function is
+ 
+
+
+
+1
+ð4Þ
+l s2 ¼ N ln 2ps2 D =2  2s2 D Y 0 Y ,
+where Y ¼ (Y1, . . . ,YN)0 . The maximum-likelihood estimator of s2 coincides with the discrete approximation to the quadratic variation of the
+process
+s
+^2 ¼
+
+N
+1X
+Y 2,
+T i¼1 i
+
+ð5Þ
+
+which has the following exact small sample moments:
+
+
+N
+ 2 1 X
+ 2  N s2 D
+¼ s2 ,
+E Yi ¼
+E s
+^ ¼
+T
+T i¼1
+"
+#
+!
+N
+N
+X
+X
+ 2
+
+
+ 2s4 D
+1
+1
+N
+var s
+^ ¼ 2 var
+Yi2 ¼ 2
+var Yi2
+¼ 2 2s4 D2 ¼
+T
+T
+T
+T
+i¼1
+i¼1
+and the following asymptotic distribution
+ 2
+
+^  s2 ! N ð0, vÞ,
+T 1=2 s
+T!1
+
+ð6Þ
+
+where
+h  i1
+ 2
+¼ 2s4 D:
+v ¼ avar s
+^ ¼ DE €l s2
+
+ð7Þ
+
+Thus selecting D as small as possible is optimal for the purpose of
+estimating s2.
+3. When the Observations are Noisy but the Noise is Ignored
+Suppose now that market microstructure noise is present but the presence
+of the Us is ignored when estimating s2. In other words, we use the
+log-likelihood function (4) even though the true structure of the observed
+log-returns Yis is given by an MA(1) process since
+~ ti  X
+~ ti1
+Yi ¼ X
+¼ Xti  Xti1 þ Uti  Uti1
+¼ sðWti  Wti1 Þ þ Uti  Uti1
+ «i þ h«i1 ,
+
+358
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ð8Þ
+
+Sampling and Market Microstructure Noise
+
+where the «is are uncorrelated with mean zero and variance g2 (if the Us
+are normally distributed, then the «is are i.i.d.). The relationship to the
+original parametrization (s2, a2) is given by
+
+
+g 2 1 þ h2 ¼ var½Yi  ¼ s2 D þ 2a2 ,
+ð9Þ
+g 2 h ¼ covðYi , Yi1 Þ ¼ a2 :
+
+ð10Þ
+
+Equivalently, the inverse change of variable is given by
+
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+2a2 þ s2 D þ s2 Dð4a2 þ s2 DÞ ,
+2
+
+ð11Þ
+
+
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+2
+2
+h ¼ 2 2a  s D þ s2 Dð4a2 þ s2 DÞ :
+2a
+
+ð12Þ
+
+g2 ¼
+
+Two important properties of the log-returns Yi s emerge from Equations
+(9) and (10). First, it is clear from Equation (9) that microstructure noise
+leads to spurious variance in observed log-returns, s2D þ 2a2 versus s2D.
+This is consistent with the predictions of theoretical microstructure
+models. For instance, Easley and O’Hara (1992) develop a model linking
+the arrival of information, the timing of trades, and the resulting price
+process. In their model, the transaction price will be a biased representation of the efficient price process, with a variance that is both overstated
+and heteroskedastic due to the fact that transactions (hence the recording
+~ ) occur at intervals that are timeof an observation on the process X
+varying. While our specification is too simple to capture the rich joint
+dynamics of price and sampling times predicted by their model, heteroskedasticity of the observed variance will also appear in our case
+once we allow for time variation of the sampling intervals (see Section 8).
+In our model, the proportion of the total return variance that is market
+microstructure-induced is
+p¼
+
+2a2
+þ 2a2
+
+s2 D
+
+ð13Þ
+
+at observation interval D. As D gets smaller, p gets closer to 1, so that a
+larger proportion of the variance in the observed log-return is driven by
+market microstructure frictions, and correspondingly a lesser fraction
+reflects the volatility of the underlying price process X.
+Second, Equation (10) implies that 1 < h < 0, so that logreturns are (negatively) autocorrelated with first order autocorrelation
+a2/(s2D þ 2a2) ¼ p/2. It has been noted that market microstructure
+noise has the potential to explain the empirical autocorrelation of returns.
+For instance, in the simple Roll model, Ut ¼ (s/2)Qt where s is the bid/ask
+
+359
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+spread and Qt, the order flow indicator, is a binomial variable that takes
+the values þ1 and 1 with equal probability. Therefore, var[Ut] ¼ a2 ¼ s2/4.
+Since cov(Yi,Yi  1) ¼ a2, the bid/ask spread can be recovered in this
+pﬃﬃﬃﬃﬃﬃﬃ
+model as s ¼ 2 r where r ¼ g2h is the first-order autocorrelation of
+returns. French and Roll (1986) proposed to adjust variance estimates to
+control for such autocorrelation and Harris (1990b) studied the resulting
+estimators. In Sias and Starks (1997), U arises because of the strategic
+trading of institutional investors which is then put forward as an explanation for the observed serial correlation of returns. Lo and MacKinlay
+(1990) show that infrequent trading has implications for the variance and
+autocorrelations of returns. Other empirical patterns in high frequency
+financial data have been documented: leptokurtosis, deterministic
+patterns, and volatility clustering.
+Our first result shows that the optimal sampling frequency is finite when
+noise is present but unaccounted for. The estimator s
+^ 2 obtained from
+maximizing the misspecified log-likelihood function (4) is quadratic in the
+Yi s [see Equation (5)]. In order to obtain its exact (i.e., small sample)
+variance, we need to calculate the fourth order cumulants of the Yi s since
+
+	
+
+2
+
+
+cov Yi2 , Yj2 ¼ 2 cov Yi , Yj þ cum Yi , Yi , Yj , Yj
+ð14Þ
+(see, e.g., Section 2.3 of McCullagh (1987) for definitions and properties of
+the cumulants). We have the following lemma.
+Lemma 1. The fourth cumulants of the log-returns are given by
+
+
+cum Yi ,Yj ,Yk , Yl
+8
+if i ¼ j ¼ k ¼ l,
+>
+< 2cum4 ½U ,
+sði;j;k;l Þ
+¼ ð1Þ
+cum4 ½U , if maxði, j,k, l Þ ¼ minði, j, k, l Þ þ 1,
+>
+:
+0,
+otherwise,
+
+ð15Þ
+
+where s(i, j, k, l) denotes the number of indices among (i, j, k, l) that are
+equal to min(i, j, k, l) and U denotes a generic random variable with the
+common distribution of the Utis. Its fourth cumulant is denoted cum4 [U].
+Now U has mean zero, so in terms of its moments
+ 
+   2
+cum4 ½U  ¼ E U 4  3 E U 2 :
+
+ð16Þ
+
+In the special case where U is normally distributed, cum4 [U] ¼ 0 and as a
+result of Equation (14) the fourth cumulants of the log-returns are all 0
+(since W is normal, the log-returns are also normal in that case). If the
+distribution of U is binomial as in the simple bid/ask model described
+above, then cum4 [U ] ¼ s4/8; since in general s will be a tiny percentage
+of the asset price, say s ¼ 0.05%, the resulting cum4 [U ] will be very small.
+
+360
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+We can now characterize the root mean squared error
+ 2    2 
+2
+ 2 	1=2
+^  s2 þ var s
+^
+RMSE s
+^ ¼ E s
+of the estimator by the following theorem.
+Theorem 1. In small samples (finite T), the bias and variance of the
+estimator s
+^ 2 are given by
+ 2
+2a2
+,
+E s
+^  s2 ¼
+D
+
+
+var s
+^
+
+2
+
+
+
+ð17Þ
+
+
+
+
+
+2 s4 D2 þ 4s2 Da2 þ 6a4 þ 2 cum4 ½U 
+2 2a4 þ cum4 ½U 
+¼
+:
+
+TD
+T2
+ð18Þ
+
+Its RMSE has a unique minimum in D which is reached at the optimal
+sampling interval
+00
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ11=3
+
+3
+
+ 4 1=3
+2 3a4 þ cum4 ½U 
+2a
+T
+B@
+
+A
+D ¼
+@ 1 1
+s4
+27s4 a8 T 2
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ11=3 1
+
+3
+2 3a4 þ cum4 ½U 
+@
+A C
+þ 1þ 1
+A:
+27s4 a8 T 2
+0
+
+As T grows, we have
+
+
+
+
+22=3 a4=3 1=3
+1
+D ¼
+T þ O 1=3 :
+T
+s4=3
+
+
+ð19Þ
+
+ð20Þ
+
+The trade-off between bias and variance made explicit in Equations (17)
+and (18) is not unlike the situation in nonparametric estimation with D1
+playing the role of the bandwidth h. A lower h reduces the bias but
+increases the variance, and the optimal choice of h balances the two
+effects.
+Note that these are exact small sample expressions, valid for all T.
+Asymptotically in T, var½^
+s2  ! 0, and hence the RMSE of the estimator
+is dominated by the bias term which is independent of T. And given the
+form of the bias (17), one would in fact want to select the largest D possible
+to minimize the bias (as opposed to the smallest one as in the no-noise case
+of Section 2). The rate at which D should increase with T is given by
+Equation (20). Also, in the limit where the noise disappears (a ! 0 and
+cum4 [U ] ! 0), the optimal sampling interval D tends to 0.
+
+361
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+How does a small departure from a normal distribution of the microstructure noise affect the optimal sampling frequency? The answer is that a
+small positive (resp. negative) departure of cum4[U] starting from the
+normal value of 0 leads to an increase (resp. decrease) in D, since
+0
+rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ!2=3
+rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ!2=3 1
+4
+2a4
+@ 1 þ 1  2a
+A
+ 1 1 2 4
+2
+4
+T s
+T s
+rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+cum4 ½U 
+D ¼ Dnormal þ
+2a4 8=3
+1=3
+4=3
+1=3
+32 a T
+1  2 4s
+T s
+
+	
+þ O cum4 ½U 2 ,
+
+ð21Þ
+
+where Dnormal is the value of D corresponding to Cum4 [U] ¼ 0. And, of
+course, the full formula (19) can be used to get the exact answer for any
+departure from normality instead of the comparative static one.
+Another interesting asymptotic situation occurs if one attempts to use
+higher and higher frequency data (D ! 0, say sampled every minute) over
+a fixed time period (T fixed, say a day). Since the expressions in Theorem 1
+are exact small sample ones, they can in particular be specialized to
+analyze this situation. With n ¼ T/D, it follows from Equations (17) and
+(18) that
+ 
+ 2  2na2
+2nE U 2
+E s
+^ ¼
+þ oð nÞ ¼
+þ oðnÞ,
+T
+T
+ 
+ 2  2n 6a4 þ 2 cum4 ½U 
+4nE U 4
+var s
+^ ¼
+þ
+o
+ð
+n
+Þ
+¼
+þ oð nÞ
+T2
+T2
+
+ð22Þ
+ð23Þ
+
+so ðT=2nÞ^
+s2 becomes an estimator of E [U2] ¼ a2 whose asymptotic variance is E [U 4]. Note in particular that s
+^ 2 estimates the variance of the
+noise, which is essentially unrelated to the object of interest s2. This type
+of asymptotics is relevant in the stochastic volatility case we analyze in our
+companion paper [Zhang, Mykland, and Aı̈t-Sahalia (2003)].
+Our results also have implications for the two parallel tracks that have
+developed in the recent financial econometrics literature dealing with
+discretely observed continuous-time processes. One strand of the literature has argued that estimation methods should be robust to the potential
+issues arising in the presence of high frequency data and, consequently, be
+asymptotically valid without requiring that the sampling interval D
+separating successive observations tend to zero [see, e.g., Hansen and
+Scheinkman (1995), Aı̈t-Sahalia (1996), Aı̈t-Sahalia (2002)]. Another
+strand of the literature has dispensed with that constraint, and the asymptotic validity of these methods requires that D tend to zero instead of or in
+addition to, an increasing length of time T over which these observations
+
+362
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+are recorded [see, e.g., Andersen et al. (2003), Bandi and Phillips (2003),
+Barndorff-Nielsen and Shephard (2002)].
+The first strand of literature has been informally warning about the
+potential dangers of using high frequency financial data without accounting for their inherent noise [see, e.g., Aı̈t-Sahalia (1996, p. 529)], and we
+propose a formal modelization of that phenomenon. The implications of
+our analysis are most important for the second strand of the literature,
+which is predicated on the use of high frequency data but does not account
+for the presence of market microstructure noise. Our results show that the
+properties of estimators based on the local sample path properties of the
+process (such as the quadratic variation to estimate s2) change dramatically in the presence of noise. Complementary to this are the results of
+Gloter and Jacod (2000) which show that the presence of even increasingly
+negligible noise is sufficient to adversely affect the identification of s2.
+4. Concrete Implications for Empirical Work with High Frequency Data
+The clear message of Theorem 1 for empirical researchers working with
+high frequency financial data is that it may be optimal to sample less
+frequently. As discussed in the Introduction, authors have reduced their
+sampling frequency below that of the actual record of observations in a
+somewhat ad hoc fashion, with typical choices 5 min and up. Our analysis
+provides not only a theoretical rationale for sampling less frequently, but
+also gives a precise answer to the question of ‘‘how often one should
+sample?’’ For that purpose, we need to calibrate the parameters appearing
+in Theorem 1, namely s, a, cum4[U], D and T. We assume in this calibration exercise that the noise is Gaussian, in which case cum4[U ] ¼ 0.
+4.1 Stocks
+We use existing studies in empirical market microstructure to calibrate the
+parameters. One such study is Madhavan, Richardson, and Roomans
+(1997), who estimated on the basis of a sample of 274 NYSE stocks that
+approximately 60% of the total variance of price changes is attributable to
+market microstructure effects (they report a range of values for p from
+54% in the first half hour of trading to 65% in the last half hour, see their
+Table 4; they also decompose this total variance into components due to
+discreteness, asymmetric information, transaction costs and the interaction between these effects). Given that their sample contains an average of
+15 transactions per hour (their Table 1), we have in our framework
+p ¼ 60%,
+
+D ¼ 1=ð15  7  252Þ:
+
+ð24Þ
+
+These values imply from Equation (13) that a ¼ 0.16% if we assume a
+realistic value of s ¼ 30% per year. (We do not use their reported
+
+363
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Table 1
+Optimal sampling frequency
+T
+Value of a
+
+1 day
+
+0.01%
+0.05%
+0.1%
+0.15%
+0.2%
+0.3%
+0.4%
+0.5%
+0.6%
+0.7%
+0.8%
+0.9%
+1.0%
+
+1 min
+5 min
+12 min
+22 min
+32 min
+57 min
+1.4 h
+2h
+2.6 h
+3.3 h
+4.1 h
+4.9 h
+5.9 h
+
+1 year
+
+5 years
+
+4 min
+31 min
+1.3 h
+2.2 h
+3.3 h
+5.6 h
+1.3 day
+1.7 day
+2.2 days
+2.7 days
+3.2 days
+3.8 days
+4.3 days
+
+6 min
+53 min
+2.2 h
+3.8 h
+5.6 h
+1.5 day
+2.2 days
+2.9 days
+3.7 days
+4.6 days
+1.1 week
+1.3 week
+1.5 week
+
+(a) s ¼ 30% Stocks
+
+(b) s ¼ 10% Currencies
+0.005%
+0.01%
+0.02%
+0.05%
+0.10%
+
+4 min
+9 min
+23 min
+1.3 h
+3.5 h
+
+23 min
+58 min
+2.4 h
+8.2 h
+20.7 h
+
+39 min
+1.6 h
+4.1 h
+14.0 h
+1.5 day
+
+This table reports the optimal sampling frequency D given in Equation 19 for different values of the
+standard deviation of the noise term a and the length of the sample T. Throughout the table, the noise
+is assumed to be normally distributed (hence cum4[U] ¼ 0 in formula 19). In panel (a), the standard
+deviation of the efficient price process is s ¼ 30% per year, and at s ¼ 10% per year in panel (b). In both
+panels, 1 year ¼ 252 days, but in panel (a), 1 day ¼ 6.5 hours (both the NYSE and NASDAQ are open for
+6.5 h from 9:30 to 16:00 EST), while in panel (b), 1 day ¼ 24 hours as is the case for major currencies. A
+value of a ¼ 0.05% means that each transaction is subject to Gaussian noise with mean 0 and standard
+deviation equal to 0.05% of the efficient price. If the sole source of the noise were a bid/ask spread of size s,
+then a should be set to s/2. For example, a bid/ask spread of 10 cents on a $10 stock would correspond to
+a ¼ 0.05%. For the dollar/euro exchange rate, a bid/ask spread of s ¼ 0.04% translates into a ¼ 0.02%. For
+the bid/ask model, which is based on binomial instead of Gaussian noise, cum4[U] ¼ s4/8, but this
+quantity is negligible given the tiny size of s.
+
+volatility number since they apparently averaged the variance of price
+changes over the 274 stocks instead of the variance of the returns. Since
+different stocks have different price levels, the price variances across
+stocks are not directly comparable. This does not affect the estimated
+fraction p, however, since the price level scaling factor cancels out
+between the numerator and the denominator.)
+The magnitude of the effect is bound to vary by type of security, market
+and time period. Hasbrouck (1993) estimates the value of a to be 0.33%.
+Some authors have reported even larger effects. Using a sample of NASDAQ stocks, Kaul and Nimalendran (1990) estimate that about 50% of
+the daily variance of returns is due to the bid-ask effect. With s ¼ 40%
+(NASDAQ stocks have higher volatility), the values
+p ¼ 50%,
+
+D ¼ 1=252
+
+364
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+yield the value a ¼ 1.8%. Also on NASDAQ, Conrad, Kaul and
+Nimalendran (1991) estimate that 11% of the variance of weekly returns
+(see their Table 4, middle portfolio) is due to bid-ask effects. The values
+p ¼ 11%,
+
+D ¼ 1=52
+
+imply that a ¼ 1.4%.
+In Table 1, we compute the value of the optimal sampling interval D
+implied by different combinations of sample length (T ) and noise magnitude (a). The volatility of the efficient price process is held fixed at
+s ¼ 30% in Panel (A), which is a realistic value for stocks. The numbers
+in the table show that the optimal sampling frequency can be substantially
+affected by even relatively small quantities of microstructure noise.
+For instance, using the value a ¼ 0.15% calibrated from Madhavan,
+Richardson, and Roomans (1997), we find an optimal sampling interval
+of 22 minutes if the sampling length is 1 day; longer sample lengths lead to
+higher optimal sampling intervals. With the higher value of a ¼ 0.3%,
+approximating the estimate from Hasbrouck (1993), the optimal sampling
+interval is 57 min. A lower value of the magnitude of the noise translates
+into a higher frequency: for instance, D ¼ 5 min if a ¼ 0.05% and
+T ¼ 1 day. Figure 2 displays the RMSE of the estimator as a function of
+D and T, using parameter values s ¼ 30% and a ¼ 0.15%. The figure
+illustrates the fact that deviations from the optimal choice of D lead to a
+substantial increase in the RMSE: for example, with T ¼ 1 month, the
+RMSE more than doubles if, instead of the optimal D ¼ 1 h, one uses
+D ¼ 15 min.
+
+Figure 2
+^ 2 when the presence of the noise is ignored
+RMSE of the estimator s
+
+365
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Table 2
+Monte Carlo simulations: bias and variance when market microstructure noise is ignored
+Sampling interval
+5 min
+15 min
+30 min
+1h
+2h
+1 day
+1 week
+
+Theoretical mean
+
+Sample mean
+
+Theoretical stand. dev.
+
+Sample stand. dev.
+
+0.185256
+0.121752
+0.10588
+0.097938
+0.09397
+0.09113
+0.0902
+
+0.185254
+0.121749
+0.10589
+0.097943
+0.09401
+0.09115
+0.0907
+
+0.00192
+0.00208
+0.00253
+0.00330
+0.00448
+0.00812
+0.0177
+
+0.00191
+0.00209
+0.00254
+0.00331
+0.00440
+0.00811
+0.0176
+
+This table reports the results of M ¼ 10,000 Monte Carlo simulations of the estimator s
+^ 2 , with market
+microstructure noise present but ignored. The column ‘‘theoretical mean’’ reports the expected value of the
+estimator, as given in Equation (17) and similarly for the column ‘‘theoretical standard deviation’’ (the
+variance is given in Equation (18)). The ‘‘sample’’ columns report the corresponding moments computed
+over the M simulated paths. The parameter values used to generate the simulated data are s2 ¼ 0.32 ¼ 0.09
+and a2 ¼ (0.15%)2 and the length of each sample is T ¼ 1 year.
+
+4.2 Currencies
+Looking now at foreign exchange markets, empirical market microstructure studies have quantified the magnitude of the bid-ask spread. For
+example, Bessembinder (1994) computes the average bid/ask spread s in
+the wholesale market for different currencies and reports values of
+s ¼ 0.05% for the German mark, and 0.06% for the Japanese yen (see
+Panel B of his Table 2). We calculated the corresponding numbers for the
+1996–2002 period to be 0.04% for the mark (followed by the euro) and
+0.06% for the yen. Emerging market currencies have higher spreads: for
+instance, s ¼ 0.12% for Korea and 0.10% for Brazil. During the same
+period, the volatility of the exchange rate was s ¼ 10% for the German
+mark, 12% for the Japanese yen, 17% for Brazil and 18% for Korea. In
+Panel B of Table 1, we compute D with s ¼ 10%, a realistic value for the
+euro and yen. As we noted above, if the sole source of the noise were a bid/
+ask spread of size s, then a should be set to s/2. Therefore, Panel B reports
+the values of D for values of a ranging from 0.02% to 0.1%. For example,
+the dollar/euro or dollar/yen exchange rates (calibrated to s ¼ 10%,
+a ¼ 0.02%) should be sampled every D ¼ 23 min if the overall sample
+length is T ¼ 1 day, and every 1.1 h if T ¼ 1 year.
+Furthermore, using the bid/ask spread alone as a proxy for all microstructure frictions will lead, except in unusual circumstances, to an understatement of the parameter a, since variances are additive. Thus, since D is
+increasing in a, one should interpret the value of D read off 1 on the row
+corresponding to a ¼ s/2 as a lower bound for the optimal sampling
+interval.
+4.3 Monte Carlo Evidence
+To validate empirically these results, we perform Monte Carlo simulations. We simulate M ¼ 10,000 samples of length T ¼ 1 year of the process
+~ , and then
+X, add microstructure noise U to generate the observations X
+
+366
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+the log returns Y. We sample the log-returns at various intervals D ranging
+from 5 min to 1 week, and calculate the bias and variance of the estimator
+s
+^ 2 over the M simulated paths. We then compare the results to the
+theoretical values given in Equations (17) and (18) of Theorem 1. The
+noise distribution is Gaussian, s ¼ 30% and a ¼ 0.15% — the values
+we calibrated to stock returns data above. Table 2 shows that the theoretical values are in close agreement with the results of the Monte Carlo
+simulations.
+Table 2 also illustrates the magnitude of the bias inherent in sampling
+at too high a frequency. While the value of s2 used to generate the data is
+0.09, the expected value of the estimator when sampling every 5 min is
+0.18, so on average the estimated quadratic variation is twice as big as it
+should be in this case.
+5. Incorporating Market Microstructure Noise Explicitly
+So far we have stuck to the sum of squares of log-returns as our estimator
+of volatility. We then showed that, for this estimator, the optimal sampling frequency is finite. However, this implies that one is discarding a
+large proportion of the high frequency sample (299 out of every 300
+observations in the example described in the introduction), in order to
+mitigate the bias induced by market microstructure noise. Next, we show
+that if we explicitly incorporate the Us into the likelihood function, then
+we are back in a situation where the optimal sampling scheme consists in
+sampling as often as possible — that is, using all the data available.
+Specifying the likelihood function of the log-returns, while recognizing
+that they incorporate noise, requires that we take a stand on the distribution of the noise term. Suppose for now that the microstructure noise is
+normally distributed, an assumption whose effect we will investigate
+below in Section 6. Under this assumption, the likelihood function for
+the Ys is given by
+
+
+
+
+ 1
+l h, g2 ¼ ln detðV Þ=2  N ln 2pg 2 =2  2g 2 Y 0 V 1 Y , ð25Þ
+where the covariance matrix for the vector Y ¼ (Y1, . . . ,YN)0 is given by
+g 2V, where
+1
+0
+1 þ h2
+h
+0
+
+0
+B
+.. C
+B h
+1 þ h2
+h
+»
+. C
+C
+B
+C
+B
+ 
+B
+2
+V ¼ vij i; j¼1; ... ;N ¼ B 0
+h
+1þh
+»
+0 C
+C ð26Þ
+C
+B
+C
+B ..
+@ .
+»
+»
+»
+h A
+0
+
+0
+h 1 þ h2
+
+367
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Further,
+detðV Þ ¼
+
+1  h2Nþ2
+1  h2
+
+ð27Þ
+
+and, neglecting the end effects, an approximate inverse of V is the matrix
+V ¼ [vij]i, j¼1, . . . , N where
+
+1
+vij ¼ 1  h2 ðhÞjijj
+[see Durbin (1959)]. The product VV differs from the identity matrix only
+on the first and last rows. The exact inverse is V1 ¼ [vij]i, j ¼ 1, . . . ,N where
+
+1 
+1 n
+vij ¼ 1  h2
+1  h2Nþ2
+ðhÞjijj  ðhÞiþj  ðhÞ2Nijþ2
+o
+ðhÞ2Nþjijjþ2 þ ðhÞ2Nþijþ2 þ ðhÞ2Niþjþ2
+
+ð28Þ
+
+[see Shaman (1969), Haddad (1995)].
+From the perspective of practical implementation, this estimator is
+nothing else than the MLE estimator of an MA(1) process with Gaussian
+errors: any existing computer routines for the MA(1) situation can, therefore, be applied [see e.g., Hamilton (1995, Section 5.4)]. In particular, the
+likelihood function can be expressed in a computationally efficient form
+by triangularizing the matrix V, yielding the equivalent expression:
+N
+N ~2
+
+
+Yi
+1X
+1X
+l h, g2 ¼ 
+lnð2pdi Þ 
+,
+2 i¼1
+2 i¼1 di
+
+ð29Þ
+
+where
+di ¼ g 2
+
+1 þ h2 þ    þ h2i
+1 þ h2 þ    þ h2ði  1Þ
+
+~ i s are obtained recursively as Y
+~ 1 ¼ Y1 and for i ¼ 2, . . . , N:
+and the Y
+
+
+h 1 þ h2 þ    þ h2ði  2Þ ~
+~
+Yi ¼ Yi 
+Yi1 :
+1 þ h2 þ    þ h2ði  1Þ
+This latter form of the log-likelihood function involves only single sums as
+opposed to double sums if one were to compute Y 0 V 1Y by brute force
+using the expression of V 1 given above.
+We now compute the distribution of the MLE estimators of s2 and a2,
+which follows by the delta method from the classical result for the MA(1)
+estimators of g and h by the following proposition.
+
+368
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+Proposition 1. When U is normally distributed, the MLE ð^
+s2 , ^a2 Þ is
+consistent and its asymptotic variance is given by
+ 2 2
+^ ,^
+a
+avarnormal s
+0 pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+
+
+6
+4 s Dð4a2 þ s2 DÞ þ 2s4 D
+s2 Dh D, s2 , a2
+¼@
+ 
+ A,
+D 2
+2a þ s2 D h D, s2 , a2
+
+2
+
+with
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+
+h D, s2 , a2  2a2 þ s2 Dð4a2 þ s2 DÞ þ s2 D:
+
+ð30Þ
+
+Since avarnormal ð^
+s2 Þ is increasing in D, it is optimal to sample as often as
+possible. Further, since
+ 2
+avarnormal s
+^ ¼ 8s3 aD1=2 þ 2s4 D þ oðDÞ,
+
+ð31Þ
+
+the loss of efficiency relative to the case where no market microstructure
+noise is present (and, if a2¼0 is not estimated, avarð^
+s2 Þ ¼ 2s4 D as given
+2
+in Equation (7), or if a ¼0 is estimated, avar(s)¼6^
+s4 d) is at order D1/2.
+2
+Figure 3 plots the asymptotic variances of s
+^ as functions of D with and
+without noise (the parameter values are again s ¼ 30% and a ¼ 0.15%).
+Figure 4 reports histograms of the distributions of s
+^ 2 and ^a2 from 10,000
+Monte Carlo simulations with the solid curve plotting the asymptotic
+distribution of the estimator from Proposition 1. The sample path is of
+length T ¼ 1 year, the parameter values are the same as above, and the
+
+Figure 3
+^ 2 without and with noise taken into account
+Comparison of the asymptotic variances of the MLE s
+
+369
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Figure 4
+^ 2 , a^2 ) with Gaussian microstructure noise
+Asymptotic and Monte Carlo distributions of the MLE (s
+
+process is sampled every 5 min — since we are now accounting explicitly
+for the presence of noise, there is no longer a reason to sample at lower
+frequencies. Indeed, the figure documents the absence of bias and the
+good agreement of the asymptotic distribution with the small sample one.
+6. The Effect of Misspecifying the Distribution of the
+Microstructure Noise
+We now study a situation where one attempts to incorporate the presence
+of the Us into the analysis, as in Section 5, but mistakenly assumes a
+
+370
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+misspecified model for them. Specifically, we consider the case where the
+Us are assumed to be normally distributed when in reality they have a
+different distribution. We still suppose that the Us are i.i.d. with mean zero
+and variance a2.
+Since the econometrician assumes the Us to have a normal distribution,
+inference is still done with the log-likelihood l(s2, a2), or equivalently
+l(h, g 2) given in Equation (25), using Equations (9) and (10). This means
+that the scores l_s2 and l_a2 , or equivalently Equations (C.1) and (C.2) are
+used as moment functions (or ‘‘estimating equations’’). Since the first
+order moments of the moment functions only depend on the second
+order moment structure of the log-returns (Y1, . . . ,YN), which is
+unchanged by the absence of normality, the moment functions are unbiased under the true distribution of the Us:
+h i
+h i
+Etrue l_h ¼ Etrue l_g2 ¼ 0
+ð32Þ
+s2 , ^a2 Þ based on these
+and similarly for l_s2 and l_a2 . Hence the estimator ð^
+moment functions is consistent and asymptotically unbiased (even though
+the likelihood function is misspecified).
+The effect of misspecification, therefore, lies in the asymptotic variance
+matrix. By using the cumulants of the distribution of U, we express the
+asymptotic variance of these estimators in terms of deviations from normality. But as far as computing the actual estimator, nothing has changed
+relative to Section 5: we are still calculating the MLE for an MA(1)
+process with Gaussian errors and can apply exactly the same computational routine.
+However, since the error distribution is potentially misspecified, one
+could expect the asymptotic distribution of the estimator to be altered.
+This does not happen, as far as s
+^ 2 is concerned: see the following theorem.
+^2 Þ obtained by maximizing the possibly
+Theorem 2. The estimators ð^
+s2 , a
+misspecified log-likelihood function (25) are consistent and their asymptotic
+variance is given by
+
+
+
+ 2 2
+ 2 2
+0 0
+^ ,^
+a ¼ avarnormal s
+^ , ^a þ cum4 ½U 
+,
+ð33Þ
+avartrue s
+0 D
+^2 Þ is the asymptotic variance in the case where the
+where avarnormal ð^
+s2 , a
+distribution of U is normal, that is, the expression given in Proposition 1.
+In other words, the asymptotic variance of s
+^ 2 is identical to its expression
+if the Us had been normal. Therefore, the correction we proposed for
+the presence of market microstructure noise relying on the assumption
+that the noise is Gaussian is robust to misspecification of the error
+distribution.
+
+371
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Documenting the presence of the correction term through simulations
+presents a challenge. At the parameter values calibrated to be realistic, the
+order of magnitude of a is a few basis points, say a ¼ 0.10% ¼ 103. But if
+U if of order 103, cum4[U] which is of the same order as U 4, is of order
+1012. In other words, with a typical noise distribution, the correction
+term in Equation (33) will not be visible.
+Nevertheless, to make it discernible, we use a distribution for U with the
+same calibrated standard deviation a as before, but a disproportionately
+large fourth cumulant. Such a distribution can be constructed by letting
+U ¼ vTn where v > 0 is constant and Tn is a Student t distribution with v
+degrees of freedom. Tn has mean zero, finite variance as long as v > 2 and
+finite fourth moment (hence finite fourth cumulant) as long as v > 4. But
+as v approaches 4 from above, E½Tn4  tends to infinity. This allows us to
+produce an arbitrarily high value of cum4[U] while controlling for the
+magnitude of the variance. The specific expressions of a2 and cum4[U] for
+this choice of U are given by
+a2 ¼ var½U  ¼
+
+cum4 ½U  ¼
+
+v2 n
+,
+n2
+
+6v4 n2
+ðn  4Þðn  2Þ2
+
+:
+
+ð34Þ
+
+ð35Þ
+
+Thus, we can select the two parameters (v, n) to produce desired values of
+(a2, cum4[U ]). As before, we set a ¼ 0.15%. Then, given the form of the
+asymptotic variance matrix Equation (33), we set cum4[U ] so that
+cum4 ½UD ¼ avarnormal ð^
+a2 Þ=2. This makes avartrue ð^a2 Þ by construction
+50% larger than avarnormal ð^
+a2 Þ. The resulting values of (v, n) from solving
+Equations (34) and (35) are v ¼ 0.00115 and v ¼ 4.854. As above, we set
+the other parameters to s ¼ 30%, T ¼ 1 year, and D ¼ 5 minutes. Figure 5
+reports histograms of the distributions of s
+^ 2 and ^a2 from 10,000 Monte
+Carlo simulations. The solid curve plots the asymptotic distribution of the
+estimator, given now by Equation (33). There is again good adequacy
+between the asymptotic and small sample distributions. In particular, we
+note that as predicted by Theorem 2, the asymptotic variance of s
+^ 2 is
+2
+unchanged relative to Figure 4 while that of ^a is 50% larger. The small
+sample distribution of s
+^ 2 appears unaffected by the non-Gaussianity of
+the noise; with a skewness of 0.07 and a kurtosis of 2.95, it is closely
+approximated by its asymptotic Gaussian limit. The small sample distribution of ^
+a2 does exhibit some kurtosis (4.83), although not large relative
+to that of the underlying noise distribution (the values of v and n imply a
+kurtosis for U of 3 þ 6/(n  4) ¼ 10). Similar simulations but with a longer
+time span of T ¼ 5 years are even closer to the Gaussian asymptotic limit:
+the kurtosis of the small sample distribution of ^a2 goes down to 2.99.
+
+372
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+Figure 5
+^ 2 , a^2 ) with misspecified microstructure noise
+Asymptotic and Monte Carlo distributions of the QMLE (s
+
+7. Robustness to Misspecification of the Noise Distribution
+Going back to the theoretical aspects, the above Theorem 2 has implications for the use of the Gaussian likelihood l that go beyond consistency,
+namely that this likelihood can also be used to estimate the distribution of
+s
+^ 2 under misspecification. With l denoting the log-likelihood assuming
+that the Us are Gaussian, given in Equation (25), €l ð^
+s2 , ^a2 Þ denote the
+observed information matrix in the original parameters s2 and a2. Then
+
+
+
+1 € 2 2  1
+^
+d normal ¼  l s
+^ , ^a
+V ¼ avar
+T
+
+373
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+is the usual estimate of asymptotic variance when the distribution is
+correctly specified as Gaussian. Also note, however, that otherwise, so
+^ is also a consistent estimate of the matrix
+long as ð^
+s2 , ^
+a2 Þ is consistent, V
+2 ^2
+avarnormal ð^
+s , a Þ. Since this matrix coincides with avartrue ð^
+s2 , ^a2 Þ for all
+2
+2
+but the (a , a ) term (see Equation (33)), the asymptotic variance of
+^ s2 s2 . The similar statement is
+T 1=2 ð^
+s2  s2 Þ is consistently estimated by V
+true for the covariances, but not, obviously, for the asymptotic variance of
+T 1=2 ð^
+a2  a2 Þ.
+In the likelihood context, the possibility of estimating the asymptotic
+variance by the observed information is due to the second Bartlett identity. For a general log likelihood l, if S  Etrue ½l_l_0 =N and D  Etrue ½€l =N
+(differentiation refers to the original parameters (s2, a2), not the transformed parameters (g 2, h)) this identity says that
+S  D ¼ 0:
+
+ð36Þ
+
+It implies that the asymptotic variance takes the form
+
+1
+avar ¼ D DS 1 D ¼ DD1 :
+
+ð37Þ
+
+It is clear that Equation (37) remains valid if the second Bartlett identity
+holds only to first order, that is,
+S  D ¼ oð1Þ
+
+ð38Þ
+
+as N ! 1, for a general criterion function l which satisfies Etrue ½l_ ¼ oðNÞ.
+However, in view of Theorem 2, Equation (38) cannot be satisfied. In
+fact, we show in Appendix E that
+S  D ¼ cum4 ½U gg0 þ oð1Þ,
+
+ð39Þ
+
+where
+
+
+g¼
+
+gs 2
+ga2
+
+
+
+0
+
+D1=2
+3=2
+þ s 2 DÞ
+
+1
+
+B
+C
+
+
+ C:
+¼B
+@ 1
+D1=2 sð6a2 þ s2 DÞ A
+1
+3=2
+ð4a2 þ s2 DÞ
+2a4
+sð4a2
+
+ð40Þ
+
+From Equation (40), we see that g 6¼ 0 whenever s2 > 0. This is consistent
+with the result in Theorem 2 that the true asymptotic variance matrix,
+avartrue ð^
+s2 , ^
+a2 Þ; does not coincide with the one for Gaussian noise,
+avarnormal ð^
+s2 , ^
+a2 Þ. On the other hand, the 2  2 matrix gg0 is of rank 1,
+signaling that there exist linear combinations that will cancel out the first
+column of S  D. From what we already know of the form of the correction matrix, D1 gives such a combination that the asymptotic variance of
+the original parameters (s2, a2) will have the property that its first column
+is not subject to correction in the absence of normality.
+
+374
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+A curious consequence of Equation (39) is that while the observed
+information can be used to estimate the asymptotic variance of s
+^ 2 when
+2
+2
+a is not known, this is not the case when a is known. This is because the
+second Bartlett identity also fails to first order when considering a2 to
+be known, that is, when differentiating with respect to s2 only. Indeed,
+in that case we have from the upper left component in the matrix
+Equation (39):
+h
+h
+
+2 i
+
+i
+Ss2 s2  Ds2 s2 ¼ N 1 Etrue is2 s2 s2 , a2
+þ N 1 Etrue €ls2 s2 s2 , a2
+¼ cum4 ½U Þðgs2 Þ2 þ oð1Þ,
+which is not o(1) unless cum4 [U ] ¼ 0.
+To make the connection between Theorem 2 and the second Bartlett
+identity, one needs to go to the log profile likelihood
+ 
+
+
+l s2  sup l s2 , a2 :
+
+ð41Þ
+
+a2
+
+Obviously, maximizing the likelihood l(s2, a2) is the same as maximizing
+l(s2). Thus one can think of s2 as being estimated (when a2 is unknown)
+by maximizing the criterion function l(s2), or by solving l_ ð^
+s2 Þ ¼ 0. Also,
+the observed profile information is related to the original observed
+information by
+ 2 1 h  2 2 1 i
+€ s
+l
+^
+¼ €l s
+^ , ^a
+
+s2 s2
+
+,
+
+ð42Þ
+
+that is, the first (upper left hand corner) component of the inverse
+observed information in the original problem. We explain this in
+Appendix E, where we also show that Etrue ½l_  ¼ oðNÞ. In view of Theorem
+€ð^
+2, l
+s2 Þ can be used to estimate the asymptotic variance of s
+^ 2 under the
+true (possibly non-Gaussian) distribution of the Us, and so it must be that
+the criterion function l satisfies Equation (38), that is
+h  2 i
+  2 
+€ s
+N 1 Etrue l_ s2
+¼ oð1Þ:
+þ N 1 Etrue l
+
+ð43Þ
+
+This is indeed the case, as shown in Appendix E.
+This phenomenon is related, although not identical, to what occurs in
+the context of quasi-likelihood [for comprehensive treatments of quasilikelihood theory, see the books by McCullagh and Nelder (1989) and
+Heyde (1997), and the references therein, and for early econometrics
+examples, see Macurdy (1982) and White (1982)]. In quasi-likelihood
+situations, one uses a possibly incorrectly specified score vector which is
+
+375
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+nevertheless required to satisfy the second Bartlett identity. What makes
+our situation unusual relative to quasi-likelihood is that the interest
+parameter s2 and the nuisance parameter a2 are entangled in the same
+estimating equations (l_s2 and l_a2 from the Gaussian likelihood) in such a
+way that the estimate of s2 depends, to first order, on whether a2 is known
+or not. This is unlike the typical development of quasi-likelihood, where
+the nuisance parameter separates out [see, e.g., McCullagh and Nelder
+(1989, Table 9.1, p. 326)]. Thus only by going to the profile likelihood l
+can one make the usual comparison to quasi-likelihood.
+8. Randomly Spaced Sampling Intervals
+One essential feature of transaction data in finance is that the time that
+separates successive observations is random, or at least time-varying. So,
+as in Aı̈t-Sahalia and Mykland (2003), we are led to consider the case
+where Di ¼ t i  t i1 are either deterministic and time-varying, or random
+in which case we assume for simplicity that they are i.i.d., independent of
+the W process. This assumption, while not completely realistic [see Engle
+and Russell (1998) for a discrete time analysis of the autoregressive
+dependence of the times between trades] allows us to make explicit calculations at the interface between the continuous and discrete time scales.
+We denote by NT the number of observations recorded by time T. NT is
+random if the Ds are. We also suppose that Uti can be written Ui, where the
+Ui are i.i.d. and independent of the W process and the Dis. Thus, the
+observation noise is the same at all observation times, whether random or
+nonrandom. If we define the Yis as before, in the first two lines of
+Equation (8), though the MA(1) representation is not valid in the same
+form.
+We can do inference conditionally on the observed sampling times, in
+light of the fact that the likelihood function using all the available information is
+LðYN , DN , . . . , Y1 , D1 ; b, cÞ ¼ LðYN , . . . , Y1 jDN , . . . , D1 ; bÞ
+ LðDN , . . . , D1 ; cÞ,
+where b are the parameters of the state process, that is (s2, a2), and c are
+the parameters of the sampling process, if any (the density of the sampling
+intervals density L(DNT, . . . , D1; c) may have its own nuisance parameters
+c, such as an unknown arrival rate, but we assume that it does not depend
+on the parameters b of the state process). The corresponding loglikelihood function is
+N
+X
+n¼1
+
+ln LðYN , . . . , Y1 jDN , . . . , D1 ; bÞ þ
+
+N
+1
+X
+
+ln LðDN , . . . , D1 ; cÞ
+
+n¼1
+
+376
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ð44Þ
+
+Sampling and Market Microstructure Noise
+
+and since we only care about b, we only need to maximize the first term in
+that sum.
+We operate on the covariance matrix  of the log-returns Ys, now
+given by
+1
+0
+s2 D1 þ 2a2
+a2
+0
+
+0
+C
+B
+..
+C
+B
+C
+B
+s2 D2 þ 2a2
+a2
+»
+.
+a2
+C
+B
+C
+B
+2
+2
+2
+¼B
+C: ð45Þ
+0
+a
+s D3 þ 2a
+»
+0
+C
+B
+C
+B
+.
+..
+2
+C
+B
+»
+»
+»
+a
+A
+@
+0
+
+
+
+a2
+
+0
+
+s2 Dn þ 2a2
+
+Note that in the equally spaced case,  ¼ g2V. But now Y no longer
+follows an MA(1) process in general. Furthermore, the time variation in
+Dis gives rise to heteroskedasticity as is clear from the diagonal elements of
+. This is consistent with the predictions of the model of Easley and
+~ is
+O’Hara (1992) where the variance of the transaction price process X
+heteroskedastic as a result of the influence of the sampling times. In their
+model, the sampling times are autocorrelated and correlated with the
+evolution of the price process, factors we have assumed away here.
+However, Aı̈t-Sahalia and Mykland (2003) show how to conduct likelihood inference in such a situation.
+The log-likelihood function is given by
+ln LðYN , . . . , Y1 jDN , . . . , D1 ; bÞ
+
+
+ l s2 , a2 ¼ ln detðÞ=2  Nlnð2pÞ=2  Y 0 1 Y =2:
+
+ð46Þ
+
+In order to calculate this log-likelihood function in a computationally
+efficient manner, it is desirable to avoid the ‘‘brute force’’ inversion of
+the N  N matrix . We extend the method used in the MA(1) case (see
+Equation (29)) as follows. By Theorem 5.3.1 in Dahlquist and Bj€
+orck
+(1974), and the development in the proof of their Theorem 5.4.3, we can
+decompose  in the form  ¼ LDLT, where L is a lower triangular matrix
+whose diagonals are all 1 and D is diagonal. To compute the relevant quantities, their Example 5.4.3 shows that if one writes D ¼
+diag(g1, . . . , gn) and
+1
+0
+1
+0
+0  0
+.. C
+B
+B k2
+1
+0
+»
+.C
+C
+B
+B0 k
+1 » 0C
+ð47Þ
+L¼B
+C,
+3
+C
+B
+.
+C
+B .
+@ .
+» » » 0A
+0
+
+
+
+0
+
+kn
+
+1
+
+377
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+then the gk s and kk s follow the recursion equation g1 ¼ s2D1 þ 2a2 and for
+i ¼ 2, . . . , N:
+ki ¼ a2 =gi1
+
+and
+
+gi ¼ s2 Di þ 2a2 þ ki a2 :
+
+ð48Þ
+
+~ ¼ L1 Y so that Y 0 1 Y ¼ Y
+~ . From Y ¼ LY
+~ , it
+~ 0 D1 Y
+Then, define Y
+~
+follows that Y1 ¼ Y1 and, for i ¼ 2, . . . , N:
+~ i ¼ Yi  ki Y
+~ i1 :
+Y
+And det() ¼ det(D) since det(L) ¼ 1. Thus we have obtained a computationally simple form for Equation (46) that generalizes the MA(1) form in
+Equation (29) to the case of non-identical sampling intervals:
+N
+N ~2
+
+
+Yi
+1X
+1X
+l s 2 , a2 ¼ 
+lnð2pgi Þ 
+:
+2 i¼1
+2 i¼1 gi
+
+ð49Þ
+
+We can now turn to statistical inference using this likelihood function.
+s2  s2 , ^a2  a2 Þ is of the form
+As usual, the asymptotic variance of T 1=2 ð^
+01 h
+i 1 h
+i 11
+E €ls2 s2
+E €ls2 a2
+ 2 2
+B
+C
+T
+avar s
+^ ,^
+a ¼ lim @ T
+ð50Þ
+h
+iA :
+1
+T !1
+€
+
+E la2 a2
+T
+
+To compute this quantity, suppose in the following that b1 and b2 can
+represent either s2 or a2. We start with:
+Lemma 2. Fisher’s Conditional Information is given by
+h
+ i
+1 q2 ln det 
+E €lb2 b1 D ¼ 
+:
+2 qb2 b1
+
+ð51Þ
+
+To compute the asymptotic distribution of the MLE of (b1, b2), one would
+then need to compute the inverse of E½€lb2 b1  ¼ ED ½E½€lb2 b1 jD where ED
+denotes expectation taken over the law of the sampling intervals. From
+Equation (51), and since the order of ED and q2/qb2b1 can be interchanged, this requires the computation of
+ED ½ln det  ¼ ED ½ln det D ¼
+
+N
+X
+ED ½lnðgi Þ,
+i¼1
+
+where from Equation (48) the gis are given by the continuous fraction
+g1 ¼ s2 D1 þ 2a2 ,
+g3 ¼ s2 D3 þ 2a2 
+
+g2 ¼ s2 D2 þ 2a2 
+
+a4
+,
+s2 D1 þ 2a2
+
+a4
+s2 D2 þ 2a2 
+
+a4
+s2 D1 þ 2a2
+
+378
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+and in general
+a4
+
+gi ¼ s2 Di þ 2a2 
+
+s2 Di1 þ 2a2 
+
+a4
+»
+
+It, therefore, appears that computing the expected value of ln(gi) over the
+law of (D1, D2, . . . , Di) will be impractical.
+8.1 Expansion around a fixed value of D
+To continue further with the calculations, we propose to expand around a
+fixed value of D, namely D0 ¼ E [D]. Specifically, suppose now that
+Di ¼ D0 ð1 þ eji Þ,
+
+ð52Þ
+
+where e and D0 are nonrandom, the jis are i.i.d. random variables with
+mean zero and finite distribution. We will Taylor-expand the expressions
+above around e ¼ 0, that is, around the non-random sampling case we
+have just finished dealing with. Our expansion is one that is valid when the
+randomness of the sampling intervals remains small, that is, when var[Di]
+is small, or o(1). Then we have D0 ¼ E [D] ¼ O(1) and var½Di  ¼ D20 e2 var½ji .
+The natural scaling is to make the distribution of ji finite, that is,
+var[ji] ¼ O(1), so that e2 ¼ O(var[Di]) ¼ o(1). But any other choice would
+have no impact on the result since var[Di] ¼ o(1) implies that the product
+e2var[ji] is o(1) and whenever we write remainder terms below they can be
+expressed as Op(e3j3) instead of just O(e3). We keep the latter notation for
+clarity given that we set ji ¼ Op(1). Furthermore, for simplicity, we take
+the jis to be bounded.
+We emphasize that the time increments or durations Di do not tend to
+zero length as e ! 0. It is only the variability of the Dis that goes to zero.
+Denote by 0 the value of  when D is replaced by D0, and let X denote
+the matrix whose diagonal elements are the terms D0ji, and whose
+off-diagonal elements are zero. We obtain the following theorem.
+Theorem 3. The MLE ð^
+s2 , ^
+a2 Þ is again consistent, this time with asymptotic
+variance
+ 2 2
+ 
+ð53Þ
+avar s
+^ ,^
+a ¼ Að0Þ þ e2 Að2Þ þ O e3 ,
+where
+Að0Þ
+
+0 pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+4 s6 D0 ð4a2 þ s2 D0 Þ þ 2s4 D0
+@
+¼
+
+
+
+
+1
+s2 D0 h D0 , s2 , a2
+ 
+A
+D0  2
+2a þ s2 D0 h D0 , s2 , a2
+2
+
+379
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+and
+ð2Þ
+
+A
+
+var½j
+¼
+2
+ð4a þ D0 s2 Þ
+
+As2 s2
+
+ð2Þ
+
+As2 a2
+
+ð2Þ
+
+
+
+Aa2 a2
+
+!
+
+ð2Þ
+
+with
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð2Þ
+3=2
+As2 s2 ¼ 4ðD20 s6 þ D0 s5 4a2 þ D0 s2 Þ,
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð2Þ
+3=2
+As2 a2 ¼ D0 s3 4a2 þ D0 s2 ð2a2 þ 3D0 s2 Þ þ D20 s4 ð8a2 þ 3D0 s2 Þ,
+pﬃﬃﬃﬃﬃﬃpﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð2Þ
+Aa2 a2 ¼ D20 s2 ð2a2 þ s D0 4a2 þ D0 s2 þ D0 s2 Þ2 :
+In connection with the preceding result, we underline that the quantity
+avarð^
+s2 , ^
+a2 Þ is a limit as T ! 1, as in Equation (50). Equation (53),
+therefore, is an expansion in e after T ! 1.
+Note that A(0) is the asymptotic variance matrix already present in
+Proposition 1, except that it is evaluated at D0 = E[D]. Note also that the
+second order correction term is proportional to var[j], and is therefore
+zero in the absence of sampling randomness. When that happens, D ¼ D0
+with probability one and the asymptotic variance of the estimator reduces
+to the leading term A(0), that is, to the result in the fixed sampling case
+given in Proposition 1.
+8.2 Randomly spaced sampling intervals and misspecified
+microstructure noise
+Suppose now, as in Section 6, that the Us are i.i.d., have mean zero and
+variance a2, but are otherwise not necessarily Gaussian. We adopt the
+same approach as in Section 6, namely to express the estimator’s properties in terms of deviations from the deterministic and Gaussian case. The
+additional correction terms in the asymptotic variance are given in the
+following result.
+Theorem 4. The asymptotic variance is given by
+	
+
+	
+
+ 
+ 
+avartrue s
+^, ^
+a2 ¼ Að0Þ þ cum4 ½U Bð0Þ þ e2 Að2Þ þ cum4 ½U Bð2Þ þ O e3
+ð54Þ
+where A(0) and A(2) are given in the statement of Theorem 3 and
+B
+
+ð0Þ
+
+
+
+¼
+
+0
+0
+
+0
+D0
+
+
+
+380
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+while
+B
+
+ð2Þ
+
+¼ var½j
+
+3=2
+
+ð2Þ
+Bs 2 s 2
+
+ð2Þ
+
+Bs2 a2 ¼
+
+ð2Þ
+Ba2 a2
+
+¼
+
+10D0 s5
+ð4a2 þ D0 s2 Þ
+
+5=2
+
+þ
+
+Bs2 s2
+
+ð 2Þ
+
+Bs2 a2
+
+ð2Þ
+
+
+
+Ba2 a2
+
+!
+
+ð 2Þ
+
+
+
+4D20 s6 16a4 þ 11a2 D0 s2 þ 2D20 s4
+3
+
+ð2a2 þ D0 s2 Þ ð4a2 þ D0 s2 Þ
+
+2
+
+D20 s4
+3
+
+5=2
+
+ð2a2 þ D0 s2 Þ ð4a2 þ D0 s2 Þ
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+
+4a2 þ D0 s2 32a6 þ 64a4 D0 s2 þ 35a2 D20 s4 þ 6D30 s6
+	
+1=2 
+þ D0 s 116a6 þ 126a4 D0 s2 þ 47a2 D20 s4 þ 6D30 s6
+
+
+
+5=2
+16a8 D0 s3 13a4 þ 10a2 D0 s2 þ 2D20 s4
+¼
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ	2 :
+3
+5=2
+ð2a2 þ D0 s2 Þ ð4a2 þ D0 s2 Þ
+2a2 þ s2 D s2 Dð4a2 þ s2 DÞ
+
+The term A(0) is the base asymptotic variance of the estimator, already
+present with fixed sampling and Gaussian noise. The term cum4[U ]B(0) is
+the correction due to the misspecification of the error distribution. These
+two terms are identical to those present in Theorem 2. The terms proportional to e2 are the further correction terms introduced by the randomness
+of the sampling. A(2) is the base correction term present even with
+Gaussian noise in Theorem 3, and cum4 [U ]B(2) is the further correction
+due to the sampling randomness. Both A(2) and B(2) are proportionalto
+var[j] and hence vanish in the absence of sampling randomness.
+
+9. Extensions
+In this section, we briefly sketch four extensions of our basic model. First,
+we show that the introduction of a drift term does not alter our conclusions. Then we examine the situation where market microstructure noise is
+serially correlated; there, we show that the insight of Theorem 1 remains
+valid, namely that the optimal sampling frequency is finite. Third, we turn
+to the case where the noise is correlated with the efficient price signal.
+Fourth, we discuss what happens if volatility is stochastic.
+In a nutshell, each one of these assumptions can be relaxed without
+affecting our main conclusion, namely that the presence of the noise gives
+rise to a finite optimal sampling frequency. The second part of our analysis, dealing with likelihood corrections for microstructure noise, will not
+
+381
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+necessarily carry through unchanged if the assumptions are relaxed (for
+instance, there is not even a known likelihood function if volatility is
+stochastic, and the likelihood must be modified if the assumed variancecovariance structure of the noise is modified).
+9.1 Presence of a drift coefficient
+What happens to our conclusions when the underlying X process has a
+drift? We shall see in this case that the presence of the drift does not alter
+our earlier conclusions. As a simple example, consider linear drift, that is,
+replace Equation (2) with
+Xt ¼ mt þ sWt :
+
+ð55Þ
+
+The contamination by market microstructure noise is as before: the
+observed process is given by Equation (3).
+~ ti  X
+~ ti1 þ
+As before, we first-difference to get the log-returns Yi ¼ X
+Uti  Uti1 . The likelihood function is now
+lnLðY1 , ..., YN jDN , .. .,D1 ; bÞ
+
+
+ l s2 ,a2 ,m ¼ ln detðÞ=2  N lnð2pÞ=2  ðY  mDÞ0 1 ðY  mDÞ=2,
+where the covariance matrix is given in Equation (45), and where
+D ¼ (D1, . . . , DN)0 . If b denotes either s2 or a2, one obtains
+1
+
+€lmb ¼ D0 q ðY  mDÞ,
+qb
+so that E½€lmb jD ¼ 0 no matter whether the Us are normally distributed or
+have another distribution with mean 0 and variance a2. In particular,
+h i
+E €lmb ¼ 0:
+ð56Þ
+Now let E½€l  be the 3  3 matrix of expected second likelihood derivatives.
+Let E½€l  ¼ TE½DD þ oðTÞ. Similarly define covðl_, l_Þ ¼ TE½DS þ oðTÞ.
+As before, when the Us have a normal distribution, S ¼ D, and otherwise
+that is not the case. The asymptotic variance matrix of the estimators is of
+the form avar ¼ E [D]D1SD1.
+Let Ds2;a2 be the corresponding 2  2 matrix when estimation is carried
+out on s2 and a2 for known m, and Dm is the asymptotic information on m
+for known s2 and a2. Similarly define Ss2;a2 and avars2;a2. Since D is block
+diagonal by Equation (56),
+
+
+
+D s 2 ; a2 0
+D¼
+,
+00
+Dm
+
+382
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+it follows that
+D
+Hence
+
+1
+
+¼
+
+D1
+s2 ;a2
+
+0
+
+00
+
+D1
+m
+
+!
+:
+
+ 2 2
+1
+avar s
+^ ,^
+a ¼ E ½DD1
+s2 ;a2 Ss2 ;a2 Ds2 ;a2 :
+
+ð57Þ
+
+The asymptotic variance ofð^
+s2 , ^
+a2 Þ is thus the same as if m were known, in
+other words, as if m ¼ 0, which is the case that we focused on in all the
+previous sections.
+9.2 Serially correlated noise
+We now examine what happens if we relax the assumption that the market
+microstructure noise is serially independent. Suppose that, instead of being
+i.i.d. with mean 0 and variance a2, the market microstructure noise follows
+dUt ¼ bUt dt þ cdZt ,
+
+ð58Þ
+
+where b > 0, c > 0 and Z is a Brownian motion independent of W. UDjU0
+has a Gaussian distribution with mean ebDU0 and variance c2/2b(1 
+e2bD). The unconditional mean and variance of U are 0 and a2 = c2/2b.
+The main consequence of this model is that the variance contributed by
+the noise to a log-return observed over an interval of time D is now of
+order O(D), that is of the same order as the variance of the efficient price
+process s2D, instead of being of order O(1) as previously. In other words,
+log-prices observed close together have very highly correlated noise terms.
+Because of this feature, this model for the microstructure noise would be
+less appropriate if the primary source of the noise consists of bid-ask
+bounces. In such a situation, the fact that a transaction is on the bid or
+ask side has little predictive power for the next transaction, or at least not
+enough to predict that two successive transactions are on the same side
+with very high probability [although Choi, Salandro, and Shastri (1988)
+have argued that serial correlation in the transaction type can be a component of the bid-ask spread, and extended the model of Roll (1984) to
+allow for it]. On the other hand, the model (58) can better capture effects
+such as the gradual adjustment of prices in response to a shock such as a
+large trade. In practice, the noise term probably encompasses both of
+these examples, resulting in a situation where the variance contributed
+by the noise has both types of components, some of order O(1), some of
+lower orders in D.
+The observed log-returns take the form
+~ ti  X
+~ ti1 þ Uti  Uti1
+Yi ¼ X
+¼ sðWti  Wti1 Þ þ Uti  Uti1
+ wi þ ui ,
+
+383
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+where the wis are i.i.d. N(0, s2D), the uis are independent of the wis, so we
+have var½Yi  ¼ s2 D þ E½u2i , and they are Gaussian with mean zero and
+variance
+h
+i c2 1  ebD 
+ 2
+2
+¼ c2 D þ oðDÞ
+E ui ¼ E ðUti  Uti1 Þ ¼
+ð59Þ
+b
+instead of 2a2.
+In addition, the uis are now serially correlated at all lags since
+
+
+c2 1  ebDðikÞ
+E ½Uti Utk  ¼
+2b
+for i  k. The first-order correlation of the log-returns is now
+
+2
+ 
+c2 1  ebD
+c2 b 2
+D þ o D2
+covðYi , Yi1 Þ ¼ 
+¼
+2
+2b
+instead of h.
+The result analogous to Theorem 1 is as follows. If one ignores the
+presence of this type of serially correlated noise when estimating s2, then
+follows the theorem.
+Theorem 5. In small samples (finite T), the RMSE of the estimator s
+^ 2 is
+given by
+
+
+
+
+
+2Tb
+4
+bD 2 T 2bD
+
+
+e
+c
+1
+
+e
+
+1
+þ
+e
+2
+ 2
+c4 1  ebD
+D
+RMSE s
+^ ¼
+þ
+:
+2
+2
+2
+2
+2
+b D
+T b ð1 þ ebD Þ
+
+2 !1=2
+
+
+c2 1  ebD
+2
+2
+s Dþ
+þ
+TD
+b
+ 2
+2
+
+ 
+ 2
+s þ c2 D
+bc2
+1
+2
+Dþ
+þO D þO 2
+¼ c 
+c2 T
+T
+2
+
+ð60Þ
+
+so that for large T, starting from a value of c2 in the limit where D ! 0,
+increasing D first reduces RMSE [^
+s2 ]. Hence the optimal sampling
+frequency is finite.
+One would expect this type of noise to be not nearly as bad as i.i.d. noise
+for the purpose of inferring s2 from high frequency data. Indeed, the
+variance of the noise is of the same order O(D) as the variance of the
+efficient price process. Thus log returns computed from transaction prices
+sampled close together are not subject to as much noise as previously
+
+384
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+(O(D) versus O(1)) and the squared bias b2 of the estimator s
+^ 2 no longer
+4
+diverges to infinity as D ! 0: it has the finite limit c . Nevertheless, b2 first
+decreases as D increases from 0, since
+
+2
+  2
+ c4 1  ebD
+2
+2 2
+b ¼ E s
+^ s ¼
+b2 D2 e2bD
+and qb2/qD ! bc4 < 0 as D ! 0. For large enough T, this is sufficient to
+generate a finite optimal sampling frequency.
+To calibrate the parameter values b and c, we refer to the same empirical
+microstructure studies we mentioned in Section 4. We now have
+p ¼ E½u2i =ðs2 D þ E½u2i Þ as the proportion of total variance that is
+microstructure-induced; we match it to the numbers in Equation (24)
+from Madhavan, Richardson, and Roomans (1997). In their Table 5,
+they report the first-order correlation of price changes (hence returns) to
+be approximately r ¼ 0.2 at their frequency of observation. Here
+r ¼ cov(Yi, Yi1)/var[Yi]. If we match p ¼ 0.6 and r ¼ 0.2, with
+s ¼ 30% as before, we obtain (after rounding) c ¼ 0.5 and b ¼ 3  104.
+Figure 6 displays the resulting RMSE of the estimator as a function of D
+and T. The overall picture is comparable to Figure 2.
+As for the rest of the analysis of the article, dealing with likelihood
+corrections for microstructure noise, the covariance matrix of the logreturns, g2V in Equation (26) should be replaced by the matrix whose
+diagonal elements are
+
+
+ 
+ 
+ 
+c2 1  ebD
+var Yi2 ¼ E w2i þ E u2i ¼ s2 D þ
+b
+
+Figure 6
+^ 2 when the presence of serially correlated noise is ignored
+RMSE of the estimator s
+
+385
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+and off-diagonal elements i > j are:
+
+
+
+
+covðYi , Yj Þ ¼ E Yi Yj ¼ E ðwi þ ui Þðwj þ uj Þ
+
+
+
+
+¼ E ui uj ¼ E ðUti  Uti1 ÞðUtj  Utj1 Þ
+
+
+
+
+
+
+
+
+¼ E Uti Utj  E Uti Utj1  E Uti1 Utj þ E Uti1 Utj1
+
+2
+c2 1  ebD ebDði  j  1Þ
+:
+¼
+2b
+Having modified the matrix g2V, the artificial ‘‘normal’’ distribution that
+assumes i.i.d. Us that are N(0, a2) would no longer use the correct second
+moment structure of the data. Thus we cannot relate a priori the
+asymptotic variance of the estimator of the estimator s
+^ 2 to that of the
+i.i.d. normal case, as we did in Theorem 2.
+9.3 Noise correlated with the price process
+We have assumed so far that the U process was uncorrelated with the W
+process. Microstructure noise attributable to informational effects is likely
+to be correlated with the efficient price process, since it is generated by the
+response of market participants to information signals (i.e., to the efficient
+price process). This would be the case for instance in the bid-ask model
+with adverse selection of Glosten (1987). When the U process is no longer
+uncorrelated from the W process, the form of the variance matrix of the
+observed log-returns Y must be altered, replacing g 2vij in Equation (26)
+with
+
+
+
+
+
+
+cov Yi , Yj ¼ cov sðWti Wti1 Þ þ Uti  Uti1 , s Wtj Wtj1 þ Utj Utj1
+
+
+¼ s2 Ddij þ cov sðWti  Wti1 Þ, Utj Utj1
+ 
+
+
+þ cov s Wtj  Wtj1 , Uti  Uti1
+
+
+þ cov Uti  Uti1 , Utj Utj1 ,
+where dij is the Kronecker symbol.
+The small sample properties of the misspecified MLE for s2 analogous
+to those computed in the independent case, including its RMSE, can be
+obtained from
+N
+ 2 1 X
+ 
+E s
+^ ¼
+E Yi2
+T i¼1
+N
+N X
+i1
+
+	
+ 2
+ 
+1 X
+2 X
+var s
+^ ¼ 2
+var Yi2 þ 2
+cov Yi2 , Yj2 :
+T i¼1
+T i¼1 j¼1
+
+Specific expressions for all these quantities depend upon the assumptions
+of the particular structural model under consideration: for instance, in the
+
+386
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+Glosten (1987) model (see his Proposition 6), the Us remain stationary, the
+transaction noise Uti is uncorrelated with the return noise during the
+previous observation period, that is, Uti1  Uti2, and the efficient return
+s(Wti  Wti1) is also uncorrelated with the transaction noises Uti+1 and
+Uti2. With these in hand, the analysis of the RMSE and its minimum can
+then proceed as above. As for the likelihood corrections for microstructure noise, the same caveat as in serially correlated U case applies: having
+modified the matrix g 2V, the artificial ‘‘normal’’ distribution would no
+longer use the correct second moment structure of the data and the
+likelihood must be modified accordingly.
+9.4 Stochastic volatility
+One important departure from our basic model is the case where volatility
+is stochastic. The observed log-returns are still generated by Equation (3).
+Now, however, the constant volatility assumption (2) is replaced by
+dXt ¼ st dWt :
+
+ð61Þ
+
+The object of interest in much of the literature on high frequency volatility
+estimation [see, e.g., Barndorff-Nielsen and Shephard (2002), Andersen
+et al. (2003)] is then the integral
+Z T
+s2t dt
+ð62Þ
+0
+
+over a fixed time period [0,T ], or possibly several such time periods. The
+estimation is based on observations 0 = t0 < t1 <    < tn ¼ T, and asymptotic results are obtained when maxDti ! 0. The usual estimator for
+Equation (62) is the ‘‘realized variance’’
+n 
+X
+
+
+~ tiþ1  X
+~ ti 2 :
+X
+
+ð63Þ
+
+i¼1
+
+In the context of stochastic volatility, ignoring market microstructure
+noise leads to an even more dangerous situation than when s is constant
+and T ! 1. We show in the companion paper Zhang, Mykland, and
+Aı̈t-Sahalia (2003) that, after suitable scaling, the realized variance is a
+consistent and asymptotically normal estimator — but of the quantity 2a2.
+This quantity has, in general, nothing to do with the object of interest
+Equation (62). Stated differently, market microstructure noise totally
+swamps the variance of the price signal at the level of the realized variance.
+To obtain a finite optimal sampling interval, one needs that a2 ! 0 as
+n ! 1, that is, the amount of noise must disappear asymptotically. For
+further developments on this topic, we refer to Zhang, Mykland, and
+Aı̈t-Sahalia (2003).
+
+387
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+10. Conclusions
+We showed that the presence of market microstructure noise makes it
+optimal to sample less often than would otherwise be the case in the
+absence of noise, and we determined accordingly the optimal sampling
+frequency in closed-form.
+We then addressed the issue of what to do about it, and showed that
+modeling the noise term explicitly restores the first order statistical effect
+that sampling as often as possible is optimal. We also demonstrated that
+this remains the case if one misspecifies the assumed distribution of the
+noise term. If the econometrician assumes that the noise terms are normally distributed when in fact they are not, not only is it still optimal to
+sample as often as possible, but the estimator has the same asymptotic
+variance as if the noise distribution had been correctly specified. This
+robustness result is, we think, a major argument in favor of incorporating
+the presence of the noise when estimating continuous time models with
+high frequency financial data, even if one is unsure about what is the true
+distribution of the noise term. Hence, the answer to the question we pose
+in our title is ‘‘as often as possible,’’ provided one accounts for the presence of the noise when designing the estimator.
+Appendix A. Proof of Lemma 1
+To calculate the fourth cumulant cum(Yi, Yj, Yk, Yl), recall from Equation (8) that the
+observed log-returns are
+Yi ¼ sðWti  Wti1 Þ þ Uti  Uti1 :
+First, note that the t i are nonrandom, and W is independent of the Us, and has Gaussian
+increments. Second, the cumulants are multilinear, so
+
+
+
+
+
+cum Yi , Yj , Yk , Yl ¼ cum sðWti  Wti1 Þ þ Uti  Uti1 , s Wtj  Wtj1 þ Utj  Utj1 ,
+sðWtk Wtk1 Þ þ Utk  Utk1 , sðWtl  Wtl1 Þ þ Utl  Utl1 Þ
+
+
+¼ s4 cum Wti  Wti1 , Wtj  Wtj1 , Wtk  Wtk1 , Wtl  Wtl1
+
+
+þ s3 cum Wti  Wti1 , Wtj  Wtj1 , Wtk  Wtk1 , Utl  Utl1 ½4
+
+
+2
+þ s cum Wti  Wti1 , Wtj  Wtj1 , Utk  Utk1 , Utl  Utl1 ½6
+
+
+þ scum Wti  Wti1 , Utj  Utj1 , Utk  Utk1 , Utl  Utl1 ½4
+
+
+þ cum Uti  Uti1 , Utj  Utj1 , Utk  Utk1 , Utl  Utl1 :
+Out of these terms, only the last is nonzero because W has Gaussian increments (so all
+cumulants of its increments of order greater than two are zero), and is independent of the Us
+(so all cumulants involving increments of both W and U are also zero). Therefore,
+
+
+
+
+cum Yi , Yj , Yk , Yl ¼ cum Uti  Uti1 , Utj  Utj1 , Utk  Utk1 , Utl  Utl1 :
+If i ¼ j ¼ k ¼ l, we have:
+cumðUti  Uti1 , Uti  Uti1 , Uti  Uti1 , Uti  Uti1 Þ ¼ cum4 ðUti  Uti1 Þ
+¼ cum4 ðUti Þ þ cum4 ðUti1 Þ
+¼ 2 cum4 ½U 
+
+388
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+with the second equality following from the independence of Uti and Uti1, and the third from
+the fact that the cumulant is of even order.
+If max(i, j, k, l ) ¼ min(i, j, k, l ) þ 1, two situations arise. Set m ¼ min(i, j, k, l ) and M ¼
+max(i, j, k, l ). Also set s ¼ s(i, j, k, l ) ¼ #{i, j, k, l ¼ m}. If s is odd, say s ¼ 1 with i ¼ m, and
+j, k, l ¼ M ¼ m þ 1, we get a term of the form
+
+
+cum Utm  Utm1 , Utmþ1  Utm , Utmþ1  Utm , Utmþ1  Utm ¼ cum4 ðUtm Þ:
+By permutation, the same situation arises if s ¼ 3. If instead s is even, that is, s ¼ 2, then we
+have terms of the form
+
+
+cum Utm  Utm1 , Utm  Utm1 , Utmþ1  Utm , Utmþ1  Utm ¼ cum4 ðUtm Þ:
+Finally, if at least one pair of indices in the quadruple (i, j, k, l ) is more than one integer apart,
+then
+
+
+cum Uti  Uti1 , Utj  Utj1 , Utk  Utk1 , Utl  Utl1 ¼ 0
+by independence of the Us.
+
+Appendix B. Proof of Theorem 1
+Given the estimator (5) has the following expected value
+
+
+N
+ 2 1 X
+  N s2 D þ 2a2
+2a2
+¼ s2 þ
+:
+E s
+^ ¼
+E Yi2 ¼
+T i¼1
+T
+D
+The estimator’s variance is
+"
+#
+N
+N
+
+	
+X
+ 2
+1
+1 X
+2
+var s
+^ ¼ 2 var
+Yi ¼ 2
+cov Yi2 , Yj2 :
+T
+T i;j¼1
+i¼1
+Applying Lemma 1 in the special case where the first two indices and the last two respectively
+are identical yields
+8
+> 2 cum4 ½U , if j ¼ i,
+
+ <
+cum Yi , Yi , Yj , Yj ¼ cum4 ½U ,
+if j ¼ i þ 1 or j ¼ i  1,
+ðB:1Þ
+>
+:
+0,
+otherwise:
+In the middle case, that is, whenever j ¼ i þ 1 or j ¼ i  1, the number s of indices that are
+equal to the minimum index is always 2. Combining Equation (B.1) with Equation (14), we
+have
+N
+1
+N
+X
+ 2
+
+
+
+
+
+
+1 X
+1 N
+1 X
+2
+2
+cov Yi2 , Yi2 þ 2
+cov Yi2 , Yiþ1
+cov Yi2 , Yi1
+þ 2
+var s
+^ ¼ 2
+T i¼1
+T i¼1
+T i¼2
+
+¼
+
+N n
+o
+1 X
+2 covðYi , Yi Þ2 þ 2 cum4 ½U 
+2
+T i¼1
+
+þ
+
+1n
+o
+X
+1 N
+2 covðYi , Yiþ1 Þ2 þ cum4 ½U 
+T 2 i¼1
+
+N n
+o
+1 X
+2 covðYi , Yi1 Þ2 þ cum4 ½U 
+2
+T i¼2
+o 2ðN  1Þ n
+o
+2N n
+¼ 2 var½Yi 2 þ cum4 ½U  þ
+2 covðYi , Yi1 Þ2 þ cum4 ½U 
+2
+T
+T
+
+þ
+
+389
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+with var[Yi] and cov(Yi, Yi1) = cov(Yi, Yiþ1) given in Equations (9) and (10), so that
+o 2ðN  1Þ 
+
+ 2  2N n 2
+2
+2a4 þ cum4 ½U 
+var s
+^ ¼ 2 s D þ 2a2 þ cum4 ½U  þ
+2
+T
+T
+
+
+
+2 s4 D2 þ 4s2 Da2 þ 6a4 þ 2 cum4 ½U 
+2 2a4 þ cum4 ½U 
+
+,
+¼
+TD
+T2
+since N ¼ T/D. The expression for the RMSE follows from those for the expected value and
+variance given in Equations (17) and (18):
+
+
+
+!1=2
+ 2
+2 2a4 þ cum4 ½U 
+4a4 2 s4 D2 þ 4s2 Da2 þ 6a4 þ 2 cum4 ½U 
+
+þ
+: ðB:2Þ
+RMSE s
+^ ¼
+TD
+T2
+D2
+The optimal value D of the sampling interval given in Equation (19) is obtained by minimizing RMSE½^
+s2  over D. The first order condition that arises from setting qRMSE½^
+s2 =qD
+to 0 is the cubic equation in D:
+
+
+2 3a4 þ cum4 ½U 
+4a4 T
+D
+¼ 0:
+ðB:3Þ
+D3 
+4
+s4
+s
+We now show that Equation (B.3) has a unique positive root, and that it corresponds to a
+minimum of RMSE½^
+s2 . We are, therefore, looking for a real positive root in D ¼ z to the
+cubic equation
+z3 þ pz  q ¼ 0,
+
+ðB:4Þ
+
+where q > 0 and p < 0 since from Equation (16):
+ 
+ 2
+ 
+3a4 þ cum4 ½U  ¼ 3a4 þ E U 4  3E U 2 ¼ E U 4 > 0:
+Using Vièta’s change of variable from z to w given by z ¼ w  p/(3w) reduces, after
+multiplication by w3, the cubic to the quadratic equation
+y2  qy 
+
+p3
+¼0
+27
+
+ðB:5Þ
+
+in the variable y  w3.
+Define the discriminant
+D¼
+
+p	3 q	2
+þ
+:
+3
+2
+
+The two roots of Equation (B.5) are
+q
+y1 ¼ þ D1=2 ,
+2
+
+y2 ¼
+
+q
+ D1=2
+2
+
+are real if D  0 (and distinct if D > 0) and complex conjugates if D < 0. Then the three roots
+of Equation (B.4) are
+1=3
+
+1=3
+
+z1 ¼ y1 þ y2 ,
+	
+	
+1  1=3
+31=2  1=3
+1=3
+1=3
+þi
+y1  y2 ,
+z2 ¼  y1 þ y2
+2
+2
+	
+	
+1  1=3
+31=2  1=3
+1=3
+1=3
+y1  y2
+i
+z3 ¼  y1 þ y2
+2
+2
+
+ðB:6Þ
+
+[see, e.g., Abramowitz and Stegun (1972, Section 3.8.2)]. If D > 0, the two roots in y are both
+real and positive because p < 0 and q > 0 imply
+y1 > y2 > 0
+and hence of the three roots given in Equation (B.6), z1 is real and positive and z2 and z3 are
+complex conjugates. If D ¼ 0, then y1 ¼ y2 ¼ q/2 > 0 and the three roots are real (two of which
+
+390
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+are identical) and given by
+1=3
+
+1=3
+
+z1 ¼ y1 þ y2 ¼ 22=3 q1=3 ,
+	
+1  1=3
+1
+1=3
+¼  z1 :
+z2 ¼ z3 ¼  y1 þ y2
+2
+2
+Of these, z1 > 0 and z2 ¼ z3 < 0. If D < 0, the three roots are distinct and real because
+y1 ¼
+
+q
+þ iðDÞ1=2  reiu ,
+2
+
+y2 ¼
+
+q
+ ið  DÞ1=2  reiu
+2
+
+so
+1=3
+
+y1
+
+¼ r1=3 eiu=3 ,
+
+1=3
+
+y2
+
+¼ r1=3 eiu=3
+
+and therefore
+1=3
+
+1=3
+
+y1 þ y2
+
+¼ 2r1=3 cosðu=3Þ,
+
+1=3
+
+1=3
+
+y1  y2
+
+¼ 2ir1=3 sinðu=3Þ
+
+so that
+z1 ¼ 2r1=3 cosðu=3Þ
+z2 ¼ r1=3 cosðu=3Þ þ 31=2 r1=3 sinðu=3Þ
+z3 ¼ r1=3 cosðu=3Þ  31=2 r1=3 sinðu=3Þ:
+Only z1 is positive because q > 0 and (D)1/2 > 0 imply that 0 < u < p/2. Therefore
+cos(u/3) > 0, so z1 > 0; sin(u/3) > 0, so z3 < 0; and
+cosðu=3Þ > cosðp=6Þ ¼
+
+31=2
+¼ 31=2 sinðp=6Þ > 31=2 sinðu=3Þ,
+2
+
+so z2 < 0.
+Thus Equation (B.4) has exactly one root that is positive, and it is given by z1 in
+Equation (B.6). Since RMSE½^
+s2  is of the form
+!1=2
+
+
+
+
+ 2
+2TD3 s4 2D2 2a4 4a2 Ts2 þcum4 ½U  þ2D 6a4 T þ2Tcum4 ½U  þ4a4 T 2
+RMSE s
+^ ¼
+T 2 D2
+!1=2
+a3 D3 þa2 D2 þa1 Dþa0
+¼
+T 2 D2
+with a3 > 0, it tends to þ1 when D tends to þ1. Therefore, that single positive root
+corresponds to a minimum of RMSE½^
+s2  which is reached at
+1=3
+
+1=3
+
+D ¼ y1 þ y2
+q
+	1=3 q
+	1=3
+þ D1=2
+ D1=2
+¼
+þ
+:
+2
+2
+Replacing q and p by their values in the expression above yields Equation (19). As shown
+above, if the expression inside the square root in formula (19) is negative, the resulting D is
+still a positive real number.
+
+Appendix C. Proof of Proposition 1
+The result follows from an application of the delta method to the known properties of the
+MLE estimator of an MA(1) process [Hamilton (1995, Section 5.4)], as follows. Because we
+
+391
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+re-use these calculations below in the proof of Theorem 2 (whose result cannot be
+inferred from known MA(1) properties), we recall some of the expressions of the score vector
+of the MA(1) likelihood. The partial derivatives of the log-likelihood function (25) have
+the form
+ih ¼ 
+
+1 q ln detðV Þ
+1
+qV 1
+ 2 Y0
+Y
+2
+qh
+2g
+qh
+
+ðC:1Þ
+
+N
+1 0 1
+þ
+Y V Y,
+2g 2 2g 4
+
+ðC:2Þ
+
+and
+ig 2 ¼ 
+so that the MLE for g 2 is
+g
+^2 ¼
+
+1 0 1
+Y V Y:
+N
+
+ðC:3Þ
+
+At the true parameters, the expected value of the score vector is zero: E [ih] ¼ E [ig2] ¼ 0.
+Hence it follows from Equation (C.1) that
+
+
+
+
+2h 1  ð1 þ N Þh2N þ Nh2ð1þN Þ
+qV 1
+q ln detðV Þ
+¼ g 2
+Y ¼ g 2
+E Y0
+,
+qh
+qh
+ð1  h2 Þð1  h2ð1þN Þ Þ
+thus as N ! 1
+
+
+qV 1
+2hg2
+E Y0
+Y ¼
+þ oð1Þ:
+qh
+ð1  h2 Þ
+Similarly, it follows from Equation (C.2) that
+
+
+E Y 0 V 1 Y ¼ Ng2 :
+Turning now to Fisher’s information, we have
+
+
+
+N
+1 
+N
+E ig2 g2 ¼  4 þ 6 E Y 0 V 1 Y ¼ 4 ,
+2g
+g
+2g
+whence the asymptotic variance of T 1=2 ð^
+g 2  g 2 Þ is 2g 4D. We also have that
+
+
+h
+i
+1
+qV 1
+h
+Y ¼ 2
+þ oð1Þ,
+E €lg2 h ¼ 4 E Y 0
+2g
+g ð1  h2 Þ
+qh
+whence the asymptotic covariance of T 1=2 ð^
+g 2  g2 Þ and T 1=2 ð^
+h  hÞ is zero.
+To evaluate E½€lhh , we compute
+"
+#
+2 1
+h
+i 1 q2 ln detðV Þ
+1
+0q V
+E €lhh ¼
+þ
+E
+Y
+Y
+2
+qh2
+2g 2
+qh2
+
+ðC:4Þ
+
+ðC:5Þ
+
+ðC:6Þ
+
+and evaluate both terms. For the first term in Equation (C.6), we have from Equation (27):
+( 
+
+
+
+2 1 þ h2 þ h2þ2N 1  3h2 1  h2N
+q2 ln detðV Þ
+1
+¼
+2
+2
+2
+qh
+ð1  h2þ2N Þ
+ð1  h2 Þ
+)
+
+
+2Nh2N 3 þ h2þ2N  4N 2 h2N
+¼
+
+
+
+2 1 þ h2
+2
+
+ð1  h2 Þ
+
+þ oð1Þ:
+
+392
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðC:7Þ
+
+Sampling and Market Microstructure Noise
+
+For the second term, we have for any non-random N  N matrix Q:
+E ½Y 0 QY  ¼ E ½Tr½Y 0 QY  ¼ E ½Tr½QYY 0  ¼ Tr½E ½QYY 0 
+
+
+¼ Tr½QE ½YY 0  ¼ Tr Qg2 V ¼ g2 Tr½QV ,
+where Tr denotes the matrix trace, which satisfies Tr[AB] ¼ Tr[BA]. Therefore
+"
+#
+"
+#
+!
+N X
+N
+2 1
+X
+q2 V 1
+q2 vij
+0q V
+2
+2
+E Y
+Y ¼ g Tr
+V ¼g
+vij
+qh2
+qh2
+qh2
+i¼1 j¼1
+
+!
+N
+N
+X q2 vi;iþ1
+X
+X
+ N1
+q2 vii 
+q2 vi;i1
+2
+1þh þ
+hþ
+h
+¼g
+qh2
+qh2
+qh2
+i¼1
+i¼1
+i¼2
+( 
+
+
+
+
+
+4 1 þ 2h2 þ h2þ2N 1  4h2 1  h2N
+g2
+¼
+
+2
+2
+ð1  h2þ2N Þ
+ð1  h2 Þ
+)
+
+
+
+2N 1 þ h2N 6  6h2 þ 2h2þ2N  3h4þ2N
+2 2N
+þ
+8N
+þ
+h
+ð1  h2 Þ
+2
+
+¼
+
+2g2 N
+þ oðN Þ:
+ð1  h2 Þ
+
+ðC:8Þ
+
+Combining Equations (C.7) and (C.8) with Equation (C.6), it follows that
+"
+#
+2 1
+h
+i 1 q2 ln detðV Þ
+1
+N
+N
+0 q VN
+€
+þ oðN Þ:
+E lhh ¼
+þ 2E Y
+Y 	
+2
+N!1 ð1  h Þ
+2
+qh2
+2g
+qh2
+
+ðC:9Þ
+
+In light of that and Equation (C.5), the asymptotic variance of T 1=2 ð^
+h  hÞ is the same as in
+the g2 known case, that is, (1  h2)D (which of course confirms the result of Durbin (1959) for
+this parameter).
+We can now retrieve the asymptotic covariance matrix for the original parameters (s2, a2)
+from that of the parameters (g 2, h). This follows from the delta method applied to the change
+of variable [Equations (9) and (10)]:
+!
+!
+ 2 
+s2
+D1 g2 ð1 þ hÞ2
+¼
+f
+g
+:
+ðC:10Þ
+,
+h
+¼
+a2
+g2 h
+Hence
+T 1=2
+
+s
+^2
+a^2
+
+!
+
+
+s2
+a2
+
+!!
+
+
+ 2 2 
+! N 0, avar s
+^ , ^a ,
+
+T!1
+
+where
+
+
+ 2 
+
+0
+ 2 2
+^ ,h
+^  rf g 2 , h
+avar s
+^ , ^a ¼ rf g2 , h  avar g
+0
+0
+1
+ð1 þ hÞ2
+!
+ð1 þ hÞ2 2g 2 ð1 þ hÞ
+B
+0
+2g 4 D
+D
+A
+B
+
+
+¼@
+D
+D
+0
+1  h2 D @ 2g2 ð1 þ hÞ
+2
+h
+g
+D
+
+
+0 pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+6
+2
+4 s Dð4a þ s2 DÞ þ 2s4 D
+s2 Dh D, s2 , a2
+¼@
+ 
+ A:
+D 2
+2a þ s2 D h D, s2 , a2
+
+2
+
+1
+h C
+C
+A
+2
+g
+
+393
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Appendix D. Proof of Theorem 2
+We have that
+
+
+
+
+Etrue ih ig2 ¼ covtrue ih , ig2
+¼ covtrue 
+
+N
+N
+1 X
+qvij 1 X
+, 4
+Yi Yj
+Yk Yl vkl
+2
+2g i;j¼1
+qh 2g k;l¼1
+
+!
+
+¼
+
+N
+
+
+1 X
+qvij kl
+v covtrue Yi Yj , Yk Yl
+6
+4g i;j;k;l¼1 qh
+
+¼
+
+N
+
+
+
+
+
+1 X
+qvij kl 
+v cumtrue Yi , Yj , Yk , Yl þ 2 covtrue Yi , Yj covtrue ðYk , Yl Þ ,
+6
+4g i;j;k;l¼1 qh
+
+ðD:1Þ
+where ‘‘true’’ denotes the true distribution of the Ys, not the incorrectly specified normal
+distribution, and Cum denotes the cumulants given in Lemma 1. The last transition is because
+
+
+
+
+
+
+covtrue Yi Yj , Yk Yl ¼ Etrue Yi Yj Yk Yl  Etrue Yi Yj Etrue ½Yk Yl 
+¼ kijkl  kij kkl
+¼ ki;j;k;l þ ki;j kk;l ½3  ki;j kk;l
+¼ ki;j;k;l þ ki;k kj;l þ ki;l kj;k
+
+
+
+
+¼ cumtrue Yi , Yj , Yk , Yl þ covtrue ðYi , Yk Þcovtrue Yj , Yk
+
+
+þ covtrue ðYi , Yl Þcovtrue Yj , Yk ,
+since Y has mean zero [see, e.g., McCullagh (1987, Section 2.3)]. The need for permutation
+goes away due to the summing over all indices (i, j, k, l ), and since V 1 ¼ [vij] is symmetric.
+When looking at Equation (D.1), note that cumnormal(Yi, Yj, Yk, Yl) ¼ 0, where ‘‘normal’’
+denotes a Normal distribution with the same first and second order moments as the true
+distribution. That is, if the Ys were normal we would have
+N
+h
+i
+
+
+
+1 X
+qvij kl 
+v 2 covnormal Yi , Yj covnormal ðYk , Yl Þ :
+Enormal l_h l_g2 ¼  6
+4g i;j;k;l¼1 qh
+
+Also, since the covariance structure does not depend on Gaussianity, covtrue(Yi, Yj) ¼
+covnormal(Yi, Yj). Next, we have
+h
+i
+h i
+h i
+ðD:2Þ
+Enormal l_h l_g2 ¼ Enormal €lhg2 ¼ Etrue €lhg2
+with the last equality following from the fact that €lhg2 depends only on the second moments of
+the Ys. (Note that in general Etrue ½l_h l_g2  6¼ Etrue ½€lhg2  because the likelihood may be misspecified.) Thus, it follows from Equation (D.1) that
+N
+h
+i
+h
+i
+
+
+1 X
+qvij kl
+v cumtrue Yi , Yj , Yk , Yl
+Etrue l_h l_g2 ¼ Enormal l_h l_g2  6
+4g i;j;k;l¼1 qh
+N
+h i
+
+
+1 X
+qvij kl
+v cumtrue Yi , Yj , Yk , Yl :
+¼ Etrue €lhg2  6
+4g i;j;k;l¼1 qh
+
+ðD:3Þ
+
+It follows similarly that
+Etrue
+
+ 	 
+ 	
+2
+¼ vartrue l_h
+l_h
+N
+h i
+
+
+1 X
+qvij qvkl
+cumtrue Yi , Yj , Yk , Yl
+¼ Etrue €lhh þ 4
+4g i;j;k;l¼1 qh qh
+
+394
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðD:4Þ
+
+Sampling and Market Microstructure Noise
+
+and
+Etrue
+
+ 	 
+ 	
+2
+l_g2
+¼ vartrue l_g2
+N
+h
+i
+
+
+1 X
+vij vkl cumtrue Yi , Yj , Yk , Yl :
+¼ Etrue €lg2 g2 þ 8
+4g i;j;k;l¼1
+
+ðD:5Þ
+
+We now need to evaluate the sums that appear on the right-hand sides of Equations (D.3)–
+(D.5). Consider two generic symmetric N  N matrices [ni, j] and [vi, j]. We are interested in
+expressions of the form
+X
+
+ð1Þs ni;j vk;l ¼
+
+X
+
+N
+1
+X
+
+ð1Þs ni;j vk;l
+
+h¼1 i;j;k;l:m¼h;M¼hþ1
+
+i;j;k;l:M¼mþ1
+
+¼
+
+N
+1X
+3
+X
+
+X
+
+ð1Þr ni;j vk;l
+
+h¼1 r¼1 i;j;k;l:m¼h;M¼hþ1;s¼r
+
+¼
+
+N
+1n
+X
+
+2nh;hþ1 vhþ1;hþ1  2nhþ1;hþ1 vh;hþ1
+
+h¼1
+
+þ nh;h vhþ1;hþ1 þ nhþ1;hþ1 vh;h þ 4nh;hþ1 vh;hþ1
+o
+2nhþ1;h vh;h  2nh;h vhþ1;h :
+
+ðD:6Þ
+
+It follows that if we set
+Yðn, vÞ ¼
+
+N
+X
+
+
+
+ni;j vk;l cumtrue Yi , Yj , Yk , Yl ,
+
+ðD:7Þ
+
+i;j;k;l¼1
+
+then Y(n, v) ¼ cum4[U] C (n, v) where
+N
+N
+1 n
+X
+X
+2nh;hþ1 vhþ1;hþ1 2nhþ1;hþ1 vh;hþ1
+cðn, vÞ ¼ 2 nh;h vh;h þ
+h¼1
+
+h¼1
+
+þ nh;h vhþ1;hþ1 þ nhþ1;hþ1 vh;h þ 4nh;hþ1 vh;hþ1
+o
+2nhþ1;h vh;h  2nh;h vhþ1;h :
+
+ðD:8Þ
+
+If the two matrices [ni,j] and [vi,j ] satisfy the following reversibility property:
+nNþ1i,Nþ1j ¼ ni,j and vNþ1i,Nþ1j ¼ vi,j (so long as one is within the index set), then
+Equation (D.8) simplifies to:
+N
+N
+1 n
+X
+X
+cðn, vÞ ¼ 2 nh;h vh;h þ
+4nh;hþ1 vhþ1;hþ1  4nhþ1;hþ1 vh;hþ1
+h¼1
+
+h¼1
+
+o
+þ 2nh;h vhþ1;hþ1 þ 4nh;hþ1 vh;hþ1 :
+
+This is the case for V 1 and its derivative qV 1/qh, as can be seen from the expression for vi,j
+given in Equation (28), and consequently for qvi,j/qh.
+Therefore, if we wish to compute the sums in Equations (D.3)–(D.5) we need to find the
+three quantities c(qv/qh,v),c(qv/qh,qv/qh), and c(v,v), respectively. All are of order O(N), and
+only the first term is needed. Replacing the terms vi,j and qvi,j/qh by their expressions from
+
+395
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Equation (28), we obtain:
+cðv, vÞ ¼
+
+¼
+
+2
+3
+
+2
+ð1  h2ð1þN Þ Þ
+
+n
+	
+
+
+ð1 þ hÞ 1  h2N 1 þ 2h2 þ 2h2ð1þN Þ þ h2ð2þN Þ
+
+ð1 þ h2 Þð1  hÞ
+	o
+
+
+þ N ð1  hÞ 1 þ h2 2 þ h2N þ h2ð1þN Þ þ 6h1þ2N þ 2h2þ4N
+4N
+
+þ oðN Þ,
+
+ð1  hÞ2
+
+ðD:9Þ
+
+
+
+ 
+
+
+
+
+
+
+
+2 Oð1Þ þ 2N ð1  hÞ 1 þ h2 h 1 þ h2 þ O h2N þ N 2 O h2N
+qv
+,v ¼
+c
+3
+2
+qh
+hð1  hÞ4 ð1 þ h2 Þ ð1  h2ð1þN Þ Þ
+¼
+
+4N
+ð1  hÞ3
+
+þ oðN Þ,
+
+ðD:10Þ
+
+
+
+	
+	
+
+
+ 4 Oð1Þ þ 3N 1  h4 h2 1 þ h2 2 þ Oh2N  þ N 2 Oh2N  þ N 3 Oh2N 
+qv qv
+,
+¼
+c
+4
+3
+qh qh
+3h2 ð1 þ hÞð1 þ h2 Þ ð1  hÞ5 ð1  h2ð1þN Þ Þ
+¼
+
+4N
+ð1  hÞ4
+
+þ oðN Þ:
+
+ðD:11Þ
+
+^ Þ obtained by maximizing the (incorrectlyThe asymptotic variance of the estimator ð^
+g2 , h
+specified) log-likelihood function (25) that assumes Gaussianity of the Us is given by
+ 2 
+
+1
+^ ,h
+^ ¼ D D0 S1 D
+avartrue g
+where, from Equations (C.4), (C.5), and (C.9) we have
+h i
+hi
+hi 1
+1
+1
+D ¼ D0 ¼  Etrue €l ¼  Enormal €l ¼ Enormal l_l_0
+N
+N
+N
+
+ 1
+0
+1
+h
+1
+B 2g 4  Ng 2 ð1  h2 Þ þ o N C
+B
+C
+¼@
+A
+1
+þ
+o
+ð
+1
+Þ
+
+ð1  h2 Þ
+
+ðD:12Þ
+
+and, in light of Equations (D.3)–(D.5),
+
+S¼
+
+where
+
+h i
+hi
+1
+1
+Etrue l_l_0 ¼  Etrue €l þ cum4 ½U  C ¼ D þ cum4 ½U C,
+N
+N
+
+
+
+1
+1
+1
+qv
+,
+v
+c
+ð
+v,
+v
+Þ
+
+c
+8
+1 B
+g 6
+ qh  C
+Bg
+C
+C¼
+1
+qv qv A
+4N @
+,
+c
+
+g4
+qh qh
+0
+1
+1
+1
+þ
+o
+ð
+1
+Þ
+þ oð1Þ C
+B 8
+2
+3
+g 6 ð1  hÞ
+B g ð1  hÞ
+C
+¼B
+C
+1
+@
+A
+
+þ oð1Þ
+4
+4
+g ð1  hÞ
+
+ðD:13Þ
+
+0
+
+396
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðD:14Þ
+
+Sampling and Market Microstructure Noise
+
+from the expressions just computed. It follows that
+
+	1
+ 2 
+^ ,h
+^ ¼ D DðD þ cum4 ½U CÞ1 D
+avartrue g
+ 
+1 	1
+¼ D D Id þ cum4 ½U D1 C
+
+
+¼ D Id þ cum4 ½U D1 C D1
+
+
+¼ D Id þ cum4 ½U D1 C D1
+ 2 
+¼ avarnormal g
+^ ,h
+^ þ Dcum4 ½U D1 CD1 ,
+where Id denotes the identity matrix and
+ 2 
+^ ,h
+^ ¼
+avarnormal g
+
+2g 4 D
+0
+
+!
+
+0
+
+0
+
+
+,
+1  h2 D
+
+2ð1 þ hÞ
+
+4
+
+B ð1  hÞ
+B
+D1 CD1 ¼ B
+@
+
+
+2
+
+1
+
+g 2 ð1  hÞ C
+C
+C
+ð1 þ hÞ2 A
+2
+
+g 4 ð1  hÞ2
+
+so that
+ 2 
+2g 4
+^ ,h
+avartrue g
+^ ¼D
+0
+
+
+
+!
+
+0
+2
+
+1h
+
+
+
+0
+
+2ð1 þ hÞ
+
+4
+
+B ð1  hÞ
+B
+þ Dcum4 ½U B
+@
+
+
+2
+
+1
+
+g 2 ð1  hÞ C
+C
+C:
+ð1 þ hÞ2 A
+2
+
+g 4 ð1  hÞ2
+
+By applying the delta method to change the parametrization, we now recover the asymptotic
+variance of the estimates of the original parameters:
+
+
+ 2 
+
+0
+ 2 2
+^ , ^a ¼ rf g 2 , h  avartrue g
+^ ,h
+^  rf g2 , h
+avartrue s
+
+
+0 pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+4 s6 Dð4a2 þ s2 DÞ þ 2s4 D
+s2 Dh D, s2 , a2
+B
+C
+C:
+¼B
+@
+A
+
+
+
+D 2
+2
+2 2
+2a þ s D h D, s , a þ Dcum4 ½U 
+
+2
+
+Appendix E. Derivations for Section 7
+To see Equation (39), let ‘‘orig’’ (E.7) denote parametrization in (and differentiation with
+respect to) the original parameters s2 and a2, while ‘‘transf’’ denotes parametrization and
+differentiation in g2 and h, and finv denotes the inverse of the change of variable function
+defined in (C.10), namely
+0
+
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ 1
+1
+!
+2a2 þ s2 D þ s2 Dð4a2 þ s2 DÞ
+B
+C
+2
+
+ B 2
+g
+C
+
+C
+ðE:1Þ
+¼ finv s2 , a2 ¼ B
+q
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ﬃ
+@ 1
+A
+h
+2
+2
+2 Dð4a2 þ s2 DÞ
+2a
+
+s
+D
+þ
+s
+2
+2a
+and rfinv its Jacobian matrix. Then, from l_orig ¼ rfinv ðs2 ; a2 Þ0  l_transf , we have
+h
+i
+
+0
+
+
+€lorig ¼ rfinv s2 , a2  €ltransf  rfinv s2 , a2 þ H l_transf ,
+where H½l_transf  is a 2  2 matrix whose terms are linear in l_transf and the second partial
+derivatives of finv. Now Etrue ½l_orig  ¼ Etrue ½l_transf  ¼ 0, and so Etrue ½H½l_transf  ¼ 0 from which it
+
+397
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+follows that
+h
+i
+Dorig ¼ N 1 Etrue €lorig
+
+0
+
+
+¼ rfinv s2 , a2  Dtransf  rfinv s2 , a2
+
+0 1=2  2
+1
+D
+2a þ s2 D
+D1=2
+B 3 2
+C
+3=2
+3=2
+B 2s ð4a þ s2 DÞ
+C
+sð4a2 þ s2 DÞ
+C þ oð1Þ
+!
+¼B
+
+
+B
+C
+1=2
+2
+2
+D s 6a þ s D A
+1
+@
+
+1
+4
+3=2
+2
+2
+2a
+ð4a þ s DÞ
+with Dtransf ¼ N 1 Etrue ½€ltransf  given in Equation
+0
+ rfinv ðs2 , a2 Þ and so
+rfinv ðs2 , a2 Þ0  l_transf l_transf
+
+(D.12).
+
+Similarly,
+
+
+0
+
+
+Sorig ¼ rfinv s2 , a2  Stransf  rfinv s2 , a2
+
+0
+
+
+¼ rfinv s2 , a2  ðDtransf þ cum4 ½U CÞ  rfinv s2 , a2
+ 2 2 0
+ 2 2
+¼ Dorig þ cum4 ½U rfinv s , a  C  rfinv s , a
+
+ðE:2Þ
+
+0
+l_orig l_orig
+¼
+
+ðE:3Þ
+
+with the second equality following from the expression for Stransf given in Equation (D.13).
+To complete the calculation, note from Equation (D.14) that
+0
+þ oð1Þ,
+C ¼ gtransf  gtransf
+
+where
+gtransf ¼
+
+g 4 ð1  hÞ1
+g 2 ð1  hÞ2
+
+!
+:
+
+Thus
+
+0
+
+
+0
+þ oð1Þ,
+rfinv s2 , a2  C  rfinv s2 , a2 ¼ gorig  gorig
+
+ðE:4Þ
+
+where
+0
+B
+B
+
+0
+g ¼ gorig ¼ rfinv s2 , a2  gtransf ¼ B
+B
+@ 1
+2a4
+
+D1=2
+
+1
+
+C
+3=2
+C
+sð4a2 þ s2 DÞ
+ 2
+! C
+C
+1=2
+2
+D s 6a þ s D A
+1
+3=2
+ð4a2 þ s2 DÞ
+
+ðE:5Þ
+
+which is the result (40). Inserting Equation (E.4) into Equation (E.3) yields the result (39).
+For the profile likelihood l, let ^a2s2 denote the maximizer of l(s2, a2) for given s2. Thus by
+definition lðs2 Þ ¼ lðs2 , ^a2s2 Þ. From now on, all differentiation takes place with respect to
+the original parameters, and we will omit the subscript ‘‘orig’’ in what follows. Since
+0 ¼ l_a2 ðs2 , ^a2s2 Þ, it follows that
+q _  2 2 
+l 2 s , ^as2
+qs2 a
+
+
+
+ q^a2s2
+¼ €ls2 a2 s2 , ^a2s2 þ €la2 a2 s2 , ^a2s2
+,
+qs2
+
+0¼
+
+so that
+
+
+€ls2 a2 s2 , a^2 2
+q^a2s2
+s
+¼
+
+:
+
+
+€la2 a2 s2 , ^a2 2
+qs2
+s
+
+398
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðE:6Þ
+
+Sampling and Market Microstructure Noise
+
+The profile score then follows
+ 
+
+
+
+ q^a2s2
+l_ s2 ¼ l_s2 s2 , ^a2s2 þ l_a2 s2 , ^a2s2
+qs2
+
+ðE:7Þ
+
+so that at the true value of (s2, a2),
+
+
+l_ s
+
+2
+
+
+
+¼ l_s2
+
+
+
+h
+i
+ Etrue €ls2 a2
+
+
+h
+i l_a2 s2 , a2 þ Op ð1Þ,
+s ,a 
+Etrue €la2 a2
+2
+
+2
+
+ðE:8Þ
+
+since ^
+a2 ¼ a2 þ Op ðN 1=2 Þ and
+h
+i
+
+	
+
+
+D€ls2 a2  N 1€ls2 a2 s2 , ^a2s2  N 1 Etrue €ls2 a2 ¼ Op N 1=2
+h
+i
+
+	
+
+
+D€la2 a2  N 1€la2 a2 s2 , ^a2s2  N 1 Etrue €la2 a2 ¼ Op N 1=2
+as sums of random variables with expected value zero, so that
+
+
+q^a2 2 N 1€ls2 a2 s2 , ^a2s2
+ s2 ¼
+
+
+qs
+N 1€la2 a2 s2 , ^a2s2
+h
+i
+N 1 Etrue €ls2 a2 þ D€ls2 a2
+h
+i
+¼
+N 1 Etrue €la2 a2 þ D€la2 a2
+h
+i
+
+	
+
+	
+Etrue €ls2 a2
+h
+i þ D€ls2 a2  D€la2 a2 þ op N 1=2
+¼
+€
+Etrue la2 a2
+h
+i
+
+	
+Etrue €ls2 a2
+h
+i þ Op N 1=2 ,
+¼
+Etrue €la2 a2
+while
+
+	
+
+
+l_a2 s2 , a2 ¼ Op N 1=2
+also as a sum of random variables with expected value zero.
+Therefore
+h
+i
+h 
+h 
+  2 
+i Etrue €ls2 a2
+i
+2
+2
+h
+i Etrue l_a2 s2 , a2 þ Oð1Þ
+¼ Etrue l_s2 s , a 
+Etrue l_ s
+Etrue €la2 a2
+¼ Oð1Þ,
+since Etrue ½l_s2 ðs2 , a2 Þ ¼ Etrue ½l_a2 ðs2 , a2 Þ ¼ 0. In particular, Etrue ½l_ ðs2 Þ ¼ oðNÞ as claimed.
+Further differentiating Equation (E.7), one obtains
+
+
+2
+ 
+
+
+
+ q^a2s2
+€ s2 ¼ €ls2 s2 s2 , ^a2 2 þ €la2 a2 s2 , ^a2 2
+l
+s
+s
+qs2
+
+ q^a2s2
+
+ 2 2
+_a2 s2 , ^a2 2 q ^as2
+þ 2€ls2 a2 s2 , ^a2s2
+þ
+l
+s
+qs2
+q2 s2
+
+2
+ 2 2  €ls2 a2 s2 , ^a2s2
+ 2 2  q2 ^a2s2
+¼ €ls2 s2 s , ^as2 
+
+ þ l_a2 s , ^as2 2
+€la2 a2 s2 , ^a2 2
+q s2
+s
+
+399
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+from Equation (E.6). Evaluated at s2 ¼ s
+^ 2 , one gets ^a2s2 ¼ ^a2 and l_a2 ð^
+s2 , ^a2 Þ ¼ 0, and so
+ 2 2 2
+ 2
+ 2 2  €ls2 a2 s
+^ , ^a
+€ s
+l
+^ ¼ €ls2 s2 s
+^ , ^a 
+€la2 a2 ðs
+^ 2 , ^a2 Þ
+1
+i
+¼h
+,
+1
+€l ðs
+^ 2 , ^a2 Þ
+
+ðE:9Þ
+
+s2 s 2
+
+where ½€l ð^
+s2 , ^a2 Þ1 s2 s2 is the upper left element of the matrix €l ð^
+s2 , a^2 Þ1 . Thus Equation (42)
+is valid.
+Alternatively, we can see that the profile likelihood l satisfies the Bartlett identity to first
+order, that is, Equation (43). Note that by Equation (E.8),
+20
+h
+i
+12 3
+€ls2 a2
+h  2 i
+E
+true
+
+
+
+
+6
+h
+i l_a2 s2 , a2 þ Op ð1ÞA 7
+¼ N 1 Etrue 4@l_s2 s2 , a2 
+N 1 Etrue l_ s2
+5
+Etrue €la2 a2
+20
+h
+i
+12 3
+€ls2 a2
+E
+true
+
+
+
+
+6
+h
+i l_a2 s2 , a2 A 7
+¼ N 1 Etrue 4@l_s2 s2 , a2 
+5 þ oð1Þ
+Etrue €la2 a2
+2
+h
+i
+0
+12
+€
+6_  2 2 2 @Etrue hls2 a2 i _  2 2 A
+1
+la2 s , a
+¼ N Etrue 4ls2 s , a þ
+Etrue €la2 a2
+h
+i
+3
+Etrue €ls2 a2
+ 2 2  2 2
+_
+_
+h
+i la2 s , a ls2 s , a 5 þ oð1Þ
+2
+Etrue €la2 a2
+so that
+
+
+
+h  2 i
+Ds2 a2 2
+D 2 2
+N 1 Etrue l_ s2
+¼ Ss 2 s 2 þ
+Sa2 a2  2 s a Sa2 s2 þ op ð1Þ
+Da2 a2
+Da2 a2
+!
+
+
+
+Ds2 a2 2
+Ds2 a2
+Da2 a2  2
+D2 2
+¼ Ds2 s2 þ
+Da2 a2
+Da2 a2 a s
+!
+
+
+
+Ds2 a2 2 2
+D 2 2
+ga2  2 s a gs2 ga2 þ op ð1Þ
+þ cum4 ½U  gs2 2 þ
+Da2 a2
+Da2 a2
+by invoking Equation (39).
+Continuing the calculation,
+
+
+
+2
+h  2 i 
+
+D2 2 2
+D 2 2
+¼ Ds2 s2  s a þ cum4 ½U  gs2  s a ga2 þ oð1Þ
+N 1 Etrue l_ s2
+Da2 a2
+Da2 a2
+
+
+¼ 1= D1 s2 s2 þ oð1Þ,
+
+ðE:10Þ
+
+since from the expressions for Dorig and gorig in Equations (E.2) and (E.5) we have
+gs2 
+
+Ds2 a2
+g 2 ¼ 0:
+Da2 a2 a
+
+Then by Equation (E.9) and the law of large numbers, we have
+  2 
+
+
+€ s
+¼ 1= D1 s2 s2 þ oð1Þ,
+N 1 Etrue l
+and Equation (43) follows from combining Equation (E.10) with Equation (E.12).
+
+400
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðE:11Þ
+
+ðE:12Þ
+
+Sampling and Market Microstructure Noise
+
+Appendix F. Proof of Lemma 2
+1  Id implies that
+q1
+q 1
+¼ 1
+
+qb1
+qb1
+
+ðF:1Þ
+
+and, since  is linear in the parameters s2 and a2 (see Equation (45)) we have
+q2 
+¼0
+qb2 qb1
+
+ðF:2Þ
+
+so that
+
+
+
+q2 1
+q q1
+¼
+qb2 qb1 qb2 qb1
+q 1 q 1
+q 1 q 1
+q2 
+
+ þ 1
+
+  1
+1
+qb2
+qb1
+qb1
+qb2
+qb1 qb2
+q 1 q 1
+q 1 q 1
+¼ 1
+
+ þ 1
+
+ :
+qb2
+qb1
+qb1
+qb2
+¼ 1
+
+ðF:3Þ
+
+In the rest of this lemma, let expectations be conditional on the Ds. We use the notation
+E [  jD] as a shortcut for E [  jDN, . . . , D1]. At the true value of the parameter vector, we have,
+h
+i
+0 ¼ E l_b1 jD
+
+
+1 q ln det  1
+q1
+ E Y0
+Y jD :
+ðF:4Þ
+¼
+2 qb1
+2
+qb1
+with the second equality following from Equation (46). Then, for any nonrandom Q, we have
+E ½Y 0 QY  ¼ Tr½QE ½YY 0  ¼ Tr½Q:
+
+ðF:5Þ
+
+This can be applied to Q that depends on the Ds, even when they are random, because the
+expected value is conditional on the Ds. Therefore, it follows from Equation (F.4) that
+
+
+ 1 
+
+
+1
+q ln det 
+q
+q
+0 q
+¼ E Y
+Y jD ¼ Tr
+ ¼ Tr 1
+,
+ðF:6Þ
+qb1
+qb1
+qb1
+qb1
+with the last equality following from Equation (F.1) and so
+
+
+q2 ln det
+q
+q
+¼
+Tr 1
+qb2 qb1
+qb2
+qb1
+
+
+
+
+q
+1 q
+¼ Tr
+
+qb2
+qb1
+"
+#
+q 1 q
+q2 
+
+þ 1
+¼ Tr 1
+qb2
+qb1
+qb2 qb1
+
+
+q 1 q
+¼ Tr 1
+
+,
+qb2
+qb1
+
+ðF:7Þ
+
+again because of Equation (F.2).
+In light of Equation (46), the expected information (conditional on the Ds) is given by
+"
+#
+2 1
+h
+i 1 q2 ln det  1
+0q 
+€
+þ E Y
+Y jD :
+E lb2 b1 jD ¼
+2 qb2 b1
+2
+qb2 b1
+
+401
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Then,
+"
+
+#
+"
+#
+q2 1
+q2 1
+E Y
+Y jD ¼ Tr
+
+qb2 b1
+qb2 b1
+
+
+q 1 q
+q 1 q
+
+þ 1
+
+¼ Tr 1
+qb2
+qb1
+qb1
+qb2
+
+
+q
+q
+¼ 2Tr 1
+1
+qb2
+qb1
+0
+
+with the first equality following from Equation (F.5) applied to Q ¼ q21/qb2b1, the second
+from Equation (F.3), and the third from the fact that Tr[AB] ¼ Tr[BA]. It follows that
+
+
+
+
+h
+i
+1
+q 1 q
+q 1 q
+
+
+þ Tr 1
+E €lb2 b1 jD ¼  Tr 1
+2
+qb2
+qb1
+qb2
+qb1
+
+
+1
+1 q 1 q
+¼ Tr 
+
+2
+qb2
+qb1
+¼
+
+1 q2 ln det
+:
+2 qb2 b1
+
+Appendix G. Proof of Theorem 3
+In light of Equations (45) and (52),
+ ¼ 0 þ es2 X
+
+ðG:1Þ
+
+from which it follows that
+ 
+1
+1 ¼ 0 Id þ es2 1
+0 X
+
+1 1
+¼ Id þ es2 1
+0
+0 X
+
+ 1 2 1
+ 3
+2 1
+1
+2 4
+¼ 1
+0  es 0 X0 þ e s 0 X 0 þ O e ,
+
+ðG:2Þ
+
+since
+ 
+ðId þ eAÞ1 ¼ Id  eA þ e2 A2 þ O e3 :
+Also,
+q q0
+qs2
+¼
+þe
+X:
+qb1 qb1
+qb1
+Therefore, recalling Equation (F.6), we have
+
+
+q ln det 
+q
+¼ Tr 1
+qb1
+qb1
+
+
+
+
+ 1 2 1
+ 3 	 q0
+qs2
+2 1
+1
+2 4
+þe
+X
+¼ Tr 1
+0  es 0 X0 þ e s 0 X 0 þ O e
+qb1
+qb1
+
+
+
+
+2
+q
+q
+qs
+0
+0
+1
+þ
+1 X
+þ eTr s2 1
+¼ Tr 1
+0
+0 X0
+qb1
+qb1
+qb1 0
+
+
+2
+
+2 1 q0
+2 qs
+1
+1
+þ e2 Tr s4 1
+X
+
+
+s
+
+X
+X
+0
+0
+0
+qb1
+qb1 0
+ 3
+þ Op e :
+ðG:3Þ
+
+402
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+We now consider the behavior as N ! 1 of the terms up to order e2. The remainder term is
+handled similarly. Two things can be determined from the above expansion. Since the jis are
+i.i.d. with mean 0, E [X] ¼ 0, and so, taking unconditional expectations with respect to the law
+of the Dis, we obtain that the coefficient of order e is
+ 
+
+qs2 1
+1 q0
+E Tr s2 1
+þ
+0 X
+0 X0
+qb1
+qb1
+ 
+
+qs2 1
+2 1
+1 q0
+þ
+0 X
+¼ Tr E s 0 X0
+qb1
+qb1
+
+
+q
+qs2 1
+0
+1
+þ
+0 E ½X
+¼ Tr s2 1
+0 E ½X0
+qb1
+qb1
+¼ 0:
+Similarly, the coefficient of order e2 is
+ 
+
+
+2 1 q0
+qs2  1 2
+E Tr s4 1
+ s2
+0 X
+0 X 0
+qb1
+qb1
+
+
+h
+i
+
+q
+qs2 h 1 2 i
+2
+0
+1
+ s2
+E 0 X
+¼ Tr s4 E 1
+0 X
+0
+qb1
+qb1
+
+
+
+
+h
+2 i 2 1 q0 qs2
+2
+1
+s 0
+
+Id
+¼ Tr s E 0 X
+qb1
+qb1
+
+
+
+
+
+
+q
+qs2
+0
+1
+¼ Tr s2 1
+s2 1
+
+Id :
+0 E X0 X
+0
+qb1
+qb1
+The matrix E½X1
+0 X has the following terms
+N X
+N
+X
+ 1 
+
+
+ 1 
+2
+X0 X i;j ¼
+Xik 1
+0 kl Xlj ¼ D0 j i j j 0 ij
+k¼1 l¼1
+
+and since E [jijj] ¼ dij var[j] (where dij denotes the Kronecker symbol), it follows that
+
+
+ 1 
+2
+E X1
+ðG:4Þ
+0 X ¼ D0 var½j diag 0 ,
+1
+where diag½1
+0  is the diagonal matrix formed with the diagonal elements of 0 . From this,
+we obtain that
+
+
+
+
+
+
+
+
+ 1  2 1 q0 qs2
+ 
+q ln det 
+q0
+2
+2 1
+Tr
+s
+
+E
+X
+X
+s
+
+
+Id
+þ O e3
+¼ Tr 1
+þ
+e
+E
+0
+0
+0
+0
+qb1
+qb1
+qb1
+qb1
+
+
+q0
+¼ Tr 1
+0
+qb1
+
+
+
+
+ 1  2 1 q0 qs2
+ 
+
+Id þ O e3 : ðG:5Þ
+s 0
+þ e2 D20 var½jTr s2 1
+0 diag 0
+qb1
+qb1
+
+To calculate E½€lb2 b1 , in light of Equation (51), we need to differentiate E [q ln det /qb1]
+with respect to b2. Indeed
+"
+#
+
+ 
+
+h
+i
+h h
+ii
+1 q2 ln det 
+1 q
+q ln det 
+E €lb2 b1 ¼ E E €lb2 b1 jD ¼  E
+,
+E
+¼
+2
+qb2 qb1
+2 qb2
+qb1
+where we can interchange the unconditional expectation and the differentiation with respect
+to b2 because the unconditional expectation is taken with respect to the law of the Dis, which
+is independent of the b parameters (i.e., s2 and a2). Therefore, differentiating Equation (G.5)
+
+403
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+with respect to b2 will produce the result we need. (The reader may wonder why we take the
+expected value before differentiating, rather than the other way around. As just discussed, the
+results are identical. However, it turns out that taking expectations first reduces the computational burden quite substantially.)
+Combining with Equation (G.5), we therefore have
+
+ 
+
+h
+i
+1 q
+q ln det 
+E
+E €lb2 b1 ¼ 
+2 qb2
+qb1
+
+
+1 q
+1 q0
+¼
+Tr 0
+2 qb2
+qb1
+
+ 
+
+
+
+ 1  2 1 q0 qs2
+ 
+1 2 2
+q
+Tr s2 1
+
+Id
+þ O e3
+s 0
+ e D0 var½j
+0 diag 0
+2
+qb2
+qb1
+qb1
+ 
+ðG:6Þ
+ fð0Þ þ e2 fð2Þ þ O e3 :
+It is useful now to introduce the same transformed parameters (g 2, h) as in previous sections
+and write 0 ¼ g 2V with the parameters and V defined as in Equations (9), (10), and (26),
+except that D is replaced by D0 in these expressions. To compute f(0), we start with
+ 2 
+
+
+
+q0
+2 1 q g V
+Tr 1
+V
+¼
+Tr
+g
+0
+qb1
+qb1
+
+
+
+
+qg 2
+1 qV
+þ Tr g2 V 1 V
+¼ Tr V
+qb1
+qb1
+
+
+2
+qV
+qh
+qg
+þ Ng2
+ðG:7Þ
+¼ Tr V 1
+qh qb1
+qb1
+with qg 2/qb1 and qh/qb1 to be computed from Equations (11) and (12). If Id denotes the
+identity matrix and J the matrix with 1 on the infra and supra-diagonal lines and 0
+everywhere else, we have V ¼ h2Id þ hJ, so that qV/qh ¼ 2hIdþJ. Therefore
+
+
+
+
+
+
+qV
+¼ 2hTr V 1 þ Tr V 1 J
+Tr V 1
+qh
+N
+N
+1
+X
+X
+
+vi;i1 þ vi;iþ1 þ v1;2 þ vN;N1
+¼ 2h vi;i þ
+i¼1
+
+i¼2
+
+
+ 
+
+
+2h 1  h2N N 1  h2 þ 1
+¼
+ð1  h2 Þð1  h2ð1þN Þ Þ
+2h
+þ oð1Þ:
+¼
+ð1  h2 Þ
+
+ðG:8Þ
+
+Therefore, the first term in Equation (G.7) is O(1) while the second term is O(N) and hence
+
+
+q0
+qg 2
+Tr 1
+þ Oð1Þ:
+¼ Ng 2
+0
+qb1
+qb1
+This holds also for the partial derivative of Equation (G.7) with respect to b2. Indeed, given
+the form of Equation (G.8), we have that
+
+ 
+
+
+
+
+q
+qV
+q
+2h
+¼
+þ oð1Þ ¼ Oð1Þ,
+Tr V 1
+2
+qb2
+qh
+qb2 ð1  h Þ
+since the remainder term in Equation (G.8) is of the form p(N)hq(N), where p and q are
+polynomials in N or order greater than or equal to 0 and 1, respectively, whose differentiation
+
+404
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+with respect to h will produce terms that are of order o(N). Thus it follows that
+
+ 
+
+
+
+
+q
+q0
+q
+qg 2
+Tr 1
+g 2
+¼N
+þ oðN Þ
+0
+qb2
+qb
+qb1
+qb1
+( 2
+)
+qg 2 qg 2
+q2 g 2
+þ g 2
+¼N
+þ oðN Þ:
+qb2 qb1
+qb2 qb1
+
+ðG:9Þ
+
+Writing the result in matrix form, where the (1, 1) element corresponds to (b1, b2) = (s2, s2),
+the (1, 2) and (2, 1) elements to (b1, b2) ¼ (s2, a2) and the (2, 2) element to (b1, b2) ¼ (a2, a2),
+and computing the partial derivatives in Equation (G.9), we have
+
+ 
+
+1 q
+q0
+fð0Þ ¼ 
+Tr 1
+0
+2 qb
+qb1
+0 21=2 
+1
+
+1=2
+2
+D0 2a þ s2 D0
+D0
+B 3 2
+C
+3=2
+B 2s ð4a þ s2 D0 Þ3=2
+C
+sð4a2 þ s2 D0 Þ
+C þ oðN Þ:
+!
+¼ NB
+ðG:10Þ
+
+
+1=2
+B
+2
+2
+D0 s 6a þ s D0 C
+1
+@
+A
+
+1
+
+3=2
+2a4
+ð4a2 þ s2 D0 Þ
+As for the coefficient of order e2, that is f(2) in Equation (G.6), define
+
+
+
+
+ 1  2 1 q0 qs2
+
+Id
+s 0
+a  Tr s2 1
+0 diag 0
+qb1
+qb1
+
+ðG:11Þ
+
+so that
+1
+qa
+fð2Þ ¼  D20 var½j
+:
+2
+qb2
+We have
+
+
+ 1  1 q0
+
+
+qs2  1
+diag
+
+Tr 0 diag 1
+ s2
+
+a ¼ s4 Tr 1
+0
+0
+0
+0
+qb1 
+qb
+1
+
+
+
+
+
+
+q g2 V
+qs2 4  1
+¼ s4 g 6 Tr V 1 diag V 1 V 1
+g Tr V diag V 1
+ s2
+qb1
+qb1
+
+
+
+
+
+
+qV qh
+qg 2  1
+¼ s4 g 4 Tr V 1 diag V 1 V 1
+Tr V diag V 1
+þ s4 g 6
+qh qb1
+qb1
+
+
+qs2 4  1
+ s2
+g Tr V diag V 1
+qb1
+
+ 
+
+
+
+
+
+
+
+qh
+qV
+qg2
+qs2 4
+þ s4 g 6
+Tr V 1 diag V 1 V 1
+ s2
+g
+Tr V 1 diag V 1 :
+¼ s4 g 4
+qb1
+qh
+qb1
+qb1
+Next, we compute separately
+
+
+
+
+
+
+
+
+qV
+qV 1
+¼ Tr diag V 1 V 1
+V
+Tr V 1 diag V 1 V 1
+qh
+qh
+
+
+ 1  qV 1
+¼ Tr diag V
+qh
+N
+i;i
+X
+qv
+¼  vi;i
+qh
+i¼1
+
+
+
+
+
+Oð1Þ  2Nh 1 þ h2  h4  h6 þ O h2N þ N 2 O h2N
+¼
+3
+2
+4
+ð1 þ h2 Þ ð1  h2 Þ ð1  h2ð1þN Þ Þ
+2Nh
+¼
+þ oðN Þ
+3
+ð1  h2 Þ
+
+405
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+and
+N 
+
+
+ X
+2
+Tr V 1 diag V 1 ¼
+vi;i
+i¼1
+
+¼
+
+
+
+
+Oð1Þ þ N 1  h4 þ O h2N
+3
+
+2
+
+ð1 þ h2 Þð1  h2 Þ ð1  h2ð1þN Þ Þ
+N
+¼
+þ oðN Þ:
+2
+ð1  h2 Þ
+Therefore
+a ¼ s4 g4
+
+qh
+qb1
+
+!
+
+2Nh
+3
+
+ð1  h2 Þ
+
+!
+
+
+
+qg2
+qs2 4
+N
+ s2
+g
+þ s4 g6
+þ oðN Þ,
+2
+qb1
+qb1
+ð1  h2 Þ
+
+which can be differentiated with respect to b2 to produce qa/qb2. As above, differentiation of
+the remainder term o(N) still produces a o(N) term because of the structure of the terms there
+(they are again of the form p(N)hq(N)).
+Note that an alternative expression for a can be obtained as follows. Going back to the
+definition (G.11),
+
+
+ 1  1 q0
+
+
+qs2  1
+diag
+
+Tr 0 diag 1
+ s2
+
+ðG:12Þ
+a ¼ s4 Tr 1
+0
+0
+0
+0
+qb1
+qb1
+the first trace becomes
+
+
+
+
+ 1  1 q0
+
+ 1 q0 1
+Tr 1
+0
+¼ Tr diag 1
+0 diag 0 0
+0 0
+qb1
+qb1
+
+
+ 1  q1
+0
+¼ Tr diag 0
+qb1
+
+ 1 
+N 
+X
+ q0
+¼
+1
+0
+ii
+qb1 ii
+i¼1
+¼
+
+N 
+2
+1 q X
+1
+2 qb1 i¼1 0 ii
+
+¼
+
+
+ 1 
+1 q
+,
+Tr 1
+0 diag 0
+2 qb1
+
+so that we have
+
+ 1 
+
+
+1 q
+qs2  1
+Tr 1
+Tr 0 diag 1
+ s2
+0 diag 0
+0
+2 qb1
+qb1
+
+
+
+
+ 1  1 qs4
+
+ 1 
+1 q
+¼ s4
+Tr 1
+Tr 1
+
+0 diag 0
+0 diag 0
+2 qb1
+2 qb1
+
+
+1 q  4  1
+¼
+s Tr 0 diag 1
+0
+2 qb1
+
+
+1 q  4 4  1
+s g Tr V diag V 1
+¼
+2 qb1
+!!
+1 q
+N
+4 4
+¼
+s g
+þ oðN Þ
+2
+2 qb1
+ð1  h2 Þ
+!
+N q
+s4 g 4
+¼
+þ oðN Þ,
+2 qb1 ð1  h2 Þ2
+
+a ¼ s4
+
+406
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+where the calculation of Tr[V 1diag[V 1]] is as before, and where the o(N) term is a sum of
+terms of the form p(N)hq(N) as discussed above. From this one can interchange differentiation
+and the o(N) term, yielding the final equality above.
+Therefore
+!!
+qa
+1 q2
+N
+4 4
+¼
+s g
+þ oðN Þ
+2
+qb2
+2 qb1 qb2
+ð1  h2 Þ
+!
+N q2
+s4 g 4
+¼
+þ oðN Þ:
+ðG:13Þ
+2 qb1 qb2 ð1  h2 Þ2
+Writing the result in matrix form and calculating the partial derivatives, we obtain
+0
+ 2
+1
+8a  2s2 D0
+2
+2a 
+C
+1
+qa
+ND20 var½j B
+2D0
+B
+C
+¼
+fð2Þ ¼  D20 var½j
+B
+C þ oðN Þ:
+3
+2
+2
+2
+A
+2
+qb2 ð4a þ s D0 Þ @
+8s
+
+
+D0
+Putting it all together, we have obtained
+ 	
+1 h € i 1  ð0Þ
+E lb2 b1 ¼
+f þ e2 fð2Þ þ O e3
+N
+N
+ 
+ F ð0Þ þ e2 F ð2Þ þ O e3 þ oð1Þ,
+where
+
+0
+
+1=2 
+
+D0
+
+2a2 þ s2 D0
+
+
+
+F ð2Þ 
+
+1
+
+1=2
+
+C
+3=2
+C
+sð4a2 þ s2 D0 Þ
+C
+!
+C,
+
+
+1=2
+2
+2
+D0 s 6a þ s D0 C
+A
+1
+3=2
+ð4a2 þ s2 D0 Þ
+
+1
+2a4
+0
+
+D20 var½j
+3
+ð4a2 þ s2 D0 Þ
+
+ðG:15Þ
+
+D0
+
+B
+B 2s3 ð4a2 þ s2 D Þ3=2
+0
+B
+F ð0Þ ¼ B
+B
+@
+
+
+B 2a
+B
+B
+@
+
+
+
+2
+
+
+
+8a2  2s2 D0
+2D0
+8s2
+
+D0
+
+ðG:14Þ
+
+ðG:16Þ
+
+1
+C
+C
+C:
+A
+
+ðG:17Þ
+
+The asymptotic variance of the maximum-likelihood estimators avarð^
+s2 , ^a2 Þ is, therefore,
+given by
+
+ 2 2
+ 	1
+avar s
+^ , ^a ¼ E ½D F ð0Þ þ e2 F ð2Þ þ O e3
+
+
+
+
+
+h
+i1
+  1
+¼ D0 F ð0Þ Id þ e2 F ð0Þ F ð2Þ þ O e3
+
+
+
+h
+i1
+  1 h ð0Þ i1
+¼ D0 Id þ e2 F ð0Þ F ð2Þ þ O e3
+F
+
+
+
+h
+i1
+  h ð0Þ i1
+¼ D0 Id  e2 F ð0Þ F ð2Þ þ O e3
+F
+h
+i1
+h
+i1
+h
+i1
+ 
+¼ D0 F ð0Þ
+ e2 D0 F ð0Þ F ð2Þ F ð0Þ
+þ O e3
+ 
+ Að0Þ þ e2 Að2Þ þ O e3 ,
+where the final results for A(0) ¼ D0[F (0)]1 and A(2) ¼ D0[F (0)]1F (2)[F (0)]1, obtained by
+replacing F (0) and F (2) by their expressions in Equation (G.15), are given in the statement of
+the theorem.
+
+407
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Appendix H. Proof of Theorem 4
+It follows as in Equations (D.3)–(D.5) that
+h
+i
+
+	
+Etrue l_b1 l_b2 jD ¼ covtrue l_b1 , l_b2 jD
+
+ 1 
+
+ 1  !
+N
+N
+1X
+q
+1X
+q
+Yi Yj
+,
+Yk Yl
+¼ covtrue 
+2 i;j¼1
+2 k;l¼1
+qb1 ij
+qb2 kl
+
+
+
+
+
+
+N
+
+
+1 X q1
+q1
+covtrue Yi Yj , Yk Yl jD
+¼
+4 i;j;k;l¼1 qb1 ij qb2 kl
+ 
+ 1 
+N 
+
+h
+i 1 X
+
+
+q1
+q
+¼ Etrue €lb1 b2 jD þ
+cumtrue Yi , Yj , Yk , Yl jD
+4 i;j;k;l¼1 qb1 ij qb2 kl
+
+ 1
+
+h
+i 1
+q
+q1
+¼ Etrue €lb1 b2 jD þ cum4 ½U c
+,
+,
+ðH:1Þ
+4
+qb1 qb2
+since cumtrue(Yi, Yj, Yk, YljD) ¼ 2, 
+1, or 0,  cumtrue(U), as in Equation (15), and with c
+defined in Equation (D.8). Taking now unconditional expectations, we have
+h
+i
+
+	
+Etrue l_b1 l_b2 ¼ covtrue l_b1 , l_b2
+h
+
+	i
+
+h
+i
+h
+i	
+¼ E covtrue l_b1 , l_b2 jD þ covtrue Etrue l_b1 jD , Etrue l_b2 jD
+h
+
+	i
+¼ E covtrue l_b1 , l_b2 jD
+ 
+ 1
+
+h
+i 1
+q
+q1
+,
+:
+ðH:2Þ
+¼ Etrue €lb1 b2 þ cum4 ½U E c
+4
+qb1 qb2
+with the first and third equalities following from the fact that Etrue ½l_bi jD ¼ 0.
+Since
+h
+i
+h
+i
+Etrue €lb1 b2 jD ¼ Enormal €lb1 b2 jD
+and consequently
+
+h
+i
+h
+i
+Etrue €lb1 b2 ¼ Enormal €lb1 b2
+
+have been found in the previous subsection (see Equation (G.15)), what we need to do to
+obtain Etrue ½l_b1 l_b2  is to calculate
+ 
+ 1
+
+q
+q1
+E c
+,
+:
+qb1 qb2
+With 1 given by Equation (G.2), we have for i ¼ 1, 2
+ 
+q1 q1
+q  2 1 1 
+q  4  1 2 1 	
+¼ 0 e
+s 0 X0 þ e2
+s 0 X 0 þ O e3
+qbi
+qbi
+qbi
+qbi
+and, therefore, by bilinearity of c we have
+ 
+ 1
+
+
+ 1
+
+ 
+ 1
+
+q
+q1
+q0 q1
+q0
+q  2 1 1 
+0
+,
+,
+,
+s 0 X0
+¼c
+ eE c
+½2
+E c
+qb1 qb2
+qb1 qb2
+qb1 qb2
+ 
+ 1
+
+
+	
+
+2 1
+q0
+q
+,
+s4 1
+þ e2 E c
+½2
+0 X 0
+qb1 qb2
+ 
+
+
+q  2 1 1  q  2 1 1 
+s 0 X0 ,
+s 0 X0
+þ e2 E c
+qb1
+qb2
+ 
+þ O e3 ,
+
+408
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+ðH:3Þ
+
+Sampling and Market Microstructure Noise
+
+where the ‘‘[2]’’ refers to the sum over the two terms where b1 and b2 are permuted.
+The first (and leading) term in Equation (H.3),
+
+ 1
+
+
+  2 1   2 1 
+q g V
+q g V
+q0 q1
+0
+,
+,
+¼c
+c
+qb1
+qb2
+qb1 qb2
+
+ 2
+
+1
+qg
+qV
+qg 2 1
+qV 1
+V 1 þ g 2
+,
+V þ g 2
+¼c
+qb1
+qb1 qb2
+qb2
+
+ 2
+
+1
+2
+qg
+qV
+qh
+qg
+qV 1 qh
+¼c
+V 1 þ g 2
+,
+V 1 þ g 2
+qb1
+qh qb1 qb1
+qh qb1
+corresponds to the equally spaced, misspecified noise distribution, situation studied in
+Section 6.
+The second term, linear in e, is zero since
+ 
+ 1
+
+
+ 1 
+
+q0
+q  2 1 1 
+q0
+q  2 1 1 
+,
+s 0 X0
+,E
+s 0 X0
+¼c
+E c
+qb2
+qb1 qb2
+qb1
+
+ 1
+
+
+q0
+q  2 1
+,
+s 0 E ½X1
+¼c
+0
+qb1 qb2
+¼0
+with the first equality following from the bilinearity of c, the second from the fact that the
+unconditional expectation over the Dis does not depend on the b parameters, so expectation
+and differentiation with respect to b2 can be interchanged, and the third equality from the
+fact that E [X] ¼ 0.
+To calculate the third term in Equation (H.3), the first of two that are quadratic in e, note
+that
+ 
+ 1
+
+q0
+q  4 1 1 1 
+,
+s 0 X0 X0
+a1  E c
+qb1 qb2
+
+ 1
+
+q0
+q  4 1  1  1 
+,
+s 0 E X0 X 0
+¼c
+qb1 qb2
+
+ 1
+
+
+ 1 
+q0
+q  4 1
+,
+s 0 diag 1
+¼ D20 var½jc
+0 0
+qb1 qb2
+
+  2 1 
+
+
+
+
+q g V
+q  4 6 1
+2
+,
+s g V diag V 1 V 1 ,
+ðH:4Þ
+¼ D0 var½jc
+qb2
+qb1
+with the second equality obtained by replacing E½X1
+0 X with its value given in Equation
+(G.4), and the third by recalling that 0 ¼ g2 V. The elements (i, j) of the two arguments of c
+in Equation (H.4) are
+
+
+q g 2 vi;j
+qg 2 i;j
+qvi;j qh
+¼
+v þ g 2
+ni;j ¼
+qb1
+qb1
+qh qb1
+and
+v
+
+k;l
+
+!
+N
+X
+q
+4 6
+k;m m;m m;l
+¼
+s g
+v v v
+qb2
+m¼1
+!
+ 4 6  N
+N
+X
+q s g
+q X
+qh
+vk;m vm;m vm;l þ s4 g 6
+vk;m vm;m vm;l
+¼
+qb2 m¼1
+qh m¼1
+qb2
+
+from which c in Equation (H.4) can be evaluated through the sum given in Equation (D.8).
+
+409
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Summing these terms, we obtain
+
+  2 1 
+
+
+
+
+q g V
+q  4 6 1
+,
+s g V diag V 1 V 1
+c
+qb2
+qb1
+
+
+
+
+4N ðC1V ð1  hÞ þ C2V C3V Þ C1W 1  h2 þ 2C2W C3W ð1 þ 3hÞ
+¼
+þ oðN Þ,
+ð1  hÞ7 ð1 þ hÞ3
+where
+qg2
+qh
+, C2V ¼ g2 , C3V ¼
+qb1
+qb1
+
+
+q s4 g 6
+qh
+¼
+, C2W ¼ s4 g 6 , C3W ¼
+:
+qb2
+qb2
+
+C1V ¼
+C1W
+
+The fourth and last term in Equation (H.3), also quadratic in e,
+ 
+
+
+q  2 1 1  q  2 1 1 
+s 0 X0 ,
+s 0 X0
+a2  E c
+qb1
+qb2
+is obtained by first expressing
+
+
+
+q  2 1 1  q  2 1 1 
+s 0 X0 ,
+s 0 X0
+c
+qb1
+qb2
+in its sum form and then taking expectations term by term. Letting now
+
+
+
+
+
+
+q  2 1 1 
+q  2 1 1 
+s 0 X0
+, vk;l ¼
+s 0 X0
+ni;j ¼
+qb1
+qb2
+ij
+kl
+we recall our definition of c(n, v) given in Equation (D.8) whose unconditional expected
+value (over the Dis, i.e., over X) we now need to evaluate in order to obtain a2.
+We are thus led to consider four-index tensors lijkl and to define
+N
+N
+1n
+X
+X
+~ ðlÞ  2 lh;h;h;h þ
+2lh;hþ1;hþ1;hþ1  2lhþ1;hþ1;h;hþ1
+c
+h¼1
+
+h¼1
+
+þ lh;h;hþ1;hþ1 þ lhþ1;hþ1;h;h þ 4lh;hþ1;h;hþ1
+o
+2lhþ1;h;h;h  2lh;h;hþ1;h ,
+
+ðH:5Þ
+
+where lijkl is symmetric in the first two and the last two indices, respectively, that is, lijkl ¼ ljikl
+and lijkl ¼ lijlk. In terms of our definition of c in Equation (D.8), it should be noted that
+~ ðlÞ when one takes lijkl = ni,jvk,l. The expression we seek is, therefore,
+cðn, vÞ ¼ c
+ 
+
+
+q  2 1 1  q  2 1 1 
+~ ðlÞ,
+s 0 X0 ,
+s 0 X0
+a2 ¼ E c
+¼c
+ðH:6Þ
+qb1
+qb2
+where lijkl is taken to be the following expected value
+
+
+lijkl  E ni;j vk;l
+"
+
+ 
+
+ #
+q  2 1 1 
+q  2 1 1 
+¼E
+s 0 X0
+s 0 X0
+qb1
+ij qb2
+kl
+"
+#
+N
+
+	
+
+X
+
+
+
+
+
+
+ 1  	
+q
+q
+2
+1
+1
+2
+1
+¼E
+s 0 ir Xrs 0 sj
+s 0 kt Xtu 0 ul
+qb1
+qb2
+r;s;t;u¼1
+N
+X
+q  2  1   1  	 q  2  1   1  	
+¼
+s 0 ir 0 sj
+s 0 kt 0 ul E ½Xrs Xtu 
+qb1
+qb2
+r;s;t;u¼1
+N
+X
+q  2  1   1  	 q  2  1   1  	
+s 0 ir 0 rj
+s 0 kr 0 rl
+¼ D20 var½j
+qb
+qb2
+1
+r¼1
+
+410
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+with the third equality following from the interchangeability of unconditional expectations
+and differentiation with respect to b, and the fourth from the fact that E[Xrs Xtu] 6¼ 0 only
+when r ¼ s ¼ t ¼ u, and
+E ½Xrr Xrr  ¼ D20 var½j:
+Thus we have
+lijkl ¼ D20 var½j
+¼ D20 var½j
+
+N
+X
+q  2 4  1   1  	 q  2 4  1   1  	
+s g V ir V
+s g V kr V rl
+rj qb
+qb
+1
+2
+r¼1
+N
+X
+q  2 4 i;r r;j  q  2 4 k;r r;l 
+s g v v
+s g v v :
+qb
+qb2
+1
+r¼1
+
+ðH:7Þ
+
+and
+q  2 4 i;r r;j  q  2 4 k;r r;l 
+s g v v
+s g v v ¼
+qb1
+qb2
+
+
+  2 4 
+
+q s g
+qðvi;r vr;j Þ qh
+vi;r vr;j þ s2 g 4
+qh qb1
+qb1
+
+
+
+  2 4 
+
+q s g
+q vk;r vr;l qh
+
+vk;r vr;l þ s2 g 4
+:
+qb2
+qb2
+qh
+
+Summing these terms, we obtain
+~ ðlÞ ¼
+c
+
+D20 var½j 2N
+ð1  hÞ7 ð1 þ hÞ3 ð1 þ h2 Þ3
+
+ðC1l ð1  h4 Þð2C5l C6l ð1 þ h þ h2 þ 2h3 Þ þ C4l ð1  h4 ÞÞ
+
+þ 2C2l C3l ð2C5l C6l ð1 þ 2h þ 4h2 þ 6h3 þ 5h4 þ 4h5 þ 4h6 Þ
+þ C4l ð1 þ h þ h2 þ 2h3  h4  h5  h6  2h7 ÞÞÞ
+þ oðNÞ,
+where
+
+
+q s2 g 4
+qh
+, C2l ¼ s2 g 4 , C3l ¼
+,
+qb1
+qb1
+ 2 4 
+q s g
+qh
+¼
+, C5l ¼ s2 g4 , C6l ¼
+:
+qb2
+qb2
+
+C1l ¼
+C4l
+
+Putting it all together, we have
+ 
+ 1
+
+
+ 1
+
+ 
+q
+q1
+q0 q1
+0
+,
+,
+¼c
+þ e2 ða1 ½2 þ a2 Þ þ O e3 :
+E c
+qb1 qb2
+qb1 qb2
+Finally, the asymptotic variance of the estimator ð^
+s2 , ^a2 Þ is given by
+
+1
+ 2 2
+avartrue s
+^ , ^a ¼ E ½D D0 S1 D ,
+
+ðH:8Þ
+
+where
+h i
+hi
+hi 1
+1
+1
+Etrue €l ¼  Enormal €l ¼ Enormal l_l_0
+N
+N
+N
+ 
+ F ð0Þ þ e2 F ð2Þ þ O e3
+
+D ¼ D0 ¼ 
+
+411
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+is given by the expression in the correctly specified case (G.15), with F (0) and F (2) given in
+Equations (G.16) and (G.17), respectively. Also, in light of Equation (H.1), we have
+h i
+hi
+1
+1
+S ¼ Etrue l_l_0 ¼  Etrue €l þ cum4 ½U  C ¼ D þ cum4 ½U  C,
+N
+N
+where
+0  
+ 1
+
+ 
+ 1
+ 1
+q
+q1
+q
+q1
+,
+,
+E c
+E c
+B
+C
+2
+2
+2
+2
+qs
+qs
+qs
+qa
+1 B
+C
+C¼
+B
+ 
+ 1
+ C
+1
+A
+4N @
+q
+q
+,
+
+E c
+qa2
+qa2
+ 
+ Cð0Þ þ e2 Cð2Þ þ O e3 :
+Since, from Equation (H.3), we have
+ 
+ 1
+
+
+ 1
+
+ 
+q
+q1
+q0 q1
+0
+E c
+,
+,
+¼c
+þ e2 a1 ½2 þ e2 a2 þ O e3 ,
+qb1 qb2
+qb1 qb2
+
+ 1
+
+1
+q0 q1
+c
+; 0 , that is,
+it follows that C(0) is the matrix with entries
+4N
+qb1 qb2
+0
+1
+!
+1=2 
+1=2
+D0 6a2 þ D0 s2
+D0
+D0
+1
+B
+C
+
+3
+B s2 ð4a2 þ D0 s2 Þ3
+C
+2a4 sð4a2 þ D0 s2 Þ3=2
+ð4a2 þ D0 s2 Þ
+B
+C
+ð0Þ
+þ oð1Þ,
+C ¼B
+
+ 2
+! C
+1=2  2
+2
+4
+2
+B
+C
+D0 s 6a þ D0 s
+2a 16a þ 3D0 s
+1
+@
+A
+
+1
+
+
+3
+3=2
+2a8
+ð4a2 þ D0 s2 Þ
+ð4a2 þ D0 s2 Þ
+and
+Cð2Þ ¼
+with
+
+0
+
+B
+1
+a1 ½2 ¼ var½jB
+@
+4N
+
+3=2
+
+2D0
+
+ð4a2 þ D0 s2 Þs
+9=2
+
+ð4a2 þ D0 s2 Þ
+
+
+
+D0
+
+1
+ða1 ½2 þ a2 Þ:
+4N
+
+
+1
+3=2
+sð40a4 þ 2a2 D0 s2 þ D20 s4 Þ
+ð4a2 þ D0 s2 Þð4a2 þ D0 s2 Þ  D1=2
+0
+9=2
+C
+2a4 ð4a2 þ D0 s2 Þ
+C
+
+
+3=2
+A
+1=2
+8D0 s2 ð4a2 þ D0 s2 Þ  D0 sð6a2 þ D0 s2 Þ
+a4 ð4a2 þ D0 s2 Þ
+
+9=2
+
+þ oð1Þ,
+1
+a2
+4N
+
+0
+
+ 3=2 
+1
+3=2 
+D0 40a8  12a4 D0 2 s4 þD0 4 s8 D0 s 44a6  18a4 D0 s2 þ 7a2 D0 2 s6 þ3D0 3 s6
+B
+C
+3
+9=2
+B 2sð2a2 þD0 s2 Þ ð4a2 þ D0 s2 Þ9=2
+C
+ð2a2 þ D0 s2 Þ3 ð4a2 þD0 s2 Þ
+C
+¼ var½jB
+
+
+B
+C
+3=2 3
+2
+2
+2
+2
+4
+@
+A
+2D0 s 50a þ42a D0 s þ 9D0 s
+
+9=2
+3
+ð2a2 þ D0 s2 Þ ð4a2 þD0 s2 Þ
+þoð1Þ,
+
+It follows from Equation (H.8) that
+
+	1
+ 2 2
+^ , ^a ¼ E ½D DðD þ cum4 ½U CÞ1 D
+avartrue s
+ 
+1 	1
+¼ D0 D Id þ cum4 ½U D1 C
+
+
+¼ D0 Id þ cum4 ½U D1 C D1
+
+
+¼ D0 Id þ cum4 ½U D1 C D1
+ 2 2
+¼ avarnormal s
+^ , ^a þ D cum4 ½U  D1 CD1 ,
+
+412
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+where
+ 2 2
+ 
+^ , ^a ¼ D0 D1 ¼ Að0Þ þ e2 Að2Þ þ O e3
+avarnormal s
+is the result given in Theorem 3, namely Equation (53).
+The correction term due to the misspecification of the error distribution is determined by
+cum4[U] times
+
+ 	1  ð0Þ 2 ð2Þ
+ 	 ð0Þ 2 ð2Þ
+ 	1
+F þe F þ O e3
+D0 D1 CD1 ¼ D0 F ð0Þ þe2 F ð2Þ þ O e3
+C þe C þO e3
+
+
+
+h
+i1
+  h ð0Þ i1  ð0Þ 2 ð2Þ
+ 	
+¼ D0 Id e2 F ð0Þ F ð2Þ þO e3
+C þ e C þO e3
+F
+
+
+
+h
+i1
+  h ð0Þ i1
+ Ide2 F ð0Þ F ð2Þ þO e3
+F
+h
+i1
+h
+i1
+¼ D0 F ð0Þ Cð0Þ F ð0Þ
+h
+i1
+h
+i1 h
+i1
+h
+i1
+h
+i1
+þe2 D0 F ð0Þ Cð2Þ F ð0Þ
+ F ð0Þ F ð2Þ F ð0Þ Cð0Þ F ð0Þ
+h
+i1
+h
+i1
+h
+i1 	
+ F ð0Þ Cð0Þ F ð0Þ F ð2Þ F ð0Þ
+ 
+þO e3
+ 
+Bð0Þ þe2 Bð2Þ þ O e3 :
+The asymptotic variance is then given by
+	
+
+	
+ 2 2   ð0Þ
+ 
+^ , ^a ¼ A þ cum4 ½U Bð0Þ þ e2 Að2Þ þ cum4 ½U Bð2Þ þ O e3
+avartrue s
+with the terms A(0), A(2), B(0) and B(2) given in the statement of the theorem.
+
+Appendix I. Proof of Theorem 5
+From
+
+
+
+ 
+ 
+ 
+c2 1  ebD
+E Yi2 ¼ E w2i þ E u2i ¼ s2 D þ
+b
+it follows that the estimator (5) has the following expected value
+N
+ 2 1 X
+ 
+E Yi2
+E s
+^ ¼
+T i¼1
+
+
+
+
+c2 1  ebD
+N
+s2 D þ
+¼
+T
+b
+
+
+2
+bD
+c
+1
+
+e
+¼ s2 þ
+bD
+ 2
+ bc2
+ 
+2
+D þ O D2 :
+¼ s þc 
+2
+
+ðI:1Þ
+
+The estimator’s variance is
+
+"
+#
+N
+X
+ 2
+1
+2
+Yi
+var s
+^ ¼ 2 var
+T
+i¼1
+¼
+
+N
+N X
+i1
+
+	
+ 
+1 X
+2 X
+var Yi2 þ 2
+cov Yi2 , Yj2 :
+2
+T i¼1
+T i¼1 j¼1
+
+413
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Since the Yi s are normal with mean zero,
+ 
+ 2
+var Yi2 ¼ 2 var½Yi 2 ¼ 2E Yi2
+and for i > j
+
+	
+
+2
+
+2
+cov Yi2 , Yj2 ¼ 2 cov Yi , Yj ¼ 2E ui uj
+since
+
+
+
+
+
+
+
+
+
+cov Yi , Yj ¼ E Yi Yj ¼ E ðwi þ ui Þ wj þ uj ¼ E ui uj :
+Now we have
+
+
+
+
+
+E ui uj ¼ E ðUti  Uti1 Þ Utj  Utj1
+
+
+
+
+
+
+
+
+¼ E Uti Utj  E Uti Utj1  E Uti1 Utj þ E Uti1 Utj1
+
+2
+c2 1  ebD ebDðij1Þ
+¼
+2b
+so that
+
+2
+
+	
+c2 1  ebD ebDðij1Þ
+cov Yi2 , Yj2 ¼ 2 
+2b
+
+4
+c4 e2bDðij1Þ 1  ebD
+¼
+2b2
+
+!2
+
+and consequently
+( 
+2 
+
+
+2 )
+
+
+ 2
+c2 1  ebD
+1 c4 1  ebD Ne2bD  1 þ e2NbD
+2
+þ
+2N
+s
+D
+þ
+var s
+^ ¼ 2
+2
+T
+b
+b2 ð1 þ ebD Þ
+
+ðI:2Þ
+
+with N ¼ T/D. The RMSE expression follows from Equations (I.1) and (I.2). As in Theorem 1,
+these are exact small sample expressions, valid for all (T, D).
+
+References
+Abramowitz, M., and I. A. Stegun, 1972, Handbook of Mathematical Functions, Dover, New York.
+Aı̈t-Sahalia, Y., 1996, ‘‘Nonparametric Pricing of Interest Rate Derivative Securities,’’ Econometrica, 64,
+527–560.
+Aı̈t-Sahalia, Y., 2002, ‘‘Maximum-Likelihood Estimation of Discretely-Sampled Diffusions: A ClosedForm Approximation Approach,’’ Econometrica, 70, 223–262.
+Aı̈t-Sahalia, Y., and P. A. Mykland, 2003, ‘‘The Effects of Random and Discrete Sampling When
+Estimating Continuous-Time Diffusions,’’ Econometrica, 71, 483–549.
+Andersen, T. G., T. Bollerslev, F. X. Diebold, and P. Labys, 2001, ‘‘The Distribution of Exchange Rate
+Realized Volatility,’’ Journal of the American Statistical Association, 96, 42–55.
+Andersen, T. G., T. Bollerslev, F. X. Diebold, and P. Labys, 2003, ‘‘Modeling and Forecasting Realized
+Volatility,’’ Econometrica, 71, 579–625.
+Bandi, F. M., and P. C. B. Phillips, 2003, ‘‘Fully Nonparametric Estimation of Scalar Diffusion Models,’’
+Econometrica, 71, 241–283.
+Barndorff-Nielsen, O. E., and N. Shephard, 2002, ‘‘Econometric Analysis of Realized Volatility and Its
+Use in Estimating Stochastic Volatility Models,’’ Journal of the Royal Statistical Society B, 64, 253–280.
+
+414
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+Sampling and Market Microstructure Noise
+
+Bessembinder, H., 1994, ‘‘Bid-Ask Spreads in the Interbank Foreign Exchange Markets,’’ Journal of
+Financial Economics, 35, 317–348.
+Black, F., 1986, ‘‘Noise,’’ Journal of Finance, 41, 529–543.
+Choi, J. Y., D. Salandro, and K. Shastri, 1988, ‘‘On the Estimation of Bid-Ask Spreads: Theory and
+Evidence,’’ The Journal of Financial and Quantitative Analysis, 23, 219–230.
+Conrad, J., G. Kaul, and M. Nimalendran, 1991, ‘‘Components of Short-Horizon Individual Security
+Returns,’’ Journal of Financial Economics, 29, 365–384.
+Dahlquist, G., and A. Björck, 1974, Numerical Methods, Prentice-Hall Series in Automatic Computation,
+New York.
+Delattre, S., and J. Jacod, 1997, ‘‘A Central Limit Theorem for Normalized Functions of the Increments
+of a Diffusion Process, in the Presence of Round-Off Errors,’’ Bernoulli, 3, 1–28.
+Durbin, J., 1959, ‘‘Efficient Estimation of Parameters in Moving-Average Models,’’ Biometrika, 46,
+306–316.
+Easley, D., and M. O’Hara, 1992, ‘‘Time and the Process of Security Price Adjustment,’’ Journal of
+Finance, 47, 577–605.
+Engle, R. F., and J. R. Russell, 1998, ‘‘Autoregressive Conditional Duration: A New Model for
+Irregularly Spaced Transaction Data,’’ Econometrica, 66, 1127–1162.
+French, K., and R. Roll, 1986, ‘‘Stock Return Variances: The Arrival of Information and the Reaction of
+Traders,’’ Journal of Financial Economics, 17, 5–26.
+Gençay, R., G. Ballocchi, M. Dacorogna, R. Olsen, and O. Pictet, 2002, ‘‘Real-Time Trading
+Models and the Statistical Properties of Foreign Exchange Rates,’’ International Economic Review, 43,
+463–491.
+Glosten, L. R., 1987, ‘‘Components of the Bid-Ask Spread and the Statistical Properties of Transaction
+Prices,’’ Journal of Finance, 42, 1293–1307.
+Glosten, L. R., and L. E. Harris, 1988, ‘‘Estimating the Components of the Bid/Ask Spread,’’ Journal of
+Financial Economics, 21, 123–142.
+Gloter, A., and J. Jacod, 2000, ‘‘Diffusions with Measurement Errors: I — Local Asymptotic Normality
+and II — Optimal Estimators,’’ working paper, Universite de Paris VI.
+Gottlieb, G., and A. Kalay, 1985, ‘‘Implications of the Discreteness of Observed Stock Prices,’’ Journal of
+Finance, 40, 135–153.
+Haddad, J., 1995, ‘‘On the Closed Form of the Likelihood Function of the First Order Moving Average
+Model,’’ Biometrika, 82, 232–234.
+Hamilton, J. D., 1995, Time Series Analysis, Princeton University Press, Princeton, NJ.
+Hansen, L. P., and J. A. Scheinkman, 1995, ‘‘Back to the Future: Generating Moment Implications for
+Continuous-Time Markov Processes,’’ Econometrica, 63, 767–804.
+Harris, L., 1990a, ‘‘Estimation of Stock Price Variances and Serial Covariances from Discrete
+Observations,’’ Journal of Financial and Quantitative Analysis, 25, 291–306.
+Harris, L., 1990b, ‘‘Statistical Properties of the Roll Serial Covariance Bid/Ask Spread Estimator,’’
+Journal of Finance, 45, 579–590.
+Hasbrouck, J., 1993, ‘‘Assessing the Quality of a Security Market: A New Approach to Transaction-Cost
+Measurement,’’ Review of Financial Studies, 6, 191–212.
+Heyde, C. C., 1997, Quasi-Likelihood and its Application, Springer-Verlag, New York.
+
+415
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+The Review of Financial Studies / v 18 n 2 2005
+
+Jacod, J., 1996, ‘‘La Variation Quadratique du Brownien en Présence d’Erreurs d’Arrondi,’’ Asterisque,
+236, 155–162.
+Kaul, G., and M. Nimalendran, 1990, ‘‘Price Reversals: Bid-Ask Errors or Market Overreaction,’’
+Journal of Financial Economics, 28, 67–93.
+Lo, A. W., and A. C. MacKinlay, 1990, ‘‘An Econometric Analysis of Nonsynchronous Trading,’’
+Journal of Econometrics, 45, 181–211.
+Macurdy, T. E., 1982, ‘‘The Use of Time Series Processes to Model the Error Structure of Earnings in a
+Longitudinal Data Analysis,’’ Journal of Econometrics, 18, 83–114.
+Madhavan, A., M. Richardson, and M. Roomans, 1997, ‘‘Why Do Security Prices Change?,’’ Review of
+Financial Studies, 10, 1035–1064.
+McCullagh, P., 1987, Tensor Methods in Statistics, Chapman and Hall, London, UK.
+McCullagh, P., and J. Nelder, 1989, Generalized Linear Models (2d ed.). Chapman and Hall,
+London, UK.
+Merton, R. C., 1980, ‘‘On Estimating the Expected Return on the Market: An Exploratory
+Investigation,’’ Journal of Financial Economics, 8, 323–361.
+Roll, R., 1984, ‘‘A Simple Model of the Implicit Bid-Ask Spread in an Efficient Market,’’ Journal of
+Finance, 39, 1127–1139.
+Shaman, P., 1969, ‘‘On the Inverse of the Covariance Matrix of a First Order Moving Average,’’
+Biometrika, 56, 595–600.
+Sias, R. W., and L. T. Starks, 1997, ‘‘Return Autocorrelation and Institutional Investors,’’ Journal of
+Financial Economics, 46, 103–131.
+White, H., 1982, ‘‘Maximum Likelihood Estimation of Misspecified Models,’’ Econometrica, 50, 1–25.
+Zhang, L., P. A. Mykland, and Y. Aı̈t-Sahalia, 2003, ‘‘A Tale of Two Time Scales: Determining
+Integrated Volatility with Noisy High-Frequency Data,’’ forthcoming in the Journal of the American
+Statistical Association.
+
+416
+Downloaded from https://academic.oup.com/rfs/article-abstract/18/2/351/1599888
+by Universitaets- und Landesbibliothek Darmstadt user
+on 19 January 2018
+
+

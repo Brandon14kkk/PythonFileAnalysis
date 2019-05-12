@@ -1,0 +1,2004 @@
+LEONARDO BARTOLINI
+SPENCE HILTON
+ALESSANDRO PRATI
+
+Money Market Integration
+We use transaction-level data and detailed modeling of the high-frequency
+behavior of federal funds–Eurodollar spreads to provide evidence of strong
+integration of the U.S. markets for federal funds and Eurodollars, the two
+core components of the dollar money market. Our evidence of negligible federal funds–Eurodollar premia contrasts with previous findings of large and
+predictable premia, which have been interpreted as evidence of segmentation
+between the markets for federal funds and Eurodollars. Our results, however,
+are consistent with possible persistent segmentation within the global Eurodollar market. We document several patterns in the behavior of federal
+funds–Eurodollar spreads, including liquidity effects from trading volume
+to yield spreads’ volatility.
+JEL codes: E43, E44, E52
+Keywords: federal funds, Eurodollars, market segmentation.
+
+WHETHER THE MARKETS for federal funds and Eurodollars—
+the two core components of the dollar money market—are well integrated is an issue
+relevant for both financial analysis and the execution of monetary policy.
+From the viewpoint of the former, it is important to re-evaluate recent evidence of
+segmentation between the markets for federal funds and Eurodollars (Cyree, Griffiths,
+and Winters 2003, Lee 2003a, 2003b, Demiralp, Preslopsky, and Whitesell 2004) for
+at least two reasons. First, such evidence is surprising, given the similar regulatory
+treatment of federal funds and Eurodollars since 1990. The spreads between federal
+The views expressed here are those of the authors and do not necessarily reflect those of the Federal
+Reserve Bank of New York or the IMF. We thank the management and staff of Euro Brokers—in particular
+Brian Clark, Walter Danielsson, and Joe D’Errico—for providing the critical data for this project and for
+several helpful conversations. (Since we obtained the data, Euro Brokers has become a subsidiary of BGC
+Partners and is now recognized as BGC Brokers.) We also thank Selva Demiralp and Bill Whitesell for
+sharing their data with us, Jian Wang and participants in various seminars for comments, and Svenja Gudell
+and Krista Schwarz for assistance in this project.
+
+LEONARDO BARTOLINI and SPENCE HILTON are from the Federal Reserve Bank of New York,
+33 Liberty Street, New York, NY 10045 (E-mail: leo.bartolini@ny.frb.org). ALESSANDRO PRATI
+is from the International Monetary Fund, 700 19th Street NW, Washington, DC 20431.
+Received October 17, 2005; and accepted in revised form February 26, 2007.
+Journal of Money, Credit and Banking, Vol. 40, No. 1 (February 2008)
+
+C 2008 Federal Reserve Bank of New York with Exclusive License to Print by The Ohio State
+University
+
+194
+
+:
+
+MONEY, CREDIT AND BANKING
+
+funds and Eurodollar rates documented in these studies seem to imply unexploited
+arbitrage opportunities for institutions willing to borrow in one market and lend in
+the other. Could essentially identical instruments really trade at different prices?
+Second, if the federal funds and Eurodollar markets are not well integrated, then
+by the time the funds market opens—at about 8:00 daily in New York—information
+accrued during the overnight closure (including about events in Europe and Asia)
+would not be fully reflected in federal funds rates. If so, like other markets subject
+to periodic closures, the funds market should exhibit unusual turbulence after its
+morning opening, as investors trade funds to rebalance their portfolios in accord with
+night-time news (Brock and Kleidon 1992, Hong and Wang 2000). Federal funds
+and Eurodollar rates may then deviate significantly from each other, especially in the
+morning, when price discovery should be intense in the funds market. Conversely,
+if these two markets are well integrated, because of the overnight availability of
+Eurodollars, opening federal funds rates should already incorporate all news accrued
+overnight, investors’ liquid holdings should already be near their desired levels, and
+federal funds rates should align well with Eurodollar rates throughout the day.
+The degree of integration of the federal funds and the Eurodollar markets is also
+critical for the execution and transmission of monetary policy. The Federal Reserve
+currently defines its target rate only in terms of trades executed in the federal funds
+market which, as a result, anchors the whole term structure of U.S. interest rates.
+However, as Figure 1 illustrates, the Eurodollar market is a larger and expanding source
+of funding for U.S. banks, having grown from half to twice the size of the federal funds
+
+FIG. 1. Liabilities of Commercial Banks in the United States.
+NOTE: Balances due to foreign related offices and borrowings from banks in the United States include, and are used as
+proxies for movements in, overnight Eurodollar and federal funds liabilities, respectively, but these data also include other
+sources of U.S. banks’ liabilities to foreign and other domestic banks.
+SOURCE: Board of Governors, Federal Reserve.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+195
+
+market since the mid-1980s. This evolution may affect the transmission of monetary
+policy from the core of the dollar money market (the market for federal funds) to
+its neighboring rings (the United States and the foreign markets for Eurodollars). If
+the federal funds and Eurodollar markets are not well integrated, for instance, one
+may wonder if the Fed ought to redefine its target more broadly, to encompass trades
+executed in both the federal funds and the Eurodollar markets.
+To help assess these issues, this paper offers a detailed analysis of the integration of
+the markets for federal funds and Eurodollar deposits. We use new transaction-level
+data, provided by one of the largest U.S.-based dollar money brokers and detailed
+modeling of the intra-day behavior of federal funds–Eurodollar spreads to provide evidence of strong integration of the U.S. markets for federal funds and Eurodollars. This
+conclusion contrasts with previous findings of predictable federal funds–Eurodollar
+spreads, which have been interpreted as evidence of segmentation between the markets for these two instruments.
+To document this view, and trace the source of differences between our and previous
+results, we present a sequence of estimates that use progressively finer representations
+of the data, moving from daily quote-based London–NY spreads to daily transactionbased NY–NY spreads, to hourly transaction-based NY–NY spreads. This analysis
+allows us to trace the key reason for previous evidence of federal funds–Eurodollar
+segmentation to its reliance on a comparison of Eurodollar rates from London with
+federal funds rates from New York, a comparison that lets structural differences
+between the London and New York markets interfere with the estimation of federal
+funds–Eurodollar premia. By contrast, our breakdown of spreads into their building
+components (including breakdowns across instruments and across trading locations)
+allows us to show that there is no segmentation between the markets for federal funds
+and Eurodollars per se: federal funds–Eurodollar premia estimated with transaction
+data drawn from a reasonably homogeneous trading environment (the New York
+market) are small and essentially unpredictable, even at high (intra-day) frequency.
+Our results, however, are consistent with the possibility that segmentation might
+persist within the Eurodollar market, a hypothesis that we investigate by studying the
+behavior of (quote-based) London Eurodollar–NY Eurodollar spreads. This aspect of
+the analysis is vulnerable to problems of data quality, however, leading us to suspend
+judgment on whether investors treat London and New York Eurodollars as essential
+substitutes or not.
+Our high-frequency perspective allows us to examine other aspects of the joint
+behavior of the federal funds and Eurodollar markets. For instance, we document
+significant liquidity effects: the volatility of yield spreads falls when trading volume
+rises; that is, market liquidity enhances the integration of our two market segments.
+We also show that news on money market conditions, as captured by results of daily
+Federal Reserve open market auctions, are absorbed quickly—within a couple of
+hours—into federal funds–Eurodollar spreads. Altogether, our analysis shows the
+two core components of the U.S. money market to be highly integrated, although
+a firmer conclusion on the internal integration of the global market for Eurodollars
+must await better data than currently available to researchers.
+
+196
+
+:
+
+MONEY, CREDIT AND BANKING
+
+1. THE FEDERAL FUNDS AND THE EURODOLLAR MARKETS
+Until 1990, the federal funds market was the premier stage for U.S. banks’ trading of unsecured short-term loans of immediately available funds. The main reason
+for this prominence was Federal Reserve Regulation D, requiring banks operating in
+the United States to maintain reserve funds in proportion to their deposit liabilities,
+while exempting from such requirement certain borrowings from banks and other
+institutions—so-called “federal funds” (For simplicity, we shall refer to all institutions active in our markets as “banks.”) This exemption gives rise to a market—the
+federal funds market—in which these exempt liabilities are created. 1 Given Federal
+Reserve procedures aimed at stabilizing federal funds rates around a target, the funds
+market has also acted historically as the anchor for the entire market for liquid dollar
+instruments and for the whole term structure of dollar interest rates.
+The other main source of unsecured dollar funds has been, historically, the market
+for Eurodollar deposits. 2 Until 1990, use of the Eurodollar market by U.S.-based banks
+(including U.S. branches of foreign banks) was stunted by reserve requirements on
+net borrowings due to their non-U.S. offices and International Banking Facilities, i.e.,
+Eurodollar liabilities. These regulations effectively segmented the federal funds and
+the Eurodollar markets.
+At the end of 1990, the privilege accorded to federal funds relative to Eurodollars
+was essentially eliminated when reserve requirements on Eurodollar liabilities were
+set to zero. This reform allowed the Eurodollar market to begin playing a role similar
+to that historically played by the federal funds market for U.S. banks. It also expanded
+the set of institutions from which U.S. banks could borrow at equivalent terms as in
+the funds market. 3 As a result, since 1990, the growth of U.S. banks’ Eurodollar
+borrowing has outstripped that of federal funds borrowing. In absolute terms, the
+former now outweighs significantly the latter, even in just the overnight segment (see
+Figure 1 and Demiralp, Preslopsky, and Whitesell 2004).
+No data are available to assess global Eurodollar trading volume nor to measure the relative importance of various Eurodollar trading centers. London remains,
+presumably, the most important center for Eurodollar trading for non-U.S. banks.
+1. The phrase “federal funds market” often refers to just the market’s brokered segment, which hosts
+the vast majority of trading between large banks. However, trades can also be arranged directly between
+banks. Indeed, many small retail-oriented banks only trade directly with larger correspondent banks, which
+in turn trade in the brokered market. Direct-market rates are often linked automatically to brokered rates
+and many direct loans are automatically rolled over, unless otherwise requested by either party. According
+to Demiralp, Preslopsky, and Whitesell (2004), direct funds trading has lost relative importance in recent
+years.
+2. The term “Eurodollar deposits” refers to dollar-denominated deposit liabilities of banks operating
+outside the United States. Thus, banks operating in the United States, including branches and agencies of
+foreign banks, do not, by definition, borrow Eurodollars. However, they can borrow Eurodollars indirectly
+through their non-U.S. offices or through International Banking Facilities. The latter are not physically
+distinct institutions, but rather segregated sets of accounts that allow their U.S.-based parent institutions
+to borrow Eurodollars free of reserve requirements and under conditions similar to those in many offshore
+centers.
+3. While lenders of federal funds are limited by Regulation D, lending in the Eurodollar market is
+limited only by restrictions on which institutions may hold Eurodollar deposits. For instance, U.S. banks
+can borrow Eurodollars from money funds (through their foreign affiliates), but cannot borrow federal
+funds from them.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+197
+
+However, U.S. banks have turned increasingly to New York for their Eurodollar borrowing, especially since banking in offshore Caribbean centers flourished in the 1970s
+and since U.S. International Banking Facilities were created in 1981. Currently, most
+derivative products, such as options and futures traded in Chicago, are still priced off
+London Eurodollar rates, but the New York market likely represents the main venue
+for borrowing of Eurodollars by U.S. banks. 4
+Given the effective substitutability of federal funds and Eurodollar deposits for U.S.
+banks, the evidence uncovered by Cyree, Griffiths, and Winters (2003), Lee (2003a,
+2003b), and Demiralp, Preslopsky, and Whitesell (2004) that yields on these instruments show sizable and predictable gaps is surprising. Some of this evidence can be
+explained by its inclusion of data from the pre-1990 Eurodollar liberalization period.
+However, using only post-1990 data, Cyree, Griffiths, and Winters (2003) and Demiralp, Preslopsky, and Whitesell (2004) still find sizable federal funds—Eurodollar
+premia. 5 These results suggest that mixing data from different regulatory regimes is
+unlikely to be the source of previous evidence of segmentation of the dollar money
+market.
+Some previous evidence of federal funds—Eurodollar segmentation, comparing
+London mid-day Eurodollar rates with New York mid-day or daily-averaged funds
+rates, may also reflect a time-aggregation bias: the London–New York time lag causes
+Eurodollar rates to lead federal funds rates, possibly causing correlated (i.e., conditionally predictable) yield spreads. 6 Using intra-day Eurodollar quotes, however, Lee
+(2003b) partly addresses issues of time synchronization and still finds evidence of
+federal funds–Eurodollar segmentation.
+Another possibility is that issues of data quality might weigh on previous comparisons of Eurodollar quotes from London with effective federal funds rates from New
+York. As discussed below, quote data provide only a blurred perspective on microlevel market conditions. Structural differences between London and New York also
+complicate the estimation of the rates at which similar institutions would trade federal
+funds and Eurodollars in similar environments, which is the relevant benchmark for
+assessment of market integration. For instance, differences in investor mix between
+London and New York may cause counterparty risk—which is a normal component
+of integrated markets—to contaminate the estimation of federal funds–Eurodollar
+spreads—which should vanish if these equivalent instruments traded in an integrated
+market. Sorting out the contribution of these factors to previous evidence of money
+market segmentation is a key goal of our analysis.
+4. A simple calculation suggests that New York trading likely accounts for the vast majority of U.S.
+banks’ Eurodollar borrowing. In our New York brokered data, Eurodollar borrowing is about 50% larger
+than federal funds borrowing. If a similar ratio applies to other brokers, and if Eurodollar borrowing in
+New York is mostly arranged on behalf of U.S. banks, then the data in Figure 1 implies that U.S. banks
+borrow about 3/4 of their Eurodollars and 5/6 of their total unsecured short-term funds in New York.
+5. Demiralp, Preslopsky, and Whitesell (2004) find spreads of three–four basis points in the middle of
+each 10-day reserve period, and of nine–ten points at quarter- and year-ends, while Cyree, Griffiths, and
+Winters (2003) find spreads of five–six basis points on Fridays and on settlement Wednesdays.
+6. For instance, if Eurodollar and federal funds rates move in the same direction during two consecutive
+days, or they display systematic intra-day patterns (e.g., by falling from morning to afternoon), the sampling
+lead of Eurodollars rates would cause measured spreads to be serially correlated, even if federal funds and
+Eurodollar rates are identical at all times during the day.
+
+198
+
+:
+
+MONEY, CREDIT AND BANKING
+
+2. EMPIRICAL STRATEGY
+Tests of market integration are essentially tests of the law of one price for financial
+assets: assets with the same risk characteristics should yield identical expected returns when trading in an integrated market, while expected return differentials among
+assets with different risk characteristics should be predictable based on information
+on relevant risk factors. In practice, it may be impossible to control for all factors that
+affect return spreads between different assets, so that tests of market integration are
+usually formulated to require spreads to be small and unpredictable. Specifically, yield
+spreads between fixed-income assets (such as unsecured interbank loans) with similar
+risk characteristics and trading in an integrated market should be unpredictable at all
+times, based on current information.
+In accord with this definition, we examine the predictability of overnight federal
+funds–Eurodollar spreads by estimating a time-series model that builds on standard
+one-factor models of interest rates augmented to include variables that previous studies
+have shown to affect means and volatilities of very-short-term interest rates (see, e.g.,
+Griffiths and Winters 1995, Hamilton 1996, Balduzzi et al. 1998, Cyree and Winters
+2001, Bartolini, Bertola, and Prati 2002). Our approach reflects the view that, if
+certain variables have been shown to drive the behavior of interest rate levels, they
+may predict interest rate spreads as well. We leave it to the data to determine whether
+such a presumption is empirically valid or not.
+funds
+Let  t ≡ r federal
+− r Eurodollars
+denote the spread of overnight federal funds over
+t
+t
+Eurodollar rates in period t. (We shall later specify what is meant by “federal funds”
+and “Eurodollar” rates at “t”.) We write the model describing the evolution of  t as
+t = µt + σt νt ,
+
+(1)
+
+where ν t is a mean-zero, unit-variance i.i.d. error term; µ t is the conditional mean of
+ t ; and σ t is its conditional (Exponential GARCH, or EGARCH) volatility.
+n
+To model µ t and σ t , we begin by including a set of n autoregressive terms  i=1
+×
+ρ i µ t−i in the equation for µ t , and define σ t as a function of a distributed lag of a
+set of independent variables, as in standard EGARCH models of interest rates (see,
+e.g., Hamilton 1996, Andersen and Lund 1997). Specifically, when working with
+daily data, we include as lagged terms the effective (i.e., volume-weighted) spreads
+in the previous n days. When working with hourly data, we also include past hourly
+spreads among the regressors, with the restriction that each spread can depend only
+on previous spreads from the same day.
+Next, we include in the equations for µ t and σ t a set of deterministic and stochastic
+factors that previous studies have identified as determinants of overnight interest rate
+dynamics.
+Specifically, we include in the mean and variance equations, respectively, two vectors of calendar dummies δ ct and ξ ct representing holidays, mid-months, end-months,
+end-quarters, 1- and 3-day holidays, Federal Open Market Committee (FOMC) meetings, along with previous and subsequent days.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+199
+
+Next, to capture the impact on spreads of the accounting structure for reserve
+requirements, we include in the equations for µ t and σ 2t , respectively, the dummies
+δ dt and ξ dt , with d t = 1, . . . , 10 identifying days in the reserve period. 7 The rationale
+for including such dummies in our model is provided by several theoretical models
+of banks’ optimal reserve management, which predict market rates to display cyclical
+patterns in correspondence of reserve calendars if banks’ excess reserves are subject to
+shocks. 8 Empirically, countries with lagged reserve requirements (including all largest
+industrial countries except the United Kingdom) have displayed cyclical behavior of
+overnight interest rate means and/or volatilities (Bartolini, Bertola, and Prati 2003).
+That said, cyclical interest rate behavior has weakened (albeit not disappeared) in
+the United States since 1998, when reserve requirements were returned to their pre1984 lagged structure (Bartolini and Prati 2003). This change is intuitive; with lagged
+requirements, changes in excess reserves stem only from changes in actual reserves,
+not in required reserves. Once more, we let the data determine if such reform also
+weakened the predictable behavior of federal funds–Eurodollar spreads.
+Next, when working with hourly data, we also include the hourly dummies δ h t and
+ξ h t in the two equations, 9 with h t = 1, 2, . . . , 10 identifying hourly intervals from
+8:00–9:00 to 17:00–18:00 in each business day. 10 We also include a dummy for the
+New York blackout of August 14, 2003, which interrupted federal funds trading from
+mid-afternoon to end-day.
+Finally, we include in our model other money market factors,  t , that may have a
+different impact on federal funds and Eurodollar yields and thus affect yield spreads.
+Specifically, when working with both daily and hourly data, we include (lagged)
+changes in federal funds target rates. When working with hourly data only, we also
+include (contemporaneous and lagged) trading volumes and rates realized on Federal
+Reserve open market auctions (see details below), which may provide news on current
+market conditions to banks.
+The resulting equations for mean and variance of federal funds–Eurodollar spreads
+are:
+n
+µt = i=1
+ρi µt−i + δdt + δh t + δct + ψt ,
+
+(2)
+
+7 For details on U.S. reserve requirements, see Federal Reserve Regulation D. In sum, institutions
+collecting deposit in the United States must hold reserves against such deposits as either cash or deposits
+at the Federal Reserve. Reserve balances are measured daily after the closing of Fedwire, the Federal
+Reserve’s electronic payment system (normally at 18:30), and are averaged over “reserve maintenance”
+periods that begin every other Thursday and end 2 weeks later on “settlement” Wednesday. Banks must
+also keep non-negative reserve balances at the Federal Reserve at the end of each day. Penalties apply for
+insufficient reserves at the end of each reserve period and for negative balances at the end of each day.
+8. See, for instance, Hamilton (1996) and Perez-Quiros and Rodriguez-Mendizabal (2006).
+9. Because of the simultaneous presence of fixed daily effects, one linear restriction is required to
+identify the hourly coefficients. We estimate our hourly coefficients by restricting their sum to zero.
+10. This is the interval of effective overlap of open hours in our two markets. In principle, the Eurodollar
+market is open around the clock, due to time lags between Europe, Asia, and the United States. However,
+there is little trading between its closing in New York at 18:00 and its subsequent opening in Asia. The
+federal funds market opens effectively at 8:00 and closes at 18:30, with the closing of Fedwire.
+
+200
+
+:
+
+MONEY, CREDIT AND BANKING
+
+ 
+ 2 
+log σt2 = λ log σt−1
++ (1 − λL)(ξdt + ξh t + ξct + ωt ) + κ|νt−1 | + θνt−1 ,
+(3)
+where λ is the autoregressive EGARCH coefficient and L is the lag operator. This
+specification allows for an asymmetric response of log (σ 2t ) to positive and negative
+shocks when θ 	= 0, and for fat tails in interest rate innovations by assuming a t
+distribution for ν t .
+3. DATA AND PRELIMINARY ANALYSIS
+To estimate our model, we obtained transaction-level federal funds and Eurodollar
+data from Euro Brokers, one of the largest brokers in the dollar money market, from
+February 11, 2002, to September 24, 2004, or 660 business days. Specifically, we
+obtained all federal funds trades arranged by Euro Brokers, as well as all Eurodollar
+trades arranged by Euro Brokers’ New York headquarters over the sample period. For
+each transaction we obtained the amount dealt, applicable interest rate, settlement
+and maturity dates, trade completion time (in hour/minute/second format), and a
+“federal funds” versus “Eurodollar” identifier. We obtained no information on the
+parties involved in each trade.
+The data were in good shape, reflecting Euro Brokers’ simultaneous electronic
+execution and recording of trades. However, we screened the data for recording errors,
+using computer routines and by hand, leading us to discard about 400 observations
+(1/4 % of the total). 11 We then retained only spot overnight trades (i.e., loans settling
+the day they are arranged and maturing the next business day), or 96% of our original
+trades, and we dropped trades completed outside the common open hours of our two
+markets (8:00 to 18:00). Our final data included 105,617 federal funds and 61,359
+Eurodollar trades. We arranged these trades by execution time into 10 hourly intervals
+and computed effective federal funds and Eurodollar rates as volume-weighted rates
+within each day and hour. We treated the resulting series of effective daily and hourly
+rates as the basic ingredients of our analysis.
+The remaining data included daily effective federal funds rates, computed by the
+Federal Reserve as volume-weighted averages of trades arranged by the major federal
+funds brokers (including Euro Brokers), and daily marginal rates on Federal Reserve
+open-market repos, which the Federal Reserve Bank of New York publishes daily at
+about 9:50, upon completion of its morning open-market auctions. Finally, we obtained London Eurodollar quotes from both the Board of Governors of the Federal
+Reserve (to replicate previous results in the literature) and the British Bankers Association (the only source of bank-level Eurodollar rates), and New York Eurodollar
+rates from ICAP (the only available source of New York Eurodollar quotes). All rates
+we used apply to unsecured overnight interbank loans.
+11. We dropped trades recorded as completed on weekends, holidays, or prior to the current day; trades
+at zero rates or at rates exceeding the federal funds target by more than five percentage points; two trades
+for $0.01; and one trade for $61 billion.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+201
+
+TABLE 1
+TRANSACTION-LEVEL DATA: SUMMARY INFORMATION
+February 11, 2002–September 24, 2004 (660 business days)
+Sample
+
+Number of trades
+Largest trade size
+Smallest trade size
+Mean trade size
+Median trade size
+Highest rate
+Lowest rate
+Largest deviations from target rate
+Average deviation from target rate
+
+Federal funds
+
+New York Eurodollars
+
+105,617
+$4 billion
+$0.5 million
+$81 million
+$50 million
+2.06%
+0.096%
+−1.38/0.98%
+0.87 basis points
+
+61,359
+$3.1 billion
+$0.47 million
+$201 million
+$135 million
+3.28%
+0.031%
+−1.47/2.03%
+0.53 basis points
+
+Table 1 documents summary features of the Euro Brokers data. The range of
+trade sizes is very similar in our two markets: $0.5 million to $4 billion for federal
+funds and $0.47 million to $3.1 billion for Eurodollars. Mean trade sizes are quite
+different, however: $81 million for federal funds and $201 million for Eurodollars.
+This gap points to a likely difference in size between participants in these markets:
+the Eurodollar market likely draws larger, more internationally-oriented institutions,
+which are more likely to operate foreign branches or International Banking Facilities
+through which they can borrow Eurodollars. This view is confirmed by the slightly
+lower average rates observed in the Eurodollar than in the federal funds market,
+documented in the last row of Table 1 (0.3 basis points), as larger institutions may be
+able to borrow at marginally lower rates.
+As it is normally the case with studies of over-the-counter markets, our study must
+rely on a subset of the data universe, hence on the presumption that the limited data
+available are representative of overall market conditions. To assess this conjecture
+to the extent possible, we compared the daily “effective” (i.e., transaction-weighted)
+federal funds rates obtained from our data with the series of daily effective rates
+published by the Fed and calculated using data from all major brokers (including
+Euro Brokers).
+Comparing the two series yields a mean absolute deviation between the Euro Brokers and the published (broader) series of 0.7 basis points, with no evidence of serial
+correlation in the deviations. Specifically, a regression of the spread {Euro Brokers
+rate − published rate} on its own lag and on a constant, yields an autoregressive
+coefficient of 0.011 (with a standard error of 0.039), a constant term of −0.0009
+(with a standard error of 0.0005), and r2 of 0.0007. Additional lags are also small
+and insignificant. This evidence suggests that our data can be viewed as an unbiased
+sample of price conditions at the daily frequency. The presumption is that the same
+should be true at the intra-day frequency.
+Finally, a noteworthy feature of our data is that money brokers act as pure intermediaries, and do not trade off own accounts. Brokers charge both lenders and
+borrowers a fixed fee of about 50c/ for each $1 million traded, which corresponds to
+
+202
+
+:
+
+MONEY, CREDIT AND BANKING
+
+1.8 annualized basis points for overnight trades. Hence, all our Euro Brokers data
+refer to the rates actually charged by lenders to borrowers in our two markets.
+4. ESTIMATION AND RESULTS
+We estimated our model by maximum likelihood, using numerical optimization.
+Analysis of the squared standardized residuals led to an EGARCH model with two
+autoregressive terms in one case and with a single autoregressive term in the remaining
+cases.
+We present two specifications of our main regressions. First, a general specification
+including all the independent variables discussed in Section 2. This specification eases
+comparison with previous studies and allows, when working with hourly data, to
+assess the impact of trading volume on market conditions. However, trading volume
+is unknown in real time and must be dropped when testing for the predictability of
+spreads, along with insignificant variables that blur the model’s explanatory power.
+Hence, we present also a more parsimonious specification, obtained by a general-tospecific method by sequentially discarding the least significant variables. (We set the
+p-value for retention at 0.05.)
+Before discussing our results, we should place them into quantitative context. The
+key question is: When are predictable federal funds–Eurodollar spreads large enough
+to provide evidence of segmentation? One may be tempted to set the relevant threshold
+at the cost of executing trades in this market, about 1.8 basis points. However, the
+wholesale money market is dominated by large banks that tend to be active as both
+(gross) lenders and borrowers of funds in both the federal funds and Eurodollar
+markets, and need not pay any additional fee to take advantage of systematic spreads
+between rates on these instruments—they only need to suitably resize their trades
+without additional transactions. For these banks, transaction fees are largely irrelevant.
+In practice, in this market, a spread of two basis points would certainly catch
+investors’ attention, while a spread of three or more basis points would certainly steer
+a bank away from one instrument to the other. Should spreads of such or greater
+magnitude arise predictably on certain days, as estimated in previous studies, one
+would be surprised to observe active trading in these days at all: few borrowers would
+borrow at a predictably “high” rate, and few lenders would lend at a predictably “low”
+rate. At the opposite end, one basis point is the minimum contractual increment in
+this market. Therefore, systematic spreads of fractions of a single basis point can be
+exploited only by very active participants in these two markets, and only by those
+mustering sufficient credit lines—as both lenders and borrowers. One should keep
+these illustrative magnitudes in mind when assessing the results that follows.
+
+4.1 Step 1: Daily Federal Funds versus London Eurodollars
+To set the stage for our subsequent analysis of transaction data, we first illustrate
+typical results obtained in previous research using federal funds–Eurodollar spreads
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+203
+
+TABLE 2
+ESTIMATED SPREADS: RESERVE PERIOD EFFECTS ON MEANS
+Published data,
+daily regressions
+General
+model
+
+Days of the reserve period, δ dt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Restricted
+model
+
+Euro Brokers data,
+daily regressions
+
+Euro Brokers data,
+hourly regressions
+
+General
+model
+
+Restricted
+model
+
+General
+model
+
+0.99∗
+1.04∗
+0.34∗
+(0.36) (0.37) (0.08)
+2.94∗
+2.96∗
+0.36∗
+(0.34) (0.36) (0.08)
+0.98∗
+1.13∗
+0.30∗
+(0.50) (0.47) (0.08)
+1.34∗
+1.38∗
+0.27∗
+(0.42) (0.41) (0.08)
+2.57∗
+2.68∗
+0.29∗
+(0.38) (0.39) (0.08)
+3.54∗
+3.37∗
+0.34∗
+(0.40) (0.39) (0.08)
+1.59∗
+0.19
+1.49∗
+(0.52) (0.48) (0.10)
+0.36
+0.40
+0.19∗
+(0.42) (0.39) (0.08)
+−0.93 −0.75 −0.02
+(0.57) (0.54) (0.12)
+0.80
+0.61
+0.00
+(0.58) (0.53) (0.14)
+
+0.34∗
+(0.08)
+0.28∗
+(0.07)
+0.27∗
+(0.08)
+0.25∗
+(0.07)
+0.27∗
+(0.09)
+0.34∗
+(0.08)
+0.13
+(0.10)
+0.13
+(0.08)
+0.00
+(0.11)
+0.00
+(0.14)
+
+0.31∗
+(0.04)
+0.31∗
+(0.04)
+0.35∗
+(0.04)
+0.28∗
+(0.04)
+0.29∗
+(0.04)
+0.29∗
+(0.04)
+0.25∗
+(0.04)
+0.35∗
+(0.04)
+0.32∗
+(0.04)
+0.30∗
+(0.04)
+
+Eurodollar spreads,
+daily regressions
+
+Restricted Full panel U.S. banks
+model
+LIBOR
+LIBOR
+
+0.28∗
+(0.04)
+0.27∗
+(0.04)
+0.31∗
+(0.04)
+0.27∗
+(0.04)
+0.26∗
+(0.04)
+0.26∗
+(0.04)
+0.23∗
+(0.04)
+0.32∗
+(0.04)
+0.29∗
+(0.04)
+0.28∗
+(0.05)
+
+0.26
+0.33
+(0.40) (0.42)
+∗
+2.50
+2.73∗
+(0.30) (0.33)
+0.00 −0.05
+(0.43) (0.44)
+2.96∗
+2.79∗
+(0.40) (0.38)
+2.42∗
+2.38∗
+(0.41) (0.39)
+0.96∗
+1.03∗
+(0.39) (0.40)
+1.67∗
+1.90∗
+(0.47) (0.45)
+0.71
+0.42
+(0.38) (0.41)
+2.66∗
+2.43∗
+(0.37) (0.36)
+2.93∗
+2.76∗
+(0.42) (0.42)
+
+NOTES: Standard errors in parentheses; ∗ indicates significance at the 5% level; data expressed in basis points.
+
+constructed from quote-based Eurodollar data. Results for both general and restricted
+versions of our model are shown in the first two columns of Tables 2, 3, and 4,
+with reserve period effects also plotted in Figure 2 with 95% confidence interval.
+Henceforth, our discussion refers to the general versions of our regressions, but similar
+comments apply to our restricted regressions. 12
+The estimates in columns 1 and 2 of Table 2 point to several sources of predictability
+in federal funds–Eurodollar spreads. First among these are the large 2 12 –3 12 basis
+points effects estimated for days 2, 5, and 6 of each reserve period, with all coefficients
+up to that for day 6, estimated at one basis point or more. As shown in Table 3, spreads
+are also large at month-ends (four basis points), days before end-quarters (three basis
+points), days following 3-day holidays (four basis points), days following FOMC
+meetings (two basis points), and days surrounding mid-months (1 12 –2 basis points).
+These effects are cumulative. For instance, days after 3-day holidays that fall in the
+first week of the reserve period (hence on day 4 of the period) display premia of
+5 12 basis points; days following FOMC meetings (usually held on Tuesday) that fall
+in the first week of the period (hence on day 5) display premia of five basis points.
+Similarly for other combinations of the estimated coefficients.
+
+12. For brevity, Tables 2, 3, and 4 omit the estimated coefficients of the variance equation that are
+marginal to our analysis. A complete set of results of our estimation is available upon request.
+
+204
+
+:
+
+MONEY, CREDIT AND BANKING
+
+TABLE 3
+ESTIMATED SPREADS: CALENDAR AND HOURLY EFFECTS ON MEANS
+Published data,
+daily regressions
+General
+model
+
+−0.32
+(0.78)
+End of month
+−4.00∗
+(0.97)
+Day after end of month
+−0.15
+(0.77)
+Day before end of quarter
+−2.91
+(1.63)
+End of quarter
+0.18
+(2.43)
+Day after end of quarter
+1.54
+(2.18)
+Day before 1-day holiday
+−2.30
+(1.33)
+Day after 1-day holiday
+−1.57
+(1.46)
+Day before 3-day holiday
+2.32
+(1.62)
+Day after 3-day holiday
+4.28∗
+(1.73)
+Day before the 15th of the month 1.52∗
+(0.61)
+15th of the month
+0.81
+(1.14)
+Day after 15th of the month
+−1.85∗
+(0.73)
+Day before FOMC meeting
+0.31
+(0.74)
+Day of FOMC meeting
+0.01
+(0.79)
+Day after FOMC meeting
+2.13∗
+(0.88)
+NY black-out (Aug. 14, 2003)
+15.91∗
+(0.71)
+Hour 1
+–
+–
+Hour 2
+–
+–
+Hour 3
+–
+–
+Hour 4
+–
+–
+Hour 5
+–
+–
+Hour 6
+–
+–
+Hour 7
+–
+–
+Hour 8
+–
+–
+Hour 9
+–
+–
+Day before end of month
+
+Restricted
+model
+
+–
+–
+−3.80∗
+(0.57)
+–
+–
+−2.73∗
+(1.00)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+2.62∗
+(1.09)
+1.52∗
+(0.60)
+–
+–
+−2.07∗
+(0.56)
+–
+–
+–
+–
+2.05∗
+(0.64)
+15.13∗
+(4.44)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+Euro Brokers data,
+daily regressions
+
+Euro Brokers data,
+hourly regressions
+
+General
+model
+
+General
+model
+
+Restricted
+model
+
+−0.33∗ −0.34∗
+(0.12) (0.16)
+−0.50∗
+–
+(0.23)
+–
+−0.11
+–
+(0.17)
+–
+−0.22
+–
+(0.57)
+–
+0.47
+–
+(0.61)
+–
+−0.19
+–
+(0.52)
+–
+−0.43 −0.34∗
+(0.91) (0.16)
+−0.01
+–
+(0.41)
+–
+0.09
+–
+(0.93)
+–
+0.25
+–
+(0.47)
+–
+−0.01
+–
+(0.13)
+–
+0.05
+–
+(0.16)
+–
+−0.23
+–
+(0.15)
+–
+−0.09
+–
+(0.15)
+–
+0.14
+–
+(0.21)
+–
+0.01
+–
+(0.20)
+–
+−0.58∗ −0.56∗
+(0.17) (0.11)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+−0.04
+(0.08)
+−0.15
+(0.09)
+−0.08
+(0.08)
+0.02
+(0.15)
+0.09
+(0.32)
+−0.23
+(0.19)
+0.12
+(0.19)
+0.25
+(0.14)
+−0.12
+(0.21)
+−0.18
+(0.17)
+−0.06
+(0.06)
+0.11
+(0.07)
+−0.06
+(0.06)
+0.03
+(0.07)
+0.04
+(0.08)
+−0.08
+(0.08)
+−0.23
+(0.26)
+0.74∗
+(0.04)
+−0.01
+(0.04)
+−0.32∗
+(0.03)
+−0.12∗
+(0.04)
+−0.23∗
+(0.04)
+−0.20∗
+(0.04)
+−0.09∗
+(0.04)
+−0.07
+(0.04)
+0.01
+(0.04)
+
+Eurodollar spreads,
+daily regressions
+
+Restricted Full panel U.S. banks
+model
+LIBOR
+LIBOR
+
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+0.63∗
+(0.03)
+−0.01
+(0.03)
+−0.30∗
+(0.03)
+−0.12∗
+(0.04)
+−0.19∗
+(0.04)
+−0.12∗
+(0.04)
+−0.06
+(0.03)
+−0.12∗
+(0.04)
+−0.00
+(0.04)
+
+NOTES: Standard errors in parentheses; ∗ indicates significance at the 5% level; data expressed in basis points.
+
+−0.00
+(0.45)
+0.83
+(0.51)
+0.55
+(0.66)
+0.87
+(2.63)
+−8.15∗
+(1.67)
+−3.94
+(3.80)
+0.81
+(1.13)
+0.46
+(1.18)
+−0.57
+(1.31)
+−4.58∗
+(1.28)
+0.08
+(0.49)
+0.28
+(0.70)
+0.96∗
+(0.45)
+0.02
+(0.97)
+0.93
+(0.72)
+0.14
+(0.76)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+−0.14
+(0.52)
+0.15
+(0.60)
+0.81
+(0.65)
+0.92
+(2.27)
+8.78∗
+(1.74)
+−4.70
+(3.80)
+0.25
+(1.15)
+0.93
+(2.38)
+−0.05
+(1.33)
+5.18∗
+(2.41)
+−0.13
+(0.46)
+0.49
+(0.68)
+0.62
+(0.48)
+0.19
+(0.96)
+1.21
+(0.79)
+0.28
+(0.72)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+205
+
+TABLE 4
+ESTIMATED SPREADS: OTHER EFFECTS
+Published data,
+daily regressions
+General
+model
+
+1-day lagged spread
+0.150∗
+effect on mean
+(0.039)
+2-day lagged spread
+0.091∗
+effect on mean
+(0.031)
+3-day lagged spread
+0.039
+effect on mean
+0.031)
+4-day lagged spread
+−0.006
+effect on mean
+(0.026)
+1-hour lagged spread
+–
+effect on mean
+–
+2-hour lagged spread
+–
+effect on mean
+–
+3-hour lagged spread
+–
+effect on mean
+–
+4-hour lagged spread
+–
+effect on mean
+–
+Federal funds trading
+–
+volume on mean
+–
+Eurodollar trading
+–
+volume on mean
+–
+1-lag federal funds
+–
+trading volume on mean
+–
+1-lag Eurodollar trading
+–
+volume on mean
+–
+2-lag federal funds trading
+–
+volume on mean
+–
+2-lag Eurodollar trading
+–
+volume on mean
+–
+Federal funds trading
+–
+volume on volatility
+–
+Eurodollar trading volume
+–
+on volatility
+–
+1-lag federal funds trading
+–
+volume on volatility
+–
+1-lag Eurodollar trading
+–
+volume on volatility
+–
+Target rate change
+−0.00
+effect on mean
+(0.10)
+Absolute target rate change
+1.74
+effect on variance
+(0.95)
+1-lag Fed auction stop-out–
+target rate on mean
+–
+2-lag Fed auction stop-out–
+target rate on mean
+–
+3-lag Fed auction stop-out–
+target rate on mean
+–
+
+Restricted
+model
+
+0.145∗∗
+(0.036)
+0.092∗∗
+(0.033)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+1.77∗
+(0.86)
+–
+–
+–
+–
+–
+–
+
+Euro Brokers data,
+daily regressions
+General
+model
+
+0.220∗
+(0.030)
+0.114∗
+(0.028)
+0.104∗
+(0.030)
+0.089∗
+(0.029)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+−0.02
+(0.04)
+2.48
+(2.93)
+–
+–
+–
+–
+–
+–
+
+Restricted
+model
+
+0.212∗
+(0.030)
+0.116∗
+(0.029)
+0.112∗
+(0.032)
+0.082∗
+(0.029)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+Euro Brokers data,
+hourly regressions
+
+Eurodollar spreads,
+daily regressions
+
+General
+model
+
+Restricted Full panel U.S. banks
+model
+LIBOR
+LIBOR
+
+0.089∗
+(0.013)
+0.050∗
+(0.012)
+0.043∗
+(0.011)
+0.055∗
+(0.011)
+0.138∗
+(0.013)
+0.055∗
+(0.014)
+0.032∗
+(0.015)
+–
+–
+0.04∗
+(0.02)
+−0.09∗
+(0.02)
+−0.05∗
+(0.02)
+0.01
+(0.01)
+−0.01
+(0.02)
+0.03∗
+(0.01)
+−0.28∗
+(0.03)
+−0.25∗
+(0.03)
+0.01
+(0.03)
+0.07∗
+(0.03)
+0.02
+(0.02)
+2.02
+(3.02)
+−0.035
+(0.008)
+−0.027
+(0.009)
+−0.008
+(0.010)
+
+0.086∗
+(0.013)
+0.049∗
+(0.012)
+0.048∗
+(0.011)
+0.048∗
+(0.012)
+0.141∗
+(0.014)
+0.058∗
+(0.014)
+0.037∗
+(0.015)
+0.034∗
+(0.016)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+0.04∗
+(0.01)
+–
+–
+−0.034∗
+(0.008)
+−0.026∗
+(0.009)
+–
+–
+
+0.101∗
+(0.027)
+0.085∗
+(0.028)
+0.013
+(0.026)
+0.042
+(0.030)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+0.02
+(0.15)
+3.02∗
+(1.15)
+–
+–
+–
+–
+–
+–
+
+0.109∗
+(0.024)
+0.071∗
+(0.028)
+0.017
+(0.023)
+0.028
+(0.027)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+0.01
+(0.15)
+2.74∗
+(1.04)
+–
+–
+–
+–
+–
+–
+
+NOTES: Standard errors in parentheses; ∗ indicates significance at the 5% level; data expressed in basis points.
+
+Spreads are also conditionally predictable. We found two significant daily autoregressive coefficients: 0.15 for the first lag and 0.09 for the second lag. To illustrate
+these effects, note that the spreads’ daily standard deviation is about five basis points.
+
+206
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 2. Federal Funds– Eurodollar Spreads: Mean Calendar Effects.
+
+Then, observation of the previous day’s spread allows investors to predict, typically,
+a current daily spread of ±0.8 basis points, in addition to the unconditional effects
+discussed above.
+Based on similar results, previous studies have appropriately flagged evidence of
+segmentation between the federal funds and the Eurodollar markets.
+4.2 Step 2: Daily Federal Funds versus NY Eurodollars
+Virtually all evidence of predictability disappears when estimating our model with
+transaction-based data drawn entirely from the New York market. To ease comparison,
+the estimates shown in columns 3 and 4 of Table 2 differ from those shown in columns
+1 and 2 only by the substitution of transaction-based NY–NY spreads for quotebased NY–London spreads. As before, column 4 of Table 2 documents a restricted
+regression that drops statistically insignificant variables and trade volume variables
+from the regression of column 3.
+The first notable aspect of these results is that reserve-period effects have shrunk to
+about 1/10 of their previous size, peaking at 0.36 basis points on the reserve period’s
+second day. Other calendar effects exhibit the same dramatic decline: there are now
+only two statistically significant effects in our restricted regression, those for the
+2 month-end days, peaking at 0.50 basis points. Spreads are somewhat more serially
+correlated than in our previous regressions: the first autoregressive coefficient is now
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+207
+
+0.22, and the four statistically significant coefficients cumulate to 0.52. However,
+the sharp decline in the spreads’ typical magnitude—their standard deviation is now
+1.3 basis points—implies that each day’s spread helps predict, on average, only 0.25
+basis point of the following day’s spread, and similarly for higher lags. Clearly, these
+results show minimal predictability of daily federal funds–Eurodollar spreads.
+A possible interpretation of these results is that by aggregating both federal funds
+and Eurodollar rates from New York transaction-based data we can address several
+problems faced by previous studies showing predictable federal funds–Eurodollar
+premia.
+First, as noted in Section 1, intra-day timing issues may be relevant. The Eurodollar
+rates used in previous research are usually sampled just before 11:00 in London, while
+federal funds rates are only available for later New York times or on a daily-averaged
+basis. In such cases, federal funds–Eurodollar spreads may display patterns even
+when federal funds and Eurodollars rates are identical at each point in time during the
+day.
+Second, partly due to the overlap of operating hours between Asia and Europe,
+London draws many more Asian (especially Japanese) banks than New York. In recent
+years, these institutions have often faced higher funding costs than most institutions
+active in the New York market (see, e.g., Peek and Rosengren 2001). If banks active
+in London and New York follow different temporal patterns of participation in the
+market, then predictable federal funds–Eurodollar spreads may be found even when
+federal funds and Eurodollars are seen as perfect substitute, hence are traded at the
+same rate, by any given investor.
+Third, because it is drawn entirely from the New York market, our data are sampled from a much more homogeneous institutional environment than when drawn
+from London for Eurodollars and from New York for federal funds. London and
+New York differ significantly in terms of payment conventions and other legal and
+prudential factors, and these differences may have contributed to previous findings
+of predictability. Notably, most Eurodollar transactions arranged in London settle
+on the CHIPS payments system, while most Eurodollar trades in our sample settle
+on Fedwire, just as our sample’s federal funds transactions. 13 When not controlled
+for, such differences may lead to measured federal funds–Eurodollar spreads that are
+consistent with market integration, since they do not violate the law of one price. By
+contrast, our analysis effectively controls for these factors by drawing data from a
+(reasonably) homogeneous environment, restoring our ability to test the law of one
+price.
+13. The key difference between Fedwire and CHIPS is that the former requires payers to disburse
+funds in gross terms upon completion of each transaction, while the latter settles each participant’s in- and
+out-payments in net terms on a delayed basis. During our sample period, CHIPS settlement was at about
+17:00, New York time. Thus, spot Eurodollar traders in London effectively dealt in forward dollars: a bank
+lending Eurodollars at 11:00 in London (the sampling time of commonly-used London Eurodollar rates)
+retained access to loaned funds for nearly a full business day, but would get its funds back after nearly 2
+business days. The risk features of gross and net systems also differ: netting systems are usually viewed
+as lowering cash-holding costs at the cost of higher risk of incomplete trade execution and gridlocks. See
+Kahn, McAndrews, and Roberds (2003) for a review and further references.
+
+208
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Finally, by using data on completed Eurodollar trades, rather than on quotes faced
+by major banks in London, we can greatly improve the quality of the raw data. Quote
+data, the only data available to previous studies of the Eurodollar market, offer a weak
+basis for micro-structural analysis of over-the-counter markets, where negotiation and
+bilateral relationships are key to price determination. Quotes are not updated in real
+time, and may expire before leading to any trade. Even when hit by an interested party,
+a quote provides only a starting point for a negotiation, whose eventual outcome hinges
+on factors such as borrowers’ identity, availability of credit lines, and then-current
+market conditions.
+In the rest of this paper we shall work to narrow the list of possible reasons explaining previous evidence of federal funds–Eurodollar segmentation. We shall show
+that the first two reasons listed above likely played a secondary role in previous evidence of segmentation. Specifically, while timing issues are potentially a serious
+problem, we have shown in this section that much of the predictability of federal
+funds–Eurodollar spreads disappears as soon as we control for trading environment
+but not for time of trading. Our subsequent intra-day analysis also shows essentially
+the same empirical patterns as our analysis of daily data. Hence, time aggregation
+appears to play no significant role in previous evidence of segmentation. We will also
+show that differences in investor mix between London and New York are unlikely to
+explain previous findings of segmentation. Thus, our preferred interpretation is that
+the last two explanations listed above are key to previous evidence of federal funds–
+Eurodollar segmentation. Yet, available Eurodollar data makes it impossible to assess
+these two explanations directly, hence to rule out the residual hypothesis that previous evidence might reflect genuine segmentation within the global Eurodollar market.
+We shall return to this interpretation below, after examining the intra-day behavior
+of spreads and other aspects of the high-frequency behavior of our two reference
+markets.
+
+4.3 Step 3: Intra-Day Federal Funds versus NY Eurodollars
+A key issue left open in the previous section is whether absence of predictable
+patterns in federal funds–Eurodollar spreads at the daily level masks predictability—
+hence, effective segmentation—intra-day: are federal funds and Eurodollar rates as
+closely aligned during the business day as they are on average at the daily frequency?
+Columns 5 and 6 in Tables 2, 3, and 4 show the relevant results, by documenting our
+most detailed representation of the empirical behavior of federal funds–Eurodollar
+spreads.
+The first notable feature of these results is that reserve-period effects estimated from
+daily data are confirmed in high-frequency estimation; all such effects are estimated
+at less than 0.35 basis points. Even the slightest hint of cyclical intra-period behavior
+of spreads has disappeared. Other calendar effects are also estimated at near zero. The
+small standard errors of these coefficients show that federal funds–Eurodollar premia
+are precisely estimated as small, rather than just statistically insignificant because of
+their large standard errors.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+209
+
+FIG. 3. Federal Funds–Eurodollar Spreads: Mean Hourly Effects.
+
+Federal funds and Eurodollar yields are also closely aligned intra-day, as shown in
+Table 2 and Figure 3. The largest predictable spread is estimated from 8:00 to 9:00,
+when federal funds trade 0.74 basis points firmer than Eurodollars, likely reflecting
+the thinness of the funds market during its first trading hour. The effects are much
+weaker during the rest of the day, peaking at −0.32 basis points in the third hour of
+trading.
+Next, Table 4 documents the spreads’ weak autoregressive structure, both at the
+daily level (the first daily autoregressive coefficient is only 0.09, and the four statistically significant coefficients cumulate to 0.24) and at the intra-day level (the first
+hourly autoregressive coefficient is 0.14, and the three significant lags sum to 0.22).
+We can again illustrate these estimates with reference to the typical magnitude of
+spread changes. With a daily standard deviation of 1.7 basis points, previous-day
+average spreads allow investors to predict only 0.14 basis points (in average absolute
+terms) of the next hourly spread. Similarly, the 1.3 basis points standard deviation of
+hourly spreads implies that 0.18 basis points of each hourly spread can be predicted,
+on average, using the previous hourly spread.
+Our intra-day perspective allows us to investigate other features of the joint intraday behavior of our two markets. Specifically, we uncovered a significant link between
+
+210
+
+:
+
+MONEY, CREDIT AND BANKING
+
+trading volume and spreads’ volatility, more active trading keeps federal funds and
+Eurodollars rates more closely aligned. The estimated link is substantial; the semielasticity of spreads’ variance to changes in trading volume (either federal funds
+or Eurodollars) is 0.25–0.28. With an hourly standard deviation of (log) changes in
+federal funds and Eurodollar trading volumes of 113% and 114%, respectively, the
+standard deviation of spreads may change by 50–55% in response to typical changes
+in trading volume. (This effect is partly undone in the subsequent hour of trading,
+after which we found no impact of volume on volatility.) Although the volatility of
+hourly spreads is itself not large (its standard deviation is 1.3 basis points), this result
+shows that liquidity effects are operative in the dollar money market, more intense
+trading brings about closer integration of its two core segments.
+Finally, we investigated how spreads respond to news about market conditions,
+as captured by results of daily Federal Reserve open-market auctions. Our measure
+of “news” is the stop-out rate on Federal Reserve daily short-term repo auctions
+against Treasury collateral, normalized by the target federal funds rate. This spread
+is announced at about 9:50 daily, shortly after the completion of any short-term repo
+operation that might have been arranged that day, and is indicative of whether the
+liquidity provided by the Fed at the auction is consistent with keeping the average
+cost of funds near its target through end-day.
+Using this measure of “market news,” we found statistically significant, yet small,
+effects of news on federal funds–Eurodollar spreads in the two trading hours following
+the news release. Table 4 shows that each five basis points rise in the stop-out rate
+causes spreads to shrink by about 0.15 of a basis point in each of the subsequent
+2 hours. (Subsequent coefficients were insignificant.) Intuitively, the sign of this
+effect indicates that news from open market auctions transmit more promptly to the
+Eurodollar market, which is more active than the funds market at the time of the
+release. 14
+
+5. INTRA-EURODOLLAR MARKET SEGMENTATION?
+We have shown that Eurodollars and federal funds trade as close substitutes in
+New York, though previous evidence is that Eurodollars (sampled in London) trade at
+significant and systematic spreads over federal funds (which only trade in the United
+States). A natural question is if previous evidence of segmentation between the federal
+funds and the Eurodollar markets might reflect segmentation within the Eurodollar
+market—namely, between New York and foreign Eurodollar trading centers—rather
+than between the federal funds and the Eurodollar markets. Hence, the next logical
+step in our analysis is to compare Eurodollar rates from London with Eurodollar rates
+from New York.
+funds
+funds
+14. To see this, recall  t ≡ r federal
+− r Eurodollars
+. Then, ∂ t /∂n t−1 < 0 implies ∂r federal
+/∂n t−1 <
+t
+t
+t
+∂r Eurodollars
+/∂n
+.
+That
+is,
+Eurodollar
+rates
+respond
+to
+lagged
+news
+n
+more
+strongly
+than
+federal
+funds
+t−1
+t−1
+t
+rates.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+211
+
+The data available to assess this view are not of the same quality as the Euro Brokers data, but does allow us to make some inference on the internal integration of the
+Eurodollar market. One problem with available data is lack of a unique source for
+London and New York rates, which would secure homogeneous collection and treatment of the data. Also, only quote-based data are available for London Eurodollars,
+nor is it possible to find synchronous New York and London quotes. The best match
+we could establish in various respects was by lining up New York Eurodollar bid rates
+from ICAP with London Eurodollar bid rates from the British Bankers Association
+(BBA). Time alignment for these rates is rough: the New York rates are sampled at
+about 7:45 in New York, while the London rates are sampled just before 11:00 in
+London, 2 hours earlier than the New York rates. Furthermore, patterns in bid rates
+may reflect patterns in bid-ask spreads, which move systematically in most markets
+during the day, even if mid-points of bid-ask spreads and traded rates align well across
+markets.
+That said, the BBA data have one appealing feature: they include both aggregate
+and bank-level quotes, 15 a feature we exploit to construct two measures of London–
+NY Eurodollar spreads. One measure uses the aggregate LIBOR rate (the mean quote
+faced by all banks in the LIBOR panel) to measure the London Eurodollar rate. The
+second measure uses only the mean quote faced in London by U.S. banks in the
+LIBOR panel (Citibank, Chase Manhattan, Bank of America, also including Credit
+Suisse First Boston) to measure the London Eurodollar rate. We use the latter measure
+to control for counterparty risk, since these U.S. banks are presumably much more
+similar to the pool of banks active in New York than the other banks active in London.
+Columns 5 and 6 in Tables 2, 3, and 4 document the results of our estimation of the
+same empirical model we estimated in Section 4, except that we now use London–
+NY Eurodollar spreads as dependent variables. Two key points emerge from these
+estimates.
+First, London–NY Eurodollar spreads display considerable predictability, albeit
+along fewer dimensions than the estimates documented in columns 1 and 2 of Tables
+2, 3, and 4. Spreads range between 12 and 2 34 basis points over the reserve period.
+Significant calendar effects are found only after 3-day holidays and at quarter-ends,
+but such effects are large at five and eight basis points, respectively. Conditional
+predictability is weaker than in our previous regressions, with two significant autoregressive coefficients of 0.10 and 0.08. Overall, these estimates are consistent with a
+view that some segmentation might persist between the London and New York Eurodollar markets, although they are also consistent with the view that “location” may
+just proxy for institutional differences that are not controlled for, in our comparison
+of New York and London rates.
+Second, there are only minor differences between estimates using data for the
+whole LIBOR panel and those using data for only the four U.S. banks. (The latter
+15. The BBA publishes a trimmed mean of the last bids faced by major banks in London before 11:00
+(the official “LIBOR Eurodollar fixing”), as well as the bids faced by individual banks in the LIBOR
+panel.
+
+212
+
+:
+
+MONEY, CREDIT AND BANKING
+
+estimates display only marginally smaller premia.) Hence, within limits posed by
+the uncertain quality of the data, these estimates suggest that differences in investor
+mix between London and New York are unlikely to have contributed significantly to
+previous evidence of segmentation.
+
+6. CONCLUSIONS
+The two core components of the U.S. money market—the market for federal funds
+and the U.S. market for Eurodollars—are well integrated, with rates on these instruments displaying small and largely unpredictable spreads. This conclusion holds both
+at the daily and at the higher intra-day frequency.
+Our analysis shows that previous evidence of segmentation between the markets
+for federal funds and Eurodollars reflects the difficulty of stripping off federal funds–
+interest rate premia characteristics unrelated to how a given set of investors views
+federal funds relative to Eurodollars in a given trading environment. Using previously unavailable high-quality, high-frequency data on money market trading, drawn
+entirely from the New York market, we document close alignment of federal funds
+and Eurodollar rates throughout the day. Accessory results include evidence of liquidity effects, higher trading volume lowers the volatility of spreads, keeping federal funds and Eurodollar rates more closely in line.
+High integration of the U.S. money market has an immediate implication for the
+analysis of the transmission of monetary policy. Our results suggest that to stabilize
+short-term funding costs for the vast majority of U.S. banks, it makes little difference
+that the Federal Reserve targets only rates in the federal funds market and does
+not include into its target trades executed in the larger Eurodollar market. Yet, our
+results are consistent with the possibility that the global market for Eurodollars, which
+provides short-term dollar funding to a broad set of non-U.S. institutions, might be
+still somewhat segmented. A firmer conclusion on the extent of this market’s internal
+integration must await better data than currently available to researchers.
+
+LITERATURE CITED
+Andersen, Torben G., and Jesper Lund. (1997) “Estimating Continuous-Time Stochastic
+Volatility Models of the Short-term Interest Rate.” Journal of Econometrics, 77, 343–77.
+Balduzzi, Pierluigi, Giuseppe Bertola, Silverio Foresi, and Leora Klapper. (1998) “Interest Rate
+Targeting and the Dynamics of Short-term Rates.” Journal of Money, Credit, and Banking,
+30, 26–50.
+Bartolini, Leonardo, Giuseppe Bertola, and Alessandro Prati. (2002) “Day-to-Day Monetary
+Policy and the Volatility of the Federal Funds Rate.” Journal of Money, Credit, and Banking,
+34, 137–59.
+
+LEONARDO BARTOLINI, SPENCE HILTON, AND ALESSANDRO PRATI
+
+:
+
+213
+
+Bartolini, Leonardo, Giuseppe Bertola, and Alessandro Prati. (2003) “The Overnight Interbank
+Market: Evidence from the G 7 and the Euro Zone.” Journal of Banking and Finance, 27,
+2045–83.
+Bartolini, Leonardo, and Alessandro Prati. (2003) “The Execution of Monetary Policy: A Tale
+of Two Central Banks.” Economic Policy, 37, 435–67.
+Brock, William A., and Allan W. Kleidon. (1992) “Periodic Market Closure and Trading
+Volume.” Journal of Economic Dynamics and Control, 16, 451–89.
+Cyree, Ken B., Mark D. Griffiths, and Drew B. Winters. (2003) “On the Pervasive Effects of
+Federal Reserve Settlement Regulations.” Federal Reserve Bank of St. Louis Review, 27–46.
+Cyree, Ken, and Drew Winters. (2001) “Analysis of Federal Funds Rate Changes and Variance
+Patterns.” Journal of Financial Research, 24:3, 403–18.
+Demiralp, Selva, Brian Preslopsky, and William Whitesell. (2004) “Overnight Interbank Loan
+Markets.” Manuscript, Board of Governors of the Federal Reserve.
+Griffiths, Mark D., and Drew B. Winters. (1995) “Day-of-the-Week Effects in Federal Funds
+Rates: Further Empirical Findings.” Journal of Banking and Finance, 19, 1265–84.
+Hamilton, James D. (1996) “The Daily Market for Fed Funds.” Journal of Political Economy,
+104, 26–56.
+Hong, H., and J. Wang. (2000) “Trading and Returns Under Periodic Market Closures.” Journal
+of Finance, 55, 297–354.
+Kahn, Charles M., James McAndrews, and William Roberds. (2003) “Settlement Risk under
+Gross and Net Settlement.” Journal of Money, Credit and Banking, 35, 591–608.
+Lee, Young-Sook. (2003a) “The Federal Funds Market and the Overnight Eurodollar Market.”
+Journal of Banking and Finance, 27, 749–71.
+Lee, Young-Sook. (2003b) “Intraday Predictability of Overnight Interest Rates.” Manuscript,
+University of Nottingham.
+Peek, Joe, and Eric S. Rosengren. (2001) “Determinants of the Japan Premium: Actions Speak
+Louder Than Words.” Journal of International Economics, 53:2, 283–305.
+Perez-Quiros, Gabriel, and Hugo Rodriguez-Mendizabal. (2006) “The Daily Market for Funds
+in Europe: What Has Changed with the EMU?” Journal of Money, Credit, and Banking,
+38:1, 91–118.
+
+

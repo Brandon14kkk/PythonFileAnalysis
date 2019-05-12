@@ -1,0 +1,1136 @@
+Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+Bidder behavior in central bank repo auctions:
+Evidence from the Bundesbank
+Tobias Linzerta , Dieter Nautza,∗ , Jörg Breitungb
+a
+
+Goethe University Frankfurt, Department of Money and Macroeconomics, Mertonstr. 17,
+60054 Frankfurt am Main, Germany
+b University of Bonn, Department of Economics, Germany
+Received 5 May 2004; accepted 23 February 2005
+Available online 2 February 2006
+
+Abstract
+For many central banks, repo auctions are the most important monetary policy instrument. This
+paper employs a unique data set of individual bids submitted in the repo auctions of the Bundesbank
+to analyze the determinants of banks’ bidding behavior and the empirical performance of repo auctions. We conduct a panel analysis to estimate how banks bidding is affected by various auction as
+well as bidder-specific factors including interest rate expectations, interest rate uncertainty, maturing
+allotment, reserve fulfillment and a bank’s size.
+© 2005 Elsevier B.V. All rights reserved.
+JEL classiﬁcation: C23; D44; E52
+Keywords: Monetary policy instruments; Auctions; Panel analysis
+
+1. Introduction
+The way in which monetary policy is implemented can have significant consequences for
+the transmission of monetary policy actions. This does not only hold for the specification
+∗
+
+Corresponding author.
+E-mail addresses: tobias.linzert@ecb.int (T. Linzert), nautz@wiwi.uni-frankfurt.de (D. Nautz),
+breitung@uni-bonn.de (J. Breitung).
+1042-4431/$ – see front matter © 2005 Elsevier B.V. All rights reserved.
+doi:10.1016/j.intfin.2005.02.003
+
+216
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+of the operational target but also for the setup of central bank open market operations.
+Institutional details of the operational framework may influence the working of money
+markets, banks’ demand for reserves, and the volatility of short-term interest rates. For
+many central banks, including the German Bundesbank and the European Central Bank
+(ECB), repo auctions are the predominant instrument for the money market management
+and the control of the monetary base. In fact, virtually all money market operations of the
+Bundesbank and the ECB are carried out using repo auctions.
+This paper employs a unique data set of individual bids submitted in the repo auctions
+of the Bundesbank to shed more light on the determinants of banks’ bidding behavior and
+the empirical performance of repo auctions. We characterize the bidding behavior of a bank
+by its participation decision and the individual bid amount. These endogenous bidding
+variables will be explained by various auction-specific as well as bidder-specific factors
+including interest rate expectations, interest rate uncertainty, maturing allotment, reserve
+fulfillment and the bank’s size.
+Our paper is closely related to Bindseil et al. (2004) and Scalia and Ordine (2003) who
+analyze banks’ bidding behavior in the repo auctions of the ECB. Both studies find that
+bidder behavior in repo auctions differs from those documented for Treasury bill auctions in
+two important respects. First, in contrast to the empirical literature on Treasury bill auctions,
+they found no evidence for the winner’s curse effect in repo auctions.1 Second, bidders in
+the ECB’s repo auctions are particularly concerned about interest rate expectations. For
+example, when banks expect interest rates to decrease, they underbid, i.e. they refrain from
+bidding.
+In the following, we will estimate panel regressions for the probability of bidding and a
+bank’s individual bid amount. We explicitly account for the censored distribution of the bid
+amount by applying a tobit model that uses both, the probability of a bank’s participation
+and the distribution of the bid amount given that it is positive.2 In the same vein, in the logit
+analysis of banks’ participation decision, we did not remove the bidders never participating
+in an auction to avoid distorting effects on the estimated probabilities.
+Our main results can be summarized as follows. First, in line with the evidence provided
+by Bindseil et al. (2004) and Scalia and Ordine (2003) we found no convincing evidence
+for a winner’s curse effect in the Bundesbank repo auctions. Second, in contrast to the
+ECB’s experience the estimated impact of interest rate expectations on banks’ bidding in
+the Bundesbank’s repo auctions is only small. In particular, underbidding or even bidder
+strikes were not an issue in the Bundesbank auctions.
+The remainder of the paper is organized as follows. Section 2 briefly reviews institutional
+details of repo auctions and the evidence on the impact of interest rate expectations and rate
+uncertainty on the behavior of bidders. In Section 3, we introduce the data and variables
+used in the following panel regressions Section 4 presents the empirical analysis of banks’
+1 Evidence for the winner’s curse effect in Treasury bill auctions is provided by, e.g. Gordy (1999) and Nyborg
+et al. (2002).
+2 The bid amount is left-censored since it can only be observed if a bank actually participates in an auction. This
+property of the data is often neglected in the empirical literature on auctions, see, e.g. Scalia and Ordine (2003),
+Nyborg et al. (2002) and Bjonnes (2001) or Breitung and Nautz (2001). Notable exceptions are Ayuso and Repullo
+(2001) and Linzert et al. (2004).
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+217
+
+bidding in the Bundesbank’s auctions. First, we estimate a logit model to analyze banks’
+participation decision. In a second step, we employ a panel tobit model to investigate the
+determinants of a bank’s bid amount. Section 5 gives a summary of the main results and
+offers some policy conclusions.
+
+2. Interest rate expectations and uncertainty in central bank auctions
+Following the monetary policy practice of the Bundesbank, weekly repo auctions are the
+ECB’s dominant monetary policy instrument. The repo rates applied in the ECB’s main refinancing operations (MROs) govern the money market rates and the repo volume determines
+the liquidity of the European banking sector. Since June 2000, MROs are conducted as variable rate tenders, where banks bid both the amount of money they wish to obtain and the
+interest rate at which the repo transaction is settled. Yet, in order to signal the intended interest rate level, the ECB introduced a minimum bid rate, i.e. it disregards bids below a certain
+interest rate level. In fact, this minimum bid rate is now viewed as the ECB’s key interest rate.
+Apart from the minimum bid rate, however, all relevant institutional details in the ECB’s
+and the Bundesbank’s operational framework are the same. The rules and the maturity of the
+Bundesbank’s and the ECB’s repo auctions are identical, as well as their role and importance
+in the monetary policy setup. Finally, both central banks have a monthly reserve period with
+reserve averaging such that rate expectations should have an influence on banks’ bidding.
+Interestingly, Bindseil et al. (2004) found that interest rate expectations are particularly
+relevant for banks’ bidding behavior in the MRO auctions. In particular, the ECB’s minimum
+bid rate implies a clear incentive for banks to postpone refinancing whenever they expect a
+rate cut.3
+For Treasury bill auctions, it is well documented that bidders are exposed to the winner’s
+curse effect, see e.g. Gordy (1999), Bjonnes (2001) and Nyborg et al. (2002). To mitigate
+the winner’s curse, rational bidders should bid more cautiously when rate uncertainty increases by bidding at lower rates, reducing the quantity demanded and increasing the bid
+rate dispersion. Recently, Linzert et al. (2004) confirmed the winner’s curse effect in the
+ECB’s longer term refinancing operations (LTROs) indicating that banks’ demand for longer
+term refinancing crucially depends on common market conditions. Interestingly, however,
+Bindseil et al. (2004) found no evidence in favor of the winner’s curse effect in the ECB’s
+MROs. This indicates that the demand for reserves in MROs is closely related to the banks’
+private liquidity needs and thus less influenced by common market conditions. The role of
+interest rate expectations and rate uncertainty for bidder behavior in central bank auctions is
+still under debate: For example, Scalia and Ordine (2003) found that higher rate uncertainty
+may even induce bidders to submit larger bids at higher rates in ECB’s MROs suggesting
+that banks are more concerned about the risk of losing in an auction, not winning.
+3 Notice, however, that the ECB substantially revised its operational framework of monetary policy to stop
+banks’ from underbidding, see ECB (2003). The reserve periods are now determined by the meetings of the
+Governing councils and the maturity of the main refinancing operations will be reduced to 1 week. As a result, rate
+expectations should not matter any more for banks bidding as the ECB will keep its key interest rate unchanged
+within the maintenance period.
+
+218
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+In order to shed more light on the determinants of bidder behavior in central bank
+auctions, this paper employs a unique data set of individual bids submitted in the repo
+auctions of the Bundesbank analyzing the importance of various auction- as well as bidderspecific variables on bidder behavior. To that aim, the empirical study is organized as
+follows. First, we will investigate the determinants of the participation decision of a single
+bank. And second, having estimated the participation probability we investigate the factors
+determining the individual bidding volume.
+
+3. Data and theoretical predictions
+3.1. The bidding data
+The following empirical analysis is based on a data set of weekly repo auctions performed
+by the Bundesbank. We collected individual bidding data (which was not available in computer readable form) of 275 banks that had submitted their bids at the Land Central Bank
+of Hesse. Bidder codes allow us to track each bidder over time. Hesse contains Germany’s
+financial center Frankfurt hosting a major part of German banks including large banks as
+well as a broad range of small private banks and foreign bank dependencies. Therefore, the
+results derived from our sample should be fairly representative for the bidding behavior of
+the German banking sector.
+In many respects, banks’ bidding behavior in the repo auctions of the Bundesbank and
+the ECB appear to be very similar, see Bindseil et al. (2004) and ECB (2001). First, large
+bidders participate more often but their bids are still small relative to the total bid volume,
+see Table 1. Second, banks usually do not submit more than three bids per auction, see
+Table 2. In fact, the bid rate dispersion in the Bundesbank’s repo auctions is not higher
+than in the repo auctions of the ECB, although there is no minimum bid rate that constrains
+banks’ bidding. With a view to the large number of bidders, we are reluctant to interpret
+the low bid rate dispersion in repo auctions as an indication of bidder collusion. Due to the
+close relationship between the upcoming repo rate and the prevailing interest rates on the
+interbank money market, it seems more plausible that bidders in repo auctions have similar
+estimates regarding the auction outcome.4 Third, there are many bidders that participate
+only infrequently, see Table 3. Only 175 out of 275 Hessian banks participated at least once
+in the auctions covered by our data set. A similar share of active bidders is observed in the
+repo auctions of the ECB. In contrast to previous empirical work, we do not remove the
+bidders never participating in an auction to avoid distorting effects on the analysis of banks’
+participation decision.
+Compared with the ECB, which changed the auction format only once in 4 years, the
+Bundesbank was far less reluctant to switch between fixed and variable rate tenders. In fact,
+there is only one longer period, running from April to November 1995, where the Bundesbank did not change the auction format. In this period, the Bundesbank performed
+its repo auctions exclusively as variable rate tender, which is the auction format used
+4
+
+For Treasury bill auctions, Gordy (1999) showed that higher uncertainty increases the number of bids per
+bidder because bidder try to hedge against the winner’s curse by submitting multiple bids.
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+219
+
+Table 1
+Distribution of average bid volume
+Bid volume (in Mio. DM)
+
+No. of banks
+
+0
+1–100
+
+100
+132
+
+36.36
+84.36
+
+29
+5
+4
+
+94.91
+96.73
+98.18
+
+5
+
+100.00
+
+101–500
+501–1000
+1001–3000
+≥3000
+
+
+
+Percent (cumulative)
+
+275
+
+Notes: The data refers to the 33 Bundesbank auctions covered by our sample period (April to November 1995).
+Table 2
+Distribution of number of bids
+No. of bids
+
+No. of bidders
+
+Percent (cumulative)
+
+0
+1
+2
+3
+4
+5
+
+6248
+1315
+918
+445
+105
+44
+
+69.25
+83.33
+93.35
+98.36
+99.52
+100
+
+
+
+9075
+
+Notes: The data refers to the 33 Bundesbank auctions covered by our sample period (April to November 1995).
+Table 3
+Participation frequency
+No. of auctions
+
+No. of banks
+
+Percent (cumulative)
+
+0
+1–5
+6–10
+11–15
+16–20
+21–25
+26–30
+31–33
+
+100
+46
+26
+18
+13
+19
+22
+32
+
+36.23
+52.90
+62.32
+68.84
+73.55
+80.43
+88.41
+100.00
+
+
+
+275
+
+Notes: The data refers to the 33 Bundesbank auctions covered by our sample period (April to November 1995).
+
+by the ECB since June 2000. We therefore concentrate on this period that provides 33
+auctions with the standard maturity of about 2 weeks. Note that our sample period was
+characterized by decreasing interest rates, see Fig. 1.5 In particular, in August 1995 the
+Bundesbank lowered the rate of its marginal lending facility (the Lombard rate) by 50
+5
+
+Similarly, the ECB’s repo rates have decreased from 4.75% in Fall 2000 to 2% in July 2004.
+
+220
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+Fig. 1. Interest rates in the German money market. Notes: The repo rate corresponds to the stop out rate of the
+auction. The Lombard rate is the Bundesbank’s key interest rate of the marginal lending facility which was lowered
+in August 1995. The overnight rate refers to the bidding days of the 33 auctions covered by our sample period.
+Source: Deutsche Bundesbank.
+
+basis points. With regard to banks’ underbidding in the repo auctions of the ECB, it will
+be interesting to see how banks’ bidding is affected by the Bundesbank’s interest rate
+cut.
+3.2. Variables and theoretical predictions
+Banks’ demand for repos should be affected by the cost of alternative refinancing opportunities. For example, the higher the spread defined as the difference between the expected
+stop out rate and the overnight rate the cheaper is the repo credit. Therefore, a higher spread
+should decrease both, the probability of bidding and the bid amount. We estimated the expected stop out rate using the error correction equation implied by the cointegrating relation
+between the stop out rate and the overnight rate, see Appendix A.6
+According to Bindseil et al. (2004), expectations of rate changes may have a strong
+impact on banks’ bidding behavior. We measured the prevailing rate expectations by the
+variable term spread defined as the difference between the 1-month rate and the overnight
+rate. Following the expectations theory of the term structure of interest rates, e.g. a negative
+term spread shows that interest rates are expected to decline. In our sample period, the
+Bundesbank changed its policy rate only once. According to the course of the term spread,
+this reduction of the Bundesbank’s marginal lending rate in August 1995 was anticipated
+by the banks. Banks’ bidding behavior in the auction preceding the Bundesbank’s rate cut
+is of particular interest. We therefore introduce a dummy variable rate cut which is one in
+6 Note that it would be more appropriate to define the opportunity cost variable using a money market rate
+having the same maturity as the repo. Unfortunately, however, a biweekly money market rate, comparable to the
+newly introduced EONIA swap rate, is not available for our sample period.
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+221
+
+that particular auction and zero otherwise. This dummy variable should indicate whether
+banks deviate systematically in their bidding behavior in the auction immediately before
+the Bundesbank’s interest rate cut.
+The interest rate uncertainty perceived at the auction day is proxied by the variable
+volatility which is estimated using an EGARCH (1, 1) model for daily observations of the
+overnight rate.7 Regarding the impact of uncertainty on banks’ bidding, the implications of
+auction theory are generally ambiguous. On the one hand, there is the well-known winner’s
+curse effect implying that banks bid more cautious when uncertainty increases. On the
+other hand, higher uncertainty may also lead to higher bid rates and bid volumes if banks’
+concern is rather to go out empty handed, see Scalia and Ordine (2003).8 There may also
+be the “loser’s curse” effect which is related to the repo volume that is auctioned off,
+see Pesendorfer and Swinkels (1997). However, since the repo volume supplied by the
+Bundesbank was not preannounced but endogenously determined by the bids of the banks,
+we could not include the auction size as an explanatory variable in our regressions.
+The variable reserve fulﬁlment measures the liquidity need of the banking sector. Since
+data on the individual reserve holdings are not available it is defined as the ratio of the
+reserve holdings of all German banks prior to the auction and the aggregate minimum
+reserve requirement. If reserve holdings are low, banks should have a stronger incentive to
+participate in the auction. Since the Bundesbank allowed averaging over the maintenance
+period, this effect might be particularly relevant in the last auction of the maintenance
+period. We subsequently define the dummy variable end of period taking the value 1 if the
+auction is the last in the maintenance period.
+Finally, we consider two bidder-specific regressors. The variable maturing allotment is
+defined as the log of a bank’s repo volume received 2 weeks before. This variable captures the
+fact that banks often use the biweekly repo credit on a revolving basis. The dummy variables
+large, medium, and small characterize a bank’s size with respect to the categorization of
+banks used by the Deutsche Bundesbank, see Table 4. We will interact these dummies with all
+explanatory variables to investigate how a bank’s bidding behavior is influenced by its size.
+4. Empirical results
+4.1. The participation decision of banks
+In a first step, we analyze the participation decision of an individual bank using a panel
+version of the logit model where the dependent variable yit equals one if bank i participates
+in auction t ∈ {1, . . . , N} and is zero otherwise. Using the logistical distribution , the logit
+model is given by
+
+
+Prob(yit = 1|xit ) =
+7
+
+(xit β)
+
+=
+
+exit β
+
+
+1 + exit β
+
+(1)
+
+In line with, e.g. Nyborg et al. (2002) or Scalia and Ordine (2003), the EGARCH specification proved to be
+most appropriate but the particular choice of the (G)ARCH model did not affect our results in a significant way.
+8 This bidding behavior would also be in line with the predictions of multi-period reserve management models,
+where higher interest rate risk increases banks’ demand for reserves, see Nautz (1998).
+
+222
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+Table 4
+Bank Types
+Bank type
+
+Bank category
+
+Large
+
+Big banks
+Land banks
+
+Medium
+
+Banks with special functions
+Regional institute of credit coop
+Regional banks
+Building associations
+
+Small
+
+Credit cooperatives
+Saving banks
+Branches of foreign banks
+
+No. of
+banks
+
+Average bid
+volume/ bank
+(in Mio. DM)
+
+Average
+allotment/ bank
+(in Mio. DM)
+
+Participation
+rate (%)
+
+5
+
+3490
+
+1130
+
+96.36
+
+87
+
+190
+
+101
+
+49.15
+
+183
+
+23.9
+
+13.1
+
+21.71
+
+Notes: The data refers to 33 Bundesbank auctions in the period from April to November 1995. Bank categories
+correspond to the categorization by the Deutsche Bundesbank.
+
+where xit and β denote the vector of explanatory variables and the corresponding coefficients, respectively.
+We opted for the random effects logit model since the Hausman-test could not reject
+the hypothesis that the individual effects are uncorrelated with the other regressors. The
+random effects model allows for the inclusion of time-invariant bidder-specific regressors
+like the size dummies introduced above. Our specification is corroborated by the similarity
+of the parameter estimates from the random and the corresponding conditional fixed effects
+estimation, see Table 5.
+Table 5
+The participation decision of an individual bank: a panel logit analysis
+
+Term spread
+Rate cut dummy
+Spread
+Volatility
+Reserve fulfillment
+Maturing allotment
+End of period dummy
+Size dummies
+Large
+Medium
+Small
+Pseudo-R2
+No. of observations
+No. of groups
+
+Random effects estimation
+
+Marginal effects
+
+Conditional fixed effects estimation
+
+8.19(5.16)
+0.36(1.20)
+−11.57(−6.82)
+−0.19(−2.08)
+0.68(0.55)
+0.13(22.24)
+0.74(6.28)
+
+0.879
+−−
+−1.242
+−0.020
+−−
+0.014
+0.060
+
+8.70(5.48)
+0.30(0.97)
+−12.14(−7.14)
+−0.20(−2.18)
+1.11(0.90)
+0.11(19.15)
+0.76(6.41)
+
+2.51(1.57)
+−4.58(−3.04)
+−5.82(−3.87)
+0.1142
+8525
+275
+
+0.1048
+4495
+145
+
+Notes: The t-values of the parameter estimates are reported in parenthesis. For the significant parameters we
+calculated the marginal effects (see Footnote 9) that indicate the economic significance of the variables by the usual
+elasticity interpretation. Note that the conditional fixed effects estimation is restricted to banks which participate
+at least twice. The Pseudo-R2 measure is calculated according to Aldrich and Nelson (1984).
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+223
+
+Table 5 presents the estimation results indicating each variable’s impact on the participation probability. Yet, as in any nonlinear regression the estimated coefficients do not have
+the familiar elasticity interpretation. To evaluate the parameter’s economic significance, we
+report the corresponding marginal effects, see column 2.9
+According to Table 5 interest rate expectations have a significant influence on a bank’s
+participation decision. In line with the ECB’s experience, the participation probability in
+the repo auctions of the Bundesbank decreases when a negative term spread indicates that
+interest rates are expected to decrease. However, given the estimated marginal effect (0.879)
+of the term spread the economic significance of rate expectations is only small. Fig. 1 shows
+that the repo and the overnight rate fell in anticipation of a Lombard rate cut. Therefore, the
+term spread could adjust smoothly and was generally much smaller than the actual rate cut.
+Moreover, the insignificant coefficient of the rate cut dummy underlines that the expected
+rate cut had no major impact on banks’ participation decision.
+The variable spread measuring the opportunity costs of repos exhibits a significant effect
+on banks’ participation decision and its coefficient is plausibly signed. For example, if the
+expected repo rate of the central bank is high relative to the money market rate fewer banks
+will decide to participate in the auction. The similarity of the estimated coefficients of the
+spread and the term spread might suggest that the overnight rate cancels out. However, the
+implied parameter restriction is strongly rejected by the data.
+The coefficient of the variable volatility is significantly negative. Yet, the marginal effect
+indicates that volatility’s influence on a bank’s participation decision is negligible. We are
+therefore reluctant to interpret the coefficient as evidence in favor of the winner’s curse
+effect. If banks are short in liquidity, i.e. their reserve fulﬁlment is low, they should have a
+stronger incentive to participate in the auction. As in Scalia and Ordine (2003) this is not
+substantiated by our data. This plausible effect might be obscured in our estimation because
+we were left with aggregate data to proxy the liquidity position of an individual bank.
+As expected, the variable maturing allotment has a positive effect on banks’ participation
+demonstrating that banks use repos on a revolving basis. According to the estimated marginal
+effect, a 70% rise in the volume of the maturing repo raises a bank’s participation probability
+by 1% point. At a first glance, this effect appears to be small, but banks’ individual allotments
+range between zero and 5 billion DM. Due to that large variation, the maturing allotment is a
+major determinant of banks’ participation probability. For example, the average participation
+probability of a bank with zero maturing allotment is about 7% while the average probability
+jumps to 31% if the bank received only 1 million DM, the minimum allotment set by the
+Bundesbank.
+According to the estimated effect of the end of period dummy banks’ participation probability rises in the auctions performed in the last week of the maintenance period. Apparently,
+banks bid more often at the end of the period anticipating the increased probability of being
+squeezed after the auction, see Nyborg and Strebulaev (2001). The marginal effect indicates
+that in the last auction of the reserve period the average participation probability of a bank
+rises by 6% points.
+9 Following Greene (2002), the marginal effect is calculated as ∂E[yit |xit ] = {(x β)[1 − (x β)]}β indicating
+it
+it
+∂xit
+the percentage point change of the probability upon a 1% increase of the explanatory variables. Since its value
+varies with x, the marginal effects are evaluated at the sample means of the regressors.
+
+224
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+Finally, the coefficients of the size-dummies display the obvious fact that large banks
+participate more frequently in the auctions than small banks, see also Table 4. Large banks
+bid in the auction not only to satisfy their own liquidity needs but also to resale and actively
+trade reserves in the secondary market.
+4.1.1. Size effects on a bank’s participation
+Central bank auctions are not designed to maximize the surplus of the central bank.
+Therefore, size effects are of particular relevance for monetary policy because central banks
+prefer ‘fair’ auction formats to avoid any violations of the principle of equal treatment.10 In
+order to investigate whether a bank’s response to a regressor depends on its size, we interact
+the size dummies with all other explanatory variables. The results are presented in the first
+column of Table 6. In the second column we display the p-value of the Wald-statistics testing
+for the null hypothesis of no size effect.11
+There are significant size effects with regard to banks’ response to interest rate expectations (term spread) and to expected opportunity cost (spread). For both variables, the
+medium-sized banks show the weakest response. The coefficients of the size-specific maturing allotment variables reflects that the seasonality of participating in an auction is more
+pronounced for small and medium size banks than for large banks. This might imply that
+larger banks can refinance themselves more easily on the interbank market and are less
+dependent on a regular participation in central bank auctions.
+In the last column of Table 6 we report the p-values of the tests on the overall significance
+for each group of variables. The results of the extended logit model are very much in line with
+those obtained for the model without size effects, see Table 5. In particular, the extended
+logit model confirms the doubts on the significance of volatility for banks’ participation
+decision. For the Bundesbank repo auctions, there is no evidence in favor of a size specific
+winner’s curse effect in bidders’ participation decision.
+4.2. The bid amount
+In this section, we advance on the preceding analysis of bidders’ participation decision
+investigating the determinants of an individual bank’s bid amount. Since a bank’s bid volume
+can only be observed if the bank decides to participate in the auction, the variable bid amount
+is left-censored. Ignoring this property of the data might result in biased estimates. Following
+Ayuso and Repullo (2001), we therefore employ a panel tobit model that accounts for the
+participation decision of each individual bank.
+In the tobit model, the variable bid amount, yit∗ , is specified as
+yit∗ = xit β + it
+
+(2)
+
+where
+it ∼ N(0, σ 2 )
+10
+
+For the ECB, this is documented in the ECB’s guiding principles of the operational framework of monetary
+policy, see http://www.ecb.int.
+11 Since large banks participated in almost every auction, the corresponding coefficients can only be estimated
+imprecisely, see Table 4.
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+225
+
+Table 6
+The participation decision of an individual bank with size specific regressors
+Coefficient estimate
+
+H0 : no size effect
+(p-value)
+
+H0 : zero effect
+(p-value)
+
+20.36(0.98)
+0.74(0.31)
+14.02(6.45)
+
+0.0002
+
+0.0000
+
+0.19(0.08)
+0.12(0.26)
+0.60(1.45)
+
+0.7285
+
+0.5392
+
+−20.71(−0.92)
+−4.65(−1.84)
+−16.81(−7.17)
+
+0.0018
+
+0.0000
+
+Volatility/large banks
+Volatility/medium banks
+Volatility/small banks
+
+−1.24(−1.06)
+−0.13(−0.96)
+−0.24(−1.92)
+
+0.5788
+
+0.1260
+
+Reserve fulfillment/large banks
+Reserve fulfillment/medium banks
+Reserve fulfillment/small banks
+
+1.60(0.12)
+−1.23(−0.67)
+2.17(1.26)
+
+0.3998
+
+0.5626
+
+Maturing allotment/large banks
+Maturing allotment/medium banks
+Maturing allotment/small banks
+
+0.02(0.40)
+0.12(13.67)
+0.15(17.27)
+
+0.0187
+
+0.0000
+
+Period end dummy/large banks
+Period end dummy/medium banks
+Period end dummy/small banks
+
+1.07(0.71)
+0.66(3.59)
+0.78(5.00)
+
+0.8521
+
+0.0000
+
+−6.23(−0.40)
+−1.75(-0.79)
+−8.12(-3.89)
+
+0.1123
+
+0.0000
+
+Term spread/large banks
+Term spread/medium banks
+Term spread/small banks
+Rate cut dummy/large banks
+Rate cut dummy/medium banks
+Rate cut dummy/small banks
+Spread/large banks
+Spread/medium banks
+Spread/small banks
+
+Size dummies
+Large
+Medium
+Small
+Pseudo-R2
+No. of observations
+No. of groups
+
+0.1094
+8525
+275
+
+Notes: The size specific regressors are obtained from the interaction of the explanatory variables xit with size
+dummies large, medium, and small (see Table 4). The t-values of the parameter estimates are reported in parenthesis. The second column shows the p-values from a χ2 distributed Wald-test with the null hypothesis that there
+are no size effects. The third column reports the p-values from a χ2 distributed Wald-test with the hypothesis that
+the interaction terms being jointly equal to zero. The Pseudo-R2 is calculated according to Aldrich and Nelson
+(1984).
+
+and the observed bid amount is
+
+yit =
+
+yit∗
+0
+
+ifyit∗ > 0
+ifyit∗ ≤ 0
+
+226
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+Table 7
+The determinants of a bank’s bid amount: a panel analysis
+Tobit model,
+coefficient estimate
+
+Tobit model,
+marginal effect
+
+Term spread
+Rate cut dummy
+Spread
+Volatility
+Reserve fulfillment
+Maturing allotment
+End of period dummy
+
+11.59(4.23)
+0.32(0.61)
+−16.55(−7.82)
+−0.24(−1.50)
+1.32(0.61)
+0.23(20.41)
+0.93(4.61)
+
+1.00
+−−
+−1.43
+−−
+−−
+0.02
+0.08
+
+Size dummies
+Large
+Medium
+Small
+Constant
+
+3.95(1.50)
+−8.98(−3.43)
+−12.70(−4.82)
+−−
+
+Pseudo-R2
+No. of observations
+No. of groups
+
+0.161
+8525
+275
+
+Random effects GLS,
+coefficient est imate
+1.43(4.27)
+0.05(1.97)
+−1.94(−5.40)
+0.01(0.38)
+0.67(2.39)
+0.01(7.39)
+−0.08(−1.13)
+−−
+−3.46(−5.10)
+−4.80(−7.14)
+21.01(28.61)
+0.062
+2625
+275
+
+Notes: The t-values of the parameter estimates are reported in parenthesis. For the significant parameters we
+calculated the marginal effects (see Footnote 12) that indicate the economic significance of the variables by the the
+usual elasticity interpretation. There were 5900 left-censored observations in our sample. Note that for the linear
+Random effects GLS estimation all left-censored observations are dropped. The Pseudo-R2 measure is calculated
+according to Aldrich and Nelson (1984).
+
+Notice, that the tobit model uses both, the probability that yit = 0 (given xit ) and the distribution of yit given that it is positive. This can be illustrated by the log likelihood function
+  
+  
+ 1
+(yit − xit β)2
+xit β
+2
++
+− ln(2π) + ln σ +
+ln 1 − 
+ln L =
+2
+σ2
+σ
+yit =0
+
+yit >0
+
+(3)
+where  is the standard normal distribution. The first part of the log likelihood function
+represents the information of the conventional regression on the uncensored observations
+while the second part corresponds to the probit model describing a bank’s participation
+decision. Obviously, the tobit estimation uses the full set of available information and
+hence will generally lead to more efficient estimates.
+Table 7 shows the estimated coefficients and the resulting marginal effects from the tobit
+model explaining a bank’s bid amount.12 We also display the results of a corresponding
+naive GLS panel regression which neglects the information contained in the zero bids. With
+respect to the marginal effects of the tobit model, the results from the GLS regression seem
+to be broadly in line with the tobit estimates. The general impression is, however, that the
+GLS model exaggerates the effects of interest rate expectations, opportunity cost and the
+reserve fulfillment. As expected, the standard deviations of the estimated coefficients are
+12
+
+The marginal effects for the tobit model are given by
+
+∂E[yit |xit ]
+∂xit
+
+=
+
+
+
+xit β
+σ
+
+	
+β, see, e.g. Greene (2002).
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+227
+
+Table 8
+The determinants of a bank’s bid amount: tobit model estimation with bank size specific regressors
+Coefficient estimate
+
+H0 : no size effect
+(p-value)
+
+H0 : zero effect
+(p-value)
+
+Term spread/large banks
+Term spread/medium banks
+Term spread/small banks
+
+5.19(0.74)
+1.82(0.89)
+12.91(6.63)
+
+0.0004
+
+0.0000
+
+Rate cut dummy/large banks
+Rate cut dummy/medium banks
+Rate cut dummy/small banks
+
+−0.70(−0.55)
+−0.01(−0.04)
+0.42(1.06)
+
+0.5847
+
+0.7014
+
+−5.64(−0.75)
+−6.15(−2.82)
+−15.30(−7.37)
+
+0.0076
+
+0.0000
+
+Reserve fulfillment/large banks
+Reserve fulfillment/medium banks
+Reserve fulfillment/small banks
+
+0.09(0.02)
+−0.57(−0.36)
+2.02(1.29)
+
+0.5056
+
+0.6187
+
+Volatility/large banks
+Volatility/medium banks
+Volatility/small banks
+
+−0.23(−0.57)
+−0.36(−0.30)
+−0.31(−2.78)
+
+0.2357
+
+0.0428
+
+Maturing allotment/large banks
+Maturing allotment/medium banks
+Maturing allotment/small banks
+
+0.03(1.48)
+0.13(17.90)
+0.20(23.57)
+
+0.0000
+
+0.0000
+
+End of period dummy/large banks
+End of period dummy/medium banks
+End of period dummy/small banks
+
+0.09(0.18)
+0.59(3.91)
+0.67(4.77)
+
+0.5445
+
+0.0000
+
+4.78(0.74)
+−1.99(−1.04)
+−8.34(−4.40)
+
+0.0103
+
+0.0001
+
+Spread/large banks
+Spread/medium banks
+Spread/small banks
+
+Size dummies
+Large
+Medium
+Small
+Pseudo-R2
+No. of observations
+No. of groups
+
+0.228
+8525
+275
+
+Notes: The size specific regressors are obtained from the interaction of the explanatory variables xit with size dummies large, medium, and small (see Table 4). The t-values of the parameter estimates are reported in parenthesis.
+Note that there were 5900 left-censored observations in our sample. For further information see Table 6.
+
+larger in the GLS model. The only exception refers to the variable reserve fulﬁllment whose
+significant coefficient implies that banks bid larger amounts when their liquidity needs are
+low. This implausible bidding behavior is not confirmed by the tobit analysis.
+Our findings are not in favor of a winner’s curse effect, i.e. bidders do not reduce their
+bids significantly when the volatility of the market interest rate increases. There is, however,
+a significant impact of the variables maturing allotment and end of period indicating that
+bidders bid more aggressively when their demand for refinancing is high or the danger of
+becoming squeezed increases.
+The estimated coefficients of the term spread indicates that a bank’s bid amount decreases
+when a negative term spread reveals that interest rates are expected to decrease. However,
+
+228
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+corroborating the results obtained from the logit model, the marginal effect of the term
+spread for the bid amount is only small. Moreover, the insignificant coefficient of the rate
+cut dummy shows that the Bundesbank had no difficulties in supplying the intended volume
+of reserves through its repo auction. Apparently, interest rate expectations did not impede
+the Bundesbank’s money market management.
+4.2.1. Size effects on the bid amount
+Table 8 shows the results from the augmented tobit model that incorporates the interactions between the explanatory variables and the size dummies. The estimates reveal the
+presence of size effects concerning the impact of the term spread on a bank’s bid amount.
+Interestingly, the response of a bank’s bid amount to interest rate expectations is most
+pronounced for small banks. This result seems to be in contrast to the ones obtained for
+ECB’s auctions where large banks react stronger in case of expected changes of the repo
+rate. According to Breitung and Nautz (2001) and Bindseil et al. (2004) this indicates that
+large banks bid more informed and sophisticated than small banks in ECB’s repo auctions.
+However, in the repo auctions of the Bundesbank, there is no advantage to postpone refinancing in times of rate cut expectations. As a consequence, there is no obvious explanation
+for a marked impact of rate expectations on banks’ bidding. Probably, small banks react
+stronger to the term spread since they are more likely to be squeezed after the auction. This
+interpretation is substantiated by a significant end of maintenance period effect for small
+and medium but not for large banks.
+According to Table 8 there are significant size effects with regard to the variable maturing
+allotment. This suggests that particularly small and medium sized banks use repos on
+a revolving basis while large banks are more flexible in the their refinancing needs. In
+particular, having better access to the interbank market, large banks might not depend as
+strongly on the central bank refinancing as medium and small banks.
+
+5. Conclusions
+This paper analyzed a unique data set of individual demand schedules submitted in the
+repo auctions of the Bundesbank. Given the mixed evidence on the role of rate expectations
+and uncertainty documented in the empirical literature, we performed a panel analysis to
+shed more light on bidder behavior in central bank auctions. In particular, we investigate
+how interest rate expectations, opportunity cost, interest rate uncertainty, and bidder size
+determine banks’ participation decision and its bid amount.
+Our results confirm that interest rate expectations influence banks’ participation as well
+as the submitted bid amount. However, in terms of the economic significance the impact of
+interest rate expectations is only small. While rate cut expectations have led to underbidding
+and even bidder strikes in the repo auctions of the ECB, bidders in the repo auctions of the
+Bundesbank did not deviate systematically in their behavior before an anticipated rate cut.
+In fact, in the Bundesbank auctions banks did not refrain from bidding but reacted to rate
+cut expectations by bidding at lower interest rates.
+The analysis of banks’ bidding behavior showed that the participation decision and the
+submitted bid volume partly depend on a bank’s size. For example, size effects are significant
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+229
+
+regarding the impact of a bank’s maturing allotment and the behavior of a bank at the end of
+the reserve period. While the size effect found for the end-of-period dummy suggests that
+small banks are more likely to be squeezed after the auction, the size-dependence impact
+of a bank’s maturing allotment indicates that large banks are less dependent on a regular
+participation in central bank auctions than medium and small banks.
+In contrast to Treasury bill auctions, bidders’ response to interest rate uncertainty does
+not support the winner’s curse effect in the Bundesbank repo auctions. In line with recent
+findings on bidder behavior in the main refinancing operations of the ECB, this suggests that
+bidder behavior in repo auctions is more closely related to banks’ private liquidity needs
+and less influenced by common market conditions.
+
+Acknowledgements
+Financial support by the Deutsche Forschungsgemeinschaft (DFG) through NA31020102 is gratefully acknowledged. We thank a referee, the seminar participants at the
+Bundesbank and the ECB for helpful comments, and the Bundesbank for providing us access to their data. An earlier version of the paper circulated as Bundesbank discussion paper
+No. 2003/13 under the title “Bidder behavior in repo auctions without a minimum bid rate:
+Evidence from the Bundesbank”.
+
+Appendix A. The expected stop out rate of the auction
+Using weekly observations from April to November 1995, we found that the stop out
+rate (r) and the interbank overnight rate (i) are cointegrated with a stationary spread. As a
+consequence, the expected stop out rate is derived from an error correction equation which
+is estimated as follows:
+	rt = −0.007 − 0.121(r − i)t−1 + 0.662	rt−1 + ε̂t ,
+(1.92)
+
+R2 = 0.62,
+
+(3.20)
+
+Q(4) = 1.26,
+
+(5.71)
+
+No. of observ. : 31
+
+Notes: The t-values are reported in parenthesis.
+
+References
+Aldrich, J., Nelson, F., 1984. Linear Probability, Logit and Probit Models. Sage University Press, Beverly Hills.
+Ayuso, J., Repullo, R., 2001. Why did the banks overbid? An empirical model of fixed rate tenders of the European
+Central Bank. Journal of International Money and Finance 20, 857–870.
+Bindseil, U., Nyborg K.G., Strebulaev, I.A., 2004. Bidder behavior and performance in repo auctions: the case of
+the Eurosystem, Discussion Paper 4367, CEPR.
+Bjonnes, G.H., 2001. Winner’s Curse in discriminatory price auctions: evidence from the Norwegian Treasury bill
+auctions, Working paper, Stockholm Institute for Financial Research.
+Breitung, J., Nautz, D., 2001. The empirical performance of the ECB’s repo auctions: evidence from aggregated
+and individual bidding data. Journal of International Money and Finance 20, 839–856.
+
+230
+
+T. Linzert et al. / Int. Fin. Markets, Inst. and Money 16 (2006) 215–230
+
+ECB, 2001. Bidding behavior of counterparties in the Eurosystem’s regular open market operations, Monthly
+Bulletin, October, pp. 51–63.
+ECB, 2003. Changes in the Eurosystem’s operational framework for monetary policy, Monthly Bulletin, August,
+pp. 41–54.
+Gordy, M., 1999. Hedging winner’s curse with multiple bids: evidence from the Portuguese Treasury bill auction.
+The Review of Economics and Statistics 81 (3), 448–465.
+Greene, W.H., 2002. Econometric Analysis. Prentice Hall, New Jersey 5th ed.
+Linzert, T., Nautz, D., Bindseil, U., 2004. The longer term refinancing operations of the ECB, Working Paper 359,
+ECB.
+Nautz, D., 1998. Banks’ demand for reserves when future monetary policy is uncertain. Journal of Monetary
+Economics 42 (1), 161–183.
+Nyborg, K.G., Rydqvist, K., Sundaresan, S., 2002. Bidder behavior in multiunit auctions: evidence from Swedish
+treasury auctions. Journal of Political Economy 110, 394–425.
+Nyborg, K.G., Strebulaev, A., 2001. Collateral and short squeezing of liquidity in fixed rate tenders. Journal of
+International Money and Finance 20, 769–792.
+Pesendorfer, W., Swinkels, J., 1997. The loser’s curse and information aggregation in common value auctions.
+Econometrica 65 (6), 1247–1281.
+Scalia, A., Ordine, M., 2003. Banks’ participation in the Eurosystem auctions and money market integration, paper
+presented at the annual meeting of the European Finance Association in Glasgow.
+
+

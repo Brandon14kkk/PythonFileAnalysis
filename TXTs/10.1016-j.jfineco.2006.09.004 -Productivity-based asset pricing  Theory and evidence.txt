@@ -1,0 +1,3748 @@
+ARTICLE IN PRESS
+
+Journal of Financial Economics 86 (2007) 405–445
+www.elsevier.com/locate/jfec
+
+Productivity-based asset
+pricing: Theory and evidence$
+Ronald J. Balversa,, Dayong Huangb
+a
+Division of Economics and Finance, West Virginia University, Morgantown, WV 26506-6025, USA
+Department of Economics and Management, Gustavus Adolphus College, Saint Peter, MN 56082, USA
+
+b
+
+Received 25 May 2005; received in revised form 23 August 2006; accepted 19 September 2006
+Available online 22 June 2007
+
+Abstract
+In a general real business cycle model, we derive a pricing kernel that involves only production
+function arguments. The productivity shock is the single factor and the capital stock relative to a
+productivity measure is the conditioning variable. The model compares favorably with the
+complementary consumption-based and market-based approaches and with the Fama-French
+three-factor model. A size premium arises from differences in unconditional sensitivities—small ﬁrms
+are more sensitive to productivity shocks—and a value premium from differences in conditional
+sensitivities to productivity shocks—growth ﬁrms are more sensitive to productivity shocks when the
+productivity risk premium is low.
+r 2007 Elsevier B.V. All rights reserved.
+JEL classifications: G12; E44
+Keywords: Cross-sectional asset pricing; Productivity; Macro factors; Production-based asset pricing; Conditional
+asset pricing
+
+$
+
+We thank the anonymous referee for constructive and very valuable comments. We also thank seminar
+participants at West Virginia University, the New York Institute of Technology, and the 2004 FMA Meetings,
+and Ashok Abbott, Arabinda Basistha, Strat Douglas, Alexei Egorov, Sadayuki Ono, and Yangru Wu, for
+helpful comments. The authors remain fully responsible for possible errors or omissions.
+Corresponding author. Tel.: +1 304 293 7880; fax: +1 304 293 5652.
+E-mail address: rbalvers@wvu.edu (R.J. Balvers).
+0304-405X/$ - see front matter r 2007 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jﬁneco.2006.09.004
+
+ARTICLE IN PRESS
+406
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+1. Introduction
+The consumption-based capital asset pricing model (CCAPM) of Breeden (1979), which
+involves a pricing kernel related to the marginal utility of consumption, is the premier
+theory explaining return variation across assets from an optimizing intertemporal
+perspective. However, the consumption-based approach faces three major empirical
+challenges in explaining asset prices: (1) the equity premium puzzle—variation in the
+marginal utility of consumption is insufﬁcient to explain the average level of excess returns
+(Mehra and Prescott, 1985); (2) the almost complete absence of cross-sectional explanatory
+power—the consumption growth rate has little explanatory power for excess returns across
+asset classes (Mankiw and Shapiro, 1986); and (3) the low covariance between the risk
+premium and the betas—the covariance between consumption (market) betas and the
+consumption (market) risk premium obtained from a series of estimates over small time
+windows is too small to support the importance of any conditioning variable (Lewellen and
+Nagel, 2006).
+A broad explanation for the poor empirical performance of the CCAPM is that the
+marginal utility of consumption depends not only on consumption but also on an
+additional variable ‘‘x’’. This variable may be a state variable yielding a model with
+consumption growth as the factor, where the risk premium and the betas are conditional
+on the state variable. Prominent conditional models are those of Campbell and Cochrane
+(1999), who use lagged consumption as the state variable, and Lettau and Ludvigson
+(2001b), who employ the consumption-to-wealth ratio. These conditional models
+answer for much of the CCAPM’s poor performance but are subject to the Lewellen
+and Nagel critique.
+The ‘‘x’’ variable may also be a contemporaneous variable, in which case we typically
+obtain an unconditional multifactor model for which the Lewellen and Nagel critique does
+not apply. Along this view, Parker and Julliard (2005) consider x to be a measurement
+error, Abel (1990) adds a conspicuous consumption effect, Balvers and Huang (2007)
+consider a model in which money appears in the utility function, Piasezzi, Schneider, and
+Tuzel (2007) and Yogo (2006) allow for durable consumption goods, and below we
+incorporate a preference for leisure. Evidently, even if we assume the functional form of
+the utility function, there is no consensus on how to measure the marginal utility of
+consumption: any combination of the proposed ‘‘x’’ variables may have a quantitatively
+signiﬁcant impact on marginal utility.
+A second approach explaining return variation across assets is that of Merton (1973),
+which has as its pricing kernel the marginal utility of wealth. Complementary to the
+CCAPM, the advantage of the Merton model is that changes in wealth can be related
+directly to market returns. The marginal utility of wealth is also affected by state variables
+that summarize how valuable wealth is in different states, but the Merton model has little
+to say about which state variables should be important: in general, any variables affecting
+future risk or risk aversion are candidates.1 These would include at a minimum aggregate
+demand factors such as the variables governing habit persistence and the aggregate supply
+1
+
+In a recent application of the Merton approach, Petkova and Zhang (2005) reasonably pick the expected
+market risk premium as the state variable. By conditioning the expected market risk premium on the term spread,
+default spread, and lagged risk free rate, they explain a substantial part of the value premium. Santos and
+Veronesi (2006) use an income distribution measure as a state variable in a conditional CAPM.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+407
+
+variables affecting productivity. However, insofar as the Merton approach produces a
+conditional version of the CAPM, it is also subject to the Lewellen and Nagel (2006)
+critique.
+A third asset pricing approach focuses on the production side instead of the
+consumption side, and makes quite different contributions. Based on the asset pricing
+models of Brock (1982) and Lucas (1978), respectively, Balvers, Cosimano, and McDonald
+(1990) and Cecchetti, Lam, and Mark (1990) argue that aggregate output is equal or
+proportionate to aggregate consumption and that one can evaluate the marginal utility of
+consumption at the observed level of output so that aggregate output growth becomes the
+key asset pricing factor.2 The advantage to this approach is that output growth is likely
+measured more accurately than consumption growth.
+A different production-based perspective is provided by Cochrane (1991, 1996), who
+explicitly derives an expression for investment returns (using two factors as proxies:
+residential and non-residential investment growth) and argues that these can serve as a
+pricing kernel for asset returns. Cochrane (1996) ﬁnds that investment returns are
+signiﬁcantly priced. Li, Vassalou, and Xing (2006) use a more disaggregated model and
+ﬁnd that a four-factor investment-growth approach increases the model ﬁt dramatically.3
+In a recent survey article, Cochrane (2005) argues for the production-based approach, as
+opposed to the consumption-based approach, stating that ‘‘This approach should allow us
+to link stock returns to genuine business cycle variables, and ﬁrms may do a better job of
+optimization (more precisely, information and transactions cost frictions which we
+abstract from may be less important for ﬁrms)’’ (Cochrane, 2005, p. 33). He then adds that
+to date no pure production-based approach has been developed that ‘‘ylinks macro
+variables to asset returns independently of preferences’’ (Cochrane, 2005, p.34, italics in
+original). The model we develop yields a pure production-based approach in the sense that
+the variables determining the pricing kernel characterize the production capacity of the
+economy and are not related to preferences.
+Theoretically, we can ﬁnd that the pricing kernel prices investment returns based either
+on arbitrage, as in Cochrane (1991, 1996), or on ﬁrms’ ﬁrst-order conditions. Thus,
+Et ðmtþ1 rItþ1 Þ ¼ 1, where mt is the pricing kernel at time t and rIt is the time-t investment
+return for the representative ﬁrm. It follows tautologically that mtþ1 ¼ Ztþ1 =rItþ1 , with
+2
+See Liew and Vassalou (2000) and Vassalou (2003) for recent applications of this approach to cross-sectional
+asset pricing.
+3
+Peng and Shawky (1999) employ Cochrane’s (1991) approach to study the equity premium but impose an ad
+hoc pricing kernel. A recent paper by Jermann (2005) develops a generalized version of Cochrane’s (1991) model
+to consider the size of the equity premium.
+Additionally, several asset pricing models include a production sector but focus predominately on explaining
+the size of the equity premium. Jermann (1998) argues that we need both adjustment costs and habit persistence to
+match the observed equity premium. Boldrin, Christiano, and Fisher (2001) emphasize limited intersectoral factor
+mobility and habit persistence in order to explain several aspects of the equity premium and key facts of the
+overall economy. The path-breaking model by Gomes, Kogan, and Zhang (2003) provides a structural theory of
+the risk sensitivities of ﬁrms differing by value and size attributes. These approaches focusing on the equity
+premium belong to the consumption-based approach, rather than the production-based approach, as they use the
+marginal rate of intertemporal substitution (with or without a habit factor) as the pricing kernel.
+Kim (2003) provides a different theoretical perspective by using duality theory in Cochrane’s (1996) framework.
+Vassalou and Apedjinou (2003) empirically develop a corporate innovation factor—a scaled, ﬁrm-speciﬁc version
+of Solow’s residual—showing that this factor, when added to the market factor, absorbs the momentum effect in
+cross-sectional asset prices.
+
+ARTICLE IN PRESS
+408
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Et ðZtþ1 Þ ¼ 1. This motivates taking investment returns to represent the pricing kernel as in
+Cochrane (1996) and Li, Vassalou and Xing (2006). However, in principle, other than in
+the mean, Zt+1 is unrestricted and may represent any factor affecting the pricing kernel in
+addition to investment returns. We relate Zt+1 to shocks in the marginal value of capital,
+obtaining an explicit production-based expression for the pricing kernel.
+While our paper ﬁts within the third asset pricing approach, it is fundamentally different
+from the other production-based asset pricing papers. Essentially, we take advantage of
+the fact that in a competitive economy with complete ﬁnancial markets, the marginal rate
+of intertemporal substitution is tied to a stochastic version of the marginal rate of
+intertemporal transformation. The former is the pricing kernel in the consumptionbased model; the latter becomes the pricing kernel in our model. The factors in the
+production-based kernel are easily observable and are given uncontroversially, at least
+in the neoclassical tradition, by labor, capital, and productivity shocks. We replace
+the consumption-based kernel uc ðctþ1 ; xtþ1 Þ by the production-based kernel Ztþ1 =rItþ1
+and ﬁnd that the latter performs very well. Our argument in support of the
+CCAPM is thus that it works well, once we circumvent the problems inherent in
+measuring marginal utility, uc(c, x), that are bound to occur when we have only a vague
+idea of what ‘‘x’’ is.
+The assumptions in our model of a perfect competition, complete markets, neoclassical
+environment in which supply shocks in the form of productivity shocks are important
+bring us close to the canonical version of the Real Business Cycle (RBC) literature. In
+addition to supporting the CCAPM, our results may be interpreted as using alternative
+evidence, stemming from the cross-section of ﬁnancial returns, on whether productivity
+shocks derived from the Solow residual are indeed a key source of macroeconomic
+ﬂuctuations. If so, the productivity shocks should be able to explain a signiﬁcant fraction
+of cross-sectional variation in asset returns.
+In assessing how well the traditional RBC model explains the observed cross-section of
+asset prices our work overlaps with that of Zhang (2005), who asks whether a speciﬁc
+neoclassical model with asymmetric capital adjustment costs can explain the returns of
+value and growth ﬁrms. The approaches are complementary. For instance, our approach
+derives the pricing kernel in general equilibrium, endogenously generating the appropriate
+risk premiums in the economy, whereas Zhang’s approach calibrates an industry
+equilibrium framework with an exogenous pricing kernel, providing a detailed look at
+ﬁrm-speciﬁc aspects, endogenously generating risk sensitivities. Further differences are that
+we focus on explaining the mean excess return of any ﬁnancial asset, not only the value
+premium, and in our speciﬁc explanation of the value premium control for size. Our
+approach also allows for conventional evaluation of the model’s performance against that
+of alternative asset pricing models. In addition, the results are not contingent on a speciﬁc
+parameterization or on the absence of capital adjustment costs; rather they apply to a large
+class of RBC models.
+The model generates a simple ‘‘productivity-based’’ asset pricing equation with the
+aggregate productivity shock as the factor and the current aggregate capital stock and the
+productivity level as conditioning variables, capturing in essence the marginal value of
+capital. The two state variables appear to be cointegrated, suggesting a parsimonious
+version of the model with the cointegrating residual becoming the single state variable. The
+parsimonious model produces reasonable estimates for both the level of the productivity
+risk premium and its conditional variation and generates a covariance between the
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+409
+
+productivity risk premium and the betas of sufﬁcient magnitude to address the
+Lewellen–Nagel critique.
+The model results are also consistent with a simple Cobb–Douglas aggregate production
+function with a productivity parameter in the typical range, although a full-blown
+calibration of our general equilibrium model is outside the scope of the paper. The model
+also performs extremely well against the leading alternatives, suggesting not only that the
+basic RBC framework is consistent with the cross-section of asset returns but also that a
+production-based pricing kernel may be preferable in practice to the consumption-based
+kernel—presumably because capital and its productivity can be measured more accurately
+than the marginal utility of consumption. Furthermore, we check the prediction that a
+proper state variable should forecast returns. We ﬁnd that indeed, in the typical forecasting
+regressions, the state variable predicts market returns and the value premium well.
+Additionally, for the state variable to be priced into expected returns as we ﬁnd, the state
+variable forecasts returns nonlinearly, also as predicted.
+The strong performance of the model in explaining the return difference among the 25
+Fama and French (1996) portfolios sorted by size and value arises because the
+unconditional part of the model explains much of the dispersion of mean returns by size
+class while the conditional part explains much of the dispersion of mean returns between
+value and growth ﬁrms: smaller ﬁrms have higher exposure to productivity risk on average
+while for a given size, value ﬁrms are most risky in states in which the productivity risk
+premium is higher.
+The remainder of the paper is organized as follows. In Section 2 we derive the
+conditional asset pricing model that arises from a standard RBC model and discuss the
+theoretical implications. Section 3 considers data and methodology. The implications of
+the theory are examined in Section 4, which presents the qualitative and quantitative
+results and a comparison with competing models. Section 5 concludes.
+2. The model
+2.1. Derivation of the production-based pricing kernel
+In standard general equilibrium models, including the model below, for every tradable
+asset return, ritþ1 ,
+uc ðct ; n̄  nt Þ ¼ bEt ½ritþ1 uc ðctþ1 ; n̄  ntþ1 Þ,
+
+(1)
+
+where all subscripts (except subscript t, indicating time) represent partial derivatives and b
+represents the discount factor. That is, for a representative consumer, utility depends on
+consumption ct and leisure n̄  nt (the latter variable being typically ignored in
+consumption-based asset pricing models under the assumption that preferences are
+separable in consumption and leisure). Eq. (1) suggests that each asset is priced by the
+pricing kernel (or stochastic discount factor), mt+1:
+mtþ1 ¼ buc ðctþ1 ; n̄  ntþ1 Þ=uc ðct ; n̄  nt Þ.
+
+(2)
+
+We employ the standard perfect-competition, complete-markets general equilibrium
+model that is the work horse in traditional RBC models. See, for instance, King and
+Rebelo (2000) for a survey. In this model the equilibrium is Pareto Efﬁcient and a social
+planner approach can be used to analyze the model properties. The social planner
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+410
+
+maximizes
+
+	
+V ðkt ; yt Þ ¼ Max uðct ; n̄  nt Þ þ bEt ½V ðktþ1 ; ytþ1 Þ
+nt ;ktþ1
+
+Subject to
+
+ytþ1 ¼ Hðyt ; tþ1 Þ,
+
+ct ¼ F ðyt ; nt ; kt Þ  ktþ1 .
+
+(3)
+(4)
+(5)
+
+The lifetime utility of the representative consumer is maximized subject to a standard
+production function F(yt,nt,kt), where the inputs are (per-capita) labor nt and capital kt,
+and an exogenous technology/productivity level yt. The productivity level is assumed to
+follow a Markov process as given by Eq. (4), with et+1 representing the zero-mean white
+noise productivity shock. Per-capita consumption is given in Eq. (5) as the part of percapita production that is not invested. The ‘‘time-to-build’’ feature of the model implies
+that the capital stock is chosen one period before it becomes productive. Labor can be
+adjusted instantaneously.
+These assumptions imply that there are exactly two state variables in the model: the
+current per-capita capital level kt and the current productivity level yt. Thus, the Bellman
+equation in the dynamic programming problem is as given in Eq. (3), where V(kt,yt)
+represents the indirect utility function—the maximal lifetime value of utility for the
+representative consumer—as dependent on the current state of the economy.
+It is possible to generalize the above model substantially without changing the state
+variables. In particular, we can add both a time trend and capital dependence to the
+evolution of the productivity level in Eq. (4): yt+1 ¼ H(yt, kt t, et+1). This would capture,
+respectively, a deterministic trend in productivity and a ‘‘learning by doing’’ effect whereby
+a larger capital stock facilitates learning about its productive use (see, for instance, Bahk
+and Gort, 1993). Further, investment in Eq. (5) can be replaced by a more general
+transformation function, taking capital adjustment costs into account: ct ¼ f(yt, nt,
+kt)g(kt+1, kt), where g is increasing convex in kt+1, decreasing in kt, and typically
+assumed to be homogeneous of degree one in its arguments. Note that F ðyt ; nt ; kt Þ 
+f ðyt ; nt ; kt Þ þ ð1  dÞkt and that without capital adjustment costs g(kt+1, kt) ¼ kt+1(1d)kt,
+where d represents the depreciation rate of the capital stock.
+With the generalizations, the state variables of the model remain kt and yt. Even the
+deterministic trend t does not become an additional state variable if the model’s variables
+are properly detrended as shown, for instance, by King and Rebelo (2000, pp. 944–946).
+Because these generalizations do not change the state variables, and the productivity shock
+et+1 remains the only random variable, the cross-sectional asset pricing implications are
+similar. We therefore choose to present the simpler standard RBC model, which allows us
+to argue that the standard model alone is adequate for generating strong cross-sectional
+explanatory power (resolving the Mankiw–Shapiro issue) and sufﬁciently strong
+covariance between the betas and the risk premium (resolving the Lewellen–Nagel issue).
+Further, the interpretation of the empirical results does not rely on the existence of
+capital adjustment costs. Our approach does not address the equity premium puzzle
+(the Mehra–Prescott issue). The simple RBC model may explain the size of the equity
+premium, but it is likely that the more general version of the model, with capital
+adjustment costs as in Cochrane (1991, 1996) and Zhang (2005), would be essential for
+this purpose.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+411
+
+The ﬁrst-order conditions for the capital and labor choices are
+uc ðct ; n̄  nt Þ ¼ bEt ½V k ðktþ1 ; ytþ1 Þ,
+
+(6)
+
+un ðct ; n̄  nt Þ ¼ uc ðct ; n̄  nt Þ F n ðyt ; kt ; nt Þ.
+
+(7)
+
+The envelope condition is
+V k ðkt ; yt Þ ¼ uc ðct ; n̄  nt ÞF k ðyt ; nt ; kt Þ.
+
+(8)
+
+Updating Eq. (8) by one period and combining with Eq. (6) yields
+
+
+
+buc ðctþ1 ; n̄  ntþ1 Þ
+V k ðktþ1 ; ytþ1 Þ
+1
+¼
+.
+uc ðct ; n̄  nt Þ
+Et V k ðktþ1 ; ytþ1 Þ F k ðytþ1 ; ntþ1 ; ktþ1
+
+(9)
+
+Thus, from Eqs. (2) and (9) we obtain a production-based pricing kernel as follows:
+mtþ1 ¼ Ztþ1 =F k ðytþ1 ; ntþ1 ; ktþ1 Þ;
+
+Ztþ1 ¼ V k ðktþ1 ; ytþ1 Þ=Et ½V k ðktþ1 ; ytþ1 Þ.
+
+(10)
+
+Note that in our context without adjustment costs, we have that the marginal product of
+capital Fk(yt+1, nt+1, kt+1) is exactly the investment return rItþ1 and that the marginal rate
+of intertemporal transformation (MRIT) equals 1/Fk(yt+1, nt+1, kt+1), differing from the
+pricing kernel by a factor Zt+1 with EtZt+1 ¼ 1. The reason that MRIS 6¼ MRIT state-bystate though markets are complete is that there is an intertemporal risk that even under
+perfect risk sharing cannot be avoided. In particular, given time to build, the uncertainty
+about the productivity shock has real implications that are unavoidable in the aggregate.
+Thus, the Zt+1 term represents a fundamental, nondiversiﬁable risk inherent in capital
+accumulation that cannot be ignored and should be essential for asset pricing. The
+productivity-based pricing kernel therefore consists of two components, namely, the
+MRIT term, which accounts for how much additional capital can be physically produced
+out of (real) ﬁnancial payoffs, and the Zt+1 term, which accounts for the unanticipated
+change in the marginal valuation of this additional capital.
+2.2. Variables in the productivity-based pricing kernel
+We examine whether the pricing kernel, derived from a model that has been successful in
+characterizing key macroeconomic moments, is also useful in pricing the cross-section of
+ﬁnancial assets. We focus on the case of excess returns for two reasons. First, since the
+kernel is in real terms it prices in real terms and returns need to be corrected for inﬂation.
+Rather than using some inﬂation measure we subtract a benchmark asset return that is also
+in nominal terms so that the resulting return is automatically adjusted for inﬂation.
+Second, the pricing kernel for excess returns (and more generally zero-investment
+portfolios) can be simpliﬁed, leading to a more parsimonious factor speciﬁcation.4
+The pricing equation for excess returns is
+Et ½riE
+tþ1 V k ðktþ1 ; ytþ1 Þ=F k ðytþ1 ; ntþ1 ; ktþ1 Þ ¼ 0
+4
+
+for all i,
+
+(11)
+
+Based on Cochrane’s (1996) linear conditioning approach the excess returns case leads to a two-factor or a
+three-factor conditional model, depending on whether one or two state variables are employed. When real returns
+are considered instead, we end up with three or ﬁve factors, respectively. The difference occurs because the state
+variables by themselves become factors affecting the unconditional mean level of returns but not excess returns.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+412
+
+where in this excess returns formulation we can eliminate the Et ½V k ðktþ1 ; ytþ1 Þ term in the
+pricing kernel. It is easy to see that kt+1 depends on the current capital level kt and the
+current productivity level yt only, whereas, from Eq. (7), Zt+1 depends on kt+1 and yt+1.
+From Eq. (4), the latter depends, in turn, on yt and the shock et+1. Thus,
+mEtþ1 ¼ V k ðktþ1 ; ytþ1 Þ=F k ðytþ1 ; ntþ1 ; ktþ1 Þ ¼ Mðkt ; yt ; tþ1 Þ.
+
+(12)
+
+Eq. (12) implies that all returns can be explained by kt, yt, and et+1. Conditional on
+information at time t, solely the productivity shock et+1 matters, so this is the single factor
+in pricing all assets. However, the extent to which et+1 matters depends on the state of the
+economy and is determined by kt and yt.
+In principle, the production-based pricing kernel in Eq. (12) should price assets exactly
+as well as the consumption-based pricing kernel in Eq. (2). However, as Campbell (1993)
+points out, the necessary consumption data may not be measured well and, as we argue
+above, the consumption-based kernel may include additional mysterious ‘‘x’’ variables that
+are not easily identiﬁed. Thus, application of the consumption-based pricing kernel is not
+straightforward.
+Accordingly, we propose evaluating the usefulness of the production-based kernel
+empirically. While others have looked at production-based asset pricing, their work is
+methodologically very different. Balvers, Cosimano, and McDonald (1990) and Cecchetti,
+Lam, and Mark (1990) merely replace consumption by output and do not consider crosssectional asset pricing implications. Cochrane (1996) and Zhang (2005) impose a particular
+production-based pricing kernel exogenously.5
+2.3. The conditional beta expression
+Assume that all returns and the productivity shock are jointly conditionally
+normally distributed. This assumption is not essential but is sufﬁcient to allow us to
+linearize the pricing kernel. From Eqs. (11) and (12), using the deﬁnition of covariance,
+we have
+i
+Et ðriE
+tþ1 ÞEt ½Mðk t ; yt ; tþ1 Þ þ Covt ½rtþ1 ; Mðkt ; yt ; tþ1 Þ ¼ 0.
+
+(13)
+
+Using Stein’s Lemma (which applies given the conditional multivariate normality
+assumption), we then have
+Et ðriE
+tþ1 Þ ¼
+
+Et ½M  ðkt ; yt ; tþ1 Þ
+Covt ðritþ1 ; tþ1 Þ,
+Et ½Mðkt ; yt ; tþ1 Þ
+
+(14)
+
+Et ½M  ðkt ; yt ; tþ1 Þ
+Et ½Mðkt ; yt ; tþ1 Þ
+
+(15)
+
+Deﬁning
+bðkt ; yt Þ ¼
+
+and given Et(et+1) ¼ 0, we have from Eq. (14) that
+
+	
+Et riE
+tþ1 ½1 þ bðkt ; yt Þtþ1  ¼ 0 for all i.
+5
+
+(16)
+
+Cochrane (1996) explicitly derives an expression for investment returns and then assumes that a subset of the
+investment returns is a good approximation for the pricing kernel.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+413
+
+Eq. (16) implies a ‘‘mimicking’’ linear pricing kernel that prices all zero-investment asset
+portfolios equally well as the original kernel in Eq. (12):
+M  ðkt ; yt ; tþ1 Þ ¼ 1 þ bðkt ; yt Þtþ1 ,
+Eq. (16) gives directly an expression for conditional mean excess returns:
+
+
+i
+Et riE
+tþ1 ¼ bðk t ; yt ÞCovt rtþ1 ; tþ1 .
+
+(17)
+
+(18)
+
+If we construct a zero-investment position with unit sensitivity to the productivity shock,
+its conditional expected return Et rtþ1 can be interpreted as the productivity risk premium.
+Applying Eq. (18), it is given as
+RPt  Et ðrtþ1 Þ ¼ bðkt ; yt ÞVarðtþ1 Þ,
+
+(19)
+
+where the white noise properties of et+1 imply that the unconditional variance of et+1
+equals the conditional variance. Eliminating b(kt, yt) from Eqs. (18) and (19) gives the beta
+i
+
+formulation Et ðriE
+tþ1 Þ ¼ bt Et ðrtþ1 Þ.
+We focus empirically on the unconditional implications of this conditional model.
+Taking unconditional expectations in Eq. (16), we obtain
+
+	
+(20)
+E riE
+tþ1 ½1 þ bðk t ; yt Þtþ1  ¼ 0 for all i.
+The unconditional means are then given as
+
+
+
+i
+iE
+E riE
+tþ1 ¼ Eðbt ÞCov tþ1 ; rtþ1 þ Cov RPt ; bt ,
+
+(21)
+
+where bt ¼ b(kt, yt), bit ¼ Covt ðritþ1 ; tþ1 Þ=Varðt Þ, and RPt ¼ bt s2 from Eq. (19). The
+unconditional mean excess return consists here of an unconditional part and a conditional
+part. The unconditional part is the premium based on the productivity risk and the asset
+risk sensitivity in the average state. The conditional part arises because of correlation
+between the productivity risk premium and an asset’s productivity beta, that is, its
+sensitivity to the productivity shock. If an asset’s productivity risk exposure is high (high
+bit ) when the risk premium is low (bt closer to zero), then the covariance between the risk
+premium and the beta is negative, subtracting from the asset’s overall riskiness and
+producing a negative conditional return component.
+2.4. Return and factor stationarity
+Accepting theoretical and empirical arguments that asset returns are (second-order)
+stationary, the pricing kernel must be stationary as well. Eq. (20) implies that b(kt, yt) must
+be stationary in order for the second moments of returns to be stationary. This may occur
+in two different cases. Either both kt and yt are trend stationary (i.e., given the potential
+model interpretation in terms of detrended variables, these variables are stationary once a
+time trend has been removed) or both kt and yt are nonstationary but cointegrated so that
+we may write
+_
+
+bðkt ; yt Þ ¼ b̄ðst ; yt Þ ¼ b ðst Þ ¼ b0 þ b1 st ,
+
+(22)
+
+where by deﬁnition st is the stationary cointegrating residual of a regression of kt on yt and
+a constant. The ﬁrst equality follows tautologically whereas the second equality implies a
+
+ARTICLE IN PRESS
+414
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+restriction that must hold if the pricing kernel is to be stationary. Eq. (22) then allows us to
+generate a singular state variable that is sufﬁcient to capture the state of the economy and
+is found as the cointegrating residual based on the two original state variables. The third
+equality holds because, for empirical purposes, we take a ﬁrst-order approximation around
+the mean of the state st, with b0 and b1 constant.
+2.5. Implications
+The signs of the parameters in the linearized pricing kernel, substituting Eq. (22) into
+Eq. (17), can be determined by straightforward comparative statics analysis based on
+Eq. (12). The signs are formally ambiguous because of the typical opposing income
+and substitution effects. For instance, the effect of a change in et+1 in Eq. (12) depends on
+how et+1 affects the marginal value of capital for the indirect lifetime utility of the
+representative consumer compared to how capital affects current production at the
+margin. Both effects are positive and are difﬁcult to compare quantitatively. From Eqs. (8)
+and (12) we may instead look at how et+1 affects ct+1. Here the opposing effects are more
+intuitive: one effect is a direct increase in production for given inputs, leading via the
+income effect to higher consumption and a lower marginal utility of consumption, and the
+second effect is the substitution effect of investment becoming more productive, causing
+consumption to fall for given production.
+If the investment elasticity is not too large then the income effect dominates so that
+higher et+1 is associated with higher ct+1 and lower marginal utility of consumption.6 This
+implies that b0 is negative: excess returns are discounted more strongly (valued less) in the
+face of productivity risk because a positive shock leads to more consumption and a lower
+marginal evaluation of returns. The factor risk premium for productivity risk is then
+positive from Eq. (19) and assets that load heavily on the productivity shock factor require
+high average returns.
+However, the investment elasticity ﬂuctuates with the state of the economy, which
+explains the role of the state in affecting asset prices. In general the effect of the state
+variable is complex and difﬁcult to assess a priori. Anticipating that the cointegrating
+regression yields a positive link between kt and yt (because a higher productivity level leads
+eventually to a higher capital stock), a positive cointegrating residual, capturing the state st
+of the economy, indicates a surplus of kt relative to yt. This surplus may be viewed as an
+excess of tangible capital relative to intangible capital. Investment (in tangible capital) will
+generally be low in this state but a given positive productivity shock et+1, enhancing
+intangible capital, may well have a larger impact on the marginal value of capital when
+intangible capital is relatively scarcer, that is, st is higher, inducing more investment.
+Investment becomes more sensitive and, accordingly, consumption less sensitive to et+1.
+Thus, productivity shocks have less impact on the marginal utility of consumption, making
+them less risky. In this scenario we expect b1 to be positive, so that an increase in the state
+variable implies that b(kt, yt) is closer to zero. The risk premium on the productivity factor
+therefore varies over time, with increases in the state of the economy mitigating the role of
+productivity risk on consumption and lowering the productivity risk premium.
+6
+
+To simplify the intuitive discussion, we ignore here the effect that leisure has on the marginal utility of
+consumption. A positive productivity shock leads to increased labor demand and less leisure. This may increase or
+decrease the marginal utility on consumption depending on whether leisure and consumption are substitutes
+or complements.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+415
+
+Given Eq. (22), Eq. (21) can be written as a more explicit two-factor model, with factors
+stet+1 and et+1 and intercept a:
+
+
+
+0
+1
+iE
+iE
+E riE
+tþ1 ¼ a  b Cov tþ1 ; rtþ1  b Cov st tþ1 ; rtþ1 .
+
+(23)
+
+From the theory we expect to ﬁnd a ¼ 0, b0o0, and b140. In addition to the slope
+coefﬁcients, the intercept is important since a positive (say) intercept implies that the risk
+factors systematically underpredict the mean returns of individual assets, or, in other
+words, that quantitatively the risk premiums are too small to explain the mean level of
+excess returns. A nonzero intercept can also be interpreted as the model’s pricing error
+in pricing any zero-beta asset (its excess return theoretically should be zero but it is
+predicted to be a).
+An additional implication is that, in principle, based on Eq. (23) the factors stet+1 and
+et+1 explain all of the cross-sectional variation in unconditional mean asset returns. Thus,
+the cross-sectional ﬁt is an important criterion for determining the adequacy of the model.
+In evaluating the cross-sectional ﬁt we use the adjusted-R2 calculated from the actual and
+predicted returns. The adjusted-R2 is more appropriate than Hansen’s (1982) JT statistic if
+the question is not so much whether the asset pricing model used is actually the true model
+but instead whether the model explains a large fraction of cross-sectional differences in
+asset returns.
+Eq. (21) provides a quantitative check on the importance of the state variable. Lewellen
+and Nagel (2006) raise the issue that estimating the parameters of a linear pricing
+kernel to best-ﬁt a particular set of mean asset returns does not exhaust the empirical
+implications because, while the coefﬁcients are set to match cross-sectional variation, there
+is no guarantee that the coefﬁcients quantitatively match the magnitude of the covari
+ance between  beta and the risk premium across states. From Eq. (21), dE riE
+tþ1 =
+dCov RPt ; bit ¼ 1.
+A further unconditional implication of the model follows from the fact that the
+pricing kernel for assets must also price aggregate investment returns: the pricing kernel in
+Eq. (10), mtþ1 ¼ Ztþ1 =F k ðytþ1 ; ntþ1 ; ktþ1 Þ, implies that Et ½mtþ1 F k ðytþ1 ; ntþ1 ; ktþ1 Þ ¼ 1
+because Et Ztþ1 ¼ 1. This relation allows us to establish whether the pricing kernel
+that we identify empirically implies quantitatively appropriate investment returns.
+Speciﬁcally, if we make the typical assumption of a Cobb–Douglas production function,
+then we have F k ðytþ1 ; ntþ1 ; ktþ1 Þ ¼ aðytþ1 =ktþ1 Þ þ 1  d. To consider excess returns
+subtract Et ½mtþ1 ð1 þ rftþ1 Þ ¼ 1, where rftþ1 is the real risk-free rate. It follows that
+a ¼ E½mtþ1 ðd þ rftþ1 Þ=E½mtþ1 ðytþ1 =ktþ1 Þ, which we can compute given the empirical time
+series for the pricing kernel.
+We also consider empirically two conditional implications of the model. In addition to
+the productivity risk premium, the sensitivities of individual asset returns to the
+productivity shock generally should be time-varying as well because, depending on the
+particular asset, the state of the economy also affects how the productivity shock impacts
+particular ﬁrms and industries. As in Lettau and Ludvigson (2001b),7
+bit ¼ bi0 þ bi1 st .
+7
+
+(24)
+
+i0
+i1
+iE
+We have that riE
+tþ1 ¼ Eðrtþ1 Þ þ b tþ1 þ b st tþ1 þ Ztþ1 . If et+1 and Zt+1 are independent, Eq. (24) follows.
+
+ARTICLE IN PRESS
+416
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+This implies that, if the state has an important impact on unconditional mean returns
+(b1 not equal to zero), then not only should the state forecast future returns (as emphasized
+by Campbell (1996), Ferson and Harvey (1999), Lettau and Ludvigson (2001a), and Santos
+and Versonesi (2006), following Merton (1973)), but it should do so quadratically. From
+Eqs. (16), (22), and (24) we obtain
+
+
+
+0 i1
+1 i0
+1 i1 2
+2 0 i0
+Et riE
+(25)
+tþ1 ¼ s b b þ ðb b þ b b Þst þ b b st .
+Since the state forecasts next period’s mean returns, it should be correlated with future
+realized returns. Taking unconditional expectations in Eq. (25) because E(st) ¼ 0 it follows
+that mean returns depend on their state sensitivities through the quadratic term only. The
+state variable st forecasts returns and does so quadratically if the conditional variable is to
+explain mean return differences. Although we make speciﬁc linearity assumptions this
+implication illustrates the more general principle that any effect of state variables on
+unconditional mean returns must result from nonlinearities. Given b1 is positive, ﬁrms i
+with positive bi1 exhibit lower mean returns since their positive loading on stet+1 implies
+that their productivity risk is highest when the productivity risk premium is lowest.
+3. Empirical preliminaries
+The model implies that asset returns are determined by one systematic factor, the
+aggregate productivity shock, with the cointegrating residual measuring the size of the
+capital stock relative to the productivity level as the conditioning variable. We discuss next
+the methodology and the data used to evaluate the model.
+3.1. Methodology
+The method employed is mostly the one-stage generalized method of moments (GMM)
+estimation of Hansen (1982). We focus on one-stage GMM estimation because, as
+recommended by Altonji and Segal (1996), Lettau and Ludvigson (2001b), and Cochrane
+(2001), Hansen’s optimal weighting matrix is poorly estimated when the cross-section of
+test assets is large relative to the time series of data, which is the case in our sample.
+Jagannathan and Wang (2002) show that the stochastic discount factor (pricing kernel)
+approach is as efﬁcient as the expected return-beta approach and that it has higher power
+in detecting model misspeciﬁcations. Furthermore, one-stage GMM estimation enables us
+to focus on economically interesting portfolios. We follow Cochrane (2001) and formulate
+asset returns in terms of the pricing kernel and apply one-stage GMM to ﬁnd the pricing
+kernel’s loadings on the risk factors. With these loadings, we then compute the implied risk
+premiums.8 To evaluate the overall statistical signiﬁcance of the model, we rely on
+Hansen’s (1982) JT statistic.
+3.2. The data
+Our main test assets are the 25 portfolios sorted by market capitalization and book-tomarket ratio. The returns for these assets are available from Kenneth French’s website.
+8
+
+The risk premiums using one-stage GMM are very close to those obtained by the Fama and MacBeth (1973)
+method.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Normalized Levels of Capital and Productivity
+
+Mean Return of 25 Test Assets
+Actual Quarterly Return
+
+417
+
+2.5
+2
+
+k
+θ
+
+1.5
+
+0.04
+
+1
+
+0.03
+
+0.5
+
+0.02
+
+0
+
+0.01
+
+-0.5
+
+0
+5
+
+4
+Va
+
+lue
+
+3
+
+2
+
+1
+
+5
+
+4
+
+3
+
+1
+
+2
+Siz
+
+e
+
+-1
+-1.5
+-2
+Q1-60
+
+Q1-70
+
+Q1-80
+
+Q1-90
+
+Q1-00
+
+Q1-10
+
+Fig. 1. Mean returns and factor levels. Fig. 1a displays the average excess returns of the 25 portfolios sorted by
+size and book-to-market ratio. The return data are from Kenneth French’s website. Figure 1b shows per capita
+capital and productivity. These data are normalized by subtracting the overall mean and dividing by the standard
+deviation. The data start at 1964Q1 and end at 2004Q4.
+
+To construct excess returns, we subtract the (nominal) three-month T-bill rate. Fig. 1(a)
+illustrates the unconditional mean returns of the portfolios separated by size (market
+capitalization) and value (book-to-market ratio).
+We construct the productivity level, yt, following King and Rebelo (2000)9. In the
+aggregate production function, labor inputs have a weight of two-thirds and capital has a
+share of one-third. We obtain Population, Labor Hours, Gross Domestic Investment, and
+Capital data directly from the Bureau of Economic Analysis. Other data are from the
+Federal Reserve Bank of St. Louis. Our sample starts 1964Q1, restricted by the limited
+availability of data on labor hours, and ends 2004Q4. Quarterly capital stock data are
+interpolated from annual data using quarterly investment data and the annual capital
+stock measure, with year-end 1963 as the starting point: for each quarter a fraction of the
+annual capita increment is added to the current end-of-year stock, with the fraction given
+as the year’s investment to date divided by total investment. We employ per-capita data
+throughout, dividing by population.
+Following King, Plosser, Stock, and Watson (1991) the productivity shock et+1 for the
+case in which yt and kt are cointegrated is obtained by ﬁrst differencing log yt+1 and then
+subtracting the mean. We ﬁnd that the shock thus constructed is correlated with both
+lagged state variables yt and kt. Hence, to whiten the shock, we regress it on these variables
+[or, with virtually identical results on the cointegrating residual st, as suggested by Sims,
+Stock, and Watson (1990)] to obtain the random productivity shock.10 The regression
+results are in Table 1, which also presents further summary statistics for the factor and
+9
+
+Due to data availability, alternative (and less common) measures for productivity shocks [for example,
+Jorgenson and Stiroh (1999), and Basu, Fernald, and Shapiro (2000)] or productivity shocks adjusted for capital
+utilization are not considered.
+10
+We make the correction solely to obtain an asset pricing factor that is appropriately random. The dependence
+on kt suggests that formally Eq. (4) should be changed to add kt on the right-hand side to incorporate a learningby-doing effect. However, this would have no impact on the theoretical results. In addition, whether or not we
+correct the shock for the correlation with the lagged variables has a negligible effect on the empirical results that
+follow.
+
+ARTICLE IN PRESS
+418
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Table 1
+Summary statistics for the growth rate of per capita capital k, productivity y, the productivity shock e, and the
+cointegrating residual s
+The data start at 1964Q1 and end at 2004Q4. Panel A provides means, standard deviations, and a correlation
+coefﬁcient. Panel B shows the results of the ADF unit root tests with various lags for k and y and including both a
+constant and a time trend. Panel C reports the cointegrating vector between k and y and the ADF test results for
+cointegration of k and y with various lags and including a constant but not a time trend. The Akaike Information
+Criterion suggests that two lags are optimal. Panel D tests for cointegration between k and y using Johansen’s
+method. The likelihood ratio test suggests that the optimal lag length is three. The trace and eigenvalue test
+statistics show that the null of no cointegrating relation can be rejected. Panel E reports autocorrelations of e and
+s. Panel F reports regression results for whitening the productivity shock. Panel G checks the existence of
+autocorrelation or a time trend in s and e. Panel H shows the regression of private investment growth on the
+productivity shock, the state variable, and their interaction.
+Panel A
+Mean
+Std.
+Corr.(Dk, Dy)
+
+Dk
+
+Dy
+
+e
+
+s
+
+0.73%
+0.52%
+
+0.19%
+0.78%
+
+0.00%
+0.77%
+
+0.00
+0.56
+
+0.22
+
+Panel B
+
+Critical values: 3.46 (1%), 2.91 (5%), 2.59 (10%)
+
+Lags
+k
+y
+
+1
+6.95
+0.07
+
+Panel C
+
+Critical values: 4.02 (1%), 3.40 (5%), 3.09 (10%)
+
+S
+
+2.47
+
+Panel D
+
+2
+3.94
+0.16
+
+2.74
+2.59
+Cointegrating vector: (1,0.067)
+
+Crit. Val: 19.93 (1%), 15.49 (5%)
+Trace test:
+
+3
+3.08
+0.39
+
+4
+2.75
+0.17
+
+2.48
+
+Crit. Val: 18.52 (1%), 14.26 (5%)
+
+25.15
+
+Eigen test:
+
+18.65
+
+2
+
+3
+
+4
+
+Panel E
+
+1
+
+e
+S
+
+0.089
+0.945
+
+0.086
+0.875
+
+0.021
+0.797
+
+0.034
+0.722
+
+Constant
+
+y(t1)
+
+k(t1)
+
+R-square
+
+0.054
+2.588
+
+0.020
+2.608
+
+0.287
+2.733
+
+3.10%
+
+Panel G
+
+Constant
+
+s(t1)
+
+e(t1)
+
+Time
+
+s(t)
+t-stat
+e(t)
+t-stat
+
+0.000
+0.779
+0.000
+0.088
+
+0.942
+36.201
+0.083
+1.051
+
+0.000
+0.884
+0.000
+0.117
+
+Panel H
+
+Constant
+
+s(t1)
+
+e(t)
+
+s(t1) e(t)
+
+Dlnv(t)
+t-stat
+
+0.007
+3.760
+
+0.007
+1.995
+
+0.981
+3.823
+
+1.023
+2.130
+
+Panel F
+e(t)
+t-stat
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+419
+
+Fig. 2. The time path of the productivity shock and the state variable vis-á-vis the business cycle. The productivity
+shock e (dashed line) and the co-integrating residual s (solid line) between capital k and productivity y serving as
+the conditioning/state variable are displayed. NBER business cycle dating is superimposed with the shaded areas
+indicating recessions. The data are from 1964Q1 to 2004Q4.
+
+state variable. Fig. 2 displays the time series. Both series ﬂuctuate around a mean
+of zero and show no time trend. The state variable is highly persistent. The productivity
+shock shows no persistence but may have some conditional heteroskedasticity that we
+disregard.
+For the no-cointegration case, when the productivity level is presumed trend stationary
+we adjust kt for a linear time trend and obtain et+1 as the residual from regressing (in logs)
+yt+1 on yt, a constant, and a linear time trend as in King and Rebelo (2000).11
+Fig. 1(b) depicts the two state variables yt and kt (standardized by subtracting their
+means and dividing by their standard deviations) over the sample period. Both variables
+are clearly nonstationary and appear to be cointegrated as is expected theoretically from
+King, Plosser, Stock, and Watson (1991) when the productivity level is not stationary.
+Table 1 displays the results of formal unit root and cointegration tests. The Augmented
+Dickey-Fuller (ADF) tests for a unit root indicate that a unit root cannot be rejected for
+either state variable. Proceeding under the assumption that both state variables have a
+stochastic trend we next check if the trends are cointegrated. The Johansen tests provide
+clear evidence that the state variables are indeed cointegrated although this is not so clear
+from the ADF test. In the following we use as our main speciﬁcation the formulation with
+the cointegrating residual as the single state variable.
+11
+
+Using instead the Hodrick-Prescott (HP) ﬁlter to adjust for the time trend or adding kt in the regression to
+whiten the residual has no appreciable impact on the empirical results.
+
+ARTICLE IN PRESS
+420
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+4. Results
+In this section we provide empirical results for the performance of the productivitybased models in both the cross-sectional and time series dimensions. We then compare
+these models against standard alternative asset pricing models.
+4.1. The conditional and unconditional productivity-based models
+We ﬁrst discuss the unconditional one-factor productivity-based asset pricing model and
+then, in more detail, a conditional two-factor model, and ﬁnally a conditional three-factor
+version of the model.
+4.1.1. The one-factor (unconditional) model
+Table 2 and Fig. 3 report the results for the unconditional and conditional versions
+of our model. The unconditional version follows from Eq. (20) under the assumption
+that bt is constant or from Eq. (23) assuming that b1 ¼ 0. The GMM estimation based on
+
+Table 2
+GMM one-stage estimates for the productivity-based models
+We report the pricing kernel loadings on the systematic factors (the bi parameters), the implied risk premiums,
+their traditional (Fama-MacBeth, 1973), Shanken (1992) corrected, and autocorrelation-consistent t-values,
+Hansen’s JT statistics, and implied R2s. PROD is the unconditional productivity model; PROD-s uses the
+cointegrating residual s between k and y as the conditioning variable; and PROD-ky includes the two state
+variables k and y, each adjusted for a linear time trend. The data are from 1964Q1 to 2004Q4.
+PROD
+B
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+PROD-s
+B
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+PROD-ky
+B
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+Constant
+
+e
+
+0.991
+26.971
+0.772
+0.947
+0.862
+0.780
+
+56.285
+1.046
+0.356
+1.357
+1.240
+1.139
+
+Constant
+
+e
+
+e.s.
+
+0.995
+5.808
+0.475
+0.583
+0.257
+0.353
+
+224.4
+1.494
+0.869
+3.120
+1.402
+1.368
+
+438.36
+1.668
+0.510
+2.620
+1.168
+1.310
+
+Constant
+
+e
+
+e.y
+
+e.k
+
+1.010
+6.856
+1.532
+1.824
+0.939
+1.108
+
+227.3
+1.786
+0.867
+3.380
+1.777
+1.797
+
+14.76
+0.331
+0.301
+0.874
+0.463
+0.502
+
+45.04
+1.670
+1.700
+1.760
+0.925
+0.937
+
+JT
+p-value
+
+95.739
+0.000
+
+R2
+
+18.18%
+
+JT
+p-value
+
+28.859
+0.149
+
+R2
+
+71.53%
+
+JT
+p-value
+
+24.500
+0.270
+
+R2
+
+68.74%
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+421
+
+Fig. 3. Actual returns and predicted returns for three versions of the productivity-based model. Fig. 3a is the
+unconditional productivity model, Fig. 3b uses the cointegrating residual s between k and y as the conditioning
+variable, and Fig. 3c includes both state variables k and y, each after subtracting a linear time trend. The data are
+from 1964Q1 to 2004Q4. The two-digit numbers denote the Fama–French 25 portfolios. The ﬁrst digit refers to
+the size quintile (from 1, small, to 5, large) and the second digit refers to the book-to-market quintile (from 1, low
+book-to-market, to 5, high book-to-market). The ﬁgures display the ﬁt for all models by showing the deviations of
+each test asset’s return from that predicted by the model. This deviation is the one-stage GMM pricing error
+discounted by the expectation of the stochastic discount factor. If there is no pricing error, the actual return equals
+the predicted return so that all plots locate on the 45-degree line.
+
+the 25 Fama–French portfolios sorted by market capitalization and book-to-market yields
+an estimate of b0 that is negative as expected (given moderate investment elasticity) but not
+signiﬁcantly so. It generates a positive quarterly risk premium of 0.36. Average excess
+
+ARTICLE IN PRESS
+422
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+returns in our sample are 9.4% on an annual basis. With average productivity betas
+estimated around 4.4, the productivity risk implies an average annual excess return of
+approximately 4  4.4  0.36% ¼ 6.3%. The unconditional model, however, has a
+second-pass alpha of 0.77%—3.1% annualized—and a cross-sectional ﬁt (R2) of only
+18.2% (see Fig. 3). The JT statistic based on the pricing errors strongly rejects the model
+with a p-value of 0.000.
+4.1.2. The two-factor (conditional) model
+In contrast to the one-factor model, the conditional version of the model in Eq. (23)
+performs well. The GMM estimation gives b0 ¼ 224.4 and b1 ¼ 438.36 with the expected
+signs, implying a quarterly productivity risk premium of 0.87% and a conditional risk
+premium of 0.51%. The Fama–MacBeth t-statistics are signiﬁcant at 3.12 and 2.62,
+respectively; the Shanken t-statistics, are 1.40 and 1.17, respectively.12 The crosssectional ﬁt is 71.5% as shown in Fig. 3 and the JT statistic is 28.85, implying that the
+model cannot be rejected statistically (p ¼ 0.15). The model’s alpha is 0.47%, which is
+statistically insigniﬁcant and less than 2% annualized. Given a mean productivity beta of
+3.9 and a mean conditional factor beta of 3.0, productivity risk implies an average annual
+excess return of 13.6% and the conditional factor implies an average annual excess return
+of 6.1%. In total, the alpha, unconditional risk, and conditional risk premium add up to
+1.9+13.6 – 6.1 ¼ 9.4%, which is also (as required statistically) the annual equal-weighted
+mean excess return in our sample.
+4.1.3. Conditional and unconditional risk components of the two-factor model
+Fig. 4 depicts the decomposition of each asset’s expected
+on Eq. (23) by its
+ 1 return based iE
+unconditional a  b0 Covðt ; riE
+Þ
+and
+conditional
+b
+Covðs
+
+;
+r
+t1
+t
+t
+t Þ components.
+Therefore it shows that the size premium is explained by differences in average exposure
+to productivity risk: small ﬁrms have higher productivity betas, bi ¼ Covðt ; riE
+t Þ=Varðt Þ,
+than large ﬁrms. The value effect is explained by differences in sensitivity, bis ¼
+Covðst1 t ; riE
+t Þ=Varðt ÞVarðst Þ, to the conditional risk factor: growth ﬁrms have higher
+conditional factor betas than value ﬁrms so that, given size and the negative conditional
+factor risk premium b1 Varðt ÞVarðst Þ, mean returns on value ﬁrms exceed those
+of growth ﬁrms. Note that conditional factor exposure also explains part of the size
+premium.
+Table 3 lists the individual excess return components for the 10 assets consisting of ﬁve
+size and two value classes. For each size class the unconditional return components of
+growth and value ﬁrms in Panel B are quite similar, whereas for each size class the
+conditional return components of value ﬁrms are at least 1% per quarter more and on
+average 1.23% more than those of growth ﬁrms in Panel C. This compares reasonably well
+to the actual value premiums for each size class in Panel A, which are always positive,
+varying from 0.49% to 2.75%, with an average of 1.54%.
+From Panels B and C the model implies an average size premium (between small and
+big) of around 1.13% which is similar to that in the actual data in Panel A of 0.98%.
+12
+
+As Lettau and Ludvigson (2001b) and Santos and Veronesi (2006) point out, the Shanken correction in the
+t-statistics appears to be more severe for macro factors. Fama–MacBeth t-statistics are also reported because
+Jagannathan and Wang (1998) show that the Fama–MacBeth procedure may understate rather than overstate the
+precision of the standard errors under conditional heteroskedasticity.
+
+ARTICLE IN PRESS
+
+0.04
+0.02
+0
+5
+
+4
+Val 3
+ue
+
+2
+
+1
+
+5
+
+4
+
+2
+
+3
+
+1
+
+Conditional Return Component
+
+0.06
+
+0
+4
+
+3
+ue
+
+Val
+
+2
+
+1
+
+5
+
+4
+
+0.01
+0
+5
+
+ze
+
+0.02
+
+5
+
+0.02
+
+Si
+
+0.04
+
+3
+
+2
+e
+
+Siz
+
+1
+
+423
+
+0.03
+
+4
+
+3
+Valu
+e
+
+Actual Quarterly Return
+
+Predicted Quarterly Return
+
+Unconditional Return Component
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+2
+
+1
+
+5
+
+4
+
+3
+
+2
+
+1
+
+e
+
+Siz
+
+0.04
+
+0.02
+
+0
+5
+
+4
+3
+Valu
+e
+
+2
+
+2
+
+1
+
+5
+
+4
+
+1
+
+3
+e
+Siz
+
+Fig. 4. Decomposition of the excess returns. We decompose the excess returns into their unconditional—upper
+left panel—and (the negative of) their conditional risk premium—upper right panel—components for the 25
+portfolios sorted by size and book-to-market ratio. The lower left panel shows the sum of the unconditional and
+conditional return components and the lower right panel shows the actual mean returns of the 25 portfolios.
+
+However, the actual data (see Fig. 1 or Table 3, Panel A) indicate a size premium of 2.10%
+for value ﬁrms and 0.15% for growth ﬁrms, whereas our model implies a size premium
+that is similar, around 1.20%, for both value and growth ﬁrms.
+4.1.4. Discussion of the two-factor model results: the conditional risk premium
+The negative value for b0 implies an average positive risk premium of b0 Varðt Þ. One
+explanation for the positive productivity risk premium is that positive (negative)
+productivity shocks coincide with high (low) consumption availability and accordingly
+low (high) marginal valuations of returns. Assets with positive sensitivity to the
+productivity shock generate low (high) returns when the marginal valuation of these
+returns is high (low) and are thus risky, requiring a higher mean return. Alternatively put,
+an increase in et+1 affects (lowers) the marginal utility of consumption. This would occur
+typically when the positive productivity shock raises production but does not increase
+investment by so much as to offset the increased production, so that in total consumption
+increases and the marginal utility of consumption falls.
+
+ARTICLE IN PRESS
+424
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Table 3
+Actual and predicted excess returns by component for the 25 portfolios sorted by size and book-to-market ratio
+This table shows only the returns of the 10 portfolios in the extreme value and growth classes. That is, in all
+panels the results are shown for value and growth and value minus growth (HML) portfolios for each size quintile.
+Panel A displays the actual mean excess returns. Panel B shows the predicted excess returns. Panels C and D
+1
+iE
+provide the unconditional, a  b0 Covðtþ1 ; riE
+tþ1 Þ, and conditional, b Covðst tþ1 ; rtþ1 Þ, excess return components.
+Return decomposition
+Panel A: Actual return
+
+Small
+Semi-small
+Medium
+Semi-big
+Big
+
+Small
+Semi-small
+Medium
+Semi-big
+Big
+
+Panel B: Predicted return
+
+Value (%)
+
+Growth (%)
+
+HML (%)
+
+Value (%)
+
+Growth (%)
+
+HML (%)
+
+3.89
+3.36
+3.25
+2.75
+1.79
+
+1.15
+1.55
+1.54
+1.80
+1.30
+
+2.74
+1.81
+1.72
+0.95
+0.49
+
+2.80
+2.68
+2.62
+2.54
+1.71
+
+1.70
+1.39
+1.15
+0.96
+0.44
+
+1.10
+1.29
+1.47
+1.59
+1.27
+
+Panel C: Unconditional return component
+
+Panel D: Conditional return component
+
+4.54
+3.79
+3.67
+3.40
+2.23
+
+1.74
+1.11
+1.05
+0.86
+0.52
+
+4.63
+3.91
+3.38
+2.96
+2.18
+
+0.09
+0.12
+0.29
+0.45
+0.05
+
+2.93
+2.52
+2.23
+2.00
+1.74
+
+1.19
+1.41
+1.18
+1.14
+1.22
+
+However, the strength of the productivity shock impact on investment depends on the
+state: the higher is st, the larger is the capital stock in relation to its productivity, which
+affects the incentive to invest. The positive value for b1 that obtains implies that the
+productivity risk premium falls as the state variable st increases. This must occur because a
+larger part of a production shock is offset by a change in investment causing consumption
+and marginal utility to be more stable, which is necessary for a smaller risk premium. The
+positive value of b1 and its explanation raise a few questions, namely, does investment
+sensitivity to productivity shocks increase with the state and, if so, what may be the reason?
+To address whether, indeed, an increase in the state raises the investment sensitivity to
+the productivity shocks, we regress (gross) aggregate investment growth against the
+relevant variables from our model.13 Panel H in Table 1 shows that the average
+productivity shock elasticity is around one and that the coefﬁcient on the state variable is
+signiﬁcantly negative. The latter negative sign is expected as a higher state corresponds to a
+lower marginal product of capital. More to the point, investment’s productivity shock
+elasticity increases signiﬁcantly with the state as evidenced by the positive sign on the crossproduct of the state and the productivity shock. Quantitatively, the regression result of
+Panel H in Table 1 implies that a one standard deviation change in the state, from Panel A
+in Table 1, changes the elasticity by 1.023  0.56 ¼ 0.57%. Thus, as the state rises from one
+13
+Investment includes both nonresidential and residential investment. Results are qualitatively similar, but
+weaker, when we consider these components separately. The explanatory variables are the state variable, the
+productivity shock, and their interaction. Note that the state variable does not appear by itself as a determinant of
+ﬁnancial asset returns or investment returns since we consider excess returns, causing the predetermined factor to
+drop out.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+425
+
+standard deviation below to one standard deviation above average, the investment
+elasticity to the productivity shock increases from 0.41 to 1.55.
+To complete the intuitive discussion of the positive sign of b1 we discuss a possible
+reason for the investment elasticity to the productivity shock to increase in the state
+variable. Essentially, st is a measure of the abundance of tangible capital (the capital stock
+kt) relative to intangible capital (the productivity level yt). In a ‘‘capital abundant’’ state
+(when tangible capital is high relative to intangible capital) a positive productivity shock
+contributes to the relatively scarce intangible capital, closing part of the gap and raising the
+marginal value of tangible capital to a relatively large degree, which increases investment
+incentives substantially. In a ‘‘capital scarce’’ state (when tangible capital is low relative to
+intangible capital) a positive productivity shock contributes less as intangible capital
+already is abundant and so investment increases little. Note that a capital abundant state
+by itself implies low investment (since the marginal product of capital is low), as we ﬁnd
+empirically in Table 1, Panel H. However, it is the component of investment in response to
+the unanticipated productivity shocks that affects the consumption risk.
+An alternative intuition for why investment elasticity to the productivity shock increases
+with the state variable is that capital abundance indicates a situation in which the marginal
+value of (tangible) capital is currently low. Thus, production has less value at the margin,
+which is equivalent to the (shadow) price of current investment being lower. Now a
+positive productivity shock, raising both future productivity and current output in an
+environment in which investment is ‘‘cheap’’ may well lead to a larger aggregate
+investment response, even when capital is currently abundant. Similarly, when capital is
+scarce, expansion is expensive so that a positive shock may have only a small impact on
+investment.14,15
+4.1.5. Discussion of the two-factor model results: the value and size premium
+From an empirical perspective, why does our conditional productivity-based model
+explain the value and size-sorted portfolio means better than an unconditional
+productivity-based model and as well as the Fama–French three-factor model designed
+speciﬁcally to explain these mean returns? The unconditional excess return component is
+positive for all test assets—all have positive exposure to the productivity factor on average.
+However, there is a clear pattern in that smaller ﬁrms have considerably higher sensitivity
+to the productivity shock. Thus, the unconditional component does well in explaining the
+size effect.
+The conditional component is negative for all test assets. It represents the fact that, for all
+assets, Covt ðtþ1 ; riE
+tþ1 Þ—the excess return’s sensitivity to the productivity shock—is higher
+when the state of the economy st is higher. But a higher state implies a smaller risk
+premium on the productivity factor, so expected excess returns are lower as Eq. (23)
+14
+These intuitions may not apply if, instead of absence of adjustment costs, the more realistic assumption of
+irreversibility of investment is made. With irreversibility the investment elasticity to the productivity shock may
+become zero at a high enough value of the state variable (capital abundance) when this situation represents an
+unplanned excess of capital.
+15
+A possible alternative explanation for a negative effect of the state variable on the productivity risk premium
+is that the variance of the productivity shock decreases with the state. To check this we regress the square of the
+productivity shock on the (lagged) state variable. The effect is close to being statistically signiﬁcant (Newey-West
+t-values of 1.76 and 1.79) but the direction of the effect is opposite: if anything, the productivity shock variance
+increases in the state.
+
+ARTICLE IN PRESS
+426
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+implies. The key observation in Fig. 3 is that the reduction in the mean excess returns
+based on the conditional component is largest for growth ﬁrms. Therefore, the conditional
+component does well in explaining the value premium: on average growth ﬁrms are about
+as sensitive to productivity shocks as value ﬁrms, but their sensitivity is high for states in
+which the risk premium is low and consequently they require a lower expected return on
+average than value ﬁrms.
+Zhang (2005) also addresses the value premium focusing on productivity shocks as the
+risk factor. The value premium in his paper exists because value is riskier than growth
+when the productivity risk premium is high. In this sense Zhang’s account coincides with
+ours. His interesting explanation is that, due to asymmetric costs of adjustment, in bad
+times value ﬁrms face extra risk since they cannot dispose of their excess capital without
+considerable cost. This explanation conﬂicts with our empirical results in two ways when
+we consider changes in the productivity level (Zhang’s state variable and a component of
+our state variable). In Zhang’s model a lower level of productivity raises the risk premium
+and increases productivity betas more for value ﬁrms than for growth ﬁrms. In our model a
+lower level of productivity lowers the risk premium and increases betas more for growth
+ﬁrms than for value ﬁrms (see the productivity betas provided in Table 4). We believe that
+the discrepancy is related to the omission of capital from Zhang’s pricing kernel (and thus
+from his deﬁnition of the state). The inclusion of capital is extremely important. One
+indication is the empirical importance of capital when it is separated from the productivity
+level in our three-factor model in Table 2. Additionally, capital moves positively over time
+with the productivity level (the cointegrating relationship), and the productivity level itself
+may be nonstationary—reasons why Zhang’s results may be misleading as to the impact of
+the productivity level in isolation. Further, the difference in the betas of value and growth
+stocks is likely affected by the aggregate capital stock since ‘‘assets in place’’ for which
+capital is a proxy have a different degree of importance for value ﬁrms compared to growth
+ﬁrms.
+4.1.6. Endogenous factor sensitivities: an informal analysis
+All assets have a positive unconditional excess return. Given the negative value for b0
+this implies that on average all assets load positively on productivity risk. This is intuitive
+because a positive aggregate productivity shock should directly beneﬁt most ﬁrms. Table 3
+also shows that all assets have negative conditional excess return components. This implies
+from Eq. (21) or (23) that, for instance, a state with a lower risk premium on et+1 is
+associated with all assets having higher sensitivity to et+1 (the productivity betas are higher
+in a capital abundant state), or put differently, the ﬁrm betas on the conditional factor are
+all positive. Our exposition takes the betas as exogenous but would be more complete if the
+systematic movements of betas with the state were also explained. Here our macro-based
+model is at a disadvantage relative to the recent contributions of Gomes, Kogan, and
+Zhang (2003) and Zhang (2005), who provide speciﬁc models of how factor sensitivities
+change over time for classes of ﬁrms. We can speculate as to plausible causes for the
+differences in factor exposures that explain the size and value premiums in a way that is
+consistent with the model, but our formal model is not designed to explain these
+differences.
+View ﬁrms as convex combinations of two projects, one with immediate payoff and one
+an option on a technology with future payoff (a growth option). Value ﬁrms emphasize the
+former project; growth ﬁrms the latter. A higher current value for the state implies lower
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+427
+
+Table 4
+The productivity risk premium and productivity betas by state
+We distinguish four states: a high capital scarcity state (State 1: s more than one standard deviation below the
+median), moderate capital scarcity (State 2: s below the median), moderate capital abundance (State 3: s above the
+median), and a high capital abundance state (State 4: s more than one standard deviation above the median).
+Results are reported for the growth and value portfolio productivity betas for each state and for their difference.
+In addition, the table provides the covariance of the portfolio’s productivity betas with the productivity risk
+premium. The LL approach (Panel A) computes the betas for each state using Eq. (24) while the LN approach
+(Panel B) computes the betas using a two-pass regression for each state separately.
+State 1
+Risk Premium
+
+State 2
+
+State 3
+
+State 4
+
+State 1
+
+State 2
+
+State 3
+
+State 4
+
+0.98%
+0.32%
+0.20%
+Panel A: LL Approach
+
+0.18%
+
+0.98%
+0.32%
+0.20%
+Panel B: LN Approach
+
+0.18%
+
+Growth portfolio Betas
+Small
+0.74
+Semi-small
+0.54
+Medium
+0.39
+Semi-big
+0.26
+Big
+0.22
+
+3.31
+2.76
+2.35
+2.03
+1.31
+
+6.46
+5.48
+4.76
+4.18
+3.18
+
+10.39
+8.87
+7.75
+6.87
+5.52
+
+0.06
+1.76
+0.68
+0.30
+1.86
+
+5.39
+4.14
+3.70
+3.19
+1.44
+
+4.49
+4.31
+3.69
+3.08
+2.60
+
+11.54
+10.05
+8.59
+7.84
+6.50
+
+Value portfolio Betas
+Small
+Semi-small
+Medium
+Semi-big
+Big
+
+2.49
+2.62
+2.56
+2.57
+1.74
+
+4.02
+3.60
+3.49
+3.33
+2.20
+
+5.90
+4.79
+4.63
+4.25
+2.76
+
+8.23
+6.29
+6.05
+5.41
+3.46
+
+2.93
+2.21
+5.10
+1.27
+2.07
+
+5.30
+4.60
+3.51
+3.99
+2.97
+
+4.35
+3.44
+3.85
+2.76
+0.76
+
+9.17
+7.50
+7.04
+7.17
+5.80
+
+HML portfolio Betas
+Small
+Semi-small
+Medium
+Semi-big
+Big
+
+1.75
+2.08
+2.18
+2.31
+1.97
+
+0.71
+0.84
+1.14
+1.30
+0.89
+
+0.57
+0.68
+0.13
+0.07
+0.42
+
+2.16
+2.58
+1.71
+1.47
+2.06
+
+2.88
+3.97
+5.77
+1.57
+0.21
+
+0.09
+0.46
+0.19
+0.80
+1.54
+
+0.14
+0.87
+0.16
+0.32
+1.84
+
+2.37
+2.56
+1.55
+0.67
+0.69
+
+Cov(Beta,
+Risk Premium)
+
+Value
+(%)
+
+Growth
+(%)
+
+HML
+(%)
+
+Value
+(%)
+
+Growth
+(%)
+
+HML
+(%)
+
+Small
+Semi-small
+Medium
+Semi-big
+Big
+
+0.63
+0.42
+0.01
+0.33
+0.08
+
+1.25
+1.18
+1.01
+0.87
+0.44
+
+0.62
+0.77
+1.00
+0.54
+0.36
+
+0.68
+0.59
+0.01
+0.67
+0.24
+
+1.42
+1.59
+1.21
+1.02
+0.41
+
+0.74
+0.99
+1.19
+0.34
+0.17
+
+investment costs (current and, likely, future), increasing the value of the growth option. At
+the higher state, a productivity shock just when investment is cheap may have a stronger
+effect on growth option returns, but this is difﬁcult to assess without a formal model.
+However, if the productivity shock does have a stronger impact on the growth option
+return, then all ﬁrm productivity betas vary directly with the state but those of growth
+ﬁrms vary more than those of value ﬁrms. This is the pattern that we observe. This
+explanation does not rely on adjustment costs and hence is consistent with a narrow
+interpretation of our model. Table 4 (both panels), discussed more thoroughly in a
+following section, shows clearly that the productivity betas for all ﬁrms increase as the state
+
+ARTICLE IN PRESS
+428
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+improves, and for all size classes, the increases are substantially larger for growth ﬁrms
+than for value ﬁrms.16 A formal examination of these issues awaits future research.
+4.1.7. Investment returns in the two-factor model
+Given an aggregate Cobb–Douglas production function f ðyt ; nt ; kt Þ ¼ yt ðkt Þa ðnt Þ1a
+we can impute the production function parameter from a ¼ E½mtþ1 ðd þ rftþ1 Þ=
+E½mtþ1 ðytþ1 =ktþ1 Þ. To compute the Solow residual we use the standard calibration of
+a ¼ 0.33. Matching the aggregate investment return series to the pricing kernel with
+quarterly depreciation set to d ¼ 0.025 instead implies a ¼ 0.24. Thus, while there is some
+discrepancy, it appears that our model implies a reasonable value for the Cobb–Douglas
+production function parameter that is in the ball park of the range of values usually
+considered for the parameter. (For instance, DeJong and Ingram (2001) obtain a ¼ 0.23.)
+Put differently, the two-factor model also prices investment returns quite well.
+4.1.8. The three-factor (conditional) model
+For completeness we present the results of the three-factor model that arises if we do not
+account for possible stochastic trends and cointegration between the two state variables kt
+and yt. Here we detrend the state variables using linear deterministic trends (results for HP
+ﬁlters are similar). Calculation of the productivity shock then involves a regression of the
+Solow residual in levels on its lag. It is straightforward to show that assuming bðkt ; yt Þ ¼
+b0 þ b1 yt þ b2 kt in Eq. (20) directly implies the three-factor model
+
+
+
+0
+1
+2
+iE
+iE
+iE
+(26)
+EðriE
+tþ1 Þ ¼ b Cov tþ1 ; rtþ1  b Cov yt tþ1 ; rtþ1  b Cov kt tþ1 ; rtþ1 .
+The results for this model are similar to the two-factor case (see Table 2 and Fig. 3).
+Since compared to the three-factor model the two-factor model is more parsimonious, with
+explanatory power at least as good, we emphasize the two-factor model in the following.
+4.1.9. Efficient estimation with fewer test assets
+The estimation has employed one-stage GMM estimation mostly because Hansen’s
+optimal weighting matrix is poorly estimated when the cross-section of test assets is large
+relative to the time series. However, because the 25 Fama–French portfolios have an
+approximate factor structure, much of the cross-sectional dispersion can be captured by
+only a few portfolios provided they are sufﬁciently different in value and size
+characteristics. Accordingly, we use as alternative test assets the excess returns of just
+the four portfolios constituting the HML and SMB factors, available from Kenneth
+French’s website. The advantage is that Hansen’s optimal weighting matrix can now be
+well estimated, allowing for efﬁcient parameter estimation by two-stage GMM.
+The results of two-stage GMM estimation for the four test assets are presented in
+Table 5, Panel A. The parameter estimates are impressively similar to the 25 asset case for
+16
+An alternative explanation for this observation may be that ﬁrms increase ﬁnancial leverage as
+(collateralizable) capital becomes more abundant when the state increases, causing equity betas to increase. If
+this effect is more important for growth ﬁrms their betas increase more. Table 4 also shows that small ﬁrms have
+substantially higher betas in all states than larger ﬁrms. One reason small ﬁrms have higher productivity factor
+loadings may be because they tend to be of more recent vintage. That is, they may rely more on recent technology
+or be more dependent on new opportunities or niches; each of which is sensitive to productivity/technology
+ﬂuctuations.
+
+Panel A: Two-stage GMM
+PROD
+
+PROD-s
+b
+t-statistics
+Risk Premium %
+t-statistics
+Shanken-t
+GMM-t
+PROD-ky
+b
+t-statistics
+Risk Premium %
+t-statistics
+Shanken-t
+GMM-t
+
+Constant
+
+e
+
+JT
+
+1.00
+11.62
+0.41
+0.48
+0.42
+0.36
+
+133.95
+1.93
+0.40
+1.47
+1.31
+1.18
+
+p-value
+
+Constant
+
+e
+
+e.s
+
+0.98
+4.11
+0.98
+1.13
+0.45
+0.51
+
+303.82
+1.68
+0.88
+3.00
+1.22
+1.15
+
+Constant
+1.02
+5.35
+1.69
+1.97
+0.82
+0.93
+
+10.95
+
+Constant
+
+e
+
+JT
+
+69.14
+
+0.00
+
+1.01
+18.08
+0.29
+0.30
+0.28
+0.26
+
+50.40
+0.97
+0.38
+1.28
+1.17
+1.02
+
+p-value
+R-square
+
+0.00
+24.42%
+
+JT
+
+0.35
+
+Constant
+
+e
+
+e.s
+
+JT
+
+26.29
+
+600.01
+1.44
+0.62
+2.52
+1.01
+1.13
+
+p-value
+
+0.55
+
+1.04
+6.09
+0.09
+0.09
+0.05
+0.06
+
+162.59
+1.29
+0.88
+2.45
+1.29
+1.31
+
+332.01
+1.30
+0.41
+2.23
+1.17
+1.11
+
+p-value
+R-square
+
+0.24
+51.32%
+
+e
+
+e.y
+
+e.k
+
+Constant
+
+e
+
+e.y
+
+e.k
+
+JT
+
+21.34
+
+293.46
+1.72
+1.08
+4.02
+1.70
+2.01
+
+17.18
+0.09
+0.00
+0.43
+0.18
+0.19
+
+62.13
+1.40
+0.02
+2.35
+1.00
+1.05
+
+1.18
+6.25
+0.47
+0.50
+0.28
+0.33
+
+201.91
+1.57
+0.92
+2.64
+1.48
+1.51
+
+0.73
+0.02
+0.002
+0.42
+0.24
+0.27
+
+39.82
+1.57
+0.01
+1.32
+0.75
+0.71
+
+p-value
+R-square
+
+0.44
+68.64%
+
+ARTICLE IN PRESS
+
+b
+t-statistics
+Risk Premium %
+t-statistics
+Shanken-t
+GMM-t
+
+Panel B: 1964– 1992 Sample Period
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Table 5
+Robustness of the estimation results for the three productivity-based models
+Panel A presents the two-stage GMM estimation results for the productivity-based models for four value- and size-sorted test assets. The four assets are the valueﬁrm, growth-ﬁrm, small-ﬁrm, and large-ﬁrm portfolio returns available from Kenneth French’s website. Panel B displays the one-stage estimation results for the
+1964–1992 sample period for the 25 value- and size-sorted portfolio returns. PROD is the unconditional productivity model; PROD-s uses the cointegrating residual
+s between k and y as the conditioning variable; and PROD-ky includes the two state variables k and y, each adjusted for a linear time trend. The data are from 1964Q1
+to 2004Q4.
+
+429
+
+ARTICLE IN PRESS
+430
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+each of the three model speciﬁcations. Focusing on the two-factor conditional model, we
+ﬁnd a risk premium of 0.88% for the productivity factor compared to 0.87% in the 25 asset
+case and a risk premium of 0.62% for the conditional factor compared to 0.51% in the
+25 asset case, with similar t-statistics. It is not sensible to consider the R2s for the four asset
+case, but the JT statistic for the pricing errors, which adjusts for the degrees of freedom,
+reﬂects the improved estimation efﬁciency, implying a large p-value of 0.55 compared to a
+p-value of 0.15 in the 25 asset case.
+4.1.10. Estimation results for the pre-1992 time period
+The original study by Fama and French establishes the value factor as a preeminent
+inﬂuence on asset pricing for data up to 1992. To conﬁrm that our results explain the value
+effect and are not unduly inﬂuenced by the extreme returns of the 1990s we omit this
+period and consider only the 1964–1992 estimation period. Panel B of Table 5 shows that
+the results for the reduced sample period are close to the full sample results for each of the
+three model versions. For instance, the two-factor conditional model implies a risk
+premium of 0.88% for the productivity factor, versus 0.86% for the complete sample
+period, and a risk premium of 0.41% for the conditional factor, versus 0.51% for
+the complete sample. The adjusted-R2 is 51% compared to 72% for the full period.
+The t-statistics are a little lower in accordance with the reduced sample size.
+4.2. The importance of the state variable
+The conditional model improves dramatically on the unconditional productivity-based
+model. However, the state variable being important has two alternative implications, not
+directly related to the cross-sectional ﬁt, that we evaluate in this section. First, Campbell
+(1996) and others argue any state variable explaining cross-sectional return differences
+must be useful in forecasting future returns in a time-series context. Second, Lewellen and
+Nagel (2006) argue the quantitative effect of the state variable in explaining cross-sectional
+return differences must be of the same magnitude as the covariance between the risk
+premium and the asset’s beta as in Eq. (21).
+4.2.1. Forecast power of the state variable
+Following Merton (1973), Campbell (1996), Ferson and Harvey (1999), Lettau and
+Ludvigson (2001a), and Santos and Veronesi (2006) show that the state variables in their
+asset pricing models forecast market (excess) returns. To provide additional, independent
+evidence on the importance of the cointegrating residual as a state variable, we consider its
+forecasting properties. As Campbell (1996, p. 342) notes, ‘‘yvariables that spuriously
+explain the crosssection are unlikely to be the same as variables that spuriously forecast the
+time series.’’ Since the state variables are generally quite persistent, Fama and French
+(1988) and others argue that the forecast for a moving sum of the market return is normally
+better as this improves the signal-to-noise ratio compared to forecasting a single market
+return realization. The dividend-price ratio (Fama–French, 1988), the cay variable (Lettau
+and Ludvigson, 2001a), and the share of labor income (Santos and Versonesi, 2006) all
+have signiﬁcant forecasting power for market returns.
+We consider these forecast regressions for our state variable, with a few differences. The
+ﬁrst is minor: we divide the moving sum of the market return by the number of terms to
+obtain the moving average. This standardizes the coefﬁcient, making it easier to interpret
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+431
+
+Table 6
+Predicting market excess returns (MKT) and the value premium (HML) with the state variable
+We predict next-quarter MKT and HML based on current s and s2 and report the coefﬁcients, Newey-West and
+Hodrick (1992) type I-B t-values, and the adjusted-R2. Panel A uses s as the only forecasting variable. Panel B uses
+both s and s2 as forecast variables. *Denotes that estimates are signiﬁcant at the 5% level for a one-tailed test
+based on the Newey-West t-statistic. MKT represents excess market returns based on the S&P 500 Composite
+Index (including dividends, available from Robert Shiller’s home page) and subtracting the T-Bill rate available
+from Kenneth French’s home page. HML is the value factor from Kenneth French’s home page.
+Quarters
+Panel A: s
+
+1
+4
+8
+12
+16
+
+MKT
+
+s
+s
+s
+s
+s
+
+HML
+
+Estimates
+(times 100)
+
+NeweyWest
+
+Hodrick
+
+R2
+(%)
+
+1.83
+1.01
+1.02
+1.43*
+1.76*
+
+1.56
+1.13
+1.53
+3.17
+3.55
+
+1.31
+0.83
+0.97
+1.39
+1.60
+
+1.27
+1.42
+3.37
+9.28
+14.09
+
+1.01
+2.92*
+0.68
+1.14
+0.90
+0.41
+1.45*
+0.10
+1.79*
+0.76
+
+0.96
+2.21
+0.84
+1.00
+1.63
+0.45
+3.29
+0.16
+3.82
+1.00
+
+0.88
+1.52
+0.64
+0.78
+0.94
+0.33
+1.53
+0.09
+1.69
+0.50
+
+2.95
+
+R2
+(%)
+
+NeweyWest
+
+Hodrick
+
+0.34
+0.27
+0.79
+1.11*
+1.33*
+
+0.31
+0.32
+1.40
+2.56
+3.04
+
+0.31
+0.29
+0.97
+1.39
+1.58
+
+0.53
+0.44
+2.76
+8.96
+13.38
+
+0.29
+2.21*
+0.16
+1.52*
+0.46
+1.16*
+0.92*
+0.85*
+1.28*
+1.01
+
+0.29
+2.14
+0.20
+1.90
+0.77
+1.88
+2.12
+1.66
+3.38
+1.58
+
+0.26
+1.59
+0.16
+1.42
+0.51
+1.28
+1.10
+1.01
+1.54
+0.98
+
+0.70
+
+Estimates
+(times 100)
+
+Panel B: s and s2
+1
+4
+8
+12
+16
+
+s
+s2
+s
+s2
+s
+s2
+s
+s2
+s
+s2
+
+2.03
+3.04
+8.70
+14.62
+
+1.69
+5.58
+11.15
+16.11
+
+the results. Second, since we explain the value premium based on the conditional factor,
+the return on the zero-investment portfolio long on value ﬁrms and short on growth ﬁrms
+(‘‘HML’’) should also be forecastable by the state variable. Third, the theoretical model
+implies necessarily that the link between market returns and the forecast variable is
+quadratic. This issue has been ignored in previous papers but is essential: if the state
+variable explains unconditional mean return differences it must have an important
+nonlinear component. From Eq. (25) it follows that since the state has zero mean,
+unconditional mean differences arise only via the quadratic term. Since all assets have
+positive sensitivity to the conditional factor and since b1 is positive, from Eq. (25) the
+square of the state variable should have a negative effect on the future market return, that
+is, the link between the state variable and the future market return should be U-shaped.
+Similarly, since by our explanation of the value effect the zero-investment portfolio loads
+negatively on the conditional factor, the square of the state variable should have a positive
+effect on the future return difference between value and growth portfolios.
+Table 6 demonstrates that, indeed, the state variable has some forecasting power
+for market excess returns (S&P 500 returns including dividends, available from
+Robert Shiller’s home page, net of the quarterly T-Bill return), especially for the longer
+horizons. The R2 for only the state as the explanatory variable is 9% and 14% for a
+
+ARTICLE IN PRESS
+432
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+one-quarter-ahead forecast of the three- and four-year moving averages of market excess
+returns, with a signiﬁcantly negative Newey-West t-statistic for these horizons. When we
+add the square of the state as an additional forecast variable the coefﬁcient on the square is
+negative as predicted for all but the three and four-year horizons, but is signiﬁcant only for
+the one-quarter horizon.17 For the HML variable, the explanatory power of the state
+variable is similar. The R2 is 9% and 13% at the three- and four-year horizons when the
+state is the forecast variable; when we add the coefﬁcient for the square of the state variable
+it is positive as predicted and has a signiﬁcant Newey-West t-statistic for all but the fouryear horizon.18
+4.2.2. Cyclicality of excess returns
+Excess returns move countercyclically under decreasing relative risk aversion in the
+endowment economies of Chen (1991) and Campbell and Cochrane (1999): as
+consumption gets closer to the subsistence or habit level in a recession, risk aversion
+and required excess returns increase. Empirical conﬁrmation of this pattern is found in
+Harrison and Zhang (1999) for excess returns and in Tallarini and Zhang (2005) for
+real returns. They ﬁnd that predicted market returns (excess and real) are higher during
+NBER-classiﬁed recession periods.
+In our production economy, a more complex link between excess returns and the
+business cycle surfaces. The state variable relates negatively to the productivity risk
+premium and excess returns (the positive value of b1) because in a capital-abundant state
+investment reacts more and consumption varies less in response to a productivity shock.
+So, as the state variable increases, consumption risk diminishes, implying that the
+productivity risk premium falls unambiguously. However, the state variable has an
+ambiguous link to the business cycle as measured by aggregate production. If the state
+variable rises due to an increase in the capital stock, aggregate production rises and
+excess returns are countercyclical; if the state variable rises due to a fall in the productivity
+level, aggregate production falls, ceteris paribus, and excess returns are procyclical. Fig. 2
+shows that based on the NBER recession classiﬁcation the state variable often peaks
+during recessions, suggesting initially that excess returns are mostly procyclical in our
+model.
+To provide more perspective Table 7 provides correlations between our state variable
+and key variables tied to the business cycle and excess returns. We consider three groups of
+variables: standard information variables known to forecast returns, business cycle
+measures, and future market returns. The state variable is uncorrelated with the term
+premium but has signiﬁcant negative correlation with the dividend-price ratio and the
+default risk premium. As is also clear from Fig. 2, the state variable has signiﬁcant
+positive correlation of 0.45 with a dummy variable that takes the value of one during
+NBER-classiﬁed recessions and a negative correlation with a continuous business cycle
+variable (the level of real GDP minus its 12-quarter-lagged moving average to adjust for
+trend). The state variable has a negative correlation with one-quarter and 12-quartersahead cumulative returns, conﬁrming the forecast regression results in Table 6.
+17
+Signiﬁcance is at the 5% level for a one-tailed test. The adjusted-R2s for the period after 1992 average 50% for
+the eight-quarter, 12-quarter, and 16-quarter moving average returns, implying that the model does well in
+explaining the ‘‘bubble’’ of the 1990s. Nevertheless, even for the 1964–1992 period the adjusted-R2s for the eightquarter, 12-quarter, and 16-quarter moving average market returns are 7–11%.
+18
+The Hodrick (1992) type I-B t-statistics are somewhat lower in all cases as reported in Table 6.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+433
+
+Table 7
+Correlations of the state variable and various business cycle and information variables
+This table provides correlations of the state variable s, detrended output (the level of real GDP minus its
+12-quarter lagged moving average) y, and 12-quarter forward moving average market excess returns MKT12Q
+with commonly cited information variables (dividend-price ratio Div, the default premium Def, and the term
+premium Term), business cycle variables (dummy for NBER-classiﬁed recession periods NBER, detrended
+output y, and detrended real output plus undepreciated capital, that is, the level of real GDP plus undepreciated
+capital minus its 12-quarter lagged moving average, y+(1d) k), and market risk premium measures
+(the 1-quarter and 12-quarter forward moving average market excess returns MKT1Q and MKT12Q). *Denotes
+that correlations are signiﬁcant at the 5% level for a two-tailed test.
+
+s
+y
+MKT12Q
+
+Div
+
+Def
+
+Term
+
+NBER
+
+y
+
+y+(1d) k
+
+MKT1Q
+
+MKT12Q
+
+0.20*
+0.38*
+0.62*
+
+0.59*
+0.14
+0.25*
+
+0.03
+0.45*
+0.33*
+
+0.45*
+0.56*
+0.16*
+
+0.24*
+1.00*
+0.16*
+
+0.58*
+0.46*
+0.46*
+
+0.15
+0.07
+0.30*
+
+0.35*
+0.17*
+1.00*
+
+Given conventional measures of the business cycle, our state variable is generally
+countercyclical. Hence, the productivity risk premium is procyclical and in turn (because
+productivity risk betas are generally positive) predicted market returns are procyclical. From
+the perspective of our model, however, aggregate production f(yt, nt, kt) is not the best
+business cycle measure. A better business cycle measure is production plus usable capital,
+which captures aggregate consumption availability (literally in our model without adjustment
+costs): F(yt, nt, kt)  f(yt, nt, kt)+(1d)kt. This is consistent with Black (1990), who ﬁnds that
+aggregate wealth, not production, has a countercyclical link to the risk premium: it is not just
+current production that matters for consumption opportunities, but also the part of previous
+production levels saved in the form of capital. The correlation of production plus usable
+capital with the state variable is a signiﬁcant 0.58 as shown in Table 7. It follows that excess
+returns are typically procyclical if we measure the cycle by aggregate production but are
+countercyclical if we measure the cycle by consumption availability. While the two are
+identical in a Lucas endowment economy, this is not so in a production economy. Presuming
+correctness of our model, standing empirical results of countercyclical expected excess returns
+for the aggregate production measure may be due simply to the signiﬁcant positive
+correlation of 0.46 between aggregate production and the consumption availability measure.
+The conventional business cycle measures also imply low correlations with future market
+returns and an unintuitive procyclical default risk premium of 0.14 (which is a
+countercyclical 0.31 for the production plus usable capital measure, not shown in
+Table 7). In addition to the negative correlation with the market risk premium, Table 7
+shows that our state variable also has a large signiﬁcant negative correlation of 0.59 with
+the default risk premium. The reason may be that, in addition to the productivity risk
+directly affecting the default risk premium, an increase in the state represents an increase in
+tangible capital relative to intangible capital, raising ﬁrms’ collateral and lowering the
+default risk premium. Thus, our model provides a more subtle relationship between cycle
+and excess returns because the relevant state variable does not have a one-dimensional tie
+to aggregate production.
+4.2.3. Magnitude of the conditional effect on returns
+To characterize more fully the effect of the state on returns we discretize the state space
+and consider four different regions for the state variable: more than one standard deviation
+
+ARTICLE IN PRESS
+434
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+below the median, between zero and one standard deviations below the median, between
+zero and one standard deviation above the median, and more than one standard deviation
+above the median. We then ﬁrst use the Lettau and Ludvigson (2001b) method to compare
+the productivity risk premium and the productivity betas across these four state regimes.
+The Lettau-Ludvigson method ﬁnds for states i ¼ 1,y, 4 the average risk premiums in
+each state and the betas given by Eq. (24), bisðiÞ ¼ bi0 þ bi1 sðiÞ. We can then ﬁnd the
+covariance across the four states between the risk premium and the beta, yielding the
+conditional premium for each asset. Table 4 provides the results, conﬁrming our earlier
+discussion that the extent of the (negative) covariance between the risk premium and the
+beta explains a signiﬁcant part of the value premium.
+This approach is subject to the Lewellen–Nagel critique, however. The problem is that
+the magnitude of the coefﬁcients is based on maximizing the cross-sectional ﬁt with no
+regard to matching the actual covariance between the risk premium and the betas.
+Lewellen and Nagel’s solution is to estimate betas over short time windows and correlate
+these with realized risk premiums over the short windows. Since we have only quarterly
+data, this approach is not feasible as is. Instead we provide an approximation by
+considering a discrete number of four state regimes and estimating betas in addition to
+obtaining average risk premiums for these regimes. By this approach we implicitly set the
+variation within a state equal to zero. We can decompose the covariance into that from
+between-state variation and that from within-state variation:
+CovðRP; bÞ ¼ E½CovðRP; bÞjs þ Cov½EðRPjsÞ; EðbjsÞ.
+
+(27)
+
+Thus the between-state covariance estimate we obtain is a lower bound to the actual
+covariance. Given a monotonic covariance between the risk premium and the betas,
+excluding the ﬁrst term on the right-hand side decreases the (absolute) magnitude of the
+total covariance.
+To obtain a numerical value for the last term in Eq. (27) we estimate four productivity
+betas for each asset, one for each of the state regimes, and ﬁnd the productivity risk
+premium for each state regime. We can then ﬁnd the covariance between the risk premium
+and the beta for all 25 assets. Impressively, the covariance is negative in all cases. Table 4
+shows that, as for the LL approach, the risk premium varies directly by state going from
+0.98% in the worst state (s is more than one standard deviation below the median) to
+0.18% in the best state (s is more than one standard deviation above the median).
+Although there is no theoretical reason for the risk premium to be positive, we ﬁnd no
+evidence of a systematically negative risk premium.
+Table 4 also shows quite clearly that betas rise mostly monotonically from the worst
+state to the best state and that this effect is more pronounced for growth ﬁrms than for
+value ﬁrms. Most importantly, when we calculate the (lower bound of the) quantitative
+value for the covariance for value ﬁrms and growth ﬁrms in each size class, this covariance
+in Panel B of Table 4 is always negative and more so for growth ﬁrms, explaining a positive
+value premium for each size class that on average is around 56% of the value premium in
+each size class estimated in the model as shown in Panel D of Table 3 and around 44% of
+the observed value premium as shown in Panel A of Table 3. The shortfall can plausibly be
+attributed to the fact that our four-state approximation ignores the within-state
+covariation—the ﬁrst term on the right-hand side of Eq. (27). We conclude that the
+covariance between the productivity risk premium and productivity betas is quantitatively
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+435
+
+Table 8
+GMM one-stage estimation for the unconditional models
+The estimated models are PROD, CCAPM, CAPM, and INV, which are, respectively, the unconditional
+productivity model, the consumption-based CAPM, the CAPM, and Cochrane’s (1996) investment-based asset
+pricing model.
+PROD
+
+Constant
+
+e
+
+0.991
+26.971
+0.772
+0.947
+0.862
+0.780
+
+56.285
+1.046
+0.356
+1.357
+1.240
+1.139
+
+Constant
+
+DC
+
+1.031
+2.000
+2.127
+2.734
+2.733
+2.429
+
+9.655
+0.104
+0.036
+0.204
+0.204
+0.206
+
+Constant
+
+Mkt
+
+0.964
+31.556
+2.680
+2.885
+2.892
+2.538
+
+0.549
+0.375
+0.300
+0.264
+0.265
+0.265
+
+Constant
+
+DInv
+
+DNon-Inv
+
+1.474
+4.138
+1.300
+1.594
+1.014
+1.089
+
+51.276
+1.659
+2.814
+2.903
+1.866
+1.738
+
+1.797
+0.276
+1.687
+1.399
+0.916
+1.175
+
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+CCAPM
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+CAPM
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+INV
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+JT
+p-value
+
+95.739
+0.000
+
+R2
+
+18.18%
+
+JT
+p-value
+
+113.301
+0.000
+
+R2
+
+0.44%
+
+JT
+p-value
+
+124.037
+0.000
+
+R2
+
+0.79%
+
+JT
+p-value
+
+70.374
+0.000
+
+R2
+
+20.94%
+
+strong so that the Lewellen-Nagel critique appears not to be a problem in our productionbased context.
+4.3. Model comparison
+4.3.1. Results for unconditional models
+Table 8 reports the results for the unconditional version of our model and for three
+widely cited unconditional models: the CCAPM, the CAPM, and the Cochrane (1996)
+investment-based CAPM. According to the JT value, all models are rejected (possibly due
+to poor estimation of the spectral density matrix). Fig. 5 displays the alphas and the crosssectional ﬁt for each model.
+
+ARTICLE IN PRESS
+436
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Fig. 5. Actual returns and predicted returns for PROD, CCAPM, CAPM, and INV, which are, respectively, the
+unconditional productivity model, the consumption-based CAPM, the CAPM, and Cochrane’s (1996)
+investment-based asset pricing model. The two-digit numbers denote the Fama–French 25 portfolios. The ﬁrst
+digit refers to the size quintile (from 1, small, to 5, large) and the second digit refers to the book-to-market quintile
+(from 1, low book-to-market, to 5, high book-to-market). The ﬁgures display the ﬁt for all models by showing the
+deviations of each test asset’s return from that predicted by the model. This deviation is the one-stage GMM
+pricing error discounted by the expectation of the stochastic discount factor. If there is no pricing error, the actual
+return equals the predicted return so that all plots locate on the 45-degree line.
+
+Fig. 5 and Table 8 show that the cross-sectional ﬁts of the productivity-based model and
+the investment-based model are similar, around 20%, and signiﬁcantly higher than for the
+CCAPM and CAPM, which perform poorly in explaining the cross-section of the 25 size
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+437
+
+Table 9
+GMM one-stage estimation for the Fama-French model and the conditional models
+The estimated models are PROD-s, FF3, CCAPM-CAY, and CCAPM-C which are, respectively, the twofactor conditional productivity model, the Fama and French (1996) three-factor model, the Lettau and Ludvigson
+(2001) conditional (cay as conditioning variable) Consumption CAPM, and the Campbell and Cochrane (1999)
+Consumption CAPM with habit persistence.
+PROD-s
+
+Constant
+
+e
+
+e.s
+
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+0.995
+5.808
+0.475
+0.583
+0.257
+0.353
+
+224.4
+1.494
+0.869
+3.120
+1.402
+1.368
+
+438.36
+1.668
+0.510
+2.620
+1.168
+1.310
+
+FF3
+
+Constant
+
+Mkt
+
+Smb
+
+Hml
+
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+0.952
+11.870
+3.923
+3.327
+3.069
+2.979
+
+5.443
+2.179
+2.416
+1.758
+1.652
+1.837
+
+5.939
+2.560
+0.811
+1.640
+1.634
+1.513
+
+1.132
+0.503
+1.393
+2.633
+2.601
+2.397
+
+CCAPM-CAY
+
+Constant
+
+Cay
+
+DC
+
+DC.cay
+
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+0.9051
+1.989
+0.147
+0.193
+0.101
+0.103
+
+67.8
+0.852
+0.369
+0.631
+0.333
+0.357
+
+30.6
+0.290
+0.067
+0.282
+0.150
+0.184
+
+14867.3
+1.456
+0.016
+3.441
+1.819
+2.124
+
+CCAPM-C
+
+Constant
+
+DC(t1)
+
+DC(t)
+
+DC(t).DC(t1)
+
+b
+t-statistics
+Risk premium %
+t-statistics
+Shanken-t
+GMM-t
+
+0.856
+2.827
+2.067
+3.014
+1.727
+1.635
+
+159.3
+1.453
+0.856
+3.112
+1.806
+1.858
+
+84.6
+0.952
+0.189
+0.905
+0.531
+0.506
+
+9438.4
+1.053
+0.006
+2.717
+1.579
+2.037
+
+JT
+p-value
+
+28.859
+0.149
+
+R2
+
+71.53%
+
+JT
+p-value
+
+81.904
+0.000
+
+R2
+
+77.57%
+
+JT
+p-value
+
+54.258
+0.0001
+
+R2
+
+46.12%
+
+JT
+p-value
+
+59.802
+0.000
+
+R2
+
+40.40%
+
+and book-to-market sorted assets with adjusted-R2 below 1%. The risk premiums are not
+statistically signiﬁcant for any of the four models if we consider the GMM t-statistics. The
+quarterly alphas are above 2% (8% on an annual basis) and statistically signiﬁcant for the
+CCAPM and CAPM. For the investment-based model the alpha is 1.3% but not
+statistically signiﬁcant, and for the production-based model the alpha is a statistically
+insigniﬁcant 0.8%.
+4.3.2. Results for the conditional models and the Fama– French model
+We now consider conditional models and the Fama–French three-factor model. The
+Fama–French model can be interpreted as a version of the Merton model. Two recent
+conditional consumption-based models are included: the Lettau and Ludvigson (2001a, b)
+
+ARTICLE IN PRESS
+438
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Fig. 6. Actual returns and predicted returns for PROD-s, FF3, CCAPM-CAY, and CCAPM-C, which are,
+respectively, the two-factor conditional productivity model, the Fama and French (1996) three-factor model, the
+Lettau and Ludvigson (2001a, 2001b) conditional (cay as conditioning variable) consumption CAPM, and the
+Campbell and Cochrane (1999) consumption CAPM with habit persistence. The two-digit numbers denote
+the Fama-French 25 portfolios. The ﬁrst digit refers to the size quintile (from 1, small, to 5, large) and the second
+digit refers to the book-to-market quintile (from 1, low book-to-market, to 5, high book-to-market). The ﬁgures
+display the ﬁt for all models by showing the deviations of each test asset’s return from that predicted by the model.
+This deviation is the one-stage GMM pricing error discounted by the expectation of the stochastic discount factor.
+If there is no pricing error, the actual return equals the predicted return so that all plots locate on the 45-degree
+line.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+439
+
+‘‘cay’’ model and the Campbell and Cochrane (1999) habit persistence model. In addition
+we consider our productivity-based two-factor conditional model using Eq. (23).
+Table 9 shows that our model has the lowest JT statistic, substantially lower than that of
+any of the other models, including the Fama–French model. Fig. 6 provides the adjustedR2, which is 71.5% for our model compared to 77.6% for the Fama–French model. The
+Lettau-Ludvigson and Campbell–Cochrane models have R2s of 46.1% and 40.4%,
+respectively. The alphas for the productivity-based conditional model and the cay model
+are statistically insigniﬁcant and relatively low at 0.48% and 0.15%, respectively. The
+alphas for the Fama–French and Campbell–Cochrane models are statistically and
+economically signiﬁcant, however, at 3.92% and 2.07%, respectively.
+4.4. Model evaluation
+A recent paper by Lewellen, Nagel, and Shanken (2006) argues that the cross-sectional
+ﬁt of the 25 Fama–French portfolios sorted by size and value presents a rather low hurdle
+for the evaluation of an asset pricing model. They contend that when portfolios have an
+approximate factor structure, as is the case for the 25 Fama–French portfolios, the pricing
+errors are idiosyncratic (not pervasive) and not likely to be correlated with the factors of a
+particular asset pricing model; rather, in that case, even a weak correlation between the
+model factors and those generating the test portfolios would imply that the model betas are
+linearly related to the ‘‘true’’ betas, automatically generating a high R2.
+In the following we discuss the prescriptions suggested by Lewellen, Nagel, and Shanken
+(LNS) to provide alternative ways to evaluate asset pricing models. First, LNS suggest
+adding Fama and French’s 30 industry portfolios to the 25 size and value portfolios and
+using these assets jointly to test a model in order to relax the tight factor structure of the
+size-value portfolios. Table 10 provides the results for the three variants of our model and
+the conditional models. In each case the R2 deteriorates signiﬁcantly. Both of our
+conditional models hold up relatively well, with R2s for our two-factor and three-factor
+models of 22.8% and 33.1%, respectively, compared to 31.5% for the FF model and much
+lower for the other models.
+Isolating the performance for the 30 industry portfolios, we present the root mean
+square error of these portfolios implied by the parameter estimates for the 55 test assets.
+These are relatively similar for all models, varying from 0.75% for the Campbell–Cochrane
+model to 0.81% for the Fama–French model. Along this dimension, all three of our
+productivity-based models outperform the Lettau–Ludvigson and Fama–French models
+but underperform the Campbell–Cochrane model. The relatively strong performance of
+the unconditional productivity-based model here is likely due to the fact that it does worse
+than the conditional models in explaining the 25 size and value-sorted portfolios so that
+the parameter estimation can emphasize ﬁtting the 30 industry portfolio returns without
+giving up much explanatory power. A possible explanation for the poor performance of all
+models in explaining the average industry returns is the occurrence of persistent
+idiosyncratic industry-speciﬁc shocks: with hindsight certain industries decline while
+others emerge. If the trends are not discernible in advance, average returns cannot fully
+represent risk factors.
+Second, LNS advocate checking whether the estimated slopes and intercept are
+reasonable. We ﬁnd that the alpha in our two-factor model is economically reasonable,
+implying a quarterly mispricing of zero-beta assets of 0.48%, which is lower than that for
+
+ARTICLE IN PRESS
+440
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Table 10
+Adding the 30 industry portfolios as test assets
+This table presents the results for the 25 Fama–French portfolios sorted by size and book-to-market ratio
+(FF25) and compares them with the results for these 25 portfolio added to the 30 Fama–French industry
+portfolios (FF55) as the test assets for PROD, PROD-s, and PROD-ky (the three versions of our productivitybased model) and for FF3, CCAPM-CAY, and CCAPM-C, which are, respectively, the Fama and French (1996)
+three-factor model, the Lettau and Ludvigson (2001a, 2001b) conditional (cay as conditioning variable)
+consumption CAPM, and the Campbell and Cochrane (1999) consumption CAPM with habit persistence.
+Italicized numbers represent Shanken-corrected t-statistics. Terms in square brackets indicate 90% conﬁdence
+intervals around the median based on 5,000 draws from random multivariate normally distributed factors for each
+group of test assets and with the appropriate number of factors considered for each model. RMSE 30 represents
+the root mean square error of the 30 industry portfolios determined by the estimated parameters for the FF55 test
+assets.
+Constant
+
+e
+
+R2
+
+JT
+
+0.772
+0.862
+0.974
+1.437
+
+0.356
+1.240
+0.267
+1.239
+
+18.18%
+[0.11%, 55.8%]
+15.82%
+[0.04%, 18.3%]
+
+95.7
+[35.8, 135.7]
+769.0
+[623.0, 947.7]
+
+Constant
+
+e
+
+e.s
+
+0.475
+0.257
+1.083
+1.473
+
+0.869
+1.402
+0.327
+1.509
+
+0.500
+1.168
+0.060
+0.528
+
+71.53%
+[3.0%, 69.1%]
+22.76%
+[0.8%, 28.0%]
+
+28.9
+[24.7, 112.7]
+498.2
+[531.1, 932.5]
+
+Constant
+
+e
+
+ey
+
+e
+
+1.532
+0.939
+1.239
+1.399
+
+0.867
+1.777
+0.530
+2.056
+
+0.301
+0.463
+0.150
+0.406
+
+1.700
+0.925
+0.540
+0.624
+
+68.74%
+[12.5%, 74.3%]
+33.13%
+[2.3%, 35.3%]
+
+24.5
+[17.5, 82.4]
+341.6
+[462.3, 927.4]
+
+FF3
+
+Constant
+
+Mkt
+
+Smb
+
+Hml
+
+FF25
+
+3.923
+3.069
+1.947
+1.950
+
+2.416
+1.652
+0.310
+0.259
+
+0.811
+1.634
+0.619
+1.228
+
+1.393
+2.601
+0.921
+1.673
+
+77.57%
+[12.5%, 74.3%]
+31.49%
+[2.3%, 35.3%]
+
+81.9
+[17.5, 82.4]
+708.3
+[462.3, 927.4]
+
+Constant
+
+Cay
+
+DC
+
+DC.cay
+
+0.1465
+0.1005
+1.1377
+1.5633
+
+0.3686
+0.3332
+0.3187
+0.6
+
+0.0667
+0.1499
+0.1061
+0.5532
+
+0.0159
+1.8186
+0.0028
+0.9639
+
+46.12%
+[12.5%, 74.3%]
+10.26%
+[2.3%, 35.3%]
+
+54.3
+[17.5, 82.4]
+720.4
+[462.3, 927.4]
+
+Constant
+
+DC(t1)
+
+DC(t)
+
+DC(t).DC(t1)
+
+2.067
+1.727
+1.417
+1.719
+
+0.856
+1.806
+0.055
+0.295
+
+0.189
+0.531
+0.016
+0.119
+
+0.006
+1.579
+0.002
+1.574
+
+40.40%
+[12.5%, 74.3%]
+11.37%
+[2.3%, 35.3%]
+
+59.8
+[17.5, 82.4]
+514.8
+[462.3, 927.4]
+
+PROD
+FF25
+FF55
+PROD-s
+FF25
+FF55
+PROD-ky
+FF25
+FF55
+
+FF55
+CCAPM-CAY
+FF25
+FF55
+CCAPM-C
+FF25
+FF55
+
+RMSE 30
+
+0.755
+
+0.768
+
+0.765
+
+0.811
+
+0.789
+
+0.747
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+441
+
+all other models except the cay model. In addition, the alpha is statistically insigniﬁcantly
+different from zero, even when the 30 industry portfolios are added as test assets. Note that
+for the FF model the alpha is economically as well as statistically signiﬁcant, with a
+quarterly alpha exceeding 3%. Earlier we discussed the reasonability of the unconditional
+and conditional factor premium estimates, arguing in particular that the size of the
+conditional factor risk premium is related to the magnitude of the covariance between the
+beta and the risk premium. The coefﬁcients decrease in magnitude when the 30 industry
+portfolios are added but this is in line with the overall degradation in performance of the
+model.
+Third LNS propose including the model’s factors among the test assets. Since our
+factors are not returns we use a slightly different approach and evaluate our two-factor
+conditional model’s performance in pricing the investment return for the representative
+ﬁrm. We ﬁnd that the model implies a production function parameter of 0.24, which is
+relatively close to the typically assumed value of 0.33.
+As ﬁnal prescriptions LNS suggest reporting conﬁdence intervals for the cross-sectional
+R2 and for the squared pricing errors measure. We present the 90% conﬁdence intervals for
+the R2 and for the JT statistic in Table 10. The conﬁdence intervals for both are based on
+the distribution of the statistic, for a particular group of test assets, obtained in 5,000
+draws of the appropriate number of multivariate normally distributed factors. The interval
+reported contains the 90% of R2s around the median. Table 10 shows that only the R2s of
+our two-factor model and the FF model exceed the 90% conﬁdence interval. When the
+industry test assets are added none of the models have R2s outside of the interval. Results
+for the JT statistic are similar: except for our two-factor model, no models have JT
+statistics outside of the 90% conﬁdence interval based on random factors. For the 55 asset
+case, our two-factor model has a JT statistic below the 90% conﬁdence interval, indicating
+that the pricing errors are signiﬁcantly smaller than for a random factor model.
+In addition to the LNS prescriptions we consider several other diagnostics that illustrate
+the reasonability of our productivity-based model. To summarize, we show not only that
+the magnitude of the conditional factor risk premium is sensible but more speciﬁcally
+that the risk premium decreases state-by-state as the state improves over the four regimes
+we distinguish (Table 4). The state variable signiﬁcantly forecasts future excess returns on
+the value factor and the market return in the direction predicted by theory. And, most
+importantly, the factors are exactly those implied by theory for general speciﬁcations of the
+standard RBC model.
+5. Conclusion
+We study the cross-section of asset returns from the production side of the economy and
+argue that asset returns are determined by a one-factor model with one conditioning
+variable. The factor is the aggregate productivity shock et+1, the impact of which is
+conditional on the state of the economy st. In the context of our model—a standard RBC
+model—the state of the economy as it pertains to asset prices is fully characterized by the
+relative scarcity of capital, that is, the level of the existing capital stock (tangible capital) in
+comparison to productivity (intangible capital).
+In general terms, we replace a consumption-based pricing kernel with a productionbased kernel, employing a stochastic link between the marginal rate of substitution and
+the marginal rate of transformation according to which uc ðctþ1 ; xtþ1 Þ ¼ mðtþ1 ; st Þ, where
+
+ARTICLE IN PRESS
+442
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+x may be a variety of variables, each potentially affecting the marginal utility of
+consumption,
+The empirical results strongly support our production-based model compared to
+existing theoretical models in the literature, and are competitive empirically with the
+Fama–French three-factor model. Thus, the cross-section of asset prices provides support
+for the canonical RBC model from a different perspective. Furthermore, it appears that the
+speculated improved measurement from using production variables instead of consumption variables does indeed provide a better characterization of the cross-section of asset
+prices.
+The explanations for the mean returns of the challenging 25 Fama–French test assets
+sorted by size and value is that small ﬁrms have higher mean returns than large ﬁrms
+mostly because their average sensitivities to productivity risk are higher. Value ﬁrms have
+higher mean returns than growth ﬁrms, in spite of having approximately the same average
+sensitivity to productivity risk, because the risk premiums and risk sensitivities vary with
+the capital stock and productivity level: as the state variable (capital stock relative to
+productivity level) increases, the risk premium falls while risk sensitivities to the
+productivity shock increase. But compared to value ﬁrms the risk sensitivities of the
+growth ﬁrms increase more rapidly with the state so that growth ﬁrms have their highest
+risk when the productivity risk premium is low (or even negative), implying lower returns
+on average. The reason that growth ﬁrms are more sensitive to changes in the state may be
+that the effective price of investment varies inversely with the state. Thus, growth ﬁrm
+values vary more dramatically with productivity shocks in a capital abundant state, as
+positive shocks are enhanced with low investment costs enabling these ﬁrms to realize their
+growth potential cheaply.
+The consumption-based approach has had difﬁculty explaining the size of the equity
+premium, mean return differences across asset classes, and the low covariance between
+betas and risk premiums. Our production-based approach deals successfully with the
+second issue, by explaining a substantial fraction of cross-sectional return variation from
+productivity shocks and a conditional variable, and with the third issue by generating a
+covariance between productivity shock betas and the risk premium across state regimes
+that is sufﬁcient to explain quantitative differences in returns across asset classes.
+While the model is effective in explaining cross-sectional differences, we do not address
+the ﬁrst issue, the equity premium puzzle, and, more generally, we do not ask whether the
+overall level and volatility of observed returns can be generated by a model of this kind.
+This requires a speciﬁc functional form for the marginal value of capital function, which in
+turn, requires a full speciﬁcation of the general equilibrium model. But one of the
+advantages of our approach is precisely the ability to avoid making such speciﬁc
+assumptions: our results hold independent of functional forms, relying simply on the key
+variables underlying basic RBC models. Nevertheless, under the assumption that the
+CCAPM has generally failed to meet the three challenges because of the incorrect
+speciﬁcation of the x factor affecting marginal utility, we see no reason why a proper
+functional form for the marginal value of capital function would not resolve the equity
+premium puzzle. For starters, ﬁtting the aggregate investment return provides a reasonable
+value for the capital share in production for the basic Cobb–Douglas production function.
+It may be the case that quantitatively the factor sensitivities needed to explain the crosssectional return variations are unrealistically high (or low for that matter). However, we
+present the simplest RBC model to emphasize that only this simple model is needed to
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+443
+
+explain the cross-sectional results. It is possible to change the investment function to allow
+for adjustment costs, changing the form of the marginal value of capital function without
+changing the variables, namely, the productivity factor and the state variable. This would
+allow the market price of capital to vary, generating return volatility supplementing that
+due to productivity shocks. Finding an investment cost function (with or without
+adjustment costs) in the context of a fully calibrated general equilibrium model that implies
+a realistic equity premium and return volatilities presents an interesting direction for future
+research.
+References
+Abel, A.B., 1990. Asset prices under habit formation and catching up with the Joneses. American Economic
+Review 80, 38–42.
+Altonji, J.G., Segal, L.M., 1996. Small-sample bias in GMM estimation of covariance structures. Journal of
+Business and Economic Statistics 14, 353–366.
+Bahk, B.-H., Gort, M., 1993. Decomposing learning by doing in new plants. Journal of Political Economy 101,
+561–583.
+Balvers, R.J., Cosimano, T.F., McDonald, B., 1990. Predicting stock returns in an efﬁcient market. Journal of
+Finance 45, 1109–1128.
+Balvers, R.J., Huang, D., 2007. Money and the (C)CAPM. Journal of Financial and Quantitative Analysis,
+forthcoming.
+Basu, S., Fernald, J., Shapiro, M., 2000. Productivity growth in the 1990s: technology, utilization or adjustment?
+NBER working paper no. 5865.
+Black, F., 1990. Mean reversion and consumption smoothing. Review of Financial Studies 3, 107–114.
+Boldrin, M., Christiano, L., Fisher, J., 2001. Habit persistence, asset returns, and the business cycle. American
+Economic Review 91, 149–166.
+Breeden, D.T., 1979. An intertemporal asset pricing model with stochastic consumption and investment
+opportunities. Journal of Financial Economics 7, 265–296.
+Brock, W.A., 1982. Asset prices in an exchange economy. In: McCall, J.J. (Ed.), The Economics of Information
+and Uncertainty. University of Chicago Press, Chicago.
+Campbell, J.Y., 1993. Intertemporal asset pricing without consumption data. American Economic Review 83,
+487–512.
+Campbell, J.Y., 1996. Understanding risk and return. Journal of Political Economy 104, 298–345.
+Campbell, J.Y., Cochrane, J.H., 1999. By force of habit: a consumption-based explanation of aggregate stock
+market behavior. Journal of Political Economy 107, 205–251.
+Cecchetti, S., Lam, P.-S., Mark, N., 1990. Mean reversion in equilibrium asset prices. American Economic Review
+80, 398–418.
+Chen, N.-F., 1991. Financial investment opportunities and the macroeconomy. Journal of Finance 46, 1467–1484.
+Cochrane, J.H., 1991. Production-based asset pricing and the link between stock returns and economics
+ﬂuctuation. Journal of Finance 46, 209–237.
+Cochrane, J.H., 1996. A cross-sectional test of an investment-based asset pricing model. Journal of Political
+Economy 104, 572–621.
+Cochrane, J.H., 2001. Asset Pricing. Princeton University Press, Princeton, NJ.
+Cochrane, J.H., 2005. Financial markets and the real economy. Working paper, University of Chicago.
+DeJong, D.N., Ingram, B.F., 2001. The cyclical behavior of skill acquisition. Review of Economic Dynamics 4,
+536–561.
+Fama, E.F., French, K.R., 1988. Permanent and temporary components of stock prices. Journal of Political
+Economy 96, 246–273.
+Fama, E.F., French, K.R., 1996. Multifactor explanations of asset pricing anomalies. Journal of Finance 51,
+55–84.
+Fama, E.F., MacBeth, J.D., 1973. Risk return and equilibrium: empirical tests. Journal of Political Economy 71,
+607–636.
+Ferson, E.W., Harvey, C.R., 1999. Conditioning variables and the crosssection of stock returns. Journal of
+Finance 54, 1325–1360.
+
+ARTICLE IN PRESS
+444
+
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+Gomes, J., Kogan, L., Zhang, L., 2003. Equilibrium cross section of returns. Journal of Political Economy 111,
+693–732.
+Hansen, L.P., 1982. Large sample properties of generalized method of moments estimation. Econometrica 50,
+1029–1054.
+Harrison, P., Zhang, H.H., 1999. An investigation of the risk and return relation at long horizons. Review of
+Economics and Statistics 81, 300–408.
+Hodrick, R., 1992. Dividend yields and expected stock returns: alternative procedures for inference and
+measurement. Review of Financial Studies 5, 357–386.
+Jaganathan, R., Wang, Z., 1998. An asymptotic theory for estimating beta-pricing models using cross-sectional
+regressions. Journal of Finance 53, 1285–1309.
+Jaganathan, R., Wang, Z., 2002. Empirical evaluation of asset pricing models: a comparison of the sdf and beta
+method. Journal of Finance 57, 2337–2367.
+Jermann, U.J., 1998. Asset pricing in production economies. Journal of Monetary Economics 41, 257–275.
+Jermann, U.J., 2005. The equity premium implied by production. Unpublished working paper, University of
+Pennsylvania.
+Jorgenson, D.W., Stiroh, K.J., 1999. Information technology and growth. American Economic Review 89,
+109–115.
+Kim, Y.H., 2003. Intertemporal production and asset pricing: a duality approach. Oxford Economic Papers 55,
+344–379.
+King, R.G., Rebelo, S.T., 2000. Resuscitating real business cycles. In: Taylor, J.B., Woodford, M. (Eds.),
+Handbook of Macroeconomics, vol. Ib (Chapter 14).
+King, R.G., Plosser, C.I., Stock, J.H., Watson, M.W., 1991. Stochastic trends and economic ﬂuctuations.
+American Economic Review 81, 819–840.
+Lettau, M., Ludvigson, S.C., 2001a. Consumption, aggregate wealth, and expected stock returns. Journal of
+Finance 56, 815–849.
+Lettau, M., Ludvigson, S.C., 2001b. Resurrecting the (C)CAPM: a cross-sectional test when risk premiums are
+time-varying. Journal of Political Economy 109, 1238–1287.
+Lewellen, J., Nagel, S., 2006. The conditional CAPM does not explain asset-pricing anomalies. Journal of
+Financial Economics 82, 289–314.
+Lewellen, J., Nagel, S., Shanken, J., 2006. A skeptical appraisal of asset-pricing tests. NBER working paper no.
+12360.
+Li, Q., Vassalou, M., Xing, Y., 2006. Sector investment growth rates and the cross section of equity returns.
+Journal of Business 79, 1637–1665.
+Liew, J., Vassalou, M., 2000. Can book-to-market, size and momentum be risk factors that predict economic
+growth? Journal of Financial Economics 57, 221–245.
+Lucas Jr., R.E., 1978. Asset prices in an exchange economy. Econometrica 46, 1429–1445.
+Mankiw, N.G., Shapiro, M.D., 1986. Risk and return: consumption beta versus market beta. Review of
+Economics and Statistics 68, 452–459.
+Mehra, R., Prescott, E., 1985. The equity premium puzzle. Journal of Monetary Economics 15, 145–161.
+Merton, R.C., 1973. An intertemporal capital asset pricing model. Econometrica 41, 867–887.
+Parker, J.A., Julliard, C., 2005. Consumption risk and the cross section of expected returns. Journal of Political
+Economy 113, 185–222.
+Peng, Y., Shawky, H., 1999. Stochastic discount rates, productivity shocks and capital asset pricing. Review of
+Quantitative Finance and Accounting 12, 21–34.
+Petkova, R., Zhang, L., 2005. Is value riskier than growth? Journal of Financial Economics 78, 187–202.
+Piazzesi, M., Schneider, M., Tuzel, S., 2007. Housing, consumption, and asset pricing. Journal of Financial
+Economics 83, 531–569.
+Santos, T., Veronesi, P., 2006. Labor income and predictable stock returns. Review of Financial Studies 19,
+1–44.
+Shanken, J., 1992. On the estimation of beta-pricing models. Review of Financial Studies 5, 1–33.
+Sims, C.A., Stock, J.H., Watson, M.W., 1990. Inference in linear time series models with some unit roots.
+Econometrica 58, 113–144.
+Tallarini, T.D., Zhang, H.H., 2005. External habit and the cyclicality of expected stock returns. Journal of
+Business 78, 1023–1048.
+Vassalou, M., 2003. News related to future GDP growth as a risk factor in equity returns. Journal of Financial
+Economics 68, 47–73.
+
+ARTICLE IN PRESS
+R.J. Balvers, D. Huang / Journal of Financial Economics 86 (2007) 405–445
+
+445
+
+Vassalou, M., Apedjinou, K., 2003. Corporate innovation and its effects on equity returns. Unpublished working
+paper, Columbia University.
+Yogo, M., 2006. A consumption-based explanation of expected stock returns. Journal of Finance 61,
+539–580.
+Zhang, L., 2005. The value premium. Journal of Finance 60, 67–103.
+
+

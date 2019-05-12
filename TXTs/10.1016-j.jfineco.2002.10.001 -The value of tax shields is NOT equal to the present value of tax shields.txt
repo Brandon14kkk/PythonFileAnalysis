@@ -1,0 +1,1566 @@
+ARTICLE IN PRESS
+
+Journal of Financial Economics 73 (2004) 145–165
+
+The value of tax shields is NOT equal to the
+present value of tax shields$
+Pablo Fernandez*
+IESE Business School, University of Navarra, Camino del Cerro del Aguila 3, Madrid 28023, Spain
+Received 11 December 2001; accepted 23 October 2002
+
+Abstract
+The value of tax shields is the difference between the present values of two different cash
+ﬂows, each with their own risk: the present value of taxes for the unlevered company and the
+present value of taxes for the levered company. For constant growth companies, the value of
+tax shields in a world with no leverage cost is the present value of the debt, times the tax rate,
+times the unlevered cost of equity, discounted at the unlevered cost of equity. This result arises
+as the difference of two present values and does not mean that the appropriate discount for tax
+shields is the unlevered cost of equity.
+r 2003 Elsevier B.V. All rights reserved.
+JEL classification: G12; G31; G32
+Keywords: Value of tax shields; Required return to equity; Leverage cost; Unlevered beta; Levered beta
+
+1. Introduction
+There is no consensus in the existing literature regarding the correct way to
+compute the value of tax shields. Most authors think of calculating the value of the
+tax shield in terms of the appropriate present value of the tax savings due to interest
+payments on debt, but Myers (1974) proposes to discount the tax savings at the cost
+$
+
+I thank my colleague Jos!e Manuel Campa and Charles Porter for their wonderful help revising
+previous manuscripts of this paper, and an anonymous referee for very helpful comments and suggestions.
+I also thank Rafael Termes and my colleagues at IESE for their sharp questions that encouraged me to
+explore valuation problems.
+*Fax: 34-91-3572913.
+E-mail address: fernandezpa@iese.edu (P. Fernandez).
+0304-405X/$ - see front matter r 2003 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jﬁneco.2002.10.001
+
+ARTICLE IN PRESS
+146
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+of debt, whereas Harris and Pringle (1985) propose discounting these tax savings at
+the cost of capital for the unlevered ﬁrm. Reﬂecting this lack of consensus, Copeland
+et al. (2000, p. 482) claim that ‘‘the ﬁnance literature does not provide a clear answer
+about which discount rate for the tax beneﬁt of interest is theoretically correct.’’ In
+this paper, I show that a consistent way to estimate the value of the tax savings is not
+by thinking of them as the present value of a set of cash ﬂows, but as the difference
+between the present values of two different sets of cash ﬂows: ﬂows to the unlevered
+ﬁrm and ﬂows to the levered ﬁrm.
+I show that the value of tax shields for perpetuities is equal to the tax rate times the
+value of debt. For constant growth companies, the value of tax shields in a world
+with no leverage costs is the present value of the debt times the tax rate times the
+required return to the unlevered equity, discounted at the unlevered cost of equity
+ðKu Þ: This does not mean that the appropriate discount for tax shields is the
+unlevered cost of equity, since the amount being discounted is higher than the tax
+shield (it is multiplied by the unlevered cost of equity and not the cost of debt).
+Rather, this result arises as the difference between two present values. The paper also
+shows that some commonly used methodologies for calculating the value of tax
+shields, including Harris and Pringle (1985), Miles and Ezzell (1980), Myers (1974),
+and Ruback (2002), are incorrect for growing perpetuities.
+One could argue that working out the present value of the tax shields themselves
+would not necessarily be wrong, provided the appropriate discount rate were used
+(reﬂecting the riskiness of the tax shields). The problem here is that the riskiness of
+the tax shields is hard to evaluate because it represents the difference in the present
+value of two ﬂows with different risk: the taxes paid by the unlevered company and
+those paid by the levered company. In this context, evaluating the riskiness of tax
+shields for a ﬁrm is conceptually as hard as evaluating the riskiness of the difference
+between Microsoft’s expected equity cash ﬂows and GE’s expected equity cash ﬂows.
+We can evaluate the riskiness of the expected equity cash ﬂows of each company, but
+it is difﬁcult (and hardly makes any sense) to try to evaluate the riskiness of the
+difference between two expected equity cash ﬂows.
+Perhaps the most important issue to take into account when reading this paper is
+that the term ‘‘discounted value of tax shields’’ in itself is senseless. The value of tax
+shields is the difference between the present values of two separate cash ﬂows each
+with its own risk.
+The paper is organized as follows. Section 2 follows a new method to prove that
+the value of tax shields for perpetuities in a world without leverage costs is equal to
+the tax rate times the value of debt (DT). Section 3 derives the relation between the
+required return on assets and the required return on equity for perpetuities in a world
+without leverage costs. The corresponding relation between the beta of the levered
+equity, the beta of the unlevered equity, and the beta of debt is also derived. Section
+4 proves that the value of tax shields in a world with no leverage costs is the present
+value of the debt times the tax rate times the required return to the unlevered equity,
+discounted at the unlevered cost of equity. Section 5 revises and analyzes the existing
+ﬁnancial literature on the value of tax shields. Most of the existing approaches,
+including Harris and Pringle (1985), Miles and Ezzell (1980), Myers (1974), and
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+147
+
+Ruback (2002) result in either inconsistent results regarding the cost of equity to the
+levered and unlevered ﬁrm or estimated tax shields that are too low. Section 6
+contains a numerical example for a hypothetical ﬁrm to clarify the previous sections.
+Finally, Section 7 concludes.
+
+2. The value of tax shields for perpetuities in a world without leverage costs
+The value of tax shields for a perpetuity is DT; where D indicates the value of the
+debt today and T is the tax rate.
+The value of debt ðDÞ plus that of the equity ðEÞ of the levered company is equal to
+the value of the unlevered company ðVu Þ plus VTS, the value of tax shields due to
+interest payments
+E þ D ¼ Vu þ VTS:
+
+ð1Þ
+
+In the literature, the value of tax shields deﬁnes the increase in the company’s value
+as a result of the tax saving obtained by the payment of interest. In this deﬁnition,
+the total value of the levered company is equal to the total value of the unlevered
+company. If leverage costs do not exist, then Eq. (1) could be stated as follows:
+Vu þ Gu ¼ E þ D þ GL ;
+
+ð2Þ
+
+where Gu is the present value of the taxes paid by the unlevered company and GL is
+the present value of the taxes paid by the levered company. Eq. (2) means that the
+total value of the unlevered company (left-hand side of the equation) is equal to the
+total value of the levered company (right-hand side of the equation). Total value is
+the enterprise value (often called the value of the ﬁrm) plus the present value of taxes.
+Please note that Eq. (2) assumes that expected free cash ﬂows are independent of
+leverage. When leverage costs do exist, the total value of the levered company is
+lower than the total value of the unlevered company. A world with leverage cost is
+characterized by the following relation:
+Vu þ Gu ¼ E þ D þ GL þ Leverage Cost > E þ D þ GL :
+
+ð3Þ
+
+Leverage cost is the reduction in the company’s value due to the use of debt.
+From (1) and (2), it is clear that VTS is
+VTS ¼ Gu  GL :
+
+ð4Þ
+
+Note that the value of tax shields is not the present value (PV) of tax shields. It is the
+difference between the PVs of two ﬂows with different risk: the PV of the taxes
+paid by the unlevered company ðGu Þ and the PV of the taxes paid by the levered
+company ðGL Þ:
+It is quite easy to prove that, in perpetuity, the proﬁt after tax of the levered
+company ðPATL Þ is equal to the equity cash ﬂow (ECF):
+PATL ¼ ECF:
+
+ð5Þ
+
+This is so because the allowed depreciation deduction is exactly equal to the cash
+actually spent to replace capital equipment that wears out.
+
+ARTICLE IN PRESS
+148
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+In a perpetuity, then, the free cash ﬂow (FCF) is equal to the proﬁt before tax of
+the unlevered company ðPBTu Þ multiplied by one minus the effective tax rate:
+FCF ¼ PBTu ð1  TÞ:
+
+ð6Þ
+
+We will call FCF0 the company’s free cash ﬂow if there were no taxes. FCF0 is
+equal to the proﬁt before taxes of the unlevered company ðPBTu Þ:
+FCF0 ¼ PBTu :
+
+ð7Þ
+
+From (6) and (7) it is clear that the relation between after-tax free cash ﬂow and the
+company’s free cash ﬂow if there were no taxes is
+FCF ¼ FCF0 ð1  TÞ:
+
+ð8Þ
+
+The taxes paid every year by the unlevered company ðTaxesU Þ are
+TaxesU ¼ T PBTu ¼ T FCF0 ¼ T FCF=ð1  TÞ:
+
+ð9Þ
+
+Designate KTU as the required return to tax in the unlevered company, and KTL as
+the required return to tax in the levered company. The taxes paid by the unlevered
+company are proportional to FCF0 and FCF. Consequently, the taxes of the
+unlevered company have the same risk as FCF0 (and FCF), and hence must be
+discounted at the rate Ku (the required return to unlevered equity). In the unlevered
+company, the required return to tax ðKTU Þ is equal to the required return to equity
+ðKu Þ: This is only true for perpetuities.
+KTU ¼ Ku :
+
+ð10Þ
+
+The present value of the taxes paid by the unlevered company ðGu Þ is the present
+value of the taxes paid every year ðTaxesU Þ discounted at the appropriate discount
+rate ðKu Þ: As Vu ¼ FCF=Ku ;
+Gu ¼ TaxesU =KTU ¼ T FCF=½ð1  TÞKu  ¼ T Vu =ð1  TÞ:
+
+ð11Þ
+
+For the levered company, taking into consideration Eq. (5), the taxes paid each
+year ðTaxesL Þ are proportional to the equity cash ﬂow (ECF):
+TaxesL ¼ T PBTL ¼ T PATL =ð1  TÞ ¼ T ECF=ð1  TÞ:
+
+ð12Þ
+
+PBTL and PATL are the proﬁt before and after tax of the levered company.
+Because taxes paid by the levered company are proportional to ECF, they have the
+same risk as the ECF and thus must be discounted at the rate Ke : So, in the case of
+perpetuities, the tax risk is identical to the equity cash ﬂow risk, and the required
+return to tax in the levered company ðKTL Þ is equal to the required return to equity
+ðKe Þ: Again, this is only true for perpetuities.
+KTL ¼ Ke :
+
+ð13Þ
+
+The relation between proﬁt after tax (PAT) and proﬁt before tax (PBT) is PAT ¼
+PBTð1  TÞ: Then the present value of the taxes paid by the levered company is
+equal to:
+GL ¼ TaxesL =KTL ¼ T ECF=½ð1  TÞKe  ¼ T E=ð1  TÞ:
+
+ð14Þ
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+149
+
+The increase in the company’s value due to the use of debt is not the present value
+of tax shields due to interest payments, but rather the difference between Gu and GL ;
+which are the present values of two cash ﬂows with different risks
+VTS ¼ Gu  GL ¼ ½T=ð1  TÞðVu  EÞ:
+
+ð15Þ
+
+Because Vu  E ¼ D  VTS; we have
+VTS ¼ Value of tax shields ¼ DT:
+
+ð16Þ
+
+This result is far from being a new idea. Brealey and Myers (2000), Modigliani and
+Miller (1963), Taggart (1991), and Copeland et al. (2000), and many others report it.
+However, the way of deriving it is new. Most of these papers reach this result by
+arguing that the appropriate way of computing the value of the tax shield is to
+consider a certain ﬂow DT multiplied by some measure of cost of funds, a; and then
+discounting that ﬂow at the same rate a: At ﬁrst glance, a could be anything, related
+or unrelated to the company that we are valuing. Modigliani and Miller (1963) argue
+that a is the risk-free rate ðRF Þ: Myers (1974) assumes that a is the cost of debt ðKd Þ
+and says that the value of tax shields is the present value of the tax savings ðDKd TÞ
+discounted at the cost of debt ðKd Þ: I represent the value of tax shields as the
+difference between Gu and GL ; which are the present values of two cash ﬂows with
+different risks: the taxes paid by the unlevered company and the taxes paid by the
+levered company. In Section 4, I prove that the correct a is the required return to
+unlevered equity ðKu Þ:
+Eq. (16) is the difference between the present value of the taxes of the unlevered
+company, PV½Ku ; TaxesU ; and the present value of the taxes of the levered company,
+PV½Ke ; TaxesL :
+VTS ¼ PV½Ku ; TaxesU   PV½Ke ; TaxesL :
+
+ð17Þ
+
+The annual difference between the cash ﬂows to investors in a leveraged ﬁrm
+and the cash ﬂows to investors in an all-equity ﬁrm is precisely equal to the interest
+tax shield
+TaxesU  TaxesL ¼ DKd T:
+
+ð18Þ
+
+For perpetuities, and only for perpetuities, it can be argued that the risk of this
+difference is Kd : Therefore, the present value of this difference should be
+DKd T=Kd ¼ DT : But for growing companies, the risk of the interest tax shield is
+not Kd or Ku ; as will be seen in Section 4.
+
+3. Relation between the required return to assets ðKu Þ and the required return to equity
+ðKe Þ
+Knowing the value of tax shields in a perpetuity ðDTÞ; and considering that
+Vu ¼ FCF=Ku ; we can rewrite Eq. (1) as follows:
+E þ Dð1  TÞ ¼ FCF=Ku :
+
+ð19Þ
+
+ARTICLE IN PRESS
+150
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Taking into consideration that the relation between ECF and FCF for perpetuities
+is
+FCF ¼ ECF þ DKd ð1  TÞ
+
+ð20Þ
+
+and that E ¼ ECF=Ke ; we ﬁnd that the relation between the required return to assets
+ðKu Þ and the required return to equity ðKe Þ in a world without leverage costs is
+Ke ¼ Ku þ ðKu  Kd ÞDð1  TÞ=E:
+
+ð21Þ
+
+This relation can also be expressed in terms of the systematic risk of each cash
+ﬂow, i.e., the betas. The formulas relating the betas with the required returns are
+Ke ¼ RF þ bL PM ;
+
+Ku ¼ RF þ bu PM ;
+
+Kd ¼ RF þ bd PM :
+
+RF is the risk-free rate and PM is the market risk premium. The relation between
+the beta of the levered equity ðbL Þ; the beta of the unlevered equity ðbu Þ; and the beta
+of debt ðbd Þ is
+bL ¼ bu þ ðbu  bd ÞDð1  TÞ=E:
+
+ð22Þ
+
+4. The value of tax shields for growing perpetuities
+For growing perpetuities, we can calculate the value of taxes for the unlevered and
+levered ﬁrm. In the unlevered company with constant growth, the relation between
+taxes and free cash ﬂow is different from Eq. (9), obtained for perpetuities:
+TaxesU ¼ TPBTu ¼ T½FCF þ gðWCR þ NFAÞ=ð1  TÞ
+¼ T½FCF þ gðEbv þ DÞ=ð1  TÞ;
+
+ð23Þ
+
+where WCR represents net working capital requirements, NFA is net ﬁxed assets,
+Ebv is the equity book value, and g is the constant growth rate. For any company,
+WCR þ NFA ¼ Ebv þ D:
+From Eq. (23) we cannot establish any clear relation between the required return
+to taxes and the required return to assets ðKu Þ as we had done for perpetuities in
+Eq. (9) since taxes are no longer proportional to free cash ﬂow.
+Similarly, in the levered company with constant growth, the relation between taxes
+and equity cash ﬂow is different from Eq. (12) for perpetuities:
+TaxesL ¼ TðECF þ gEbv Þ=ð1  TÞ:
+
+ð24Þ
+
+Again, a clear relation cannot be established between the required return to taxes
+and the required return to equity as for perpetuities in Eq. (12).
+A derivation analogous to the one done in Section 2 for a perpetuity could be done
+for a growing ﬁrm in the extreme situation in which the ﬁrm is all-debt ﬁnanced. In
+this situation, ECF ¼ E ¼ 0; and all the risk of the assets is borne by the debt
+ðKd ¼ Ku Þ: In a growing perpetuity, the debt cash ﬂow is DKd  gD: As ECF ¼ 0;
+and Kd ¼ Ku ; free cash ﬂow in Eq. (24) is FCF ¼ DKd ð1  TÞ  gD: The debt cash
+ﬂow is DKu  gD ¼ FCF þ DTKu :
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+151
+
+If the ﬁrm is all-debt ﬁnanced, Ebv ¼ 0: In this situation, Eq. (23) is transformed
+into
+TaxesU ¼ T½FCF þ gðEbv þ DÞ=ð1  TÞ
+¼ T½DðKu  gÞ  DTKu þ gDÞ=ð1  TÞ ¼ DTKu
+
+ð25Þ
+
+and Eq. (24) is transformed into
+TaxesL ¼ TðECF þ gEbv Þ=ð1  TÞ ¼ 0:
+
+ð26Þ
+
+The appropriate discount rate for the taxes of the unlevered company is Ku because
+the unlevered taxes are proportional to the interest rate payments (in this case DKu ).
+Then Eq. (17) is transformed into
+VTS ¼ Gu  GL ¼ ½TaxesU =ðKTU  gÞ  ½TaxesL =ðKTL  gÞ
+¼ DTKu =ðKu  gÞ:
+
+ð27Þ
+
+Once again, the value of tax shields is not the present value of tax shields due to
+the payment of interest but rather the difference between Gu and GL ; which represent
+the present values of two cash ﬂows with different risk. The appropriate way to do an
+adjusted present value analysis with a growing perpetuity is to calculate the VTS as
+the present value of DTKu (not the interest tax shield) discounted at the unlevered
+cost of equity ðKu Þ:
+VTS ¼ PV½Ku ; DTKu :
+
+ð28Þ
+
+This result can be derived for the general case by noticing that the relation between
+the equity cash ﬂow of the unlevered ﬁrm and the free cash ﬂow in a company with
+an expected growth rate of g is
+Vu ¼ FCF=ðKu  gÞ:
+
+ð29Þ
+
+By substituting (29) into (1), we get
+E þ D ¼ FCF=ðKu  gÞ þ VTS:
+
+ð30Þ
+
+The relation between the equity cash ﬂow and the free cash ﬂow is
+FCF ¼ ECF þ DKd ð1  TÞ  gD:
+
+ð31Þ
+
+By substituting (31) into (30), we get
+E þ D ¼ ½ECF þ DKd ð1  TÞ  gD=ðKu  gÞ þ VTS:
+
+ð32Þ
+
+As ECF ¼ EðKe  gÞ; (32) can be rewritten as
+E þ D ¼ ½EðKe  gÞ þ DKd ð1  TÞ  gD=ðKu  gÞ þ VTS:
+
+ð33Þ
+
+Multiplying both sides of Eq. (33) by ðKu  gÞ; we get
+ðE þ DÞðKu  gÞ ¼ ½EðKe  gÞ þ DKd ð1  TÞ  gD þ VTSðKu  gÞ:
+
+ð34Þ
+
+Eliminating gðE þ DÞ on both sides of Eq. (34), we have
+ðE þ DÞKu ¼ ½EKe þ DKd ð1  TÞ þ VTSðKu  gÞ:
+
+ð35Þ
+
+ARTICLE IN PRESS
+152
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Eq. (35) can be rewritten as
+D½Ku  Kd ð1  TÞ  EðKe  Ku Þ ¼ VTSðKu  gÞ:
+
+ð36Þ
+
+Dividing both sides of Eq. (36) by D (debt value), we get,
+½Ku  Kd ð1  TÞ  ðE=DÞðKe  Ku Þ ¼ ðVTS=DÞðKu  gÞ:
+
+ð37Þ
+
+If ðE=DÞ is constant, the left-hand side of Eq. (36) does not depend on growth ðgÞ
+because for any growth rate ðE=DÞ; Ku ; Kd ; and Ke are constant. We know from
+Eq. (16) that for g ¼ 0; VTS ¼ DT: Then Eq. (37) applied to perpetuities ðg ¼ 0Þ is
+½Ku  Kd ð1  TÞ  ðE=DÞðKe  Ku Þ ¼ TKu :
+
+ð38Þ
+
+Subtracting (38) from (37), we get
+0 ¼ ðVTS=DÞðKu  gÞ  TKu : Solving for the present value of tax shields, we get
+VTS ¼ DTKu =ðKu  gÞ:
+
+ð280 Þ
+
+By substituting (28) into (35), we get Eq. (21). This implies that Eq. (21), which
+relates the cost of capital for the levered and unlevered ﬁrm, also applies to growing
+perpetuities. In fact, Eq. (21) also applies to the general case of any type of growth of
+the ﬁrm.
+An alternative way of deducing Eq. (28) is by noticing that Eq. (36) has to hold
+true when the company is all-debt ﬁnanced, that is, when E ¼ 0 and ECF ¼ 0 (the
+equity cash ﬂow is zero). In this extreme situation, all the risk of the assets is borne
+by the debt ðKd ¼ Ku Þ; and Eq. (36) is
+D½Ku  Ku ð1  TÞ ¼ VTSðKu  gÞ:
+
+ð39Þ
+
+Note that (39) is exactly the same as Eq. (28).
+Eq. (28) is valid if the cost of debt ðrÞ is equal to the required return to debt ðKd Þ:
+In this situation, the value of the debt ðDÞ is equal to the nominal or book value of
+the debt ðNÞ: When the value of the debt ðDÞ is not equal to the nominal or book
+value of the debt ðNÞ; Eq. (28) changes into
+VTS ¼ ½DTKu þ TðNr  DKd Þ=ðKu  gÞ:
+
+ð40Þ
+
+5. Comparison to alternative measures
+There is a considerable body of literature on the discounted cash ﬂow valuation of
+ﬁrms. This section addresses the most salient papers, concentrating particularly on
+those papers that propose alternative expressions for the value of tax shields (VTS).
+The main difference between all of these papers and the approach proposed above is
+that most previous papers calculate the value of tax shields as the present value of the
+tax savings due to the payment of interest. Instead, the correct measure of the value
+of tax shields is the difference between two present values: the present value of taxes
+paid by the unlevered ﬁrm and the present value of taxes paid by the levered ﬁrm. We
+will show how these proposed methods result in inconsistent valuations of the tax
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+153
+
+shield or an inconsistent relation between the cost of capital of the unlevered and
+levered ﬁrm.
+Modigliani and Miller (1958, 1963) study the effect of leverage on ﬁrm value.
+Their famous Proposition 1 states that, in the absence of taxes, the ﬁrm’s value is
+independent of its debt, i.e., E þ D ¼ Vu ; if T ¼ 0: In the presence of taxes and for
+the case of a perpetuity, but with zero risk of bankruptcy, they calculate the value of
+tax shields by discounting the present value of the tax savings due to interest
+payments on risk-free debt at the risk-free rate ðRF Þ; i.e., VTS ¼ PV½RF ; DTRF  ¼
+DT: As indicated above, this result is the same as our Eq. (16) for the case of
+perpetuities, but it is neither correct nor applicable for growing perpetuities.
+Modigliani and Miller explicitly ignore the issue of the riskiness of the cash ﬂows by
+assuming that the probability of bankruptcy was always zero.
+Myers (1974) introduces the APV (adjusted present value) method in which the
+value of the levered ﬁrm is equal to the value of the ﬁrm with no debt plus the present
+value of the tax savings due to the payment of interest. Myers proposes calculating the
+VTS by discounting the tax savings ðDTKd Þ at the cost of debt ðKd Þ: The argument is
+that the risk of the tax savings arising from the use of debt is the same as the risk of the
+debt. The value of tax shields is VTS ¼ PV½Kd ; DTKd : This approach has also been
+recommended in later papers in the literature, such as Luehrman (1997).
+Harris and Pringle (1985) propose that the present value of the tax savings due to
+the payment of interest should be calculated by discounting the interest tax savings
+ðKd TDÞ at the required return to unlevered equity ðKu Þ; i.e., VTS ¼ PV½Ku ; DKd T:
+Their argument is that the interest tax shields have the same systematic risk as the
+ﬁrm’s underlying cash ﬂows and, therefore, should be discounted at the required
+return to assets ðKu Þ: Furthermore, Harris and Pringle believe that ‘‘the MM position
+is considered too extreme by some because it implies that interest tax shields are no
+more risky than the interest payments themselves’’ (p. 242). Ruback (1995, 2002),
+Kaplan and Ruback (1995), Brealey and Myers (2000, p. 555), and Tham and Ve! lezPareja (2001), this last paper following an arbitrage argument, also claim that the
+appropriate discount rate for tax shields is Ku ; the required return to unlevered equity.
+Ruback (2002) presents the Capital Cash Flow (CCF) method and claims that the
+appropriate discount rate is Ku ; Arditti and Levy (1977) suggested that the ﬁrm’s
+value could be calculated by discounting the capital cash ﬂows instead of the free
+cash ﬂow. The capital cash ﬂows are the cash ﬂows available for all holders of the
+company’s securities, whether debt or equity, and are equivalent to the equity cash
+ﬂows plus the cash ﬂows corresponding to the debt holders. The capital cash ﬂow is
+also equal to the free cash ﬂow plus the interest tax shield ðDKd TÞ: According to the
+capital cash ﬂow (CCF) method, the value of the debt today ðDÞ plus that of
+the shareholders’ equity ðEÞ is equal to the capital cash ﬂow (CCF) discounted at the
+weighted average cost of capital before tax ðWACCBT Þ:
+E þ D ¼ PV½WACCBT ; CCF:
+
+ð41Þ
+
+The deﬁnition of WACCBT is
+WACCBT ¼ ðEKe þ DKd Þ=ðE þ DÞ
+
+ð42Þ
+
+ARTICLE IN PRESS
+154
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+because (42) is the discount rate that ensures that the value of the company obtained
+using the following two expressions is the same:
+PV½WACCBT ; CCF ¼ PV½WACC; FCF:
+
+ð43Þ
+
+But Ruback (1995, 2002) assumes that WACCBT ¼ Ku : With this assumption,
+Ruback gets the same valuation as Harris and Pringle (1985) because
+E þ D ¼ PV½Ku ; CCF ¼ PV½Ku ; FCF þ PV½Ku ; DKd T
+¼ Vu þ PV½Ku ; DKd T:
+
+ð44Þ
+
+Note that PV½Ku ; DKd T is the VTS according to Harris and Pringle (1985).
+Ruback (2002, p. 91) also shows that the relation between the beta of the levered
+equity ðbL Þ; the beta of the unlevered equity ðbu Þ; and the beta of debt ðbd Þ consistent
+with (44) is
+bL ¼ bu þ ðbu  bd ÞD=E:
+
+ð45Þ
+
+Therefore, all of Ruback’s results (the relation between bL and bu using no taxes,
+and Ku being the appropriate discount rate for capital cash ﬂows) come from his
+method of estimating VTS, which is the same as that of Harris and Pringle.
+The enterprise value ðE þ DÞ according to my proposed method is
+E þ D ¼ Vu þ PV½Ku ; DKu T ¼ PV½Ku ; FCF þ DKu T:
+
+ð46Þ
+1
+
+The difference between this method and Ruback’s is PV½Ku ; DðKu  Kd ÞT:
+A large part of the literature argues that the value of tax shields should be
+calculated in a different manner depending on the debt strategy of the ﬁrm. A ﬁrm
+that wishes to keep a constant D=E ratio must be valued in a different manner from
+a ﬁrm that has a preset level of debt. Miles and Ezzell (1980) indicate that for a ﬁrm
+with a ﬁxed debt target (i.e., a constant ½D=ðD þ EÞ ratio), the correct rate for
+discounting the tax savings due to debt is Kd for the ﬁrst year and Ku for the tax
+savings in later years. Lewellen and Emery (1986) also claim that this one is the most
+logically consistent method. Although Miles and Ezzell do not mention what the
+value of tax shields should be, this can be inferred from their equation relating the
+required return to equity with the required return for the unlevered company in
+Eq. (22) in their paper. This relation implies that VTS ¼ PV½Ku ; DTKd ð1 þ Ku Þ=ð1 þ
+Kd Þ: Inselbag and Kaufold (1997), and Ruback (2002) argue that if the ﬁrm targets
+the dollar values of debt outstanding, the VTS is given by the Myers (1974) formula.
+However, if the ﬁrm targets a constant debt/value ratio, the value of the tax shields
+should be calculated according to Miles and Ezzell (1980). Finally, Taggart (1991)
+proposes to use Miles and Ezzell (1980) if the company adjusts to its target debt ratio
+once a year and Harris and Pringle (1985) when the company continuously adjusts to
+its target debt ratio.
+Damodaran (1994, p. 31) argues that if all the business risk is borne by the equity,
+then the formula relating the levered beta ðbL Þ with the asset beta ðbu Þ is
+1
+If we start with the leverage beta of a company and we unlever that beta, Eqs. (44) and (46) provide the
+same answer only if the debt/equity ratio of the company from which we take the levered beta equals the
+debt/equity ratio of the company we are valuing.
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+155
+
+bL ¼ bu þ ðD=EÞbu ð1  TÞ: This formula is exactly the formula in Eq. (22) assuming
+that bd ¼ 0: One interpretation of this assumption is (Damodaran, 1994, p. 31) that
+‘‘all of the ﬁrm’s risk is borne by the stockholders (i.e., the beta of the debt is zero).’’
+In some cases, it can be reasonable to assume that the debt has a zero beta. But then,
+as assumed by Modigliani and Miller (1963) the required return to debt should be the
+risk-free rate. This relation for the levered beta appears in many ﬁnance books and is
+widely used by many consultants and investment bankers as an attempt to introduce
+some leverage cost in the valuation: for a given risk of the assets ðbu Þ; this formula
+results in a bL that is higher (and consequently Ke is higher and results in a lower
+equity value) than with Eq. (22). In general, it is hard to accept that the debt has no
+risk and that the return on the debt is uncorrelated with the return on assets of the
+ﬁrm. From Damodaran’s expression for bL it is easy to deduce the relation between
+the required return to equity and the required return to assets, i.e., Ke ¼ Ku þ
+ðD=EÞð1  TÞðKu  RF ). Although Damodaran does not mention what the value of
+tax shields should be, his formula relating the levered beta with the asset beta implies
+that the value of tax shields is VTS ¼ PV½Ku ; DTKu  DðKd  RF Þð1  TÞ:
+Finally, a common way of calculating the levered beta with respect to the asset
+beta (often used by consultants and investment banks) is the following (see, e.g.,
+Ruback, 1995, p. 5):
+bL ¼ bu ð1 þ D=EÞ:
+
+ð47Þ
+
+It is obvious that given the same value for bu ; a higher bL (and a higher Ke and a
+lower equity value) is obtained than according to Eq. (22) or according to
+Damodaran (1994).2 Formula (47) relating the levered beta with the asset beta
+implies that the value of tax shields is VTS ¼ PV½Ku ; DTKd  DðKd  RF )]. Given its
+widespread use in the industry, we will call this method the Practitioners’
+method.
+Given the large number of alternative methods existing in the literature to
+calculate the value of tax shields, Copeland et al. (2000, p. 482) assert that ‘‘the
+ﬁnance literature does not provide a clear answer about which discount rate for the
+tax beneﬁt of interest is theoretically correct.’’ They further conclude, ‘‘We leave it to
+the reader’s judgment to decide which approach best ﬁts his or her situation.’’
+We propose two ways to compare and differentiate among the different
+approaches. One way is to calculate the value of tax shields for perpetuities
+according to the different approaches. A second way is to check the implied relation
+between the unlevered and levered cost of equity in each of the different approaches.
+The levered cost of equity should always be higher than the cost of assets ðKu Þ; since
+equity cash ﬂows are riskier than the free cash ﬂows.
+Table 1 summarizes the implications of these approaches for the value of tax
+shields in perpetuities. Table 2 summarizes the implications for the relation between
+2
+
+We interpret Eq. (47) as an attempt to introduce still higher leverage cost in the valuation. For a given
+risk of the assets ðbu Þ; by using Eq. (47) we obtain a higher bL (and consequently a higher Ke and a lower
+equity value) than with the approach of Damodaran (1994) or Eq. (22). Damodaran and practitioners
+impose a cost of leverage, but they do so in an ad hoc way.
+
+ARTICLE IN PRESS
+156
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Table 1
+Comparison of value of tax shields (VTS) in perpetuities
+Only three out of the seven approaches compute correctly the value of the tax shield in perpetuities as DT.
+The other four theories imply a lower value of the tax shield than DT.
+Theories
+Correct method
+Damodaran (1994)
+Practitioners
+Harris and Pringle (1985), Ruback (1995)
+Myers (1974)
+Miles and Ezzell (1980)
+Modigliani and Miller (1963)
+
+VTS
+
+VTS in perpetuities
+
+(28) PV½Ku ; DTKu 
+PV½Ku ; DTKu  DðKd  RF Þð1  TÞ
+PV½Ku ; DTKd  DðKd  RF Þ
+PV½Ku ; DTKd 
+PV½Kd ; DTKd 
+PV½Ku ; DTKd ð1 þ Ku Þ=ð1 þ Kd Þ
+PV½RF ; DTRF 
+
+DT
+oDT
+oDT
+oDT
+DT
+oDT
+DT
+
+Note: Ku ¼ unlevered cost of equity; Kd ¼ required return to debt; T ¼ corporate tax rate; D ¼ debt
+value; RF ¼ risk-free rate; PV½Ku ; DTKu  ¼ present value of DTKu discounted at the rate Ku :
+
+Table 2
+Comparison of the relation between Ke (levered cost of equity) and Ku (unlevered cost of equity) for
+growing perpetuities
+The approaches of Modigliani and Miller (1963) and Myers (1974) do not always result in a higher cost of
+equity ðKe Þ than cost of assets ðKu Þ: Myers (1974) obtains Ke lower than Ku if the value of tax shields is
+higher than the value of debt. This happens when the growth rate ðgÞ is higher than the after-tax cost of
+debt, i.e., g > Kd ð1  TÞ: Modigliani and Miller (1963) also provide the inconsistent result of Ke being
+lower than Ku if the value of tax shields is higher than D½Ku  Kd ð1  TÞ=ðKu  gÞ: This happens when
+leverage, the tax rate, the cost of debt, or the market risk premium are high.
+Theories
+Correct method
+Damodaran (1994)
+Practitioners
+Harris and Pringle
+(1985),
+Ruback (1995)
+Myers (1974)
+Miles and Ezzell (1980)
+Modigliani and Miller
+(1963)
+
+Ke (levered cost of equity)
+
+Ke oKu
+
+(21) Ke ¼ Ku þ ðD=EÞð1  TÞðKu  Kd Þ
+Ke ¼ Ku þ ðD=EÞð1  TÞðKu  RF Þ
+Ke ¼ Ku þ ðD=EÞðKu  RF Þ
+Ke ¼ Ku þ ðD=EÞðKu  Kd Þ
+
+No
+No
+No
+No
+
+Ke ¼ Ku þ ðD  VTSÞðKu  Kd Þ=E
+
+Yes,
+if g > Kd ð1  TÞ
+No
+
+
+
+D
+TKd
+Ke ¼ Ku þ ðKu  Kd Þ 1 
+E
+1 þ Kd
+
+
+D
+VTS a
+Ku  Kd ð1  TÞ  ðKu  gÞ
+Ke ¼ Ku þ
+E
+D
+
+Yes,
+if VTS > D½Ku  Kd ð1 
+TÞ=ðKu  gÞ
+
+Note: D ¼ debt value; E ¼ equity value; g ¼ growth rate; Kd ¼ required return to debt; RF ¼ risk-free
+rate; T ¼ corporate tax rate; VTS ¼ value of tax shields.
+a
+Valid only for growing perpetuities.
+
+the cost of assets and the cost of equity in growing perpetuities. Table 1 shows that
+only three out of the seven approaches compute the value of tax shield in perpetuities
+as DT. The other four approaches imply a lower value of tax shields than DT.
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+157
+
+Table 2 shows that not all of the approaches also satisfy the relation between the cost
+of equity and the cost of assets. The Modigliani and Miller (1963) and Myers (1974)
+approaches do not always give a higher cost of equity than a cost of assets. Myers
+obtains Ke lower than Ku if the value of the tax shields is higher than the value of
+debt. This happens when DTKd =ðKd  gÞ > D; that is, when the growth rate is higher
+than the after-tax cost of debt: g > Kd ð1  TÞ: Please note also that in this situation,
+as the value of tax shields is higher than the value of debt, the equity ðEÞ is worth
+more than the unlevered equity ðVu Þ: This hardly makes any economic sense.
+Modigliani and Miller also provides the inconsistent result of Ke being lower than Ku
+if the value of the tax shields is higher than D½Ku  Kd ð1  TÞ=ðKu  gÞ: This
+happens when either the leverage, the tax rate, the cost of debt, or the market risk
+premium are high. The only approach that provides consistent results for both of
+these cases is the one proposed above.
+Appendix A is a compendium of the main valuation formulae according to the
+different theories.
+
+6. An example of a perpetuity
+In this section, I provide a numerical example of how to calculate the value of tax
+shield for a simple ﬁrm under the different approaches. Let us start by assuming that
+the cash ﬂows generated by the company are perpetual and constant (there is no
+growth). The company must invest to maintain its assets at a level that enables it to
+ensure constant cash ﬂows: this implies that the book depreciation is equal to the
+replacement investment. The ﬁrm’s balance sheet, income statement, cash ﬂows, and
+other valuation parameters are shown in Table 3. The breakdown of the value of the
+unlevered and levered companies between all the stakeholders in the ﬁrm is
+summarized in Fig. 1. The company has three main stakeholders: shareholders,
+bondholders, and the government. The value of the tax shield is exactly the
+difference between the present value of the government claim of the levered ﬁrm and
+the present value of the government claim of the unlevered ﬁrm.
+Table 4 reports the estimated value of the equity for the levered ﬁrm, the present
+value of tax shields, the cost of equity, the WACC for the levered and unlevered ﬁrm,
+and the implied value of the levered beta for each of the seven approaches. My
+proposed method, Modigliani and Miller (1963), and Myers (1974) all compute the
+value of tax shield to be $200 ðDT ¼ 500 	 0:4 ¼ 200Þ: All the other methods result
+in a value of the tax shield that is too low.
+Now let us assume that this hypothetical ﬁrm grows at a constant rate of 5%, i.e.,
+g ¼ 5%: The ﬁrm’s balance sheet, income statement, cash ﬂows and other valuation
+parameters are in Table 5. Note that the balance sheet and the income statement are
+identical to those in Table 3 (without growth). However, the cash ﬂows vary.
+Table 6 reports the estimated value of the equity for the levered ﬁrm, the present
+value of tax shields, the cost of equity, the WACC, the WACC before taxes, the
+implied value of the levered beta, and the debt-to-equity ratio for each of the seven
+approaches. My proposed method computes the value of the tax shield at $400. The
+
+ARTICLE IN PRESS
+158
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Table 3
+Valuation of a hypothetical ﬁrm without growth: balance sheet, income statement, cash ﬂows and
+valuations
+This table presents the valuation of a hypothetical ﬁrm without growth using APV (adjusted present
+value). The table also shows that four alternative valuations (equity cash ﬂows discounted at the required
+return to equity, free cash ﬂows discounted at the WACC, capital cash ﬂows discounted at the WACC
+before taxes, and value of tax shields as the difference of two net present values) provide the same
+valuation. As shown in Fernandez (2002, Chapter 21), the APV provides the same value as the other most
+commonly used methods for valuing companies by cash ﬂow discounting.
+Balance sheet
+Working capital
+requirements (WCR)
+Net ﬁxed assets
+TOTAL ASSETS
+Debt ðDÞ
+Capital (book value)
+
+T ¼ corporate tax rate ¼
+40%
+Kd ¼ cost of debt ¼ 7%
+
+t¼0
+0
+2000
+2000
+500
+1500
+
+P&L
+
+t¼1
+
+Cash ﬂows
+
+EBITDA
+
+520
+
+Proﬁt after tax (PAT)
+
+171
+
+Depreciation
+EBIT
+
+200
+320
+
+þ Depreciation
+þ increase of Debt
+
+200
+0
+
+35
+
+ increase of WCR
+
+285
+
+ investments in
+ﬁxed assets
+ECF (equity cash
+ﬂow)
+FCF (free cash ﬂow)
+
+Interest paid ðIÞ ¼
+DKd
+Proﬁt before tax
+(PBT)
+Taxes (40%)
+
+114
+
+Proﬁt after tax (PAT)
+
+171
+
+t¼1
+
+0
+200
+
+CCF (capital cash
+ﬂow)
+
+171
+192
+206
+
+Valuation parameters:
+g ¼ growth rate ¼ 0%; RF ¼ risk-free rate ¼ 6%; bu ¼ unlevered beta ¼ 1:00
+PM ¼ market risk premium ¼ 4%; Ku ¼ unlevered cost of equity ¼ 6% þ 1:00 	 4% ¼ 10%
+Valuation. APV (Adjusted present value)
+Vu ¼ value of unlevered company ¼ FCF=Ku ¼ 192=0:1 ¼ 1920
+Using Eq. (16), VTS ¼ DT ¼ 500 	 0:4 ¼ 200: Using Eq. (1), E þ D ¼ Vu þ VTS ¼ 1920 þ 200 ¼ 2120
+Four alternative valuation methods
+Alternative 1. Equity cash flows discounted at the required return to equity ðKe Þ
+Using Eq. (21), Ke ¼ Ku þ ðKu  Kd ÞDð1  TÞ=E ¼ 0:1 þ ð0:1  0:07Þ500 	 0:6=E ¼ 0:1 þ 9=E
+E ¼ ECF=Ke ¼ 171=ð0:1 þ 9=EÞ: 0:1E þ 9 ¼ 171: E ¼ 1620: Ke ¼ 10:556%: E þ D ¼ 1620 þ 500 ¼
+2120
+Alternative 2. Free cash flows discounted at the WACC
+WACC ¼ ½EKe þ DKd ð1  TÞ=ðE þ DÞ ¼ ½1620 	 0:10556 þ 500 	 0:07 	 ð1  0:4Þ=ð1620 þ 500Þ ¼
+9:057%
+E þ D ¼ FCF=WACC ¼ 192=0:09057 ¼ 2120
+Alternative 3. Capital cash flows discounted at the WACCBT
+WACCBT ¼ ðEKe þ DKd Þ=ðE þ DÞ ¼ ð1620 	 0:10556 þ 500 	 0:07Þ=ð1620 þ 500Þ ¼ 9:717%
+CCF ðCapital cash flowÞ ¼ ECF þ debt cash flow ¼ 171 þ 35 ¼ 206
+E þ D ¼ CCF=WACCBT ¼ 206=0:09717 ¼ 2120
+Alternative 4. VTS ¼ Gu  GL ¼ present value of the taxes paid by the unlevered company 
+present value of the taxes paid by the levered company
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+159
+
+Table 3. (Continued)
+Using Eq. (9), TaxesU ¼ taxes paid by the unlevered firm ¼ TFCF=ð1  TÞ ¼ 0:4 	 192=0:6 ¼ 128
+Using Eq. (10), KTU ¼ required return to tax in the unlevered company ¼ Ku ¼ 10%
+Using Eq. (11), Gu ¼ present value of the taxes paid by the unlevered company ¼ TaxesU =KTU ¼
+128=0:1 ¼ 1280
+From Eq. (13), KTL ¼ required return to tax in the levered company ¼ Ke ¼ 10:556%
+Using Eq. (14), GL ¼ present value of the taxes paid by the levered company ¼ TaxesL =KTL ¼
+114=0:10556 ¼ 1080
+Using Eq. (4), VTS ðvalue of tax shieldsÞ ¼ Gu  GL ¼ 1280  1080 ¼ 200
+Using Eq. (1), E þ D ¼ Vu þ VTS ¼ 1920 þ 200 ¼ 2120
+
+Unlevered company
+Without taxes
+With taxes
+
+Levered company with taxes
+
+GL
+1,080
+
+Gu
+1,280
+FCFo/Ku
+
+3,200
+
+VTS
+
+Vu = FCF/Ku
+1,920
+
+E + D = Vu + VTS.
+
+GL
+1,080
+
+D = 500
+
+E = ECF / Ke
+1,620
+
+E+D=
+= FCF / WACC
+= CCF / WACC BT
+2,120
+
+1,620 + 500 = 1,920 + 200 = 2,120
+
+Fig. 1. Distribution of the company’s total value between shareholders, bondholders, and the government
+for the example of Table 3. The value of tax shields (VTS) is the difference between two present
+values (PV) of two cash ﬂows with different risk: the PV of the taxes paid in the unlevered company ðGu Þ
+and the PV of the taxes paid in the levered company ðGL Þ: VTS ¼ Gu  GL ¼ 1280  1080 ¼ 200:
+CCF ¼capital cash ﬂow ¼ 206; D ¼value of the debt¼ 500; E ¼ value of equity¼ 1620; ECF ¼equity
+cash ﬂow ¼ 171; FCF ¼ free cash ﬂow¼ 192; FCF0 ¼free cash ﬂow if there were no taxes ¼ 320;
+Kd ¼required return to debt¼ 7%; Ke ¼ levered cost of equity ¼ 10:556%; Ku ¼unlevered cost of
+equity¼ 10%; WACC ¼weighted average cost of capital¼ 9:057%; WACCBT ¼weighted average cost of
+capital before taxes ¼ 9:717%:
+
+methods of Modigliani and Miller (1963) and Myers (1974) result in a value of the
+tax shields that is too high (even higher than the debt value) and, correspondingly, a
+higher value of equity than the correct one. Please recall that these two methods were
+the only methods that for the case of a constant perpetuity computed the same value
+of the tax shield. Furthermore, these two methods reach the implausible conclusion
+that the beta for the levered ﬁrm should be lower than the beta for the unlevered ﬁrm
+(see the ﬁfth column of Table 6). All the other methods result in a value of the
+estimated tax shield in line with their results for the case of constant perpetuities, i.e.,
+their estimate of the value of the tax shield is too low. As we assume that the value of
+debt is 500 in both the growth example and the no-growth example, the debt/equity
+
+160
+
+Modigliani and Miller
+Myers
+Correct formula
+Damodaran
+Miles and Ezzell
+Harris, Pringle and Ruback
+Practitioners
+
+VTS
+value of tax
+shields
+
+E
+equity value
+
+Ke
+levered cost
+of equity (%)
+
+Beta levered
+
+D=E
+Debt to
+equity ratio (%)
+
+WACC
+weighted average
+cost of capital (%)
+
+WACCBT
+WACC
+before taxes (%)
+
+200.00
+200.00
+200.00
+170.00
+143.93
+140.00
+90.00
+
+1620.00
+1620.00
+1620.00
+1590.00
+1563.93
+1560.00
+1510.00
+
+10.56
+10.56
+10.56
+10.75
+10.93
+10.96
+11.32
+
+1.138889
+1.138889
+1.138889
+1.188679
+1.233507
+1.240385
+1.331126
+
+30.86
+30.86
+30.86
+31.45
+31.97
+32.05
+33.11
+
+9.057
+9.057
+9.057
+9.187
+9.303
+9.320
+9.552
+
+9.717
+9.717
+9.717
+9.856
+9.981
+10.000
+10.249
+
+ARTICLE IN PRESS
+
+g ¼ 0% (no growth)
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Table 4
+Value of tax shields (VTS) for a hypothetical ﬁrm with no growth: application of the seven theories to the example in Table 3. Beta unlevered ¼ 1; Ku ¼
+10%; D ¼ 500
+Modigliani and Miller (1963), Myers (1974), and I compute the value of the tax shield equal to 200 ðD=T ¼ 500 	 0:4 ¼ 200Þ; the correct value. All the other
+methods result in a value of the tax shield that is too low.
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+161
+
+Table 5
+Valuation of a hypothetical ﬁrm with growth: Balance sheet, income statement, cash ﬂows, and valuation
+This table presents the valuation of a hypothetical ﬁrm with 5% growth using APV (adjusted present
+value). Three alternative valuations (equity cash ﬂows discounted at the required return to equity, free cash
+ﬂows discounted at the WACC, and capital cash ﬂows discounted at the WACC before taxes) provide the
+same valuation.
+Balance sheet
+
+t¼0 P&L
+
+t ¼ 1 Cash ﬂows
+
+Working capital requirements
+Net ﬁxed assets
+TOTAL ASSETS
+
+0
+2000
+2000
+
+EBITDA
+Depreciation
+EBIT
+
+520
+200
+320
+
+Debt ðDÞ
+Capital (book value)
+
+500
+1500
+
+Interest payments 35
+Taxes (40%)
+114
+Net income
+171
+
+T ¼ corporate tax rate ¼ 40%
+Kd ¼ cost of debt ¼ 7%
+
+t¼1
+
+Net income
+þ Depreciation
+þ increase of Debt
+
+171
+200
+25
+
+ increase of WCR
+0
+ investments in ﬁxed assets 300
+ECF (equity cash ﬂow)
+96
+FCF (free cash ﬂow)
+CFd (debt cash ﬂow)
+CCF (capital cash ﬂow)
+
+92
+10
+106
+
+Valuation parameters
+g ¼ growth rate ¼ 5%; RF ¼ risk-free rate ¼ 6%; bu ¼ unlevered beta ¼ 1:00; PM ¼
+market risk premium ¼ 4%; Ku ¼ unlevered cost of equity ¼ 6% þ 1:00 	 4% ¼ 10%
+Valuation 1. APV (Adjusted present value)
+Using Eq. (29) Vu ¼ value of unlevered company ¼ FCF=ðKu  gÞ ¼ 92=ð0:1  0:05Þ ¼ 1840
+Using Eq. (27) VTS ¼ value of tax shields ¼ DTKu =ðKu  gÞ ¼ 500 	 0:4 	 0:1=ð0:1  0:05Þ ¼ 400
+Using Eq. (1) E þ D ¼ Vu þ VTS ¼ 1840 þ 400 ¼ 2240
+Three alternative valuation methods
+Alternative 1. Equity cash flows discounted at the required return to equity ðKe Þ
+Using Eq. (21), Ke ¼ Ku þ ðKu  Kd ÞDð1  TÞ=E ¼ 0:1 þ ð0:1  0:07Þ500 	 0:6=E ¼ 0:1 þ 9=E
+E ¼ ECF=ðKe  gÞ ¼ 96=ð0:1 þ 9=E  0:05Þ: 0:05E þ 9 ¼ 96: E ¼ 1740: Ke ¼ 10:517%
+Alternative 2. Free cash flows discounted at the WACC
+WACC ¼ ½EKe þ DKd ð1  TÞ=ðE þ DÞ ¼ ½1740 	 0:10517 þ 500 	 0:07 	 ð1  0:4Þ=ð1740 þ 500Þ ¼
+9:107%
+E þ D ¼ FCF=ðWACC  gÞ ¼ 92=ð0:09107  0:05Þ ¼ 2240
+Alternative 3. Capital cash flows discounted at the WACCBT
+WACCBT ¼ ðEKe þ DKd Þ=ðE þ DÞ ¼ ð1740 	 0:10517 þ 500 	 0:07Þ=ð1740 þ 500Þ ¼ 9:732%
+CCF ðCapital cash flowÞ ¼ ECF þ debt cash flow ¼ 96 þ 10 ¼ 106
+E þ D ¼ CCF=ðWACCBT  gÞ ¼ 106=ð0:09732  0:05Þ ¼ 2240
+
+ratio is lower with growth because equity is higher. For this reason, the WACC of
+the growing ﬁrm (Table 6) is higher than the WACC of the ﬁrm with no growth
+(Table 4).
+One could say, ‘‘In practice I do not see why the approach of working out the
+present value of tax shields themselves would necessarily be wrong, provided
+
+162
+
+VTS
+value of tax
+shields
+
+Modigliani and Miller
+Myers
+Correct formula
+Damodaran
+Miles-Ezzell
+Harris, Pringle, and Ruback
+Practitioners
+
+1200.00
+700.00
+400.00
+340.00
+287.85
+280.00
+180.00
+
+E
+equity value
+2540.00
+2040.00
+1740.00
+1680.00
+1627.85
+1620.00
+1520.00
+
+Ke
+levered cost
+of equity (%)
+8.78
+9.71
+10.52
+10.71
+10.90
+10.93
+11.32
+
+Beta levered
+
+D=E
+Debt to
+equity ratio (%)
+
+WACC
+weighted average
+cost of capital (%)
+
+WACCBT
+WACC
+before taxes (%)
+
+0.694882
+0.926471
+1.129310
+1.178571
+1.224337
+1.231481
+1.328947
+
+19.69
+24.51
+28.74
+29.76
+30.72
+30.86
+32.89
+
+8.026
+8.622
+9.107
+9.220
+9.324
+9.340
+9.554
+
+8.487
+9.173
+9.732
+9.862
+9.982
+10.000
+10.248
+
+ARTICLE IN PRESS
+
+g ¼ 5%
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Table 6
+Value of tax shields (VTS) for a hypothetical ﬁrm with constant growth: application of the seven theories to the example of Table 5. Beta unlevered ¼
+1; Ku ¼ 10%; g ¼ 5%
+My method computes the value of the tax shield equal to $400. The methods of Modigliani and Miller (1963) and Myers (1974) result in a value of the tax
+shield that is too high (even higher than the debt value). All the other methods result in a value of the estimated tax shield that is too low.
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+163
+
+the appropriate discount rate were used (reﬂecting the riskiness of the tax shields).’’
+The problem is that it is hard to evaluate the riskiness of tax shield because it is
+the difference between two present ﬂows (the taxes paid by the unlevered company
+and those paid by the levered company) with different risk. On the other hand, if we
+were to follow this approach, we could calculate the discount rate K  that
+accomplishes
+VTS ¼ DTKu =ðKu  gÞ ¼ DTKd =ðK   gÞ:
+
+ð48Þ
+
+The solution is K  ¼ Kd þ g  Kd g=Ku : Unfortunately, this expression does not lend
+itself to intuition.
+
+7. Conclusions
+This paper shows that the increase in a company’s value due to the use of debt is
+not the present value of tax shields due to interest payments. It is the difference
+between the present value of the taxes of the unlevered company and the present
+value of the taxes of the levered company, which represent two separate cash ﬂows
+each with their own risk. The issue of the riskiness of the taxes for both the unlevered
+and the levered company is addressed. In perpetuities, the required return to tax in
+the unlevered company is equal to the required return to equity in the unlevered
+company, and the required return to tax in the levered company is equal to the
+required return to equity.
+The value of tax shields is the present value of the debt times the tax rate times the
+required return to the unlevered equity, all discounted at the unlevered cost of
+equity. For a constant perpetuity, this results in a value of the tax shield equal to
+the value of debt times the tax rate. For the case of growing perpetuities, this
+number is lower than that proposed by either Myers (1974) or Modigliani and
+Miller (1963).
+The paper also shows that some of the alternative approaches suggested in the
+literature lead to inconsistent results. In particular, discounting tax shields at the cost
+of debt (Myers, 1974; Brealey and Myers, 2000; and many others) or at the risk-free
+rate (Modigliani and Miller, 1963) can result in estimating a lower cost of equity to
+the levered ﬁrm than that of the unlevered ﬁrm for growing perpetuities. This seems
+clearly unreasonable. On the other hand, to discount tax shields at the required
+return to unlevered equity, as suggested by Harris and Pringle (1985), Miles and
+Ezzell (1980), and Ruback (2002), results in an estimated value of tax shields that is
+too low.
+
+Appendix A
+Table A.1 shows the main valuation theories according to the different theories.
+
+164
+
+Theories
+Correct
+
+VTS
+
+Ke
+
+PV½Ku ; DTKu  DðKd  RF Þð1  TÞ
+
+Ke ¼ Ku þ ðD=EÞð1  TÞðKu  RF Þ
+
+PV½Ku ; TDKd  DðKd  RF Þ
+
+Ke ¼ Ku þ ðD=EÞðKu  RF Þ
+
+D
+bL ¼ bu þ bu (47)
+E
+
+RF  Kd ð1  TÞ
+Ku  D
+ðE þ DÞ
+
+Harris and
+
+PV½Ku ; TDKd 
+
+Ke ¼ Ku þ ðD=EÞðKu  Kd Þ
+
+D
+bL ¼ bu þ ðbu  bd Þ (45)
+E
+
+Kd T
+Ku  D
+ðE þ DÞ
+
+Pringle
+
+bL ¼ bu þ
+
+bL ¼ bu þ
+
+Dð1  TÞ
+bu
+E
+
+WACCBT
+
+Ku þ
+
+DðKd  RF Þ
+ðE þ DÞ
+Ku
+
+(1985),
+Ruback
+(1995, 2002)
+D  DVTS
+bL ¼ bu þ
+ðbu  bd Þ
+E
+
+
+
+
+Miles and
+PV½Ku ; TDKd ð1 þ Ku Þ=ð1 þ Kd Þ
+D
+TKd
+D
+TKd
+Ke ¼ Ku þ ðKu  Kd Þ 1 
+bL ¼ bu þ ðbu  bd Þ 1 
+E
+E
+1
+þ
+K
+1
+þ
+K
+d
+d
+Ezzell (1980)
+
+
+
+
+Modigliani and
+PV½RF ; DTRF 
+D
+VTS a
+D
+TKd VTSðKu  gÞ a
+Ke ¼ Ku þ
+bL ¼ bu þ
+
+Ku  Kd ð1  TÞ  ðKu  gÞ
+bu  bd þ
+E
+D
+E
+DP
+P
+M
+M
+Miller (1963)
+Myers (1974)
+
+a
+
+PV½Kd ; TDKd 
+
+Valid only for growing perpetuities.
+
+Ke ¼ Ku þ ðD  VTSÞðKu  Kd Þ=E
+
+Ku 
+
+DVTSðKu  Kd Þ þ DKd T
+ðE þ DÞ
+
+Kd T 1 þ Ku
+Ku  D
+ðE þ DÞ 1 þ Kd
+DKu  ðKu  gÞVTSa
+ðE þ DÞ
+
+Ku 
+Ku 
+
+DVTSðKu  Kd Þ
+ðE þ DÞ
+
+DTKd ðKu  Kd Þ
+ðE þ DÞ ð1 þ Kd Þ
+
+DKu  ðKu  gÞVTS þ DTKd a
+ðE þ DÞ
+
+ARTICLE IN PRESS
+
+Ke ¼ Ku þ ðD=EÞð1  TÞðKu  Kd Þ (21)
+
+(1994)
+Practitioners
+
+Dð1  TÞ
+ðbu  bd Þ (22)
+E
+
+WACC
+
+
+
+DTðKu  Kd Þ
+DT
+Ku 
+Ku 1 
+ðE þ DÞ
+EþD
+
+
+TðKu  RF Þ  ðKd þ RF Þ
+DT
+ðKd  RF Þð1  TÞ
+Ku  D
+þD
+Ku 1 
+ðE þ DÞ
+EþD
+ðE þ DÞ
+
+PV½Ku ; DTKu  (28)
+
+method
+Damodaran
+
+bL
+
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+Table A.1
+Main valuation formulas. Market value of the debt ¼ Nominal value
+
+ARTICLE IN PRESS
+P. Fernandez / Journal of Financial Economics 73 (2004) 145–165
+
+165
+
+References
+Arditti, F.D., Levy, H., 1977. The weighted average cost of capital as a cutoff rate: a critical examination
+of the classical textbook weighted average. Financial Management (Fall), 24–34.
+Brealey, R.A., Myers, S.C., 2000. Principles of Corporate Finance, 6th Edition. McGraw-Hill, New York.
+Copeland, T.E., Koller, T., Murrin, J., 2000. Valuation: Measuring and Managing the Value of
+Companies, 3rd Edition. Wiley, New York.
+Damodaran, A., 1994. Damodaran on Valuation. Wiley, New York.
+Fernandez, P., 2002. Valuation Methods and Shareholder Value Creation. Academic Press, San Diego,
+CA.
+Harris, R.S., Pringle, J.J., 1985. Risk-adjusted discount rates extensions form the average-risk case.
+Journal of Financial Research 8, 237–244.
+Inselbag, I., Kaufold, H., 1997. Two DCF approaches for valuing companies under alternative ﬁnancing
+strategies and how to choose between them. Journal of Applied Corporate Finance 10, 114–122.
+Kaplan, S., Ruback, R., 1995. The valuation of cash ﬂow forecast: an empirical analysis. Journal of
+Finance 50, 1059–1093.
+Lewellen, W.G., Emery, D.R., 1986. Corporate debt management and the value of the ﬁrm. Journal of
+Financial Quantitative Analysis 21, 415–426.
+Luehrman, T., 1997. Using APV: a better tool for valuing operations. Harvard Business Review 75,
+145–154.
+Miles, J.A., Ezzell, J.R., 1980. The weighted average cost of capital, perfect capital markets and project
+life: a clariﬁcation. Journal of Financial and Quantitative Analysis 15, 719–730.
+Modigliani, F., Miller, M., 1958. The cost of capital, corporation ﬁnance and the theory of investment.
+American Economic Review 48, 261–297.
+Modigliani, F., Miller, M., 1963. Corporate income taxes and the cost of capital: a correction. American
+Economic Review 53, 433–443.
+Myers, S.C., 1974. Interactions of corporate ﬁnancing and investment decisions—implications for capital
+budgeting. Journal of Finance 29, 1–25.
+Ruback, R., 1995. A note on capital cash ﬂow valuation. Harvard Business School Case No. 9-295-069.
+Ruback, R., 2002. Capital cash ﬂows: a simple approach to valuing risky cash ﬂows. Financial
+Management 31, 85–103.
+Taggart Jr., R.A., 1991. Consistent valuation and cost of capital. Expressions with corporate and personal
+taxes. Financial Management 20, 8–20.
+Tham, J., Velez-Pareja, I., 2001. The correct discount rate for the tax shield: the N-period case. Social
+Science Research Network, Unpublished working paper.
+
+

@@ -1,0 +1,3514 @@
+ARTICLE IN PRESS
+
+Journal of Financial Economics 72 (2004) 217–257
+
+On the relationship between the conditional
+mean and volatility of stock returns: A latent
+VAR approach$
+Michael W. Brandta,*, Qiang Kangb
+a
+
+The Fuqua School of Business, Duke University and NBER, Durham, NC 27708, USA
+b
+School of Economics and Finance, University of Hong Kong, Hong Kong
+Received 15 August 2000; accepted 19 June 2002
+
+Abstract
+We model the conditional mean and volatility of stock returns as a latent VAR process to
+study their contemporaneous and intertemporal relationships in a ﬂexible statistical
+framework and without relying on exogenous predictors. We ﬁnd a strong and robust
+negative correlation between the innovations to the conditional moments leading to
+pronounced countercyclical variation in the Sharpe ratio. We document signiﬁcant lead-lag
+correlations between the moments that also appear related to business cycles. Finally, we show
+that although the conditional correlation between the mean and volatility is negative, the
+unconditional correlation is positive due to these lead-lag correlations.
+r 2003 Elsevier B.V. All rights reserved.
+JEL classification: G10; G12; C32
+Keywords: Time-varying moments of returns; Risk-return trade-off
+
+$
+
+We thank Long Chen, Frank Diebold, Garland Durham, Gerard Gennotte, Campbell Harvey,
+Michael Johannes, Leonid Kogan, Martin Lettau, Sydney Ludvigson, Craig MacKinlay, Roberto
+Mariano, Frank Schorfheide, Rob Stambaugh, an anonymous referee, and seminar participants at the
+2001 Financial Management Association meetings, Federal Reserve Bank of New York, London School
+of Economics, Northwestern University, Rutgers University, Temple University, and University of
+Pennsylvania for their comments. Financial support from the Rodney L. White Center for Financial
+Research at The Wharton School of the University of Pennsylvania is gratefully acknowledged. We are
+responsible for any errors.
+*Corresponding author. Tel.: +1-919-660-1948; fax: +1-919-660-8038.
+E-mail address: mbrandt@duke.edu (M.W. Brandt).
+0304-405X/$ - see front matter r 2003 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jﬁneco.2002.06.001
+
+ARTICLE IN PRESS
+218
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+1. Introduction
+The relationship between the mean and volatility of returns is a central issue in
+ﬁnance. Many asset pricing models imply a proportional relationship between
+expected excess returns and risk in the cross-section and over time. Unfortunately,
+the empirical relationship between the mean and volatility of returns, and in
+particular stock returns, is much less regular. It has proven difﬁcult to explain all
+cross-sectional differences in expected stock returns through differential risks (e.g.,
+Fama and French, 1996). Furthermore, the evidence on the time-series relationship
+between the conditional mean and volatility of stock returns is inconclusive and
+depends on the model and exogenous predictors used to draw inferences (e.g.,
+Harvey, 2001). In this paper, we examine more closely the time-series relationship
+between the conditional mean and volatility using a latent vector autoregressive
+(VAR) process for the two moments. This latent VAR approach allows us to study
+the contemporaneous and intertemporal relationships between expected returns and
+risk in a ﬂexible statistical framework and, more importantly, without relying on
+exogenous predictors.
+It is clear from both the volatility ratio tests of LeRoy and Porter (1981) and the
+long-horizon autoregressions of Fama and French (1988) that expected returns are
+time-varying. Predictive regressions have been used widely to capture the time
+variation of expected returns with an expanding set of predictors, such as the
+dividend yield, short rate, term premium, and default premium. However, there is
+increasing concern over predictive regressions in light of statistical issues (Boudoukh
+and Richardson, 1993; Stambaugh, 1999; Ferson et al., 2000; Valkanov, 2002) and
+their lack of robustness and out-of-sample predictive power (Bossaerts and Hillion,
+1999; Ang and Bekaert, 2001; Goyal and Welch, 2002).
+Time-varying volatility is even more ﬁrmly established and is typically modelled in
+an ARCH or stochastic volatility (SV) framework; see Bollerslev et al. (1992) and
+Ghysels et al. (1996) for literature surveys. In ARCH models, the conditional
+variance of returns depends deterministically both on lagged squared returns and
+lagged variances, while in SV models the conditional variance is a stochastic process.
+The fact that in an ARCH model all randomness is ex post observable (through
+returns) implies that the volatility realizations can be recovered from the data. As a
+result, ARCH models are easy to estimate and quite popular. In SV models, in
+contrast, the innovations to the volatility process are random and the volatility
+realizations are therefore unobservable. Estimating an SV model involves integrating
+out the latent volatilities. The computation of this high-dimensional integral is
+analytically difﬁcult and computationally intensive, causing SV models to be less
+popular than ARCH models despite their statistical and economic appeal.1
+1
+Not until recently have effective methods for estimating SV models been developed. These econometric
+methods include quasi-maximum likelihood (QML) (Harvey et al., 1994; Alizadeh et al., 2002), simulated
+maximum likelihood (SML) (Danielsson, 1994; Sandmann and Koopman, 1998), Markov chain Monte
+Carlo (Jacquier et al., 1994; Kim et al., 1998), and the simulated method of moments (SMM) (Dufﬁe and
+Singleton, 1993; Andersen and Sorensen, 1994).
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+219
+
+Given the empirical evidence on both time-varying expected returns and volatility,
+it is only natural to examine the comovements of the two moments through time.
+Unfortunately, the ﬁndings on this relationship are mixed. Using volatility-in-mean
+models (essentially ARCH models in which the variance enters contemporaneously
+in the mean return), French et al. (1987) and Campbell and Hentschel (1992)
+estimate a positive correlation, while Campbell (1987), Breen et al. (1989), Nelson
+(1991), and Glosten et al. (1993) all report a negative correlation. Koopman and
+Uspensky (1999) ﬁnd evidence of a weak negative relationship with an SV-in-mean
+model but a weak positive relationship with an ARCH-based volatility-in-mean
+model. Harrison and Zhang (1999) employ Gallant and Tauchen’s (1989)
+semiparametric method to document a positive relationship between the conditional
+mean and volatility at long horizons but none at short horizons (such as a month).
+Finally, Harvey (2001) uses exogenous predictors and ﬁnds that the correlation
+between the moments generally depends on the model and the conditioning
+information used in the mean and variance estimation.
+We examine more closely the time-series relationship between the conditional
+moments through a latent VAR model. The ﬁrst equation of the VAR describes the
+dynamics of the conditional mean. It captures the temporary component in the
+permanent and temporary components model of Fama and French (1988) and
+Lamoureux and Zhou (1996), in which stock prices are governed by a random walk
+and a stationary process, respectively. The second equation of the VAR describes the
+dynamics of the conditional volatility. It nests the standard SV model studied by
+Wiggins (1987), Andersen and Sorensen (1994), Jacquier et al. (1994), and Kim et al.
+(1998), among others.
+The latent VAR allows us to study the contemporaneous and intertemporal
+relationships between the conditional mean and volatility in a ﬂexible statistical
+framework and without relying on exogenous predictors. With respect to the
+contemporaneous relationship, the mean equation of the VAR resembles the
+volatility-in-mean model used by French et al. (1987) and others to measure
+the contemporaneous effect of volatility on expected returns. In addition to this
+volatility-in-mean effect, there is a symmetric mean-in-volatility effect in the
+volatility equation. If a change in the volatility has a contemporaneous effect on the
+mean, a change in the mean also has a contemporaneous effect on the volatility.
+With regard to the intertemporal relationship, the VAR allows for lag adjustments of
+the volatility to changes in the mean, and similarly of the mean to changes in the
+volatility, which Whitelaw (1994) claims to be salient features of the data. Analogous
+to the contemporaneous effects, we refer to these lag adjustments as lag-volatility-inmean and lag-mean-in-volatility effects.
+Whitelaw (1994) considers a VAR model similar to ours, except he uses fitted
+moments from a set of ﬁrst-stage predictive regressions as proxies for the
+unobservable conditional mean and volatility. The obvious drawback of using ﬁtted
+moments is that their dynamics are determined by the joint conditional distribution
+of the ﬁrst-stage predictors. Thus, with only slight model misspeciﬁcation, such as
+omitted variables, the dynamics of the ﬁtted moments do not need to correspond to
+those of the true moments. Another problem with using ﬁtted moments is that even if
+
+ARTICLE IN PRESS
+220
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+the predictive models for the conditional mean and volatility are well speciﬁed, the
+effect of errors in variables which are induced by the ﬁrst-stage regressions is not
+trivial to quantify in a VAR. Our approach is not subject to these critiques because
+we treat the conditional mean and volatility as latent state variables.
+We use simulated maximum likelihood (SML) based on importance sampling to
+estimate the parameters of the VAR model and to extract estimates of the latent
+mean, volatility, and implied Sharpe ratio time series. We then examine the
+contemporaneous and intertemporal relationship between the conditional mean and
+volatility through the parameter estimates, extracted series, and impulse response
+functions of the estimated VAR.
+Among our empirical results, the following are particularly interesting:2
+*
+
+*
+
+*
+
+*
+
+The contemporaneous correlation between the innovations to the conditional
+mean and volatility is negative and statistically signiﬁcant (according to
+asymptotic standard errors and corroborated by Monte Carlo experiments),
+implying negative volatility-in-mean and mean-in-volatility effects.
+The negative contemporaneous correlation between the mean and volatility
+generates substantial variation in the conditional Sharpe ratio that is distinctly
+countercyclical. Every business cycle since 1946 is associated with an almost
+monotonic rise in the Sharpe ratio from the peak to the trough of the cycle.
+Both lag adjustments, the lag-volatility-in-mean and the lag-mean-in-volatility
+effects, are positive and statistically signiﬁcant, according to the asymptotic
+and ﬁnite sample standard errors. Furthermore, the timing of the lag adjustment appears related to business cycles as well. Whenever the economy comes
+off the peak of a cycle, the conditional volatility rises immediately. The
+conditional mean, however, increases only gradually as the economy moves from
+the peak to the trough of the cycle. Therefore, the volatility appears to lead the
+mean through the recession by about six months. The mean reaches a high at the
+trough of the cycle, shortly after which the volatility drops again to a normal level.
+As a result, the increase in the mean is associated with a subsequent drop in the
+volatility.
+Despite the large and negative contemporaneous correlation between the
+innovations to the conditional mean and volatility, which measures the
+conditional (on the lagged mean and lagged volatility) correlation between
+the moments, the unconditional contemporaneous correlation between the mean
+and volatility is large and positive due to the strong lag-volatility-in-mean effect.
+Unconditionally, times of high expected returns are associated with high
+volatility. We argue that this difference between the conditional and unconditional correlations may explain the disagreement in the literature about the
+contemporaneous correlation.
+
+2
+We draw inferences with asymptotic standard errors. However, since the asymptotics of our estimator
+are questionable (see Section 3.4), we corroborate the evidence on the key results with Monte Carlo
+experiments.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+221
+
+The remainder of this paper is structured as follows. Section 2 sets up the latent
+VAR for the conditional mean and volatility, derives the implied dynamics of the
+Sharpe ratio, explains the link to equilibrium asset pricing models, and outlines the
+hypotheses we want to test within this framework. We describe our econometric
+approach in Section 3. Section 4 then presents our empirical results in six
+subsections: Section 4.1 describes the data, Section 4.2 reports the parameter
+estimates and the results of the hypothesis tests, Section 4.3 analyzes the extracted
+latent processes, Section 4.4 interprets the impulse response functions, Section 4.5
+tries to reconcile the disagreement in the literature about the sign of the
+contemporaneous correlation between the conditional mean and volatility, and
+Section 4.6 incorporates exogenous predictors as a robustness check. We conclude in
+Section 5 with a summary of our main results.
+
+2. Theory
+2.1. Return dynamics
+Let yt be continuously compounded excess returns with time-series dynamics
+yt ¼ mt1 þ st1 et
+
+with et BN½0; 1;
+
+ð1Þ
+
+where mt and st denote the conditional mean and volatility of excess returns,
+respectively. Both the conditional mean and volatility are unobservable quantities,
+which we assume to evolve jointly as a ﬁrst-order VAR process in logs:
+"
+#
+"
+#
+ln mt
+ln mt1
+ð2Þ
+¼d þA
+þ Zt with Zt BMVN½0; S;
+ln st
+ln st1
+where d is a 2  1 coefﬁcient vector that relates to the long-term means of the two
+latent state variables, A is a 2  2 coefﬁcient matrix, and S is a 2  2 covariance
+matrix (symmetric and nonnegative deﬁnite). Speciﬁcally, we write
+" #
+"
+#
+"
+#
+d1
+a11 a12
+b11 b12
+d¼
+; A¼
+; and S ¼
+with
+d2
+a21 a22
+b21 b22
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð3Þ
+b12 ¼ b21 ¼ r b11 b22 :
+As long as the VAR is stationary, closed-form solutions to the unconditional mean
+and covariance matrix of the conditional moments are:
+"
+#
+ln mt
+E
+¼ ðI  AÞ1 d and
+ln st
+"
+#!
+ln mt
+ð4Þ
+vec Cov
+¼ ðI  ðA#AÞÞ1 vecðSÞ;
+ln st
+where the # symbol denotes a Kronecker product.
+
+ARTICLE IN PRESS
+222
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+The key parameters of the latent VAR are the transition matrix A and the
+contemporaneous correlation coefﬁcient r: The diagonal elements of A reﬂect the
+persistence of the conditional moments, and the off-diagonal elements capture
+the intertemporal feedback of the conditional volatility to the conditional mean and
+vice versa. The coefﬁcient r represents the contemporaneous correlation between the
+innovations to the conditional moments.
+We entertain three assumptions about the correlation between the return
+innovations et and the conditional moment innovations Zt : The ﬁrst assumption is
+that the return innovations are uncorrelated with the conditional moment
+innovations, or, Corr½et Zs  ¼ ½0; 00 for all s and t: Second, we assume that the
+return innovations are contemporaneously correlated with either the conditional
+mean or the conditional volatility innovations, but not both. Formally, either
+Corr½et Zt  ¼ ½rm ; 00 or Corr½et Zt  ¼ ½0; rs 0 : The third assumption is that the return
+innovations are contemporaneously correlated with both conditional moment
+innovations, so that Corr½et Zt  ¼ ½rm ; rs 0 :
+2.2. Interpretation
+We model the conditional moments as exponential Gaussian processes. For the
+mean, this modelling choice guarantees a positive risk premium, which is a sensible
+assumption for the market portfolio and has been used in similar contexts by
+Bekaert and Harvey (1995) and De Santis and Gerard (1997,1998). For the volatility,
+the implied log-normality is consistent with the recent empirical ﬁndings of Andersen
+et al. (2001).
+Our latent VAR model fuses and generalizes the permanent and temporary
+components model of Fama and French (1988) and the standard SV model.
+The ﬁrst equation of the VAR describes the dynamics of the conditional
+mean as
+ln mt ¼ d1 þ a11 ln mt1 þ a12 ln st1 þ Z1t ;
+
+with Z1t BN½0; b11 :
+
+ð5Þ
+
+This equation captures the temporary component of Fama and French’s permanent
+and temporary components model, in which stock prices are governed by a random
+walk and a stationary autoregressive process, respectively. In fact, with a12 ¼ 0; this
+model of the temporary component is the same as that of Lamoureux and Zhou
+(1996) (except in logs). The second equation of the VAR describes the volatility
+dynamics as
+ln st ¼ d2 þ a21 ln mt1 þ a22 ln st1 þ Z2t ;
+
+with Z2t BN½0; b22 
+
+ð6Þ
+
+and nests the standard SV model. With a21 ¼ 0; Eq. (6) is the SV model estimated by
+Wiggins (1987), Andersen and Sorensen (1994), Jacquier et al. (1994), Kim et al.
+(1998), and many others.
+The mean equation also resembles the volatility-in-mean model used by French
+et al. (1987) and Glosten et al. (1993) to explore the contemporaneous relationship
+between the conditional mean and volatility. To illustrate the connection to the
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+223
+
+volatility-in-mean model, we project Z1t onto Z2t ; such that
+Z1t ¼ b1 Z2t þ x1t
+
+with x1t BN½0; ð1  r2 Þb11 ;
+
+where x1t is uncorrelated with Z2t by construction and
+sﬃﬃﬃﬃﬃﬃ
+Cov½Z1t ; Z2t 
+b11
+¼r
+b1 ¼
+:
+Var½Z2t 
+b22
+
+ð7Þ
+
+ð8Þ
+
+We then rewrite Eq. (6) as
+Z2t ¼ ln st  d2  a21 ln mt1  a22 ln st1
+
+ð9Þ
+
+and substitute it and Eq. (7) into Eq. (5) to get
+ln mt ¼ ðd1  b1 d2 Þ þ ða11  b1 a21 Þ ln mt1
+þ ða12  b1 a22 Þ ln st1 þ b1 ln st þ x1t :
+
+ð10Þ
+
+This reduced-form equation for the conditional mean is a generalized version of
+the usual volatility-in-mean model, in which the conditional mean depends
+contemporaneously on the conditional volatility.3 The volatility-in-mean effect
+depends on the projection coefﬁcient b1 and therefore indirectly on the correlation
+coefﬁcient r:
+Our model extends the volatility-in-mean model in two ways. First, unless jrj ¼ 1;
+there are two sources of randomness in the conditional mean process, as opposed to
+only one, which breaks the overly restrictive one-to-one link between the conditional
+mean and volatility imposed by the usual volatility-in-mean model. Second, not only
+the current but also the lagged volatility affects the conditional mean, whereas the
+usual volatility-in-mean model involves only a contemporaneous effect. Analogous
+to the volatility-in-mean effect, we label the effect of the lagged volatility the lagvolatility-in-mean effect. The lag-volatility-in-mean effect depends on a12  b1 a22 : If
+this term is positive (negative), the lagged conditional volatility has a positive
+(negative) effect on the conditional mean.
+Likewise, we can obtain the reduced-form volatility dynamics:
+ln st ¼ ðd2  b2 d1 Þ þ ða22  b2 a12 Þ ln st1
+þ ða21  b2 a11 Þ ln mt1 þ b2 ln mt þ x2t ;
+where
+Cov½Z1t ; Z2t 
+b2 ¼
+¼r
+Var½Z1t 
+
+sﬃﬃﬃﬃﬃﬃ
+b22
+b11
+
+ð11Þ
+
+ð12Þ
+
+and
+Z2t ¼ b2 Z1t þ x2t
+3
+
+with x2t BN½0; ð1  r2 Þb22 :
+
+ð13Þ
+
+The standard volatility-in-mean model relates the mean return to the volatility (or variance), while our
+model relates the log mean to the log volatility. Let q ¼ dm=ds be the usual volatility-in-mean coefﬁcient.
+Then, our coefﬁcient on the log-volatility-in-log-mean d ln m=d ln s ¼ ðdm=dsÞðs=mÞ ¼ qs=m has the same
+sign as the usual volatility-in-mean coefﬁcient, since both m and s are positive.
+
+ARTICLE IN PRESS
+224
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+This reduced-form volatility model captures the persistence of volatility through the
+term a22  b2 a12 : In addition, it incorporates the effects of the mean on the volatility,
+both at the contemporaneous and intertemporal levels, through the coefﬁcients b2
+and a21  b2 a11 ; respectively. Analogous to the volatility-in-mean and lag-volatilityin-mean effects, we label the coefﬁcient on the contemporaneous mean the mean-involatility effect and the coefﬁcient on the lagged mean the lag-mean-in-volatility
+effect. The correlation r between the mean and volatility innovations is again vital in
+determining the sign and magnitude of the mean-in-volatility and lag-mean-involatility effects (through b2 ).
+The mean-in-volatility effect mirrors the volatility-in-mean effect. Since b1 b2 ¼ r2 ;
+the two effects share the same sign. However, unless jrj ¼ 1; the mean-in-volatility
+and volatility-in-mean effects are not perfect reciprocals of each other. The ratio
+b1 =b2 measures the variance of the mean innovations relative to that of the volatility
+innovations.
+The motivation for including the non-contemporaneous lag-volatility-in-mean
+and lag-mean-in-volatility effects, a12  b1 a22 and a21  b2 a11 ; respectively, is mostly
+empirical. Whitelaw (1994) documents signiﬁcant lead-lag interactions between the
+conditional mean and volatility. Although it is possible that his results are an artifact
+of the exogenous predictors used to measure the time variation of the moments, it is
+equally possible that the lead-lag interactions are a systematic but until-now
+overlooked feature of the relationship between expected returns and risk. In fact,
+Lettau and Ludvigson (2001) document similar lead-lag interactions using different
+exogenous predictors, which is evidence in favor of the second possibility.
+Finally, the three assumptions about the correlation between the return
+innovations and the conditional moment innovations serve to capture and
+potentially distinguish two popular explanations of asymmetric volatility. Asymmetric volatility refers to the empirical ﬁnding that increases in volatility tend to be
+associated more often with large negative returns than with equally large positive
+returns. The two popular explanations of asymmetric volatility are the leverage effect
+and the volatility feedback effect. The leverage effect states that when the value of a
+ﬁrm drops given a large negative return, the leverage of the ﬁrm and the associated
+probability of bankruptcy increase, causing the equity claims to become riskier. The
+volatility feedback effect attributes the asymmetric volatility to the equilibrium
+response of the conditional mean to changes in volatility. Suppose a large
+negative return is associated with an increase in the conditional volatility
+(in the spirit of an ARCH model) and the price of risk is positive, so that the
+increase in the conditional volatility leads to an increase in the conditional mean.
+Holding future dividends ﬁxed, the expected return can only increase by a drop
+in the current stock price, resulting in an even larger negative return. In contrast,
+for a large positive return that also leads to an increase in both conditional
+moments, the drop in the stock price associated with the increase in the expected
+return partially offsets the positive return. As a result, the increase in volatility is
+associated with a large negative return (enhanced by the increase in the conditional
+mean) or a small positive return (partially offset by the increase in the conditional
+mean).
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+225
+
+The assumption that the return innovations are independent of the conditional
+moment innovations, rs ¼ rm ¼ 0; rules out both the leverage and volatility
+feedback effects. A negative correlation between the return and conditional volatility
+innovations, rs o0; is consistent with the leverage effect. It can also be consistent
+with the volatility feedback effect, but only if the contemporaneous correlation
+between the conditional moments is positive, r > 0: If the contemporaneous
+correlation between the conditional moments is negative, the volatility feedback
+effect implies a positive correlation between the return and conditional volatility
+innovations, rs > 0; because negative returns are offset and positive returns are
+enhanced by the decrease in the conditional mean associated with the increase in the
+conditional volatility. Furthermore, since in our model the conditional mean can
+vary independently of the conditional volatility (unless jrj ¼ 1), a more direct way to
+capture the intuition of the volatility feedback effect is through a negative correlation
+between the return and conditional mean innovations, rm o0; which directly ties
+increases (decreases) in the conditional mean to negative (positive) returns. Finally,
+the case in which rm o0 and rs o0 allows for both effects, regardless of the sign and
+magnitude of the contemporaneous correlation between the conditional mean and
+volatility.4
+2.3. Implied sharpe ratio dynamics
+The latent VAR implies that the conditional Sharpe ratio is log-normally
+distributed and that it follows a two-factor autoregressive (AR) process. We deﬁne
+the log Sharpe ratio as
+"
+#
+"
+#
+ln
+m
+1
+t
+ln St ¼ ln mt  ln st ¼ T 0
+; where T ¼
+:
+ð14Þ
+1
+ln st
+Eq. (2) then implies that
+"
+
+ln mt1
+ln St ¼ T d þ T A
+ln st1
+0
+
+0
+
+#
+þ T 0 Zt
+
+¼ ðd1  d2 Þ þ ða11  a21 Þ ln mt1 þ ða12  a22 Þ ln st1 þ ðZ1t  Z2t Þ;
+
+ð15Þ
+
+which shows that the variation in the log Sharpe ratio is driven by the mean reversion
+of the two conditional moments and by the difference between the conditional moment
+innovations, Z1t  Z2t : Given the joint normality of Zt ; the difference between the
+innovations is normally distributed and so is the log Sharpe ratio.
+It follows that the Sharpe ratio is stochastic unless Z1t  Z2t is zero. In particular, it
+is stochastic even if the innovations to the mean and volatility are perfectly
+correlated, with jrj ¼ 1: The reason is that even if the innovations are perfectly
+correlated, their magnitudes are different, unless b11 ¼ b22 ; and therefore the
+4
+We can disentangle rm and rs from r by factoring the innovations Zt into a common component due to
+the correlations with the return innovations et and the components
+that are orthogonal to the return
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+innovations but are correlated with each other by r* ¼ ðr  rm rs Þ= ð1  r2m Þð1  r2s Þ:
+
+ARTICLE IN PRESS
+226
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+difference between the innovations is nonzero. For example, suppose r ¼ 1: If b11 >
+b22 ; the Sharpe ratio increases whenever the mean increases, because the volatility
+increases by less than the mean. Alternatively, if b11 ob22 ; the Sharpe ratio decreases
+whenever the mean increases, because the volatility increases by more than the mean.
+The Sharpe ratio is only nonstochastic if jrj ¼ 1 and b11 ¼ b22 : Of course, even in this
+case the Sharpe ratio is still time-varying due to the mean reversion of the two
+conditional moments (because ln mt1 and ln st1 are time-varying).
+Substituting ln mt1 ¼ ln St1 þ ln st1 or ln st1 ¼ ln mt1  ln St1 into Eq. (15)
+illustrates that the log Sharpe ratio follows an AR process:
+ln St ¼ ðd1  d2 Þ þ ða11  a21 Þ ln St1
+þ ða11 þ a12  a21  a22 Þ ln st1  ð1  b1 ÞZ2t þ x1t
+
+ð16Þ
+
+or
+ln St ¼ ðd1  d2 Þ þ ða22  a12 Þ ln St1
+þ ða11 þ a12  a21  a22 Þ ln mt1 þ ð1  b2 ÞZ1t  x2t ;
+
+ð17Þ
+
+respectively. In fact, if a11 þ a12  a21  a22 ¼ 0; the log Sharpe ratio follows a
+univariate AR process, which is fairly standard in the term structure and portfolio
+choice literatures. A sufﬁcient condition for this case is that a12 ¼ a21 ¼ 0 and a11 ¼
+a22 ; or in words, that both the conditional mean and volatility are univariate AR
+processes with the same persistence levels. Otherwise, if a11 þ a12  a21  a22 a0; the
+latent VAR introduces a second factor into the Sharpe ratio dynamics, namely the
+lagged conditional volatility in Eq. (16) or the lagged conditional mean in Eq. (17). It
+is important to recognize, however, that although the own-lag coefﬁcients depend on
+which conditional moment is used as the second factor (a11  a21 versus a22  a12 ),
+the overall time-series dynamics of the log Sharpe ratios (including the persistence
+level) are the same in Eqs. (16) and (17) because, given the deﬁnition ln St ¼
+ln mt  ln st ; the two equations are mathematically equivalent.
+2.4. Link to equilibrium models
+To gain some economic intuition about the Sharpe ratio dynamics, consider the
+ﬁrst-order condition Et ½Mtþ1 ðRtþ1  Rft Þ ¼ 0 of a representative investor with
+marginal utility growth Mtþ1 (the stochastic discount factor or pricing kernel). Using
+the deﬁnition of covariance and the fact that E½Mtþ1  ¼ 1=Rft ; we can rewrite this
+ﬁrst-order condition as
+Et ½Rtþ1  Rft  ¼ Rft Covt ½Mtþ1 ; Rtþ1  Rft 
+
+ð18Þ
+
+5
+
+and solve for the Sharpe ratio:
+Et ½Rtþ1  Rft 
+Stdt ½Rtþ1 
+
+Rft 
+
+¼ Rft Stdt ½Mtþ1  Corrt ½Mtþ1 ; Rtþ1  Rft :
+
+ð19Þ
+
+5
+This deﬁnition of the Sharpe ratio is not quite comparable to St ¼ mt =st because it involves gross
+returns as opposed to continuously compounded returns. However, the difference is negligible for short
+return horizons.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+227
+
+This last equation illustrates that the log Sharpe ratio inherits the dynamics of the
+log risk-free rate, the log volatility of marginal utility growth, and the log correlation
+of marginal utility growth with returns (assuming this correlation is negative).
+Furthermore, if we parameterize marginal utility growth Mtþ1 ¼ v0 ðCtþ1 Þ=v0 ðCt Þ
+and expand around the current consumption level Ct ; we get
+Stdt ½Mtþ1 CRRAt Stdt ½ðCtþ1  Ct Þ=Ct ; which shows that the volatility of marginal
+utility growth depends to a ﬁrst-order approximation on relative risk aversion
+RRAt ¼ Ct v00 ðCt Þ=v0 ðCt Þ and the volatility of consumption growth.
+There is an extensive literature on the dynamics of the risk-free rate. In addition,
+there are numerous equilibrium asset pricing models in which the level of relative risk
+aversion, the volatility of consumption growth, or the correlation between marginal
+utility growth and returns vary in a slowly mean-reverting fashion. Models with
+changing risk aversion include Constantinides (1990), Campbell and Cochrane
+(1999), Bekaert and Grenadier (2001), and Brandt and Wang (2003). Models with
+varying volatility of consumption growth include Abel (1988), Kandel and
+Stambaugh (1991), Gennotte and Marsh (1993), and Bansal and Yaron (2003).
+Finally, Whitelaw (2000) formulates a model with changing correlation between
+marginal utility growth and returns. Our statistical approach can be interpreted as a
+reduced-form approximation of these equilibrium asset pricing models that can
+accommodate two independent sources of time variation in Eq. (19).
+2.5. Hypotheses
+Based on the latent VAR model for the conditional mean and volatility, we
+examine two main hypotheses about the relationship between the two moments. The
+ﬁrst hypothesis is about their contemporaneous relationship:
+H1: No contemporaneous relationship exists between the conditional mean and
+volatility. Formally, in the context of our model, b1 ¼ b2 ¼ 0: From Eqs. (10) and
+(11), both the volatility-in-mean effect b1 and the mean-in-volatility effect b2
+depend on the correlation r: As a result, this hypothesis is equivalent to r ¼ 0: If
+the innovations to the moments are uncorrelated, neither the volatility-in-mean
+effect nor the mean-in-volatility effect exists, and the two moments are
+contemporaneously unrelated.
+The second hypothesis is about the intertemporal relationship between the
+conditional mean and volatility. There are two forms of intertemporal relationship in
+our model: Granger causality and the reduced-form lag adjustments. Granger
+causality refers to whether one variable helps predict future realizations of another
+through the off-diagonal elements of the transition matrix A: Despite its name,
+Granger causality refers to a forecasting relationship and does not identify a
+structural relationship or a direction of causality. In contrast, the lag-volatility-inmean and lag-mean-in-volatility effects do shed light on the structural relationship
+between the two conditional moments, indicating whether the lagged volatility enters
+the reduced-form mean dynamics (10) and whether the lagged mean enters the
+
+ARTICLE IN PRESS
+228
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+reduced-form volatility dynamics (11), respectively. These lag adjustments depend
+not only on the off-diagonal elements of A but also on the correlation r: The second
+hypothesis is:
+H2: There exists no lag-volatility-in-mean and/or lag-mean-in-volatility effect, meaning a12  b1 a22 ¼ 0 and/or a21  b2 a11 ¼ 0: If we fail to reject this hypothesis, the
+mean adjusts instantaneously to changes in the volatility and vice versa.
+Otherwise, there exists an intertemporal relationship between the two moments
+through the lag adjustments.
+
+3. Econometric approach
+Eqs. (1) and (2) make up a state-space model. In the terminology of state-space
+models, the ﬁrst equation is the measurement or observation equation and the
+second equation is the transition or state equation. To draw inferences about both
+the parameters of the VAR and the realizations of the latent moments from the
+observed returns, we need to solve a sequence of ﬁltering and smoothing
+problems. Filtering generates the one-step-ahead forecasts of the latent
+variables E½ln mt ; ln st jy1 ; y; yt  and the corresponding forecast variances
+Var½ln mt ; ln st jy1 ; y; yt ; which in a linear Gaussian state-space model are used to
+construct the likelihood function. Smoothing yields the full-information forecasts of
+the latent variables E½ln mt ; ln st jy1 ; y; yT  and the corresponding forecast variances
+Var½ln mt ; ln st jy1 ; y; yT : Unfortunately, the ﬁltering and smoothing problems
+generated by our latent VAR model are nonstandard because of the nonlinearities
+in the measurement equation. As a result, the standard Kalman ﬁlter (designed for
+linear Gaussian state-space models) cannot be used directly in the estimation of our
+model. We instead rely on a simulation-based method for nonlinear and nonGaussian state-space models.
+It is convenient for our econometric discussion to reformulate the model slightly.
+We deﬁne mt ¼ ln mt and ut ¼ ln st ; so that mt ¼ expfmt g and st ¼ expfut g: We then
+de-mean the latent processes and, with some abuse of our previous notation, let mt
+and ut denote the de-meaned moments. Finally, we deﬁne st ¼ ½mt ; ut 0 ; Z1 ¼ ½1; 00 ;
+and Z2 ¼ ½0; 10 : With this revised notation, we write Eqs. (1) and (2) as follows:
+0
+
+0
+
+Z s
+Z s
+yt ¼ me
+% mt1 þ se
+% ut1 et ¼ me
+% 1 t1 þ se
+% 2 t1 et
+
+with et BN½0; 1
+
+ð20Þ
+
+and
+st ¼ Ast1 þ Zt
+
+with Zt BMVN½0; S:
+
+ð21Þ
+
+We collect the unknown parameters of the transformed state-space model into a
+single parameter vector
+c ¼ ½a11 ; a12 ; a21 ; a22 ; b11 ; b22 ; r; m;
+% s
+% 0;
+
+ð22Þ
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+229
+
+and denote the histories of the unobserved conditional mean and volatility by
+ð23Þ
+y ¼ ½s0 ; s1 ; y; sT1 0 :
+3.1. Estimation
+We estimate the latent VAR model by SML. In particular, we numerically
+construct the likelihood function of the model using an importance sampling
+approach similar to the one Durbin and Koopman (1997) and Sandmann and
+Koopman (1998) use for estimating SV models.
+3.1.1. Motivation
+The likelihood function of the model is
+LðcÞ ¼ pðy j cÞ
+Z
+¼
+pðy; y j cÞ dy
+Z
+¼
+pðy j y; cÞpðy j cÞ dy:
+
+ð24Þ
+
+The ﬁrst line of Eq. (24) deﬁnes the likelihood function as the density of the observed
+returns y given the parameters c: The second line expresses this density as the
+marginal density of the joint distribution of the observed returns y and the
+unobserved state variables y ¼ ½m; v: Finally, in the third line we write the joint
+density of y and y as the product of the conditional density of y given y and the
+marginal density of y:
+The point of this algebra is to illustrate that for a given parameter vector c; the
+likelihood function LðcÞ can be viewed as an expectation of the conditional
+density pðyjy; cÞ with respect to the marginal density pðyjcÞ: With T data points
+and two latent state variables, this expectation involves a 2T-dimensional integral.
+The high dimensionality of this integral and the nonlinearities in the conditional
+density pðyjy; cÞ make the likelihood function practically impossible to compute
+analytically.
+In principle, the latent state histories y can be sampled directly from the density
+pðyjcÞ and Monte Carlo integration can then be used to solve the integral in Eq. (24).
+In practice, however, this brute-force simulation approach is grossly inefﬁcient. We
+can greatly improve the efﬁciency of the Monte Carlo integration through the use of
+importance sampling. To explain how importance sampling works in our context, we
+rewrite the likelihood function in Eq. (24) as follows:
+Z
+pðy j cÞ
+LðcÞ ¼
+pðy j y; cÞ
+gðy j y; cÞ dy
+gðy j y; cÞ
+
+
+
+pðy j cÞ
+¼ Eg pðy j y; cÞ
+;
+ð25Þ
+gðy j y; cÞ
+where gðyjy; cÞ; the so-called importance density, is a conditional density of y
+that is not the same as the conditional density pðyjy; cÞ generated by the model,
+
+ARTICLE IN PRESS
+230
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+and Eg ½ denotes an expectation taken with respect to this importance
+density.
+If gðyjcÞ ¼ pðyjcÞ; the distribution of the latent y is the same under the two models
+(though the distribution of y given y may be very different), and
+gðy; y j cÞ gðy j y; cÞ gðy j cÞ gðy j y; cÞpðy j cÞ
+¼
+¼
+;
+ð26Þ
+gðy j y; cÞ ¼
+gðy j cÞ
+gðy j cÞ
+gðy j cÞ
+which implies that
+pðy j cÞ
+gðy j cÞ
+¼
+;
+gðy j y; cÞ gðy j y; cÞ
+
+ð27Þ
+
+where gðyjcÞ  Lg ðcÞ is the likelihood function of the model gðyjy; cÞ: Finally,
+substituting Eq. (27) into Eq. (25), we have
+
+
+
+
+
+
+Lg ðcÞ
+pðy j y; cÞ
+LðcÞ ¼ Eg pðy j y; cÞ
+¼ Lg ðcÞEg
+:
+ð28Þ
+gðy j y; cÞ
+gðy j y; cÞ
+In summary, the true likelihood function LðcÞ can be expressed as the product of
+the likelihood function Lg ðcÞ of the model gðyjy; cÞ; which we call the
+approximating model, and a correction factor Eg ½wðy; cÞ; where for notational
+convenience we deﬁne
+pðy j y; cÞ
+:
+ð29Þ
+wðy; cÞ ¼
+gðy j y; cÞ
+The correction factor characterizes the departure of the true likelihood from the
+likelihood of the approximating model as the average distance between the
+conditional densities pðy j y; cÞ and gðy j y; cÞ: If the two conditional densities are
+close to each other for all y; the function wðy; cÞ is close to one and so is its
+expectation with respect to gðyjy; cÞ:
+The importance density gðy j y; cÞ can in principle be any density of y; given y and
+c; that is positive everywhere, satisﬁes the restriction gðy j cÞ ¼ pðy j cÞ; and for
+which Eg ½wðy; cÞ exists. The main idea of our econometric approach is to choose an
+approximating model for which we can conveniently compute both the likelihood
+function Lg ðcÞ and the correction factor Eg ½wðy; cÞ: We can then evaluate the
+likelihood function LðcÞ using Eq. (28).
+Before we present the approximating model, note that in choosing an importance
+density for computational convenience alone we depart from the usual approach in
+the literature of considering also the statistical properties of the resulting ratio of
+densities wðy; cÞ: Geweke (1989) shows that for the variance of this ratio to be ﬁnite,
+the tails of the density in the numerator must be fatter than the tails of the density in
+the denominator. In contrast to other applications of importance sampling, our
+choice of approximating model is likely to not satisfy this condition. We return to
+this issue in Section 3.4.
+3.1.2. Approximating model
+We choose gðy j y; cÞ to be the conditional density of a linear Gaussian state-space
+model that closely approximates our nonlinear model. For example, in the case
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+231
+
+Corr½et ; Zt  ¼ 0; we replace the nonlinear measurement Eq. (20) with the linear
+measurement equation
+"
+#
+yt
+Yt 
+ð30Þ
+¼ H 0 st1 þ wt ; with wt BMVN½ct1 ; Rt1 ;
+2
+lnðyt  mÞ
+%
+where
+H¼
+
+"
+
+1
+0
+
+#
+0
+;
+2
+
+"
+ct ¼
+
+#
+c1t
+;
+c2t
+
+"
+Rt ¼
+
+R1t
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+rw R1t R2t
+
+rw
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+R1t R2t
+R2t
+
+;
+
+ð31Þ
+
+and the parameters ct and Rt are calibrated such that the densities gðy j y; cÞ of the
+linearized model approximate well the true densities pðy j y; cÞ (the appendices
+provide more details). The virtue of this linear measurement equation is that,
+together with the linear transition Eq. (21), it implies a linear Gaussian state-space
+model for which we can analytically evaluate the likelihood function Lg ðcÞ using the
+Kalman ﬁlter algorithm.
+3.1.3. Likelihood evaluation
+Given a realization of the state history y; we can easily evaluate the conditional
+densities pðy j y; cÞ and gðy j y; cÞ and hence also the function wðy; cÞ: However, y is
+unobserved and the expectation Eg ½wðy; cÞ cannot be computed analytically. We
+therefore use simulations to compute this correction factor. Speciﬁcally, we sample
+N state histories yi ; for i ¼ 1; 2; y; N; from the importance density gðy j y; cÞ and use
+these samples to construct the ratios
+wi ¼
+
+pðy j yi ; cÞ
+gðy j yi ; cÞ
+
+ð32Þ
+
+and to compute an estimate of the correction factor, Eg ½wðy; cÞ; as
+w% ¼
+
+N
+1 X
+wi :
+N i¼1
+
+ð33Þ
+
+We then use Eq. (28) to construct an estimate of the likelihood function LðcÞ as
+#
+ð34Þ
+LðcÞ
+¼ Lg ðcÞw:
+%
+#
+Since w-E
+%
+g ½wðy; cÞ as N-N; LðcÞ is a consistent approximation of LðcÞ:
+As is usually the case, it is more convenient to work with the log likelihood. Taking
+logs of Eq. (34) gives
+#
+ð35Þ
+ln LðcÞ
+¼ ln Lg ðcÞ þ ln w:
+%
+#
+However, ln LðcÞ
+is a slightly biased estimator of ln LðcÞ because E½ln waln
+Eg ½wi 
+%
+due to Jensen’s inequality. Durbin and Koopman (1997) and Shephard and Pitt
+(1997) therefore suggest adding the following term to the log likelihood function to
+correct the bias from the log transformation (up to order N 3=2 ):
+s2
+#
+ln LðcÞ
+¼ ln Lg ðcÞ þ ln w% þ w 2 ;
+2N w%
+
+ð36Þ
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+232
+
+where
+s2w ¼
+
+N
+1 X
+ðwi  wÞ
+% 2:
+N  1 i¼1
+
+ð37Þ
+
+# as the parameter values that maximize this
+Finally, we deﬁne our SML estimator, c;
+bias-corrected approximation of the log likelihood function.
+One drawback of constructing the log likelihood of our model as the sum of the
+log likelihood of the approximating model and the log correction factor is that we
+cannot directly compute the contribution of each observation yt to the likelihood
+function. This is because both terms in the sum are evaluated for the whole sample y:
+As a result, we cannot compute outer-product based standard errors to check the
+validity of the second-derivative based standard errors we use for drawing
+asymptotic inferences.
+3.2. State variable extraction
+Analogous to the simulation-based construction of the correction factor, we
+compute the smoothed estimates of the unobserved state variables st ¼ ½mt ; ut 0 as
+follows:
+E½st j y; c ¼
+
+N
+1 X
+wi sit ;
+N i¼1
+
+ð38Þ
+
+where sit is the tth element of yi from the ith draw from the importance density.
+The smoothed estimates of the state variables st are based on the entire sample of
+returns y instead of on the returns up to date t (ﬁltered estimates). Unfortunately,
+our estimation approach does not readily produce ﬁltered estimates of the state
+variables because the draws yi are obtained from the full-sample importance density
+gðy j y; cÞ: The practical implication is that our approach is more suitable for ex post
+description of the data than for ‘‘on-line’’ signal extraction in a portfolio choice
+context, for example.
+3.3. Identification and numerical implementation
+As with most nonlinear models, it is difﬁcult, if not impossible, to prove that the
+parameters of our model are uniquely identiﬁed. In order to minimize the chance of
+reporting a local or nonunique global maximum, we implement the following
+procedure. We optimize the likelihood from a variety of sensible (according to the
+literature and the data) initial parameter guesses for m;
+% s;
+% A; b11 ; and b22 ; and for a
+grid of correlations r; rm ; and rs ; each ranging independently from 0:8 to 0:8: For
+each set of initial parameter values, we iterate between applying a simplex algorithm
+and a gradient-based algorithm, where each optimization round is started with the
+outcome of the previous round, until the criterion function does not improve from
+one optimization round to the next. We choose as our estimates the parameters that
+correspond to the greatest likelihood and verify that the parameters that correspond
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+233
+
+to slightly inferior local maxima are qualitatively similar to our estimates. The
+reason for considering a grid of initial values for the correlations is that, intuitively,
+nonzero correlations are the most likely cause of identiﬁcation problems. We are
+particularly concerned about the case rm a0 and rs a0; but have not experienced any
+clear signs of identiﬁcation problems (although the likelihood function is not
+particularly sensitive to the value of rm ).
+We are also concerned about the accuracy of the approximation of the likelihood
+function because a global maximum of an approximated likelihood function is only
+as good as the approximation. Therefore, we use a large simulation size of N ¼
+10; 000 (typical applications of SML with importance sampling use no more than 500
+simulations) and, following the suggestion of Durbin and Koopman (1997), also use
+the method of antithetic variates to further reduce the variance of the simulation
+errors.6 In addition, we verify for rm ¼ rs ¼ 0 that increasing the number of
+simulations to 50,000 does not signiﬁcantly change the SML estimates. Unfortunately, estimating the other speciﬁcations with more simulations is infeasible due to
+the dimensionality of the grid of starting values.
+3.4. Finite simulation and sample size properties
+The asymptotic distribution of our estimator for a ﬁnite simulation size N is
+unknown. To make matters worse, our estimator suffers from the critique of
+Shephard (2000), that the ratio of densities wðy; cÞ may not have a ﬁnite variance. If
+the density in the denominator has thinner tails than the density in the numerator
+(which is likely to be the case because we are approximating an unconditionally fattailed SV model with a Gaussian model), extreme draws of yi may cause wi to be
+unboundedly large. If the ratio of densities does not have a ﬁnite variance, the
+central limit theorem does not apply to the Monte Carlo integral w% and there is no
+way to tell how far a given w% is from its expectation.
+To determine the severity of this ﬁnite simulation size problem, we follow the
+suggestion of Shephard (2000) to simulate a long series of wi ratios and then compute
+the variances of wi for the ﬁrst 500 through 75,000 simulations. If this recursive
+variance is very sensitive to individual draws and does not converge to some constant
+level for very large N; the problem is serious. If, however, the recursive variance
+settles down quickly to a constant level, we can be more conﬁdent in our estimator
+for a ﬁnite simulation size.
+Fig. 1 presents two recursive variance plots for the model with rm ¼ rs ¼ 0: To see
+how the properties of the density ratios differ across the likelihood surface, we
+evaluate the ratios in Panel A at a representative set of starting values and in Panel B
+at the estimates presented in the empirical section. In both cases, the variance of the
+density ratios is very sensitive to individual draws for relatively small N:
+Furthermore, for the initial parameters, the variance is not only much larger in
+magnitude than for the SML estimates (by a factor of about 300), but it also keeps
+6
+
+Durbin and Koopman (1997) show how to compute the contribution of the simulations to the
+asymptotic variance of the SML estimates. In our case, this contribution is less than 1%.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+234
+
+Panel A: Initial Parameters
+
+Recursive Variance
+
+70.0
+
+65.0
+
+60.0
+
+55.0
+
+50.0
+
+10,000
+
+20,000
+
+30,000
+40,000
+Number of Simulations
+
+50,000
+
+60,000
+
+70,000
+
+50,000
+
+60,000
+
+70,000
+
+Panel B: SML Estimates
+
+Recursive Variance
+
+0.28
+
+0.26
+
+0.24
+
+0.22
+
+0.20
+
+10,000
+
+20,000
+
+30,000
+40,000
+Number of Simulations
+
+Fig. 1. Recursive variance of the density ratio. This ﬁgure plots the variance of the density ratio wðy; cÞ ¼
+pðy j y; cÞ=gðy j y; cÞ with rm ¼ rs ¼ 0; using 500 through 75,000 successive simulated values of the latent
+states yi : In Panel A, the parameters c are set to representative starting values of the simulated maximum
+likelihood (SML) estimator. In Panel B, the ratios are evaluated at the SML estimates.
+
+drifting upward as N increases. This conﬁrms Shephard’s suspicion that the variance
+may be unbounded. For the SML estimates, in contrast, the variance seems to be
+fairly stable after 10,000 simulations (at least in this particular set of simulations),
+ﬂuctuating from 0.209 to 0.227. This also conﬁrms Shephard’s observation in the
+context of SV models that the ratio of densities is much better behaved at the SML
+estimates than at other points on the likelihood surface.
+Although these recursive variance plots are only indicative of the (lack of)
+problems induced by evaluating the correction factor with a ﬁnite number of
+simulations, we proceed by assuming that the asymptotic distribution of the
+estimator is Gaussian as usual. In doing so, we are likely to understate the true
+standard errors of our estimates for two reasons. First, the sampling variation of the
+Monte Carlo integral for a ﬁnite N (which is 1=N times the variance in Panel B of
+Fig. 1) increases the standard errors. Second, the poor sampling properties of the
+density ratios may severely deteriorate the asymptotic approximation.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+235
+
+As an alternative way to get a sense for the ﬁnite sample properties of the SML
+estimator, we conduct a Monte Carlo experiment. In particular, we repeatedly
+estimate the model with rm ¼ rs ¼ 0 and with N ¼ 5000 from 500 independent
+samples of T ¼ 636 monthly returns simulated from the model with parameter
+values that correspond to the estimates presented in the empirical section. Table 1
+presents the results. It shows the true parameter values in the ﬁrst column and
+describes the sampling distribution of the corresponding parameter estimates in the
+remaining columns. The average and median estimates are all close to the true
+parameter values, suggesting that the estimator is relatively unbiased. Furthermore,
+except for a21 and a12 ; the standard deviations of the estimates across samples are
+small. In particular, the correlation between the innovations to the conditional
+moments r; which is central to our ﬁrst hypothesis, is measured very precisely with a
+true value of 0:634; an average estimate of 0:636; and a standard deviation of
+only 0.071 across samples. The estimates of a21 and a12 ; which are important for our
+second hypothesis, are less precise with true values of 0:053 and 0:108 and
+estimates ranging from 0:295 to 0.181 with a mean of 0:064 and from 0:109 to
+0.320 with a mean of 0.109, respectively. Finally, notice that some of the sampling
+distributions are quite skewed, especially for the diagonal elements of A and for r;
+raising serious concerns about asymptotic normal approximations.
+
+4. Empirical results
+4.1. Data
+We study monthly returns on the value-weighted CRSP index in excess of the onemonth Treasury bill rate from January 1946 through December 1998 (636
+observations). For the purposes of robustness and speciﬁcation testing, we also
+consider three information variables known to be correlated with expected returns
+and volatility: the short rate, term premium, and default premium.7 The short rate is
+the yield of a one-month Treasury bill. The term premium is the yield spread of a
+ten-year Treasury bond and a one-year Treasury bill. Finally, the default premium is
+the yield spread of corporate bonds with Moody’s Baa and Aaa rating. Table 2
+presents summary statistics of the data. Fig. 2 plots the series and indicates the dates
+of all business cycle peaks (dashed lines) and troughs (dotted lines) obtained from the
+National Bureau of Economic Research (NBER).
+4.2. Parameter estimates and hypotheses tests
+Table 3 presents SML estimates of the latent VAR with the three different
+assumptions about the correlation between the return innovations and the
+7
+In particular, subsets of these predictors are used by Keim and Stambaugh (1986), Campbell (1987),
+Fama and French (1989), and Ang and Bekaert (2001) to model expected returns and by Campbell (1987),
+Schwert (1989), Glosten et al. (1993), and Whitelaw (1994) to model volatility.
+
+236
+
+0
+
+0
+
+yt ¼ me
+% mt1 þ se
+% ut1 et ¼ me
+% Z1 st1 þ se
+% Z2 st1 et
+
+with et BN½0; 1
+
+and
+
+"
+A¼
+
+a11
+a21
+
+#
+a12
+;
+a22
+
+"
+S¼
+
+b11
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r b11 b22
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+r b11 b22
+;
+b22
+
+and Corr½et ; Zt  ¼ 0:
+
+The results are based on 500 independent samples of T ¼ 636 returns simulated from the model with the parameters in the ﬁrst column.
+True
+
+Average
+
+Standard
+deviation
+
+Skewness
+
+Excess
+Kurtosis
+
+Max
+
+Percentiles
+95%
+
+a11
+a21
+a12
+a22
+b11
+b22
+r
+
+0.8589
+0:0529
+0.1084
+0.9226
+0.0076
+0.0553
+0:6336
+
+0.8588
+0:0643
+0.1089
+0.9146
+0.0081
+0.0513
+0:6357
+
+0.0626
+0.0961
+0.0910
+0.0423
+0.0041
+0.0061
+0.0713
+
+0:2422
+0.1959
+0:0908
+0:3584
+0.0049
+0:0707
+0.4844
+
+0:6821
+0:1858
+0:3689
+0.1328
+0:5830
+0.0163
+0:3324
+
+0.9787
+0.1814
+0.3197
+0.9902
+0.0208
+0.0709
+0.3350
+
+0.9514
+0.1123
+0.2478
+0.9727
+0.0183
+0.0603
+0:5063
+
+75%
+0.9047
+0.0005
+0.1581
+0.9352
+0.0131
+0.0554
+0:5883
+
+50%
+0.8633
+0:0743
+0.1099
+0.9041
+0.0089
+0.0510
+0:6667
+
+Min
+25%
+0.8134
+0:1661
+0.0735
+0.8771
+0.0071
+0.0476
+0:7019
+
+5%
+0.7465
+0:2318
+0:0430
+0.8344
+0.0037
+0.0416
+0:7643
+
+0.7097
+0:2945
+0:1087
+0.7833
+0.0021
+0.0379
+0:7951
+
+ARTICLE IN PRESS
+
+with Zt BMVN½0; S;
+
+st ¼ Ast1 þ Zt
+where
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+Table 1
+Finite sample properties of simulated maximum likelihood estimator
+This table describes the sampling distribution of the simulated maximum likelihood estimates of the model:
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+237
+
+Table 2
+Data
+This table presents descriptive statistics of monthly returns on the value-weighted CRSP index in excess of
+the one-month Treasury bill rate as well as of the short rate, term premium, and default premium from
+January 1946 through December 1998. The short rate is the yield on a one-month Treasury bill, the term
+premium is the yield spread of a ten-year Treasury bond and a one-year Treasury bill, and the default
+premium is the yield spread of Moody’s Baa- and Aaa-rated bonds.
+Market index
+Mean
+Std. dev.
+Max
+Min
+Median
+Skewness
+Kurtosis
+Autocorrelation
+1-month
+6-month
+12-month
+24-month
+Correlation with
+Market index
+Short rate
+Term premium
+Default premium
+
+Short rate
+
+Term premium
+
+Default premium
+
+0.0063
+0.0413
+0.1495
+0:2455
+0.0095
+0:6257
+5.5870
+
+0.0470
+0.0304
+0.1805
+0.0031
+0.0448
+1.0177
+4.4510
+
+0.0115
+0.0126
+0.0431
+0:0367
+0.0115
+0:3442
+4.0337
+
+0.0090
+0.0042
+0.0265
+0.0027
+0.0076
+1.5361
+5.3480
+
+0.0347
+0:0637
+0.0398
+0.0271
+
+0.9572
+0.8819
+0.8153
+0.6663
+
+0.9582
+0.7040
+0.5410
+0.2359
+
+0.9755
+0.8435
+0.7087
+0.5263
+
+1.0000
+
+0:1209
+1.0000
+
+0.1293
+0:3344
+1.0000
+
+0.0530
+0.6652
+0.0726
+1.0000
+
+conditional mean and volatility innovations. Model A assumes that these
+innovations are uncorrelated. In Models B and C, the return innovations are
+allowed to be correlated either with the conditional mean or the conditional
+volatility innovations, respectively. Finally, Model D is unrestricted.
+The estimates of m% and s% (together with the estimates of b11 and b22 ) imply
+an annualized unconditional risk premium of 7.5–7.8% and a return volatility of
+13.2–13.6%, which, not surprisingly, match closely the sample moments in Table 2.8
+All but one of the estimates of the own-lag persistence coefﬁcients a11 and a22 exceed
+0.85 (the exception is a11 in Model B), suggesting that both the conditional mean and
+volatility are highly persistent quantities.
+The innovations to the conditional mean and volatility are contemporaneously
+negatively correlated in all models, with a correlation r that ranges from 0:635 to
+0:458 and that is statistically signiﬁcant at any conventional signiﬁcance level. (The
+t-statistics are computed with Hessian-based standard error.) This ﬁnding implies a
+strong rejection of hypothesis H1. Furthermore, the negative sign implies that the
+unconditional return distribution is negatively skewed (consistent with Table 2) and
+that both the volatility-in-mean
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃand mean-in-volatility effects are negative and
+signiﬁcant, with b1 ¼ r b11 =b22 ranging from 0:235 to 0:155 and b2 ¼
+8
+
+We compute the unconditional moments of returns using the properties of bi-variate log-normal
+random variables and the unconditional mean and covariance matrix of the log moments in Eq. (4).
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+238
+0.20
+
+0.18
+
+0.15
+
+0.15
+
+0.10
+0.12
+
+Short Rate
+
+Return
+
+0.05
+0.00
+
+− 0.05
+
+0.09
+0.06
+
+− 0.10
+0.03
+
+− 0.15
+− 0.20
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+0.00
+
+95
+
+50
+
+55
+
+60
+
+65
+
+0.06
+
+0.030
+
+0.04
+
+0.025
+
+0.02
+0.00
+
+− 0.02
+− 0.04
+− 0.06
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+80
+
+85
+
+90
+
+95
+
+Year
+
+Default Premium
+
+Term Premium
+
+Year
+
+0.020
+0.015
+0.010
+0.005
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+Year
+
+80
+
+85
+
+90
+
+95
+
+0.000
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+Year
+
+Fig. 2. Returns and predictors. This ﬁgure plots the monthly returns on the value-weighted CRSP index in
+excess of the one-month Treasury bill rate as well as of the short rate, term premium, and default premium
+from January 1946 through December 1998. The vertical dashed and dotted lines represent the NBER
+dates of the peak and trough of every business cycle in the sample, respectively.
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r b22 =b11 ranging from 1:998 to 1:352: It is clear that there exists a negative
+contemporaneous trade-off between expected returns and risk, which conﬁrms the
+results of Campbell (1987), Breen et al. (1989), Nelson (1991), and Glosten et al.
+(1993), but not those of French et al. (1987) and Campbell and Hentschel (1992).
+The off-diagonal elements of the transition matrix a12 and a21 ; which determine
+the Granger causality embedded in the VAR, are individually not signiﬁcant at the
+5% level (but a12 is signiﬁcant at the 10% level in Models A and C). To determine
+whether these parameters are also jointly insigniﬁcant, we estimate the models under
+the restriction a12 ¼ a21 ¼ 0 and conduct a likelihood ratio (LR) test of the
+restriction. The LR test statistics, which are asymptotically w2 distributed with two
+degrees of freedom, all exceed the 1% critical value of 9.21. This rejection is evidence
+in favor of bidirectional Granger causality between the conditional moments,
+meaning the lagged volatility helps predict the mean and, to a somewhat lesser
+degree, the lagged mean helps predict the volatility.
+The opposite signs of a12 and a21 conﬁrm qualitatively Whitelaw’s (1994) ﬁnding
+that the cross-autocorrelations between the conditional mean and volatility offset
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+239
+
+Table 3
+Parameter estimates
+This table presents the simulated maximum likelihood estimates of the model:
+0
+
+0
+
+yt ¼ me
+% mt1 þ se
+% ut1 et ¼ me
+% Z1 st1 þ se
+% Z2 st1 et
+
+with et BN½0; 1
+
+and
+with Zt BMVN½0; S;
+
+st ¼ Ast1 þ Zt
+where
+"
+A¼
+
+a11
+
+a12
+
+a21
+
+a22
+
+#
+
+"
+
+;
+
+S¼
+
+b11
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r b11 b22
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+r b11 b22
+;
+b22
+
+"
+and Corr½et ; Zt  ¼
+
+rm
+
+#
+
+rs
+
+:
+
+The estimates are for monthly returns on the value-weighted CRSP index in excess of the one-month
+Treasury bill rate from January 1946 through December 1998.
+Parameters
+
+a11
+a21
+a12
+a22
+b11
+b22
+r
+rm
+rs
+m%
+s%
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+b1 ¼ rpb
+11 =b22
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+b2 ¼ r b22 =b11
+a12  b1 a22
+a21  b2 a11
+a11 þ a12  a21  a22
+ln L
+
+Model A
+
+Model B
+
+Model C
+
+Model D
+
+Estimate
+
+t-Stat
+
+Estimate
+
+t-Stat
+
+Estimate
+
+t-Stat
+
+Estimate
+
+t-Stat
+
+0.8592
+0:0531
+0.1081
+0.9237
+7:60  103
+0.0554
+0:6345
+—
+—
+6:50  103
+0.0377
+0:2350
+1:7131
+0.3252
+1.4188
+0.0967
+1,150.98
+
+17.41
+1:92
+0.92
+15.23
+4.24
+13.02
+4:32
+—
+—
+3.31
+10.32
+6:23
+8:34
+3.82
+5.21
+3.33
+
+0.8313
+0:0211
+0.1168
+0.9110
+6:43  103
+0.0561
+0:4577
+0:0866
+—
+6:48  103
+0.0385
+0:1550
+1:3519
+0.2580
+1.1028
+0.0684
+1,151.11
+
+9.23
+1:43
+1.12
+16.32
+2.20
+12.22
+3:21
+0:49
+—
+5.94
+5.60
+4:11
+6:34
+3.11
+4.35
+2.54
+
+0.8658
+0:0885
+0.0861
+0.8973
+5:96  103
+0.0614
+0:5584
+—
+0:2541
+6:24  103
+0.0382
+0:1740
+1:7923
+0.2422
+1.4623
+0.1431
+1,152.94
+
+11.21
+1:96
+1.01
+15.32
+3.19
+5.55
+5:80
+—
+4:04
+5.11
+8.79
+5:98
+9:32
+3.47
+4.11
+2.31
+
+0.8677
+0:1292
+0.0947
+0.9086
+4:68  103
+0.0591
+0:5621
+0:0517
+0:2430
+6:24  103
+0.0382
+0:1582
+1:9975
+0.2384
+1.6040
+0.1830
+1,153.06
+
+10.92
+1:42
+0.71
+18.49
+2.76
+5.22
+5:96
+0:77
+3:67
+4.87
+9.01
+3:99
+10:92
+3.82
+2.42
+2.92
+
+each other through time. An increase in the mean is followed by a decrease in the
+volatility, while an increase in the volatility leads to a subsequent increase in the
+mean. Unfortunately, we cannot directly compare our estimates to Whitelaw’s
+results because our VAR is for log moments instead of levels. However, we can
+approximate the off-diagonal elements of a VAR in levels by dm=ds ¼
+ðd ln m=d ln sÞðm=sÞCa12 m=
+% s% and ds=dm ¼ ðd ln s=d ln mÞðs=mÞCa21 s=
+% m:
+% Whitelaw’s
+estimates (for a shorter sample period) are dm=ds ¼ 0:118 and ds=dm ¼ 0:107: Our
+approximations range from 0.014 to 0.021 and from 0:784 to 0:160; respectively.
+The lag-volatility-in-mean and lag-mean-in-volatility effects are both positive and
+signiﬁcant at the 5% level (in most cases even at the 1% level), with estimates of
+a12  b1 a22 ranging from 0.238 to 0.325 and those of a21  b2 a11 ranging from 1.103
+to 1.604. (The asymptotic standard errors of a12  b1 a22 and a21  b2 a11 are
+
+ARTICLE IN PRESS
+240
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+computed using the delta method.) Therefore, both parts of hypothesis H2 are
+decisively rejected and the reduced-form models in Eqs. (10) and (11) feature lag
+adjustments. This means that the mean and volatility adjust not only instantaneously
+but also with a lag to changes in the other moment.
+The rejections of the hypotheses H1 and H2 are based on asymptotic standard
+errors. However, as stressed in Section 3.4, the asymptotics of our estimator are
+questionable for a number of reasons. To substantiate the evidence on the
+contemporaneous correlation and lag adjustments, we conduct a Monte Carlo
+experiment under each null. Speciﬁcally, we estimate Model A under each of the
+restrictions r ¼ 0; a12 ¼ b1 a22 ; and a21 ¼ b2 a11 : We then simulate from each model
+500 independent samples of T ¼ 636 monthly returns and construct sampling
+distributions of the restrictions under the null. The results corroborate our asymptotic
+inferences. Under the null of r ¼ 0; the estimated correlation is less than 0:5 in only
+two of the 500 samples. Likewise, under the null a12 ¼ b1 a22 or a21 ¼ b2 a11 ; the
+estimate of a12  b1 a22 or a21  b2 a11 exceed their empirical estimates in less than 3%
+and 1% of the samples under the null, respectively. We conclude that the rejections of
+H1 and H2 are not attributed to invalid asymptotic approximations.
+The estimates of a11 þ a12  a21  a22 range from 0.068 to 0.183 and all have
+t-statistics greater than two, suggesting (based on the asymptotics) that the Sharpe
+ratio follows a two-factor process. If we use the conditional mean as the second
+factor, the own-lag persistence of the Sharpe ratio is a22  a12 C0:80; if we use the
+volatility as the second factor, it is a11  a21 C0:90: In either case, the Sharpe ratio is
+highly persistent, which reﬂects our ﬁnding above that both the conditional mean
+and volatility are highly persistent.
+The signs of the estimated correlations rm between the return and mean
+innovations (Models B and D), and rs between the return and volatility innovations
+(Models C and D), are consistent with the volatility feedback and leverage effects,
+respectively. Both correlations are negative, which implies that increases in the mean
+and volatility are associated with negative returns. However, only the estimates of rs
+are signiﬁcant and, judging by the Akaike information criterion, only Model C yields
+an improvement in ﬁt to the fully restricted Model A. (The Akaike information
+criterion is deﬁned as AIC ¼ ln L  dim½c:) Since the estimates of rm are
+insigniﬁcant and the volatility feedback explanation is consistent with a negative
+rs only if r is positive, we conclude that our results favor the leverage explanation of
+asymmetric volatility.
+Finally, the estimates of the latent VAR and, more importantly, of the reducedform models in Eqs. (10) and (11), are remarkably similar across the four correlation
+structures. We therefore focus in the remainder of the paper on Model C, the bestﬁtting model according to the Akaike information criterion. However, we veriﬁed
+that all qualitative statements we make below are robust to this speciﬁcation choice.
+4.3. Time-series of the conditional moments
+Given the parameter estimates in Table 3 and the index returns, we extract
+estimates of the conditional mean, volatility, and Sharpe ratio. Before we study the
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+241
+
+time series of these estimates, we ﬁrst consider as a point of reference the time series
+of the returns themselves. It is clear from Table 2 that the returns are noisy, with an
+annualized volatility of 14% and a ﬁrst-order autocorrelation of only 0.035. It is
+therefore not surprising that in Fig. 2 the noise disguises the persistence of the
+conditional mean. The persistence of the conditional volatility is more apparent.
+Judging by the frequency and magnitude of large price changes, there are
+pronounced and prolonged periods of high and low volatility.
+The left column of Fig. 3 presents the smoothed estimates of the annualized (not
+logged) mean (ﬁrst row), volatility (second row), and Sharpe ratio (third row). Each
+plot also shows as vertical lines the dates of all business cycle peaks (dashed lines)
+and troughs (dotted lines) in our sample. It is immediately clear that both the
+conditional mean and volatility vary through time. The annualized mean has a
+standard deviation of 0.9% and ranges from 4.8% in 1965 to almost 10% in 1988.
+The annualized volatility has a standard deviation of 4.5% percent and ranges from
+less than 5% in 1965 to over 30% in 1987. Consistent with the estimates of a11 and
+a22 ; the conditional mean reverts faster to its long-term average than the conditional
+volatility. In fact, periods of high or low volatility appear to last as long as a few
+decades.
+To gauge the statistical signiﬁcance of the variation of the conditional mean and
+volatility, we estimate restricted models with either constant mean or constant
+volatility and then perform LR tests of these restrictions. Both constrained models
+can be rejected at the 5% level (asymptotic p-values of 2.3% for the constant-mean
+model and less than 0.5% for the constant-volatility model). To measure economic
+signiﬁcance and to relate our results to the literature on time-varying moments, we
+also compute the statistics 1  Var½yt  mt =Var½yt  and 1  Var½y2t  s2t =Var½y2t ;
+which we interpret as predictive regression R2 ’s for returns and squared returns,
+respectively. The values of these statistics, 2.1% for returns and 35.7% for squared
+returns, are comparable to the results of predicting monthly returns with exogenous
+predictors and squared returns with ARCH models.
+The variation of the conditional mean is distinctly countercyclical. In eight of the
+nine completed business cycles in the sample, the conditional mean rises almost
+monotonically from the peak (dotted vertical lines) to the trough (dashed vertical
+lines) of the cycle (the only exception is the 1948–1949 recession). Although other
+studies have found similar countercyclical patterns in the conditional mean (Fama
+and French, 1989), the strength of our ﬁnding is astonishing given the fact that we
+are not using exogenous predictors. The problem with using exogenous predictors to
+identify cyclical patterns is that the NBER may use the same predictors (or variables
+that are highly correlated with these predictors) to ex post date the peaks and
+troughs of the business cycles. Furthermore, it is interesting that although the
+periods between the peaks and troughs of the business cycles are aligned with the
+expected return cycles, the sometimes much longer periods between a trough and
+the following peak often contain more than one large swing in expected returns.
+The conditional volatility exhibits a somewhat different cyclical pattern. In
+particular, the volatility is almost uniformly high and at times decreasing during
+recessions, when the conditional mean is rising, and low during expansions.
+
+ARTICLE IN PRESS
+242
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+However, this business cycle pattern is distorted by low-frequency swings in
+volatility that last for decades.
+To quantify the patterns in the variation of the conditional moments, we compute
+the differences between the means and volatilities at the trough and preceding peak
+of each business cycle. To smooth some of the month-to-month ﬂuctuations in the
+moments, we work with the average moments over the three months straddling
+the peak or trough. For the mean, all but one of the differences are positive and the
+average difference is 1.1%. If the means were independent and identically distributed
+(iid), which is a very conservative
+pﬃﬃﬃ assumption
+pﬃﬃﬃ given their persistence, the standard
+error of this difference is
+2  0:9= 9 ¼ 0:4%, indicating that the average
+difference is signiﬁcant at the 5% level. For the volatility, all differences are
+negative and the average difference
+pﬃﬃﬃ is 4:9%
+pﬃﬃﬃ with a standard error (under the
+conservative iid assumption) of 2  4:5= 9 ¼ 2:1%. In addition, we compute
+correlations between the moments and the three exogenous conditioning variables.
+The univariate correlations of the conditional mean with the short rate, term
+premium, and default premium are 0.192, 0:021; and 0.498, respectively, and a
+multivariate R2 is 0.319. The correlations of the conditional volatility with the same
+variables are 0.252, 0:238; and 0:256; and the R2 is 0.132. These statistics illustrate
+at least two facts. First, the mean is highly correlated with the empirically and
+theoretically countercyclical default spread. Second, the volatility is much less
+correlated with the predictors than the mean, which is fairly standard in the literature
+(as long as the predictors exclude lagged volatilities).
+The only seemingly counterfactual feature of our estimates is that the conditional
+mean is weakly positively correlated with the short rate, while predictive return
+regressions suggest a negative correlation. We conjecture that this result is due to the
+fact that our estimates are strongly cyclical and do not exhibit a pattern that
+resembles the almost monotonic rise of the short rate from the 1940s through the
+early 1980s and then subsequent drop through the late 1990s (see Fig. 2). To verify
+this conjecture, we relate the conditional mean to the difference between the short
+rate and its one-year moving average (which essentially detrends the short rate).
+Consistent with predictive return regressions, the resulting univariate correlation is
+0:22: Furthermore, we run a multivariate regression of the conditional mean on all
+three predictors (which also detrends the short rate if the predictors are
+cointegrated). The regression coefﬁcient on the short rate is 0:012 with a t-statistic
+of 8:46:
+Together, the countercyclical variation of the mean and the increase in volatility
+during recessions leads to countercyclical variation of the conditional Sharpe ratio.
+The Sharpe ratio rises from the peak to the trough of every completed business cycle
+in the sample. This countercyclical variation of the Sharpe ratio is consistent with the
+intuition from habit formation models (Constantinides, 1990; Campbell and
+Cochrane, 1999). At the peak of a business cycle, consumers are enjoying
+consumption levels far above their historically built-up ‘‘habits’’ which makes them
+relatively risk-tolerant. As a result, a low expected reward per unit of risk, or low
+Sharpe ratio, is required for consumers to invest in stocks at the peak of a cycle. At
+the trough of a cycle, in contrast, consumption levels are approaching the habits (or
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+243
+
+perceived subsistence levels), which makes consumers relatively risk averse. For
+consumers to invest in stocks at the trough, the Sharpe ratio must be high.
+Fig. 3 offers a more visual description of how the lead-lag interactions between the
+conditional mean and volatility arise. As the economy comes off the peak of a
+business cycle, the volatility rises almost immediately. The mean, however, increases
+only gradually as the economy moves from the peak to the trough of the cycle.
+Therefore, the volatility appears to lead the mean through the recession. The mean
+then reaches a high at the trough of the cycle, shortly after which the volatility drops
+back to its lower expansion level. As a result, the increase in the mean is associated
+with a subsequent drop in the volatility.
+
+4.4. Impulse response functions
+To better understand the dynamic behavior of the conditional moments, we now
+turn to the impulse response functions of the VAR. The impulse response functions
+show how a one standard deviation shock to one of the innovations of the VAR
+affects contemporaneously the conditional mean and volatility and then propagates
+to future realizations of the moments through the dynamic structure of the VAR.
+Since our model describes the dynamics of the log mean and log volatility, we
+transform the impulse response functions of the VAR into the implied impulse
+response functions for the mean and volatility (without logs).
+As long as the innovations of the VAR are uncorrelated, interpreting the impulse
+response functions is straightforward. The innovation to the mean is Z1t and the
+innovation to the volatility is Z2t : However, the innovations of the VAR are usually
+correlated, which means that Z1t and Z2t have a common component that acts on
+both the mean and volatility, and two orthogonal components that act only on the
+mean or the volatility, respectively. Since we cannot identify all three components
+separately, we follow the convention to attribute the common component of the
+innovations to Z1t (simply because it belongs to the ﬁrst equation of the VAR) and to
+remove this common component from Z2t ; so that this second innovation is by
+construction orthogonal to the ﬁrst. Mechanically, we use a Cholesky decomposition
+of the error covariance matrix to orthogonalize the innovations of the VAR. The
+impulse response functions then trace the effects of a one standard deviation shock
+to the common component (which contemporaneously acts on the mean and, to the
+extent that the original innovations are correlated, also on the volatility) and to
+the orthogonal component (which by construction acts contemporaneously only on
+the volatility).
+The six plots in Fig. 4 illustrate the impulse responses for the unrestricted VAR
+(solid lines) and the restricted VAR with a12 ¼ a21 ¼ 0 (dashed lines). The ﬁrst
+column of plots shows the effects of a one standard deviation mean innovation at
+date t on the mean (ﬁrst row), the volatility (second row), and the Sharpe ratio (third
+row) at dates t; t þ 1; y; t þ 60: Similarly, the second column shows the effects of a
+one standard deviation orthogonalized volatility innovation on the current and
+future mean, volatility, and Sharpe ratio.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+244
+
+Panel B : Extended Model C
+0.12
+
+0.10
+
+0.10
+
+Expected Return
+
+Expected Return
+
+Panel A : Model C
+0.12
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0.08
+
+0.06
+
+0.04
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+0.02
+
+95
+
+50
+
+55
+
+60
+
+65
+
+0.35
+
+0.35
+
+0.30
+
+0.30
+
+0.25
+
+0.25
+
+0.20
+0.15
+
+0.05
+
+0.05
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+0.00
+
+95
+
+50
+
+55
+
+60
+
+65
+
+1.75
+
+1.75
+
+1.50
+
+1.50
+
+1.25
+
+1.25
+
+1.00
+0.75
+
+0.25
+
+0.25
+60
+
+65
+
+70
+
+75
+
+Year
+
+95
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+80
+
+85
+
+90
+
+95
+
+0.75
+0.50
+
+55
+
+90
+
+1.00
+
+0.50
+
+50
+
+85
+
+Year
+
+Sharpe Ratio
+
+Sharpe Ratio
+
+Year
+
+0.00
+
+80
+
+0.15
+0.10
+
+50
+
+75
+
+0.20
+
+0.10
+
+0.00
+
+70
+
+Year
+
+Volatility
+
+Volatility
+
+Year
+
+80
+
+85
+
+90
+
+95
+
+0.00
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+Year
+
+Fig. 3. Estimates of the conditional mean, volatility, and Sharpe ratio. This ﬁgure plots the annualized
+full-information (or smoothed) estimates of the conditional mean E½mt j y1 ; y; yT ; volatility
+E½st j y1 ; y; yT ; and Sharpe ratio E½mt j y1 ; y; yT =E½st j y1 ; y; yT : Panels A and B correspond to Model
+C without conditioning variables and the extended Model C with the short rate, term premium, and
+default premium as the conditioning variables, respectively. The vertical dashed and dotted lines represent
+the NBER dates of the peak and trough of every business cycle in the sample, respectively.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+Panel A : Response to Mean Innovation
+
+245
+
+Panel B : Response to Orthogonal Volatility
+Innovation
+0.03
+
+0.008
+
+0.02
+0.01
+
+Volatility
+
+Expected Return
+
+0.004
+
+0.000
+
+0.00
+
+− 0.01
+
+− 0.004
+− 0.02
+− 0.008
+
+0
+
+12
+
+24
+
+36
+
+48
+
+− 0.03
+
+60
+
+0
+
+12
+
+24
+
+36
+
+48
+
+60
+
+36
+
+48
+
+60
+
+36
+
+48
+
+60
+
+Months
+
+Months
+
+0.03
+
+0.008
+
+0.02
+0.01
+
+Volatility
+
+Expected Return
+
+0.004
+
+0.000
+
+0.00
+
+− 0.01
+
+− 0.004
+− 0.02
+− 0.008
+
+0
+
+12
+
+24
+
+36
+
+48
+
+− 0.03
+0
+
+60
+
+12
+
+24
+
+Months
+
+0.20
+
+0.05
+
+0.15
+
+0.00
+
+Sharpe Ratio
+
+Sharpe Ratio
+
+Months
+
+0.10
+
+0.05
+
+− 0.10
+− 0.15
+
+0.00
+
+− 0.05
+0
+
+− 0.05
+
+12
+
+24
+
+36
+
+Months
+
+48
+
+60
+
+− 0.20
+0
+
+12
+
+24
+
+Months
+
+Fig. 4. Impulse response functions. This ﬁgure plots the contemporaneous and lagged responses of the
+conditional mean, volatility, and Sharpe ratio to a one standard deviation mean innovation (in Panel A)
+and a one standard deviation orthogonalized volatility innovation (in Panel B) for Model C. The solid and
+dashed lines correspond to unrestricted and restricted ða21 ¼ a12 ¼ 0Þ estimates.
+
+Consider ﬁrst the impulse responses for the unrestricted VAR. The ﬁrst column
+of plots illustrates clearly the negative contemporaneous correlation between
+the conditional mean and volatility. A one standard deviation mean innovation
+
+ARTICLE IN PRESS
+246
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+results in a contemporaneous 0.66% increase in the annualized mean, a 1.76%
+decrease in the annualized volatility, and a 0.14 increase in the annualized
+Sharpe ratio. Thereafter, the mean fully mean-reverts within four months and
+then overshoots its long-term average by dropping as much as an additional
+0.29% over the next 24 months. The explanation for this overshooting of the
+mean after a positive mean innovation is the lag adjustment of the mean to
+the change in volatility. The volatility keeps dropping, although at a decreasing
+rate, for about 24 months after the mean innovation. This persistent drop in
+volatility causes the mean to fall due to the positive and relatively large
+Granger causality term a12 as well as the positive lag-volatility-in-mean effect
+a12  b1 a22 : The three plots also illustrate clearly the persistence of the conditional moments. One year after the shock, the conditional mean and volatility
+are still 0.22% and 0.68% away from their respective long-term averages,
+respectively.
+The second column illustrates that much of the variation of the conditional
+volatility is contemporaneously independent of the variation of the conditional
+mean. A one standard deviation orthogonalized volatility innovation immediately
+leads to a 3% increase in the annualized volatility. Since the volatility is highly
+persistent, it returns to its long-term average only about 18 months after
+the innovation. The lag adjustment of the conditional mean to changes in the
+volatility is also more pronounced for the orthogonalized volatility innovation
+because by construction the mean does not react contemporaneously to this
+innovation. The response of the mean to the orthogonalized volatility innovation
+is hump-shaped. The mean does not respond contemporaneously but rises
+immediately after the innovation and peaks six months later at a level of 0.5%
+above its long-term average. The mean then mean-reverts to its long-term average
+over the following 30 months. Notice that even after the volatility fully mean-reverts,
+the mean is still relatively high with a normal level of risk. This results in an aboveaverage Sharpe ratio from 12 through 36 months after the orthogonalized volatility
+innovation.
+An intuitive way to illustrate the role of the lag adjustments in the dynamics of
+the conditional mean and volatility is to compare the impulse responses of the
+restricted VAR with a21 ¼ a21 ¼ 0 (dashed lines) to those of the unrestricted VAR
+(solid lines). Consider ﬁrst the responses of the restricted VAR to a one standard
+deviation mean innovation. Although the initial effect of the innovation is virtually
+the same as in the unrestricted VAR, the mean fully mean-reverts within one
+year and, more importantly, does not overshoot its long-term average. The reason
+for this difference in mean responses is that in the restricted VAR, the decrease
+in volatility (from the mean innovation) does not feed back to the mean in future
+periods. This lack of feedback is even more transparent for a one standard
+deviation orthogonalized volatility innovation, where in the restricted VAR the
+mean never responds to the innovation. It is therefore clear from Fig. 4 that the lag
+adjustments of the mean to changes in volatility and, to a lesser extent, of the
+volatility to changes in the mean, play an important role in the dynamics of the
+conditional moments.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+247
+
+4.5. A closer look at the contemporaneous correlation
+There is a surprising amount of disagreement about even the sign of the
+contemporaneous correlation between the conditional mean and volatility of stock
+returns. Our results contribute to this empirical debate by documenting a strong
+negative correlation between the innovations to the conditional mean and volatility,
+which in turn implies negative and substantial volatility-in-mean and mean-involatility effects. However, on the face of it, our analysis is subject to the caveat that
+we model the log moments, while most of the literature relates the mean and
+volatility directly (without logs).
+To establish a tighter link to the literature, notice that the log moments ln mt and
+ln st are bivariate normally distributed. The moments mt and st are therefore
+bivariate log-normally distributed. It follows from the bivariate log-normal
+distribution that
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+expfr b11 b22 g  1
+Corr½mt ; st jmt1 ; st1  ¼ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃpﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃCr
+ð39Þ
+expfb11 g  1 expfb22 g  1
+for sufﬁciently small b11 and b22 : In words, we can legitimately approximate the
+correlation between the conditional mean and volatility by the correlation between
+the corresponding log moments. Given the parameter estimates in Table 3, the
+approximation error is only 0.012 (0:557 with logs versus 0:545 without logs). We
+conclude that despite the log transformation, our empirical results can be interpreted
+readily in the context of the literature on the contemporaneous correlation between
+the conditional mean and volatility.
+However, not only can our results be interpreted in the context of this literature,
+but they actually shed light on why there is such disagreement about the sign of
+the contemporaneous correlation. The key issue is the distinction between the
+conditional (on ln mt1 and ln st1 ) and unconditional correlation between the
+moments. The conditional correlation is the same as the correlation between
+the innovations to the moments and is equal to r: The unconditional correlation, in
+contrast, is computed from the unconditional covariance matrix in Eq. (4). It is clear
+from this equation that, depending on A; the conditional and unconditional
+correlations can be quite different.
+Fig. 5 illustrates this point by plotting the unconditional cross-autocorrelations (as
+opposed to the conditional cross-autocorrelations implicit in the impulse response
+functions) of the mean and volatility implied by the parameter estimates in Table 3,
+where the ‘‘offset’’ represents the number of months the volatility is lagged (negative
+offset) or led (positive offset) relative to the mean. Each of the unconditional crossautocorrelations is computed from the corresponding unconditional auto-covariance
+matrices of the VAR. For example, the unconditional contemporaneous correlation,
+at an offset of zero, is computed from the unconditional covariance matrix in Eq. (4).
+The unconditional cross-correlations between the mean and leads of the volatility
+of more than 12 months are all negative, with a minimum of 0:09 at an offset of 21
+months. In contrast, the correlations are positive for all lagged values of the volatility
+
+ARTICLE IN PRESS
+248
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+0.8
+0.7
+0.6
+
+Correlation
+
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+
+− 0.1
+− 0.2
+−30 −24 −18 −12
+
+−6
+
+0
+
+6
+
+12
+
+18
+
+24
+
+30
+
+Offset
+
+Fig. 5. Cross-autocorrelations. This ﬁgure plots the cross-autocorrelations of the conditional mean and
+volatility, where the offset denotes the number of months the volatility is lagged (negative offset) or led
+(positive offset) relative to the mean.
+
+as well as for led values up to an offset of 12 months. The correlations decay with
+both increasingly negative and positive offsets, but the decay is asymmetric due to
+the differences between the off-diagonal elements of A: The cross-correlations peak
+at an offset of minus six months with 0.75, which means that unconditionally the
+volatility leads the mean by six months. It is interesting to note that the average
+duration of a recession in our sample is approximately nine months. The six-month
+lead of the volatility therefore seems to relate to the business cycle pattern in the
+conditional moments that we documented in Section 4.3. The increase in volatility at
+the beginning of the recession is associated with an (almost certain) increase in the
+mean approximately six months later, toward the end of the recession.
+The most important result for understanding the apparent disagreement about the
+sign of the contemporaneous correlation is that, although the conditional
+contemporaneous correlation is large and negative ð0:557Þ; the unconditional
+contemporaneous correlation (at an offset of zero) is large and positive (0.312). This
+positive unconditional correlation arises both because of the large and positive
+Granger causality term a12 ; which implies a large and positive lag-volatility-in-mean
+effect, and because of the high persistence of the volatility. For example, suppose the
+volatility increases from a normal 15% to 25% (as the economy enters a recession).
+Over the following few months the mean increases gradually, reaching its highest
+level about six months after the increase in volatility. Since the volatility is highly
+persistent, it is still relatively high (23%, for example) even six months after the
+initial increase. Therefore, it appears unconditionally that whenever the mean is high
+the volatility is also high, suggesting a positive correlation between the moments.
+This ﬁnding implies that the sign and magnitude of the contemporaneous
+correlation between the conditional mean and volatility depends crucially on
+whether we measure the conditional or unconditional correlation. It is not surprising
+then that the results about the contemporaneous correlation in the literature depend
+on the statistical model and predictors (Harvey, 2001; Koopman and Uspensky,
+1999), the return horizon (Harrison and Zhang, 1999), and, most importantly,
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+249
+
+whether we measure the correlation in levels or ﬁrst-differences (French et al., 1987;
+Whitelaw, 1994).
+4.6. Exogenous predictors
+On the one hand, the advantage of our latent VAR approach is that it allows us to
+study the dynamics of the conditional mean and volatility without relying on
+exogenous predictors. On the other hand, by ignoring the evidence of a correlation
+between the conditional moments and exogenous predictors, we are potentially
+discarding some useful information. Discarding information is always undesirable,
+but it is particularly so in this application because, judging by the vast disagreement
+in the literature, precisely measuring the relationship between the conditional mean
+and volatility is difﬁcult.
+As a compromise and robustness check, we therefore estimate an extended version
+of the model in which each moment can also depend on three variables known to be
+correlated with expected returns and volatility: the short rate, term premium, and
+default premium (see footnote 7 for references).9 In particular, we assume that these
+three variables are truly exogenous and then consider the following model
+speciﬁcation:
+0
+
+0
+
+Z s
+Z s
+yt ¼ me
+% mt1 þ se
+% ut1 et ¼ me
+% 1 t1 þ se
+% 2 t1 et
+
+with et BN½0; 1
+
+ð40Þ
+
+and
+st ¼ Cxt1 þ Ast1 þ Zt
+
+with Zt BMVN½0; S;
+
+ð41Þ
+
+where xt denotes the de-meaned predictors observed at date t:
+The extended transition Eq. (41) can be interpreted directly in the context of the
+predictability (of both the mean and volatility) literature. With A ¼ 0; the ﬁrst
+equation of the extended VAR resembles a predictive regression (except for the log)
+and the second equation is an EGARCH model with only exogenous predictors.
+Without this restriction, both the exogenous predictors xt and the lagged moments
+st1 forecast future realizations of the moments st : Furthermore, since the predictors
+are de-meaned, the coefﬁcient matrix C shows how deviations of the predictive
+variables from their long-term averages predict deviations of the conditional
+moments from their long-term averages.
+Table 4 reports the estimates of the extended model and also replicates for
+comparison the results for Model C in Table 3. The estimates of A and S are quite
+similar across the two models. When we add exogenous predictors, the own-lag
+coefﬁcients a11 and a22 both increase. The coefﬁcients a12 on the volatility in the
+mean equation and a21 on the mean in the volatility equation both decrease in
+magnitude. The variance of the mean and volatility decrease, which means that the
+9
+Two common volatility predictors, squared returns (French et al., 1987; Schwert, 1989; Schwert and
+Seguin, 1991; Andersen et al., 2001) and option-implied volatilities (Christensen and Prabhala, 1998), are
+not included in this list. Squared returns are already implicitly incorporated in our estimation through the
+approximating model in Eq. (30) and the availability of option-implied volatilities is too limited to study
+business cycle patterns in the conditional moments (covering only one business cycle).
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+250
+
+Table 4
+Parameter estimates with exogenous predictors
+This table presents the simulated maximum likelihood estimates of the model:
+0
+
+0
+
+with et BN½0; 1
+
+yt ¼ me
+% mt1 þ se
+% ut1 et ¼ me
+% Z1 st1 þ se
+% Z2 st1 et
+and
+with Zt BMVN½0; S;
+
+st ¼ Cxt þ Ast1 þ Zt
+where
+"
+C¼
+
+c11
+c21
+
+c12
+
+c13
+
+c22 c23
+" #
+0
+:
+Corr½et ; Zt  ¼
+rs
+
+#
+
+"
+
+;
+
+A¼
+
+a11
+
+a12
+
+a21
+
+a22
+
+#
+
+"
+
+;
+
+S¼
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+r b11 b22
+b11
+;
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+b22
+r b11 b22
+
+and
+
+The vector of conditioning variables xt contains the de-meaned short rate, term premium, and default
+premium. The estimates are for monthly returns on the value-weighted CRSP index in excess of the onemonth Treasury bill rate from January 1946 through December 1998. The results for the base model
+without conditioning variables are reproduced from Table 3.
+Parameters
+
+Model C
+
+Extended Model C
+
+Estimate
+
+t-Stat
+
+Estimate
+
+t-Stat
+
+a11
+a21
+a12
+a22
+
+0.8658
+0.0885
+0.0861
+0.8973
+
+11.21
+1.96
+1.01
+15.32
+
+0.8843
+0.0746
+0.0312
+0.8955
+
+11.69
+2.91
+1.40
+32.47
+
+b11
+b22
+
+5:96  103
+0.0614
+
+r
+rs
+
+0.5584
+0.2541
+
+m%
+s%
+
+6:24  103
+0.0382
+
+5.11
+8.79
+
+6:29  103
+0.0380
+
+c11
+c21
+c12
+c22
+c13
+c23
+
+—
+—
+—
+—
+—
+—
+
+—
+—
+—
+—
+—
+—
+
+2.6187
+0.6550
+0.3613
+1.4233
+2.9969
+1.6929
+
+ln L
+
+1,152.94
+
+3.19
+5.55
+5.80
+4.04
+
+5:62  103
+0.0441
+0.4512
+0.2817
+
+2.23
+4.47
+2.64
+4.22
+4.48
+9.87
+5.22
+3.18
+2.36
+3.04
+5.43
+5.16
+
+1,157.62
+
+exogenous predictors help explain some of the variation in the moments that was
+previously left unexplained. Finally, the contemporaneous correlation between the
+innovations to the mean and volatility decreases in magnitude from 0:557 to
+0:451: Together, these differences translate into slightly smaller lag-volatility-in-
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+251
+
+mean and lag-mean-in-volatility effects (0.188 versus 0.252 and 1.044 versus 1.471,
+respectively). However, both effects remain signiﬁcant at the 1% level.
+In the mean equation of the extended VAR, the coefﬁcients on the term premium
+and default premium (c12 and c13 ) are positive and the coefﬁcient on the short rate
+ðc11 Þ is negative. In the volatility equation, the coefﬁcients on all three predictors (c21 ;
+c22 ; and c23 ) are positive. The signs of the coefﬁcients are consistent with the results
+of predictive return and squared return regressions. All estimates are statistically
+signiﬁcant at the 5% level and in most cases even at the 1% level. However, it is
+important to recognize that these results are not comparable to predictive return or
+squared return regressions. Instead, they correspond to regressions with the
+conditional moments as dependent variables. As we document above, the conditional
+moments are highly correlated with the predictors (multiple R2 of 0.32 for the mean
+and 0.13 for the volatility).
+Despite the fact that all of the elements of C are statistically signiﬁcant, the overall
+ﬁt of the model does not improve substantially when we add the exogenous
+predictors. An LR test of the hypothesis C ¼ 0 fails to reject with a p-value of 0.152.
+Likewise, a Hausman (1978) test of the hypothesis that the matrix A is the same
+across the two models fails to reject at conventional signiﬁcance levels. This failure to
+reject suggests that the exogenous predictors do not signiﬁcantly alter the dynamics
+of the conditional moments.
+The plots on the right-hand side of Fig. 3 present estimates of the annualized mean
+(ﬁrst row), volatility (second row), and Sharpe ratio (third row), extracted from the
+extended VAR with exogenous predictors. The time variation of the three moments,
+especially of the volatility and Sharpe ratio, are remarkably similar across the models
+with and without exogenous predictors (correlations of 0.73 for the mean, 0.97 for
+the volatility, and 0.91 for the Sharpe ratio). Speciﬁcally, the business cycle pattern in
+the variation of the conditional moments is qualitatively unaltered by the exogenous
+predictors. If anything, the extended model further emphasizes the countercyclical
+variation of the Sharpe ratio. This conﬁrms the statistical evidence above and attests
+to the robustness of our empirical results.
+
+5. Conclusion
+We model the conditional mean and volatility of stock returns as a latent VAR to
+explore both the contemporaneous and intertemporal relationship between the two
+moments, as well as the time variation of the implied Sharpe ratio, in a ﬂexible
+statistical framework and without relying on exogenous predictors. The ﬁrst
+equation of the VAR describes the dynamics of the conditional mean and captures
+the temporary component in the permanent and temporary components model. The
+second equation describes the dynamics of the conditional volatility and nests the
+standard SV model. Finally, the implied Sharpe ratio is time-varying in a way that is
+consistent with a variety of equilibrium asset pricing models.
+On the contemporaneous relationship between the conditional mean and
+volatility, we estimate a strong negative correlation between the innovations to the
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+252
+
+two moments, which implies negative and substantial volatility-in-mean and meanin-volatility effects. On the intertemporal relationship, the reduced-form lagvolatility-in-mean and lag-mean-in-volatility effects are both positive and signiﬁcant.
+Together, the contemporaneous and intertemporal relationships generate pronounced countercyclical variation of the Sharpe ratio. Every recorded business cycle
+in the sample is associated with an almost monotonic rise in the Sharpe ratio from
+the peak to the trough of the cycle. We argue that this countercyclical variation of
+the Sharpe ratio is consistent with the intuition of habit formation.
+We document a systematic pattern in the way the mean and volatility change over
+the business cycle. Whenever the economy comes off the peak of a business cycle, the
+conditional volatility rises immediately. The conditional mean, however, increases
+only gradually as the economy moves from the peak to the trough of the cycle. Thus,
+the volatility appears to lead the mean (by about six months) through the recession.
+The mean reaches a high at the trough of the cycle, shortly after which the volatility
+drops again to a normal level. As a result, the increase in the mean is associated with
+a subsequent drop in the volatility.
+Despite the large and negative contemporaneous correlation between the
+innovations to the conditional mean and volatility, which measures the conditional
+(on the lagged mean and volatility) correlation between the moments, the
+unconditional contemporaneous correlation between the mean and volatility is
+large and positive due to the strong lag-volatility-in-mean effect. Unconditionally,
+times of high expected returns are therefore associated with high volatility. We argue
+that this difference between the conditional and unconditional correlations may
+explain why there is such disagreement about the sign of the contemporaneous
+correlation between the two moments.
+
+Appendix A. Choice of approximating model
+The measurement Eq. (20) is nonlinear in both mt1 and ut1 : We consider
+separate ﬁrst-order expansions of this equation around E½mt1  ¼ E½vt1  ¼ 0:
+yt ¼ m% þ se
+% ut1 et
+
+ðA:1Þ
+
+yt ¼ me
+% mt1 þ se
+% t;
+
+ðA:2Þ
+
+and
+
+respectively. Both of these equations are still nonlinear in the state variables, but
+each is only nonlinear in one of the variables. Following convention in the stochastic
+volatility literature, we log-linearize Eq. (A.1):
+2
+y*t  lnðyt  mÞ
+% ¼ 2 ln s% þ 2vt1 þ ln e2t ;
+
+ln e2t
+
+ðA:3Þ
+
+2
+
+is log-w distributed. We further approximate Eq. (A.2) and the log-linear
+where
+Eq. (A.3) with the following linear equations:
+yt ¼ mt1 þ w1t
+
+with w1t BN½c1t1 ; R1t1 ;
+
+ðA:4Þ
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+y*t ¼ 2vt1 þ w2t
+
+with w2t BN½c2t1 ; R2t1 ;
+
+253
+
+ðA:5Þ
+
+where w1t and w2t are correlated. Finally, we write these equations in vector form:
+"
+#
+yt  c1t1
+¼ H 0 st1 þ wt with wt BMVN½0; Rt1 ;
+ðA:6Þ
+Yt 
+y*t  c2t1
+where
+
+"
+
+H¼
+
+1
+0
+
+0
+2
+
+#
+
+"
+and
+
+Rt ¼
+
+R1t
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+rw R1t R2t
+
+rw
+
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+R1t R2t
+R2t
+
+:
+
+ðA:7Þ
+
+In the special case Corr½et ; Zt  ¼ 0; we can use Eq. (A.6) as the measurement
+equation and Eq. (21) as the transition equation of the linearized model. In general,
+the log-linearization of Eq. (A.1) looses all information about the correlation
+between et and the second element on Zt : However, Harvey and Shephard (1996)
+show in the context of a more standard stochastic volatility model that this
+information about the correlation can be recovered from the signs of the return
+innovations. The following is a straightforward application of Harvey and
+Shephard’s approach to our latent VAR model.
+Deﬁne sgnt ¼ sign½yt  m;
+% such that sgnt is one (minus one) if yt  m% is positive
+(negative). Following the steps in Harvey and Shephard (1996), the transition
+equation conditional on the sign of the returns is:
+s ¼ K sgn þ As þ Z
+ðA:8Þ
+t
+
+with
+
+"
+
+t
+
+wt
+Zt
+
+t1
+
+t
+
+" "
+#
+
+Rt1
+
+ sgnt BMVN 0;
+0
+
+Gt1
+
+Gt1
+*
+S
+
+##
+;
+
+where Rt is the same as in Eq. (A.7) and
+" pﬃﬃﬃﬃﬃﬃ #
+" #
+rm b11
+k1
+K¼
+¼ 0:7979
+pﬃﬃﬃﬃﬃﬃ ;
+k2
+rs b22
+"
+pﬃﬃﬃﬃﬃﬃ
+pﬃﬃﬃﬃﬃﬃ
+#
+rs b22
+rm b11
+Gt ¼
+;
+pﬃﬃﬃﬃﬃﬃ
+pﬃﬃﬃﬃﬃﬃ
+1:1061rm b11 sgnt 1:1061rs b22 sgnt
+"
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+b11  k1
+r ðb11  k1 Þðb22  k2 Þ
+*
+S¼
+:
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r ðb11  k1 Þðb22  k2 Þ
+b22  k2
+
+ðA:9Þ
+
+ðA:10Þ
+
+* ¼ S; and Gt ¼ 0 for all t:
+Note that if rm ¼ rs ¼ 0; we get K ¼ 0; S
+
+Appendix B. Calibrating the approximating model
+Let y% t ¼ Eg ½yt  be the smoothed value of yt for the approximating model obtained
+through the Kalman ﬁlter. Under the assumptions of De Jong and Shephard’s (1995)
+
+ARTICLE IN PRESS
+254
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+simulation smoother, simulated values of yt are normally distributed around their
+mean y% t : This suggests that the parameters ct and Rt of the approximating model
+should be chosen such that the densities pðyjy; cÞ and gðyjy; cÞ are as close as possible
+in the neighborhood of y% t :
+To operationalize this idea, we deﬁne
+lðy; cÞ  ln pðy j y; cÞ  ln gðy j y; cÞ
+¼
+
+T
+X
+
+ln pðyt j st1 ; cÞ  ln gðyt j st1 ; cÞ
+
+ðB:1Þ
+
+t¼1
+
+and choose ct and Rt such that the ﬁrst- and second-order derivatives of lðy; cÞ with
+respect to st are set to zero at yt ¼ y% t : More speciﬁcally, we set rw ¼ 0 and solve for
+c1t and R1t from the derivatives of Eqs. (A.2) and (A.4), and for c2t and R2t from the
+derivatives of Eqs. (A.3) and (A.5).10
+From Eqs. (A.2) and (A.4) we have
+1
+2
+ ln pðyt j st1 ; cÞ ¼  fln 2p þ 2 ln s% þ s% 2 ðyt  me
+pðmÞ
+% mt1 Þ g;
+t
+2
+1
+2
+gðmÞ
+ ln gðyt j st1 ; cÞ ¼  fln 2p þ ln R1t1 þ R1
+t
+1t1 ðyt  mt1  ct1 Þ g:
+2
+ðB:2Þ
+The ﬁrst- and second-order derivatives of pt and gt with respect to mt1 are
+p’t ðmÞ ¼ s% 2 ðyt  me
+% mt1 Þme
+% mt1 ;
+
+ðB:3Þ
+
+g’t ðmÞ ¼ R1
+1t1 ðyt  mt1  c1t1 Þ;
+
+ðB:4Þ
+
+2
+p.t ðmÞ ¼ s% 2 ðyt  me
+% mt1 Þme
+% mt1  s% 2 ðme
+% mt1 Þ ;
+
+ðB:5Þ
+
+g.t ðmÞ ¼ R1
+1t1 :
+
+ðB:6Þ
+
+Equating the second-order derivatives, p.t ðmÞ ¼ g.t ðmÞ ; yields
+R1t1 ¼ 
+
+s% 2
+;
+ðyt  2me
+% mt1 Þme
+% mt1
+
+ðB:7Þ
+
+where we take the absolute value of R1t if it is negative. Likewise, equating the ﬁrstorder derivatives, p’t ðmÞ ¼ g’t ðmÞ ; and using Eq. (B.6), we get
+ðyt  me
+% mt1 Þ
+:
+ðB:8Þ
+c1t1 ¼ yt  mt1 þ
+ðyt  2me
+% mt1 Þ
+From Eqs. (A.3) and (A.5) and using the log-w2 density, we have
+p’t ðvÞ ¼ expfy*  2 ln s%  2vt1 g  1;
+g’t ðvÞ ¼ 2R1
+2t1 ðy*t  2vt1  c2t1 Þ;
+
+ðB:9Þ
+ðB:10Þ
+
+10
+The coefﬁcient rw captures the correlation between a normally-distributed and a log-w2 -distributed
+random variable. Our Monte Carlo experiments show that this correlation is very small (less than 0.05),
+and we therefore set rw ¼ 0:
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+255
+
+p.t ðvÞ ¼ 2 expfy*  2 ln s%  2vt1 g;
+
+ðB:11Þ
+
+g.t ðvÞ ¼ 4R1
+2t1 ;
+
+ðB:12Þ
+
+and equating the ﬁrst- and second-order derivatives yields
+2
+R2t1 ¼
+;
+expfy*  2 ln s%  2vt1 g
+c2t1 ¼ y*t  2vt1 
+
+expfy*  2 ln s%  2vt1 g  1
+:
+expfy*  2 ln s%  2vt1 g
+
+ðB:13Þ
+ðB:14Þ
+
+References
+Abel, A., 1988. Stock prices under time-varying dividend risk: an exact solution in an inﬁnite-horizon
+general equilibrium model. Journal of Monetary Economics 22, 375–393.
+Alizadeh, S., Brandt, M., Diebold, F., 2002. Range-based estimation of stochastic volatility models.
+Journal of Finance 57, 1047–1091.
+Andersen, T., Bollerslev, T., Diebold, F., Ebens, H., 2001. The distribution of stock return volatility.
+Journal of Financial Economics 61, 43–76.
+Andersen, T., Sorensen, B., 1994. Estimation of a stochastic volatility model: a Monte Carlo study.
+Journal of Business and Economic Statistics 14, 328–352.
+Ang, A., Bekaert, G., 2001. Stock return predictability: is it there? Unpublished working paper, Columbia
+University.
+Bansal, R., Yaron, A., 2003. Risks for the long run: a potential resolution of asset pricing puzzles. Journal
+of Finance, forthcoming.
+Bekaert, G., Grenadier, S., 2001. Stock and bond pricing in an afﬁne economy. Unpublished working
+paper, Columbia University.
+Bekaert, G., Harvey, C., 1995. Time-varying world market integration. Journal of Finance 50, 403–444.
+Bollerslev, T., Chou, R., Kroner, K., 1992. ARCH modelling in ﬁnance: a selective review of the theory
+and empirical evidence. Journal of Econometrics 52, 5–59.
+Bossaerts, P., Hillion, P., 1999. Implementing statistical criteria to select return forecasting models: what
+do we learn? Review of Financial Studies 12, 405–428.
+Boudoukh, J., Richardson, M., 1993. The statistics of long-horizon regressions. Mathematical Finance 4,
+103–120.
+Brandt, M., Wang, K., 2003. Time-varying risk aversion and unexpected inﬂation. Journal of Monetary
+Economics 50, 1457–1498.
+Breen, W., Glosten, L., Jagannathan, R., 1989. Economic signiﬁcance of predictable variations in stock
+index returns. Journal of Finance 44, 1177–1189.
+Campbell, J., 1987. Stock returns and the term structure. Journal of Financial Economics 18, 373–399.
+Campbell, J., Cochrane, J., 1999. By force of habit: a consumption-based explanation of aggregate stock
+market behavior. Journal of Political Economy 107, 205–251.
+Campbell, J., Hentschel, L., 1992. No news is good news: an asymmetric model of changing volatility in
+stock returns. Journal of Financial Economics 31, 281–318.
+Christensen, B., Prabhala, N., 1998. The relation between implied and realized volatility. Journal of
+Financial Economics 50, 125–150.
+Constantinides, G., 1990. Habit formation: a resolution of the equity premium puzzle. Journal of Political
+Economy 98, 519–543.
+Danielsson, J., 1994. Stochastic volatility in asset prices: estimation with simulated maximum likelihood.
+Journal of Econometrics 64, 375–400.
+De Jong, P., Shephard, N., 1995. The simulation smoother for time series models. Biometrika 82, 339–350.
+
+ARTICLE IN PRESS
+256
+
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+De Santis, G., Gerard, B., 1997. International asset pricing and portfolio diversiﬁcation with time-varying
+risk. Journal of Finance 52, 1881–1912.
+De Santis, G., Gerard, B., 1998. How big is the premium for currency risk? Journal of Financial
+Economics 49, 375–412.
+Dufﬁe, D., Singleton, K., 1993. Simulated moments estimation of Markov models of asset prices.
+Econometrica 61, 929–952.
+Durbin, J., Koopman, S., 1997. Monte Carlo maximum likelihood estimation for non-Gaussian state
+space models. Biometrika 84, 669–684.
+Fama, E., French, K., 1988. Permanent and temporary components of stock prices. Journal of Political
+Economy 96, 246–273.
+Fama, E., French, K., 1989. Business conditions and expected returns on stocks and bonds. Journal of
+Financial Economics 25, 23–49.
+Fama, E., French, K., 1996. The CAPM is wanted, dead or alive. Journal of Finance 51, 1947–1958.
+Ferson, W., Sarkissian, S., Simin, T., 2000. Spurious regressions in ﬁnancial economics. Unpublished
+working paper, University of Washington.
+French, K., Schwert, W., Stambaugh, R., 1987. Expected stock returns and volatility. Journal of Financial
+Economics 19, 3–30.
+Gallant, R., Tauchen, G., 1989. Seminonparametric estimation of conditionally constrained heterogeneous processes: asset pricing applications. Econometrica 57, 1091–1120.
+Gennotte, G., Marsh, T., 1993. Variations in economic uncertainty and risk premiums on capital assets.
+European Economic Review 37, 1021–1041.
+Geweke, J., 1989. Bayesian inference in econometric models using Monte Carlo integration. Econometrica
+57, 1317–1339.
+Ghysels, E., Harvey, A., Renault, E., 1996. Stochastic volatility. In: Maddala, G., Rao, C. (Eds.),
+Statistical Methods in Finance, Handbook of Statistics, Vol. 14. North-Holland, Amsterdam, The
+Netherlands.
+Glosten, L., Jagannathan, R., Runkle, D., 1993. On the relation between the expected value and the
+volatility of the nominal excess returns on stocks. Journal of Finance 48, 1779–1802.
+Goyal, A., Welch, I., 2002. Predicting the equity premium with dividend ratios. Unpublished working
+paper, Emory University.
+Harrison, P., Zhang, H., 1999. An investigation of the risk and return relation at long horizon. Review of
+Economics and Statistics 81, 399–408.
+Harvey, A., Ruiz, E., Shephard, N., 1994. Multivariate stochastic variance models. Review of Economic
+Studies 61, 247–264.
+Harvey, A., Shephard, N., 1996. Estimation of an asymmetric stochastic volatility model for asset returns.
+Journal of Business and Economic Statistics 14, 429–434.
+Harvey, C., 2001. The speciﬁcation of conditional expectations. Journal of Empirical Finance 8,
+573–638.
+Hausman, J., 1978. Speciﬁcation tests in econometrics. Econometrica 46, 1251–1272.
+Jacquier, E., Polson, N., Rossi, P., 1994. Bayesian analysis of stochastic volatility models. Journal of
+Business and Economic Statistics 12, 371–417.
+Kandel, S., Stambaugh, R., 1991. Asset returns and intertemporal preferences. Journal of Monetary
+Economics 27, 37–91.
+Keim, D., Stambaugh, R., 1986. Predicting returns in the stock and bond markets. Journal of Financial
+Economics 17, 357–390.
+Kim, S., Shephard, N., Chib, S., 1998. Stochastic volatility: likelihood inference and comparison with
+ARCH models. Review of Economic Studies 65, 361–393.
+Koopman, S., Uspensky, E., 1999. The stochastic volatility in mean model: empirical evidence from
+international stock markets. Unpublished working paper, Free University of Amsterdam.
+Lamoureux, C., Zhou, G., 1996. Temporary components of stock returns: what do the data tell us? Review
+of Financial Studies 9, 1033–1059.
+LeRoy, S., Porter, R., 1981. The present-value relation: tests based on implied variance bounds.
+Econometrica 49, 555–574.
+
+ARTICLE IN PRESS
+M.W. Brandt, Q. Kang / Journal of Financial Economics 72 (2004) 217–257
+
+257
+
+Lettau, M., Ludvigson, S., 2001. Measuring and modelling variation in the risk-return trade-off.
+Unpublished working paper, NYU.
+Nelson, D., 1991. Conditional hetereoskedasticity in asset returns: a new approach. Econometrica 59,
+347–370.
+Sandmann, G., Koopman, S., 1998. Estimation of stochastic volatility models via Monte Carlo maximum
+likelihood. Journal of Econometrics 87, 271–301.
+Schwert, W., 1989. Why does stock market volatility change over time? Journal of Finance 44, 1115–1153.
+Schwert, W., Seguin, P., 1991. Heteroskedasticity in stock returns. Journal of Finance 45, 1129–1155.
+Shephard, N., 2000. Comment on Time-series analysis of non-Gaussian observations based on state-space
+models from both classical and Bayesian perspectives. Journal of the Royal Statistical Society 62,
+29–30.
+Shephard, N., Pitt, M., 1997. Likelihood analysis of non-Gaussian measurement time series. Biometrika
+84, 653–667.
+Stambaugh, R., 1999. Predictive regressions. Journal of Financial Economics 54, 375–421.
+Valkanov, R., 2002. Long-horizon regressions: theoretical results and applications. Unpublished working
+paper, UCLA.
+Whitelaw, R., 1994. Time variation and covariations in the expectation and volatility of stock market
+returns. Journal of Finance 49, 515–541.
+Whitelaw, R., 2000. Stock market risk and return: an equilibrium approach. Review of Financial Studies
+13, 521–547.
+Wiggins, J., 1987. Option values under stochastic volatility: theory and empirical estimates. Journal of
+Financial Economics 19, 351–372.
+
+

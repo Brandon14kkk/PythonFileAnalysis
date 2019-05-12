@@ -1,0 +1,1482 @@
+Journal of Financial Markets 3 (2000) 45 } 67
+
+Stock returns and trading at the closeq
+David Cushing!, Ananth Madhavan",*
+!ITG Inc., 380 Madison Avenue, New York, NY 10017, USA
+"Finance and Business Economics, Marshall School of Business, University of Southern California,
+Los Angeles, CA 90089-1427, USA
+
+Abstract
+This paper analyzes stock returns at the close across the stocks of the Russell 1000
+using (a) Transaction-level data for the period June 1997}July 1998, and (b) The complete
+record of all market-on-close (MOC) order imbalance indications. The last 5 min of the
+trading day explains a disproportionate fraction of the variation in daily returns,
+consistent with the hypothesis that institutional trading interest induces a common
+component to stock returns at the end of the day. This phenomenon re#ects a higher
+demand for immediacy in the closing period. We "nd systematic return reversals
+following order imbalance publications consistent with temporary price pressure related
+to liquidity trading. ( 2000 Elsevier Science B.V. All rights reserved.
+JEL classixcation: G20
+Keywords: Institutional trading; Closing prices; Stock returns; Volatility; Imbalances
+
+q
+We are very grateful to Robert Ferstenberg, Art Asriev, Todd Keathley, Aristos Koyanis, and
+Sharon Sun for expert research assistance. We thank Je! Bacidore, Simon Gervais, Bruce Lehman,
+Marc Lipson, George So"anos, and an anonymous referee for their helpful comments. Seminar
+participants at the 1999 Nasdaq/Notre Dame University Conference on Market Microstructure,
+National Bureau of Economic Research, and Renaissance Technologies Corporation provided
+many useful suggestions. The comments and opinions contained in this paper are those of the
+authors alone and do not necessarily re#ect those of ITG Inc.
+
+* Corresponding author. Tel.: 213-740-6519.
+E-mail address: Amadhavan@marshall.usc.edu (A. Madhavan)
+1386-4181/00/$ - see front matter ( 2000 Published by Elsevier Science B.V. All rights reserved.
+PII: S 1 3 8 6 - 4 1 8 1 ( 9 9 ) 0 0 0 1 2 - 9
+
+46
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+1. Introduction
+Traders place enormous importance on closing stock prices as benchmarks of
+value. Portfolio returns and mutual fund net asset values are computed using
+closing prices. In addition, some contracts and after-hours trading on various
+alternative trading systems (ATSs) and electronic communications networks
+(ECNs) are based on closing prices.1 For these reasons, many traders, especially
+institutions such as passive index funds, try to trade at or near the day's close.
+Increasingly, large trading volumes at the end of the trading day have in turn
+complicated the task of price discovery and led to growing concern about the
+ability of markets to provide liquidity in this critical period.
+A recent case involving Safeway stock o!ers an interesting, albeit extreme,
+example of these issues. On November 12, 1998, Safeway stock was to be added
+as of the close to the S&P 500, following an announcement made the previous
+week.2 High demand by index funds seeking to add Safeway stock to their
+portfolios at the closing price on this day resulted in a large order imbalance at
+the close. To accommodate the excess demand, the NYSE specialist for Safeway,
+Spear Leeds, set a closing price of $55, up 11% from the previous trade. In
+subsequent overnight trading Safeway stock fell in price, closing at $51.1875 the
+following day.
+Many institutional investors who paid large premiums to acquire Safeway at
+the close on November 12 were highly critical of the manner in which the closing
+price was determined. The Safeway case spurred (Ip, 1999) `intensive debate
+over how the close, the most critical time of the day, should be handleda.
+Investors argued that closing imbalances in Safeway should have been widely
+publicized to alert potential buyers that they would trade at a substantial
+premium while simultaneously attracting counterparty interest to dampen the
+temporary price pressure at the close. Similarly chaotic closings for other S&P
+500 additions and deletions including Amoco Corporation and America Online
+Inc. on December 31, 1998 also illustrate the di$culties in determining e$cient
+closing prices and the importance of widely disseminating information on order
+imbalances.
+The problems associated with trading at the close discussed above have led
+to various new policy initiatives. Exchanges have imposed various rules on
+the submission of market and limit-on-close orders to alleviate problems associated with day-end order imbalances.3 Similarly, the Standard and Poor's
+1 Examples include Instinet's and the NYSE's after-hours (Session I) crossing systems.
+2 See Ip (1998). Safeway replaced Chrysler Corporation which was dropped from the S&P 500
+index because of its merger with Daimler-Benz, A.G., a foreign "rm.
+3 Meier (1998) surveys 49 leading stock markets including the NYSE, Nasdaq, London Stock
+Exchange, Paris Bourse, and Frankfurt Stock Exchange. He "nds that at year-end 1997, 35 (71%)
+exchanges used special procedures to open while 12 (25%) use special closing procedures.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+47
+
+Corporation announced on December 30, 1998 that it would delay announcement of additions and deletions from its stock indexes until after the close of
+trading, noting that `We don't want our announcements to a!ect a stock's
+o$cial closing price for the daya.4 Yet, it is di$cult to assess the nature and
+impact of such initiatives without further data on how closing prices are actually
+determined. The objective of this paper is to further our understanding of the
+process of price formation at the close.
+A considerable body of research has documented various anomalies in intraday returns, volumes, and volatility.5 However, research on how closing prices
+are determined is relatively recent. Hillion and Suominen (1998a) study the
+closing prices of the CAC 40 stocks of the Paris Bourse. They "nd evidence of
+reversals in the overnight period and also higher volatility and spreads at the
+close.6 The problems documented by Hillion and Suominen (1998a) prompted
+the Paris Bourse to implement a closing call auction. Thomas (1998) "nds that
+orders are larger and there are fewer cancellations after the closing call was
+implemented. She concludes that these "ndings provide evidence that the call
+auction procedure leads to more e$cient price discovery and less gaming at the
+close.7
+While these studies advance our understanding of how closing prices are set,
+there are still many questions that remain unanswered. First, is the closing
+period disproportionately `importanta in a return sense, as many believe? And if
+so, is there any evidence that end of day returns re#ect systematic factors
+common to a broad cross-section of stocks? This question naturally leads
+to an examination of order #ow patterns towards the close. Speci"cally, is
+there a higher demand for immediacy at the close, and can this explain the
+known `anomaliesa in returns? Are closing prices more responsive to order
+#ows? The answers to these questions can shed light on both the return
+anomalies noted in the previous literature and the possibility of market manipulation or gaming at the close. A closely related question is whether the higher
+demand for immediacy induces transitory shocks to closing prices. This question is interesting because it implies that there are predictable price reversals
+following large order imbalances or, in other words, that closing prices are
+possibly biased.
+4 The change was prompted by large movements in shares of America Online Inc. following the
+announcement on December 22, 1998 that the stock would be added to the S&P 500 index. See, e.g.,
+`S&P is Changing an Index Procedurea, New York Times, December 31, 1998, page C6.
+5 See, e.g., Jain and Joh (1988) and Harris (1986,1989).
+6 Hillion and Suominen (1998b) develop a theoretical model to explain this "nding, showing that
+this evidence is consistent with brokers manipulating closing prices to provide the appearance of
+favorable execution for large customers.
+7 Madhavan (1992) provides a theoretical justi"cation for the use of call auctions in times of
+market stress.
+
+48
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+This paper examines these three sets of issues across the stocks of the Russell
+1000 index using: (a) Transaction-level data for the period July 1997}June 1998,
+and (b) The complete record of all market on close (MOC) order imbalance
+indications issued by the NYSE. Our study yields several new results. We show
+that the last 5 min of the trading day explains a disproportionate fraction of the
+variation in daily returns. Indeed, this fraction is almost 18% in portfolios
+although the closing period constitutes only 1.3% of trade time.8 By contrast,
+the corresponding fraction is only 4% in individual stocks. This "nding is
+consistent with the hypothesis that institutional trading interest induces a
+common component to stock returns at the end of the day.
+We examine the cause of the disproportionately large closing period returns
+using a model of the return generating process. Our results suggest that this
+closing return phenomenon can be explained by: (a) A shift downward in the
+percentage of large-block (presumably upstairs-intermediated) trades at the end
+of the day, consistent with a greater demand for immediacy by institutions
+unwilling to bear the delays associated with upstairs intermediation, (b) Higher
+sensitivity of prices to non-block order #ow relative to block order #ow, and
+(c) A higher sensitivity of prices to non-block order #ow at the close relative to
+other times of the day.
+Additional evidence that the demand for immediacy can explain the sharp
+price movements at the close comes from our analysis of new data on marketon-close order imbalance publications. We "nd positive (negative) overnight
+returns following publicized sell (buy) imbalances. Return reversals are especially strong on index expiration days where the imbalances arise primarily from
+liquidity trading. Interestingly, the same pattern of reversals is observed in
+next-day returns as well. This phenomenon does not re#ect negative autocorrelation in order #ow. Rather, our evidence suggests that prices over-react to order
+imbalances at the close. The return reversal the following day occurs because
+the opening price the next day is `stickya in the sense that it is a weighted
+average of the previous day's close and the price implied by overnight #ows.
+These results demonstrate that transitory order imbalances bias closing prices,
+consistent with anecdotal evidence. We discuss the implications of our results in
+terms of the e!ectiveness of imbalance publications, and explore alternatives to
+enhance price e$ciency and lower volatility at the close.
+The paper proceeds as follows: Section 2 describes our data sources and
+procedures. Section 3 outlines our empirical hypotheses. Section 4 provides
+evidence on the relative contribution of closing period returns to the daily
+return. Section 5 examines the determinants of closing returns across stocks
+focusing on the role of order #ow. Section 6 discusses the properties of
+
+8 The closing period accounts for a disproportionate share of volume and volatility relative to
+trade time, but of a far smaller magnitude. See Harris (1986,1989) and Jain and Joh (1988).
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+49
+
+returns following publication of order imbalances and Section 7 concludes by
+summarizing our results and their policy implications.
+
+2. Data sources and procedures
+2.1. Sample universe and data sources
+The primary source of our data is the NYSE's Trades and Quotes (TAQ) "les
+for the period July 1997}June 1998. The TAQ "les record, on a stock-by-stock
+basis, transaction level data on prices, quotes, and volumes, time-stamped to the
+second. Our sample universe is the Russell 1000. The Frank Russell Company
+equity indexes are popular benchmarks of US stock market performance. The
+Russell 1000 IndexT consists of the top 1000 US stocks by market capitalization.
+The universe of stocks from which Russell chooses index constituents includes
+domestic common stocks and REITs but excludes certain issue types such as
+royalty trusts and closed-end mutual funds. In order to restore its capitalization-based de"nition and replace stocks that drop out over time due to corporate actions and bankruptcies, the Russell 1000 is reconstituted annually at the
+end of June. This fact accounts for our choice of July 1 as the starting date of the
+data set. We restrict attention to common stocks that were continuously present
+in the Russell 1000 universe during the sample period and for which all study
+data was available.
+We gathered additional data for each stock from various sources, as follows:
+(a) Membership in the S&P 500 index (Standard & Poors), (b) Options traded
+on the stock (Factset), (c) Dividend amount, type, and ex date (Reuters), (d) Split
+Factor (Reuters), (e) Earnings Surprise (I/B/E/S), (f) Stock subject to NYSE
+MOC regulations (NYSE), and (g) Exchange-listed (CRSP). From the NYSE we
+obtained information on whether there was a publicized market-on-close buy or
+sell imbalance for each stock for each of the 252 days in the sample period.
+To verify the accuracy of the return data we imposed "lters to detect outliers
+including those related to dropped digits, missing quotes, or split-related price
+recording errors. As an additional check, we matched daily returns for the stocks
+computed using TAQ data with the CRSP daily return "le. Some of our analyses
+require information on the net order #ow. We use the procedure suggested by
+Lee and Ready (1991) to classify trades as buyer- or seller-initiated. Speci"cally,
+we compare the trade price to the midpoint of the &prevailing' bid and ask
+quotes; we use a 15-s lag on quotes to correct for di!erences in the clock speed
+with which trades and quotes are reported. Trades whose prices are above
+(below) the midpoint are classi"ed as &positive' (&negative') volume. Trades at the
+quote midpoint (e.g., upstairs crosses) generally cannot be classi"ed in this
+manner, and are classi"ed as &zero' volume trades. We de"ne net order #ow as
+positive share volume less negative share volume. In addition to the "lters
+
+50
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+reported above, we eliminated from the sample those stocks for which volume
+data was incomplete (e.g., because of di$culties in matching quotes and trades)
+and stocks that did not trade at least once per day, leaving us with a sample of
+769 stocks.
+2.2. Market-on-close imbalance indicators
+As of June 5, 1995 (see NYSE Memo 95-21), the NYSE adopted certain rules
+designed to reduce problems associated with market-on-close (MOC) orders.
+The rules imposed certain order entry cuto! times. Speci"cally, no MOC orders
+were accepted after 3:50 p.m., except to o!set a published imbalance. The cuto!
+time for expiration days was 3:40 p.m. Imbalance publication was subject to the
+following rule: On expiration days, for a list of pilot stocks and for any stock
+being added to or deleted from an index, the specialist must publish any MOC
+imbalance of 50,000 shares or more, or a &no imbalance' status as soon after 3:40
+p.m. as practicable. Publication is at the specialist's discretion for other stocks,
+after consultation with a #oor o$cial. On non-expiration days, the rules are the
+same, except that publication time is as soon after 3:50 p.m. as practicable and
+there is no requirement to publish a &no imbalance' message for pilot stocks not
+having an imbalance.9 Thus, specialists in stocks on the list must publish their
+order imbalances on expiration days, whereas publishing imbalances is not
+required for other stocks (and for stocks on the list on non-expiration dates). On
+June 24, 1998, the rules were amended so that all market-on-close orders had to
+be entered by 3:40 p.m., except to o!set a published imbalance. In addition,
+other changes were implemented to facilitate disclosure of imbalances. For this
+reason, we focus on the pre-June 24 1998 period in our analyses.
+In our sample period, the MOC restrictions applied to all stocks. The "le we
+obtained from the NYSE contains all published imbalances, i.e., those that were
+made public in NYSE stocks.10 The data contain the following "elds: Buy MOC
+imbalance, Sell MOC imbalance, No MOC imbalance, and No Trading status
+messages for a given day. The time of the publication of the MOC imbalance
+message is the Consolidated Trade System (CTS) dissemination time and is
+recorded to the second. Other "elds indicate whether the MOC imbalance was
+eligible to be published that day for that stock.
+3. Empirical hypotheses
+Before turning to the analysis, it is useful to explicitly formulate the empirical
+hypotheses we seek to test in the paper. Consider a set of N assets that are traded
+9 So"anos (1994) documents the high prevalence of MOC imbalances on days with index
+expirations.
+10 We thank Je! Bacidore and George So"anos for their help in providing us with these data.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+51
+
+in a trading day consisting of c trading sessions. Let pk denote the (midquote)
+i,t
+price in trading session k"1,2, c for stock i, on day t. In each session, prices
+are set by competitive market makers who observe the net order #ow in each
+stock, xk . Formally, the (midquote) price for stock i on day t in session k is
+i,t
+pk "E[pkHDxk , Xk ] where pkH represents the intrinsic value of the stock and
+i
+i i,t i,t
+i,t
+the (midquote)
+Xk denotes public information. De"ne by rk "pk !pk
+i,t~1
+i,t
+i,t
+i,t
+price change for stock i in session k. We assume that returns re#ect both net
+order #ow and public information #ows, and model intraday returns as
+rk "k #jkxk #ek ,
+i,t
+i
+i i,t
+i,t
+
+(1)
+
+where the coe$cient jk'0 re#ects the sensitivity to order #ow (which can vary
+i
+across stocks and sessions), k is the mean return per period, and ek captures the
+i,t
+i
+e!ect of public information #ows. Both order #ows and information may be
+correlated across assets but in time-invariant ways. The model can be interpreted as a reduced-form equation from a more complex microstructure model
+where prices are set by competitive market makers who face an adverse selection
+problem because some traders possess private information. The actual price in
+session k, denoted by Pk , is the midquote price plus a microstructure induced
+i,t
+shock, sk that can take on positive or negative values that re#ect temporary
+i,t
+liquidity pressures. Within this simple structure we formulate three empirical
+hypotheses.
+3.1. Correlation in institutional order yows at day end
+In the xnal trading period c of the day, we assume the net order #ow
+xc consists of a base-level order #ow uc (assumed for simplicity to have the
+i,t
+i,t
+same distributional properties for all periods) and additional institutional trading, denoted by z . Institutional trading across stocks is correlated and takes
+i,t
+the form z "z #m , where z is a common term across stocks and m is an
+i,t
+t
+i,t
+t
+i,t
+i.i.d. shock. The common term may re#ect herding by institutional traders and
+portfolio based strategies, or it may re#ect common response to new information. Alternatively, if institutional traders place closing orders that are systematically related to the day's movement in the index, z will be a function of the
+t
+average cross-sectional daily return.
+From this speci"cation, it follows that returns during the day will exhibit an
+increase in correlation across stocks at the end of the day induced by institutional
+trading. In particular, consider two stocks i and j. Denote by o the correlation
+i,j
+in midquote returns for periods prior to the close (i.e., k"1,2, c!1) between
+these two stocks. In the closing period this correlation is
+
+A
+
+B
+
+jcjc p2(zc)
+t #o .
+o(rc , rc )" i j
+i,t j,t
+i,j
+p(rc )p(rc )
+j,t
+i,t
+
+(2)
+
+52
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+If o is positive (which is likely to be the case for most stocks) then the
+i,j
+correlation is higher in the closing period; if it is negative, it is less negative at the
+close or perhaps even positive.
+3.2. Information and the responsiveness of returns to order yow
+Another set of hypotheses we test concerns whether the responsiveness of
+price to order #ow is di!erent towards the close than at other times. If
+institutional investors are viewed as trading at the close primarily for liquidity
+reasons, the responsiveness of prices to order #ow would be less at this time so
+that jc (jk for k"1,2, c!1. However, if institutional traders trade
+i
+i
+on private information and also concentrate their trading at the close, order
+#ows at the close will be especially informative and we would expect the
+opposite, i.e., jc 'jk for k"1,2, c!1. Finally, the existence of di!erences
+i
+i
+in order #ow responsiveness may induce strategic trading by discretionary
+traders or those with long-lived information so that the responsiveness of prices
+to order #ow is constant across sessions for a given stock. Thus, estimation of
+Eq. (1) at di!erent times would allow us to assess the e!ect of trading on closing
+prices.
+3.3. Publication of order imbalances
+We are also concerned with the e$ciency of prices at the close. Suppose that
+exchange rules allow market makers to broadcast indications of imbalances at
+the close with a view toward attracting counterparty interest. If such interest
+does not materialize, specialists may o!set the imbalance, but at a premium to
+the expected value of the asset. Recall that the closing price re#ects not only
+expectations of value (which are related to order #ows as above) but also
+a transitory component that capture the price of liquidity. During &normal'
+trading periods, this temporary component (or spread) is economically small
+because of competition from liquidity providers. However, liquidity providers
+may be able to extract a large temporary premium if there are large imbalances
+and the market is closing soon. This suggests that the size of the temporary
+component (like the permanent revision in beliefs) is also related to the order
+#ow imbalance.
+Speci"cally, let sc (xc ) denote the price of liquidity which we model as
+i,t i,t
+a function of the imbalance such that when xc '0 then sc '0 and vice
+i,t
+i,t
+versa. The logic of this speci"cation is that sc (xc ) distinguishes between
+i,t i,t
+permanent revisions in beliefs (as already modeled above as a function of
+net order #ow) and additional temporary price pressure caused by imbalances.
+This is a form of a non-linearity, i.e., a temporary } and possibly
+economically large } spread element that arises when there are imbalances at
+the close.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+53
+
+To the extent that sc (xc ) is transitory (i.e., not associated with a change in
+i,t i,t
+beliefs) there should be a price reversal the following day in the opposite
+direction of the imbalance. Formally, if xc '0, the expected overnight trading
+i,t
+return is E[P1 !Pc ]"!sc . This term is negative because the transitory
+i,t
+i,t
+i,t`1
+spread element is reversed; the opposite is true of sell imbalances. If imbalance
+publications succeed in attracting counterparty interest, P1 !Pc is zero on
+i,t
+i,t`1
+average for both buy and sell imbalance publications at the close. Thus, the
+returns following imbalance publications provide clues as to the extent to which
+closing prices incorporate transitory shocks.
+4. Analysis of returns
+4.1. Descriptive statistics
+We begin our empirical analysis by summarizing some of the characteristics
+of the sample, focusing on the patterns in returns towards the end of the day.
+These characteristics con"rm that the patterns observed by previous authors are
+also present in our sample. In the following section, we turn to a more formal
+analysis of the factors a!ecting returns at the end of the day.
+Table 1 presents descriptive statistics on the stocks in the sample, for all
+stocks and broken down by deciles of daily dollar trading volume.11 We "rst
+calculate daily means for each statistic for each stock and then average these
+statistics across stocks. A wide range of trading activity is represented, with
+average daily volume ranging from $0.07 to $3.77 million. However, percentage
+bid}ask spreads (computed using the 3 p.m. price and expressed as a percentage
+of the midquote price) are relatively small and exhibit less variation across
+activity deciles. Spreads range from 0.24% in the most active decile to 0.44% in
+the least active decile. There is also little variation in prices across trading
+volume deciles. The majority of stocks, about 56.44%, are also in the S&P 500
+index. Interestingly, although 84.53% of stocks are exchange-listed (i.e., listed on
+the NYSE or AMEX), the most active stock category (decile 10) actually has the
+lowest percentage of listed stocks, just 62.34%. This re#ects the presence of some
+Nasdaq stocks } such as Microsoft } that have much larger volumes than the
+average exchange-listed stock.
+4.2. Day-end returns and common factors
+4.2.1. Individual and portfolio regressions
+We begin our analysis by asking whether returns towards the end of the day
+are &important' in the sense that they represent a large fraction of the day's
+11 We use dollar-trading volume } as opposed to market capitalization } because our focus is on
+trading activity rather than size.
+
+54
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+Table 1
+Descriptive statistics
+The table provides summary statistics based on daily trading data from July 1, 1997 to June 30, 1998
+for 769 stocks in the Russell 1000 index. We restrict attention to common stocks that were
+continuously in the index, traded at least once per day, and for which trades and quotes could be
+matched using TAQ data. For each of 769 sample stocks, we "rst compute the mean statistic of
+interest and then compute the average values of these statistics across stocks for each decile of
+average daily dollar trading volume and for the entire sample. The table reports the mean dollar
+trading volume (millions), mean opening price, mean bid}ask spread (computed at as a percentage of
+the midquote using 3 p.m. quotes), the percentage of stocks in the S&P 500 index, and the percentage
+of stocks listed on the NYSE or AMEX.
+Dollar
+trading
+volume
+decile
+
+Daily
+trading
+volume
+($ million)
+
+Average
+stock
+price
+
+Percentage
+bid}ask
+spread
+
+Percentage
+in the
+S&P 500
+index
+
+Percentage
+exchange
+listed
+
+All stocks
+
+0.80
+
+48.91
+
+0.34
+
+56.44
+
+84.53
+
+1 (Low)
+2
+3
+4
+5
+6
+7
+8
+9
+
+0.07
+0.14
+0.20
+0.26
+0.33
+0.42
+0.57
+0.86
+1.37
+
+53.12
+49.89
+45.92
+49.93
+42.67
+49.59
+47.45
+46.83
+50.59
+
+0.44
+0.39
+0.35
+0.36
+0.39
+0.34
+0.33
+0.31
+0.27
+
+11.84
+29.87
+38.96
+50.65
+63.64
+64.94
+75.33
+71.43
+72.73
+
+92.11
+87.01
+97.40
+80.52
+85.71
+89.61
+88.31
+80.52
+81.82
+
+10 (High)
+
+3.77
+
+53.18
+
+0.24
+
+84.42
+
+62.34
+
+return. We decompose the open-to-close period from 9:30 a.m. to 4:00 p.m. into
+13 half-hour intervals or trading sessions.
+Let rk denote the (logarithmic) return in trading session k"1,2, 13 for
+i,t
+stock i, on day t. As a purely descriptive exercise, we regress the daily return on:
+(a) the return in the last half-hour, and (b) the return in the last 5 min, for each
+stock in the sample. Speci"cally, for each stock i"1,2, 769, we estimate two
+regressions:
+
+A
+A
+
+B
+B
+
+13
++ rk "a#br13#e ,
+(3)
+i,t
+i,t
+i,t
+k/1
+13
+(4)
++ rk "a#brc #e ,
+i,t
+i,t
+i,t
+k/1
+where rc is the return from 3:55 to 4:00 p.m. To focus attention on
+i,t
+factors common to all the sample stocks we estimate portfolio analogues to
+Eqs. (3) and (4). We group stocks into portfolios by trading activity deciles and
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+55
+
+Fig. 1. Coe$cient of determination from regressions of daily returns on returns in the last half-hour.
+
+compute equally-weighted returns for decile portfolios and for all stocks in the
+sample. Then, for each decile portfolio and for a portfolio of all stocks, we
+estimate two regressions of the form
+
+A
+A
+
+B
+B
+
+A
+A
+
+B
+B
+
+1 N 13
+1 N
++ + rk "a#b
++ r13 #e ,
+(5)
+i,t
+i,t
+i,t
+N
+N
+i/1 k/1
+i/1
+1 N 13
+1 N
++ + rk "a#b
++ rc #e ,
+(6)
+i,t
+i,t
+i,t
+N
+N
+i/1 k/1
+i/1
+where N is the number of stocks in the portfolio. Observe that we are making no
+assumptions about the statistical properties of returns, which could exhibit
+autocorrelation and heteroskedasticity. Rather, our goal is simply to illustrate
+the extent to which the closing period is important in a return sense.
+The results of the estimation are summarized in Figs. 1 and 2, which illustrate
+the importance of the closing period. Eq. Fig. 1 plots the coe$cient of determination from the individual and portfolio regressions using the last half-hour
+of returns, i.e., (3) and (5). In the individual regressions, the mean adjusted R2 is
+7.7%, ranging from 6.79% in decile 1 to 9.79% in decile 10. (By way of
+comparison, if returns follow a classical random walk across trading sessions,
+the coe$cient of determination (regression R2) should be approximately 1/13 or
+7.69%.) In the portfolio regressions, the adjusted R2 is generally similar except
+in the most active deciles where it is generally higher. Indeed, in the largest decile
+the coe$cient of determination is 15.8% in portfolios versus 9.8% for the
+
+56
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+Fig. 2. Coe$cient of determination from regressions of daily on returns in the last 5 min.
+
+individual regressions. This is consistent with our hypothesis of a common
+trading factor in the largest cap stocks.
+More striking is Fig. 2 which documents the results for regressions of individual and portfolio daily returns on returns in the last 5 min of trading, i.e.,
+from Eqs. (4) and (6). In the individual stocks, the regression R2 is 3.81% overall,
+compared to approximately 1/78 (or 1.28%) under a namK ve random walk model.
+(This di!erence is also statistically signi"cant using an F-test.) But for portfolios,
+in all deciles, the adjusted R2 is much higher than the corresponding "gure for
+the individual regressions, and overall it is 17.55%. This shows that the abnormal returns in the last 5 min tend to be common across stocks, i.e., market-wide
+in nature. These systematic factors are not averaged out in the portfolio
+formation process unlike the idiosyncratic returns in the previous 25 min,
+consistent with the concentration of institutional trading at the close. It is worth
+noting that this result is unlikely to be driven solely by Fisher e!ects (i.e.,
+non-synchronous trading) since the stocks in the sample trade frequently. This is
+especially so for the stocks in the active deciles that trade very frequently, often
+several times in a minute.12 Also worthy of note is that the estimates of b for the
+portfolio regressions (5) and (6) are much higher } 1.45 and 2.66 } than the
+corresponding average estimates } 0.89 and 0.92 } for the individual regressions
+(3) and (4), a point we discuss in detail below.
+12 Harris (1989) noted a much higher likelihood of the last trade of the day occurring at the ask
+rather than the bid. We calculated, for each stock, the frequency at which the closing price was (a)
+equal to or below the closing bid, (b) equal to or above the closing ask, (c) not at the closing bid or
+the ask. For all stocks, corresponding "gures are 21.15%, 31.29%, and 47.56%. Thus, the phenomenon noted by Harris over a decade ago is still present at the close.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+57
+
+While these "ndings might re#ect inventory rebalancing by market
+makers, empirical evidence using inventory data suggests that the e!ects of
+inventory on stock prices are relatively weak.13 A more likely explanation for
+this "nding would be the actions of institutional traders who seek to trade at
+the close. A common component to institutional trading in the closing
+period would increase the correlation among stock returns in the closing
+period.
+In summary, our results show that: (a) The last half-hour is disproportionately
+important for the most active decile of stocks but not for other stocks (suggesting that this is not a problem with non-synchronous trading), and (b) The last
+part of the closing period is disproportionately important in a return sense for
+all stocks. Of course, it should be kept in mind that the namK ve benchmark is just
+that; a considerable body of research documents autocorrelation in shorthorizon returns and higher day-end volatility, factors which a!ect the computed
+R2.14
+4.2.2. Discussion
+To better understand these results, note that the slope coe$cient in the
+regressions estimated above is b"o p /p , where (suppressing subscripts for
+$,# 3 #
+notational ease) o denotes the correlation between the whole day's return (for
+$,#
+either the stock or portfolio) and the appropriate closing period return, p is the
+3
+standard deviation of the whole day's return, and p is the standard deviation of
+#
+the closing return. The regression R2 reported in Tables 2 and 3 is simply o2 .
+$,#
+We can write o "(1#o), where o is the correlation between returns in the
+$,#
+"rst and second parts of the day. Thus, higher values of b can result from higher
+correlations between the day's return and the closing return o in portfolios.
+$,#
+Why is the R2 higher in portfolios? Obviously, the autocorrelation between
+daily returns and the close is higher in portfolios. One possibility is that this
+represents non-synchronous trading. If our mid-quotes are based on stale prices,
+portfolio returns will exhibit spurious autocorrelation, possibly explaining the
+higher b in portfolio regressions. However, as shown in Fig. 1, the e!ects are
+concentrated in Decile 10, containing the most active stocks, so this explanation
+appears unlikely, although we cannot rule it out completely.
+An alternative explanation, one that we favor, is that the results are driven by
+a common factor } speci"cally, institutional trading towards the close that is
+correlated positively with the return in the market that day. Anecdotal evidence
+indicates that institutions often concentrate their trades in the largest stocks,
+
+13 See, e.g., Madhavan and So"anos (1997).
+14 We also regressed the return from 3:55 to 4:00 p.m. on the return from 3:30 to 3:55 p.m.
+individually for all 769 stocks in the sample. Some negative autocorrelation is present but is not
+economically signi"cant.
+
+k
+
+!0.24
+
+!0.03
+!0.05
+!0.11
+!0.14
+!0.13
+!0.17
+!0.28
+!0.35
+!0.54
+
+!0.55
+
+Dollar
+trading
+volume
+decile
+
+All stocks
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+10
+
+!3.98
+
+!0.21
+!0.33
+!0.98
+!1.25
+!1.05
+!1.48
+!2.25
+!2.58
+!4.09
+
+!1.82
+
+Tk
+
+7.57
+
+/"
+
+13.48
+
+2.22
+3.65
+4.27
+5.37
+6.20
+7.42
+8.71
+11.48
+12.81
+
+j
+
+7.18
+
+5.20
+6.21
+6.11
+7.06
+6.70
+7.61
+7.50
+8.27
+8.19
+
+7.00
+
+Tj
+/"
+
+3.04
+
+0.10
+0.19
+0.29
+0.31
+0.42
+0.61
+0.67
+1.19
+1.03
+
+0.78
+
+j
+"
+"
+
+2.26
+
+0.37
+0.79
+1.11
+1.01
+1.23
+1.69
+1.73
+2.23
+1.61
+
+1.41
+
+Tj
+
+26.77
+
+2.32
+3.43
+3.98
+5.86
+7.56
+8.47
+11.52
+14.68
+18.17
+
+10.29
+
+h
+/"
+
+3.30
+
+1.57
+1.73
+1.61
+2.02
+2.19
+2.26
+2.61
+2.69
+2.99
+
+2.30
+
+Th
+/"
+
+"
+
+8.67
+
+0.84
+0.67
+0.86
+0.71
+0.98
+1.29
+1.73
+2.42
+4.24
+
+2.24
+
+h
+
+1.57
+
+0.54
+0.52
+0.77
+0.59
+0.55
+0.88
+0.85
+0.81
+1.43
+
+0.85
+
+Th
+"
+
+33.58
+
+13.30
+17.08
+18.35
+22.40
+21.05
+25.36
+26.43
+30.65
+34.03
+
+24.24
+
+Adjusted
+R2
+
+r "k#j x/"#j xb #h z/"#h z" #g ,
+i,t
+/" i,t
+" i,t
+/" i,t
+" i,t
+i,t
+where x/" is the signed non-block order #ow from the opening to 3:30 p.m. (expressed as a percentage of average daily volume in stock i), x" is the
+i,t
+i,t
+corresponding signed block volume in the period prior to 3:30 p.m., z/" is the signed non-block order #ow (as a percentage of average daily volume in stock
+i,t
+i ) from 3:30 p.m. to the close, z" is the signed block volume in the period from 3:30 p.m. to the close, j , j , h and h capture the price impacts of
+i,t
+/" " /"
+"
+non-block and block volume in the period prior to and during the last half-hour of trading, k is the intercept, and g is the error term. Volume data are
+i,t
+obtained from the TAQ database and signed using the procedure of Lee and Ready (1991). The table reports the average coe$cient estimate, the average
+t-statistics for each coe$cient, and the average adjusted R2 for stocks within each trading volume decile and all stocks.
+
+The table presents the results of 769 individual stock regressions of daily returns on block and non-block order #ows. The regression model is speci"ed as
+
+Table 2
+Regressions of daily returns on block and non-block order #ows
+
+58
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+59
+
+Table 3
+F-tests on the coe$cients in the regressions of daily returns on order #ows
+The table provides summary statistics on individual stock F-tests on the estimated coe$cients from
+regressions of daily returns on order #ows in the previous panel. The two null hypotheses tested are:
+HA: j "j "h "h ,
+0 /"
+"
+/"
+"
+HB : j "h and j "h .
+0 /"
+/"
+"
+"
+Each cell reports the average F-value for a test of the appropriate null hypothesis and (in
+parentheses) the percentage of stocks in that cell for which the F-test is statistically signi"cant at the
+1% signi"cance level.
+Dollar trading
+volume decile
+
+Mean value
+of F
+A
+
+All stocks
+
+14.96
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Percentage of F
+A
+signi"cant at
+1% level
+
+Mean value
+of F
+B
+
+Percentage
+of F
+B
+signi"cant
+at 1%
+level
+
+93.37
+
+2.51
+
+13.65
+
+9.10
+12.48
+12.01
+15.08
+14.43
+17.14
+17.54
+18.38
+19.20
+
+78.95
+87.01
+92.21
+93.51
+97.40
+96.10
+98.70
+97.40
+100.00
+
+2.03
+2.04
+1.97
+2.41
+2.32
+2.04
+2.21
+2.15
+3.21
+
+13.16
+7.79
+7.79
+6.49
+12.99
+10.39
+11.69
+9.09
+22.08
+
+14.20
+
+92.21
+
+4.69
+
+35.07
+
+which is consistent with our evidence. Without more detailed data on institutional trading, we cannot conclusively verify this conjecture, but it remains the
+most likely explanation for our "ndings. This is an interesting topic for future
+research.
+
+5. Order 6ow and returns at the close
+5.1. The composition of trading volume
+The previous section demonstrates that the closing period return is important. Our theoretical hypotheses suggest that the observed return behavior may
+re#ect the e!ects of a common factor in order #ows at the close, perhaps arising
+from institutional trading. Accordingly, we begin our analysis by asking if there
+is evidence of a change in institutional trading at the end of the day.
+
+60
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+Fig. 3. Percentage of volume in blocks by time of day.
+
+Fig. 3 plots the average daily block-trading volume as a percentage of total
+trading volume (where a block is de"ned as 10,000 or more shares), the average
+daily block-trading volume 30 min before closing as a percentage of total
+trading volume 30 min before closing, and the average daily trading volume
+5 min before closing as a percentage of total trading volume 5 min before
+closing. Overall, the volume of trading done in blocks was 31.3% of total
+trading.15
+Two new "ndings are apparent from the "gure. First, more active stocks tend
+to have a larger fraction of volume in large-block trades in all time periods. This
+is perhaps not surprising because liquidity is greatest in the most active stocks.
+Second, the frequency of block trading diminishes uniformly towards the close.
+For all stocks, the percentage of block volume in the last half-hour is 19.6% and
+just 10.8% in the last 5 min of trading. These results are consistent with a high
+demand for immediacy at day-end from institutional traders seeking to trade at
+or near the closing price. Speci"cally, many large-block trades (which typically
+are initiated by institutional traders) originate in the so-called &upstairs' market
+
+15 The fraction of large-block volume to total volume for all NYSE stocks was 50.9% in 1998.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+61
+
+where block brokers facilitate large trades by locating counterparties.16 This
+process takes time and consequently institutional traders seeking immediacy
+might seek to trade in the regular &downstairs' markets rather than run the risk
+of failing to execute because of the di$culty in locating counterparties is
+towards the end of the day. To investigate the impact of the high demand for
+immediacy at day-end on returns, we turn now to a more formal analysis of
+trading at the close.
+5.2. A model of the returns generating process
+In the classical model of an e$cient security market, prices move in response
+to new public information that causes traders to simultaneously revise their
+beliefs. The process of trading itself may generate price movements because of
+frictions such as inventory control by market makers or because order #ow is
+motivated by private information. Madhavan et al. (1997) show that price
+movements re#ect both public information and order #ows.
+To investigate the e!ects of order #ow on closing returns, we propose
+a trading model where prices respond to public information #ows and to net
+order #ows. Speci"cally, we model the open-to-close return r as
+i,t
+(7)
+r "k#j x/"#j x" #h z/"#h z" #g ,
+i,t
+" i,t
+/" i,t
+" i,t
+i,t
+/" i,t
+where x/" is the signed non-block order #ow from the opening to 3:30 p.m.
+i,t
+(expressed as a percentage of average daily volume in stock i), x" is the
+i,t
+corresponding signed block order #ow in the period prior to 3:30 p.m., z/" is the
+i,t
+signed non-block order #ow (as a percentage of average daily volume in stock i)
+from 3:30 p.m. to the close, z" is the signed block volume in the period from
+i,t
+3:30 p.m. to the close, j , j , h and h are order yow sensitivities that capture
+/" " /"
+"
+the price impacts of non-block and block volume in the period prior to and
+during the last half-hour of trading, k is the intercept, and g captures the
+i,t
+revision in share prices associated with public information #ows unrelated to net
+order #ow. For notational convenience, we suppress the subscript i on the
+coe$cients k, j , j , h and h which are estimated on a stock-by-stock or
+/" " /"
+"
+portfolio basis.
+Two questions are of interest given our theoretical discussion. First, is the
+reaction of prices to block and non-block order #ows similar? Our model
+suggests that anomalous day-end returns can be explained by a greater
+demand for immediacy. The summary statistics presented in Section 5.1 above
+suggest such a shift among institutional traders, but for this to have an e!ect on
+returns, the responsiveness of prices to block and non-block #ows should be
+di!erent.
+
+16 See Keim and Madhavan (1996).
+
+62
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+The second question of interest is whether there are di!erences in the responsiveness of stock prices to order #ow (both block and non-block) at di!erent
+times of the day. Our argument of a common factor arising from institutional
+trading suggests that the responsiveness of prices to order #ows is larger at the
+day's end. Why? A common factor in institutional trading implies that market
+maker inventories will move in the same direction across a wide range of stocks
+at the day's end. This might induce a larger price impact at the close because risk
+averse market makers demand a premium to carry large inventories overnight.
+There might also be information revealed by order #ows if these anticipate
+future #ows or imbalances.
+Thus, the null hypotheses to be tested are
+HA: j "j "h "h ,
+0 /"
+"
+/"
+"
+
+(8)
+
+HB : j "h and j "h .
+0 /"
+/"
+"
+"
+
+(9)
+
+Table 2 reports the results of estimation of the regression model with order
+#ow variables for individual regressions for all 769 stocks in the sample. We
+report for all stocks and for dollar volume deciles, the average coe$cient
+estimate, the average t-ratios, and the average adjusted R2. The model performs
+very well; the coe$cient estimates on volume are of the predicted positive sign
+and signi"cance levels are generally high.
+Several interesting points are worth noting. First, observe that the coe$cients
+on non-block volume are much larger in magnitude than the corresponding
+coe$cients on block volume. For the average stock, the coe$cient on non-block
+volume is 7.57 in the time before the last half-hour but the corresponding
+coe$cient on block volume is only 0.78. This is consistent with the hypotheses
+advanced in previous work that large-block trades have lower price impacts
+because they originate in the upstairs markets. This "nding is consistent with the
+hypothesis that a common factor, manifested in greater demand for immediacy
+at the close, can explain the importance of closing period returns documented in
+the previous section.
+Second, the average sensitivities to block and non-block order #ow are higher
+in the closing period than in the rest of the day. The coe$cients on non-block
+and block volumes at the close are 10.29 and 2.24, respectively, as opposed to
+7.57 and 0.78 in the period prior to 3:30. Third, there is a general tendency for
+the order #ow sensitivities to increase with trading activity deciles, as does the
+adjusted R2. We would expect the order #ow sensitivities to be greater for more
+thinly traded stocks where adverse selection might be more of a problem.
+However, we know from other research (Keim and Madhavan, 1997) that there
+are systematic di!erences in order #ow sensitivities across auction and dealer
+markets. Indeed, as shown in Table 1, the fraction of listed stocks is far from
+monotonic in trading activity, with the highest activity decile having the lowest
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+63
+
+fraction of listed stocks. This factor might explain the seemingly anomalous
+pattern in coe$cient estimates.17
+Table 3 contains the details of the tests of the null hypotheses concerning
+block and non-block order #ow, for all stocks and for dollar trading volume
+decile. Each cell in the table reports the average F-value for a test of the
+appropriate null hypothesis and (in parentheses) the percentage of stocks in that
+cell for which the F-test was statistically signi"cant at the 1% signi"cance level.
+The results con"rm the intuition from the previous table. In particular, in
+93.37% of stocks, we can reject (at the 1% signi"cance level) the null hypothesis
+that the composition of order #ow does not matter. This is not surprising given
+the di!erences between block trades in upstairs and downstairs markets. More
+interesting are the results of the tests on whether the order #ow sensitivities for
+the volume components are constant across periods. The results here are
+weaker, and over all stocks we reject the null in 13.65% of cases. However, the
+signi"cance levels are higher in more active deciles. Indeed, in the most active
+decile, the percentage of stocks for which the F-test rejects the null hypothesis of
+equal sensitivities across periods is 35.07%. It is worth noting that these results
+are not driven by autocorrelation in order #ow, which although positive, is weak
+for both the block and non-block components.
+Our results suggest that the closing return phenomena described in the
+previous section can be explained by: (a) A shift downward in the percentage of
+large-block trades at the end of the day, consistent with a greater demand for
+immediacy by institutions unwilling to bear the delays associated with upstairs
+intermediation, (b) Higher sensitivity of prices to non-block order #ow relative to
+block order #ow, and (c) A higher sensitivity of prices to non-block order #ow at
+the close relative to other times of the day. Thus, the end of day return
+&anomalies' have a partial explanation in terms of the demand for immediacy
+and the sensitivity of returns to order #ows. We now turn to the consequences of
+large order imbalances at the close. We investigate this question using our data
+on MOC imbalances.
+
+6. Evidence on MOC imbalances
+6.1. Characteristics of MOC imbalances
+We essentially have two distinct data sets, the Imbalance Publications (IPs)
+prior to and those on or after the rule change of June 24, 1998. Since our study
+ends in July 1998, we focus on the pre-rule change set. As our focus is on the
+
+17 It may also re#ect other factors such as variation in #oat and market capitalization.
+
+64
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+impact of liquidity trading, we treat index expiration days as a separate population, because imbalances associated with expirations are almost surely liquidity-driven.
+Given the absence of formal investigations of MOC imbalances, it is useful to
+provide an overview of the data. The pre-rule change set contains 1910 stockdate events, with much of the activity on expirations. Virtually all of the
+pre-June 24 are published on or after 3:50, again as the rules then required. Most
+of the stocks in this set are blue chip, and certain names, such as RD and WMT,
+appear with higher frequency. There is a clear tendency for the frequency of
+imbalance indications to increase with trading volume. This is interesting since
+it suggests that the largest and most active stocks are those with the most severe
+problems at the close, perhaps because those stocks are the ones where institutional trading interest is concentrated.
+To assess the relative importance of imbalance indications, we computed the
+size of disclosed imbalances relative to average daily volume in the stock over
+the entire sample of imbalances. There are 1,126 buy imbalances (there may be
+more than one publicized imbalance on a given day) with a mean ratio to
+average daily volume of 13.29% (the median is 4.30%) and 728 sell imbalances
+with a mean ratio of 10.59% (median of 5.49%). Thus, the publicized size of
+imbalances is relatively large compared to average daily volume and the distribution is strongly right-skewed indicative of some extreme observations.
+6.2. Returns following MOC imbalance publications
+To understand the e!ectiveness of imbalance publications, we investigated the
+pattern of returns and volume following MOC imbalances focusing on the
+pre-June 24 period. Table 4 reports statistics on returns following market-onclose (MOC) imbalance indications. Two returns are reported: (a) close to
+next-day open returns, and (b) next-day open to close returns, all in percent.
+We report statistics separately for MOC buy and sell imbalance indications and
+for index expiration and non-expiration related imbalances. Figures in parentheses are t-values for a test of the null hypothesis that the statistic in question is
+zero.
+Focusing "rst on expiration related imbalances, there is clear evidence that
+closing prices re#ect temporary price pressure that is reversed in subsequent
+trading. For example, on days following sell imbalances, returns both overnight
+and in the next day are positive and signi"cantly di!erent from zero. For buy
+imbalances, there is an opposite e!ect, with next day overnight and daily returns
+signi"cantly negative. Since expiration related imbalances are unlikely to re#ect
+fundamental information, the conclusion that emerges is that temporary liquidity e!ects bias closing prices. Turning now to non-expiration related imbalance publications, we see the same pattern returns consistent with temporary
+pressure at the close that is reversed in subsequent trading. However, only the
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+65
+
+Table 4
+Returns following market-on-close order imbalance
+The table reports statistics on returns following market-on-close (MOC) imbalance indications. Two
+returns are reported: (a) close to next-day open returns, and (b) next-day open to close returns, all in
+percent. We report statistics separately for MOC buy and sell imbalance indications and for index
+expiration and non-expiration related imbalances. Figures in parentheses are t-values for a test of
+the null hypothesis that the statistic in question is zero.
+Sell indications
+
+Return from close to next-day open
+Next-day daily return
+Number of observations
+
+Buy indications
+
+Expiration
+related
+
+Nonexpiration
+related
+
+Expiration
+related
+
+Nonexpiration
+related
+
+0.366
+(3.616)
+0.824
+(5.695)
+142
+
+0.397
+(3.970)
+0.355
+(4.025)
+437
+
+!0.150
+(!2.441)
+!0.304
+(!2.846)
+260
+
+!0.053
+(!1.227)
+!0.094
+(!1.395)
+771
+
+returns following sell imbalances are signi"cant. This is consistent with Wall
+Street lore where sellers often seek to &get out' at any price whereas buyers are
+more cautious.
+6.3. Interpretation of results
+The results above are interesting but require some caution in their interpretation. Our "nding that next day open to close returns are positive (negative)
+following sell (buy) imbalances merits further comment. One explanation for the
+documented return behavior on the next day after the imbalance is that it simply
+re#ects negative autocorrelation in order #ow. However, our evidence suggests
+otherwise. Rather, we believe that this pattern can be explained by the fact that
+closing prices over-react to order imbalances and that the opening price the next
+day is biased towards the previous day's close as shown by Madhavan and
+Panchapagesan (1999).
+Of course, our "ndings do not mean that imbalance publications are ine!ective } rather, it suggests that they are not entirely successful in eliminating
+temporary price pressure. For exchange o$cials and regulators concerned with
+excess volatility, these results suggest that imbalance publications be supplemented with other measures or that they be modi"ed to increase their e!ectiveness. This could be achieved in several ways. For example, exchanges could
+hold closing call auctions in stocks with large imbalance publications. Alternatively, imbalance publication times might be made earlier (or the closing period
+extended) for stocks experiencing di$culties. Finally, steps could be taken to
+enhance the transparency of markets by publicizing imbalances more widely.
+
+66
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+In any event, our results show that closing prices are biased by non-informative
+order #ows.
+
+7. Conclusions
+Institutional traders place enormous importance on closing stock prices as
+benchmarks of value. Closing prices are used to calculate portfolio returns, tally
+the net asset values of mutual funds, and as a basis for certain types contracts
+and for after-hours trading. This paper analyzes empirically the behavior of
+stock returns at the close across the stocks of the Russell 1000.
+Consistent with anecdotal evidence, we demonstrate that the closing period
+accounts for a disproportionate fraction of a stock's daily return. The e!ect is
+signi"cantly stronger in portfolios where almost 18% of the variation in daily
+returns is explained by the return in the last 5 min of trading, despite the fact
+that this period only accounts for 1.3% of the trading day. This result is
+consistent with the hypothesis that institutional trading interest induces a common component to stock returns at the day end. We "nd that the ratio of
+volume in large-block trades to total volume falls sharply in the last 5 min of the
+day, consistent with higher demand for immediacy by institutional traders. This
+shift partly explains the closing return phenomenon because prices are more
+responsive to non-block order #ows. Compounding this e!ect, we also show
+that the sensitivity of returns to order #ow is greater in the closing period.
+Additional evidence that the demand for immediacy can explain the sharp price
+movements at the end of the day comes from our analysis of new data on
+market-on-close order imbalance publications. We "nd systematic return reversals, especially on days related to index expirations.
+Our analysis has several implications for practitioners and academics. First,
+the results support the view that end of day return anomalies may be explained
+in terms of concentrated trading at the close together with changes in the
+composition of volume. Second, the evidence presented suggests that institutional trading is correlated across stocks towards the day's end and that this
+may explain some of the observed return phenomena. Third, closing prices are
+a!ected by transitory order imbalances associated with index expirations.
+Given these results, it is natural to ask how we can reduce the volatility
+induced by transitory order #ows and improve price e$ciency at the close. One
+possibility is to disseminate information on order #ows at the close in a more
+timely manner, in greater detail, and to a wider audience. Greater transparency
+might attract counterparties to take the opposite side of order imbalances, while
+simultaneously serving to alert potential traders that their orders may be
+executed at substantial premiums over previous trades. A more radical approach is to adopt special trading protocols at the close, for example, by
+replacing the current continuous trading with a formal closing call auction.
+
+D. Cushing, A. Madhavan / Journal of Financial Markets 3 (2000) 45}67
+
+67
+
+Indeed, many other exchanges (e.g., the Paris Bourse) have implemented special
+closing procedures for exactly this reason. For NYSE stocks, a closing call can
+be modeled on the opening protocols at the NYSE. For Nasdaq stocks, the
+integration of a call market into the dealer structure is more di$cult, but still
+a distinct possibility. Given the growing concern over price volatility at the
+close, a more detailed investigation of these and other options will undoubtedly
+prove to be valuable.
+
+References
+Harris, L., 1986. A transaction data study of weekly and intradaily patterns in stock returns. Journal
+of Financial Economics 16, 99}117.
+Harris, L., 1989. A day-end transaction price anomaly. Journal of Financial and Quantitative
+Analysis 24, 29}45.
+Hillion, P., M. Suominen, 1998a. Deadline e!ect of an order driven market: an analysis of the last
+trading minute on the paris bourse. working paper, INSEAD.
+Hillion, P., M. Suominen, 1998b. Broker manipulation. Working paper, INSEAD.
+Ip, G., 1998. Unusual trading in safeway stock stirs market. Wall Street Journal. November 19, 1998,
+C1, C19.
+Ip, G., 1999. Big board set pact in rift with specialist, Wall Street Journal. June 25, 1999, C1, C20.
+Jain, P., Joh, G., 1988. The dependence between hourly prices and trading volume. Journal of
+Financial and Quantitative Analysis 23, 269}283.
+Keim, D., Madhavan, A., 1996. The upstairs market for large-block transactions: analysis and
+measurement of price impacts. Review of Financial Studies 9, 1}36.
+Keim, D., Madhavan, A., 1997. Transaction costs and investment style: an inter-exchange analysis of
+institutional equity trades. Journal of Financial Economics 46, 265}292.
+Lee, C., Ready, M., 1991. Inferring trade direction from intradaily data. Journal of Finance 46,
+733}746.
+Madhavan, A., 1992. Trading mechanisms in securities markets. Journal of Finance 47, 607}642.
+Madhavan, A., V. Panchapagesan, 1999. Price discovery in auction markets: a look inside the black
+box. Review of Financial Studies, Forthcoming.
+Madhavan, A., Richardson, M., Roomans, M., 1997. Why do security prices #uctuate? A transaction-level analysis of NYSE stocks. Review of Financial Studies 10, 1035}1064.
+Madhavan, A., So"anos, G., 1997. An empirical analysis of NYSE specialist trading. Journal of
+Financial Economics 48, 189}210.
+Meier, R., 1998. Benchmarking analysis of stock exchange trading. International Federation of
+Stock Exchanges (FIBV), Monograph, SBF-Bourse de Paris.
+So"anos, G., 1994. Expirations and stock price volatility. Review of Futures Markets 13, 39}73.
+Thomas, S., 1998. End of day patterns after implementation of a call auction on the paris bourse.
+Unpublished Manuscript, SBF-Bourse de Paris.
+
+

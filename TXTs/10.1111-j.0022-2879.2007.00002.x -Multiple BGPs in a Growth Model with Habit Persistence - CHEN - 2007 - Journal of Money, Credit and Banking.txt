@@ -1,0 +1,1242 @@
+BEEN-LON CHEN
+
+Multiple BGPs in a Growth Model
+with Habit Persistence
+This paper establishes multiple balanced growth paths in an otherwise standard, competitive growth model without externality or distortions and with
+households’ preference dependent upon how his/her consumption compares
+to a habit stock formed by his/her own past consumption. The key feature
+in our model is that consumption forms habits in combination with existing
+habits. This model establishes multiple equilibria because habit persistence
+induces an internal, intertemporal complementarity effect among consumption flows, with current consumption reinforcing future consumption. As a
+result, there exist two balanced-growth paths, with one path exhibiting low
+consumption and habits and high economic growth, and the other path exhibiting high consumption and habits and low growth that is not necessarily
+a development trap. Both steady states are saddles, but global indeterminacy
+arises where a high balanced growth path co-exists with a low balanced
+growth path where the two equilibrium paths cannot be pareto ranked and
+history need not matter for the selection of the equilibrium path.
+JEL code: O41
+Keywords: habit persistence, internal intertemporal complementarity effect,
+multiple balanced growth paths.
+
+RECENTLY THERE HAS BEEN RESURGENT INTEREST in economic
+growth models with multiple steady states. This strand is motivated by several empirical studies that document the existence of multiple development clubs (e.g., Baumol
+and Wolff 1988, Quah 1996, Durlauf and Quah 1999). In accordance with the facts are
+models in economic development that display poverty traps, where economies with
+low initial capital stocks or incomes converge to a steady state with low per capita
+
+The author would like to thank Jang-Ting Guo for bringing the research topic to his attention and suggestions. He also thanks the referee, Neville Jiang, Kazuo Mino, Koji Shimomura, seminar, and conference
+participants at Academia Sinica, Kobe University, National Taiwan University, the S.C. Tsiang Memorial
+Meeting (Taipei), the ASSA Meeting (Philadelphia), and, in particular, Ping Wang for very helpful and
+constructive suggestions. All errors and omissions are the author’s responsibility.
+
+BEEN-LON CHEN is from the Institute of Economics at Academia Sinica (E-mail: bchen@econ.
+sinica.edu.tw).
+Received October 7, 2005; and accepted in revised form March 2, 2006.
+Journal of Money, Credit and Banking, Vol. 39, No. 1 (February 2007)
+2007 The Ohio State University
+
+
+C
+
+26
+
+:
+
+MONEY, CREDIT AND BANKING
+
+income, while economies with high initial capital stocks converge to a different steady
+state that corresponds to high per capita income.
+The existing literature of economic development with multiple steady states may
+be broadly classified into five lines. One line concerns models of club convergency
+where countries differ in their initial level of human capital around different steadystate equilibria in the presence of social increasing returns to scale from human capital
+formation (e.g., Azariadis and Drazen 1990) and capital market imperfection (e.g.,
+Galor and Zeira 1993). A second line is the introduction of heterogenous agents so
+that through income distribution, otherwise similar countries except for their initial
+distribution of income may cluster around different steady-state equilibria (e.g., Galor
+and Zeira 1993, Benabou 1996). A third line examines models of fertility choice and
+a tradeoff between the time allocated to bearing and rearing children and the time
+devoted to educating children, with the result that households find a large number
+of children in their best interests, leading to an equilibrium with low per capita income (e.g., Becker, Murphy, and Tamura 1990, Galor and Weil 1996). A fourth line
+is sectoral complementarities that may generate multiple steady-state equilibria due
+to aggregate demand spillovers (e.g., Krugman 1991, Chen, Mo, and Wang 2002). 1
+Finally, a fifth line investigates costly intermediation in which a participation externality, where the cost of financial intermediation depends negatively on the mass of
+consumers, generates multiple steady states (e.g., Cooper and Ejarque 1995, Becsi,
+Wang, and Wynne 1999). Except for few works, 2 all these studies incorporate some
+forms of externality, which generate multiple long-run equilibria through an external
+complementarity effect among households/investors.
+This paper develops a model to establish multiple steady states with global indeterminacy in a standard one-sector unbounded growth model with habit consumption
+and without relying on externality. The introduction of habit formation into the growth
+model is motivated as follows. Empirical supports of the influences of habits on consumption have been made since Houthakker and Taylor (1970). The idea of habits in
+preferences dates to Marshall (1898) and Duesenberry (1949). According to Duesenberry (1949), the source of variations in habit formation is a learning process which
+begins in childhood, and a permanent shock will not change consumption behavior
+too much in the short run, but over time an individual responds to it and reaches a new
+consumption pattern that becomes habitual in the same way as the original pattern. 3
+Ryder and Heal (1973) and Boyer (1975) have investigated the implication of habit
+1. A static version of the line of research was pioneered by Rosenstein-Rodan (1943) and first formalized
+by Murphy, Shleifer, and Vishny (1989).
+2. These include Galor and Ryder (1989), Galor (1992), Galor and Weil (1996), and Shimomura (2004).
+In a one-sector model by Galor and Ryder (1989) and a two-sector model by Galor (1992), they obtain
+multiple steady states in overlapping-generations growth models, a framework where market participation
+is limited to those consumers alive as noted in Cass and Shell (1973). While the steady states in Galor and
+Weil (1996) are either locally a saddle or a sink but there is no global indeterminacy, all of the steady states
+in our model are locally a saddle but global indeterminacy arises. Finally, Shimomura (2004) obtained
+multiple steady states in a two-country trade model based upon negative income effects so the durable
+good is a Giffen good for a range of its shadow price.
+3. The source of variations in habit formation “is difficult to describe in a short place because it is a
+genetic process which begins in childhood. . . . Suppose a man suffers a 50 per cent reduction in his income
+
+BEEN-LON CHEN
+
+:
+
+27
+
+formation in the neoclassical optimal growth model, showing that the models lead to
+richer dynamic behavior of consumption and other main variables around the steady
+state. 4
+Understanding consumption, and thus savings, has important bearings on aggregate activities and economic growth. Apparent data indicate excess smoothness of
+aggregate consumption (Campbell and Deaton 1989, Fuhrer 2000). Moreover, data
+also indicate that increases in economic growth cause subsequent increases in aggregate savings using both cross-country (Carroll and Weil 1994, Attainasio, Picci,
+and Scorcu 2000, Rodrik 2000) and case studies (Paxson 1996, Deaton and Paxon
+2000, Rodrik 2000). The data are mainly confined to East Asian countries. These
+evidences favor the use of a utility with habits that exhibits consumption dynamics
+consistent with the above facts. Recently there have been several empirical studies
+that compared the model with habits in preference with the model without habits and
+rejected the latter. 5 These evidences motivate the use of a model with consumption
+habits in order to analyze the implications upon the long-run economic growth.
+Specifically, our model generalizes the endogenous growth model of habits by
+Carroll, Overland, and Weil (2000) and of recursive preferences by Palivos, Wang, and
+Zhang (1997) by allowing both current consumption flows and the existing habitual
+stock to contribute to the increment of future habits. The generalization of habit
+formation is important because it enables rich dynamics. This is an issue that has
+not been thoroughly studied; while Carroll, Overland, and Weil focus on how habit
+persistence implies that higher growth can induce more savings, Palivos, Wang, and
+Zhang concentrate on recursive preferences of the form of Uzawa (1968).
+Our general form of habit formation leads to a threshold ratio of consumption
+to habit resulting in two balanced growth paths (hereafter BGP). This model creates
+multiple BGPs for the following reasons. Existing habit enhances habit formation and
+affects preferences. This feature induces an internal, intertemporal complementarity
+effect, with current consumption reinforcing future consumption. High/low future
+consumption is expected to be associated with high/low current consumption, in
+order to attain a given level of utility for a household. Thus, for a given initial state,
+a small disturbance may only lead the economy to shift locally to a new growth path
+around the original BGP. However, it is also possible that a small disturbance may
+also change the threshold significantly so that the economy converges globally to a
+and expects this reduction to be permanent. Immediately after the change he will tend to act in the same
+way as before . . . but he eventually will learn . . . and responds by buying cheap substitutes. . . . Eventually
+he will reach a new consumption pattern . . . is likely to become habitual in the same way as the original
+pattern” (Duesenberry 1949, p.24).
+4. Using the optimal growth models Avearez-Cuadrado, Goncalo Monteiro, and Turnovsky (2004)
+studied economic dynamics while Alonso-Carrera, Caballe, and Raurich (2004) analyzed economic dynamics and optimal tax policies. The framework has been extended to an endogenous growth framework
+recently (Carroll, Overland, and Weil 2000, Alonso-Carrera, Caballe, and Raurich 2001). Recent years
+have seen applications in finance (Abel 1990, Constantinides 1990, Campbell and Cochrane 1999) and
+business cycles (e.g., Mansoorian 1996, Ljungqvist and Uhlig 2000, Boldrin, Christiano, and Fisher 2001).
+5. See, for example, the studies using time-series data in G-7 countries by Further and Klein (1998),
+time-series data in Japan by Pagano (2004), and the household panel survey in Britain by Guariglia and
+Ross (2002).
+
+28
+
+:
+
+MONEY, CREDIT AND BANKING
+
+new growth path around the other BGP. As one of the two BGPs has a higher longrun economic growth rate, such a small shock may lead to a large difference in the
+economic growth rate in the long run.
+While local dynamics are determinate (saddle) in our model, global indeterminacy
+arises where there is a high balanced growth path co-existing with a low balanced
+growth path that is not necessarily a development trap. Here the two equilibrium
+paths cannot be pareto ranked and history need not matter for the selection of the
+path. These features differentiate the results of our model from the aforementioned
+studies with regard to two steady states. In some of these works, the steady states
+are both saddle points and there exists a threshold level such that an initial condition
+history determines the steady state to which an economy converges (e.g., Kurz 1968,
+Palivos 1995, Galor 1996, Galor and Weil 1996). In the remaining works, one of
+the steady states is a sink and the other is a saddle point, and globally, for most
+given initial conditions an economy converges to the steady state that is a sink (e.g.,
+Krugman 1991, Chen and Shimomura 1998).
+In this paper, the theoretical model will be presented in the next section, while
+Section 2 studies balanced-growth paths and transitional dynamics, and Section 3
+investigates global indeterminacy. Concluding remarks are made in Section 4.
+
+1. BASIC MODEL
+Our basic model draws on Romer (1986), Palivos, Wang, and Zhang (1997), and
+Carroll, Overland, and Weil (2000). Consider an economy populated by households
+and firms. There exists a continuum of infinite-lived, identical households, with no
+population growth. There also exists a continuum of representative firms, with the
+shares owned by households. It follows that the economy is a world of representative
+household-producers.
+1.1 Environment
+The representative household is assumed to possess the following discounted, lifetime utility
+ ∞
+U=
+e−ρt u(c(t)/S γ (t)) dt, ρ > 0, 0 < γ < 1,
+(1a)
+0
+
+where u is the felicity function in t, c(t) is the instantaneous private consumption flow
+in t, and S(t) is the habitual stock. Parameter γ indexes the importance of habits. If
+γ = 0 then only the absolute level of consumption is important; while if γ = 1, then
+consumption relative to the habitual stock is what matters. For values of γ between 0
+and 1, both the absolute and relative levels are important. For this study, we assume
+0 < γ < 1 so that absolute consumption level is not a consumer’s concern. To facilitate
+the analysis, we have adopted a parametric felicity by assuming the following CES
+functional form
+
+BEEN-LON CHEN
+
+u(c(t)/S γ (t)) = 1/(1 − σ )[(c(t)/S γ (t))1−σ − 1],
+
+σ > 1.
+
+:
+
+29
+
+(1b)
+
+Assumption σ > 1 is crucial for the results of multiple interior steady states. The
+presumption rules out the logarithmic felicity form, requiring one with curvature
+steeper than a logarithmic form. Restriction σ > 1 is consistent with most empirical
+findings that intertemporal elasticity of substitution is smaller than one.
+The stock of habits is assumed to evolve according to
+Ṡ = Bcµ (t)S 1−µ (t) − δs S(t),
+
+1/2 < µ ≤ 1, S(0) > 0 given,
+
+(2)
+
+in which B > 0 represents a technology coefficient that forms past consumption flows
+into habits, with δ s ≥ 0 describing how existing habitual stock depreciates. Thus, a
+current consumption flow generates a long-lasting effect in a manner summarized by
+the stock of habits.
+equation (2) is more general than the specification in Carroll, Overland, and Weil
+(2000). Here we follow other authors, such as Campbell and Cochrane (1999) and
+Lettace and Uhlig (2000) to assume that consumption accumulates future habits
+in relation to existing habitual stocks. More specifically, we assume that current
+consumption flows contribute toward future habit formation, possibly in association
+with existing habits; therefore, restriction µ ≤ 1 is made, 6 and to be consistent with
+a perpetual growth framework the formation technology is assumed to be of constant
+returns with respect to existing habits and current consumption. It should be remarked
+that when B = δ s = 0, past consumption does not form the habitual stock. Then, the
+model is reduced to a conventional one-sector, endogenous growth model (e.g., Romer
+1986).
+The representative firm is assumed to own the following production technology
+y(t) = Ak(t),
+
+k(0) > 0 given,
+
+(3)
+
+where y(t) is output, k(t) is capital stock, and A > 0 is a parameter. The technology
+is abstracted from labor so capital should be interpreted broadly to include physical
+as well as human capital (e.g., Rebelo 1991).
+Finally, as households own firms’ shares, the representative household’s budget
+constraint is
+k̇ = y(t) − c(t) − δk k(t),
+
+(4)
+
+where δ k ≥ 0 is capital’s depreciation rate. This equation says that disposable income,
+not consumed currently, becomes savings, which augments capital.
+1.2 Optimization
+The representative household’s problem is to choose consumption, in order to
+maximize its discounted; lifetime utility (equations (1a and 1b)), subject to habitt
+
+6. While habitual
+stock is S(t) = {[S(0)e−δs t ]µ + Bµ
+t
+S(0)e−δs t + B 0 e−δs (t−τ ) c(τ ) dτ when µ = 1.
+
+0
+
+[e−δs (t−τ ) c(τ )]µ dτ }1/µ when µ ≤ 1, it is S(t) =
+
+30
+
+:
+
+MONEY, CREDIT AND BANKING
+
+ual stock formation (equation (2)); production technology (equation (3)); and budget
+constraints (equation (4)), taking existing capital stock k(t) and habits S(t) as predetermined. To solve the dynamic optimization problem, we define the following
+current-value Hamiltonian
+H (c, k, S, λk λs ) = 1/(1 − σ )[(c/S γ )1−σ − 1] + λk [Ak − c − δk k]
+− λs [Bcµ S 1−µ − δs S],
+where λ k and λ s denote the costate variables associated with equations (2) and (4),
+respectively. We should note that the shadow price of habit stock, −λ s , is negative.
+The negative shadow price on habit stocks reflects the fact that a greater initial habit
+stock yields a lower utility flow for equation (1). Without abuse of terminology, in
+what follows we call the absolute value of the shadow price of habit stocks, λ s , as
+the shadow habit price. Although under σ > 1 the felicity is strictly concave in c(t),
+for 0 < γ ≤ 1 it is not concave in S(t) as a higher existing habit stock lowers utility.
+Since felicity function u is not concave in c and S, the Mangasarian sufficient theorem
+cannot be used. Instead, we need to apply the Arrow sufficient theorem to guarantee
+the concavity of the Hamiltonain (see Arrow and Kurz 1970). Denote
+Ĥ (k, S, λk , λs ) = Max+ H (c, k, S, λk , λ S ).
+{c∈R }
+
+We have shown in the Appendix that when µ = 1, under a mild condition
+Ĥ (k, S, λk (t), λs (t)) is concave in k and S for fixed values of λ k , λ k t. 7 For Case
+µ < 1, as long as µ is large enough, by continuity a similar condition assures
+Ĥ (k, S, λk (t), λs (t)) to be concave in k and S for fixed values of λ k , λ k , and t. Therefore, k∗ (t), S∗ (t), and c∗ (t) solve Problems (1)–(4). As Ĥ (k, S, λk (t), λs (t)) is not
+strictly concave in k and S, therefore k∗ (t), S∗ (t), and c∗ (t) are not necessarily unique.
+Denote ρ as the time-preference rate. Applying the Pontryagin maximum principle,
+we obtain the following first-order conditions
+(c/S γ )1−σ 1/c = λk − λs (BµS 1−µ /c1−µ ),
+
+(5a)
+
+A − δk = ρ − λ̇k /λk ,
+
+(5b)
+
+−(c/S γ )1−σ [γ /(λs S)] + δs − B(1 − µ)(cµ /S µ ) = λ̇s /λs − ρ.
+
+(5c)
+
+together with equations (2) and (4), and the transversality condition 8
+Lim e−ρt H (t) = 0.
+
+t→∞
+
+(5d)
+
+equation (5a) equates the marginal utility of current consumption to the marginal
+costs of foregone savings, net of the effect via habit formation. Conditions (5b)
+7. The condition is 1/(λδ S ) + B/δ S > 1(1 − 1/σ )[(1 − γ ) + γ /σ ]/[(1 + γ )(σ − 1)2 + γ ] + 1.
+8. On the transversality condition in an infinite horizon, optimal problems, see Michel (1982).
+
+BEEN-LON CHEN
+
+:
+
+31
+
+and (5c) are two Euler equations that equate the net marginal productivity of capital
+stock, as well as the marginal utility of habitual stock, respectively, net of depreciation,
+to the time-preference rate, net of their respective capital gains (or losses).
+
+2. BALANCED GROWTH PATHS AND TRANSITIONAL DYNAMICS
+We are now ready to analyze the competitive market equilibrium.
+DEFINITION. A perfect-foresight equilibrium is a tuple { Ṡ/S(t), y(t)/S(t), k̇/k(t),
+c(t)/S(t), k(t)/S(t), λs (t)/λk (t)} that satisfies
+(i)
+(ii)
+(iii)
+(iv)
+
+habitual stock formation; i.e., equation (2);
+production technology; i.e., equation (3);
+households’ budgets; i.e., equation (4);
+representative household-firm optimization; i.e., equations (5a)–(5d).
+
+To analyze the market equilibrium, we transform the economic system into a 3×3
+system in three variables {x, λ, z}, where x ≡ c/S, λ ≡ λ s /λ k , and z ≡ k/S. By
+keeping the relative shadow price in the system, our 3×3 system does not involve the
+second-order time derivatives of consumption and is more simplified than the method
+utilized in Carroll, Overland, and Weil (2000). This solution method is in line with
+Bond, Wang, and Yip (1996). In order to derive the three-variable system, first we
+divide equation (5a) by equation (5c) to obtain
+λ̇s /λs = δs + ρ − γ (x/λ) − B[1 − µ + µγ ]x µ .
+
+(6a)
+
+Next, differentiating equation (5a) with respect to time yields
+[λ̇k /λk + γ (1 − σ ) Ṡ/S + σ ċ/c]
++ Bµ(λ/x 1−µ ){λ̇s /λs + [γ (1 − σ ) + (1 − µ)] Ṡ/S − (1 − σ − µ)ċ/c} = 0,
+which, together with equations (2), (5b), and (6a), can be rewritten as
+ċ/c = {(A − δk − ρ) + [γ (1 + (σ − 1)/µ)x/
+λ − (ρ + µδ s + γ (σ − 1)δs ) + γ µBxµ ]Bµ(λ/x 1−µ )
++ γ (σ − 1)(B 2 µ(λ/x 1−2µ ) − δs )}/{σ + (σ + µ − 1)Bµ(λ/x 1−µ )},
+(6b)
+Notice that since (A − δ k ) is the marginal product of capital, expression ċ/c reduces
+to the formulation in existing one-sector, endogenous growth models when B = µ =
+0, with the long-run, intertemporal elasticity of substitution equal 1/σ . With B > 0
+and µ > 0 for habit formation, equation (6b) suggests that in the long run, intertemporal elasticity of substitution is [σ + (σ + µ − 1)Bµ(λ/x 1−µ )]−1 , which for
+
+32
+
+:
+
+MONEY, CREDIT AND BANKING
+
+σ + µ > 1 is smaller than 1/σ , even for the case µ = 1. 9 Intuitively, current consumption forms habit stock that complements future consumption, thus lowering
+intertemporal elasticity of substitution for consumption. Therefore, we obtain
+PROPOSITION 1. An economy with habit formation with B > 0 and µ > 0 has a lower,
+long-run, intertemporal elasticity of substitution for consumption than one without
+habit formation.
+Finally, the economic system cannot be analyzed without transforming the growing
+variables into great ratios. We take differences between equations (6b) and (2), equations (6a) and (5b), and equations (4) and (2) to obtain the following 3×3 economic
+system
+
+
+ẋ/x = (A − δk − ρ) + γ (1 + (σ − 1)/µ)x/λ
+
+− (ρ + µδ s + γ (σ − 1)δs ) + γ µBx µ Bµ(λ/x 1−µ )
+
++ γ (σ − 1)(B 2 µ(λ/x 1−2µ ) − δs ) /
+{σ + (σ + µ − 1)Bµλ/x 1−µ } − Bx µ + δs ,
+
+(7a)
+
+λ̇/λ ≡ λ̇s /λs − λ̇k /λk = δs − γ (x/λ) − B[1 − (1 − γ )µ]x µ + A − δk , (7b)
+ż/z ≡ k̇/k − Ṡ/S = A − (x/z) − δk − Bx µ + δs .
+
+(7c)
+
+Typically, a three-variable system is difficult to analyze. This is not the case here due
+to the block-recursive nature of the system. Capital to habit ratio, z, enters the system
+only through expression (7c); the other two equations form a separate subsystem in
+x and λ. Thus, while consumption and thus x affects physical capital accumulation
+and thereby the ratio of capital to habits, the ratio of capital to habits affects lifetime
+utility and consumption only by determining the initial optimal choices of these
+variables. Once these initial choices are made, λ and x evolve accordingly. More
+specifically, while expressions (7a) and (7b) jointly determine {λ(t), x(t)}, expression
+(7c) determines z(t). When the three-variable system is solved, all other endogenous
+variables can be subsequently determined: Ṡ/S(t) is determined by equation (2),
+y(t)/S(t) is determined by equation (3), k̇/k(t) is determined by equation (4), and
+finally, the consumption growth rate, ċ/c(t), is determined by equation (6b). As a
+result, the market equilibrium is completely determined.
+2.1 Balanced Growth Paths
+We now determine the balanced-growth path (BGP). A BGP is a steady-state, competitive market equilibrium, in which all variables grow at a constant rate over time.
+9. This result is in contrast to the finding of the long-run, intertemporal elasticity being larger than 1/σ in
+an economy with habit formation in Carroll, Overland, and Weil (2000), which resorts to the second-order
+time derivatives of c in order to derive the transitional dynamics of their economic system.
+
+BEEN-LON CHEN
+
+:
+
+33
+
+FIG. 1. Balanced Growth Paths
+
+Therefore, ẋ = λ̇ = ż = 0 in the steady state. We determine the BGP by investigating
+the shape of loci summarized by expressions (7a)–(7c) in two planes.
+First, we start with Locus λ̇ = 0 in a (λ, x) plane. Differentiating Expression (7b)
+with respect to x and λ, we find Locus λ̇ = 0 is upward sloping. Moreover, we find
+that Locus λ̇ = 0 starts from the origin and approaches horizontal line x = e ≡ {(A +
+δ s − δ k )/[B(1 − (1 − γ ) µ)]}1/µ > 0, when λ approaches infinity (see Figure 1).
+Next, in order to analyze the shape of Locus ẋ = 0, we consider
+Condition R: (σ − 1)(1 − γ )δs > ρ.
+Condition R is easy to meet as ρ is a small value at less than 4% while σ is a large
+number, more than 1 in calibration. Note that for γ < 1 Condition R implies (σ −
+1)(1 − γ δ s ) > ρ. Under Condition R there is a positive threshold separating the
+behavior for Locus ẋ = 0. Differentiating Locus ẋ = 0 yields
+∗
+∗
+d x/dλ|ẋ=0 = −a12
+/a11
+≶ 0,
+
+i f x ≶ x̂,
+
+(8)
+
+where
+∗
+a11
+≡ −[Bµ(1 − γ + (σ − 1)/µ − γ (σ − 1)/(Bµx 1−µ )](2µ − 1)(λ/x 1−µ )
+
+∗
+a12
+
+− [(σ − 1)(1 − γ δ s ) − ρ]λ/x − [σ (1 − γ ) + γ (1 − µ)] < 0,
+
+
+≡ − ρ − (σ − 1)(1 − γ )δs + B(σ − (1 − µ))(1 − γ )x µ ) ≶ 0,
+1
+
+if x ≶ x̂ ≡ {[(σ − 1)(1 − γ )δs − ρ]/[B(σ + µ − 1)(1 − γ )]} µ > 0,
+We examine some special cases as follows.
+
+34
+
+:
+
+MONEY, CREDIT AND BANKING
+
+First, when µ → 0 and γ → 0, we obtain a ∗11 = − (σ − 1 − ρ)(λ/x) − σ < 0 and
+≡ − ρ (σ − 1)(B − δ s ) < 0.
+Then, Locus ẋ = 0 is positively sloping if the locus exists. The problem with µ → 0
+is that equation (7a) becomes ẋ/x = (A − δk − ρ)/σ − [1 − γ (σ − 1)/σ ](B − δs ),
+so ẋ is usually not zero and Locus ẋ = 0 does not exist. The economic system must
+be transformed in a different way. The model is then reduced to Rebelo (1991).
+Second, restricting µ > 0, when γ → 0, we find
+
+a ∗12
+
+a ∗12 ≡ − [ ρ − (σ − 1) δ s + B(σ + µ − 1)x µ ] < (>) 0 if x > (<) x̂, where
+x̂ ≡ {[(σ − 1)δs − ρ]/[B(σ + µ − 1)]}1/µ > 0 if σ > 1, and
+a ∗11 ≡ λ/x{− [B(σ + µ − 1)(2µ − 1)]x µ − [(σ − 1) − ρ]} − σ .
+When µ is large enough, it is easy to show that a ∗11 < − σ < 0. 10
+Finally, allowing for both µ > 0 and γ > 0, the sign of a ∗12 remains dependent on
+whether x is larger or smaller than the threshold x̂, and the sign of a ∗11 , by continuity,
+is negative if µ is large enough.
+Thus, under Condition R if µ > 0 is large enough, Locus ẋ = 0 slopes negatively
+when x ≥ x̂, and positively when x ≤ x̂ and is thus not a monotonic locus as illustrated
+in Figure 1. Moreover, for x ≥ x̂, we have shown that Locus ẋ = 0 has an infinite
+slope and has the x axis as the asymptote when x approaches infinity, and Line x = x̂
+as the asymptote when λ approaches infinity. Alternatively, for x ≤ x̂, Locus ẋ = 0
+intersects the x axis at the region [0, x 0 ], where x 0 ≡ {[A − (δ k + ρ) − (σ +
+γ (σ − 1))δ s ]/{B[σ (1 − γ ) + γ (1 − µ)]}}1/µ > 0, with a positive slope at Point (0,
+x 0 ), 11 and approaches Line x = x̂ when λ approaches infinity.
+Given the shapes of Loci λ̇ = 0 and ẋ = 0 in Figure 1, as e > x̂, 12 these two loci
+have two interior intersections. 13 Therefore, there exist two interior BGPs, as indicated
+by points H and L in the figure, with BGP H having a higher ratio of consumption to
+habits and a higher ratio of habit price to capital price, while BGP L having a lower
+ratio of consumption to habits and a lower ratio of habit price to capital price.
+As is clear, the equilibrium with two steady states emerges from the existence
+of the threshold. The threshold in the model makes Locus ẋ = 0 opposite in the
+slope when the locus is located above or below the threshold. The threshold arises
+from two internal, intertemporal complement effects. One is the habit in preference,
+represented by γ , and the other is the complement of current habits in forming new
+habits, represented by 1 − µ, so that consumption accumulates future habits in relation
+to existing habitual stocks. When the habit stock is small relative to consumption so
+the ratio of consumption to habits is above the threshold, the two complement effects
+are weak so that a ∗12 < 0, i.e., the growth rate of the ratio of consumption to habits
+the
+result
+x
+> x 0,
+it
+requires
+µ >≡ {−(σ − 3/2) +
+√ 10. Using
+∗
+σ (σ − 1) + 1/4 − 2[2σ − (1 + ρ)]σ/[A − δk + ρ − σ ]}/2, in order to guarantee a11
+< − σ.
+11. The slope is d x/dλ|ẋ=0 λ0 =0,x=x0 = −[ρ − (σ − 1)(1 − γ )δs + B(σ + µ − 1)(1 − γ )x0 ]/[σ (1 −
+γ ) + γ (1 − µ)] > 0, as x0 < x̂.
+12. The condition for e > x̂ is (1 − γ )[(σ + µ − 1)(A − δ k ) + µδ s ] + ρ + (1 + γ ) µ[(σ − 1)(1 −
+γ ) δ − ρ] > 0, which is met under Condition R.
+13. A third intersection is a degenerated steady state with zero consumption and shadow price of habits.
+
+BEEN-LON CHEN
+
+:
+
+35
+
+decreases in the ratio of the shadow price of habits to the shadow price of capital.
+Alternatively, when the ratio of consumption to habits is below the threshold, the two
+complement effects are strong so that a ∗12 > 0.
+Finally, in order to compare the economic growth rate for the two BGPs, we analyze
+Locus ż = 0.
+We find that the slope of Locus ż = 0 is positively sloping and, moreover, is concave
+in a (x, z) plane. Therefore, BGP H is associated with a higher ratio of capital to habit
+stock, while BGP L is associated with a lower ratio of capital to habit.
+The economic growth rate can be rewritten using equation (4), along with equation (3), to obtain
+k̇/k = ẏ/y = A − δk − x ∗ /z ∗ .
+
+(9)
+
+Therefore, k̇/k, and thus ẏ/y, is decreasing in x/z. Notice that the ratio of consumption to habits relative to the ratio of capital to habits is just the ratio of consumption to
+capital, c/k. Since the long-run x/z in BGP H is xH /z H , which is smaller than xL /z L
+in BGP L, the long-run, economic growth rate in BGP H is thereby larger than in BGP
+L. Since relationship xH /z H >xL /z L implies cH /kH < cL /kL , the ratio of consumption
+to capital is lower for BGP H. As lower consumption in BGP H leads to slower habit
+accumulation, the price of habit is thus higher in BGP H, resulting in λ H > λ L in
+Figure 1.
+The reasons for two possible equilibrium paths for an initial state are as follows.
+With the consumption habit in preferences, a household’s higher current consumption
+is expected to lead to higher future consumption, in order for a ratio of consumption
+to habit to attain a given level of utility. This effect induces an interaction among
+consumption flows, with current consumption reinforcing future consumption. When
+an agent expects to gain a certain utility level in the future, s/he may choose optimally
+to consume more now. As high current consumption forms more habits, s/he has to
+consume more in the future to have a proper ratio of consumption to habit in order to
+obtain the desired utility level. Alternatively, s/he could optimally choose to consume
+little now and in the future, in order to obtain the same utility level. As a result, there
+are two possible long-run equilibrium paths for consumption, with high/low future
+consumption expectations leading to high/low current consumption choices, and all
+the equilibrium paths are consistent with expectations in equilibrium. Consequently,
+habits are formed faster in the equilibrium path associated with high consumption
+than in the equilibrium path associated with low consumption, while capital stock is
+accumulated slowly in the former equilibrium path, and faster in the latter equilibrium
+path. As an effect of capital accumulation, the economic growth rate is low in the
+steady state of the former equilibrium path, and high in the latter equilibrium path.
+2.2 Transitional Dynamics
+We now proceed to analyze the dynamic properties of the three-variable system
+by examining its transitional dynamics. The transitional dynamics of the economic
+system can be analyzed if we linearize the dynamic system of Expressions (7a)–(7c),
+evaluated at a BGP {x∗ , λ∗ , z∗ }, to yield
+
+36
+
+:
+
+MONEY, CREDIT AND BANKING
+
+  
+ẋ
+a11
+  
+ λ̇  = a21
+a31
+ż
+
+a12
+a22
+0
+
+
+
+x − x∗
+0
+
+
+0   λ − λ∗ 
+a33
+z − z∗
+
+(10)
+
+where
+∗
+a11 ≡ Bµ(x µ /)a11
+,
+∗
+a12 ≡ Bµ(x µ /)a12
+,
+
+a21 ≡ −γ − [1 − (1 − γ )µ]Bµλ∗ /x ∗
+∗
+
+= −γ − γ Bµλ < 0,
+
+1−µ
+
+< 0,
+
+and
+
+if µ = 1,
+
+a22 ≡ γ x ∗ /λ∗ > 0,
+
+
+µ−1
+a31 ≡ − 1 + Bµx ∗ z ∗ < 0,
+
+and
+
+= −(1 + Bz) < 0,
+
+if µ = 1,
+
+a33 ≡ x ∗ /z ∗ > 0,
+ ≡ σ + (σ + µ − 1)Bµλ/x 1−µ > 0,
+
+and
+
+= σ + σ Bλ > 0,
+
+if µ = 1.
+
+As the dynamic system of Expressions (7a)–(7c) involves one state variable, z, and
+two control variables, x and λ, there exists a unique equilibrium saddle path toward
+a BGP if the number of negative eigenvalues near the BGP is one, and there exists a
+continuum of equilibrium paths toward a BGP if the number of negative eigenvalues
+near the BGP is larger than one.
+Denote J as the Jacobean matrix in equation (10) and θ as its eigenvalues. When
+we subtract matrix J from matrix θ I, where I is an identity matrix of order 3, then the
+eigenvalues are determined by equating determinant |J − θ I| to zero. If we expand
+|J − θI| = 0, we obtain the following characteristic function:
+[θ 2 − (a11 + a22 )θ + (a11 a22 − a21 a22 )](θ − a33 ) = 0.
+Solving the above polynomial function yields the following three eigenvalues:
+
+θ1 = [(a11 + a22 ) − (a11 + a22 )2 − 4(a11 a22 − a12 a21 )]/2 < 0,
+
+θ2 = [(a11 + a22 ) + (a11 + a22 )2 − 4(a11 a22 − a12 a21 )]/2 > 0,
+θ3 = x ∗ /z ∗ > 0.
+Given a 11 < 0, a 21 < 0, and a 22 > 0, and in the neighborhood of
+BGP
+H, a 12 < 0, we obtain a 11 a 22 − a 12 a 21 < 0. Then, (a11 + a22 ) <
+
+(a11 + a22 )2 − 4(a11 a22 − a12 a21 ) > 0, and thus, θ 1 < 0 < θ 2 for BGP H. On
+
+BEEN-LON CHEN
+
+:
+
+37
+
+FIG. 2. Transitional Dynamics: Saddles
+
+the other hand, a 12 > 0 in the neighborhood of BGP L. As the slopes of both Loci
+ẋ = 0 and λ̇ = 0 are positive and the latter, − a 22 /a 21 > 0, is steeper than the former,
+−a 12 /a 11 > 0, we obtain a 11 a 22 − a 12 a 21 < 0, and thus θ 1 < 0 < θ 2 for BGP L.
+Therefore, there is only one negative root around each BGP, and both BGPs are saddle
+points. Consequently, there is a unique dynamic growth path toward any one of the
+two BGPs. In Figure 2, Path DD is the unique saddle path toward BGP H, while Path
+FF is the unique saddle path toward BGP L.
+In the (z, x) plane, if we draw a horizontal auxiliary line from x̂, it intersects the
+ż = 0 locus. We call the intersection point M and the corresponding value of z = ẑ.
+Path SS is the unique saddle path, and it is discontinuous at the threshold ż. For any
+initial z(0) < ẑ, say at z(0) a in Figure 2, x must jump to the Saddle SS and converge
+to x L in the long run; for any z(0) > ẑ, say at z(0) b in Figure 2, x must jump to the
+Saddle SS and converge to x H in the long run.
+Summarizing the BGP and transitional dynamics, we obtain
+PROPOSITION 2. In an economy with habit formation, under Condition R, if µ > 0 is
+large enough there exist two BGPs that are saddles, with one having higher economic
+growth rates and the other, lower economic growth rates.
+Previous papers with path-dependent utility may have two nondegenerate steadystate equilibria (under the exogenous growth framework), but one stationary point
+is a saddle and the other is a sink (e.g., Krugman 1991, Palivos 1995, Galor and
+Weil 1996). If both steady states are saddles, history, or predetermined state variables
+govern the steady state to which the equilibrium moves. However, although both
+steady states are saddles in our model, history need not select the equilibrium path.
+
+38
+
+:
+
+MONEY, CREDIT AND BANKING
+
+As is clear in the next section, global indeterminacy arises in that starting from an
+initial state in the neighborhood of one BGP the economy may move toward the
+neighborhood of the other BGP. As a result, although the low- and the high-growth
+equilibria are saddles, the low-growth equilibrium is not necessarily a development
+trap.
+
+3. GLOBAL INDETERMINACY
+We analyze the global indeterminacy of small disturbances. As an illustrative example, we investigate two disturbances, with one in relation to habits and the other
+in relation to productivity. Specifically, we consider faster habit formation (a higher
+B) and larger productivity (a higher A) and envisage the equilibrium dynamics. Then,
+we analyze the saving rates in the short run and in the long run. Finally, we extend the
+model and consider endogenous rates of time preference so that global indeterminacy
+is eliminated.
+3.1 When More Habits Are Formed by Consumption
+Suppose that the economy is originally at high-growth equilibrium, with a BGP
+at H z and thus the initial state z H (0) larger than the threshold, ż (Figure 3). When
+a given level of consumption forms more habits, Loci ẋ = 0, λ̇ = 0, and ż = 0 all
+shift downward. As a result, an agent reduces consumption instantaneously (to A) so
+the ratio of habit price to capital price increases instantaneously (to H 1 ). As lower
+
+FIG. 3. A Faster Habit Formation (Higher B): Global Dynamics
+
+BEEN-LON CHEN
+
+:
+
+39
+
+consumption in the short run leads to more capital accumulation, the ratio of capital
+to habit increases along Saddle SA SA over time (to HBz ). Moreover, the ratios of
+consumption to habit and of habit price to capital price move along path DD (to HB ).
+Thus, the ratios of capital to habit and of consumption to habit are larger in the long
+run.
+However, when the habit formation coefficient is increased so Locus ż = 0 shifts
+downward significantly, the threshold, x̂ and thus ẑ, may be reduced to ẑ 
+
+ . Then,
+the initial state z H (0) is smaller than the threshold, ẑ 
+ . As a result, the agent reduces
+consumption a lot instantaneously (to B) in order to slow down the formation of
+habitual stock. Over time, as habit is formed faster than capital formation, the ratio
+of capital to habit is reduced to LBz (along Saddle SB SB ), and the ratio of habit price
+to capital price decreases (along path FF). Consequently, all three ratios are smaller,
+rather than larger, in the long run.
+3.2 Increased Productivity: Global Dynamics
+Next, we consider a large productivity. Suppose that the economy is originally at
+low-growth equilibrium, with a BGP at L z and the initial state z L (0) smaller than
+the threshold ẑ (Figure 4). When productivity is increased, Loci ẋ = 0, λ̇ = 0, and
+ż = 0 all shift upward. Anticipation of higher income increases consumption instantaneously resulting in a higher ratio of consumption to habit (A), and the consequent
+accumulation of habits reduces the ratio of habit price to capital price (to L1 ). Over
+time, the ratio of capital to habit is decreased (resp. increased) along Saddle SA SA
+(to LA
+z ) if Locus ẋ = 0 shifts leftward less (resp. more) than Locus λ̇ = 0. The ratios
+of habit price to capital price and of consumption to habits move along path FF (to
+
+FIG. 4. A Larger Productivity (Higher A)
+
+40
+
+:
+
+MONEY, CREDIT AND BANKING
+
+AA ). In the new BGP, the ratio of capital to habit is decreasing in the long run, while
+the ratios of consumption to habit and of habit price to capital price may be larger
+or smaller than that of the original BGP. The effect on the economic growth rate in
+the new BGP is in general positive as there is a positive direct effect that generally
+dominates the ambiguous indirect effect through changing the ratio of consumption
+to capital.
+However, when productivity is increased so Locus ż = 0 shifts upward significantly,
+the threshold ẑ is reduced to ẑ 
+ that is smaller than the initial state, z L (0). As a result,
+consumption increases instantaneously so the ratio of consumption to habits is at B
+in equilibrium. As income is higher, capital is accumulated faster than habits so that
+the ratio of capital to habits increases along Saddle SB SB over time (to HBz ), and as a
+result, the ratio of habit price to capital price increases along path DD over time (to
+HB ). In the new BGP, all three ratios are increasing in the long run. The economic
+growth rate is higher through a positive direct effect and a positive indirect effect via
+a lower ratio of consumption to capital.
+3.3 Short-run and Long-run Savings Rates
+Carroll, Overland, and Weil (2000) derived the condition under which the derivative
+of the gross savings rate with respect to the growth rate of output in steady state is
+positive. They found that habit formation increases the range of parameter values
+for the relationship to be positive. It seems natural to characterize the short-run and
+long-run savings rate around the high and low equilibrium.
+According to equation (4), the savings rate in our model is
+χ(t) ≡ [y(t) − c(t)]/y(t) = [k̇ − δk k(t)]/Ak(t) = (1/A)[k̇/k(t) − δk ],
+where, from equation (9), k̇/k(t) is inversely related to the ratio of consumption to
+capital.
+The savings rate depends upon the location of initial state. Suppose the economy
+is initially either at z(0) a or at z(0) b in Figure 2. Then, the initial equilibrium is J and
+G, respectively. As the ratio of consumption to capital at G is smaller than the ratio
+of consumption to capital at J, the savings rate at G is larger than the savings rate at
+B
+ in the short run.
+In the long run, the economy initially at z(0) a moves from A
+ along Saddle SS
+to L z , the low-growth BGP, while the economy initially at z(0) b moves from B
+ to
+H z , the high-growth BGP in Figure 2. As the ratio of consumption to capital at H z
+is smaller than that at L z , the savings rate of the economy initially at z(0) b is higher
+than the economy initially at z(0) a in the long run. As a result, there is a possibility
+that an economy with a higher savings rate in the short run has a lower savings rate
+in the long run.
+Moreover, there is global indeterminacy. A small disturbance may change the
+economic structure so that the threshold changes significantly, according to Figures 3
+and 4. Thus, the economy initially at z(0) a in Figure 2 may move to a BGP in the
+
+BEEN-LON CHEN
+
+:
+
+41
+
+neighborhood of H z while the economy initially at z(0) b may move to a BGP in the
+neighborhood of L z . As a consequence, the savings rate in the economy initially at
+z(0) b is lower, rather than higher, than the economy initially at z(0) a in the long run.
+To summarize global indeterminacy, we obtain
+PROPOSITION 3. In an economy with habit formation, under Condition R and if µ >
+0 is large enough, a small disturbance may change the economic structure so global
+indeterminacy arises. As a result, the economic growth rate and the saving rate are
+globally indeterminate.
+A remark must be made for the low long-run growth BGP in our model. The lowgrowth BGP is not interpreted as a development trap. Existing works interpreted a
+long-run low-growth equilibrium as a trap because it is locally a sink and thus, once
+the economy is in the neighborhood of the long-run equilibrium it is difficult to move
+toward another long-run equilibrium (e.g., Krugman 1991, Galor and Weil 1996).
+The low long-run BGP in our model is locally a saddle, and globally it may move to
+the high long-run BGP and is thus not a development trap.
+3.4 Extension: Endogenous Rates of Time Preferences
+Global indeterminacy arises in this model because of the following two features: the
+internal, intertemporal complementarity effect and the existence of two steady states.
+If the threshold is not feasible, we rule out the existence of two steady states. Then, the
+equilibrium with two steady states exhibiting global indeterminacy is reduced to the
+equilibrium with a unique steady state exhibiting global determinacy. The existence
+of two steady states is ruled out if Condition R no longer holds.
+Suppose that the rate of time preference is not constant but is endogenous in the
+sense of Uzawa (1968). Specifically, following Palivos, Wang, and Zhang (1997),
+we assume ρ = ρ(u(x S 1−γ )), with ρ 
+ (u) > 0 and ρ(u) reaching asymptotically an
+upper bound ρ̄ > (σ − 1)(1 − γ )δs . Then, ρ = ρ(u) may increase over time when
+there is a positive, even small, economic growth rate so that S increases over time.
+Eventually, ρ(u) increases to a level that Condition R fails to meet. As a result,
+eventually the threshold x̂ < 0 in Figures 1 and 2 and the steady state L are thus
+not feasible. Therefore, the equilibrium with two steady states disappears, while the
+equilibrium with a unique steady state emerges. The unique steady state is both locally
+and globally determinate. Global indeterminacy is eliminated and history determines
+the fates of economies.
+
+4. CONCLUDING REMARKS
+In this paper, we have analyzed a simple competitive, one-sector, endogenous
+growth model that has been extended to allow for a utility function exhibiting habit
+persistence in preferences. The key feature in our model is that consumption forms
+
+42
+
+:
+
+MONEY, CREDIT AND BANKING
+
+consumption habits in combination with existing habits. We use a standard solution
+procedure for a three-variable dynamic system without involving second-order time
+derivatives for consumption in the system. Habit persistence in preferences brings
+forth a non-linear economic system resulting in two interior balanced growth paths,
+with one exhibiting low consumption and habit formation and high economic growth,
+and the other displaying high consumption, high habit formation, and low economic
+growth.
+The two steady states are saddle points locally, but for an initial ratio of capital
+and habits global indeterminacy arises with a high balanced growth path co-existing
+with a low balanced growth path such that history need not matter for the selection of
+the equilibrium path. Moreover, the two equilibrium paths cannot be pareto ranked
+and the low growth BGP is not a trap. We have investigated the global indeterminacy
+under two disturbances, one pertaining to habit formation and the other to productivity.
+In addition, we have analyzed the resulting implications on short-run and long-run
+savings rate and an extension to endogenous rates of time preference in order to
+eliminate global indeterminacy.
+Finally, there are restrictions in the model and for simplicity we point out just
+one. In the model both BGPs have long-run positive economic growth rates. The
+model can only be used to highlight the epoch of sustained economic growth after the
+industrialization. Such a model is thus a non-unified growth theory in the language
+of Galor (2005). In order to interpret the growth process over the entire history of
+the human species from the state of Malthusian stagnation to the post-Malthusian
+regime and then the sustained regime, the model needs modification. To do that,
+following Galor and Weil (2000), Galor and Moav (2002) and Galor (2005), we
+may consider the fertility choice, endogenous labor supply, education choice, and
+technical progress, along with other building blocks like the Malthusian elements and
+the Darwin elements. We may then analyze how the habit in preference affects the
+growth dynamics and process over the entire economic growth history. This points to
+a direction for further research.
+
+APPENDIX
+PROOF OF THE HAMILTONIAN SATISFYING THE ARROW
+SUFFICIENT THEOREM
+Maximizing the Hamiltonian with respect to c, i.e.,
+Max H (c, k, S, λk λ S ) = 1/(1 − σ )[(c/S γ )1−σ − 1] + λk [Ak − c − δk k]
+{c}
+
+− λs [Bcµ S 1−µ − δs S],
+leads to the following necessary and sufficient condition
+
+
+Hc = c−σ /S γ (1−σ ) − λk − λs BµS 1−µ /c1−µ − δs = 0,
+
+(A1a)
+
+BEEN-LON CHEN
+
+Hcc = −σ c−(σ +1) /S γ (1−σ ) + λs Bµ(1 − µ)S 1−µ /c−µ < 0.
+
+:
+
+43
+
+(A1b)
+
+It is obvious equation (A1a) implies
+λk + λs BµS 1−µ /c1−µ = c−σ /S γ (1−σ ) + λs δs ,
+
+(A1c)
+
+and leads to Relationship c = c(S), that satisfies
+c
+ (S) = γ (σ − 1)/σ c/S > 0,
+
+for µ = 1,
+
+= [γ (σ − 1)c/S − 
+]/ > 0, if ∃µ > 0, µ < µ, for µ < 1, (A2a)
+¯
+¯
+
+
+
+2
+c (S) = [γ (σ − 1)/σ ][γ (σ − 1)/σ − 1]c/S > 0, for µ = 1,
+(A2b)
+
+c
+
+ (S) = [γ (σ − 1)/σ (c
+ (S)/S − c/S 2 )] − λs Bµ(1 − µ)/
+σ [(σ + µ)cσ +µ−1 /S γ (σ −1)+µ c
+ (S) − [γ (σ − 1) + µ]cσ +µ /
+S γ (σ −1)+µ−1 ] − γ (σ − 1)/σ c
+ (S)/
+S[(σ + µ − 1)cσ +µ−2 /S γ (σ −1)+µ−1 c
+ (S)
+
+
+− (γ (σ − 1) + µ − 1)cσ +µ−1 /S γ (σ −1)+µ−2 ]/ /,
+if 0 < µ < 1,
+
+(A2c)
+
+= γ (σ − 1)/σ [c
+ (S) − c/S]/(S) − 
+/
+[(σ + µ)c
+ (S) − [γ (σ − 1) + µ]c/S]/c − (1 − )/c
+ (S)/
+c[(σ − 1 + µ)c
+ (S) − [γ (σ − 1) − 1 + µ]c/S] < 0,
+if ∃µ0 > 0, µ < µ0 ,
+
+(A3a)
+
+where 
+ = [ λ s Bµ(1 − µ)/σ ][cσ +µ /S γ (σ −1)+µ ] > 0 and 0 <  = 1 − [λ s Bµ(1 −
+µ)/σ ][cσ −1+µ /S γ (σ −1)−1+µ ] < 1.
+For the terms in the three large brackets in equation (A2c), we have
+c
+ (S) − c/S = [γ (σ − 1) − σ ]/σ c/S < 0,
+(σ + µ)c
+ (S) − [γ (σ − 1) + µ]c/S
+= µ[γ (σ − 1) − σ ]c/(σ S)(1 + λs B(1 − µ)cσ +µ−1 /S γ (σ −1)+µ−1 ) < 0,
+(σ − 1 + µ)c
+ (S) − (γ (σ − 1) − 1 + µ)c/S
+= (1 − µ)[γ (σ − 1) − σ ]c/σ S(−1 + λs Bµcσ +µ−1 /S γ (σ −1)+µ−1 ) ≶ 0.
+As in equation (A2a), by continuity there exists a µ 0 > 0 large enough that the first
+term in equation (A2c), which is negative, dominates the positive second term and
+the ambiguous third term, and therefore c
+
+ (S) in equation (A2c) is negative.
+
+44
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Substituting Relationship c = c(S) into the Hamiltonian, we obtain a new Hamiltonian as follows:
+Max Ĥ (k, S, λk λ S ) = 1/(1 − σ )[(c(S)/S γ )1−σ − 1] + λk [Ak − c(S) − δk k]
+{S,k}
+
+
+
+− λs Bc(S)µ S 1−µ − δs S .
+
+Then, we can derive the following conditions
+Ĥk = λk (A − δk ),
+
+(A3a)
+
+Ĥkk = 0,
+
+(A3b)
+
+Ĥk S = 0,
+
+(A3c)
+
+ĤS = c−σ (S)c
+ (S)/S γ (1−σ ) − γ c1−σ (S)/S γ (1−σ )+1 − λk c
+ (S)
+− λs B[µcµ−1 (S)c
+ (S)S 1−µ + (1 − µ)cµ (S)S −µ ] + λs δ S .
+
+(A3d)
+
+The condition for ĤSS is more complicated, and we analyze it for (1) Case µ = 1,
+and (2) Case µ < 1.
+A1 For Case µ = 1
+ĤSS = −σ c−(σ +1) (S)/S γ (1−σ ) [c
+ (S)]2 + c−σ (S)/
+S γ (1−σ ) [c
+
+ (S) − γ (σ − 1)c(S)/S] − γ c−σ (S)/
+S γ (1−σ )+1 {(1 − σ )c
+ (S) − [γ (1 − σ ) + 1]c/S} − (λk + λs B)c
+
+ (S).
+(A4a)
+If we substitute into equations (A2a)–(A2b) under µ = 1, equation (A4a)
+becomes
+ĤSS = −γ /σ c−σ +1 /S γ (1−σ )+2 [(1 + γ )(σ − 1)2 + γ σ ]
++ [c−σ /S γ (1−σ ) − (λk + λs B)c
+
+ (S),
+
+(A4b)
+
+which using equation (A1c) can be rewritten as
+ĤSS = −γ /σ c−σ +1 /S γ (1−σ )+2 [(1 + γ )(σ − 1)2 + γ σ ]
+− λs δs [γ (σ − 1)/σ ][γ (σ − 1)/σ − 1]c/S 2
+
+
+
+= −γ /σ c/S 2 λs δs c−σ S γ (1−σ ) λs δs [(1 + γ )(σ − 1)2 + γ σ ]
+
+−(σ − 1)[1 − [γ (σ − 1)]/σ ] .
+
+(A4c)
+
+BEEN-LON CHEN
+
+:
+
+45
+
+As c−σ /(S γ (1−σ ) λ s δ s ) = (λ k + λ s B)/(λ s δ s ) − 1 ≡ [(1 + λB)/λ δ s ] − 1
+according equation (A1c), where λ ≡ λ s /λ k as defined in the text, then ĤSS < 0 in
+equation (A4c), if the following condition is satisfied.
+Condition S: 1/λδ S + B/δ S > (1 − 1/σ )[(1 − γ ) + γ /σ ]/[(1 + γ )(σ − 1)2 +
+γ ] + 1.
+Condition S is met if δ S and λ are small, and B is large.
+Then, the Hessian is
+
+
+ Ĥ Ĥ 
+ SS Sk 
+
+ = 0.
+ Ĥk S Ĥkk 
+
+(A5)
+
+Therefore, when µ = 1, the Hamiltonian is concave and satisfies Arrow’s sufficient
+theorem.
+A2 For Case 0 < µ <1
+ĤSS = −σ c−(σ +1) (S)/S γ (1−σ ) [c
+ (S)]2 + c−σ (S)/
+S γ (1−σ ) [c
+
+ (S) − γ (σ − 1)c(S)/S] − γ c−σ (S)/
+S γ (1−σ )+1 {(1 − σ )c
+ (S) − [γ (1 − σ ) + 1]c/S}
+
+
+− λk + λ S Bµcµ−1 S 1−µ c
+
+ (S)
+− λ S Bµ(1 − µ)cµ S −µ (1/S − 1/c)(S/cc
+ (S) − 1),
+
+(A6)
+
+whose first three terms are the same as in equation (A4a), the fourth term is also
+similar to equation (A4a) if µ is close to 1, and the last term is an extra term that is
+ambiguous and is small if µ is close to 1.
+Given the similarity between form equation (A6) and form equation (A4a), by
+continuity there exists µ 1 large enough such that for all µ < µ 1 , a condition similar
+to Condition S can guarantee equation (A6) to be negative, and thus the Hamiltonian
+to be concave in (S, k).
+
+LITERATURE CITED
+Abel, Andrew B. (1990) “Asset Prices under Habit Formation and Catching Up with the
+Joneses.” American Economic Review, Papers and Proceedings, 80, 38–42.
+Alonso-Carrera, Jaime, Jordi Caballe, and Xavier Raurich. (2001) “Income Taxation with Habit
+Formation and Consumption Externalities.” Mimeo, Universitat Autonoma de Barcelona.
+Alonso-Carrera, Jaime, Jordi Caballe, and Xavier Raurich. (2004) “Consumption Externalities,
+Habit Formation and Equilibrium Efficiency.” Scandinavian Journal of Economics, 106,
+231–51.
+
+46
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Arrow, Kenneth J., and Mordecai Kurz. (1970) Public Investment, the Rate of Return, and
+Optimal Fiscal Policy. Baltimore: Johns Hopkins Press.
+Attainasio, Orazio, Lucio Picci, and Antonello Scorcu. (2000) “Saving, Growth and Investment:
+A Macroeconomic Analysis Using a Panel of Countries.” Review of Economics and Statistics,
+82, 182–211.
+Avearez-Cuadrado, Francisco, Goncalo Monteiro, and Stephen Turnovsky. (2004) “Habit Formation, Catching Up with the Joneses and Economic Growth.” Journal of Economic Growth,
+9, 47–80.
+Azariadis, Costas, and Allan Drazen. (1990) “Threshold Externalities in Economic Growth.”
+Quarterly Journal of Economics, 105, 501–26.
+Baumol, Willian J., and Edward N. Wolff. (1988) “Productivity Growth, Convergence, and
+Welfare: Reply.” American Economic Review, 78, 1155–59.
+Becker, Gary S., Kevin Murphy, and Robert Tamura. (1990) “Human Capital, Fertility, and
+Economic Growth.” Journal of Political Economy, 100, 1092–1125.
+Becsi, Zsolt, Ping Wang, and Mark A. Wynne. (1999) “Costly Intermediation, the Big Push
+and the Big Crash.” Journal of Development Economics, 59, 275–93.
+Benabou, Roland. (1996) “Equity and Efficiency in Human Capital Investment: The Local
+Connection.” Review of Economic Studies, 63, 137–64.
+Boldrin, Michel, Larry J. Christiano, and Jonas D.M. Fisher. (2001) “Habit Persistence, Asset
+Returns, and the Business Cycle.” American Economic Review, 91, 149–65.
+Bond, Eric, Ping Wang, and Chong Yip. (1996) “A General Two-sector Model of Endogenous
+Growth with Human and Physical Capital: Balanced Growth and Transitional Dynamics.”
+Journal of Economic Theory, 68, 147–73.
+Boyer, Marcel. (1975) “An Optimal Growth Model with Stationary Non-additive Utilities.”
+Canadian Economic Review, 8, 216–37.
+Campbell, John Y., and John H. Cochrane. (1999) “By Force of Habit: A Consumption-Based
+Explanation of Aggregate Stock Market Behavior.” Journal of Political Economy, 107, 205–
+51.
+Campbell, John Y., and Angus S. Deaton. (1989) “Why IS Consumption So Smooth?” Review
+of Economics and Statistics, 56, 357–73.
+Carroll, Christopher D., Jody R. Overland, and David N. Weil. (2000) “Saving and Growth
+with Habit Formation.” American Economic Review, 90, 341–55.
+Carroll, Christopher D., and David N. Weil. (1994) “Savings and Growth: A Reinterpretation.”
+Carnegie-Rochester Conference Series on Public Policy, 40, 133–92.
+Cass, David, and Karl Shell. (1973) “Do Sunspots Matter?” Journal of Political Economy, 91,
+193–227.
+Chen, Been-Lon, Jie-Ping Mo, and Ping Wang. (2002) “Market Frictions, Technology Adoption
+and Growth.” Journal of Economic Dynamics and Control, 26, 1927–54.
+Chen, Been-Lon, and Koji Shimomura. (1998) “Self-fulfilling Expectations and Economic
+Growth: A Model of Technology Adoption and Industrialization.” International Economic
+Review, 39, 151–70.
+Constantinides, George M. (1990) “Habit Formation: A Resolution of the Equity Premium
+Puzzle.” Journal of Political Economy, 98, 519–43.
+Cooper, Russell, and Joao Ejarque. (1995) “Financial Intermediation and the Great Depression:
+A Multiple Equilibrium Interpretation.” Carnegie-Rochester Conference Series on Public
+Policy, 43, 285–323.
+
+BEEN-LON CHEN
+
+:
+
+47
+
+Deaton, Angus, and Christina Paxson. (2000) “Growth and Saving among Individuals and
+Households.” Review of Economics and Statistics, 82, 212–25.
+Durlauf, Steve N., and Danny Quah. (1999) “The New Empirics of Economic Growth.” In
+Handbooks of Macroeconomics, edited by J. Taylor and M. Woodford. Amsterdam: North
+Holland.
+Duesenberry, James S. (1949) Income, Saving, and the Theory of Consumer Behavior. New
+York: Oxford University Press.
+Fuhrer, Jeffrey C. (2000) “Habit Formation in Consumption and Its Implications for MonetaryPolicy Models.” American Economic Review, 90, 367–90.
+Further, Jeffrey C., and Michael Klein. (1998) “Risky Habits: On Risk Sharing, Habit Formation
+and the Interpretation of International Consumption Correlations.” NBRE Working Paper
+No. 6735.
+Galor, Oded. (1992) “A Two-sector Overlapping Generations Model: A Global Characterization of the Dynamical System.” Econometrica, 60, 1351–86.
+Galor, Oded. (1996) “Convergence? Inferences for Theoretical Models.” Economic Journal,
+106, 1056–69.
+Galor, Oded. (2005) “From Stagnation to Growth: Unified Growth Theory.” In Handbook of
+Economic Growth, Vol. 1A, edited by P. Aghion and S. Durlauf, pp. 171–293. Amsterdam:
+North-Holland.
+Galor, Oded, and Omer Moav. (2002) “Natural Selection and the Origin of Economic Growth.”
+Quarterly Journal of Economics, 117, 1133–92.
+Galor, Oded, and Harl Ryder. (1989) “Existence, Uniqueness, and Stability of Equilibrium in
+an Overlapping Generations Model with Productive Capital.” Journal of Economic Theory,
+49, 360–75.
+Galor, Oded, and David Weil. (1996) “The Gender Gap, Fertility and Growth.” American
+Economic Review, 86, 374–87.
+Galor, Oded, and David Weil. (2000) “Population, Technology and Growth: From the Malthusian Regime to the Demographic Transition.” American Economic Review, 110, 806–
+28.
+Galor, Oded, and Joseph Zeira. (1993) “Income Distribution and Macroeconomics.” Review
+of Economic Studies, 60, 35–52.
+Guariglia, Alessandra, and Mariacristina Ross. (2002) “Consumption, Habit Formation, and
+Precautionary Savings: Evidence from the British Household Panel Survey.” Oxford Economic Papers, 54, 1–19.
+Houthakker, Hendrik S., and Lester D. Taylor. (1970) Consumer Demand in the United States:
+Analyses and Projections, 2nd ed. Cambridge, MA: Harvard University Press.
+Krugman, Paul. (1991) “History versus Expectations.” Quarterly Journal of Economics, 106,
+651–67.
+Kurz, Monica. (1968) “Optimal Economic Growth and Welfare Effects.” International Economic Review, 9, 348–57.
+Lettace, Martin, and Harald Uhlig. (2000) “Can Habit Formation Be Reconciled with Business
+Cycles?” Review of Economic Dynamics, 3, 79–99.
+Ljungqvist, Lars, and Harald Uhlig. (2000) “Tax Policy and Aggregate Demand Management
+Under Catching Up with the Joneses.” American Economic Review, 90, 356–66.
+Mansoorian, Arman. (1996) “On the Macroeconomic Policy Implications of Habit Persistence.”
+Journal of Money, Credit, and Banking, 28, 119–29.
+
+48
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Marshall, Alfred A. (1898) Principles of Economics, 8th ed. New York: Macmillan.
+Michel, Philippe. (1982) “On the Transversality Condition in Infinite Horizon Optimal Problems.” Economtrica, 50, 975–85.
+Murphy, Kevin, Andrei, Shleifer, and Robert Vishny. (1989) “Industrialization and the Big
+Push.” Journal of Political Economy, 97, 1003–26.
+Pagano, Patrizio. (2004) “Habit Persistence and the Marginal Propensity to Consume in Japan.”
+Journal of Japanese and International Economics, 18, 316–29.
+Palivos, Theodore. (1995) “Endogenous Fertility, Multiple Growth Paths and Economic Convergence.” Journal of Economic Dynamic and Control, 19, 1489–1510.
+Palivos, Theodore, Ping Wang, and Jianbo Zhang. (1997) “On the Existence of Balanced
+Growth Equilibrium.” International Economic Review, 38, 205–54.
+Paxson, Christina. (1996) “Savings and Growth: Evidence from Micro Data.” European Economic Review, 40, 255–88.
+Quah, Danny. (1996) “Empirics for Economic Growth and Convergence.” European Economic
+Review, 40, 1353–75.
+Rebelo, Sergio. (1991) “Long-run Policy Analysis and Long-run Growth.” Journal of Political
+Economy, 99, 500–21.
+Rodrik, Dani. (2000) “Saving Transitions.” World Bank Economic Review, 14, 481–508.
+Romer, Paul M. (1986) “Increasing Returns and Long-run Growth.” Journal of Political Economy, 94, 1102–37.
+Rosenstein-Rodan, Paul N. (1943) “Problem of Industrialization of Easter and South-eastern
+Europe.” Economic Journal, 53, 202–11.
+Ryder, Jr., Harl E., and Geoffrey M. Heal. (1973) “Optimal Growth with Intertemporally
+Dependent Preferences.” Review of Economic Studies, 40, 1–33.
+Shimomura, Koji. (2004) “Indeterminacy in a Dynamic General Equilibrium Model of International Trade.” In Human Capital, Trade and Public Policy in Rapidly Growing Economies:
+From Theory to Empirics, edited by B.-L. Chen, M. Boldrin, and P. Wang. Aldershot, UK:
+Edward Elgar.
+Uzawa, Hirofumi. (1968) “Time Preference, the Consumption Function, and the Optimal Asset
+Holdings.” In Value, Capital, and Growth: Papers in Honor of S. John Hicks, edited by J.N.
+Wolfe, pp. 485–504. Edinburgh, UK: The University of Edinburgh Press.
+
+

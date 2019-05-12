@@ -1,0 +1,2347 @@
+THE JOURNAL OF FINANCE * VOL. LV, NO. 3 * JUNE 2000
+
+The Seven Percent Solution
+HSUAN-CHI CHEN and JAY R. RITTER*
+ABSTRACT
+Gross spreads received by underwriters on initial public offerings (IPOs) in the
+United States are much higher than in other countries. Furthermore, in recent
+years more than 90 percent of deals raising $20-80 million have spreads of exactly
+seven percent, three times the proportion of a decade earlier. Investment bankers
+readily admit that the IPO business is very profitable, and that they avoid competing on fees because they "don'twant to turn it into a commodity business." We
+examine several features of the IPO underwriting business that result in a market
+structure where spreads are high.
+
+IT IS WIDELYACCEPTED
+THATthere are fixed costs associated
+
+with issuing
+
+se-
+
+curities, leading to economies of scale in the costs of issuing debt, equity, and
+hybrid securities. For initial public offerings (IPOs) of moderate size, however, no economies of scale are evident when one examines the commissions
+paid to investment bankers, also known as the gross spreads or underwriting discounts. In the period from 1995 to 1998, for the 1,111 IPOs raising
+between $20 and $80 million in the United States, more than 90 percent of
+issuers paid gross spreads of exactly seven percent.
+This clustering of spreads at seven percent has not always been present.
+There is much more clustering at seven percent now than a decade ago,
+although the average spread on IPOs has not changed during this period. In
+the 1985 to 1987 period, only about one-quarter of moderate size IPOs had
+spreads of exactly seven percent, in contrast to the more than 90 percent
+incidence that has prevailed in recent years. We offer a few ideas about this
+pattern, but the convergence remains puzzling.
+Spreads on IPOs outside of the United States, such as in Australia, Japan,
+Hong Kong, or Europe, are approximately half the level of those in the United
+States. Spreads within the United States for bond, convertible bond, and
+seasoned equity offerings do not show pronounced clustering on one number.'
+* Chen is from Fu Jen University, Taiwan, and Ritter is from the University of Florida. We
+are grateful to William Christie, Stuart Gillan, Jason Karceski, Tim Loughran, Ananth Madhavan, Tim McCormick, Andy Naranjo, Paul Schultz, Shawn Thomas, Steve Wallman, William
+Wilhelm, Kent Womack, Li-Anne Woo, Hui Yang, Hsiu-Chuan Yeh, two anonymous referees,
+participants in seminars at Arizona State, Boston College, Cornell, Duke, Maryland, and Tulane,
+and especially Harry DeAngelo, Mark Flannery, Bruce Foerster, Tracy Lewis, Michael Ryngaert, and Rene Stulz for helpful comments. Data on analyst forecasts have been supplied by
+I/B/E/S.
+See the appendix table in Lee, et al. (1996).
+
+1105
+
+1106
+
+The Journal of Finance
+
+This article examines several possible explanations for the high average
+spreads on IPOs in the United States, the striking fact that so many issuers
+pay exactly 7.0 percent, and the increase in clustering during the past decade. We argue that the spreads for most deals above $30 million are above
+competitive levels. One reason for this opinion is that the spreads are much
+higher than elsewhere in the world. A second reason is that if spreads were
+determined primarily by costs, the average spreads on $80 million deals
+would be lower than on $20 million deals. But they are not. And if costs were
+the main determinant of spreads, $40 million deals by risky companies would
+have higher spreads than $40 million deals by relatively easy to value firms.
+But they do not. A third reason for our opinion is that investment bankers
+readily concede that the spreads are high, "The fact is, we'd be cutting our
+own throats to compete on price."2
+Ideally, we would like to have cost information to directly test whether the
+gross spreads that are charged are equal to costs, including a competitive
+rate of return on capital employed. Unfortunately, this information is proprietary. More importantly, there would be problems in interpreting the numbers, since many of the costs are hard to allocate, and the costs of operating
+a gold-plated operation are higher than for a bare-bones operation. In other
+words, the costs are endogenous. High spreads induce underwriters to compete for business by adding more services.
+There are several features of the IPO underwriting market that are conducive to high spreads. The importance of underwriter prestige results in a
+"pecking order" where few issuers will turn down a "bulge bracket" underwriter for a less prestigious one, even if it means paying higher fees. The
+importance of analyst coverage limits the number of viable competitors for a
+given deal, and leads issuing firms to choose a lead underwriter at least
+partly on the basis of characteristics unrelated to the fees charged.
+Explanations that we address for the high average spreads, and the high
+frequency of seven percent spreads, include the possibility of implicit or explicit collusion among investment bankers. Among game theorists, the term
+"implicit collusion" is used to denote an outcome in which sellers keep prices
+above competitive levels without explicitly colluding. Because the term "implicit collusion" is sometimes interpreted in a conspiratorial manner, we will
+use the term "strategic pricing." In the strategic pricing explanation, individual underwriters realize that by undercutting spreads to win a deal, competitors will respond by charging lower spreads in the future, resulting in a
+lower present value of profits. The self-interest of each individual investment banker results in higher spreads than if the fees were at competitive
+levels. By competitive levels, we mean spreads where no economic profits
+are being earned by underwriters. The logic is based on the Dutta and Madhavan (1997) model of a noncooperative game used to explain the high bidask spreads on Nasdaq stocks.
+2 Attributed to the anonymous head of underwriting
+Lowenstein's April 10, 1997 Wall Street Journal column.
+
+for an investment
+
+bank in Roger
+
+The Seven Percent Solution
+
+1107
+
+We also discuss several other, more innocuous, reasons why IPO spreads are
+high. These reasons include the necessity of having high spreads in order to
+induce underwriters to do a credible job of certifying the quality of an offering.
+Further, although spreads are the primary direct compensation of underwriters, the money "left on the table" via the short-run underpricing of IPOs
+is an important indirect compensation, for underwriters are able to allocate
+this money to their favored clients. Alternatively, low spreads would encourage greater underpricing as a way of reducing the expected costs of stabilizing
+IPOs, thereby increasing the indirect costs to issuing firms. Yet another reason is that high spreads induce underwriters to compete for business on the
+basis of analyst coverage, which enhances the liquidity of a company's stock.
+There are some similarities between patterns of gross spreads on IPOs
+and those of Nasdaq bid-ask spreads. Prior to the publicity generated by
+Christie and Schultz (1994), Nasdaq market makers avoided odd-eighth quotes.
+In other words, quotes at $10, $10.25, and $10.50 were far more common
+than quotes at $10.125, $10.375, and $10.625. Various parties have argued
+that the avoidance of odd-eighth quotes facilitated either implicit or explicit
+collusion to keep the bid-ask spreads wide. (The evidence of explicit collusion
+was strong enough to result in a lawsuit settlement of $1.03 billion paid by
+Nasdaq market makers in November 1998.) In the IPO market, the avoidance of spreads that are not exactly seven percent could facilitate either
+explicit collusion or strategic pricing, in that it is readily observable (from
+the prospectus) whether one underwriter is charging a fee that is "too low."
+On the other hand, there is a tendency to have at least some clustering at
+integers in almost every market, including the London gold market and interest rates paid on bank deposits (Kahn, Pennacchi, and Sopranzetti (1999))
+in spite of no requirement to avoid noninteger prices.
+Explanations for the increased clustering over time are harder to come by.
+We conjecture that seven percent has arisen as a focal point partly because
+issuers have placed relatively little attention on fees, and underwriters find
+it easy to justify a given spread by pointing to previous deals done at the
+same spread.
+The structure of the remainder of this article is as follows: In Section I, we
+present the facts on the distribution of gross spreads on IPOs in the United
+States over the 1985 to 1998 period. In Section II, we discuss features of the
+IPO market that may facilitate high spreads. In Section III, we discuss alternative explanations for the clustering of spreads at seven percent. In Section IV, we discuss possible reasons for the increased clustering of spreads
+over time. Section V concludes this article.
+I. The Facts
+A. Data
+We examine the spreads on 3,203 firm commitment IPOs from January
+1985 to December 1998 covered in the New Issues database of Securities
+Data Company (SDC). Closed-end funds, American Depository Receipts (ADRs),
+
+1108
+
+The Journal of Finance
+
+real estate investment trusts (REITs), and unit offerings are excluded from
+the sample. The sample is restricted to equity IPOs with domestic gross
+proceeds of at least $20 million because the compensation for underwriting
+smaller offerings is much higher due to the diseconomies of scale, and these
+deals may be accompanied with underwriter warrants.3 Throughout the paper, the proceeds exclude overallotment options, and are expressed in terms
+of dollars of 1997 purchasing power adjusted using the U.S. GDP implicit
+price deflator.4 It is worth noting that in the United States, buyers of IPOs
+pay no brokerage commission.
+B. Empirical Evidence of the Clustering of Underwriting Spreads
+at Seven Percent
+Table I reports the number of offerings by calendar year, offering size, and
+gross spread. The table shows that the proportion of IPOs with a seven
+percent spread has an upward trend until 1995, then stabilizes at about
+77 percent. For deals with proceeds of $20 million up to $80 million, which
+we refer to as moderate size deals, the increasing concentration at seven
+percent is especially noteworthy. This is illustrated in Figure 1.
+At the bottom of Table I we report the distributions after aggregating the
+years into three time periods: 1985 to 1987, 1988 to 1994, and 1995 to 1998.
+We also report the numbers by proceeds category: moderate size deals and
+large deals. In the 1985 to 1987 period, 26 percent of the moderate size IPOs
+occurred at seven percent, with 46 percent at lower spreads and 28 percent
+at higher spreads. By the 1995 to 1998 period, only five percent of these
+deals occurred at lower spreads, and only four percent occurred at higher
+spreads. Fully 91 percent of these moderate size IPOs paid a spread of exactly 7.0 percent.
+Although the clustering of spreads has increased over time, in Table II we
+show that the average spread has remained virtually unchanged over the
+last 14 years.5 This includes not only high-volume periods, but also the lowvolume years following the October 1987 stock market crash. During the
+1988 to 1990 period when there was relatively little equity-issuing activity,
+presumably there was plenty of excess capacity in the underwriting business.
+In Figure 2, we show a scattergram of the relation between spreads and
+the logarithm of proceeds for IPOs from 1998. The figure shows the strong
+clustering of spreads at seven percent for deals with proceeds of $20 million
+3 See Barry, Muscarella, and Vetsuypens (1991) for a description of underwriter warrants
+and related regulation.
+option gives the underwriter the right, but not the obligation, to pur4 An overallotment
+chase additional shares from the issuer. The spread per share on these incremental shares is
+the same as for the rest of the issue.
+spread for large IPOs in 1998 is attributable to three very large
+5 The low value-weighted
+IPOs (all over $2 billion) at gross spreads of approximately four percent. The spreads on the
+Conoco, Fox Entertainment, and Infinity Broadcasting IPOs were in line with predictions, given
+the size.
+
+1109
+
+The Seven Percent Solution
+
+The
+1985 Year
+1987
+1986
+1991
+1992
+1993
+1990
+1989
+1988
+1997
+1995
+1996
+1994
+1998
+1985-87
+1988-94
+1995-98
+
+181 6 15 21 14 18 26 25 26 13 13 16 51 92 38
+137(46%)
+56 (14%)
+(5%)
+
+731(26%)
+105 15825634824815322315510937 32 22 49 38 18
+1,010
+(75%)
+(91%)
+
+112 3 16 14 12 16 18 18 27 14 8 10 39 51 22
+111(28%)
+45 (11%)
+(4%)
+
+1,111
+398 16728738327418726719816264 53 48 13918178
+979(100%)
+(100%)
+(100%)
+
+249(76%)
+231(90%)
+87 45 59 74 53 35 68 62 46 12 13 13 29 42 16
+(71%)
+
+13 23 30 26 12 5 10 4 2 0 2 3 4 8 1
+91
+26
+(28%)(10%)(12%)
+
+1
+3
+14 0 1 2 0 0 0 1 0 0 0 0 3 8 3
+(1%) (0%) (12%)
+
+325 276 114 68 90 10265 40 78 67 48 12 15 16 36 58 20
+(100%)
+(100%)
+(100%)
+
+287
+
+386
+
+exercise
+excluded.
+categories
+of sample
+of The
+the
+
+7%
+Below
+
+Panel gross
+consists
+A:
+amount
+of
+of
+spreads
+7%
+3,203
+overallotment
+Gross
+Number
+$20-79.99proceeds
+firm
+of
+is
+option.
+expressed
+7%
+Spread
+Above
+millionas
+IPOs
+a
+expressedby
+commitment
+Securities
+
+All
+
+proceeds in
+
+percentage
+Data
+terms initial
+of
+of Co.
+Calendar
+is public
+
+7%
+Below
+
+Panel
+the
+dollars
+B:
+proceeds:
+Year,
+of
+7%
+offerings
+Gross-$80 belowsource
+1997
+Table
+I
+of
+(IPOs)
+7%
+millionseven the
+Spread
+Above
+
+Proceeds,
+
+with
+purchasing
+data.
+percent,
+and
+proceeds
+power,
+seven domestic
+
+All
+
+268 51 74 95 67 53 94 87 72 25 26 29 80 13454
+7%
+Below
+
+(55%)
+(38%)
+(56%)
+(46%)
+(45%)
+(34%)
+(33%)
+(33%)
+(27%)
+(20%)
+(20%)
+(23%)
+(20%)
+(20%)(31%)(52%)(22%)
+
+1,101 757
+
+118 18128637426015823315911137 34 25 53 46 19
+
+7%
+
+(19%)
+(19%)
+(50%)
+(30%)
+(49%)
+(39%)
+(53%)
+(60%)
+(68%)
+(70%)
+(76%)
+(77%)
+(77%)
+(77%)(60%)(23%)(77%)
+
+Panel
+GrossC:
+
+Gross
+Closed-end
+using
+gross
+the
+percent,
+funds,
+andU.S.
+proceeds
+Spread,
+of
+REITs,
+GDP
+above at
+price
+least
+seven ADRs,
+
+All
+and$201985-1998
+Spread
+deflator.
+27 14 8 10 42 59 25
+126
+IPOs percent.
+3 17 16 12 16 18 19
+112
+48
+unit
+7%
+Above
+million
+There
+(26%)
+(25%)
+(16%)
+(24%)
+(18%)
+(12%)
+(13%)
+(7%)
+(3%)
+(5%)
+(4%)
+(3%)
+(7%)
+(3%) (9%) (25%)(1%)
+are
+offerings
+before
+1,436 1,255 512 23537748533922734526521076 68 64 17523998
+
+All
+
+three
+arethe
+
+The Journal of Finance
+
+1110
+
+100.0%
+90.0%
+80.0%
+70.0%
+co
+
+0
+
+60.0%
+
+Below7%
+m~~~~~~~~~~~
+
+04-
+
+7%
+
+50.0%
+;40.0
+
+w|
+
+i
+
+L
+
+o Above 7%
+
+30.0%I
+10.0%
+10.0%
+85 86 87 88 89 90 91 92 93 94 95 96 97 98
+Year
+for moderate size IPOs. The sample consists of 2,488
+Figure 1. Gross spread distribution
+firm commitment IPOs from 1985 through 1998 with proceeds of at least $20 million but less
+than $80 million (expressed in terms of dollars of 1997 purchasing power) before the exercise of
+the overallotment option. Closed-end funds, REITs, ADRs, and unit offerings are excluded from
+the sample. There are three categories of gross spreads expressed as a percentage of proceeds:
+below seven percent, seven percent, and above seven percent. The percentage of IPOs in each
+category are from Panel A of Table I.
+
+(log(20) = 3.00) to $80 million (log(80) = 4.38). In Figure 3, we show the
+scattergram of the relation between spreads and proceeds for the subset of
+the deals with proceeds of less than $100 million, without logging the proceeds.
+As reported in Table I, of the 1,111 moderate size IPOs in the 1995 to 1998
+period, 56 had spreads of less than seven percent, and 45 had spreads of
+more than seven percent, according to SDC. Inspection of these 101 nonseven percent IPOs reveals that 38 of them had spreads different from 7.0 percent because of "rounding errors." Although there is no requirement that
+spreads be expressed as pennies per share, if a firm has an offer price of
+$13.50 per share, the spread tends to be either 94 cents (6.963 percent) or
+95 cents (7.037 percent), rather than the 94.5 cents that would make the
+percentage spread equal to 7.0 percent. If we classify these cases as seven
+percent spreads, there are only 63 of the 1,111 moderate size IPOs with
+non-seven percent spreads. On closer inspection, we find that several of
+these 63 were ADRs of foreign firms that were misclassified by SDC, several
+were Canadian companies, 11 were IPOs where the spreads were lower than
+seven percent but the expected proceeds from the preliminary prospectus
+
+1111
+
+The Seven Percent Solution
+Table II
+
+Average
+
+Gross Spreads
+
+by Year and Size of IPOs, 1985-1998
+
+The sample consists of 3,203 firm commitment initial public offerings (IPOs) in 1985 to 1998
+with proceeds of at least $20 million before the exercise of the overallotment option. Closed-end
+funds, REITs, ADRs, and unit offerings are excluded from the sample. The amount of proceeds
+is expressed in terms of 1997 dollars, using the U.S. GDP price deflator. IPOs with proceeds of
+at least $20 million but less than $80 million are designated as moderate size IPOs, others are
+designated as large IPOs. VW spread denotes value-weighted spread with proceeds being the
+weight. EW spread denotes equally weighted spread. Numbers in parentheses represent the
+standard deviations.
+
+VW Spread
+
+Year
+
+(%)
+
+1985
+
+6.88
+
+1986
+
+6.89
+
+1987
+
+6.96
+
+1988
+
+6.85
+
+1989
+
+6.95
+
+1990
+
+6.99
+
+1991
+
+6.99
+
+1992
+
+6.99
+
+1993
+
+6.98
+
+1994
+
+6.94
+
+1995
+
+6.98
+
+1996
+
+6.98
+
+1997
+
+6.95
+
+1998
+
+6.97
+
+EW Spread
+
+(%)
+6.96
+(0.47)
+6.94
+(0.40)
+7.00
+(0.40)
+6.92
+(0.27)
+6.97
+(0.12)
+7.03
+(0.43)
+7.01
+(0.18)
+7.01
+(0.26)
+6.99
+(0.16)
+6.97
+(0.21)
+6.98
+(0.13)
+6.99
+(0.15)
+6.98
+(0.30)
+6.98
+(0.18)
+
+All IPOs
+
+Large IPOs
+
+Moderate Size IPOs
+
+VW Spread
+
+(%)
+6.08
+5.83
+5.55
+6.01
+5.89
+5.83
+5.82
+5.78
+5.75
+5.94
+5.82
+5.74
+6.01
+5.05
+
+EW Spread
+
+(%)
+6.38
+(0.64)
+6.33
+(0.71)
+6.08
+(0.80)
+6.14
+(0.64)
+6.16
+(0.59)
+5.98
+(0.62)
+6.03
+(0.80)
+6.04
+(0.57)
+6.14
+(0.59)
+6.09
+(0.53)
+6.15
+(0.63)
+6.38
+(0.63)
+6.36
+(0.70)
+6.14
+(0.92)
+
+VW Spread
+
+(%)
+6.40
+6.20
+6.04
+6.33
+6.30
+6.45
+6.28
+6.24
+6.23
+6.44
+6.34
+6.27
+6.37
+5.52
+
+EW Spread
+
+(%)
+6.84
+(0.56)
+6.79
+(0.56)
+6.82
+(0.63)
+6.72
+(0.52)
+6.80
+(0.45)
+6.86
+(0.60)
+6.79
+(0.58)
+6.77
+(0.56)
+6.80
+(0.47)
+6.82
+(0.45)
+6.82
+(0.44)
+6.86
+(0.41)
+6.83
+(0.50)
+6.74
+(0.64)
+
+indicated an intention to raise at least $80 million, and five were IPOs where
+the spreads were higher than seven percent but the expected proceeds from
+the preliminary prospectus were less than $20 million. (The spread is generally negotiated before the preliminary prospectus is issued.) This leaves
+only about 40 of the 1,111 moderate size IPOs with non-seven percent spreads.
+Thus, in the 1995 to 1998 period, the clustering of spreads at seven percent
+is actually even more extreme than the 91 percent of moderate size deals
+
+1112
+
+The Journal of Finance
+
+11.0
+
+_
+
+_
+
+10.0
+9.0
+0
+
+20
+
+.5
+0
+0
+
+v,6.0
+
+3.
+
+0~~~~~~~0
+
+(0
+----
+
+5.00__
+
+__
+
+U,~~~~~~~~
+3.0-
+
+~o
+
+(poees
+
+4.0
+
+4.5
+
+$mllon
+
+---
+
+1.5
+
+2.0
+
+2.5
+
+_
+
+_-
+
+3.0
+
+3.5
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+8.0
+
+8.5
+
+Log (proceeds, $million)
+Figure 2. Scatter diagram relating actual proceeds and gross spreads. The sample consists of 330 firm commitment IPOs in 1998 with nominal proceeds of at least $5 million before
+the exercise of the overallotment option. Closed-end funds, REITs, ADRs, and unit offerings are
+excluded from the sample. The amount of proceeds is measured in millions of dollars and then
+the natural logarithm is taken. Two IPOs (with proceeds of $5.0 million and $1.3 billion) with
+spreads of 11.11 percent and 2.97 percent are not shown in the diagram. A $20 million IPO has
+a log of 3.00, and an $80 million IPO has a log of 4.38.
+
+shown in Table I. When the above reclassifications are made, we find that at
+least 96 percent of IPOs with expected proceeds of $20 to 80 million paid
+seven percent spreads.6
+C. Spreads in Other Countries
+Spreads on IPOs in other countries are much lower than in the United
+States. For example, the March 19, 1997 IPO of Cambridge Antibody Technology in the United Kingdom, underwritten by Kleinwort, raised $66 million (U.S.$) with a 3.36 percent spread (composed of a 3.0 percent commission
+plus a 150,000 pound fee), according to SDC.7 In Japan, IPO spreads are
+6 Seven of the moderate size IPOs in the 1995 to 1997 period that deviated from the seven
+percent norm were equity carveouts from Thermo Electron at spreads of 6.5 percent, six of
+which were underwritten by Natwest Securities. An equity carveout is an IPO that is a subsidiary of a parent company, where the parent company retains a partial equity stake. In a
+telephone conversation on June 11, 1998 with Thanasis Delistathis, who is currently in charge
+of handling these equity carveouts for Thermo Electron, an explanation was offered. First,
+Thermo Electron has done many equity carveouts over the years, and its in-house experience
+speeds up the paperwork, lowering costs for investment bankers. Second, Thermo Electron
+began doing equity carveouts before seven percent become established as an industry norm.
+The company successfully argues that each new deal should be done at the same spread as the
+previous deals, and the underwriters view these offerings as a special case. Allen (1998) examines the equity carveouts of Thermo Electron from 1983 to 1995.
+7 In 1998, the British
+government's Monopolies and Mergers Commission launched an inquiry into possible price-fixing on equity offerings in the U.K. (see The Economist, June 27,
+1998). The focus of the British inquiry appears to be on the standard two percent fee that is
+
+The Seven Percent Solution
+
+1113
+
+11.0
+10.0
+
+-i*
+
+9.0
+
+4
+
+9.0
+0
+
+10
+
+too
+
+O5.0-
+
+4.0
+$0.70
+
+3.0-ilio
+0
+
+in198.Th
+
+10
+
+sampecnsit
+
+20
+
+30
+
+ofm
+
+278fim
+
+40
+
+comiten
+
+50
+
+60
+
+IPO
+
+70
+
+in
+
+19
+
+.
+-.wth.omna
+
+80
+
+90
+
+Proceeds, $million
+Figure 3. Scatter diagram for IPOs with proceeds of at least $5 million but less than
+$100 million in 1998. The sample consists of 278 firm commitment IPOs in 1998 with nominal
+proceeds of at least $5 million but less than $100 million before the exercise of the overallotment option. Closed-end funds, REITs, ADRs, and unit offerings are excluded from the sample.
+One IPO (with proceeds of $5.0 million) with a spread of 11.11 percent is not shown in the
+diagram.
+
+typically in the range of 3 to 3.5 percent of proceeds for moderate size deals.
+In Taiwan, spreads are even lower, although potential buyers of IPOs also
+pay a commission, unlike in the United States. Woo (1999) reports that in
+Australia the average gross spread (including underwriter and broker fees)
+on 68 IPOs with proceeds of $30 to 100 million (Australian) from 1984 to
+1996 was 3.4 percent, with considerable cross-sectional variation.
+There are certainly differences in the regulations and associated costs for
+underwriting IPOs in different countries. One reason frequently advanced to
+explain the higher costs of underwriting in the United States is the lawsuit
+potential. But the reality is that auditing firms and investment bankers
+have been successful in their strategy during the 1980s of fighting securities
+fraud lawsuits with such ferocity that plaintiffs attorneys usually do not
+even bother suing them anymore (see Beatty and Welch (1996)). Instead,
+directors and officers (D&O) insurance pays settlements in the typical securities class action lawsuit, with underwriters untouched.
+D. Spreads on Small and Large IPOs
+For deals below $20 million, spreads are frequently even higher than seven
+percent, as shown in Figure 3. This is consistent with substantial fixed costs
+in underwriting. Revenue must be sufficient to cover the cost of writing a
+charged for "sub-underwriting" seasoned equity offerings. In the U.K., seasoned equity offerings are typically rights offerings priced at a discount of about 10 percent to the market price,
+with the price set several weeks before the exercise date. The sub-underwriting fee is the price
+of the put option that the issuer has implicitly purchased. Plausible estimates of the put's value
+are substantially less than two percent.
+
+1114
+
+The Journal of Finance
+
+10.0 -
+
+_
+
+9.0
+
+-4---
+
+8.0
+
+0 3 X<
+2 .0
+
+-
+
+_
+
+X X2=
+
+*
+
+-*
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+
+4.0
+
+4.5
+
+Log (proceeds,
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+$million)
+
+Figure 4. Scatter diagram for SEOs with proceeds of at least $5 million in 1998. The
+sample consists of 366 seasoned equity offerings (SEOs) with proceeds of at least $5 million
+before the exercise of the overallotment option. Closed-end funds, REITs, ADRs, and unit offerings are excluded from the sample. The amount of proceeds is measured in millions of dollars
+and then the natural logarithm is taken. One SEO (proceeds of $268.3 million) with a spread of
+0.69 percent is not shown in the diagram. This was from Flextronics International, a company
+from Singapore.
+
+prospectus and conducting a roadshow,as well as to cover the costs of "busted"
+deals and the costs of prospecting for business. The conventional wisdom is
+that the large, prestigious investment banking houses have costs that are so
+high that they do not find it profitable to do these small deals, which are
+primarily sold to a retail, rather than an institutional, clientele. These small
+deals frequently include compensation for the underwriters that includes
+warrants to buy stock in the issuing company, in addition to the stated gross
+spread (Barry et al. (1991)). We do not analyze these small deals.
+with proceeds of $80 million or
+For large deals, which we define (POs
+as
+more, average spreads are below seven percent, and there is little clustering.
+Inspection of Figure 2 shows that economies of scale are clearly displayed for
+large tPOs: the bigger the deal, the lower the spread tends to be.
+
+E. Spreads on Seasoned Equity Offerings
+Given the clustering of IPO spreads, a natural question is whether the
+same pattern is observed for the spreads on seasoned equity offerings (SEOs).
+Figures 4 and 5 show the spreads on SEOs, also known as follow-on offer-
+
+ings, for 1998. Figure 4 for SEOs is analogous to Figure 2 for 1POs, showing
+spreads versus the natural logarithm of proceeds. Figure 5 for SEOs is analogous to Figure 3 for iPOs, showing spreads versus proceeds on deals below
+$100 million. Inspection of Figures 4 and 5 shows that there is a slight
+
+The Seven Percent Solution
+
+10.0-
+
+1115
+
+-i
+
+9.0-
+
+8.0 -
+
+4.00
+0
+
+3.0 -
+
+0
+
+00
+
+0
+
+4S060
+
+7
+
+See~~roees
+
+2.0 Fiue5.0 Scte
+1.0
+0
+
+30
+
+0~~~soo
+
+0 6
+
+iga
+
+10
+
+frSO
+
+20
+
+9
+
+Smilio
+
+ihprceso
+
+30
+
+0
+
+40
+
+tles
+
+50
+
+60
+
+5mlin
+
+70
+
+uesta
+
+80
+
+90
+
+Proceeds, $million
+Figure 5. Scatter diagram for SEOs with proceeds of at least $5 million but less than
+$100 million in 1998. The sample consists of 228 seasoned equity offerings (SEOs) with proceeds of at least $5 million but less than $100 million before the exercise of the overallotment
+option. Closed-end funds, REITs, ADRs, and unit offerings are excluded from the sample.
+
+tendency to prefer spreads that are at integers or half-integers (4.5 percent,
+5.0 percent, 5.5 percent, etc.). Figure 4 suggests that there are economies of
+scale in conducting SEOs, with a nearly linear relation between the log of
+proceeds and spreads.8 Most important, there is no tendency to cluster on a
+single number for SEOs. For SEOs of a given size, there is considerable
+dispersion in the spreads paid on different deals. A comparison of the figures
+for IPOs and SEOs suggests that there is something special about seven
+percent spreads when it comes to IPOs.
+F Summary
+In sum, the facts show that there is a pronounced clustering of gross spreads
+at exactly seven percent for almost all IPOs raising $20 to $80 million. This
+concentration increased gradually during the 1988 to 1994 period, to the
+point where in recent years well over 90 percent of moderate size IPOs in the
+United States have had seven percent spreads. In other countries, spreads
+are substantially lower than in the United States. The patterns suggest that
+gross spreads are competitive for deals below $20 to $30 million, but increasingly profitable on larger deals. There is no clustering on a single number for SEOs.
+8 Altinkilic and Hansen (2000) argue that displays such as Figure 4 tend to overstate the
+economies of scale that exist due to a confounding effect. They argue that the larger offerings
+are typically from larger, safer firms, and that any given firm faces diseconomies of scale for
+proceeds above some amount.
+
+1116
+
+The Journal of Finance
+II. Explanations
+
+for High Spreads
+
+At its most general level, this paper is asking the following question: What
+features of the IPO market structure are conducive to an equilibrium in
+which fees are high?
+When going public, an issuing firm typically conducts a "beauty contest"
+to choose a lead manager (also known as the book manager) and one or two
+co-managers. The conventional wisdom is that underwriter prestige and analyst reputation are of paramount importance in this decision. Underwriters
+do not commit to a specific offer price at the time an underwriting agreement is signed. Thus, competition on the basis of valuations is muted.
+A. Analyst Coverage
+An implicit understanding is that the managing underwriters of an IPO
+will each assign a securities analyst to cover the company and produce research reports and issue buy recommendations for the stock (see Power (1993),
+Rajan and Servaes (1997), Dunbar (2000), and Michaely and Womack (1999)).
+For a small firm (in 1998 a firm with a market capitalization of equity of
+$250 million is too small to be included in the Russell 2000), there is a
+presumption that the stock price is affected by analyst coverage and whether
+there are buy recommendations on the stock. "Buy" recommendations may
+be especially important after the lock-up provision has expired, and insiders
+want to sell some of their stock in the open market.9 In other words, the
+objective function of a firm's managers at the time of the offering includes
+raising money at the time of the offering, and raising money in future openmarket insider sales. Other shareholders benefit, too, from the enhanced
+liquidity of their shares that is a consequence of the analyst coverage.
+In the 1980s, many IPOs did not have co-managers. Today, almost all IPOs
+have one, two, three, or even more co-managers. A reason for this growth in
+the number of co-managers is that the issuing firm is essentially buying
+additional analyst coverage at no incremental expense (since the underwriting fees will be seven percent of proceeds whether or not there are comanagers). In Table III, we report the number of managers for moderate
+size (Panel A) and large (Panel B) IPOs. Panel A shows that in the 1985 to
+1987 period, 37 percent of moderate size IPOs were solely managed, whereas
+in the 1995 to 1998 period, only four percent were.
+In Table IV, we report the number of analyst forecasts within one year of
+an IPO as reported by I/B/E/S (Institutional Brokers Estimate System).
+Our IPO sample ends in 1997 because of this requirement. In Panel C, we
+report two regressions where the number of analysts making an earnings
+forecast within a year of the IPO is the dependent variable. The top row
+reports the results of a pooled cross section-time series regression. The bottom
+9 While it is in effect, a lockup provision restricts pre-issue shareholders from selling shares
+without the explicit written permission of the managing underwriter. A typical lockup provision
+is for 180 calendar days after the IPO.
+
+1117
+
+The Seven Percent Solution
+Table III
+
+The Number
+
+of Managers
+
+1985-1998
+
+Syndicates,
+
+in Underwriting
+
+The sample consists of 3,203 firm commitment IPOs in 1985 to 1998 with proceeds of at least
+$20 million (1997 purchasing power) before the exercise of the overallotment option. Closed-end
+funds, REITs, ADRs, and unit offerings are excluded from the sample. IPOs with proceeds of at
+least $20 million but less than $80 million are designated as moderate size IPOs, others are
+designated as large IPOs. If there is a sole manager on a deal, the number of managers is one.
+If there is one co-manager on a deal, the number of managers is two.
+Number of Managers
+
+1
+
+2
+
+3
+
+4 or
+more
+
+Mean
+
+Median
+
+Panel A: Moderate Size IPOs
+1985-1987
+N (398 total)
+% of IPOs
+% of Proceeds
+1988-1994
+N (979 total)
+% of IPOs
+% of Proceeds
+1995-1998
+N (1,111 total)
+% of IPOs
+% of Proceeds
+All
+N (2,488 total)
+% of IPOs
+% of Proceeds
+
+146
+37%
+36%
+
+184
+46%
+44%
+
+55
+14%
+16%
+
+13
+3%
+4%
+
+1.9
+
+2
+
+137
+14%
+12%
+
+648
+66%
+65%
+
+182
+19%
+21%
+
+12
+1%
+2%
+
+2.1
+
+2
+
+46
+4%
+4%
+
+581
+52%
+47%
+
+415
+38%
+41%
+
+69
+6%
+8%
+
+2.5
+
+2
+
+329
+13%
+12%
+
+1,413
+57%
+53%
+
+652
+26%
+30%
+
+94
+4%
+5%
+
+2.2
+
+2
+
+Panel B: Large IPOs
+1985-1987
+N (114 total)
+% of IPOs
+% of Proceeds
+1988-1994
+N (276 total)
+% of IPOs
+% of Proceeds
+1995-1998
+N (325 total)
+% of IPOs
+% of Proceeds
+All
+N (715 total)
+% of IPOs
+% of Proceeds
+
+12
+11%
+8%
+
+48
+42%
+32%
+
+22
+19%
+22%
+
+32
+28%
+38%
+
+2.9
+
+2
+
+27
+10%
+8%
+
+86
+31%
+26%
+
+93
+34%
+29%
+
+70
+25%
+37%
+
+2.9
+
+3
+
+5
+1%
+1%
+
+47
+15%
+8%
+
+107
+33%
+25%
+
+166
+51%
+66%
+
+3.8
+
+4
+
+44
+6%
+5%
+
+181
+25%
+18%
+
+222
+31%
+26%
+
+268
+38%
+51%
+
+3.3
+
+3
+
+1118
+
+The Journal of Finance
+Table IV
+
+Analyst Following by Offering Size, Years, and Number of Managers
+in the Underwriting
+Syndicate and Regression Analysis, 1985-1997
+The sample consists of 2,911 firm commitment IPOs in 1985 to 1997 with proceeds of at least
+$20 million before the exercise of the overallotment option and covered by I/B/E/S. Closed-end
+funds, REITs, ADRs, and unit offerings are excluded from the sample. The amount of proceeds
+is expressed in terms of 1997 dollars, using the U.S. GDP price deflator. IPOs with proceeds of
+at least $20 million but less than $80 million are designated as moderate size IPOs, others are
+designated as large IPOs. Panels A and B report the summary statistics of analyst following.
+Number of full coverage represents the number of IPOs in which all managers issue earnings
+forecasts within one year after the offering. The first row in Panel C reports the results of a
+pooled cross-sectional and time-series regression analysis. The amount of proceeds is measured
+in millions of dollars. The sample size is reduced because of the requirement of a first-day
+return that is defined as the percentage return from the offering price to the closing price of the
+first trading day. Numbers in parentheses are t-statistics calculated using White (1980) robust
+standard errors. The second row reports average parameter values from yearly cross-sectional
+regressions using the approach of Fama and MacBeth (1973).
+Number of Managers
+
+1
+
+2
+
+3
+
+4 or
+more
+
+All
+
+Panel A: Moderate Size IPOs
+1985-1987
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+1988-1994
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+1995-1997
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+
+133
+94
+0.71
+1.75
+
+177
+106
+1.45
+2.00
+
+52
+13
+1.90
+1.96
+
+12
+0
+1.50
+1.67
+
+374
+213
+1.25
+1.90
+
+131
+114
+0.87
+1.68
+
+647
+569
+1.86
+1.96
+
+181
+126
+2.60
+2.18
+
+12
+6
+3.17
+6.92
+
+971
+815
+1.88
+2.03
+
+40
+31
+0.77
+1.27
+
+517
+480
+1.92
+1.39
+
+332
+287
+2.86
+1.61
+
+46
+27
+3.39
+2.41
+
+935
+825
+2.28
+1.51
+
+Panel B: Large IPOs
+1985-1987
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+1988-1994
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+1995-1997
+Number of IPOs
+Number of full coverage
+Mean manager forecasts
+Mean unaffiliated forecasts
+
+11
+8
+0.73
+3.82
+
+46
+28
+1.48
+5.30
+
+19
+4
+1.37
+2.79
+
+31
+3
+2.16
+2.90
+
+107
+43
+1.58
+4.01
+
+27
+26
+0.96
+6.44
+
+85
+70
+1.80
+4.06
+
+92
+60
+2.48
+4.78
+
+68
+31
+3.44
+5.24
+
+272
+187
+2.36
+4.83
+
+4
+3
+0.75
+2.00
+
+40
+38
+1.95
+2.97
+
+85
+60
+2.64
+3.89
+
+123
+63
+3.81
+3.58
+
+252
+164
+3.07
+3.56
+
+1119
+
+The Seven Percent Solution
+Table IV-Continued
+Panel C: Dependent Variable: Number of Forecasts within One Year after IPO
+
+Regression
+Pooled CS-TS
+Fama-MacBeth
+
+Intercept
+
+Ln(proceeds)
+
+Number
+of
+Managers
+
+-4.36
+(-8.05)
+-4.02
+(-6.92)
+
+1.84
+(10.69)
+1.84
+(12.61)
+
+0.55
+(3.63)
+0.36
+(1.74)
+
+First-day
+Return
+(%)
+0.02
+(5.88)
+0.05
+(3.99)
+
+R2
+
+Sample
+Size
+
+0.210
+
+2,844
+
+0.227
+
+13
+
+Adjusted
+
+row reports the average coefficients from thirteen regressions, each of which
+uses the IPOs from one calendar year during 1985 to 1997. The R2 reported
+for this second regression is the average of the thirteen R2 values, and the
+t-statistics are based on the time-series standard deviation of the coefficients. Both regressions find that more analysts follow an IPO if it is larger,
+and if it has a higher first-day return. These results are consistent with
+Rajan and Servaes (1997, Table II). Of particular interest, however, is our
+finding that an incremental co-manager adds 0.36-0.55 net analysts, holding the proceeds and first-day return constant.
+Securities analysts are beneficiaries of this system. Analysts with good
+reputations (as measured, e.g., by the annual Institutional Investor magazine all-star rankings) can command a high salary and bonuses. Analysts
+who help bring in equity financing business also stand to receive large bonuses (Siconolfi (1992), Smith (1996), and Raghavan (1997)). Krigman, Shaw,
+and Womack (1999) report survey evidence that issuers cite analyst coverage as a main determinant for choosing underwriters.
+The importance of analyst coverage represents a potential barrier to entry
+for new underwriters. Without a well-regarded analyst being involved in the
+deal, issuers will be skeptical about the ability of an underwriter to successfully maintain demand for the stock in the aftermarket, or even to place it
+initially. Furthermore, by emphasizing industry expertise, the IPO underwriting business becomes one of differentiated products, reducing the number of viable competitors for any given deal.
+B. Underwriter Prestige
+Underwriter prestige is a second important criterion for choosing managers. There is a perception that the "certification" of a prestigious underwriter is very valuable to an issuing firm. The most prestigious underwriters
+today include Goldman Sachs, Morgan Stanley Dean Witter, and Merrill Lynch.
+As long as issuing firms choose a lead underwriter primarily on the basis of
+analyst and investment banker reputations, there is little incentive for underwriters to charge differential gross spreads, for the elasticity of demand
+
+1120
+
+The Journal of Finance
+
+is not high with respect to the fees charged. Competition to be a lead manager is thus focused on the intermediary's "quality" rather than the fees
+charged.
+For intermediaries to have an incentive to certify the value of the item
+being sold, a stream of future quasi-rents must be anticipated (Beatty and
+Ritter (1986), Booth and Smith (1986)). Quasi-rents are the cash flows above
+marginal cost that can be viewed as a return on the prior investment in
+establishing
+a reputation. This framework would suggest that abovecompetitive spreads are needed to give underwriters an incentive to turn
+down deals that may be attractive in the short-run, but would be bad for
+investors in the long run.
+Although above-competitive underwriter compensation is needed to induce
+investment bankers to perform a certification function, it is not clear why
+this should result in spreads of seven percent for essentially all deals, whether
+they are $20 million or $80 million. Given the economies of scale that exist
+in the cost structure, the seven percent pricing structure results in substantial profits on deals at the high end of the moderate size range.
+C. Underwriting Syndicates
+Once an issuer chooses a book manager and co-managers, the lead manager invites other underwriters into the underwriting syndicate. Typically,
+the syndicate is split into several brackets (see Carter, Dark, and Singh
+(1998) for a description), depending on how many syndicate members there
+are. Because the fees are shared among the syndicate members, at first
+glance the resulting revenue sharing might be viewed as conducive to a
+reduced competitive environment.
+Historically, syndicates existed partly for regulatory capital requirement
+and risk-sharing purposes, and partly to facilitate the distribution of an
+issue. This was particularly relevant when the lead underwriter did not
+have a significant retail or institutional distribution network, and had limited capital. Today, there is little reason to form a syndicate to perform the
+traditional economic roles of risk sharing, distribution, and meeting capital
+requirements. Not surprisingly, syndicate size, as measured by the number
+of participating firms, has fallen over time, even as the number of comanagers has grown. Underwriters such as Merrill Lynch, with their large
+institutional and retail distribution networks, do not need other investment
+bankers to assist in distributing a given issue. Arndwith their large capital
+bases, risk sharing would seem to be important only for the very largest
+issues.
+In recent years almost all IPOs have had not only a book manager, but
+also one or two co-managers. In Table V, we present a hypothetical example
+with Goldman Sachs as lead underwriter and BT Alex. Brown as the comanager. We assume that there are 13 other members of the underwriting
+syndicate, where the two managers underwrite 900,000 shares each, the
+seven members of the major bracket underwrite 100,000 shares each, and
+
+The Seven Percent Solution
+
+1121
+
+the six members of the submajor bracket underwrite 50,000 shares each.
+The total number of shares is 2,800,000, before a 15 percent overallotment
+option, and the amount of gross proceeds at the $12.00 offer price is
+$33,600,000 net of the overallotment option. We assume a gross spread of
+seven percent, which has three components, as shown in Panel A of Table V.
+Of the 84 cent gross spread, we assume a selling concession of 48 cents, an
+underwriting fee of 19 cents, and a management fee of 17 cents. A syndicate
+member would receive 48 cents for each share whose sale is credited to that
+member. There is no necessary relation between the number of shares underwritten and the selling credits earned. Normally, the vast majority of the
+shares sold will be credited to the book manager, as illustrated in Panel B of
+Table V. All 15 syndicate members would receive the underwriting fee of
+19 cents, minus underwriting and stabilization expenses, for each share underwritten. The managing underwriters would receive 17 cents on every
+share sold by any member, with the split between the lead and co-managing
+underwriters usually tilted in the lead manager's favor.
+In a typical IPO, the vast majority of revenue and profits goes to the book
+manager, as illustrated in Panel C of Table V. The book manager receives at
+least a proportionate share of the management fee revenue, the vast majority of the selling concession revenue, and part of the net underwriting fee
+revenue. This last item is typically a small number, and may even be negative if stabilization expenses are high.
+There are certain ongoing expenses that lead and co-managers have, such
+as the pay of analysts and corporate finance employees, so the revenue figures
+are not the same as profit figures. Furthermore, part of the revenue is merely
+a competitive return on the capital required by regulators to underwrite
+securities. But the example in Table V shows how lucrative it can be to be the
+lead manager on a large IPO. Thus, although the fees are shared among syndicate members, there is still fierce competition to be a lead manager.
+It is noteworthy that new entrants to the IPO underwriting market have
+not tried to gain market share by cutting spreads. The two most prominent
+new entrants in IPO underwriting in the 1990s have been Deutsche Bank
+Securities (formerly Deutsche Morgan Grenfell (DMG)) and Friedman Billings Ramsey. Both firms have charged seven percent spreads on moderate
+size IPOs in the mid-1990s.
+D. The Cost of Price Support
+Underwriters frequently stabilize, or support, the price of an IPO immediately after it has gone public. Price support involves the practice of being a net
+buyer of shares, which are retired if the underwriter overallocates the issue.
+If an underwriter buys back too many shares in an attempt to keep the market
+price from dipping below the offer price, it will not be able to exercise the overallotment option. This would result in less profit for the underwriter. The probability that the overallotment option will be exercised increases when there is
+higher expected underpricing. If spreads were lower, underwriters might be
+
+The Journal of Finance
+
+1122
+
+Table V
+
+How Fees Are Shared
+
+in a Typical
+
+Syndicate
+
+This table describes a representative example of an IPO, showing how the shares being sold are
+allocated to the members of the syndicate for the purpose of compensating them. Most of the
+information contained here would be publicly disclosed, but the split of the management fee
+between the book manager (lead manager) and the co-manager is not publicly disclosed. The net
+underwriting fee is also not publicly disclosed. In Panel C, it is assumed that the overallotment
+option is exercised in full, with the number of shares underwritten increased by 15 percent
+above the Panel A numbers for all syndicate members.
+Panel A: Underwriting Information Contained in Prospectus and Other Documents
+Gross proceeds:
+Offer price:
+Shares offered:
+Gross spread:
+Management fee:
+Underwriting fee:
+Selling concession:
+
+$33.6 million
+$12.00 per share
+2,800,000 (plus 15 percent overallotment option of 420,000 shares)
+84 cents (7 percent) $2,704,800 total including overallotment option
+17 cents (by convention, 20 percent of gross spread, rounded up
+to the nearest penny)
+19 cents
+48 cents
+Underwriters
+
+Number of Shares
+Underwritten
+
+Goldman Sachs (book manager)
+BT Alex. Brown (co-manager)
+
+900,000
+900,000
+
+Bear Stearns
+Deutsche Bank Securities
+Donaldson Lufkin Jenrette
+Lehman Brothers
+Merrill Lynch
+Morgan Stanley
+Salomon Smith Barney
+
+100,000
+100,000
+100,000
+100,000
+100,000
+100,000
+100,000
+
+BancBoston Robertson Stephens
+CIBC Oppenheimer
+A. G. Edwards
+Friedman Billings Ramsey
+Hambrecht & Quist
+NationsBanc Montgomery
+Total
+
+50,000
+50,000
+50,000
+50,000
+50,000
+50,000
+2,800,000
+
+Panel B: Allocation of Shares
+2,800,000
++420,000
+3,220,000
+-100,000
+-700,000
+-50,000
+-50,000
+2,320,000
+
+Deal size
+Overallotment option
+10 percent of nonmanaging underwriters' underwriting commitment
+(initial retention)
+Managers' initial retentions (which are attributed to the book manager and
+co-manager on an un-even basis, possibly a 70-30 split, as assumed)
+To friends of the company (handled by lead manager)
+To company employees (handled by lead manager)
+"Institutional pot," allocated to institutional investors by book manager
+
+The Seven Percent Solution
+
+1123
+
+Table V-Continued
+Panel B: Allocation of Shares (Continued)
+Of the institutional pot, 30 percent is allocated in this example evenly among the managers and
+70 percent is the "jump ball" or competitive portion, almost all of which is typically attributed
+to the lead manager (we assume 1,500,000 of the 1,624,000 shares in the jump ball). So the
+sales credits are as follows:
+Lead:
+
+490,000
+50,000
+50,000
+348,000
+1,500,000
+2,438,000
+210,000
+348,000
+50,000
+608,000
+
+Co-manager:
+
+Other underwriters:
+
+From
+From
+From
+From
+From
+
+70 percent of 700,000 initial retention
+friends of company
+company employees
+15 percent of institutional pot
+jump ball
+
+From 30 percent of 700,000 initial retention
+From 15 percent of institutional pot
+From jump ball
+From initial retention
+From jump ball
+
+100,000
+74,000
+174,000
+
+Panel C: Allocation of Fees
+Fees: Underwriting fees of 19? x 3,220,000 = $611,800 - assumed syndicate costs of $450,800
+(including stabilization costs) = net of $161,000, or 5? per share
+Amount of Revenue (net of $450,800 syndicate costs)
+
+Underwriter
+Lead
+Co-manager
+100,000 share
+bracket
+50,000 share
+bracket
+
+Managers
+Fees @ 17?
+
+Underwriting
+Fees @ 5? net
+
+$273,700
+$273,700
+0
+
+$51,750
+$51,750
+$5,750
+
+0
+
+$2,875
+
+Selling
+Concession
+@ 48?/share
+
+Total
+
+Shares
+Credited
+
+$1,170,240
+$291,840
+$8,352
+on average
+$4,176
+on average
+
+$1,495,690
+$617,290
+$14,102
+on average
+$7,051
+on average
+
+2,438,000
+608,000
+121,800
+in total
+52,200
+in total
+
+tempted to set lower offer prices in order to reduce the chance of not exercising
+the overallotment option. The indirect cost of this underpricing might be far
+larger than the savings in direct costs on the spreads.
+A desire by issuers to reduce the amount of money left on the table by
+paying high spreads is plausible. This does not explain, however, why there
+should be clustering at seven percent. Furthermore, an issuer who wants to
+increase incentives for stabilization could insist on a change in the components of the gross spread, reducing the selling concession and/or management fee, and increasing the underwriting fee. In any case, Aggarwal (2000)
+reports that empirically the costs of stabilization to underwriters are relatively small.
+
+1124
+
+The Journal of Finance
+
+E. Spreads Signal High Quality Underwriting
+In many other markets, such as medical specialties, consulting, and
+legal advice, professionals find that charging a low price for their services signals lower quality and results in lost business. This phenomenon
+is present in markets where clients are unable to easily evaluate quality
+on either an ex ante or ex post basis, and where repeat dealings are
+uncommon. In these markets, sellers of services tend to charge high
+prices and at least some market participants have excess capacity (which
+they attempt to hide because its existence might signal low quality). An
+underwriter charging a low fee might raise concerns about its willingness to engage in price stabilization, provide analyst coverage, exercise
+care in helping to write a prospectus, aggressively market a deal, and so
+forth.
+IPO underwriting seems to share many of the characteristics of markets
+where price signals quality. But while any given firm will generally go public just once, limiting repeat business and learning, this is too myopic a view.
+Reputation effects overcome some of the information asymmetries: If Goldman Sachs decided to cut its spreads, few issuers would conjecture that it
+had become a low-quality underwriter.
+
+III. Explanations
+
+for the Clustering
+at Seven Percent
+
+of Spreads
+
+A. Explicit Collusion
+One possible explanation for the clustering of spreads at seven percent
+is collusion. If underwriters compete for business on the basis of spreads
+that they charge, competition will drive the spread on any given deal to
+the cost of providing the services, including compensation for expected risks
+that are borne by the underwriter. If underwriters agree to form a cartel,
+they can increase their profits. On every deal, a mechanism to decide how
+much to charge would be needed. One possible arrangement is to agree
+to always charge the same fees (seven percent), with the profits shared.
+The existence of syndicates would seem to be an excellent way to share the
+profits.
+With literally scores of people involved in setting spreads at different investment banking firms, the ability to explicitly collude and keep it a secret
+strains credibility. Legal liability is also a deterrent.10 And though underwriting syndicates could in principle be used for sharing profits, in practice
+the lead underwriter grabs the lion's share of profits.
+10 NASD Notice to Members 98-88, issued in October 1998, reminds underwriters that there
+is no standard level of underwriter compensation, and that coordination among members on the
+gross spreads charged is explicitly prohibited. This notice was partly motivated by the pattern
+of clustering at seven percent spreads on IPOs.
+
+The Seven Percent Solution
+
+1125
+
+B. Strategic Pricing
+It is possible that investment bankers are of the opinion that if they compete aggressively on the basis of fees, spreads will be driven down to the
+point where there will be little money for year-end bonuses for the individuals involved. Thus, the individuals involved may act strategically to avoid
+turning IPO underwriting into a "commodity business." Strategic pricing
+requires that each underwriter realizes that high spreads result in large
+year-end bonuses that would be jeopardized if spreads get driven down to
+competitive levels due to cutthroat competition. As long as the present value
+of the future cash flows resulting from high spreads is greater than the
+short-term gains associated with undercutting the competition to win a deal,
+each underwriter will avoid cutting its spread.
+The logic behind the strategic pricing explanation for high spreads can
+be formalized in a noncooperative dynamic game (Chen (1998)), based on
+the Dutta and Madhavan (1997) model. With IPOs, it is quite plausible that underwriters fear that quoting a lower spread will set off a price
+war that will drive gross spreads down on future deals. After all, many of
+the individuals in the business that we have talked to state that they do
+not want to charge a lower spread because they "don't want to turn it into
+a commodity business." It is hard to think of stronger evidence to support
+the proposition that the participants are thinking strategically. In other
+words, they are forecasting the spreads that will prevail in the future based
+on what is done today, and acting accordingly. Thus, each underwriter may
+decide to keep its spread above competitive levels, even without explicit
+collusion.
+The strategic pricing argument also offers an explanation for why the
+spreads on deals above $80 million are generally lower than seven percent.
+Since there are economies of scale in the costs of underwriting IPOs, deals
+above $30 or $40 million are for the most part extremely profitable at a
+seven percent spread. If the profits on a deal are too large, each underwriter
+has an incentive to undercut the competition, even if it means jeopardizing
+all of the future profits from high spreads. In order to forestall a price war
+from breaking out, underwriters must limit the economic profits earned on
+any given deal to a "reasonable" level (see Rotemberg and Saloner (1986),
+Dutta and Madhavan (1997), and Chen (1998)). Beyond a certain level of
+proceeds size, spreads of seven percent are unsustainable.
+The strategic pricing explanation for high average fees and clustering at
+seven percent raises the following question: Why, since sellers in every industry prefer high prices to low prices, is a strategic pricing equilibrium
+sustainable with IPO spreads and not in most other businesses? Our answer
+is that customers (issuing firms) view the fees charged as just one of a set of
+characteristics on which to choose an underwriter. Krigman et al.'s (1999)
+survey of issuing firms supports this view. If customers were more focused
+on fees, the strategic pricing equilibrium would be harder to sustain relative
+to the competitive ("commodity business") equilibrium.
+
+1126
+
+The Journal of Finance
+
+C. Resolving Agency Costs with Multiple Principals
+There are many other markets for intermediary services which display
+strong clustering of fees at integers. Probably the most obvious example is
+brokerage commissions on residential real estate; in many cities, most transactions are done at 6.0 percent. The real estate market involves both listing
+agents (representing sellers) and buying agents. Each property has a vector
+of characteristics and different buyers have different tastes, resulting in a
+time-intensive matching problem. In real estate, agents representing buyers
+observe the fees being offered on a property through the multiple listing
+service books, and they steer clients away from properties that do not compensate the agents well. Because real estate agents are representing multiple clients, charging a uniform commission eliminates the incentive of agents
+to spend a disproportionately low amount of effort on properties offering
+lower commissions (Williams (1998)). Also, there is less homogeneity of real
+estate percentage fees than it appears. In fact, real estate fees can be negotiated in two ways. First, on properties that ex ante appear easy to sell, a
+seller can get a listing agent to rebate part of the listing fee. Second, when
+a buyer makes a bid on a property, the seller can respond with a reservation
+price (net of commission) where the difference is too small to give the brokers their full commission. Rather than start all over with a new buyer or a
+new house, the agents can be ex post "squeezed." In other words, there is a
+hold-up problem.
+There are several important distinctions between the markets for intermediaries in real estate and for IPOs. With financial securities, the objective
+function of both buyers and sellers is dependent primarily on a single attribute,
+the cash payoffs. So, unlike in real estate, there is not a time-intensive problem of matching desired characteristics. Thus, a uniform commission so that
+one client is not favored over another client is not needed with IPOs.
+
+D. Other Components of Compensation
+If underwriter compensation is composed of more than just the spread, the
+clustering of spreads at seven percent may give a misleading view of the
+degree of clustering of the total compensation. On small offerings, underwriter warrants, "nonaccountable expense allowances," and other additional
+underwriter compensation is common. But for deals above $20 million, industry practice is to have the gross spread represent all of the underwriter's
+compensation. Inspection of a random sample of prospectuses in 1997 for
+IPOs with proceeds of $20 to $25 million found no cases of nonaccountable
+expense allowances boosting underwriter compensation. It should also be
+noted that almost all IPOs have a 15 percent overallotment option, so there
+is almost no time-series or cross-sectional variation on this dimension.
+One dimension on which there is substantial cross-sectional variation, however, is the degree of short-run underpricing. On average, the first-day return on IPOs is 10 to 15 percent (e.g., see Lee et al. (1996, Table 4)), which is
+
+The Seven Percent Solution
+
+1127
+
+an indirect cost of going public. The first-day returns represent profits to
+investors (and an opportunity cost to issuers) that are approximately twice
+as large as the direct fees received by underwriters. For example, on a $40
+million IPO with a seven percent spread and a first-day return of 14 percent,
+the direct fees are $2.8 million, and the money "left on the table" is $5.6
+million. In this example, investment bankers have $5.6 million in profits to
+hand out to favored clients, such as clients who are willing to overpay for
+other services. In unreported regressions, we have examined whether there
+is a trade-off between underpricing and spreads. The evidence of a trade-off
+existing is fairly weak.
+Another form of compensation for the lead underwriter is the profits from
+future market making activity. Ellis, Michaely, and O'Hara (2000) report
+that the lead underwriter usually is the most active market maker in the
+first 60 days of post-IPO trading for a sample of 312 Nasdaq-listed IPOs
+from 1996 to 1997. They calculate that the lead underwriter makes money
+on this market making activity, although the numbers are modest relative to
+the fees from the gross spread.
+There is no regulatory constraint that forces spreads to equal seven
+percent. National Association of Securities Dealers (NASD) Rule 2710
+prohibits a member from participating in a public offering with unfair
+or unreasonable underwriter compensation, where NASD Regulation's
+Corporate Financing Department has direct responsibility for the review
+of underwriter compensation.
+There is no evidence that this rule is
+a binding constraint for the moderate size and large deals that we
+analyze.
+E. Resale Price Maintenance
+As discussed in Section II, the conventional wisdom is that future analyst
+coverage is an important consideration for firms going public. Thus, investment bankers are intermediaries who are selling a bundle of services: the
+IPO underwriting itself, and future analyst coverage. By paying abovecompetitive underwriting fees, issuing companies induce underwriters to offer more analyst coverage in their attempt to compete for the profitable
+business. The logic is the same as that of the "resale price maintenance"
+literature, where a producer wants distributors to offer a minimum service
+level (Telser (1960)). By setting a minimum price at which the products can
+be resold, the producer induces the intermediaries to offer more services
+than they otherwise would.
+Although high spreads on average can be viewed as compensation for inducing underwriters to provide future analyst coverage, this does not explain why seven percent spreads on $80 million deals are the norm, just as
+they are on $20 million deals. The clustering at seven percent for almost all
+deals within a very large range of proceeds suggests that the larger and
+safer deals are providing substantial economic profits to the underwriters
+involved.
+
+The Journal of Finance
+
+1128
+
+Presumably, some issuers would prefer to pay high fees and "purchase" a
+high level of services. Other issuers would prefer fewer services in return for
+lower fees. But the lack of dispersion of spreads suggests that this choice is
+not available to issuers.
+F Cross-Subsidization
+One possible reason for the clustering of spreads at seven percent is that
+underwriters have difficulty knowing their exact costs on a given deal, and
+they price their services in a manner whereby some issuers subsidize other
+issuers. As long as underwriters break even on average, there is little reason
+to change this policy. The problem with this argument is that, given the
+economies of scale that exist, it does not take a rocket scientist to realize
+that $80 million deals are more profitable than $20 million deals if the percentage spread is the same on both. An underwriter could increase its profitability by concentrating on the larger deals.
+IV. Possible
+
+Reasons for the Increased
+of Spreads over Time
+
+Clustering
+
+As shown in Table I and Figure 1, the clustering of spreads has increased
+substantially in the last decade. This raises the question of why this is so.
+One possibility is that, as in almost all markets, learning has occurred
+over time. In the mid and late 1970s, IPO volume in the United States (and
+almost all other countries) was virtually nonexistent, with the number of
+deals per year less than the number in many weeks during the 1990s. As IPO
+volume picked up in the 1980s, four boutiques (L.F. Rothschild, Unterberg,
+Towbin; Robertson Stephens; Hambrecht & Quist; and Alex. Brown) specializing in IPO underwriting captured a large share of a growing market. In
+the early 1980s, "bulge bracket" investment bankers such as Goldman Sachs, Morgan Stanley, and Merrill Lynch did relatively few IPOs. By the mid1980s, the bulge bracket firms started to get more involved, and L.F. Rothschild
+went out of business after a falloff in IPO volume following the 1987 market
+crash.
+In the 1980s, there was more heterogeneity of spreads, less concentration
+of underwriters, and a higher frequency of sole managers. The average spread
+on IPOs has not changed, even as clustering has increased, but this is not
+evidence that spreads are at competitive levels today. In many related markets, such as the fees on mergers and acquisitions, investment banker fees
+have fallen from the mid-1980s to the mid-1990s. Auditor fees have declined,
+too. The fact that IPO spreads have not fallen is consistent with the existence of a market structure that is conducive to strategic pricing.
+Several other reasons may explain the increased clustering over time. First,
+precedent is important. It is easier to justify a given spread to a client if an
+underwriter can point to other recent deals at the same (or a higher) spread.
+Charging a higher than seven percent spread might have become increasingly
+
+The Seven Percent Solution
+
+1129
+
+unattractive as competitors used it to dissuade a potential client from going
+with an expensive underwriter. Also, in the 1980s it may have been more
+common to negotiate the spread at the pricing meeting immediately before
+an offering, at the same time that the offering price and number of shares to
+be issued are negotiated. (See Uttal (1986) for a description of the negotiation of the spread in the Microsoft IPO.)
+V. Summary
+
+and Conclusions
+
+This article presents evidence of the clustering of gross spreads on IPOs at
+seven percent, with the concentration of seven percent spreads increasing
+during the 1990s. For offerings with proceeds of $20 to 80 million (in dollars
+of 1997 purchasing power), more than 90 percent of IPOs during the 1995 to
+1998 period had spreads of exactly seven percent. For comparison, only 26
+percent of moderate size IPOs in the 1985 to 1987 period had seven percent
+spreads. There is widespread agreement that fixed costs exist in underwriting IPOs, yet investment bankers charge the same seven percent spread on
+$20 million deals as they do on $80 million deals. The average spread on
+IPOs has remained virtually constant during the 1985 to 1998 period, in
+contrast to declining fees for mergers and acquisitions, etc. Spreads on U.S.
+IPOs are roughly twice as high as in other countries.
+We argue that for most IPOs with gross proceeds larger than $30 million,
+spreads are above competitive levels in the United States. The high average
+spread and the concentration of spreads at seven percent is consistent with
+strategic pricing on the part of investment bankers. In other words, even
+though investment bankers are acting independently, average spreads are
+above competitive levels. We argue that several features of the IPO underwriting market are conducive to spreads above competitive levels. The importance of analyst coverage and buy recommendations, and the perceived
+importance of underwriter prestige, facilitate high spreads.
+If gross spreads are above competitive levels, investment bankers have an
+incentive to use nonprice competition to attract deals. Although issuing firms
+face high and, for moderate size deals, nonnegotiable spreads, issuers can
+still bargain on another dimension. In particular, by insisting on additional
+co-managers, issuing firms receive more extensive analyst coverage. We show
+that the number of co-managers has increased over the last decade, and that
+an additional co-manager adds between 0.36 and 0.55 net analysts following
+the stock. Highly ranked analysts have benefited, as their compensation has
+been bid up as underwriters use the implicit promise of favorable coverage
+and buy recommendations to compete for business. Investment bankers are
+also able to use analyst coverage as a means for product differentiation,
+relaxing price competition.
+There is a further aspect to industry specialization by analysts that is
+relevant. To the degree that the only underwriters that would be viable competitors are those with a well-regarded analyst, an investment banker that
+undercuts spreads on IPOs in one industry cannot expect to gain market
+
+1130
+
+The Journal of Finance
+
+share in IPOs from other industries. To the degree that the broader market
+is split into submarkets, the gains from undercutting the spread for an underwriter are limited to the submarket, increasing the sustainable spread
+(see Dutta and Madhavan (1997)). In this respect, industry specialization by
+investment bankers is analogous to payment for order flow on Nasdaq stocks.
+We favor a strategic pricing explanation for the patterns that we have
+documented. The evidence is consistent with underwriters realizing that if
+one investment banker tries to win business by cutting spreads, the underwriting industry is likely to move to an equilibrium with low spreads, and
+lower compensation for corporate finance employees.
+In contrast to the pattern for IPOs, there is little clustering of spreads on
+follow-on offerings, and economies of scale are evident for all proceeds sizes.
+The difference in findings for IPOs and SEOs suggests that investment bankers and analysts are more important in establishing a public market than in
+sustaining one.
+There is some evidence that gross spreads on follow-on offerings have come
+down a little in recent years (see Beatty, Thompson, and Vetsuypens (1998)
+and Gande, Puri, and Saunders (1999)). Trade journals have attributed this
+to competition from commercial banks, which are trying to enter the underwriting business. It remains to be seen how big an impact this is having on
+the gross spreads on follow-on offerings, and whether this competition has
+any effect on the gross spreads on IPOs. In the year after Nationsbank,
+Bankers Trust, BankAmerica, and BancBoston bought investment banking
+firms that specialized in IPOs, there does not seem to have been any impact
+in the IPO market. Another source of competition may emerge from the
+innovation of internet technology. For example, new underwriters W.R. Hambrecht and E*Offering threaten to undercut the seven percent fee that is
+now standard. Only time will tell whether this changes the gross spreads
+that prevail in the IPO underwriting industry.
+
+REFERENCES
+Aggarwal, Reena, 2000, Stabilization activities by underwriters after new offerings, Journal of
+Finance 55, 1075-1103.
+Allen, Jeffrey W., 1998, Capital markets and corporate structure: The equity carveouts of Thermo
+Electron, Journal of Financial Economics 48, 99-124.
+Altinkilic, Oya, and Robert S. Hansen, 2000, Are there economies of scale in underwriting fees?
+Evidence of rising external financing costs, Review of Financial Studies, forthcoming.
+Barry, Christopher, Chris Muscarella, and Michael Vetsuypens, 1991, Underwriter warrants,
+underwriter compensation, and the costs of going public, Journal of Financial Economics
+29, 113-135.
+Beatty, Randolph P., and Jay R. Ritter, 1986, Investment banking, reputation, and the underpricing of initial public offerings, Journal of Financial Economics 15, 213-232.
+Beatty, Randolph P., Rex Thompson, and Michael Vetsuypens, 1998, Issuance costs and regulatory change in the investment banking industry, Working paper, Southern Methodist
+University.
+Beatty, Randolph P., and Ivo Welch, 1996, Issuer expenses and legal liability in initial public
+offerings, Journal of Law and Economics 39, 545-602.
+
+The Seven Percent Solution
+
+1131
+
+Booth, James, and Richard Smith, 1986, Capital raising, underwriting, and the certification
+hypothesis, Journal of Financial Economics 15, 261-281.
+Carter, Richard B., Frederick H. Dark, and Ajai K. Singh, 1998, Underwriter reputation, initial
+returns, and the long-run underperformance of IPO stocks, Journal of Finance 53, 285-311.
+Chen, Hsuan-Chi, 1998, Competition and collusion in the IPO market, Working paper, University of Florida.
+Christie, William G., and Paul H. Schultz, 1994, Why do NASDAQ market makers avoid oddeighth quotes? Journal of Finance 49, 1813-1840.
+Dunbar, Craig C., 2000, Factors affecting investment bank initial public offering market share,
+Journal of Financial Economics 55, 3-41.
+Dutta, Prajit, and Ananth Madhavan, 1997, Competition and collusion in dealer markets, Journal of Finance 52, 245-276.
+The Economist, 1998, Overcharging underwriters, June 27.
+Ellis, Katrina, Roni Michaely, and Maureen O'Hara, 2000, When the underwriter is the market
+maker: An examination of trading in the IPO aftermarket, Journal of Finance 55, 10391074.
+Fama, Eugene F., and James MacBeth, 1973, Risk, return, and equilibrium: Empirical tests,
+Journal of Political Economy 81, 607-636.
+Gande, Amar, Manju Puri, and Anthony Saunders, 1999, Bank entry, competition, and the
+market for corporate securities underwriting, Journal of Financial Economics 54, 165-195.
+Kahn, Charles, George Pennacchi, and Ben Sopranzetti, 1999, Bank deposit rate clustering:
+Theory and empirical evidence, Journal of Finance 54, 2185-2214.
+Krigman, Laurie, Wayne Shaw, and Kent L. Womack, 1999, Why do firms switch underwriters?
+Journal of Financial Economics, forthcoming.
+Lee, Inmoo, Scott Lochhead, Jay Ritter, and Quanshui Zhao, 1996, The costs of raising capital,
+Journal of Financial Research 19, 59-74.
+Lowenstein, Roger, 1997, Street's incredible unshrinking spread, Wall Street Journal, April 10,
+Ci.
+Michaely, Roni and Kent Womack, 1999, Conflict of interest and the credibility of underwriter
+analyst recommendations, Review of Financial Studies 12, 653-686.
+National Association of Securities Dealers, 1998, Notice to Members 98-88.
+Power, William, 1993, Why hot, new stocks get booster shots, Wall Street Journal, February 10, Cl.
+Raghavan, Anita, 1997, How one top analyst vaults "Chinese Wall" to do deals for firm, Wall
+Street Journal, March 25, Al.
+Rajan, Raghuram, and Henri Servaes, 1997, Analyst following of initial public offerings, Journal of Finance 52, 507-529.
+Rotemberg, Julio, and Garth Saloner, 1986, A supergame-theoretical model of price wars during
+booms, American Economic Review 76, 390-407.
+Siconolfi, Michael, 1992, At Morgan Stanley, analysts were urged to soften harsh views, Wall
+Street Journal, July 14, Al.
+Smith, Randall, 1996, Firms vie for spot in AT&T's huge IPO, Wall Street Journal, February 1, C1.
+Telser, Lester G., 1960, Why should manufacturers want fair trade? Journal of Law and Economics 3, 86-105.
+Uttal, Bro, 1986, Inside the deal that made Bill Gates $350,000,000, Fortune (July 21, 1986),
+343-361.
+White, Halbert, 1980, A heteroskedasticity consistent covariance matrix estimator and a direct
+test for heteroskedasticity, Econometrica 48, 817-838.
+Williams, Joseph T., 1998, Agency and brokerage of real assets in competitive equilibrium,
+Review of Financial Studies 11, 239-280.
+Woo, Li-Anne, 1999, Primary equity formation in Australia, Working paper, University of New
+South Wales.
+
+

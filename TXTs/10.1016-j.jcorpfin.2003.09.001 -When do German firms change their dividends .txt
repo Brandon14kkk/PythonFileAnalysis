@@ -1,0 +1,2213 @@
+Journal of Corporate Finance 11 (2005) 375 – 399
+www.elsevier.com/locate/econbase
+
+When do German firms change their dividends?
+Marc Goergen a,*, Luc Renneboog b,1, Luis Correia da Silva c,2
+a
+
+Manchester School of Management, University of Manchester Institute of Science and Technology (UMIST) and
+European Corporate Governance Institute (ECGI), P.O. Box 88, Manchester M60 1QD, UK
+b
+Department of Finance and CentER for Economic Research, Tilburg University and European Corporate
+Governance Institute (ECGI), P.O. Box 90153, 5000 LE Tilburg, The Netherlands
+c
+Oxford Economic Research Associates (OXERA) Limited, Blue Boar Court, Alfred Street, Oxford OX1 4EH, UK
+Received 1 October 2002; received in revised form 2 September 2003; accepted 16 September 2003
+Available online 4 December 2003
+
+Abstract
+Dividends of German firms are often perceived to be more flexible than those of Anglo-American
+firms. We analyse the decision to change the dividend for 221 German firms over 1984 – 1993.
+Consistent with Lintner [Am. Econ. Rev. 46 (1956) 97], net earnings are key determinants of
+dividend changes. However, our findings also refine those of Lintner [Am. Econ. Rev. 46 (1956) 97]
+and Miller and Modigliani [J. Bus. 34 (1961) 411]. First, the occurrence of a loss is a key
+determinant of dividends in addition to the traditional key determinant, the level of net earnings.
+Second, the majority of dividend cuts or omissions are temporary. This stands in marked contrast
+with DeAngelo et al. [J. Finance 47 (1992) 1837] who report that US firms are more likely to reduce
+their dividend when earnings deteriorate on a permanent basis. Finally, we find that firms with a bank
+as their major shareholder are more willing to omit their dividend than firms controlled by other
+shareholders.
+D 2005 Elsevier B.V. All rights reserved.
+JEL classification: G32; G35
+Keywords: Dividend policy; Ownership; Control; Bank monitoring; Corporate governance
+
+1. Introduction
+Company directors of UK firms frequently complain that they have little flexibility in
+terms of their dividend policy. The recent case of BT plc is a good illustration of this
+* Corresponding author. Tel.: +44-161-200-3456; fax: +44-161-200-3505.
+E-mail addresses: Marc.Goergen@UMIST.ac.uk (M. Goergen), Luc.Renneboog@uvt.nl (L. Renneboog).
+1
+Tel.: +31-13-466-8210; fax: +31-13-466-2875.
+2
+Tel.: +44-1865-251-142.
+0929-1199/$ - see front matter D 2005 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jcorpfin.2003.09.001
+
+376
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+anecdotal inflexibility. According to the Guardian of 18 May 2001 (p.31), ‘‘[. . .]. British
+Telecom got in a mess and required a rescue financing. The City was appalled at the
+scrapping of the dividend. There were some who argued that it should have maintained a
+payout so as to protect its longer term investment grade status . . .’’. Already in 1994, the
+then Financial Secretary to the Treasury, Stephen Dorrell, argued that ‘dividend payouts
+[in the UK], which have risen substantially since 1979, may have become too high and
+inflexible ’.3 It is then surprising that in Germany, where anecdotal evidence suggests that
+dividend policy is much more flexible (see e.g. The Economist, 29/1/1994), some of the
+largest companies have been gradually adopting Anglo-American dividend policies. For
+example, Daimler-Benz (now DaimlerChrysler) announced in the mid 1990s that it was
+‘‘considering changing its dividend policy to come into line with what the group’s finance
+director [Gerhard Liener] described as ‘Anglo-American’ practice . . . In the long term,
+Daimler-Benz was considering making sure that its dividend was more closely related to
+the group’s earnings’’.4
+The first question we address in this paper is whether such anecdotal evidence is
+well-founded and whether German dividend policy is more flexible. One reason why
+dividend policy may be more flexible in Germany than in Anglo-American countries is
+that it is embedded in a different corporate governance system. One of the main
+features of the German system is that the role of the stock market in the provision of
+financing is less pronounced (Barca and Becht, 2001). Hence, the pressure to maintain
+high dividends even in the wake of bad performance may be less (or may not exist) in
+Germany.
+Second, we analyse whether there is a higher downward flexibility of German
+dividend policy. It may very well be the case that, given the less important role of the
+stock market, firms have more flexibility to reduce their dividend if they suffer losses
+after periods of good performance. Third, we also look at the other side of the coin
+and determine how long it takes for firms to increase or re-initiate their dividend after
+a cut or omission. The dividend-rigidity literature has its roots in Lintner’s survey
+(1956) and the reluctance to change the dividend was corroborated by the Fama and
+Babiak (1968) study. More recently, DeAngelo and DeAngelo (1990) and DeAngelo et
+al. (1992, 1996) have documented managerial aversion to cut and omit dividends for
+US companies. For example, the latter study shows that 51% of loss-incurring firms
+reduce their dividend, against only 1% of the firms without a loss. They conclude that
+a loss is a necessary condition, but not a sufficient condition, for a dividend reduction.
+Marsh (1992) documents a similar reluctance for the case of UK firms. This is
+confirmed by Edwards and Mayer (1986) who conduct a survey of the ‘Hundred
+Group’, an association of the largest UK companies with offices in London. They find
+that managers reduce their dividend only when they are facing a persistent decline in
+earnings.
+Another feature of the German system of corporate governance is the high
+concentration of control. Becht and Boehmer (2001) report that most German firms
+have a large shareholder. Furthermore, large shareholders hold at least 50% of the
+3
+4
+
+Financial Times of 29 April 1994.
+Financial Times of 8 July 1994.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+377
+
+board seats on the supervisory board and are assumed to monitor the management.
+This leads us to the fourth issue addressed by this paper. Does the control and
+ownership structure have an impact on dividend policy? Although there has been a
+considerable amount of research on both corporate governance and dividend policy
+over the last few decades, theoretical models on the link between corporate governance
+and dividends are still sparse. Rozeff (1982), Easterbrook (1984) and Jensen (1986)
+develop the agency cost explanation of why companies may pay dividends. Rozeff
+(1982) argues that dividend payments are part of the firm’s optimal monitoring/bonding
+package and serve to reduce agency costs. Easterbrook (1984) lists some of the
+mechanisms by which dividends and the consequent raising of capital can control
+agency costs. Agency costs ‘‘are less serious if the firm is constantly in the market for
+new capital. When it issues new securities, the firm’s affairs will be reviewed by an
+investment banker or some similar intermediary acting as a monitor for the collective
+interest of shareholders, and by the purchasers of the new instruments’’(p. 654).
+Finally, Jensen (1986) argues that managers with substantial free cash flow can
+increase dividends and thereby pay out cash that would otherwise be invested in
+low-return projects or wasted. In other words, higher dividends may reduce the
+‘‘agency costs of free cash flow’’.
+The study by La Porta et al. (2000) is one of the few studies to analyse explicitly
+the impact of corporate governance characteristics on dividend policy. Their study is
+on the dividend policy of 4000 large firms from 33 countries. They measure the
+potential for agency problems by the degree of shareholder protection in the firm’s
+country of incorporation. They find that firms from countries with high shareholder
+protection pay on average higher dividends than firms from countries with low
+shareholder protection. This, the authors state, is evidence of the agency costs of
+low shareholder protection.
+The following studies focus on particular types of shareholders (or control) and
+address the question as to whether certain types of shareholders reduce the need for
+dividends as a monitoring device. German banks are usually perceived to play an
+important role in corporate governance (see e.g. Köke, 2003; Köke and Renneboog,
+2002; Becht and Boehmer, 2001; Franks and Mayer, 2001; Edwards and Fischer,
+1994). The German corporate governance regime is sometimes referred to as a
+‘bankbased corporate governance system’ as it is characterised by strong relationship-banking: a German firm usually develops a preferential relationship with a
+Hausbank (housebank) which provides most of the loan capital, and may also own
+a blockholding in the firm. In addition, Franks and Mayer (2001) report that banks
+have extensive supervisory board representation, especially in firms without non-bank
+blockholders (see also Edwards and Fischer, 1994, Table 9.2 for further evidence). As
+a result, depending on the extent of their control,5 banks can have a significant
+5
+Actual voting power of banks may exceed the voting power they derive from their own equity stakes if they
+make use of proxy voting (Depotstimmrecht). At a firm’s annual meeting, a bank can exercise the voting rights
+related to a firm’s shares which are deposited in the bank by the bank’s clients. The bank is allowed to do so
+provided that it announces in advance its voting intentions to its clients and provided that these clients do not
+express their intention to vote otherwise.
+
+378
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+influence on the voting outcome at the annual meeting of the shareholders, and in
+particular via their representation on the supervisory board. The combination of longterm external finance and monitoring has been regarded by some as the cornerstone of
+the merits of the German system. The central idea that emerges from this view is that
+bank ownership and control may reduce agency costs, and therefore reduce the need
+for (high and inflexible) dividends.
+The institutional setting in Japan suggests a similar set of arguments. Kester
+(1986), Prowse (1990), Hoshi et al. (1990, 1991), and Berglöf and Perotti (1994)
+argue that there are close ties between Japanese management and investors, especially
+within the Keiretsu or industrial group, where banks own debt and equity in member
+firms. These close ties substantially reduce agency conflicts relative to their US
+counterparts. Accordingly, banks that own both debt and equity have a strong
+incentive to monitor firm performance closely and reduce the likelihood that
+management will engage in behaviour that is contrary to the objectives of the major
+shareholder. Likewise, Dewenter and Warther (1998) compare Japanese and US
+dividend payouts and find evidence consistent with the fact that Japanese firms
+belonging to a Keiretsu group experience fewer agency conflicts. These firms are less
+reluctant to omit and cut dividends, and their dividend policy is more responsive to
+earnings changes.
+We also investigate the impact of other types of blockholders on the dividend policy of
+German firms. Government-controlled firms are expected to suffer most from agency
+problems as they are ultimately owned by the citizens. As most citizens are only indirect
+shareholders of government-controlled firms, they have few incentives to monitor the
+management. Hence, the managers of government-controlled firms will prefer a stable
+dividend policy with high dividends to keep their principals happy (and, maybe, to
+safeguard managerial private benefits). In firms controlled by families or other corporations, dividends should be less important and should therefore be more volatile. The
+reason is that in such firms, the agency costs are expected to be lower due to close
+monitoring by the controlling shareholder. Hence, dividends are not expected to play an
+important role as a monitoring device and are expected to move more closely with
+earnings or cash flows.
+Gugler (2003) investigates the potential impact of a range of different types of
+shareholders on dividends for a sample of Austrian firms which have similar control
+structures as German firms.6 He finds that state-controlled firms have the highest dividend
+payout and practise dividend smoothing, whereas family-controlled firms have lower
+ratios and do not smooth their dividends. The dividend policy of bank- and foreigncontrolled firms is somewhere in between.
+The remainder of the paper is organised as follows. Section 2 describes the sample. In
+Section 3, we then address the question on the flexibility of German dividend policy.
+Sections 4 and 5 are devoted to the downward and upward flexibility of German dividend
+policy. In Section 6, we study the role of corporate control for the dividend decision.
+Section 7 concludes.
+
+6
+
+Gugler’s sample consists of 214 firms of which only 42 are quoted on a stock market.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+379
+
+2. Methodology, sample and data description
+2.1. Methodology
+We use a discrete-choice model to address the following issues. First, we test
+whether bottom line earnings and changes in earnings are the key determinants of
+dividend reductions and dividend increases. Although Lintner (1956) argues that
+earnings should determine dividend changes, his sample consists mainly of large,
+profitable US firms which have a high propensity for dividend increases. DeAngelo et
+al. (1992) examine whether bottom line earnings also explain dividend decreases.
+Second, we analyse at what point in time German firms omit their dividends as
+opposed to just reduce them. For example, DeAngelo and DeAngelo (1990) argue
+that managers avoid dividend omissions at all costs and prefer to reduce dividends
+now in order to avoid future dividend omissions. We determine the degree of
+flexibility of the dividend policy of German firms, and the importance of current
+changes in profitability rather than permanent shocks for the setting of the dividend.
+Finally, in Section 6, we investigate the impact of large shareholders on the dividend
+decision.
+The decision to reduce, maintain or increase the dividend is clearly an ordinal
+variable. A simple multinomial logit or probit model would fail to account for the
+ordinal nature of the variable. Likewise, the use of OLS is also not recommended as
+such a regression would treat the difference between decreasing and maintaining the
+dividend in the same way as the one between maintaining and increasing the
+dividend. To account for the ordinal nature of the dependent variable, we use an
+ordered probit as developed by McElvey and Zaviona (1975). The model is built
+around a latent regression in the same manner as the binomial probit model.7 The
+underlying model is:
+y* ¼ bVX þ e
+where y* is an unobserved variable, X is a set of explanatory variables, and e is the
+residual. The decision to decrease takes the value 0, maintain takes the value 1 and
+increase takes the value 2. Although y* is not observed, we observe y:
+y¼0
+
+if y*V0;
+
+y¼1
+
+if 0 < y*Vl
+
+y¼2
+
+if lVy*
+
+l is an unknown parameter to be estimated with b. Assume that e is normally
+distributed across observations (as in the binomial probit model) and the mean and the
+7
+
+See Maddala (1983, pp. 46 – 49) for a more detailed account of this technique.
+
+380
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+variance of e are set to 0 and 1, respectively.8 With the normal distribution we have
+the following probabilities:
+Pðy ¼ 0Þ ¼ UðbVX Þ
+Pðy ¼ 1Þ ¼ Uðl  bVX Þ  UðbVX Þ
+Pðy ¼ 2Þ ¼ 1  Uðl  bVX Þ
+where U is the cumulative standard normal. The coefficients are estimated by using
+the maximum likelihood function. We tested the null hypothesis of homoskedasticity
+using a Lagrange Multiplier test (Davidson and MacKinnon, 1984). As there was not
+enough evidence to reject the null hypothesis of homoskedasticity, all models were
+2
+estimated assuming multiplicative heteroskedasticity (i.e. var[ei]=[exp(cVz*)]
+, esseni
+tially adding an additional parameter vector to the model).
+2.2. Sample and data description
+Our sample is a panel of data ranging from 1984 to 1993. The sample consists of 221
+quoted German industrial and commercial firms listed on the eight German stock
+exchanges for the period 1984 –1993. The reason why we chose this particular 10-year
+data panel is that the first half of this period is characterised by an economic boom period,
+which is followed by an economic recession. Hence, it is likely that firms will be under
+pressure to revise their dividend policy during this period. The sample is highly
+representative of the population of listed German firms, as it contains more than half
+the listed German companies and represents more than 80% of the market capitalisation of
+commercial and industrial firms. The sample includes all the German companies that were
+quoted on at least one of the German stock markets and that have at least 5 years of
+accounting data over the 10 years ranging from 1984 to 1993.
+We excluded firms with ‘control agreements’ in place over the entire period 1984–
+1993 from the sample. Control agreements are between a company and its parent company
+and are either Profit and Loss Agreements (PLA, Gewinnabführungsvertrag) or a
+Subordination of Management Agreement (SMA, Beherrschungsvertrag). For the latter
+contract, the controlling company is required to absorb all the losses, but the transfer of
+profits is optional. In the case of the former contract, both profits and losses are always
+transferred to the parent company. The reason for excluding such firms is that their
+accounting information tends to be limited. Frequently, the profit is not disclosed and
+reporting is limited to the amount transferred to the parent company (Gewinnabführung) as
+well as the dividends paid to the minority shareholders. All in all, there are 2098 firm-year
+observations: the panel counts 10 years of observations for 174 firms, 9 for 13 firms, 8 for
+15 firms, 7 for 8 firms, 6 for 9 firms and 5 for 2 firms.9
+We collect all the accounting items from the Hoppenstedt Saling Aktienführer. This
+guide is updated annually and contains information about all the listed German firms such
+8
+
+As Greene (2003, p. 737) puts it, the model can also be estimated with a logistically distributed disturbance.
+In practice, this re-formulation makes virtually no difference.
+9
+Thirty-six of the sample firms were introduced to the stock exchange after 1984.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+381
+
+as balance sheet and profit and loss items, and the percentages of the votes controlled by
+the blockholders. Dividends per share (Dt  1) are calculated as the weighted average of
+dividends on ordinary shares and on preference shares (if outstanding). The weights are
+based on the relative market capitalization of both types of shares. Forty-four of the 221
+firms in the sample had preference shares outstanding in at least 1 year of our sample
+period. It should be noted that in 37 of these 44 cases dividends on German preference
+shares usually change along with those on the ordinary shares.
+Special dividends on ordinary shares are also included in the dividend per share. There
+were 191 such special dividend payments for the total 2098 firm-year observations (i.e.
+9% of the sample). A simple inspection of the dividend per share series reveals that in an
+overwhelming majority of the cases these special dividends frequently reflect shifts in
+dividend policy rather than just transitory increases in dividends and earnings. Brickley
+(1983) studies the dividend payouts and earnings of a sample of US firms in the year
+following the announcement of special dividends and finds results supporting this view.
+However, in 10 cases we observed large one-off payments (Sonderausschüttung) either
+associated with ‘special anniversaries’, or sales of subsidiaries (in one case), or distributions of reserves previously accumulated at a different rate of taxation. Similarly to the
+methodology in Behm and Zimmermann (1993), we excluded these 10 firm-year
+observations.
+German financial reporting tends to be more conservative than Anglo-American
+financial reporting (see Harris et al. (1994) for an overview of the system). In particular,
+there are three factors that contribute to a conservative bias in the published profit figure.
+First, there is some degree of prudence in asset valuation. According to the imparity
+principle (Imparitätsprinzip) unrealised losses need to be reported but not unrealised gains.
+Second, the regulation of the profit distribution, which is referred to in paragraph 150 of
+the German Stock Corporation Act (AktG §150) establishes a link between dividends and
+earnings. This provision requires companies to build up a legal reserve (gesetzliche
+Rücklage) from their profits in the balance sheet. The annual profit, after the transfer to the
+legal profit reserve, is then the basis for dividend distribution. The provisions of AktG §58
+specify that the management board (Vorstand) and the supervisory board (Aufsichtsrat)
+can retain no more than half of the annual profits, unless they get the approval of the
+shareholders for a lower distribution. In other words, this provision requires companies to
+pay out at least 50% of their current profits as dividends. However, that is not the case for
+all companies, as other requirements such as legal reserves and special provisions in the
+articles of association of companies mitigate the impact of AktG §58 such that the
+management board may be authorised to transfer up to 100% of the year’s profit to profit
+reserves. As a consequence of the link established by the AktG §58 between dividends and
+earnings, it is in the interest of managers not to report earnings that attain a desired
+dividend policy because higher reported earnings may create shareholder pressure for
+higher dividends.
+Third, the existence of pension provisions may also account for a certain downward
+bias in the published profit figure. In the light of this conservative reporting, and other
+German company law specificities, we use an alternative measure of corporate profitability
+throughout this paper. Our profit measure, net income (NIt), is measured by zero
+distribution profits which adjust for the fact that the German tax system affects both
+
+382
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+measured profits and dividend payouts (Mayer and Alexander, 1990). Given that
+dividends are taxed at a different rate than earnings retentions, corporate tax liabilities
+are sensitive to dividend payouts. In particular, in Germany, dividends are taxed at a lower
+rate than retentions. Therefore, we measure profits as zero distribution profits:
+Dð1  tc Þ
+þR
+1  td
+where td is the tax rate on dividends, tc is the tax rate on retained profits, D are the
+dividends net of tax, D/(1  td) are the gross dividends and R are the recorded retentions
+
+Table 1
+Sample descriptive statistics on dividend payouts and changes
+Panel A: Dividends, published profits, cash flows and variability of dividends
+
+Mean (DM)
+(Median, standard
+deviation)
+
+Dividends
+per share
+
+Published profit
+per share
+
+Cashflow
+per share
+
+12.3
+(12.5, 9.2)
+
+14.3
+(12.1, 15.3)
+
+57.6
+(46.4, 54.6)
+
+Panel B: Distribution of changes in dividends
+Range of % change in div.
+
+[0%; 10%]
+]10%; 25%]
+]25%; 50%]
+]50%; 75%]
+]75%; 90%]
+]90%; 100%]
+
+Increases
+(excluding
+div. initiations),
+% of increases
+30.2
+44.9
+13.5
+5.3
+1.3
+4.9
+
+Cuts
+(excluding
+div. omissions),
+% of cuts
+14.5
+38.0
+34.5
+9.0
+4.0
+
+Panel C: Percentage of firm-year observations with maintained, increased and reduced dividends
+Year
+
+Number of firms
+
+Firms that
+maintained
+dividends (%)
+
+Firms that
+increased
+dividends (%)
+
+Firms that
+reduced
+dividends (%)
+
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+
+182
+192
+206
+216
+220
+219
+219
+214
+196
+
+49.5
+54.2
+57.3
+55.1
+46.8
+45.2
+40.2
+50.9
+37.8
+
+37.4
+31.3
+29.1
+36.1
+41.4
+38.8
+36.1
+19.6
+36.2
+
+13.2
+14.6
+13.6
+8.8
+11.8
+16.0
+23.7
+29.4
+26.0
+
+The sample period is 1984 – 1993; the sample consists of 221 German industrial and commercial quoted firms and
+there is a total of 1877 firm-year observations. Dividends are gross dividends per share. Cash flows are defined as
+zero distribution profits gross of depreciation and changes in provisions.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+383
+
+given a dividend distribution of D. To illustrate how dividends in Germany affect the
+corporate tax liabilities, assume that a firm suffers a loss. If it omits its dividend, then there
+will be no tax liability (as tc will be 0). However, if it decides to pay out a dividend despite
+its loss, then there will be a tax liability (amounting to td times the dividend distribution).
+We use cash flows as an alternative profit measure to adjust for the conservatism of
+German accounting practices (see above). Cash flows (CFt) are defined as zero distribution
+profits gross of depreciation and changes in provisions. Changes in provisions are the
+changes in pension provisions (Pensionsrückstellungen) and other provisions (Sonstige
+Rückstellungen).10
+The net income, cash flow, and changes in net income and cash flows are standardised
+by the book value of equity of the previous period. In the models described below, we also
+include a dummy variable that takes the value of one if there is a loss in period t (NIlosst or
+CFlosst).
+Behm and Zimmermann (1993) and Amihud and Murgia (1997) use the net profit
+figure as calculated by the German Association of Financial Analysts (Deutsche Vereinigung für Finanzanalyse und Anlageberatung, DVFA) as a measure of profitability. There
+are three reasons why we cannot use this measure. First, the DVFA profit measure is only
+available for the major German firms.11 Second, negative DVFA figures are not reported.
+Behm and Zimmermann (1993), for instance, resort to using the published profits for firms
+with unreported, negative DVFA profits. Third, similar to net income, the DVFA net profit
+is smoothed by adjusting for extraordinary items. More specifically, the DVFA subtracts
+extraordinary income from the published profit and adds back extraordinary expenses.
+Hence, the DVFA figure fails to take into account the transitory shocks that may influence
+dividend policy. Therefore, we use cash flows unadjusted for extraordinary items as an
+alternative to net income.
+Table 1 summarises the statistics on the dividend payouts and the frequency of dividend
+changes over the period 1985– 1993. Panel A shows that the mean dividend per share, the
+published profit per share and cash flow per share amount to DM12.3, 14.3 and 57.6,
+respectively. The payout on a published profit basis is significantly higher than the
+equivalent ratio on a cash-flow basis, 86% ( = 12.3/14.3) and 21% ( = 12.3/57.6),
+respectively. Behm and Zimmermann (1993) find similar figures for a sample of 32 major
+quoted German firms. They report mean net dividends per share of DM7.31, i.e. DM11.4
+on a gross basis, which is slightly lower than our figure of DM12.3. The mean published
+profit per share is also found to be slightly lower than ours, DM12.5 and DM14.3,
+10
+The inclusion of pension provisions in the calculation of the cash flow deserves a comment, as in the UK
+this item does not apply. One could argue that pension provisions should be regarded as a liability (from the
+company towards the employees) and therefore it should not be treated as retentions. However, in our view, there
+is a strong case for the inclusion of changes in pension provisions in the cash flow. Edwards and Fischer (1994,
+Table 3.4, p. 66) report that, for the period of 1970 to 1989, pension provisions accounted for around 6% of the
+internally generated funds for non-financial companies. The authors also argue that firms frequently have a high
+degree of discretion over the way in which pension provisions are invested. This is one reason why the bottom
+line profit figure may be so conservative in Germany. Because of this argument, we included this item in the cash
+flow figure. The item ‘other provisions’ is net of tax provisions such as deferred taxation.
+11
+Behm and Zimmermann’s (1993) sample comprises 32 major firms, whereas Amihud and Murgia’s (1997)
+sample includes the 200 most actively traded German firms.
+
+384
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+respectively. Panel B shows the size of dividend changes: almost three quarters of the
+dividend cuts are between 10% and 50%, whereas most dividend increases are more
+modest with 75% of the increases being smaller than 25%. Panel C of Table 1 reveals that
+between 38% and 55% of the firms maintain their dividends at the same level (this
+includes firms maintaining a zero dividend payout) during individuals years of the period
+1985– 1993. Panel C also reports that between a fifth and a third of the firms reduce their
+dividends, whereas the percentage of firms with dividend reductions ranges from 13% in
+1985 to 29% in 1992. The average dividend increase amounts to 31% compared to
+ 35.5% for the average dividend decrease [not reported in the table].
+We also collect data on corporate control (i.e. ownership of voting equity) from the
+Hoppenstedt Saling Aktienführer. The types of shareholders we distinguish are: families,
+other German firms, the German state, banks, insurers, foreign firms or institutions,
+holding companies, charitable foundations and unknown shareholders. As complex control
+structures (so-called pyramids) are frequent in German firms (Becht and Boehmer, 2001),
+we report both first-tier control and ultimate control. The identification of the ultimate
+controlling shareholder for each firm follows from the application of the following control
+rules based on German corporate law (Renneboog, 2000; Köke, 2003). Rule 1a (strong
+control rule): Control is held at the next (or a higher) tier of the pyramid if the first-tier
+shareholder is controlled by a shareholder on the next tier holding at least 50% of the
+voting rights. Rule 1b (stop rule): If rule 1a does not apply, i.e. there is no shareholder with
+50% or more at the next tier, then the chain of control ends and the shareholder at the
+current tier is the ‘ultimate’ shareholder. We also use a less strict, alternative control
+criterion. Rule 2a (weak control rule): Control is held at the next (or a higher) tier of the
+pyramid if the first-tier shareholder is controlled by a shareholder on the next tier holding
+at least 25% of the voting rights, while at the same time all other shareholders on that tier
+hold less than 25%. According to rule 2b (stop rule), the control chain ends if no
+shareholder with at least 25% of the control rights can be identified at the next tier.
+The choice of the 50% rule is fairly obvious as control over 50% of the voting rights
+yields majority control which is sufficient to dismiss management (after its regular period
+in office).12 The 25% benchmark is also important as it constitutes a blocking minority
+which provides a veto on decisions by the management (or the major blockholder):13 e.g.
+the decision to change the articles of incorporation about the issue of different types of
+equity or to reduce the share capital, the decision to make a binding tender offer to
+minority shareholders below market value (Boehmer, 2002). The existence of a blocking
+minority also averts a supermajority of 75%, which enables the dismissal of management
+during its period of office.
+Thus, a firm is widely held at the first tier, if it does not have a shareholder at the first
+tier owning more than 50% or 25% of its voting equity, respectively. A firm has an
+ultimate controlling shareholder at the first tier if that shareholder is either widely held (i.e.
+a widely held firm, bank or insurer), or a shareholder of the following types: the German
+12
+
+See AktG §103 (1) of the German Corporation Law.
+The importance of the thresholds related to blocking minority, majority and supermajority is also shown
+by Becht and Mayer (2001): the share stakes of large blockholders are clustered just above the 25%, 50% and
+75% thresholds.
+13
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+385
+
+Table 2
+Control structure of 221 German industrial and commercial quoted firms in 1984, 1989 and 1993
+First-tier control
+z 25%
+%
+Panel A: 1984
+(A) Widely held
+(B) Closely held, the largest
+shareholder being:
+(1) Family
+(2) Indust./Com. Firm
+(3) State
+(4) Bank
+(5) Insurer
+(6) Foreign firm/inst.
+(7) Holding
+(8) Foundation
+(9) Unknown
+Total
+Panel B: 1989
+(A) Widely held
+(B) Closely held, the largest
+shareholder being:
+(1) Family
+(2) Indust./com. firm
+(3) State
+(4) Bank
+(5) Insurer
+(6) Foreign firm/inst.
+(7) Holding
+(8) Foundation
+(9) Unknown
+Total
+Panel C: 1993
+(A) Widely held
+(B) Closely held, the largest
+shareholder being:
+(1) Family
+(2) Indust./com. firm
+(3) State
+(4) Bank
+(5) Insurer
+(6) Foreign firm/inst.
+(7) Holding
+(8) Foundation
+(9) Unknown
+Total
+
+Ultimate control
+z 50%
+
+NR
+
+%
+
+z 25%
+NR
+
+%
+
+z 50%
+NR
+
+%
+
+NR
+
+15.4
+
+28
+
+45.6
+
+83
+
+15.9
+
+29
+
+46.2
+
+84
+
+25.8
+25.8
+4.4
+12.1
+0.5
+6.0
+9.3
+0.5
+0
+100
+
+47
+47
+8
+22
+1
+11
+17
+1
+0
+182
+
+19.8
+18.7
+3.3
+2.7
+0
+4.9
+4.4
+0.5
+0
+100
+
+36
+34
+6
+5
+0
+9
+8
+1
+0
+182
+
+33.0
+11.0
+7.7
+15.9
+1.1
+8.2
+0
+1.6
+5.5
+100
+
+60
+20
+14
+29
+2
+15
+0
+3
+10
+182
+
+24.7
+8.2
+5.5
+5.5
+0
+7.1
+0
+1.1
+1.6
+100
+
+45
+15
+10
+10
+0
+13
+0
+2
+3
+182
+
+15.8
+
+35
+
+41.2
+
+91
+
+16.3
+
+36
+
+41.6
+
+92
+
+26.7
+27.6
+3.6
+8.6
+0.5
+6.3
+9.5
+1.4
+0
+100
+
+59
+61
+8
+19
+1
+14
+21
+3
+0
+221
+
+22.6
+19.5
+3.2
+2.7
+0
+4.1
+5.4
+1.4
+0
+100
+
+50
+43
+7
+6
+0
+9
+12
+3
+0
+221
+
+36.2
+10.0
+6.3
+12.2
+0.5
+9.5
+0.9
+2.7
+5.4
+100
+
+80
+22
+14
+27
+1
+21
+2
+6
+12
+221
+
+29.4
+7.2
+5.0
+5.0
+0
+7.2
+0
+1.8
+2.7
+100
+
+65
+16
+11
+11
+0
+16
+0
+4
+6
+221
+
+14.9
+
+31
+
+39.4
+
+82
+
+15.9
+
+33
+
+39.9
+
+83
+
+22.1
+33.7
+4.3
+7.7
+1.9
+5.3
+9.1
+1.0
+0
+100
+
+46
+70
+9
+16
+4
+11
+19
+2
+0
+208
+
+16.3
+26.4
+3.4
+2.4
+0
+5.3
+5.8
+1.0
+0
+100
+
+34
+55
+7
+5
+0
+11
+12
+2
+0
+208
+
+32.7
+12.0
+8.7
+10.1
+1.9
+10.6
+0.5
+1.9
+5.8
+100
+
+68
+25
+18
+21
+4
+22
+1
+4
+12
+208
+
+25.0
+9.6
+6.3
+3.8
+0
+10.6
+0.5
+1.4
+2.9
+100
+
+52
+20
+13
+8
+0
+22
+1
+3
+6
+208
+
+Widely held firms are firms that do not have any shareholder holding at least 25% or 50% of the voting shares.
+The sample size varies over the 10-year period as some firms in our sample are not quoted during the whole
+period and some went private or bankrupt.
+
+386
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+State, a foreign firm or institution, or an individual or a family. Otherwise, the ultimate
+shareholder is at a higher tier.
+Table 2 documents the control structure for our sample for the starting year, the
+middle year and the last year of the sample period (1984, 1989 and 1993, respectively).
+At the first tier, less than 16% of the firms are widely held as they do not have a
+shareholder controlling at least 25% of the voting equity. Families and other German
+firms are the most important types of shareholders (panels A – C). Each of these
+categories of shareholders is the major shareholder in about a quarter of the firms. At
+the ultimate level, the percentage of voting rights controlled by families rises at the
+expense of industrial firms. Except for a decline in the importance of banks, the table
+shows that over the period 1984 – 1993 control has hardly changed. Goergen (1998)
+documents a similar decline in the importance of German banks as equity holders in
+initial public offerings.
+
+3. The flexibility of dividend policy
+This section answers the question as to whether the decision to increase, maintain or
+reduce dividends depends on past earnings and/or cash flows. Table 3 contains the
+results of the ordered probit model. The dependent variable is zero, if the dividend is
+cut, 1 if it is maintained and 2 if it increases. We estimate several specifications of the
+model. Each specification includes at least some of the following explanatory variables:
+a lagged dependent variable (dDt  1), the current level of net income (NIt) or cash flow
+(CFt), the level of past net income (NIt  1) or cash flow (CFt  1) and the change in net
+income from period t  1 to t (DNIt) or cash flow (DCFt). The lagged dependent variable
+indicates whether there was a decreased dividend, an unchanged dividend or an
+increased dividend in period t  2 to t  1. The latter three variables are standardised
+by the book value of equity of the previous period. Finally, we test the significance of a
+dummy variable that takes the value of one if there is a loss in period t (NIlosst or
+CFlosst). Panel A and panel B report the results with earnings and cash flow as the
+performance measure, respectively.
+In each of the specifications (a) to (e), the past dividend has a positive and statistically
+significant effect on the likelihood that the current dividend is changed. Panels A and B
+show that there is a high probability for dividends to increase in the current year if
+dividends increased over the preceding financial year. The probability of a dividend
+increase is higher when there are positive earnings in the current year (specifications (a),
+(b), (c) and (e)). The same relationship holds for the equivalent specifications with cash
+flows (panel B). Provided that net earnings or cash flows are positive over the current year,
+dividends are more likely to increase if the net earnings or cash flows of the preceding year
+were negative (specification (b)). Alternative specifications were estimated including
+further lags of net income or cash flow, but these further lags were neither individually
+nor jointly statistically significant.
+From the inclusion of an earnings loss dummy/negative cash flow dummy (specifications (c) of panels A and B), we learn that firms reporting an annual loss are significantly
+more likely to reduce their dividend. This result is consistent with DeAngelo et al. (1992).
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+387
+
+Table 3
+Ordered probit analysis of decision to decrease, maintain or increase dividends
+Panel A: Dividend choice model with earnings
+
+Constant
+dDt  1
+NIt
+NIt  1
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+0.915***
+(0.068)
+0.087*
+(0.049)
+0.723***
+(0.059)
+–
+
+0.942***
+(0.074)
+0.128***
+(0.048)
+0.968***
+(0.064)
+ 0.554***
+(0.083)
+–
+
+1.167***
+(0.079)
+0.093*
+(0.049)
+0.402***
+(0.074)
+–
+
+1.209***
+(0.082)
+0.096**
+(0.048)
+–
+
+0.938***
+(0.075)
+0.137***
+(0.049)
+0.360***
+(0.080)
+–
+
+DNIt
+
+–
+
+NIlosst
+
+–
+
+–
+
+ 1618.7
+4.7%
+50.6%
+
+ 1597.5
+6.0%
+50.4%
+
+Log-likelihood
+Pseudo R2
+R2p
+
+–
+ 0.844***
+(0.142)
+ 1577.1
+7.2%
+51%
+
+–
+0.659***
+(0.073)
+ 0.891***
+(0.134)
+ 1572.8
+7.4%
+51.9%
+
+0.628***
+(0.094)
+–
+ 1594.8
+6.1%
+50.6%
+
+Panel B: Dividend choice model with cash flows
+Constant
+dDt  1
+CFt
+CFt  1
+
+0.729**
+(0.071)
+0.194***
+(0.047)
+0.175***
+(0.034)
+–
+
+0.871***
+(0.078)
+0.183***
+(0.046)
+0.551***
+(0.047)
+ 0.499***
+(0.051)
+–
+
+DCFt
+
+–
+
+CFlosst
+
+–
+
+–
+
+ 1667.6
+1.90%
+49.20%
+
+ 1632.1
+3.90%
+49.60%
+
+Log-likelihood
+Pseudo R2
+Rp2
+
+0.853***
+(0.078)
+0.173***
+(0.048)
+0.113***
+(0.037)
+–
+
+0.927***
+(0.073)
+0.178***
+(0.047)
+–
+
+–
+
+0.580***
+(0.052)
+ 0.270
+(0.199)
+ 1623.7
+4.40%
+50.20%
+
+ 0.645***
+(0.215)
+ 1660.3
+2.30%
+48.50%
+
+–
+
+0.891***
+(0.080)
+0.188***
+(0.048)
+0.011***
+(0.039)
+–
+0.613***
+(0.062)
+–
+ 1625
+4.40%
+49.90%
+
+The dependent variable equals 0 if the dividend is cut, 1 if maintained and 2 if increased. The sample consists
+of 221 industrial and commercial firms and data cover the period 1984 – 1993. The sample size is 1655 firmyear observations in all regressions. Net income, cash flow and the change in net income and in cash flow are
+standardised by the book value of equity of the preceding year. All models are estimated with a correction for
+multiplicative heteroskedasticity. All model specifications are significant with p-values < 0.001. Pseudo R2
+follows McFadden (1974). R2p stands for the percentage of correct predictions. Standard errors are between
+parentheses. ***, **, * stand for statistical significance at the 1%, 5% and 10% level, respectively, for the twotailed test.
+
+Finally, specifications (d) and (e) show that not just earnings levels are important, but also
+the earnings dynamics. Rising net earnings or cash flows also lead to dividend increases.
+When comparing panels A and B, it seems that our cash flow measure is a weaker
+predictor (as suggested by the lower pseudo R2) of a shift in the dividend policy than net
+income. However, Gujarati (2002, p.606) states that: ‘‘It should be noted [. . .] that in
+
+388
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+binary regressand models, goodness of fit is of secondary importance. What matters is the
+expected signs of the coefficients and their statistical and/or practical significance.’’14
+Panels A and B reveal that both the coefficients on net income and cash flow are
+significant at the same level (1%).
+In general, the above findings corroborate Lintner’s (1956) results that current earnings
+are key determinants of the dividend decision. However, our results also constitute a
+refinement to Lintner’s findings, as they suggest that earnings losses have substantial
+predictive power over and above current net income and changes in current net income.
+Still, our results may be subject to some criticism. According to Miller and Modigliani
+(1961), a shift in the dividend policy of a firm with a long track record of dividend
+payments and appreciation in its dividends is likely to be interpreted as a shift in
+managers’ expectations about the future value of the firm. In other words, if managers
+have adopted a stable dividend policy and decide to shift it, this shift is likely to be
+interpreted as carrying more information than a shift by managers of a firm with less stable
+past dividends. As in the above analysis, we have included both types of firms, this may
+have had an effect on the estimation results.
+
+4. Downward flexibility of dividend policy
+As mentioned above, we have chosen the period 1984– 1993 as our sample period, as
+this period can be divided into two sub-periods, the first one reflecting a favourable
+economic climate (1984 – 1988) and the second one capturing a recession (1989 – 1993).
+To test the flexibility of dividends, we only retain those firms with strictly positive
+earnings and dividends over the first sub-period (1984 – 1988). This leaves us with 189
+firms out of 221. We then partition the sample of 189 firms into two sub-samples. The first
+consists of the 71 firms with at least one annual loss during the second sub-period (1989 –
+1993). The second sub-sample consists of the 118 firms, which continue to generate
+strictly positive earnings and dividends during 1989– 1993. So, both types of firms have a
+similar, stable dividend policy in the first period, but one sub-sample remains profitable in
+the second sub-period, whereas the other incurs losses.
+Table 4 reports the frequency of dividend cuts, omissions, increases and dividends
+maintained by the sub-sample of loss-incurring firms and that of profit-making firms. For
+the loss-incurring firms, we report what happens to the dividend in the year of the first
+annual loss.15 For the firms without losses, the table records what happens to the dividend
+during each of the 5 years of 1989 –1993. This gives us 568 firm-year observations. The
+vast majority of loss-incurring firms (57 firms or 80%) omit their dividend in the first year
+that they suffer a loss. Eight loss-incurring firms (or 11%) cut their dividend. The total
+14
+A model, containing current net earnings, lagged net earnings as well as current cash flow, was also
+estimated. In line with the previous results, the coefficients on the cash flow variables were no longer statistically
+significant.
+15
+We do not record the dividend behaviour of the loss-incurring firms for the years after the first loss because
+we want to focus on the impact of the current loss on the current dividend payout rather than on its impact on the
+long-term payout.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+389
+
+Table 4
+Dividend changes for 71 loss-incurring firms and 118 firms with strictly positive earnings through 1989 – 1993
+Number of firm-years
+
+Loss-incurring firms
+Firms without losses
+
+Number (percentage) of cases with dividend
+
+71
+568
+
+Cuts
+
+Omissions
+
+Increases
+
+Maintained
+
+8 (11.3%)
+77 (13.6%)
+
+57 (80.3%)
+4 (0.7%)
+
+1 (1.4%)
+244 (43%)
+
+5 (7%)
+243 (42.8%)
+
+Both sub-samples of loss-incurring and profitable firms had similar stable dividend policies and strictly positive
+earnings during the period 1984 – 1988. Dividend cuts are defined as reductions in dividends, whereas omissions
+stand for 100% reductions in the dividend. For the loss-incurring sub-sample, we show the number of dividend
+cuts, omissions, increases and unchanged dividends in the year of the first earnings loss. For the firms without
+losses, we give the frequency of dividend cuts, omissions, increases and unchanged in the total number of firmyear observations from 1989 to 1993.
+
+percentage of the firms cutting or omitting dividends amounts to 92%. This stands in
+marked contrast with profitable firms of which only 14% cut or omit their dividend (0.7%
+omit their dividend and 13.6% reduce their dividend). Hence, an annual loss (irrespective
+of its level) is a key determinant of the decision to omit the dividend. Given that we correct
+for past dividend policy and earnings, these findings are not influenced by cumulative,
+past poor performance.
+These results stand in stark contrast with those obtained by US studies. DeAngelo et al.
+(1992), for instance, report significantly different results for 167 loss-incurring NYSE
+firms and 440 profit-making NYSE firms. Only 15% of their loss-incurring firms omit
+their dividend. The majority of loss-incurring firms (51%) reduce their dividend. Similarly,
+Table 5
+Ordered probit analysis of the decision to omit, cut or maintain/increase dividends in loss and non-loss incurring
+firms during 1989 – 1993
+
+Constant
+NIt
+DNIt
+Nilosst
+Log-likelihood
+Pseudo R2
+R2p
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+0.692***
+(0.159)
+0.390**
+(0.185)
+–
+
+1.175***
+(0.153)
+–
+
+1.692***
+(0.225)
+–
+
+1.779***
+(0.236)
+–
+
+–
+
+–
+
+1.570***
+(0.210)
+–
+
+1.570***
+(0.255)
+0.419*
+(0.237)
+–
+
+ 163.7
+10.3%
+55.6%
+
+ 150.7
+17.5%
+62.4%
+
+1.686***
+(0.255)
+0.277
+(0.250)
+0.619***
+(0.244)
+ 1.890***
+(0.337)
+ 109.1
+40.2%
+76.5%
+
+ 2.355***
+(0.251)
+ 116.3
+36.3%
+76.4%
+
+ 1.957***
+(0.332)
+ 114.8
+37.1%
+76.4%
+
+0.609***
+(0.206)
+ 2.118***
+(0.283)
+ 113.5
+37.8%
+75.8%
+
+The dependent variable dD equals 0 if the dividend is omitted, 1 if the dividend is cut to a strictly positive level
+and 2 if the dividend is increased or maintained. The sample consists of (1) 71 firms for which the event year
+corresponds to the initial year they suffered losses (measured over the period 1989 – 1993), and (2) 107 firms for
+which the event year is the first year there was an earnings decline to strictly positive earnings (measured over
+1989 – 1993). There are therefore 178 observations. Earnings and changes in earnings are standardised by the
+book value of equity for the previous year. All models are corrected for multiplicative heteroskedasticity. All
+model specifications are significant with p-values < 0.001. Pseudo R2 follows McFadden (1974). Rp2 stands for
+the percentage of correct predictions. Standard errors are between parentheses. ***, **, * stand for statistical
+significance at the 1%, 5% and 10% level, respectively, for the two-tailed test.
+
+390
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+DeAngelo and DeAngelo (1990) find that for a sample of 80 NYSE firms, managers of
+firms with long track records of dividends are less likely to cut their dividend.
+We do not only test the impact of earnings losses on dividend policy, but also
+investigate whether a fall in earnings triggers dividend reductions. A total of 178 firms
+experience a drop in earnings (including the 71 loss-incurring firms from Table 4). Using
+an ordered probit model, we determine the extent to which a change in dividend policy can
+be explained by levels and changes in net earnings. In the models of Table 5 dividend
+omissions are represented by the value 0, cuts to a positive level by 1 and maintained or
+increased dividends by 2. The independent variables are the current net earnings, changes
+in net earnings and a loss dummy, which is set to 1 if the current net income is negative.
+The level and the change in net income are again divided by the book value of equity from
+the previous period. The main reason for dividend reductions or omissions is earnings
+losses (specifications (c) to (f)). Specification (f) shows that both earnings reductions and
+earnings losses, but not net earnings levels, are responsible for changes in dividend
+policy.16
+As a robustness check of the above results, we also estimate the ordered probit
+regressions for a slightly different sample. This sample includes the 71 firms with the
+event year being the first loss-incurring year as well as 118 firms with an event year
+capturing the first year of a net earnings or cash flow decline. This yields 221 observations,
+as for some firms we have two event years if the year of the decline in net earnings does
+not coincide with the one of the decline in cash flow. The results (not reported) are very
+similar to those shown in Table 5.
+To summarise the results so far, there is strong evidence that for German companies
+the occurrence of earnings losses is a key determinant of dividend changes, in addition
+to the traditional key determinant which is the level of net earnings. These results are
+similar to those of DeAngelo et al. (1992). However, at the same time, our results are
+very different from what has been observed for the case of UK or US firms. In the UK
+or the US, earnings declines trigger dividend cuts to still positive levels of dividends
+rather than dividend omissions. Thus, it seems that the dividend policy of German
+firms is characterised by a higher downward flexibility than the one of AngloAmerican firms.
+Dividends will only be omitted if the managers are pessimistic about the future, longterm profitability of the firm (Modigliani and Miller, 1958, 1959). Therefore, we
+investigate whether or not dividend omissions are associated with a persistent decline in
+performance. We run a binomial probit model on the sample of 71 firms with stable past
+dividends and positive net earnings and cash flows over the period 1984– 1988 and with
+losses in at least 1 year during the period 1989 –1993.17 Three of the 71 firms went
+bankrupt 2 years after the year of the initial loss. The dependent variable takes the value of
+1 if there is a dividend omission and takes 0 otherwise. The net earnings in year t + 1 are
+16
+Specification (f) has the highest goodness of fit. However, it should be noted, that the pseudo R2 does not
+include a penalty for increasing the number of exogenous variables (see Aldrich and Nelson, 1984) in contrast to
+the adjusted R2 for OLS regressions.
+17
+As 15 of these firms had their initial loss-incurring year in 1993, data on earnings and dividends were
+collected for 1994.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+391
+
+used as a proxy for the management’s expectations of the future earnings with t
+representing the year of the first earnings loss.
+The statistical significance of the specifications in Table 6 is very low. The past
+level of net earnings has no explanatory power on the decision to change the
+dividend. Only the current level of net earnings is statistically different from zero
+(at the 10% level). The negative sign of the net earnings in the year following the
+year of the initial loss suggests that in the case of dividend omissions by lossincurring firms, future earnings will be low. However, the variable is only significantly
+different from zero at the 14% level. Our results are very different from those of
+DeAngelo et al. (1992) for the US. DeAngelo et al. find that the decision to reduce
+the dividend depends strongly on the net earnings before the event year, on the current
+net earnings and on the net earnings of the year following the event year. This
+suggests that dividend policy in Germany is much more flexible than in the US or the
+UK.
+It should be noted that the inclusion of future net earnings (as in our setting and in the
+one of DeAngelo et al., 1992) might induce a serious endogeneity problem because the
+current dividend captures expectations about future earnings. If this is the case, including
+NIt + 1 in the probit model will not add any additional information. There is no easy way to
+solve this problem, apart from including analysts’ earnings forecasts. Unfortunately, this
+kind of information was not available for the period of study.
+Table 6
+Binomial probit analysis of the decision to omit dividends and the persistence and depth of net earnings
+difficulties around the year of losses
+
+Constant.
+NIt  2
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+1.369***
+(0.448)
+ 0.145
+(0.953)
+–
+
+1.326***
+(0.404)
+–
+
+0.811**
+(0.415)
+–
+
+1.158***
+(0.302)
+–
+
+0.705
+(0.495)
+–
+
+–
+
+–
+
+ 1.303*
+(0.791)
+–
+
+–
+
+ 0.185
+(1.181)
+ 1.073
+(0.729)
+ 0.663
+(0.457)
+ 33.7
+7.9%
+78.9%
+0.124
+
+NIt
+
+–
+
+ 0.377
+(1.194)
+–
+
+NIt + 1
+
+–
+
+–
+
+NIt  1
+
+Log-likelihood
+Pseudo R2
+Rp2
+Significance
+level (%)
+
+ 36.6
+0.01%
+78.9%
+0.880
+
+ 36.6
+0.01%
+78.9%
+0.915
+
+ 34.5
+5.8%
+78.9%
+0.074
+
+ 0.526
+(0.357)
+ 35.2
+3.9%
+77.5%
+0.096
+
+The dependent variable equals 1 if the dividend is omitted and 0 otherwise. The sample consists of 71 firms that
+experienced 5 years of strictly positive earnings and dividend payments over the period 1984 – 1988. The event
+year corresponds to the initial year in which those firms incurred losses over the period 1989 – 1993. Net earnings
+in periods t  2, t  1, t and t + 1, where t is the year of the annual loss, are standardised by the book value of
+equity for the previous year. Standard errors are robust to heteroskedasticity following White (1980). Pseudo-R2
+follows McFadden (1974). R2p stands for the percentage of correct predictions. Standard errors are between
+parentheses. ***, ***, **, * stand for statistical significance at the 1%, 5% and 10% level, respectively, for the
+two-tailed test.
+
+392
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+To conclude, our results suggest that German firms do not hesitate to reduce their
+dividend in the case of a temporary deterioration of their earnings. However, unlike Healy
+and Palepu (1988) and DeAngelo et al. (1992), we do not find evidence that dividend
+omissions only occur when managers believe that the earnings deterioration will persist in
+the future and is not just temporary.
+We also estimated the above model (results not reported) using cash flow instead of net
+earnings as the explanatory variable. We found that lower cash flows 2 years and 1 year
+before the initial loss-incurring year were associated with significantly higher odds of
+having a dividend omission. However, this effect disappeared when future cash flow was
+added to the model. At best, this suggests a weak correlation between dividend omissions
+and persistently bad performance.
+In summary, first, earnings losses are a key factor for dividend reductions and
+omissions. Second, it seems that managers cut or omit dividends when earnings are
+depressed on a temporary basis rather than over longer time periods. In the light of these
+findings, it is interesting to determine the extent to which German firms revert to the
+dividend payout prior to the dividend reduction or omission. This issue is addressed in the
+next section.
+
+5. Upward flexibility of dividend policy
+If German firms are more willing to reduce their dividend in the case of a temporary
+earnings problem, they may also be more prone to increase their dividend in the case of a
+temporary earnings improvement. If this were not the case, one would observe a decrease
+in the payout ratio of German firms over the long run. In this section, we analyse changes
+in dividend policy in the aftermath of dividend reductions and omissions. In particular, we
+address the following questions: (1) how many years does it take a firm to increase or
+initiate its dividend after a dividend cut or omission, respectively, and (2) in the case of a
+Table 7
+Dividend rebounds after dividend omissions
+Panel A: number (proportion) of firms re-initiating the dividend
+1 year after t
+
+2 years after t
+
+3 years after t
+
+>3 years after t
+
+18 (28.6%)
+
+17 (27%)
+
+6 (9.5%)
+
+22 (34.9%)
+
+Panel B: average (median) gross dividend (DM) around t for firms re-initiating the dividend
+
+t1
+t
+t+1
+t+2
+t+3
+
+1 year after t
+
+2 years after t
+
+3 years after t
+
+10.5 (8.2)
+0 (0)
+8.8 (8.6)
+–
+–
+
+9.4 (9.4)
+0 (0)
+0 (0)
+10.2 (6.3)
+–
+
+13.6
+0
+0
+0
+16.05
+
+(11.7)
+(0)
+(0)
+(0)
+(14.85)
+
+The sample consists of 61 firms. The event year is the first year during 1985 – 1991 in which firms omitted the
+dividend. There are 63 observations as two firms omitted the dividend twice during the period of analysis. t stands
+for the first year of dividend omission after at least 1 year of strictly positive payouts.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+393
+
+Table 8
+Dividend rebounds after dividend reductions
+Panel A: number (proportion) of firms increasing the dividend
+1 year after t
+
+2 years after t
+
+z 3 years after t
+
+31 (50%)
+
+16 (25.8%)
+
+15 (24.2%)
+
+Panel B: average (median) gross dividend (DM) around t for firms increasing the dividend
+
+t1
+t
+t+1
+t+2
+
+1 year after t
+
+2 years after t
+
+17.6 (15.6)
+11.1 (9.4)
+15.9 (12.1)
+–
+
+18.0 (16.1)
+11.9 (10.2)
+11.5 (9.4)
+14.0 (12.1)
+
+The sample consists of 62 firms during 1985 – 1991. The event year is the initial year in which firms reduced the
+dividend to a still-positive level. t stands for the first year of dividend reduction after at least 1 year of strictly
+positive payouts.
+
+dividend increase or initiation, what is the average dividend increase or (re)initiation
+relative to the payout prior to the dividend cut or omission.
+In analysing the dividend behaviour surrounding dividend omissions, we first focus on
+the firms which omitted their dividend some time during 1985 – 1991 and retain only those
+with a 5-year data-window around the omission. The window starts with the year
+preceding the omission, includes event year t and ends 3 years after the omission. We
+obtain 63 observations consisting of 61 firms (out of 221) satisfying the above criteria; two
+of these firms omitted their dividend twice. By definition, all the firms in the sample paid a
+strictly positive dividend in year t  1.
+Table 7 shows what happens in the aftermath of a dividend omission. First, panel A
+reveals that 56% of the firms in the sample re-initiate their dividend within the 2 years after
+the omission, with 29% already re-initiating in the year immediately after the omission.
+Second, panel B shows that during the 2 years after the omission the majority of firms
+revert to the dividend-payout level in place before the omission. The average gross
+dividend for the firms that re-initiate in years t + 1 and t + 2 is similar to the one paid in
+year t  1. Third, the results are not driven by the fact that in period t  1 the sample firms
+paid a relatively low dividend per share, as their gross dividend in t  1 is similar to the
+average gross dividend of DM12.30 for the panel of 221 firms during the 1984– 1993
+period.
+We also study the dividend behaviour in the years surrounding dividend cuts (to a stillpositive level). Our sample consists of 62 firms that reduced their dividend during the
+period 1985– 1991 and had data available over a 5-year window surrounding the dividend
+cut, starting with the year prior to the cut.18 Table 8 confirms the rapid rebound after
+dividend cuts. Panel A reports that 76% of the sample increases dividends during the 2
+years following the cut with 50% doing so in the first year after the reduction. Panel B
+
+18
+The sample excludes eight cases of reductions due to ‘specially designated dividends’, which had been paid
+in year t  1.
+
+394
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+confirms that dividends revert to about the same level as that of t  1 over the 2 years after
+the cut.
+The analysis in Section 4 has shown that annual net earnings losses in firms with a track
+record of good past performance and stable dividend payout policies cause dividend
+omissions in 80% of the cases in the year of the loss. In addition, this section has shown
+that dividend omissions are weakly correlated with more persistent earnings problems and
+it seems that dividends are more flexible in Germany than in the US or the UK. This leads
+us on to the next section, which will investigate the link between control and dividend
+policy.
+
+6. Corporate control and dividend flexibility
+The higher flexibility of dividends in Germany compared to the US and the UK
+may be the consequence of differences in corporate control. First, control is far less
+concentrated in the average Anglo-American firm than in the average German
+corporation. This implies that the potential agency problems between shareholders
+and management are likely to be lower in German firms. Indeed, large shareholders
+control at least half of the board seats on the supervisory board19 and hence may be
+powerful enough to align their interest with those of the management. Consequently,
+whereas dividend policy in Anglo-American companies may also serve as a corporate
+governance device bonding managers to generate sufficient cash flow to honour the
+precommitted level of dividends, dividends may have no or a smaller governance role
+to play in Germany. Consequently, dividend policy in Germany is expected to be more
+flexible. Second, in German firms without an individual or family, corporation, insurer
+or government as a blockholder, the Hausbank frequently plays an important role. Such
+banks usually hold only small equity stakes, but their power is reinforced by the
+exercise of voting rights on the shares held by individual shareholders who have
+deposited their shares with the bank (Depotstimmrecht). Even in the cases where the
+Hausbank is not able to exercise voting control, it usually holds superior information
+(and frequently a board seat) as the major creditor. Therefore, the Hausbank may also
+play a leading part in reducing agency problems in German firms. Consequently, both
+the presence of large blockholders and a Hausbank may enable the firms to have a
+more flexible dividend policy than that of Anglo-American firms.
+Using the control data from Table 2 in Section 2, we create a set of dummy
+variables, WH1i and WH2i, which are equal to 1 if there is no shareholder with at least
+25% and 50%, respectively, of the voting equity of firm i, and 0 otherwise. Bi and Fi
+are set to 1 if a bank, or a family or an individual, respectively, are the controlling
+19
+In Germany, supervisory board representation of shareholders and employees is enshrined in corporate
+law. In companies with more than 500 but fewer than 2000 employees, two-thirds of the supervisory board
+consists of shareholder representatives with the remainder of board seats being reserved for employee
+representatives. In larger firms with more than 2000 employees, a system of quasi-parity co-determination exists
+as employee representatives make up half of the supervisory board but the chairman who is a shareholder
+representative has a casting vote in case of stale-mate (Goergen and Renneboog, 2003).
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+395
+
+Table 9
+Ordered probit analysis of the relation between dividend omissions, earnings losses and control structures
+
+Constant
+NIit
+NILOSSit
+Bi,t  1
+Fi,t  1
+WH1i,t  1
+WHLoss1i,t  1
+WH2i,t  1
+Log-likelihood
+Pseudo R2
+Rp2
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+1.844***
+(0.490)
+0.213
+(0.196)
+ 2.258***
+(0.399)
+ 0.794
+(0.501)
+0.111
+(0.443)
+0.304
+(0.474)
+–
+
+2.044***
+(0.349)
+0.209
+(0.190)
+ 2.292***
+(0.394)
+ 0.968***
+(0.384)
+ 0.076
+(0.272)
+–
+
+2.005***
+(0.339)
+0.220
+(0.185)
+ 2.299***
+(0.382)
+ 0.927***
+(0.368)
+–
+
+1.673***
+(0.229)
+0.198
+(0.166)
+ 2.162***
+(0.343)
+–
+
+1.737***
+0.240)
+0.167
+(0.247)
+ 2.261***
+(0.328)
+–
+
+1.664***
+(0.239)
+0.189
+(0.180)
+ 2.143***
+(0.314)
+–
+
+0.190
+(0.259)
+–
+
+–
+
+–
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+ 0.007
+(0.386)
+1.027*
+(0.659)
+–
+
+ 86.125
+35.74%
+73.6%
+
+ 86.409
+35.53%
+73.6%
+
+ 86.453
+35.50%
+73.6%
+
+ 95.385
+28.83%
+71.3%
+
+ 90.723
+32.30%
+71.5%
+
+–
+
+–
+0.154
+(0.254)
+ 92.165
+31.24%
+72.0%
+
+The dependent variable equals 0 if the dividend is omitted, 1 if the dividend is cut to a strictly positive level and 2
+if the dividend is increased or maintained. The sample consists of (1) 71 firms in which the event year
+corresponds to the initial year they suffered losses over the period 1989 – 1993, and (2) 107 firms in which the
+event year is the first year there was an earnings decline but strictly positive earnings during 1989 – 1993. In
+addition, all sample firms have a stable dividend policy and positive earnings over 1984 – 1988. We excluded
+firms with unavailable ownership data as well as those firms controlled by the state or foundations. The final
+sample consists of 129 observations. Earnings (NIit) are standardised by the book value of equity of the previous
+year. NILOSSit is a dummy variable that equals 1 if there is an annual earnings loss in year t. Bi,t  1 and Fi,t  1 are
+dummy variables which equal 1 if a bank or a family, respectively, are the controlling shareholders of firm i at
+time t  1, and zero otherwise. WH1i,t  1 and WH2i,t  1 are dummy variables that equal 1 if there is no large
+shareholder with at least 25% or 50%, respectively, of the voting shares of firm i at time t  1, and 0 otherwise.
+WHLOSS1i,t  1 is an interactive term of widely held at 25% level and the presence of an annual earnings loss. All
+models are estimated with multiplicative heteroskedasticity. All model specifications are significant with p-values
+< 0.001. Pseudo R2 follows McFadden (1974). Rp2 stands for the percentage of correct predictions. Standard errors
+are between parentheses. ***, **, * stand for statistical significance at the 1%, 5% and 10% level, respectively,
+for the two-tailed test.
+
+shareholder of firm i, holding at least 25% of the voting equity, and 0 otherwise.20 The
+dummy variable of control by corporate shareholders is excluded from the models in
+Table 9 to avoid multi-collinearity problems. We also create interactive terms with
+control that are set to 1 if there is an earnings loss in a widely held firm, in a bankdominated firm, in a family-controlled firm and a firm controlled by an industrial
+company. All control variables measure the degree of ultimate control, at time t  1.
+As specified in Section 4, we estimate the effect of a significant deterioration in
+performance (such as an earnings loss) on dividends after a period of strictly positive
+20
+For firms that do not have a controlling shareholder holding at least 25% of the votes, WH1i will be equal
+to 1, and all other control dummy variables such as Bi will be equal to 0.
+
+396
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+profits and dividends. The dependent variable of the ordered probit in Table 9 equals 0 if
+the dividend is omitted, 1 if the dividend is cut to a strictly positive level and 2 if the
+dividend is increased or maintained. The sample consists of all firms with dividend
+omissions or cuts (over the period of 1989– 1993) which had positive earnings as well as a
+stable dividend policy over the preceding period (1984 –1988).
+Table 9 confirms that net earnings losses have a statistically significant effect on the
+decision to omit dividends. Net income levels are not significantly correlated with the
+dividend policy decision. The results do not change significantly if we use changes in net
+earnings instead of levels of earnings. Specifications (b) and (c) indicate that control by
+banks increases the likelihood of a dividend omission in the wake of earnings losses. This
+is consistent with the fact that banks, owning directly or indirectly a large percentage of the
+voting rights, mitigate agency costs, and thus reduce the need for dividends as a
+monitoring device. This result is consistent with evidence for Japanese firms: Dewenter
+and Warther (1998) show that Keiretsu firms cut and omit dividends more often than other
+Japanese firms. However, family control (specifications (a), (b) and (d)) as well as control
+by other categories (not shown) do not have a significant impact on the dividend decision.
+Despite the fact that control of German firms is similar to that of Austrian firms, our
+findings contradict Gugler (2003) who concludes that families and other controlling
+shareholders have an influence on dividends. There may be two reasons for this difference
+in results. First, only one-fifth of Gugler’s sample consists of quoted firms. Although he
+does not provide any statistics on this, it is likely that a larger proportion of the unquoted
+firms are family owned and do not have any minority shareholders (hence flexibility of
+dividends is highest for Austrian family-owned firms). In contrast, all of our firms are
+quoted. Also, Gugler et al. (2001, p. 54) reports that Austrian banks tend to own majority
+stakes. Our Table 2 shows that German banks normally hold stakes less than a majority.
+Specification (a) shows that the lack of a controlling shareholder—owning at least a
+blocking minority of 25%—has no impact on the dividend decision. This is confirmed by
+specification (f) which includes WH2i, a dummy set to one if there is no majority
+shareholder controlling an absolute majority. Interestingly, specification (e) shows that
+firms which suffer an earnings loss in t  1 and have no controlling shareholder are more
+reluctant to omit or cut their dividend (the interaction term21 WHLOSS1i,t  1 partially
+compensates for the negative effect of the earnings loss on the dividend policy). This may
+be due to the fact that widely held firms are more prone to agency costs than firms with a
+controlling shareholder.
+Alternative specifications with variables interacting earnings losses with control by
+categories of other shareholders did not yield significant results. The control variables are
+individually and jointly insignificant, and therefore do not explain the decision to decrease,
+maintain or increase the dividend. This result is true for both the cash flow and the
+published profits model. A binary probit model for the decision to omit or not to omit the
+dividend was also estimated to check our initial assumption of ordering and produced
+similar results [not reported].
+21
+
+WHLOSS1i,t  1 is obtained by multiplying for each firm the dummy variable WH1i, by the net earnings
+loss dummy NIlosst. Hence, the WHLOSS1i,t  1 will be equal to 1 for firms which have an earnings loss in t and
+no controlling shareholders, and 0 otherwise.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+397
+
+7. Conclusion
+To date, there has been a lot of anecdotal evidence that German firms benefit from a
+more flexible dividend policy than their US or UK counterparts. This paper applies a
+discrete choice approach to the dividend decision of German firms. We analyse how past,
+current and future net earnings affect the decision to change the dividend. In order to adjust
+for the potential conservatism of German accounting practices, we also check whether
+cash flows determine the decision to change the dividend. The choice of the period of
+study (1984 – 1993) is motivated by the fact that at the start of this period there was an
+economic boom which was followed by a recession.
+Consistent with Lintner (1956), we find that net earnings are key determinants of the
+decision to change the dividend. However, our results also refine Lintner (1956) and
+confirm the anecdotal evidence that German firms have a more flexible dividend policy.
+First, we find that the occurrence of a loss is a key determinant in addition to the net
+earnings level. We observe that 80% of the loss-incurring German firms, with at least 5
+years of positive earnings and dividends preceding the loss, omit the dividend in the year
+of the loss. They do so irrespectively of the size of the loss and of the level of the past and
+future earnings. Second, the vast majority of German firms quickly revert to their initial
+dividend payout after the omission or cut. We find that in both cases of dividend omissions
+and dividend cuts, the majority of the firms reinitiate the dividend within 2 years to revert
+to the initial dividend payout level. This finding contradicts the predictions of Lintner
+(1956) and Miller and Modigliani (1961) that managers will only change the dividend if
+they believe that the firm’s earnings will be permanently, not just temporarily, affected.
+Our results stand in marked contrast with those of DeAngelo et al. (1992) for the US. They
+find that firms are more likely to reduce their dividend if their earnings problems are of a
+permanent nature.
+Finally, when measures of control are added to the probit model, bank control is
+associated with a higher likelihood to omit the dividend when the firm suffers a loss. This
+result suggests that bank control (which depends on the voting equity the bank owns as
+well as its proxy votes) mitigates informational asymmetry and agency costs. However,
+control by other types of shareholders does not influence the dividend decision. In widely
+held loss-incurring firms we find some evidence of a reluctance to cut the dividend, which
+suggests that these firms are more prone to agency costs than firms with a controlling
+shareholder and therefore rely more heavily on dividend policy as a corporate governance
+mechanism.
+
+Acknowledgements
+We are indebted to Jeffry Netter, the editor, as well as an anonymous referee for very
+valuable comments, which have substantially improved this paper. We are also grateful to
+Steve Bond, Julian Franks, Jeremy Kaefer, Jens Köke, Colin Mayer, Joe McCahery,
+Christian Schlag, Reinhardt Schmidt, Greg Trojanowski, Mark Wahrenburg and seminar
+participants at the Goethe University of Frankfurt for valuable comments and suggestions.
+Luis Correia da Silva assumes full responsibility for any remaining errors.
+
+398
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+References
+Aldrich, J., Nelson, F., 1984. Linear Probability, Logit, and Probit Models. Sage Publications, New York.
+Amihud, Y., Murgia, M., 1997. Dividends, taxes and signaling: evidence from Germany. Journal of Finance 52,
+397 – 408.
+Barca, F., Becht, M., 2001. The Control of Corporate Europe. Oxford Univ. Press, Oxford.
+Becht, M., Boehmer, E., 2001. Ownership and voting power in Germany. In: Barca, F., Becht, M. (Eds.), The
+Control of Corporate Europe. Oxford Univ. Press, Oxford, pp. 128 – 153.
+Becht, M., Mayer, C., 2001. The control of corporate Europe. In: Barca, F., Becht, M. (Eds.), The Control of
+Corporate Europe. Oxford Univ. Press, Oxford, pp. 1 – 45.
+Behm, U., Zimmermann, H., 1993. The empirical relationship between dividends and earnings in Germany.
+Zeitschrift für Wirtschafts- und Sozialwissenschaften 113, 225 – 254.
+Berglöf, E., Perotti, E., 1994. The governance structure of the Japanese financial keiretsu. Journal of Financial
+Economics 36, 259 – 284.
+Boehmer, E., 2002. Who controls German corporations? In: McCahery, J., Moerland, P., Raaijmakers, T.,
+Renneboog, L. (Eds.), Corporate Governance Regimes: Convergence and Diversity. Oxford Univ. Press,
+Oxford, pp. 268 – 286.
+Brickley, J., 1983. Shareholder wealth, information signaling and the specially designated dividend: an empirical
+study. Journal of Financial Economics 12, 187 – 209.
+Davidson, R., MacKinnon, J., 1984. Convenient specification tests for logit and probit models. Journal of
+Econometrics 25, 241 – 262.
+DeAngelo, H., DeAngelo, L., 1990. Dividend policy and financial distress: an empirical investigation of troubled
+NYSE firms. Journal of Finance 45, 1415 – 1431.
+DeAngelo, H., DeAngelo, L., Skinner, D., 1992. Dividends and losses. Journal of Finance 47, 1837 – 1863.
+DeAngelo, H., DeAngelo, L., Skinner, D., 1996. Reversal of fortune dividend signaling and the disappearance of
+sustained earnings growth. Journal of Financial Economics 40, 341 – 371.
+Dewenter, K., Warther, V., 1998. Dividends, asymmetric information, and agency conflicts: evidence from a
+comparison of the dividend policies of Japanese and U.S. firms. Journal of Finance 53, 879 – 904.
+Easterbrook, F., 1984. Two agency-cost explanations of dividends. American Economic Review 74, 650 – 659.
+Edwards, J., Fischer, K., 1994. Banks, Finance and Investment in Germany. Cambridge Univ. Press,
+Cambridge.
+Edwards, J., Mayer, C., 1986. An investigation into the dividend and the new equity issue practices of firms:
+evidence from survey information. Working paper, Institute of Fiscal Studies, No. 80.
+Fama, E., Babiak, H., 1968. Dividend policy: an empirical analysis. American Statistical Association Journal 63,
+1132 – 1161.
+Franks, J., Mayer, C., 2001. Ownership and control of German corporations. Review of Financial Studies 14,
+943 – 977.
+Goergen, M., 1998. Corporate Governance and Financial Performance: A Study of German and UK Initial Public
+Offerings. Edward Elgar, Cheltenham.
+Goergen, M., Renneboog, L., 2003. Why are the levels of control (so) different in German and UK firms?
+Evidence from initial public offerings. Journal of Law, Economics and Organization 19, 141 – 175.
+Greene, W., 2003. Econometric Analysis, 5th ed. Prentice Hall Upper, Saddle River, NJ.
+Gugler, K., 2003. Corporate governance, dividend payout policy, and the interrelation between dividends, R&D,
+and capital investment. Journal of Banking and Finance 27, 1297 – 1321.
+Gugler, K., Kalss, S., Stomper, A., Zechner, J., 2001. The separation of ownership and control in Austria. In:
+Barca, F., Becht, M. (Eds.), The Control of Corporate Europe. Oxford Univ. Press, Oxford, pp. 46 – 70.
+Gujarati, D., 2002. Basic Econometrics, 4th ed. McGraw-Hill, Boston.
+Harris, T.S., Lang, M., Möller, H.P., 1994. The value relevance of German accounting measures: an empirical
+analysis. Journal of Accounting Research 32, 187 – 209.
+Healy, P., Palepu, K., 1988. Earnings information conveyed by dividend initiations and omissions. Journal of
+Financial Economics 21, 149 – 175.
+Hoshi, T., Kashyap, A., Scharfstein, D., 1990. The role of banks in reducing the costs of financial distress in
+Japan. Journal of Financial Economics 27, 67 – 88.
+
+M. Goergen et al. / Journal of Corporate Finance 11 (2005) 375–399
+
+399
+
+Hoshi, T., Kashyap, A., Scharfstein, D., 1991. Corporate structure, liquidity, and investment: evidence from
+Japanese industrial groups. Quarterly Journal of Economics 106, 33 – 60.
+Jensen, M., 1986. Agency costs of free cash flow, corporate finance and takeovers. American Economic Review
+76, 323 – 329.
+Kester, W., 1986. Capital and ownership structure: a comparison of United States and Japanese manufacturing
+corporations. Financial Management 15, 5 – 16.
+Köke, J., 2003. The market for corporate control in a bank-based economy: a governance device? Journal of
+Corporate Finance (in press).
+Köke, J., Renneboog, L., 2002. Do corporate control and product market competition lead to increases in
+productivity growth? Evidence from market-oriented and blockholder-based corporate governance, working
+paper, Center for Economic Research, Tilburg University.
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R., 2000. Agency problems and dividend policies around
+the world. Journal of Finance 55, 1 – 33.
+Lintner, J., 1956. Distribution of incomes of corporations among dividends, retained earnings and taxes. American Economic Review 46, 97 – 113.
+Maddala, G., 1983. Limited-dependent and qualitative variables in econometrics. Econometric Society Monographs. Cambridge Univ. Press, Cambridge.
+Marsh, P., 1992. Dividend announcements and stock price performance, Working paper, London Business
+School.
+Mayer, C., Alexander, I., 1990. Banks and securities markets: corporate finance in Germany and the United
+Kingdom. Journal of the Japanese and International Economies 4, 450 – 475.
+McElvey, R., Zaviona, W., 1975. A statistical model for the analysis of ordinary level dependent variables.
+Journal of Mathematical Sociology 4, 103 – 120.
+McFadden, D., 1974. The measurement of urban travel demand. Journal of Public Economics 3, 303 – 328.
+Miller, M., Modigliani, F., 1961. Dividend policy, growth and the valuation of shares. Journal of Business 34,
+411 – 433.
+Modigliani, F., Miller, M., 1958. The cost of capital, corporate finance, and the theory of investment. American
+Economic Review 48, 261 – 297.
+Modigliani, F., Miller, M., 1959. The cost of capital, corporate finance, and the theory of investment: reply.
+American Economic Review 49, 655 – 669.
+Prowse, S., 1990. Institutional investment patterns and corporate financial behaviour in the United States and
+Japan. Journal of Financial Economics 27, 43 – 66.
+Renneboog, L., 2000. Ownership, managerial control and the governance of poorly performing companies listed
+on the Brussels Stock Exchange. Journal of Banking and Finance 24, 1959 – 1995.
+Rozeff, M., 1982. Growth beta and agency costs as determinants of dividend payout ratios. Journal of Financial
+Research 3, 249 – 259.
+White, H., 1980. A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. Econometrica 48, 817 – 838.
+
+

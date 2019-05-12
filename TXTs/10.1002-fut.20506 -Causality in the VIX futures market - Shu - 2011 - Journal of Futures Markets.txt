@@ -1,0 +1,1881 @@
+CAUSALITY IN THE VIX
+FUTURES MARKET
+JINGHONG SHU
+JIN E. ZHANG*
+
+This study examines the price-discovery function and information efficiency of a
+fast growing volatility futures market: the Chicago Board of Option Exchange VIX
+futures market. A linear Engle–Granger cointegration test with an error correction
+mechanism (ECM) shows that during the full sample period, VIX futures prices
+lead spot VIX index, which implies that the VIX futures market has some pricediscovery function. But a modified Baek and Brock nonlinear Granger test detects
+bi-directional causality between VIX and VIX futures prices, suggesting that both
+spot and futures prices react simultaneously to new information. Quarter-by-quarter
+investigations show that, on average, the estimated parameters are not significantly different from zero, thus providing further evidence supporting information efficiency in the VIX futures market. © 2011 Wiley Periodicals, Inc. Jrl Fut Mark
+32:24–46, 2012
+
+We appreciate having had interesting discussions with Menachem Brenner. We thank an anonymous referee,
+Yankun Chen, and Bob Webb (editor) for their helpful comments. Jinghong Shu thanks research grant from
+the University of International Business and Economics (Project No. 73200013). Jin E. Zhang has been supported by a grant from the Research Grants Council of the Hong Kong Special Administrative Region, China
+(Project No. HKU 7549/09H).
+*Correspondence author, School of Economics and Finance, The University of Hong Kong, Pokfulam Road,
+Hong Kong. Tel: (852) 2859-1033, Fax: (852) 2548-1152, e-mail: jinzhang@hku.hk
+Received August 2010; Accepted December 2010
+
+■
+
+Jinghong Shu is an Associate Professor in the School of International Trade and Economics at
+the University of International Business and Economics, Beijing, People’ Republic of China.
+
+■
+
+Jin E. Zhang is an Associate Professor in the School of Economics and Finance at the
+University of Hong Kong, Pokfulam Road, Hong Kong.
+
+The Journal of Futures Markets, Vol. 32, No. 1, 24–46 (2012)
+© 2011 Wiley Periodicals, Inc.
+Published online January 12, 2011 in Wiley Online Library (wileyonlinelibrary.com)
+DOI: 10.1002/fut.20506
+
+Causality in the VIX Futures Market
+
+1. INTRODUCTION
+The volatility implied by option prices is often considered a reflection of option
+traders’ view of future market volatility of the underlying assets. It is often
+believed that option traders are better informed; thus, the implied volatility
+outperforms historical volatility in forecasting future realized volatility (see, e.g.
+Christensen & Prabhala, 1998; Whaley, 2000). Partially motivated by the information role of option-implied volatilities, the Chicago Board of Option
+Exchange (CBOE) began to publish an implied volatility index in 1993. This
+volatility index, first known as VIX and renamed as VXO in 2003, was calculated from a series of at-the-money S&P 100 index options. In 2003, the CBOE
+revised the VIX calculation method based on the S&P 500 index options prices.
+VIX is a forward-looking volatility; it represents an option market estimate of
+the expected volatility of the S&P 500 index for the next 30-day period. Since
+its initiation, VIX has drawn growing attention from both academics and practitioners; it has gradually become a leading indicator of the U.S. stock market’s volatility. Corrado and Miller (2005) compare the forecast quality of implied volatility
+indexes to historical volatility, and they find VIX outperforms historical volatility in forecasting future realized volatility. Similar result is found by Carr and
+Wu (2006), who show that VIX outperforms GARCH volatility estimated from
+the S&P 500 index returns. A very important feature of VIX is that VIX tends to
+be higher when the stock market drops,1 for example, VIX was particularly high
+during the last quarter of 2008, when the stock market tumbled. Whaley
+(2009) explains why VIX is a useful “market fear gauge”: when stock market is
+expected to fall, investors will purchase the S&P 500 put options for portfolio
+insurance. The more investors demand, the higher the option prices. As option
+price is a monotonic increasing function of volatility, VIX will increase when
+the S&P 500 index option prices increase. According to a recent report by the
+S&P 500 Corporation, VIX is very useful in forecasting the direction of future
+market movements, particularly when movement is large. From December
+2005 to December 2008, whenever the S&P 500 index dropped significantly
+(i.e. more than 1% per day), there was a 96.72% possibility that the VIX would
+increase and a 95% possibility that the VIX short-term futures index would
+increase.2 These findings highlight the potential benefits of adding VIX as a
+new asset class to hedge portfolio risks. Daigler and Rossi (2006) report
+a significant diversification benefit from adding a long VIX position to an
+S&P 500 portfolio. As spot VIX is not directly tradable, traders can long
+VIX derivatives, such as VIX futures and VIX options. In March 2004, CBOE
+1
+
+It has long been documented that return volatility is negatively correlated with asset returns. This negative
+correlation can be explained by the “leverage effect.” When a stock’s price goes down, its net value decreases. Consequently, the leverage as well as the risk increases.
+2
+Standard and Poor’s working paper, http://www.ssrn.com/abstract⫽1333486.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+25
+
+26
+
+Shu and Zhang
+
+began to launch its first volatility derivative product—namely, VIX futures,
+which are cash-settled on the VIX index level. Encouraged by the success of
+VIX futures, CBOE launched another volatility derivative product—S&P 500
+three-month variance futures in May 2006. Currently, there are six kinds of
+volatility futures and three kinds of volatility options traded on the CBOE.3
+Brenner, Ou, and Zhang (2006) conclude that volatility derivatives markets
+have great potential due to the huge demands for trading and for hedging
+volatility risk. Since its initial trading in 2004, the open interest and trading
+volume of VIX futures have grown rapidly. In 2004, the average open interest
+and trading volume was 7,000 contracts and 460 contracts, respectively.
+During the great market crash period of August 2008–November 2008, the
+average daily trading volume was 4,800 contracts per day, and the average VIX
+futures price was $19.20 during that period; hence, the average daily market
+value was about $92 million dollars.4 The huge trading volume in the VIX
+derivative market reflects the ever growing trend of using VIX products to
+hedge portfolio risks. Szado (2009) compares the performance of a base portfolio (i.e. 60% equity plus 40% bond) to an alternative portfolio that uses long
+VIX futures. His results show that from August to December 2008, adding a
+10% VIX to the base portfolio cut return loss by 80% and reduced portfolio
+standard deviation by one-third. The VIX futures market has now become one
+of the most active futures markets on the CBOE, with an average daily open
+interest of about 68,000 contracts.
+Although VIX futures contracts have achieved widespread recognition,
+pricing VIX futures remains very challenging. As VIX is forecast volatility, not a
+traded asset, there is no cost of carry relationship between spot VIX and VIX
+futures, such as that seen between the S&P 500 index and index futures.
+Zhang and Zhu (2006) first model VIX futures by modeling instantaneous variance as a stochastic diffusion process. Zhu and Zhang (2007) and Zhang, Shu,
+and Brenner (2010) each extends this model further. Other studies model variance
+as a stochastic diffusion process with jump (Dupoyet et al. 2010; Lin, 2007).
+Carr and Wu (2009) study the variance risk premiums of an individual stock
+options market. Zhang and Huang (2010) develop models to price CBOE S&P
+500 three-month variance futures.5
+In contrast to the fruitful studies on theoretical models, only a few empirical studies use real VIX futures market data to examine the information
+efficiency of this new market. Konstantinidi et al. (2008), and Konstantinidi
+3
+
+A detailed discussion can be found in Zhang and Huang (2009).
+The VIX futures contract size is 1,000*price. In the period of August–November 2008, the average VIX futures
+price was 19.2. Thus, we calculated approximate daily market value as 19.2*1,000*4,800 ⫽ 92,160,000.
+5
+VIX options have been studied by Sepp (2008a,b), Lin and Chang (2009, 2010), Wang and Daigler (2010),
+and Cont and Kokholm (2010).
+4
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+and Skiadopoulos (2011) use various forecasting methods and trading strategies to test the forecast ability of VIX futures price statistically and economically. They conclude that VIX futures prices are statistically predictable but
+that the magnitude is too small to generate arbitrage profit, their results support the information efficiency of VIX futures market. However, their studies
+focus on only one market—i.e. either the VIX or VIX futures market—and not
+the temporal relationship between VIX and VIX futures.
+In this study, we examine the lead–lag relationships between VIX and VIX
+futures prices. The lead–lag relationships between spot and futures markets
+reflect how quickly one market reacts to new information and to what degree
+the two markets are linked. This issue has been extensively studied in various
+financial markets as well as commodity markets. Generally, if a market is efficient, both spot prices and futures prices should react to new information
+simultaneously, and there are no lead–lag relationships between one market
+and the other. Some empirical studies find evidence that supports information
+efficiency in spot and futures market. Wahab and Lashgari (1993) study the
+S&P 500 index and the Financial Times index spot and futures prices, and
+although they find futures prices weakly lead spot prices, the magnitude is too
+small to generate any arbitrage profit. They conclude that their results are consistent with market efficiency. Pizzi et al. (1998) examine the lead–lag relationships between the S&P 500 cash index and its three-month and six-month
+index futures, they find that cash index and index futures prices are cointegrated, bi-directional causations from futures prices to spot index and from spot
+index to futures prices can be detected simultaneously. A recent study by Kung
+and Carverhill (2005) on the U.S. Treasury STRIPS with different time to maturity shows that spot and futures prices are cointegrated and that no arbitrage
+profit can be made after taking liquidity and transaction costs into consideration. However, some researchers believe that both futures markets and options
+markets may contain more information than the spot market, because traders
+in these markets are generally large traders and are better informed. Bohl et al.
+(2011) find that causality between spot and futures market is strongly affected
+by investor structure in these two markets: the market with more institutional
+traders will lead the other market. As derivative markets are dominated by large
+traders, futures prices may lead spot prices—or, it is said that futures markets
+have a price-discovery function. Price-discovery functions are detected in a
+number of commodity and financial markets (see, e.g. Brenner & Kronner,
+1995; Chow, 2001; Stoll & Whaley, 1990). Given the mixed empirical findings,
+the question naturally arises: what are the actual relationships between spot
+VIX and VIX futures prices?
+This study use linear and nonlinear Granger causality tests to examine the
+dynamic relation between spot VIX and VIX futures prices over the relatively
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+27
+
+28
+
+Shu and Zhang
+
+long time period from April 2004 to May 2009. Volatility indexes have some
+unique features that may affect the temporal relationships between VIX and
+VIX futures prices. First, unlike other spot markets, the spot VIX itself is not
+tradable. VIX is a forecast volatility derived from the S&P 500 index options,
+and it is not an asset. It is also difficult to replicate VIX, because the underlying
+basket of options is large and constantly rebalanced. Consequently, there is no
+cost of carry relationship between spot VIX and VIX futures prices. Second,
+volatility tends to follow a mean-reverting process, a higher current volatility is
+accompanied by a lower future volatility. Spot VIX is a 30-day implied volatility,
+so it is a forward-looking volatility for the next 30 days. A VIX futures price, on
+the other hand, is a forward implied volatility, and it represents an expected
+volatility for the 30-day period that follows the next 30 days. If the option market forecasts a volatility increase in the next 30-day period, the spot VIX will
+increase. However, VIX futures prices will not increase to the same degree as
+the spot VIX, because volatility tends to revert to its long-run mean. The stock
+market often magnifies investor sentiments and overreacts in the short term.
+Zhang et al. (2010) find that spot VIX is on average higher and more volatile
+than VIX futures price. As VIX and VIX futures prices represent expected
+volatilities for different time periods, and short-term expectations are often
+revised in the subsequent period, the causal relation between VIX and VIX
+futures prices may be weaker. Third, the correlations between VIX and VIX
+future prices vary with the S&P 500 index returns. A recent study by the S&P
+Corporation reveals that the correlations between spot VIX and the S&P 500
+index returns as well as those between the VIX short-term Futures Index and
+the S&P 500 index returns vary dramatically from ⫺0.2 to almost ⫺1.6 Thus, it
+is necessary to examine the dynamic relationships between VIX and VIX
+futures prices.
+We first study causality using traditional linear Granger tests with an
+error correction mechanism. To account for the time varying relationships
+between VIX and VIX futures prices, we also conduct causality tests quarter
+by quarter. Hiemstra and Jones (1994) point out the importance of adding
+nonlinear Granger tests because traditional Granger tests fail to detect nonlinear causal relationships which are actually very common in reality.
+Silvapulle and Moosa (1999) find a significant bi-directional causal relation
+between the spot and future crude oil prices, which cannot be detected by
+using linear Granger tests. In order to capture the nonlinear relationships
+between VIX and VIX futures prices, we also conduct nonlinear Granger
+tests. Market efficiency implies simultaneous reactions to news and a lack of
+information spillover from one market to the other. However, as pointed out by
+6
+
+See this report at http://ssrn.com/abstract⫽1333486.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+Bohl et al. (2011), causality between spot and futures markets is affected by
+investors’ structure in these two markets, with the market that attracts more
+institutional traders leading the other. In practice, both put options and VIX
+futures are useful tools in hedging downside risks. If institutional investors
+prefer to trade options, spot VIX calculated from option prices will lead VIX
+futures prices. But if VIX futures markets attract better- informed traders,
+VIX futures prices will lead VIX. For this reason, a causality test between VIX
+and VIX futures price also serves as an indirect comparison of the relative
+attractiveness of using the S&P 500 index options and VIX futures as hedging
+tools. To our knowledge, this is the first work to address price-discovery function of the VIX futures market.7 The only related work to be found is that of
+Konstantinidi et al. (2008), and Konstantinidi and Skiadopoulos (2011), who
+show that both VIX and VIX futures are predictable by their historical patterns; however, such predictions fail to generate any arbitrage trading strategies. Their study favors information efficiency over price discovery in volatility
+market. However, they do not study the inter-relationships between VIX and
+VIX futures prices.
+The rest part of the study is organized as follows: Section 2 provides a
+descriptive study of VIX and VIX futures prices. Section 3 introduces the linear
+Granger tests with an error correction mechanism and the nonlinear Granger
+tests. Section 4 discusses empirical evidence, and Section 5 concludes.
+2. VIX AND VIX FUTURES
+Daily VIX levels, including open, high, low, and close levels, are available from
+January 2, 1990. VIX futures data, including open, high, low, close, and settlement prices, as well as trading volume and open interest, are available from
+March 26, 2004. All data can be downloaded from CBOE VIX micro site.8 Our
+empirical study covers the period from March 26, 2004 to May 20, 2009.
+Between March 26, 2004 and March 8, 2006, four futures contracts were
+listed for each trading day. After that, the number of contracts listed on each
+day increases. Now there are ten contracts traded on each day with different
+maturity date. We construct four different VIX futures prices series, each with
+rolling contracts. The nearest maturity contract contains futures prices of the
+nearest maturity contract, and it always rolls to the next nearest maturity contract when the current contract is expired. The second nearest maturity
+contract contains futures prices of the second maturity contract and always
+7
+
+During the process of revising our study, we noticed that Zhang, Sanning, and Shaffer (2010) also study the
+market efficiency of the VIX futures market. They mainly focus on autocorrelation for a single time series;
+however, we focus on lead–lag relation between two time series, i.e. spot VIX and VIX futures.
+8
+http://www.cboe.com.com/micro/vix/introduction.aspx.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+29
+
+30
+
+Shu and Zhang
+
+90
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+2004-3-29 2004-9-29 2005-3-29 2005-9-29 2006-3-29 2006-9-29 2007-3-29
+VI X
+
+F1
+
+F2
+
+2007-9-29 2008-3-29 2008-9-29 2009-3-29
+F3
+
+F4
+
+FIGURE 1
+
+VIX and four VIX futures rolling contracts. F1 is the price of the nearest maturity VIX futures contract;
+and F2, F3, and F4 represent the second-, third- and fourth-nearest maturity VIX futures contract,
+respectively. The sample period is from March 26, 2004 to May 20, 2009.
+
+rolls to the second nearest maturity contract when current contract is expired.
+We also construct the third nearest and the fourth nearest maturity contract
+using the same rule.
+Figure 1 plots the spot VIX as well as the four rolling VIX futures prices
+series. We find the for most of the time, VIX and VIX futures prices move along
+the same direction, but the basis varies over time. VIX is more volatile than VIX
+futures, particularly between late 2008 and early 2009, while the S&P 500
+index dropped sharply during that period. Table I reports the summary statistics of the VIX and VIX futures prices. The average VIX and VIX futures prices
+are almost the same, but VIX has a larger standard deviation and a larger range.
+Distant VIX futures prices are more stable than near-term VIX futures prices.
+Figure 2 plots quarter to quarter rolling correlations between VIX and the S&P
+500 index returns as well as rolling correlations between nearest maturity VIX
+futures prices and the S&P 500 index. For most of the time, there are negative
+correlations between the S&P 500 index and the VIX or VIX futures prices, but
+these correlations vary significantly over time. The negative correlations are
+stronger in large downside moves, indicating a possible use of VIX and VIX
+futures prices as a “market fear gauge” (Whaley, 2009).
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+31
+
+TABLE I
+
+Summary Statistics of Levels and Returns of VXB and Rolling VIX Futures Contracts
+F0
+
+F1
+
+F2
+
+F3
+
+F4
+
+20.17
+15.40
+11.31
+3.48
+1.99
+58.00
+9.95
+67.95
+
+20.45
+15.82
+9.90
+2.87
+1.85
+51.28
+11.62
+62.90
+
+20.68
+16.54
+8.88
+2.75
+1.81
+44.52
+12.35
+56.87
+
+20.89
+17.16
+8.06
+2.34
+1.73
+39.33
+12.93
+52.26
+
+0.0002
+0.0479
+⫺0.0036
+7.9000
+0.8470
+0.6550
+⫺0.2948
+
+0.0003
+0.0302
+⫺0.0020
+3.9440
+0.4559
+0.3302
+⫺0.1857
+
+0.0004
+0.0243
+⫺0.0013
+3.1808
+0.3916
+0.2380
+⫺0.1245
+
+0.0003
+0.0204
+⫺0.0004
+4.0438
+0.3502
+0.2021
+⫺0.0980
+
+Panel A: Summary statistics of levels
+Mean
+Median
+Standard deviation
+Kurtosis
+Skewness
+Range
+Minimum
+Maximum
+
+20.08
+15.05
+12.37
+4.75
+2.18
+70.97
+9.89
+80.86
+
+Panel B: Summary statistics of returns
+Mean
+Standard deviation
+Median
+Skewness
+Kurtosis
+Minimum
+Maximum
+
+0.0004
+0.0659
+⫺0.0053
+4.7318
+0.6142
+0.7959
+⫺0.2999
+
+Note. i ⫽ 0, 1, 2, 3, 4 stands for VXB, the nearest maturity VIX futures prices, the second nearest maturity VIX futures prices, the
+third nearest maturity VIX futures prices and the fourth nearest maturity VIX futures prices, respectively. The return (daily continuously
+compounded) is defined as the logarithm of the ratio between the price on the next day and the price on the current day. The sample
+period is from March 26, 2004 to May 20, 2009.
+
+0. 4
+
+0. 2
+
+0
+
+04–2 04–3 04–4 05–1 05–2 05–3 05–4 06–1 06–2 06–3 06–4 07–1 07–2 07–3 07–4 08–1 08–2 08–3 08–4 09–1
+
+⫺ 0. 2
+⫺ 0. 4
+⫺ 0. 6
+⫺ 0. 8
+⫺1
+⫺ 1. 2
+
+Correlation between S&P 500 index and spot VIX
+Correlation between S&P 500 index and VIXF1
+
+FIGURE 2
+
+Three-month rolling correlations of the S&P index return with spot VIX and nearest maturity VIX futures
+price. The sample period is from April 2004 to March 2009, which contains 20 quarters.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+32
+
+Shu and Zhang
+
+TABLE II
+
+Frequency of VIX and the Nearest Maturity VIX Futures Prices Having Opposite
+Directions of the S&P 500 Index Return
+
+S&P 500
+Index Returns
+⬍ ⫺3%
+⫺3 to ⫺1%
+⫺1% to 0
+0 to 1%
+1 to 3%
+⬎3%
+
+No. of
+Observations
+
+No. of Times VIX
+Has Negative
+Direction with
+Index Returns
+
+No. of Times VIXF
+Has Negative
+Directions with
+Index Returns
+
+31
+134
+389
+525
+118
+22
+
+31
+129
+292
+418
+116
+22
+
+30
+125
+243
+412
+111
+22
+
+No. of Times
+VIX⬎VIXF
+27
+89
+144
+106
+80
+17
+
+Note. The sampling period is from April 26, 2004 to May 20, 2009.
+
+Although investors can trade VIX products to hedge stock market risks,
+such hedge is not a perfect hedge as the S&P 500 index returns and VIX do not
+perfectly negatively correlate. Table II shows how many times VIX and VIX
+futures prices can be successfully used to hedge the S&P 500 index return
+risks. It can be seen that both VIX and VIX futures prices moved in a direction
+opposite to that of the S&P 500 index returns when the stock market was
+volatile. For example, if the daily S&P 500 index goes up (down) by more than
+3%, there is a 100% possibility of VIX and 97% possibility of near-term VIX
+futures prices going down (up). However, for more than 75% of the trading
+days, the S&P 500 index moved modestly (i.e. within a 1% range). When the
+stock market is less volatile, the forecast ability of VIX and VIX futures prices
+drops significantly. Thus, only 75 and 62% of the time, changes in VIX and VIX
+futures prices, respectively, take a direction opposite that of the S&P 500 index
+returns when the index drops within 1% per day. In such cases, if traders want
+to use put options or VIX futures contracts to hedge their stock portfolio, there
+are 25 and 38% chances that such a transaction will incur a loss. Table II also
+reveals that the correlations between VIX and VIX futures prices are conditional on the S&P 500 index returns. VIX is higher than VIX futures prices when
+the S&P 500 index returns jump by more than 3% per day in either direction.
+The possibility of higher VIX is 88% for a downside movement and 78% for an
+upside movement. However, if the S&P 500 index returns move modestly (i.e.
+within a 1% range), there is a 72% possibility that VIX will be lower than VIX
+futures prices. These results show that investors’ fear sentiments are magnified
+in the short run, and participants in VIX futures market react less to great market jumps.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+33
+
+3. LINEAR AND NONLINEAR GRANGER TESTS
+3.1. Linear Cointegration Tests with Error Correction
+Mechanism
+Let St denote spot VIX index level and Ft denote VIX futures prices; the longrun equilibrium relationship between VIX and VIX futures prices is given in the
+following equation:
+Ft ⫽ b0 ⫹ b1St ⫹ et.
+
+(1)
+
+However, Equation (1) cannot be tested by ordinary least square regressions if
+either St or Ft, or both series are nonstationary. Thus, the first step in timeseries analysis is to test whether a time series is stationary. The null hypothesis
+of a single unit root is tested using the following two different models, one is
+with a trend, the other is without a trend. The models are:
+p
+
+¢Fi,t ⫽ a0 ⫹ a1Fi,t⫺1 ⫹ a gj ¢Fi,t⫺j ⫹ ei,t,
+j⫽1
+p
+
+¢Fi,t ⫽ a0 ⫹ a1Fi,t⫺1 ⫹ a2t ⫹ a gj ¢Fi,t⫺j ⫹ ei,t, i ⫽ 0, 1, 2, 3, 4,
+
+(2)
+
+j⫽1
+
+where i ⫽ 0, 1, 2, 3, 4 stands for spot VIX, the nearest maturity VIX futures
+prices, the second, the third, the fourth nearest maturity VIX futures prices,
+respectively. Panel A in Table III reports the results of Augmented
+Dickey–Fuller (ADF) unit root tests on spot VIX and four VIX futures prices
+indexes. All t-statistics are below 5% critical values, so the null hypothesis of a
+unit root fails to be rejected for any of the five indexes. This evidence implies
+that the time series of VIX and VIX futures prices are nonstationary.
+If a time series is nonstationary but its first difference is stationary, the
+series is said to be integrated to order 1, and it is denoted as I(1). Panel B in
+Table III reports the results of unit root tests on the first difference of the five
+volatility indexes. The null hypothesis of a unit root is rejected at the 5% significance level for all volatility indexes, thereby providing strong evidence of no
+unit root in the first differences of each time series. It is therefore concluded
+that all the five volatility indexes are I(1) processes.
+Engle and Granger (1987) show that for two I(1) processes, if their linear combination is stationary (I(0)), the two time series are cointegrated.
+Economically speaking, two variables are cointegrated if they have a long-term,
+or equilibrium relationship between them. One approach to testing for cointegration is to construct test statistics from the residuals of a cointegrating
+regression. Let ␧t denote the estimated residuals from Equation (1), a test for
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+34
+
+Shu and Zhang
+
+TABLE III
+
+Tests of Unit Roots in VIX and VIX Futures Rolling Contracts
+
+F1
+
+F2
+
+F3
+
+F4
+
+Critical
+Value
+(5%)
+
+⫺1.96
+⫺2.98
+
+⫺1.72
+⫺2.81
+
+⫺1.26
+⫺2.43
+
+⫺1.11
+⫺2.23
+
+⫺2.86
+⫺3.41
+
+⫺5.22
+⫺5.22
+
+⫺5.91
+⫺5.95
+
+⫺6.03
+⫺6.03
+
+⫺2.86
+⫺3.41
+
+Test Statistics
+F0
+Panel A: Unit root tests on price levels
+Without trend
+With trend
+
+⫺2.08
+⫺3.22
+
+Panel B: Unit root tests on the first difference
+Without trend
+With trend
+
+⫺5.95
+⫺5.96
+
+⫺5.51
+⫺5.5
+
+Note. Two forms of the Augmented Dickey–Fuller regression equations are tested. One is without a trend and the other is with a
+trend. The lag length p is eight days.
+p
+
+¢Fi,t ⫽ a 0 ⫹ a1 Fi, t⫺1 ⫹ a gj ¢Fi, t⫺j ⫹ ei, t,
+j⫽1
+p
+
+¢Fi,t ⫽ a0 ⫹ a1Fi,t⫺1 ⫹ a2t ⫹ a gj ¢Fi,t⫺j ⫹ ei,t ,
+
+i ⫽ 0, 1, 2, 3, 4.
+
+j⫽1
+
+F1 always shifts to the nearest maturity contracts when current contract is on expiration. F2 always shifts to the second nearest maturity contracts, F3 always shifts to the third nearest maturity contracts and F4 always shifts to the fourth nearest maturity contracts. The
+return (daily continuously compounded) is defined as the logarithm of the ratio between the price on next day and the price on current
+day. The sample period is from March 26, 2004 to May 20, 2009.
+
+no cointegration is given by a test for a unit root in the estimated residuals. The
+ADF regression equation is:
+p
+
+¢êt ⫽ a*êt⫺1 ⫹ a gj ¢êt⫺j ⫹ vt.
+
+(3)
+
+j⫽1
+
+Test statistics is a t-ratio test for a ⫽ 0 (the t test). The critical value is ⫺3.34
+at the 5% significant level and ⫺3.04 at the 10% significant level, respectively.
+Significant negative test statistics suggest rejection of the unit root hypothesis
+and evidence for cointegration. Table IV reports the Engle–Granger cointegration results for different pairs of volatility time series. VIX is cointegrated with
+four VIX futures rolling contracts at the 5% significance level. Among the four
+VIX futures contracts, the nearest maturity contract is cointegrated with the
+three other contracts at the 5% significance level. But the fourth nearest maturity contract is not cointegrated with the second nearest maturity contract, and
+is only weekly cointegrated (at 10% significance level) with the third nearest
+maturity contract. This result indicates that the second nearest maturity contract is not a simple linear combination of the first and third even though it
+stands in between. As spot VIX and VIX futures prices are cointegrated, there is
+a long-term, or equilibrium relationship between the two. But in the short run,
+there may be disequilibrium.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+35
+
+TABLE IV
+
+Cointegration Test for Pairs of VIX and VIX Futures Rolling Contracts
+
+F1
+F2
+F3
+F4
+
+F0
+
+F1
+
+F2
+
+F3
+
+⫺4.99*
+⫺5.17*
+⫺4.97*
+⫺4.55*
+
+⫺5.31*
+⫺4.81*
+⫺4.16*
+
+⫺3.77*
+⫺2.46
+
+⫺3.04**
+
+Note. The cointegrating regression equations are as follows:
+Fti, ⫽ b0 ⫹ b1Fj,t ⫹ ei,t,
+p
+
+¢êi,t ⫽ a0 ⫹ a1êi,t⫺1 ⫹ a gj ¢êt⫺k ⫹ vt,
+
+i ⫽ 0, 1, 2, 3, 4,
+
+j ⫽ 0, 1, 2, 3, 4, i ⫽ j,
+
+k⫽1
+
+where Fi,t, and Fj,t stands for different maturity. i ⫽ 0, 1, 2, 3, 4 stands for VXB, the nearest maturity VIX futures prices, the second nearest maturity VIX futures prices, the third nearest maturity VIX futures prices and the fourth nearest maturity VIX futures prices respectively. The reported values are Augmented Dickey–Fuller test statistics. The critical value at the 5% significance level is ⫺ 3.34, while
+the critical value at 10% is ⫺ 3.04. Significance test statistics suggest a rejection of the unit root hypothesis and hence evidence of
+cointegration.
+*Significant at 5%.
+**Significant at 10%.
+
+Engle and Granger (1987) state that if two variables Y and X are cointegrated, then each series can be represented by an error correction mechanism
+(ECM) which includes both the last period’s equilibrium error and the lagged
+values of the first difference of each variable. Following Wahab and Lashgari
+(1993), the following regressions with error correction mechanism are adopted.9
+Let Fi,t denote the ith futures contract where i starts from 1 to 4 representing the first nearest maturity contract to the fourth nearest maturity contract. Let St denote the spot VIX at time t, the ECM can be written as follows:
+¢Fi.t ⫽ df ⫹ af ûi,t⫺1 ⫹ bf ¢St⫺1 ⫹ gf ¢Fi,t⫺1 ⫹ ef,t,
+¢St ⫽ ds ⫹ asûi,t⫺1 ⫹ bs ¢Ft⫺1 ⫹ gs ¢St⫺1 ⫹ es,t,
+
+i ⫽ 1, 2, 3, 4,
+
+(4)
+
+where ⌬ denotes the first difference operator, and ûi,t ⫽ Fi,t ⫺ a0 ⫺ a1St
+denotes the error from the linear regression between Fi,t and St. The two random error terms are denoted by ␧f,t and ␧s,t. Equation (4) is jointly tested by
+seemingly unrelated regressions. The error correction mechanism is represented by the coefficients of a, which measure how quickly current prices correct
+last period deviation and restore to their long- term equilibrium. If af is significant, then current VIX futures price will adjust to last period deviation from
+equilibrium. Suppose ûi,t⫺1 is positive, which means Fi,t⫺1 is too high (above its
+equilibrium level a0 ⫹ a1St⫺1), as a is expected to be negative, the term af ûi,t⫺1
+9
+
+Wahab and Lashgari (1993) studied the relation between the S&P 500 index futures and the index with an
+ECM and found no clear lead–lag relationship between them.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+36
+
+Shu and Zhang
+
+is also negative. Therefore, ⌬Fi,t will be negative to restore the equilibrium.
+That is, if Ft⫺1 is above its equilibrium, it will start falling in the next period to
+correct the equilibrium error. By the same token, if last period futures price is
+below its long-term equilibrium, it will start to increase in the next period to
+restore the equilibrium. Market efficiency implies that both the spot prices and
+the futures prices react to information simultaneously, there is no adjustment
+in the next period, so a will be insignificant. The lead–lag relationships are represented by the coefficients of b. If bs is significant but bf is insignificant, it is
+said that there is a unidirectional causality from futures prices to spot prices. In
+such a case, the futures market leads spot market in reflecting new information. An inverse causality can be found if bs is insignificant but bf is significant.
+If both coefficients are jointly insignificant, then there is no Granger causality
+between futures and spot prices. Hence, the use of cointegration analysis and
+error correction mechanism enables one to test price discovery over market
+efficiency directly.
+3.2. Nonlinear Granger Causality Testing
+One important problem with the linear causality tests is that such tests may
+ignore the nonlinear relations between economic variables, which are actually
+very common in real world. Baek and Brock (1992) propose a nonparametric
+method to test nonlinear causal relations. Hiemstra and Jones (1994) use a
+modified Baek and Brock test to examine the causal relations between stock
+price and trading volume; they find while linear tests detect unidirectional
+causality from stock returns to trading volume, nonlinear tests provide an additional evidence that causality also exists from trading volume to stock returns.
+Similar results are found by Silvapulle and Moosa (1999), who study nonlinear
+causal relations between crude oil spot and futures prices. In this study, we follow the modified nonlinear test by Hiemstra and Jones (1994).
+Let {xt} and {yt} be two strictly stationary and weakly dependent time
+series, denote the m-length lead vector of xt by xm
+t and the lx-length and
+ly-length lag vector of {xt} and {yt}, respectively, by xlxt⫺lx and ylxt⫺lx. For lx ⱖ 1,
+ly ⱖ 1, m ⱖ 1 and e ⬎ 0, y does not strictly Granger cause x if:
+m
+lx
+lx
+ly
+ly
+Pr(‘ xm
+t ⫺ xs ‘ ⬍ eⱍ‘ xt⫺lx ⫺ xs⫺lx ‘ ⬍ e, ‘ yt⫺ly ⫺ ys⫺ly ‘ ⬍ e)
+m
+lx
+lx
+⫽ Pr( ‘ xm
+t ⫺ xs ‘ ⬍ eⱍ‘ xt⫺lx ⫺ xs⫺lx ‘ ⬍ e),
+
+(5)
+
+where Pr(⭈) and ||⭈|| denote the probability and the maximum norm, respectively. The left side of Equation (5) is the conditional probability that two arbitrary
+m-length lead vector of {xt} are within a distance e of each other, given that
+the corresponding lx-length and ly-length lag vector are within e of each other.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+37
+
+The right side of Equation (5) is the conditional probability that two arbitrary
+m-length lead vector of {xt} are within a distance e of each other, given that the
+corresponding lx-length lag vector are within e of each other. Equation (5) simply states that if y does not strictly Granger cause x, then adding lagged values
+of y will not improve prediction power of x from lagged x values. The conditional probabilities in Equation (5) can be expressed as the ratios of joint probabilities, these joint probabilities are defined as follows:
+m⫹lx
+ly
+ly
+C1(m ⫹ lx, ly, e) ⫽ Pr( ƒ ƒ xm⫹lx
+t⫺lx ⫺ xs⫺lx ƒ ƒ ⬍ e, ƒ ƒ yt⫺ly ⫺ ys⫺ly ƒ ƒ ⬍ e),
+lx
+ly
+ly
+C2(lx, ly, e) ⫽ Pr( ƒ ƒ xlx
+t⫺lx ⫺ xs⫺lx ƒ ƒ ⬍ e, ƒ ƒ yt⫺ly ⫺ ys⫺ly ƒ ƒ ⬍ e),
+
+(6)
+
+m⫹lx
+C3(m ⫹ lx, e) ⫽ Pr( ƒ ƒ xm⫹lx
+t⫺lx ⫺ xs⫺lx ƒ ƒ ⬍ e),
+lx
+C4(lx, e) ⫽ Pr( ƒ ƒ xlx
+t⫺lx ⫺ xs⫺lx ƒ ƒ ⬍ e).
+
+The strict Granger noncausality condition in Equation (5) can be expressed as
+follows:
+C1(m ⫹ lx, ly, e)
+C3(m ⫹ lx, e)
+(7)
+⫽
+.
+C2(lx, ly, e)
+C4(lx, e)
+Let I(Z1, Z2, e) denote a kernel that equals 1 when two conformable vectors Z1
+and Z2 are within the maximum-norm distance e of each other and 0 otherwise.
+Correlation-integral estimators of the joint prbobailities in Equation (6) can
+then be written as:
+C1(m ⫹ lx, ly, e, n) ⫽
+C2(lx, ly, e, n) ⫽
+
+2
+m⫹l x
+m⫹lx
+ly
+ly
+a I(xt⫺lx , xs⫺lx , e) ⫻ I(yt⫺ly, ys⫺ly, e),
+n(n ⫹ 1) ta
+⬍s
+
+2
+lx
+lx
+ly
+ly
+a I(xt⫺lx, xs⫺lx, e) ⫻ I(yt⫺ly , ys⫺ly, e),
+n(n ⫹ 1) ta
+⬍s
+
+C3(m ⫹ lx, e, n) ⫽
+C4(lx, e, n) ⫽
+
+2
+m⫹l x
+m⫹l x
+a I(xt⫺l x , xs⫺lx , e),
+n(n ⫹ 1) ta
+⬍s
+
+(8)
+
+2
+lx
+lx
+a I(xt⫺l x , x s⫺l x , e).
+n(n ⫹ 1) ta
+⬍s
+
+t, s ⫽ max(lx, ly) ⫹ 1, . . . T⫺ m ⫹ 1, n ⫽ T ⫹ 1 ⫺ m ⫺ max(lx, ly).
+Using the joint probability estimators in Equation (8), the strict Granger noncausality conditions in Equation (5) can be tested as follows. For lx ⱖ ly ⱖ 1,
+m ⱖ 1, and e ⬎ 0
+2n a
+
+C1(m ⫹ lx, ly, e, n)
+C3(m ⫹ lx, e, n)
+⫺
+b ⬃ AN(0, s2 (m, lx, ly, e)).
+C2(lx, ly, e, n)
+C4(lx, e, n)
+Journal of Futures Markets
+
+(9)
+
+DOI: 10.1002/fut
+
+38
+
+Shu and Zhang
+
+The nonlinear Granger causality tests are applied to the estimated residual
+series from the seemingly uncorrelated vector model in Equation (4), {␧f,t},
+{␧s,t}. Baek and Brock (1992) argue that by removing linear predictive power
+with a linear vector model, any remaining incremental predictive power of one
+residual series for another can be considered nonlinear predictive power. To
+conduct the modified Baek and Brock test, values for the lead length m, the lag
+lengths lx and ly, and the scale parameter e must be chosen. Following
+Hiemstra and Jones (1994), we set the lead length at m ⫽ 1, and set lx ⫽ ly,
+using lag lengths of 1 to 4 lags. To eliminate the scale problems, each series is
+standardized using a common standard deviation of s ⫽ 1, and e is set to be
+1.5, 1 and 0.5 respectively.
+
+4. EMPIRICAL RESULTS
+4.1. Linear Granger Test Results
+Equation (4) is estimated to test the causality between spot VIX and VIX
+futures prices using seemingly unrelated regressions, the results are reported in
+Table V. Panel A reports the results of the Granger tests on VIX and the nearest
+maturity VIX futures prices. The null hypothesis that VIX levels do not lead VIX
+futures prices cannot be rejected as b1, f is insignificant at the 5% level, thus
+indicating that historical changes in VIX provide little information in forecasting the next period’s VIX futures price. On the other hand, bs is significant at
+the 5% level, and so the null hypothesis that VIX futures prices do not lead VIX
+can be rejected, indicating that the VIX futures prices contain useful information in forecasting next period VIX. This unidirectional causality is also true for
+the second nearest maturity VIX futures prices, but is weaker for futures prices
+with longer maturities. The error correction coefficient af is negative and significant at the 5% level. The negative af implies that if the current futures price
+is above its equilibrium level, it will decrease in value in the next period, thus
+eliminating any disequilibrium. as is also significant and has a positive sign.
+Since we adopt futures equilibrium errors as the error correction term
+(ûi,t ⫽ Fi,t ⫺ a0 ⫺ a1St ) , a positive as shows that if ûi,t is positive (which means
+current futures price is too high relative to its equilibrium price), the spot price
+in the next period will increase. Our results show that even in the absent of
+cost of carry relation, there is a long run equilibrium between VIX spot and
+futures prices. Both the VIX and VIX futures prices respond to the deviations
+from equilibrium, though the speed of adjustment is quicker for the VIX
+futures prices. This result also suggests that the volatility market does not
+process information simultaneously, and there is at least one-day delay in
+absorbing new information. The autocorrelation coefficient gf is significant at
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+39
+
+TABLE V
+
+Seemingly Unrelated Regressions on VIX and VIX Futures Prices with an ECM
+d
+
+a
+
+b
+
+g
+
+R2
+
+⫺0.089
+(0.021)*
+0.067
+(0.031)*
+
+0.032
+(0.034)
+⫺0.234
+(0.067)*
+
+⫺0.181
+(0.047)*
+⫺0.013
+(0.048)
+
+0.034
+
+⫺0.039
+(0.0089)*
+0.0263
+(0.02)
+
+⫺0.0295
+(0.0185)
+⫺0.365
+(0.094)*
+
+⫺0.086
+(0.041)*
+⫺0.033
+(0.042)
+
+0.028
+
+⫺0.0258
+(0.0065)*
+0.021
+(0.019)
+
+⫺0.053
+(0.024)
+0.1106
+(0.125)
+
+0.054
+(0.049)
+⫺0.185
+(0.054)*
+
+0.021
+
+⫺0.0199
+(0.0057)*
+0.0234
+(0.0195)
+
+⫺0.056
+(0.0128)
+0.1527
+(0.1487)
+
+0.1062
+(0.043)*
+⫺0.19
+(0.0435)*
+
+Panel A: Relation between F1 and S
+EQ(T1)
+EQ(T2)
+
+⫺0.0065
+(0.037)
+0.011
+(0.054)
+
+0.038
+
+Panel B: Relation between F2 and S
+EQ(T1)
+
+0.0091
+(0.023)
+0.013
+(0.054)
+
+EQ(T2)
+
+0.0391
+
+Panel C: Relation between F3 and S
+EQ(T1)
+
+0.0088
+(0.018)
+0.0107
+(0.054)
+
+EQ(T2)
+
+0.028
+
+Panel D: Relation between F4 and S
+EQ(T1)
+
+0.0075
+(0.0159)
+0.0106
+(0.054)
+
+EQ(T2)
+
+0.0282
+0.031
+
+Note. ECM, error correction mechanism.
+¢Fi,t ⫽ df ⫹ af ûi,t⫺1 ⫹ bf ¢St⫺1 ⫹ gf ¢Fi,t⫺1 ⫹ eft,
+¢St ⫽ df ⫹ af ûi,t⫺1 ⫹ bs ¢Fi,t⫺1 ⫹ gs ¢St⫺1 ⫹ eft,
+
+(T1)
+i ⫽ 1, 2, 3, 4,
+
+(T2)
+
+where ⌬ denotes the first difference operator, ûi,t ⫽ Fi,t ⫺ a 0 ⫺ a1St denotes the error from the linear regression between Fi,t and
+St . i ⫽ 1, 2, 3, 4 stands for the nearest maturity VIX futures prices, the second nearest maturity VIX futures prices, the third nearest
+maturity VIX futures prices and the fourth nearest maturity VIX futures prices respectively. St stands for spot VIX. The two random
+error terms are denoted by ␧f,t and ␧s,t. Standard errors are reported in parentheses.
+*Significant at 5% level.
+
+the 5% significance level for the nearest and the second nearest maturity contract, indicating that VIX futures prices can be forecasted by their historical
+levels. Our results confirm the finding of Konstantinidi and Skiadopoulos
+(2011) that historical VIX prices are useful in forecasting the next period’s VIX
+futures prices. Collectively, the results in Table V suggest that the VIX futures
+prices lead VIX, the pattern is almost similar for the second nearest maturity
+VIX futures contract. The full sample results support price discovery vs. market
+efficiency in the VIX futures market. If this is true, it implies that traders can
+use VIX futures prices to forecast VIX. VIX is a forward-looking volatility of the
+S&P 500 index returns and is negatively correlated with the S&P 500 index. If
+VIX can be predicted by previous VIX futures price, market agents may look at
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+40
+
+Shu and Zhang
+
+price changes in the VIX futures market when making their best guess of VIX,
+and adjust their stock market positions accordingly. For a distant VIX futures
+price, the causality coefficient b is not significant but the error correction coefficient af is still significant. These findings are in accordance with those of previous studies. Pizzi et al. (1998) find that the S&P 500 index futures returns
+significantly lead cash index returns. Bohl et al. (2011) find that causality
+between spot and futures market is affected by the investor structure, with
+information spilling over from the market that is dominated by institutional
+investors into the other market. Our findings provide indirect evidence that
+traders in the VIX futures market are better informed than traders in the S&P
+500 index option markets.
+4.2. Nonlinear Granger Test Results
+Table VI reports the nonlinear Granger causality tests applied to the residuals
+{␧f,t} and {␧s,t} of the seemingly unrelated regressions, corresponding to VIX
+futures prices and VIX in Equation (4). For all cases, we set the lead length at
+m ⫽ 1, and lx ⫽ ly, using the lag lengths of 1 to 4. Following Hiemstra and Jones
+(1994), we apply the test to standardized residuals to remove any linear relationships. We set the scale parameter at e ⫽ 1s where s ⫽ 1 denotes the standard
+deviation of the standardized residuals.10 There is strong evidence of bidirectional causality between VIX and VIX futures prices of all maturities, as all
+test statistics TVAL are significant at 1% level. This result contrasts sharply to
+that of the linear Granger test, where only unidirectional causality from VIX
+futures prices of the nearest and the second nearest maturity contracts to
+VIX can be detected. Adding nonlinear effects into consideration significantly
+enhances the causal relationships between two time series. Hiemstra and Jones
+(1994) examine causality between stock returns and trading volume and they
+find bi-directional causality relationships which can not be detected by the linear Granger test; Silvapulle and Moosa (1999) find bi-directional causality
+between the crude oil spot and futures prices by the nonlinear test, while the
+linear test suggests one-way causality from the futures prices to the spot prices.
+However, it seems that nonlinear tests detect causality too often. Logically, we
+would expect that distant prices contain less information, so that the causal relationship decays with time. However, in Hiemstra and Jones (1994)’s work, stock
+returns (trading volumes) 8 days ago or yesterday have almost the same impact
+on today’s trading volumes(stock returns). In Silvapulle and Moosa (1999)’s
+study, causality between the spot and futures prices lasts even after 12 days. We
+find that the distant VIX futures prices have almost the same forecast ability as
+10
+
+We also set e ⫽ 0.5 and e ⫽ 1.5 and there are no significant differences.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+41
+
+TABLE VI
+
+Nonlinear Causality Tests Between VIX and VIX Futures Prices
+H0: VIX Futures Prices
+Do Not Lead VIX
+lx ⫽ ly
+
+CS
+
+TVAL
+
+H0: VIX Do Not Lead VIX
+Futures Prices
+CS
+
+TVAL
+
+0.0368
+0.0417
+0.0497
+0.0521
+
+7.3479
+8.0085
+8.5804
+7.7515
+
+0.0345
+0.0451
+0.0488
+0.0488
+
+6.8674
+7.9347
+8.4216
+7.9577
+
+0.0366
+0.0458
+0.0412
+0.0374
+
+6.5383
+7.6889
+7.7520
+6.8132
+
+0.0345
+0.0465
+0.0460
+0.0395
+
+6.5285
+7.5320
+7.3796
+6.6947
+
+Panel A: VIX and the nearest maturity VIX futures prices
+1
+2
+3
+4
+
+0.0254
+0.0295
+0.0268
+0.0266
+
+5.8439
+6.3961
+5.7827
+6.1495
+
+Panel B: VIX and the second nearest maturity VIX futures prices
+1
+2
+3
+4
+
+0.0304
+0.043
+0.0454
+0.0467
+
+6.3307
+7.1512
+7.0979
+7.3163
+
+Panel C: VIX and the third nearest maturity VIX futures prices
+1
+2
+3
+4
+
+0.0302
+0.0453
+0.0473
+0.049
+
+6.0361
+6.7669
+6.323
+6.3493
+
+Panel D: VIX and the fourth nearest maturity VIX futures prices
+1
+2
+3
+4
+
+0.0323
+0.0461
+0.0433
+0.0423
+
+5.286
+6.0467
+5.3757
+5.2241
+
+Note. This table reports the results of the modified Baek and Brock nonlinear Granger causality test applied to the seemingly unrelated regression residuals corresponding to the VIX and VIX futures prices. In all cases, the tests are applied to standardized series
+with s ⫽ 1, the lead length m ⫽ 1, and the length scale e ⫽ 1. CS and TVAL denote the difference between the two conditional probabilities in Equation (8) and the standardized test statistic in Equation (9). Under the null hypothesis of nonlinear Granger noncausality, the test statistic is asymptotically distributed N (0, 1).
+
+the near term VIX futures prices, which shades a doubt on the result of the
+nonlinear Granger test. Moreover, Hiemstra and Jones (1994) point out that
+the nonlinear test fail to reveal the sign of the causal relationship, thereby
+adding more complexities in explaining the nonlinear results. Anyway, our
+results show that over the full sample period, VIX futures prices lead spot VIX
+for at least 1 day, though the nonlinear Granger tests detect even stronger bidirectional causality.
+4.3. Quarterly Lead–Lag Results
+The empirical evidence provided in Table II and Figure 2 suggests that the relationship between VIX and VIX futures price is unstable and varies with the
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+42
+
+Shu and Zhang
+
+TABLE VII
+
+Quarter-by-Quarter Lead–Lag Relationship Between VIX and Nearest VIX Futures Prices
+Specification T1
+Quarter
+Q2–04
+Q3–04
+Q4–04
+Q1–05
+Q2–05
+Q3–05
+Q4–05
+Q1–06
+Q2–06
+Q3–06
+Q4–06
+Q1–07
+Q2–07
+Q3–07
+Q4–07
+Q1–08
+Q2–08
+Q3–08
+Q4–08
+Q1–09
+Average
+
+Specification T2
+
+af
+
+bf
+
+gf
+
+R2
+
+as
+
+bs
+
+gs
+
+R2
+
+0.0676
+(0.07)
+⫺0.1485
+(0.1029)
+⫺0.1266
+(0.083)
+⫺0.086
+(0.1357)
+⫺0.0062
+(0.0767)
+⫺0.1048
+(0.045)*
+⫺0.0669
+(0.098)
+⫺0.0986
+(0.102)
+⫺0.2245
+(0.148)
+⫺0.1814
+(0.139)
+⫺0.1927
+(0.114)
+0.0155
+(0.1179)
+⫺0.026
+(0.182)
+⫺0.274
+(0.2013)
+⫺0.075
+(0.1556)
+0.1274
+(0.1611)
+⫺0.406
+(0.176)*
+⫺0.1423
+(0.093)
+⫺0.1154
+(0.107)
+0.0344
+(0.2013)
+⫺0.1083
+(0.1167)
+
+0.1
+(0.133)
+⫺0.056
+(0.1734)
+0.2117
+(0.1521)
+0.092
+(0.1294)
+⫺0.0085
+(0.095)
+⫺0.0486
+(0.073)
+0.1021
+(0.086)
+0.0046
+(0.09)
+0.5014
+(0.129)*
+0.1246
+(0.149)
+0.044
+(0.145)
+0.1353
+(0.149)
+0.095
+(0.126)
+⫺0.018
+(0.191)
+⫺0.078
+(0.16)
+0.2604
+(0.13)*
+⫺0.2524
+(0.167)
+⫺0.339
+(0.153)*
+0.068
+(0.158)
+0.049
+(0.3345)
+0.0494
+(0.1757)
+
+⫺0.138
+(0.165)
+0.0115
+(0.155)
+⫺0.2584
+(0.136)**
+0.048
+(0.186)
+0.074
+(0.159)
+0.1024
+(0.1418)
+⫺0.211
+(0.137)
+0.0833
+(0.15)
+⫺0.717
+(0.168)
+⫺0.075
+(0.177)
+0.068
+(0.149)
+⫺0.292
+(0.263)
+⫺0.065
+(0.185)
+0.036
+(0.248)
+⫺0.171
+(0.238)
+⫺0.433
+(0.213)*
+0.152
+(0.187)
+0.278
+(0.206)
+⫺0.2331
+(0.228)
+⫺0.32
+(0.4)
+⫺0.1030
+(0.2331)
+
+0.0358
+
+0.0477
+(0.09)
+0.124
+(0.086)
+0.084
+(0.078)
+0.278
+(0.211)
+0.2292
+(0.127)
+0.0174
+(0.093)
+0.5463
+(0.166)*
+0.443
+(0.195)*
+0.207
+(0.252)
+0.287
+(0.177)
+0.251
+(0.113)*
+0.324
+(0.21)
+0.845
+(0.298)*
+⫺0.028
+(0.288)
+0.257
+(0.239)
+0.5223
+(0.255)*
+0.082
+(0.204)
+⫺ 0.1483
+(0.143)
+0.086
+(0.156)
+0.1736
+(0.24)
+0.2314
+(0.2285)
+
+0.1202
+(0.2118)
+⫺0.094
+(0.13)
+⫺0.2837
+(0.128)*
+⫺0.269
+(0.293)
+0.1228
+(0.264)
+⫺0.073
+(0.294)
+⫺0.2233
+(0.2321)
+⫺0.053
+(0.256)
+⫺0.954
+(0.287)*
+⫺ 0.263
+(0.225)
+⫺ 0.083
+(0.149)
+⫺0.513
+(0.467)
+⫺0.32
+(0.3)
+0.2524
+(0.355)
+0.047
+(0.368)
+⫺0.361
+(0.338)
+0.2235
+(0.217)
+0.583
+(0.317)
+⫺0.519
+(0.333)
+⫺0.21
+(0.477)
+⫺0.1435
+(0.3316)
+
+⫺0.161
+(0.17)
+⫺0.1
+(0.145)
+0.127
+(0.14)
+0.061
+(0.204)
+⫺0.1668
+(0.157)
+⫺0.1446
+(0.1541)
+0.045
+(0.145)
+⫺0.082
+(0.154)
+0.6
+(0.221)*
+0.292
+(0.29)
+0.109
+(0.144)
+0.207
+(0.265)
+0.262
+(0.206)
+⫺0.303
+(0.274)
+⫺ 0.311
+(0.247)
+⫺0.004
+(0.22)
+⫺0.345
+(0.195)
+⫺0.725
+(0.237)*
+0.23
+(0.2311)
+⫺0.124
+(0.4)
+⫺0.0267
+(0.2874)
+
+0.025
+
+0.038
+0.1336
+0.057
+0.044
+0.1
+0.087
+0.028
+0.349
+0.069
+0.058
+0.022
+0.023
+0.043
+0.073
+0.07
+0.091
+0.082
+0.042
+0.072
+
+0.061
+0.08
+0.056
+0.103
+0.031
+0.19
+0.161
+0.161
+0.055
+0.079
+0.072
+0.179
+0.029
+0.137
+0.156
+0.083
+0.157
+0.048
+0.099
+
+Note. Model is estimated with an error correction mechanism (ECM)
+¢Ft ⫽ df ⫹ af ût⫺1 ⫹ bf ¢St⫺1 ⫹ gf ¢Ft⫺1 ⫹ ef,t,
+
+(T1)
+
+¢St ⫽ ds ⫹ asût⫺1 ⫹ bs ¢Ft⫺1 ⫹ gs ¢St⫺1 ⫹ es,t,
+
+(T2)
+
+where ⌬ denotes the first difference operator, ût ⫽ Ft ⫺ a 0 ⫺ a1St denotes the error from the linear regression between Ft and St. The
+two random error terms are denoted by ␧f,t and ␧s,t. Ft denotes the VIX futures price for the nearest maturity contract, and St denotes
+the corresponding VIX settlement price on the same day. The sample period is from April 2004 to March 2009, there are 20 quarters
+altogether.
+*Significant at 5% level.
+
+Causality in the VIX Futures Market
+
+S&P 500 index level. When the S&P 500 index moves greatly, VIX is higher than
+VIX futures price; when the S&P 500 index moves modestly, VIX is lower
+than VIX futures price. If the temporal relations between VIX and VIX futures
+prices are unstable, statistical reference based on a constant coefficient
+assumption, using the full sample in estimation, can be misleading. To account
+for the fact that the parameters may not be constant over time and to further
+check the validity of the lead–lag relationship between VIX futures prices and
+VIX, Equation (4) is re-estimated on quarterly basis. The whole of the sample
+period comprises 20 complete quarters. Table VII reports estimated parameters
+quarter by quarter, and the estimated parameters are quite noisy. Among all 20
+quarters, the VIX futures prices lead VIX in only two of them (i.e. Q1 of 2008
+and Q3 of 2008)—in another quarter (i.e. Q1 of 2005) spot VIX is found to
+lead the VIX futures price. Bidirectional causation between spot VIX and VIX
+futures prices is detected in one quarter (Q2 of 2006). Except for these four
+quarters, there is no clear lead–lag relationship from either VIX to VIX futures
+prices or from VIX futures prices to VIX. The null hypothesis that the average
+estimated causality parameters (the b coefficients) fails to be rejected even at
+the 10% significance level. This evidence is far from overwhelming, and the
+mixed nature of the directional impacts makes any systematic impact unlikely.
+Because there is no clear lead–lag relationship from VIX futures prices to VIX,
+it is conclude that VIX futures prices do not serve a consistent price-discovery
+function. This result contrasts with the full sample estimation result, where
+VIX futures prices lead VIX on at least one day. The error correction coefficients (i.e. the a coefficients) become insignificant in most quarters, indicating
+that both VIX futures prices and VIX reflect information in the same period—
+further evidence that supports information efficiency versus price discovery.
+Konstantinidi et al. (2008), and Konstantinidi and Skiadopoulos (2011) find
+that although VIX future prices are predictable, such forecast cannot generate
+any arbitrage profits, they conclude that the VIX futures market is information
+efficient. Our results show although over the full sample period, VIX can be
+forecasted by VIX futures price, such prediction is unstable and is not very useful in gauging future movement in either VIX or VIX futures.
+5. CONCLUSIONS
+The goal of this research is to explicitly examine causality between VIX and VIX
+futures prices. In light of the information role of implied volatility in forecasting
+the S&P 500 index return volatilities, and the growing interest in trading VIX
+derivatives for portfolio diversification purposes, it is important to directly
+address the issue of whether VIX and VIX futures price are predictable by one
+another, and whether they can be predicted by their own historical patterns.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+43
+
+44
+
+Shu and Zhang
+
+In this study, we use Engle–Granger cointegration tests with the ECM to investigate the lead–lag dynamics between VIX and VIX futures prices. The empirical
+results suggest two primary findings. First, over the full sample period, the nearest and the second nearest maturity VIX futures prices lead the spot VIX index,
+indicating that the VIX futures market has some price-discovery function. No
+causality effect is detected for distant VIX futures prices. Historical VIX futures
+prices are useful in forecasting the next period’s VIX futures price. Collectively,
+these results suggest that the VIX futures market contain more information than
+VIX. One possible explanation for this is that VIX futures market maybe more
+attractive to institutional traders. Empirical evidence shows that VIX values are
+much higher than VIX futures prices, particularly when the stock market is
+volatile. This may implies that portfolio insurance through long S&P 500
+options may be too expensive when investors are dominated by fear sentiments.
+The relative stable VIX futures prices combined with high liquidity makes VIX
+futures market very attractive. If more informed traders are attracted by the
+VIX futures market, it is reasonable that VIX futures prices lead spot VIX.
+Second, the unidirectional causality from VIX futures prices to VIX is unstable,
+subject to the estimation method and the sampling period. A modified Baek and
+Brock nonlinear Granger detect bi-directional causality between VIX and VIX
+futures prices, suggesting that both spot and futures prices react simultaneously to new information. Quarter-by-quarter estimations show that the estimated
+causality coefficients are inconstant, and on average do not significantly different from zero, thus providing further evidence that VIX and VIX futures mraket
+react to information in the same period. Though the VIX futures market has
+some price-discovery function, such prediction power is unstable and is not very
+useful in gauging future price movement. Overall, it is concluded that the VIX
+futures market is information efficient.
+BIBLIOGRAPHY
+Baek, E., & Brock, W. (1992). A general test for nonlinear Granger causality: Bivariate
+model (working paper). Madison, WI: Iowa State University, University of
+Wisconsin.
+Bohl, M. T., Salm, C., & Schuppli, M. (2011). Price discovery and investor structure in
+stock index futures. Journal of Futures Markets, forthcoming.
+Brenner, M., Ou, E. Y., & Zhang, J. E. (2006). Hedging volatility risk. Journal of
+Banking and Finance, 30, 811–821.
+Brenner, R. J., & Kronner, K. F. (1995). Arbitrage, cointegration, and testing the unbiasedness hypothesis in financial markets. Journal of Financial and Quantitative
+Analysis, 30, 23–42.
+Carr, P., & Wu, L.-R. (2006). A tale of two indices. Journal of Derivatives, 13, 13–29.
+Carr, P., & Wu, L.-R. (2009). Variance risk premiums. Review of Financial Studies, 22,
+1311–1341.
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+Causality in the VIX Futures Market
+
+Chow, Y. F. (2001). Arbitrage, risk premium and cointegration tests of the efficiency of
+futures markets. Journal of Business Finance and Accounting, 28, 693–713.
+Christensen, B. J., & Prabhala, N. R. (1998). The relation between implied and realized volatility. Journal of Financial Economics, 50, 125–150.
+Cont, R., & Kokholm, T. (2011). A consistent pricing model for index options and
+volatility derivatives. Mathematical Finance, forthcoming.
+Corrado, C. J., & Miller, T. W. (2005). The forecast quality of CBOE implied volatility
+indexes. Journal of Futures Markets, 25, 339–373.
+Daigler, R. T., & Rossi, L. (2006). A portfolio of stocks and volatility. Journal of
+Investing, Summer, 99–106.
+Dupoyet, B., Daigler, R. T., & Chen, Z.-Y. (2011). A simplified pricing model for volatility futures. Journal of Futures Markets, forthcoming.
+Engle, R. F., & Granger, C. W. J. (1987). Co-integration and error correction:
+Representation, estimation and testing. Econometrica, 55, 251–276.
+Hiemstra, C., & Jones, J. D. (1994). Testing for linear and non-linear Granger causality in the stock price-volume relation. Journal of Finance, 49, 1639–1664.
+Konstantinidi, E., & Skiadopoulos, G. (2011). Are VIX futures prices predictable? An
+empirical investation. International Journal of Forecasting, forthcoming.
+Konstantinidi, E., Skiadopoulos, G., & Tzagkaraki, E. (2008). Can the evolution of
+implied volatility be forecasted? Evidence from European and US implied volatility indices. Journal of Banking and Finance, 32, 2401–2411.
+Kung, J. J., & Carverhill, A. P. (2005). A cointegration study of the efficiency of the US
+Treasury STRIPS market. Applied Economics, 37, 695–703.
+Lin, Y.-N. (2007). Pricing VIX futures: Evidence from integrated physical and riskneutral probability measures. Journal of Futures Markets, 27, 1175–1217.
+Lin, Y.-N., & Chang, C.-H. (2009). VIX option pricing. Journal of Futures Markets 29,
+523–543.
+Lin, Y.-N., & Chang, C.-H. (2010). Consistent modeling of S&P 500 and VIX derivatives. Journal of Economic Dynamics and Control, 34, 2302–2319.
+Pizzi, M. A., Economopoulos, A. J., & O’Neill, H. M. (1998). An examination of the
+relationship between stock index cash and futures markets: A cointegration
+approach. Journal of Futures Markets, 18, 297–305.
+Sepp, A. (2008a). VIX option pricing in jump-diffusion model. Risk, April, 84–89.
+Sepp, A. (2008b). Pricing options on realized variance in Heston model with jumps in
+returns and volatility. Journal of Computational Finance, 11, 33–70.
+Silvapulle, P., & Moosa, I. A. (1999). The relationship between spot and futures prices:
+Evidence from the crude oil market. Journal of Futures Markets, 19(2), 175–193.
+Stoll, R. H., & Whaley, R. E. (1990). The dynamics of stock index and stock index
+futures returns. Journal of Financial and Quantitative Analysis, 25, 441–468.
+Szado, E. (2009). VIX futures and options—A case study of portfolio diversification
+during the 2008 financial crisis (working paper). Amherst, MA: University of
+Massachusetts.
+Wahab, M., & Lashgari, M. (1993). Price dynamics and error correction in stock index
+and stock index futures markets: A cointegration approach. Journal of Futures
+Markets, 13, 711–742.
+Wang, Z.-G., & Daigler, R. T. (2010). The performace of VIX option pricing models:
+expirical evidence beyond simulation. Journal of Futures Markets, forthcoming.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+45
+
+46
+
+Shu and Zhang
+
+Whaley, R. E. (2000). The investor fear gauge. Journal of Portfolio management, 26,
+12–17.
+Whaley, R. E. (2009). Understanding the VIX. Journal of Portfolio Management, 35,
+98–105.
+Zhang, J., Sanning, L. W., & Shaffer, S. (2010). Market efficiency test in the VIX
+futures market (working paper). Laramie, WY and Australia: University of
+Wyoming and Australian National University.
+Zhang, J. E., & Huang, Y.-Q. (2010). The CBOE S&P 500 three-month variance
+futures. Journal of Futures Markets, 30, 48–70.
+Zhang, J. E., Shu, J.-H., & Brenner, M. (2010). The new market for volatility trading.
+Journal of Futures Markets, 30, 809–833.
+Zhang, J. E., & Zhu, Y.-Z. (2006). VIX Futures. Journal of Futures Markets, 26,
+521–531.
+Zhu, Y.-Z., & Zhang, J. E. (2007). Variance term structure and VIX futures pricing.
+International Journal of Theoretical and Applied Finance, 10, 111–127.
+
+Journal of Futures Markets
+
+DOI: 10.1002/fut
+
+

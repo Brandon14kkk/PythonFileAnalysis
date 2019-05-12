@@ -1,0 +1,3423 @@
+ARTICLE IN PRESS
+
+Journal of Financial Markets 10 (2007) 219–248
+www.elsevier.com/locate/ﬁnmar
+
+Ownership level, ownership concentration
+and liquidity$
+Amir Rubin
+Faculty of Business Administration, Simon Fraser University, 8888 University Drive, Burnaby, Canada, V5A 1S6
+Available online 14 April 2007
+
+Abstract
+We examine the link between the liquidity of a ﬁrm’s stock and its ownership structure, speciﬁcally,
+how much of the ﬁrm’s stock is owned by insiders and institutions, and how concentrated is their
+ownership. We ﬁnd that the liquidity-ownership relation is mostly driven by institutional ownership
+rather than insider ownership. Importantly, liquidity is positively related to total institutional
+holdings but negatively related to institutional blockholdings. This ﬁnding is consistent with the
+hypothesis that while the level of institutional ownership proxies for trading activity, the
+concentration of such ownership proxies for adverse selection.
+r 2007 Elsevier B.V. All rights reserved.
+JEL classifications: G12; G32
+Keywords: Ownership; Concentration; Liquidity; Adverse selection; Trading
+
+0. Introduction
+An unresolved area in the ﬁeld of ﬁnance is the relation between share ownership
+structure and liquidity. When considering this relation, researchers focus on two
+hypotheses, which we refer to as the adverse selection hypothesis and the trading
+hypothesis. The adverse selection hypothesis posits that when informed shareholders
+possess superior information compared to outside shareholders, an information asymmetry
+$
+
+The author thanks Aditya Kaul, Hernan Ortiz-Molina, Avanidhar subrahmanyam (the editor), an
+anonymous referee, and seminar participants at the 2006 Northern Finance Association Meeting. Research
+support of the Social Sciences and Humanities Research Council of Canada is gratefully acknowledged.
+E-mail address: arubin@sfu.ca.
+1386-4181/$ - see front matter r 2007 Elsevier B.V. All rights reserved.
+doi:10.1016/j.ﬁnmar.2007.04.002
+
+ARTICLE IN PRESS
+220
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+arises, which reduces liquidity (e.g., Grossman and Stiglitz, 1980; Glosten and Milgrom,
+1985; Kyle, 1985; Easley and O’Hara, 1987). The trading hypothesis, on the other hand,
+posits that when investors turn over their portfolio more often, transactions costs are
+reduced, which increases liquidity (Demsetz, 1968; Merton, 1987; Schwartz and Shapiro,
+1992). Given these two hypotheses, studying the empirical relationship between liquidity
+and ownership is complex as different ownership proxies may vary in their suitability for
+capturing these two costs with adverse selection costs on the one side, and trading frictions
+on the other.
+While the focus of most empirical studies on the ownership-liquidity relation is on the
+adverse selection hypothesis (e.g., Chiang and Venkatesh, 1988; Kini and Mian, 1995;
+Heﬂin and Shaw, 2000; Barabanov and McNamara, 2002), there is no consensus in the
+literature about which entities constitute the informed group of investors. Some studies
+focus on insiders, some focus on institutions, and some focus on blockholders.1 The fact
+that all three groups have been shown to have superior information presents a challenge
+for several reasons.
+First, adverse selection costs depend on the probability that a market maker trades
+with an informed investor. This means that considering only one group of possibly
+informed shareholders may underestimate the extent of the actual information asymmetry
+that exists. Second, the three groups of investors are overlapping. An institutional
+investor can be an insider, an insider can be an institution, and a blockholder can be either
+an insider or an institution. Without a partition that effectively separates the three groups
+of investors, it would be hard to decide which groups of investors drive the observed
+relation.
+Third, as discussed above, adverse selection is only one of the factors hypothesized to be
+related to liquidity. Group-speciﬁc trading behavior may also be important. In general, it
+seems that institutions tend to turn over their portfolio more often than other investors.
+For example, mutual funds typically have to trade when exogenous shocks of cash
+withdrawals or infusions occur as they are committed to provide funds to unit holders on
+demand and to comply with their stated investment policy. In some instances, institutional
+portfolio turnover may be driven by agency problems (e.g., window dressing), where a
+fund manager seeks to buy winners and sell losers before accounting statements are made
+public. Finally, some institutions’ trades are determined primarily by pre-determined
+investment objectives, such as indexing; and their trades are largely determined by
+movements in the index, which tend to occur continuously. Thus, to the extent that
+institutions as a group trade more often, institutional ownership should reduce a market
+maker’s required inventory, which in turn may reduce spreads (e.g., Tinic, 1972; Hamilton,
+1978; Schwartz and Shapiro, 1992; Gompers and Metrick, 2001).
+In view of the foregoing, it seems that whether the predictions of the adverse selection
+and trading hypotheses are similar or different may depend on which group we consider
+informed. If one takes insiders to be informed, the predictions of the adverse selection and
+trading hypotheses on liquidity are similar, that is, higher insider ownership should be
+1
+Evidence of insiders’ information superiority includes Jaffe (1974), Lin and Howe (1990), Bettis, Coles, and
+Lemmon (2000), and Lakonishok and Lee (2001). Evidence of blockholders’ information superiority includes
+Bethel, Liebeskind, and Opler (1988), McConnell and Servaes (1990), and Barclay and Holderness (1991).
+Evidence of institutions’ information superiority includes Szewczyk, Tsetsekos, and Varma (1992), Alangar,
+Balhala, and Rao (1999), and Bartov, Radhakrishnan, and Krimsky (2000).
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+221
+
+correlated with lower liquidity. However, if one takes institutions to be the informed
+group, the predictions of the two hypotheses are in opposite directions.
+In this paper we hope to gain a better understanding of the interplay between these two
+hypotheses and their respective relations to liquidity. Toward this end, we construct a highresolution set of ownership data. In broad terms, the argument is that while ownership
+level proxies for group-speciﬁc trading behavior, ownership concentration proxies for
+information asymmetry as ownership concentration measures quantify the incentives of
+few shareholders to obtain, analyze, and trade on information (e.g., Black, 1992; Hartzell
+and Starks, 2003). Therefore, we construct both level and concentration measures. The
+ownership level variables are insiders, non-insider institutions (that is, institutions or
+institutional investors), and others. These three mutually exclusive groups sum up to
+100%. The concentration measures are insider blockholders and institutional blockholders, that is, the concentration measures are constructed for the groups of investors
+which may be considered informed.
+A concrete example of our approach is illustrated in Fig. 1.
+The ﬁgure presents the ownership structure of Microsoft and Federal Express as of Q4
+2003. The ownership level is represented by the size of the slice, while the ownership
+concentration is represented by the grayscale of the slice; a white slice represents dispersed
+ownership in the group, while a dark slice represents a high level of concentration in the
+group. The ﬁgure shows that Microsoft has a larger portion of insiders and a smaller
+portion of institutional investors than Federal Express. The ﬁgure also shows that while
+the institutional holdings of Microsoft shares is dispersed, some institutional blockholders
+hold Federal Express shares.
+The above approach allows us to analyze within one framework all the ownership
+variables that have been used in previous liquidity-ownership studies (blockholder
+ownership, institutional ownership, and insider ownership). In some sense we conduct a
+horse-race between the different ownership variables and their relations to liquidity. This
+horse-race approach is especially important because of the high correlations among the
+different ownership variables, as these high correlations can lead to spurious results in the
+presence of misspeciﬁcation. Moreover, by partitioning between insiders and institutional
+concentration we are able to distinguish between two types of possibly informed investors,
+those who are prohibited from trading on information and those who are not. US
+securities laws prohibit insiders from trading on private information. In contrast, most
+institutional blockholders are permitted to trade on information as they are not classiﬁed
+as insiders even if they hold more than 10% of a stock’s outstanding shares.
+Because we want to avoid overlaps between institutions and insiders, we gather our
+insider ownership data from insider reporting statements (SEC forms 3 and 4). These data
+together with institutional investors’ quarterly 13F schedules and the intra-day data of the
+NYSE Trades and Quotes (TAQ) data set allow us to construct quarterly ownership and
+liquidity variables for 1,369 ﬁrms during the years 1999–2003. We employ several liquidity
+measures, including volume measures, turnover, quoted depth and spreads, effective
+spread, realized spread, and price impact. We construct a variety of liquidity measures
+because recent research argues that trade-based measures are uncorrelated with orderdriven measures (Aitken and Comerton-Forbe, 2003). For our purposes this is especially
+important as it seems that trade-based measures should be more correlated with the
+trading behavior of shareholders, while order-driven measures should be more correlated
+with the adverse selection costs embedded in the ownership structure.
+
+ARTICLE IN PRESS
+222
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+MSFT - Microsoft Corporation
+Insider block holdings
+10.71%
+Insiders
+(16.00%)
+Others
+
+Institutions
+54.03%
+
+Institutional block
+holdings - 0%
+
+FDX - Fedex Corporation
+Insiders
+(6.03%)
+
+Insider block holdings
+5.14%
+
+Others
+
+Institutions
+72.47%
+
+Institutional block
+holdings - 23.37%
+
+Fig. 1. The ownership structure of Microsoft and Federal Express as of Q4 2003. The ownership level is
+represented by the size of the slice, while the ownership concentration is represented by the color of the slice.
+A darker shade represents higher concentration.
+
+Our results support both the trading and adverse selection hypotheses; however, we ﬁnd
+that most of the liquidity–ownership relation is driven by institutional ownership and not
+insider ownership. To continue our concrete example, Fig. 2 illustrates Microsoft and
+Federal Express ownership level and liquidity changes over the 20 quarters we study in this
+paper. One can see from the ﬁgure that changes in the time-weighted spread tend to mirror
+changes in institutional holdings. In contrast, there is no apparent correlation between
+insiders’ holdings and liquidity.
+
+ARTICLE IN PRESS
+
+2
+
+0
+
+0
+
+-0.2
+
+-2
+-0.4
+
+-4
+
+-0.6
+
+1999q1 2000q1 2001q1 2002q1 2003q1 2004q1
+
+FDX - Fedex Corporation
+5
+0.4
+0
+
+0.2
+0
+
+-5
+
+-0.2
+-0.4
+
+-10
+
+-0.6
+1999q3
+
+2000q3
+
+quarter
+spread
+
+0
+-0.5
+0.2
+-1
+
+-0.2
+-1.5
+-0.4
+-2
+
+-0.6
+
+1999q1 2000q1 2001q1 2002q1 2003q1 2004q1
+
+change in time-weighted spread
+
+institutional holding
+
+0
+
+insiders holding
+
+2003q3
+
+institutional holding
+
+5
+0.4
+
+4
+
+0.2
+
+3
+2
+
+0
+
+1
+-0.2
+
+0
+
+-0.4
+-0.6
+1999q3
+
+2000q3
+
+quarter
+spread
+
+2002q3
+
+quarter
+
+change in insider holding
+
+change in time-weighted spread
+
+spread
+
+2001q3
+
+2001q3
+
+2002q3
+
+change in insider holding
+
+0.2
+
+223
+
+change in institutional holding
+
+4
+
+change in time-weighted spread
+
+MSFT - Microsoft Corporation
+change in institutional holding
+
+change in time-weighted spread
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+2003q3
+
+quarter
+spread
+
+insiders holding
+
+Fig. 2. Ownership level changes and time-weighted spread changes over the 20 quarters: Microsoft and Federal
+Express.
+
+We ﬁnd that while institutional holdings are positively correlated with liquidity,
+suggesting more frequent trades of institutional investors compared to other investors,
+institutional concentration is negatively correlated with liquidity, suggesting that
+institutional blockholders are perceived by market makers to have superior information.
+This relation is rather stable and persistent across all liquidity measures. Further, we ﬁnd
+evidence that insider ownership is negatively correlated with trade-based measures of
+liquidity, but is positively correlated with some order-driven liquidity measures. These
+results support the idea that legal barriers to insider trading are effective, that is, insiders
+are not perceived to be among those shareholders that trade on private information.
+Finally, our results hold in many different speciﬁcations including a simultaneous
+equation speciﬁcation, in which ownership level, ownership concentration, and liquidity
+are determined jointly.
+Our main contribution to the ﬁnancial literature is to provide an extensive empirical
+analysis on the ownership-liquidity relation over a ﬁve-year period. We explore this
+relation taking into account the observations that the ownership variables are inherently
+related, and further, that liquidity has many dimensions. The construction of the highresolution ownership data, together with the recent availability of the NYSE TAQ intraday data, allows us to achieve this task.
+The study proceeds as follows. In Section 1, we present our ownership and liquidity
+measures. In Section 2, we provide the sample distribution and a univariate analysis of the
+
+ARTICLE IN PRESS
+224
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+variables. Section 3 presents the multivariate analysis, which for expositional purpose is
+developed in a step-by-step approach that outlines how we handle the high correlations
+among the ownership variables. Section 4 provides a simultaneous equations framework
+wherein ownership level, ownership concentration, and liquidity are determined jointly. In
+Section 5, we verify the robustness of our results. Section 6 concludes.
+1. Data
+We obtain ownership data from Vickers’ Stock Research, who provided us a time series
+of institutional and insider holdings information for the 2,000 largest ﬁrms by asset size as
+of December 31, 1998. Because this data set follows the sample ﬁrms over time, we are able
+to form quarterly snapshots of insiders’ and institutions’ holdings. We then merge this
+information with the NYSE TAQ data set for the period 1999 to 2003, which results in our
+being able to use 20 quarters of ownership and intra-day trading data. After excluding
+ﬁrms that have multiple share classes and ﬁrms that do not appear in one of the above data
+sets, we are left with 1,369 ﬁrms. This sample represents approximately 70% of the market
+value of US public equity over the period.
+1.1. Ownership
+Ownership level variables are well suited to provide us insights about the trading
+behavior of shareholders. For instance, in contrast to other shareholder groups, insiders
+are subject to legal restrictions such as blackout periods (Bettis, Coles, and Lemmen,
+2000). Thus, insiders are likely to trade predominantly on the sell side in order to liquidate
+their holdings. Increases in institutional ownership, on the other hand, are expected to lead
+to increases in trading volume, the number of trades, visibility, and analyst coverage (e.g.,
+Schwartz and Shapiro, 1992).
+Distinct from ownership level, ownership concentration measures are a natural proxy
+for adverse selection. As ﬁrst noted by Black (1992), the incentive of any investor to obtain
+information and trade on it depends on the incentives of other investors to do the same.
+A concentration measure can quantify the incentives of any speciﬁc informed investor as it
+measures the holdings of the informed investor compared to other investors. Thus, if
+institutions are in a position to obtain better information, the probability that a particular
+institution will incur the costs to do so is higher if it enjoys a comparatively large
+ownership share. Similarly, if insiders are more informed, the probability that any one
+insider will trade on such information is larger if the information is held by few rather than
+by many. Note that one can think of an insider with large holdings not only as having
+more incentives to trade on information, but also as having more precise information than
+an insider or institution with smaller holdings. Put differently, it makes sense that Bill
+Gates would be more informed about the future of Microsoft than other executives of
+Microsoft who hold fewer shares and are less important in the ﬁrm’s decision-making
+process.
+1.1.1. Ownership level and ownership concentration
+Our measure for insider holdings is based on data contained in SEC Form 3 and Form 4.
+By law, all insiders, who include all executives, ofﬁcers, and beneﬁcial owners who hold
+directly more than 10% of the ﬁrm’s shares outstanding, must report any transaction on
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+225
+
+these forms within two business days. Vickers provides us an aggregation of all insiders’
+holdings based on the last Form 3 or Form 4 ﬁled by the insider where the amount owned
+is held directly. To ﬁnd the most recent amount owned, Vickers looks at ﬁlings for which
+the transaction date was within the three years prior to the ending year date. Note that
+occasionally some ﬁlers report a transaction but do not report the amount owned on that
+speciﬁc ﬁling (the amount owned would be null); in this case, Vickers goes to the prior
+ﬁling that reported an amount owned.
+Our measure for institutional holdings is the combined holdings of all ﬁnancial
+institutions that report an SEC Schedule 13F but do not report themselves as insiders on
+Form 3 or Form 4. According to rule 16(a)-1 of the Securities Exchange Act of 1934, an
+institutional investor that holds more than 10% of the shares in a company is not
+considered an insider, and therefore is not required to submit Forms 3 and 4, if the shares
+are held for the beneﬁt of third parties in the ordinary course of business and are not
+acquired by such institutions for the purpose of inﬂuencing control over the company. As
+our purpose here is to form mutually exclusive sets of insiders and institutions, we exclude
+from the institutional holdings measure those institutions that also appear as insiders. We
+do this by eliminating from the sample those 13F ﬁlers whose holdings exactly match those
+of an insider ﬁler.2
+Our measures of insider and institutional concentration are insiders’ blockholdings
+and institutional blockholdings. As a proxy for institutional concentration, we also
+use the measure of Hartzell and Starks (2003) (hereafter, the HS measure), which is
+the sum of the top ﬁve non-insider institutional investors divided by total institutional
+holdings. This measure serves as a proxy for the probability that a trade is initiated
+by an informed non-insider investor. If the largest institutional investors monitor
+the ﬁrm, in which case they possess private information that other institutional and
+individual investors do not have, and further, if institutions are responsible for the
+majority of daily trading activity (Schwartz and Shapiro, 1992), then the probability of an
+informed trade is roughly the percentage of holdings by informed institutions divided by
+the percentage of holdings of all institutions. Hartzell and Starks (2003) show that
+this measure is related to the ability of management to monitor. Even though institutional
+blockholdings are more commonly used, one advantage of the HS measure is that
+it is not subject to the arbitrary inclusion cut-off point of 5%. Thus, the HS measure is a
+ﬁner measure of concentration if one wants to follow the concentration level of a given
+ﬁrm over time.
+Note that by partitioning the incentives of insiders and institutions, we are essentially
+partitioning between two groups of potentially informed investors. US securities law and
+the SEC take insiders as those shareholders that have access to non-public information. If
+these shareholders trade on such information, they do so in violation of the securities laws.
+In contrast, an institutional blockholder is not considered an insider so long as it does not
+inﬂuence control (even if it holds more than 10% of the shares outstanding). Thus, even if
+these non-insider institutional blockholders are informed, the SEC perceives their
+information as derived from publicly available information and thus they are permitted
+to trade on such information.
+2
+In many cases the ﬁler will appear under one name when it reports itself on a Schedule 13F and under another
+name when it reports itself as an insider of the ﬁrm on Form 3 or 4. For example, while Berkshire Hathaway, Inc.
+reports itself as Berkshire Hathaway on 13Fs, it commonly appears under other names on Form 3.
+
+ARTICLE IN PRESS
+226
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+1.2. Liquidity
+Because liquidity has many facets, no one measure can capture all of its dimensions. For
+instance, dollar volume, share volume, and turnover are mostly related to the trading
+activity of different owners, whereas order-driven measures are probably more correlated
+with the adverse selection costs embedded in a stock’s ownership structure spread (Lin,
+Sanger, and Boolh, 1995; Huang and Stoll, 1997; Helﬁn and Shaw, 2000; Barclay and
+Hendershott, 2004). We therefore employ ten different measures of liquidity. We construct
+these measures by calculating the average for a given ﬁrm in a given quarter. For measures
+that are dependent on intra-day data, we follow Weston (2000) and Grullon, Kanatas, and
+Weston, (2004) and ﬁlter the TAQ database. We further ﬁlter our data so that we retain
+only those trades that take place during the one-hour period between 12:00 p.m. and 1:00
+p.m. on any given trading day. Our focus on this one hour of trade is consistent with
+McInish and Wood (1992), who ﬁnd that while time-weighted spreads tend to change
+substantially across the trading day, they tend to vary less at the middle part of the trading
+day. One can view our approach as taking a middle ground with regard to the appropriate
+ﬁltering of intra-day observations. On the one hand, we want to have a sufﬁciently
+large data set to create our measures; on the other hand, including trade data from all
+hours of the trading day without modeling the time-varying properties of the liquidity
+measure could be problematic. We believe that a one-hour period is both sufﬁciently long
+to produce reliable measures and sufﬁciently short to safely ignore the time-varying
+properties of liquidity.3
+1.2.1. Volume and turnover
+We construct three different measures that capture the trading activity in a given share
+in a given quarter. Speciﬁcally, dollar volume is the monthly share volume times the
+month’s closing price, share volume is the monthly share volume, and turnover is
+the monthly share volume divided by the number of shares outstanding at the end of the
+month.
+1.2.2. Quoted spreads and depths
+Our main measure for the bid-ask spread is the time-weighted bid-ask spread. This
+measure is calculated by weighting the different relative bid-ask spreads (i.e., the ask price
+minus the bid price, divided by the quote midpoint) according to the length of time that the
+quote is standing (see McInish and Wood, 1992). We also use the equal-weighted bid-ask
+spread, where each quote gets equal weight when averaging across the quarter. We
+calculate our measure of dollar depth as the number of shares at the bid and ask multiplied
+by their respective prices.
+1.2.3. Effective spread and price impact measures
+Following Barclay and Hendershott (2004), we employ two measures. The effective
+spread is the absolute difference between the trade price and the quote midpoint at the time
+of the trade divided by the quote midpoint. The realized spread is the signed (positive for
+buyer-initiated and negative for seller-initiated trades) difference between the trade price
+3
+
+For a subsample of eight quarters, we recalculate the measures over the three-hour period 11:00 a.m. to 2:00
+p.m. The correlation between the intraday measures (of the same type) for one hour and three hours is above 0.95.
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+227
+
+and quote midpoint ﬁve minutes after the trade.4 Our principal measure of price impact
+(intra-day) is the signed difference between the quote midpoint ﬁve minutes after the trade
+and the quote midpoint at the time of the trade. The effective spread, realized spread, and
+price impact are calculated each minute and then averaged across the quarter. Finally,
+price impact (daily) is the measure developed by Amihud (2002) and later employed by
+Acharya and Pedersen (2005). It is the ratio of the daily absolute return to the daily dollar
+volume.
+1.3. Controls
+Because most of the liquidity measures above are also related to return volatility, we
+control for it in the multivariate analysis. Note that since all of the liquidity measures
+of the study are calculated within a given quarter, our volatility measure is also
+calculated based on the daily returns in a given quarter. The other control variables that we
+use are size (log of the market value of the ﬁrm’s equity), share price, and book to
+market. We include size and share price as these have been shown to be correlated with
+many aspects of liquidity; the role of book to market is to control for risk characteristics of
+the ﬁrm.
+2. Univariate analysis
+2.1. Sample distribution
+Table 1 reports the sample distribution properties of ownership, liquidity, and other ﬁrm
+characteristics. Given that our sample consists of 1,369 of the top 2,000 ﬁrms by asset
+value, these ﬁrms are predominantly widely held. The median institution holding is
+approximately 60%, while the median insiders’ holding is less than 2%. The table also
+shows that 75% of the ﬁrms have at least one institutional blockholder. Insider
+blockholders, in contrast, are present for only a small portion of the sample; however, once
+present they hold a very high percentage of the shares outstanding.
+Table 1 also provides the distribution of different types of insiders. Having partitioned
+manager insiders, non-manager insiders (beneﬁcial owners and board members who are
+not executives), and insiders that are also ﬁnancial institutions as observed in 13F
+statements, we ﬁnd that most of the insider holdings are held by beneﬁcial owners and
+directors that are not employed by the ﬁrm. We also ﬁnd that there are few instances in
+which institutions are also insiders.
+Finally, Table 1 provides the distribution of liquidity measures. Consistent with the
+literature, the table shows that the liquidity measures are highly skewed. As a result,
+throughout the analysis we use the log of our liquidity measures. Our sample consists of
+liquid shares: the median monthly dollar volume is close to $150 million, and the median
+quoted spread is 2.25%. The mean effective spread is somewhat lower than what Barclay
+and Hendershott (2004) report for their sample of NASDAQ-only shares. However, the
+mean realized spread is similar in magnitude to what these authors report. Other ﬁrm
+4
+In order to classify trades to buy and sells, we follow the Lee and Ready (1991) algorithm and delay quotes ﬁve
+seconds relative to transactions, with adjustments for the NASDAQ market made according to Ellis, Michaely,
+and O’Hara (2000).
+
+Percentile
+1st
+
+A1. Institutional ownership
+Institutional holdings (%)
+Institutional blockholdings (%)
+HS measure (%)
+A2. Insider ownership
+Insiders’ holdings (%)
+Insiders’ blockholdings (%)
+Insiders — management
+Insiders — no management
+Insiders — institutions
+B. Liquidity measures
+Dollar volume ($million)
+
+5th
+
+25th
+
+50th
+
+75th
+
+95th
+
+99th
+
+55.95
+13.91
+45.78
+
+23.99
+13.28
+17.32
+
+3.00
+0.00
+21.34
+
+11.54
+0.00
+24.93
+
+38.73
+5.03
+33.23
+
+59.58
+11.45
+41.46
+
+74.83
+21.20
+54.35
+
+89.92
+38.39
+83.16
+
+96.66
+55.67
+97.32
+
+7.19
+5.10
+1.44
+3.91
+0.24
+
+13.93
+13.60
+4.30
+11.34
+3.33
+
+0.01
+0.00
+0.00
+0.00
+0.00
+
+0.07
+0.00
+0.00
+0.00
+0.00
+
+0.48
+0.00
+0.00
+0.00
+0.00
+
+1.61
+0.00
+0.22
+0.20
+0.00
+
+6.65
+0.00
+0.89
+1.66
+0.00
+
+34.26
+31.18
+6.52
+22.15
+0.00
+
+75.2
+74.03
+23.40
+68.74
+6.03
+
+0.7
+
+3.2
+
+904.3
+
+3095.9
+
+27.7
+
+144.5
+
+637.4
+
+3808.9
+
+11769.7
+
+ARTICLE IN PRESS
+
+Standard deviation
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+Mean
+
+228
+
+Table 1
+Sample distribution of ownership, liquidity and other ﬁrm characteristics
+The sample has 1369 ﬁrms in the top 2000 ﬁrms by asset value as of 31.12.1998. All variables are calculated for each ﬁrm-quarter during the 5 year period of Q1
+1999–Q4 2003. The liquidity measures are calculated as the average across the quarter. Institutional holdings is the combined holdings of all institutional investors
+(calculated from 13F schedules) that have not reported themselves as insiders in forms 3 or 4 (hence, non-insiders). Institutional blockholdings is the combined
+holdings of all non-insiders institutional investors that hold more than 5% of the shares outstanding. HS measure is calculated based on Hertzel and Starks (2003) and
+is the combined holdings of the top ﬁve non-insiders institutional investors divided by the combined holdings of all non-insiders institutional investors. Insiders’
+holdings is the combined holdings of insiders as aggregated from forms 3 and 4. Insiders blockholdings is the combined holdings of insiders that hold more than 5%
+of the shares outstanding. Insiders — management is the combined holdings of insiders that are employed by the company (e.g., CEO, CFO, Controller, etc). Insiders
+— no management are insiders that report themselves as either B/O (beneﬁcial owners) or as board members. Insiders — institutions are institutions that report
+themselves both on 13F schedules and on form 3 or 4. Dollar volume is the monthly share volume times the month’s closing price. Share volume is the monthly share
+volume. Turnover is the monthly share volume divided by the number of shares outstanding at the end of the month. Dollar depth is the number of shares at the bid
+and ask multiplied by their respective prices. The equal-weighted bid/ask spread is the relative spread, where each quote update receives equal weight. Time-weighted
+bid/ask quote spread is the relative spread calculated as in McInish and Wood (1992), where longer standing quotes receive higher weight. Effective spread is the
+absolute difference between the trade price and the quote midpoint at the time of the trade. The realized spread is the signed (positive for buyer-initiated and negative
+for seller-initiated trades) difference between the trade price and quote midpoint 5 min after the trade. Price impact (intra-day) is the signed difference between the
+quote midpoint 5 min after the trade and the quote midpoint at the time of trade. The effective, realized spread and price impact (intra-day) are calculated each
+minute. Price impact (daily) is based on Amihud (2000) and is calculated as abs (daily return)/(daily volume). Market value is the market value of the ﬁrm as of the
+end of the quarter. Volatility is daily return volatility during the quarter. Share price is the share value of the ﬁrm’s common shares as of the end of the quarter. Book
+to market is the book value of equity (Compustat item 59) divided by the market value of equity.
+
+Share volume (million)
+Turnover (%)
+Dollar depth ($000)
+Equal-weighted bid/ask spread (%)
+Time-weighted bid/ask spread (%)
+Effective spread (%)
+Realized spread (%)a
+Price impact (intra-day) (%)a
+Price impact (daily) (%)
+
+0.06
+0.68
+48.53
+0.48
+0.47
+0.02
+0.01
+0.00
+0.00
+
+0.18
+1.52
+86.48
+0.65
+0.63
+0.03
+0.01
+0.01
+0.00
+
+1.61
+4.75
+202.53
+1.29
+1.19
+0.09
+0.03
+0.02
+0.02
+
+6.41
+8.20
+439.18
+2.49
+2.25
+0.23
+0.06
+0.03
+0.07
+
+20.68
+13.70
+929.27
+5.36
+4.79
+0.77
+0.14
+0.08
+0.33
+
+105.09
+31.36
+2458.93
+16.22
+14.73
+8.08
+0.55
+0.37
+4.55
+
+311.26
+54.05
+4814.03
+41.84
+38.06
+33.40
+1.50
+1.32
+19.72
+
+8263.9
+2.92
+89.82
+0.70
+
+28367.8
+1.50
+2004.59
+1.71
+
+39.8
+1.29
+1.47
+0.00
+
+114.1
+1.56
+4.96
+0.08
+
+514.4
+2.07
+15.63
+0.32
+
+1517.5
+2.53
+25.46
+0.53
+
+5111.1
+3.35
+39.25
+0.79
+
+31137.4
+5.41
+69.25
+1.64
+
+140000
+7.66
+121.00
+3.70
+
+About 4% of realized spread and price impact (intra-day) observations are negative and therefore are regarded as missing values. Similarly, negative book to
+market observations are discarded.
+
+ARTICLE IN PRESS
+
+a
+
+88.92
+11.27
+1138.95
+11.32
+11.04
+52.48
+0.62
+0.40
+5.94
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+C. Other firm characteristics
+Market value ($million)
+Volatility (%)
+Share price ($)
+Book to marketa
+
+26.86
+11.20
+769.77
+5.17
+4.71
+3.39
+0.16
+0.11
+1.11
+
+229
+
+ARTICLE IN PRESS
+230
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+characteristics reveal that the median ﬁrm equity value in our sample is over $1.5 billion,
+the median daily volatility is 2.53%, and the median share price is around $25.
+2.2. Univariate analysis
+Table 2 reports the average cross-sectional correlations that obtain between variables
+across the 20 quarters of our study. Panel A provides correlations between pairs of
+ownership variables. Note that by construction, total institutional ownership is negatively
+correlated to total insiders’ holdings as the ownership pie must sum to 100%. If insiders
+hold less of the ownership pie, one would typically expect to ﬁnd that institutional
+investors hold a larger portion of the ownership pie. In our sample, the correlation between
+the two is 0.29 and is highly signiﬁcant. With regard to liquidity this issue is important, as
+almost by deﬁnition insiders trade less than institutions. Therefore, a regression that uses
+insiders’ (institutional) holdings as a dependent variable but does not also include
+institutional (insiders’) holdings as a dependent variable may lead to spurious results.
+Moreover, note that the cross-sectional correlation between insiders’ holdings and insiders’
+blockholdings is 0.98. In other words, insider ownership level and insider concentration are
+highly correlated. Including both variables in a multivariate speciﬁcation would lead to
+almost perfect multicolinearity. Fortunately, both the trading and adverse selection
+hypotheses predict that insiders’ holdings are negatively correlated to liquidity. Thus, our
+predictions are not affected by the fact that insider’ ownership level and ownership
+concentration must be collapsed into one measure. Finally, it is important to note that
+blockholdings are positively correlated with both institutions’ ownership level and insider’s
+ownership level. Running a regression with blockholdings as the only ownership variable
+may therefore be misleading.
+Panel B of Table 2 presents correlations between the ten liquidity variables. We split the
+panel into two horizontal segments and two vertical segments for convenience. For the ﬁrst
+four liquidity variables (dollar volume, share volume, turnover, dollar depth), a high value
+translates into high liquidity, while for the last six liquidity variables, a low value translates
+into high liquidity. Thus, to maintain consistency across the liquidity variables, we expect
+the top-left and the bottom-right segments to have positive correlations, while we expect
+the bottom-left segment to have negative correlations. Panel B conﬁrms the conjecture that
+all liquidity variables are correlated.5
+Panel C of Table 2 provides cross-sectional correlations between major ownership and
+liquidity variables. We can see from the table that institutional holdings are positively
+related to all liquidity measures, namely, higher dollar volume, higher dollar depth, lower
+time-weighted spread, lower effective spread, and lower price impact (intra-day). The
+opposite is true with regard to insiders’ holdings, which are negatively correlated to all
+measures of liquidity. Blockholdings are also negatively correlated with liquidity, but this
+result is somewhat overshadowed by the magnitude of the correlation of insiders’ holdings
+with liquidity. Finally, our two institutional concentration measures realize rather different
+correlations with the liquidity variables. While the HS measure is highly negatively
+correlated with liquidity, the correlation between institutional blockholdings and liquidity
+is low. This fact may be helpful below when we conduct robustness checks in a multivariate
+5
+
+Aitken and Comerton-Forde (2003) provide evidence that different liquidity variables may provide
+inconsistent inferences about liquidity.
+
+Table 2
+Cross section correlation
+Panel A shows the average cross-sectional correlation between pairs of the ownership variables. Panel B shows the average cross sectional correlation between pairs
+of the liquidity variables. Panel C shows the average cross sectional correlation between pairs of major liquidity and ownership variables. The average is taken over
+the 20 quarters starting with Q1, 1999 through the Q4, 2003. The liquidity measures are calculated as the log of the measure after it has been averaged across the
+quarter. Deﬁnitions of variables are provided in Table 1.
+Panel A
+
+Blockholdings
+Institutional
+blockholdings
+Insiders’
+blockholdings
+HS measure
+Insiders —
+management
+Insiders — no
+management
+Panel B
+
+Dollar volume
+Share volume
+
+Institutional blockholdings
+
+Insiders’ blockholdings
+
+HS
+measure
+
+Insiders —
+management
+
+Insiders — no
+management
+
+1.000
+(0.00)
+0.290
+(0.015)
+0.254
+(0.027)
+0.595
+(0.023)
+0.243
+(0.016)
+0.509
+(0.022)
+0.134
+(0.028)
+0.263
+(0.016)
+
+1.000
+(0.00)
+0.657
+(0.052)
+0.085
+(0.017)
+0.981
+0.002
+0.224
+(0.012)
+0.388
+(0.029)
+0.927
+(0.007)
+
+1.000
+(0.00)
+0.679
+(0.050)
+0.684
+(0.051)
+0.340
+(.038)
+0.230
+(0.029)
+0.617
+(0.046)
+
+1.000
+(0.00)
+0.066
+(0.016)
+0.278
+(0.043)
+0.038
+(0.023)
+0.081
+(0.017)
+
+1.000
+(0.00)
+0.185
+(0.012)
+0.354
+(0.025)
+0.923
+(0.007)
+
+1.000
+(0.00)
+0.118
+(0.019)
+0.193
+(0.014)
+
+1.000
+(0.00)
+0.062
+(0.012)
+
+1.000
+(0.00)
+
+Dollar
+volume
+
+Share
+volume
+
+1.000
+(0.00)
+0.921
+(0.012)
+0.666
+
+1.000
+(0.00)
+0.732
+
+Turnover
+
+1.000
+
+Dollar
+depth
+
+Equalweighted
+spread
+
+Timeweighted
+spread
+
+Effective
+spread
+
+Effective
+realized
+spread
+
+Price impact
+(intra-day)
+
+Price impact
+(daily)
+
+231
+
+Turnover
+
+Blockholdings
+
+ARTICLE IN PRESS
+
+Insiders’ holdings
+
+Insiders’
+holdings
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+Institutional holdings
+
+Institutional
+holdings
+
+232
+
+Table 2 (continued )
+Panel B
+
+Equal-weighted spread
+
+Effective realized spread
+Price
+impact (intraday)
+Price impact (daily)
+
+Turnover
+
+(0.031)
+0.809
+(0.044)
+0.846
+(0.040)
+0.830
+(0.046)
+0.709
+(0.063)
+0.744
+(0.063)
+0.664
+(0.035)
+0.946
+(0.008)
+
+(0.021)
+0.692
+(0.044)
+0.659
+(0.054)
+0.631
+(0.057)
+0.642
+(0.093)
+0.551
+(0.074)
+0.552
+(0.054)
+0.966
+(0.006)
+
+(0.00)
+0.376
+(0.073)
+0.430
+(0.048)
+0.398
+(0.054)
+0.450
+(0.058)
+0.373
+(0.093)
+0.275
+(0.063)
+0.661
+(0.031)
+
+Dollar
+depth
+
+1.000
+(0.00)
+0.766
+(0.036)
+0.744
+(0.041)
+0.632
+(0.086)
+0.676
+(0.081)
+0.647
+(0.026)
+0.771
+(0.036)
+
+Equalweighted
+spread
+
+Timeweighted
+spread
+
+1.000
+(0.00)
+0.998
+(0.001)
+0.753
+(0.046)
+0.875
+(0.060)
+0.783
+(0.051)
+0.769
+(0.043)
+
+1.000
+(0.00)
+0.742
+(0.051)
+0.874
+(0.059)
+0.777
+(0.056)
+0.748
+(0.048)
+
+Effective
+spread
+
+1.000
+(0.00)
+0.667
+(0.089)
+0.640
+(0.052)
+0.715
+(0.077)
+
+Effective
+realized
+spread
+
+1.000
+(0.00)
+0.518
+(0.176)
+0.654
+(0.086)
+
+Price impact
+(intra-day)
+
+Price impact
+(daily)
+
+1.000
+(0.00)
+0.632
+(0.045)
+
+1.000
+(0.00)
+
+Panel C
+
+Institutional
+Holdings
+Insiders’
+Holdings
+Blockholdings
+HS measure
+Institutional
+Blockholdings
+
+Dollar volume
+
+Dollar depth
+
+Time-weighted spread
+
+Effective spread
+
+Price impact (intra-day)
+
+0.540
+(0.013)
+0.223
+(0.020)
+0.151
+(0.030)
+0.736
+(0.027)
+0.039
+(0.033)
+
+0.449
+(0.058)
+0.218
+(0.040)
+0.137
+(0.026)
+0.587
+(0.041)
+0.021
+(0.054)
+
+0.482
+(0.028)
+0.203
+(0.027)
+0.147
+(0.047)
+0.671
+(0.041)
+0.046
+(0.040)
+
+0.504
+(0.040)
+0.201
+(0.029)
+0.088
+(0.032)
+0.634
+(0.054)
+0.031
+(0.030)
+
+0.377
+(0.040)
+0.177
+(0.030)
+0.134
+(0.037)
+0.550
+(0.036)
+0.047
+(0.034)
+
+ARTICLE IN PRESS
+
+Timeweighted spread
+Effective spread
+
+Share
+volume
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+Dollar depth
+
+Dollar
+volume
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+233
+
+context as both measures should be able to quantify the incentives of institutions to trade
+on information.
+A conclusion that is reached from the univariate analysis is that the liquidity variables
+are highly correlated. This is especially true when one considers the correlation amongst
+volume-based measures, and the correlation amongst price-based measures. It is also
+consistent with the ﬁndings of Hasbrouck and Seppi (2001) that show that there are
+common factors in different proxies of liquidity. Given these observations and for brevity
+of exposition, in what follows, we focus our analyses and present results for dollar volume,
+time-weighted spread, and price impact (intra-day). These measures together represent well
+the spectrum of liquidity variables, from those that mostly capture trading activity (for
+example, dollar volume) to those that capture the adverse selection component of the
+spread (for example, price impact (intra-day)). In the robustness portion of the paper
+(Section 5) we return to the other measures to show that these results are not altered by the
+type of liquidity measure used.
+2.3. Time-series
+As our sample covers 1369 ﬁrms over a relatively short period of 5 years, it is more
+suited for analyzing the ownership–liquidity relation in the cross-section, rather than over
+time. However, an analysis of the time-series properties provides for a better exposition of
+the main ideas presented in this paper; therefore, in this subsection we provide a time-series
+description of our data.
+To get a feeling for the liquidity changes over our sample period, we construct equalweighted liquidity measures of our main dependent variables.
+Fig. 3 does not reveal a time trend in the equal-weighted dollar volume and timeweighted spread measures; however, there is a signiﬁcant reduction in the equal-weighted
+price impact measure over time. When we regress these measures on a time trend, the
+coefﬁcient of the time trend is not signiﬁcant for the equal-weighted dollar volume and
+time-weighted spread measures, but it is highly signiﬁcant for the equal-weighted price
+impact measure.
+One possible reason for this reduced price impact level in the later period of our sample is
+decimalization. The NYSE initiated decimalization on Jan. 29, 2001, and this was quickly
+followed by decimalization in Nasdaq on April 9, 2001. Thus, we may be observing a
+structural break in the data rather than a time trend. When we rerun the regression of the
+equal-weighted price impact measure on a time trend and a dummy variable that equals one
+for quarters Q1 2001 and forward, the signiﬁcant time trend coefﬁcient becomes insigniﬁcant,
+and all the explanatory power of the regression is captured by the indicator. Therefore,
+throughout the cross-sectional analysis we use a decimalization dummy as a control variable.
+As for ownership, over the sample period, institutional holdings increased from an
+average of 49.7% in Q1 1999 to an average of 63.7% in Q4 2003 — a large change
+considering the relatively short ﬁve-year period. This translates to an average increase in
+institutional holdings of 1.4% every six months. Similarly, institutional blockholdings
+increased from an average of 12.3% in Q1 1999 to an average of 15.0% in Q4 2003, while
+insiders’ holdings decreased from 12.8% in Q1 1999 to an average of 6.1% in Q4 2003.
+Thus it seems that certain trends in ownership exist. In fact, the lack of apparent trends in
+equal-weighted liquidity measures may be explained by the simultaneous increase in both
+institutional holdings and institutional blockholdings.
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+234
+
+3
+2.5
+2
+1.5
+1
+0.5
+0
+1999q1
+-0.5
+
+2000q1
+
+2001q1
+
+2002q1
+
+2003q1
+
+-1
+-1.5
+-2
+-2.5
+Price Impact
+
+Spread
+
+Dollar Volume
+
+Fig. 3. Equal-weighted dollar volume, time-weighted spread, and price impact over sample period.
+
+Note that as our sample includes many ﬁrms, the statistical concerns over time-variation
+of the variables is small. Typically, one does not need to restrict the dynamic behavior
+of the data when the number of ﬁrms in the panel is large relative to the number
+of periods (see Wooldridge, 2002, p. 175).6 However, we provide a variety of speciﬁcations in the robustness portion of the paper (Section 5) to show that the qualitative
+nature of our results is not altered by the nature of the econometric speciﬁcation
+employed.
+Part of the change in institutional level can be explained by the gradual reduction
+of insider holdings. Over time, insiders tend to sell off their shares in the company.
+However, we observe that many institutional holdings increases and decreases occur when
+there is no apparent change in insiders’ holdings nor there is a change in institutional
+concentration.
+We next provide examples of how changes in institutional level and concentration occur
+in our sample. During Q2 2000, Pﬁzer’s institutional holdings increased from 59.7% to
+77.1%. This occurred when no changes in insiders’ holdings and institutional concentration are reported. A large change in institutional concentration occurred in Sprint
+during Q1 2002. At that time, Capital Research and Management Corporation
+increased its share holdings in Sprint to 10.4%, making it the largest institutional
+blockholder of the company. In the same quarter, Barclays, which was the largest
+institutional holder of Sprint as of Q4 2001, increased its holding in the company from
+4.7% to 5.4%. These two transactions had a major effect on Sprint’s institutional
+concentration. Institutional blockholdings increased from 0 to 15.8% and the HS measure
+increased from 22.6% to 33.9%.
+6
+Also, for short panels where T (number of periods) is relatively small to N (number of ﬁrms), the tests for
+stationarity developed under the assumption of large T are usually unsatisfactory because the rate condition
+N/T- 0 limits the application of the tests to cases where T is larger than N (Hadri and Larsson (2005)).
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+235
+
+3. Multivariate analysis
+In this section we wish to learn how the high correlations between the different
+ownership variables affect the results that correspond to different types of speciﬁcations.
+As discussed previously, we show the results of this analysis for dollar volume, timeweighted spread, and price impact (intra-day), as these measures represent the spectrum of
+liquidity variables.
+Throughout this analysis, the model that we test is the following:
+Liqi ¼ g0 þ g13 ðownership variableÞi þ g4 ðmarket valueÞi þ g5 ðshare priceÞi
+þ g6 ðbook to marketÞi þ g7 ðvolatilityÞi þ g8 ðdecimalizationÞi þ i ,
+
+ð1Þ
+
+where the number of ownership variables differs across the analysis. We take a two-step
+approach in deriving the multivariate regression speciﬁcation. In the ﬁrst step, we test
+for the appropriate ownership level speciﬁcation. In the second step, we test for the
+appropriate ownership concentration speciﬁcation. After deriving the desired speciﬁcation
+of ownership variables, we regress this speciﬁcation on all liquidity variables. Because
+one could argue that our panel ownership and liquidity variables may result in the
+clustering of errors, we wish to correct for both time dependency and ﬁrm dependency. We
+therefore follow Petersen (2006) and use the two-dimensional clustered standard errors
+approach.7
+3.1. Step 1—ownership level
+Since the sum of the ownership level variables must add up to 100%, typically there is a
+negative correlation between insider holdings and institutional holdings. Table 3 presents
+three types of speciﬁcations for regressing ownership level on different liquidity measures.
+In speciﬁcations (1), (4), and (7), the independent variable is insiders’ holdings; in
+speciﬁcations (2), (5), and (8), the independent variable is institutional holdings; and in
+speciﬁcations (3), (6), and (9), both insiders’ and institutional holdings are included. One
+can see from the table that insiders’ holdings seem to have a negative effect on liquidity
+when it is the sole ownership level variable used. In contrast, when institutional holdings
+are the only ownership variable, the correlation between institutional ownership and
+liquidity is positive. This is what we would expect given the negative correlation between
+insiders’ holdings and institutional holdings. However; one can not infer from these two
+speciﬁcations which ownership variable dominates the relation with liquidity. While it
+seems that institutional holdings are more important, as the R-squared and signiﬁcance
+level are higher for speciﬁcations (2), (5), and (8) compared to speciﬁcations (1), (4), and
+(7), the appropriate speciﬁcation includes both ownership level variables. Certainly, this
+speciﬁcation provides a better description of the ownership pie. The results in the table
+indicate that when both variables are used in the regression, the institutional holdings
+variable dominates. In fact, in speciﬁcation (6) the insiders’ holdings’ coefﬁcient ﬂips signs
+and is signiﬁcant at the 5% level. It seems, therefore, that both institutional holdings and
+insiders’ holdings are negatively correlated with the time-weighted spread. The only
+negative correlation between insiders’ holdings and liquidity that persists is that with dollar
+7
+
+Our results hold in alternative speciﬁcations. These are discussed in the robustness portion of the paper
+(Section 5).
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+236
+
+Table 3
+Liquidity and ownership level
+Insiders’ holdings is the combined holdings of insiders as aggregated from forms 3 and 4. Institutional holdings
+is the combined holdings of all institutional investors (calculated from 13F schedules) that have not reported
+themselves as insiders in forms 3 or 4 (hence, non-insiders). The liquidity measures are calculated by taking the log
+of the average across the quarter. Dollar volume is the monthly share volume times the month’s closing price.
+Time-weighted bid/ask quote spread is the relative spread calculated as in McInish and Wood (1992), where
+longer standing quotes receive higher weight. Price impact (intra-day) is calculated each minute and is deﬁned as
+the signed difference between the quote midpoint 5 min after the trade and the quote midpoint at the time of trade.
+Market value is the log of the market value of the ﬁrm as of the end of the quarter. Share price is the share value of
+the ﬁrm’s common shares as of the end of the quarter. Book to market is the book value of equity (Compustat item
+59) divided by the market value of equity. Volatility is the log of the daily return volatility during the quarter.
+Decimalization is a dummy variable that equals 1 for Q1 2001–Q4 2003. The standard deviation of the coefﬁcients
+is calculated with two-dimensional clustered standard errors as in Petersen (2006); t-stats of coefﬁcient are
+provided in parenthesis.
+
+Dependent
+
+Insiders’
+holdings
+Institutional
+holdings
+
+(1)
+Dollar
+volume
+
+(2)
+Dollar
+volume
+
+(3)
+Dollar
+volume
+
+0.01798
+(20.03)
+
+0.00543 0.00286
+(4.40) (3.88)
+0.01709
+(19.23)
+
+0.00134 0.00454
+(2.05) (5.25)
+0.00097 0.01010
+(10.15) (9.95)
+
+0.00012
+(0.13)
+0.01097 0.01099
+(12.44) (11.74)
+
+1.11194
+(97.61)
+0.00003
+(29.16)
+0.00926
+(1.89)
+0.91499
+(17.98)
+0.06769
+(1.73)
+0.9079
+
+1.10972
+(97.69)
+0.00003
+(29.99)
+0.00867
+(1.85)
+0.94102
+(18.46)
+0.06180
+(1.60)
+0.9090
+
+0.38293
+(24.74)
+0.00101
+(1.14)
+0.00599
+(0.53)
+0.44786
+(8.53)
+0.41207
+(5.82)
+0.7319
+
+0.42140
+(30.80)
+0.00102
+(1.54)
+0.00236
+(0.24)
+0.54417
+(11.81)
+0.67752
+(10.96)
+0.5562
+
+0.01242
+(7.91)
+
+Control variables
+Market value 1.19737
+(88.90)
+Share price
+0.00004
+(44.75)
+Book to
+0.00752
+market
+(1.27)
+Volatility
+1.09927
+(22.07)
+Decimalization 0.16781
+(3.91)
+R squared
+0.8827
+
+(4)
+Timeweighted
+spread
+
+0.42550
+(22.09)
+0.00162
+(1.70)
+0.00751
+(0.69)
+0.35385
+(8.19)
+0.47582
+(7.07)
+0.6882
+
+(5)
+Timeweighted
+spread
+
+(6)
+Timeweighted
+spread
+
+0.38374
+(24.78)
+0.00098
+(1.12)
+0.00584
+(0.52)
+0.45441
+(8.49)
+0.41344
+(5.84)
+0.7323
+
+(7)
+Price
+impact
+(intraday)
+
+0.46246
+(28.28)
+0.00029
+(0.41)
+0.00649
+(0.63)
+0.43690
+(10.25)
+0.74222
+(10.94)
+0.5241
+
+(8)
+Price
+impact
+(intraday)
+
+(9)
+Price
+impact
+(intraday)
+
+0.42148
+(30.70)
+0.00103
+(1.54)
+0.00230
+(0.23)
+0.54476
+(11.45)
+0.67762
+(10.96)
+0.5562
+
+volume. According to speciﬁcation (3), it appears that insiders trade less than other
+individual investors, while institutional investors trade more often than other individual
+investors.
+Note that Table 3 also conﬁrms several regularities concerning liquidity and the other
+control variables. In particular, ﬁrm market value is highly positively correlated with
+liquidity and volatility is negatively correlated with liquidity when measured by timeweighted spread and price impact, but is positively correlated with liquidity when
+measured by dollar volume (Anderson, 1996; Karpoff, 1987).
+3.2. Step 2—ownership concentration
+Table 4 presents regression results for different speciﬁcations of the ownership
+concentration variables. In speciﬁcations (1), (4), and (7), total blockholdings are the
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+237
+
+only dependent variable. According to this speciﬁcation, it seems that blockholdings are
+negatively correlated with dollar volume, time-weighted spread, and price impact (intraday). Thus, it appears that blockholdings improves liquidity as measured by order-driven
+liquidity measures. The main problem with this speciﬁcation is that it ignores the
+ownership level variables. In speciﬁcations (2), (5), and (8), insiders’ holdings and
+institutional holdings are added to the regression speciﬁcation. We can see that this
+speciﬁcation changes the results for blockholdings (compared to (1), (4), and (7)), which
+now is clearly negatively correlated with volatility. However, this speciﬁcation also
+changes the results for insiders’ holdings obtained in Table 3, speciﬁcations (3), (6), and
+(9). Insiders’ holdings, like institutional holdings, are now strongly positively correlated
+with liquidity.
+From our univariate analysis, we know that blockholdings are highly correlated with
+insider holdings (correlation of 0.684), and thus we must take care in interpreting the
+above results. We do so by partitioning blockholdings into its two major components,
+institutional blockholdings and insider blockholdings. We also know that insider holdings
+and insider blockholdings are almost perfectly correlated (correlation of 0.981), so
+including both insiders’ holdings and insiders’ blockholdings will result in multicolinearity.
+
+Table 4
+Liquidity, ownership level and ownership concentration
+Blockholdings is the combined holdings of all investors that hold more than 5% of the shares outstanding.
+Institutional blockholdings is the combined holdings of all non-insiders institutional investors that hold more than
+5% of the shares outstanding. The remaining variables are deﬁned in Table 3. The standard deviation of the
+coefﬁcients is calculated with two-dimensional clustered standard errors as in Petersen (2006); t-stats of coefﬁcient
+are provided in parenthesis.
+
+Dependent
+
+Insiders’
+holdings
+Institutional
+holdings
+Blockholdings
+
+(1)
+Dollar
+volume
+
+(2)
+Dollar
+volume
+
+0.01746
+(8.22)
+0.02698
+(24.48)
+0.00245 0.02205
+(1.87) (11.91)
+
+Institutional
+blockholdings
+Control variables
+Market value 1.21009
+(87.02)
+Share price
+0.00004
+(45.24)
+Book to market 0.00899
+(1.32)
+Volatility
+1.07339
+(20.23)
+Decimalization 0.19285
+(4.39)
+R squared
+0.8772
+
+(3)
+Dollar
+volume
+
+(4)
+Timeweighted
+spread
+
+(5)
+Timeweighted
+spread
+
+(6)
+Timeweighted
+spread
+0.00200
+(3.04)
+0.01449
+(12.24)
+
+0.00171
+(2.34)
+
+0.01114
+(8.95)
+0.01429
+(12.35)
+0.00945
+(9.99)
+
+0.00392
+(3.26)
+0.02734
+(25.01)
+
+1.03641
+(97.26)
+0.00002
+(27.51)
+0.01084
+(1.91)
+0.94131
+(19.91)
+0.01964
+(0.51)
+0.9193
+
+(8)
+Price
+impact
+(intraday)
+
+(9)
+Price
+impact
+(intraday)
+0.00071
+(0.75)
+0.01492
+(13.65)
+
+0.00178
+(2.13)
+
+0.00866
+(5.48)
+0.01460
+(13.52)
+0.00825
+(7.59)
+
+0.01027
+(10.67)
+
+0.02372
+(12.53)
+1.04972
+(101.47)
+0.00003
+(29.83)
+0.01276
+(2.07)
+0.94350
+(20.08)
+0.02320
+(0.60)
+0.9187
+
+(7)
+Price
+impact
+(intraday)
+
+0.43309
+(21.73)
+0.00149
+(1.57)
+0.00727
+(0.68)
+0.37732
+(8.43)
+0.48354
+(7.22)
+0.6876
+
+0.35728
+(23.39)
+0.00117
+(1.46)
+0.00419
+(0.42)
+0.44862
+(8.50)
+0.39723
+(5.61)
+0.7411
+
+0.35085
+(23.25)
+0.00125
+(1.54)
+0.00498
+(0.48)
+0.44760
+(8.42)
+0.39599
+(5.58)
+0.7418
+
+0.00934
+(8.63)
+0.47287
+(28.13)
+0.00046
+(0.68)
+0.00427
+(0.41)
+0.46684
+(11.011)
+0.75213
+(11.05)
+0.5224
+
+0.39974
+(28.81)
+0.00087
+(1.54)
+0.00227
+(0.23)
+0.53874
+(11.47)
+0.66424
+(10.80)
+0.5605
+
+0.3930
+(28.85)
+0.00079
+(1.41)
+0.00099
+(0.10)
+0.53697
+(11.37)
+0.66307
+(10.78)
+0.5612
+
+ARTICLE IN PRESS
+238
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+We therefore include institutional blockholdings as the only concentration measure
+together with the ownership level variables. Speciﬁcations (3), (6), and (9) suggest that once
+ownership level variables are included in the speciﬁcation, the marginal contribution in
+blockholders comes for its institutional blockholdings portion. The coefﬁcient of
+institutional blockholders in speciﬁcations (3), (6), and (9) is larger and more signiﬁcant
+than the coefﬁcient of blockholdings in speciﬁcations (2), (5), and (8). Note that the
+inference we draw with respect to the correlation between insiders’ holdings and liquidity is
+now in line with what we ﬁnd in Table 3 (speciﬁcations (3), (6), and (9)). We feel
+comfortable that this last speciﬁcation lends itself to better interpretation of the results as it
+more clearly separates the important groups of shareholders as perceived by the securities
+laws.
+Speciﬁcations (3), (6), (9) suggest that a one standard deviation increase in institutional
+holdings is associated with a 30% increase, a 35% decrease, and a 21% decrease of a
+standard deviation of dollar volume, time-weighted spread, and price impact, respectively.
+For institutional blockholdings increases these ﬁgures are a 14.4% decrease, a 13.8%
+increase, and a 7.37% increase respectively. For insiders holdings increases these ﬁgures
+are a 2.5% decrease, a 2.8% decrease, and an insigniﬁcant 0.06% decrease, respectively.
+3.3. The spectrum of liquidity measures
+While the results with regard to the relation between institutional ownership and
+liquidity are very convincing as they are very signiﬁcant, the same can not be said about
+insiders’ holdings. On the one hand, insiders’ holdings are negatively correlated with dollar
+volume; on the other hand, insiders’ holdings are positively correlated with time-weighted
+spread, suggesting that insider trade may increase liquidity on some dimensions. This is
+somewhat problematic for two reasons. First, from a theoretical point of view, it is
+counterintuitive that insider holdings would reduce spreads. Demsetz (1986) notes that
+uninformed investors in ﬁrms with high insider ownership tend to adopt a buy-and-hold
+strategy as they realize that they are relatively uninformed. This should lead to lower
+liquidity as the market maker understands that most transactions involve informed
+investors.8 Second, while for institutional ownership we have ownership level and
+ownership concentration, for insider holdings we are empirically forced to use only one
+measure. It is therefore harder to comprehend the overall effect of insider holdings.
+To further explore this relation we make use of our spectrum of three liquidity variables.
+If insiders differ only in their trading activity (and do not affect the adverse selection costs),
+we should ﬁnd that insiders’ holdings do not help in explaining price impact once we
+control for trading activity by employing a liquidity measure that is highly correlated with
+trading. Similarly, if insiders only affect adverse selection costs (and not trading activity),
+we should ﬁnd that insiders’ holdings do not help in explaining trading activity once we
+control for adverse selection by employing a liquidity measure that is highly correlated
+with adverse selection.
+Table 5 reports results of a regression in which both the dependent variable and one of
+the independent variables are liquidity measures. That is, when the dependent variable is
+8
+Chiang and Venkatesh (1988) ﬁnd a positive correlation between insider ownership and spreads for a small
+sample of ﬁrms in 1973. In contrast, Glosten and Harris (1988) report an insigniﬁcant relation between spreads
+and insiders’ holdings for a sample of 250 NYSE stocks over the 1981–1983 period.
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+239
+
+Table 5
+Ownership and the liquidity spectrum
+Institutional blockholdings is the combined holdings of all non-insiders institutional investors that hold more
+than 5% of the shares outstanding. HS measure is calculated based on Hertzel and Starks (2003) and is the
+combined holdings of the top ﬁve non-insiders institutional investors divided by the combined holdings of all noninsiders institutional investors. The remaining variables are deﬁned in Table 3. The standard deviation of the
+coefﬁcients is calculated with two-dimensional clustered standard errors as in Petersen (2006); t-stats of coefﬁcient
+are provided in parenthesis.
+
+Dependent
+
+Insiders’
+holdings
+Institutional
+holdings
+Institutional
+blockholdings
+HS measure
+
+(1)
+Dollar
+volume
+
+(2)
+Dollar
+volume
+
+(3)
+Dollar
+volume
+
+(4)
+Dollar
+volume
+
+(5)
+Price impact
+(intraday)
+
+(6)
+Price impact
+(intraday)
+
+(7)
+Price impact
+(intraday)
+
+(8)
+Price impact
+(intraday)
+
+0.00318
+(3.11)
+0.01140
+(14.87)
+
+0.00472
+(4.58)
+0.00931
+(10.86)
+
+0.00286
+(2.75)
+0.02399
+(22.11)
+0.02121
+(12.32)
+
+0.00450
+(4.13)
+0.02088
+(17.33)
+0.01930
+(11.54)
+
+0.00120
+(1.42)
+0.00681
+(6.88)
+
+0.00096
+(1.54)
+0.00284
+(5.14)
+
+0.00125
+(1.39)
+0.00992
+(7.66)
+0.00499
+(4.56)
+
+0.00104
+(1.59)
+0.00448
+(5.41)
+0.00242
+(2.86)
+
+0.00782
+(7.14)
+
+0.00408
+(3.91)
+
+0.20101
+(8.04)
+0.00049
+(0.94)
+0.00161
+(0.15)
+0.67821
+(15.77)
+0.65984
+(10.19)
+
+0.13678
+(10.48)
+0.00136
+(2.89)
+0.02492
+(2.83)
+0.23675
+(8.97)
+0.37667
+(4.83)
+
+0.19101
+(7.52)
+0.00072
+(1.38)
+0.00229
+(0.22)
+0.72409
+(17.55)
+0.66022
+(10.16)
+
+0.14450
+(10.37)
+0.00150
+(2.98)
+0.02301
+(2.73)
+0.24160
+(8.98)
+0.37314
+(4.72)
+
+0.02026 0.00140
+(14.48) (13.16)
+
+Control variables
+Market value
+0.96418
+(77.39)
+Share price
+0.00015
+(0.24)
+Book to market 0.02244
+(1.94)
+Volatility
+1.03743
+(22.46)
+Decimalization 0.03410
+(0.83)
+Liquidity control
+Dollar volume
+Timeweighted
+spread
+Price impact
+(intraday)
+R squared
+
+0.87484
+(40.06)
+0.00045
+(0.68)
+0.01579
+(2.00)
+1.13897
+(21.46)
+0.11497
+(1.88)
+
+0.99088
+(78.19)
+0.00027
+(0.44)
+0.01593
+(1.37)
+1.00828
+(20.86)
+0.05465
+(1.29)
+
+0.89878
+(39.83)
+0.00088
+(1.25)
+0.01140
+(1.37)
+1.11271
+(20.18)
+0.12940
+(2.03)
+
+0.16579
+(6.93)
+0.35152
+(5.94)
+
+0.08326
+(6.03)
+0.9196
+0.9271
+
+0.03896
+(17.64)
+
+0.37486
+(5.97)
+0.10148
+(6.73)
+0.9164
+0.9245
+
+0.19585
+(8.41)
+
+0.5726
+
+0.6375
+
+0.03789
+(18.43)
+
+0.5695
+
+0.6365
+
+dollar volume, we use either the time-weighted spread or price impact as our control.
+When the dependent variable is price impact, we use either dollar volume or time-weighted
+spread as controls. By doing so, we are able to verify whether our three ownership
+structure variables are able to provide extra explanatory power on both aspects of
+liquidity, i.e., trading activity and adverse selection, or whether the explanatory power is
+derived through an effect on a certain liquidity dimension. For example, if insiders trade
+less, they may indirectly also affect price impact; however, it would be hard to conclude
+that this is due to adverse selection costs.
+The results clearly show that institutional holdings and institutional concentration
+provide explanatory power even when we control for other dimensions of liquidity. With
+respect to insiders, we conclude that there is relatively strong evidence that insiders’
+holdings are negatively correlated with trading activity, but the results concerning price
+impact are not signiﬁcant.
+
+ARTICLE IN PRESS
+240
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+4. Simultaneous equations
+Next we consider the endogeneity that may exist in the determination of ownership
+structure and liquidity. Falenstein (1996) ﬁnds that institutions prefer large, liquid stocks.
+Hence, liquidity and institutional ownership may be simultaneously determined, that is, an
+institutional investor’s decision to become a shareholder or a blockholder may depend on
+the ﬁrm’s liquidity. To address this concern, we rely upon the work of Demsetz and Lehn
+(1985), Denis and Sarin (1999), Helﬁn and Shaw (2000), and Gompers and Metrick (2001)
+and add the following explanatory variables as instruments: quarterly equity return,
+leverage (long-term debt divided by market value of equity), ﬁrm age (number of years
+since the ﬁrm ﬁrst appears on CRSP tape), diversiﬁcation (log of the ratio of the sum of
+the segments’ sales squared divided by total sales squared), and industry classiﬁcation
+(two-digit SIC code).
+Table 6 presents the simultaneous equation estimation of the three-step least squares; the
+two-step procedure yields similar results. Note that these are Fama-McBeth regressions.
+Thus, we run the simultaneous equation speciﬁcation separately for each quarter and
+present the average and standard deviation of the coefﬁcients across these 20 regressions.
+To facilitate comparison with other studies, we present the most commonly used measures
+of liquidity, namely, the time-weighted spread and the effective spread.
+In broad terms, we ﬁnd that institutional holdings are affected by a stock’s liquidity. As
+can be seen in speciﬁcations (1b) and (2b), institutional holdings decrease with increases in
+the time-weighted spread or the effective spread. The results with regard to institutional
+blockholdings are less conclusive; in speciﬁcation (1c) the time-weighted spread has no
+effect on blockholdings, while in speciﬁcation (2c) institutional blockholdings are
+positively correlated with the effective spread. The rest of the results are consistent in
+both speciﬁcations: institutional holdings have a positive effect on liquidity, institutional
+blockholdings have a negative effect on liquidity, and insiders’ holdings have a positive
+effect on some order-driven measures of liquidity.
+Our regression coefﬁcients from speciﬁcations (1a) and (2a) suggest that a one standard
+deviation increase in institutional holdings causes a 58% of a standard deviation reduction
+in the time-weighted spread, and a 65% of a standard deviation reduction in the effective
+spread. We also ﬁnd that a one standard deviation increase in institutional blockholdings
+causes a 61.7% standard deviation increase in the time-weighted spread, and a 43.2% of a
+standard deviation increase in the effective spread. These numerical estimates indicate that
+both institutional ownership level and institutional concentration have an economically
+signiﬁcant effect on liquidity.
+5. Robustness
+In this section we provide robustness analysis. Our aim here is merely to show that our
+results with regard to institutional holdings and institutional blockholdings are robust
+across different speciﬁcations. Table 7 provides regression results for our three main
+dependent variables: dollar volume, time-weighed spread, and price impact (intra-day).
+The speciﬁcations used throughout are those of speciﬁcation (3), (6), and (9) of Table 4;
+however, the econometric analysis is different.
+In speciﬁcations (1)–(3) we difference both the dependent and independent variables.
+This is done for two reasons. First, we wish to mitigate any concerns about time variation
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+241
+
+Table 6
+Simultaneous equation estimation — 3SLS
+Institutional blockholdings is the combined holdings of all non-insiders institutional investors that hold more
+than 5% of the shares outstanding. Effective spread is the absolute difference between the trade price and the
+quote midpoint at the time of the trade and is calculated each minute. The measure used in the regression is the log
+of the average measure calculated across the quarter. Return is the ﬁrm’s share price return during the quarter.
+Leverage is the book value of long term debt (Compustat item 9) divided by the market value of equity. Firm’s age
+is the number of years since the ﬁrm’s share appears on the CRSP tape. HHI segment is the log of the ratio: sum of
+the segments sales squared divided by total sales squared. The remaining variables are deﬁned in Table 3. The N
+range is the range of number of ﬁrms in the 20 cross-sectional regressions. t-stats of coefﬁcient are calculated using
+Fama-McBeth procedure.
+
+Dependent
+
+(1a)
+(1b)
+Time-weighted Institutional
+spread
+holdings
+
+Time-weighted
+spread
+
+(1c)
+Institutional
+block-holdings
+
+28.51
+
+0.9983
+
+(22.45)
+
+(0.31)
+
+(2a)
+Effective
+spread
+
+Effective
+spread
+Institutional
+holdings
+
+Market value
+Share price
+Book to
+market
+Volatility
+
+(2c)
+Institutional block
+holdings
+
+13.9306
+
+3.3102
+
+(19.62)
+
+(14.69)
+0.3883
+
+0.3367
+
+0.0460
+
+(11.16)
+1.1560
+(59.19)
+
+(21.97)
+0.0547
+(18.87)
+
+1.2674
+(54.79)
+
+0.0041
+
+0.2039
+
+0.0039
+
+0.1580
+
+(6.41)
+0.2750
+(23.54)
+0.0015
+(3.31)
+0.0256
+
+(21.75)
+6.1478
+(14.38)
+0.0473
+(3.27)
+0.6219
+
+(3.62)
+0.2767
+(9.76)
+0.0087
+(17.87)
+0.0107
+
+(9.20)
+1.7026
+(5.97)
+0.1010
+(13.51)
+0.1617
+
+(6.28)
+0.5244
+(7.45)
+
+(3.05)
+14.1183
+(8.59)
+1.5457
+(2.09)
+
+(1.05)
+0.6471
+(6.76)
+
+(1.26)
+9.5981
+(5.36)
+0.5610
+(0.96)
+
+0.0240
+
+(10.16)
+Institutional 0.0255
+Blockholdings (9.02)
+Exogenous
+variables
+Insiders’
+holdings
+
+(2b)
+Institutional
+holding
+
+Return
+Leverage
+Firm’s age
+HHI segment
+2 digit SIC
+Indicator
+
+No
+
+N range
+
+757–834
+
+No
+
+3.5187
+(2.79)
+
+4.2004
+(1.83)
+
+0.0894
+(2.40)
+0.0269
+(6.15)
+0.6765
+(9.63)
+Yes
+
+No
+769–848
+
+(30.73)
+
+No
+
+1.8988
+(13.82)
+
+3.3831
+(6.49)
+
+0.1281
+(5.36)
+0.0319
+(11.68)
+0.5341
+(7.89)
+Yes
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+242
+
+Table 7
+Robustness of regression speciﬁcations
+Speciﬁcation (1)–(3) provide regression results after differencing both dependent and independent variables.
+Speciﬁcation (4)–(6) include ﬁrm and time ﬁxed-effects. Speciﬁcations (7)–(9) provide signiﬁcance of coefﬁcient
+when each cross-sectional regression in a given quarter is run separately. Institutional blockholdings is the
+combined holdings of all non-insiders institutional investors that hold more than 5% of the shares outstanding.
+The remaining variables are deﬁned in Table 3. For speciﬁcation (1)–(3), the standard deviation of the coefﬁcients
+is calculated with two-dimensional clustered standard errors as in Petersen (2006). For speciﬁcation (4)–(9), the
+standard errors are calculated with White-corrected standard errors.
+
+Dependent
+
+Insiders’
+holdings
+Institutional
+holdings
+
+D in dependent and independent Firm and time ﬁxed-effect
+variables
+regressions
+
+Fama-MacBeth regressions: sign
+and # of signiﬁcant cases out of 20
+regressions: 1% (5%) level
+
+(1)
+Dollar
+volume
+
+(2)
+Timeweighted
+spread
+
+(3)
+Price
+impact
+(intraday)
+
+(4)
+Dollar
+volume
+
+(5)
+Timeweighted
+spread
+
+(6)
+Price
+impact
+(intraday)
+
+(7)
+Dollar
+volume
+
+(8)
+Timeweighted
+spread
+
+(9)
+Price
+impact
+(intraday)
+
+0.00054
+
+0.00056
+
+0.00346
+
+0.00185
+
+0.00229
+
+0.00028
+
+11,+0
+
+3,+0
+
+1,+1
+
+(0.48)
+0.01074
+
+(0.38)
+0.00601
+
+(2.00)
+0.00639
+
+(3.65)
+0.01293
+
+(5.51)
+0.00812
+
+(0.33)
+0.00647
+
+(16,+0) (5 ,+0)
+0,+20 20,+0
+
+(3.12)
+0.04964
+(2.12)
+
+(22.11)
+(16.02)
+0.01247 0.00319
+(23.98) (6.40)
+
+(6.87)
+0.00241
+(2.60)
+
+(0,+20) (20,+0) (20,+0)
+20,+0 0,+20
+0,+16
+(20,+0) (0,+20) (0,+18)
+
+0.47203
+(6.19)
+0.00011
+(0.22)
+0.00534
+
+0.39094
+(4.93)
+0.00003
+(0.04)
+0.00275
+
+0.98285
+(93.44)
+0.00002
+(3.19)
+0.01860
+
+0.58772
+(56.55)
+0.00048
+(2.23)
+0.00688
+
+0.61203
+(29.86)
+0.00061
+(1.23)
+0.02733
+
+0,+20
+(0,+20)
+11,+0
+(19,+0)
+0,+4
+
+20,+0
+(20,+0)
+10,+2
+(12,+2)
+0,+6
+
+20,+0
+(20,+0)
+1,+4
+(2,+10)
+0,+0
+
+(2.66)
+0.08229
+(1.56)
+0.21670
+(5.14)
+0.1211
+
+(0.12)
+0.17321
+(3.04)
+0.18063
+(6.65)
+0.0186
+
+(2.98)
+0.36134
+(12.00)
+0.13269
+(6.81)
+0.9691
+
+(4.90)
+0.05943
+(2.59)
+0.32858
+(15.61)
+0.8637
+
+(2.91)
+0.15116
+(3.20)
+0.67603
+(20.13)
+0.6711
+
+(0,+7)
+0,20
+(0,+20)
+—
+
+(0,+9)
+0,+20
+(0,+20)
+—
+
+(2,+1)
+0,+20
+(0,+20)
+—
+
+(5.06)
+(3.44)
+Institutional
+0.00959 0.00388
+blockholdings (7.29) (4.12)
+Control variables
+Market value 0.68962
+(18.67)
+Share price
+0.00000
+(0.22)
+Book to
+0.01106
+market
+(2.95)
+Volatility
+0.29909
+(8.48)
+Decimalization 0.12064
+(4.97)
+R squared
+0.1994
+
+(1,+2)
+20,+0
+
+violations of the dependent or independent variables. Second, it is interesting to see
+whether the relation observed on the levels, also holds when we study changes. If a relation
+holds also for changes, then that would mean that ownership changes are impounded in
+liquidity almost immediately; while if the relation does not hold, we could only argue that
+in the long term there is a relation between ownership level and liquidity. As can be seen in
+speciﬁcations (1)–(3) the relation of institutional holdings and institutional block holdings
+persists; however, the effect of changes of insiders’ holdings is not signiﬁcant in two out of
+the three speciﬁcations. In fact, insiders’ holdings increases seem to be positively correlated
+with price impact, something that is not revealed when studying the level variables.
+In speciﬁcations (4)–(6), we present ﬁrm and time ﬁxed-effect regression. The purpose is
+to provide another veriﬁcation of our results. By nature, ﬁrm ﬁxed-effects rely on the time
+variation within a given ﬁrm, and the cross-sectional variation plays a minor role in these
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+243
+
+speciﬁcations. The results persist with regard to institutional holdings and institutional
+concentration.
+Finally, speciﬁcations (7)–(9) show whether the coefﬁcients are signiﬁcant when we regress
+each cross-sectional regression (in a given quarter) separately. The numbers presented in
+each cell are four, two of which are in parenthesis. A positive (negative) sign followed by a
+number represents the number of regressions (out of 20) for which the coefﬁcient is positive
+(negative) and signiﬁcant at the 1% level. Similarly coded, the numbers in parentheses
+represent coefﬁcients which are signiﬁcant at the 5% level. In this speciﬁcation again, we can
+see that the correlation of institutional holdings and institutional concentration are strongly
+signiﬁcant with the same signs as before. As for insiders, it seems that they trade less often,
+but their effect on price-based liquidity measures is not very signiﬁcant.
+Another test, which we conduct in Table 8, is to include an interaction term between
+institutional level and institutional concentration. In speciﬁcations (1) and (2), we include
+an interaction term between institutional holdings and the HS measure to check if the
+marginal effect of one decreases in the other.9 We note that for the time-weighted spread,
+the effect of the interaction term is insigniﬁcant, while for the price-impact measure it is
+negative and signiﬁcant. Moreover, in speciﬁcation (2) the inclusion of the interaction term
+eliminates the institutional holdings coefﬁcient signiﬁcance. This suggests that institutional
+concentration may be somewhat more important than institutional holdings if one
+considers the price-impact measure.
+So far we have focused our analyses on only three liquidity variables. In speciﬁcations
+(3)–(9) of Table 8, we present results for all the other liquidity variables used in the study.
+We also arbitrarily choose either the HS measure or the institutional blockholdings to
+show that both measures yield similar results even though their correlations with the
+ownership level variables are different.
+Speciﬁcations (3)–(9) are consistent with previous results. We ﬁnd that institutional
+holdings are positively correlated with liquidity, while institutional concentration is
+negatively correlated with liquidity. Moreover, the correlation of insiders’ holdings with
+liquidity is negative for trade-based measures such as volume, turnover, and depth, but
+tends to be either insigniﬁcant or somewhat positive for order-driven measures such as the
+quoted spread and the realized spread. The positive correlation that insiders’ holdings have
+on the price impact (daily) measure is not surprising, given that the latter is probably more
+related to volume-based measures than price-based measures.
+We next conduct a simple event study whose purpose is to see how ownership changes
+lead to changes in liquidity. To eliminate contemporaneous changes in different ownership
+dimensions, we analyze extreme changes in one ownership variable when other ownership
+variables changes are small. For example, an extreme change in institutional holdings
+would be deﬁned as one in which there is a large change in institutional holdings in a given
+ﬁrm-quarter at a time in which insiders’ holdings and the HS measure change for that ﬁrm
+are relatively small. Similarly we study extreme changes in the HS measure (insiders’
+holdings) when institutional holdings and insiders’ holdings (HS measure) changes are
+9
+The correlation between institutional blockholdings and the interaction term institutional blockholdings 
+institutional holdings is 0.964, while the correlation between the HS measure and the interaction term of the HS
+measure  institutional holdings is 0.127. The correlations of these two interaction terms with institutional
+holdings are 0.669 and 0.714 respectively. Therefore, to mitigate the problem of deriving inference from highly
+correlated dependent variables, the interaction term of institutional holdings with the HS measure is used.
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+244
+
+Table 8
+Liquidity and ownership structure
+Institutional blockholdings is the combined holdings of all non-insiders institutional investors that hold more
+than 5% of the shares outstanding. HS measure is calculated based on Hertzell and Starks (2003) and is the
+combined holdings of the top ﬁve non-insiders institutional investors divided by the combined holdings of all noninsiders institutional investors. The liquidity measures are calculated by taking the log of the average across the
+quarter. Share volume is the monthly share volume. Turnover is the monthly share volume divided by the number
+of shares outstanding at the end of the month. Dollar depth is the number of shares at the bid and ask multiplied
+by their respective prices. The equal-weighted bid/ask spread is the relative spread, where each quote update
+receives equal weight. The effective spread is the absolute difference between the trade price and the quote
+midpoint at the time of the trade. The realized spread is the signed (positive for buyer-initiated and negative for
+seller-initiated trades) difference between the trade price and quote midpoint 5 min after the trade. The effective
+and realized spreads are calculated each minute. Price impact (daily) is based on Amihud (2000) and is calculated
+as abs(daily return)/(daily volume). The remaining variables are deﬁned in Table 3. The standard deviation of the
+coefﬁcients is calculated with two-dimensional clustered standard errors as in Petersen (2006); t-stats of coefﬁcient
+are provided in parenthesis.
+
+Dependent
+
+Insiders’
+holdings
+Institutional
+holdings
+
+(1)
+Timeweighted
+spread
+
+(2)
+Price
+impact
+(intraday)
+
+(3)
+Share
+volume
+
+(6)
+Equalweighted
+spread
+
+(7)
+(8)
+Effective Effective
+spread
+realized
+spread
+
+(9)
+Price
+impact
+(daily)
+
+0.00190
+
+0.00050
+
+0.00812 0.00403 0.00260 0.00164
+
+0.00015 0.00284
+
+0.00891
+
+(2.98)
+0.00972
+
+(0.57)
+0.00324
+
+(6.38)
+0.02070
+
+(0.12) (4.00)
+0.01617 0.01119
+
+(6.48)
+0.02533
+
+(1.07)
+
+(14.63)
+(16.00)
+(7.87)
+(12.54)
+0.02157
+0.00326 0.01007
+(8.15)
+(2.63) (10.59)
+0.02171
+(15.13)
+
+(11.59) (12.57)
+
+(16.69)
+0.02508
+(9.16)
+
+0.0010
+(13.74)
+
+0.01147
+(13.70)
+
+(5.05)
+Institutional
+blockholdings
+HS measure
+0.00812
+(5.43)
+HS measure  0.00003
+institutional
+(1.13)
+holdings
+
+0.01704
+(6.06)
+0.00011
+(2.33)
+
+(4)
+(5)
+Turnover Dollar
+depth
+
+(3.71)
+0.01248
+
+(3.26)
+0.00798
+
+(2.60)
+0.01406
+
+Control variables
+Market value 0.33483
+(20.75)
+Share price
+0.00144
+(1.70)
+Book to
+0.00292
+market
+(0.29)
+Volatility
+0.43253
+(8.24)
+Decimalization 0.39709
+(5.56)
+
+0.36342
+(22.80)
+0.00043
+(0.70)
+0.00564
+
+0.81572
+(45.70)
+0.00013
+(46.82)
+0.05054
+
+0.00681
+(0.60)
+0.00003
+(34.77)
+0.01068
+
+0.39775
+(28.69)
+0.00297
+(3.10)
+0.02127
+
+0.35960
+(23.96)
+0.00132
+(1.72)
+0.00472
+
+0.45408
+(16.46)
+0.00882
+(5.64)
+0.00814
+
+0.32499
+(17.51)
+0.00369
+(2.98)
+0.00862
+
+0.91462
+(45.76)
+0.00013
+(57.82)
+0.04781
+
+(0.51)
+0.49824
+(10.48)
+0.67070
+(10.93)
+
+(1.71)
+1.86216
+(21.63)
+0.17860
+(2.99)
+
+(2.84)
+0.92577
+(21.79)
+0.01084
+(0.29)
+
+(2.38)
+0.12604
+(2.85)
+0.83306
+(10.79)
+
+(0.47)
+0.44100
+(8.81)
+0.37792
+(5.33)
+
+(2.88)
+0.08682
+(2.98)
+0.67169
+(6.60)
+
+(0.79)
+0.39595
+(7.43)
+0.59334
+(9.75)
+
+(1.78)
+1.06587
+(14.74)
+0.40040
+(6.11)
+
+R squared
+
+0.5683
+
+0.8267
+
+0.5818
+
+0.7231
+
+0.7642
+
+0.6033
+
+0.6621
+
+0.8406
+
+0.7450
+
+relatively small.10 In particular, a change in institutional holdings would be deﬁned by
+applying the following steps:
+10
+We choose the HS measure for this rather than institutional blockholdings as it is a more continuous measure.
+Institutional blockholdings tend to jump when an institutional blockholder reduces (increases) ownership below
+(above) the 5% level.
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+245
+
+(i) we ﬁrst winsorize the sample and keep only observations for which the change in
+insiders’ holdings and the change in the HS measure are in the range of 25–75%
+percentile of their respective empirical distribution (e.g., as can be learned from
+Table 9 Panel A, for insiders’ holdings that would translate to a change range of
+0.03–0.04%);
+(ii) we then deﬁne an extreme increase as that where institutional holdings changes by
+more than the 90% percentile value of its empirical distribution in the winsorized
+sample. Similarly we deﬁne an extreme decrease as that where institutional holdings
+changes by less than the 10% percentile value of its empirical distribution in the
+winsorized sample.
+This approach was respectively applied for extreme changes in insiders’ holdings and
+institutional concentration.
+Table 9 provides difference of means and median tests on changes in the liquidity
+measures following such changes in ownership. Overall, we ﬁnd that institutional level
+increases tend to increase liquidity (though, this result is not signiﬁcant for the price impact
+measure), while increases in institutional concentration tend to reduce liquidity. The effect
+of changes in insiders’ holdings is not signiﬁcant in explaining changes in liquidity.
+Finally, note that another way to check for the insider–liquidity relation is to partition
+insider holdings along the management versus non-management dimension (see the sample
+distribution in Table 1). Accordingly, we run a speciﬁcation (not reported but available
+from authors upon request) in which we partition these two groups of insiders and ﬁnd
+that the coefﬁcients of both groups are not signiﬁcantly correlated with liquidity. We
+suspect that the strict reporting laws of the SEC and the legal liabilities that all insiders are
+subject to substantially reduce trading on information by insiders.
+Summarizing our results, we ﬁnd that liquidity is positively correlated with institutional
+ownership level and negatively correlated with institutional concentration. We ﬁnd that
+insider holdings tend to be negatively correlated with trade-based measures, but ﬁnd no
+evidence that insider holdings contribute to adverse selection costs, as insiders’ holdings
+coefﬁcient tends to be either insigniﬁcant or negatively correlated with various measures of
+spreads. We interpret these results as evidence in support of both the trading hypothesis
+and the adverse selection hypothesis. Our results are consistent with the idea that
+institutions turn over their portfolios more often than insiders and other investors;
+however, if institutional holdings are concentrated in a few large blockholders, market
+makers perceive them as being in an inferior informational position, which results in lower
+liquidity.
+6. Conclusion
+In this paper we conduct an extensive empirical study on the ownership-liquidity
+relation of US-traded shares. By constructing high-resolution ownership data that cover 20
+quarters, we conduct a step-by-step analysis to determine the nature of the ownershipliquidity relation. We ﬁnd there is a two-sided relation between institutional ownership and
+liquidity. On the one hand, liquidity tends to increase with institutional ownership levels;
+on the other hand, liquidity tends to decrease with institutional concentration. We also
+ﬁnd that insider ownership is negatively correlated with trade-driven measures of liquidity,
+but is positively correlated with some order-driven measures of liquidity. Overall, the
+
+ARTICLE IN PRESS
+246
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+Table 9
+Changes in ownership level and ownership concentration
+Panel A shows distribution properties of changes in ownership variables. Panel B provides difference of mean
+and median tests of changes (upward changes minus downward changes) in log liquidity variables during quarters
+in which one (and only one) of either institutional holdings, insiders’ holdings or institutional concentration
+changed by more than the 90% (upward changes) or less than the 10% (downward changes) of its respective
+empirical distribution, while the other ownership variables changes are small. Deﬁnitions of variables are provided
+in Table 1.
+Panel A
+Mean Standard deviation Percentile
+1st
+Ownership level
+D Institutional holdings
+D Insiders’ holdings
+
+0.67 5.67
+0.08 4.61
+
+Ownership concentration
+D HS measure
+0.17 4.77
+D Institutional blockholdings
+0.17 4.98
+D Insiders’ blockholdings
+0.08 4.55
+Panel B
+Number of
+upward
+(downward) events
+
+5th
+
+25th
+
+50th
+
+75th 95th 99th
+
+0.53 2.34
+0.00 0.04
+
+7.75
+0.89
+
+16.66
+11.14
+
+12.95 6.79 2.05 0.14 1.72
+14.08 7.18 0.56
+0.00 0.91
+12.25 0.30
+0.00
+0.00 0.00
+
+6.12
+7.65
+0.07
+
+12.07
+13.98
+11.09
+
+15.06 5.84 0.97
+12.15 1.34 0.03
+
+Mean upward
+(downward)
+change
+
+Median upward
+(downward) change
+
+Difference of
+means (median)
+test upwarddownward
+
+Big change in institutional holdings
+D Dollar volume
+289 (290)
+D Timeweighted spread
+286 (286)
+D Price impact (intra-day)
+275 (268)
+
+0.055 (0.058)
+0.097 (0.001)
+0.070 (0.000)
+
+0.065 (0.050)
+0.103 (0.031)
+0.085 (0.035)
+
+3.53 (4.06)
+3.56 (4.69)
+1.05 (1.11)
+
+Big change in insiders’ holdings
+D Dollar volume
+321 (320)
+D Time-weighted spread
+277 (286)
+D Price impact (intra-day)
+221 (248)
+
+0.041 (003)
+0.014 (0.030)
+0.000 (0.131)
+
+0.070 (0.033)
+0.027 (0.027)
+0.055 (0.096)
+
+1.01 (1.32)
+1.27 (0.49)
+1.45 (1.21)
+
+Big change in HS measure
+D Dollar volume
+D Time-weighted spread
+D Price impact (intra-day)
+
+0.075 (0.230)
+0.040 (0.122)
+0.074 (0.186)
+
+0.048 (0.154)
+0.001 (0.079)
+0.016 (0.249)
+
+7.50 (7.31)
+4.74 (4.56)
+2.98 (3.17)
+
+280 (279)
+261 (258)
+229 (229)
+
+qualitative results with regard to institutional holdings and concentration are robust and
+suggest that liquidity is mainly determined by the ownership structure of institutional
+investors.
+An interesting implication of the results presented in this paper is that if ownership
+levels and concentration affect liquidity, then ﬁrms may optimally choose both ownership
+levels and concentration when considering the optimal capital structure. For choosing
+ownership optimally, one must bear in mind that (at least theoretically) institutional
+blockholdings do not only entail cost, but may also provide beneﬁts by reducing the
+managerial agency conﬂict. As the results of this paper suggest, there are real costs from
+
+ARTICLE IN PRESS
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+247
+
+institutional concentration; however, there is also some evidence that institutional
+blockholdings create value by creating better governance (Hetzell and Starks, 2003).
+While the institutional level–liquidity relation is probably driven by their increased
+trading activity compared to other shareholders, the results with regard to concentration
+do not provide for a clear understanding of the relevance of trading versus adverse
+selection. It is not clear how much of the negative correlation between institutional
+blockholdings and liquidity is due to reduced trading activity of blockholders and how
+much is due to their superior information. A better understanding of the effect of
+asymmetric information versus trading activity is important if one wants to shed light on
+the ways in which ﬁrms with different ownership structures can increase liquidity. For
+example, Hong and Huang (2005) present a model where insiders, who typically care about
+liquidity more than dispersed shareholders, may tend to over-invest in investor relation in
+order to increase liquidity. However, without a clear understanding of the importance of
+adverse selection, it would be hard to know the effectiveness of such activities so long as
+institutional blockholdings are not reduced.
+References
+Acharya, V., Pedersen, L., 2005. Asset pricing with liquidity risk. Journal of Financial Economics 77, 375–410.
+Aitken, M., Comerton-Forbe, C., 2003. How should liquidity be measured? Paciﬁc-Basin Finance Journal 11,
+45–59.
+Alangar, S., Bathala, C., Rao, R., 1999. The effect of institutional interest on the information content of dividendchange announcements. The Journal of Financial Research 22, 429–448.
+Amihud, Y., 2002. Illiquidity and stock returns: cross section and time-series effects. Journal of Financial Markets
+5, 31–56.
+Anderson, T., 1996. Return volatility and trading volume: An information ﬂow interpretation of stochastic
+volatility. Journal of Finance 51, 169–204.
+Barabanov, S., McNamara, M., 2002. Market perception of information asymmetry: Concentration of ownership
+by different types of institutions and bid-ask spread. SSRN working paper.
+Barclay, M., Holderness, C., 1991. Negotiated block trades and corporate control. Journal of Finance 46,
+861–878.
+Barclay, M., Hendershott, T., 2004. Liquidity externalities and adverse selection: evidence from trading after
+hours, Journal of Finance 59, 681–710.
+Bartov, E., Radhakrishnan, S., Krinsky, I., 2000. Investor sophistication and patterns in stock returns after
+earnings announcements. The Accounting Review 75, 43–63.
+Bethel, J., Liebeskind, J.P., Opler, T., 1998. Block share purchases and corporate performance. Journal of Finance
+53, 650–653.
+Bettis, J., Coles, J., Lemmon, M.L., 2000. Corporate policies restricting trading by insiders. Journal of Financial
+Economics 57, 191–220.
+Black, B., 1992. Agents watching agents: the promise of institutional investor voice. UCLA Law Review 39,
+811–893.
+Chiang, R., Venkatesh, P.C., 1988. Insider holdings and perceptions of information asymmetry: a note. Journal of
+Finance 43, 1041–1048.
+Demsetz, H., 1968. The cost of transactions. Quarterly Journal of Economics 20, 267–291.
+Demsetz, H., 1986. Corporate control, insider trading and rates of return. American Economic Review 76,
+313–316.
+Demsetz, H., Lehn, K., 1985. The structure of corporate ownership: causes and consequences. Journal of Political
+Economy 93, 1155–1177.
+Dennis, D., Sarin, A., 1999. Ownership and board structures in publicly traded corporations. Journal of Financial
+Economics 52, 187–223.
+Easly, D., O’Hara, M., 1987. Prices, trade size and information in security markets. Journal of Financial
+Economics 33, 173–199.
+
+ARTICLE IN PRESS
+248
+
+A. Rubin / Journal of Financial Markets 10 (2007) 219–248
+
+Ellis, K., Michaely, R., O’Hara, M., 2000. The accuracy of trade classiﬁcation rules: evidence from Nasdaq.
+Journal of Financial and Quantitative Analysis 35, 529–551.
+Glosten, L.R., Harris, L., 1988. Estimating the components of the bid/ask spread. Journal of Financial Economics
+21, 123–142.
+Glosten, L.R., Milgrom, P.R., 1985. Bid, ask and transaction prices in a specialist market with heterogeneously
+informed traders. Journal of Financial Economics 14, 71–100.
+Gompers, P., Metrick, A., 2001. Institutional investors and equity prices. Quarterly Journal of Economics 116,
+229–259.
+Grossman, S.J., Stiglitz, J.E., 1980. On the impossibility of informationally efﬁcient markets. American Economic
+Reivew 80, 393–408.
+Grullon, G., Kanatas, G., Weston, J.P., 2004. Advertising, breadth of ownership, and liquidity. Review of
+Financial Studies 17, 439–461.
+Hadri, K., Larsson, R., 2005. Testing for stationarity in heterogeneous panel data where the time dimension is
+ﬁnite. Econometrics Journal 8, 55–69.
+Hamilton, J.L., 1978. Marketplace organization and marketability: Nasdaq, the stock exchange and the National
+Market System. Journal of Finance 33, 487–503.
+Hartzell, J., Starks, L.T., 2003. Institutional investors and executive compensation. Journal of Finance 58,
+2351–2374.
+Hasbrouck, J., Seppi, D.J., 2001. Common factors in prices, order ﬂows, and liquidity. Journal of Financial
+Economics 59, 383–411.
+Helﬁn, F., Shaw, K., 2000. Blockholder ownership and market liquidity, Journal of Financial and Quantitative
+Analysis 35, 621–633.
+Hong, H., Huang, M., 2005. Talking up liquidity: insider trading and investor relations. Journal of Financial
+Intermediation 15, 1–31.
+Huang, R.D., Stoll, H.R., 1997. The components of the bid-ask spread: a general approach. Review of Financial
+Studies 10, 995–1034.
+Jaffe, J.F., 1974. Special information and insider trading. Journal of Business 47, 410–428.
+Karpoff, J.M., 1987. The relation between price changes and trading volume: a survey. Journal of Financial and
+Quantitative Analysis 22, 109–126.
+Kini, O., Mian, S., 1995. Bid-ask spread and ownership structure. Journal of Financial Research 58, 401–414.
+Kyle, A.S., 1985. Continuous auctions and insider trading. Econometrica 53, 1315–1335.
+Lakonishok, J., Lee, I., 2001. Are insiders’ trades informative? Review of Financial Studies 14, 79–111.
+Lee, C., Ready, M., 1991. Inferring trade direction from intraday data. Journal of Finance 46, 733–746.
+Lin, J.-C., Howe, J.S., 1990. Insider trading in the OTC marks. Journal of Finance 45, 1273–1284.
+Lin, J., Sanger, G., Booth, G.G., 1995. Trade size and components of the bid-ask spread. Review of Financial
+Studies 8, 1153–1183.
+McConnell, J.J., Sarvaes, H., 1990. Additional Evidence on Equity Ownership and Corporate Value. Journal of
+Financial Economics 25, 595–613.
+McInish, T.H., Wood, R.A., 1992. An analysis of intraday patterns in bid/ask spreads for NYSE stocks. Journal
+of Finance 47, 753–764.
+Merton, R., 1987. A simple model of capital market equilibrium with incomplete information. Journal of Finance
+42, 483–551.
+Petersen, M., 2006. Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches. Working
+Paper, Northwestern University.
+Szewczyk, S., Tsetsekos, G., Varma, R., 1992. Institutional ownership and the liquidity of common stock
+offerings. The Financial Review 27, 211–225.
+Schwartz, R., Shapiro, J., 1992. The challenge of institutionalization of the equity market. In: Saunders, A. (Ed.),
+Recent Developments in Finance. New York Salomon Center, New York, 1992.
+Tinic, S.M., 1972. The economics of liquidity services. The Quarterly Journal of Economics 86, 79–83.
+Weston, J.P., 2000. Competition on the Nasdaq and the impact of recent market reforms. Journal of Finance 55,
+2565–2598.
+Wooldridge, J., 2002. Econometric analysis of cross section and panel data. MIT Press, Cambridge, MA.
+
+

@@ -1,0 +1,1166 @@
+Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+Contents lists available at ScienceDirect
+
+Journal of International Financial
+Markets, Institutions & Money
+j ou rn al h om ep ag e: w w w . e l s e v i e r . c o m / l o c a t e / i n t f i n
+
+Speculative trading and stock returns: A stochastic
+dominance analysis of the Chinese A-share market
+Wai Mun Fong ∗
+Department of Finance, National University of Singapore, 1 Business Link, Singapore 117592, Singapore
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 21 April 2007
+Accepted 29 December 2008
+Available online 15 January 2009
+JEL classiﬁcation:
+C14
+G11
+G14
+Keywords:
+Stochastic dominance
+Market efﬁciency
+Market segmentation
+Arbitrage
+
+a b s t r a c t
+The pricing of A-shares in China has long puzzled ﬁnancial
+economists. This paper applies recent tests of stochastic dominance
+(SD) to examine whether differences in the return distributions of
+A- and B-shares in China are consistent with market efﬁciency. As
+SD is nonparametric, market efﬁciency can be examined without
+the joint test problem arising from misspeciﬁcations in the asset
+pricing benchmark. Our results show A-shares have second-order
+dominated B-shares from 1996 to 2005. This dominance was most
+signiﬁcant during the market segmentation period, but has continued, albeit to a lesser extent even after the B-share market was
+opened to local investors in 2001. Our results are robust to using
+residual returns from an international asset pricing model instead
+of raw returns. We conclude that the superior performance of Ashares cannot be attributed to risk. The results are more likely due to
+a return bias caused by intense speculation among retail individuals
+under limited arbitrage.
+© 2009 Elsevier B.V. All rights reserved.
+
+1. Introduction
+The pricing of A-shares in China has long been a puzzle to ﬁnancial economists. China is unique
+among emerging markets because A-shares, which are restricted to Chinese citizens, are priced at huge
+premiums over B-shares, which are restricted to foreigners. Despite the opening of the B-share market
+to local investors in 2001, the A-share premium has persisted. A large literature has tried to explain
+
+∗ Tel.: +65 6 516 6693; fax: +65 6 779 2083.
+E-mail address: bizfwm@nus.edu.sg.
+1042-4431/$ – see front matter © 2009 Elsevier B.V. All rights reserved.
+doi:10.1016/j.intﬁn.2008.12.003
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+713
+
+the source of this price differential. Recent contributions to this literature include Mei et al. (2005) and
+Chan et al. (2008).
+Several studies argue that China’s stock markets are mainly driven by speculation and insider trading. Allen et al. (2006) point out that the desire for quick gains combined with lack of strong legal
+framework in China fostered a speculative attitude among investors. Mei et al. (2005) point out that
+share prices probably contain a speculative component due to a limited share ﬂoat and prohibitions on
+short sales. Moreover, since the A-share market is dominated by unsophisticated individual investors,
+the size of the A-share premium is a direct reﬂection of this speculative component. Using A-share
+turnover as a proxy for speculation, Mei et al. ﬁnd that stocks with a higher turnover tend to trade at
+higher premiums, which is consistent with the speculative demand hypothesis.
+Chan et al. (2008) provide an alternative explanation of the B-share discount based on the notion
+of information asymmetry. Speciﬁcally, they argue that foreign investors are less informed about the
+Chinese market than locals. Hence, they demand a price discount for B-shares to compensate for
+this information disadvantage. Consistent with their hypothesis, they ﬁnd that B-share discounts are
+positively related to measures of information asymmetry that are constructed using bid-ask spreads
+of A- and B-shares. Furthermore, A-share turnover has no signiﬁcant impact on this discount after
+accounting for information asymmetry.
+While these studies shed light on factors that explain the cross-section of A-share premiums, they
+do not explain why such a premium exists in the ﬁrst place. Existing debate on the sources of the A-share
+premium have also missed another intriguing aspect of the Chinese stock market. That is, there exists
+a higher average return of A-shares relative to the average return of B-shares. For example, between
+January 1996 and February 2001, A-shares outperformed B-shares with average annual returns of 30%
+and 12%, respectively. This large mean return differential has led to a dramatic increase in A-share
+premium over the same period. Even after the B-share market was opened to local investors, A-shares
+still outperformed B-shares. The average annual returns of A-shares and B-shares in the bear market
+from June 2001 to December 2005 were −14% and −19%, respectively.
+Classical ﬁnance argues that markets are efﬁcient in promoting price discovery, which leaves no
+room for noise traders to inﬂuence asset prices. This sanguine view has been challenged by mounting evidence from behavioral ﬁnance. There is convincing evidence that when stocks are favored by
+individual investors and difﬁcult to value, they are prone to mispricing. For example, Kumar and Lee
+(2006) ﬁnd that ﬁrms with high retail concentration and ﬁrms that are more difﬁcult to arbitrage have
+consistently high loadings on measures of investor sentiment. Baker and Wurgler (2006) show that
+sentiment-driven buying leads to return reversals, which is consistent with ex-ante overvaluations.
+They show that this effect is more signiﬁcant among small, young, highly volatile, unproﬁtable, and
+non-dividend paying ﬁrms as well as among extreme value and growth ﬁrms. A common denominator
+is that these ﬁrms have highly subjective valuations.
+It is natural to think of mispricing as stochastic. Recent work by Brennan and Wang (2007) provide
+some insights into the relation between stochastic mispricing and the behavior of asset returns. They
+show that even if a stock trades on average at its fundamental price, its average return may still be
+biased above its fundamental required return. For example, let Pt∗ and Pt denote the fundamental and
+market price of a stock. Suppose Zt is a stationary stochastic mispricing variable. Brennan and Wang
+show that even if Zt has a mean of one, so that the stock price is unconditionally rational, Jensen’s
+inequality implies that the expected return of that stock may still be biased above the fundamental
+expected return (i.e., E(Rt ) > E(Rt∗ )).1 Empirically, they ﬁnd that this bias is larger for smaller ﬁrms,
+low-price ﬁrms, growth ﬁrms, and ﬁrms with high turnover. Their results are generally consistent with
+those of Kumar and Lee (2006).
+Is the higher average return of A-shares consistent with market efﬁciency, or does it reﬂect a return
+bias? It is plausible that noise trading could be prevalent in the A-share market due to the dominance
+
+1
+Consider the special case in which (a) the stock is non-dividend paying and (b) the mispricing variable is uncorrelated
+with fundamentals. Let z = ln(Z) is a stationary, mean zero process, Brennan and Wang (2007) show that in this case, E(Rt ) =
+∗
+E(Rt ) + E(Zt+1 /Zt ) = E(Rt∗ ) + E(ez − 1). The convexity of the exponential function and the assumed stationarity of z implies that
+the return mispricing bias is positive.
+
+714
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+of uninformed individual investors and short-sale restrictions in the Chinese stock market. On the
+other hand, advocates of efﬁcient markets may argue that A-share investors face more risk than Bshare investors because they are less experienced than B-share investors, who are mainly institutions.
+Moreover, institutional investors can diversify easily across international markets, while exchange
+controls in China limit diversiﬁcation for individual investors. Finally, poor minority investor protection
+and imperfect regulation of markets may also cause Chinese investors to be more risk averse. As such,
+the higher average return of A-shares could be a compensation for the higher risk faced by these
+investors.
+The goal of this paper is to test whether risk-based explanations can rationalize the high average
+return of A-shares. The standard approach for testing market efﬁciency is limiting due to the need for
+asset pricing model benchmarks. Despite the voluminous literature on asset pricing, this literature
+has yet to identify equilibrium asset pricing models that can explain a large portion of time-varying
+expected returns. Ghysels (1998) forcefully argues that in modeling expected returns, conditional
+asset pricing models fare poorly compared to simpler static models. Harvey (1995) highlights similar
+difﬁculties in modeling expected returns of emerging stock markets. Bailey et al. (1999) ﬁnd little
+evidence that international asset pricing models can explain stock price differences in segmented
+markets.
+This paper relies on a different approach for testing market efﬁciency. Our approach is based on the
+idea of stochastic dominance (SD). Because SD is nonparametric, SD tests do not require any speciﬁc
+asset pricing benchmarks and thus avoid the joint test problem inherent in the standard approach. SD
+rankings also have direct interpretations in terms of expected utility and thus provide an appealing
+basis to relate investors’ revealed preferences to their risk attitudes. In particular, if the distribution
+of returns is such that A-shares second-order stochastically dominates B-shares, then all investors
+with non-decreasing, concave utility functions would unanimously prefer A-shares to B-shares. Put
+differently, this result implies that no asset pricing model based on risk aversion can rationalize the
+excess mean returns of A-shares.
+We investigate the risk-based hypothesis for A-shares using a recent test for stochastic dominance
+developed by Linton et al. (2005, hereafter LMW). An appealing feature of the LMW test is that it
+allows for general dependence among assets as well as non-identically and independently distributed
+observations. Thus, the test accommodates a rich variety of time series properties in returns including
+weak dependence (␣-mixing) and conditional heteroskedasticity. To perform statistical inference, we
+use a sub-sampling bootstrap method to estimate test critical values. Politis and Romano (1994) show
+that this technique leads to consistent inference under very weak conditions. The use of bootstrap
+methods to approximate critical values contrasts most SD tests that assume distributions are known a
+priori. Simulations by LMW demonstrate that for samples with more than 500 observations, their test
+has good empirical size and power properties.
+The rest of this paper is organized as follows. The next section describes the key institutional features
+of Chinese stock markets. Section 3 describes the data and presents summary statistics of returns for Aand B-shares. As a prelude to stochastic dominance tests, an attempt is made in Section 4 to model the
+returns of A-shares and B-shares based on a global asset pricing model for emerging markets. Section
+5 introduces the stochastic dominance approach for testing market efﬁciency, and Section 6 reports
+the results of the LMW test for A- and B-shares. Section 7 concludes the paper with a summary of our
+main results.
+2. Chinese stock markets
+The Shanghai Stock Exchange (SHSE) and the Shenzhen Stock Exchange (SZSE) were opened in
+1990 and 1991, respectively, mainly to raise funds for state-owned enterprises. Despite their short
+history, both markets have expanded rapidly, with the total number of listed ﬁrms increasing from
+only 53 in 1996 to 1422 in 2005. Over the same period, market capitalization in the two markets
+and across all share types rose from 100 billion renminbi (RMB) (or US$12 billion) to 3243 billion
+RMB (US$391 billion), which is a compound annual growth rate of 9.5%. By the end of 2005, the
+combined market capitalization of the SSHE and SZSE ranked 15th among the world’s largest stock
+exchanges.
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+715
+
+About 70% of shares on the two exchanges are owned by the State and state-related entities. As
+state-owned shares are non-tradable, the share ﬂoat is very limited. Heavy concentration of equity
+ownership in the hands of the State has often been cited as a key reason for the high demand for
+tradable shares among local investors.
+Before 2001, tradable shares were segmented into A-shares for locals and B-shares for foreigners.
+A-shares are denominated in renmnibi (yuan) while B-shares are denominated in US dollars (if they
+are listed in Shanghai) or Hong Kong dollars (if they are listed in Hong Kong). Other than ownership
+restrictions and currency, these shares have identical voting rights and dividends.2 Despite their identical cash ﬂow and voting rights, B-shares have generally traded at large discounts to A-shares.3 Chan et
+al. (2008) show that information asymmetry explains a signiﬁcant portion of cross-sectional variations
+in B-share discounts. However, why such a discount exists in the ﬁrst place remains a puzzle.
+While the growth of the Chinese stock market is impressive, the legal framework and institutions to
+support market efﬁciency in China are rudimentary compared to Western stock markets. China did not
+have a comprehensive set of securities laws until 1999. A code of corporate governance for listed ﬁrms
+was not introduced until 2002. Even today enforcement of corporate governance practice among listed
+companies remains weak. Under Chinese laws, the burden of providing evidence on corporate malpractice rests solely with the plaintiffs, who are usually individual (rather than institutional) investors.
+According to the World Bank’s Doing Business Database (www.doingbusiness.org), China scored only
+5 out of 10 in terms of overall minority investor protection. Yet, retail investors dominate the A-share
+market in both the SSHE and SZSE. These investors also lack equity investment experience and are
+likely to be poorly informed (Chen et al., 2007). In many theoretical models, uninformed investors
+trade on noise or market sentiments because they lack reliable private signals (e.g., Brennan and Cao,
+1996). Investor sentiment can be self-fulﬁlling and there is evidence that intense noise trading deters
+arbitrageurs from making contrarian trades (Brunnermeier and Nagel, 2004).
+Morck et al. (2000) argue that poor investment protection and weak regulations explain why stock
+prices in China and other emerging markets are more “synchronous” (i.e., move up and down together)
+than those in developed markets. Feng and Seasholes (2004) ﬁnd that buy and sell trades in China
+are highly correlated over the same time period (such as a day). Mei et al. (2005) argue that the
+high turnover of A-shares is consistent with a market where short-sale constraints induce investor
+overconﬁdence and excessive trading. Their empirical analysis assumes that B-shares are rationally
+priced.4
+3. Data
+Our data consists of daily returns of ﬁrms on the SSHE and SZSE with both A- and B-shares classes.
+Our sample period runs from 1996 to 2005. Although the two markets were established in the early
+1990s, their price movements and trading volume were erratic in the initial years. Moreover, liquidity is
+a problem. This was especially true for the B-share market where days with zero returns were common.
+To mitigate the problem of low liquidity, we start our sample in 1996. The full sample period is from
+3 January 1996 to 31 December 2005.
+Returns are computed using daily adjusted prices for 84 ﬁrms with A-B listings (42 from each
+market). The data is obtained from the China Stock Market and Accounting Research (CSMAR) database
+
+2
+Dividends are in yuan for both A- and B-shares. Thus, foreign investors do face some cash ﬂow currency exposure. This
+exposure, however, is limited by the fact that a large majority of Chinese listed ﬁrms pay little or no dividends.
+3
+A signiﬁcant price difference between A- and B-shares led to underground arbitrage trades whereby local investors use
+securities accounts opened in the names of friends and relatives abroad to trade B-shares. As early as 1996, the International
+Herald Tribune (20 June 1996) reported that “it appears. . .these days that anyone with a valid identity card and foreign currency
+can now join in a fray where signiﬁcant arbitrage opportunities exist between A and B-shares.” A Bank of International Settlements (BIS) Report noted that by early 2001, more than half of the B-share market was owned by domestic investors. The report
+also documented a signiﬁcant growth in non-bank foreign currency deposits held in Mainland banks in the late 1990s, which
+indicates that domestic investors amassed hard currencies despite capital controls. By the end of 2000, these foreign currency
+deposits account for 50% of total foreign currency deposits. See Ma and McCauley (2002).
+4
+If B-shares are rationally priced and foreign investors are less well informed than local investors, then B-share discounts
+should correlate with the degree of information asymmetry. Chan et al. (2007) provides evidence that this is the case.
+
+716
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+maintained by the University of Hong Kong and GTA Information Technology Company Limited. Prices
+of B-shares were converted to RMB using exchange rates of 8.28 RMB to 1 U.S. dollar before 21 July 2005,
+and the revalued exchange rate of 8.11 RMB after this date. To minimize ﬁrm-speciﬁc inﬂuences, we
+formed value-weighted portfolios of A- and B-shares. The initial weights are each ﬁrm’s market price
+multiplied by its number of tradable shares at the start of the sample period. Thereafter, the portfolio
+is rebalanced when there is an IPO.5 To avoid the inﬂuence of IPO effects, we include a ﬁrm only 1 year
+after its ﬁrst day of trading. We perform our stochastic dominance tests based on the returns of these
+value-weighted portfolios.
+Table 1 presents portfolio summary statistics of the data. For the full sample period, the mean
+returns of A- and B-shares were about the same, but A-shares were less volatile. We also report
+annualized Sharpe ratios computed using daily returns and the 3-month China deposit rate as the
+risk-free-rate proxy. The Sharpe ratio of A-shares is high (0.92) and statistically signiﬁcant based on
+the modiﬁed Sharpe ratio test proposed by Lo (2002).6 In contrast, the Sharpe ratio of B-shares is
+only 0.21 and not statistically different from zero. Based on the arguments of Hansen and Jagannathan
+(1991), the high Sharpe ratio of A-shares would require rather peculiar investor preferences to be
+consistent with rationality.
+The full sample period masks interesting differences in returns behavior over two major market
+regimes. Before 19 February 2001, local and foreign investors were legally restricted to A- and Bshares, respectively. During this period, A-shares traded at very high premiums which averaged 460%
+compared to B-shares. Investors’ revealed preference for A-shares is also reﬂected in the much higher
+mean return of A-shares (29% per annum) compared to B-shares (12.5%). As seen in Fig. 1, the large
+return differential between A- and B-shares led to a dramatic increase in the A-share premium over
+this period.
+Empirical evidence indicates that individual investors are attracted to attention-grabbing stocks
+such as those with extreme returns and high trading volume (Barber and Odean, 2008). Using transaction data of nearly 47,000 individual investor accounts between 1998 and 2002, Chen et al. (2007)
+ﬁnd that individual investors in China hold undiversiﬁed portfolios and trade more actively than individual investors in the U.S. Consistent with these studies, we ﬁnd that the average turnover rate of
+A-shares (624% per annum) was much higher than that of B-shares (120% per annum) for our entire
+sample period. This high turnover rate indicates a very liquid market for A-shares. However, it may
+also be an indicator of investor overconﬁdence. For example, Miller (1977) argues that given shortsale constraints, only the most optimistic investors will be in the market. Extending this argument,
+Mei et al. (2005) show that in equilibrium, stock prices will incorporate a resale option that captures the prospect of selling the shares to other more optimistic investors in the future at even higher
+prices.
+Trading activity on the B-share market is more subdued than on the A-share market. This suggests
+that institutional investors who dominate the B-share marker adopt mainly buy-and-hold strategies.
+Concerns over illiquidity of B-shares led the Chinese government to open the B-share market to local
+investors. This policy change was announced on 19 February 2001, but came into full effect only from 1
+June. Although prices of B-shares surged on heavy trading volume shortly after the announcement of
+the new policy, the price adjustment continued over a period of months. Since this gradual adjustment
+may have interfered with “normal” price transmission, we omit a “transition” period from our tests.
+We deﬁne this transition period as the period from 19 February 2001 to 31 May 2001. Therefore, our
+second (post-market segmentation) sub-period starts from 1 June 2001 and ends in 31 December 2005.
+This second sub-period provides us with a natural experiment to examine the effects of the market
+reform on stochastic dominance and market efﬁciency.
+Fig. 1 shows that the A-share premium remained even after the liberalization of the B-share market.
+The average daily premium for A-shares was still an economically signiﬁcant 40%. As the second subperiod was generally bearish, average returns for both A- and B-shares were negative over this period.
+
+5
+
+No ﬁrms in either portfolio were delisted in the sample period.
+Both the Sharpe ratio and its standard error are modiﬁed to take into account of non-i.i.d. returns based on Eqs. (20) and
+(26) in Lo (2002).
+6
+
+Descriptive statistic
+
+Return
+Stdev
+Sharpe ratio
+Skewness
+Kurtosis
+
+Full sample (3 January 1996–31
+December 2005)
+
+Sub-period 1 (3 January
+1996–16 February 2001)
+
+Transition (19 February
+2001–31 May 2001)
+
+Sub-period 2 (1 June 2001–31
+December 2005)
+
+A-Shares
+
+B-Shares
+
+A-Shares
+
+B-Shares
+
+A-Shares
+
+B-Shares
+
+A-Shares
+
+B-Shares
+
+9.86
+28.9
+0.31 (0.337)
+−0.08
+7.17
+
+9.46
+35.6
+0.18 (0.322)
+0.42
+7.61
+
+29.8
+32.9
+0.92* (0.044)
+−0.35
+6.45
+
+12.2
+39.5
+0.21 (0.642)
+0.32
+7.02
+
+36.3
+19.8
+2.21 (0.291)
+−2.23
+14.52
+
+421.9
+54.0
+5.80* (0.004)
+0.05
+4.28
+
+−0.14
+24.2
+−0.67 (0.216)
+0.60
+7.24
+
+−0.19
+28.4
+−0.71 (0.187)
+0.35
+7.58
+
+Note: This table presents summary statistics of daily returns on value-weighted portfolios of A- and B-shares traded on the Shanghai and Shenzhen stock exchanges. The full sample
+period is from 3 January 1996 to 31 December 2005. We also report statistics for various sub-periods, the dates of which are indicated in the table. The transition period are the ﬁrst
+few months following the change of policy to permit Chinese citizens to buy B-shares. This policy change was announced on 19 February 2001 and came into full effect from 1 June
+2001. “Return” is the average daily return expressed in percent per annum. “Stdev” is the standard deviation of daily returns expressed in percent per annum. Sharpe ratios are computed
+using daily data and annualized using Eq. (20) in Lo (2002) which account for serial correlation in daily returns. Numbers in parentheses below each Sharpe ratio are autocorrelation and
+heteroskedasticity-consistent p-values computed using Eq. (26) in Lo (2002) with 10 lags.
+*
+Indicates statistic is signiﬁcant at 5%.
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+Table 1
+Summary statistics of daily returns of A- and B-shares.
+
+717
+
+718
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+Fig. 1. (a) Cumulative returns of A and B shares. (b) A-share premium.
+
+Nonetheless, as Table 1 shows, A-shares still outperformed B-shares with annualized mean returns of
+−14% and −19%, respectively.
+4. Asset pricing
+4.1. The model
+As a prelude to our stochastic dominance tests, we ﬁrst examine whether standard international asset pricing models can capture returns on the Chinese stock market. We do this for two
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+719
+
+reasons. First, it may be premature to conduct stochastic dominance tests before asking whether
+common risk factors can account for changes in expected returns. Second, residuals from our asset
+pricing model can be used as a proxy for non-fundamental returns. Applying stochastic dominance
+tests to these residuals allows us to test whether stochastic dominance can be attributed to nonfundamentals.
+Following Bekaert and Harvey (1995), we consider a general asset pricing speciﬁcation that allows
+stock returns to depend on world and local information variables and to display time-varying (asymmetric GARCH) volatility in the return innovations. The model speciﬁcation is as follows. Let ri,t denote
+daily returns on A-shares, B-shares, or the world market portfolio. We use the Morgan Stanley Capital
+International (MSCI) world market index as the proxy for the world market portfolio. The following
+stochastic process for daily returns is assumed:
+ri,t = i,t−1 + εi,t
+
+(1)
+
+The conditional mean return for the world market portfolio is speciﬁed as
+W,t−1 = ı0 + ı1 Xt−1
+
+(2)
+
+where Xt−1 is a set of world information variables that includes a change in the U.S. Treasury-bill rate
+(TBt−1 ), a change in U.S. Treasury bond term structure spread (TSt−1 ) measured as the difference
+between the yield on 10-year Treasury bond and the yield on 3-month T-bill rate, and the U.S. corporate
+bond default spread (DSt−1 ) measured as the difference between the Moody’s Baa bond yield and Aaa
+bond yield.
+The conditional variance for the world market portfolio is assumed to follow an asymmetric GARCH
+(1,1) process:
+2
+2
+W,t
+= ˛o + ˛W ε2W,t−1 + ˇW W,t−1
++ W DW ε2W,t−1
+
+(3)
+
+where DW is a dummy variable taking a value of one if the world return innovation is negative, and
+zero otherwise.
+The speciﬁcation for the conditional mean return for A- and B-shares is
+i,t−1 = ω0 + ω1 Xt−1 + ω3 Ct−1
+
+(4)
+
+where Xt−1 is as deﬁned above, and Ct−1 is the return on the Chinese stock market, a local information
+variable. The Chinese composite stock index compiled by CSMAR is used to compute Ct−1 .
+We assume that return innovations are dependent on world market shocks and model these innovations as εi,t = 	εw,t−1 + ei,t . Thus, a portion of unexpected returns is due to world shocks (εw,t−1 )
+and another portion is due to idiosyncratic shocks (ei,t ). Idiosyncratic shocks are assumed to follow an
+MA (1) process with asymmetric GARCH (1,1) conditional variance:
+2
+2
+2
+2
+i,t
+= ˛o,i + ˛i ei,t−1
++ ˇi i,t−1
++ Di ei,t−1
+.
+
+(5)
+
+4.2. Estimation and speciﬁcation tests
+We estimate the above asset pricing system using maximum likelihood under the assumption that
+εW,t and ei,t are conditionally normal. To see whether the model can capture time-varying expected
+returns, we carry out generalized method of moments (GMM) speciﬁcation tests. These tests calculate
+moment restrictions under the null hypothesis that the model is correctly speciﬁed. Speciﬁcally, let
+zi,t denote the standardized residuals for each return series. Under the null hypothesis, the following
+population moment conditions should hold:
+E[z̃i,t ] = 0
+
+(C1)
+
+2
+E[z̃i,t
+− 1] = 0
+
+(C2)
+
+E[z̃i,t , z̃i,t−j ] = 0, j = 1, . . . , l
+
+(C3)
+
+3
+E[z̃i,t
+
+(C4)
+
+− si ] = 0,
+
+where s denotes skewness
+
+720
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+Table 2
+Results of GMM speciﬁcation tests.
+Speciﬁcation test
+
+A-Share portfolio
+
+B-Share portfolio
+
+5.55 (0.852)
+1.06 (1.000)
+6.64 (0.998)
+0.147 (0.026)*
+
+17.60 (0.062)
+1.78 (0.998)
+19.22 (0.508)
+0.048 (0.025)*
+
+16.80 (0.079)
+0.066 (1.00)
+17.20 (0.640)
+0.011 (0.042)*
+
+B. Sub-period 1
+Mean
+Variance
+Joint
+
+Wald
+
+9.17 (0.517)
+0.012 (1.00)
+9.16 (0.981)
+0.101 (0.005)*
+
+10.05 (0.073)
+1.108 (0.953)
+11.15 (0.346)
+−0.002 (0.954)
+6.38 (0.173)
+
+4.17 (0.525)
+2.04 (0.844)
+7.32 (0.694)
+−0.035 (0.585)
+3.96 (0.411)
+
+C. Sub-period 2
+Mean
+Variance
+Joint
+
+Wald
+
+13.96 (0.175)
+1.75 (1.000)
+14.427 (0.808)
+0.129 (0.00)*
+
+11.89 (0.293)
+0.015 (1.00)
+11.99 (0.916)
+0.161 (0.00)*
+4.86 (0.302)
+
+9.04 (0.529)
+2.08 (0.996)
+11.91 (0.919)
+0.077 (0.145)
+9.78 (0.044)*
+
+A. Full sample
+Mean
+Variance
+Joint
+
+
+World market
+
+Note: This table reports the results of GMM speciﬁcation tests of moment restrictions implied by the symmetric GARCH international asset pricing model described in the text. Sample periods are as follows—(a) full sample: 3 January 1996 to 31 December
+2005; (b) sub-period 1: 3 January 1996 to 16 February 2001; (c) sub-period 2: 1 June 2001 to 31 December 2005. The means and
+variance speciﬁcation tests are GMM tests of moment restrictions for the standardized GARCH residuals and squared residuals
+of returns, respectively. The tests are based on ﬁve lags and the test statistic is 
+2 with 5 d.f. We also report the results of a
+joint test based on all restrictions up to the fourth moment. The test statistic for the joint test is 
+2 with 14 d.f.  is the GARCH
+asymmetry coefﬁcient (see Eq. (5) in the text). Wald is a chi-square test of the signiﬁcance of world information variables in the
+mean return. Numbers in parenthesis are p-values.
+*
+Indicates statistical signiﬁcance at 5%.
+
+4
+E[z̃i,t
+− ki ] = 0,
+
+where k denotes kurtosis
+
+2
+2
+E[(z̃i,t
+− 1)(z̃i,t−j
+− 1)] = 0,
+
+j = 1, . . . , l
+
+(C5)
+(C6)
+
+Table 2 reports the GMM speciﬁcation test results for the conditional mean speciﬁcation (C3), the
+conditional variance speciﬁcation (C6), and a joint test of all the above restrictions. The tests are based
+on ﬁve lags. The test statistic for (C3) and (C6) is 
+2 with 5 d.f. and the test statistic for all restrictions is
+
+2 with 14 d.f. The second to last row reports the GARCH asymmetry coefﬁcient () and the associated
+p-value, while the last row reports a Wald test of the null hypothesis that the global information
+variables are not signiﬁcant in the mean equation.
+Table 2 indicates that the model can capture both mean and volatility dynamics for the three
+return series. Since returns on the world index exhibit strong volatility asymmetry, this implies
+that an increase in conditional variance tends to follow a negative shock. There are no signiﬁcant
+asymmetry effects for A- and B-shares. Despite passing the above speciﬁcation tests, the Wald test
+shows that the global information variables are insigniﬁcant in explaining the dynamics of A- and
+B-share mean returns. Surprisingly, the lagged return on the Chinese stock market also has no signiﬁcant inﬂuence on current A- and B-share returns. On the other hand, accounting for volatility
+persistence plays a key role in capturing the dependence in stock returns. Overall, we conclude that
+the model fails to explain the behavior of expected returns as a function of the macroeconomic
+variables. While this result is disappointing, it is in line with the academic consensus that standard asset pricing models do a poor job in capturing time-varying risk premium in both developed
+and emerging markets (see e.g., Roll, 1988; Harvey, 1995; Santis and Imrohoroglu, 1997; Ghysels,
+1998).
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+721
+
+5. Stochastic dominance
+5.1. Overview
+Given the limitations of the asset pricing approach, we propose an alternative method for testing
+market efﬁciency that does not need asset pricing benchmarks. Our tests use a stochastic dominance
+approach to compare risks. Unlike standard mean-variance analysis, SD does not assume that returns
+have to be normally distributed or that investors have quadratic utility functions. It merely assumes
+that investors choose risks to maximize expected utility.
+5.2. Stochastic dominance criteria
+Let F and G be the cumulative distributions of two risky assets, x the uncertain return, and U a vonNeumann-Morgenstern utility function. We assume throughout that investors prefer more to less, so
+that U (x) ≥ 0. F ﬁrst-order stochastically dominates G if and only if
+F(x) ≤ G(x) for all x
+
+(6)
+
+This means that F is preferred over G for all utility-maximizing investors. This is because there is less
+probability of lower outcomes under F than under G for all outcomes x.
+First-order stochastic dominance (FSD) is clearly too stringent a criterion for ranking investments. In
+this paper, we focus on second-order stochastic dominance (SSD) which assumes that investors are risk
+averse i.e., have increasing and concave utility functions. Since much of ﬁnance theory is based on risk
+aversion, SSD is an appealing criterion to evaluate risky prospects. Furthermore, it seems reasonable
+to assume that Chinese investors are risk averse given their lack of investment experience and the
+existence of poor minority investor protection in China.
+Consider a risk averter with utility functions U (x) ≥ 0 and U (x) ≤ 0. We say that F is preferred to G
+by all risk averters if F second-order stochastically dominates G. This is true if and only if
+
+
+
+x
+
+[G(t) − F(t)]dt ≥ 0 for all x
+
+(7)
+
+−∞
+
+Our econometric tests focus on SSD. If the return distributions are such that A-shares stochastically
+dominate B-shares at second order, then no asset pricing model based on risk aversion can explain the
+higher mean return of A-shares.
+Third-order stochastic dominance (TSD) adds to risk aversion, the assumption of positive skewness
+preference (i.e., the utility function is assumed to satisfy U (x) ≥ 0, U (x) ≤ 0 and U (x) ≥ 0). For such
+investors, F stochastically dominates G at third order if and only if F > G (where  denotes expected
+return) and
+
+
+
+x
+
+
+
+v
+
+[G(t) − F(t)]dz dv ≥ 0 for all x
+−∞
+
+(8)
+
+−∞
+
+We also report results for TSD as positive skewness preference is theoretically appealing.
+5.3. Econometric tests
+We employ a test for stochastic dominance developed by Linton et al. (2005) to evaluate stochastic
+dominance relationships between A- and B-shares. Unlike most stochastic dominance tests in the
+literature, the LMW test does not require the data to be identically and independently distributed.
+Thus, the test can be applied to data which exhibit time series dependence, such as GARCH volatility
+and serial correlations.
+The LMW test is set up as follows. Let {Yi }, i = 1, 2, . . ., N be a random sample drawn from a population
+j
+with cumulative distribution function (CDF), FY (x). Let DY (x) denote the function that integrates FY to
+
+722
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+order j − 1. That is,
+DY1 (x) = FY (x),
+
+
+
+DY2 (x) =
+
+(9)
+x
+
+FY (u) du =
+−∞
+
+
+DY3 (x) =
+
+
+
+x
+
+x
+
+
+
+−∞
+
+DY1 (u) du, and
+
+v
+
+
+
+x
+
+FY (v)dv du =
+−∞
+
+−∞
+
+(10)
+
+−∞
+
+DY2 (u)du
+
+(11)
+
+where x > 0 for all cases. Let {Zi }, i = 1, 2, . . ., N be a random sample from a population with cumulative
+j
+distribution function FZ (x). Deﬁne DZ (x) analogously.
+The LMW test evaluates the following hypotheses:
+j
+
+j
+
+H0 : DY (x) ≤ DZ (x) for all x ∈ V and
+H1 :
+
+j
+DY (x)
+
+>
+
+j
+DZ (x) for some x ∈ V
+
+(12)
+(13)
+
+where V is the usual joint support for the two distributions.
+The null hypothesis is that Y dominates Z at the jth order.7 The alternative hypothesis is that stochastic dominance fails at some point. For our purpose, let Y and Z stand for A- and B-shares, respectively.
+Our goal is to test whether A-share returns are too high to be justiﬁed by risk, where risk is deﬁned
+nonparametrically by taking into account all information in the distribution functions. To answer this
+question, we apply the LMW test to evaluate two null hypotheses. The ﬁrst null hypothesis is that Ashares stochastically dominate B-shares (H01 : Aj B) where “j ” indicate stochastic dominance at the
+jth order. The second null hypothesis is the converse (i.e., H02 : Bj A). Accepting the ﬁrst null hypothesis and rejecting the second implies that A-shares stochastically dominate B-shares. If this test outcome
+holds for second-order stochastic dominance, then no asset pricing model based on risk aversion can
+explain the higher returns of A-shares since SSD preference applies to all risk averse investors. If we
+cannot reject both null hypotheses, we infer that higher average return of A-shares is consistent with
+risk and is therefore not an anomaly.
+5.4. Test statistic and bootstrap-based inference
+To test the two null hypotheses just described, we use the following test statistic proposed by LMW:
+√ j
+j
+LMWj = sup N[DY (x) − DZ (x)]
+(14)
+x
+
+where N is the sample size.8 Since the asymptotic null distribution of this statistic is non-standard, we
+use bootstrap simulations to compute the empirical p-values.9 Following the suggestion of LMW, we
+use a sub-sampling bootstrap procedure in which blocks of data are sampled without replacement to
+estimate the distribution of the test statistic. The sub-sampling bootstrap technique has been studied
+in detail by Politis and Romano (1994) who show that it consistently estimates the distribution of a
+statistic under very weak conditions.
+The LMW sub-sampling method requires computing (N − b + 1) times the following test statistic for
+a sub-sample of size b:
+j
+
+LMWi = sup
+x
+
+
+
+j
+
+j
+
+b[DY,i (x) − DZ,i (x)] for i = 1, 2, . . . , N − b + 1
+
+(15)
+
+7
+Strictly speaking, the null hypothesis as stated is one of weak stochastic dominance. We ignore the distinction between
+weak and strong stochastic dominance since no general econometric test that we know of can distinguish between them.
+8
+We do not trim any part of the data in computing the test statistics.
+9
+The bootstrap is a non-parametric technique to estimate the distribution of a test statistic by re-sampling the data. It is
+often used when the asymptotic distribution of a test statistic is difﬁcult to derive analytically. An advantage of the bootstrap
+approach is that critical values are not dependent on any particular distribution assumptions.
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+723
+
+The distribution of this sub-sample test statistic is then used to approximate the distribution of
+Eq. (14). Since each sub-sample taken without replacement is in fact a sample of size b from the true
+sampling distribution of the original data, the procedure has asymptotically correct size (Theorem 2,
+Linton et al., 2005). In addition, by sampling blocks of observations (rather than individual observations), the procedure allows for general dependence in the data, which contrasts the i.i.d. assumption
+of most SD tests.
+Let p̂j denote the empirical p-value. We reject the null hypothesis at ˛ signiﬁcance level if
+p̂j =
+
+1
+N−b+1
+
+ 
+
+N−b+1
+
+j
+
+
+
+1 LMWi − LMWj > 0
+
+<˛
+
+(16)
+
+i=1
+
+Asymptotic theory requires that the sub-sample size b should be small relative to N, but provides no
+other speciﬁc guidance. In our empirical analysis, we report results based on b equal to 5% and 10%
+of the sample size. For each b, we form a sequence of 20 equally spaced sub-samples and perform
+statistical inference using the median p-value of this sub-sample sequence as suggested by LMW.10
+6. Results
+6.1. Cumulative distribution functions
+Fig. 2 plots the cumulative distribution functions (CDFs) and integrated CDFs for A- and B-shares
+for sub-period 1 (market segmentation), the transition period, and sub-period 2 (post-market segmentation). The sharp rise in prices of B-shares following the policy change in February 2001 is clearly
+reﬂected in ﬁrst-order stochastic dominance of B-shares over A-shares during the transition period
+(plots C and D). Since returns in the transition period do not reﬂect normal price discovery, we perform
+SD tests only for sub-periods 1 and 2. Fig. 2 shows that for these sub-periods the CDFs cross, indicating
+no FSD dominance. However, the integrated CDF plots suggest the possibility of SSD dominance of
+A-shares over B-shares.
+6.2. LMW test results
+Table 3 presents the results of the LMW test. The results are shown for the full sample period and
+sub-periods 1 and 2. Consistent with the message from the CDF plots, there is no evidence of FSD
+dominance in any of the sample periods. However, there is clear evidence of A-shares SSD dominating
+B-shares. SSD dominance is especially signiﬁcant in the ﬁrst sub-period. In general, evidence for TSD
+dominance is weaker than that of SSD dominance. Nonetheless, for the ﬁrst sub-period, TSD-type
+investors would also have strongly preferred A-shares to B-shares. Overall, these results indicate that
+the extremely high average return of A-shares in the ﬁrst sub-period cannot be attributed to risk.
+The market reform announced in February 2001 should lead to some convergence of return distributions in the two markets. The second sub-period provides a natural experiment to test this hypothesis.
+The results (panel C) are broadly consistent with the convergence hypothesis since there is weaker
+evidence of stochastic dominance as compared to the ﬁrst sub-period. Nonetheless, A-shares still SSD
+dominate B-shares at slightly below 5%.
+As a robustness check, we apply the LMW test to residuals of the international asset pricing model
+discussed in Section 4. This test amounts to a search for stochastic dominance after hedging out the
+rational component of A- and B-shares returns. Table 4 reports the results.
+Using residual returns does not change the main ﬁndings. First, A-share residuals SSD dominate Bshare residuals for the full sample and sub-period 1. Second, this dominance relation is stronger in the
+
+10
+Simulation evidence by LMW indicates that for large samples (>500), the sub-sampling bootstrap test is conservative when
+the null hypothesis is correct, but nevertheless has impressive power when the alternative hypothesis for FSD and SSD is true.
+The high power of the test implies that if no stochastic dominance is found, both null hypotheses can be accepted with high
+conﬁdence. On the other hand, if H02 : Bj A is rejected, but H01 : Aj B is not, then this provides strong evidence that A-shares
+stochastically dominate B-shares.
+
+724
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+Fig. 2. CDF and integrated CDF of A- and B-share daily returns. Plots A and B are based on sub-period 1 (3 January 1996–16
+February 2001). Plots C and D are based on the transition period (19 February 2001–31 May 2005) and plots E and F are based
+on the post-transition period (1 June 2001–December 2005). Bold line: A-shares. Dotted line: B-shares.
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+725
+
+Table 3
+Stochastic dominance tests of A- and B-share raw returns.
+Order of stochastic dominance (j)
+
+Median p-value
+H01 : Aj B
+
+H01 : Bj A
+
+bmax = 5%
+
+bmax = 10%
+
+bmax = 5%
+
+bmax = 10%
+
+A. Full sample
+j=1
+2
+3
+
+0.253
+0.714
+0.562
+
+0.299
+0.648
+0.461
+
+0.034*
+0.026*
+0.039*
+
+0.062
+0.046*
+0.048*
+
+B. Sub-period 1
+j=1
+2
+3
+
+0.231
+0.713
+0.576
+
+0.273
+0.679
+0.508
+
+0.048
+0.010*
+0.026*
+
+0.084
+0.012*
+0.023*
+
+C. Sub-period 2
+j=1
+2
+3
+
+0.180
+0.842
+0.745
+
+0.187
+0.760
+0.594
+
+0.078
+0.045*
+0.070
+
+0.090
+0.047*
+0.062
+
+Note: This table reports the results of the Linton et al. (2005) test for stochastic dominance. The test is based on daily raw returns
+for value-weighted portfolios of A- and B-shares traded on the Shanghai and Shenzhen stock markets. The entire sample period
+is from 3 January 1996 to 31 December 2005 (2338 observations). Sub-period 1 is from 3 January 1996 to 16 February 2001
+(1232 observations) and sub-period 2 is from 1 June 2001 to 31 December 2005 1106 observations). For each sample period,
+we test two null hypotheses to establish the direction of stochastic dominance: H01 : Aj B and H02 : Bj A where j = 1, 2 and 3.
+Statistical inference is based on median p-values obtained by sub-sampling bootstrap. The bootstrap simulations are based on
+a sequence of 20 sub-samples, with sub-sample size ranging from 10 to bmax (maximum sub-sample size). We report p-values
+using bmax equal to 5% and 10% of the sample size.
+*
+Indicates the null hypothesis can be rejected at 5%.
+
+Table 4
+Stochastic dominance test of A- and B-share residual returns.
+Order of stochastic dominance (j)
+
+Median p-value
+H01 : Bj A
+
+H01 : Aj B
+bmax = 5%
+
+bmax = 10%
+
+bmax = 5%
+
+bmax = 10%
+
+A. Full sample
+j=1
+2
+3
+
+0.255
+0.756
+0.548
+
+0.284
+0.740
+0.491
+
+0.162
+0.037*
+0.048*
+
+0.220
+0.047*
+0.058
+
+B. Sub-period 1
+j=1
+2
+3
+
+0.222
+0.720
+0.587
+
+0.276
+0.690
+0.516
+
+0.056
+0.022*
+0.032*
+
+0.092
+0.024*
+0.035*
+
+C. Sub-period 2
+j=1
+2
+3
+
+0.136
+0.748
+0.618
+
+0.141
+0.657
+0.507
+
+0.071
+0.053
+0.072
+
+0.076
+0.048*
+0.067
+
+Note: This table reports the results of the Linton et al. (2005) test for stochastic dominance. The test is based on daily residual
+returns for value-weighted portfolios of A- and B-shares. Residual returns are estimated using the international asset pricing
+model described in the text. Sample periods are as follows—(a) full sample: 3 January 1996 to 31 December 2005; (b) sub-period
+1: 3 January 1996 to 16 February 2001; (c) sub-period 2: 1 June 2001 to 31 December 2005. For each sample period, we test
+two null hypotheses to establish the direction of stochastic dominance: H01 : Aj B and H02 : Bj A where j = 1, 2 and 3. Statistical
+inference is based on median p-values obtained by sub-sampling bootstrap. The bootstrap simulations are based on a sequence
+of 20 sub-samples, with sub-sample size ranging from 10 to bmax (maximum sub-sample size). We report p-values using bmax
+equal to 5% and 10% of the sample size.
+*
+Indicates the null hypothesis can be rejected at 5%.
+
+726
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+ﬁrst sub-period than in the second sub-period. To the extent that the residual returns reﬂect investor
+behavioral biases, these biases were clearly most inﬂuential during the ﬁrst sub-period. This reinforces
+our view that speculation rather than risk compensation was driving the returns of A-shares. That Ashares still dominate B-shares in the second sub-period indicates that there is some way to go before the
+A-share market can be considered fully efﬁcient. Meanwhile, there are still many market frictions that
+hinder price efﬁciency. Most notably, short-selling remains illegal and there are no equity derivatives
+markets to speak of. Moreover, until China switches to a free-ﬂoating currency system, the renminbi
+will remain a restricted currency. This deters individual investors from diversifying overseas. It also
+deters foreign investors from active participation in the A-share market even though China partially
+opened up this market in 2002.11 Revisiting these issues and their impact on market efﬁciency is an
+interesting topic for future research.
+7. Conclusions
+China’s stock market presents an interesting setting to examine the effects of market frictions on
+pricing efﬁciency. The market is relatively young, dominated by retail investors and lacks a strong legal
+and institutional framework to protect investors’ rights. Moreover, market frictions such as exchange
+controls and prohibitions against short-selling also limit arbitrage. Theorists such as Miller (1977)
+argue that under this environment, speculative bubbles tend to form when investors have diverse
+beliefs since only optimistic investors will choose to be in the market. Mei et al. (2005) argue that
+market frictions and speculation may explain why prices of A-shares tend to exceed those of B-shares.
+To date, however, reasons for the existence of the A-share premium have not been resolved. Although
+the literature has identiﬁed liquidity and information asymmetry as important factors in explaining
+why some ﬁrms have higher A-share premiums than others, the basic question of whether A-shares
+are rationally priced is still open.
+This paper shows that stochastic dominance tests can be used to test the efﬁciency of the A-share
+market. We ﬁnd strong evidence that A-shares second-order dominate B-shares in the full segmentation period in China. Since this result implies that all risk averse investors prefer A-shares to B-shares,
+the superior average return of A-shares in this period cannot be explained by risk, and is more likely
+a reﬂection of market inefﬁciency.
+The policy change of February 2001 provides us with a natural experiment to assess the impact of
+market reform on market efﬁciency. Chan et al. (2008) ﬁnd that A-shares continued to dominate price
+discovery at the daily level after the policy change. Likewise, our results show that A-shares continued
+to SSD-dominate B-shares in the post-reform period. The higher turnover rate of A-shares may be
+the main reason why investors remain attracted to this market compared to the B-share market. Our
+results indicate that there is some way to go before the A-share market can be considered fully efﬁcient.
+References
+Allen, F., Qian, J.Q., Qian, M., 2006. China’s ﬁnancial system: past, present and future. In: Brandt, L., Rawski, T. (Eds.), China’s
+Economic Transition: Origins, Mechanism, and Consequences. Cambridge University Press, Cambridge, U.K..
+Bailey, W., Chung, Y.P., Kang, J.K., 1999. Foreign ownership restriction and equity price premiums: what drives the demand for
+cross-border investments? Journal of Financial and Quantitative Analysis 34, 489–511.
+Baker, M., Wurgler, J., 2006. Investor sentiment and the cross section of stock returns. Journal of Finance 61, 1645–1680.
+Barber, B.M., Odean, T., 2008. All that glitters: the effect of attention and news on the buying behavior of individual and
+institutional investors. Review of Financial Studies 21, 785–818.
+Bekaert, G., Harvey, C.R., 1995. Emerging equity market volatility. Journal of Financial Economics 43, 29–77.
+Brennan, M.J., Cao, H.H., 1996. Information, trade and derivative securities. Review of Financial Studies 9, 163–208.
+Brennan, M.J., Wang, A.W., 2007. Asset pricing and mispricing. Working paper, UCLA.
+Brunnermeier, M., Nagel, S., 2004. Hedge funds and the technology bubble. Journal of Finance 59, 2013–2040.
+Chan, K., Menkveld, A.J., Yang, Z., 2007. The informativeness of domestic investor and foreign investors’ stock trades: evidence
+from the perfectly segmented Chinese market. Journal of Financial Market 10, 391–415.
+
+11
+Currently, a select group of “qualifying foreign institutional investors” (QFII) is allowed to invest in A-shares up to a total
+investment of US$10 billion. This QFII quota is likely to be raised in the future along with relaxation of foreign investment rules
+such as currency conversion and repatriation of funds.
+
+W.M. Fong / Int. Fin. Markets, Inst. and Money 19 (2009) 712–727
+
+727
+
+Chan, K., Menkveld, A.J., Yang, Z., 2008. Information asymmetry and asset prices: evidence from China foreign share discount.
+Journal of Finance 61, 159–196.
+Chen, G.M., Kim, K.A., Nofsinger, J.R., Rui, O.M., 2007. Trading performance, disposition effect, overconﬁdence, representativeness
+bias, and experience of emerging market investors. Journal of Behavioral Decision Making 20, 425–451.
+Feng, L., Seasholes, M., 2004. Correlated trading and location. Journal of Finance 59, 2117–2144.
+Ghysels, E., 1998. On stable factor structures in the pricing of risk: do time-varying betas help or hurt? Journal of Finance 53,
+549–573.
+Hansen, L.P., Jagannathan, R., 1991. Implications of security market data for models of dynamic economies. Journal of Political
+Economy 99, 225–262.
+Harvey, C.R., 1995. Predictable risk and returns in emerging markets. Review of Financial Studies 8, 773–816.
+Kumar, A., Lee, C.M.C., 2006. Retail investor sentiment and return comovements. Journal of Finance 61, 2451–2486.
+Linton, O., Maasoumi, E., Whang, Y.J., 2005. Consistent testing for stochastic dominance under general sampling schemes. Review
+of Economic Studies 72, 735–765.
+Lo, A.W., 2002. The statistics of Sharpe ratios. Financial Analysts Journal 58, 36–52.
+Ma, G., McCauley, R.N., 2002. Rising foreign currency liquidity of banks in China. Bank of International Settlements Quarterly
+Review (September), 67–74.
+Mei, J., Scheinkman, J.A., Xiong, W., 2005. Speculative trading and stock prices: evidence from Chinese A-B share premia. Working
+paper, Princeton University.
+Miller, E.M., 1977. Risk, uncertainty and divergence of opinions. Journal of Finance 32, 1151–1168.
+Morck, R., Yeung, B., Yu, W., 2000. The information content of stock markets: why do emerging markets have synchronous stock
+price movement? Journal of Financial Economics 58, 215–260.
+Politis, D.N., Romano, J.P., 1994. Large sample conﬁdence regions based on subsamples under minimal assumptions. Annals of
+Statistics 22, 2031–2050.
+Roll, R., 1988. R2 . Journal of Finance 43, 51–66.
+Santis, G., Imrohoroglu, S., 1997. Stock returns and volatility in emerging ﬁnancial markets. Journal of International Money and
+Finance 16, 561–579.
+
+

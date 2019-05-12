@@ -1,0 +1,2985 @@
+Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Contents lists available at ScienceDirect
+
+Journal of International Financial
+Markets, Institutions & Money
+j ou rn al ho me pa ge : w w w . e l s e v i e r . c o m / l o c a t e / i n t f i n
+
+Short-term under/overreaction, anticipation or uncertainty
+avoidance? Evidence from India
+Daniela Maher a,∗, Anokhi Parikh b
+a
+b
+
+Manchester Business School, The University of Manchester, Booth Street West, Manchester M15 6PB, United Kingdom
+University of Mumbai, Kalina, Santacruz (E), Mumbai 400 098, Maharashtra, India
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 28 November 2010
+Accepted 28 March 2011
+Available online 19 April 2011
+JEL classiﬁcation:
+G1
+Keywords:
+Market efﬁciency
+Underreaction
+Uncertainty avoidance
+Abnormal volatility
+
+a b s t r a c t
+We examine the short-term price behaviour of three, sizeconditioned Indian stock market indices, in response to informational shocks. A standard mean-adjusted returns model as well
+as the GJR-GARCH speciﬁcation point towards underreaction to
+negative events in the medium and small capitalization indices.
+Also, the pre-event coefﬁcients are generally negative and statistically signiﬁcant, regardless of the sign of the shock, thus ruling out
+information leaks. We uncover a stable abnormal volatility pattern
+which increases monotonically a few days before the shock before
+suddenly decreasing in magnitude on the event day and beyond.
+We suggest uncertainty avoidance as a potential explanation of
+these features. The results are fairly robust across alternative event
+selection procedures, time, and size-conditioned shocks.
+© 2011 Elsevier B.V. All rights reserved.
+
+1. Introduction
+The basis of an ever-increasing behavioural ﬁnance literature is the idea that psychological biases on
+the part of investors systematically impact decision making and therefore asset prices in a predictable
+manner. In other words, at the very core of behavioural ﬁnance is the attempt to establish a direct
+link between documented psychological biases and resilient, (ideally) arbitrage-prone price patterns
+in ﬁnancial markets. In this vein, underreaction and overreaction, two pervasive regularities (Barberis
+et al., 1998) are often at the forefront of the anomalies literature. Conceptual conservatism deﬁned as
+the human tendency to cling to existing beliefs in the face of challenging new evidence (Nissani, 1994)
+
+∗ Corresponding author. Tel.: +44 161 276 3452; fax: +44 161 275 4023.
+E-mail addresses: D.Maher@manchester.ac.uk (D. Maher), anokhi.parikh@gmail.com (A. Parikh).
+1042-4431/$ – see front matter © 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.intﬁn.2011.03.002
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+561
+
+partly underscores the idea of underreaction to events. Similarly, representativeness, deﬁned as the
+tendency to view events as representative of a speciﬁc class, partly underscores the idea of overreaction. Less vehiculated is perhaps the idea of uncertainty avoidance, deﬁned as the extent to which a
+culture programs its members to feel uncomfortable/comfortable in unstructured or surprising situations (Hofstede, 2001). The underlying dimension here is the tolerance for ambiguity, which can be
+found in individuals and which, in identical situations, leads some to feel more pressed for action than
+others (Hofstede, 2001). Cyert and March (1963) claim that people in uncertainty-avoiding cultures
+emphasize short-run reaction to short-run feedback rather than anticipation of long-run uncertain
+events, and solve pressing problems rather than develop long run strategies. This study proposes to
+analyze these ideas in the context of the Indian market over the period 2003–2010.
+Recently, this approach has attracted renewed attention but its research has been limited to either
+various developed markets (Spyrou et al., 2007; Rieks and Lobe, 2008) or a large group of countries
+(Mazouz et al., 2009). There are very few (if any) studies focusing solely on key emerging markets.
+The starting point in these studies is the idea that a broad market index will adjust quickly and fully
+to shocks, regardless of their magnitude. As such, no persistent patterns, in the form of cumulative
+abnormal returns, are to be observed around market event days. The results generally point towards
+some form of market inefﬁciency. Spyrou et al. (2007) provide evidence that medium and small capitalization indices signiﬁcantly underreact to both positive and negative shocks for several post-event
+days. They claim that this underreaction is still unaccounted for after the usual risk-factors, calendar effects, and bid-ask biases are considered. Their interpretation is that investors process extreme
+negative news optimistically and extreme positive news pessimistically, an idea raised in the past
+(Schnusenberg and Madura, 2001). Lasfer et al. (2003) also document short-term underreaction following both positive and negative news. They also differentiate between developed and emerging
+markets in terms of the amplitude of such a response.
+While studies such as Spyrou et al. (2007) compute the cumulative abnormal returns (CARs) based
+on a simple mean-adjusted returns model, Mazouz et al. (2009) employ both OLS regressions and
+an asymmetric GARCH in order to investigate the CARs following size-conditioned market shocks.
+The results differ across methodologies. As such, the OLS method provides strong support for return
+continuations following positive and negative market shocks with absolute values between 5% and
+10%. There is also country-speciﬁc evidence of overreaction (return reversals) for very large positive
+and negative shocks. However, when a GJR-GARCH model is employed, market efﬁciency seems to
+prevail, particularly for medium and large shocks.
+Whatever research has been done on India on under/overreaction, it generally follows the popular
+approach of Jegadeesh and Titman (1993) and investigates the possibility of momentum and overreaction in class-conditioned stock returns (winners vs losers) over 3–24 months, without concern
+for short-run reaction to market shocks. As such, Rastogi et al. (2009) ﬁnd that over a period of 3–12
+months, there is evidence of underreaction and momentum proﬁts in all size-conditioned portfolios.
+The only analysis of the Indian market’s immediate response to market shocks has been so far only
+indicative, being part of a much broader study of global or regional behaviour. Within such context,
+Mazouz et al. (2009) uncover little evidence of market inefﬁciency except perhaps as a response to
+very large negative shocks (beyond 10% in absolute value), to which the market appears to overreact.1
+However, this result is not conditioned on the average market capitalization of the stocks making up
+the index. Also, the study investigates a dataset which ends in December 2005, thus avoiding a period
+of unprecedented growth in the Indian market as well as the impact of the recent global ﬁnancial
+crisis. Equally, the scope of the study is to document the presence of under/overreaction across 10
+major Asian countries conditioned on the size of the shocks, without concern for the particulars of
+such phenomena in every country. This leaves unanswered a series of questions which the present
+study attempts to address.
+The choice of India is somewhat self-explanatory. India’s economy is the eleventh largest in the
+world by nominal GDP and the fourth largest by PPP (purchasing power parity).2 For 2009/2010, India’s
+
+1
+2
+
+This evidence is endorsed by the asymmetric Garch approach but contradicted by the OLS approach.
+https://www.cia.gov/library/publications/the-world-factbook/rankorder/2001rank.html.
+
+562
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+growth stands at 7.4%, surpassing the previous year growth rate of 6.7%.3 Its growth is expected to
+reach 8–9% in the next two years, raising prospects that it may overpass that of China. The recent
+global ﬁnancial crisis had a contained impact on the Indian economy. There were some outﬂows of
+capital in late 2008 but the trend was reversed in early 2009. If anything, the growing current concern
+in the region is the massive inﬂow of foreign capital in search of a quick return. All in all, India is the
+perfect example of a successful emerging market which, in less than two decades, has reversed its
+fortunes and set itself on the path of sustainable growth. Therefore, news assimilation in this buoyant
+stock market is of relevance.
+The current study investigates the Indian equity market by reference to three of its most representative, liquid and size-conditioned, indices: BSE Sensex-30, BSE Mid Cap, BSE Small Cap. We
+analyze their price behaviour in periods immediately surrounding signiﬁcant price shocks. To enable
+comparison of the results with the like in Spyrou et al. (2007), we initially employ a mean-adjusted
+returns model to arrive at the cumulative abnormal returns (CARs). Often results in this type of studies are conditioned on the particular methodology employed. For this reason and in an attempt to
+cater for volatility clustering in the data, we also apply an asymmetric GARCH (GJR-GARCH) in a similar manner to Mazouz et al. (2009). We depart from previous studies by introducing pre-event CARs
+in our analysis, to enable us to better describe market behaviour ahead of (as well as after) shocks.
+Here, we are particularly interested in gauging the extent (if any) to which the market anticipates
+events or processes information leaks. Given that the customary sample selection cannot distinguish between expected and unexpected events, this provision is almost necessary. Exhausting data
+modelling, we turn to press headlines, in order to further investigate the validity of our interpretations. As we consistently uncover a stable pattern in pre-event returns, we gather data on net equity
+inﬂows of some of the largest players on the Indian equity market (foreign institutional investors
+and domestic mutual funds).4 We test for the relationship between the sign of the equity ﬂows of
+these players and the sign of the market shock as delivered by jumps in Sensex (as a barometer of the
+Indian market).
+The overall results point in an interesting direction. We uncover a sustained pattern of negative,
+signiﬁcant, pre-event CARs across shocks, indices and time. This is accompanied by a resilient abnormal
+volatility pattern which increases as the event day approaches, suffers a downward correction on the
+event day itself, and then declines in magnitude over the following 10 post-event days. The sign of
+the pre-event CARs (consistently negative) rules out the hypothesis of information leaks or market
+informed anticipation. Therefore, this result, corroborated with feedback from market analysts as
+reﬂected by the ﬁnancial press on the day of the shock, suggests consistent short-run inefﬁciency
+in information processing. We suggest uncertainty avoidance as an explanation of such pattern. In
+periods of high uncertainty, a representative proportion of market players are compelled to act and
+this drives up pre-event volatility and can deliver negative returns. Indeed, we show that pre-event
+trading volume (for both index shares and index futures) is typically higher than normal (benchmark)
+trading volume and the null of equal volumes is statistically rejected in anything from 40% to 60% of
+all events. We also document a unidirectional Granger causality running from volume to volatility.
+This pre-event market dip is often followed by a sharp price correction, either up or down, as the
+uncertainty subsides. We also show that this hypothesis can be reconciled with the suggestion in
+Hofstede (2001), indicating India as a country with a relatively high tolerance for ambiguity. In the
+following we present the details of our methodology, followed by an interpretation of the empirical
+results and conclusion.
+2. Data and methodology
+We obtain daily closing prices on three major Indian equity indices for the period April 2003–June
+2010 (1797 observations).5 This period encompasses the time of the impact of the global ﬁnancial cri3
+India Economic Update, June 2010, The World Bank, http://siteresources.worldbank.org/INDIAEXTN/Resources/2955831268190137195/India Economic Update June 23 2010.pdf.
+4
+Naturally, one would like such information on all types of players but data is limited in this respect.
+5
+Data is provided by Bloomberg.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+563
+
+sis on India and which, based on market trends and analysts consensus, is dated January 2008–March
+2009. The indices are BSE 30 (Sensex), BSE Midcap, and BSE Smallcap.6 Each index represents a
+different segment in terms of market capitalization. Hence, the analysis of short-term reactions to
+market events is, from the start, conditioned on size. In order to substantiate the idea of an abnormally high trading volume in pre-event days we also work with Nifty futures over the same period.7
+Nifty is the benchmark index made up of 50 blue chip companies trading on the NSE (National Stock
+Exchange). S&P CNX Nifty futures contracts have a maximum of 3-month trading cycle – the near
+month (1st), the next month (2nd) and the far month (3rd). A new contract is introduced on the trading day following the expiry of the near month contract. The new contract is introduced for a three
+month duration.
+We also obtain daily data on the net buy/sell of FIIs (foreign institutional investors) and DIIs (domestic institutional investors) for the same period.8 For the DIIs, the available data refers exclusively to
+the mutual fund industry. In order to investigate the nature of the empirically derived shocks on event
+days as reﬂected by the local ﬁnancial press, we use Financial Express.
+We run the Augmented Dickey-Fuller test on both the price series and the return series. The
+test results conﬁrm that all three price indexes are non-stationary but their corresponding return
+series are stationary.9 Following Spyrou et al. (2007), we initially compute the raw or unconditional
+daily return of each index as the difference between today’s and previous day’s closing price as
+follows:
+ri,t =
+
+Pi,t − Pi,t−1
+Pi,t−1
+
+We deﬁne an extreme event (market shock) day as the day in which the index return is beyond two
+standard deviations the average daily index return in absolute values. The average daily index return
+is computed over the interval [−60,−11] days before any given day. The 10 day gap is meant to avoid
+possible price lead-ups ahead of a shock as in Lasfer et al. (2003) and Spyrou et al. (2007). We employ
+a mean-adjusted returns model in order to compute the abnormal return on the day of the shock as
+well as the cumulative abnormal returns up to 10 days after the shock as follows:
+ARi,t = ri,t − E(ri,t )
+
+CARi,t =
+
+10
+
+
+ARi,t
+
+t=1
+
+In order to measure the average reaction of index returns in the days following market shocks, we
+compute the average cumulative abnormal returns and assess their statistical signiﬁcance for each
+index and each type of shock as follows:
+1
+CARi,t
+N
+N
+
+ACARi,t =
+
+n=1
+
+(1)
+
+ACAR
+t=
+√
+/ N
+ is the standard deviation if the CARs and N is the number of CARs.
+
+6
+Although ofﬁcially launched in 2005, historical data for both BSE Midcap and BSE Smallcap is available as early as April
+2003.
+7
+We motivate our choice of Nifty vs Sensex futures later in the text. The Nifty data is obtained from http://www.nseindia.com/.
+8
+The source is: http://www.moneycontrol.com/. SEBI (Securities Exchange Board of India) compiles this data.
+9
+Results are available upon request.
+
+564
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+To test for possible information leaks/anticipation ahead of an event, we compute (same as above)
+the cumulative abnormal returns for three days prior to each event day as well as their corresponding
+average cumulative abnormal returns and their statistical signiﬁcance:
+CARi,t =
+
+−3
+
+
+ARi,t
+
+t=−1
+
+We are fully aware of the problems associated with testing the statistical signiﬁcance of abnormal
+returns in event studies. While there are some who argue for the reasonably well performance of the
+simple t-test (Brown and Warner, 1980), there are others (Corrado, 1989; Corrado and Zivney, 1992)
+who dispute its reliability given the regular properties of security return distributions. For instance,
+one sample t-statistics will reject the null hypothesis of no abnormal returns too often in the presence
+of variance increases around an event.
+Therefore, we also propose an alternative methodology for exploring the magnitude and the statistical signiﬁcance of any abnormal returns in the immediate period surrounding an event. We follow
+Karaﬁath (1988) and Mazouz et al. (2009) in the use of dummies and employ an asymmetric GARCH,
+to test for the abnormal and cumulative returns in and around the event days.10 Under the GJR-Garch,
+the abnormal returns on index ‘i’ for event day or window are obtained from the following estimation:
+Ri,t = ˛i + ϕi,n Dt,n + i,t
+Ri,t = ln(Pt /Pt−1 )
+ ˛i = ct
+i,t  ˝t−1 ≈ N(0, hi,t )
+
+(2)
+
+Dt,n is a dummy that equals 1 if t is the event day or window and zero otherwise. Dt,o is a dummy
+variable that equals 1 if t is the event day and zero otherwise. Dt,1 is a dummy variable that equals
+1 if t is the ﬁrst day after event day and zero otherwise. Dt,2 , Dt,3 ,...,Dt,n are dummy variables which
+take on values of 1 if t∈[+1,+2], [+1,+3], . . ., [+1,+N], respectively, and zero otherwise. Dt,-1 is a dummy
+variable that equals 1 if t is the ﬁrst day before event day and zero otherwise. Dt,−2 , Dt, −3 ,...,Dt,−n are
+dummy variables which take on values of 1 if t∈[−1,−2], [−1,−3], . . ., [−1,−N], respectively, and zero
+otherwise. ϕi,n is the coefﬁcient for the abnormal return of the event day or window after/before the
+shock. N(0, hi,t ) denotes a normal distribution with a mean of zero and a variance of hi,t . The variance
+of i,t is assumed to be time varying. ˝t−1 is the information set available to investors at time t − 1 or
+earlier.
+The post-event CARs associated with a window of length n days are estimated as CARi,n = ϕi,n × n
+for each stock index, i. Thus CARi,1 = ϕi,1 × 1, CARi,2 = ϕi,2 × 2, . . .,CARi,N = ϕi,n × N. The pre-event CARs
+are deﬁned in the same manner. For GJR-GARCH, the speciﬁcation is incomplete unless we write the
+conditional variance equation:
+hi,t = var(i,t ) = ci + ai 2i,t−1 + i
+
+2
+t−1 i,t−1
+
++ bi hi,t−1 + i,n Dt,n
+
+(3)
+
+where, ci is the permanent component of the conditional variance, ai is the ARCH coefﬁcient, bi is the
+GARCH coefﬁcient, i is the coefﬁcient for asymmetry, t−1 = 1 if shock is negative and 0 otherwise,
+The dummy coefﬁcient  i,n captures the abnormal conditional volatility for the shock’s event window.
+A positive (negative) coefﬁcient for  i,n indicates an increase (a decrease) in the volatility of returns
+over the event window. The remaining parameters in the variance Eq. (3) are similar to those in the
+mean Eq. (2).
+A separate section of our analysis looks at the daily correlation pattern (if any) between the sign of
+the market shock as reﬂected by signiﬁcant movements in Sensex and the sign of the net ﬂow of FIIs
+and DIIs. To test for the null hypothesis that FIIs/DIIs are not engaged in either short-run momentum
+or contrarian strategies, we compare the number of times the FIIs/DIIs are net buyers/sellers of stocks
+
+10
+
+Mazouz et al. (2009) limit their investigation to event and post-event ARs.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+565
+
+on positive/negative event days against what could be expected if the number of buyers/sellers would
+simply follow the binomial probability distribution:
+P(r) =
+
+N!
+r (1 − )N−r
+r!(N − r)!
+
+P(r) is the probability of exactly r successes, N is the number of events,  is the probability of success
+on any one trial (in our case 0.5).
+3. Empirical results
+3.1. Preliminary analysis
+We use daily stock returns of the BSE Sensex-30, BSE Midcap and the BSE Smallcap indices of the
+Bombay Stock Exchange from April 2003 to June 2010. BSE Sensex-30 is generally taken as the pulse of
+the domestic stock market in India. It consists of the 30 largest and most actively traded stocks across
+a variety of sectors. The period under investigation captures different states of the market, poignantly
+deﬁned by the global ﬁnancial crisis of 2008. We therefore deﬁne the period from 1st January 2008 to
+31st March 2009 as crisis period, from 1st April 2003 to 31st December 2007 as pre-crisis, and from
+1st April 2009 to 15th of June 2010 as post-crisis.
+Visual inspections as well as initial descriptive statistics indicate extreme values, temporal clusters
+with dynamic volatility, and fat-tails.11 The series tend to be negatively skewed and all series display excess kurtosis of more than twice that of a Gaussian distribution. In sum, the series are highly
+non-normal (asymmetric) as conﬁrmed by Jarque–Bera test for normality. There are positive autocorrelations at high frequencies in all series, not just in the raw values but in their squares as well.
+Autocorrelation in the squares is indicative of volatility clustering (temporal variation) in the heteroskedastic second moment of the return series. There is no evidence of a unit root in the return
+series as conﬁrmed by the Augmented Dickey–Fuller test and the Durbin Watson test is insigniﬁcant
+conﬁrming the absence of ﬁrst order serial correlation.
+3.2. Positive and negative shocks under the mean-adjusted returns model
+The market reaction to events (deﬁned as the daily abnormal return on the day of the market shock)
+is examined ﬁrst and the results are reported in Table A.1. Except for one index in one sub-period (BSE
+Smallcap in post-crisis), the number of negative shocks is greater than the number of positive shocks.
+All mean abnormal returns on the day of a shock are statistically signiﬁcant. For the full sample period,
+the mean reaction for the Sensex is 3.84% for positive shocks and −3.85% for negative shocks, for the
+BSE Midcap it is 3.26% and −4.42% respectively, while for the BSE Smallcap it is 3.36% and −4.72%
+respectively. These mean abnormal returns are all larger than the ones reported for UK in Spyrou et al.
+(2007). There is variation across sub-periods, with larger mean abnormal returns during crisis and
+smaller mean abnormal returns during pre-crisis.
+Generally and contrary to the results in Spyrou et al. (2007), the mean reaction does not appear to
+be larger in Sensex than in the Smallcap or Midcap. If anything, the opposite is often the case. Table A.2
+displays only the signiﬁcant results of the pairwise t-tests of the difference in mean reaction between
+various indices in various periods. What is immediately noticeable is that most of the differences in
+reactions occur in response to negative shocks and all differences refer to the pairs Sensex-Midcap and
+Sensex-Smallcap. In other words, there is a difference in how Sensex on average responds to shocks
+as opposed to smaller capitalization indices. The mean reaction in Sensex is smaller in magnitude
+than the mean reaction in either Midcap or Smallcap. The only exception occurs over the crisis period,
+when the mean reaction to positive shocks is somewhat larger in Sensex than in Smallcap (albeit at
+10% signiﬁcance level).
+
+11
+
+All pre-diagnostics test results are available upon request.
+
+566
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Next, we investigate what happens in the days surrounding the event day. Table A.3 presents the
+mean abnormal return ﬁrst day after and before event (day 1 and day −1), the cumulative abnormal
+returns for post-event days (ACARs, days 1–10) and the cumulative abnormal returns for pre-event
+days (ILs, days −1 to −3).12,13 The results for the full sample reveal that all three indices appear to react
+efﬁciently to positive shocks. Hence there are no signiﬁcant ACARs following positive events. This is
+contrary to the evidence in Spyrou et al. (2007) for UK which show that smaller capitalization indices
+tend to underreact to positive events. However, there is evidence of mild underreaction to negative
+events in Midcap and strong underreaction to negative events in Smallcap, which concurs with their
+evidence. Unsettling at this stage however, is the fact that nearly all pre-event (ILs) coefﬁcients are
+negative, statistically signiﬁcant and of reasonably large magnitude ahead of both positive and negative
+shocks. The reason we introduced the pre-event coefﬁcients was to capture potential information
+leaks ahead of an event. However, for this hypothesis to gather pace, we would expect to observe
+sign consistency (i.e. positive abnormal returns ahead of a positive shock and negative abnormal
+returns ahead of a negative shock). And yet the market appears to negatively react in anticipation of
+a signiﬁcant jump in returns, either way.
+Table A.3 also presents the sub-period results. For the pre-crisis we notice the same underreaction
+to negative shocks as in the full sample. However, we detect some mild overreaction in Sensex three
+days after the event and a similar overreaction in all 3 indices about 10 days following the event day.14
+The pre-event coefﬁcients display the same pattern as before, i.e. negative reaction ahead of any event
+regardless of its sign. As they stand, the results for the crisis period reveal little post-event abnormal
+reaction across all indices except perhaps a marginally signiﬁcant underreaction in Sensex on the
+ﬁrst day following a positive event.15 The statistically signiﬁcant negative pre-events are still present
+except for Sensex. On the other hand, the results for the post-crisis period show marked differences in
+investors’ attitude. Post-event, there is underreaction to positive events in both Midcap and Smallcap
+and mild overreaction to negative events across the board which tends to be corrected in maximum 2
+days after the event. For the ﬁrst time, the pre-event coefﬁcients display a mixed picture. There are still
+signiﬁcant negative abnormal returns ahead of a positive event in Sensex but now there are positive
+signiﬁcant abnormal returns ahead of a positive event in Smallcap. No other pre-event coefﬁcients are
+signiﬁcant during this period.
+At this stage of the analysis, the overall post-event results seem to suggest a consistent underreaction to negative events, detected mainly in the medium and smaller capitalization stocks, in all
+periods except post-crisis when all indices display a short-lived overreaction to bad news. Based on
+the post-event CARs, there is evidence of market’s ability to better process information following positive events. Having said this, there is weak evidence of overreaction to good news before the 2008
+crisis which turns into underreaction to good news after the crisis.
+Short-term under-reaction to shocks in medium and small cap stocks is documented by several
+studies such as Spyrou et al. (2007), Schnusenberg and Madura (2001), Hong et al. (2000) and McKnight
+and Hou (2006). Lasfer et al. (2003) also studies the effect of size and reports that CARs of positive
+shocks are larger in small size ﬁrms due to liquidity issues.
+The consensus in the literature seems to be the fact that size proxies for availability (or lack of)
+of information and that this lack of information is sometimes supplemented by a reliance on mental
+biases. These biases in turn can deliver systematic yet fairly short-lived deviations from fundamentals.
+De Bondt (2000) among others highlights conservatism heuristics, representativeness, anchoring and
+optimism bias as persistently leading to non-bayesian forecasting. The relative importance of these
+biases is still very much at the core of the debate. Currently, the literature is still far more pre-occupied
+
+12
+The initials ILs turn out to be a misnomer given that the hypothesis of ‘information leaks’ later proves unfounded. For ease
+of exposition, we keep however this notation.
+13
+To conserve space, we report all consecutive ACARs up to day 5 after which we report ACAR-10. Results not reported are
+available upon request.
+14
+In general throughout the paper we interpret cautiously any evidence of abnormal reaction present only in the 10 day-ACARs.
+15
+The results for the crisis and post-crisis period should be prudently interpreted given the small number of events that make
+up these sub-samples.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+567
+
+with documenting the persistence of these anomalies in asset pricing as opposed to exploring their
+psychological roots.
+In terms of post-event reaction, we also document a dependence of these anomalies on the overall market trend. Once again, the fact that these biases are affected by the state of the market (bull
+vs bear) is accepted in the literature. Investors are often believed to possess a short-lived memory
+and to suffer from availability bias (Tversky and Kahneman, 1973) which could explain the overreaction/underreaction to negative/positive events in bear markets.
+A question arises as to whether both under-reaction and over-reaction results can coexist in a
+market. De Bondt (2000) suggests that they can and it is all down to mental frames. The idea is widely
+endorsed in studies such as Thaler (1999) and Grinblatt and Han (2005). Daniel et al. (1998) subscribe
+to a theory of security markets based on investors overconﬁdence and biased self-attribution (changes
+in investors’ overconﬁdence are a function of their investment outcomes) which generates under and
+overreaction to events.
+Rather more puzzling is our ﬁnding regarding the sign and statistical consistency of the pre-event
+coefﬁcients. They suggest some form of ‘information’ processing which is difﬁcult to reconcile with
+the information leaks hypothesis we originally had in mind. However, all these results are statistically
+reliant on the power of the t-test to detect abnormal returns. As mentioned before, the t-statistics will
+reject the null hypothesis of no abnormal returns too often in the presence of variance increases around
+an event. And yet it is precisely such volatility clustering that is intrinsic to our dataset. Also, the clustering present in the squared returns suggests that an ARCH type parameterization will approximate
+the second moment structure well.
+3.3. GARCH estimates
+3.3.1. Positive and negative shocks under the GJR-GARCH method
+We therefore employ a GJR-GARCH model that captures both conditional volatility and asymmetry
+in returns, in a similar manner to Mazouz et al. (2009). This approach should signiﬁcantly improve
+estimation efﬁciency. The choice for an asymmetric GARCH is subsequently validated by the data.
+Unlike previous studies, we incorporate the pre-event coefﬁcients in our estimation. For comparison
+reasons, we retain at this stage, the same criteria for event selection as in the mean-adjusted returns
+model. The results are displayed in Table A.4.
+For the full sample, there is no evidence of post-event cumulative abnormal returns in response to
+positive shocks in any of the three indices. There is however, evidence of underreaction to negative
+shocks in the medium and small capitalization indices. The pre-event coefﬁcients are, once again,
+negative and statistically signiﬁcant across the board. The pre-crisis results emulate such ﬁndings
+with little variation. The results for the crisis period are not dramatically different either, except for
+Sensex where we cease to document statistically signiﬁcant coefﬁcients ahead of a positive event. Yet
+again, during this sub-period, there is no evidence of under or overreaction to positive news in any
+of the indices but evidence of strong underreaction to negative news, particularly in Smallcap. The
+pre-event coefﬁcients with the exception mentioned above are generally statistically signiﬁcant and
+negative. Post-crisis, the results show considerable variation. The post-event coefﬁcients document
+underreaction to positive news particularly in Midcap and Smallcap and some overreaction to negative
+news in all three indices. The pre-event coefﬁcients maintain their negative and statistically signiﬁcant
+values ahead of a negative event but, when it comes to positive events, most abnormalities disappear.16
+Overall, the results show remarkable consistency with the results from the mean-adjusted returns
+model. For every period except post-crisis, the market seems to absorb well positive shocks as there
+is hardly any evidence of statistically signiﬁcant cumulative abnormal returns following an event
+across all three indices. There is however underreaction to negative shocks in the medium and small
+capitalization indices for the same periods (full sample, pre-crisis, and crisis). Equally, the pre-event
+coefﬁcients appear resilient to the change in methodology for all periods except post-crisis. For this
+
+16
+
+The exception is some anticipation ahead of a positive event in the Smallcap.
+
+568
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+period they remain negative and statistically signiﬁcant across all three indices but only in response
+to negative events. They lose their statistical signiﬁcance ahead of a positive shock.17
+3.3.1.1. Volatility changes under the GJR-GARCH. The aim of this section is to see if there is any consistent
+relationship between the CARs, pre and post-event, and the changes in conditional abnormal volatility.
+Results are displayed in Table A.4. Prima facie, there is one clearly discernable pattern. Namely, across
+all periods, all volatility coefﬁcients ahead of an event are positive (regardless of the sign of the shock)
+and the vast majority of them are statistically signiﬁcant. Also, they tend to increase in magnitude
+from day −3 to day −1 and then drop on the event day itself. The panels in Fig. A.1 display this pattern.
+Generally, the magnitude of the pre-event volatility coefﬁcients tends to be larger as a result of any
+of the following factors: negative shocks (except for post-crisis), smaller capitalization stocks (except
+for crisis/post-crisis), and crisis vs non-crisis period. This result may be interpreted in relation to the
+previous ﬁnding of consistent, negative and statistically signiﬁcant pre-event coefﬁcients. A persistent
+increase in the abnormal conditional volatility ahead of an event, regardless of its sign may initially
+suggest market anticipation of the event and some form of information leakage. Correct anticipation of
+the nature of the event, however, would imply positive (non-negative at least) cumulative abnormal
+returns ahead of a positive event. But this is not what we observe. Our pre-event CARs are generally
+negative, regardless of the nature of the event about to unfold (positive or negative). We suggest this
+is less the case of some form of information leakage and more the case of uncertainty driven volatility.
+To the extent that uncertainty is not a comfortable state of mind, this volatility is more likely to drive
+down returns than drive them up, hence the observable pattern. In the light of this hypothesis, what
+we actually detect as an ‘event’ is more the case of a (uncertainty-subsiding) market correction. We
+are going to investigate this idea further down the line.
+The volatility coefﬁcients post-event are, on the other hand, less consistent in their pattern. For the
+full sample, day one abnormal volatility tends to be either negative and signiﬁcant or not signiﬁcant at
+all, regardless of the sign of the previous day event. All day one coefﬁcients decline in magnitude over
+time. That is, the post-event volatility changes generally decrease after day zero to become smaller
+but they often remain signiﬁcant over several days. This ﬁnding is not consistent with the Brown et
+al. (1988) Uncertain Information Hypothesis (UIH) which predicts an increase in risk following an
+informational shock. The pre-crisis ﬁndings generally emulate this result whereas all but one of the
+volatility coefﬁcients during crisis are insigniﬁcant. Results for the post-crisis reveal a mixed picture.
+Following positive events, most abnormal volatility coefﬁcients tend to be signiﬁcant and negative in
+the case of Sensex and largely positive for the two smaller capitalization indices. Following negative
+events, Sensex displays negative and highly signiﬁcant abnormal volatility coefﬁcients whereas the
+other two indices tend to display no signiﬁcant abnormal volatility.
+3.3.2. GARCH estimates of Sensex post ‘91
+Intrigued by the pattern of negative and statistically signiﬁcant coefﬁcients ahead of both positive
+and negative shocks, we decide to extend the period of analysis. This is, of course, only possible for
+Sensex which was set up as early as 1986. We therefore re-run the previous analysis for the period
+1991–2010.18 This allows us to increase the number of events in our study and subject our results to
+a time test.19 This time we do not condition results on a crisis vs non-crisis basis. Results are reported
+in Table A.5 (Panel A). Our previous results are fully conﬁrmed. The pre-event cumulative abnormal
+returns are negative and statistically signiﬁcant regardless of the nature of the event about to unfold. All
+but one post-event CARs are insigniﬁcant regardless of the sign of the shock.20 All abnormal volatility
+coefﬁcients ahead of an event are positive and highly signiﬁcant. They increase monotonically from day
+−3 to day −1, decrease on the event day itself, turn negative post-event, and then decay in magnitude
+
+The exception is Smallcap where one pre-event average cumulative abnormal return (day −2) turns positive and signiﬁcant.
+BSE sensex was ﬁrst launched in 1986 however, the stock market picked up momentum and volume after 1991 which is
+commonly referred to as the period of economic liberalization in India. It is at this time that Indian capital markets really opened
+up to foreign direct investment.
+19
+The same event selection method is applied here as before.
+20
+The exception is day one abnormal return following a negative event which is negative and signiﬁcant.
+17
+18
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+569
+
+but remain highly signiﬁcant up to 10 days following the event. This pattern does not support the
+UIH but is fully consistent with our previous hypothesis. Uncertainty avoidance ahead of a market
+development gives rise to an increase in abnormal volatility and may translate into negative returns
+but the market tends to correct itself (either up or down) within a few days at which point uncertainty
+subsides (volatility decreases) and a new pricing equilibrium is achieved. Often what we perceive to
+be ‘an event’ is nothing but a market correction delivering positive or negative returns. Following a
+correction, the market generally tends to remain efﬁcient.21
+We are aware that Mazouz et al. (2009), among others, suggest ignoring any shock occurring within
+10 days following an initial event. The literature is discreet on the nature of this cleansing procedure.
+While its scope is clear, the best method to achieve it remains debatable. Volatility clustering is inherent in ﬁnancial data and a random attempt to break it appears equally questionable. Nevertheless, we
+are curious about the potential results here and therefore decide to attempt it.22 We therefore eliminate from our sample any ‘event’ that occurs within 10 days of an initial event and re-run the previous
+analysis for Sensex post ’91. Results are displayed in Table A.5 (Panel B). Qualitatively, the results are
+very similar to the previous set. The only departure is a weakly signiﬁcant overreaction following
+a positive ‘event’ (CAR3, CAR10). However, the same pre-event increasing abnormal volatility (day
+−3 to day −1) is evident here followed by a negative and statistically signiﬁcant abnormal decaying
+volatility, following the ‘event.’ Equally, the pre-event cumulative abnormal returns are negative and
+statistically signiﬁcant ahead of both positive and negative events.
+These results are based on a selection procedure which deﬁnes an event-day as any day in which
+returns depart by more than two standard deviations from a mean taken over the interval [−60,−11].
+Visual inspection of the abnormal returns on these event days reveals that, from a size only point of
+view, our sample includes shocks ranging in absolute magnitude from 1.4% to 17.3%. And yet Mazouz
+et al. (2009) suggest that an index response to market shocks is dependent on the magnitude of
+the shocks. Therefore, we decide to alternate the selection procedure in order to condition Sensex’
+reactions on the size of the shock.23 Results are displayed in Table A.6. From the point of view of
+the volatility coefﬁcients, the results are unchanged and consistent throughout size-categories. As
+such, all pre-event volatility coefﬁcients are positive and highly statistically signiﬁcant. They increase
+monotonically from day −3 to day −1 and then drop in magnitude and sometimes turn negative on
+the event day itself, regardless of the size of the shock. Following the events, all volatility coefﬁcients
+are decreasing in magnitude compared to the event day volatility and often are either negative or
+insigniﬁcant. The pre-event cumulative returns display a pattern that, once again, is not dissimilar to
+our previous results. For shocks of 3–5% and 5–10%, the pre-event CARs are negative and statistically
+signiﬁcant ahead of a positive event and negative but insigniﬁcant ahead of a negative event. For
+shocks larger than 10% in magnitude, no pre-event coefﬁcients are statistically signiﬁcant although
+they are all negative. Post-event the market appears overall efﬁcient for the ﬁrst two size-categories
+but less efﬁcient for large negative shocks to which there appears to be some overreaction four-ﬁve
+days following the event. Therefore, the change in the event selection procedure also delivers results
+which are supportive of the uncertainty avoidance hypothesis.
+3.4. Volume and volatility: A Granger causality approach
+We argue that, in times of increased uncertainty, a representative proportion of market players are
+compelled to act and this drives up pre-event volatility and can deliver negative returns. This therefore
+implies a relationship between trading volume and volatility.
+
+21
+As documented previously, this post-event efﬁciency is conditioned both on the type of market index (large cap vs medium,
+small cap) and the state of the market (crisis vs non-crisis). Medium and small capitalization stocks tend to underreact to
+negative events during non-crisis periods but underreact to positive and overreact to negative during crisis.
+22
+We do this over our entire database but, given the longevity of Sensex and therefore the larger number of post-cleansing
+events, we chose to report the results for this index. The rest is, however, available upon request.
+23
+Once again, not only do we sort by magnitude but we eliminate any shock occurring within 10 days of an initial event. This
+procedure is therefore identical to the approach in Mazouz et al. (2009).
+
+570
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+The literature documents Granger causality between trading volume and price variability (Karpoff,
+1987) in both developed and some emerging markets but does not always agree on its nature (uni or
+bi-directional). The initiative behind these studies comes from the assumptions that trading volume
+either plays a central role in the pricing of ﬁnancial assets through the arrival of new information
+and/or reﬂects changes and agreements in investors’ expectations (Harris and Raviv, 1993) which,
+may or may not be rational.
+Granger causality tests can provide indicative information on whether knowledge of past trading
+volume improves short term forecasts of stock price volatility and vice versa. We therefore study this
+dynamics within the context of a vector autoregressive (VAR) model of the following type:
+volatilityt = ω0 +
+
+p1
+
+
+ω1,i volatilityt−i +
+
+i=1
+
+volumet = 
+0 +
+
+p3
+
+i=1
+
+
+1,i volatilityt−i +
+
+p2
+
+
+ω2,i volumet−i + ε1,t
+
+(4)
+
+i=1
+p4
+
+
+
+2,i volumet−i + 2,t
+
+(5)
+
+i=1
+
+volume is the natural logarithm of the number of shares traded, volatility is the squared returns
+(which are expressed as the natural logarithm of relative prices) while p (s) are the optimal lag lengths
+deﬁned by Akaike Information Criterion (AIC). Within the context of this VAR model, linear Granger
+causality restrictions can be deﬁned as follows: if the null hypothesis that all w2,i are jointly equal zero
+is rejected in Eq. (4), we argue that volume does Granger cause stock returns volatility. Similarly, if the
+null hypothesis that all ˚1,i in Eq. (5) are jointly equal zero is rejected, we argue that volatility does
+Granger cause volume. If both of the null hypotheses are rejected, bidirectional Granger causality, or
+a feedback relation, is assumed to exist between the variables. To test the joined restrictions we rely
+on the conventional chi-square test (Wald statistic). The variables are initially tested for a unit root
+and both the augmented Dickey–Fuller (ADF) test and the Phillips–Perron (PP) test reject the null of a
+unit root, conﬁrming stationarity. The parameters in Eqs. (4) and (5) are estimated by ordinary least
+squares, and White’s (1980) or Newey–West consistent standard errors are calculated.
+The results (available upon request) point towards a unidirectional Granger causality running from
+volume to volatility but not vice versa. This means that, volume does contain predictive power for the
+direction of price changes. These results are perfectly in line with our UAH (uncertainty avoidance
+hypothesis) which argues that investors increase their trading in periods of heightened uncertainty
+and this higher trading volume does have an impact on the volatility pattern of the pre-event returns.
+Of course, the Granger causality results do not prove that there is a statistically abnormal volume of
+trading in the pre-event days. We therefore attempt to address this question in the following section.
+3.5. Is there any evidence of abnormal trading volume ahead of an event?
+We cannot obtain data on the number of buyers/sellers in the market. However, if we can prove that,
+consistently, there is an increased trading volume in the pre-event days compared to the non-event
+days (knowing that there are negative abnormal returns on those days), than this clearly suggests an
+increased traders’ appetite for selling.
+There are several things we can do here in order to make sure that results are reasonably robust.
+First of all, we can use the total volumes of shares (of companies making up the Sensex) traded on a
+daily basis to test whether there is increased trading activity in the pre-event days. Second, we can
+use derivative proxies such as futures and their daily trading volumes and open interests in order to
+infer whether there is increased trading activity in the days ahead of an event. As investors cannot
+directly trade an index except through its derivative proxies, evidence from this sector is likely to be
+highly relevant.
+First, we test the null hypothesis that Sensex volumes in the pre-event days are statistically equal
+to the Sensex volumes in non-event days. The pre-event Sensex volumes are deﬁned as the average
+volume over the pre-event days for each event. The benchmark volumes are deﬁned as the average
+volumes over a 50 day window preceding by 10 days the event, i.e. the average volume over the
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+571
+
+[−60,−11] window ahead of an event. This follows a similar procedure in Jayaraman et al. (2001). The
+volume variable is transformed by the natural log function:
+Vt = ln(1 + Number of shares traded on day t)
+where, number of shares refers to the total shares of the companies making up the Sensex, traded
+on day t. The sample of events was previously identiﬁed in our study and event clustering was also
+dealt with at the time. Statistical signiﬁcance is tested using a standard t-test for testing the difference
+between means.
+In almost 69% of all events (Table A.7, top panel), the average pre-event trading volume is higher
+than the benchmark volume. For nearly 30% of all events the null of equality at the 5% signiﬁcance
+level is rejected and this percentage increases to over 43% at 10% signiﬁcance level. Although indicative, these numbers do not tell us much since they represent the total number of traded shares of the
+individual stocks making up the index. To trade the index, one must however trade its derivative proxies. We therefore turn to analyzing one of the most important of these proxies, the futures contracts.
+We also look at options contracts and go as far as manually collecting all volume data for the period
+04/2003 to 06/2010. However, a quick look at the option volumes (number of contracts being traded)
+reveals that before 2007 these volumes were really low (average volume is 2,359 for calls and 1,811
+for puts) compared to the period after 2007 (average volume is 126,568 for calls and 75,209 for puts).
+In over 8% of days we record a nil volume in calls trading and in over 15% of days we record nil volume
+in puts trading. We therefore decide to concentrate on futures which enjoy, over the entire period
+of study, a relatively buoyant trading (the average volumes pre-2007 and post-2007 are 128,241 and
+516,222 contracts, respectively, and there are no days with nil volume).
+We make use of a dataset on Nifty futures daily prices, volumes, and open interest (OI) over our
+period of study (04/2003 to 06/2010). The ﬁrst question that arises is why Nifty and not our original
+Sensex? Sensex contains the 30 largest, most liquid Indian equities whereas the Nifty contains the 50
+largest, most liquid Indian equities. Since Nifty futures trading really took off due to wide listing and a
+technologically more advanced initial trading platform, the trading in SENSEX futures lagged behind
+and remains so even today. Given the really high correlation between the two indexes (0.9991), it
+is easy to understand why investors would trade just one of them, which happens to be Nifty, the
+broader one. Here, using Nifty instead of Sensex biases the hypothesis against us because we select
+market events based on movements in Sensex. Therefore, if we can detect abnormally high trading
+volumes in the pre-vent days based on Nifty data, this not only substantiates our increased trading
+hypothesis but further validates our event selection procedure as well.
+Because of the variation in the number of futures contracts traded daily, a logarithmic transformation of the futures trading volume is used (see Sanders and Zdanowicz, 1992, among others) and
+trading volume is deﬁned as:
+Vt = ln(1 + Number of futures traded on day t)
+During expiration week, the volume of futures being traded will consistently go up, other things
+constant. To eliminate this inﬂuence, we remove the expiry week futures from our volume/OI data
+and replace them with the next (expiry) month contract. The average pre-event volumes and open
+interests as well as the benchmark pre-event volumes and open interests are deﬁned in the same
+manner as Sensex volumes above. The same t-test for testing the statistical difference between means
+is applied.
+The results are presented in Table A.7 (middle and bottom panel). In over 70% of all events, the preevent volume is larger than the benchmark volume and the null of equality is rejected in nearly 41%
+of cases at 5% signiﬁcance level and in almost 50% of all cases at 10% signiﬁcance level. Similar results
+are obtained for OI. In over 67% of all events, the pre-event open interest is higher than the benchmark
+OI and the statistical signiﬁcance varies from roughly 48% to 54% for a 5% and 10% signiﬁcance level,
+respectively.
+Purely as trend indication, we also look at the change in levels of the three variables (price, volume,
+and OI) simultaneously. The agreement among professionals is that a decrease in price combined with
+an increase in volume and open interest on a certain day is indicative of negative expectations trans-
+
+572
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+lated into hedging (with futures) existing cash positions and/or speculation (selling futures) ahead of
+an expected market downturn. Equally, a decrease in price combined with an increase in volume but a
+decrease in open interest is indicative of long covering, i.e. closing out existing long futures positions.
+What our data tells us is that in over 60% of all events we detect at least one pre-event combination of
+the ﬁrst type (price down, volume up and OI up) and in over 22% of all events we detect at least one
+pre-event combination of the second type (price down, volume up and OI down). Both scenarios are
+indicative of market jitters ahead of an event.
+The results reporting abnormal volume in the trading of derivatives ahead of an event are in line
+with previous ﬁndings for various other markets. However, in previous studies (Chakravarty et al.,
+2004; Easley et al., 1998; Pan and Poteshman, 2006; among others) this evidence is considered indicative of a link between informed trading and derivatives. Their argument is that informed traders
+anticipate price shocks and are likely to start abnormal trading ahead of the event, using the derivatives market as a venue. While this may well be the case in various other markets, it does not appear to
+be the case here, given the persistently negative abnormal returns ahead of any event (whether positive or negative) which rules out ‘information’ leaks. Therefore, what is left is some sort of increased
+apprehension ahead of a shock without knowledge of its particular nature. But this is what we call
+uncertainty driven trading. Once the shock is delivered, uncertainty subsides and the market corrects
+itself accordingly (either up or down).
+3.6. The news coverage of our statistically derived ‘events’
+Given the alternative methodologies pursued and the various time periods investigated so far,
+there is little chance that the identiﬁed pattern of CARs (generally negative and signiﬁcant pre-event
+coefﬁcients) and their corresponding abnormal volatility features occur by chance. And yet, we are
+sceptical in relying entirely on data generated features. Since we suggest that the market regularly
+goes through periods of uncertainty that unfold over several days and culminate with a substantial
+correction, we ﬁnd it interesting to investigate the news coverage of our event days. The interpretation,
+be that our own or that of the particular newspaper we use is, by deﬁnition, subjective. Therefore, this
+approach is meant to lend anecdotal support to our previous ﬁndings.
+For the original period (2003–2010), there are 147 events, 68 positive and 79 negative (Table A.1).
+Approximately 33% of these are literally described on the day by professionals as either ‘corrections’
+or ‘rebounds.’ In their opinion and regardless of other news that sweep the market on these particular
+days (which are not deemed to be of any great consequence), the market was due a correction because
+it was either overvalued or undervalued relative to its long term fundamentals. Apart from ‘market
+corrections,’ the second largest category of events as classiﬁed by the media seems to be related to
+foreign market contagion in the sense that the shocks are generated by imported volatility. Once
+again, this is consistent with the uncertainty avoidance hypothesis. The market will react to this
+imported volatility, often driving down returns but will correct the deviation, one way or the other,
+once uncertainty subsides and a new pricing equilibrium is achieved. By far, the most limited category
+of shocks, as reﬂected in the press headlines, refers to substantial economic and political events. This
+comes hardly as a surprise since the literature is not lacking in examples of persistent excess volatility
+that is not driven by fundamentals.24
+3.7. Who’s trading in the market and how?
+The concept of uncertainty avoidance has been related so far to Hofstede (2001) who deﬁnes
+uncertainty avoidance as the inherent tendency of a culture to program its members to feel either
+uncomfortable or comfortable in unstructured (novel, unknown, surprising, different) situations. It follows that lower some individuals’ tolerance for uncertainty (ambiguity), higher their propensity to act
+(trade). The Hofstede‘s Uncertainty Avoidance Index (UAI) is obtained from a psychological survey of
+IBM employee values, which was conducted (1968, 1972) in 72 countries. UAI was derived from coun-
+
+24
+
+French and Roll (1986).
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+573
+
+try mean scores on three survey questions dealing, respectively, with rule orientation, employment
+stability, and stress.
+For us, the apparent problem with this index is that India scores low in UA (meaning is quite
+good in tolerating ambiguity). India’s UAI stands at 40 relative to a world average of 65. It is beyond
+the purpose of this study to challenge this evidence but we do not have to do so. The Indian stock
+market is a free playing ﬁeld for a variety of traders and it is nearly impossible to assert the identity
+and the frequency of trades at various points in time. What we can do however, is to set the stage
+for further research aimed at identifying the potentially intensifying trades in periods surrounding
+market turbulences. As such, we make use of a dataset containing the daily net stock market ﬂows
+of FIIs (Foreign Institutional Investors) and DIIs (Domestic Institutional Investors) over our initial
+period of study, namely 2003–2010.25 For the purpose of this ﬁnal investigation, we simply look at
+the relationship between the sign of the shock and the sign of the FIIs/DIIs net ﬂow on the day of the
+event. An indication of a consistent momentum/contrarian strategy for a particular class of investors
+could be an indication of a potentially (uncertainty) less tolerant market player, in general.
+We deﬁne a dummy D that equals to 1 if either the institutional investor (foreign or domestic) is
+a net buyer of stocks on the day of a positive shock or a net seller on the day of a negative shock.
+The dummy will equal −1 in all other cases (net buyers on negative shock days or net sellers on
+positive shock days). We sum up these dummies separately for each shock. The results are displayed
+in Table A.8. Visually, a positive sum across dummies for each shock potentially indicates momentum
+trading whereas a negative sum potentially indicates contrarian trading. From a statistical point of
+view however, the probability of FIIs (or DIIs) of being net buyers on any event day follows a binomial
+distribution with a probability of success of 0.5.
+To illustrate consider the fact that we have 147 shocks in our sample (68 positive and 79 negative).
+For the case of FIIs, we end up with SUM (across all positive shocks) of +32 and SUM (across all negative
+shocks) of +37. To get a sum of 32 we need 50 positive dummies and 18 negative dummies (i.e. 50
+times FIIs are net buyers on the day of a positive shock and 18 times they are net sellers on the same
+day). The probability that, randomly, FIIs are 50 times buyers of stocks on the day of a positive event is
+almost 0. The same goes for negative shocks. In other words, over the period 2003–2010, FIIs tend to be
+momentum traders on shock days. The results are less conclusive when it comes to DIIs although there
+is evidence that they tend to buy more then sell on positive shock days. When it comes to negative
+shock days however, the null of randomness is harder to reject in their case. Naturally, it is unclear
+from this pattern, which type of trader is more likely to succumb to uncertainty intolerance and act (i.e.
+trade).26 However, the point is that even if Hofstede (2001) is right and Indians (institutional and/or
+individuals) can and may tolerate uncertainty well, their foreign counterparts might be less inclined
+to do so and it is difﬁcult to tell who is the driving force behind a market on a particular day.27
+4. Conclusion
+The purpose of this study is to shed some light on the way investors on the Indian stock exchange
+react to market events. We are conditioning our investigation on several factors such as market capitalization, crisis vs non-crisis periods, and magnitude of shocks. We employ two different approaches,
+namely a CAR analysis based on a mean-adjusted returns model and a GJR-Garch model. We ﬁnd
+evidence of post-event underreaction to negative events, detected mainly in the medium and smaller
+capitalization stocks, in all periods except post-crisis. During post-crisis, the market appears to overreact to bad news. On the other hand, the market seems to react more efﬁciently to positive events,
+overall. There is, however, weak evidence of overreaction to good news before the 2008 crisis which
+turns into underreaction to good news after the crisis. This conclusion is endorsed by the asymmetric
+GARCH approach. Equally, the pre-event CARs tend to be negative and statistically signiﬁcant, independent of the particular methodology employed. Moreover, their corresponding abnormal volatility
+25
+
+DIIs here refer exclusively to domestic mutual funds.
+Our data refers to net ﬂows but we know nothing of the intensity of trading.
+It is not unreasonable to assume that, in coping with uncertainty, momentum traders in general might display a stronger
+propensity to trade.
+26
+27
+
+574
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+coefﬁcients are signiﬁcant, positive, and monotonically increasing up until the day before the event day
+and then monotonically decreasing from time 0 until up to 10 days following the event. We make use
+of the fact that, in the case of BSE Sensex, the analysis can be signiﬁcantly extended beyond the original period, in order to subject our results to a time-test. Indeed, the results for Sensex over the period
+1991–2010 validate the previous pattern. Moreover, conditioning events on the size of the shock does
+not alter the results. If anything, larger shocks give rise to larger pre-event volatility estimates as in
+Mazouz et al. (2009).
+We also document a uni-directional Granger causality between volume and volatility in the sense
+that volume does Granger-cause volatility but not the other way around. Also, we document a statistically signiﬁcant and abnormally high trading volume in a large proportion of pre-event days,
+suggesting an increased traders’ appetite for selling (as returns tend to be negative and signiﬁcant on
+these days). This result is conﬁrmed by two alternative datasets: the total volume of Sensex shares
+being traded on pre-event days as well as the total number of Nifty futures contracts being traded on
+pre-event days. Moreover, a simple trend analysis looking at daily changes in price, volume, and open
+interest, suggests selling tendencies (for hedging, speculation, or long covering purposes) in pre-event
+days, all of which are indicative of market unrest.
+We suggest this pattern can be interpreted by reference to one particular psychological bias, namely
+uncertainty avoidance. In periods of heightened uncertainty, a representative group of market participants having low uncertainty tolerance are compelled to act (trade), driving up volatility and
+potentially driving down returns. As more information is released, uncertainty will subside and the
+market will undergo a correction (up or down) after which it remains largely efﬁcient. Given that, on
+an ex ante basis, it is impossible to predict the individual events and their nature, this still conforms
+to a broad notion of market efﬁciency. We reconcile this hypothesis with the suggestion in Hofstede
+(2001) that the Indian market scores below average on a world uncertainty-avoidance scale.
+Appendix A.
+See Fig. A.1 and Tables A.1–A.8 .
+Full period
+
+Pre-Crisis Period
+
+8.000
+7.000
+6.000
+5.000
+4.000
+3.000
+2.000
+1.000
+0.000
+-1.000
+
+IL 3
+
+IL 2
+
+IL 1
+
+Event
+
+10.000
+9.000
+8.000
+7.000
+6.000
+5.000
+4.000
+3.000
+2.000
+1.000
+0.000
+-1.000
+
+IL3
+
+IL2
+
+IL1
+
+Event
+
+Sensex Posive
+
+Sensex Negave
+
+Midcap Posive
+
+Sensex Posive
+
+Sensex Negave
+
+Midcap Posive
+
+Midcap Negave
+
+smallcap posive
+
+Smallcap Negave
+
+Midcap Negave
+
+smallcap posive
+
+Smallcap Negave
+
+Crisis Period
+12.000
+
+Post-Crisis
+
+10.000
+
+10.000
+
+8.000
+
+8.000
+6.000
+
+6.000
+4.000
+
+4.000
+
+2.000
+2.000
+
+0.000
+-2.000
+
+IL3
+
+IL2
+
+IL1
+
+Event
+
+0.000
+
+-4.000
+-2.000
+
+-6.000
+-8.000
+
+IL3
+
+IL2
+
+IL1
+
+Event
+
+-4.000
+Sensex Posive
+
+Sensex Negave
+
+Midcap Posive
+
+Midcap Negave
+
+smallcap posive
+
+Smallcap Negave
+
+Sensex Posive
+Midcap Negave
+
+Sensex Negave
+smallcap posive
+
+Fig. A.1. Volatility coefﬁcients of the ARs for pre-events for BSE indices.
+
+Midcap Posive
+Smallcap Negave
+
+Positive shocks
+No. of shocks (N)
+Full sample (April 2003–June 2010)
+68
+BSE Sensex
+BSE Midcap
+58
+57
+BSE Smallcap
+Pre-crisis period (April 2003–December 2007)
+44
+BSE Sensex
+BSE Midcap
+42
+BSE Smallcap
+41
+Crisis period (January 2008–March 2009)
+17
+BSE Sensex
+9
+BSE Midcap
+BSE Smallcap
+6
+Post-crisis period (April 2009–June 2010)
+7
+BSE Sensex
+BSE Midcap
+7
+BSE Smallcap
+10
+
+Negative shocks
+Max reaction (%)
+
+Mean reaction
+
+No. of shocks (N)
+
+Max reaction (%)
+
+Mean reaction
+
+15.99
+11.11
+8.66
+
+0.0384 (13.18)a
+0.0325 (11.97)a
+0.0337 (16.11)a
+
+79
+82
+83
+
+−11.81
+−12.08
+−10.84
+
+−0.0385 (−20.07)a
+−0.0441 (−19.53)a
+−0.0471 (−23.69)a
+
+7.93
+6.99
+5.80
+
+0.0292 (13.88)a
+0.0250 (11.69)a
+0.0287 (17.28)a
+
+52
+52
+49
+
+−11.81
+−11.98
+−10.57
+
+−0.0351 (−17.06)a
+−0.0415 (−15.89)a
+−0.0460 (−17.90)a
+
+7.90
+7.84
+6.48
+
+0.0571 (17.90)a
+0.0553 (10.08)a
+0.0441 (6.78)a
+
+18
+19
+24
+
+−11.60
+−12.08
+−10.84
+
+−0.0537 (−13.05)a
+−0.0553 (−9.71)a
+−0.0510 (−12.31)a
+
+15.99
+11.11
+8.66
+
+0.0517 (2.56)a
+0.0485 (4.21)a
+0.0478 (6.75)a
+
+9
+11
+10
+
+−6.01
+−5.61
+−5.98
+
+−0.0278 (−10.60)a
+−0.0372 (−10.18)a
+−0.0436 (−10.95)a
+
+a,b,c
+Denotes statistical signiﬁcance at 1%, 5% and 10% signiﬁcance level. Mean reaction refers to a mean abnormal shock i.e. abnormal returns (AR) on the day of the shock and the following
+days computed using a mean-adjusted returns model: ARi,t = ri,t − E(ri,t ) where, ri,t is the return of the indices i on day t. and E(ri,t ) is the average of the 50 day window ending 10 trading
+days prior to the shock. t-Stats appear in parentheses.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Table A.1
+Extreme events in unconditional BSE indices returns.
+
+575
+
+576
+
+Full period
+Negative reaction BSE Sensex (−0.0385) = negative reaction BSE midcap (−0.0441)
+Negative reaction BSE Sensex (−0.0385) = negative reaction BSE smallcap (−0.0472)
+Pre-crisis period
+Negative reaction BSE Sensex (−0.0351) = negative reaction BSE midcap (−0.0414)
+Negative reaction BSE Sensex (−0.0351) = negative reaction BSE smallcap (−0.0460)
+Crisis period
+Positive reaction BSE Sensex (0.0571) = positive reaction BSE smallcap (0.0441)
+Post-crisis period
+Negative reaction BSE Sensex (−0.0278) = negative reaction BSE midcap (−0.0372)
+Negative reaction BSE Sensex (−0.0278) = negative reaction BSE smallcap (−0.0436)
+
+1.89c
+3.13a
+1.91c
+3.31a
+1.78c
+2.22b
+3.32a
+
+a,b,c
+Denotes statistical signiﬁcance at 1%, 5% and 10% signiﬁcance level. Only statistically signiﬁcant results are reported. A t-test for the null hypothesis that the mean reaction on the
+day of a shock is equal across indices against the alternative hypothesis that that the mean reaction on the day of a shock across indices is different. The t-statistic is calculated as:
+
+t=
+
+(xi −xj )−(i −j )
+
+where, the x variables stand for mean abnormal returns (mean reactions) on shock days, s variables stand for variances, while N variables stand for sample sizes. The
+
+(si 2 /Ni )+(sj 2 /Nj )
+
+‘i,j’ indicate any pair of indices from BSE Sensex, BSE Midcap, and BSE Smallcap.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Table A.2
+Difference in mean reaction to shocks across indices.
+
+Table A.3
+Cumulative abnormal returns following a shock (mean adjusted returns model).
+AR
+
+IL-1
+
+ACAR-1
+
+ACAR-2
+
+ACAR-3
+
+ACAR-4
+
+ACAR-5
+
+ACAR-10
+
+−0.0253
+(−3.74)a
+−0.0359
+(−3.67)a
+−0.0247
+(−2.27)b
+
+−0.0174
+(−3.26)a
+−0.0255
+(−3.24)a
+−0.0193
+(−2.35)b
+
+−0.0043
+(−1.25)
+−0.0088
+(−1.94)c
+−0.0071
+(−1.57)
+
+0.0007
+(0.29)
+0.0005
+(0.16)
+0.0021
+(0.69)
+
+−0.0016
+(−0.38)
+0.0011
+(0.25)
+0.001
+(0.21)
+
+−0.0022
+(−0.41)
+0.0014
+(0.23)
+0.0035
+(0.49)
+
+−0.0049
+(−0.73)
+−0.001
+(−0.14)
+0.0036
+(0.43)
+
+−0.0068
+(−1.04)
+−0.0005
+(−0.06)
+−0.0017
+(−0.18)
+
+−0.0067
+(−0.69)
+−0.0113
+(−0.96)
+−0.0194
+(−1.37)
+
+−0.0204
+(−5.52)a
+−0.0281
+(−6.14)a
+−0.0305
+(−6.25)a
+
+−0.0113
+(−2.78)a
+−0.0186
+(−4.63)a
+−0.0206
+(−4.84)a
+
+−0.0077
+(−2.85)a
+−0.0129
+(−4.30)a
+−0.0147
+(−5.01)a
+
+−0.0008
+(−0.24)
+−0.0079
+(−1.95)b
+−0.0116
+(−2.97)a
+
+0.0013
+(0.30)
+−0.0038
+(−0.76)
+−0.0097
+(−1.97)b
+
+0.0012
+(0.24)
+−0.0059
+(−1.16)
+−0.0124
+(−2.31)b
+
+0.0033
+(0.57)
+−0.0115
+(−1.80)
+−0.0195
+(−2.90)a
+
+0.0037
+(0.58)
+−0.0131
+(−1.77)
+−0.022
+(−2.74)a
+
+−0.0029
+(−0.33)
+−0.0247
+(−2.53)a
+−0.0436
+(−3.54)a
+
+−0.0291
+(−4.31)a
+−0.0396
+(−4.34)a
+−0.0331
+(−3.20)a
+
+−0.0207
+(−3.80)a
+−0.0280
+(−3.79)a
+−0.0260
+(−3.19)a
+
+−0.0063
+(−1.68)c
+−0.0073
+(−1.46)
+−0.0084
+(−1.68)c
+
+−0.0024
+(−0.82)
+0.0001
+(0.04)
+0.0011
+(0.36)
+
+−0.0063
+(−1.51)
+−0.0034
+(−0.68)
+−0.0051
+(−0.98)
+
+−0.0095
+(−1.71)c
+−0.0068
+(−0.99)
+−0.0065
+(−0.86)
+
+−0.0082
+(−1.24)
+−0.0085
+(−1.11)
+−0.0056
+(−0.68)
+
+−0.0126
+(−1.77)c
+−0.0106
+(−1.24)
+−0.0127
+(−1.36)
+
+−0.0171
+(−1.90)c
+−0.0264
+(−2.17)b
+−0.0389
+(−2.72)a
+
+−0.0211
+(−6.26)a
+−0.0232
+(−5.25)a
+−0.0271
+(−5.14)a
+
+−0.0131
+(−3.73)a
+−0.0155
+(−3.60)a
+−0.0176
+(−3.60)a
+
+−0.0100
+(−3.68)a
+−0.0136
+(−4.33)a
+−0.0145
+(−4.05)a
+
+−0.0015
+(−0.39)
+−0.0092
+(−1.96)b
+−0.0105
+(−2.19)b
+
+0.0037
+(0.92)
+−0.0024
+(−0.45)
+−0.0031
+(−0.57)
+
+0.0016
+(0.36)
+−0.0053
+(−0.94)
+−0.0074
+(−1.2)
+
+−0.0018
+(−0.29)
+−0.0137
+(−1.74)
+−0.0164
+(−1.96)b
+
+−0.0019
+(−0.29)
+−0.0177
+(−1.82)
+−0.0206
+(−1.96)b
+
+−0.0128
+(−1.39)
+−0.0219
+(−1.95)b
+−0.0303
+(−2.21)b
+
+0.0043
+(0.48)
+−0.0276
+(−1.88)c
+−0.0381
+(−2.27)b
+
+−0.0016
+(−0.11)
+−0.0498
+(−1.67)c
+−0.0666
+(−1.79)c
+
+−0.0067
+(−0.34)
+−0.0619
+(−1.60)
+−0.0921
+(−1.98)b
+
+0.0117
+(1.92)c
+−0.0012
+(−0.14)
+−0.0055
+(−0.56)
+
+0.0121
+(1.08)
+0.0062
+(0.89)
+−0.0035
+(−0.44)
+
+0.0182
+(1.17)
+0.0125
+(0.87)
+−0.0038
+(−0.18)
+
+0.0074
+(0.35)
+0.0069
+(0.34)
+−0.0094
+(−0.32)
+
+0.0121
+(0.67)
+0.0105
+(0.47)
+−0.0187
+(−0.59)
+
+0.0117
+(0.37)
+−0.0045
+(−0.12)
+−0.0285
+(−0.51)
+
+−0.0034
+(−0.37)
+−0.0161
+(−1.75)c
+
+−0.0115
+(−0.75)
+−0.0361
+(−3.29)a
+
+−0.0238
+(−1.93)c
+−0.0534
+(−4.25)a
+
+−0.0030
+(−0.33)
+−0.0139
+(−1.21)
+
+−0.0100
+(−0.66)
+−0.0170
+(−1.20)
+
+−0.0059
+(−0.36)
+−0.0206
+(−1.47)
+
+0.0143
+(0.84)
+−0.0158
+(−1.03)
+
+0.0136
+(0.69)
+−0.0136
+(−0.86)
+
+0.0129
+(0.51)
+−0.0486
+(−1.87)
+
+577
+
+IL-2
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Full sample: positive shocks
+0.0384
+BSE Sensex
+(13.18)a
+0.0325
+BSE Midcap
+(11.97)a
+0.0337
+BSE Smallcap
+(16.11)a
+Full sample: negative shocks
+−0.0385
+BSE Sensex
+(−20.07)a
+−0.0441
+BSE Midcap
+(−19.53)a
+BSE Smallcap
+−0.0471
+(−23.69)a
+Pre-crisis: positive shocks
+0.0292
+BSE Sensex
+(13.88)a
+BSE Midcap
+0.0250
+(11.69)a
+BSE Smallcap
+0.0287
+(17.28)a
+Pre-crisis: negative shocks
+−0.0351
+BSE Sensex
+(−17.06)a
+−0.0415
+BSE Midcap
+(−15.89)a
+BSE Smallcap
+−0.0460
+(−17.90)a
+Crisis: positive shocks
+0.0571
+BSE Sensex
+(17.9)a
+BSE Midcap
+0.0553
+(10.08)a
+0.0441
+BSE Smallcap
+(6.78)a
+Crisis: negative shocks
+−0.0537
+BSE Sensex
+(−13.05)a
+−0.0553
+BSE Midcap
+(−9.71)a
+
+IL-3
+
+578
+
+Table A.3 (Continued)
+
+−0.0510
+(−12.31)a
+Post-crisis: positive shocks
+0.0517
+BSE Sensex
+(2.56)b
+0.0485
+BSE Midcap
+(4.21)a
+BSE Smallcap
+0.0478
+(6.75)a
+Pre-crisis: negative shocks
+−0.0278
+BSE Sensex
+(−10.60)a
+−0.0372
+BSE Midcap
+(−10.18)a
+−0.0436
+BSE Smallcap
+(−10.95)a
+a,b,c
+
+IL-3
+
+IL-2
+
+IL-1
+
+ACAR-1
+
+ACAR-2
+
+ACAR-3
+
+ACAR-4
+
+ACAR-5
+
+ACAR-10
+
+−0.0199
+(−3.15)a
+
+−0.0344
+(−3.70)a
+
+−0.0460
+(−4.20)a
+
+−0.0215
+(−2.47)b
+
+−0.0310
+(−2.69)a
+
+−0.0336
+(−2.79)a
+
+−0.0342
+(−2.45)b
+
+−0.0350
+(−2.16)b
+
+−0.0831
+(−2.84)a
+
+−0.0047
+(−0.50)
+0.0060
+(0.55)
+0.0168
+(2.47)b
+
+−0.0166
+(−2.59)a
+0.0203
+(0.79)
+0.0362
+(2.39)b
+
+−0.0242
+(−3.46)a
+0.0194
+(0.65)
+0.0501
+(2.09)b
+
+−0.0014
+(−0.29)
+0.0044
+(0.44)
+0.0081
+(0.75)
+
+−0.0088
+(−0.90)
+0.0212
+(1.30)
+0.0245
+(1.70)c
+
+−0.0077
+(−0.63)
+0.0365
+(2.50)b
+0.0446
+(2.23)b
+
+−0.0161
+(−1.44)
+0.0341
+(1.65)c
+0.0449
+(1.89)c
+
+−0.0152
+(−0.96)
+0.0458
+(1.68)c
+0.0492
+(1.93)c
+
+0.0134
+(0.58)
+0.0705
+(2.27)b
+0.0691
+(1.96)b
+
+−0.0033
+(−1.19)
+−0.0041
+(−0.75)
+−0.0036
+(−0.49)
+
+0.0007
+(0.11)
+−0.0031
+(−0.36)
+−0.0027
+(−0.23)
+
+−0.0046
+(−0.48)
+−0.0078
+(−0.65)
+−0.0108
+(−0.71)
+
+0.0077
+(1.68)c
+0.0084
+(1.72)c
+0.0071
+(2.01)b
+
+0.0102
+(1.60)
+0.0129
+(1.68)c
+0.0091
+(1.27)
+
+0.0127
+(1.44)
+0.0164
+(1.64)
+0.0135
+(1.30)
+
+0.0105
+(0.96)
+0.0066
+(0.48)
+0.0010
+(0.06)
+
+0.0159
+(1.63)
+0.0094
+(0.68)
+0.0020
+(0.12)
+
+0.0228
+(1.92)
+0.0004
+(0.02)
+−0.0142
+(−0.55)
+
+Denotes statistical signiﬁcance at 1%, 5% and 10% signiﬁcance level. The cumulative abnormal returns are estimated as: CARi,t =
+
+(ACAR) as: ACARi,t =
+
+1
+N
+
+N
+
+
+i=1
+
+ARi,t The Average cumulative abnormal returns
+i=1
+
+
+
+CARit . The t-statistic is: t = ACAR/(/
+
+10
+
+
+N).
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+AR
+BSE Smallcap
+
+Table A.4
+Cumulative abnormal returns following a shock (Using GJR-GARCH(1,1)).
+Positive shocks
+BSE Sensex
+
+BSE Midcap
+
+Negative shocks
+BSE Smallcap
+
+BSE Sensex
+
+BSE Midcap
+
+BSE Smallcap
+
+−3.824a
+−0.916b
+−1.178b
+−1.996a
+−0.612a
+−0.537c
+−0.861b
+−0.968b
+−1.040c
+−1.006
+
+−4.342a
+−0.999c
+−1.264b
+−2.321a
+−0.869a
+−0.522
+−0.914b
+−1.058b
+−0.971c
+−0.702
+
+−3.705a
+−0.905
+−0.815
+−1.591b
+−0.699a
+−0.463
+−0.915c
+−1.042
+−0.865
+0.066
+
+−4.149a
+−0.908
+−0.967
+−2.028b
+−0.770a
+−0.133
+−0.835c
+−0.744
+−0.420
+0.592
+
+−5.409a
+−1.480
+−3.321b
+−3.785c
+−1.532c
+−1.845
+−2.443
+−1.863
+−1.132
+−1.682
+
+−4.940a
+−1.454
+−2.486c
+−3.066c
+−2.217a
+−3.510a
+−4.369a
+−4.443a
+−4.474b
+−3.191
+
+BSE Sensex
+
+BSE Midcap
+
+Negative shocks
+BSE Smallcap
+
+BSE Sensex
+
+BSE Midcap
+
+Full period: GJR-GARCH (1,1) estimates for volatility of the ARs
+−0.083a
+0.293c
+0.474b
+0.444a
+0.593a
+1.530a
+1.470a
+2.750a
+1.670a
+3.240a
+1.010a
+1.290a
+2.290a
+0.841a
+1.710a
+0.667a
+1.010a
+1.720a
+0.546a
+1.110a
+−2.450a
+0.075
+−0.369
+−8.510a
+−0.487c
+−1.970a
+0.013
+−0.130
+−0.434a
+−0.353a
+−0.149b
+0.000
+−0.042
+−0.234a
+−0.169b
+−0.084c
+0.019
+−0.017
+−0.211a
+−0.137b
+−0.046
+0.031
+0.046
+−0.204a
+−0.138a
+−0.532c
+0.083a
+0.165a
+−0.099a
+−0.076a
+Pre-crisis: GJR-GARCH (1,1) estimates for volatility of the ARs
+−0.402a
+−0.080
+−0.004
+0.756a
+0.733a
+1.850a
+0.952b
+1.870b
+3.750a
+4.900a
+1.250a
+1.080a
+1.990a
+1.620a
+2.240a
+0.835a
+0.919a
+1.450a
+0.990a
+1.470a
+−0.831b
+0.228
+−0.463
+−1.270a
+−0.343
+−1.090a
+0.095
+−0.122
+−0.437a
+−0.261
+−0.032
+0.060
+−0.025
+−0.108
+−0.208
+0.016
+0.078
+−0.007
+−0.170b
+−0.046
+b
+0.079
+0.098
+0.067
+−0.201
+−0.100
+c
+c
+0.091
+0.091
+0.083
+−0.053
+−0.099b
+Crisis: GJR-GARCH (1,1) estimates for volatility of the ARs
+−2.790a
+−3.210a
+−5.580a
+1.680a
+1.180a
+4.950
+9.720
+5.260
+6.530c
+9.710a
+2.360c
+9.680c
+6.710
+3.190b
+4.950a
+1.750b
+6.970b
+6.390
+2.030b
+3.240a
+0.197
+−5.870
+−5.380a
+3.650
+1.990
+0.403
+−1.300
+−1.430
+2.170
+0.383
+0.251
+−0.707
+−1.200
+1.890
+0.840
+0.416
+−0.315
+−0.449
+1.300
+1.230
+0.377
+−0.162
+−0.323
+0.721
+1.030
+0.190
+0.181
+0.245
+0.031
+0.719
+
+BSE Smallcap
+0.539a
+7.210a
+3.010a
+1.640a
+−0.749
+−0.506b
+−0.329a
+−0.329a
+−0.306a
+−0.079c
+0.527a
+8.680a
+3.480a
+2.010a
+−1.340b
+−0.650b
+−0.331b
+−0.425a
+−0.388a
+−0.106b
+0.945a
+7.580a
+4.130a
+2.700a
+2.780
+1.550
+1.440
+1.460
+1.340
+0.871
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Full period: GJR-GARCH (1,1) estimates of CARs
+2.401a
+2.962a
+−3.325a
+Mean AR 2.900a
+IL1
+−0.481
+−0.782b
+−0.477
+−0.684b
+IL2
+−1.621a
+−1.949a
+−1.498a
+−0.937b
+IL3
+−2.244a
+−2.491a
+−1.451b
+−1.706a
+CAR 1
+−0.020
+−0.020
+0.271
+−0.085
+−0.162
+CAR 2
+0.064
+0.164
+0.231
+CAR 3
+0.363
+0.028
+0.452
+0.064
+CAR 4
+0.379
+−0.125
+0.452
+0.063
+CAR 5
+0.009
+0.210
+0.295
+0.290
+CAR 10
+0.182
+−0.146
+−0.300
+−0.147
+Pre-crisis: GJR-GARCH (1,1) estimates of CARs
+1.988a
+2.535a
+−3.274a
+Mean AR 2.557a
+IL1
+−0.208
+−0.467
+−0.485
+−0.699
+IL2
+−1.342a
+−1.822a
+−1.720a
+−0.968
+IL3
+−1.981a
+−2.500a
+−1.612a
+−1.614a
+CAR 1
+0.164
+0.018
+0.307
+−0.106
+CAR 2
+−0.384
+−0.062
+−0.066
+0.269
+CAR 3
+0.454
+−0.222
+0.140
+−0.149
+CAR 4
+0.676c
+−0.286
+0.472
+0.071
+CAR 5
+−0.018
+−0.434
+0.005
+0.204
+CAR 10 −0.047
+−1.022
+−0.636
+0.262
+Crisis: GJR-GARCH (1,1) estimates of CARs
+5.114a
+4.748a
+−5.263a
+Mean AR 5.542a
+IL1
+0.131
+−1.827
+−2.105
+−0.436
+IL2
+−1.666
+−4.407b
+−5.309a
+−1.483
+IL3
+−2.274
+−4.835c
+−5.225c
+−3.412b
+CAR 1
+0.683
+0.257
+0.156
+−0.708
+CAR 2
+0.556
+−0.396
+0.604
+−1.613
+CAR 3
+1.598
+1.125
+2.141
+−1.816
+−0.382
+−1.095
+0.653
+−0.593
+CAR 4
+−0.237
+0.493
+1.018
+0.111
+CAR 5
+0.008
+2.997
+2.186
+−1.480
+CAR 10
+
+Positive shocks
+
+579
+
+580
+
+Positive shocks
+BSE Sensex
+
+BSE Midcap
+
+Negative shocks
+BSE Smallcap
+
+BSE Sensex
+
+Post-crisis: GJR-GARCH (1,1) estimates of CARs
+Mean AR 4.199a
+4.999a
+4.593a
+−3.022a
+IL1
+−0.749
+−0.470
+2.304
+−1.123
+IL2
+−1.166
+0.020
+4.237b
+−0.543
+IL3
+−2.001
+−0.096
+2.777
+−2.642a
+CAR 1
+0.599
+0.993
+0.781
+1.098c
+−0.088
+3.865b
+2.903b
+0.388
+CAR 2
+−1.062
+5.105a
+4.260b
+0.187
+CAR 3
+CAR 4
+0.362
+5.493b
+4.168b
+2.159
+2.451
+7.613a
+4.870b
+3.725
+CAR 5
+6.733c
+9.930a
+6.591
+2.585
+CAR 10
+
+BSE Midcap
+−3.773a
+−0.910
+−1.476
+−2.854b
+0.474
+1.089
+1.931c
+0.466
+0.976
+−0.600
+
+Positive shocks
+BSE Smallcap
+−5.101a
+−0.911
+−1.391
+−3.748a
+0.521
+1.071
+1.936
+−0.364
+−0.765
+−3.324
+
+BSE Sensex
+
+BSE Midcap
+
+Negative shocks
+BSE Smallcap
+
+BSE Sensex
+
+BSE Midcap
+
+Post-crisis: GJR-GARCH (1,1) estimates for volatility of the ARs
+0.796c
+2.810
+2.400
+−2.030b
+0.483
+6.010a
+8.900a
+6.630b
+0.577
+1.570a
+3.780a
+4.060a
+1.630a
+0.582b
+0.725a
+1.870a
+2.810a
+2.780a
+0.467b
+0.652a
+−2.230a
+3.890b
+3.800a
+−6.560a
+0.611
+−0.993b
+1.720b
+1.730a
+−3.390a
+0.326
+−0.722a
+−2.230a
+1.230a
+−1.820a
+0.190
+−0.899
+1.040b
+1.110a
+−1.060a
+0.149
+−1.720a
+0.718b
+1.040b
+−0.842b
+0.132
+0.025
+0.515b
+1.540a
+−0.380a
+0.425c
+
+BSE Smallcap
+−2.200a
+2.030a
+1.080a
+0.785a
+−2.280
+−0.617
+−0.319
+−0.056
+0.007
+0.235
+
+a,b,c
+Denote statistical signiﬁcance at 1%, 5% and 10% respectively. Statistical signiﬁcance is determined using standard t-stat. The CARs and the volatility coefﬁcients are determined using
+a dummy variable method similar to that of Mazouz et al. (2009). The CARs are estimated over a window of 10 days. The values of CARs are in percentages and the volatility coefﬁcients
+are multiplied by 104 .
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Table A.4 (Continued)
+
+PANEL A: 2sd overlap
+GJR-GARCH (1,1) estimates for CARs
+
+Mean AR
+IL1
+IL2
+IL3
+CAR1
+CAR2
+CAR3
+CAR4
+CAR5
+CAR10
+
+PANEL B: 2sd no overlap
+GJR-GARCH (1,1) estimates for
+volatility of ARs
+
+GJR-GARCH (1,1) estimates for CARs
+
+GJR-GARCH (1,1) estimates
+for volatility of ARs
+
+Positive shock
+
+Negative shock
+
+Positive shock
+
+Negative shock
+
+Positive shock
+
+Negative shock
+
+Positive shock
+
+Negative shock
+
+3.270a
+−0.155
+−0.607b
+−1.029a
+0.060
+−0.100
+−0.068
+−0.061
+−0.328
+−0.648
+
+−3.506a
+−0.651a
+−0.855a
+−1.515a
+−0.324a
+0.033
+0.108
+0.073
+0.165
+−0.591
+
+0.207a
+2.450a
+1.260a
+0.875a
+−0.805a
+−0.366a
+−0.204a
+−0.143a
+−0.107a
+−0.055a
+
+0.409a
+2.350a
+1.160a
+0.741a
+−1.810a
+−0.293a
+−0.180a
+−0.161a
+−0.149a
+−0.094a
+
+3.176a
+−0.398c
+−0.954a
+−1.484a
+−0.026
+−0.390c
+−0.214
+−0.116
+−0.231
+−0.899c
+
+−3.521a
+−0.419
+−0.688c
+−0.915b
+−0.189
+0.012
+0.135
+0.019
+0.16
+−0.87
+
+0.516a
+2.790a
+1.360a
+0.911a
+−2.980a
+−1.780a
+−0.184a
+−0.131a
+−0.103a
+−0.057a
+
+0.994a
+3.160a
+1.460a
+0.938a
+−0.576a
+−0.272a
+−0.172a
+−0.162a
+−0.152a
+−0.096a
+
+a,b,c
+Denote statistical signiﬁcance at 1%, 5% and 10% respectively. Statistical signiﬁcance is determined using standard t-stat. The CARs and the volatility coefﬁcients are determined using
+a dummy variable method similar to that of Mazouz et al. (2009). The CARs are estimated over a window of ten days. The values of CARs are in percentages and the volatility coefﬁcients
+are multiplied by 104 .
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Table A.5
+BSE Sensex responses to shocks from 1991 to 2010.
+
+581
+
+582
+
+Shocks of 3–5%
+
+Mean AR
+IL1
+IL2
+IL3
+CAR1
+CAR2
+CAR3
+CAR4
+CAR5
+CAR10
+
+Shocks of 5–10%
+
+Shocks of more than 10%
+
+GJR-GARCH (1,1)
+estimates for CARs
+
+GJR-GARCH (1,1)
+estimates for
+volatility of ARs
+
+GJR-GARCH (1,1)
+estimates for CARs
+
+GJR-GARCH (1,1)
+estimates for
+volatility of ARs
+
+GJR-GARCH (1,1)
+estimates for CARs
+
+GJR-GARCH (1,1)
+estimates for
+volatility of ARs
+
+Positive
+shocks
+
+Positive
+shocks
+
+Positive
+shocks
+
+Negative
+shocks
+
+Positive
+shocks
+
+Negative
+shocks
+
+Positive
+shocks
+
+Positive
+shocks
+
+5.676a
+−1.616b
+−2.997a
+−3.792a
+−0.25
+−0.858
+−0.398
+−0.438
+0.302
+−1.631
+
+−6.486a
+−0.212
+−1.133
+−1.307
+−0.454
+−0.172
+−0.289
+−0.218
+−0.818
+−1.835
+
+3.890a
+8.800a
+4.750a
+3.490a
+1.450c
+0.756c
+0.561b
+0.503b
+0.414b
+0.350a
+
+4.620a
+11.270a
+5.430a
+3.510a
+−0.954
+−0.767
+−0.552c
+−0.393
+−0.334c
+−0.201b
+
+3.688a
+−0.644b
+−0.940a
+−1.489a
+0.402b
+−0.148
+−0.092
+0.290
+−0.162
+−0.217
+
+Negative
+shocks
+−3.796a
+−0.392
+−0.203
+−0.728
+0.354
+0.352
+0.243
+0.233
+0.266
+−0.426
+
+0.768a
+3.830a
+2.000a
+1.290a
+−0.303
+−0.086
+−0.028
+0.022
+0.023
+0.041
+
+Negative
+shocks
+−2.780a
+2.620a
+1.360a
+0.954a
+−0.742b
+−0.377b
+−0.253b
+−0.204b
+−0.159b
+−0.091a
+
+13.558a
+−1.46
+−2.562
+−3.48
+0.465
+−0.539
+1.286
+2.612
+2.257
+−4.243
+
+Negative
+shocks
+−11.719
+−3.111
+−3.872
+−3.884
+4.468
+0.352
+3.254
+7.560c
+9.376c
+−9.921b
+
+7.770b
+29.540a
+14.790a
+9.570a
+−1.74
+−0.381
+0.022
+0.103
+0.277
+0.251
+
+Negative
+shocks
+2.600a
+19.760b
+9.670b
+6.080b
+−22.38
+−0.377
+−7.450a
+−5.470a
+−4.230a
+−1.940a
+
+a,b,c
+Denote statistical signiﬁcance at 1%, 5% and 10% respectively. Statistical signiﬁcance is determined using standard t-stat. The CARs and the volatility coefﬁcients are determined using
+a dummy variable method similar to that of Mazouz et al. (2009). The CARs are estimated over a window of ten days. The values of CARs are in percentages and the volatility coefﬁcients
+are multiplied by 104 .
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Table A.6
+BSE Sensex responses to size-conditioned shocks from 1991 to 2010.
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+583
+
+Table A.7
+Abnormal trading volumes/open interest before market events.
+Abnormal trading volumes before market shocks: evidence from Sensex shares
+Vp > Vb (% of events)
+68.97%
+29.31%
+Reject H0 at 5%
+43.10%
+Reject H0 at 10%
+12.099
+Mean Vb
+12.274
+Mean Vp
+2.606
+Mean |t|
+Abnormal trading volumes before market shocks: evidence from Nifty futures
+Vp > Vb (% of events)
+70.49%
+40.98%
+Reject H0 at 5%
+49.18%
+Reject H0 at 10%
+12.143
+Mean Vb
+12.578
+Mean Vp
+2.889
+Mean |t|
+Abnormal open interest before market shocks: evidence from Nifty futures
+67.21%
+OIp > OIb (% of events)
+47.54%
+Reject H0 at 5%
+54.10%
+Reject H0 at 10%
+15.171
+Mean OIb
+15.359
+Mean OIp
+3.136
+Mean |t|
+Volume is deﬁned as Vt = ln(1 + volume on day t). Open interest is deﬁned as OIt = ln(1 + open interest on day t). The null hypothesis (H0 ) is Vp = Vb and similarly, OIp = OIb i.e. the average volume/open interest on pre-event days is equal to benchmark
+volume/open interest. Mean |t| is the average mean statistic for H0 . Reject H0 at 5%, and reject H0 at 10% represent the % of
+events for which the null is rejected at 5% and 10% level of signiﬁcance, respectively.
+Table A.8
+Foreign institutional investors/domestic institutional investors data analysis.
+Full period
+Foreign
+ institutional investors
+D(positive-shocks)
+
+
+
+32
+
+D(negative-shocks)
+37
+Domestic
+ institutional investors (mutual funds)
+D(positive-shocks)
+27
+
+
+
+D(negative-shocks)
+
+−4
+
+Pre-crisis
+
+Crisis
+
+Post-crisis
+
+21
+
+6
+
+5
+
+12
+
+16
+
+9
+
+12
+
+10
+
+5
+
+−15
+
+2
+
+9
+
+D = +1 if the sign of the shock and the sign of the net investment ﬂow on the day of the shock are the same (positive shock- > net
+buying and negative shock- > net selling). D = −1 if the sign of the shock and the sign of the net investment ﬂow on the day of
+the shock are different (positive shock- > net selling and negative shock- > net buying). A positive/negative sum across dummies
+may indicate momentum/contrarian trading for the period. The results are later checked against the binomial distribution.
+
+References
+Barberis, N., Shleifer, A., Vishny, R., 1998. A model of Investor Sentiment. Journal of Financial Economics 49, 307–343.
+Brown, K., Harlow, W., Tinic, S., 1988. Risk aversion, uncertain information, and market efﬁciency. Journal of Financial Economics
+22, 355–385.
+Brown, S, Warner, J., 1980. Measuring security price performance. Journal of Financial Economics 8, 205–258.
+Chakravarty, S., Gulen, H., Mayhew, S., 2004. Informed Trading in Stock and Option Markets. Journal of Finance 59, 1235–1258.
+Corrado, C.J., 1989. A non parametric test for abnormal security price performance in event studies. Journal of Financial Economics 23, 385–395.
+Corrado, C.J., Zivney, T.L., 1992. The speciﬁcation and power of the sign test in event study hypothesis tests using daily stock
+returns. Journal of Financial and Quantitative Analysis 27, 465–478.
+Cyert, R., March, J., 1963. A Behavioral Theory of the Firm. Prentice Hall.
+Daniel, K., D, Hirshleifer., A, Subrahmanyam., 1998. Investor Psychology and Security Market Under- and Over-reactions. The
+Journal of Finance 53, 1839–1885.
+De Bondt, W., 2000. The psychology of underreaction and overreaction in world equity markets. In: D. Keim, W. Ziemba (Eds.),
+Security Market Imperfections in World Equity Markets, Cambridge University Press.
+Easley, D., O’Hara, M., Srinivas, P.S., 1998. Option volume and stock prices: Evidence on where informed traders trade. Journal
+of Finance 53, 431–465.
+French, K., Roll, R., 1986. Stock return variances: the arrival of information and the reaction of traders. Journal of Financial
+Economics 17, 5–26.
+
+584
+
+D. Maher, A. Parikh / Int. Fin. Markets, Inst. and Money 21 (2011) 560–584
+
+Grinblatt, M., Han, B., 2005. Prospect theory, mental accounting, and momentum. Journal of Financial Economics 78, 311–339.
+Harris, M, Raviv, A., 1993. Differences of Opinion Make a Horse Race. Review of Financial Studies 6, 473–506.
+Hofstede, G., 2001. Culture’s Consequences: ComparingValues, Behaviors, Institutions and Organizations Across Nations. Sage,
+Thousand Oaks, CA.
+Hong, H., Lim, T., Stein, J.C., 2000. Bad news travels slowly: size, analyst coverage, and the proﬁtability of momentum strategies.
+The Journal of Finance 55, 265–295.
+Jayaraman, N., Frye, M., Sabherwal, S., 2001. Informed Trading around Merger Announcements: An Empirical Test Using Transaction Volume and Open Interest in Options Market. Financial Review 37, 45–74.
+Jegadeesh, N., Titman, S., 1993. Returns to Buying Winners and Selling Losers: Implications for Stock Market Efﬁciency. Journal
+of Finance 48, 65–91.
+Karaﬁath, I., 1988. Using dummy variables in the event methodology. Financial Review 23, 351–357.
+Karpoff, J.M., 1987. The Relation between Price Changes and Trading Volume: A Survey. Journal of Financial Quantitative Analysis
+22, 109–126.
+Lasfer, M.A., Melnik, A., Thomas, D.C., 2003. Short term reaction of stock markets in stresfull circumstances. Journal of Banking
+and Finance 27, 1959–1977.
+Mazouz, K., Lael Joseph, N., Palliere, C., 2009. Stock index reaction to large price changes: Evidence from major Asian stock
+indices. Paciﬁc-Basin Finance Journal 17, 444–459.
+McKnight, P.J., Hou, T.C.T., 2006. The determinants of momentum in the United Kingdom. The Quarterly Review of Economics
+and Finance 46, 227–240.
+Nissani, M., 1994. Conceptual conservatism: An understated variable in human affairs? The Social Science Journal 31, 307–318.
+Pan, J., Poteshman, A.M., 2006. The Information in Option Volume for future stock prices. Review of Financial Studies 19, 871–908.
+Rastogi, N., Chaturvedula, C., Pavan Bang, N., 2009. Momentum and Overreaction in Indian Capital Markets. International
+Research Journal of Finance and Economics 32, 83–92.
+Rieks, J., Lobe, S., 2008. Do Price Shocks Indicate a Short-Term Overreaction on the German Capital Market.
+http://ssrn.com/abstract=1089783.
+Sanders, R., Zdanowicz, J., 1992. Target ﬁrm abnormal returns and trading volume around the initiation of change in control
+transactions. Journal of Financial and Quantitative Analysis 27, 109–129.
+Schnusenberg, O., Madura, J., 2001. Do U.S. stock market indices over- or underreact? The Journal of Financial Research 24,
+179–204.
+Spyrou, S., Kassimatis, K., Galariotis, E., 2007. Short-term Overreaction, Underreaction and Efﬁcient Reaction: Evidence from
+the London Stock Exchange. Applied Financial Economics 17, 221–235.
+Thaler, R.H., 1999. Mental accounting matters. Journal of Behavioral Decision Making 12, 183–206.
+Tversky, A., Kahneman, D., 1973. Availability: a heuristic for judging frequency and probability. Cognitive Psychology 5, 207–232.
+
+

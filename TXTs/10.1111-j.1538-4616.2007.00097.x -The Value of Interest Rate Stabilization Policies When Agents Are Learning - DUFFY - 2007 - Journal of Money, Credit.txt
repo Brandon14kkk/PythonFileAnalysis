@@ -1,0 +1,705 @@
+JOHN DUFFY
+WEI XIAO
+
+The Value of Interest Rate Stabilization Policies
+When Agents Are Learning
+We examine the expectational stability (E-stability) of rational expectations
+equilibrium in the “New Keynesian” model where monetary policy is optimally derived and interest rate stabilization is added to the central bank’s
+traditional objectives of inflation and output stabilization. We consider both
+the case where the central bank lacks a commitment technology and the
+case of full commitment. We show that for both cases, optimal policy rules
+yield rational expectations equilibria that are E-stable for a wide range of
+empirically plausible parameter values. These findings stand in contrast to
+Evans and Honkapohja’s findings for optimal monetary policy rules in environments where interest rate stabilization is not a central bank objective.
+JEL codes: D83, E43, E52
+Keywords: learning, E-stability, monetary policy, New Keynesian model.
+
+EVANS AND HONKAPOHJA (2003a, 2003b, 2006) examine the
+stability, under adaptive learning dynamics, of rational expectations equilibrium
+(REE) in the standard New Keynesian model of the monetary transmission mechanism1 when the policy rule of the central bank is optimally derived.2 Specifically,
+they suppose that the central bank minimizes a quadratic loss function that penalizes
+deviations of inflation and output from certain exogenous target values. The result
+
+1. See Clarida, Gali, and Gertler (1999) for a presentation of this model.
+2. Other authors, e.g., Bullard and Mitra (2002, 2003) and Carlstrom and Fuerst (2004), have studied
+the stability of REE under learning for non-optimal, Taylor-type instrument rules. Honkapohja and Mitra
+(2004) study the stability of REE under learning using both optimal and non-optimal policy rules.
+We thank two referees and the editor, Ken West, for constructive comments and suggestions on earlier
+drafts.
+
+JOHN DUFFY is Professor of Economics, University of Pittsburgh, 230 S. Bouquet Street,
+Pittsburgh, PA 15260 (E-mail: jduffy@pitt.edu). WEI XIAO is Assistant Professor of Economics,
+State University of New York at Binghamton, P.O. Box 6000, Binghamton, NY 13902 (E-mail:
+wxiao@binghamton.edu).
+Received June 22, 2004; and accepted in revised form September 5, 2006.
+Journal of Money, Credit and Banking, Vol. 39, No. 8 (December 2007)
+
+C 2007 The Ohio State University
+
+2042
+
+:
+
+MONEY, CREDIT AND BANKING
+
+of this minimization problem is an optimal interest rate rule which is used together
+with equations describing private sector behavior to characterize the equilibrium of
+the economy.
+Evans and Honkapohja (2003a, 2003b, 2006) report that, regardless of whether
+the central bank operates under commitment or discretion, the REE of the system is
+always expectationally unstable when the policy rule is derived under the incorrect
+assumption that the private sector has rational expectations—they call the policy
+rule in this case the “fundamentals-based” policy rule. While the private sector is
+assumed to use a correctly specified model to form expectations, it does not initially
+possess knowledge of the REE parameterization of the model; instead it updates
+the parameters of its model in real time using all relevant data. However, the central
+bank’s fundamentals-based interest rate policy causes this adaptive learning process to
+diverge away from the REE, and for this reason, the fundamentals-based policy rule
+is considered undesirable—it is expectationally unstable. 3 Evans and Honkapohja
+(2003) find this instability of optimal policy “deeply worrying” and suggest that the
+central bank might do well to assume that the private sector does not (initially) possess
+rational expectations. Indeed, Evans and Honkapohja show that if the central bank
+does not assume rational expectations on the part of the private sector, the resulting,
+optimally derived, “expectations-based” interest rate rule, which conditions on the
+private sector’s expectations of inflation and output, results in a REE that is always
+expectationally stable.
+In this paper, we consider an alternative approach to optimal monetary policy under
+learning using the same New Keynesian framework and maintaining the assumption
+that the private sector does not have rational expectations. We show that it is possible
+for the central bank to use an optimally derived policy rule that does not condition on
+private sector expectations and which results in a REE that is stable under adaptive
+learning dynamics in contrast to the findings of Evans and Honkapohja (2003a, 2003b,
+2006). What is needed to obtain our result is for the central bank to expand its loss
+function to include interest rate stabilization as a third objective, in addition to the
+traditional twin objectives of inflation and output stabilization. Our result concerning
+the stability of REE under adaptive learning holds for a wide range of empirically
+plausible parameter values across all calibrations found in the literature and regardless
+of whether the central bank operates under discretion or commitment.
+There are several advantages to studying optimal policy using a loss function that
+gives weight to interest rate stabilization. First, as Woodford (2003) shows, if there
+are transactions frictions of the type that would give rise to a demand for money then
+an appropriate welfare-theoretic loss function for the central bank is one that includes
+interest rate stabilization as a third objective in addition to the standard two objectives
+of inflation and output stabilization. Second, there is substantial empirical evidence
+that central banks adjust their interest rate targets only gradually over time—consistent
+with having interest rate stabilization as a goal (see, e.g., Goodhart 1997). Finally,
+
+3. See Evans and Honkapohja (2001) for a complete treatment of the notion of expectational (in)stability.
+
+JOHN DUFFY AND WEI XIAO
+
+:
+
+2043
+
+as Giannoni and Woodford (2003) note, the optimal policy rules derived under the
+three-element loss function resemble the much-studied Taylor instrument rule, while
+rules derived under the more typical two-element (inflation and output stabilization)
+objective function do not.
+Evans and Honkapohja’s proposed resolution to the monetary policy instability
+problem—conditioning policy on private sector expectations—strikes us as problematic for several reasons. First, operationally speaking, the private sector’s expectations
+may not be observable, or may be heterogeneous; figuring out which expectations to
+use is a complicated task. Second, as Honkapohja and Mitra (2005) point out, if the
+central bank is known to be conditioning policy on private sector expectations, the
+private sector might choose to be strategic about its expectations. Third, in certain
+environments, conditioning on private sector expectations may increase the likelihood
+that the REE becomes indeterminate, as shown by Bernanke and Woodford (1997). 4
+Our approach, which does not require the use of private sector expectations, avoids
+these problems.
+1. THE MODEL
+The model of the private sector is the standard, “cashless” New Keynesian model
+used in analyses of the monetary policy transmission mechanism (as set forth, e.g.,
+in Clarida, Gali, and Gertler 1999 or Woodford 2003) and consists of the following
+equations:
+xt = −ϕ(i t − Ê t πt+1 ) + Ê t xt+1 + gt ,
+
+(1)
+
+πt = λxt + β Ê t πt+1 + u t ,
+
+(2)
+
+
+
+
+v t = (gt , u t ) = Fvt−1 + et ,
+
+µ
+F=
+0
+
+
+0
+,
+ρ
+
+(3)
+
+where |µ|, |ρ| ∈ (0, 1), e t = (e gt , e ut ) and e it ∼ i.i.d. (0, σ i2 ), i = g, u. The parameters ϕ
+and λ are assumed to be positive, as is the discount factor, 0 < β < 1. The inter-temporal
+IS equation (1) relates the output gap x t , to its expected future value Ê t xt+1 , and to
+the real interest rate; i t is the short-term (one-period) nominal interest rate and Ê t πt+1
+is the expected inflation rate between t and t + 1. The aggregate supply equation (2)
+relates the current inflation rate π t to expected future inflation and the current output
+gap. Both equations can be derived from explicit micro-founded models. Note that
+Ê t here refers to expectations of future endogenous variables that are not necessarily
+4. Evans and Honkapohja (2003a, 2003b) are careful to show that indeterminacy of REE is not a
+problem when the central bank uses the optimally derived, expectations-based interest rate rules that
+condition on private sector expectations. Berardi (2004) reconciles Evans and Honkapohja’s findings with
+those of Bernanke and Woodford (1997).
+
+2044
+
+:
+
+MONEY, CREDIT AND BANKING
+
+rational. 5 The last equation (3) characterizes how the demand and supply shock
+processes, g t and u t , evolve over time.
+This model is closed by specifying how the central bank determines the short-term
+nominal interest rate, i t . Suppose the central bank’s objective is to minimize:
+E0
+
+∞
+
+
+
+
+β t (πt − π)2 + αx (xt − x)2 + αi (i t − i)2 ,
+
+(4)
+
+t=0
+
+where π, x, and i represent target values for inflation, the output gap and the interest
+rate. For simplicity, we henceforth set π = x = 0, though our results would not
+change if we assumed nonzero values for these targets. The relative weights assigned
+to output and interest rate stabilization are α x > 0 and α i > 0.
+The loss function differs from the one considered by Evans and Honkapohja (2003a,
+2003b, 2006) by the inclusion of the third, interest rate stabilization element; Evans
+and Honkapohja have α i = 0. The three-element loss function we use has been given
+a micro-founded welfare-economic justification by Woodford (1999). He shows that
+when there are non-negligible transaction frictions, as would rationalize a demand for
+money, the three-element version of the loss function objective represents a quadratic
+approximation to the optimal, expected utility realized by the representative household
+in the same optimizing model that gives rise to the structural equations (1) and (2); in
+the absence of such transaction costs, the two-element version (α i = 0) is the relevant
+approximation. Woodford (2003) further rationalizes the inclusion of the third term
+as a quadratic approximation to the implicit penalty on interest rate variability the
+central bank faces due to the existence of a zero lower bound on nominal interest
+rates; the two-element version of the loss function does not take this constraint into
+account. For these reasons, the three-element loss function can be viewed as the more
+general form of the central bank’s objective function.
+
+2. DISCRETIONARY POLICY
+We first consider the case where the central bank cannot commit to future policies.
+Optimal monetary policy in this discretionary case amounts to minimization of (4)
+subject to versions of equations (1) and (2) modified to take account of the central
+bank’s lack of commitment:
+xt = −ϕi t ,
+
+(5)
+
+πt = λxt .
+
+(6)
+
+5. There is some dispute in the literature as to whether equations (1) and (2) represent the correct,
+micro-founded structural equations of the model under this assumption of non-rational expectations (there
+is no dispute in the case where agents do have rational expectations)—see the debate between Preston
+(2004) and Honkapohja, Mitra, and Evans (2003) for the details. As our aim is to contrast our findings
+with those of Evans and Honkapohja (2003a, 2003b, 2006), we chose to work with the same system of
+structural equations (1) and (2) that they used.
+
+JOHN DUFFY AND WEI XIAO
+
+:
+
+2045
+
+The three first-order conditions can be combined to yield the optimality condition:
+λπt + αx xt − αi ϕ −1 (i t − i) = 0.
+
+(7)
+
+Equation (7) can be rearranged to yield the optimal interest rate rule:
+it = i +
+
+ϕλ
+ϕαx
+πt +
+xt .
+αi
+αi
+
+(8)
+
+The rule (8) is of the same general form as Taylor’s instrument rule, though in this
+case it has been optimally derived. 6 The optimal rule (8) requires knowledge of the
+contemporaneous values of inflation and output, and for this reason we will refer to
+it as a “data-based” rule.
+The system under discretionary policy thus consists of equations (1), (2), and (8).
+Letting y t = (x t , π t ) , this system can be further reduced and written as:
+yt = δ0 + δ y Ê t yt+1 + δv v t ,
+
+(9)
+
+where δ 0 , δ y , and δ v represent comformable vectors or matrices with elements that
+are combinations of structural model parameters and objective function weights.
+To study the stability of REE under adaptive learning, we follow Evans and
+Honkapohja (2001, section 10.3) and suppose that agents have a perceived law of
+motion for y t that corresponds to the minimal state variable (MSV) representation of
+the REE solution to the system (9). This perceived law of motion may be written as:
+yt = d0 + dv v t .
+
+(10)
+
+Using this perceived law of motion (PLM), agents form expectations of y t+1 :
+Ê t yt+1 = d0 + dv Fvt .
+Substituting these expectations into (9) (in lieu of rational expectations) yields a
+T-mapping from the PLM to the actual law of motion (ALM):
+yt = Td0 (d0 ) + Tdv (dv )v t .
+The rational expectations solution consists of values d̄0 = Td0 (d̄0 ) and d̄v = Tdv (d̄v ).
+Expectational (E)-stability of (d̄0 , d̄v ) is governed by local asymptotic stability of
+the matrix differential equation:
+d
+(d0 , dv ) = T (d0 , dv ) − (d0 , dv ),
+dτ
+
+6. It is in this sense that our analysis differs from that of Bullard and Mitra (2002).
+
+2046
+
+:
+
+MONEY, CREDIT AND BANKING
+
+evaluated at the REE solution values. Specifically, the REE solution to the system (9)
+is E-stable if the eigenvalues of
+DT d0 = δ y ,
+DT dv = δ y F,
+have real parts less than unity. As Evans and Honkapohja (2003) point out, these
+conditions correspond closely to whether or not the rational expectations equilibrium
+of the system (9) is determinate; the condition for determinacy is that the eigenvalues
+of δ y are all less than unity. Indeed, given the restrictions imposed on the matrix F it
+is clear that in this case of discretionary policy, the determinacy and the E-stability
+conditions exactly coincide. As Duffy (2003) shows, in the case of discretionary
+policy we have:
+
+
+ϕ(αi − λϕβ)
+1 αi
+δy =
+,
+(11)
+ξ λαi ϕ(λαi + βϕαx ) + βαi
+where ξ = α i + ϕ 2 (α x + λ2 ). Whether or not the eigenvalues of this matrix are all less
+than unity depends on the calibration of the structural parameters of the model and the
+weights chosen for the objective function, and so we turn to a numerical analysis later
+on in Section 4. Duffy investigated the eigenvalues of this matrix for one calibration
+of the model, due to Woodford (1999), but in this paper, we provide a more general
+analysis, considering several different calibrations that have appeared in the literature
+and allowing the values of the two weights, α x and α i in the central bank’s objective
+function to vary over a grid of plausible values. In addition, Duffy did not consider
+the more interesting case where the central bank operates under commitment, which
+we address in the next section.
+The difference between the optimal “data-based” interest rate rule (8) we derive
+under discretionary policy and the optimal “fundamentals-based” rule derived by
+Evans and Honkapohja (2003a) under discretionary policy is the key to understanding
+our different stability findings under adaptive learning. In Evans and Honkapohja’s
+model, α i = 0, so the optimality condition we derived above (7) reduces to: 7
+λπt + αx xt = 0.
+
+(12)
+
+Since this optimality condition does not involve the interest rate, i t , Evans and
+Honkapohja proceed to derive an optimal interest rate rule under the assumption
+that the private sector has rational expectations. They suppose that the private sector
+forms expectations of future output and inflation using an MSV solution of the form
+given by (10), i.e., the same solution class we consider. Using this perceived law
+of motion to form expectations in (1), (2), and using (12), they solve for the REE
+
+7. Compare equation (6), p. 809 in Evans and Honkapohja (2003a).
+
+JOHN DUFFY AND WEI XIAO
+
+:
+
+2047
+
+coefficient values of the MSV solution and further obtain an optimal interest rate rule
+of the form:
+i t = ψi + ψg gt + ψu u t ,
+
+(13)
+
+where ψ i , ψ g , and ψ u are precisely defined coefficient values under the maintained assumption that the private sector has rational expectations. They call this
+a “fundamentals-based” ruled because it is a function only of exogenous fundamentals, i.e., the two shocks. Evans and Honkapohja use (13) to eliminate i t in (1) and
+write the system (1) and (2) in the form (9), where, in particular, they have that:
+
+
+ϕ
+1
+δy =
+.
+(14)
+β + λϕ λ
+Their matrix for δ y , (14), which is critical to their E-stability analysis, is different
+from the matrix (11) we derive using the data-based rule, and this difference is the
+reason for our different stability findings, as detailed later. We note that we could
+have proceeded in the same manner as Evans and Honkapohja (2003a), using the
+optimality condition (7) (our data-based interest rate rule) to substitute out for i t in
+equation (1) and then finding the MSV REE solution for π t and x t as functions of
+the shocks g t and u t . We could have then substituted the REE solutions for π t and x t
+back into our optimal data-based interest rate rule (8) to get a “fundamentals-based”
+rule of the same form (13) used by Evans and Honkapohja; the ψ coefficients would
+differ from those in Evans and Honkapohja due to our different objective function,
+but the functional form of the rule would be the same. However, we already know,
+from Proposition 2 of Evans and Honkapohja that any interest rate rule of the form
+(13) will result in an E-unstable REE, irrespective of the coefficient values of that
+rule; that finding is unaffected by our use of a different loss function.
+Our contribution is to note that the addition of interest-rate stabilization to the
+central banks’ policy objective allows for an optimal interest rate rule that is “databased” and quite distinct from the fundamentals-based rule of Evans and Honkapohja
+(2003a). This rule is not obtainable if α i = 0 in the loss function objective of the central
+bank as in Evans and Honkapohja’s analysis. 8 As noted above, a further important
+difference is that Evans and Honkapohja need to assume that the central bank acts as
+though the private sector has rational expectations in order to derive the central bank’s
+optimal, fundamentals-based interest rate rule. In our approach, we do not need to
+8. If one does not start by setting α i = 0 in the objective function, one could consider a version of the
+optimal data-based rule we derive (8) in the limiting case where the weight on interest rate smoothing,
+α i → 0:
+
+
+ϕλ
+ϕαx
+i t = i + lim
+πt +
+xt .
+αi →0
+αi
+αi
+However, in this case the coefficients on the endogenous variables tend to infinity, so this version of the
+rule is of little practical importance, though our simulations findings (discussed below) suggest that such
+a rule would be E-stable.
+
+2048
+
+:
+
+MONEY, CREDIT AND BANKING
+
+make such an assumption in order to derive the optimal interest rate rule as this rule
+(8) follows immediately from combining the first order conditions from the central
+bank’s optimization problem. Finally, we wish to emphasize that data-based rules
+seem more plausible as candidates for optimal policy rules than fundamental-based
+rules that condition policy on exogenous shocks; despite the assumption that shock
+“fundamentals” are known, in practice, such shocks are hard to identify and it seems
+that central bankers do use endogenously determined variables (π t , x t ) in formulating
+their policy decisions. The same logic which we have just given for the difference
+in our findings from those of Evans and Honkapohja (2003a, 2003b, 2006) under
+discretionary policy also extends to the case of policy under commitment. We now
+turn to an analysis of that case.
+
+3. POLICY UNDER COMMITMENT
+If the central bank can credibly commit to future policies, the problem it faces
+changes to reflect this possibility. In particular, we follow Woodford (2003) in adopting
+the “timeless perspective” to optimal policy under commitment. This perspective
+requires that the central bank minimizes (4) subject to the original private sector
+equations, (1) and (2). The first order conditions can be manipulated to obtain the
+optimal interest rate rule under commitment:
+it = −
+
+ϕλi
+αx ϕ
+ϕλ + β + 1
+1
+ϕλ
+πt +
+(xt − xt−1 ) +
++
+i t−1 − i t−2 .
+β
+αi
+αi
+β
+β
+
+(15)
+
+As noted by Giannoni and Woodford (2003), the optimal rule (15) closely resembles
+a “policy-smoothing” version of the Taylor instrument rule, though (15) involves
+greater history dependence (via the variables x t−1 , i t−2 ) than is typically assumed in
+policy smoothing versions of Taylor rules. We note further that the rule (15) differs
+from the optimal “fundamentals-based” rule under commitment studied by Evans and
+Honkapohja (2003b, 2006). 9 The reason for this difference in the commitment case
+is analogous to the reason we provided in the discretionary policy case; the use of the
+two-element objective function does not immediately give rise to an optimal interest
+rate rule and so Evans and Honkapohja (2006) need to assume rational expectations
+on the part of the private sector in order to derive the optimal policy rule. With the
+three-element objective function (4), we do not need to make such an assumption.
+Using the optimal rule (15) to substitute out for i t in (1), we can reduce the system
+to two equations in x t and π t . Defining y t = (x t , π t ) and w t = (i t , i t−1 ) , the system
+under commitment can be written as:
+yt = δ0 + δ y1 Ê t yt+1 + δ y2 yt−1 + δw w t−1 + δv v t .
+
+(16)
+
+9. Evans and Honkapohja’s (2006) optimal, “fundamentals-based” rule under commitment is i t =
+ψ x x t−1 + ψg g t + ψu u t , where the ψ coefficients are precisely defined under the maintained assumption
+of private sector rational expectations.
+
+JOHN DUFFY AND WEI XIAO
+
+:
+
+2049
+
+The interest rate rule (15) can also be written in matrix notation as
+w t = a0 + a1 yt + a2 yt−1 + a3 w t−1 .
+
+(17)
+
+The PLM consistent with a MSV–REE solution in this case is:
+yt = d0 + d y yt−1 + dw w t−1 + dv v t .
+
+(18)
+
+Given (18), (3), and (17), we obtain the expected value of y t+1 as:
+Ê t yt+1 = d0 + d y yt + dw (a0 + a1 yt + a2 yt−1 + a3 w t−1 ) + dv Fvt .
+Since there are two y t terms in this equation, we need to apply (18) one more time to
+eliminate them. Doing this yields:
+Ê t yt+1 = ψ0 + ψ y yt−1 + ψw w t−1 + ψv v t .
+Substituting these expectations into (16), we get a T-mapping from the PLM to the
+ALM:
+yt = T (d0 ) + T (d y )yt−1 + T (dw )w t−1 + T (dv )v t .
+Rather than calculate all possible REE solutions—there can be several fixed points
+to the T-mapping in this case—we focus on the unique, saddle path stable solution
+found using the Blanchard–Kahn technique (see, e.g., Evans and Honkapohja 2001,
+section 10.8). This unique determinate equilibrium is the one relevant to policy discussions and, as Giannoni and Woodford (2003) show, it is the optimal equilibrium
+from the timeless perspective.
+The conditions for E-stability of the REE solution to the system (16) are given in
+Evans and Honkapohja (2001, section 10.3). The conditions are that the eigenvalues
+of the matrices DT d j , j = 0, y, w, v, all have real parts less than unity. The relevant
+matrices are:
+DT d0 = δ y1 (I + d y + dw a1 ),
+DT d y = d y ⊗ δ y1 + I ⊗ (δ y1 d y + δ y1 dw a1 ),
+DT dw = dw ⊗ δ y1 a1 + I  ⊗ δ y1 (d y + a1 dw + a3 ),
+DT dv = δ y1 d y + δ y1 dw a1 + δ y1 F.
+In the case of optimal policy under commitment, it is no longer the case that
+determinacy and stability of equilibrium under adaptive learning are inextricably
+linked; while we focus on the unique determinate REE, this equilibria may or may
+not satisfy the E-stability conditions given above. Again, it is not possible to obtain
+analytic results so we must resort to numerical methods to assess whether the REE in
+
+2050
+
+:
+
+MONEY, CREDIT AND BANKING
+
+TABLE 1
+THREE VALUES OF THE STRUCTURAL PARAMETERS OF THE MODEL
+Author
+
+Woodford (1999)
+Clarida, Gali, and Gertler (1999)
+McCallum and Nelson (2000)
+
+ϕ
+
+λ
+
+1/0.157
+1
+0.164
+
+0.024
+0.3
+0.3
+
+the commitment case are stable under adaptive learning. We now turn to this numerical
+exercise.
+
+4. NUMERICAL ANALYSIS
+The calibrated values of the structural model parameters we consider in our numerical exercise are due to Woodford (W) (1999), Clarida, Gali, and Gertler (CGG)
+(1999), and McCallum and Nelson (MN) (2000) and are given in Table 1.
+We further assume that ρ = µ = 0.35 in (3) for all three model calibrations.
+We consider whether the REE is E-stable or not for each of the three structural
+model calibrations and for both discretionary and commitment regimes—a total of
+six numerical exercises. For each exercise, we vary each of the loss function weights
+α i and α x , over a fine grid of values, ranging from 0.001 to 2, with a step size of
+0.04. 10
+4.1 Numerical Findings Under Discretionary Policy
+Figures 1–3 show our numerical findings under discretionary policy for the three
+calibrations given in Table 1 for various (α x , α i ) weight pairs. For each weight pair,
+our numerical routine checks the eigenvalues of the matrix δ y , (11), to determine
+whether either eigenvalue has real part less than unity. Regions where all eigenvalues
+have real parts less than unity are shown in black; in this case, the REE is both
+E-stable and determinate. Regions where at least one eigenvalue has a real part greater
+than unity are left blank; these are the regions where the REE is both E-unstable and
+indeterminate.
+The figures reveal that for all three calibrations there always exist (α x , α i ) combinations for which the REE solution is E-stable and determinate. This finding stands
+in contrast to Evans and Honkapohja’s finding of E-instability for the fundamentalsbased rule under discretion derived under the assumption that α i = 0. Of course, Evans
+and Honkapohja’s result holds for any choice of weights/calibration of the model and
+
+10. We conducted a further numerical analysis (not illustrated here), where we searched over all combinations of the two weights in the interval [0.001, 0.01] using a step size of .01; the results are equivalent
+to those illustrated below when each weight is set equal to .01; i.e., in all of these cases, the REE is E-stable.
+
+JOHN DUFFY AND WEI XIAO
+
+FIG. 1. Discretionary Policy, Woodford (1999) Calibration.
+
+FIG. 2. Discretionary Policy, Clarida, Gali, and Gertler (1999) Calibration.
+
+:
+
+2051
+
+2052
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 3. Discretionary Policy, McCallum and Nelson (2000) Calibration.
+
+our finding applies only for certain weight choices that are not independent of the
+model calibration.
+Woodford (1999) proposes the weights α x = 0.047 and α i = 0.233. With these
+choices, and the Woodford (W) calibration of the structural parameters, Figure 1
+reveals that the REE is both E-stable and determinate. Woodford (2003, table 6.1)
+proposes somewhat different weights of α x = 0.048 and α i = 0.077 under the same
+W calibration of the structural parameters. In that case the REE is again found to
+be both E-stable and determinate. As Figure 1 reveals, determinacy and E-stability
+obtain for all values of α x so long as α i is not too great. This same conclusion holds
+for the other two calibrations (CGG, MN) as seen in Figures 2 and 3. The range of (α x ,
+α i ) pairs for which E-stability obtains is greatest in the W calibration, and smallest in
+the MN calibration. However, there is always some (α x , α i ) pair for which the REE
+is E-stable and determinate.
+4.2 Numerical Findings Under Commitment
+Figures 4–6 show comparable results for the case of optimal policy under commitment. 11 To assess E-stability, we again used a fine grid of values for the weight pairs
+(α x , α i ), allowing each weight to vary over the range [0, 2].
+11. Recall that for this case, we restricted attention to the unique, determinate, saddlepath stable REE
+since, in the commitment case, the conditions for E-stability and determinacy of equilibrium need not
+coincide.
+
+JOHN DUFFY AND WEI XIAO
+
+FIG. 4. Commitment Policy, Woodford (1999) Calibration.
+
+FIG. 5. Commitment Policy, Clarida, Gali, and Gertler (1999) Calibration.
+
+:
+
+2053
+
+2054
+
+:
+
+MONEY, CREDIT AND BANKING
+
+FIG. 6. Commitment Policy, McCallum and Nelson (2000) Calibration.
+
+However, for the CGG and MN parameterizations, we had to extend the range of
+admissible weights so we can illustrate regions where E-stability fails to hold. In
+particular, for those two calibrations, we search for values of α x over [0, 7] and we
+search for values of α i over [0, 5], where again, the step size is 0.04. For each weight
+pair, we assess whether all the eigenvalues of the matrices DT d j , j = 0, y, w, v, have
+real parts less than unity so that the REE is E-stable; such regions are shown in black.
+Regions where one or more eigenvalue has a real part greater than unity are left blank,
+indicating regions where the REE is E-unstable.
+Figures 4–6 confirm that in the commitment case, there always exist (α x , α i ) pairs
+such that the REE is E-stable. Moreover, for the CGG and MN calibrations, the
+set of policy weight pairs for which E-stability holds is much less restrictive under
+commitment than under discretion. For the W calibration, Figure 4 reveals that the
+weights proposed by Woodford (1999) α x = 0.047 and α i = 0.233, are consistent with
+an E-stable REE. This finding also holds for Woodford’s (2003) alternative weights,
+α x = 0.048 and α i = 0.077.
+However, like Figures 1–3, Figures 4–6 reveal that there exist (α x , α i ) pairs for
+which the REE is E-unstable; the precise regions depend on the calibration of the
+structural model parameters. These E-unstable regions do not appear to be empirically relevant, though the literature is not so clear about empirically plausible weight
+choices. Nevertheless, our finding is not a strong the one found in Evans and Honkapohja (2006); they show that an optimally derived, expectation-based interest rate rule
+
+JOHN DUFFY AND WEI XIAO
+
+:
+
+2055
+
+that has the central bank condition on private sector expectations always implements
+an E-stable REE, regardless of parameter values. Still, our finding that there exist
+parameter regions under which an optimal interest rate rule that does not condition on
+private sector expectations can nevertheless implement an E-stable REE is of interest,
+as Evans and Honkapohja are unable to show such a result using the two-element loss
+function objective.
+
+5. CONCLUSIONS
+We have show that if central bankers give some weight to interest rate stabilization, the resulting optimal policy rule implements a REE that is E-stable for several
+calibrations found in the literature under either discretionary or commitment policy
+regimes. This result obtains without the assumption that the private sector has rational
+expectations or that the central bank conditions its policy on private sector expectations, in contrast to the findings of Evans and Honkapohja (2003a, 2003b, 2006).
+While Evans and Hokapohja called the instability under learning of their optimal,
+fundamentals-based rule “deeply worrying,” our findings suggest that learnability of
+REE need not conflict with optimization of an appropriately defined policy objective
+function. Indeed, Evans and Honkapohja’s proposed solution—the conditioning of
+policy on private sector expectations—is problematic, as such expectations are likely
+to be unobservable or heterogeneous and such conditioning might lead to gaming on
+the part of the private sector or indeterminacy of the REE.
+Our finding differs from Evans and Honkapohja’s because the optimal interest
+rate rule derived under the assumption that α i > 0 closely resembles Taylor-type,
+“instrument rules,” where the interest rate responds to contemporaneous and/or lagged
+values of the endogenous variables (inflation, the output gap, interest rates), and not
+to exogenous disturbance terms as in Evans and Honkapohja (2003a, 2003b, 2006).
+Bullard and Mitra (2002) show that, under certain conditions, Taylor-type instrument
+rules can implement E-stable REE, and it seems this finding carries over to optimally
+derived policy rules that resemble Taylor rules. We conclude that the value of interest
+rate stabilization as a central bank objective is that it may aid private sector learning
+of the rational expectations equilibrium relative to the case where this objective is
+absent.
+
+LITERATURE CITED
+Berardi, Michele. (2004) “Should Monetary Policy Respond to Private Expectations?” Working
+Paper.
+Bernanke, Ben S., and Michael Woodford. (1997) “Inflation Forecasts and Monetary Policy.”
+Journal of Money, Credit, and Banking, 29, 653–84.
+Bullard, James, and Kaushik Mitra. (2002) “Learning About Monetary Policy Rules.” Journal
+of Monetary Economics, 49, 1105–129.
+
+2056
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Bullard, James, and Kaushik Mitra. (2003) “Determinacy, Learnability, and Monetary Policy
+Inertia.” Working Paper No. 2000-030, Federal Reserve Bank of St. Louis.
+Carlstrom, Charles T., and Timothy S. Fuerst. (2004) “Learning and the Central Bank.” Journal
+of Monetary Economics, 51, 327–38.
+Clarida, Richard, Jordi Gali, and Mark Gertler. (1999) “The Science of Monetary Policy: A
+New Keynesian Perspective.” Journal of Economic Literature, 37, 1661–707.
+Duffy, John. (2003) “Comment on ‘Adaptive Learning and Monetary Policy Design.’ ” Journal
+of Money, Credit and Banking, 35, 1073–79.
+Evans, George W., and Seppo Honkapohja. (2001) Learning and Expectations in Macroeconomics. Princeton, NJ: Princeton University Press.
+Evans, George W., and Seppo Honkapohja. (2003a) “Expectations, and the Stability Problem
+for Optimal Monetary Policies.” Review of Economic Studies, 70, 807–24.
+Evans, George W., and Seppo Honkapohja. (2003b) “Adaptive Learning and Monetary Policy
+Design.” Journal of Money, Credit, and Banking, 35, 1045–72.
+Evans, George W., and Seppo Honkapohja. (2006) “Monetary Policy, Expectations and Commitment.” The Scandinavian Journal of Economics, 108, 15–38.
+Giannoni, Marc P., and Michael Woodford. (2003) “How Forward-Looking Is Optimal Monetary Policy?” Journal of Money, Credit, and Banking, 35, 1425–69.
+Goodhart, Charles A.E. (1997) “Why Do the Monetary Authorities Smooth Interest Rates?”
+In European Monetary Policy, edited by S. Collignon, pp. 119–74. Washington, DC: Pinter.
+Honkapohja, Seppo, and Kaushik Mitra. (2004) “Are Non-Fundamental Equilibria Learnable
+in Models of Monetary Policy?” Journal of Monetary Economics, 51, 1743–770.
+Honkapohja, Seppo, and Kaushik Mitra. (2005) “Performance of Monetary Policy with Internal
+Central Bank Forecasting.” Journal of Economic Dynamics and Control, 29, 627–58.
+Honkapohja, Seppo, Kaushik Mitra, and George W. Evans. (2003) “Notes on Agents’ Behavioral Rules Under Adaptive Learning and Recent Studies of Monetary Policy.” Working
+Paper.
+McCallum, Bennett T., and Edward Nelson. (2000) “Timeless Perspective vs. Discretionary
+Monetary Policy in Forward–Looking Models.” Working Paper.
+Preston, Bruce. (2004) “Adaptive Learning and the Use of Forecasts in Monetary Policy.”
+Working Paper.
+Woodford, Michael. (1999) “Optimal Monetary Policy Inertia.” Working Paper.
+Woodford, Michael. (2003). Interest and Prices. Princeton, NJ: Princeton University Press.
+
+

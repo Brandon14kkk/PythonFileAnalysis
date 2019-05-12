@@ -1,0 +1,4929 @@
+Journal of Corporate Finance 11 (2005) 197 – 228
+www.elsevier.com/locate/econbase
+
+Corporate governance practices, CEO characteristics
+and firm performance
+James Nelson*
+Department of Finance, College of Business, Florida State University, Tallahassee, FL 32306-1110, USA
+Received 28 January 2003; received in revised form 1 February 2003; accepted 16 July 2003
+Available online 27 February 2004
+
+Abstract
+This paper examines the link between firm performance, CEO characteristics and changes in
+corporate governance practices using an unbalanced panel of 1721 firms from 1980 to 1995. This
+paper provides the stylized facts about corporate governance practices and details how governance
+practices have evolved over time. By 1995, the majority of firms had implemented differing types of
+charter amendments, poison pills or other governance provisions that are potentially harmful to
+shareholders. Most firms have adopted multiple and even redundant governance provisions.
+Shareholders are more likely to approve an increase in the power of the boards of directors of better
+performing firms, while the boards of poorly performing firms are much more likely to initiate
+governance changes, such as poison pills, that circumvent shareholder approval. I find no
+relationship between CEO age, tenure or compensation and governance changes.
+D 2005 Elsevier B.V. All rights reserved.
+JEL classification: G30; G32; G34
+Keywords: Corporate governance practices; CEO characteristics; Firm performance
+
+Despite a great deal of interest by institutional investors and others in the area of
+corporate governance, there is surprisingly little empirical evidence linking firm performance with changes in governance practices. In this paper, I take a fresh look at the effect
+of firm performance and CEO characteristics on corporate governance practices, acknowledging the endogenous nature of this relationship. An understanding of corporate
+governance requires knowledge of the interrelationships among governance practices.
+To this end, I examine a panel of 1721 large US firms tracked by the Investor
+Responsibility Research Center (IRRC). This panel spans 1980 – 1995 and contains
+* Tel.: +1-850-6450166; fax: +1-850-6444225.
+E-mail address: jnelson@cob.fsu.edu (J. Nelson).
+0929-1199/$ - see front matter D 2005 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jcorpfin.2003.07.001
+
+198
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+information on each firm’s charter and bylaw provisions, existence of a poison pill, other
+governance features (e.g., cumulative voting, confidential voting, golden parachutes),
+applicable state anti-takeover laws and board composition data, combined with performance and accounting data from CRSP and Compustat.
+This paper has three main objectives. First, it provides a workable definition of
+corporate governance that can be used to structure empirical analysis. I begin by defining
+corporate governance as a set of constraints on managers and shareholders as they bargain
+to determine how the value of the firm will be allocated. Since the value of the firm’s
+shares represents the present value of the shareholder’s allocation of firm value, under this
+definition, corporate governance can be thought of as a set of constraints imposed on firm
+performance. Within the context of this definition, I contend that corporate governance
+practices will have the largest observable effects on firm performance when these
+constraints become binding.
+Second, I identify stylized facts about corporate governance and detail how governance
+practices have evolved over time.1 For example, by 1995, over 72% of the firms in my
+sample had implemented at least one charter amendment that potentially could constrain
+shareholder wealth. Within this subset, the average number of charter amendments
+adopted was 2.54 per firm. Likewise, by 1995, over 53% of the firms in my sample
+had adopted poison pills. Additionally, over 81% of firms in my sample in 1995 have
+golden parachutes in place for top management, while less than 12% have adopted a policy
+of confidential voting and less than 15% have adopted a policy allowing for cumulative
+voting. Furthermore, I document that multiple governance provisions that potentially
+could harm shareholders exist in a large number of sample firms. Many of these
+governance provisions are redundant. Therefore, the adoption or removal of individual
+governance practices may have little impact on firm performance, if they do not change the
+nature of the constraints on future shareholder bargaining.
+Finally, I examine the endogenous relationship between corporate governance practices, CEO characteristics and long-term performance. I argue that changes in the
+governance practices of firms could be the result of a bargaining process between
+managers, boards of directors and shareholders, and that the bargaining strength of the
+parties is a function of the CEOs tenure and the firm’s prior performance. I examine longterm performance measures surrounding governance changes and document that firms
+adopting governance changes requiring a shareholder vote typically significantly outperform benchmark portfolios for the 1, 2, 3 and 5 years prior to adoption. Likewise, I
+document that firms adopting poison pills, which do not require shareholder votes,
+significantly under-perform benchmark portfolios for the 1, 2, 3 and 5 years prior to
+adoption. These results are confirmed in a set of multivariate logistic regressions, which
+demonstrate that prior firm performance is significant variable in determining the firm’s
+choice between adopting a poison pill or charter amendments. While the performance
+results are consistent with a bargaining story, I find no apparent relationship between the
+governance changes and the CEOs’ age, tenure or measures of CEO compensation. These
+CEO results are inconsistent with CEO bargaining for governance changes.
+
+1
+
+See Danielson and Karpoff (1998) for a similar analysis on a smaller sample.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+199
+
+The paper is organized as follows: Section 1 provides the motivation for this paper and
+an overview of the current literature; Section 2 details the data used in the analysis and
+provides some descriptive statistics; Section 3 presents stylized facts about governance
+practices in the panel; Section 4 provides an analysis of CEO age, tenure and compensation surrounding governance changes, while Section 5 examines long-term performance
+surrounding governance changes; and Section 6 provides a multivariate analysis of
+governance changes in a logit framework. Finally, Section 7 summarizes my conclusions.
+
+1. Motivation and overview of the current literature
+Recently, there has been a great deal of interest by institutional investors and others in
+the area of corporate governance. The increased role of indexing has led many institutions
+to become active in trying to influence the corporate governance policies of the firms in
+their portfolio. This institutional activism appears to be based upon the belief that
+governance practices influence subsequent firm performance,2 although there is actually
+surprisingly little evidence linking governance practices with subsequent firm performance.
+Most analyses of the relationship between governance and performance rely on some
+changes in the governance practices of the firm with many authors examining the effect on
+performance following these changes. These studies fall into two categories: (1) studies
+that examine the initiation of ‘‘anti-takeover’’ provisions, and (2) studies that examine
+activist institutional investors who attempt to influence firms to change governance
+practices. Studies that examine the wealth effects surrounding the initiation of ‘‘antitakeover’’ provisions in firms’ governance practices offer mixed results. Typically, they
+use event studies to examine abnormal returns surrounding the announcement of
+governance changes. However, there are problems with this methodology. First, many
+governance changes (such as anti-takeover charter amendments) are announced in the
+firms’ proxy statements that usually contain a host of other information that potentially
+contaminate the results. Second, as discussed by Brickley et al. (1988), abnormal returns
+surrounding the announcement of an anti-takeover governance practice have three separate
+components.3 More importantly, any abnormal return associated with the features’
+adoption will be the future cost to shareholders if the constraint becomes binding,
+discounted by both the probability of the constraint becoming binding and the firm’s
+discount rate. The impact of this discounting may be sufficient to preclude finding
+statistically significant results. With the above caveats in mind, Bhagat and Brickley
+(1984), Jarrell and Poulsen (1987), Malatesta and Walkling (1988) and Comment and
+Schwert (1995) find that the adoption of governance practices that deter takeovers appear
+to produce negative returns. On the other hand, studies by DeAngelo and Rice (1983),
+Jarrell and Poulsen (1987) and Linn and McConnell (1983) offer evidence of zero or even
+2
+
+See Biggs (1996).
+The first component is the increased likelihood that a firm adopting the governance practice will be a
+takeover target. It is assumed that management’s timing in seeking the governance changes contains information
+about the likelihood of a takeover. The second component is the likelihood of an increased premium conditional
+on a successful offer. The third component is the decreased likelihood of an offer being successful.
+3
+
+200
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+positive returns. Studies that examine wealth effects following actions by institutional
+investors typically fail to find any positive wealth or performance effects related to
+targeting of governance issues.4 This lack of convincing evidence may be related to the
+limited scope of the activist institution’s targeting or to the limitations of the methodologies used.
+The popular view of governance changes has been that CEOs force upon shareholders
+various governance changes that serve to protect and entrench management by constraining the power of shareholders. This view ignores the fact that many of these governance
+changes require shareholder approval to be implemented. To the extent that governance
+changes are wealth decreasing to shareholders, shareholders would be acting irrationally in
+voting with management on such proposals. In examining the performance – governance
+relationship, the question I seek to answer in this paper is: Why do shareholders agree to
+adopt governance changes that could potentially harm them?
+A potential explanation for why shareholders would agree to adopt potentially harmful
+changes can be inferred from the work of Hermalin and Weisbach (1998), who develop a
+model to explain how CEOs bargain for board composition based upon the CEO’s
+perceived ability. The intuition of their model can be extended to a bargaining model
+between the CEO and shareholders. The CEO and shareholders will bargain for the
+allocation of firm value and for constraints on the shareholders’ future bargaining power.
+The bargaining position of the CEO is a function of the shareholders’ confidence in the
+CEO’s ability as proxied by prior firm performance.
+In the spirit of Zingales (1997), I define corporate governance as the set of constraints
+on managers and shareholders as they bargain for the distribution of firm value. In
+developing a definition of corporate governance, I begin with a corporation that has
+various stakeholders, each with differing objectives. The initial contracts will not fully
+allocate all of the firm value and thus stakeholders must bargain for the residual value.
+Each stakeholder’s objective is to maximize the present value of her allocation of the
+expected future value of the firm. In this regard, the stakeholders will concern themselves
+not only with the present allocation of firm value, but also with their bargaining power in
+future allocation decisions. Therefore, the various stakeholders bargain not only for the
+allocation of firm value, but also for constraints on the future bargaining power of the other
+stakeholders. I therefore define the governance structure of a firm as a continuum of
+constraints on managers, boards of directors and shareholders.
+With this definition of corporate governance, and the implicit assumption that shareholders gain utility only through the return on their shares, firm performance becomes
+equivalent to the shareholder’s allocation of firm value. I view management’s bargaining
+strength in the allocation of firm value as a function of both management tenure and prior
+firm performance. Hence, good performance will add to the bargaining strength of
+managers, who might choose to use this strength to add new constraints on the future
+allocations of firm value.
+
+4
+For example, Karpoff et al. (1996), Smith (1996), Wahal (1996), Strickland et al. (1996) and Carleton et al.
+(1998) fail to offer convincing evidence of performance improvements or positive wealth effects for institutional
+activism on governance issues. For an excellent review of this literature, see Karpoff (1998).
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+201
+
+2. The data
+I examine an unbalanced panel of 1721 firms from 1980 to 1995, a total of 22,776 firm
+year observations, which contains the provisions from the firm’s charter and bylaws,
+information about the adoption of poison pills (shareholder’s rights plans) and other
+governance features (i.e., cumulative voting, confidential voting, golden parachutes,
+reincorporating, opting out of state anti-takeover laws, etc.), information regarding the
+applicable laws from the state of incorporation and information detailing the composition
+of the board of directors. I combine this governance data with performance and accounting
+data from CRSP and Compustat. The governance features of each firm in the sample were
+tracked by the Investor Responsibility Research Center. The firms selected by the IRRC,
+and hence my sample firms, tend to be large widely held companies. Table 1 provides
+descriptive statistics on the number and size of the sample firms from 1980 to 1995.
+Details of the firms’ charter provisions, adoption of shareholder rights plans and other
+governance features come from a series of books published by the Investor Responsibility
+Research Center entitled Corporate Takeover Defenses. Each volume of Corporate
+Takeover Defenses contains detailed information on the governance practices of 1500
+firms. Volumes from 1989, 1990, 1993 and 1995 were used to construct the sample in this
+paper. The 1721 firms in this sample result from the intersection of the US firms included
+in the IRRC volumes and the firms contained in the Center for Research in Security Prices
+(CRSP) and Standard & Poor’s Compustat databases.
+The IRRC data provides a snapshot of each firms’ governance practices as of June 30th
+of the year of the particular volume. In most cases, the IRRC provides the year in which
+
+Table 1
+Descriptive statistics for governance panel
+Year
+
+N
+
+Market value of equity
+
+Total assets
+
+Net income
+
+Sales
+
+1980
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+
+1138
+1179
+1210
+1296
+1344
+1390
+1486
+1556
+1556
+1602
+1578
+1502
+1526
+1526
+1454
+1403
+
+803.3752
+747.9302
+866.4655
+1006.205
+991.8523
+1210.222
+1357.719
+1336.884
+1419.318
+1768.542
+1664.957
+2265.496
+2416.125
+2703.301
+2730.259
+3738.9
+
+2357.269 (441.796)
+2517.583 (466.0645)
+2728.824 (509.941)
+2795.738 (500.295)
+3032.289 (541.8325)
+3323.263 (614.714)
+3518.267 (595.682)
+3750.856 (683.16)
+4191.379 (743.311)
+4556.774 (792.7095)
+4784.251 (835.212)
+5030.357 (886.0465)
+5394.615 (964.836)
+6027.511 (1064.398)
+6665.03 (1216.218)
+7299.542 (1313.4)
+
+88.48581 (22.742)
+92.99709 (23.837)
+79.56974 (20.528)
+83.85941 (21.455)
+99.48995 (24.45)
+83.36313 (22.021)
+87.43483 (22.623)
+95.43511 (26.0215)
+124.5303 (31.8345)
+115.5033 (29.686)
+108.5401 (27.9735)
+88.75355 (26.377)
+71.85857 (27.284)
+104.7476 (34.263)
+173.2579 (53.5425)
+190.2554 (56.9)
+
+1659.635 (391.809)
+1798.326 (425.099)
+1768.816 (428.616)
+1733.958 (418.311)
+1879.188 (465.828)
+1850.445 (482.1995)
+1797.304 (489.212)
+1911.337 (524.636)
+2093.197 (583.673)
+2282.953 (626.225)
+2461.05 (675.286)
+2574.466 (737.87)
+2630.255 (787.276)
+2733.954 (844.76)
+3033.94 (939.194)
+3402.629 (1071.083)
+
+(199.7315)
+(209.8595)
+(256.432)
+(299.5913)
+(291.7875)
+(368.531)
+(406.1948)
+(382.05)
+(428.454)
+(468.405)
+(411.1236)
+(631.3022)
+(747.0831)
+(875.1259)
+(871.8549)
+(1093.225)
+
+This table provides the mean and (median) market value of equity, book value of assets, net income and sales in
+millions of dollars by year for the entire sample of 1721 firms. The market value of equity is calculated using the
+shares outstanding and ending price of each calendar year using data from the CRSP monthly files. Total assets,
+net income and sales are obtained from Compustat for the fiscal year indicated.
+
+202
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+individual governance features were adopted. In many of the cases, where the adoption
+year is absent, it was possible to determine a range of years when a governance feature was
+in place by comparing the firm’s governance features across volumes. In other cases,
+proxy statements are used to identify missing years of adoption. Overall, I have been able
+to identify over 90% of the adoption years for charter and bylaw provisions. In instances
+where I have not identified the year of adoption, the most likely reason is that the provision
+was included either in the articles of incorporation or re-incorporation.
+Each IRRC volume also provides data on 16 other governance features that may not
+necessarily be part of the firms’ charter or bylaws. These features include the adoption of
+confidential voting, cumulative voting, golden parachutes and any re-incorporation or
+action to opt out of state anti-takeover laws. The IRRC also includes the existence of and
+any action regarding poison pills (shareholder rights plans).
+Board composition data are collected from a series of CD-ROMs published by
+Disclosure Incorporated. These data begin in 1987 and are limited to classifying directors
+as either insiders or outsiders. Any analysis relying on board composition will be
+significantly limited since this classification does not include a category for ‘‘gray’’
+directors.5 I classify directors based upon the title provided on the Disclosure CD-ROMs.
+CEO age, tenure and compensation data are collected from the Forbes annual CEO
+compensation issues. The data for 1980 to 1988 are from Jensen and Murphy’s (1990) data
+set, while data for 1989 to 1995 were gathered directly from Forbes. The panel contains
+the CEO’s age, tenure as CEO, tenure with the firm, salary, bonus, stock gains, other
+compensation and stock ownership. The Forbes data covers 10,396 (45.6%) of the 22,776
+observations in the full panel.
+Information regarding the applicable laws from the state of incorporation comes from
+two books published by the IRRC. The first, State Takeover Laws: A State by State Guide,
+provides detailed information on eight different types of takeover laws and a detailed
+description of the provisions from each state as well as the date that each law went into
+effect. The second, Corporate Governance State by State: A Guide to Selected Statutes
+presents information on 11 separate issues in corporate law. Six of these issues are tracked
+in my database. Since this guide provides the current status of corporate law, and not the
+effective dates for the statutes, the annotated statutes of each state were reviewed to
+determine the effective years for each statute.
+Determination of the actual governance features of a firm requires detailed information
+on the firm’s charter and bylaw provisions, combined with information from the statutes of
+the state of incorporation. The shareholders of a firm incorporated in Delaware, for example,
+cannot cumulate their votes for directors unless the firm’s charter specifically allows for
+cumulative voting, while shareholders of firms incorporated in Pennsylvania are allowed to
+cumulate their votes unless the firm’s charter specifically denies cumulative voting.6
+Likewise, a Delaware firm will not have a classified board unless the firms bylaws or
+charter provide otherwise.7 Therefore, if you are interested in classified boards or cumulative
+5
+
+A gray director is usually defined as a nonemployee who has a significant business relationship with the
+
+firm.
+6
+7
+
+Delaware Code Ann. Title 8 Section 214 (1991) and 15 PA Cons. Statutes Ann. Sect 1758c (1995).
+Delaware Code Ann. Title 8 Section 141(d) (1991).
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+203
+
+voting as a governance feature, examining the firm’s charter or bylaws is insufficient to
+determine the governance features of the firm.
+My database tracks a total of 13 separate provisions from the firms’ charters, nine
+separate bylaw provisions, six different classes of state takeover laws and six separate
+features of state corporate law.8 A glossary of governance provisions is provided in
+Appendix A to explain each of the governance features in my database.
+
+3. Cross-sectional examination of governance practices
+By 1995, of 1403 firms in my sample, 1074 (76.6%) have adopted one or more charter
+amendments, 300 (21.4%) have adopted one or more bylaw provisions, 746 (53.2%) had
+poison pills in place and 1318 (93.9%) were covered by at least one state anti-takeover
+law. For comparison, in 1980 of 1138 firms in my sample, only 103 (9.1%) had adopted
+one or more charter amendments, 20 (1.8%) had adopted one or more bylaws provisions
+and no firms had poison pills in place or were covered by any state anti-takeover laws.
+This trend may be important, since governance practices have the potential to constrain
+shareholder wealth.9,10
+I divide governance practices into three categories: governance features, charter amendments and state anti-takeover laws. The first category, governance features, is essentially a
+catchall category that contains features that are determined through a combination of state
+law, charter amendments, bylaw provisions and other actions by the board of directors. In
+1980, for example, 53.9% of firms limit the ability of shareholders to call special meetings.
+This high percentage is the result of many state incorporation codes that do not provide this
+right to shareholders. By 1995, 69.6% of firms limited the shareholders ability to call
+special meetings, an increase primarily resulting from changes to the firms’ charters and
+bylaws. The second category, charter amendments, represents provisions that are essentially
+independent of the statutes of the state of incorporation. Finally, the state anti-takeover laws
+category represents the percentage of firms incorporated in states with anti-takeover statutes
+that have not elected to ‘‘opt out’’ of the state law coverage.
+A breakdown of basic governance features by year is provided in Table 2. Where in 1980,
+it was the exception for a firm to utilize any of the various governance provisions, by 1995,
+such provisions were the norm. The use of classified boards, for example, has increased from
+only 9.5% of firms in 1980 to 59.9% in 1995. Likewise, the prevalence of golden parachutes
+increased from less that 1% to over 81% and the prevalence of poison pills have increased
+from 0% to over 53% over the 16 years covered by the sample. By 1995, a majority of firms
+had classified boards, poison pills and golden parachutes, and where protected by fair price
+8
+One particular charter provision, the ability to issue so called ‘‘blank check preferred stock’’, is tracked in
+my database, however, it is often difficult to determine the effective year of this particular type of provision.
+9
+The following types of charter and bylaw provisions were considered in this analysis: antigreenmail,
+classified board, dual class common stock, elimination of cumulative voting, fair price, limited ability to amend
+bylaws or charter, limited action by written consent, limited ability to call special meetings, consideration of nonfinancial effects of mergers, supermajority to approve mergers and unequal voting rights.
+10
+The following types of state anti-takeover laws were considered in this analysis: cash out, control share
+acquisition, directors’ duties, freeze out, fair price and profit recapture statutes.
+
+204
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Table 2
+Breakdown of governance features by year
+Governance feature
+
+1980
+Yes
+
+Antigreenmail
+Classified Board
+Confidential Voting
+Cumulative Voting
+Fair Price Provision
+Golden Parachute
+Limited Action by
+Consent
+Limited Ability to
+Call Meeting
+Majority of Board
+is Independent
+Poison Pill
+Charter amendments
+Dual Class
+Common Stock
+Limited Ability to
+Amend Bylaws
+Limited Ability to
+Amend Charter
+Non-Financial
+Effects of Merger
+Supermajority to
+Aprrove Merger
+Unequal Voting Rights
+State antitakeover laws
+Cash Out
+Control Share
+Acquisition
+Directors Duties
+Freeze Out Provision
+Profit Recapture
+
+1985
+No
+
+Unknown Yes
+
+1987
+No
+
+Unknown Yes
+
+No
+
+Unknown
+
+0.0%
+9.5%
+0.3%
+23.4%
+0.8%
+0.2%
+2.2%
+
+99.8% 0.2%
+86.0% 4.5%
+98.0% 1.7%
+76.5% 0.1%
+98.6% 0.6%
+33.9% 65.9%
+92.1% 5.2%
+
+3.1%
+22.6%
+0.2%
+23.0%
+32.8%
+2.2%
+10.9%
+
+96.8% 0.1%
+72.1% 5.3%
+98.2% 1.6%
+76.9% 0.1%
+66.4% 0.8%
+34.0% 64.6%
+83.5% 16.5%
+
+11.9%
+31.7%
+0.3%
+18.0%
+44.3%
+4.4%
+16.6%
+
+87.9% 0.1%
+62.5% 5.7%
+98.2% 1.6%
+81.8% 0.1%
+54.9% 0.9%
+32.9% 62.7%
+77.6% 5.8%
+
+53.9%
+
+43.6%
+
+55.6%
+
+41.9%
+
+61.8%
+
+35.7%
+
+70.6%
+
+14.9% 14.5%
+
+N/A
+
+N/A
+
+2.5%
+N/A
+
+N/A
+
+N/A
+
+2.5%
+N/A
+
+2.5%
+
+0.0% 100.0%
+
+0.0%
+
+1.6%
+
+98.5%
+
+0.1%
+
+19.7%
+
+80.2%
+
+0.1%
+
+0.3%
+
+99.4%
+
+0.4%
+
+1.0%
+
+98.5%
+
+0.4%
+
+3.0%
+
+96.3%
+
+0.7%
+
+0.7%
+
+98.6%
+
+0.7%
+
+3.7%
+
+95.7%
+
+0.7%
+
+6.5%
+
+92.9%
+
+0.6%
+
+0.3%
+
+98.7%
+
+1.0%
+
+0.7%
+
+98.2%
+
+1.0%
+
+1.5%
+
+97.5%
+
+1.0%
+
+0.6%
+
+99.1%
+
+0.3%
+
+1.7%
+
+98.1%
+
+0.2%
+
+3.7%
+
+96.1%
+
+0.2%
+
+4.0%
+
+94.8%
+
+1.2%
+
+7.4%
+
+91.4%
+
+1.3%
+
+10.0%
+
+88.7%
+
+1.3%
+
+0.0%
+
+99.5%
+
+0.5%
+
+0.2%
+
+99.2%
+
+0.6%
+
+0.7%
+
+98.7%
+
+0.5%
+
+0.0% 100.0% N/A
+0.0% 100.0% N/A
+
+3.6%
+4.9%
+
+96.4% N/A
+95.1% N/A
+
+0.0% 100.0% N/A
+0.0% 100.0% N/A
+0.0% 100.0% N/A
+
+1.3% 98.7% N/A
+8.4% 91.6% N/A
+0.0% 100.0% N/A
+1993
+
+4.0%
+16.4%
+
+96.0% N/A
+83.6% N/A
+
+11.4% 88.6% N/A
+17.6% 82.4% N/A
+0.0% 100.0% N/A
+
+Governance feature
+
+1990
+Yes
+
+No
+
+Unknown Yes
+
+No
+
+Unknown Yes
+
+No
+
+Unknown
+
+Antigreenmail
+Classified Board
+Confidential Voting
+Cumulative Voting
+Fair Price Provision
+Golden Parachute
+Limited Action by
+Consent
+Limited Ability to
+Call Meeting
+
+14.2%
+46.8%
+2.2%
+16.4%
+53.0%
+19.7%
+21.0%
+
+85.6%
+47.7%
+96.5%
+83.5%
+45.9%
+27.6%
+72.9%
+
+0.1%
+5.7%
+1.6%
+0.1%
+0.8%
+62.1%
+6.1%
+
+83.9%
+41.9%
+91.0%
+83.8%
+43.6%
+21.7%
+69.1%
+
+0.3%
+6.9%
+1.7%
+0.1%
+1.2%
+49.0%
+6.9%
+
+83.9%
+40.1%
+88.5%
+77.2%
+42.5%
+18.7%
+68.1%
+
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+
+65.1% 32.5%
+
+2.4%
+
+67.2% 30.8%
+
+2.0%
+
+69.6% 30.4%
+
+0.0%
+
+15.8%
+51.2%
+7.3%
+16.0%
+55.2%
+29.4%
+24.0%
+
+1995
+
+16.1%
+59.9%
+11.5%
+22.8%
+57.5%
+81.3%
+31.9%
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+205
+
+Table 2 (continued)
+Governance feature
+
+1990
+Yes
+
+Majority of Board
+is Independent
+Poison Pill
+
+1993
+No
+
+Unknown Yes
+
+76.6% 11.9%
+
+14.4%
+
+47.0% 52.9%
+
+Charter amendments
+Dual Class
+5.8% 93.7%
+Common Stock
+Limited Ability to
+10.5% 88.8%
+Amend Bylaws
+Limited Ability to
+2.0% 96.9%
+Amend Charter
+Non-Financial
+5.9% 93.8%
+Effects of Merger
+Supermajority to
+14.6% 84.3%
+Aprrove Merger
+Unequal Voting Rights 1.0% 98.6%
+State antitakeover laws
+Cash Out
+3.7% 96.3%
+Control Share
+25.9% 74.1%
+Acquisition
+Directors Duties
+31.1% 68.9%
+Freeze Out Provision 85.0% 15.0%
+Profit Recapture
+5.1% 94.9%
+
+78.4%
+
+1995
+No
+
+Unknown Yes
+
+No
+
+Unknown
+
+9.2%
+
+12.4%
+
+81.9%
+
+6.4% 12.4%
+
+0.1%
+
+50.0% 49.8%
+
+0.2%
+
+53.1%
+
+46.9%
+
+0.0%
+
+0.5%
+
+7.1% 92.2%
+
+0.7%
+
+8.1%
+
+91.9%
+
+0.0%
+
+0.8%
+
+12.1% 86.5%
+
+1.4%
+
+13.9%
+
+86.1%
+
+0.0%
+
+1.0%
+
+2.3% 96.8%
+
+0.9%
+
+3.1%
+
+96.9%
+
+0.0%
+
+0.3%
+
+6.4% 93.2%
+
+0.5%
+
+7.0%
+
+93.0%
+
+0.0%
+
+1.2%
+
+16.2% 82.3%
+
+1.5%
+
+17.9%
+
+82.1%
+
+0.0%
+
+0.4%
+
+1.4% 98.2%
+
+0.4%
+
+2.0%
+
+98.0%
+
+0.0%
+
+N/A
+N/A
+
+3.9% 96.1%
+25.6% 74.4%
+
+N/A
+N/A
+
+3.8%
+26.1%
+
+96.2% N/A
+73.9% N/A
+
+N/A
+N/A
+N/A
+
+31.2% 68.8%
+87.7% 12.3%
+5.2% 94.8%
+
+N/A
+N/A
+N/A
+
+31.5%
+88.5%
+5.6%
+
+68.5% N/A
+11.5% N/A
+94.4% N/A
+
+This table provides a breakdown of the percentage of firms that have various governance features in 1980, 1985,
+1987, 1990, 1993 and 1995. The governance features section represents the interactions between the laws of the
+state of incorporation with the firm’s charter and bylaw provisions. The charter provisions section details the
+various charter provisions that do not interact with the laws from the state of incorporation. The state anti-takeover
+
+charter provisions, limitations on the ability to call shareholder meetings, and state freeze out
+laws. A small minority of sample firms adopted provisions that were clearly beneficial to
+shareholders, with only 16.1% adopting antigreenmail, 11.5% adopting confidential voting
+and 22.8% adopting cumulative voting by 1995.
+There is also a noticeable trend toward governance features relating to, or empowering,
+the boards of directors. Most state anti-takeover laws provide enormous power to the
+boards of directors to reject unfriendly acquisitions. Poison pills and non-financial effects
+of merger provisions also add significant power to the boards, and the increase in classified
+board provisions and the decrease in cumulative voting can make it more difficult for
+shareholders to change the composition of the board in a timely manner. In 1995, over
+97% of sample firms were covered by at least one governance provision whose effect is
+contingent on a vote from the board of directors.11 Therefore, I contend that the single
+11
+Here, I consider poison pills, non-financial effects of merger provisions, cash out statutes, control share
+acquisition statutes, director’s duties statutes, fair price provisions and statutes, freeze out statutes and profit
+recapture statutes.
+
+206
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+most important governance variable is likely to be the composition of the board of
+directors, and that the impact of many other governance provisions must be conditioned on
+board composition.12
+Also of interest in Table 2 is the apparent clustering in time of various governance
+provisions. Over 85% of sample firms adopting poison pills, for example, do so during the
+5-year window from 1986 to 1990. Similarly, most coverage from state anti-takeover laws
+occurs during the same period. The adoptions also tend to be correlated with the market for
+corporate control. The correlation between a binary dummy variable for poison pill
+adoptions is significantly positively correlated with both the total number of bids
+(q=0.06536, p value=0.0001) and the number of hostile bids during the previous year
+(q=0.17369, p value=0.0001).13
+The contemporaneous relationships between governance provisions are detailed in
+Table 3. Given a sub-sample of firms with any given governance provision, this table
+provides the percentage of firms having additional types of provisions. It is apparent from
+Table 3 that most firms have multiple governance provisions in place. For firms that have
+adopted poison pills, for example, 71% also have classified boards, 63% are covered by a
+fair price provision and over 92% have a golden parachute in place for the CEO. Although
+many of the measures may appear to be substitutes one another, firms early to adopt new
+provisions may have adopted multiple provisions as added protection until sufficient case
+law was established to ensure the legality of these measures. I find that of firms initiating
+changes to their governance provisions, firms in the first half of the sample adopted
+significantly more provisions at the same time than firms adopting latter in the sample.14
+Another possible explanation for this result is the prevalence of state anti-takeover laws
+resulted in a diminished demand for new firm level provisions. Regardless, there still
+appears to be a large amount of redundancy in provisions. Over 33% of firms covered by a
+fair price statute, for example, also have a fair price provision in their charter.
+Another interesting result from Table 3 comes from examining the sub-sample of firms
+that limit the shareholders ability to amend either the charter or the bylaws. For firms that
+limit the ability to amend the charter, 81% have classified boards, 76% are covered by fair
+price provisions, 74% have limits on the ability to call special meetings, 50% have adopted
+a supermajority rule to approve mergers and 67% have adopted restrictions on the ability
+to amend the bylaws. I find no firms in the sample that limit the ability to amend the
+charter prior to the adoption of at least one anti-takeover provision. In fact, firms that limit
+
+12
+Although the boards of directors are supposed to represent the interests of the shareholders, this may not
+always be the case. Boards may be acting in the shareholder interests when adopting anti-takeover measures is the
+intent is to increase the premium to the shareholders in the event of a takeover. The boards may, however, be
+acting to increase their own power or, to the extent that the board isn’t fully independent of the management, they
+may be acting to the CEO’s benefit.
+13
+I construct these measures using the SDC mergers and acquisitions database.
+14
+For the 969 firms with adoptions prior to 1988, the mean (median) number of adoptions was 1.78 (1.00)
+compared to the mean (median) 1.38 (1.00) for the 892 adoptions latter in the sample. Both a two-sample t test
+and non-parametric median test show a significantly (at better than a 1% level) larger number of simultaneous
+new adoptions in the earlier half of the sample period. In this analysis, I considered new charter amendments, new
+bylaw provisions and the adoption of poison pills.
+
+Table 3
+Contemporaneous relationships between governance features in 1995
+Contemporaneous
+governance feature
+
+Governance feature
+AGM
+
+CB
+
+CNV
+
+CMV
+
+FP
+
+GP
+
+LAC
+
+Antigreenmail (AGM)
+Classified Board (CB)
+Confidential Voting (CNV)
+Cumulative Voting (CMV)
+Fair Price Provision (FP)
+Golden Parachute (GP)
+Limited Action by Consent
+(LAC)
+Limited Ability to Call
+Meeting (LACM)
+Majority of Board is
+Independent (MBI)
+Poison Pill (PP)
+
+100.0%
+18.0%
+28.8%
+15.9%
+26.1%
+15.8%
+12.2%
+
+67.0%
+100.0%
+63.5%
+57.3%
+69.6%
+63.1%
+78.6%
+
+20.6%
+12.2%
+100.0%
+9.1%
+12.6%
+11.9%
+14.8%
+
+22.5%
+21.8%
+17.9%
+100.0%
+27.5%
+22.9%
+12.0%
+
+93.1%
+66.7%
+62.8%
+69.3%
+100.0%
+58.5%
+63.6%
+
+79.8%
+85.6%
+84.0%
+81.6%
+82.7%
+100.0%
+89.2%
+
+23.9%
+41.4%
+40.4%
+16.6%
+34.8%
+34.6%
+100.0%
+
+56.4%
+70.4%
+78.2%
+39.3%
+56.6%
+70.6%
+90.6%
+
+95.8%
+94.3%
+96.6%
+94.0%
+94.7%
+95.9%
+95.0%
+
+58.3%
+62.9%
+58.3%
+50.2%
+58.8%
+60.3%
+66.7%
+
+13.1%
+
+60.8%
+
+13.0%
+
+12.9%
+
+47.1%
+
+82.6%
+
+41.2%
+
+100.0%
+
+93.7%
+
+55.0%
+
+16.6%
+
+59.4%
+
+12.6%
+
+23.8%
+
+58.4%
+
+83.3%
+
+31.0%
+
+69.3%
+
+100.0%
+
+55.3%
+
+17.6%
+
+71.0%
+
+12.6%
+
+21.5%
+
+63.6%
+
+92.2%
+
+39.5%
+
+71.6%
+
+96.8%
+
+100.0%
+
+6.4%
+
+36.7%
+
+7.3%
+
+12.8%
+
+41.3%
+
+64.2%
+
+21.1%
+
+73.4%
+
+89.2%
+
+16.5%
+
+20.8%
+10.6%
+
+79.9%
+83.0%
+
+12.9%
+12.8%
+
+22.4%
+19.1%
+
+100.0%
+69.1%
+
+87.8%
+85.6%
+
+51.1%
+64.9%
+
+71.9%
+80.9%
+
+96.1%
+94.3%
+
+66.7%
+61.2%
+
+21.4%
+
+88.1%
+
+9.5%
+
+31.0%
+
+76.2%
+
+85.7%
+
+42.9%
+
+73.8%
+
+97.3%
+
+47.6%
+
+22.1%
+
+90.5%
+
+8.4%
+
+21.1%
+
+72.6%
+
+91.6%
+
+55.8%
+
+67.4%
+
+95.5%
+
+67.4%
+
+15.7%
+
+80.2%
+
+10.7%
+
+21.9%
+
+54.5%
+
+85.5%
+
+44.2%
+
+75.6%
+
+94.0%
+
+61.2%
+
+14.8%
+
+66.7%
+
+3.7%
+
+11.1%
+
+48.1%
+
+96.3%
+
+44.4%
+
+74.1%
+
+100.0%
+
+51.9%
+
+MBI
+
+PP
+
+207
+
+(continued on next page)
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Charter amendments
+Dual Class Common Stock
+(DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend
+Bylaws (LAAB)
+Limited Ability to Amend
+Charter (LAAC)
+Non-Financial Effects of
+Merger (NFEM)
+Supermajority to Aprrove
+Merger (SMM)
+Unequal Voting Rights
+(UVR)
+
+LACM
+
+208
+
+Table 3 (continued)
+
+State antitakeover laws
+Cash Out (CO)
+Control Share Acquisition
+(CSA)
+Directors Duties (DD)
+Freeze Out Provision (FO)
+Fair Price Provision (FP)
+Profit Recapture (PR)
+Entire Sample
+Contemporaneous
+governance feature
+Antigreenmail (AGM)
+Classified Board (CB)
+Confidential Voting (CNV)
+Cumulative Voting (CMV)
+Fair Price Provision (FP)
+Golden Parachute (GP)
+Limited Action by
+Consent (LAC)
+Limited Ability to Call
+Meeting (LACM)
+Majority of Board is
+Independent (MBI)
+Poison Pill (PP)
+
+Governance feature
+AGM
+
+CB
+
+CNV
+
+CMV
+
+FP
+
+GP
+
+LAC
+
+LACM
+
+MBI
+
+PP
+
+7.8%
+27.4%
+
+70.6%
+71.5%
+
+17.6%
+8.2%
+
+84.3%
+33.1%
+
+98.0%
+92.1%
+
+78.4%
+79.7%
+
+13.7%
+15.5%
+
+21.6%
+33.6%
+
+86.0%
+94.0%
+
+41.2%
+56.2%
+
+34.0%
+17.5%
+33.9%
+6.6%
+16.1%
+
+69.8%
+60.9%
+65.0%
+77.6%
+59.9%
+
+11.7%
+11.7%
+12.3%
+10.5%
+11.5%
+
+36.8%
+20.5%
+35.4%
+75.0%
+22.8%
+
+89.7%
+58.5%
+99.8%
+100.0%
+57.5%
+
+82.7%
+80.8%
+79.4%
+84.2%
+81.3%
+
+14.1%
+31.7%
+16.4%
+13.2%
+31.9%
+
+41.2%
+73.2%
+38.6%
+22.4%
+69.6%
+
+94.7%
+93.4%
+94.2%
+93.1%
+81.9%
+
+56.0%
+54.2%
+53.5%
+60.5%
+53.1%
+
+Charter amendments
+DCCS
+
+FP
+
+State antitakeover laws
+LAAB
+
+LAAC
+
+NFEM
+
+SMM
+
+UVR
+
+CO
+
+CSA
+
+DD
+
+FO
+
+FP
+
+PR
+
+3.2%
+4.9%
+5.1%
+4.5%
+5.8%
+6.4%
+5.4%
+
+42.2%
+43.5%
+36.5%
+32.0%
+56.7%
+35.2%
+53.1%
+
+9.2%
+19.2%
+15.4%
+11.7%
+16.7%
+14.6%
+28.6%
+
+4.1%
+4.6%
+2.6%
+4.2%
+4.1%
+3.3%
+4.2%
+
+9.6%
+10.6%
+5.1%
+6.5%
+8.9%
+7.9%
+12.4%
+
+17.4%
+23.9%
+16.7%
+17.2%
+16.9%
+18.8%
+25.1%
+
+1.8%
+2.2%
+0.6%
+1.0%
+1.7%
+2.4%
+2.8%
+
+1.8%
+4.4%
+5.8%
+13.9%
+6.4%
+3.6%
+1.6%
+
+44.5%
+31.2%
+18.6%
+37.9%
+41.8%
+25.6%
+12.9%
+
+66.5%
+36.7%
+32.1%
+50.8%
+49.2%
+32.1%
+14.1%
+
+96.3%
+89.9%
+89.7%
+79.6%
+90.0%
+88.0%
+89.2%
+
+78.4%
+40.5%
+39.7%
+58.1%
+64.7%
+36.6%
+19.5%
+
+2.3%
+7.3%
+5.1%
+18.4%
+9.8%
+5.8%
+2.3%
+
+8.5%
+
+33.9%
+
+16.2%
+
+3.3%
+
+6.8%
+
+19.5%
+
+2.1%
+
+1.2%
+
+12.7%
+
+18.8%
+
+93.7%
+
+20.8%
+
+1.8%
+
+7.5%
+
+33.4%
+
+13.4%
+
+3.2%
+
+7.6%
+
+18.2%
+
+2.1%
+
+3.9%
+
+26.8%
+
+32.0%
+
+88.5%
+
+37.9%
+
+6.0%
+
+2.5%
+
+41.0%
+
+16.0%
+
+2.8%
+
+8.9%
+
+20.6%
+
+1.9%
+
+2.9%
+
+27.6%
+
+33.2%
+
+90.3%
+
+37.6%
+
+6.4%
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Contemporaneous
+governance feature
+
+State antitakeover laws
+Cash Out (CO)
+Control Share Acquisition
+(CSA)
+Directors Duties (DD)
+Freeze Out Provision (FO)
+Fair Price Provision (FP)
+Profit Recapture (PR)
+Entire Sample
+
+100.0%
+
+15.6%
+
+10.1%
+
+2.8%
+
+7.3%
+
+21.1%
+
+2.8%
+
+2.8%
+
+18.3%
+
+21.1%
+
+89.9%
+
+27.5%
+
+5.5%
+
+3.8%
+5.9%
+
+100.0%
+54.8%
+
+23.3%
+100.0%
+
+5.4%
+14.9%
+
+11.8%
+19.7%
+
+14.5%
+30.3%
+
+1.4%
+2.7%
+
+3.6%
+5.9%
+
+27.8%
+16.0%
+
+33.5%
+25.5%
+
+88.7%
+89.4%
+
+37.8%
+29.3%
+
+5.4%
+3.7%
+
+7.1%
+
+57.1%
+
+66.7%
+
+100.0%
+
+19.0%
+
+50.0%
+
+2.4%
+
+21.4%
+
+33.3%
+
+45.2%
+
+92.9%
+
+52.4%
+
+16.7%
+
+8.4%
+
+54.7%
+
+38.9%
+
+8.4%
+
+100.0%
+
+42.1%
+
+5.3%
+
+6.3%
+
+27.4%
+
+34.7%
+
+89.5%
+
+43.2%
+
+4.2%
+
+9.5%
+
+26.4%
+
+23.6%
+
+8.7%
+
+16.5%
+
+100.0%
+
+3.7%
+
+5.4%
+
+23.6%
+
+32.2%
+
+91.7%
+
+36.4%
+
+8.3%
+
+11.1%
+
+22.2%
+
+18.5%
+
+3.7%
+
+18.5%
+
+33.3%
+
+100.0%
+
+0.0%
+
+22.2%
+
+25.9%
+
+92.6%
+
+37.0%
+
+3.7%
+
+5.9%
+5.6%
+
+31.4%
+34.7%
+
+21.6%
+8.5%
+
+17.6%
+4.0%
+
+11.8%
+7.3%
+
+25.5%
+16.1%
+
+0.0%
+1.7%
+
+100.0%
+6.2%
+
+43.1%
+100.0%
+
+82.4%
+68.6%
+
+100.0%
+83.6%
+
+96.1%
+87.3%
+
+45.1%
+20.1%
+
+5.4%
+8.2%
+5.9%
+7.9%
+8.1%
+
+34.7%
+32.7%
+33.1%
+31.6%
+32.6%
+
+11.2%
+14.0%
+10.9%
+9.2%
+13.9%
+
+4.4%
+3.3%
+4.4%
+9.2%
+3.1%
+
+7.7%
+7.1%
+8.1%
+5.3%
+7.0%
+
+18.3%
+18.5%
+17.4%
+26.3%
+17.9%
+
+1.6%
+2.1%
+2.0%
+1.3%
+2.0%
+
+9.8%
+4.3%
+9.7%
+30.3%
+3.8%
+
+56.9%
+24.7%
+61.2%
+93.4%
+26.1%
+
+100.0%
+31.7%
+72.3%
+100.0%
+31.5%
+
+89.0%
+100.0%
+90.9%
+100.0%
+88.5%
+
+85.5%
+38.3%
+100.0%
+100.0%
+37.4%
+
+17.8%
+6.3%
+15.0%
+100.0%
+5.6%
+
+This table details the contemporaneous relationships between the various governance features of sample firms in 1995. For the sub-sample of firms having the governance
+feature in the left most column, this table provides the percentage of firms that also have the governance feature indicated in the top row.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Charter amendments
+Dual Class Common
+Stock (DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend
+Bylaws (LAAB)
+Limited Ability to Amend
+Charter (LAAC)
+Non-Financial Effects of
+Merger (NFEM)
+Supermajority to Aprrove
+Merger (SMM)
+Unequal Voting Rights
+(UVR)
+
+209
+
+210
+
+Table 4
+Contemporaneous governance features and governance changes
+Existing governance feature
+
+New charter amendments
+CB
+
+LAAC
+
+LAC
+
+LACM
+
+100.0%
+58.7%
+2.7%
+7.9%
+70.5%
+33.3%
+29.6%
+60.3%
+88.9%
+12.8%
+
+10.4%
+100.0%
+0.6%
+1.3%
+57.3%
+26.3%
+39.1%
+67.1%
+85.9%
+20.9%
+
+DCCS
+4.8%
+30.0%
+5.3%
+0.0%
+27.4%
+13.3%
+18.3%
+73.3%
+66.7%
+17.7%
+
+FP
+11.0%
+60.6%
+0.5%
+0.5%
+100.0%
+15.8%
+37.0%
+65.8%
+80.8%
+8.4%
+
+LAAB
+7.3%
+80.3%
+1.5%
+0.8%
+62.0%
+32.7%
+61.4%
+79.4%
+88.2%
+24.8%
+
+15.0%
+76.5%
+0.0%
+0.0%
+50.0%
+33.3%
+47.4%
+68.4%
+100.0%
+5.0%
+
+6.5%
+71.3%
+1.3%
+2.0%
+57.9%
+28.7%
+100.0%
+91.9%
+86.7%
+24.9%
+
+7.9%
+78.8%
+1.0%
+0.0%
+56.7%
+29.9%
+77.4%
+100.0%
+83.1%
+22.2%
+
+NFEM
+16.3%
+70.5%
+0.0%
+3.0%
+60.0%
+32.0%
+40.8%
+63.3%
+92.6%
+27.5%
+
+SMM
+11.9%
+63.4%
+1.7%
+0.0%
+25.2%
+21.6%
+33.3%
+70.9%
+86.2%
+13.4%
+
+UVR
+0.0%
+64.3%
+0.0%
+0.0%
+35.7%
+75.0%
+50.0%
+71.4%
+83.3%
+28.6%
+
+Charter amendments
+Dual Class Common Stock (DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend Bylaws (LAAB)
+Limited Ability to Amend Charter (LAAC)
+Non-Financial Effects of Merger (NFEM)
+Supermajority to Aprrove Merger (SMM)
+Unequal Voting Rights (UVR)
+
+0.0%
+60.3%
+7.7%
+3.9%
+11.5%
+20.5%
+0.0%
+
+0.6%
+46.0%
+15.6%
+1.6%
+9.7%
+14.5%
+0.2%
+
+100.0%
+12.9%
+8.1%
+3.2%
+6.5%
+11.7%
+3.2%
+
+1.2%
+100.0%
+14.4%
+2.1%
+7.2%
+7.0%
+0.0%
+
+2.2%
+51.1%
+100.0%
+11.7%
+17.6%
+22.1%
+0.7%
+
+5.0%
+45.0%
+80.0%
+100.0%
+5.0%
+45.0%
+0.0%
+
+1.6%
+53.1%
+23.6%
+3.1%
+10.7%
+16.9%
+0.6%
+
+1.0%
+50.7%
+25.6%
+4.0%
+10.4%
+16.5%
+0.5%
+
+2.5%
+45.0%
+29.1%
+2.5%
+100.0%
+31.3%
+1.3%
+
+4.2%
+16.8%
+24.8%
+8.4%
+16.9%
+100.0%
+1.7%
+
+7.1%
+28.6%
+35.7%
+14.3%
+21.4%
+28.6%
+100.0%
+
+State antitakeover laws
+Cash Out (CO)
+Control Share Acquisition (CSA)
+Directors Duties (DD)
+Freeze Out Provision (FO)
+Fair Price Provision (FP)
+Profit Recapture (PR)
+
+5.1%
+11.5%
+6.4%
+26.9%
+20.5%
+1.3%
+
+4.1%
+14.3%
+11.2%
+33.3%
+18.3%
+0.8%
+
+0.0%
+12.9%
+6.5%
+38.7%
+16.1%
+3.2%
+
+4.4%
+7.7%
+3.0%
+17.0%
+11.0%
+0.0%
+
+4.4%
+10.2%
+7.3%
+37.2%
+19.0%
+1.5%
+
+25.0%
+5.0%
+5.0%
+10.0%
+5.0%
+0.0%
+
+0.6%
+3.7%
+2.8%
+33.6%
+7.2%
+0.3%
+
+1.0%
+6.9%
+4.9%
+34.0%
+10.3%
+0.0%
+
+3.8%
+8.8%
+8.8%
+42.5%
+27.5%
+0.0%
+
+4.2%
+10.1%
+3.4%
+25.2%
+11.0%
+0.0%
+
+0.0%
+14.3%
+7.1%
+28.6%
+21.4%
+7.1%
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+AGM
+Antigreenmail (AGM)
+Classified Board (CB)
+Confidential Voting (CNV)
+Cumulative Voting (CMV)
+Fair Price Provision (FP)
+Golden Parachute (GP)
+Limited Action by Consent (LAC)
+Limited Ability to Call Meeting (LACM)
+Majority of Board is Independent (MBI)
+Poison Pill (PP)
+
+Existing governance feature
+
+New governance feature
+CUMV(+)
+
+CUMV( )
+
+GP
+
+PP
+
+29.0%
+65.7%
+100.0%
+2.4%
+65.0%
+61.3%
+37.1%
+77.4%
+96.2%
+59.4%
+
+44.4%
+57.1%
+0.0%
+100.0%
+66.7%
+0.0%
+57.1%
+85.7%
+100.0%
+11.1%
+
+8.2%
+51.4%
+0.7%
+0.0%
+49.3%
+34.0%
+35.5%
+67.3%
+87.3%
+26.4%
+
+13.6%
+53.0%
+2.1%
+4.0%
+53.6%
+100.0%
+25.5%
+67.6%
+91.1%
+47.3%
+
+12.1%
+50.9%
+0.8%
+0.9%
+53.3%
+49.5%
+28.6%
+66.7%
+88.6%
+100.0%
+
+Charter amendments
+Dual Class Common Stock (DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend Bylaws (LAAB)
+Limited Ability to Amend Charter (LAAC)
+Non-Financial Effects of Merger (NFEM)
+Supermajority to Aprrove Merger (SMM)
+Unequal Voting Rights (UVR)
+
+0.0%
+37.2%
+13.0%
+2.2%
+5.8%
+15.9%
+0.0%
+
+0.0%
+55.6%
+0.0%
+0.0%
+33.3%
+0.0%
+0.0%
+
+3.4%
+35.8%
+14.3%
+0.7%
+4.1%
+9.7%
+0.7%
+
+6.5%
+33.7%
+11.6%
+1.9%
+6.5%
+13.7%
+0.9%
+
+1.0%
+36.0%
+11.9%
+1.6%
+6.4%
+14.4%
+0.6%
+
+State antitakeover laws
+Cash Out (CO)
+Control Share Acquisition (CSA)
+Directors Duties (DD)
+Freeze Out Provision (FO)
+Fair Price Provision (FP)
+Profit Recapture (PR)
+
+6.5%
+21.0%
+35.5%
+87.7%
+44.5%
+5.8%
+
+11.1%
+11.1%
+11.1%
+33.3%
+28.6%
+0.0%
+
+3.4%
+25.7%
+6.8%
+32.4%
+20.4%
+2.0%
+
+3.7%
+25.1%
+26.6%
+76.4%
+30.5%
+2.4%
+
+3.3%
+19.0%
+15.2%
+58.4%
+27.2%
+0.9%
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+CNV
+Antigreenmail (AGM)
+Classified Board (CB)
+Confidential Voting (CNV)
+Cumulative Voting (CMV)
+Fair Price Provision (FP)
+Golden Parachute (GP)
+Limited Action by Consent (LAC)
+Limited Ability to Call Meeting (LACM)
+Majority of Board is Independent (MBI)
+Poison Pill (PP)
+
+This table details the contemporaneous relationships between various governance changes and the overall set of governance features following the change. For the subsample of firms making the change in the governance feature indicated in the top row, this table provides the percentage of firms that also have the governance feature
+indicated in the left most column in the year of the change.
+211
+
+212
+
+Contemporaneous new charter amendments
+
+Antigreenmail (AGM)
+Classified Board (CB)
+Dual Class Common Stock (DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend Bylaws (LAAB)
+Limited Ability to Amend Charter (LAAC)
+Limited Action by Consent (LAC)
+Limited Ability to Call Meeting (LACM)
+Non-Financial Effects of Merger (NFEM)
+Supermajority to Aprrove Merger (SMM)
+Unequal Voting Rights (UVR)
+Other new governance features
+Confidential Voting (CNV)
+Cumulative Voting Added (CMV(+))
+Cumulative Voting Removed (CMV( ))
+Golden Parachutes (GP)
+Poison Pill (PP)
+
+New charter amendments
+AGM
+
+CB
+
+DCCS
+
+FP
+
+LAAB LAAC
+
+LAC
+
+LACM
+
+NFEM
+
+SMM
+
+UVR
+
+100.0%
+5.8%
+0.0%
+7.7%
+2.9%
+10.0%
+5.3%
+5.4%
+10.0%
+8.4%
+0.0%
+
+34.6%
+100.0%
+0.0%
+44.5%
+55.5%
+40.0%
+5.3%
+60.1%
+50.0%
+41.2%
+0.0%
+
+0.0%
+0.0%
+100.0%
+0.5%
+0.0%
+0.0%
+0.9%
+0.0%
+0.0%
+1.7%
+7.1%
+
+42.3%
+40.8%
+3.2%
+100.0%
+41.6%
+45.0%
+42.7%
+41.9%
+33.8%
+12.6%
+0.0%
+
+5.1% 2.6%
+16.2% 1.7%
+0.0% 0.0%
+13.3% 2.1%
+100.0% 11.7%
+80.0%100.0%
+21.8% 2.5%
+23.2% 3.0%
+27.5% 12.5%
+21.0% 7.6%
+0.0% 0.0%
+
+21.8%
+35.7%
+4.8%
+31.9%
+51.1%
+40.0%
+100.0%
+68.5%
+35.0%
+24.4%
+14.3%
+
+14.1%
+26.1%
+0.0%
+19.8%
+34.3%
+30.0%
+43.3%
+100.0%
+21.3%
+17.6%
+0.0%
+
+10.3%
+8.5%
+0.0%
+6.3%
+16.1%
+5.0%
+8.7%
+8.4%
+100.0%
+15.1%
+7.1%
+
+12.8%
+10.5%
+3.2%
+3.5%
+18.2%
+45.0%
+9.0%
+10.3%
+22.5%
+100.0%
+7.1%
+
+0.0%
+0.0%
+1.6%
+0.0%
+0.0%
+0.0%
+0.6%
+0.0%
+1.3%
+0.8%
+100.0%
+
+1.4%
+44.4%
+1.4%
+0.6%
+0.5%
+
+0.0%
+33.3%
+28.4%
+3.7%
+6.2%
+
+0.0%
+0.0%
+2.0%
+0.4%
+0.3%
+
+0.7%
+11.1%
+19.6%
+2.2%
+3.3%
+
+0.7%
+44.4%
+24.3%
+3.0%
+6.1%
+
+0.0%
+0.0%
+20.3%
+1.7%
+3.3%
+
+0.0%
+22.2%
+27.0%
+0.6%
+1.9%
+
+0.0%
+0.0%
+6.8%
+0.6%
+1.3%
+
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+
+0.0%
+0.0%
+11.5%
+1.7%
+2.6%
+
+0.0%
+0.0%
+0.0%
+0.2%
+0.0%
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Table 5
+Contemporaneous relationships between governance changes
+
+Contemporaneous new charter amendments
+
+New governance feature
+CNV
+
+Other new governance features
+Confidential Voting (CNV)
+Cumulative Voting Added (CMV(+))
+Cumulative Voting Removed (CMV( ))
+Golden Parachutes (GP)
+Poison Pill (PP)
+
+CUMV(+)
+
+CUMV( )
+
+GP
+
+PP
+
+2.6%
+0.0%
+0.0%
+0.2%
+0.0%
+0.0%
+0.3%
+0.0%
+0.0%
+0.0%
+0.0%
+
+5.1%
+0.6%
+0.0%
+0.2%
+0.0%
+0.0%
+1.2%
+0.0%
+2.5%
+0.0%
+0.0%
+
+2.6%
+9.0%
+4.8%
+6.8%
+12.4%
+0.0%
+11.2%
+14.8%
+5.0%
+8.4%
+0.0%
+
+3.8%
+4.3%
+3.2%
+2.8%
+6.6%
+5.0%
+5.0%
+4.4%
+3.8%
+2.5%
+0.0%
+
+5.1%
+11.5%
+4.8%
+6.8%
+16.8%
+0.0%
+16.5%
+14.3%
+21.3%
+9.2%
+0.0%
+
+100.0%
+0.0%
+0.0%
+0.4%
+0.1%
+
+0.0%
+100.0%
+0.0%
+0.0%
+0.1%
+
+0.0%
+0.0%
+100.0%
+1.1%
+1.1%
+
+0.7%
+0.0%
+4.1%
+100.0%
+6.6%
+
+0.7%
+11.1%
+6.8%
+10.8%
+100.0%
+
+This table details the contemporaneous relationships between governance changes over the entire sample period of 1980 – 1995. For the sub-sample of firms changing the
+governance feature in the left most column, this table provides the percentage of firms that also change the governance feature indicated in the top row.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Antigreenmail (AGM)
+Classified Board (CB)
+Dual Class Common Stock (DCCS)
+Fair Price Provision (FP)
+Limited Ability to Amend Bylaws (LAAB)
+Limited Ability to Amend Charter (LAAC)
+Limited Action by Consent (LAC)
+Limited Ability to Call Meeting (LACM)
+Non-Financial Effects of Merger (NFEM)
+Supermajority to Aprrove Merger (SMM)
+Unequal Voting Rights (UVR)
+
+213
+
+214
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+the ability to amend the charter have a mean (median) of 2.77 (3.00) additional charter
+amendments in place.
+The contemporaneous relationships between various governance changes and the
+overall set of governance features following these changes are summarized in Table 4.
+The adoption of redundant provisions is apparent when examining the results of Table
+4. Eleven percent of firms already covered by a fair price statute choose to add a fair
+price provision to their charters, and 8.8% of firms already covered by a director’s
+duties statute choose to add non-financial effects of merger provision to their charters.
+Overall, 37.8% of firms covered by a fair price statute, and 7.7% of firms covered by
+a director’s duty statute have redundant provisions in their charters. This redundancy
+may influence the results of empirical studies that examine the adoption or removal of
+governance features. To the extent that governance features are redundant, their
+adoption or removal will not change the constraints imposed on shareholders, and
+hence should have little impact on firm performance. Another interesting observation
+from the table is that firms with provisions that are potentially beneficial to shareholders (antigreenmail, cumulative voting and confidential voting) in place are less
+likely to subsequently or simultaneously adopt provisions that are potentially harmful
+to shareholders.
+The contemporaneous relationships between governance changes are summarized in
+Table 5. There are several results of interest that can be gleaned from this table. First, it is
+apparent that many firms tend to adopt multiple charter amendments simultaneously. In
+fact, of firms amending their charters, 43% adopt two or more and 23% adopt three or
+more charter amendments simultaneously. For example, conditional on a firm adopting an
+amendment limiting the ability to amendment the charter, 40% of firms simultaneously
+adopt classified board amendments, 45% simultaneously adopt fair price amendments,
+80% simultaneously adopt amendments limiting the ability to amend the bylaws, 40%
+simultaneously adopt amendments limiting action by written consent, 30% simultaneously
+limit the ability to call special meetings and 45% simultaneously adopt supermajority to
+approve a merger amendments. This supports the findings from Table 3 that suggest that
+firms place limits on the ability to amend their charter only after multiple anti-takeover
+measures are in place.
+Another interesting result from Table 5 is that a classified board charter amendment
+seems to be a commonly adopted simultaneously with most of the anti-takeover charter
+amendments. Classified boards are adopted simultaneously in over 40% of cases where
+fair price, limited ability to amend bylaws, limited ability to amend charter, limited action
+by consent, limited ability to call meetings, non-financial effects of merger and supermajority to approve merger amendments are adopted. The classified board may be the single
+most powerful governance feature since it is the board of directors that control how the
+other governance provisions will be implemented. A supermajority to approve a merger
+charter amendment, for example, forces a supermajority vote of the shareholders only if
+the board does not approve the merger. For the CEO to benefit from these governance
+changes, the CEO would have to influence the board or co-opt the board’s independence.
+If the CEO has been successful in co-opting the board, then a classified board would allow
+the CEO to maintain control of the firm for a longer period of time following a hostile
+attempt to takeover the firm.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+215
+
+One final observation from Table 5 is that very view firms adopting poison pills
+simultaneously add amendments to their charters. Classified board amendments were the
+most popular charter amendment made simultaneously with the adoption of poison pills,
+with only 6.2% of poison pill adopters adding a classified board. This 6.2% is relatively
+low compared to charter amendments where classified boards were adopted simultaneously in over 40% of the cases. This is a curious result since the board of directors typically
+has significant power in determining if and how the poison pill is implemented. Overall, in
+the sub-sample of firms adopting either charter amendments or poison pills, there is a
+significant negative correlation between the adoption of poison pills and the adoption of
+charter amendments.15 One possible explanation for this result is that charter amendments
+and poison pills are substitutes for one another and adoption of both would be redundant.
+However, the results from Table 3 suggest that at least by 1995, most firms having poison
+pills also had multiple anti-takeover charter provisions, and most firms with anti-takeover
+charter provisions also had poison pills. An alternative explanation is that boards choose
+between charter amendments and poison pills based upon their perceived bargaining
+strength relative to the shareholders. This would imply that, since charter amendments
+require a shareholder vote, charter amendments would be placed on the firms’ proxy for a
+vote when the boards felt that they had relatively high bargaining capital relative to the
+shareholders, and likewise, boards would unilaterally implement poison pills when they
+felt that they had insufficient bargaining capital. This explanation will be examined in
+greater detail in Section 6.
+
+4. CEO AGE, tenure and compensation surrounding governance changes
+To the extent that a CEO’s reputation, and hence his bargaining strength, might be
+related to his tenure, I analyze the distribution of the CEO’s tenure both at the position of
+CEO and with the firm. The results from this analysis are provided in Table 6. Does CEO
+tenure affect the initiation of governance changes? If the CEO’s tenure were positively
+correlated with his bargaining strength, then I would expect to find a smaller number of
+governance changes initiated in firms with newer CEOs.
+To test this hypothesis, I first calculate the lower decile and quartile cutoffs of CEO
+tenure for the entire sample. I then calculate the percentage of firms with a governance
+change where the CEO’s tenure is less than or equal to the value of the lower decile
+(quartile) from the entire sample. Finally, I perform, but do not report, a series of binomial
+tests to compare this percentage to the percentage of low tenure CEOs from the entire
+sample. These tests use both tenure as CEO and tenure with the firm. Binomial tests for
+each type of governance change individual, as well as a joint test across governance
+changes, fails to support the hypothesis that CEO tenure is related to the likelihood of the
+initiation of governance changes.
+15
+Here, I construct two dummy variables to account for new charter amendments and new poison pills.
+When a new charter amendment or poison pill is adopted the variable is set to +1, if there is no adoption then the
+variable is set to 1. The correlation between the charter and poison pill variables is 0.89187 with a p value of
+0.0001.
+
+216
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Table 6
+Distribution of CEOs’ tenure and age surrounding governance changes
+New charter
+amendments
+
+Antigreenmail
+Classified Board
+Dual Class Common
+Stock
+Fair Price Provision
+Limited Ability to
+Amend Bylaws
+Limited Ability to
+Amend Charter
+Limited Action by
+Consent
+Limited Ability to
+Call Meeting
+Non-Financial
+Effects of Merger
+Supermajority to
+Aprrove Merger
+Unequal Voting
+Rights
+
+Distribution of tenure as CEO
+surrounding governance changes
+90th
+
+75th
+
+14
+19
+25
+
+11
+13
+17
+
+19
+20
+
+25th
+
+10th
+
+90th
+
+75th
+
+Median
+
+25th
+
+10th
+
+5
+7
+7
+
+3
+3
+3
+
+1
+2
+2
+
+64
+64
+60
+
+61
+62
+58
+
+59
+57
+54
+
+54
+52
+49
+
+49
+46
+42
+
+48
+260
+26
+
+12
+11
+
+7
+6
+
+3
+3
+
+1
+2
+
+64
+63
+
+62
+60
+
+58
+57
+
+52
+51
+
+46
+44
+
+229
+77
+
+16
+
+8
+
+5
+
+2
+
+1
+
+59
+
+58
+
+56
+
+45
+
+44
+
+15
+
+20
+
+13
+
+6
+
+3
+
+2
+
+64
+
+61
+
+57
+
+52
+
+45
+
+171
+
+21
+
+13
+
+6
+
+3
+
+1
+
+64
+
+61
+
+56
+
+50
+
+45
+
+150
+
+20
+
+14
+
+11
+
+4
+
+1
+
+63
+
+60
+
+57
+
+54
+
+44
+
+37
+
+17
+
+14
+
+9
+
+4
+
+2
+
+63
+
+60
+
+57
+
+51
+
+45
+
+51
+
+20
+
+15
+
+6
+
+4
+
+1
+
+59
+
+57
+
+52
+
+48
+
+46
+
+5
+
+9
+8
+
+5
+5
+
+3
+3
+
+2
+3
+
+63
+68
+
+61
+64
+
+57
+60
+
+53
+58
+
+50
+49
+
+111
+5
+
+12
+
+7
+
+3
+
+1
+
+65
+
+60
+
+55
+
+50
+
+45
+
+72
+
+11
+12
+12
+
+6
+6
+7
+
+3
+3
+3
+
+1
+1
+2
+
+63
+63
+64
+
+61
+61
+61
+
+56
+57
+57
+
+51
+52
+52
+
+47
+47
+47
+
+230
+426
+10,396
+
+New governance features
+Confidential Voting
+13
+Cumulative Voting
+20
+Added
+Cumulative Voting
+20
+Removed
+Golden Parachutes
+18
+Poison Pill
+18
+Entire Sample
+20
+
+Median
+
+Distribution of CEO age surrounding
+governance changes
+N
+
+This table provides several percentile breakpoints for the tenure as CEO and the CEO’s age based conditional
+upon various governance changes. The breakdown for the entire sample of 10,396 firms for which tenure data is
+available is provided at the bottom of the table. Binomial tests fail to support the hypothesis that CEO’s that
+initiate governance changes are less likely to have lower tenure when compared to the tenure of CEOs in the
+entire sample.
+
+The present value that a CEO derives from a governance change is a function of the
+number of years the CEO remains as CEO. The longer the CEO is in power, the higher the
+expected value to the CEO of a governance feature that constrains shareholders. Since the
+expected value of a governance change should be lower in older CEOs, who are closer to
+retirement, I expect to find fewer governance changes initiated in firms with older CEOs. I
+also examine the distribution of CEO age during the initiation of governance changes in
+Table 6. To test the hypothesis that older CEOs initiate fewer governance changes, I
+calculate the upper decile and quartile values of the CEO age for the entire sample and
+then calculate the percentage of firms that initiate a governance change, where the CEO’s
+age is greater than or equal to the upper decile or quartile values for the entire sample.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+217
+
+Finally, I perform, but do not report, a series of binomial tests to compare this percentage
+to the percentage from the entire sample. The binomial tests for each type of governance
+change individual, as well as a joint test across governance changes, fail to support the
+hypothesis that older CEOs are less likely to initiate governance changes.16
+It is important, however, to realize that these governance changes do not directly
+empower the CEO, but increase the powers of the Board of Directors. It is possible that,
+while CEO tenure and other CEO characteristics do not appear to influence the adoption of
+changes in the governance provisions of the firm, CEO characteristics may play an
+important role in determining how the boards utilize these new found powers. For the CEO
+to benefit from these changes, the CEO would have to influence the board or co-opt the
+board’s independence.
+There are several reasons to expect that the initiation of governance changes may be
+related to CEO compensation. First, if governance changes are the result of a bargaining
+process between the CEO and shareholders, then the CEO may substitute a portion of his
+current compensation in exchange for the initiation of a governance change. Second, if
+these governance provisions entrench management, we expect to see an increase in
+compensation following the initiation of governance changes.
+Panel A of Table 7 shows the percentage change in total CEO compensation
+surrounding governance changes. Total CEO compensation comes from the Forbes’
+compensation surveys and is defined as salary+bonus+other compensation+stock gains.
+In a joint test across governance changes, the mean change in total compensation varies
+from 34.0% to 40.1% and the median change varies between 10.9% and 13.2% for the
+years surrounding the governance change.
+In Panel B of Table 7, I examine CEO pay for performance surrounding governance
+changes. CEO pay for performance is the ratio of total CEO compensation to the increase
+in shareholder wealth. As shown in the table, CEO pay for performance reflects the
+amount of total CEO compensation for every US$1000 increase in shareholder wealth. In
+a joint test across governance changes, the median pay for performance declines from
+US$1.65 per US$1000 the year prior to governance changes to US$1.26 in the year
+following governance changes.
+Panel C of Table 7 examines CEO pay for performance sensitivity. CEO pay for
+performance sensitivity measures the dollar change in CEO compensation per US$1000
+increase in shareholder wealth.17 In a joint test across governance changes, I document the
+median pay for performance sensitivity increases in the year that governance changes are
+initiated. Overall, the results from Table 7 are inconsistent with the notion that CEOs
+forgo current compensation in exchange for the initiation of governance changes.
+Additionally, these results suggest that CEOs do not extract higher compensation following
+the adoption of governance changes. It is possible, however, that these governance changes
+enhance the CEO’s job security and this is more valuable to the CEO than higher
+compensation.
+
+16
+The CEO tenure and age results are robust to analysis on a sub-sample of firms that eliminates
+observations corresponding to changes in the CEO.
+17
+See Jensen and Murphy (1990).
+
+218
+
+New charter/
+bylaw provision
+
+Panel A
+Mean (median) percentage change in
+compensation
+Year
+
+Antigreenmail
+
+1
+
+23.48*
+(13.34)**
+Classified Board
+34.38**
+(11.96)**
+Dual Class
+43.51
+Common Stock (16.10)
+Fair Price Provision 22.21**
+(13.35)**
+Limited Ability to 46.94**
+Amend Bylaws
+(18.17)**
+Limited Ability to 5.03
+Amend Charter
+(1.00)
+Limited Action by 21.50**
+Consent
+(9.74)**
+Limited Ability to 28.71**
+Call Meeting
+(12.27)**
+Non-Financial
+19.81**
+Effects of Merger (26.30)*
+Supermajority to
+13.77
+Aprrove Merger (44.15)
+Unequal Voting
+6.75
+Rights
+(9.31)
+
+N
+
+Year 0
+
+40 58.34**
+(19.46)**
+171 40.94**
+(15.04)**
+8 23.07
+(14.79)
+167 42.66**
+(13.68)**
+50 53.37**
+(14.52)**
+6 108.03
+(30.29)
+118 28.43**
+(12.00)**
+101 40.79**
+(12.06)**
+16 9.1
+(8.04)
+28 29.96**
+(18.62)**
+3 61.13**
+(64.63)
+
+N
+
+Year +1
+
+43 8.48
+(8.31)
+175 23.75**
+(12.57)**
+8 16.03*
+(14.47)
+173 29.37**
+(11.69)**
+50 53.17**
+(15.68)
+6 101.29*
+(66.75)
+119 30.36**
+(14.72)**
+102 23.44**
+(5.73)**
+15 42.38**
+(17.27)*
+31 27.48**
+(16.31)
+3 11.33
+( 11.33)
+
+Panel B
+Mean (median) pay for performance
+N
+
+Year
+
+1
+
+41 3.24
+(1.301)**
+192 3.05**
+(1.85)**
+15 0.059
+(.595)
+185 5.971
+(1.873)**
+52 3.853*
+(1.48)**
+9 2.538
+(1.305)*
+133 1.249
+(1.436)**
+113 7.255
+(1.775)**
+19 5.26
+(2.902)**
+34 4.458
+(1.901)**
+2 4.673*
+(5.402)
+
+N
+45
+184
+10
+179
+53
+5
+128
+105
+18
+33
+3
+
+Year 0
+
+N
+
+Year +1
+
+1.02
+(1.107)**
+6.499*
+(1.833)**
+0.704
+(.1384)
+2.427
+(1.658)**
+97.5
+(1.801)**
+2.585
+3.838
+1.48
+(1.377)**
+1.46
+(1.59)**
+1.25
+(1.967)**
+14.478
+(2.073)**
+1.74
+(.9840)
+
+45 1.952
+(0.923)**
+192 5.243*
+(1.493)**
+14 1.54
+(.634)
+188 4.555*
+(1.447)**
+53 11.033
+(1.517)**
+6 41.718
+2.029
+130 0.5
+(1.134)**
+109 1.22
+(1.051)**
+19 138.23
+(.3210)
+32 15.865
+(2.029)**
+3 11.361
+(8.699)
+
+Panel C
+Mean (median) pay for performance
+sensitivity
+N
+
+Year
+
+42
+204
+18
+187
+54
+9
+138
+120
+23
+39
+3
+
+1
+
+N
+
+Year 0
+
+N
+
+Year +1
+
+N
+
+1.146
+40 2.209
+43 0.178
+41
+(.0970)
+(.6309)**
+(.1004)
+3.064* 167 1.047
+171 5.347*
+186
+(.0707)**
+(.3315)**
+(.2732)**
+2.196
+8 2.251
+8 1.475
+15
+( .5509)
+(.7237)
+(.2180)
+6.079 165 28.811
+171 0.8618
+181
+(.1121)**
+(.3381)**
+(.2135)**
+2.289**
+48 12.899
+48 10.639
+49
+(.3185)**
+(.3142)**
+(.8361)**
+3.829
+5 1.704
+5 88.761
+7
+(.2384)
+(2.610)
+1.264
+0.2187 117 37.594
+118 0.5796
+131
+(.1193)**
+(.2488)**
+(.2635)**
+6.294
+99 42.869
+99 0.4508 110
+(.2348)**
+(.2084)**
+(.1339)
+5.922
+16 0.6058
+15 0.2468
+19
+(.1601)
+(.1252)
+(.4202)
+0.4506
+28 0.7779
+31 18.731
+34
+(.1232)**
+(.3237)**
+(.7601)**
+0.3099
+3 3.631
+3 0.4391
+2
+(.2635)
+(6025)
+(.4391)
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Table 7
+Changes in CEO compensation measures surrounding governance changes
+
+117 52.54**
+(4.23)
+2 36.16
+(28.66)
+52 60.29**
+(14.74)**
+177 38.65**
+(11.63)**
+306 39.12**
+(13.91)**
+669 40.08**
+(13.29)**
+
+113 41.72**
+(14.57)**
+3 20.46
+(10.58)
+53 28.80**
+(15.16)**
+180 42.63**
+(5.57)**
+303 40.97**
+(9.57)**
+674 33.97*
+(10.88)**
+
+100 0.869
+(.708)**
+4 28.693
+(2.304)
+54 0.951
+(1.887)**
+168 2.044
+(1.402)**
+303 15.97
+(1.590)**
+705 4.34
+(1.653)**
+
+116
+3
+52
+199
+326
+717
+
+2.03
+(.8400)**
+15.39
+(3.226)
+3.81
+(1.116)**
+5.524*
+(1.786)**
+0.064
+(1.531)**
+4.87
+(1.592)**
+
+112
+4
+55
+202
+337
+745
+
+2.59
+(1.014)**
+628.82
+(5.115)
+2.13
+(1.018)**
+120.24
+(1.388)**
+2.4
+(1.181)**
+3.3
+(1.261)**
+
+100
+5
+54
+186
+340
+762
+
+8.031
+(.0503)
+0.0676
+(.0676)
+2.828
+(.2928)**
+1.093
+(.2171)**
+13.874
+(.4098)**
+5.388
+(.1961)**
+
+113 5.385
+(.6034)**
+2 0.5898
+(4.604)
+49 83.075
+(.1337)
+171 1.436
+(.3966)**
+301 4.088
+(.2537)**
+654 10.033
+(.2801)**
+
+110
+3
+49
+178
+301
+663
+
+2.668
+97
+(.2430)
+1.740
+4
+(1.601)
+4.136
+51
+(.1450)
+403.544 167
+(.2479)**
+2.600
+299
+(.2121)**
+1.058
+690
+(.2171)**
+
+This table provides the percentage change in CEO compensation, CEO pay for performance and the CEO pay for performance sensitivity for the years surrounding
+governance changes. Pay for performance is measured as the dollar amount of total CEO compensation per US$1000 increase in shareholder wealth.
+Pay for performance sensitivity is measured as the dollar change in total CEO compensation per US$1000 increase in shareholder wealth. Total compensation is defined as
+salary+bonus+other compensation+stock gains and is collected from the Forbes’ CEO compensation Surveys. Other compensation includes payments made under long
+term compensation plans, restricted stock awards, company paid health insurance and other benefits. Statistical significance is determined using a simple t test for the
+means and a Wilcoxon Sign Rank test for the medians.
+* Denotes significance at the 10% level.
+** Denotes significance at the 5% level.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+New governance features
+Confidential Voting 50.88**
+(3.00)
+Cumulative Voting
+8.75
+Added
+( 8.75)
+Cumulative Voting 49.33*
+Removed
+(17.85)**
+Golden Parachutes 25.04*
+(11.44)**
+Poison Pill
+154.9**
+(11.84)**
+Joint Test
+35.94**
+(12.33)**
+
+219
+
+220
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+5. Long-term performance surrounding governance changes
+One-, two-, three- and five-year size/market-to-book-adjusted holding period returns
+(HPR) are calculated by compounding monthly returns using the methodology suggested
+by Lyon et al. (1999). The size/market-to-book-adjusted returns represent the HPR for a
+specific firm minus the return on the size decile portfolio further divided into MTB quintile
+portfolios.18 Statistical significance for the means is determined using the bootstrapped t
+statistic as suggested by Lyon et al. (1999), due to the distributional properties of these
+long term HPRs, standard t test are invalid for testing the significance of the means.19
+Additionally, the skewness of the HPR distributions would suggest that the median is a
+superior measure of central tendency in conducting an analysis of long term HPRs.
+Significance on the medians is determined using Wilcoxon sign-rank tests. As an added
+test of significance, the confidence interval approach suggested by Efron and Tibshirani
+(1993) and implemented by Elliot and Suay (1999) is used to determine significance of
+both the means and medians.20
+When examining long horizon returns, there is a question as to whether the mean or
+median is the best measure on which to focus. The use of the median allows a
+comparison with the ‘‘typical’’ firm rather than the average firm. The median adjusted
+holding period returns will be of the most interest in this study. The point of this study is
+not to examine issues of market efficiency that rely on the average (mean) firm for
+comparison.
+Table 8 provides the adjusted holding period returns for the 1-, 2-, 3- and 5-year periods
+preceding various governance changes. In examining the medians, significantly negative
+adjusted HPRs are found prior to the adoption of golden parachutes, poison pills,
+confidential voting and cumulative voting. The confidential and cumulative voting results
+may be an artifact of institutional activism. Both confidential and cumulative voting were
+popular issues targeted by institutional investors in the early 1990s, and many institutional
+investors used of prior performance as a selection criteria for targeting might explain these
+results.21 It is also noteworthy that golden parachutes and poison pills are the only two
+governance features examined that either do not require a shareholder vote or may not be
+repealed through a shareholder vote.
+Also from Table 8, the median adjusted HPRs for many of the new charter/bylaw
+changes appear to be positive. In fact, joint tests on the HPRs for charter/bylaw changes
+show the medians to be significantly positive for the 1, 2, 3 and 5 years prior to adoption.
+This result is important since charter amendments always require a vote of the shareholders
+and bylaws are either approved by shareholders or subject to future revision/retraction by
+
+18
+Analysis was also performed (not reported) using size deciles portfolios, MTB decile portfolios and
+industry portfolios to calculated excess returns. These results do not differ significantly from those reported using
+the combined size/MTB portfolios.
+19
+A Kolmogorov D statistic was calculated to test for normality of the distributions. In all cases where N
+exceeded 50, I was able to reject normality.
+20
+For a detailed explanation of the methodology used in this approach, see Elliot and Suay (1999).
+21
+See Wahal (1996).
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+221
+
+Table 8
+Market performance prior to governance changes
+New charter
+amendments
+
+Mean (median) performance size/MTB-adjusted—prior performance
+
+Antigreenmail
+
+0.0143
+(0.0154)
+0.0357a
+(0.0099)b
+0.1035a
+(0.0351)c
+0.0316a
+(0.0151)a,d
+0.0482a
+(0.0029)
+0.0232
+( 0.0147)
+0.0386a
+(0.0004)
+0.0498a
+(0.0077)
+0.0391e
+( 0.0010)
+0.0237
+(0.0069)
+0.0160
+(0.0180)
+
+Classified Board
+Dual Class
+Common Stock
+Fair Price Provision
+Limited Ability to
+Amend Bylaws
+Limited Ability to
+Amend Charter
+Limited Ability to
+Call Meeting
+Limited Action
+by Consent
+Non-Financial
+Effects of Merger
+Super Majority
+for Merger
+Unequal Voting
+Rights
+
+1 Year
+
+New governance features
+Confidential Voting
+0.0086
+( 0.0137)e
+Cumulative
+0.1103a
+Voting Added
+( 0.0835)a
+Cumulative Voting
+0.0486a
+Removed
+(0.0148)c
+Golden Parachutes
+0.0082
+( 0.0236)a,d
+Poison Pill
+0.0022
+( 0.0260)a,d
+Joint Test
+0.0152a
+( 0.0099)a
+
+N
+
+2 Years
+83
+
+428
+52
+382
+116
+11
+247
+274
+69
+94
+13
+
+130
+7
+130
+468
+762
+1549
+
+0.0734
+(0.0290)
+0.1195a
+(0.0218)
+0.4658a
+(0.2935)c
+0.1514a
+(0.0334)d
+0.1627a
+( 0.0022)
+0.2098e
+( 0.2964)a
+0.0666
+( 0.0018)
+0.1092a
+(0.0097)
+0.2811a
+(0.0260)
+0.0820
+( 0.0197)
+0.1154
+(0.0751)
+
+0.0028
+( 0.0306)
+0.5124a
+( 0.4065)a,c
+0.2497a
+(0.1061)a,d
+0.0186
+( 0.0744)a,d
+0.0272
+( 0.0677)a,c
+0.0953a
+( 0.0185)
+
+N
+
+3 Years
+83
+
+412
+49
+369
+112
+9
+240
+264
+61
+88
+13
+
+127
+7
+122
+454
+734
+1486
+
+0.0834
+( 0.0666)
+0.1829a
+( 0.0139)
+0.7450a
+(0.3195)d,e
+0.2809a
+(0.0995)a,d
+0.2056e
+( 0.0282)
+0.0067
+( 0.0512)
+0.1313a
+(0.0085)
+0.1631a
+( 0.0382)
+0.4041e
+(0.0574)
+0.3010a
+(0.0463)
+0.7790e
+(0.1239)
+
+0.0241
+( 0.1141)a,b
+0.5128a
+( 0.4134)a,b
+0.2787a
+(0.1667)a,d
+0.1346e
+( 0.1101)a,c
+0.0879a
+( 0.0855)a,c
+0.1742a
+(0.0006)a,b
+
+N
+
+5 Years
+80
+
+393
+49
+354
+102
+9
+231
+249
+54
+75
+13
+
+128
+7
+114
+438
+708
+1425
+
+0.2284
+( 0.0959)
+0.4202a,c
+(0.0612) a
+1.5781
+(0.5529)d
+0.6672a
+(0.2276)a,d
+0.6594a
+(0.1450)
+1.0779e
+( 0.1830)
+0.2581a
+(0.0616)
+0.4272a
+( 0.0758)
+0.9349e
+(0.1850)
+0.3916a
+(0.1452)
+0.2313
+(0.1838)
+
+0.0042
+( 0.2390)
+0.5799
+( 0.5417)
+0.7595a
+(0.2440)c
+0.3709a
+( 0.0646)
+0.2246a
+( 0.0713)
+0.4119a
+(0.0439)a,d
+
+N
+74
+311
+46
+278
+80
+6
+190
+197
+47
+61
+10
+
+123
+6
+102
+405
+659
+1250
+
+This table reports the mean (median) abnormal performance for 1, 2, 3 and 5 calendar years prior to various
+governance changes. Holding period returns are compounded monthly returns calculated using the methodology
+described by Lyon et al. (1999). Returns are adjusted by subtracting off the portfolio returns for combined size and to
+book portfolios. First, size portfolios are calculated using NYSE listed firms and then adding back the NASDAQ.
+Next, the combined size and market to book portfolios are created using size deciles divided into five separate
+portfolios based upon the market to book ratio. Boot-strapped t statistics were calculated for the means using the
+methodology Lyon et al. (1999). None of the means is significant at the 10% level or better using this methodology.
+The confidence interval methodology of Elliott and Suay is utilized to test significance of both means and
+medians. Wilcoxon Sign Rank Tests are used to test the significance of medians.
+a
+Significant at 5% using the Confidence Interval approach of Elliot and Suay (1999).
+b
+Significant at 10% using the Wilcoxon Sign-Rank Test for median.
+c
+Significant at 5% using the Wilcoxon Sign-Rank Test for median.
+d
+Significant at 1% using the Wilcoxon Sign-Rank Test for median.
+e
+Significant at 10% using the Confidence Interval approach of Elliot and Suay (1999).
+
+222
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+shareholders. These results suggest that firms tend initiate changes in governance practices
+requiring shareholder approval after a period of superior performance.
+Although it appears that firms initiating charter or bylaw changes outperform
+benchmark portfolios prior to adoption, it is unclear whether these results will differ
+based upon whether the change is in the form of a charter amendment or bylaw
+provision. The process of amending the charter differs materially from the process used
+to change the bylaws. An amendment to the firm’s charter is initiated by the board of
+directors and approved by a vote of the shareholders, whereas either the shareholders of
+the board of directors may initiate a bylaw change. In 42 of the 50 states, boards of
+directors are empowered to amend the bylaws without a shareholder vote.22 In the
+remaining eight states, seven allow for a provision in the bylaws or charter that allows
+the board to amend the bylaws. Regardless of whether the board has the power to amend
+the bylaws, the shareholders typically have the ability to modify or rescind the board’s
+amendments.
+Since charter amendments cannot be changed, once adopted, without the approval of
+the board of directors, it is reasonable to expect that the CEOs would prefer charter
+amendments to similar bylaw provisions. If this is the case, then one might expect it to be
+more difficult to adopt a change in the charter and for the CEOs with the higher perceived
+ability to initiate charter amendments over bylaw provisions. To examine this hypothesis, I
+analyze, but do not report, the differences in the adjusted HPRs surrounding the adoption
+of five common types of bylaw and charter changes. The results fail to support the
+hypothesis that firms adopting charter amendments perform better than those adopting
+similar kinds of bylaw provisions.
+
+6. Multivariate analysis of governance changes
+The previous tests of CEO characteristics and firm performance are only univariate
+in nature. It is possible that potentially interesting results may be obscured by the
+failure to control for other factors. In this section, I examine the adoption of poison
+pills and charter amendments using a multivariate logistic regressions. The results of
+these regressions are reported in Table 9.23 Panel A of Table 9 provides the results of
+the logistic regressions on a sample of firms adopting poison pills (dependent
+variable=1) compared to firms without any poison pills or other takeover defenses
+(dependent variable=0). The regressions suggest that poison pill adoption is negatively
+related with CEO tenure, prior performance, and inside ownership, while adoption is
+positively related to the number of hostile takeover attempts the previous year and the
+
+22
+The states not permitting the board to amend the bylaws without a prior provision in the charter or bylaws
+so permitting are Delaware, Maryland, Massachusetts, Missouri, New York, Oklahoma and Pennsylvania. The
+state of Ohio forbids the practice without allowing firms to ‘‘opt in’’.
+23
+Several other variables of interest were used in alternative models beyond that reported in Table 9. The
+percentage of insiders on the board as well as various measures of CEO compensation were included in
+alternative models. In none of the logistic regressions were these variables significant and their inclusion or
+omission did not fundamentally alter the results reported in Table 9.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+223
+
+Table 9
+Results of logistic regressions on firms adopting various governance changes
+Independent
+variables
+Intercept
+
+Panel A: Poison pill
+adoption
+
+4.5321
+(0.0001)
+Years as CEO
+0.0198
+(0.0057)
+Years to retire
+0.0074
+(0.3567)
+Log of market 0.1131
+(0.1203)
+value of
+equity
+0.0163
+Number of
+hostile
+(0.0001)
+takeover
+attempts
+Prior 3-yearadjusted
+HPR returns
+% Inside
+ownership
+% Institutional
+ownership
+Number
+441
+of new
+adoptions
+N
+8016
+
+4.0933
+(0.0001)
+0.0155
+(0.0438)
+0.0007
+(0.9376)
+0.0280
+(0.4977)
+
+3.4239
+(0.0001)
+0.0176
+(0.0687)
+0.0027
+(0.8224)
+0.2392
+(0.0001)
+
+Panel B: New charter
+amendment(s)
+
+Panel C: Poison pill vs.
+charter amendment
+
+3.1744
+(0.0001)
+0.0004
+(0.9614)
+0.0001
+(0.9907)
+0.0409
+(0.3048)
+
+2.8739
+(0.0001)
+0.0099
+(0.3926)
+0.0060
+(0.6322)
+0.2098
+(0.0023)
+
+2.1816
+(0.0001)
+0.0048
+(0.5561)
+0.0082
+(0.3614)
+0.0424
+(0.3525)
+
+1.2006
+(0.1559)
+0.0104
+(0.5460)
+0.0347
+(0.0461)
+0.1551
+(0.0913)
+
+3.0053
+(0.0001)
+0.0069
+(0.5806)
+0.0146
+(0.3197)
+0.2379
+(0.0023)
+
+0.5459
+(0.6561)
+0.0127
+(0.5855)
+0.0250
+(0.3338)
+0.1353
+(0.3490)
+
+0.0146
+0.0207
+0.0072
+0.0028
+0.0084
+0.0164
+0.0156
+0.0131
+(0.0001) (0.0001) (0.0001) (0.0393) (0.0057) (0.0001) (0.0001) (0.0007)
+
+0.2510
+0.1308
+(0.0004) (0.0462)
+
+0.0272
+0.0721
+(0.5441) (0.2814)
+
+388
+
+0.0153
+(0.0040)
+0.0175
+(0.0001)
+241
+409
+
+5820
+
+2737
+
+4740
+
+0.3256
+0.2208
+(0.0005) (0.0432)
+
+338
+
+0.0239
+(0.0093)
+0.0231
+(0.0004)
+83
+441
+
+388
+
+0.0063
+(0.5964)
+0.0285
+(0.0023)
+241
+
+3173
+
+1130
+
+703
+
+312
+
+817
+
+This table provides results of various logistic regressions on firms adopting various governance changes.
+Panel A provides the results of the logistic regressions on a sample of firms adopting poison pills
+(dependent variable=1) compared to firms without any poison pills or other takeover defenses (dependent
+variable=0). Panel B provides the results of the logistic regressions on a sample of firms adopting antitakeover charter amendments (dependent variable=1) compared to firms without any poison pills or other
+takeover defenses (dependent variable=0). Panel C provides a direct comparison between samples of firms
+adopting poison pills (dependent variable=1) and firms adopting anti-takeover charter amendments
+(dependent variable=0). The number of hostile takeover attempts was identified using the SDC Mergers
+and Acquisitions Database. Ownership data is from Spectrum as provided on the Compact Disclosure
+CDs and is only available for years after 1986. p Values are given in parentheses below the parameter
+estimates.
+
+institutional ownership. The CEO tenure result is inconsistent with a story of the CEO
+bargaining with the board of directors for governance changes.24 The significant
+negative coefficient on prior performance supports the previous univariate results
+showing that firms that adopt poison pills tend to under perform prior to adoption.
+
+24
+
+Since firm performance and CEO tenure are correlated and since firms that perform poorly relative to
+others frequently get new management or are the victims of the market for corporate control, it is possible that
+prior performance proxies for the CEO tenure and turnover.
+
+224
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+It is also clear from these results that many of these adoptions are in response to an
+active hostile market for corporate control.25
+Panel B of Table 9 provides the results of the logistic regressions on a
+sample of firms adopting anti-takeover charter amendments (dependent variable=1)
+compared to firms without any poison pills or other takeover defenses (dependent
+variable=0). The regressions suggest that anti-takeover charter amendment adoption
+is not related with CEO tenure or prior performance. Adoptions are positively
+related to the number of hostile takeover attempts the previous year and
+negatively related to both inside and institutional ownership. An interesting result
+is the change in sign on the institutional ownership variable between the poison
+pill and charter amendment regressions. These results suggest that it may be
+more difficult to enact governance changes requiring a shareholder vote when
+there is a higher level of institutional ownership. It is also clear from these
+results that many of these adoptions are in response to an active hostile market
+for corporate control.
+Panel C of Table 9 provides a direct comparison between samples of firms
+adopting poison pills (dependent variable=1) and firms adopting anti-takeover charter
+amendments (dependent variable=0). The results confirm that both prior performance
+and institutional ownership are important factors in determining the choice between
+poison pills and charter amendments. These results suggest that it may be more
+difficult to enact governance changes requiring a shareholder vote when there is a
+higher level of institutional ownership. It is also clear from these results that poison
+pill adoptions are more likely in response to an active hostile market for corporate
+control.
+
+7. Summary and conclusions
+I define corporate governance as a set of constraints on managers and shareholders as they bargain to determine how the value of the firm is to be allocated,
+providing a framework to understand how governance practices differ across firms
+and evolve over time. I find that virtually all sample firms in 1995 were covered
+by a least one governance provision or statute that potentially could constrain
+shareholder wealth. Where in 1980, it was the exception for a firm to utilize any
+of the various governance provisions, by 1995 such provisions were the norm. For
+example, over 97% of the firms were covered by one or more provisions that
+offered the boards of directors substantial power to reject hostile acquisition
+attempts. Furthermore, over 76% of the sample firms had adopted charter amendments limiting shareholder rights, and over 53% of the firms had a poison pill in
+place by 1995.
+Several interesting stylized facts about corporate governance practices are
+gleaned from a cross-sectional examination of governance provisions. First, I
+document a high degree of potential redundancy with most firms being covered
+25
+
+Hostile takeover attempts where identified using the SDC Mergers and Acquisitions Database.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+225
+
+by multiple governance provisions that are potentially harmful to shareholders.
+Charter amendments and state anti-takeover statutes that are almost identical in
+effect redundantly cover many firms. Second, it is apparent that many firms tend
+to adopt multiple charter amendments simultaneously. In fact, of firms amending
+their charters, 43% adopt two or more and 23% adopt three or more charter
+amendments simultaneously. Third, there is a significant positive correlation
+between the adoption of new governance provisions and the external market for
+corporate control as proxied for by the number of domestic hostile bids. Fourth,
+the prevalence of classified boards of directors has greatly increased over the
+sample period from less than 10% of firms in 1980 to almost 60% in 1995. The
+classification in boards of directors appears to occur in tandem with the
+implementation of anti-takeover provisions that require board approval to be
+effective. Finally, I document that very few firms adopting poison pills simultaneously amend their charters. Conditional on a firm making a governance change,
+I find a significant negative correlation between the decision to adopt a poison pill
+and the decision to amend the charter.
+I document that typical firms adopting governance provisions requiring shareholder approval outperform benchmark portfolios for 1, 2, 3 and 5 years prior
+to adoption. I also document that typical firms adopting poison pills underperform benchmark portfolios for 1, 2, 3 and 5 years prior to adoption. This
+result is confirmed in multivariate logistic regressions that control for other
+factors. I find no relationship between CEO age, tenure or compensation
+surrounding governance changes. I do find that levels of institutional ownership,
+levels of insider ownership and the number hostile bids are, along with prior
+performance, important variables in determining both whether a firm will make
+changes to its governance structure and the type(s) of changes that are made.
+Shareholders appear to be primarily concerned with performance, and are more
+likely to vote to increase the power of the boards of directors of better
+performing firms, while the boards of poorly performing firms are much more
+likely to initiate governance changes, such as poison pills, that circumvent
+shareholder approval.
+
+Acknowledgements
+I wish to thank Virgina Rosenbaum and Jack Issacs from the Investor
+Responsibility Research Center for their help in providing much of the data used
+in the paper. I also thank Kevin Murphy for making his CEO compensation data
+available. This paper has benefited from the comments and suggestions of an
+anonymous referee, Ashiq Ali, Bill Carleton, Ed Dyl, Laurie Krigman, Chris
+Lamoureux, Jose Suay and Mike Weisbach, and participants from seminars at
+Florida State University, the University of Arizona and the University of Delaware.
+I would also like to acknowledge excellent research assistance from Anne
+Anderson. This research was begun as part of my dissertation submitted in partial
+fulfillment of the requirements for a PhD at the University of Arizona.
+
+226
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Appendix A . Glossary of corporate governance terms
+
+Antigreenmail
+(AGM)
+
+Blank Check
+Preferred Stock
+(BCP)
+
+Cash Out Law (CO)
+
+Classified Board
+(CB)
+
+Confidential Voting
+(CNFDV)
+
+Control Share
+Acquisition Law
+(CSA)
+
+Cumulative Voting
+(CV)
+
+Director’s Duties
+Law (DD)
+
+Dual Class Common
+Stock (DCCS)
+
+Greenmail is a term used to describe the practice of a corporation buying back a large
+number of its own shares through a private transaction at an above market price from a
+potential acquirer. In exchange, the acquirer agrees to cease any efforts to gain control of
+the firm. Antigreenmail provisions forbid such transactions unless the offer is universal to
+all shareholders or the shareholders approve of the transaction. Antigreenmail provisions
+can results from a change to a firm’s charter or bylaws, or from a state law.
+Is a term used to describe preferred stock, which, when authorized, can have a broad
+range of conversion, dividend, voting and other rights as determined by the Board of
+Directors. Over 85% of sample firms in 1995 allowed for the use of ‘‘blank check’’
+preferred stock. This feature is important since it gives boards of directors the ability to
+implement poison pills or to place shares in friendly hands during a takeover attempt.
+Corporations argue that ‘‘blank check’’ preferred stock is necessary to provide the board
+with flexibility in acquiring financing for the firm. The ability to issue black check
+preferred stock must be spelled out in the firm’s charter.
+A ‘‘cash out’’ statute provides shareholders the right to ‘‘cash out’’ at the highest acquiring
+price at the acquirer’s expense once the acquirer has obtained a threshold percentage of
+outstanding shares. This law may force the acquiring firm to purchase additional shares
+even after control has been obtained.
+A classified board is one where the election of the Board of Directors is staggered over
+several overlapping ‘‘classes’’ (typically three). Essentially, having a classified board
+makes it more difficult for a successful bidder to gain effective control over the board and
+hence the firm. The requirement for a classified board can originate in the firm’s charter or
+bylaws, or through state law.
+A confidential process for proxy voting is designed to eliminate pressure and potential
+conflicts of interest between managers and fiduciaries who vote shares on behalf of other
+parties. Under confidential voting, management agrees not to view individual proxy
+ballots unless the election is contested.
+A control share acquisition statute provides that once an acquirer obtains a designated
+percentage of outstanding shares, the majority of the disinterested outstanding shares must
+vote to determine whether the acquirer can vote his or her shares. Various state statutes
+differ as to conditions of redeeming shares that are denied voting rights. Some states grant
+rights to dissenting shareholders.
+Cumulative voting allows shareholders to combine their votes for the election of the board
+of directors and cast these votes in any manner they desire. Under cumulative voting, the
+total number of votes a shareholder is allowed to cast is the number of shares held times
+the number of directors up for election. For example, if a firm is electing five new
+directors and a shareholder owns 1000 shares, this shareholder, under cumulative voting,
+has 5000 votes to cast in any combination for the five directors. Cumulative voting
+provides minority shareholders greater ability to elect their favored directors.
+These laws allow the board of directors to consider the impact of a merger on stakeholders
+other than the shareholders (i.e., employees, suppliers, communities, etc). This provision
+allows the board to reject a purchase offer that may be attractive to the shareholders
+financially.
+These provisions allow for two classes of common stock, each with different voting
+rights. Generally, management has effective control over the shares with the preferable
+voting rights. Dual class common stock can only be initiated through a provision in the
+firm’s charter.
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+227
+
+Appendix A (continued)
+Fair Price Provision
+(FP)
+
+A fair price provision requires that all shareholders receive a ‘‘fair price’’ (typically the
+highest price the bidder has paid for any shares acquired) for the shares that they tender.
+The fair price provision is used to discourage two tier tender offers. Usually, if the board
+of directors, or a supermajority of shareholders, approve of the merger then the bidder will
+not be held to the fair price requirement. A fair price provision can result from the firm’s
+adoption of a charter or bylaw amendment, or through state law.
+Freeze Out Law
+Freeze out laws are also known as business combination laws. They typically forbid a
+(FO)
+business combination between the acquirer and target for three to five years following the
+acquisition of a threshold percentage of shares by the acquirer. The effect of the freeze out
+law is to discourage acquirers who lack sufficient funds to finance the transaction. The
+acquiring firm is essentially barred from gaining accesses to the target firm’s assets.
+Golden Parachutes
+A golden parachute is a severance package paid to top executives subject to a change in
+(GP)
+control of the firm.
+Limited Ability to
+This provision requires a supermajority vote to change the firm’s bylaws. Often, the
+Amend Bylaws
+voting threshold is greater than the participation level for annual meetings, or the level of
+(LAAB)
+shares not controllable by management, thereby making the adoption or repealing of
+bylaws almost impossible. This provision may be adopted as an amendment to the firm’s
+charter or through passage of a bylaw, and is most often adopted after ‘‘anti-takeover’’
+bylaws are already in place.
+Limited Ability to
+This provision requires a supermajority vote to change the firm’s charter. Often the voting
+Amend Charter
+threshold level is greater than the participation level for annual meetings, or the level of
+(LAAC)
+shares not controllable by management, thereby making amendments to or repealing
+amendments in the charter almost impossible. This provision must be adopted as an
+amendment to the firm’s charter, and is most often adopted after ‘‘anti-takeover’’ charter
+amendments are already in place.
+Limited Ability to
+These provisions curtail the shareholders’ ability to call a special meeting. Under these
+Call Meeting
+provisions, the ability to call a special meeting rests solely with the board of directors or
+(LACM)
+some officer of the company, or requires the approval of a higher threshold of
+shareholders than is required under state law. Such provisions make it more difficult for
+shareholders to facilitate a change in control through a special meeting. The ability to call
+a special meeting can be determined through charter amendments, bylaws and the law of
+the state of incorporation.
+Limited Action by
+In states that allow action by written consent, this provision limits the shareholders ability
+Consent (LAC)
+to act without a shareholders meeting. This provision can limit the shareholders ability to
+facilitate changes in the board of directors, bylaws or charter without a shareholders
+meeting. This feature is particularly powerful if the firm also limits the shareholder’s ability
+to call a special meeting. This feature can be adopted through either bylaws or the charter.
+Non-Financial Effects These provisions allow the board of directors to consider the impact of a merger on
+of Merger (NFEM) stakeholders other than the shareholders (e.g., employees, suppliers, communities, etc.).
+This provision allows the board to reject a purchase offer that may be attractive to the
+shareholders financially. Some states provide this power to the board of directors through
+a director’s duties statute. This provision can be implemented through the adoption of a
+charter provision or bylaw.
+Poison Pills (PP)
+Also called ‘‘shareholder’s rights plans’’, poison bills are designed to force potential
+acquirers to negotiate with the firm’s board of directors. If the board views the deal as
+favorable, then the board can redeem the pill. Otherwise, once the acquiring firm
+accumulates a certain level of stock, the pill is ‘‘triggered’’ granting shareholders the right
+to purchase stock in either company as a substantial discount. Unlike, many other antitakeover devices, poison pills can be adopted without a shareholder vote.
+Profit Recapture
+Profit recapture laws allow companies to recover profits from unsuccessful bidders for
+Laws (PR)
+shares acquired within 18 to 24 months of the takeover attempt.
+(continued on next page)
+
+228
+
+J. Nelson / Journal of Corporate Finance 11 (2005) 197–228
+
+Appendix A (continued)
+Supermajority to
+Approve Merger
+(SMM)
+
+Unequal Voting
+Rights (UVR)
+
+Supermajority provisions establish a minimum voting threshold above that required by
+state law for certain types of transactions including mergers. These provisions can be
+adopted through a charter or bylaw provision. Often, the voting threshold level is greater
+than the participation level for annual meetings, or the level of shares not controllable by
+management, thereby making approval of a merger almost impossible.
+With unequal voting rights, the voting power of the shares change based on certain
+conditions. Usually, greater voting power is given to shareholders that have owned their
+stock for a specified period of time. Another type of provision reduces the voting power
+for shares held in large blocks.
+
+References
+Biggs, J., 1996. Corporate governance assessment: a TIAA-CREF initiative. Directors Monthly 20 (10), 1 – 8.
+Bhagat, S., Brickley, J., 1984. Cumulative voting: the value of minority shareholder rights. Journal of Law and
+Economics 27, 339 – 366.
+Brickley, J., Lease, R., Smith, C., 1988. Ownership structure and voting on antitakeover amendments. Journal of
+Financial Economics 20, 267 – 291.
+Carleton, W., Nelson, J., Weisbach, M., 1998. The influence of institutions on corporate governance through
+private negotiations: evidence from TIAA-CREF. Journal of Finance 53, 1335 – 1362.
+Comment, R., Schwert, G., 1995. Poison or placebo? Evidence on the deterrence and wealth effects of modern
+antitakeover measures. Journal of Financial Economics 39, 3 – 43.
+Danielson, M., Karpoff, J., 1998. On the uses of corporate governance provisions. Journal of Corporate Finance
+4, 347 – 371.
+DeAngelo, H., Rice, E., 1983. Antitakeover charter amendments and stockholder wealth. Journal of Financial
+Economics 11, 329 – 359.
+Efron, B., Tibshirani, R.J., 1993. An Introduction to the Bootstrap. Chapman & Hall.
+Elliot, W., Suay, J., 1999. Seasoned Equity Offerings: Asymmetric Information and Underwriter Certification.
+University of Arizona Working Paper.
+Hermalin, B., Weisbach, M., 1998. Endogenously chosen boards of directors and their monitoring of the CEO.
+American Economic Review 88, 96 – 118.
+Jarrell, G., Poulsen, A., 1987. Shark repellents and stock prices: the effects of antitakeover amendments since
+1980. Journal of Financial Economics 25, 291 – 322.
+Jensen, M., Murphy, K., 1990. Performance pay and top-management incentives. Journal of Political Economy
+98, 225 – 264.
+Karpoff, J., 1998. The Impact of Shareholder Activism on Target Companies: A Survey of Empirical Findings.
+University of Washington Working Paper.
+Karpoff, J., Malatesta, J., Walkling, R., 1996. Corporate governance and shareholder initiatives: empirical
+evidence. Journal of Financial Economics 42, 365 – 395.
+Linn, S., McConnell, J., 1983. An empirical investigation of the impact of antitakeover amendments on common
+stock prices. Journal of Financial Economics 11, 361 – 399.
+Lyon, J., Barber, B., Tsai, C., 1999. Improved methods for tests of long-run abnormal stock returns. Journal of
+Finance 54, 165 – 202.
+Malatesta, P., Walkling, R., 1988. Poison pill securities: stockholder wealth, profitability, and ownership structure. Journal of Financial Economics 20, 347 – 376.
+Smith, M., 1996. Shareholder activism by institutional investors: evidence from CalPERs. Journal of Finance 51,
+227 – 252.
+Strickland, D., Wiles, K., Zenner, M., 1996. A requiem for the USA: is small shareholder monitoring effective?
+Journal of Financial Economics 40, 319 – 338.
+Wahal, S., 1996. Pension fund activism and firm performance. Journal of Financial and Quantitative Analysis 31,
+1 – 23.
+Zingales, L., 1997. Corporate Governance. National Bureau of Economic Research Working Paper.
+
+

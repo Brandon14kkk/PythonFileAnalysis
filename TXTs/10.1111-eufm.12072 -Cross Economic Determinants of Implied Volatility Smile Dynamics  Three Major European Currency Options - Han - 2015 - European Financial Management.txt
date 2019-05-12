@@ -1,0 +1,3977 @@
+European Financial Management, Vol. 22, No. 5, 2016, 817–852
+doi: 10.1111/eufm.12072
+
+Cross Economic Determinants of
+Implied Volatility Smile Dynamics:
+Three Major European Currency
+Options
+Qian Han, Jufang Liang and Boqiang Wu
+The Wang Yanan Institute for Studies in Economics (WISE), National Key Lab of Econometrics,
+Xiamen University, Xiamen, China, P.R.
+E-mails: hanqian@gmail.com; Jufangliang@stu.xmu.edu.cn; wuboqiang@gmail.com
+
+Abstract
+
+This paper examines the contemporaneous and lead–lag relationships between
+economic variables and implied volatility smiles for three major European
+currency options. We ﬁnd that cross economic determinants are at least as
+important as own economic variables in explaining the dynamics of implied
+volatility smiles. Out-of-sample tests also suggest that cross economic variables
+are important in predicting an economy’s currency option smile. These ﬁndings
+suggest that the price impact from cross economic determinants may help ﬁll the
+gap between the theoretical and the practical implied volatility skews.
+Keywords: implied volatility smile, economic determinants, currency options
+JEL classification: G13
+
+1. Introduction
+
+The relationship between asset returns and the real economy has been widely studied for
+different ﬁnancial markets. Fama (1990) and Schwert (1990) ﬁnd that real stock returns
+contain rich information about future production growth rates. Estrella and Mishkin
+
+The authors thank Robert I. Webb (the discussant) and other participants in the 3rd
+International Conference on Derivatives and Risk Management for their valuable
+discussions and comments. We also thank the anonymous referee and the Editor for their
+very constructive comments and suggestions. Han’s research is supported by the National
+Science Foundation of China (project no. 71471153). Liang’s research is supported by
+Overseas Visit Project of Xiamen University Graduate School. Part of his work was
+completed during his visit to the University of North Carolina at Charlotte. All errors, if
+any, are those of the authors.
+© 2015 John Wiley & Sons, Ltd.
+
+818
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+(1998) examine the out-of-sample performance of several ﬁnancial variables, including
+stock prices, in predicting US recessions. Stock and Watson (1999, 2003) show that
+asset prices can be used to forecast inﬂation and output. Hong and Yogo (2012) argue that
+open interest of commodity futures is more informative about future economic activity
+than futures prices. Welch and Goyal (2008) and Rapach et al. (2013) investigate the outof-sample predictability of real economic variables on equity premium. Beber and
+Brandt (2006) examine the effect of macroeconomic news announcements on the
+moments of risk-neutral state price densities extracted from bond options markets.
+Ludvigson and Ng (2009) ﬁnd signiﬁcant predictive power of real activity for bond risk
+premia.
+This paper studies the cross asset–economy relationship, i.e., how asset prices in one
+country or region may be affected by or contain predictive information about economic
+variables in another country or region.1 Speciﬁcally, we examine the role of own, and in
+particular cross, economic determinants on three major European currency option
+implied–volatility–smile (IVS) dynamics. These options are over-the-counter (OTC)
+options for euro (EUR), British pound (GBP) and Swiss franc (CHF), all quoted against
+US dollars (USD). We address three questions. Which own and cross economic variables
+are relevant to explain the contemporaneous dynamics of the three currency option IVS
+dynamics? Are there any Granger causality relationships between each of these
+economic variables and the currency option IVS dynamics? Are cross economic
+variables important in the out-of-sample predictions of the currency option IVS
+dynamics?
+To answer these questions, we ﬁrst use the option price quotes, i.e., at-the-money
+(ATM) volatility, risk reversal (RR) and butterﬂy spread (Bﬂy), to capture the
+shape of the IVS. The ATM corresponds to the level of the smile curve, RR describes
+the asymmetry of the curve and Bﬂy proxies the curvature of the curve. We further
+propose that RR measures net speculative demand (NSD) and Bﬂy is a measure
+of the gross hedging pressure (GHP) of the corresponding currency. The
+economic determinants we consider are largely taken from the literature and can
+be divided into three groups: variables from the foreign exchange market, from the
+stock market and from the bond market. We use ordinary least squares (OLS)
+regressions to test the contemporaneous correlations between curve characteristics
+and own or cross economic variables, and then apply a multivariate autoregressive regression (VAR) analysis to examine their Granger-causality relationships.
+Impulse response and variance decomposition analyses are conducted as robustness
+checks.
+We ﬁnd that cross economic variables are at least as, sometimes more, important
+determinants of currency IVS dynamics than their own economic variables.
+Contemporaneously, historical volatilities of currencies are positively associated with
+ATM volatilities of other currencies. A negative spot rate return in one currency market
+is accompanied by an increase in the ATM volatilities of other currencies. The
+1
+
+The economic variables studied in this paper are not strictly real economic activity proxies.
+Rather, they are variables from the ﬁnancial markets. However, the literature of empirical
+option pricing has termed them ‘economic determinants’ to differentiate these determinants
+from the underlying asset characteristics. We use this term to keep consistency with this line
+of research.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+819
+
+Switzerland stock market characteristics are closely associated with the RR and Bﬂy for
+the pound and euro. And default risk in the euro bond market seems highly associated
+with the implied volatilities of the Swiss franc and the pound.
+The importance of cross economic variables is also shown in the Granger-causality
+tests. For example, the historic volatility of the stock index in the euro area has predictive
+power for the butterﬂy spread of the pound. The pound spot return Granger-causes the
+risk reversal of all three options. The risk reversals of the euro and pound both positively
+Granger-cause the spot rate trends of the other two currencies. Default spread does not
+play any role in the Granger causality tests for butterﬂy spread and risk reversal but is
+very important for ATM volatility. The ATM volatilities of the Swiss franc and the euro
+Granger-cause the default spreads for all three economies. Both the impulse response and
+variance decomposition analyses conﬁrm our ﬁndings. In particular, the variance
+decomposition analysis, which explicitly quantiﬁes the magnitudes of contributions to
+the forecast error variance of the smile dynamics of both own and cross economic
+variables, ﬁnds a more signiﬁcant role played by cross economic variables. Because
+previous studies claim that in-sample analyses may be unreliable due to over-ﬁtting
+concerns, we also conduct out-of-sample tests to examine the predictive power of cross
+economic variables. The results suggest that cross economic variables are at least as
+important in predicting an economy’s currency option smile dynamics out-of-sample as
+its own economic variables.
+Why is a country’s currency option IVS dynamics signiﬁcantly determined by another
+country’s economic variables? The unprecedented speed of economic and ﬁnancial
+globalisation over the past few decades seems to be a plausible reason. Economic
+interaction among different countries and regions has soared, and ﬁnancial markets
+around the world have seen increased return correlations, volatility spillover and risk
+contagion. Rizova (2010) shows that, in a two-country, Lucas-tree model with
+information diffusion, returns in one country can predict returns in a trading partner
+country. European economic integration is probably the most successful regional
+integration so far in history and European Union countries trade heavily with each other
+due to historical and geographical bonds among union members. Table 1 lists the top
+trading partners for the three nations under consideration. For the UK, the European
+Union dominates other countries and regions in both imports and exports, while
+Switzerland is ranked 3rd in exports and 5th in imports. The EU and Switzerland are each
+other’s major trading partners with over 50% (74%) of exports (imports) of Switzerland
+going to (coming from) the EU. In theory, these close trade ties will facilitate information
+diffusion across the three economies, leading to Granger-causal relationships between
+their asset prices.
+In addition, macroeconomists tend to agree that currency value is a good economic
+indicator. If this is the case, then the progress of economic integration should strengthen
+relationships between currency returns, consequently increasing the correlation between
+currency option prices. In fact, as shown in Figure 1, the correlation between USD/EUR
+and USD/CHF returns is as high as 72% (USD/EUR and USD/GBP is 65% while USD/
+CHF and USD/GBP is 42%).
+An alternative explanation is that, as pointed out in Rapach et al. (2013), information
+diffuses from the market with the most investor attention to other markets. The three
+currencies in this study are all among the most actively traded and most inﬂuential
+currencies in the global foreign exchange market. Indeed, the euro is the major
+alternative reserve currency after the US dollar, the Swiss franc is commonly perceived
+© 2015 John Wiley & Sons, Ltd.
+
+820
+
+Qian Han, Jufang Liang and Boqiang Wu
+Table 1
+Trade Data of the United Kingdom, European Union and Switzerland
+
+This table lists the percentage shares in the imports and exports of the top ﬁve trading partners for the
+United Kingdom, European Union and Switzerland in 2012. The data are collected from the WTO
+statistics database.
+
+Switzerland
+Exports(%)
+1.
+2.
+3.
+4.
+5.
+
+European Union (27)
+United States
+Hong Kong, China
+China
+Japan
+
+Imports(%)
+55.73
+11.12
+3.91
+3.70
+3.29
+
+1.
+2.
+3.
+4.
+5.
+
+European Union (27)
+United States
+China
+Japan
+Hong Kong, China
+
+74.61
+5.65
+5.55
+2.26
+0.97
+
+UK
+Exports(%)
+1.
+2.
+3.
+4.
+5.
+
+European Union (27)
+United States
+Switzerland
+China
+Hong Kong, China
+
+Imports(%)
+48.46
+13.34
+3.37
+3.26
+1.90
+
+1.
+2.
+3.
+4.
+5.
+
+European Union (27)
+United States
+China
+Norway
+Switzerland
+
+47.38
+8.90
+8.16
+4.81
+4.00
+
+EU
+Exports(%)
+1.
+2.
+3.
+4.
+5.
+
+United States
+China
+Switzerland
+Russian Federation
+Turkey
+
+Imports(%)
+17.31
+8.53
+7.97
+7.31
+4.45
+
+1.
+2.
+3.
+4.
+5.
+
+China
+Russian Federation
+United States
+Switzerland
+Norway
+
+16.18
+11.92
+11.50
+5.89
+5.61
+
+by the market as a safe haven currency alongside the US dollar and Japanese yen, and the
+pound is a traditionally strong currency outside the eurozone due to the size of the British
+economy and the importance of London as a world ﬁnancial centre. Table 2 presents the
+market turnover shares and rankings of major currencies (Panel A) and currency pairs
+(Panel B). The euro, British pound and Swiss franc are constantly ranked 2nd, 4th and
+6th, respectively, in terms of their share of the global foreign exchange market turnover.
+The USD/EUR, USD/GBP and USD/CHF pairs are consistently among the top four
+currency pairs. Hence new information starting from any one of these three economies
+can diffuse to other economies, generating lead–lag relationships in their currency and
+option prices.
+This study ﬁlls a gap in the literature of empirical option pricing as almost nothing is
+known about the own economic determinants of currency option implied volatilities, not
+to mention the cross determinants, even though understanding this market is quite
+important for both practitioners and academics because of the huge scale of the foreign
+exchange market. More importantly, it extends existing studies of own economic
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+821
+
+Fig. 1. Time series of exchange rates.
+This ﬁgure shows the time series of the exchange rates of the three currencies. The horizontal axis is
+the transaction date and the vertical axis refers to the exchange rate of the currency. USDCHF,
+GBPUSD and EURUSD stand for the Swiss franc, the British Pound and the Euro, respectively. The
+sample is from 3rd January, 2000 to 1st June, 2012, and has been divided into two parts. The shadow
+part is from 12th November, 2007 to 1st June, 2012. The data are from Wharton Research Data
+Services.
+
+determinants of the implied volatility surface2 and sheds light on the option pricing
+literature by revealing cross economic variables to be signiﬁcant contributors to the
+shape of the implied volatility smile.3
+The rest of the paper is structured as follows. Section 2 presents the summary statistics
+of the data. Section 3 investigates and reports the contemporaneous and Granger
+causality relationships between various economic variables and the three major currency
+option volatility smiles. An out-of-sample analysis is also conducted. Section 4
+concludes.
+
+Pena et al. (1999) are the ﬁrst to study this line of thought. Using the IBEX-35 Spanish index
+options, they ﬁnd that transaction costs and market conditions, such as the volatility of the
+underlying and market momentum are key factors driving implied volatility function shapes.
+Mixon (2002) links economic variables to the principal components of the S&P 500 index
+implied volatility surface and demonstrates the importance of short-term interest rates and
+credit spread in modelling implied volatility. Deuskar et al. (2008) explore the economic
+determinants of Euro interest rate caps and ﬂoors and ﬁnd that the spot rate, the slope of the
+yield curve and the cost of liquidity in the options market are relevant for determining the
+implied volatility surface. Different from these studies, we focus on how information from
+economic variables in one country helps explain the variation of the option smile dynamics
+for another currency.
+3
+The papers by Krylova et al. (2009) and Nikkinen et al. (2006) use similar samples as this
+study; however, they do not address the question of what are the economic determinants of
+the entire IVS shape.
+2
+
+© 2015 John Wiley & Sons, Ltd.
+
+822
+
+Qian Han, Jufang Liang and Boqiang Wu
+Table 2
+Currency shares in the global foreign exchange market
+
+Panel A lists the percentage shares of the average daily turnover in April of each survey year for the top
+5 currencies in the global foreign exchange market from 2004 to 2013. The data are collected from the
+Triennial Central Bank Survey for International Settlements. Panel B lists the amount and the share of
+the average daily turnover in April of each survey year for the top four currency pairs in the global
+foreign exchange market from 2004 to 2013. The amount is in billions of US dollars. The data are
+collected from the Triennial Central Bank Survey Bank for International Settlements.
+
+Panel A: Currency distribution of global foreign exchange market turnover
+2004
+Currency
+USD
+EUR
+JPY
+GBP
+CHF
+
+2007
+
+2010
+
+2013
+
+Share(%)
+
+Rank
+
+Share(%)
+
+Rank
+
+Share(%)
+
+Rank
+
+Share(%)
+
+Rank
+
+88
+37
+20
+17
+6
+
+1
+2
+3
+4
+5
+
+85
+37
+17
+15
+7
+
+1
+2
+3
+4
+5
+
+85
+40
+19
+13
+6
+
+1
+2
+3
+4
+6
+
+87
+33
+23
+12
+5
+
+1
+2
+3
+4
+6
+
+Panel B: Global foreign exchange market turnover by currency pair
+2004
+Currency Pair
+USD/EUR
+USD/JPY
+USD/GBP
+USD/CHF
+
+2007
+
+2010
+
+2013
+
+Amount
+
+%
+
+Amount
+
+%
+
+Amount
+
+%
+
+Amount
+
+%
+
+541
+328
+259
+83
+
+28
+17
+13.4
+4
+
+892
+438
+384
+151
+
+27
+13
+12
+5
+
+1,098
+567
+360
+166
+
+28
+14
+9
+4
+
+1,289
+978
+472
+184
+
+24
+18
+9
+3
+
+2. Data
+
+2.1. Data and descriptions
+We obtain, from one of the major dealers in the OTC currency options market, daily
+middle price quotes from January 2000 to June 2012 for three one-year-maturity currency
+options including EUR (quoted in US dollars per euro), CHF (quoted in Swiss francs per
+US dollar) and GBP (quoted in US dollars per British pound). By convention, currency
+option prices with different deltas are quoted by the corresponding ATM, RR and Bﬂy
+values. A 25 delta RR and Bﬂy, for example, are deﬁned as in the following equations:
+RR ¼ s þ  s 
+
+ð1Þ
+
+Bf ly ¼ ðs þ þ s  Þ=2  s 0
+
+ð2Þ
+
+where s0 is the ATM implied volatility, sþ is the implied volatility of the 25 delta
+call and s_ is the implied volatility of the 25 delta put. The 25 delta put is the put
+whose strike has been chosen such that the delta is –25%. Quotes for other deltas are
+deﬁned similarly.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+823
+
+There is a big variation in the number of quotes on any particular transaction day for a
+certain type of currency pair. Table 3 presents the data structure of the quotes for all
+currency pairs from January 2000 to June 2012. ATM implied volatilities, the 25 delta
+RR and the Bﬂy are always quoted; however most 10 delta and 15 delta RR and Bﬂy
+quotes do not appear until July 2007. For this reason, the sample we use primarily
+consists of the 25 delta RR and Bﬂy quotes of the three currency options. Adding the
+other deltas does not change our results signiﬁcantly.
+2.2. Economic meanings of risk reversal and butterﬂy spread
+Graphically, the ATM implied volatility captures the level, the risk reversal corresponds
+to the skewness and the butterﬂy spread captures the curvature, of the option implied
+
+Table 3
+The data structure of all quotes for the three FX options
+This table shows the data structure of all quotes for the three FX options in our sample from 3rd January,
+2000 to 1st June, 2012. ATM stands for at-the-money volatility. 10RR, 15RR, 20RR and 25RR stand for
+the risk reversal at the delta of 10, 15, 20 and 25, respectively. 10Bﬂy, 15Bﬂy, 20Bﬂy and 25Bﬂy stand
+for the butterﬂy spread at the delta of 10, 15, 20 and 25, respectively.
+
+Panel A: CHF option data structure
+Date
+
+Data
+
+03/03/2000–13/07/2009
+14/07/2009–24/03/2011
+25/03/2011–17/08/2011
+18/08/2011–01/02/2012
+12/02/2012–01/06/2012
+
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+
+25RR,
+10RR,
+10RR,
+10RR,
+10RR,
+
+25Bfly.
+15RR, 25RR, 10Bfly, 15Bfly, 25Bfly.
+25RR, 10Bfly, 25Bfly.
+20RR, 25RR, 10Bfly, 20Bfly, 25Bfly.
+25RR, 10Bfly, 25Bfly.
+
+Panel B: GBP option data structure
+Date
+
+Data
+
+03/01/2000–25/04/2007
+26/04/2007–03/07/2008
+04/07/2008–19/06/2009
+22/06/2009–30/08/2010
+31/08/2010–06/03/2012
+07/03/2012–01/06/2012
+
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+
+25RR,
+25RR,
+25RR,
+10RR,
+10RR,
+10RR,
+
+25Bfly.
+10Bfly, 25Bfly.
+10Bfly, 15Bfly, 25Bfly.
+25RR, 10Bfly, 15Bfly, 25Bfly.
+15RR, 25RR, 10Bfly, 15Bfly, 25Bfly.
+15RR, 20RR, 25RR, 10Bfly, 15Bfly, 20Bfly, 25Bfly.
+
+Panel C: EUR option data structure
+Date
+
+Data
+
+03/01/2000–12/12/2008
+15/12/2008–18/12/2008
+19/12/2008–06/07/2009
+07/07/2009–24/03/2011
+25/03/2011–29/06/2011
+30/06/2011–19/08/2011
+22/08/2011–01/06/2012
+
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+ATM,
+
+© 2015 John Wiley & Sons, Ltd.
+
+25RR,
+10RR,
+25RR,
+10RR,
+10RR,
+10RR,
+10RR,
+
+25Bfly.
+15RR, 25RR, 10Bfly, 15Bfly, 25Bfly.
+10Bfly, 15Bfly, 25Bfly.
+15RR, 25RR, 10Bfly, 15Bfly, 25Bfly.
+25RR, 10Bfly, 25Bfly.
+15RR, 25RR, 10Bfly, 15Bfly, 25Bfly.
+25RR, 10Bfly, 25Bfly.
+
+824
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+volatility smile curve. While ATM volatility is well known as a proxy of market
+uncertainty, the economic meanings of risk reversal and butterﬂy spread are not well
+discussed. Here we reinterpret these two concepts in an economically meaningful way so
+studying their correlations across the three currency options markets makes economic
+sense.
+Recent empirical option pricing literature (see, for example, Bollen and Whaley, 2004;
+Chan et al., 2004; Garleanu et al., 2009) reaches a consensus that net hedging pressure is a
+major factor in explaining the shape and dynamic of the implied volatility curve. The idea
+is that, given limits to arbitrage, the option supply curve should be upward sloping instead
+of a horizontal line, so net demand for options positively affects option prices. In particular,
+Garleanu et al. (2009) document that the implied volatility skewness for index options is
+mainly driven by net hedging pressure from out-of-money (OTM) puts. On the other hand,
+investors tend to buy cheap OTM calls to speculate on future price increases. So, loosely
+speaking, for any option, the left slope of the implied volatility curve measures hedging
+pressure, while the right slope reﬂects speculative demand for the underlying asset.
+We now extend these explanations to the currency options case. Unlike index options,
+currency options tend to smile, not smirk. So the shape of a currency option implied
+volatility curve can be clearly decomposed into two parts: the left slope and the right
+slope. Take USD/EUR as an illustration. From the discussion above, the right slope of the
+option smile curve reﬂects the speculative demand for euro appreciation, while the left
+slope, loosely corresponding to the right slope of an imaginary EUR/USD smile curve,
+captures the speculative demand for dollar appreciation (euro depreciation). Hence risk
+reversal, as the difference between the left and right slopes, is a proxy of net speculative
+demand (NSD) for the euro.
+From the hedging pressure perspective, the left slope of the option smile curve can be
+attributed to the net hedging pressure for euro depreciation insurance, while the right
+slope, corresponding to the left slope of an imaginary volatility curve for the EUR/USD
+pair, can be interpreted as the hedging pressure for dollar depreciation. So this butterﬂy
+spread, as the sum of the left and the right slopes, is a measurement of the gross hedging
+pressure (GHP) for both currencies.
+Figure 2 shows the time series of the 25 delta ATM, RR and Bﬂy of the three options.
+We make several observations. First, it is clear that in the ﬁrst period from January 2000
+to November 2007, for all three options, the implied volatility curves exhibit a low level
+of variation; in the second period from November 2007 to June 2012 they become more
+volatile. This is possibly due to both increasing speculative and hedging needs through
+the OTC trading of currency options after the recent global ﬁnancial crisis. In the
+following analysis, we focus on the second period as it spans both the global ﬁnancial
+crisis and the European sovereign debt crisis. The full sample is adopted as a robustness
+check. Second, our three major variables, ATM, RR and Bﬂy, reﬂect market uncertainty,
+NSD and GHP. Both market uncertainty and GHP increase as the sovereign debt crisis
+develops. For example, they jump to their highest levels when Iceland’s debt crisis
+emerges at the end of 2008. Then they decrease only to increase again when Greece takes
+central stage in the debt crisis in early 2010. The last two spikes occur when the crisis
+spreads to Portugal and Spain in late 2011 and then to Europe as a whole in early 2012.
+On the other hand, RR, as a proxy of NSD for currencies, exhibits a decreasing trend
+during the sample period. Before the global ﬁnancial crisis it ﬂuctuates around zero, in
+general, but after the crisis, and with the deepening of the European debt crisis, it
+becomes very negative, suggesting a dampening of the desire for speculation. Third, the
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+825
+
+Fig. 2. Time series of 25 delta ATM volatility, risk reversal and butterﬂy spread.
+This ﬁgure shows the time series of the butterﬂy spread, risk reversal and at-the-money volatility for the
+three FX options from 3rd January, 2000 to 1st June, 2012. The horizontal axis is the transaction date
+and the vertical axis refers to the value of the butterﬂy spread, risk reversal and at-the-money volatility
+of 25 delta. The sample has been divided into two parts. The shadow part is from 12th November, 2007
+to 1st June, 2012.
+© 2015 John Wiley & Sons, Ltd.
+
+826
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+three volatility curves tend to move together in general,4 with some leads and lags,
+suggesting that some common economic determinants of the option prices exist.
+2.3. The implied volatility surface for three currency options
+Before we move on to examine the economic determinants of currency options, we take a
+direct look at the IVS of these options. From equations (3) and (4), given a set of ATM,
+RR and Bﬂy quotes, we can derive the implied volatilities of puts and calls with their
+corresponding deltas using the following formula:
+1
+s þ ¼ ATM þ BF þ RR
+2
+
+ð3Þ
+
+1
+s  ¼ ATM þ BF  RR :
+2
+
+ð4Þ
+
+We then apply the Garman–Kohlhagen model to calculate the corresponding moneyness
+as the ratio of the strike price to the spot exchange rate for each day.
+As shown in Table 3, for some transaction days in the early part of the sample, certain
+types of quotes do not exist; so we can only get a limited number of points (si,(K/S)i) to
+compute the volatility smile. To take the missing points into consideration, we apply a
+polynomial interpolation to get a smooth volatility smile on every transaction day.
+Figure 3 shows the IVS for each option series during the sample period. On most
+transaction days, the implied volatility curve displays a smile shape for all options.
+Consistent with Figure 2, we observe a sharp lift of the surface around late 2007, and in
+the second period the smiles appear to be much steeper than in the ﬁrst period.
+2.4. Implied volatility function for the three option IVS
+In this section, we carry out statistical tests on the smile curves of the three option
+series by ﬁtting a quadratic functional form of moneyness to the implied volatilities.
+This form has been widely used in existing studies such as Pena et al. (1999) and
+Deuskar et al. (2008):
+IV ¼ a1 þ a2  Moneyness þ a3  Moneyness2 :
+
+ð5Þ
+
+For each day in the sample, we run this regression equation to estimate the coefﬁcients
+for each currency option series. We then calculate the time series average of these
+estimated coefﬁcients for the whole sample and the two subsamples. Table 4 presents the
+estimation results. All the average coefﬁcient estimates are statistically different from
+zero and have expected signs, consistent with the assumption that currency options
+smile, and do not smirk.
+To visualise this, Figure 4 plots the ﬁtted implied volatility function for the three
+options based on the averages of the above estimates. Consistent with our earlier
+4
+
+Note that the Swiss franc is quoted indirectly while both the euro and pound are quoted
+directly in terms of US dollars.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+827
+
+Fig. 3. Implied volatility surface of the three FX options.
+This ﬁgure shows the volatility surface of the three FX options by polynomial interpolation from 3rd
+January, 2000 to 1st June, 2012. The horizontal axes correspond to the moneyness ratio and time. The
+vertical axis corresponds to the implied volatility.
+© 2015 John Wiley & Sons, Ltd.
+
+828
+
+Qian Han, Jufang Liang and Boqiang Wu
+Table 4
+Volatility smile functional form
+
+This table shows the results of the estimated coefﬁcients for the function form of IVS during different
+sample periods for the three FX options. For each transaction day, the implied volatility for the three FX
+options is regressed on a quadratic function of the moneyness rate as follows:
+IV ¼ a1 þ a2 Moneyness þ a3 Moneyness2 :
+Then the estimated coefﬁcients and statistics are averaged for different sample periods. The t-statistics
+are shown in parentheses.
+
+Panel A: Swiss Franc estimates
+Sample
+Jan. 2000–Jun. 2012
+Jan. 2000–Nov. 2007
+Nov. 2007–Jun. 2012
+
+a1
+
+a2
+
+a3
+
+R2
+
+48.83
+(47.14)
+73.10
+(42.40)
+30.54
+(55.04)
+
+–76.27
+(–33.97)
+–121.96
+(–28.07)
+–41.85
+(–43.79)
+
+38.84
+(35.02)
+60.79
+(29.93)
+22.30
+(43.48)
+
+0.97
+0.97
+0.97
+
+Panel B: British Pound estimates
+Sample
+Jan. 2000–Jun. 2012
+Jan. 2000–Nov. 2007
+Nov. 2007–Jun. 2012
+
+a1
+
+a2
+
+a3
+
+R2
+
+45.38
+(38.93)
+69.24
+(38.67)
+31.70
+(39.39)
+
+–67.09
+(–28.01)
+–103.38
+(–27.53)
+–46.28
+(–28.83)
+
+31.82
+(27.25)
+46.86
+(27.81)
+23.20
+(26.27)
+
+0.96
+0.97
+0.95
+
+Panel C: Euro estimates
+Sample
+Jan. 2000–Jun. 2012
+Jan. 2000–Nov. 2007
+Nov. 2007–Jun. 2012
+
+a1
+
+a2
+
+a3
+
+R2
+
+44.36
+(46.26)
+67.67
+(41.54)
+31.09
+(54.50)
+
+–64.01
+(–32.32)
+–100.12
+(–27.98)
+–43.46
+(–39.90)
+
+31.04
+(32.02)
+45.90
+(29.32)
+22.58
+(36.74)
+
+0.98
+0.97
+0.95
+
+observations, on average the smile curves in the second subsample are higher and are
+more curved than those in the ﬁrst subsample. There also exist clear asymmetries in the
+shape of the smiles with the left slope steeper than the right. This is more so for the British
+pound and euro smiles and for those in the second subsample.
+3. Economic Determinants of the Three Option Smiles
+
+Recall that we are examining the signiﬁcance of cross and own economic determinants in
+currency option smile dynamics. We now consider contemporaneous and then lead–lag
+relations.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+829
+
+Fig. 4. Implied volatility surface of the three FX options.
+This ﬁgure shows the ﬁtted smile function for the three FX options for different sample periods. The
+whole sample is from 3rd January, 2000 to 1st June, 2012. The ﬁrst period is from 3rd January, 2000 to
+12th November, 2007. The second period is from 15th November, 2007 to 1st June, 2012. The
+horizontal axis corresponds to the moneyness ratio and the vertical axis corresponds to the implied
+volatility.
+© 2015 John Wiley & Sons, Ltd.
+
+830
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+3.1. The contemporaneous relationship
+As mentioned in the introduction, the ATM, RR and Bﬂy measures can capture the shape
+of an option smile. So we regress them on a set of economic variables to determine the
+relevant economic determinants.
+Our ﬁrst group of independent variables is related to the spot market, and includes the
+exchange rate return (FX Return), return trend (FX Trend) and historical return volatility
+(FX Hisvol). The exchange rate return is computed as the daily log return of the currency.
+The return trend is calculated as the difference between the log exchange rate of today
+and that of 30 days ago. If the exchange rates are mean-reverting, then low exchange
+rates are likely to be followed by exchange rate increases which may be reﬂected in a
+high demand for out-of-money calls, thus inﬂuencing the shape of the volatility smile.
+Historical volatility is calculated as the volatility of currency returns in the past 90 days
+and is commonly perceived as a measurement of uncertainty of the spot rate market.
+When market uncertainty goes up, the demand for out-of-money calls and out-of-money
+puts will increase. As a result, the hedging pressures for the euro and US dollar will both
+increase and lead to a more curved smile. Exchange rates data are obtained from Wharton
+Research Data Services.
+Our second group of candidate economic determinants contains variables related to
+the stock market including index trend (Index Trend) and historic volatility of index
+returns (Index Hisvol). Index Trend is calculated as the log difference between today’s
+market index and that of 100 days ago. We choose FTSE 100, SMI and STOXX50E as
+the market indexes for the UK, Switzerland and the Eurozone, respectively. As a
+barometer of the economy, a downward stock market may indicate a weakened economy
+from which yield-chasing capital tends to ﬂee, so its exchange rate will be under pressure
+to depreciate, leading to higher demand for out-of-money put protection. Return historic
+volatility is calculated as the standard deviation of the market index return for the past
+90 days. When uncertainty rises, currency hedging demand should increase, and so will
+the curvature of the option IVS. Market index data are downloaded from Yahoo Finance.
+In our last group of independent variables, we include default spread (Default Spread)
+as the yield difference between each economy’s 10 year government bond and the US
+10-year Treasury note. For EUR, we take the averages of all eurozone countries’ 10 year
+government bond yields, provided by European Central Bank, as a proxy of the
+government bond rate. The data for the government bond yields in the UK, Switzerland
+and US are from the Bank of England, the Swiss National Bank and the Federal Reserve
+Bank of St. Louis, respectively. We incorporate this variable because it reﬂects
+the probability of default and a spread increase may lead to capital outﬂow from the
+economy, as was observed in the recent European sovereign debt crisis. As a result,
+demand for out-of-money put protection will increase.
+Table 5 reports the summary statistics of all variables in the subsequent regression
+analyses. The means of RR for all currencies are negative,5 suggesting that average
+investors use these currency options to hedge rather than speculate during this period. On
+average, the Swiss franc charges a negative default risk premium relative to the US
+dollar, consistent with its status as a safe haven currency. The means of the exchange rate
+return and trend for the three currencies are all negative, indicating a decreasing trend for
+the three currencies in our sample period.
+5
+
+Again note that the quote for Swiss francs is CHF per US dollar.
+
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+831
+
+Table 5
+Summary statistics of the dependent and independent variables
+This table presents the summary statistics for all the variables of interest from 12th November, 2007 to
+1st June, 2012. The default spread of one economy is caculated as the difference between that
+economy’s 10 year government bond and that of the US Treasury bond. Index Trend is calculated as the
+difference between the spot log market index of today and that of 100 days ago. Index Hisvol refers to
+the volatility of the market index return for the past 90 days. FX Return refers to the daily log return. FX
+Trend is calculated as the difference between today’s spot log exchange rate and that of 30 days ago. FX
+Hisvol is calculated as the volatility of the currency return in the past 90 days. RR, Bﬂy and ATM refer
+to the butterﬂy spread, risk reversal and at-the-money volatility of the FX option, respectively. FX
+Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend
+and Index Hisvol are from Yahoo Finance. Default Spread Fr, Default Spread £ and Default Spread s
+are based on data from the Swiss National Bank, the Bank of England, the European Central Bank and
+the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+The Default Spread, Index Trend, Index Hisvol, FX return, FX Trend and FX Hisvol values are in
+percentages.
+
+Variable
+Bfly Fr
+Bfly £
+Bfly s
+RR Fr
+RR £
+RR s
+ATM Fr
+ATM £
+ATM s
+Index Trend Fr
+Index Trend £
+Index Trend s
+Index Hisvol Fr
+Index Hisvol £
+Index Hisvol s
+FX Return Fr
+FX Return £
+FX Return s
+FX Trend Fr
+FX Trend £
+FX Trend s
+FX Hisvol Fr
+FX Hisvol £
+FX Hisvol s
+Default Spread Fr
+Default Spread £
+Default Spread s
+VIX
+MOVE
+
+© 2015 John Wiley & Sons, Ltd.
+
+Mean
+0.582
+0.542
+0.549
+0.222
+–1.766
+–1.485
+12.580
+12.340
+13.110
+0.017
+0.017
+0.023
+1.360
+1.500
+1.750
+–0.012
+–0.026
+–0.014
+–0.003
+–0.899
+–0.359
+0.672
+0.604
+0.610
+–1.194
+0.558
+0.846
+26.790
+114.560
+
+Std.Dev.
+0.160
+0.180
+0.171
+0.836
+0.738
+1.276
+1.904
+2.723
+2.337
+2.050
+2.210
+2.570
+0.513
+0.546
+0.541
+0.831
+0.757
+0.753
+4.080
+5.590
+5.110
+0.192
+0.210
+0.166
+0.382
+0.275
+0.644
+11.060
+35.390
+
+Min
+
+Max
+
+0.350
+0.300
+0.325
+–4.000
+–4.000
+–4.500
+7.650
+8.200
+7.350
+–16.300
+–13.400
+–15.300
+0.764
+0.860
+1.020
+–5.450
+–3.920
+–3.840
+–17.300
+–29.600
+–21.600
+0.356
+0.330
+0.309
+–2.024
+–0.070
+–0.322
+14.260
+56.700
+
+1.000
+1.000
+1.000
+2.200
+–0.300
+0.701
+18.050
+20.250
+19.800
+12.100
+11.200
+10.800
+2.490
+2.770
+3.000
+8.470
+4.470
+4.620
+15.600
+15.700
+18.300
+1.060
+1.230
+1.080
+0.154
+1.480
+2.978
+80.860
+264.600
+
+Obs
+1,190
+1,190
+1,190
+1,190
+1,190
+1,190
+1,110
+1,110
+1,110
+1,105
+1,105
+1,105
+1,104
+1,104
+1,104
+1,190
+1,190
+1,190
+1,110
+1,110
+1,110
+1,190
+1,190
+1,190
+1,075
+1,062
+1,073
+1,073
+1,073
+
+832
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+The regression speciﬁcations are as follows.6 For some time series of variables that are
+I(1), we take their ﬁrst-order differences to ensure that all the variables used in the
+regressions are stationary. Each regression includes an AR(1) error term to correct for
+serial correlations.
+IV S it ¼ ci þ S3j¼1 a1;i;j FX Returnj;t þ a1;i;j FX Trend j;t þ a3;i;j FX Hisvolj;t
+þ a4;i;j IndexTrend j;t þ a5;i;j IndexHisvolj;t þ a1;i;j Spread j;t Þ
+þ a7;i;j V IX t þ a8;i;j MOV Et þ ei;t
+
+ð6Þ
+
+where IVSi denotes either Bﬂy, RR or ATM and i and j stands for the three currencies. We
+run 3  3 ¼ 9 regressions in total. Since there are many candidate predictor variables, we
+apply stepwise regressions to extract the best subsets of regressions to ensure that the
+ﬁnal models are more concise yet retain good explanatory power.
+Rapach et al. (2013) ﬁnd that lagged US returns signiﬁcantly predict returns in many
+non-US industrialised countries, suggesting the leading role of the US stock market as a
+common factor for global asset returns. Longstaff et al. (2011) study the sovereign CDS
+markets and show that the US equity, volatility and bond market risk premia are
+predictive of a signiﬁcant amount of variation in sovereign credit returns. Our focus in
+this paper is volatility rather than return, and the volatility spillover from the US is shown
+to be weak in economic terms according to Christiansen (2007). However, to separate out
+cleanly the within-Europe effect from the global effect, we still control for the US factors
+in regression (6). Speciﬁcally, we use the VIX and MOVE, implied volatility indices of
+US stock and Treasury bond yield, which are used in Zhou (2014), as control variables.
+Table 6 reports the regression results. We ﬁrst check the effect of own economic
+variables on the shape of the smiles. Consistent with the notion that butterﬂy spread
+measures GHP, for both the pound and euro, Bﬂy is negatively associated with their own
+stock market trend. This notion is also evidenced in that, for all three currencies, Bﬂy is
+positively associated with the historic volatility of each currency’s spot rate returns.
+Default spread is a positive determinant of the Swiss franc, but not for the other two
+currencies.
+The results presented in Panel B indicate that both euro and pound risk reversals are
+positively associated with their own stock market trend, suggesting that a rising stock
+market induces investors to speculate on currency appreciation. Similar observations can
+be made for currency spot returns. In sharp contrast with the Bﬂy case, for each option,
+RR is not signiﬁcantly related to stock market volatility. Default spread is an important
+determinant for the euro, possibly because an increase in default probability leads
+investors to speculate on euro depreciation.
+In Panel C we ﬁnd a positive relationship between ATM implied volatility and the
+historic volatilities of spot rate returns and stock market returns. This is intuitive as they
+both measure market uncertainty in the market except that implied volatility is forwardlooking while historical volatility is backward-looking. In addition, the spot rate return is
+negatively associated with its own ATM volatility for all options, consistent with the
+6
+
+To lessen the bias due to extreme outliers and for ease of interpretation of results, in the
+following analyses all variables are standardised by subtracting the mean and then dividing
+the result by the standard deviation.
+© 2015 John Wiley & Sons, Ltd.
+
+© 2015 John Wiley & Sons, Ltd.
+
+2.0pt
+
+0.0624
+
+Fr
+£
+s
+
+
+
+Fr
+
+–0.0575
+
+Fr
+
+HisVol
+
+Fr
+£
+s
+
+Trend
+
+0.0893
+0.0414
+
+0.0644
+
+
+
+s
+
+£
+
+
+
+–0.0667
+
+s
+
+–0.2360
+0.1830
+
+£
+
+Stock market
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+
+–0.1270
+Fr
+0.0997
+0.0518
+
+–0.0795
+
+Fr
+
+0.0925
+–0.0439
+
+Fr
+
+–0.0661
+£
+0.0466
+0.1060
+
+£
+
+–0.0499
+–0.1420
+
+£
+
+Currency market
+s
+
+0.0440
+0.0692
+
+–0.0643
+s
+
+s
+
+–0.0699
+
+Panel A: Butterfly spread
+
+VIX
+MOVE
+
+Fr
+£
+s
+
+Spread
+
+
+
+0.0971
+
+Fr
+
+–0.0471
+
+£
+
+
+
+
+
+0.1120
+0.1240
+
+£
+
+Global factors
+
+0.1690
+–0.0563
+–0.1600
+
+Fr
+
+Bond market
+
+0.1040
+
+s
+
+–0.0486
+
+s
+
+IVSi can be RR, Bﬂy and ATM. i and j stand for the three currencies. FX Return, FX Trend and FX Hisvol are based on the data from Wharton Research Data
+Services. Index Trend and Index Hisvol are from Yahoo Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on the data from the Swiss
+National Bank, the Bank of England, the European Central Bank and the Fed Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg
+Database.  p-value < 0.1,  p-value < 0.05,  p-value < 0.01.
+
+þa7;i;j VIX t þ a8;i;j MOVEt þ ei;t :
+
+þa4;i;j Index Trend j;t þ a5;i;j Index Hisvolj;t þ a1;i;j Spread j;t Þ
+
+IVSi;t ¼ ci þ S3j¼1 a1;i;j FX Returnj;t þ a1;i;j FX Trend j;t þ a3;i;j FX Hisvolj;t
+
+This table shows the regression results of the economic variables on the smile in the second subsample (from 12th November, 2007 to 1st June, 2012) as follows:
+
+Table 6
+Regression of economic determinants on the characteristics of IVS
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+833
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+
+0.0363
+0.0487
+
+Hisvol
+
+Fr
+£
+s
+
+–0.1030
+
+£
+
+Fr
+
+0.0957
+–0.1870
+
+Trend
+
+Fr
+£
+s
+
+0.1010
+–0.1310
+
+£
+
+
+
+–0.0943
+0.1420
+
+£
+
+Stock market
+
+0.2470
+–0.2280
+
+Fr
+£
+s
+
+
+
+Fr
+
+Trend
+
+Stock market
+
+
+
+
+–0.1080
+
+s
+
+–0.0557
+0.038
+0.0306
+
+s
+
+0.1580
+
+–0.1320
+
+s
+
+Fr
+£
+s
+
+Return
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+
+
+
+–0.3000
+–0.0889
+–0.3650
+
+Fr
+
+
+
+–0.1160
+–0.3180
+–0.1280
+
+£
+
+Currency market
+
+Panel C: ATM volatility
+
+–0.0826
+0.0571
+
+0.0996
+
+
+
+£
+
+£
+
+0.3250
+0.0598
+
+£
+
+Fr
+
+Fr
+
+–0.1570
+0.1460
+0.0637
+
+Fr
+
+Currency market
+
+Panel B: Risk reversal
+
+Table 6
+Continued
+
+
+
+
+
+
+
+–0.2530
+–0.0919
+–0.3780
+
+s
+
+–0.0791
+
+s
+
+0.0822
+
+s
+
+0.1200
+0.0673
+0.4770
+
+s
+
+Fr
+£
+s
+
+Spread
+
+VIX
+MOVE
+
+Fr
+£
+s
+
+Spread
+
+–0.0729
+
+£
+
+–0.0347
+0.0908
+
+£
+
+Bond market
+
+–0.0421
+0.1710
+
+Fr
+
+0.047
+–0.0746
+
+£
+
+Global factors
+
+–0.0407
+
+Fr
+
+Fr
+
+Bond market
+
+–0.0442
+0.1690
+
+s
+
+–0.0676
+
+s
+
+–0.1500
+
+0.1370
+
+s
+
+834
+Qian Han, Jufang Liang and Boqiang Wu
+
+£
+
+0.1260
+0.0486
+–0.0794
+
+Fr
+
+0.1090
+0.0521
+–0.0466
+
+Hisvol
+
+Fr
+£
+s
+
+0.1240
+0.0409
+–0.0376
+
+s
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+© 2015 John Wiley & Sons, Ltd.
+
+0.1130
+
+
+
+0.1010
+Fr
+
+Fr
+
+0.1470
+
+£
+0.1150
+0.0429
+
+s
+
+0.0539
+s
+
+–0.0346
+
+£
+
+Panel C: ATM volatility
+
+Table 6
+Continued
+
+VIX
+MOVE
+
+0.1120
+0.1010
+
+Fr
+
+0.0991
+0.0793
+
+£
+
+Global factors
+0.1360
+0.0994
+
+s
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+835
+
+836
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+well-documented negative return-volatility relationship for equities. Default spread is
+signiﬁcantly associated with ATM volatility in the eurozone.
+Now we turn to the inﬂuence of cross economic determinants. From Panel A, the
+historical volatility of the Swiss stock market is positively associated with Bﬂy or the GHP
+of the other two currencies. In addition, Panel B shows that uncertainty in the Swiss stock
+market is negatively associated with RR or the speculative demand for the other two
+currencies. In comparison, however, uncertainties in the British and eurozone stock
+markets are not related to speculation or hedging pressure on the Swiss franc. These
+observations are consistent with the market recognition of the Swiss franc as a safe
+currency.
+The spot rate return of one currency is highly related to speculations on other
+currencies. For example, the spot rate return of the pound is positively related to
+speculation on the Swiss franc with a signiﬁcant coefﬁcient of 0.146. Cross economic
+variables also play a signiﬁcant role in ATM volatility, as shown in Panel C. In general,
+historical volatilities of currencies are positively associated with ATM volatilities of
+other currencies. Similarly, a negative spot rate return in one currency market tends to
+drive up the ATM volatilities of other currencies.
+An increase in the default risk in the eurozone bond market is positively associated with
+the ATM volatilities of the Swiss franc and the pound. However, default risk in Swiss and
+British bond markets is not cross related to the implied volatilities of other currencies. This
+central role played by the euro has probably been best illustrated in the recent European
+Sovereign debt crisis. As the default probability of the eurozone increases, fear not only
+boosts uncertainty in the euro options market, but also spreads to the other two markets.
+Finally, it is worth noting that the two US variables, VIX and MOVE, have signiﬁcant
+explanatory power on the smile dynamics. VIX is positively assotiated with the Bﬂy and
+ATM for all currency options, consistent with the volatility spillover effect documented
+in the literature. MOVE is positively related to the ATM volatility for all currencies, and
+negatively correlated with the RR of the pound and euro.
+To summarise, we ﬁnd some interesting contemporaneous interactions between own
+and cross economic variables and the option smiles of these three currencies. The stock
+market performance of Switzerland is closely related to the speculation and hedging
+demand for the pound and the euro. And default risk in the euro bond market is highly
+associated with the implied volatilities of the Swiss franc and the pound.
+3.2. The lead–lag relationships
+In this section, we uncover the lead–lag relationships between the candidate economic
+variables and the shape of the volatility smiles. We apply a multivariate vector
+autoregressive regression (VAR) model to calculate the ATM, RR and Bﬂy of the three
+currency options, and include all the economic variables in the previous section as
+explanatory variables.7 Since some of the variables are non-stationary, we take their ﬁrstorder differences to ensure their stationarity. The number of lags is automatically chosen
+according to the HQ criterion.
+7
+
+A recent advance in causality analysis is the directed acyclic graphs (DAG) model. This
+technique has been used in Yang and Zhou (2013) to study the credit risk spillover among
+ﬁnancial institutions. However, we believe that a regular multivariate VAR model is
+sufﬁcient for our purposes.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+837
+
+3.2.1. Granger causality tests. Panel A of Table 7 presents the p-values for testing the
+null hypothesis that economic variables do not Granger-cause the butterﬂy spread by
+testing whether the coefﬁcients of the lag terms of the economic variables are jointly
+zero. Panel B reports the results for testing the contra. Of note is that many fewer lead–lag
+relationships exist between the butterﬂy spread and economic variables compared with
+the contemporaneous results.
+There are several exceptions. First, the Bﬂy or the market GHP on the pound can
+Granger-cause the movement of its own spot rate return, trend and volatility. Second,
+historical volatility for Swiss index returns can predict the future value of its own butterﬂy
+spread. And the historic volatility of the stock index in the eurozone has predictive power
+for the butterﬂy spread of the pound, although they have no contemporaneous relationships.
+Panel A of Table 8 shows a different picture. There are more Granger-causality
+relationships between RR and its own and cross economic variables. For example, the euro
+spot return Granger-causes the RR of its own and that of the Swiss franc. The pound spot
+return Granger-causes the RR of all three options. In contrast with the contemporaneous
+tests, default spread does not have predictive information about risk reversal.
+Risk reversal Granger-causes many economic variables. As shown in Panel B of
+Table 8, the risk reversals of the euro and pound both positively Granger-cause the spot
+rate returns and trends of the other two currencies, suggesting that currency speculations
+may spread to spot markets in other economies. Cross lead–lag relationships are also
+observed between risk reversal and stock market characteristics.
+Although we ﬁnd a signiﬁcant contemporaneous relationship between ATM volatility
+and the historic volatility of the spot rate return or the stock index return, based on results
+in Panel A of Table 9, we fail to reject most of the hypotheses that no lead–lag
+relationships exist between these variables. Neither can any other economic variables
+Granger-cause ATM volatility. However, from Panel B, ATM volatility contains
+important predictive information about the future default spread as evidenced by the
+ATM volatilities of the Swiss franc and the euro both Granger-causing the default
+spreads for all three economies. This again highlights the informational importance of
+euro and Swiss franc option prices.
+It is also interesting to note that the ATM volatilities of the three European currency
+options Granger-causes changes of MOVE, implied volatility extracted from the US
+bond market.
+3.2.2. Impulse response analysis. We now present in Figure 4 the impulse response
+analysis results based on the VAR model, standardised by Cholesky decomposition, to
+determine the persistence of any impact. Since the Cholesky decomposition is sensitive
+to the ordering of the VAR, we choose the order according to the Wold causal ordering,
+i.e., we order the VAR from the most exogenous variable to the most endogenous one
+based on the results of the Granger causality.8 For brevity we only present results for
+selected cases. Results for other cases are consistent with the Granger causality test
+results and are available upon request.
+Panel A of Figure 5 demonstrates the response of the butterﬂy spread of the Swiss
+franc to a one Cholesky standard deviation shock to the Swiss index’s historic volatility.
+8
+
+The results of the impulse response function are robust to changes in variable ordering in the
+VAR model.
+© 2015 John Wiley & Sons, Ltd.
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+£
+s
+
+Hisvol
+
+Fr
+£
+s
+
+Trend
+
+0.0583
+0.6107
+0.7678
+
+Fr
+
+0.8816
+0.7583
+0.7640
+
+Fr
+
+
+
+0.8329
+0.2544
+0.0012
+
+£
+
+0.3206
+0.6271
+0.9666
+
+£
+
+Stock market
+
+0.1722
+0.6802
+0.4115
+
+s
+
+0.7494
+0.7605
+0.6981
+
+s
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+0.2763
+0.2444
+0.0585
+Fr
+0.6198
+0.1619
+0.5678
+
+Fr
+
+0.8112
+0.2011
+0.7885
+
+Fr
+
+0.3231
+0.2774
+0.2317
+£
+0.7998
+0.7172
+0.9307
+
+£
+
+0.2765
+0.4245
+0.1760
+
+£
+
+Currency market
+
+0.9662
+0.2014
+0.0889
+s
+0.8169
+0.2364
+0.6485
+
+s
+
+0.6325
+0.1086
+0.3072
+
+s
+
+VIX
+MOVE
+
+Fr
+£
+s
+
+Spread
+
+0.8433
+0.9468
+0.7811
+
+£
+
+0.1295
+0.5227
+
+Fr
+
+0.0907
+0.6943
+
+£
+
+Global factors
+
+0.8794
+0.5450
+0.7929
+
+Fr
+
+Bond market
+
+Panel A: Null hypothesis – economic variables do not individually Granger-cause the butterfly spread
+
+
+
+0.2235
+0.2059
+
+s
+
+0.1618
+0.9185
+0.8659
+
+s
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables, each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 7
+Granger causality test for butterﬂy spread
+
+838
+Qian Han, Jufang Liang and Boqiang Wu
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+£
+s
+
+Hisvol
+
+Fr
+£
+s
+
+Trend
+
+0.2938
+0.6076
+0.6583
+
+Fr
+
+0.3764
+0.7777
+0.4087
+
+Fr
+
+0.7679
+0.9352
+0.4241
+
+£
+
+0.6507
+0.2161
+0.7494
+
+£
+
+Stock market
+
+0.5454
+0.4949
+0.6350
+
+s
+
+0.5973
+0.7956
+0.6199
+
+s
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+0.4592
+0.8384
+0.4048
+Fr
+0.4270
+0.9362
+0.4539
+
+Fr
+
+0.5878
+0.5080
+0.7583
+
+Fr
+
+0.5454
+0.0308
+0.4001
+£
+0.4282
+0.0865
+0.2199
+
+£
+
+0.3557
+0.0059
+0.2405
+
+£
+
+Currency market
+
+0.3762
+0.4538
+0.3009
+s
+0.8970
+0.8665
+0.8461
+
+s
+
+0.3178
+0.5774
+0.4862
+
+s
+
+Fr
+£
+s
+
+Fr
+£
+s
+
+Spread
+
+0.9809
+0.7712
+0.9259
+
+£
+
+0.6915
+0.0064
+0.4511
+
+VIX
+
+0.2495
+0.0095
+0.4829
+
+MOVE
+
+Global factors
+
+0.6790
+0.5230
+0.8995
+
+Fr
+
+Bond market
+
+Panel B: Null hypothesis – butterfly spread does not Granger-cause each of the economic variables
+
+Table 7
+Continued
+
+0.8824
+0.1990
+0.9276
+
+s
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+839
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+£
+s
+
+Hisvol
+
+Fr
+£
+s
+
+Trend
+
+0.8927
+0.2820
+0.5376
+
+Fr
+
+0.6260
+0.9527
+0.6782
+
+Fr
+
+0.2167
+0.8498
+0.1378
+
+£
+
+0.9555
+0.2261
+0.3408
+
+£
+
+Stock market
+
+0.7025
+0.4297
+0.0889
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+0.0237
+0.0680
+0.9221
+s
+
+Return
+
+s
+
+0.4785
+0.0469
+0.2105
+
+0.4803
+0.9384
+0.1004
+
+Fr
+
+0.8285
+0.0544
+0.0099
+
+Fr
+
+0.4604
+0.2019
+0.2117
+£
+0.8704
+0.7817
+0.4441
+
+£
+
+0.8862
+0.0844
+0.3422
+
+£
+
+Currency market
+
+0.6974
+0.4813
+0.2532
+s
+0.6576
+0.4772
+0.5736
+
+s
+
+0.0883
+0.0307
+0.0003
+
+s
+
+VIX
+MOVE
+
+Fr
+£
+s
+
+Spread
+
+0.3241
+0.3833
+0.9273
+
+£
+
+0.4556
+0.2945
+
+Fr
+
+0.6343
+0.5929
+
+£
+
+Global factors
+
+0.3539
+0.4571
+0.3975
+
+Fr
+
+Bond market
+
+Panel A: Null hypothesis – economic variables do not individually Granger-cause risk reversal
+
+0.6968
+0.0077
+
+s
+
+0.5039
+0.9248
+0.8150
+
+s
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 8
+Granger causality test for risk reversal
+
+840
+Qian Han, Jufang Liang and Boqiang Wu
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+£
+s
+
+Hisvol
+
+
+
+0.0001
+0.0211
+0.1540
+
+Fr
+
+0.0037
+0.7529
+0.6862
+
+Fr
+£
+s
+
+
+
+Fr
+
+Trend
+
+0.0001
+0.6413
+0.8319
+
+£
+
+0.0026
+0.2424
+0.9521
+
+£
+
+Stock market
+
+
+
+
+
+
+
+
+
+0.0508
+0.0882
+0.2025
+
+s
+
+0.0453
+0.1334
+0.7257
+
+s
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+0.7218
+0.0014
+0.0613
+Fr
+0.2418
+0.8657
+0.9777
+
+Fr
+
+0.2585
+0.0145
+0.0014
+
+Fr
+
+
+
+
+0.0055
+0.0001
+0.0077
+£
+0.0001
+0.0079
+0.5993
+
+£
+
+0.0003
+0.0023
+0.005
+
+£
+
+Currency market
+
+0.9316
+0.0007
+0.0036
+s
+0.0010
+0.1144
+0.1727
+
+s
+
+0.1976
+0.0070
+0.0002
+
+s
+
+Fr
+£
+s
+
+Fr
+£
+s
+
+Spread
+0.2283
+0.0200
+0.2833
+
+£
+
+0.4556
+0.6428
+0.6239
+
+VIX
+
+0.2945
+0.3107
+0.0152
+
+MOVE
+
+Global factors
+
+0.1193
+0.6730
+0.9540
+
+Fr
+
+Bond market
+
+Panel B: Null hypothesis – risk reversal does not Granger-cause each of the economic variables
+
+Table 8
+Continued
+
+0.6782
+0.5569
+0.6815
+
+s
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+841
+
+© 2015 John Wiley & Sons, Ltd.
+
+r
+£
+s
+
+Hisvol
+
+Fr
+£
+s
+
+Trend
+
+0.3402
+0.7363
+0.5110
+
+Fr
+
+0.4589
+0.8249
+0.8300
+
+0.6496
+0.5800
+0.2612
+
+£
+
+0.0664
+0.1950
+0.8790
+
+0.5285
+0.7430
+0.3277
+
+s
+
+0.6130
+0.8317
+0.7114
+
+s
+
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+Fr
+£
+s
+
+Return
+
+0.8151
+0.5490
+0.3999
+Fr
+0.6152
+0.6178
+0.4530
+
+Fr
+
+0.6806
+0.4199
+0.1321
+
+Fr
+
+0.3807
+0.8179
+0.4877
+£
+0.5748
+0.7078
+0.3668
+
+£
+
+0.6288
+0.6494
+0.3090
+
+£
+
+
+
+£
+
+Fr
+
+Currency market
+
+Stock market
+
+0.8538
+0.4897
+0.7336
+s
+0.2570
+0.7942
+0.9158
+
+s
+
+0.7295
+0.2549
+0.3556
+
+s
+
+VIX
+MOVE
+
+Fr
+£
+s
+
+Spread
+
+0.4805
+0.3003
+
+Fr
+
+0.5545
+0.9001
+0.0799
+
+£
+
+0.2072
+0.2502
+
+£
+
+Global factors
+
+0.9009
+0.7022
+0.5427
+
+Fr
+
+Bond market
+
+Panel A: Null hypothesis – economic variables do not individually Granger-cause ATM
+
+0.2881
+0.4424
+
+s
+
+0.9398
+0.4710
+0.6046
+
+s
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 9
+Granger causality test for ATM volatility
+
+842
+Qian Han, Jufang Liang and Boqiang Wu
+
+© 2015 John Wiley & Sons, Ltd.
+
+Fr
+£
+s
+
+Hisvol
+
+Fr
+£
+s
+
+Trend
+
+0.9130
+0.3452
+0.7844
+
+0.5101
+0.0723
+0.5661
+
+0.3623
+0.6050
+0.9630
+
+s
+Fr
+£
+s
+Hisvol
+Fr
+£
+s
+
+Trend
+
+
+0.0477
+0.4997
+0.0768
+Fr
+0.3605
+0.6151
+0.5815
+
+Fr
+
+0.1252
+0.9752
+0.2282
+
+0.5653
+0.0737
+0.8975
+£
+0.0495
+0.6659
+0.2332
+
+£
+
+0.3713
+0.1984
+0.3605
+
+£
+
+Fr
+
+Fr
+£
+s
+
+0.0800
+0.2518
+0.1684
+
+0.0510
+0.7199
+0.1239
+
+0.0401
+0.3770
+0.0682
+
+Fr
+
+£
+
+Return
+
+£
+
+Fr
+
+s
+
+Currency market
+
+Stock market
+
+0.3295
+0.1105
+0.4499
+s
+0.4769
+0.3982
+0.5179
+
+s
+
+0.7513
+0.5299
+0.7005
+
+s
+
+Fr
+£
+s
+
+Fr
+£
+s
+
+Spread
+0.0544
+0.4731
+0.0657
+
+£
+
+0.9467
+0.0748
+0.7470
+
+VIX
+
+0.0621
+0.0042
+0.0073
+
+MOVE
+
+Global factors
+
+0.0037
+0.1148
+0.0171
+
+Fr
+
+Bond market
+
+Panel B: Null hypothesis – ATM does not Granger-cause each of the economic variables
+
+Table 9
+Continued
+
+0.0010
+0.4028
+0.0173
+
+s
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+843
+
+844
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+Fig. 5. Results of the impulse response analysis.
+Panels A to D present impulse response computed from the VAR model including Bﬂy, FX return, FX
+trend, FX Hisvol, Index trend, Index Hisvol and Default Spread for the three economies. FX Return, FX
+Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index
+Hisvol are from Yahoo Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on
+data from the Bank of England, the Swiss National Bank and the Federal Reserve Bank of St. Louis,
+respectively. The 95% conﬁdence interval area is also presented in the graph.
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+845
+
+A positive shock initially increases its own butterﬂy spread with the effect quickly
+disappearing after about 1 day, suggesting that stock market uncertainty has only a
+temporary impact on the GHP for its own currency. Similarly, as shown in Panel B, a
+positive shock to the spot rate return of the euro increases its own RR for 1 day, possibly
+because investors speculate that the exchange rate will continue to go up next day in a
+strong spot market.
+Panel C of Figure 5 shows the response of RR of the Swiss franc to a one Cholesky
+standard deviation shock to the exchange rate return of the euro. There is an initial
+increase in the RR of the Swiss franc which reverts back the next day, implying that a
+strong euro can have a short-term impact on the speculative demand for the Swiss franc.
+The same pattern of impulse response is exhibited in Panel D for the shock of the stock
+index volatility in the eurozone to the butterﬂy spread of the British pound.
+3.2.3. Variance decomposition. As further checks, Tables 10 to 12 report the results of
+variance decomposition on the butterﬂy spread, risk reversal and at-the-money volatility
+of the three options, respectively. The variance decomposition method helps us discern
+the contribution of each economic variable to the forecast errors for the shape of the
+volatility smile.
+Contributions from cross economic variables are shaded gray in the Tables 10 to 12. It
+is clear that regardless of variable, the proportions from cross economic variables are at
+least as large as those from own economic determinants. For example, as shown in
+Table 10, the dominant economic variable for explaining the 10-day forecast error
+variance of the pound’s butterﬂy spread is the historical volatility of the eurozone stock
+index, followed by the Euro spot return and the Switzerland stock index trend. Another
+striking example is illustrated in Panel B of Table 11 for the pound’s risk reversal.
+Economic variables from the Swiss franc and euro together take a much larger proportion
+than do those from the pound itself in explaining the forecast error variance of the
+pound’s risk reversal. In contrast, the two US variables, VIX and MOVE, play less
+important roles in explaining the forecast error variance of their European currency
+option smiles. Similar observations can be made for almost all currency smile
+characteristics. For robustness checks, we also do a variance decomposition for 5-day
+and 20-day ahead and ﬁnd quite similar results (available upon request), suggesting that
+the contributions from cross economic variables are stable over the forecasting horizon.
+Overall, these results demonstrate quantitatively that the effect of cross economic
+determinants are at least as sensitive as for own variables in explaining the implied
+volatility smile dynamics.
+To summarise, in this section we ﬁnd signiﬁcant own and cross causality relationships
+among the economic variables and volatility smiles, in particular the RR and ATM
+implied volatility. Risk reversal can Granger-cause many economic variables. Spot rate
+return can Granger-cause risk reversal, or equivalently, can change the symmetry of the
+volatility smile and inﬂuence NSD. The historical volatility of the spot rate return is
+important for contemporaneous relationships, but not so for lead–lag relationships.
+Default spread does not play any role in the Granger causality tests for the Bﬂy and RR,
+but it is very important for ATM volatility. Both the impulse response and variance
+decomposition analyses conﬁrm our ﬁndings.
+3.2.4. Out-of-sample tests. The above in-sample analyses point to Granger-causality
+effect between cross countries’ economic variables and option prices. However, many
+© 2015 John Wiley & Sons, Ltd.
+
+© 2015 John Wiley & Sons, Ltd.
+
+CHFBfly
+Index Hisvol
+Default Spread
+Exchange Hisvol
+Exchange Return
+Exchange Return
+Exchange Trend
+VIX
+Default Spread
+Exchange Return
+Exchange Hisvol
+MOVE
+Index Hisvol
+Index trend
+Index trend
+Exchange Hisvol
+Index Hisvol
+Index trend
+Default Spread
+Exchange Trend
+Exchange Trend
+
+Variable
+
+£
+Fr
+s
+s
+s
+£
+£
+Fr
+£
+
+s
+Fr
+Fr
+
+Fr
+Fr
+Fr
+£
+£
+s
+s
+
+Currency
+
+97.9499
+0.4031
+0.3345
+0.2565
+0.1966
+0.1426
+0.1321
+0.1209
+0.1141
+0.0614
+0.0577
+0.0443
+0.0383
+0.0364
+0.0355
+0.0301
+0.0238
+0.0087
+0.0076
+0.0042
+0.0015
+
+10 Days
+
+Panel A: Variance decomposition of CHFBfly
+
+GBPBfly
+Index Hisvol
+Exchange Return
+Index trend
+Exchange Trend
+Exchange Return
+Index Hisvol
+VIX
+Exchange Trend
+Index Hisvol
+Exchange Return
+Default Spread
+Default Spread
+Index trend
+Exchange Hisvol
+Exchange Trend
+MOVE
+Index trend
+Exchange Hisvol
+Default Spread
+Exchange Hisvol
+
+Variable
+96.9224
+1.2994
+0.2631
+0.2600
+0.2187
+0.1874
+0.1755
+0.1583
+0.1263
+0.0783
+0.0677
+0.0590
+0.0398
+0.0383
+0.0299
+0.0241
+0.0186
+0.0129
+0.0127
+0.0071
+0.0069
+
+£
+s
+s
+Fr
+£
+£
+£
+
+s
+Fr
+Fr
+s
+
+s
+Fr
+Fr
+£
+s
+£
+£
+Fr
+
+10 Days
+
+Currency
+
+Panel B: Variance decomposition of GBPBfly
+
+EURBfly
+Default Spread
+Index Hisvol
+Exchange Return
+Exchange Hisvol
+MOVE
+Exchange Return
+VIX
+Exchange Return
+Exchange Trend
+Index Hisvol
+Exchange Trend
+Index trend
+Index Hisvol
+Exchange Hisvol
+Default Spread
+Exchange Hisvol
+Index trend
+Index trend
+Default Spread
+Exchange Trend
+
+Variable
+
+Fr
+s
+s
+Fr
+s
+£
+s
+s
+Fr
+£
+Fr
+£
+£
+
+s
+
+s
+Fr
+Fr
+£
+£
+
+Currency
+
+97.6635
+0.7446
+0.2006
+0.1817
+0.1752
+0.1647
+0.1640
+0.1275
+0.1257
+0.1119
+0.0920
+0.0552
+0.0383
+0.0371
+0.0277
+0.0237
+0.0227
+0.0180
+0.0159
+0.0052
+0.0049
+
+10 Days
+
+Panel C: Variance decomposition of EURBfly
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 10
+Variance decomposition for butterﬂy spread
+
+846
+Qian Han, Jufang Liang and Boqiang Wu
+
+© 2015 John Wiley & Sons, Ltd.
+
+CHFRR
+Exchange Return
+Exchange Return
+Exchange Return
+Default Spread
+Index trend
+Exchange Hisvol
+Exchange Hisvol
+Index Hisvol
+MOVE
+Index trend
+Index Hisvol
+Exchange Trend
+Exchange Hisvol
+VIX
+Default Spread
+Exchange Trend
+Default Spread
+Exchange Trend
+Index trend
+Index Hisvol
+
+Variable
+
+£
+£
+Fr
+Fr
+£
+Fr
+
+s
+s
+s
+Fr
+
+Fr
+Fr
+£
+s
+s
+Fr
+£
+s
+£
+
+Currency
+
+93.9510
+1.6794
+1.5888
+0.7532
+0.5775
+0.5410
+0.2520
+0.1849
+0.1171
+0.1022
+0.0551
+0.0416
+0.0342
+0.0002
+0.0003
+0.0223
+0.0188
+0.0098
+0.0089
+0.0061
+0.0013
+
+10 Days
+
+Panel A: Variance decomposition of CHFRR
+
+GBPRR
+Exchange Return
+Exchange Return
+Exchange Return
+Default Spread
+Index Hisvol
+Index Hisvol
+Index trend
+Exchange Trend
+Exchange Hisvol
+Default Spread
+Default Spread
+MOVE
+Index trend
+Exchange Trend
+Exchange Hisvol
+Index trend
+Exchange Hisvol
+Index Hisvol
+VIX
+Exchange Trend
+
+Variable
+97.0525
+0.5712
+0.3988
+0.3619
+0.3601
+0.2816
+0.2587
+0.1960
+0.1119
+0.0951
+0.0739
+0.0651
+0.0453
+0.0335
+0.0196
+0.0192
+0.0185
+0.0151
+0.0109
+0.0064
+0.0047
+
+£
+£
+s
+Fr
+Fr
+s
+Fr
+s
+s
+s
+£
+s
+
+Fr
+
+£
+£
+Fr
+Fr
+£
+£
+
+10 Days
+
+Currency
+
+Panel B: Variance decomposition of GBPRR
+
+EURRR
+Exchange Return
+MOVE
+Index trend
+Index Hisvol
+Index trend
+Default Spread
+Exchange Return
+Exchange Return
+Index Hisvol
+Index Hisvol
+Default Spread
+Exchange Trend
+Exchange Hisvol
+Exchange Trend
+Exchange Hisvol
+VIX
+Exchange Trend
+Exchange Hisvol
+Default Spread
+Index trend
+
+Variable
+
+Fr
+Fr
+£
+s
+
+£
+s
+Fr
+Fr
+Fr
+£
+£
+Fr
+s
+£
+£
+s
+s
+
+s
+s
+
+Currency
+
+95.2533
+1.6705
+0.7438
+0.4716
+0.3480
+0.3420
+0.2858
+0.1562
+0.1508
+0.0928
+0.0848
+0.0764
+0.0650
+0.0546
+0.0509
+0.0491
+0.0468
+0.0259
+0.0214
+0.0074
+0.0026
+
+10 Days
+
+Panel C: Variance decomposition of EURRR
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 11
+Variance decomposition for the risk reversal
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+847
+
+© 2015 John Wiley & Sons, Ltd.
+
+CHFATM
+Exchange Return
+Exchange Return
+Exchange Return
+Index trend
+Index Hisvol
+MOVE
+Default Spread
+Exchange Hisvol
+Exchange Hisvol
+VIX
+Index Hisvol
+Exchange Trend
+Default Spread
+Exchange Trend
+Exchange Hisvol
+Index Hisvol
+Default Spread
+Exchange Trend
+Index trend
+Index trend
+
+Variable
+
+s
+s
+£
+£
+£
+£
+s
+Fr
+£
+s
+
+Fr
+Fr
+s
+
+Fr
+s
+Fr
+£
+Fr
+Fr
+
+Currency
+
+97.9454
+0.4031
+0.3981
+0.3195
+0.1760
+0.1690
+0.1091
+0.0970
+0.0862
+0.0707
+0.0564
+0.0526
+0.0340
+0.0200
+0.0176
+0.0120
+0.0108
+0.0097
+0.0060
+0.0051
+0.0019
+
+10 Days
+
+Panel A: Variance decomposition of CHFATM
+
+GBPATM
+Default Spread
+Index trend
+Default Spread
+Index trend
+Index Hisvol
+MOVE
+VIX
+Exchange Hisvol
+Index Hisvol
+Exchange Return
+Exchange Trend
+Index Hisvol
+Exchange Return
+Exchange Trend
+Exchange Hisvol
+Exchange Return
+Default Spread
+Exchange Trend
+Index trend
+Exchange Hisvol
+
+Variable
+97.8349
+0.3391
+0.3318
+0.3014
+0.2621
+0.1642
+0.1335
+0.1279
+0.1137
+0.0919
+0.0888
+0.0559
+0.0377
+0.0333
+0.0329
+0.0257
+0.0219
+0.0062
+0.0049
+0.0037
+0.0020
+
+£
+s
+Fr
+Fr
+£
+s
+s
+Fr
+s
+£
+£
+Fr
+s
+£
+£
+£
+Fr
+s
+Fr
+
+10 Days
+
+Currency
+
+Panel B: Variance decomposition of GBPATM
+
+EURATM
+Exchange Return
+Exchange Return
+Index trend
+Exchange Hisvol
+Index Hisvol
+Default Spread
+Index Hisvol
+Exchange Return
+VIX
+MOVE
+Exchange Trend
+Default Spread
+Exchange Hisvol
+Index Hisvol
+Default Spread
+Exchange Trend
+Exchange Trend
+Index trend
+Exchange Hisvol
+Index trend
+
+Variable
+
+£
+£
+£
+£
+s
+Fr
+s
+£
+s
+s
+
+s
+£
+Fr
+Fr
+Fr
+s
+Fr
+Fr
+s
+
+Currency
+
+98.4481
+0.3315
+0.1807
+0.1614
+0.1483
+0.1181
+0.1052
+0.1019
+0.0964
+0.0834
+0.0617
+0.0500
+0.0349
+0.0347
+0.0118
+0.0091
+0.0055
+0.0051
+0.0039
+0.0034
+0.0021
+
+10 Days
+
+Panel C: Variance decomposition of EURATM
+
+This table presents the variance decomposition (%) for the ATM volatility of the three FX options computed from the multivariate vector autoregression during the
+second subsample with three systems of variables each of which includes FX Return, FX Trend, FX Hisvol, Index Trend, Index Hisvol and Default Spread of the
+three economies. FX Return, FX Trend and FX Hisvol are based on data from Wharton Research Data Services. Index Trend and Index Hisvol are from Yahoo
+Finance. Default Spread Fr, Default Spread £ and Default Spread s are based on data from the Bank of England, the Swiss National Bank, the European Central
+Bank and the Federal Reserve Bank of St. Louis, respectively. VIX and MOVE are from Bloomberg Database.
+
+Table 12
+Variance decomposition for ATM volatility
+
+848
+Qian Han, Jufang Liang and Boqiang Wu
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+849
+
+studies have cast doubt on the reliability of in-sample results, as there may be an overﬁtting issue, and have suggested the use of out-of-sample tests to check the results for
+robustness. In this section, we adopt the Campbell and Thompson (2008) out-of-sample
+statistics approach, which measures the proportional reduction in mean squared forecast
+errors for predicted option smile dynamics by random walk relative to a competing
+model that uses cross economic variables. Rapach et al. (2013) adopt similar approach to
+test the out-of-sample predictability of lagged US stock returns. Speciﬁcally, we test the
+model:
+IV S i;k;tþ1 ¼ aj;i;k;t þ b1j;i;k;t FX Returnj;t þ b2j;i;k;t FX Trend j;t þ b2j;i;k;t FX Hisvolj;t
+þ b4j;i;k;t IndexTrend j;t þ b5j;i;k;t IndexHisvolj;t þ b6j;i;k;t Spread j;t
+þ b7j;i;k;t DVIX t þ b8j;i;k;t DMOVEt þ ej;i;k;t
+
+ð7Þ
+
+for i; j 2 fCHF; GBP; EURg, i 6¼ j and k 2 fRR; ATM; Bf lyg. The benchmark model
+is imposed by restrictions by b1j;i;k;t ¼ b2j;i;k;t ¼ . . . ¼ b8j;i;k;t ¼ 0. Pooled estimates impose
+the restriction that bnj;i;k;t ¼ bni;k;t ¼ 0 for n ¼ 1, 2,. . ., 8 and aj;i;k;t ¼ ai;k;t in the
+benchmark model, bnj;i;t ¼ bni;t for n ¼ 1, 2,. . ., 8 and aj;i;k;t ¼ ai;k;t in the competing
+model. The initial in-sample data are from 12th November, 2007 to 29th March, 2010
+and then constructed by rolling windows.
+Table 13 reports the out-of-sample test results. In parentheses are the Clark and West
+(2007) MSFE-adjusted statistic to test H 0 : R2OS ¼ 0 against H 1 : R2OS > 0, where ROS is
+MSFERW
+deﬁned as: ROS ¼ 1  MSFE
+, where MSFERW and MSFECEV represent mean squared
+CEV
+forecast errors by historical means (the random walk model) and cross economic
+variables, respectively. Four out of eight statistically signiﬁcant ROS are positive,
+indicating that, in some cases, cross economic variables have better out-of-sample
+predictive power on an economy’s currency option price dynamics than the random walk
+model. Speciﬁcally, compared to the random walk model, using European economic
+variables performs signiﬁcantly better in predicting the other two currencies’ Bﬂy
+spread, Switzerland economic variables forecast the euro Bﬂy spread better, and using
+the British economic variables shows better forecastability for the Swiss franc Bﬂy
+spread. Pooled prediction regression results lead to similar conclusions. It is worth noting
+that, while in previous sections we document a signiﬁcant cross effect for IVS
+characteristics with most effects on risk reversals and ATM volatilities, here all the
+signiﬁcant predictions are with butterﬂy spreads, not with risk reversals, nor ATM
+volatilities. This highlights the difference between the in-the-sample tests and the out-ofsample tests.
+4. Conclusion
+
+This study ﬁnds signiﬁcant contemporaneous and lead–lag relationships between own
+and cross economic variables and the dynamics of three major European currency option
+smiles. Contemporaneously, default spread, own and cross spot rate return, spot market
+trend, and historical volatility in the stock and spot markets are all important contributors
+to the time series variation of implied volatility smiles. The stock market situation in
+Switzerland is signiﬁcantly associated with the GHP on the euro and pound, but not the
+other way round. The spot rate return is positively connected to speculation forces on the
+© 2015 John Wiley & Sons, Ltd.
+
+850
+
+Qian Han, Jufang Liang and Boqiang Wu
+Table 13
+Out-of-sample performance
+
+This table reports the Campbell and Thompson (2008) out-of-sample R2 statistics, R2OS , which measures
+the proportion reduction in mean squared forecast error for predicted options price by random walk
+model relative to a competing model that uses cross economic variables. The competing model has been
+given by:
+IVSi;k;tþ1 ¼ aj;i;k;t þ b1j;i;k;t FX Returnj;t þ b2j;i;k;t FX Trend j;t þ b2j;i;k;t FX Hisvolj;t
+þb4j;i;k;t Index Trend j;t þ b5j;i;k;t Index Hisvolj;t þ b6j;i;k;t Spreadj;t
+þb7j;i;k;t DVIX t þ b8j;i;k;t DMOVEt þ ej;i;k;t
+for i; j 2 fCHF; GBP; EURg, i 6¼ j and k 2 fRR; ATM; Bf lyg. The benchmark model is imposed by
+restrictions by b1j;i;k;t ¼ b2j;i;k;t ¼ . . . ¼ b8j;i;k;t ¼ 0. Pooled estimates impose the restriction that
+bnj;i;k;t ¼ bni;k;t ¼ 0 for n ¼ 1, 2,. . ., 8 and aj;i;k;t ¼ ai;k;t in the benchmark model, bnj;i;t ¼ bni;t for n ¼ 1,
+2,. . ., 8 and aj;i;k;t ¼ ai;k;t in the competing model. The third, ﬁfth, and seventh column report R2OS , the
+fourth, sixth, and eighth column report R2OS for the pooled regressions. Numbers in parentheses below
+the R2OS statistic report the Clark and West (2007) MSFE–adjusted statistic to test H 0 : R2OS against
+H 1 : R2OS .  ,  , and  denote signiﬁcance at the 10%, 5%, and 1% levels, respectively. The initial insample data are from 12th November, 2007 to 29th March, 2010 and then constructed by rolling
+windows.
+
+Options
+
+Economic variable
+CHF
+ROS
+
+RR
+
+EUR
+
+–2.6472
+(0.8793)
+0.2538
+(1.1965)
+
+–0.8658
+(1.3236)
+–0.5237
+(0.726)
+
+CHF
+GBP
+EUR
+
+Bfly
+
+pool
+
+CHF
+GBP
+
+ATM
+
+ROS,
+
+GBP
+
+–0.7469
+(0.8292)
+–2.4248
+(0.6526)
+
+–1.9794
+(0.4601)
+–2.5181
+(0.4947)
+
+–0.8189
+(2.1062)
+0.2854
+(2.1619)
+
+–1.2295
+(2.1982)
+0.5075
+(2.2470)
+
+CHF
+GBP
+EUR
+
+ROS
+
+EUR
+ROS,
+
+pool
+
+–5.2341
+(–1.5752)
+
+–3.6913
+(–1.4592)
+
+–0.1099
+(0.8227)
+–3.9048
+(0.3049)
+
+–1.7744
+(0.2485)
+–2.7793
+(0.3799)
+
+–2.9970
+(–0.1188)
+0.3778
+(1.6103)
+
+–3.3025
+(–0.4104)
+0.9345
+(1.7925)
+
+–0.7193
+(1.3003)
+
+–0.7572
+(1.3935)
+
+ROS
+
+ROS,
+
+pool
+
+–6.1343
+(–0.3533)
+–4.5457
+(1.9573)
+
+–3.4387
+(–0.4997)
+–1.3675
+(2.8287)
+
+–4.5386
+(0.5220)
+–0.6954
+(0.9874)
+
+–2.4436
+(1.0458)
+–2.0510
+(0.3610)
+
+1.2257
+(2.3721)
+0.0604
+(1.9061)
+
+1.9039
+(2.5187)
+0.3788
+(2.1607)
+
+other currencies. Volatility spillovers exist across economies and a higher default risk in
+the euro bond market is associated with higher implied volatilities of the Swiss franc and
+pound, but not the other way round.
+The curvature of the IVS, as captured by the butterﬂy spread, seems to have very few
+lead–lag relationships with economic variables, whether own or cross economic
+© 2015 John Wiley & Sons, Ltd.
+
+Cross Economic Determinants of Implied Volatility Smile Dynamics
+
+851
+
+determinants. The slope of the IVS, i.e., the risk reversal, Granger-causes and is Grangercaused by many own and cross economic determinants. The level of the IVS, or the ATM
+volatility, of the Swiss franc or euro Granger-causes the default spread of all economies.
+A following variance decomposition analysis shows that cross economic determinants
+contribute more than own economic variables to the variation of future IVS dynamics.
+Our out-of-sample tests further conﬁrm the important role of cross economic
+determinants.
+These ﬁndings are explained by the three countries’ close economic ties, and their
+market shares in the global foreign exchange market. The lead–lag relationships
+identiﬁed in this study are consistent with the gradual information diffusion story.
+Taken together, these results suggest that, in developing an option pricing model to
+explain the steepness of the implied volatility curve, it is beneﬁcial to keep in mind of
+economic determinants from other economies as globalisation has made economies in
+the world more integrated than ever before.
+References
+Beber, A. and Brandt, M.W., ‘The effect of macroeconomic news on beliefs and preferences: Evidence
+from the options market’, Journal of Monetary Economics, Vol. 53(8), 2006, pp. 1997–2039.
+Bollen, N. P. B. and Whaley, R. E., ‘Does net buying pressure affect the shape of implied volatility
+functions?’ Journal of Finance, Vol. 59(2), 2004, pp. 711–753.
+Campbell, J. Y. and Thompson, S. B., ‘Predicting excess stock returns out of sample: Can anything beat
+the historical average?’ Review of Financial Studies, Vol. 21(4), 2008, pp. 1509–1531.
+Chan, K. C., Cheng, L. T. W. and Lung, P. P., ‘Net buying pressure, volatility smile, and abnormal proﬁt
+of hang seng index options’, Journal of Futures Markets, Vol. 24(12), 2004, pp. 1165–1194.
+Christiansen, C., ‘Volatility–spillover effects in european bond markets’, European Financial
+Management, Vol. 13(5), 2007, pp. 923–948.
+Clark, T. E. and West, K. D., ‘Approximately normal tests for equal predictive accuracy in nested
+models’, Journal of Econometrics, Vol. 138(1), 2007, pp. 291–311.
+Deuskar, P., Gupta, A. and Subrahmanyam, M. G., ‘The economic determinants of interest rate option
+smiles’, Journal of Banking & Finance, Vol. 32(5), 2008, pp. 714–728.
+Estrella, A. and Mishkin, F. S., ‘Predicting U.S. recessions: Financial variables as leading indicators’,
+Review of Economics and Statistics, Vol. 80(1), 1998, pp. 45–61.
+Fama, E. F., ‘Stock returns, expected returns, and real activity’, Journal of Finance, Vol. 45(4), 1990,
+pp. 1089–1108.
+Garleanu, N., Pedersen, L. H. and Poteshman, A. M., ‘Demand-based option pricing’, Review of
+Financial Studies, Vol. 22(10), 2009, pp. 4259–4299.
+Hong, H. and Yogo, M., ‘What does futures market interest tell us about the macroeconomy and asset
+prices?’ Journal of Financial Economics, Vol. 105(3), 2012, pp. 473–490.
+Krylova, E., Nikkinen, J. and V€ah€amaa, S., ‘Cross-dynamics of volatility term structures implied by
+foreign exchange options’, Journal of Economics and Business, Vol. 61(5), 2009, pp. 355–375.
+Longstaff, F. A., Pan, J., Pedersen, L. H. and Singleton, K. J., ‘How sovereign is sovereign credit risk?’
+American Economic Journal: Macroeconomics, Vol. 3(2), 2011, pp. 75–103.
+Ludvigson, S. C. and Ng, S., ‘Macro factors in bond risk premia’, Review of Financial Studies,
+Vol. 22(12), 2009, pp. 5027–5067.
+Mixon, S., ‘Factors explaining movements in the implied volatility surface’, Journal of Futures
+Markets, Vol. 22(10), 2002, pp. 915–937.
+Nikkinen, J., Sahlstr€om, P. and V€ah€amaa, S., ‘Implied volatility linkages among major european
+currencies’, Journal of International Financial Markets, Institutions and Money, Vol. 16(2), 2006,
+pp. 87–103.
+© 2015 John Wiley & Sons, Ltd.
+
+852
+
+Qian Han, Jufang Liang and Boqiang Wu
+
+Pena, I., Rubio, G. and Serna, G., ‘Why do we smile? On the determinants of the implied volatility
+function’, Journal of Banking & Finance, Vol. 23(8), 1999, pp. 1151–1179.
+Rapach, D. E., Strauss, J. K., Zhou, G., ‘Out-of-sample equity premium prediction: Combination
+forecasts and links to the real economy’, Review of Financial Studies, Vol. 23(2), 2010, pp. 821–862.
+Rapach, D. E., Strauss, J. K. and Zhou, G., ‘International stock return predictability: what is the role of
+the United States?’ Journal of Finance, Vol. 68(4), 2013, pp. 1633–1662.
+Rizova, S., ‘Predictable trade ﬂows and returns of trade-linked countries’, In AFA 2011 Denver
+Meetings Paper, 2010.
+Schwert, G. W., ‘Stock returns and real activity: A century of evidence’, Journal of Finance, Vol. 45(4),
+1990, pp. 1237–1257.
+Stock, J. H. and Watson, M. W., ‘Forecasting inﬂation’, Journal of Monetary Economics, Vol. 44(2),
+1999, pp. 293–335.
+Stock, J. H. and Watson, M. W., ‘Forecasting output and inﬂation: The role of asset prices’, Journal of
+Economic Literature, Vol. 41, 2003, pp. 788–829.
+Welch, I. and Goyal. A., ‘A comprehensive look at the empirical performance of equity premium
+prediction’, Review of Financial Studies, Vol. 21(4), 2008, pp. 1455–1508.
+Yang, J. and Zhou, Y., ‘Credit risk spillovers among ﬁnancial institutions around the global credit crisis:
+Firm-level evidence’, Management Science, Vol. 59(10), 2013, pp. 2343–2359.
+Zhou, Y., ‘Modeling the joint dynamics of risk-neutral stock index and bond yield volatilities’, Journal
+of Banking & Finance, Vol. 38, 2014, pp. 216–228.
+
+© 2015 John Wiley & Sons, Ltd.
+
+

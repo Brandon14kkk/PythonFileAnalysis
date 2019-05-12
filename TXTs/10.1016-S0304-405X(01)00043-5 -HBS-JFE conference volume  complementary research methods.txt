@@ -1,0 +1,332 @@
+Journal of Financial Economics 60 (2001) 179}185
+
+Introduction
+
+HBS-JFE conference volume:
+complementary research methods夽
+Peter Tufano*
+Harvard Business School, Soldiers Field, Morgan Hall, Boston, MA 02163, USA
+
+Abstract
+The purpose of the Harvard Business School-Journal of Financial Economics conference was to reexamine the role of clinical work in our profession. Clinical research}empirical work that examines a relatively small number of events
+intensively}accounts for a very small fraction of published work in the "eld. The pieces in
+this conference volume are case studies of di!erent `clinicala research techniques that are
+used to develop, test, apply and communicate theory.  2001 Elsevier Science S.A. All
+rights reserved.
+
+1. Introduction
+Both the Journal of Financial Economics and the Harvard Business School
+have traditions of encouraging new and varied types of research. In 1989, the
+JFE's editors launched the Clinical Papers section, reasoning that clinical
+research, through its inherently closer examination of purposely restricted
+samples, would complement and encourage theory and empirical tests (Jensen
+et al., 1989). Through 2000, the JFE has published 41 articles it considers clinical
+research, almost 8% of its total output.
+夽
+I would like to thank Bill Schwert, the authors of the papers presented at the conference, the
+members of the program committee (Franklin Allen, Robert Bruner, Gordon Donaldson, Stuart
+Gilson, Paul Gompers, Steven Kaplan, Rick Ruback, Eduardo Schwartz, ReneH Stulz, and Karen
+Wruck), the many people who submitted papers to the conference, Rachel Vargas, Geo! Verter, and
+the attendees of the conference. The Harvard Business School Division of Research provided
+"nancial support for this conference.
+
+* Tel.: #1-617-495-6855; fax: #1-617-496-6592.
+E-mail address: ptufano@hbs.edu (P. Tufano).
+0304-405X/01/$ - see front matter  2001 Elsevier Science S.A. All rights reserved.
+PII: S 0 3 0 4 - 4 0 5 X ( 0 1 ) 0 0 0 4 3 - 5
+
+180
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+Nearly 80 years prior to the JFE's decision, appropriate research methodologies were being debated at Harvard Business School. In 1910, Edwin Gay,
+the "rst dean of HBS, wrote, `I am convinced that there is a scienti"c
+method involved and underlying the art of business and that this, which
+is a branch of Applied Economics2ought to be investigateda (Cruikshank,
+1987). The next few decades of the school's history witnessed continual innovation with di!erent modes of academic inquiry, including not only the
+case studies for which the school is known, but also construction and analyses
+of new large-scale databases, development of new analytical theories, and
+even on-site laboratories and factories that would now be called `experimental
+economicsa.
+Both HBS and the JFE embrace a wide variety of research methods. To
+construct a piece of "ne furniture, a craftsman will use many di!erent tools
+} saws, rasps, lathes, etc. To construct a sound argument, academic
+craftsmen have an equally large toolkit, including theory, large-scale statistical
+tests, and clinical research. While it may be easy to decide when to use a
+saw rather than a rasp, "guring out the appropriate role of theory, largescale empirical work, and other modes of inquiry } especially clinical work }
+is more complicated. In July 1999, HBS and the JFE decided to host a conference to discuss this topic, and in particular to reexamine the role of clinical
+work. We used a set of papers as the `case studiesa for our conference. Each
+of the papers not only makes a substantive contribution in a particular "eld
+of "nance, but also focuses our discussion on the role that di!erent methodologies play in helping us understand how "rms and markets should, can,
+and do operate. This volume represents a sampling of the papers from the
+conference.
+
+2. What do we mean by clinical research?
+Without getting caught up in semantic debates, clinical research commonly
+refers to empirical work (i.e., work based on observation rather than introspection) in which a relatively small number of events are examined intensively. Small
+sample size and intensive examination need not be the same, especially given
+new data collection procedures. Intensive examination typically involves collection of much more information than is available in standard databases, whether
+through hand collection of public sources (legal "lings, analyst reports, etc.),
+analysis of proprietary corporate documents (planning documents, memos,
+emails, internal management reports), or interviews with decision makers (managers, investors, traders). Small-sample studies (of, say, a single "rm) can involve
+extremely large data sets if the unit of observation is the employee or intraday
+trade data. We therefore have a variety of work that could loosely be classi"ed
+as `clinicala, as shown below:
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+181
+
+Small sample size
+
+Large sample size
+
+Intensive private data
+collection
+
+Traditional "eld-based
+or case study research
+
+Survey methodologies
+and `uniquea databases
+
+Public data collection
+
+Small-scale empirical research
+(e.g., industry
+level studies)
+
+Traditional empirical
+research (e.g.,
+CRSP/Compustat
+studies)
+
+The papers in this volume re#ect variants of research involving small samples
+and intensive data collection. The three risk management pieces (Brown;
+Chacko, Tufano, and Verter; and Chidambaran, Fernando, and Spindt) are
+probably best classi"ed as traditional "eld-based research, as each looks quite
+intensively at a single "rm using a wide variety of data. Dhillon, Noe, and
+RammH rez also "ts in this group. The two pieces relating to how markets interpret
+information (Brown and Hartzell; Esty) are squarely in the lower left-hand box;
+they each study one or two securities in great depth, but work with relatively
+large data sets of public information (in the form of security prices). Large
+samples, but intensive private data collection, characterize Graham and Harvey's survey of corporate "nancial managers. Krigman, Shaw, and Womack as
+well as Houston, James, and Ryngaert conduct more traditional empirical work
+on small samples, but augment the insights from their statistical analysis with
+more in-depth examination of individual "rms through interviews.
+
+Table 1
+Subjective categorization of articles published in the Journal of Finance, Journal of Financial
+Economics, and Review of Financial Studies, 1999
+This table reports on the primary methodology used for papers published in the Journal of Finance,
+Journal of Financial Economics, and Review of Financial Studies, with publication dates in 1999 (vol.
+54, 51}54, and 12, respectively), excluding book reviews and administrative notices. The coding
+scheme is adapted from Leontief (1982) and is a subjective one. `Percentage of articlesa counts each
+of the 173 articles equally, and `percentage of pagesa is a page-weighted measure of the 5,137 pages
+published by these journals in 1999.
+Methodology employed
+
+Percentage
+of articles
+
+Percentage
+of pages
+
+Theory: mathematical model
+Theory: no mathematical model
+Statistical methodology
+Empirical analysis based on data developed by the author
+Empirical analysis based on published data
+Simulations or experiments
+Clinical studies of one or a small number of "rms or events
+
+20.2%
+1.1
+6.9
+11.6
+52.6
+3.5
+4.0
+
+21.0%
+0.4
+8.2
+11.7
+51.0
+3.6
+4.1
+
+182
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+3. How much clinical work has been published in the major 5nance journals?
+In other "elds, historians of science have calculated the techniques used by
+researchers in their "eld to track trends in methodologies. For example, Leontief
+(1982) categorizes the methodologies used by economists. These categorization
+schemes necessarily involve subjective judgment, but nonetheless are useful in
+identifying broad patterns in how we carry out our work. Table 1 reports my
+estimate of a breakdown of methodologies for three major "nance journals (as
+measured by circulation and citations): the JFE, the Journal of Finance, and the
+Review of Financial Studies. About one-"fth of journal space is devoted to
+mathematical theory (versus over 50% in economics journals, as reported by
+Leontief). Slightly over half of the published articles and pages analyze preexisting, large-scale databases like CRSP or Compustat. About 12% of the papers
+and pages examine `medium-scalea data sets that combine published data with
+proprietary data either from specially conducted surveys or culled from internal
+company documents or legal "lings at the authors' initiative. About 3.5% of the
+papers deal with experiments or simulations. Finally, about 4% are clinical
+studies of one or a small number of "rms or events. In an absolute sense, the
+amount of clinical research is quite small } although this conclusion is itself
+a subjective one. (It could also be said that our profession tends to do little
+experimental work or theoretical modeling that is not cloaked in mathematical
+representation.)
+There are many reasons for the paucity of clinical or "eld-based research.
+Members of the academy are not always trained to conduct or evaluate this brand
+of work. They may "nd it di$cult, risky, or expensive to carry out. Perhaps they
+perceive it to be inappropriate scholarship and of little value. This latter proposition raises an important question: What is the appropriate role for clinical
+research vis a vis mathematical theory and statistical analyses of large databases?
+
+4. How does clinical research 5t into 5nancial economics within the paradigm of
+the `scienti5c methoda?
+Throughout history, scientists and historians of science have debated about
+how `sciencea should be and is carried out. JFE readers perhaps have little
+patience for enduring long methodological debates, but the subject of clinical or
+"eld-based research forces these issues to the forefront, as it forces us to examine
+how we advance ideas.
+Blaug (1992) provides an excellent introduction to controversies in economic
+methodology. Some purists like to cloak themselves in the `scienti"c methoda,
+in which logical propositions developed through introspection or mathematical
+theory suggest hypotheses that are tested using large data sets. A careful
+investigation of the `scienti"c methoda suggests that this characterization is not
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+183
+
+a wholly accurate depiction of advances in research. While Blaug argues that
+rejecting theory is the essence of scienti"c learning, Caldwell (1982) holds that
+science is advanced through con"rmation of theories. However, both agree that
+most of empirical economics is characterized by `con"rmationisma, in that we
+tend to conclude that a particular result is `consistent witha some theory.
+Thus, theories are rarely tested in the most formal sense. In other words, our
+large-sample empirical evidence, while seeking to reject theories to be tested,
+frequently ends up simply con"rming them, which is a much weaker form of
+research. In this realistic description of research practice, clinical research can
+play four roles:
+E Developing theory: Can direct observation suggest theories and hypotheses?
+This type of activity, sometimes called `adduction,a can be particularly
+valuable when we are generating theory about how individuals or "rms act.
+For example, the inspiration for some behavioral "nance that explains how
+individuals and "rms make decisions seems to come from adduction. In this
+issue, Chidambaren et al., Froot and Dhillon et al. use direct observation to
+motivate theories.
+E Testing theory: Were our theories so sharp that a single observation to the
+contrary could falsify them, clinical work would be a powerful tool to reject
+and hence test theory. However, most theory in "nancial economics cannot be
+rejected even with a large number of observations, let alone a single observation. Clinical work can add con"rming evidence, such as in Brown and
+Hartzell's work or Esty's paper that reexamine the informational e$ciency of
+markets by looking at how speci"c securities impound or re#ect various bits
+of information on a daily basis. Clinical work can accompany empirical work,
+helping to clarify whether the inference from large-sample evidence rings true.
+For example, the paper by Krigman, Shaw, and Womack uses clinical
+information (surveys) to help interpret the meaning of the empirical regularities surrounding "rms' choices of underwriters. (While not represented in this
+volume, `paired papersa that look at a single question using di!erent methodologies can also provide useful insights that a single methodology might miss.)
+E Applying **useful++ theory: Unlike some of the natural sciences, where the
+researcher attempts to divine underlying patterns, "nancial economics has
+both positive and normative roles. We both describe and prescribe. Clinical
+research can be an e!ective means to understand whether "rms are following
+the recommendations of theory (as in Graham and Harvey) or whether the
+theory produces clear and useful recommendations to practitioners (as in
+Chacko, Tufano, and Verter). If we think of our work as a combination of
+research and development, clinical research can be part of the "eld's `development laba, where we bring ideas and practice into closer contact.
+E Communicating theory: Finally, clinical work can help to communicate knowledge to theorists, empiricists, and educators, providing them with carefully
+
+184
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+documented descriptions of behaviors and innovations that will in#uence the
+way they write theory, construct tests, or teach classes. Most of the papers in
+the conference do this; for example, Brown's description of the use of a `hedge
+ratea in corporate decision-making could prove enlightening to researchers
+trying to understand how the decision to manage risk is propagated throughout companies.
+
+5. The papers
+The papers in this volume represent a small fraction of those submitted and
+only a selection of those presented at the conference. There were about one
+hundred submissions to the conference, each of which was reviewed by two
+members of the program committee. We selected "fteen papers for presentation
+at the conference, of which ten appear in this conference volume. All published
+papers went through the normal JFE reviewing process. The papers are roughly
+divided into four areas: "nancing and restructuring; information and markets;
+risk management; and innovation.
+Financing and restructuring: Graham and Harvey survey 392 CFOs about
+their "rms' corporate "nance practices. Their paper helps us to understand how
+managers think and act, the theories they seem to have adopted, and the theories
+they apparently disregard. Krigman, Shaw, and Womack combine an empirical
+study with survey work to study "rms' decisions to change underwriters between their initial public o!ering and their seasoned equity o!ering. Apparently,
+this decision is not due to dissatisfaction with underwriter performance, but
+rather to a desire to `trade upa to underwriters with higher reputations and
+more in#uential coverage. Houston, James, and Ryngaert study gains in bank
+mergers by analyzing a sample of the largest bank mergers in the period
+1985}1996. By comparing the market's estimate of merger gains with analyst
+reports and management estimates of potential gains, they identify reasons why
+merger gains can fall short of management projections.
+Information and markets: The two papers in this section look intensively at
+unique securities, trying to understand how non-accounting information is
+impounded into security prices, and what inferences can be drawn from the
+security prices themselves. Brown and Hartzell study the trading of the Boston
+Celtics Limited Partnership and examine how the game-by-game performance
+of the team seems related to the price at which the partnership shares trade. Esty
+studies a litigation participation security issued by a large savings and loan that
+is suing the U.S. government for breach of contract. This security seems to reveal
+a market-based estimate of the likely damages to be paid by the government as
+well as information about expected returns and trial duration.
+Risk management: Three papers provide intensive examinations of the practice
+of risk management. Brown studies a large multinational's foreign exchange
+
+P. Tufano / Journal of Financial Economics 60 (2001) 179}185
+
+185
+
+hedging activities in depth. He spent three months inside this "rm, and his
+clinical examination draws upon a wealth of internal information that is rarely
+available to academics. He documents how the "rm hedges and tries to understand why it hedges } a much more di$cult topic. Chacko, Tufano, and Verter
+study a novel risk management decision on the part of a biotech "rm that
+bought call options on its own stock. They analyze the stated rationale for this
+decision using existing risk management theory, highlighting areas where both
+practice and theory could be enhanced. Chidambaran, Fernando, and Spindt
+examine the theoretical reasons for combining risk management and "nancing
+into one package, using both a model and an illustrative `case studya of
+commodity-linked "nancing.
+Innovation: Froot examines the market for catastrophic event risk, using
+clinical evidence of actual transactions to speculate why there is little protection
+against the largest losses. Dhillon, Noe, and RammH rez use game theory to explain
+the maneuvering around a particular type of innovative transaction (simultaneous tender and call o!ers). Game theory predicts how these transactions
+might unfold, which is borne out in the four case studies they document.
+As I noted earlier, these papers are really case studies in methodologies,
+re#ecting not only the individual substantive content of each paper but also
+di!erent uses of "eld and clinical methodology. At HBS, we put a disclaimer on
+each case study that reminds readers that they are `the basis for class discussion
+rather than to illustrate either e!ective or ine!ective handling of an administrative situationa. While these papers are all e!ective, they re#ect the inherent
+limitations of the clinical craft, which were anticipated by the JFE editors when
+they founded the Clinical Papers section in 1989: `We recognize that clinical
+papers 2will often be more conjectural. The papers will probably deal with
+issues that are less quanti"able and more descriptive and normative than
+usual2(T)he evaluation process will place more emphasis on whether clinical
+papers raise new questions or puzzles for the profession than on whether they
+provide new answersa (Jensen et al., 1989). We hope that these papers stimulate
+your thinking and discussion about how to use a wide variety of research tools
+to advance knowledge in our "eld.
+
+References
+Blaug, M., 1992. The Methodology of Economics. Cambridge University Press, Cambridge, UK.
+Caldwell, B., 1982. Beyond Positivism: Economic Methodology in the Twentieth Century. Allen
+& Unwin, London.
+Cruikshank, J., 1987. A Delicate Experiment: The Harvard Business School 1908}1945. Harvard
+Business School Press, Boston.
+Jensen, M., Fama, E., Long, J., Ruback, R., Schwert, G.W., Warner, J., 1989. Editorial: clinical papers
+and their role in the development of "nancial economics. Journal of Financial Economics 24, 3}6.
+Leontief, W., 1982. Academic economics. Science 217, 104 (reprinted in Blaug, 1992, p. xxi).
+
+

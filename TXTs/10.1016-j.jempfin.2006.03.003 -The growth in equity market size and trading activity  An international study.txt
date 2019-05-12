@@ -1,0 +1,2520 @@
+Journal of Empirical Finance 14 (2007) 59 – 90
+www.elsevier.com/locate/jempfin
+
+The growth in equity market size and trading activity:
+An international study
+Kai Li ⁎
+Sauder School of Business, University of British Columbia, 2053 Main Mall, Vancouver, B.C. Canada V6T 1Z2
+Accepted 21 March 2006
+Available online 24 August 2006
+
+Abstract
+This paper presents new evidence on the role of macroeconomic and institutional factors in equity
+market development and on the sources of equity market growth. Using panel data on 33 countries, I find
+that development of financial intermediaries and trade openness are positively associated with equity
+market size, and that development of financial intermediaries is also positively associated with the level of
+activity in equity markets. Government consumption is negatively associated with equity market activity. I
+construct a direct estimate of the effect of institutional factors on equity market development that compares
+a country's actual level of development to a hypothetical “best-practice” country having the same macroeconomic fundamentals as the original country. I show that the level of equity market development of an
+average country is around 30% below its maximum potential. There are wide differences in institutional
+characteristics across countries and over time, and Canada, the United States, and Singapore possess the
+most shareholder-friendly institutional frameworks that foster larger and more active equity markets. It
+appears that institutional improvements and changes in financial technology have provided the major
+impetus for the phenomenal expansion of global equity markets.
+© 2006 Elsevier B.V. All rights reserved.
+JEL classification: G15; international financial markets; G18; government policy and regulation; C11; Bayesian analysis;
+C15; statistical simulation methods
+Keywords: Laws and institutions; Value traded; Turnover; Stochastic frontier; Bayesian inference
+
+1. Introduction
+Stock markets around the world have experienced phenomenal expansion over the past
+30 years. According to Datastream, the aggregate market capitalization of all national equity
+⁎ Tel.: +1 604 822 8353; fax: +1 604 822 4695.
+E-mail address: kai.li@sauder.ubc.ca.
+0927-5398/$ - see front matter © 2006 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jempfin.2006.03.003
+
+60
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+markets has grown from less than US$1 trillion in 1974 to over US$17 trillion by the end of 1997,
+and the corresponding annual equity turnover is US$3.4 billion in 1974 and US$11 trillion in
+1997.
+Some countries appear to possess both larger and more active equity markets than others, such
+as the United Kingdom and the United States. Others appear to have either large and illiquid stock
+markets such as Jordan, or active but small stock markets such as Germany. Apparently, none of
+the latter two cases are ideal from a country developmental point of view, and thus it is important
+to simultaneously examine what factors determine the extent of a country's equity market size and
+activity.
+The process of growth in national equity market size and trading activity is still imperfectly
+understood. One view points to improved macroeconomic and financial fundamentals as the
+source of the growth. Others, more skeptical of efficiently functioning markets, suggest that the
+legal and institutional environment of a country matters for the size and extent of a country's
+capital markets (La Porta et al., 1997, 1998). If this is so, how effective are legal and institutional
+factors in bringing countries to their “best-practice” potential? And is a country's institutional
+framework structured optimally? So far, the literature has not come up with an exact metric on the
+role of laws and institutions in affecting national equity market development.
+In this paper I adopt the stochastic frontier modeling approach to investigate the sources of
+equity market growth in size and trading activity and to provide a direct estimate of the effect of
+laws and institutions on equity market development. The stochastic frontier model captures the
+very simple intuition, that for a given level of macroeconomic conditions a country with an
+efficient institutional framework is associated with larger and more active stock markets.1 With
+fully efficient laws and institutions, a country can be observed to be associated with the
+frictionless neoclassical level of equity market size (trading activity). Imperfect laws and
+institutions would prevent a country's equity market from reaching its frictionless maximum
+capacity: they force the actual level of equity market size (trading activity) to be below, but never
+above, the frictionless neoclassical level of market size (trading activity). In reality, governments
+often subsidize activities, especially equity markets, as a point of pride. This suggests that at some
+point in time a country might have larger (and/or more active) equity markets than would be
+created under frictionless markets with efficient institutions. This possibility is captured by the
+standard two-sided error in the stochastic frontier model.
+In this paper, I show how the “best-practice” potential for each country can be estimated in a
+panel data setting. Specifically, under the stochastic frontier model, a country's equity market size
+(trading activity) is specified as a linear function of its macroeconomic fundamentals as in a usual
+regression framework (i.e., the location of the frontier). However, there is a one-sided error term
+(in addition to the normal error term) in the regression which captures the gap between the actual
+level of equity market size (trading activity) and its frictionless counterpart if the country
+possessed the most efficient institutional framework. This gap (i.e., the shortfall from the frontier)
+can be viewed as a measure of the effect of a country's institutional characteristics on its equity
+market development, insofar as the frictionless benchmark represents the maximum level of
+development that would result if there were no institutional impediment.
+Another useful insight from the stochastic frontier model is that it allows for the decomposition
+of the change in equity market size (trading activity) into three types of change: macroeconomic
+1
+According to Stulz (2001), legal, regulatory, and policy factors influence the effectiveness with which the overall
+financial system channels capital to productive ends. Under an efficient institutional framework, the financial system is
+better utilized and thus better developed.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+61
+
+conditions, institutional factors, and financial technologies. Under the stochastic frontier
+framework, the equity market size (trading activity) of a country is determined by its
+macroeconomic characteristics (fundamentals), institutional factors (efficiency) that affect the gap
+between the actual level of market development and the “best-practice” potential, and financial
+technologies. Over time, due to improvements in the institutional framework, a country's equity
+market can become larger (more active) and catch up to the frictionless neoclassical level. In
+addition, equity markets grow if a country improves its fundamentals. Finally, general
+improvements in financial technology that may weaken participation constraints, such as capital
+market liberalization (Bekaert and Harvey, 2000; Bekaert et al., 2002; Trzcinka and Ukhov, 2005)
+and privatization (Perotti and van Oijen, 2001), easy access by (foreign) institutional investors,
+and stock trading via the Internet, lead to larger equity markets and more activity for a given level
+of country characteristics. I interpret the increase in equity market size (trading activity), unrelated
+to macroeconomic fundamentals or institutional efficiency, as the change in financial
+technology.2 In sum, the stochastic frontier modeling approach allows me to view the growth
+in equity market size (trading activity) in terms of three different components: reductions in
+institutional inefficiency, improvements in macro-fundamentals, and changes in financial
+technology. This framework allows, among other things, for the investigation of (1) the relative
+roles of the three components of equity market growth, and (2) the manners in which institutional
+efficiency changes over time and differs across countries. These are important policy questions
+that the standard regression modeling framework cannot address.
+Using panel data on 33 countries, I find that development of financial intermediaries and trade
+openness are positively associated with equity market size, and that development of financial
+intermediaries is also positively associated with the level of activity in equity markets, while
+government consumption is negatively associated with activity and liquidity in equity markets. I
+relate the shortfall from the full efficiency benchmark to measures of the legal and institutional
+framework, and find that an average country attains a level of equity market development that is
+around 30% below its maximum potential. Further investigation reveals that countries with
+French and German legal origins tend to be associated with smaller but more active equity
+markets. Laws that protect shareholder rights, transparent accounting standards, solid country
+credit ratings, and greater economic freedom tend to foster a country's equity markets to become
+larger and more liquid. Overall, there are wide differences in institutional efficiency across
+countries and over time, and Canada, the United States, and Singapore clearly possess the most
+shareholder-friendly institutional frameworks.
+It appears that improvements in institutional efficiency and changes in financial technology
+have been major factors behind the phenomenal expansion of global equity markets over the past
+two decades. Many developed countries and some developing countries experience little to
+moderate improvements in their macro-fundamentals during the sample period. Improvements in
+institutional efficiency vary across countries, particularly in developing countries. The evidence
+suggests that it is the countries that have significantly improved the quality of their institutional
+frameworks experience the fastest growth in equity market size and activity.
+This paper is motivated by a growing body of research in finance that examines the
+relationship between laws and institutions and capital markets. La Porta et al. (1997, 1998) show
+that the legal environment matters for corporate governance and the size and extent of a country's
+capital markets. Demirgüç-Kunt and Maksimovic (1998) find that differences in legal and
+financial systems affect firms' use of external financing. Dyck and Zingales (2004) show that
+2
+
+In the stochastic frontier literature, this shift is called the change in production technology or “technological changes.”
+
+62
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+insiders in French civil law countries possess systematically higher private benefits of control
+than those in countries of other legal origins, and Leuz et al. (2003) find that companies in AngloAmerican countries exhibit less earnings management than their Continental-European counterparts. Lombardo and Pagano (2006) show a positive cross-country correlation between the quality
+of legal systems and the expected return on equity. Bhattacharya and Daouk (2002) find that the
+enforcement of insider trading laws reduces a country's cost of equity. From a theoretical
+perspective, Castro et al. (2004) introduce investor protection into a standard overlapping
+generation model of capital accumulation, and their model predicts a positive effect of investor
+protection on growth. Pagano and Volpin (2005) develop a political economy model where there
+is mutual feedback between investor protection and stock market development. Better investor
+protection induces companies to issue more equity and thereby leads to a broader stock market.
+Building on the prior literature, this paper considers an exhaustive list of institutional factors to
+assess their respective as well as their joint effects on equity market development.
+The current paper distinguishes itself from the existing literature in several important aspects.
+First and foremost, this paper adopts a new econometric technique–the stochastic frontier model
+which captures cross-sectional as well as temporal variation in equity market size and trading–to
+obtain a direct estimate of the effect of institutional factors on equity market development and to
+provide insight on the source of equity market growth. Past research primarily employ crosssectional regressions (La Porta et al., 1997) and more recently regressions with instrumental
+variables to control for reverse causality and simultaneity (Beck et al., 2003). In this paper, to deal
+with the endogeneity issue, the lagged (up to 5 years), instead of contemporaneous, determinants
+of equity market size and trading activity are considered. The stochastic frontier model estimates
+the frontier parameters based on the cross-sectional information, and their changes (capturing the
+change in financial technology) are obtained through the temporal variation in equity market size
+and trading activity. The estimation of efficiency parameters is based on both the temporal and
+cross-sectional variations. Thus, even if several institutional variables such as legal origin are not
+time-varying, the cross-sectional variation plus the temporal variation in some other institutional
+variables (country credit rating for instance) will help identify the model and lead to efficient
+parameter estimates. In contrast, standard fixed effects models cannot accommodate timeinvariant institutional factors in a panel data setting. The new technique allows me to construct an
+exact estimate of the effect of laws and institutions on equity market development—the shortfall
+from the frontier. Moreover, the new framework permits me to decompose the total growth in
+equity markets into three components: improvements in institutions, improvements in macrofundamentals, and changes in financial technology.
+Second, my investigation in equity trading from a law and finance perspective is new to the
+literature, as is my use of some of the macroeconomic variables. Past research, such as La Porta et
+al. (1997) and Beck et al. (2003), focuses on examining the (historical) determinants of financial
+development. They employ cross-sectional regressions and adopt measures of financial
+development covering the banking sector, the stock market and the debt market. In contrast,
+this paper focuses on the determinants of growth in equity market size and trading activity, and
+employs panel data sets to explore the impact of macroeconomic shocks on stock prices and
+trading. In a contemporaneous paper, Claessens et al. (2006) examine how stock market
+development and internationalization of financial markets are affected by economic fundamentals. Using panel data, they find that higher GDP per capita, law and order, better shareholder
+protection, sounder macro-policies, and greater openness of capital markets are associated with
+both more developed local markets and internationalization. Different from Claessens et al.
+(2006), I consider a comprehensive list of legal and institutional variables, and motivated by the
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+63
+
+growth literature I also introduce some new macro-variables as fundamentals that could impact
+equity market development: the level of financial intermediaries in the economy, government
+consumption, and trade openness. It turns out that these variables are associated with a country's
+equity market development in an important way.
+The remainder of the paper proceeds as follows. In Section 2, the modeling framework and
+decomposition of growth in equity market size and trading activity into its three components are
+presented. The measures of equity market size and trading activity and list of macroeconomic
+fundamentals and institutional efficiency factors are given in Section 3. Section 4 presents the
+empirical results, and Section 5 offers some concluding remarks. Estimation details are provided
+in the appendix.
+2. The modeling framework
+The stochastic frontier model comes from the microeconomic tradition where “inputs” are
+turned into “outputs” using a production technology. The model by construction is more structural
+than standard regression models and allows for a deeper interpretation of parameters and errors.
+Variants of the model have been used to explain economic growth by Koop et al. (1999, 2000),
+manufacturing output by Koop (2001), equity market size by Li (2002), and valuation by HuntMcCool et al. (1996), Koop and Li (2001), and Habib and Ljungqvist (2005).
+In this paper I examine the determinants of national equity market size and trading activity
+using a generalized version of the stochastic frontier model. I start by assuming that there is a
+frictionless maximum level of equity market size (trading activity), and that institutional factors
+are governments' effort to narrow the gap between this maximum level of equity market size
+(trading activity) under perfect institutions and the actual level. It is true that equity financing
+decisions depend on many other factors in the financial system, such as the extent of development
+in the bond markets and the banking sector, and the use of trade credit. To account for these other
+factors in influencing equity financing decisions, I include one of the most important factors–the
+scope of the credit markets–to explain the extent of the equity market development, and control
+for other factors by including their economic determinants in the regression. It is clear that
+examining the development of the entire financial system is an important exercise from a policy
+perspective, and the current paper represents our very first effort in understanding the issues
+involved.
+Different from standard regression models, the stochastic frontier model has a composed error
+term: one of which reflects the (one-sided) efficiency effects of a country's institutional
+framework on its equity market size (trading activity), and the other the (two-sided) normal
+regression error accommodates the possibility that some countries due to government subsidies
+might have larger (more active) equity markets than would be created under frictionless markets
+with efficient institutions. Financial technology is captured through time-varying regression
+parameters in the model. The intuition is that for a given level of country characteristics, if the
+level of equity market size (trading activity) differs over time, it must be that there are innovations
+in financial technology that lead to larger markets (more activity). Notable examples of
+innovations in financial technology over the sample period include financial liberalization,
+privatization, the growing use of the Internet in financial transactions, and a change from a bankto equity-based economy. These structural changes show up as shifts in the production function.
+At the level, the stochastic frontier model is in a regression setup with measures of equity
+market size and trading activity as the left-hand side variables, thus it is able to address which
+macroeconomic fundamentals and institutional factors are conducive to a country's equity market
+
+64
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+expansion. At the change, the model attributes the sources of growth in equity market size and
+trading to the change in institutional environments, change in macroeconomic fundamentals, and,
+lastly, time variation in financial technology.
+At the outset, it is useful to point out one caveat associated with applying the stochastic frontier
+model. There is usually no well-established theory to guide the classification of variables into
+market fundamentals and efficiency factors. In Habib and Ljungqvist (2005), they include every
+variable that has to do with solving the agency problem between managers and shareholders as an
+efficiency factor, and use the usual firm characteristics to define the valuation frontier. In the
+current paper, I include institutional variables that capture the frictions in the economy as the
+efficiency factors, and use the macroeconomic fundamentals to explain the “best-practice”
+potential. It is important that various robustness checks are implemented before interpreting the
+results definitively.
+2.1. The model
+The stochastic frontier model used in this paper is based on the following specification:
+Yti ¼ ft ðXt−l;i ; bt Þeti sti ;
+
+i ¼ 1; N ; N ; t ¼ l þ 1; N ; T
+
+ð1Þ
+
+where Yti is the measure of country i's equity market size (trading activity) in year t, and Xt−l,i is a
+K × 1 vector of country-specific macroeconomic characteristics measured in year t − l. In my
+empirical implementation, I employ different values of l (from 1 year up to 5 years) in order to
+capture the exact lead-lag relationship between shocks to macro-fundamentals and financial
+institutions and equity market size (trading activity). βt is a K × 1 vector of parameters. ft is the
+function which captures the maximum possible level of equity market size (trading activity) that
+can be obtained from given levels of market fundamentals under a perfect institutional
+framework. The function ft can vary over time, and I interpret changes over time in ft as reflecting
+changes in financial technology. εti is the error term. τti is the level of institutional efficiency, and
+it is bounded between zero and one. τ b 1 indicates that the level of equity market size (trading
+activity) of a country is only a τ fraction of the maximum it could be, or the equity market is
+underdeveloped by (1 − τ)%.
+Assuming ft is loglinear, by taking the logarithm of (1) I obtain the following linear
+specification
+yti ¼ xt−l;i Vbt þ vti −uti ;
+
+ð2Þ
+
+where yti = ln(Yti), xt−l,i = ln(Xt−l,i), vti = ln(εti), uti = − ln(τti) a nonnegative random variable, and vti
+and uti are assumed to be independent over time and across countries.3 The error term vti is
+assumed to be normally distributed with mean 0 and variance σ2, denoted by N(0, σ2).
+
+3
+As per suggestions from the referees, I computed the Durbin-Watson statistics for each country in the sample. The
+statistics range from 0.01 for Nigeria to 1.50 for Austria. The critical values for the Durbin-Watson statistics based on a
+time series of 16 observations and ten explanatory variables are 0.16 and 3.30, respectively (Greene, 2002, Table G.6). I
+concluded that the Durbin-Watson statistics indicate no clear support for either the null that the autocorrelation in the
+symmetric error term is zero, or the alternative that the autocorrelation is not zero. Noting the large heterogeneity in
+temporal correlation across countries, as well as the relatively short time series, I decided not to introduce an
+autocorrelated error structure in (2).
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+65
+
+Common distributions for the one-sided error term uti are the truncated normal as in Habib and
+Ljungqvist (2005) or various members of the Gamma class. Ritter and Simar (1997) have noted
+some identification problems which occur if the distribution of uti is allowed to be too flexible.
+For instance, the truncated normal distribution becomes indistinguishable from the normal if the
+truncation point is too far out in the tail of the distribution. The unrestricted Gamma distribution
+runs into similar problems. For this reason, researchers have worked with restricted versions of
+these general classes, such as the exponential distribution as in Koop and Li (2001). In this paper,
+the efficiency term uti is assumed to be exponentially distributed with mean λti which depends on
+m different exogenous variables Wt−l,j, a (T − l) × N matrix, j = 1, …, m, in the following way
+m
+
+−wt−l;ij
+
+kti ¼ j /j
+j¼1
+
+;
+
+ð3Þ
+
+where wt−l,ij is the ith element of Wt−l,j measured in year t − l, W1 is a matrix of ones, and ϕj N 0,
+j = 1, …, m, are unknown parameters. The specification in (3) ensures that the mean of the
+efficiency distribution λti is positive. Moreover, by allowing λti to depend on country-specific
+institutional characteristics this fits in with one of the purposes of the paper—to examine the role
+of institutional efficiency on equity market size (trading activity). If ϕj = 1, then the jth
+institutional characteristic has no effect on the efficiency distribution, whereas if ϕj N 1 (b 1) then
+the jth characteristic is associated with a higher (lower) level of institutional efficiency. For
+instance, empirically, wt−l,i10 is a dummy variable that equals one if the Economic Freedom of the
+World index for country i in year t − l is greater than the sample average, and zero otherwise.4 So a
+finding of ϕ10 N 1 (b 1) indicates that greater economic freedom is associated with a higher (lower)
+level of institutional efficiency, thus larger and more active (smaller and less active) equity
+markets.
+According to Bekaert et al. (2002) and Bekaert and Harvey (2004), all of my sample countries
+experienced financial liberalization over the sample period and, thus, it is reasonable to assume
+that national equity markets are integrated with one another. I employ a common financial
+technology function where frontier parameters in the model (βt's) are estimated through the crosscountry evidence, and their changes are obtained through the temporal variation in equity market
+size and trading activity.
+A priori, it is perhaps reasonable to assume that the financial technology only changes
+gradually, i.e., βt is not too different from βt− 1. Following Koop et al. (2000), I assume that the
+K × 1 vector of slope parameters βt evolves stochastically. Formally, the specification for βt is an
+AR(1) process. That is, financial technology this year is closely related to that of last year,
+bt ¼ ð1−rÞiK þ rbt−1 þ nt ;
+
+ð4Þ
+
+where r ∈ [0, 1) is a fixed hyperparameter that captures the close relationship between βt and βt− 1,
+ιK is a K-dimensional vector of ones, and ξt is i.i.d. N(0, (1 − r)2c2D2) with prior hyperparameters
+c2 and D2. The implied marginal prior, i.e., not conditional on βt− 1, for βt is N(ιK, c2D2). In the
+empirical section of the paper, I obtain results by setting r = 0.90, implying that βt is not too
+different from βt− 1, although values in the interval [0, 1) yield similar results. To capture possible
+time trend effects, I include a quadratic time trend in the regression model.
+
+4
+
+As computational burdens are greatly reduced if the Wj's are 0–1 dummy variables, all institutional factors are duly
+transformed. See the notes to Table 3 for details.
+
+66
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+2.2. Decomposing the growth in equity market size and trading activity
+Given levels of macro-fundamentals of country i in years t − l and t − l + 1 and levels of
+institutional efficiency in years t and t + 1, the change in country i's equity market size (trading
+activity) after dropping the normal error term is
+ytþ1;i − yti ¼ ðxt−lþ1;i Vbtþ1 − xt − l;i Vbt Þ þ ðuti − utþ1;i Þ;
+
+ð5Þ
+
+where the first term on the right-hand side of (5) is due to both the change in financial technology
+(i.e., changes in β) and the change in fundamentals (i.e., changes in x) and the second term reflects
+the change in the level of institutional efficiency. The first term can be further written as
+xt − lþ1;i Vbtþ1 − xt − l;i Vbt ¼
+
+ 
+
+1
+xt − lþ1;i þ xt − l;i V btþ1 − bt
+2
+ 
+
+1
+þ btþ1 þ bt V xt − 1þ1;i − xt − l;i ;
+2
+
+ð6Þ
+
+where the first component on the right-hand side of (6) reflects the change in financial technology
+(TC) and the second component captures the change in fundamentals (FC).
+Consider the change in financial technology. If the fundamentals were fixed at some level x⁎i,
+the change in technology could be measured as
+exp½x⁎i Vðbtþ1 − bt Þ:
+
+ð7Þ
+
+Since fundamentals vary over time, the effect of changes in financial technology on the equity
+market size (trading activity) of country i can be measured as a geometric average of two pure
+technological changes for x⁎ii = xt−l,i and x⁎ii = xt−l+1,i. In other words,
+
+
+ 
+
+1
+xt − l;i þ xt − 1þ1;i V btþ1 − bt :
+TCtþ1;i ¼ exp
+ð8Þ
+2
+Similarly, the change in fundamentals is captured by
+
+
+ 
+
+1
+b þ bt V xt − 1þ1;i − xt − l;i ;
+FCtþ1;i ¼ exp
+2 tþ1
+
+ð9Þ
+
+which is a geometric average of two pure fundamental changes: one measured with respect to the
+financial technology in year t, and the other measured with respect to the financial technology in
+year t + 1.
+Finally, the change in the level of institutional efficiency (EC) is
+ECtþ1;i ¼ expðuti − utþ1;i Þ:
+
+ð10Þ
+
+To estimate the stochastic frontier model developed in this paper I employ Bayesian
+methods, built on the work of Koop et al. (2000) and Koop (2001). The Bayesian component of
+the analysis enables me to (1) obtain exact small sample results in a way that is particularly
+appropriate for the treatment of this paper's small data set, and (2) focus on any quantity of
+interest and derive its full posterior distribution and, in particular, the full posterior distribution
+of country-specific efficiency. This, in turn, allows me to calculate standard deviations and to
+make inferences about whether one country's institutional efficiency is statistically different
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+67
+
+from that of another. Using classical econometric methods, it is impossible to get consistent
+estimates and confidence intervals for country-specific efficiency measures. Since the latter is a
+crucial quantity in the current paper, the fact that the Bayesian approach provides exact finite
+sample results is quite important.
+3. Variable definition
+3.1. Measures of equity market size and trading activity
+As an indicator of the size of stock markets I follow the work of La Porta et al. (1997, 1998)
+and Levine and Zervos (1998) in using the stock market capitalization to GDP ratio. Although
+large markets do not necessarily function effectively (e.g., taxes and other market imperfections
+may distort incentives to list on the exchange), many researchers use market size as an indicator of
+market development. Given that this indicator is the ratio of a stock to a flow variable, both
+numerator and denominator are deflated appropriately. The numerator equals the average of the
+end-of-year value for year t and year t − 1, both deflated by the respective end-of-year CPI, and
+the denominator (GDP) deflated by the annual value of the CPI. This eliminates the potential mismeasurement induced by inflation (Beck et al., 2001).
+To measure the activity of stock markets I use the stock market total value traded to GDP ratio
+following Levine and Zervos (1998) and Beck and Levine (2004). Since both numerator and
+denominator are flow variables measured over the same time period, deflating is not necessary in
+this case. The measure of value traded suffers one potential pitfall, that is, if markets anticipate
+large corporate profits, stock prices will rise, and this rise would increase the value of stock
+transactions and thus value traded. Problematically, this liquidity indicator would rise without a
+rise in the number of transactions or a fall in transaction costs. This price effect plagues my equity
+market size measure (above) as well.
+One way to get around this price effect is to examine turnover when stock prices enter the
+numerator and denominator of turnover. Thus, I use the stock market turnover ratio as the
+liquidity indicator of stock markets. It is defined as the ratio of value of total shares traded and
+market capitalization. High turnover is often used as an indicator of low transaction costs. A large
+less liquid stock market will have a low turnover ratio, whereas a small but active stock market
+will have a high turnover ratio. Since this indicator is the ratio of a flow to a stock variable, I apply
+a deflating procedure similar to that used for the market size indicator. These last two measures
+complement one another as value traded measures trading activity relative to the size of the
+economy and turnover measures activity relative to the size of the market.
+3.2. Partitioning the variable set
+In order to estimate the model, I need to decide on what I consider to be an X variable that
+determines the location of the frontier, and what I consider to be a W variable that explains
+shortfalls from the frontier. This turns out not to be a difficult decision given that one main
+objective of the study is to measure the effect of legal and institutional factors on equity market
+development. I include among the W variables anything that has to do with the frictions in the
+economy that prevent the size and activity of a country's equity market from reaching their
+“best-practice” potential. And my choices of the X variables, primarily macroeconomic
+fundamentals, capture the “best-practice” potential. The next two sections describe my choice of
+X and W variables in detail.
+
+68
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+3.3. Macroeconomic fundamentals
+I rely on finance theory and prior research to guide my choices of macro-fundamentals which
+are expected to be associated with equity market size and trading activity.5 First, I control for GDP
+growth because growth is likely to affect both valuations and market breadth (La Porta et al.,
+1997). Second, I control for the size of the economy on the theory that maintaining and operating
+equity markets might be an increasing returns to scale activity, and therefore countries with large
+GDPs might have larger and more liquid equity markets (La Porta et al., 1997). Thus, my first two
+macro-factors are the growth rate and level of real per capita GDP.
+Macroeconomic instability may importantly distort and complicate financial contracting.
+Huybens and Smith (1999) develop a theoretical model that implies a negative long-run
+correlation between inflation and financial market activity, and Boyd et al. (2001) empirically
+assess these predictions and find that, for economies with inflation rates exceeding 15%, there is a
+discrete drop in financial sector performance. However, due to data limitation, Boyd et al. (2001)
+cannot conduct the panel estimation with the stock market data and thus the temporal relationship
+between inflation and measures of stock market size and activity remains unclear. I adopt a
+nonlinear measure of inflation capturing the potentially more detrimental effect when inflation is
+high. The inflation variable takes the value of one when the actual inflation exceeds the sample
+average of 15% per annum, and zero otherwise.
+Financial intermediaries play a pivotal role in economic development because they research
+and identify profitable ventures, monitor and control managers, ease risk management, and
+facilitate resources mobilization (Levine et al., 2000). Beck et al. (2000) show that financial
+intermediaries exert a large positive impact on total factor productivity which feeds through
+overall GDP growth. Levine et al. (2000) find that financial intermediary development influences
+economic growth. Beck et al. (in press) show that institutional development, particularly financial
+intermediaries, is the most important country characteristic explaining cross-country variation in
+firms' financing obstacles. Ceteris paribus, firms in countries with higher levels of financial
+intermediary development report lower financing obstacles. So far, there is no direct evidence on
+the role of financial intermediaries on equity markets. A priori, it is not clear whether the level of
+financial intermediary development in the economy helps or hurts the development of equity
+markets, as firms' equity financing decisions depend on many other things in the overall financial
+system. This paper takes a first step at examining it. By including both the level of financial
+intermediary development and real GDP growth in the model, this paper is able to identify both
+the direct and indirect effects of financial intermediaries (via growth) on equity market
+development. The measure of the level of financial intermediary development, following Beck et
+al. (2000, in press) and Bekaert et al. (2001), is the value of credits issued by financial
+intermediaries to the private sector divided by GDP. Given that the measure is a ratio of a stock to
+a flow variable, numerator and denominator are deflated appropriately.
+Barro (1991) shows that government consumption has a negative association with growth and
+investment. His findings suggest that, although government consumption has no direct effect on
+private productivity, it lowers saving and growth through the distorting effects of taxation or
+
+5
+There is no well-established finance theory other than Stulz (2001) on how to classify determinants of stock market
+size and trading activity into macro-fundamentals and institutional efficiency factors. Thus, it is important that various
+robustness checks are implemented before interpreting the results definitively.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+69
+
+government-expenditure programs. Bekaert et al. (2005) further show that smaller governments
+tend to enhance the liberalization effects. The significance of integration in the world economy as
+driver of economic growth has been a persistent theme in the literature on economic growth. For
+example, Levine and Renelt (1992) identify a positive robust correlation between growth and
+international trade. However, no one has examined the direct role of government and trade
+openness on a country's equity market development, other than through the (indirect) channel of
+economic growth. In this paper, I include two more macro-factors: the share of government
+consumption in GDP as an indicator of macroeconomic stability, and the sum of exports and
+imports as a share of GDP to capture the degree of openness of an economy. Both variables are
+ratios of flow variables and thus deflating is not necessary.
+The last macro-factor I consider is the role of global portfolio diversification on equity market
+size and trading activity. Is it true that countries having high stock return correlation with the
+world portfolio are more likely to have larger and more active equity markets? Following Bekaert
+et al. (2005), I compute the correlation between a local market and the MSCI world portfolio
+using 5-year overlapping observations of monthly returns. The correlation is then rescaled to fall
+between zero and one using the following transformation
+Scaled correlation ¼ lnð2−correlationÞ=lnð3Þ;
+
+ð11Þ
+
+with one representing perfect negative correlation.
+3.4. Institutional efficiency factors
+There are many other country characteristics, particularly related to the country's legal and
+institutional framework, which may not be viewed as macro-fundamentals but are relevant
+nonetheless for the market's proper functioning, and hence for its size and activity. For example,
+improper disclosure or lax insider trading laws could prevent stock market size and activity from
+reaching their “best-practice” potential. The stochastic frontier model incorporates such
+characteristics in the distribution of institutional efficiency.
+Recently, there has been some growing interest among academics in the link between the legal
+framework and corporate finance. In a series of cross-country studies, La Porta et al. (1997, 1998)
+show that in terms of protection against expropriation by insiders, common law countries protect
+shareholders the most, French civil law countries the least, and German and Scandinavian civil
+law countries somewhere in the middle. Countries with poor quality of legal rules and law
+enforcement are associated with smaller and narrower capital markets. Subsequent studies by
+Demirgüç-Kunt and Maksimovic (1998), Dyck and Zingales (2004), and Leuz et al. (2003)
+conclude that better legal regimes are associated with more availability of external finance, lower
+levels of private benefits of control, and minimum levels of earnings management. Based on these
+findings, I include the following variables in the efficiency distribution (3) to capture the character
+of legal rules and the quality of law enforcement.
+French origin is equal to one if the legal origin of the country is French civil law, and zero
+otherwise. German origin is defined similarly. The intercept term captures the effect of the
+baseline case: the Anglo-Saxon and Scandinavian origins.
+Law and order, compiled by the Political Risk Services (PRS), is based on experts' evaluation
+of the efficiency of the state in enforcing property rights. The index is on a scale of 0 to 6. High
+levels of the index indicate sound political institutions and a strong court system, while low levels
+of the index indicate a tradition of depending on physical force or illegal means to settle claims.
+The average of the April and October indices is used to construct the annual measure.
+
+70
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Bhattacharya and Daouk (2002) show that the cost of equity in a country does not change after
+the introduction of insider trading laws, but decreases significantly after the first prosecution.
+Their finding has some direct bearing on the issues examined here. Specifically, if companies
+have to pay an extra return in stock markets because insiders trade with impunity, the market
+value and liquidity of their equities would be lower, with everything else remaining constant. This
+implies that the existence of insider trading laws and their enforcement directly affect the
+institutional efficiency of a country. Data from Bhattacharya and Daouk (2002) are used to
+construct two insider trading regulation indicator variables. The first one, insider trading law
+enactment, changes from zero to one in the year after the insider trading laws are established. The
+second variable, insider trading law enforcement, changes from zero to one in the year after the
+first prosecution case is recorded.
+In addition to the above indicators of the legal system, I consider other measures of the
+institutional environment, namely shareholder rights, quality of accounting standards, country
+credit ratings, and economic freedom in the efficiency distribution (3). La Porta et al. (2002) show
+that poor shareholder protections are penalized with lower valuations. Pagano and Volpin (2005)
+present a political economy model where there is a two-way causal relation between investor
+protection and stock market development. When better investor protection is expected,
+companies issue more equity, leading to a broader stock market. More equity issuance in turn
+expands the shareholder base and increases the political support for shareholder protection. These
+papers add an important link to the explanation of the consequences of investor protections for
+financial market size and activity. Using the data from La Porta et al. (1998), an index measuring
+shareholder rights is constructed which ranges from 0 to 6.6
+Information about corporations is critical for exerting corporate governance and making
+investment decisions. Accounting standards that simplify the interpretability and comparability of
+information across corporations will facilitate financial contracting. Furthermore, financial
+contracting that uses accounting measures to trigger particular actions can more effectively be
+used with stringent accounting standards. It has been suggested that the easy availability of good,
+comparable corporate financial statements is particularly important for the operation of equity
+markets. Lombardo and Pagano (2006) find that there is a positive correlation between the riskadjusted return on equity and quality of accounting standards. The proxy for quality of accounting
+standards is obtained from the Center for International Financial Analysis and Research (CIFAR,
+1995). This variable measures the quality of companies' annual reports along seven dimensions:
+general information, income statement, balance sheet, funds flow statement, accounting policies,
+stockholders' information, and supplementary information. The index ranges from 0 to 100, with
+100 representing the highest quality of accounting standards.
+Erb et al. (1995) show that country credit ratings are correlated with future equity market
+returns as well as the market volatility. They explain that, in addition to the role of estimated
+sovereign credit risk in the determination of credit ratings, there are many other factors that are
+considered simultaneously, including political and other expropriation risk, inflation and
+exchange rate volatility and controls, the industrial portfolio and its economic risk, and sensitivity
+to global economic shocks. According to Erb et al. (1996), the top three factors in determining
+6
+Specifically, the index adds one when (1) there is one share-one vote; (2) shareholders are allowed to mail their proxy
+votes to the firm; (3) shareholders are not required to deposit their shares prior to the shareholders' meeting; (4)
+cumulative voting or proportional representation of minorities on the board of directors is allowed; (5) there are
+mechanisms to allow oppressed minority shareholders to make legal claims against the directors; and (6) there is
+possibility for minority shareholders to call for an extraordinary shareholder meeting.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+71
+
+credit rankings are debt service, political outlook, and economic outlook. So it is important for me
+to include this variable given its effect on stock returns and volatility. The data on country credit
+ratings come from the Institutional Investor's semi-annual survey of leading international bankers
+and are on a scale of 0 to 100, with 100 representing the least chance of default. The survey is
+published in March and September of each year, and the average of these two ratings is used to
+construct the annual measure.
+Finally, I include the Economic Freedom of the World (EFW) index published by the Fraser
+Institute.7 The EFW index combines factors relating to trade policy, taxation policy, government
+consumption, monetary policy, foreign investment, banking, wage and price controls, property
+rights, regulation policy, and the black market. It measures the extent to which a business can
+operate in a stable environment in an unrestricted manner and keep as much of its profit as
+possible. The EFW index is on a scale of 0 to 10, with higher values indicating greater economic
+freedom.
+4. Empirical results
+The data on the three measures of equity market size and activity come from the World
+Bank's Financial Structure and Economic Growth database compiled by Beck et al. (2001). The
+availability of this database across countries and over time determines the scope of analysis in
+this paper. Data on stock returns are obtained from Datastream. Data on macroeconomic
+fundamentals are mainly obtained from the World Bank's World Development Indicators CDROM (WDI), and the OECD Main Economic Indicators CD-ROM. When data are not available
+from WDI, the IMF's International Financial Statistics are used to construct the relevant
+variables by definition.
+4.1. Summary statistics
+Table 1, Panel A provides basic statistics on market size and trading activity. Over the sample
+period 1978–1997, the three largest equity markets are in Hong Kong, Malaysia, and Singapore.
+In terms of equity market activity, Hong Kong, Malaysia, Singapore, and the United States have
+the greatest value traded relative to the size of their economy; Germany, South Korea, Thailand,
+and the United States have the greatest value traded relative to the size of their equity market.
+Some countries appear to possess both larger and more active equity markets than others: Hong
+Kong, Malaysia, Singapore, and the United States. Some countries have large and illiquid stock
+markets, such as Chile and Jordan.8 Other countries have active but small stock markets,
+especially noteworthy are Austria, Germany, and South Korea.
+
+7
+The EFW index comprises 21 components designed to identify the consistency of institutional arrangements and
+policies with economic freedom in seven major areas (Gwartney et al., 2001). They are (1) size of government, (2)
+economic structure and use of markets, (3) monetary policy and price stability, (4) freedom to use foreign currencies, (5)
+legal structure and security of private ownership, (6) freedom to trade with foreigners, and (7) freedom of exchange in
+capital markets.
+8
+Both Claessens et al. (2006) and Levine and Schmukler (2006) show that due to trading migration whereby the
+domestic trading of cross-listed firms tends to decrease, while a significant portion of their trading activity takes place in
+international markets, Chile has large and illiquid domestic stock markets. Given that better country fundamentals drive
+internationalization of financial markets and development of domestic markets in similar ways (Claessens et al., 2006),
+the findings in this paper are not adversely affected by cross-listing and/or trading migration.
+
+72
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Table 1
+Sample characteristics
+Panel A. Summary statistics of market size and trading activity
+
+Australia
+Austria
+Belgium
+Canada
+Denmark
+France
+Germany
+Italy
+Japan
+Netherlands
+Spain
+Sweden
+United Kingdom
+United States
+Hong Kong
+Singapore
+Argentina
+Brazil
+Chile
+Colombia
+Greece
+India
+Indonesia
+Jordan
+South Korea
+Malaysia
+Mexico
+Nigeria
+Pakistan
+Philippines
+Thailand
+Venezuela
+Zimbabwe
+
+Market capitalization
+
+Value traded
+
+Turnover
+
+0.564 (0.315)
+0.092 (0.049)
+0.304 (0.091)
+0.517 (0.137)
+0.278 (0.097)
+0.250 (0.112)
+0.221 (0.056)
+0.147 (0.053)
+0.802 (0.288)
+0.542 (0.263)
+0.235 (0.115)
+0.513 (0.235)
+0.930 (0.293)
+0.678 (0.205)
+1.48 (0.707)
+1.14 (0.394)
+0.068 (0.057)
+0.153 (0.078)
+0.539 (0.378)
+0.087 (0.077)
+0.100 (0.062)
+0.179 (0.135)
+0.100 (0.127)
+0.562 (0.125)
+0.287 (0.163)
+1.36 (0.897)
+0.189 (0.165)
+0.048 (0.018)
+0.111 (0.070)
+0.309 (0.305)
+0.345 (0.309)
+0.089 (0.046)
+0.165 (0.111)
+
+0.239 (0.205)
+0.056 (0.044)
+0.046 (0.021)
+0.217 (0.146)
+0.101 (0.086)
+0.118 (0.083)
+0.250 (0.141)
+0.057 (0.044)
+0.415 (0.277)
+0.308 (0.264)
+0.150 (0.218)
+0.228 (0.213)
+0.443 (0.266)
+0.483 (0.287)
+0.771 (0.667)
+0.488 (0.369)
+0.022 (0.025)
+0.090 (0.070)
+0.053 (0.050)
+0.008 (0.009)
+0.033 (0.045)
+0.060 (0.035)
+0.041 (0.058)
+0.095 (0.071)
+0.326 (0.219)
+0.653 (0.793)
+0.083 (0.061)
+0.001 (0.001)
+0.035 (0.051)
+0.091 (0.100)
+0.242 (0.230)
+0.019 (0.020)
+0.013 (0.017)
+
+0.377 (0.130)
+0.542 (0.378)
+0.150 (0.043)
+0.387 (0.146)
+0.307 (0.207)
+0.425 (0.166)
+1.07 (0.470)
+0.353 (0.179)
+0.493 (0.202)
+0.496 (0.200)
+0.485 (0.408)
+0.391 (0.190)
+0.449 (0.209)
+0.674 (0.189)
+0.478 (0.229)
+0.394 (0.200)
+0.319 (0.197)
+0.531 (0.190)
+0.083 (0.038)
+0.081 (0.034)
+0.219 (0.204)
+0.439 (0.184)
+0.283 (0.241)
+0.166 (0.113)
+1.07 (0.401)
+0.339 (0.265)
+0.587 (0.425)
+0.010 (0.009)
+0.233 (0.255)
+0.281 (0.128)
+0.678 (0.373)
+0.164 (0.139)
+0.062 (0.042)
+
+Panel B. Summary statistics of macroeconomic fundamentals
+Growth of
+GDP p.a.
+Australia
+Austria
+Belgium
+Canada
+Denmark
+France
+Germany
+Italy
+Japan
+Netherlands
+Spain
+Sweden
+
+0.016 (0.023)
+0.020 (0.016)
+0.019 (0.015)
+0.012 (0.026)
+0.013 (0.017)
+0.018 (0.010)
+0.035 (0.170)
+0.023 (0.014)
+0.032 (0.013)
+0.015 (0.015)
+0.019 (0.019)
+0.013 (0.017)
+
+GDP p.a.
+17.2 (1.31)
+24.6 (2.35)
+23.3 (2.01)
+17.6 (1.26)
+29.6 (2.13)
+23.3 (1.95)
+19.7 (5.05)
+16.1 (1.66)
+32.5 (4.83)
+22.6 (1.74)
+12.1 (1.39)
+24.8 (1.83)
+
+Inflation
+
+Private credit Government
+consumption
+
+Trade
+openness
+
+Market
+correlation
+
+0.075 (0.028)
+0.038 (0.016)
+0.045 (0.025)
+0.063 (0.031)
+0.064 (0.035)
+0.068 (0.042)
+0.030 (0.019)
+0.104 (0.054)
+0.028 (0.019)
+0.031 (0.022)
+0.104 (0.047)
+0.079 (0.031)
+
+0.831 (0.108)
+0.834 (0.074)
+0.294 (0.072)
+0.752 (0.042)
+0.429 (0.062)
+0.915 (0.096)
+0.887 (0.051)
+0.509 (0.039)
+1.56 (0.270)
+1.18 (0.160)
+0.717 (0.044)
+1.01 (0.207)
+
+0.333 (0.016)
+0.733 (0.043)
+1.35 (0.111)
+0.536 (0.024)
+0.664 (0.047)
+0.431 (0.024)
+0.572 (0.040)
+0.422 (0.040)
+0.227 (0.043)
+1.13 (0.081)
+0.357 (0.039)
+0.620 (0.050)
+
+0.328 (0.062)
+0.462 (0.054)
+0.291 (0.068)
+0.211 (0.032)
+0.366 (0.029)
+0.284 (0.045)
+0.339 (0.032)
+0.392 (0.052)
+0.272 (0.069)
+0.200 (0.026)
+0.407 (0.119)
+0.355 (0.069)
+
+0.194 (0.008)
+0.192 (0.005)
+0.239 (0.022)
+0.223 (0.010)
+0.264 (0.012)
+0.226 (0.010)
+0.198 (0.006)
+0.186 (0.013)
+0.095 (0.003)
+0.269 (0.019)
+0.156 (0.015)
+0.282 (0.011)
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+73
+
+Table 1 (continued )
+Growth of
+GDP p.a.
+
+GDP p.a.
+
+United
+0.017 (0.023) 15.9 (1.62)
+Kingdom
+United
+0.018 (0.023) 23.4 (2.19)
+States
+Hong Kong 0.052 (0.034) 14.9 (3.52)
+Singapore
+0.053 (0.028) 14.0 (3.12)
+Argentina − 0.003 (0.069) 6.81 (0.538)
+Brazil
+0.003 (0.043) 4.06 (0.202)
+Chile
+0.037 (0.056) 2.82 (0.455)
+Colombia
+0.017 (0.018) 1.95 (0.129)
+Greece
+0.014 (0.019) 10.0 (0.571)
+India
+0.025 (0.034) 0.271 (0.038)
+Indonesia
+0.049 (0.022) 0.628 (0.129)
+Jordan
+0.013 (0.087) 1.75 (0.202)
+South
+0.064 (0.036) 5.75 (1.85)
+Korea
+Malaysia
+0.039 (0.031) 2.67 (0.407)
+Mexico
+0.013 (0.041) 3.18 (0.156)
+Nigeria
+− 0.015 (0.068) 0.256 (0.031)
+Pakistan
+0.036 (0.016) 0.384 (0.060)
+Philippines − 0.001 (0.045) 1.09 (0.071)
+Thailand
+0.056 (0.027) 1.49 (0.404)
+Venezuela − 0.012 (0.050) 3.67 (0.344)
+Zimbabwe 0.005 (0.056) 0.641 (0.042)
+
+Inflation
+
+Private credit Government
+consumption
+
+Trade
+openness
+
+Market
+correlation
+
+0.077 (0.041) 0.606 (0.358) 0.209 (0.009)
+
+0.520 (0.028) 0.232 (0.049)
+
+0.058 (0.034)
+
+0.191 (0.014) 0.136 (0.043)
+
+1.23 (0.152) 0.170 (0.004)
+
+0.082 (0.024)
+0.031 (0.027)
+5.67 (8.97)
+5.14 (7.78)
+0.234 (0.084)
+0.242 (0.043)
+0.188 (0.038)
+0.090 (0.031)
+0.097 (0.037)
+0.080 (0.067)
+0.094 (0.079)
+
+1.26 (0.101)
+0.910 (0.118)
+0.152 (0.037)
+0.238 (0.055)
+0.439 (0.127)
+0.328 (0.076)
+0.432 (0.071)
+0.269 (0.028)
+0.198 (0.122)
+0.584 (0.116)
+0.685 (0.184)
+
+0.071 (0.006)
+0.109 (0.014)
+0.050 (0.025)
+0.120 (0.035)
+0.123 (0.021)
+0.098 (0.009)
+0.141 (0.013)
+0.111 (0.010)
+0.099 (0.011)
+0.273 (0.029)
+0.108 (0.007)
+
+2.19 (0.380)
+3.80 (0.326)
+0.148 (0.020)
+0.173 (0.025)
+0.537 (0.085)
+0.297 (0.036)
+0.437 (0.038)
+0.155 (0.018)
+0.483 (0.047)
+1.22 (0.181)
+0.664 (0.062)
+
+0.376 (0.089)
+0.339 (0.084)
+0.621 (0.034)
+0.631 (0.046)
+0.590 (0.066)
+0.545 (0.031)
+0.545 (0.032)
+0.570 (0.091)
+0.708 (0.009)
+0.580 (0.039)
+0.546 (0.049)
+
+0.038 (0.025)
+0.527 (0.393)
+0.219 (0.170)
+0.078 (0.027)
+0.138 (0.111)
+0.061 (0.049)
+0.237 (0.200)
+0.156 (0.093)
+
+0.682 (0.209)
+0.143 (0.042)
+0.153 (0.039)
+0.232 (0.025)
+0.293 (0.102)
+0.553 (0.157)
+0.451 (0.133)
+0.208 (0.047)
+
+0.150 (0.014)
+0.095 (0.009)
+0.143 (0.025)
+0.125 (0.021)
+0.089 (0.009)
+0.115 (0.015)
+0.108 (0.012)
+0.198 (0.031)
+
+1.18 (0.205)
+0.299 (0.061)
+0.486 (0.162)
+0.350 (0.032)
+0.527 (0.060)
+0.583 (0.124)
+0.483 (0.076)
+0.455 (0.063)
+
+0.489 (0.102)
+0.507 (0.065)
+0.550 (0.038)
+0.552 (0.042)
+0.520 (0.040)
+0.558 (0.131)
+0.568 (0.071)
+0.607 (0.055)
+
+Market capitalization is the stock market capitalization to GDP ratio which equals the value of listed shares divided by
+GDP. Value traded is the stock market total value traded to GDP which equals total shares traded on the stock market
+exchange divided by GDP. Turnover is the ratio of the value of total shares traded and market capitalization. Growth of
+GDP per capita is the growth rate of real gross domestic product per capita. GDP per capita is the real gross domestic
+product per capita in US$1000. Inflation is the annual CPI inflation rate. Private credit refers to financial resources
+provided to the private sector, normalized by GDP. Government consumption includes all current expenditures by all levels
+of government, normalized by GDP. Trade openness is the sum of exports and imports of goods and services, normalized
+by GDP. Stock market correlation is the scaled correlation between the local equity market and world returns by following
+Bekaert et al. (2005) and defined in (11). The sample period is 1978–1997. Means and standard deviations in parentheses
+are reported.
+
+Table 1, Panel B presents basic statistics on macroeconomic fundamentals. The fastest
+growing economies in the sample are Hong Kong, Singapore, South Korea, and Thailand, with
+average annual growth rate of real GDP per capita exceeding 5%. Countries that have the
+highest real GDP per capita are Denmark and Japan. Inflation over the sample period is
+averaged at the low one-digit level for most of the sample countries, except for some Latin
+American countries. Five economies–Japan, the Netherlands, Sweden, the United States, and
+Hong Kong–have credits issued by financial intermediaries to the private sector exceeding their
+GDP. Asian governments tend to spend the least while some European governments are the
+biggest spenders in the sample. Hong Kong and Singapore have the most open economies, with
+foreign trade at several times their GDP. Correlation of the US market with the world portfolio
+is the highest.
+To conserve space, summary statistics on the efficiency factors are not presented. Here is a
+quick summary of the main facts. The legal systems of Belgium, France, Italy, the Netherlands,
+and more than half of the developing countries in the sample are of French origin; the legal
+
+74
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+systems of Austria, Germany, Japan, and South Korea are of German origin; the rest are of either
+Anglo-Saxon or Scandinavian origin. There is little variation in the law and order measure among
+developed countries, with half of developed countries having the full score throughout the sample
+period. Among developing countries, Chile and Malaysia have the most efficient judicial systems.
+Canada, France, the United States, and Singapore established insider trading laws long before
+1978, while Jordan, Venezuela, and Zimbabwe did not have relevant laws instituted by 1997.
+Most developed countries had their first insider trading prosecution during the sample period,
+while more than half of developing countries did not have their first insider trading prosecution by
+the end of 1997. The United States and Hong Kong offer the strongest protections for
+shareholders, and the United Kingdom has the highest quality of accounting standards. Germany,
+Japan, and the United States enjoy the highest country credit ratings, and Hong Kong has the
+greatest economic freedom.
+4.2. Estimation results of the stochastic frontier
+Table 2, Panel A presents posterior means, standard deviations (in parentheses) and t-ratios (in
+brackets) of the model parameters (i.e., β) in the stochastic frontier function (2). The model is
+estimated by setting the number of lags l = 5. The reason for choosing this 5-year lag is that it takes
+time for a country's equity markets to respond to shocks to its macroeconomic fundamentals and
+financial institutions. Other lag lengths, l = 1 up to l = 4, have also been tried, and the main results
+of the paper remain robust.9
+The results on the market capitalization ratio are presented in the second column of Table 2,
+Panel A. The level of financial intermediary development and openness to trade appear to be
+the two most significant macro-factors that are positively associated with the size of equity
+markets. This result is intuitive given that financial intermediaries extend credit, monitor and
+control managers, and help bring firms to public, and thus countries with well-developed
+financial intermediaries tend to have larger equity markets. Trade openness forces domestic
+firms to improve productivity and to compete in an international setting. One possible channel
+for international trade to affect domestic equity markets is that, for the surviving domestic firms
+to grow, they need more capital. Moreover, trade brings in capital flows with positive
+externalities on management and technology. These capital inflows also need to be invested.
+Both the demand and supply channels help fuel a country to develop its equity markets. The
+positive coefficient captures an important (and possibly indirect) benefit of participation in
+international trade in goods, services, capital, and labor—the expansion of the domestic equity
+markets. My finding on the positive relation between trade openness and equity market size is
+new in the literature, and complements work by Beck et al. (2000) and Bekaert et al. (2001,
+2005) showing that financial intermediaries and trade openness are conducive to real economic
+growth.
+The results on the value traded to GDP ratio are presented in the third column of Table 2, Panel
+A. The level of financial intermediary development is significantly and positively associated with,
+while government consumption is negatively associated with equity market activity. It appears
+that financial intermediaries not only help a country to develop its equity markets through
+monitoring and control, but also help the same equity markets to become more active by bringing
+high quality firms to public and making equity markets more transparent. Past research has shown
+9
+
+The results reported below identify the important association between macroeconomic and institutional factors and
+measures of equity market development. I do not claim to have fully unveiled the causal relationship between them.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+75
+
+Table 2
+Posterior and OLS estimates of the parameters in the stochastic frontier function (2)
+Variable
+
+Market capitalization
+
+Value traded
+
+Turnover
+
+0.40
+(2.69)
+[0.15]
+0.03
+(0.19)
+[0.13]
+− 0.23
+(0.65)
+[− 0.35]
+0.71
+(0.37)
+[1.90]
+− 0.47
+(0.35)
+[− 1.32]
+0.13
+(0.20)
+[0.64]
+− 0.76
+(1.54)
+[− 0.49]
+− 0.83
+(0.82)
+[− 1.01]
+− 0.24
+(0.23)
+[− 1.02]
+0.01
+(0.01)
+[0.96]
+
+0.49
+(2.28)
+[0.22]
+0.05
+(0.15)
+[0.35]
+−0.21
+(0.48)
+[−0.44]
+0.20
+(0.28)
+[0.70]
+−0.31
+(0.29)
+[−1.07]
+−0.23
+(0.16)
+[−1.41]
+0.53
+(1.16)
+[0.46]
+−1.59
+(0.56)
+[−2.82]
+−0.15
+(0.17)
+[−0.92]
+0.02
+(0.01)
+[1.80]
+
+Panel B. OLS estimates of the stochastic frontier function assuming full efficiency
+Growth of GDP per capita
+0.44
+2.59
+(2.64)
+(3.59)
+[0.16]
+[0.72]
+GDP per capita
+− 0.12
+0.17
+(0.15)
+(0.24)
+[− 0.81]
+[0.72]
+Inflation
+0.10
+− 0.47
+(0.45)
+(0.72)
+[0.22]
+[− 0.64]
+Private credit
+0.79
+1.18
+(0.31)
+(0.50)
+[2.57]
+[2.34]
+Government consumption
+− 0.11
+− 0.57
+(0.33)
+(0.53)
+[− 0.33]
+[− 1.07]
+Trade openness
+0.40
+0.06
+(0.22)
+(0.37)
+[1.79]
+[0.16]
+
+2.26
+(2.83)
+[0.80]
+0.29
+(0.17)
+[1.76]
+−0.56
+(0.50)
+[−1.13]
+0.40
+(0.34)
+[1.16]
+−0.46
+(0.36)
+[−1.25]
+−0.35
+(0.25)
+[−1.40]
+
+Panel A. Posterior estimates of the stochastic frontier function
+Growth of GDP per capita
+0.44
+(2.40)
+[0.18]
+GDP per capita
+0.02
+(0.12)
+[0.19]
+Inflation
+0.02
+(0.40)
+[0.04]
+Private credit
+0.70
+(0.25)
+[2.76]
+Government consumption
+0.05
+(0.25)
+[0.20]
+Trade openness
+0.38
+(0.16)
+[2.33]
+Stock market correlation
+− 0.80
+(1.23)
+[− 0.65]
+Intercept
+1.19
+(0.62)
+[1.90]
+Linear trend
+− 0.01
+(0.17)
+[− 0.05]
+Quadratic trend
+− 0.01
+(0.01)
+[− 1.05]
+
+(continued on next page)
+
+76
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Table 2 (continued)
+Variable
+
+Market capitalization
+
+Panel B. OSL estimates of the frontier function assuming full efficiency
+Stock market correlation
+− 2.58
+(1.43)
+[− 1.80]
+Intercept
+0.42
+(0.71)
+[0.60]
+Linear trend
+0.01
+(0.21)
+[0.07]
+Quadratic trend
+− 0.01
+(0.01)
+[− 0.89]
+
+Value traded
+
+Turnover
+
+−1.91
+(2.14)
+[−0.89]
+−1.27
+(1.16)
+[−1.09]
+0.05
+(0.34)
+[0.14]
+−0.00
+(0.02)
+[−0.22]
+
+0.66
+(1.58)
+[0.42]
+−1.70
+(0.79)
+[−2.14]
+0.03
+(0.23)
+[0.15]
+0.00
+(0.01)
+[0.43]
+
+The dependent variable is one of the following three measures of stock market size and trading activity in logarithms.
+Market capitalization is the stock market capitalization to GDP ratio which equals the value of listed shares divided by
+GDP. Value traded is the stock market total value traded to GDP which equals total shares traded on the stock market
+exchange divided by GDP. Turnover is the ratio of the value of total shares traded and market capitalization. Growth of
+GDP per capita is the growth rate of real gross domestic product per capita. GDP per capita is the real gross domestic
+product per capita in US$10,000 and measured in logarithms. Inflation is equal to one if the annual CPI inflation rate
+exceeds the sample average, and zero otherwise. Private credit refers to financial resources provided to the private sector,
+normalized by GDP and measured in logarithms. Government consumption includes all current expenditures by all levels
+of government, normalized by GDP and measured in logarithms. Trade openness is the sum of exports and imports of
+goods and services, normalized by GDP and measured in logarithms. Stock market correlation is the scaled correlation
+between the local equity market and world returns by following Bekaert et al. (2005) and defined in (11). The sample
+period is 1978–1997. Posterior standard deviations are in parentheses and corresponding t-ratios are in brackets.
+
+that government consumption has a negative effect on corporate investment through the distorting
+effects of taxation (for example, Barro, 1991). I show that large government consumption is also
+negatively related to investors trading, possibly due to the prohibitively high transaction costs,
+taxes in particular, associated with stock trading.
+The results on the turnover ratio (fourth column of Table 2, Panel A) are somewhat different
+from those using measures of equity market size and activity. I find that poor macroeconomic
+stability, as captured by the fraction of government consumption in GDP, is negatively
+associated with equity market liquidity. Interestingly, openness to trade is also negatively
+associated with equity market liquidity. There is a quadratic time trend in equity market
+liquidity.
+The first result is intuitive. Large government consumption leads to large transaction costs
+associated with stock trading and thus induces investors to trade less frequently. In the
+meantime, it is shown (see the second column of Table 2) that large government consumption is
+not related to the size of equity markets in any significant way. As a result, large government
+consumption is negatively associated with turnover, which is the ratio of value traded and
+market size.
+My interpretation of the negative association between trade openness and turnover is also
+related to the way the turnover variable is constructed. The second and third columns of Table 2
+have shown that trade facilitates the development of equity markets through both the demand and
+supply channels; and trade is also mildly and positively associated with the trading of shares.
+Since the trade effect on equity market size dominates its effect on share trading, the coefficient on
+the trade variable in the turnover regression becomes negative.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+77
+
+It appears that inflation is not significantly associated with any measures of equity market size
+and activity. I have also tried using other threshold values to separate between high and low
+inflation regimes, as well as using the actual level of inflation, and the above result remains robust.
+To ensure that I am identifying the right relationship between macroeconomic fundamentals
+and equity market size and activity, I have conducted extensive robustness checks. Bekaert et
+al. (in press) propose an exogenous measure of a country's growth opportunities that strongly
+predicts future changes in real GDP and investment. So it is interesting to explore whether this
+growth opportunity measure also affects equity market development. I replace real GDP growth
+with their growth opportunity measure in the frontier specification and find that a country's
+measures of equity market development are not significantly associated with this growth
+opportunity measure, after controlling for other determinants. Moreover, I also consider
+macroeconomic fundamentals that are typically used to explain economic growth. They are:
+total external debt over GDP, budget deficit over GDP,10 industry value added, gross capital
+formation, population growth, school enrollment, life expectancy, domestic credit, interest rates,
+and stock market volatility. The results obtained so far remain robust with inclusion of these
+other control variables.
+The stochastic frontier model assumes that the difference between the actual level of equity
+market size (trading activity) and that implied by the frictionless economy is composed of both
+the random error and institutional efficiency. In contrast, most existing models leave out the
+institutional efficiency component. As a benchmark assuming full efficiency, i.e., there are no
+composed errors but only the symmetric error term, I have estimated the regression model, and
+found statistically different results from those using (2). Results are reported in Panel B of Table 2.
+4.3. Estimation results of the institutional efficiency
+Table 3 presents posterior means and standard deviations (in parentheses) of the parameters
+(i.e., ϕ) in the institutional efficiency function (3). Note that if ϕj N 1 (b 1), then the country
+characteristic j is associated with a higher (lower) level of institutional efficiency, and ϕj = 1
+indicates that the country characteristic has no effect on efficiency. Bayesian factors for testing the
+null ϕj = 1 with unrestricted alternatives are also given in Table 3 (in brackets). Values of Bayesian
+factors greater than one indicate support for the null.
+Consistent with La Porta et al. (1997, 1998), I find that French and German civil law countries are
+associated with low levels of institutional efficiency, as reflected in small equity markets. These same
+countries appear to have equity markets with higher turnover ratios than their common law counterparts. My interpretation of the latter result is related to the way the turnover variable is constructed. The
+second and third columns of Table 3 show that these countries have a smaller equity market base, and in
+the meantime, stock markets in these countries do not exhibit any abnormal level of value traded. My
+finding of the positive relation between the French and German legal origin variables and turnover
+simply reflects the fact that turnover is the ratio of value traded over market capitalization. This finding
+also demonstrates the importance of simultaneously considering size and liquidity measures of equity
+markets in order to get a full picture of the extent of stock market development in a country.
+I find that the enactment of insider trading laws greatly enhances the institutional efficiency of a
+country, fostering larger and more active and liquid equity markets. Countries with high quality of
+10
+It might be more appropriate to use government deficit to capture the role of government on equity market
+development, as it crowds out private financial markets. The lack of complete data for countries like Austria, Denmark,
+France, Germany, Italy, and many more emerging market countries, prevents me from using it in my main results.
+
+78
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Table 3
+Posterior estimates of the parameters in the institutional efficiency distribution (3)
+Variables
+
+Market capitalization
+
+Value traded
+
+Turnover
+
+French origin
+
+0.31
+(0.11)
+[b0.01]
+0.24
+(0.10)
+[b0.01]
+0.63
+(0.22)
+[0.99]
+2.31
+(0.85)
+[0.08]
+0.73
+(0.30)
+[1.80]
+5.05
+(1.60)
+[b0.01]
+1.26
+(0.25)
+[2.81]
+1.46
+(0.46)
+[1.89]
+2.44
+(0.67)
+[0.02]
+3.77
+(1.96)
+[–]
+
+0.97
+(0.15)
+[7.14]
+1.50
+(0.39)
+[1.47]
+0.94
+(0.25)
+[3.58]
+1.81
+(0.28)
+[b0.01]
+1.21
+(0.41)
+[3.27]
+1.91
+(0.31)
+[b0.01]
+2.16
+(0.29)
+[b0.01]
+1.80
+(0.43)
+[0.23]
+2.99
+(0.74)
+[b0.01]
+0.32
+(0.05)
+[–]
+
+1.51
+(0.24)
+[0.24]
+3.71
+(1.34)
+[b0.01]
+1.72
+(0.53)
+[0.80]
+1.45
+(0.24)
+[0.58]
+2.46
+(1.02)
+[0.28]
+1.18
+(0.20)
+[4.43]
+2.50
+(0.39)
+[b0.01]
+1.68
+(0.40)
+[0.55]
+1.26
+(0.35)
+[3.25]
+0.43
+(0.08)
+[–]
+
+German origin
+
+Law and order
+
+Insider trading law enactment
+
+Insider trading law enforcement
+
+Shareholder rights
+
+Quality of accounting standards
+
+Country credit ratings
+
+Economic freedom of the world
+
+Intercept
+
+The dependent variable is one of the following three measures of stock market size and trading activity in logarithms.
+Market capitalization is the stock market capitalization to GDP ratio which equals the value of listed shares divided by
+GDP. Value traded is the stock market total value traded to GDP which equals total shares traded on the stock market
+exchange divided by GDP. Turnover is the ratio of the value of total shares traded and market capitalization. French origin
+is equal to one if the legal origin of the country is the French civil law, and zero otherwise. German origin is defined
+similarly. Law and order is equal to one if the corresponding index from the Political Risk Services is greater than 4.5 (out
+of 6), and zero otherwise. The insider trading law enactment indicator changes from zero to one in the year after the insider
+trading laws are established. The insider trading law enforcement indicator changes from zero to one in the year after the
+first prosecution is recorded (Bhattacharya and Daouk (2002)). Shareholder rights is equal to one if the corresponding
+index from La Porta et al. (1998) is greater than 4 (out of 6), and zero otherwise. Quality of accounting standards is equal to
+one if the corresponding index from CIFAR (1995) is greater than 68 (out of 100), and zero otherwise. Country credit
+ratings is equal to one if the actual rating from the Institutional Investor is greater than 65 (out of 100), and zero otherwise.
+Economic freedom of the world is equal to one if the corresponding index from the Fraser Institute is greater than 7 (out of
+10), and zero otherwise. Values of the parameter estimate greater (less) than one indicate that the corresponding
+explanatory variable is positively (negatively) associated with institutional efficiency. Values of Bayesian factors greater
+than one indicate support for the null that the explanatory variable has no effect on the efficiency distribution, i.e., the
+parameter has a value of one. The sample period is 1978–1997. Posterior standard deviations are in parentheses and
+corresponding Bayesian factors testing the null are in brackets.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+79
+
+legal rules and insider trading law enforcements are associated with more liquid equity markets.
+These are new and interesting findings. The law and order variable captures the efficiency of the state
+in enforcing property rights. Better property rights protection leads to active equity markets as
+investors are not worried that their claims on the future cash flows of their invested firm will be
+confiscated. Along the same line, when a country actually implements its insider trading laws with a
+first prosecution case on insider trading, investors become more confident in the system under which
+they are investing and they start to trade more.
+Stronger shareholder protections improve a country's institutional efficiency by fostering
+larger and more active equity markets, consistent with the prediction in Pagano and Volpin
+(2005). Given that the positive relation between shareholder protections and equity market size is
+stronger than that between shareholder protections and value traded, shareholder protections do
+not appear to be significantly associated with turnover.
+High quality of accounting standards adds transparency, solid country credit ratings reflect
+macroeconomic stability, and I find both are conducive to equity market activity and liquidity.
+These results are also new to the literature. One possible channel by which accounting standards
+might affect investors' trading behavior is that, with more transparent disclosure, investors are
+better informed and are more confident in what they are investing in and trading on, thus leading to
+more active and liquid equity markets. As for the result on a country's credit ratings, when a
+country's fiscal health is sound, investors are more willing to transact in equity markets without
+worrying about rising transaction costs.
+La Porta et al. (2002) and Rodrik (2001) argue that the presence (or creation) of institutions
+that generate market-oriented incentives, protect investors and enable social and political stability,
+is key to the economic growth of a nation. I find that greater economic freedom overall, as
+captured by the EFW index, facilitates the expansion of local equity markets. The greater the
+economic freedom in a country, the larger and more active its equity markets become. Given that
+greater economic freedom enhances institutional efficiency in both the equity market size and
+value traded dimensions, it is not surprising to find that greater economic freedom does not
+enhance a country's institutional efficiency along the turnover dimension.
+So far I have put all nine institutional efficiency factors simultaneously into my main specification
+(3). Given that this is the central part of the stochastic frontier model, it is worth examining how
+sensitive my results are if I drop one efficiency factor at a time and re-estimate the model. This will
+help us to examine one property of the stochastic frontier model—robustness with respect to potential
+missing efficiency variables. There are three measures of equity market development, and nine
+institutional efficiency factors. In total, I re-estimate 27 different specifications. I find that, first of all,
+dropping one efficiency factor at a time has no material effect on the estimates of the production
+frontier. Moreover, dropping one efficiency factor at a time does not affect the significance of the
+remaining factors in the specification. More rigorous investigation through estimating the Bayesian
+factor associated with testing the null hypothesis that the included efficiency variables are not different
+from zero gives similar conclusions. Finally, the various efficiency measures over time and across
+country do not exhibit any material changes—the ranking of efficiencies across countries remains the
+same. I also take this sensitivity analysis one step further by looking at all possible sub-sets containing
+seven out of the nine efficiency variables (omitting two factors at a time). I focus on the measure of
+equity market size and estimate a total of 36 different specifications. Again, I find that the stochastic
+frontier model is robust with respect to omitted efficiency variables.
+In addition to the above sensitivity analysis within the nine identified efficiency factors, I have
+also included the role of creditor rights (La Porta et al., 1998), trading costs (from Elkins/McSherry),
+information disclosure (from S&P/IFC EMDB), and the corruption perception index (from
+
+80
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Transparency International) in the institutional efficiency distribution (3). The results reported above
+remain unchanged.
+4.4. Institutional efficiency over time and across countries
+The role of country characteristics in institutional efficiency can be partly understood through
+the ϕ's in (3), but an examination of the level of institutional efficiency itself is more
+informative. To illustrate the different effects of various country characteristics on institutional
+efficiency, I present some efficiency numbers associated with hypothetical economies. For
+example, using the market capitalization ratio as the measure of equity market size, the level of
+institutional efficiency τ is 84% for an economy with the establishment and enforcement of
+insider trading laws, and quality of accounting standards, country credit ratings, and economic
+freedom above the sample averages. That is, the size of the equity market in this economy is 84%
+of the maximum it could be under a frictionless world, or the equity market is underdeveloped by
+16%. Using the value traded to GDP ratio as the measure of equity market activity, for the same
+economy the level of institutional efficiency τ is 95%. That is, the level of equity market activity
+in this economy is quite close to the maximum it could be under a perfect institutional
+framework. If we use the turnover ratio as the measure of equity market liquidity, the level of
+institutional efficiency τ is 93%.
+To examine how institutional efficiency evolves over time and differs across countries, Fig. 1
+presents in each year posterior means of the average levels of efficiency across sample countries.
+Fig. 2 presents for each country the average levels of institutional efficiency during the sample period.
+It appears that for all three measures of equity market size and trading activity there is a general
+trend of moderate improvement in institutional efficiency over time, particularly for the efficiency
+measure using the metric of the market capitalization and value traded to GDP ratios. The level of
+institutional efficiency in turnover appears to be quite flat over the sample period, reflecting the
+fact that both the numerator and denominator of the turnover ratio are growing at similar rates
+over the sample period.
+Among all the countries examined, which country has the highest level of institutional
+efficiency? Fig. 2 provides the answer. Using the market capitalization to GDP ratio as a metric of
+equity market size, Panel A of Fig. 2 shows that Australia, Canada, the United Kingdom, the
+
+Fig. 1. Institutional efficiency over time. This figure presents in each year posterior means of the average levels of
+institutional efficiency across sample countries. The different lines in the figure represent the levels of institutional
+efficiency when using different measures of equity market size and activity.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+81
+
+Fig. 2. Institutional efficiency across countries. These figures present for each country posterior means of the average levels
+of institutional efficiency during the sample period. The countries are sorted, from low to high, based on their efficiency
+levels. The different panels present the levels of institutional efficiency when using different measures of equity market size
+and activity. (Panel A) Level of institutional efficiency in equity market size. (Panel B) Level of institutional efficiency in
+equity market activity (value traded). (Panel C) Level of institutional efficiency in equity market activity (turnover).
+
+United States, Hong Kong, and Singapore clearly have the highest levels of institutional
+efficiency. Using the value traded to GDP ratio as the metric, Panel B of Fig. 2 shows that
+countries with the highest level of institutional efficiency are Canada, the United States, and
+
+82
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Singapore. Finally, using the turnover ratio as the measure of equity market liquidity, Panel C of
+Fig. 2 shows that Canada, France, Germany, the United States, and Singapore are the countries
+with the highest levels of institutional efficiency. I find that the level of equity market
+development of an average country is around 30% below its maximum potential. Across
+countries, there is a fairly large dispersion in the levels of institutional efficiency.
+4.5. Sources of the growth in equity market size and trading activity
+Table 4 presents the actual and fitted average annual percentage growth in equity market
+size and trading activity. For each measure of market size and activity, the first column presents
+the actual growth rate, while the second column presents the posterior means and posterior
+standard deviations (in parentheses) of the expected growth rate from the model. Comparing
+these two columns is analogous to comparing actual and fitted values in a regression model.
+The R-squares at the end of the table indicate that the model fits quite well for the majority of
+countries.
+It appears that there is considerable variation in equity market expansion across sample
+countries: less developed countries, given their smaller equity market bases, tend to grow much
+faster in size than the developed countries in the sample. In contrast, more developed countries
+tend to enjoy faster growth in trading activity than the developing countries. It is noteworthy that
+countries, such as Austria, Spain, and Hong Kong in the developed world and Chile, Greece,
+Indonesia, and Pakistan in the developing world, enjoy two-digit growth in equity market size and
+trading activity over the sample period.
+The stochastic frontier model breaks down the change in equity market size (trading activity)
+into changes due to reductions in institutional inefficiency, improvements in macro-fundamentals,
+and changes in financial technology. Fig. 3 presents the decomposition results where the height of
+each bar represents for each country the average change in the measure of equity market size
+(trading activity) over time, and the three colored components within a bar represent the change in
+equity market size (trading activity) due to the above three components.
+It appears that many sample countries have experienced some moderate improvement in their
+legal, institutional and policy frameworks during the sample period. For a handful of the countries,
+improvements in institutional efficiency have been drastic; notably, Austria, Denmark, Spain,
+Greece, Indonesia, and Venezuela. One country, Jordan, has experienced some deterioration in its
+institutional framework.
+Not surprisingly, most of the OECD countries in the sample have made relatively little
+progress in terms of their macroeconomic fundamentals, while most developing countries have
+enjoyed moderate improvement in macroeconomic fundamentals. In several countries–
+Malaysia, Nigeria, and Zimbabwe–changes in macro-fundamentals appear to be importantly
+associated with the growth in their equity markets. For most of the countries, the connection
+between changes in macroeconomic fundamentals and a country's equity market size and
+trading activity appears to be weak relative to those between the other two components in the
+decomposition and measures of equity market development.
+Finally, improvements in financial technology have played a non-negligible role in the
+expansion of global equity markets. That is, during the sample period, with the adoption of
+financial liberalization and privatization by most of the sample countries, and technological
+advances such as the Internet, there are more and more investors (foreign institutional investors, in
+particular) participating in the equity markets and/or trading more. It appears that financial
+technological advances have played a very important role in the expansion of equity markets in
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+83
+
+Table 4
+Growth in equity market size and trading activity
+Market capitalization
+
+Australia
+Austria
+Belgium
+Canada
+Denmark
+France
+Germany
+Italy
+Japan
+Netherlands
+Spain
+Sweden
+United Kingdom
+United States
+Hong Kong
+Singapore
+Argentina
+Brazil
+Chile
+Colombia
+Greece
+India
+Indonesia
+Jordan
+South Korea
+Malaysia
+Mexico
+Nigeria
+Pakistan
+Philippines
+Thailand
+Venezuela
+Zimbabwe
+R-square
+
+Value traded
+
+Turnover
+
+Actual
+
+Fitted
+
+Actual
+
+Fitted
+
+Actual
+
+Fitted
+
+12.7
+15.8
+6.77
+6.28
+9.58
+15.2
+8.37
+12.8
+3.25
+12.8
+15.1
+11.1
+8.69
+6.59
+10.6
+0.00
+19.6
+11.7
+12.3
+15.2
+13.8
+17.4
+47.4
+2.04
+10.8
+9.17
+23.9
+9.09
+12.3
+21.0
+18.9
+9.68
+15.5
+
+6.70 (2.07)
+17.2 (6.12)
+5.73 (4.20)
+2.74 (1.70)
+2.50 (3.09)
+12.5 (4.88)
+5.88 (5.04)
+12.3 (4.60)
+17.3 (4.04)
+7.29 (4.17)
+12.4 (4.69)
+6.87 (2.81)
+12.6 (3.19)
+8.22 (3.38)
+9.00 (3.79)
+2.55 (3.69)
+16.4 (4.79)
+14.8 (3.37)
+17.1 (3.86)
+16.0 (4.97)
+11.1 (4.75)
+18.4 (4.17)
+46.5 (7.04)
+2.39 (4.30)
+11.0 (5.13)
+16.2 (2.84)
+17.0 (4.65)
+12.9 (4.78)
+14.7 (3.22)
+14.5 (3.50)
+22.1 (4.97)
+8.12 (4.93)
+18.7 (4.71)
+0.70
+
+21.4
+34.3
+10.2
+14.6
+37.9
+23.1
+17.6
+23.2
+3.09
+18.3
+39.2
+15.3
+15.0
+12.8
+22.1
+5.32
+24.6
+18.1
+27.3
+19.8
+52.4
+19.4
+68.4
+0.59
+20.8
+20.3
+22.7
+21.5
+31.0
+22.2
+21.8
+32.3
+18.1
+
+14.8 (3.61)
+36.2 (7.29)
+14.1 (6.14)
+11.4 (2.39)
+33.8 (6.78)
+20.3 (5.61)
+11.1 (4.46)
+23.2 (6.19)
+16.7 (5.13)
+13.8 (4.23)
+31.8 (6.24)
+15.5 (3.87)
+23.3 (4.44)
+12.1 (4.13)
+11.7 (4.56)
+11.4 (4.66)
+22.5 (6.57)
+19.5 (5.20)
+31.8 (6.95)
+20.7 (7.23)
+47.1 (7.66)
+21.1 (6.05)
+67.2 (9.16)
+5.85 (5.73)
+21.1 (4.87)
+24.8 (4.28)
+22.6 (5.83)
+22.5 (7.36)
+28.5 (6.59)
+22.5 (6.07)
+23.0 (7.09)
+31.2 (7.68)
+18.3 (6.41)
+0.87
+
+7.69
+16.0
+3.20
+7.86
+25.9
+6.85
+8.55
+9.27
+−0.16
+4.90
+21.0
+3.73
+5.78
+5.82
+10.4
+5.41
+4.15
+5.65
+13.4
+3.97
+34.0
+1.68
+14.3
+−1.42
+9.00
+10.2
+−1.01
+11.3
+16.6
+1.03
+2.45
+20.6
+2.25
+
+8.95 (3.07)
+13.0 (3.90)
+8.23 (4.30)
+7.99 (1.89)
+25.3 (5.58)
+7.72 (1.85)
+4.93 (3.21)
+8.53 (3.12)
+4.20 (3.54)
+8.12 (2.85)
+12.2 (4.12)
+8.57 (2.59)
+9.46 (2.97)
+4.16 (2.94)
+5.72 (3.57)
+7.82 (3.77)
+6.03 (4.40)
+3.51 (3.50)
+14.5 (5.54)
+4.59 (5.06)
+29.9 (5.40)
+3.19 (4.17)
+13.2 (4.46)
+− 1.04 (4.52)
+9.24 (2.76)
+7.22 (3.14)
+0.96 (3.62)
+11.8 (5.44)
+12.3 (4.44)
+3.91 (3.88)
+4.69 (3.86)
+19.2 (5.54)
+2.77 (4.36)
+0.85
+
+This table presents the geometric average annual percentage growth in equity market size and trading activity. Market capitalization
+is the stock market capitalization to GDP ratio which equals the value of listed shares divided by GDP. Value traded is the stock
+market total value traded to GDP which equals total shares traded on the stock market exchange divided by GDP. Turnover is the
+ratio of the value of total shares traded and market capitalization. For each measure of market size and activity, the first column
+(Actual) presents the actual realized growth rate, while the second column (Fitted) presents the posterior means and posterior
+standard deviations (in parentheses) of the expected (fitted) growth rate from the model. The sample period is 1978–1997.
+
+developing countries such as Thailand, Indonesia, South Korea, and Brazil, where the room for
+improvement in financial technology is the greatest. Many of the above findings could not be
+obtained using other models or methods, and hence have no counterpart in the existing literature.11
+11
+One caveat to my finding on the importance of changes in financial technology as one source of equity market
+development is that this decomposition result could be driven by the many omitted factors, unrelated to the financial
+technology. Various robustness checks have been implemented in the paper to partially address this concern.
+
+84
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+85
+
+5. Conclusions
+This paper contributes to the literature in several major ways. First, it constructs a direct
+measure of the effect of the institutional framework on a country's equity market development.
+Second, it finds evidence in support of strong association between some new macroeconomic
+variables and a country's level of equity market development. Finally, it provides evidence on the
+sources of growth in equity market size and activity. While considerable effort in the past has been
+expended on explaining cross-sectional variations in equity market size and activity, the
+stochastic frontier model adopted in this paper allows me to focus on the temporal component of
+growth in addition to the cross-sectional relationships.
+Using panel data on 33 countries, I find that development of financial intermediaries and
+openness to trade are positively associated with the size of equity markets, and that development
+of financial intermediaries is also positively associated with the level of activity in equity markets,
+while government consumption is negatively associated with activity and liquidity in equity
+markets. Interestingly, openness to trade is negatively associated with equity market liquidity.
+Also, liquidity in equity markets increases over time. The above results are robust to the use of
+different lag structures and various control variables.
+Under the stochastic production frontier model, legal and institutional characteristics affect a
+country's equity market size and activity through the channel of institutional efficiency. I show that
+the level of equity market development of an average country is around 30% below its maximum
+potential. Specifically, French and German legal origins are associated with smaller but more liquid
+equity markets. Laws that protect shareholders rights, accounting standards that produce highquality, comprehensive and comparable corporate financial statements, good country credit ratings,
+and greater economic freedom of a country tend to foster larger and more active equity markets.
+Overall, there are wide differences in institutional efficiency across countries and over time.
+It appears that improvements in institutional efficiency and changes in financial technology have
+provided the major impetus for the phenomenal expansion of global equity markets over the past
+two decades. Many developed countries and some developing countries experience little to
+moderate improvements in their market fundamentals during the sample period. Improvements in
+institutional efficiency vary across countries, particularly in developing countries. The evidence
+suggests that it is the countries that have significantly improved the quality of their institutional
+frameworks experience the fastest growth in equity market size and activity.
+Acknowledgment
+I thank Cam Harvey, Chris Lundblad, David Ng, Marco Pagano, Otto Randl, and Stephan
+Siegel for sharing their data. I also wish to thank the editor Geert Bekaert, two anonymous
+referees, Greg Bauer, Sugato Chakravarty, Bernard Dumas, Sean Finucane, Adlai Fisher,
+Murray Frank, Paul Halpern, Rob Heinkel, Burton Hollifield, Andrew Karolyi, Gary Koop, Mo
+Levi, Florencio Lopez-de-Silanes, Rod McCrorie, William Megginson, Sergei Sarkissian,
+Fig. 3. Sources of the growth in equity market size and trading activity. These figures present the sources of growth in equity
+market size and trading activity. The height of each bar represents the average change in measures of equity market size and
+activity over time (i.e., the annual growth rate in percentages), and the three colored components within a bar represent the
+change of equity market size and activity due to reduction in institutional inefficiency, improvements in macro-fundamentals,
+and changes in financial technology. The different panels present the growth decomposition results when using different
+measures of equity market size and activity. (Panel A) Sources of the growth in equity market size. (Panel B) Sources of the
+growth in equity market activity (value traded). (Panel C) Sources of the growth in equity market activity (turnover).
+
+86
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Lorne Switzer, Jun Wu, Yangru Wu, seminar participants at Hong Kong University of Science
+and Technology, University of British Columbia, University of Toronto, and University of
+Western Ontario, and conference participants at the North American Winter Meetings of
+Econometric Society (San Diego), the Western Finance Association meetings (Park City), the
+Valuation in Emerging Markets Conference at the Batten Institute, University of Virginia
+(Charlottesville), the 7th Valencia International Meetings on Bayesian Statistics (Tenerife), the
+First International Finance Conference at the China Center for Financial Research (Beijing),
+and the Northern Finance Association meetings (Banff) for their comments. An earlier version
+of the paper is the recipient of the Second Annual Barclays Global Investors Canada Research
+Award. Marcus Xu and Longkai Zhao provided excellent research assistance, and Charles Gaa
+and Cynthia Ree provided valuable editorial help. Financial support from the Social Sciences
+and Humanities Research Council of Canada, the UBC-HSS grant and the W.M. Young Chair in
+Finance is gratefully acknowledged. The usual caveat applies.
+Appendix A
+The model presented in Section 2.1 defines the likelihood function and some aspects
+of the prior. In specifying the prior, little subjective prior information is introduced and a
+proper prior is adopted, which ensures that the resulting posterior distribution is well-defined
+(Koop et al., 2000).
+Let yt = (yt1, …, ytN)′, Xt−l = (xt−l,1, …, xt−l,N)′, and ut, vt be defined conformably with yt. To
+write the model in (2) in matrix form the following notations are introduced. Let
+2
+
+
+Qt ¼ iN ⊗ 1 t
+2
+
+3
+Q1
+6 Q2 7
+7
+Q¼6
+4 v 5;
+QT −1
+
+
+t2 ;
+
+X1 0 : : :
+6 0 X2 0
+Xb ¼ 6
+4 v
+0 :::
+0 ::: 0
+
+3
+0
+v 7
+7;
+0 5
+XT −l
+
+X ¼ ½ Q Xb ;
+where ιN is an N-dimensional vector of ones, and ⊗ is the Kronecker product. The model
+specified in Section 2.1 can then be written as
+y ¼ X b − u þ v;
+
+ðA1Þ
+
+where y = (yl+1′, …, yT′)′, u = (ul+1′, …, uT′)′, v = (vl+1′, …, vT′)′, and β = (m0 m1 m2 βl+1, …, βT)′ is a
+(3 +K(T − l))-dimensional vector of parameters.
+The model specification is completed with the following independent prior structure
+pðb; r−2 ; /Þ ¼ pðbÞpðr−2 Þpð/Þ;
+
+ðA2Þ
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+87
+
+where ϕ = (ϕ1, …, ϕm)′. In addition to the assumptions about the prior for β made in Section 2.1,
+the following prior specification for β is used
+3þKðT −1Þ
+
+pðbÞ ¼ fN
+
+ðbjb0 ; B−1
+0 Þ;
+
+ðA3Þ
+
+where f N3+K(T−l)(·|b0, B0− 1) is the density function of the (3 + K(T − l ))-variate normal distribution
+with mean b0 and variance–covariance matrix B0− 1, b0 = ι3+K(T−l), a (3 + K(T − l ))-dimensional
+vector of ones, and
+B−1
+0
+
+
+
+c I
+¼ 13
+0
+
+
+0
+;
+c2 R⊗D2
+
+with c1, c2, and D2 being prior hyperparameters, and
+2
+
+1
+r
+v
+
+6
+R¼6
+4
+
+r
+1
+v
+
+rT−l−1
+
+rT −l−2
+
+:::
+:::
+:::
+:::
+
+3
+rT −l−1
+rT −l−2 7
+7:
+v 5
+1
+
+First set c1 = c2 = 100, and D2 = IK (the baseline case). Then vary these values in a prior
+sensitivity analysis. It appears that changing the baseline values by a factor 10 in either direction
+has little effect on results.
+The prior specification for the variance of the symmetric error term is given as
+
+ 
+n0 a0 
+p r−2 ¼ fG r−2 j ;
+;
+ðA4Þ
+2 2
+where fG(·| n20 ; a20 ) is the density function of the Gamma distribution with shape parameter n20 and
+scale parameter a20, the mean being n0/a0 and the variance n0/a02, and n0 = a0 = 10− 6 which makes
+the prior on σ− 2 very close to the noninformative prior.
+The prior specification for the ϕj's is independent Gamma
+pð/j Þ ¼ fG ð/j jaj ; gj Þ
+
+j ¼ 1; N ; m;
+
+ðA5Þ
+
+with aj = 1 (j = 1, …, m), g1 = −ln (τ⁎), and gj = 1 (j = 2, …, m). This prior on the ϕj's is
+noninformative and centered reasonably. In particular, if the country characteristics W2, …, Wm
+have no effect on the efficiency distribution, then the prior median efficiency would be τ⁎. First
+set τ⁎ = 0.75, then vary values of τ⁎ in the interval [0.10, 0.99] yielding results that are virtually
+identical to those reported in the paper. The priors for ϕ2, …, ϕm are all centered at one, a value
+which implies that the country characteristics W2, …, Wm have no effect on valuation efficiency.
+In sum, the full Bayesian model can be written as
+pðb; r−2 ; /jy; X ; W Þ
+ðT−lÞN
+
+¼ fN
+
+T
+
+ðyjX b − u; r2 IðT −lÞN Þ j
+
+m
+
+m
+
+j fG ðuti j1; j /j t−1;ij Þpðb; r−2 ; /Þ:
+
+t¼lþ1 i¼1
+
+j¼1
+
+w
+
+ðA6Þ
+
+88
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+To obtain posterior estimates of the model parameters in (A6), Gibbs sampling methods
+(Gelfand and Smith, 1990) are used. Specifically, posterior draws of β can be obtained from the
+following conditional distribution
+3þKðT −lÞ
+
+pðbjy; r−2 ; u; /Þ ¼ fN
+
+ðbjB−1 ½B0 b0 þ r−2 X Vðy þ uÞ; B−1 Þ;
+
+ðA7Þ
+
+where B = B0 + σ− 2X′X.
+The next conditional is
+
+
+p /−2 jy;
+b; u; /
+	
+1
+−2 1
+¼ fG r j ðn0 þ ðT −l ÞN Þ; ½a0 þ ð y−X b þ uÞVð y−X b þ uÞ :
+2
+2
+
+ðA8Þ
+
+Then, the level of valuation efficiency can be drawn from
+ðT −lÞN
+
+pðujy; b; r−2 ; /Þ ¼ fN
+
+ðT −lÞN
+
+ðujX b− y − r2 g; r2 IðT −lÞN ÞIðuaRþ
+
+Þ;
+
+ðA9Þ
+
+1
+where η = (λ−l+1,1
+, …, λ−TN1 ), I(·) is an indicator function, which equals one if u is positive, and zero
+otherwise.
+The conditional distribution of any of the ϕh's (h = 1, …, m) depends only on u and ϕ(−h) = (ϕ1,
+…, ϕh− 1, ϕh+1, …, ϕm)′ and is given by
+
+T
+N
+X
+X
+
+pð/h ju; /ð−hÞ Þ ¼ fG ð/h jah þ
+
+wt−l;ih ; gh
+
+t¼lþ1 i¼1
+
+þ
+
+T
+N
+X
+X
+t¼lþ1 i¼1
+
+w
+
+wt−l;ih uti j /j t−1;ij Þ:
+jph
+
+ðA10Þ
+
+The Gibbs chain is constructed from sequential draws from (A7)–(A10). After a burn-in of
+1000 draws, 10,000 Gibbs draws are retained. Many runs of different lengths and from various
+starting values are conducted and the results are similar to those reported in the paper. Bayesian
+factors for comparing various restricted versions of the model are calculated using the SavageDickey density ratio as in Verdinelli and Wasserman (1995).
+References
+Barro, R.J., 1991. Economic growth in a cross section of countries. Quarterly Journal of Economics 56, 407–443.
+Beck, T., Levine, R., 2004. Stock markets, banks, and growth: panel evidence. Journal of Banking and Finance 28, 423–442.
+Beck, T., Levine, R., Loayza, N., 2000. Finance and the sources of growth. Journal of Financial Economics 58, 261–300.
+Beck, T., Demirgüç-Kunt, A., Levine, R., 2001. The financial structure database. In: Demirgüç-Kunt, A., Levine, R.
+(Eds.), Financial Structure and Economic Growth: a Cross-country Comparison of Banks, Markets, and Development.
+MIT Press, Cambridge, MA, pp. 17–80.
+Beck, T., Demirgüç-Kunt, A., Levine, R., 2003. Law, endowments, and finance. Journal of Financial Economics 70,
+137–181.
+Beck, T., Demirgüç-Kunt, A., Laeven, L., Maksimovic, V., in press. The determinants of financing obstacles. Journal of
+International Money and Finance.
+Bekaert, G., Harvey, C.R., 2000. Foreign speculators and emerging equity markets. Journal of Finance 55, 565–613.
+Bekaert, G., Harvey, C.R., 2004. Chronology of important economic, financial and political events in emerging markets,
+http://www.duke.edu/˜charvey/chronology.htm.
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+89
+
+Bekaert, G., Harvey, C.R., Lundblad, C., 2001. Emerging equity markets and economic development. Journal of
+Development Economics 66, 465–504.
+Bekaert, G., Harvey, C.R., Lumsdaine, R., 2002. Dating the integration of world equity markets. Journal of Financial
+Economics 65, 203–248.
+Bekaert, G., Harvey, C.R., Lundblad, C., 2005. Does financial liberalization spur growth? Journal of Financial Economics
+77, 3–55.
+Bekaert, G., Harvey, C.R., Lundblad, C., Siegel, S., in press. Global growth opportunities and market integration, Journal
+of Finance.
+Bhattacharya, U., Daouk, H., 2002. The world price of insider trading. Journal of Finance 57, 75–108.
+Boyd, J.H., Levine, R., Smith, B.D., 2001. The impact of inflation on financial sector performance. Journal of Monetary
+Economics 47, 221–248.
+Castro, R., Clementi, G.L., MacDonald, G., 2004. Investor protection, optimal incentives, and economic growth. Quarterly
+Journal of Economics 119, 1131–1175.
+Center for International Financial Analysis and Research Inc., 1995. 4th Edition. International Accounting and Auditing
+Trends, vol. 1.
+Claessens, S., Klingebiel, D., Schmukler, S.L., 2006. Stock market development and internationalization: Do economic
+fundamentals spur both similarly? Journal of Empirical Finance 13, 316–350.
+Demirgüç-Kunt, A., Maksimovic, V., 1998. Law, finance, and firm growth. Journal of Finance 53, 2107–2137.
+Dyck, A., Zingales, L., 2004. Private benefits of control: an international comparison. Journal of Finance 59, 537–600.
+Erb, C., Harvey, C.R., Viskanda, T., 1995. Country credit risk and global portfolio selection. Journal of Portfolio
+Management 21, 74–83.
+Erb, C., Harvey, C.R., Viskanda, T., 1996. Expected returns and volatility in 135 countries. Journal of Portfolio
+Management 22, 46–58.
+Gelfand, A.E., Smith, A.F.M., 1990. Sampling-based approaches to calculating marginal densities. Journal of the
+American Statistical Association 85, 398–409.
+Greene, W.H., 2002. Econometric Analysis, 5th edition. Prentice Hall.
+Gwartney, J., Lawson, R., Park, W., Skipton, C., 2001. Economic Freedom of the World: 2001 Annual Report. The Fraser
+Institute, Vancouver. Data retrieved from http://www.freetheworld.com.
+Habib, M.A., Ljungqvist, A., 2005. Firm valuation and managerial incentives: a stochastic frontier approach. Journal of
+Business 78, 2053–2094.
+Hunt-McCool, J., Koh, S.C., Francis, B.B., 1996. Testing for deliberate underpricing in the IPO premarket: a stochastic
+frontier approach. Review of Financial Studies 9, 1251–1269.
+Huybens, E., Smith, B.D., 1999. Inflation, financial markets, and long-run real activity. Journal of Monetary Economics
+43, 283–315.
+Koop, G., 2001. Cross-sectoral patterns of efficiency and technical change in manufacturing. International Economic
+Review 42, 73–103.
+Koop, G., Li, K., 2001. The valuation of IPO and SEO firms. Journal of Empirical Finance 8, 375–401.
+Koop, G., Osiewalski, J., Steel, M.F.J., 1999. The components of output growth: a stochastic frontier analysis. Oxford
+Bulletin of Economics and Statistics 61, 455–487.
+Koop, G., Osiewalski, J., Steel, M.F.J., 2000. Modeling the sources of output growth in a panel of countries. Journal of
+Business and Economic Statistics 18, 284–299.
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R.W., 1997. Legal determinants of external finance. Journal of
+Finance 52, 1131–1150.
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R.W., 1998. Law and finance. Journal of Political Economy 106,
+1113–1155.
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R.W., 2002. Investor protection and corporate valuation. Journal of
+Finance 57, 1147–1170.
+Leuz, C., Nanda, D., Wysocki, P.D., 2003. Investor protection and earnings management: an international comparison.
+Journal of Financial Economics 69, 505–527.
+Levine, R., Renelt, D., 1992. A sensitivity analysis of cross-country growth regressions. American Economic Review 82,
+942–963.
+Levine, R., Zervos, S., 1998. Stock markets, banks, and economic growth. American Economic Review 88, 537–558.
+Levine, R., Schmukler, S.L., 2006. Internationalization and stock market liquidity. Review of Finance 10, 153–187.
+Levine, R., Loayza, N., Beck, T., 2000. Financial intermediation and growth: causality and causes. Journal of Monetary
+Economics 46, 31–77.
+Li, K., 2002. What explains the growth of global equity markets? Canadian Investment Review 23–30 (Fall issue).
+
+90
+
+K. Li / Journal of Empirical Finance 14 (2007) 59–90
+
+Lombardo, D., Pagano, M., 2006. Legal determinants of the return on equity. In: Oxelheim, L. (Ed.), Corporate and
+Institutional Transparency for Economic Growth in Europe. Elsevier, Oxford, pp. 235–270.
+Pagano, M., Volpin, P., 2005. Shareholder protection, stock market development, and politics. ECGI-Finance Working
+Paper, vol. 105.
+Perotti, E.C., van Oijen, P., 2001. Privatization, political risk and stock market development in emerging economies.
+Journal of International Money and Finance 20, 43–69.
+Ritter, C., Simar, L., 1997. Pitfalls of Normal-Gamma stochastic frontier models. Journal of Productivity Analysis 8,
+167–182.
+Rodrik, D., 2001. Institutions, integration, and geography. Search of the Deep Determinants of Economic Growth.
+Overseas Development Council, Washington, DC.
+Stulz, R., 2001. Does financial structure matter for economic growth? A corporate finance perspective. In: Demirgüç-Kunt,
+A., Levine, R. (Eds.), Financial Structure and Economic Growth: A Cross-country Comparison of Banks, Markets, and
+Development. MIT Press, Cambridge, MA, pp. 143–188.
+Trzcinka, C., Ukhov, A.D., 2005. Financial globalization and risk sharing: welfare effects and the optimality of open
+markets. Kelley School of Business University of Indiana Working Paper.
+Verdinelli, I., Wasserman, L., 1995. Computing Bayes factors using a generalization of the Savage-Dickey density ratio.
+Journal of the American Statistical Association 90, 614–618.
+
+

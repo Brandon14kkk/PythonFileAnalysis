@@ -1,0 +1,688 @@
+The Financial Review 37 (2002) 123--136
+
+Payment For Risk: Constant Beta
+Vs. Dual-Beta Models
+Glenn Pettengill
+Emporia State University
+
+Sridhar Sundaram
+Grand Valley State University
+
+Ike Mathur∗
+Washington University
+
+Abstract
+Fama and French’s (1992) assertion that investors receive premium payments for risk
+associated with the book value to market price (BE/ME) and size and not for holding beta risk
+has sparked a lively debate concerning risk factors that are priced in the market. Howton and
+Peterson (1998) use a dual-beta model to test the Fama and French conclusions. They conclude
+that the significant relationship between beta and returns depends on the use of the dual-beta
+model. This work, however, ignores the results reported by Pettengill, Sundaram, and Mathur
+(PSM, 1995). PSM find a significant relation between a constant risk beta and returns when
+data are segmented between up and down markets, but do not consider the impact of size and
+BE/ME. In this paper we show that the PSM (1995) market segmentation procedure alone
+provides a sufficient condition to identify a significant relation between beta and returns in
+
+∗Corresponding author: Olin School of Business, Washington University, Campus Box 1133, One
+Brookings Drive, St. Louis, MO 63130-4899; Phone: (314) 935-7257; Fax: (314) 935-6359; E-mail:
+MATHUR@olin.wustl.edu.
+The authors thank two anonymous referees, Stephen P. Ferris (the editor), Dave Hutchinson, Kathyrn Kelm,
+John Nofsinger, Thomas V. Schwarz, Shekar Shetty, and participants at the 2001 Financial Management
+Association meeting for helpful comments on earlier drafts of the paper. The authors also thank Kimberly
+C. Gleason for data collection and Alejandro Carvalho and Sharon Rose for their assistance in preparing
+the manuscript.
+
+123
+
+124
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+the presence of size and BE/ME. Dual market betas may be relevant in explaining risk and
+return. However, the market segmentation procedure of PSM (1995) is the critical condition
+for finding a significant relationship between returns and betas.
+Keywords: constant beta, risk and return, systematic risk
+JEL Classifications: G12/G32/G14
+
+1. Introduction
+Fama and French (1992) study the ability of various market variables to explain
+cross-sectional returns of common stocks. They find that market value of equity and
+the ratio of book value to market value of equity (BE/ME) explain a significant proportion of the variation in cross-sectional returns. In contrast, they find that systematic
+risk as measured by beta is not related to returns. These results lead Fama and French
+to conclude that firm size and BE/ME proxy for risk, but that the market does not
+reward investors for holding systematic risk as measured by beta. This research has
+engendered an active debate centered on the nature of the risk-return relationship in
+the equity market.
+Included in the risk-return debate are studies that argue that the beta measures
+used by Fama and French (1992) are mis-specified.1 Several studies build upon
+early work by Fabozzi and Francis (1977), who estimate separate betas over bull and
+bear markets. Wiggins (1992) finds that the Fabozzi and Francis dual-beta model
+improves return predictions for portfolios formed by size, past beta, and historic
+return performance. Bhardwaj and Brooks (1993) extend this work by examining the
+size effect using a dual-beta market model. They conclude that “small firm stocks
+underperform large firm stocks when beta risk is allowed to vary in bull and bear
+markets” (p. 270).
+Howton and Peterson (1998) (hereafter HP) provide a more direct test of the Fama
+and French conclusions. They employ the dual-beta asset-pricing model of Bhardwaj
+and Brooks (1993) to test the relation between beta and realized stock returns in the
+presence of size, BE/ME, and other market variables. Unlike Bhardwaj and Brooks
+(1993), they find a significant size effect, and in contrast to Fama and French (1992),
+they find that beta provides a significant explanation of the cross-sectional returns.
+The relation between beta and returns becomes significant only when the sample
+is segmented between bull and bear markets. HP (1998) argue that the significant
+relationship between beta and returns results from their use of bull and bear betas
+rather than constant-risk betas. Their study, however, ignores the work of Pettengill,
+Sundaram, and Mathur (1995), hereafter labeled PSM.
+
+1 Other studies that argue that beta measures are mis-specified include: Kothari, Shanken, and Sloan (1995),
+who argue that when beta is estimated using annual returns a significant relationship exists between beta
+and returns; and Jagannathan and Wang (1996), who argue that a significant relationship exists between
+beta and returns if beta is allowed to vary over time.
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+125
+
+PSM (1995) argue that the capital asset pricing model postulates a positive
+relationship between beta and expected returns. Empirical tests of this relationship
+such as those conducted by Fama and French (1992) use realized returns instead
+of expected returns. PSM (1995) argue for a conditional relation between beta and
+realized returns: a positive relation between beta and realized returns in up markets
+(where market risk premium (Rm − Rf ) is >0), and a negative relation between beta
+and realized returns in down markets (where market risk premium (Rm − Rf ) is <0).
+They find a significant relation between realized returns and constant-risk betas when
+the sample is segmented into up and down markets. This paper shows that the market
+segmentation procedure of PSM (1995) is a sufficient condition to demonstrate a
+significant relationship between beta and returns. Although the use of bull and bear
+market betas as reported by HP (1998) may provide important information concerning
+the risk-return puzzle, bull and bear market betas are not a necessary condition to find
+a significant relation between beta and returns.
+Extant literature on the conditional relation between beta and realized returns
+and the dual-beta asset-pricing model are discussed in the next section. Section 3
+describes the sample and methodology and section 4 reports the empirical results.
+Section 5 discusses the implications of the findings relative to risk payment and
+market efficiency, and the conclusion summarizes the findings and identifies possible
+areas for further research.
+
+2. Literature review
+2.1. Conditional relation between beta and realized returns
+Fama and French (1992) reject the idea that high-beta securities receive a riskpremium payment because the average value of monthly regression coefficients from
+regressing returns on beta is not significantly different from zero. PSM (1995) contend
+that this finding results from the conditional relationship between beta and realized
+returns. They argue that high-risk securities should receive a premium payment only
+under certain market conditions and should exhibit greater risk by earning a negative
+premium payment under other market conditions. The type of market condition under
+which these premiums are paid (but not their occurrence) should be identifiable on
+an a priori basis. PSM (1995) argue that high beta securities should have higher
+returns than low beta securities only in up markets and should exhibit higher risk
+by having lower returns in down markets. In support of this hypothesis, they find a
+highly significant positive relationship between beta and returns in up markets and
+a highly significant negative relationship between beta and returns in down markets.
+In addition, they compare average beta and average returns for twenty portfolios
+sorted by beta over 660 months and find a significant and direct relationship that they
+interpret as payment for systematic risk.
+A number of studies have confirmed the presence of a conditional relation between beta and returns in international equity markets. Fletcher (1997) examines
+
+126
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+this conditional relation in U.K. stock returns for the period 1975–1994. He finds a
+significant conditional relationship between beta and returns. However, this relation
+is not symmetrical in up markets and down markets. Similarly, Hodoshima, GarzaGomez, and Kunimura (2000) find a significant conditional relation between beta
+and returns when examining the stocks listed in the first section of the Tokyo Stock
+Exchange for the period 1957–1995. Isakov (1999) also tests the conditional relation
+between beta and returns in a study of the Swiss stock market. He finds a significant
+positive relation between beta and returns in up markets and a significant negative
+relation between beta and returns in down markets. Likewise, Ho (2001) finds a
+significant conditional relation between beta and returns for the Honk Kong market.
+These studies together provide a strong argument in favor of the conditional relation
+between beta and realized returns as argued by PSM (1995).
+
+2.2. Dual-beta asset pricing model
+Wiggins (1992) employs the dual-beta model developed by Fabozzi and Francis
+(1977) to examine the relation between beta and returns for portfolios formed by size.
+Wiggins finds that the dual-beta model provides a better description of the monthly
+cross-sectional returns than that provided with a constant-risk beta. His results also
+show a significant relation between size and betas, in particular that down market
+betas are greater than up market betas for large firms and that down market betas are
+smaller than up market betas for small firms.
+Bhardwaj and Brooks (1993) extend this work by examining the size effect
+using a dual-beta market model (bull and bear market betas). They find significant
+differences in both systematic risk and abnormal returns on firm-size based portfolios.
+Their results indicate that when a dual-beta model is used to adjust for risk differences
+in bull and bear markets, large firms on average earn significant positive excess returns
+and small firms on average earn negative excess returns.
+HP (1998) use the dual-beta model of Bhardwaj and Brooks (1993) to examine
+the relation between stock returns, bull and bear market betas and other market variables. HP (1998) report higher average betas in up markets than in down markets. In
+addition, they find a significant relation between bull and bear market betas and stock
+returns. This relation remains significant in the presence of other variables such as
+size, BE/ME, and earnings-price ratio. The authors argue that this result is attributed
+to the dual-beta model, which allows beta to vary in bull and bear markets, in contrast
+to a constant-risk beta model. They also find that book-to-market equity and size are
+significantly related to returns primarily in bear markets.
+
+3. Data and methodology
+This study tests the argument of HP (1998) that the significant relation between
+beta and returns results from the use of bull and bear betas. We do so by contrasting the
+relationship between dual-betas and returns and constant-risk betas and returns using
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+127
+
+market segmentation procedures. In making this comparison we include BE/ME and
+size in our analysis, based on Fama and French’s (1992) conclusion that firm size
+and BE/ME proxy for risk. Our basic methodology, which closely follows the Fama
+and French (1992) framework, utilizes the returns data for equity securities of nonfinancial firms included on the CRSP NYSE/AMEX/Nasdaq tape.
+To allow comparison with the findings of HP (1998) we use a similar sample
+period. Data on BE/ME and size are collected annually from Research Insights (Compustat) for the period 1974 through 1994.2 Data are obtained from both the Active and
+the Research files. The values for BE/ME and size are used in the set of 12 monthly
+regressions from July of year t through June of year t + 1. The first set of regressions occurs for the period July 1975 through June 1976 and the last set of monthly
+regressions occurs from July 1993 through June 1994. Following Fama and French
+(1992), for each security for each of the above 12-month periods, we assign BE/ME
+as the month-end value for December of year t − 1 and firm size as the month-end
+equity value for June of year t. Also, following French and Fama (1992), we drop
+all observations with negative BE/ME. In addition, we eliminate observations with
+BE/ME values greater than 10.3 Subject to these restrictions, our sample includes all
+securities for which CRSP and Research Insights data are available.
+Betas used in the monthly regressions result from the assignment of portfolio
+betas to each security in a particular size-beta portfolio. At the end of each June,
+100 portfolios with an approximately equal number of observations are formed using
+a size-beta sort.4 Securities are first sorted into ten portfolios by size, as measured by
+market value at the end of June. Following the initial sort, each of the ten size-decile
+portfolios is sorted into ten sub-portfolios by security beta.
+These security betas are estimated prior to portfolio assignment by regressing
+security returns on market returns over the 60 months prior to portfolio formation. The
+equally-weighted NYSE/AMEX CRSP index is used to proxy market returns and the
+standard market model is used to determine beta. Security returns are determined from
+the CRSP tapes.To reduce estimation error, we require that a security must have at
+least 24 monthly return observations in the 60 months prior to portfolio formation.The
+security must also have at least one monthly observation in the following 12-month
+regression period.
+Once the portfolios are formed, we determine monthly portfolio returns as the
+equally-weighted average return of all securities in the portfolio. We determine a
+
+2
+
+The Howton and Peterson (1998) sample period extends from 1977 through 1994.
+
+3
+
+Eliminating all observations with a BE/ME greater than 10 results in 19 observations being deleted from
+the sample.
+4 For a subset of our data we confirm our empirical results by calculating post-ranking betas using three
+additional sorts. We sort with size and beta, but with the initial sort on beta and the subsequent sort on size.
+We also sort with beta and BE/ME, using both a beta-first and a beta-last sort. The results are generally
+robust to sorting procedures, but using the beta-first sort produces a stronger association between beta and
+returns. These results, and results from the BE/ME-beta sorts, are available from the authors.
+
+128
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+Table 1
+Estimates of slope coefficients from regressing returns on BE/ME, size and constant-risk
+beta (all market beta)
+The dependent variable in the regressions is the security returns from the CRSP tapes. BE/ME
+is the ratio of book value of equity to market value of equity as of December of the prior year
+(t − 1). Size is log of the market value of equity at the end of June for the current year (t). Beta is
+the post-ranking beta using the size-beta sort. All markets (both bull and bear markets) included
+in the total sample. t-statistics are provided in parentheses.
+
+Present Study
+HP (1998)
+∗∗∗
+∗∗
+
+BE/ME
+
+Size
+
+Beta
+
+0.0020
+(2.53)∗∗
+0.0018
+(2.75)∗∗∗
+
+−0.0019
+(−3.88)∗∗∗
+−0.0005
+(−0.66)
+
+−0.0037
+(−0.94)
+−0.0008
+(−0.21)
+
+Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.05 level.
+
+single post-ranking beta5 for each portfolio by regressing monthly returns from the
+CRSP NYSE/AMEX equally-weighted index on the monthly portfolio return for the
+period July 1975 though June 1994. Although each of the 100 portfolios associates
+with a single beta value, security betas may change from year to year as the security
+is assigned to different portfolios.
+Thus, we use the Fama and French (1992) methodology to examine the relationship between monthly returns and BE/ME, firm size and beta. To compare with
+HP (1998) we determine the value of the average regression coefficient with data
+separated into up markets and down markets, and between January and other months
+of the year. We identify up (down) markets as any month in which market excess
+return (measured by the NYSE/AMEX equally-weighted index minus the one-month
+T-bill)6 is positive (negative).
+
+4. Empirical results
+4.1. All markets
+Table 1 compares the results of our study and HP’s (1998) study from regressing
+returns against constant-risk beta, size, and BE/ME when the market is not segmented
+
+5 Unlike French and Fama (1992), a lagged variable is not included to estimate the post-ranking betas, since
+Fant and Peterson (1995) report that employing the Scholes-Williams technique does not materially affect
+the results. We check for robustness of the results by allowing post-ranking betas to shift by estimating beta
+using overlapping 60 month regressions. This alternative does not produce significantly different results.
+6
+
+The one-month T-bill rates are collected from McCulloch and Kwon (1993) and the Wall Street Journal.
+
+129
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+Table 2
+Estimates of slope coefficients from regressing returns on BE/ME, size, constant-risk
+beta and bull and bear-market beta
+The dependent variable in the regressions is the security returns from the CRSP tapes. BE/ME
+is the ratio of book value of equity to market value of equity as of December of the prior year
+(t − 1). Size is log of the market value of equity at the end of June for the current year (t).
+Beta is the post-ranking beta using the size-beta sort. Up markets (down markets) are periods
+of positive (negative) market excess returns. t-statistics are provided in parentheses.
+BE/ME
+
+Size
+
+Beta
+
+0.0000
+(0.03)
+−0.0008
+(−0.73)
+
+−0.0014
+(−1.84)∗
+−0.0007
+(−0.90)
+
+0.0302
+(7.02)∗∗∗
+0.0224
+(5.76)∗∗∗
+
+Panel A: (Up) Bull Markets
+Constant Risk Beta
+Bull-Market Beta
+
+Panel B: (Down) Bear Markets
+Constant Risk Beta
+Bear-Market Beta
+∗∗∗
+∗
+
+0.0047
+(4.40)∗∗∗
+0.0039
+(4.35)∗∗∗
+
+−0.0026
+(−4.71)∗∗∗
+−0.0029
+(−4.27)∗∗∗
+
+−0.0450
+(−12.26)∗∗∗
+−0.0292
+(−5.96)∗∗∗
+
+Indicates statistical significance at the 0.01 level.
+Indicates statistical significance at the 0.10 level.
+
+between up and down markets. Both studies find a negative and insignificant payment
+for beta risk, and a significant payment for BE/ME. These results are consistent with
+Fama and French (1992). We also find a significant negative relationship between
+size and returns, consistent with Fama and French (1992). In contrast, HP (1998) find
+an insignificant relationship between size and returns.7
+
+4.2. Bull (up) vs. bear (down) markets
+Table 2 compares regression results when markets are segmented into up and
+down markets. HP (1998) divide the market into bull (up) and bear (down) market
+(hereafter bull and bear markets) so that dual-market betas may be applied in appropriate market conditions.8 In contrast we regress returns against constant-risk betas.
+
+7 We acknowledge that HP (1998) include an earnings to price ratio in their study and that the interaction
+between these variables may influence the results. However, in their study Fama and French include an
+earnings to price variable similar to HP (1998) and continue to find size to be highly significant.
+8 HP (1998) identify bull market months (up market) as those months with a market return higher than
+the median return for the total sample and bear market months (down market) as those with a market
+return lower than the median market return. In contrast, we identify a bull market as one where the market
+return is greater than the risk-free return and bear market as one where the market return is lower than the
+
+130
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+We seek to determine if HP’s (1998) use of dual market betas is a necessary condition
+to find a significant relationship between beta and returns.
+Table 2, Panel A reports the results of regressions conducted in bull markets.
+Both the bull-market beta (used by HP, 1998) and the constant-risk beta show a
+highly significant positive relationship to returns. Thus, it appears that the market
+segmentation procedure is a sufficient condition to finding a significant relationship
+between beta and returns. The addition of dual-market betas is not necessary to find
+a significant relation between beta and returns. Both studies find an insignificant
+relationship between BE/ME and returns in bull markets. Further, in bull markets we
+find a marginally significant relationship between size and returns and HP (1998)
+find an insignificant relationship between size and returns.
+Table 2, Panel B reports results for regressions in bear markets. As argued by
+PSM (1995), a significant negative relationship exists between both bear-market betas
+and returns and constant-risk betas and returns. The bear market results confirm the
+findings from the bull market data that market segmentation procedures rather than
+dual-market betas appear to be critical in finding a significant relationship between
+beta and returns.
+Both studies also find a highly significant relationship between returns and
+size and between BE/ME and returns in bear markets. High BE/ME and small size
+securities receive a return premium in bear markets.
+
+4.3. Seasonality
+A number of previous studies have found a seasonal component in the size effect
+and the relationship between beta and returns. Hence, HP (1998) segment their data
+between January and other months using dual-market betas. Table 3 contrasts the
+findings of HP (1998) with the use of a constant-risk beta with markets segmented
+by both bull and bear markets and months of the year.
+HP (1998) find the relationship between bull- and bear-market betas to be generally robust to the division of data by month of the year. We confirm the consistent
+relationship with beta and returns using constant-risk betas. The relationship between
+bear market betas and returns is insignificant in January. In contrast, the relationship
+between constant-risk betas and returns is significant at the 1% level in January.
+Regressions with the sample divided by month of the year provide further support for
+the proposition that market segmentation procedures rather than dual-market betas
+are required to find a significant relationship between beta and returns.
+Consistent with HP (1998), we find a significant (insignificant) relationship
+between returns and BE/ME in bear markets (bull markets) regardless of the month of
+the year. We also find a significant relationship between size and returns in January
+regardless of whether the market is bull or bear. In other months of the year the
+
+risk-free return. This follows PSM (1995)’s argument for a positive relation between beta and returns when
+(Rm − Rf > 0) and a negative relation between beta and returns when (Rm − Rf > 0) (see page 104-105).
+
+131
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+Table 3
+
+Estimates of slope coefficients from regressing returns on BE/ME, size, constant-risk beta and bull
+and bear-market beta for January only and other than January months
+The dependent variable in the regressions is the security returns from the CRSP tapes. BE/ME is the ratio
+of book value of equity to market value of equity as of December of the prior year (t − 1). Size is log of
+the market value of equity at the end of June for the current year (t). Beta is the post-ranking beta using
+the size-beta sort. Up markets (down markets) are periods of positive (negative) market excess returns.
+t-statistics are provided in parentheses.
+BE/ME
+January
+
+Size
+
+Beta
+
+Other
+
+January
+
+Other
+
+January
+
+Other
+
+−0.0007
+(−0.63)
+−0.0009
+(−0.78)
+
+−0.0114
+(−5.25)∗∗∗
+−0.0087
+(−3.32)∗∗∗
+
+−0.0002
+(−0.25)
+0.0001
+(0.16)
+
+0.0683
+(3.65)∗∗∗
+0.0416
+(3.17)∗∗∗
+
+0.0256
+(6.25)∗∗∗
+0.0205
+(5.09)∗∗∗
+
+Panel A: (Up) Bull Markets
+Constant Risk Beta
+Bull-Market Beta
+
+0.0057
+(0.95)
+0.0003
+(0.10)
+
+Panel B: (Down) Bear Markets
+Constant Risk Beta
+Bear-Market Beta
+∗∗∗
+
+0.0120
+(3.35)∗∗∗
+0.0112
+(2.81)∗∗∗
+
+0.0043
+−0.0106
+(3.92)∗∗∗ (−12.01)∗∗∗
+0.0033
+−0.0092
+(3.69)∗∗∗ (−5.21)∗∗∗
+
+−0.0022
+(−3.97)∗∗∗
+−0.0024
+(−3.41)∗∗∗
+
+−0.0404
+−0.0501
+(−3.54)∗∗∗ (−11.86)∗∗∗
+−0.0140
+−0.0304
+(−0.61)
+(−6.13)∗∗∗
+
+Indicates statistical significance at the 0.01 level.
+
+relationship between size and returns is significant in bear markets but insignificant
+in bull markets. The basic relationships between beta and returns, size and returns,
+and BE/ME and returns are unaffected by the use of dual-market betas in place of
+constant risk betas.
+
+5. Implications for risk-return relationship
+5.1. Constant-risk beta and dual-market betas
+Fama and French (1992) find an insignificant relationship between beta and
+returns in all markets. Based on this finding they conclude that the market does not
+reward the holding of systematic risk as measured by beta. PSM (1995) argue that this
+finding results from the failure of empirical studies to distinguish between expected
+and realized returns. They find a significant conditional relationship between realized
+returns and beta with markets segmented between bull and bear markets. Further, by
+comparing average returns of portfolios segmented by beta, they conclude that the
+market does compensate for beta risk.
+This study considers the effect of size and BE/ME on the relation between
+beta and returns when markets are segmented into bull and bear markets. We find
+a significant relationship between beta and realized returns even in the presence of
+size and BE/ME in bull and bear markets. This supports the argument that beta risk
+
+132
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+is rewarded in bull markets for losses incurred in bear markets. But in the presence of
+size and BE/ME, a lack of symmetry is revealed between premium payments to beta
+in bull markets and bear markets suggesting that investors may not receive adequate
+compensation for systematic risk as measured by beta.
+As shown in Table 2, the relationship between returns and separate bull and
+bear market betas does not suffer from the same lack of symmetry that is found for
+the constant risk betas. This relationship suggests that the dual-market betas provide
+further insights into the risk-return relation. However, the exact nature of this insight
+awaits further theoretical development, including how to compare systematic risk
+across securities when different bull and bear market betas exist.
+
+5.2. Dual-market betas and the size effect
+It is important to recognize that there is an association between size and dualmarket betas. Both Wiggins (1992) and Bhardwaj and Brooks (1993) show that betas
+for small firm securities are larger in bull markets than in bear markets and that betas
+for large firm securities are smaller in bull markets than in bear markets. This result
+suggests that the systematic risk for small-firm securities may be overstated. In other
+words, the size effect is actually understated. This relationship can be illustrated with
+an example.
+Assume two securities, Security A and Security B, possess the same constant-risk
+beta. Further, assume that these securities differ in their reaction to market fluctuations
+if the market is divided between bull and bear markets. Security A has a large beta in
+bull markets and a smaller beta in bear markets. Security B has a small beta in bull
+markets and a large beta in bear markets. This implies that Security A appears to have
+significant bull market potential with small downside risk. In contrast, Security B
+appears to have limited bull market potential and greater downside risk. Given these
+relations security B is clearly riskier than security A. Small-firm securities tend to
+have larger bull-market betas than bear-market betas. Large-firm securities tend to
+have smaller bull-market betas than bear-market betas. Thus, the use of a constant
+risk beta overstates the beta risk of small-firm securities and understates the beta risk
+of large-firm securities. The existence of dual-market betas magnifies the conclusion
+that in the presence of size systematic risk appears to be inadequately compensated.
+Since constant-risk betas overstate systematic risk for small-firm securities, the size
+effect is understated.9
+
+9 These results are notwithstanding the empirical work of Bhardwaj and Brooks (1993), who argue that
+time-varying betas reverse the size effect. They regress returns against time-varying betas and find that
+the small-firm portfolios have negative alphas and that the large-firm portfolios have positive alphas in
+up markets. They conclude, therefore, that given compensation for varying beta risk, large firm securities
+outperform small firm securities. This analysis, however, ignores the obvious. High correlation with a
+market index in up markets, and low correlation with a market index in down markets, does not suggest
+high risk. A high beta for small-firm securities in up markets does not suggest risk. It suggests high returns.
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+133
+
+5.3. Size and BE/ME and risk
+Fama and French find a significant relationship between size and returns and between BE/ME and returns. Given this relationship and the presumption that the market
+rewards risk bearing, they argue that these two variables proxy for risk. This conclusion may be challenged on the basis that the market may be inefficient. Lakinishok,
+Schleifer, and Vishny (1994) argue that payment to securities with high BE/ME
+results from naive investors assuming that recent earning growth patterns will continue. One may also criticize this conclusion on the basis that the explanation of the
+relationship between size and BE/ME has not been fully developed. To the extent
+that a theoretical basis exists for this relationship, discussion has centered on the
+possibility that payment to these variables represents payment for default risk (i.e.,
+Chan and Chen, 1991; Fama and French, 1993; Daniel and Titman, 1997; Dichev,
+1998).
+The results reported by HP (1998) and this study argue against the possibility that
+payment to size and BE/ME represents a payment for default risk. Securities with high
+distress risk should exhibit their risk through relative low returns in bear markets when
+market sentiment is generally pessimistic. Risk compensation should be achieved by
+higher returns in bull markets when market sentiment is less concerned about default.
+Empirical results are exactly opposite of this expectation. Premium payment to both
+high BE/ME and small size securities occurs mostly in bear markets. Although Fama
+and French (1996) argue that individual securities and individual industries may
+experience distress in bull markets, one would expect to see a tendency for distress
+in bear markets for the aggregate sample. Certainly one would not expect securities
+with high distress risk to experience significantly higher returns than other securities
+in bear markets.
+In addition, compensation for risk should not vary with the time of the year.
+Empirical results, reported in Table 3, indicate that the relationship between beta
+and returns is consistent over months of the year. However, in the presence of either
+constant-risk or dual-market betas the relationship, especially between size and returns, varies with season of the year. In bull markets the relationship between size and
+returns is highly significant in January but insignificant in other months of the year.
+In bear markets the relationship between size and returns is significant throughout
+the year but much stronger in January than in other months. The concentration of the
+premium payment to size in the month of January argues against the presumption that
+the premium payment found for small-firm securities reflects risk payment, unless
+this risk factor varies with the month of the year.10
+
+10 In results not reported here, we also find that the relationship between constant-risk beta and returns are
+consistent across time periods, but that the relationship between size and returns and especially between
+BE/ME and returns varies across time. In fact, in up markets the payment to high BE/ME securities is
+significantly positive in one period and significantly negative in another period.
+
+134
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+6. Conclusion
+Empirical studies have shown that betas vary systematically in bull and bear
+markets. HP (1998) argue that consideration of these dual-market betas results in a
+significant relationship between betas and returns. We have shown, however, that the
+use of market segmentation procedures as advocated by PSM (1995) is a sufficient
+condition to find a significant relationship between beta and returns. This result
+provides support for the existence of a payment for systematic risk and the use of
+constant risk betas. However, in the presence of size and BE/ME, when all markets
+are considered, payment to beta risk appears to be inadequate.
+Further, we find that using market segmentation procedures, size and the ratio
+of book value to market value (BE/ME) do not appear to proxy for risk. The variation
+in the relationship between returns and size and returns and BE/ME in bull and bear
+markets disputes the argument that size receives a premium payment for default
+risk.
+Further research is necessary to help explain why beta does not appear to receive
+adequate payment for risk when size and BE/ME are considered. An examination of
+premium payments to size and BE/ME, primarily found in bear markets, is needed
+to determine if these payments result from (a) market imperfection as argued by
+Lakonishok, Shleifer and Vishny (1994), (b) the influence of outliers as found by Knez
+and Ready (1997), or (c) survivorship bias as studied by Davis (1994). In addition,
+the role of dual-market betas as discussed by HP (1998) needs to be explored more
+fully. Is the variation in bull and bear market betas for individual securities consistent
+across time? If so, how does one measure systematic risk for these securities? Further
+research also needs to determine if the relationship between size and beta as shown
+by Wiggins (1992) is consistent and how this relationship affects the definition of
+systematic risk for individual securities.
+References
+Bhardwaj, R.K. and L.D. Brooks, 1993. Dual betas from bull and bear markets: Reversal of the size effect,
+Journal of Financial Research 16, 269–283.
+Chan, K.C. and N.F. Chen, 1991. Structural and return characteristics of small and large firms, Journal of
+Finance 46, 1467–1484.
+Daniel, K. and S. Titman, 1997. Evidence on the characteristics of cross-sectional variation in stock returns,
+Journal of Finance 52, 1–33.
+Davis, J.L., 1994. The cross-section of realized stock returns: The pre-COMPUSTAT evidence, Journal of
+Finance 50, 1579–1593.
+Dichev, I.D., 1998. Is the risk of bankruptcy a systematic risk, Journal of Finance 53, 1131–1147.
+Fabozzi, F. and J. Francis, 1977. Stability tests for alphas and betas over bull and bear market conditions,
+Journal of Finance 32, 1093–1099.
+Fama, E. and K. French, 1992. The cross-section of expected stock returns, Journal of Finance 47, 427–466.
+Fama, E. and K. French, 1996. Multifactor explanations of asset pricing anomalies, Journal of Finance 51,
+55–84.
+Fant, L.F. and D.R. Peterson, 1995. The effect of size, book-to-market equity, prior returns, and beta on
+stock returns: January versus the remainder of the year, Journal of Financial Research 18, 129–142.
+
+G. Pettengill et al./The Financial Review 37 (2002) 123–136
+
+135
+
+Fletcher, J., 1997. An examination of the cross-sectional relationship of beta and return: UK evidence,
+Journal of Economics and Business 49, 211–221.
+Hidoshima, J., X. Garza-Gomez, and M. Kunimura, 2000. Cross-sectional regression analysis of return
+and beta in Japan, Journal of Economics and Business 52, 515–533.
+Ho, R.Y.W., 2001. The conditional relations between risks and returns: An empirical study on the Hong
+Kong equity market, Working Paper, City University of Hong Kong.
+Howton, S.W. and D.R. Peterson, 1998. An examination of cross-sectional realized stock returns using a
+varying-risk beta model, Financial Review 33, 199–212.
+Isakov, D., 1999. Is beta still alive? Conclusive evidence from the Swiss stock market, European Journal
+of Finance 5, 202–212.
+Jagannathan, R. and Z. Wang, 1996. The CAPM is alive and well, Journal of Finance 51, 3–53.
+Knez, P.J. and M.J. Ready, 1997. On the robustness of size and book-to-market in cross-sectional regressions, Journal of Finance 52, 1353–1382.
+Kothari, S., J. Shanken, and R. Sloan, 1995. Another look at the cross-section of expected stock returns,
+Journal of Finance 50, 185–224.
+Lakonishok, J., A. Shleifer, and R. Vishny, 1994. Contrarian investment, extrapolation, and risk, Journal
+of Finance 49, 1541–1578.
+McCulloch, J.H. and H.C. Kwon, 1993. U.S. term structure data, 1947–1991, Working Paper #93-6, Ohio
+State University.
+Pettengill, G., S. Sundaram, and I. Mathur, 1995. The conditional relation between beta and returns, Journal
+of Financial and Quantitative Analysis 30, 101–116.
+Wiggins, J.B., 1992. Betas in up and down markets, Financial Review 27, 107–123.
+
+
