@@ -53,10 +53,10 @@ Return:
     return dic
 
 
-def iterating_txts():
+def iterating_txts(path_to_directory):
     global_dic = {}     # this dic contains all files' dics | key=file name, value = single file dic
-    all_files = os.listdir('./TXTs')
-    prefix_path = './TXTs/'
+    all_files = os.listdir(path_to_directory)
+    prefix_path = path_to_directory
 
     for file_name in all_files:
         if file_name[-4:] in ['.txt', '.TXT']:
