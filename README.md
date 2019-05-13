@@ -5,3 +5,7 @@
 ## To execute
   - Running from "terminal" (inside of Pycharm IDE)
   - Execute python3 file_name txt_file_name
+
+# May 13, 2019
+## Update functionalities to iterate all files (.txt) in a directory (by providing the path to the directory)
+## Simply call the last method in the given .py file should do the trick
